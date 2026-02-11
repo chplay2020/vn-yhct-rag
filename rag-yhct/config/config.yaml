@@ -1,0 +1,43 @@
+project:
+  data_dir: data
+
+ingest:
+  sources_manifest: data/sources.yaml
+  input_dir: data/raw
+  output_jsonl: data/ingest/raw_passages.jsonl
+  allowed_ext: [".pdf", ".docx", ".png", ".jpg", ".jpeg"]
+  strategy_pdf: hi_res
+  min_text_len_pdf: 30
+  min_text_len_docx: 30
+  min_text_len_image: 5
+  ocr:
+    enabled: true
+    lang: vie
+    min_confidence: 0.55
+  paper_sections:
+    - abstract
+    - introduction
+    - methods
+    - materials and methods
+    - results
+    - discussion
+    - conclusion
+    - references
+
+clean:
+  output_jsonl: data/clean/clean_passages.jsonl
+
+chunking:
+  chunk_size: 500
+  overlap: 100
+  max_join_chars: 20000
+
+qdrant:
+  url: http://qdrant:6333
+  collection: yhct_chunks_v1
+  vector_size: 1024
+  distance: cosine
+  recreate: false
+
+index:
+  input_chunks: data/chunks/chunks_v1.jsonl

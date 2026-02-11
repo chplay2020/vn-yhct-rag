@@ -1,0 +1,32 @@
+# data/sources.yaml — Manifest nguồn tài liệu
+# Mỗi item mô tả 1 tài liệu cần ingest.
+# Đặt file thật vào data/raw/ rồi cập nhật manifest này.
+
+sources:
+  - source_id: sample_pdf_01
+    file_path: data/raw/sample.pdf
+    doc_type: pdf
+    title: "Tài liệu mẫu PDF"
+    author: "Tác giả"
+    year: 2024
+    url: ""
+    # optional fields:
+    # doi: "10.1234/example"
+    # journal: "Tạp chí Y Học Cổ Truyền"
+    # doc_language: vi
+
+  # - source_id: sample_docx_01
+  #   file_path: data/raw/sample.docx
+  #   doc_type: docx
+  #   title: "Tài liệu mẫu DOCX"
+  #   author: "Tác giả"
+  #   year: 2024
+  #   url: ""
+
+  # - source_id: sample_img_01
+  #   file_path: data/raw/sample.png
+  #   doc_type: image
+  #   title: "Ảnh mẫu OCR"
+  #   author: "Tác giả"
+  #   year: 2024
+  #   url: ""
