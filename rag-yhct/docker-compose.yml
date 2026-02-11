@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage
+
+  app:
+    build: .
+    depends_on:
+      - qdrant
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app/src
+    command: ["uv", "run", "python", "-m", "rag.pipeline.run_step0_4", "--config", "config/config.yaml"]
