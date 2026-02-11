@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Qdrant storage
+qdrant_storage/
+
+# Data: keep .gitkeep, ignore generated outputs
+data/raw/*
+!data/raw/.gitkeep
+data/ingest/*.jsonl
+data/clean/*.jsonl
+data/chunks/*.jsonl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+.uv/
