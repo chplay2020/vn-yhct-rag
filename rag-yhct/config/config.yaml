@@ -33,7 +33,7 @@ chunking:
   max_join_chars: 20000
 
 qdrant:
-  url: http://qdrant:6333
+  url: http://localhost:6333
   collection: yhct_chunks_v1
   vector_size: 1024
   distance: cosine

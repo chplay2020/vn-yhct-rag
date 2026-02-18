@@ -1,32 +1,13 @@
-# data/sources.yaml — Manifest nguồn tài liệu
-# Mỗi item mô tả 1 tài liệu cần ingest.
-# Đặt file thật vào data/raw/ rồi cập nhật manifest này.
-
 sources:
-  - source_id: sample_pdf_01
-    file_path: data/raw/sample.pdf
-    doc_type: pdf
-    title: "Tài liệu mẫu PDF"
-    author: "Tác giả"
-    year: 2024
-    url: ""
-    # optional fields:
-    # doi: "10.1234/example"
-    # journal: "Tạp chí Y Học Cổ Truyền"
-    # doc_language: vi
-
-  # - source_id: sample_docx_01
-  #   file_path: data/raw/sample.docx
-  #   doc_type: docx
-  #   title: "Tài liệu mẫu DOCX"
-  #   author: "Tác giả"
-  #   year: 2024
-  #   url: ""
-
-  # - source_id: sample_img_01
-  #   file_path: data/raw/sample.png
-  #   doc_type: image
-  #   title: "Ảnh mẫu OCR"
-  #   author: "Tác giả"
-  #   year: 2024
-  #   url: ""
+  - source_id: "test_pdf_01"
+    file_path: "data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/100 CÂY THUỐC VÀ 66 BÀI THUỐC CHỮA BỆNH THƯỜNG DÙNG CỦA CỘNG ĐỒNG NGƯỜI BAHNAR VÀ JRAI Ở TỈNH GIA LAI.pdf"
+    doc_type: "pdf"
+    title: "100 CÂY THUỐC VÀ 66 BÀI THUỐC CHỮA BỆNH THƯỜNG DÙNG CỦA CỘNG ĐỒNG NGƯỜI BAHNAR VÀ JRAI Ở TỈNH GIA LAI"
+  - source_id: "test_img_01"
+    file_path: "data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN CHAN]/cơ thể người/14570575_637014603173906_3088486819806034284_o.jpg"
+    doc_type: "image"
+    title: "14570575_637014603173906_3088486819806034284_o"
+  - source_id: "test_docx_01"
+    file_path: "data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/CÂY HOA CÂY THUỐC.docx"
+    doc_type: "docx"
+    title: "CÂY HOA CÂY THUỐC"
