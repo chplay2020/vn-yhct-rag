@@ -41,3 +41,10 @@ qdrant:
 
 index:
   input_chunks: data/chunks/chunks_v1.jsonl
+
+embed:
+  input_chunks: data/chunks/chunks_v2_full.jsonl
+  ollama_url: http://localhost:11434
+  model: bge-m3
+  embed_batch: 4
+  upsert_batch: 64
