@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "rag-yhct/src"
+  ],
+  "python.defaultInterpreterPath": "rag-yhct/.venv/bin/python"
+}

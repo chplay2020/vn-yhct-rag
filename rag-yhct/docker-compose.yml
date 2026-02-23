@@ -6,6 +6,13 @@ services:
     volumes:
       - ./qdrant_storage:/qdrant/storage
 
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
   app:
     build: .
     depends_on:
@@ -15,3 +22,6 @@ services:
     environment:
       - PYTHONPATH=/app/src
     command: ["uv", "run", "python", "-m", "rag.pipeline.run_step0_4", "--config", "config/config.yaml"]
+
+volumes:
+  ollama_data:
