@@ -1,0 +1,257 @@
+{
+  "status": "ok",
+  "errors": [],
+  "raw": {
+    "count": 15154,
+    "doc_type_counts": {
+      "pdf": 12548,
+      "docx": 1829,
+      "image": 777
+    },
+    "unique_source_ids": 259,
+    "unique_file_paths": 259
+  },
+  "clean": {
+    "count": 15154,
+    "doc_type_counts": {
+      "pdf": 12548,
+      "docx": 1829,
+      "image": 777
+    }
+  },
+  "chunks": {
+    "count": 11855,
+    "unique_chunk_ids": 11646,
+    "doc_type_counts": {
+      "pdf": 10450,
+      "image": 777,
+      "docx": 628
+    },
+    "unique_source_ids": 259,
+    "unique_file_paths": 259,
+    "noise_count": 3,
+    "noise_ratio": 0.0003,
+    "pdf_strategy_counts": {
+      "entry": 8055,
+      "page": 2395
+    }
+  },
+  "qdrant": {
+    "collection": "yhct_chunks_v2_full",
+    "point_count": 11646,
+    "points_count": 11646,
+    "match": true
+  },
+  "error_samples": {
+    "fffd_replacement_char": [],
+    "letter_newline_letter": [
+      {
+        "chunk_id": "src_234bab2d6139:3938a8088cb4",
+        "source_id": "src_234bab2d6139",
+        "snippet": "rong đời sống của bạn\nTuy vậy, sự vượt trội"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:de86be8a544d",
+        "source_id": "src_234bab2d6139",
+        "snippet": "rong đời sống của bạn\nTuy vậy, sự vượt trội"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:9cee8e343c1d",
+        "source_id": "src_234bab2d6139",
+        "snippet": "hể đến chỗ tổn thương\nNgười ta nhận thấy co"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:23c8616e2f69",
+        "source_id": "src_234bab2d6139",
+        "snippet": "y Châu. Bậy ko gì hơn\nTrước khi cho đũa qua"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:bc62a8dd8105",
+        "source_id": "src_234bab2d6139",
+        "snippet": "ền, Ngũ Thốn, Ấn Tinh\nBóp dẫn máu xuống tối"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:79d6da4a272b",
+        "source_id": "src_234bab2d6139",
+        "snippet": " THƯƠNG BỊ THỦNG THỊT\nBạn nếu bị tai nạn té"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:5b780d915161",
+        "source_id": "src_234bab2d6139",
+        "snippet": "y .. hiệu quả có ngay\nTrường hợp đau bụng k"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:d911a8df318a",
+        "source_id": "src_234bab2d6139",
+        "snippet": "ỀU TRỊ\n1. Bù kali máu\nTheo dõi\n• Trường hợp"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:7479f1dfad1a",
+        "source_id": "src_234bab2d6139",
+        "snippet": " VỀ THẤP VÀ PHÙ THŨNG\nTrong quá điều trị bệ"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:3308fcfa2723",
+        "source_id": "src_234bab2d6139",
+        "snippet": "àm tấp thuỷ thật mạnh\nDo quá trình học hỏi "
+      },
+      {
+        "chunk_id": "src_234bab2d6139:3c84400dd025",
+        "source_id": "src_234bab2d6139",
+        "snippet": " thường - có thể tăng\nNgoài ra có thể tham "
+      },
+      {
+        "chunk_id": "src_234bab2d6139:5aec5aaf5bea",
+        "source_id": "src_234bab2d6139",
+        "snippet": " các nguyên nhân khác\nBài: - Điều chỉnh tổn"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:19bd393c3809",
+        "source_id": "src_234bab2d6139",
+        "snippet": "nhanh và hiệu quả cao\nHiên nay rất nhiều ng"
+      },
+      {
+        "chunk_id": "src_acfe5b0305b9:c1865233c584",
+        "source_id": "src_acfe5b0305b9",
+        "snippet": " Sơ sơ\n- Vậy được rồi\nThế là lấy máy tính r"
+      },
+      {
+        "chunk_id": "src_acfe5b0305b9:ae833f86eddf",
+        "source_id": "src_acfe5b0305b9",
+        "snippet": "g 7, thành phố Cà Mau\nTel: (0780) 383.1930;"
+      },
+      {
+        "chunk_id": "src_b8a7d4b324ab:ddf3e66d02d9",
+        "source_id": "src_b8a7d4b324ab",
+        "snippet": " của nguyễn ngọc giáp\nNhững người bị say tà"
+      },
+      {
+        "chunk_id": "src_b8a7d4b324ab:ca5f21a5aed1",
+        "source_id": "src_b8a7d4b324ab",
+        "snippet": "ơng Y: ĐỒNG XUÂN TOÁN\nChủ nhiệm CLB Diện Ch"
+      },
+      {
+        "chunk_id": "src_fbd8dd961116:d5966116a4c2",
+        "source_id": "src_fbd8dd961116",
+        "snippet": "ài thuốc → liều lượng\nCQ3: So sánh phối ngũ"
+      },
+      {
+        "chunk_id": "src_fbd8dd961116:78b82685f921",
+        "source_id": "src_fbd8dd961116",
+        "snippet": " chứng Can Thấp Nhiệt\nvtm: Can Thap Nhiet r"
+      },
+      {
+        "chunk_id": "src_fbd8dd961116:28d82641d2b5",
+        "source_id": "src_fbd8dd961116",
+        "snippet": " score ? in gredients\nWHERE {\n? s vtm: has "
+      }
+    ],
+    "scientific_name_split": [
+      {
+        "chunk_id": "src_0b640ce1072c:8f7bd2c23fb0",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "hân đó, dựa trên những\nbiến đổi rối loạn chức"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:727966610e9d",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "lesterol, làm gan tăng\nchuyển hóa đường vào máu"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:88cf5174eec9",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "át nước, mau đói, họng\nkhô do táo khí của phế"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:022999ec0c7b",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "nh thì ngưng, nếu uống\ntiếp bệnh trở thành hư"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:c94bff523799",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "vối rừng nấu nước uống\nnhư lá vối, mỗi ngày d"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:049e5e019ea2",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "minh mục, khai tâm ích\ntrí, tăng thể lực trí "
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:b1df4d68235d",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "lở loét, bong gân. Hoa\nchứa astragalin, lá ch"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:7ea9bf93b6e3",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "hơi đắng, tính mát, thanh\nnhiệt, lợi tiểu, tiêu s"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:05347b4f5893",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "ua cá hay canh chua rau\nmuống.\n\nPhân tích công"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:f4e422a89234",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "gạo tẻ nấu chung thành\ncháo ăn mỗi ngày để ch"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:29ea7e702707",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "còn nhiều bài thuốc kinh\nnghiệm gia truyền khác, "
+      },
+      {
+        "chunk_id": "src_0dae55acd070:66ed16fb6286",
+        "source_id": "src_0dae55acd070",
+        "snippet": " t1i chç. Nhng thùc ra\nthuèc toμn th©n còng cã"
+      },
+      {
+        "chunk_id": "src_0dae55acd070:75d6ad214a80",
+        "source_id": "src_0dae55acd070",
+        "snippet": "th Õ 5-FC cã t ̧c dông\nchän läc tran n Êm.\n1."
+      },
+      {
+        "chunk_id": "src_104c2ad55f3d:ebcf9615960d",
+        "source_id": "src_104c2ad55f3d",
+        "snippet": "ân đôi, mọc ở đầu cành\nhoặc kẽ lá, màu trắng "
+      },
+      {
+        "chunk_id": "src_104c2ad55f3d:153c27c32b0c",
+        "source_id": "src_104c2ad55f3d",
+        "snippet": "ới. Hoa nhỏ, mọc thành\nchùm, màu trắng pha hồ"
+      },
+      {
+        "chunk_id": "src_104c2ad55f3d:83c3e1c5cfb7",
+        "source_id": "src_104c2ad55f3d",
+        "snippet": "hư: Chữa đau dạ dày do\nthừa dịch vị, ra mồ hô"
+      },
+      {
+        "chunk_id": "src_118fec9f2030:b25095498999",
+        "source_id": "src_118fec9f2030",
+        "snippet": " cách dùng, liều lượng\nnhững vị thuốc chữa bệ"
+      },
+      {
+        "chunk_id": "src_118fec9f2030:0cd0d50727a2",
+        "source_id": "src_118fec9f2030",
+        "snippet": "uá 13%, tạp chất không\nquá 2%, tỉ lệ vụn nát "
+      },
+      {
+        "chunk_id": "src_118fec9f2030:b3ed2d572377",
+        "source_id": "src_118fec9f2030",
+        "snippet": "hữa các chứng bệnh: kinh\nnguyệt không đều, bế kin"
+      },
+      {
+        "chunk_id": "src_118fec9f2030:adff09ee42da",
+        "source_id": "src_118fec9f2030",
+        "snippet": "ó nhiều đài tồn tại bao\nngoài, màu đen.\nCây mọc"
+      }
+    ]
+  },
+  "error_counts": {
+    "fffd_chunks": 0,
+    "letter_nl_letter_chunks": 9424,
+    "sci_name_split_chunks": 4994
+  }
+}
