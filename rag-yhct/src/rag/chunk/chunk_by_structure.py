@@ -271,11 +271,194 @@ def _chunk_pdf_pages(
 
 
 # ---------------------------------------------------------------------------
+# PDF Strategy B: entry-based chunking
+# ---------------------------------------------------------------------------
+
+# Markers that start a new "entry" (numbered item or bullet)
+_RE_ENTRY_START = re.compile(
+    r"^(?:"
+    r"\d{1,3}\s*[-–—.)\]]\s"    # "1- ", "2. ", "3) "
+    r"|•\s"                      # bullet "• "
+    r"|[A-Z][A-Z\s]{3,}:"       # all-caps field header like "TÊN PHỔ THÔNG:"
+    r")",
+    re.MULTILINE,
+)
+
+# Field headers that indicate structured content within an entry
+_RE_FIELD_HEADER = re.compile(
+    r"^(?:"
+    r"Tên phổ thông|Tên khoa học|Bộ phận dùng|Tác dụng|Cách dùng"
+    r"|Kiêng kỵ|Nơi thu thập|Tên địa phương|Tên khác|Mô tả"
+    r"|Công dụng|Thành phần|Phân bố|Thu hái|Chế biến"
+    r")\s*:",
+    re.MULTILINE | re.IGNORECASE,
+)
+
+
+def _has_entry_markers(text: str) -> bool:
+    """Check if concatenated text from a source has enough entry markers
+    to warrant strategy-B splitting (at least 3 markers)."""
+    return len(_RE_ENTRY_START.findall(text)) >= 3
+
+
+def _split_into_entries(full_text: str) -> list[str]:
+    """Split text into entries using entry-start markers.
+
+    Each entry starts at a marker match and ends just before the next marker.
+    """
+    positions = [m.start() for m in _RE_ENTRY_START.finditer(full_text)]
+    if not positions:
+        return [full_text]
+
+    entries: list[str] = []
+    # Text before first entry marker is a preamble
+    if positions[0] > 0:
+        preamble = full_text[:positions[0]].strip()
+        if preamble:
+            entries.append(preamble)
+
+    for i, start in enumerate(positions):
+        end = positions[i + 1] if i + 1 < len(positions) else len(full_text)
+        entry_text = full_text[start:end].strip()
+        if entry_text:
+            entries.append(entry_text)
+
+    return entries
+
+
+def _chunk_pdf_entries(
+    group_recs: list[dict[str, Any]],
+    chunk_size: int,
+    overlap: int,
+    enc: Any,
+) -> list[dict[str, Any]]:
+    """Chunk PDF by entry markers (strategy B).
+
+    Steps:
+    1. Concatenate all pages (preserving page boundaries).
+    2. Split by entry markers.
+    3. Accumulate entries up to chunk_size tokens.
+    """
+    group_recs.sort(key=lambda r: (r.get("page") or 0))
+    first = group_recs[0]
+
+    def _token_len(text: str) -> int:
+        return len(enc.encode(text))  # type: ignore
+
+    # Build page-boundary map: (char_offset -> page_no)
+    page_boundaries: list[tuple[int, int]] = []  # (start_char, page_no)
+    full_parts: list[str] = []
+    offset = 0
+    for rec in group_recs:
+        page_text = _strip_page_artifacts(rec["text"])
+        page_no = rec.get("page") or 0
+        page_boundaries.append((offset, page_no))
+        full_parts.append(page_text)
+        offset += len(page_text) + 2  # +2 for "\n\n" separator
+
+    full_text = "\n\n".join(full_parts)
+    entries = _split_into_entries(full_text)
+
+    def _page_for_offset(char_pos: int) -> int:
+        """Find which page a character offset belongs to."""
+        result_page = page_boundaries[0][1] if page_boundaries else 1
+        for boundary_offset, page_no in page_boundaries:
+            if char_pos >= boundary_offset:
+                result_page = page_no
+            else:
+                break
+        return result_page
+
+    # Build entry records with page info
+    entry_records: list[dict[str, str | int]] = []
+    search_start = 0
+    for entry_text in entries:
+        idx = full_text.find(entry_text, search_start)
+        if idx < 0:
+            idx = search_start
+        page_start = _page_for_offset(idx)
+        page_end = _page_for_offset(idx + len(entry_text))
+        entry_records.append({
+            "text": entry_text,
+            "page_start": page_start,
+            "page_end": page_end,
+        })
+        search_start = idx + len(entry_text)
+
+    # Accumulate entries into chunks
+    chunks: list[dict[str, Any]] = []
+    current_entries: list[dict[str, str | int]] = []
+    current_tokens = 0
+
+    def _finalize(entries_acc: list[dict[str, str | int]]) -> dict[str, Any]:
+        chunk_text = "\n\n".join(str(e["text"]) for e in entries_acc)
+        pages: set[int] = set()
+        for e in entries_acc:
+            for p in range(int(e["page_start"]), int(e["page_end"]) + 1):
+                pages.add(p)
+        p_min: int | None = min(pages) if pages else None
+        p_max: int | None = max(pages) if pages else None
+
+        if p_min is not None and p_max is not None:
+            pr = str(p_min) if p_min == p_max else f"{p_min}-{p_max}"
+            loc = f"p{p_min}" if p_min == p_max else f"p{p_min}-{p_max}"
+        else:
+            pr, loc = None, None
+
+        chunk_id = f"{first['source_id']}:{sha1_short(chunk_text)}"
+        return {
+            "chunk_id": chunk_id,
+            "text": chunk_text,
+            "source_id": first.get("source_id"),
+            "title": first.get("title"),
+            "author": first.get("author"),
+            "year": first.get("year"),
+            "file_path": first.get("file_path"),
+            "url": first.get("url"),
+            "doc_type": "pdf",
+            "doc_language": first.get("doc_language"),
+            "section_heading": None,
+            "heading_path": None,
+            "page_range": pr,
+            "doc_fingerprint": first.get("doc_fingerprint"),
+            "locator_context": loc,
+            "element_idx_min": p_min,
+            "element_idx_max": p_max,
+            "span": None,
+            "chunk_strategy": "entry",
+        }
+
+    for erec in entry_records:
+        et = _token_len(str(erec["text"]))
+        if current_entries and (current_tokens + et) > chunk_size:
+            chunks.append(_finalize(current_entries))
+            # Overlap: keep last entry if within overlap budget
+            overlap_entries: list[dict[str, str | int]] = []
+            overlap_tokens = 0
+            for e in reversed(current_entries):
+                esize = _token_len(str(e["text"]))
+                if overlap_tokens + esize > overlap:
+                    break
+                overlap_entries.insert(0, e)
+                overlap_tokens += esize
+            current_entries = overlap_entries
+            current_tokens = overlap_tokens
+
+        current_entries.append(erec)
+        current_tokens += et
+
+    if current_entries:
+        chunks.append(_finalize(current_entries))
+
+    return chunks
+
+
+# ---------------------------------------------------------------------------
 # Main chunking driver
 # ---------------------------------------------------------------------------
 
-def run_chunk(config: dict[str, Any]) -> None:
-    """Run B3 chunking."""
+def run_chunk(config: dict[str, Any]) -> int:
+    """Run B3 chunking. Returns chunk count."""
     input_path = config["clean"]["output_jsonl"]
     output_path = config["index"]["input_chunks"]
     chunk_cfg = config["chunking"]
@@ -285,7 +468,7 @@ def run_chunk(config: dict[str, Any]) -> None:
     records = read_jsonl(input_path)
     if not records:
         logger.warning("No records to chunk from %s", input_path)
-        return
+        return 0
 
     # Sort
     records.sort(key=_sort_key)
@@ -331,14 +514,26 @@ def run_chunk(config: dict[str, Any]) -> None:
         docx_chunks = _chunk_docx_paragraphs(group_recs, chunk_size, overlap, enc)
         chunks.extend(docx_chunks)
 
-    # --- PDF: page-aware chunking (accumulate pages up to chunk_size) ---
+    # --- PDF: auto-select strategy (B=entry-based or A=page-accumulate) ---
     pdf_groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for rec in pdf_records:
         pdf_groups[rec.get("source_id", "")].append(rec)
 
-    for _, group_recs in pdf_groups.items():
-        pdf_chunks = _chunk_pdf_pages(group_recs, chunk_size, overlap, enc)
+    entry_strategy_count = 0
+    page_strategy_count = 0
+    for _sid, group_recs in pdf_groups.items():
+        # Probe: concatenate first few pages to check for entry markers
+        probe_text = "\n\n".join(r["text"] for r in sorted(group_recs, key=lambda r: r.get("page") or 0)[:10])
+        if _has_entry_markers(probe_text):
+            pdf_chunks = _chunk_pdf_entries(group_recs, chunk_size, overlap, enc)
+            entry_strategy_count += 1
+        else:
+            pdf_chunks = _chunk_pdf_pages(group_recs, chunk_size, overlap, enc)
+            page_strategy_count += 1
         chunks.extend(pdf_chunks)
+
+    logger.info("  PDF strategy: %d sources entry-based (B), %d page-accum (A)",
+                entry_strategy_count, page_strategy_count)
 
     ensure_parent_dir(output_path)
     write_jsonl(chunks, output_path)
@@ -384,6 +579,7 @@ def run_chunk(config: dict[str, Any]) -> None:
     pdf_page_ranges = [c.get("page_range") for c in pdf_chunks_out]
     unique_ranges = len(set(pdf_page_ranges))
     logger.info("  PDF unique page_ranges: %d / %d chunks", unique_ranges, len(pdf_chunks_out))
+    return len(chunks)
 
 
 # ---------------------------------------------------------------------------
@@ -393,10 +589,17 @@ def run_chunk(config: dict[str, Any]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="B3 — Chunk by structure")
     parser.add_argument("--config", required=True, help="Path to config.yaml")
+    parser.add_argument("--input", default=None, help="Override input JSONL path")
+    parser.add_argument("--output", default=None, help="Override output JSONL path")
     args = parser.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
         config = yaml.safe_load(f)
+
+    if args.input:
+        config["clean"]["output_jsonl"] = args.input
+    if args.output:
+        config["index"]["input_chunks"] = args.output
 
     run_chunk(config)
 

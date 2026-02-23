@@ -34,8 +34,8 @@ def clean_record(rec: dict[str, Any], min_ocr_conf: float = 0.55) -> dict[str, A
     return rec
 
 
-def run_clean(config: dict[str, Any]) -> None:
-    """Run B2 clean for all records."""
+def run_clean(config: dict[str, Any]) -> int:
+    """Run B2 clean for all records. Returns record count."""
     input_path = config["ingest"]["output_jsonl"]
     output_path = config["clean"]["output_jsonl"]
 
@@ -57,6 +57,7 @@ def run_clean(config: dict[str, Any]) -> None:
     ensure_parent_dir(output_path)
     write_jsonl(cleaned, output_path)
     logger.info("B2 Clean complete: %d records → %s", len(cleaned), output_path)
+    return len(cleaned)
 
 
 # ---------------------------------------------------------------------------
@@ -66,10 +67,17 @@ def run_clean(config: dict[str, Any]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="B2 — Clean & normalize")
     parser.add_argument("--config", required=True, help="Path to config.yaml")
+    parser.add_argument("--input", default=None, help="Override input JSONL path")
+    parser.add_argument("--output", default=None, help="Override output JSONL path")
     args = parser.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
         config = yaml.safe_load(f)
+
+    if args.input:
+        config["ingest"]["output_jsonl"] = args.input
+    if args.output:
+        config["clean"]["output_jsonl"] = args.output
 
     run_clean(config)
 
