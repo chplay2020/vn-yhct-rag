@@ -354,10 +354,11 @@ def _resolve_doc_type(source: dict[str, Any]) -> str:
     return doc_type
 
 
-def run_ingest(config: dict[str, Any]) -> None:
-    """Run B1 ingest for all sources in the manifest."""
+def run_ingest(config: dict[str, Any]) -> int:
+    """Run B1 ingest for all sources in the manifest. Returns record count."""
+    import os
     cfg_ingest = config["ingest"]
-    manifest_path = cfg_ingest["sources_manifest"]
+    manifest_path = os.environ.get("SOURCES_YAML") or cfg_ingest["sources_manifest"]
     output_path = cfg_ingest["output_jsonl"]
     allowed_ext = set(cfg_ingest.get("allowed_ext", [".pdf", ".docx", ".png", ".jpg", ".jpeg"]))
 
@@ -415,6 +416,7 @@ def run_ingest(config: dict[str, Any]) -> None:
     logger.info("  doc_type counts: %s", dict(type_counts))
     for sid, cnt in src_counts.most_common():
         logger.info("  source %-30s : %d passages", sid, cnt)
+    return len(all_records)
 
 
 # ---------------------------------------------------------------------------
@@ -424,10 +426,14 @@ def run_ingest(config: dict[str, Any]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="B1 — Ingest documents")
     parser.add_argument("--config", required=True, help="Path to config.yaml")
+    parser.add_argument("--output", default=None, help="Override output JSONL path")
     args = parser.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
         config = yaml.safe_load(f)
+
+    if args.output:
+        config["ingest"]["output_jsonl"] = args.output
 
     run_ingest(config)
 

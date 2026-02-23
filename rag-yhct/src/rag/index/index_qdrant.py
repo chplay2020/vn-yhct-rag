@@ -77,6 +77,19 @@ def run_index(config: dict[str, Any]) -> None:
         logger.warning("No chunks to index from %s", input_path)
         return
 
+    # Deduplicate by chunk_id (overlap can produce identical chunks)
+    seen_ids: set[str] = set()
+    deduped: list[dict[str, Any]] = []
+    for rec in records:
+        cid = rec.get("chunk_id", "")
+        if cid not in seen_ids:
+            seen_ids.add(cid)
+            deduped.append(rec)
+    if len(deduped) < len(records):
+        logger.info("Deduped %d → %d chunks (removed %d duplicates)",
+                     len(records), len(deduped), len(records) - len(deduped))
+    records = deduped
+
     client = QdrantClient(url=url)  # type: ignore
     _ensure_collection(client, collection, vector_size, distance, recreate)  # type: ignore
 
@@ -93,8 +106,12 @@ def run_index(config: dict[str, Any]) -> None:
             "chunk_id": chunk_id,
             "text": rec.get("text", ""),
         }
+        # Include text_norm if present (Clean v2)
+        if rec.get("text_norm"):
+            payload["text_norm"] = rec["text_norm"]
+
         # Copy all metadata fields
-        skip_keys = {"chunk_id", "text"}
+        skip_keys = {"chunk_id", "text", "text_norm"}
         for k, v in rec.items():
             if k not in skip_keys:
                 payload[k] = v
@@ -120,10 +137,24 @@ def run_index(config: dict[str, Any]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="B4 — Index into Qdrant")
     parser.add_argument("--config", required=True, help="Path to config.yaml")
+    parser.add_argument("--input", dest="input_path", default=None,
+                        help="Override input JSONL path (e.g. data/chunks/chunks_v2.jsonl)")
+    parser.add_argument("--collection", default=None,
+                        help="Override Qdrant collection name (e.g. yhct_chunks_v2)")
+    parser.add_argument("--recreate", action="store_true", default=None,
+                        help="Drop and recreate the collection before indexing")
     args = parser.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
         config = yaml.safe_load(f)
+
+    # Apply CLI overrides
+    if args.input_path:
+        config["index"]["input_chunks"] = args.input_path
+    if args.collection:
+        config["qdrant"]["collection"] = args.collection
+    if args.recreate is not None and args.recreate:
+        config["qdrant"]["recreate"] = True
 
     run_index(config)
 
