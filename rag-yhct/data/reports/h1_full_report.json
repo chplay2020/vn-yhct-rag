@@ -146,112 +146,11 @@
         "snippet": " score ? in gredients\nWHERE {\n? s vtm: has "
       }
     ],
-    "scientific_name_split": [
-      {
-        "chunk_id": "src_0b640ce1072c:8f7bd2c23fb0",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "hân đó, dựa trên những\nbiến đổi rối loạn chức"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:727966610e9d",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "lesterol, làm gan tăng\nchuyển hóa đường vào máu"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:88cf5174eec9",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "át nước, mau đói, họng\nkhô do táo khí của phế"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:022999ec0c7b",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "nh thì ngưng, nếu uống\ntiếp bệnh trở thành hư"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:c94bff523799",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "vối rừng nấu nước uống\nnhư lá vối, mỗi ngày d"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:049e5e019ea2",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "minh mục, khai tâm ích\ntrí, tăng thể lực trí "
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:b1df4d68235d",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "lở loét, bong gân. Hoa\nchứa astragalin, lá ch"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:7ea9bf93b6e3",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "hơi đắng, tính mát, thanh\nnhiệt, lợi tiểu, tiêu s"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:05347b4f5893",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "ua cá hay canh chua rau\nmuống.\n\nPhân tích công"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:f4e422a89234",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "gạo tẻ nấu chung thành\ncháo ăn mỗi ngày để ch"
-      },
-      {
-        "chunk_id": "src_0b640ce1072c:29ea7e702707",
-        "source_id": "src_0b640ce1072c",
-        "snippet": "còn nhiều bài thuốc kinh\nnghiệm gia truyền khác, "
-      },
-      {
-        "chunk_id": "src_0dae55acd070:66ed16fb6286",
-        "source_id": "src_0dae55acd070",
-        "snippet": " t1i chç. Nhng thùc ra\nthuèc toμn th©n còng cã"
-      },
-      {
-        "chunk_id": "src_0dae55acd070:75d6ad214a80",
-        "source_id": "src_0dae55acd070",
-        "snippet": "th Õ 5-FC cã t ̧c dông\nchän läc tran n Êm.\n1."
-      },
-      {
-        "chunk_id": "src_104c2ad55f3d:ebcf9615960d",
-        "source_id": "src_104c2ad55f3d",
-        "snippet": "ân đôi, mọc ở đầu cành\nhoặc kẽ lá, màu trắng "
-      },
-      {
-        "chunk_id": "src_104c2ad55f3d:153c27c32b0c",
-        "source_id": "src_104c2ad55f3d",
-        "snippet": "ới. Hoa nhỏ, mọc thành\nchùm, màu trắng pha hồ"
-      },
-      {
-        "chunk_id": "src_104c2ad55f3d:83c3e1c5cfb7",
-        "source_id": "src_104c2ad55f3d",
-        "snippet": "hư: Chữa đau dạ dày do\nthừa dịch vị, ra mồ hô"
-      },
-      {
-        "chunk_id": "src_118fec9f2030:b25095498999",
-        "source_id": "src_118fec9f2030",
-        "snippet": " cách dùng, liều lượng\nnhững vị thuốc chữa bệ"
-      },
-      {
-        "chunk_id": "src_118fec9f2030:0cd0d50727a2",
-        "source_id": "src_118fec9f2030",
-        "snippet": "uá 13%, tạp chất không\nquá 2%, tỉ lệ vụn nát "
-      },
-      {
-        "chunk_id": "src_118fec9f2030:b3ed2d572377",
-        "source_id": "src_118fec9f2030",
-        "snippet": "hữa các chứng bệnh: kinh\nnguyệt không đều, bế kin"
-      },
-      {
-        "chunk_id": "src_118fec9f2030:adff09ee42da",
-        "source_id": "src_118fec9f2030",
-        "snippet": "ó nhiều đài tồn tại bao\nngoài, màu đen.\nCây mọc"
-      }
-    ]
+    "scientific_name_split": []
   },
   "error_counts": {
     "fffd_chunks": 0,
-    "letter_nl_letter_chunks": 9424,
-    "sci_name_split_chunks": 4994
+    "letter_nl_letter_chunks": 20,
+    "sci_name_split_chunks": 0
   }
 }

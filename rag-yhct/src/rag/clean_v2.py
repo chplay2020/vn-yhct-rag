@@ -80,6 +80,16 @@ _RE_PIPE_HASH_INSIDE = re.compile(
     r"(?<=[\wÀ-ỹ])[|#](?=[\wÀ-ỹ])"
 )
 
+# ---------------------------------------------------------------------------
+# PDF-specific: unwrap soft line breaks between Latin letters
+# ---------------------------------------------------------------------------
+
+# PDF extractors produce hard newlines at visual wrap points.  These cause
+# the h1-report metrics ``letter\nletter`` and ``sci-split`` to spike.
+# Strategy: replace ``[A-Za-z]\n[A-Za-z]`` with a space.
+# Uses a lookahead so chained breaks ``A\nB\nC`` become ``A B C``.
+_RE_PDF_LETTER_NL_LETTER = re.compile(r"([A-Za-z])\n(?=[A-Za-z])")
+
 # Zero-width characters
 _RE_ZERO_WIDTH = re.compile(r"[\u200b\u200c\u200d\ufeff]")
 
@@ -169,7 +179,12 @@ def normalize_text_v2(text: str, doc_type: str = "") -> tuple[str, bool]:
     norm = _merge_scientific_name_fragments(norm)  # before cap-fragments
     norm = _merge_cap_fragments(norm)
 
-    # C) Remove pipe/hash inside words
+    # C) PDF-specific: unwrap soft line breaks between Latin letters
+    #    "Thái\nLan" -> "Thái Lan", "bệnh\nParkin" -> "bệnh Parkin"
+    if doc_type == "pdf":
+        norm = _RE_PDF_LETTER_NL_LETTER.sub(r"\1 ", norm)
+
+    # D) Remove pipe/hash inside words
     norm = _RE_PIPE_HASH_INSIDE.sub("", norm)
 
     # Collapse whitespace: multiple spaces -> single space per line
@@ -202,15 +217,36 @@ def normalize_text_v2(text: str, doc_type: str = "") -> tuple[str, bool]:
 
 def process_chunks(records: list[dict[str, Any]], debug: bool = False) -> list[dict[str, Any]]:
     """Add text_norm, clean_version, is_noise to each chunk record."""
+    # Metrics regexes (same as h1_report)
+    re_lnl = re.compile(r"[A-Za-z]\n[A-Za-z]")
+    re_sci = re.compile(r"[a-z]{2,}\n[a-z]{2,}")
+
     output: list[dict[str, Any]] = []
     noise_count = 0
     transforms: list[tuple[str, str]] = []
+
+    before_lnl = 0
+    before_sci = 0
+    after_lnl = 0
+    after_sci = 0
 
     for rec in records:
         text = rec.get("text", "")
         doc_type = rec.get("doc_type", "")
 
+        # Count before (original text)
+        if re_lnl.search(text):
+            before_lnl += 1
+        if re_sci.search(text):
+            before_sci += 1
+
         text_norm, is_noise_flag = normalize_text_v2(text, doc_type)
+
+        # Count after (normalized text)
+        if not is_noise_flag and re_lnl.search(text_norm):
+            after_lnl += 1
+        if not is_noise_flag and re_sci.search(text_norm):
+            after_sci += 1
 
         # Build output record: preserve all original fields
         out = dict(rec)
@@ -227,6 +263,19 @@ def process_chunks(records: list[dict[str, Any]], debug: bool = False) -> list[d
         # Collect transforms for debug
         if debug and text != text_norm and not is_noise_flag:
             transforms.append((text[:120], text_norm[:120]))
+
+    # --- Before / After stats ---
+    logger.info("=== Clean v2 error stats (chunk-level) ===")
+    pct_lnl = (1 - after_lnl / max(before_lnl, 1)) * 100
+    pct_sci = (1 - after_sci / max(before_sci, 1)) * 100
+    logger.info(
+        "  letter\\nletter : %d -> %d  (reduced %.1f%%)",
+        before_lnl, after_lnl, pct_lnl,
+    )
+    logger.info(
+        "  sci-split      : %d -> %d  (reduced %.1f%%)",
+        before_sci, after_sci, pct_sci,
+    )
 
     if debug and transforms:
         logger.info("--- Top 20 transformations (before -> after) ---")

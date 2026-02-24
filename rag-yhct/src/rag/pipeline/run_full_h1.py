@@ -157,14 +157,25 @@ def main(with_embedding: bool = False) -> None:
     if with_embedding:
         t0 = _step_banner(f"STEP 5b: Embed real vectors -> collection '{COLLECTION_EMB}'")
         config = _load_config()
-        config.setdefault("embed", {})
-        config["embed"]["input_chunks"] = CHUNKS_V2_OUT
-        config["qdrant"]["collection"] = COLLECTION_EMB
-        config["qdrant"]["recreate"] = True
+        embed_cfg = config.get("embed", {})
 
         from rag.embed.embed_full import run_embed
-        emb_count = run_embed(config)
-        _step_done(t0, f"({emb_count} points with real vectors)")
+
+        summary = run_embed(
+            collection=COLLECTION_EMB,
+            chunks_path=CHUNKS_V2_OUT,
+            qdrant_url=config["qdrant"]["url"],
+            ollama_url=embed_cfg.get("ollama_url", "http://localhost:11434"),
+            model=embed_cfg.get("model", "bge-m3"),
+            embed_batch=embed_cfg.get("embed_batch", 16),
+            upsert_batch=embed_cfg.get("upsert_batch", 64),
+            min_len=30,
+            skip_noise=True,
+            max_retries=3,
+            recreate=True,
+            vector_size=config["qdrant"].get("vector_size", 1024),
+        )
+        _step_done(t0, f"({summary['embedded']} points with real vectors)")
 
     # ------------------------------------------------------------------
     # Step 6: Report & verify
@@ -199,7 +210,8 @@ def main(with_embedding: bool = False) -> None:
 if __name__ == "__main__":
     import argparse as _ap
     _parser = _ap.ArgumentParser(description="Full H1 pipeline")
-    _parser.add_argument("--with-embedding", action="store_true", default=False,
+    _parser.add_argument("--with-embedding", "--with_embedding",
+                         action="store_true", default=False,
                          help="Run B5 real embedding after B4 dummy index")
     _args = _parser.parse_args()
     main(with_embedding=_args.with_embedding)
