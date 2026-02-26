@@ -13,10 +13,12 @@ Output collection will have real bge-m3 vectors (dim=1024) instead of dummy 0.0.
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import math
 import statistics
 import time
+from pathlib import Path
 from typing import Any
 
 import requests  # type: ignore
@@ -59,6 +61,7 @@ def _embed_batch_ollama(
     Returns a list parallel to *texts*; failed entries are ``None``.
     """
     results: list[list[float] | None] = []
+    backoff_schedule = [1.5, 3.0, 4.5]  # seconds per retry
     for text in texts:
         embedding: list[float] | None = None
         for attempt in range(max_retries):
@@ -80,7 +83,8 @@ def _embed_batch_ollama(
                     "Embedding request failed (attempt %d/%d): %s",
                     attempt + 1, max_retries, exc,
                 )
-            time.sleep(0.5 * (attempt + 1))
+            wait = backoff_schedule[attempt] if attempt < len(backoff_schedule) else 4.5
+            time.sleep(wait)
         results.append(embedding)
     return results
 
@@ -113,6 +117,69 @@ def _ensure_collection(
         logger.info("Collection '%s' already exists — will upsert in-place", collection)
 
 
+def ensure_payload_indexes(qdrant_url: str, collection: str) -> None:
+    """Create payload indexes for fast filtering (keyword/bool).
+
+    Uses REST API directly (no extra dependency). Gracefully handles
+    'already exists' or missing fields.
+    """
+    index_specs: list[tuple[str, str]] = [
+        ("doc_type", "keyword"),
+        ("category", "keyword"),
+        ("is_noise", "bool"),
+    ]
+    for field_name, schema_type in index_specs:
+        try:
+            resp = requests.put(
+                f"{qdrant_url}/collections/{collection}/index",
+                json={
+                    "field_name": field_name,
+                    "field_schema": schema_type,
+                },
+                timeout=30,
+            )
+            if resp.status_code == 200:
+                logger.info("Payload index '%s' (%s) created on '%s'", field_name, schema_type, collection)
+            elif "already exists" in resp.text.lower():
+                logger.info("Payload index '%s' already exists on '%s'", field_name, collection)
+            else:
+                logger.warning(
+                    "Payload index '%s' on '%s' returned %d: %s",
+                    field_name, collection, resp.status_code, resp.text[:200],
+                )
+        except Exception as exc:
+            logger.warning("Failed to create payload index '%s': %s", field_name, exc)
+
+
+def _qdrant_exact_count(qdrant_url: str, collection: str) -> int | None:
+    """Get exact point count via Qdrant REST API."""
+    try:
+        resp = requests.post(
+            f"{qdrant_url}/collections/{collection}/points/count",
+            json={"exact": True},
+            timeout=30,
+        )
+        if resp.status_code == 200:
+            return resp.json().get("result", {}).get("count")
+        logger.warning("Qdrant count returned %d: %s", resp.status_code, resp.text[:200])
+    except Exception as exc:
+        logger.warning("Qdrant count request failed: %s", exc)
+    return None
+
+
+def _write_failed_jsonl(
+    failed_records: list[dict[str, Any]],
+    path: str = "data/reports/failed_embed.jsonl",
+) -> None:
+    """Append failed embed records to a JSONL file."""
+    p = Path(path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with open(p, "w", encoding="utf-8") as f:
+        for rec in failed_records:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    logger.info("Wrote %d failed-embed records to %s", len(failed_records), p)
+
+
 # ── main logic ─────────────────────────────────────────────────────────────
 
 def run_embed(
@@ -137,7 +204,8 @@ def run_embed(
 
     # ── 1. load chunks ────────────────────────────────────────────────
     chunks = read_jsonl(chunks_path)
-    logger.info("Loaded %d chunks from %s", len(chunks), chunks_path)
+    before_filter = len(chunks)
+    logger.info("Loaded %d chunks from %s", before_filter, chunks_path)
 
     # Filter noise / too-short
     filtered: list[dict[str, Any]] = []
@@ -149,14 +217,42 @@ def run_embed(
             continue
         filtered.append(c)
 
-    skipped = len(chunks) - len(filtered)
+    after_filter = len(filtered)
+    skipped = before_filter - after_filter
     if skipped:
         logger.info("Filtered out %d chunks (noise / too-short < %d chars)", skipped, min_len)
-    logger.info("Chunks to embed: %d", len(filtered))
+
+    # ── 1b. dedup by point_id (keep longest text) ────────────────────
+    pid_map: dict[int, dict[str, Any]] = {}
+    for c in filtered:
+        chunk_id = c.get("chunk_id", "")
+        pid = stable_point_id(chunk_id)
+        existing = pid_map.get(pid)
+        if existing is None:
+            pid_map[pid] = c
+        else:
+            # keep whichever has longer text_norm (or text)
+            old_len = len((existing.get("text_norm") or existing.get("text", "")))
+            new_len = len((c.get("text_norm") or c.get("text", "")))
+            if new_len > old_len:
+                pid_map[pid] = c
+
+    deduped = list(pid_map.values())
+    after_dedup = len(deduped)
+    dup_groups = after_filter - after_dedup
+    logger.info(
+        "Dedup stats: before_filter=%d  after_filter=%d  after_dedup=%d  "
+        "dup_groups=%d  dup_removed=%d",
+        before_filter, after_filter, after_dedup, dup_groups, dup_groups,
+    )
+    filtered = deduped  # use deduped list from here on
+
+    logger.info("Chunks to embed (unique): %d", len(filtered))
 
     if not filtered:
         logger.warning("Nothing to embed — aborting")
-        return {"total": len(chunks), "embedded": 0, "skipped": skipped}
+        return {"total": before_filter, "embedded": 0, "skipped": skipped,
+                "dup_removed": dup_groups}
 
     # ── 2. Qdrant setup ──────────────────────────────────────────────
     client: Any = QdrantClient(url=qdrant_url)  # type: ignore[no-untyped-call]
@@ -167,6 +263,7 @@ def run_embed(
     points_buf: list[Any] = []
     total_upserted = 0
     failed_embed = 0
+    failed_records: list[dict[str, Any]] = []
 
     progress = tqdm(range(0, len(filtered), embed_batch), desc="Embedding", unit="batch")
     for batch_start in progress:
@@ -179,16 +276,26 @@ def run_embed(
         embeddings = _embed_batch_ollama(texts, ollama_url, model, max_retries)
 
         for chunk, emb in zip(batch_chunks, embeddings):
+            chunk_id_val: str = chunk.get("chunk_id", "")
             if emb is None:
                 failed_embed += 1
+                failed_records.append({
+                    "chunk_id": chunk_id_val,
+                    "point_id": stable_point_id(chunk_id_val),
+                    "file_path": chunk.get("file_path", ""),
+                    "doc_type": chunk.get("doc_type", ""),
+                    "category": chunk.get("category", ""),
+                    "text_len": len((chunk.get("text_norm") or chunk.get("text", ""))),
+                    "error": "embed_returned_none",
+                    "attempts": max_retries,
+                })
                 continue
 
-            chunk_id: str = chunk.get("chunk_id", "")
-            point_id = stable_point_id(chunk_id)
+            point_id = stable_point_id(chunk_id_val)
 
             # payload — keep text, text_norm, metadata
             payload: dict[str, Any] = {
-                "chunk_id": chunk_id,
+                "chunk_id": chunk_id_val,
                 "text": chunk.get("text", ""),
             }
             if chunk.get("text_norm"):
@@ -216,7 +323,36 @@ def run_embed(
         client.upsert(collection_name=collection, points=points_buf)  # type: ignore[union-attr]
         total_upserted += len(points_buf)
 
-    # ── 4. summary ───────────────────────────────────────────────────
+    # ── 3b. write failed embed log ───────────────────────────────────
+    failed_embed_path = "data/reports/failed_embed.jsonl"
+    if failed_records:
+        _write_failed_jsonl(failed_records, failed_embed_path)
+        logger.warning(
+            "Total failed embeds: %d — see %s", len(failed_records), failed_embed_path,
+        )
+
+    # ── 3c. create payload indexes ───────────────────────────────────
+    ensure_payload_indexes(qdrant_url, collection)
+
+    # ── 4. post-upsert exact count verification ─────────────────────
+    qdrant_exact = _qdrant_exact_count(qdrant_url, collection)
+    expected_unique = len(filtered)  # after dedup
+    embedded_success = total_upserted
+
+    logger.info("-" * 40)
+    logger.info("Post-upsert verification:")
+    logger.info("  expected_unique_after_dedup : %d", expected_unique)
+    logger.info("  embedded_success (upserted): %d", embedded_success)
+    logger.info("  qdrant_exact_count         : %s", qdrant_exact)
+    if qdrant_exact is not None and qdrant_exact != embedded_success:
+        logger.warning(
+            "MISMATCH: qdrant_exact_count=%d vs embedded_success=%d "
+            "(delta=%d, may be caused by prior data or failed embeds)",
+            qdrant_exact, embedded_success, qdrant_exact - embedded_success,
+        )
+    logger.info("-" * 40)
+
+    # ── 5. summary ───────────────────────────────────────────────────
     if all_norms:
         norm_min = min(all_norms)
         norm_max = max(all_norms)
@@ -225,10 +361,14 @@ def run_embed(
         norm_min = norm_max = norm_med = 0.0
 
     summary: dict[str, Any] = {
-        "total": len(chunks),
+        "total": before_filter,
+        "after_filter": after_filter,
+        "after_dedup": after_dedup,
+        "dup_removed": dup_groups,
         "embedded": total_upserted,
         "skipped": skipped,
         "failed_embed": failed_embed,
+        "qdrant_exact_count": qdrant_exact,
         "norm_min": round(norm_min, 6),
         "norm_median": round(norm_med, 6),
         "norm_max": round(norm_max, 6),
@@ -236,10 +376,14 @@ def run_embed(
 
     logger.info("=" * 60)
     logger.info("B5 Embed complete")
-    logger.info("  Total chunks loaded : %d", summary["total"])
-    logger.info("  Embedded & upserted : %d", summary["embedded"])
-    logger.info("  Skipped (noise/short): %d", summary["skipped"])
+    logger.info("  Total chunks loaded  : %d", summary["total"])
+    logger.info("  After filter         : %d", summary["after_filter"])
+    logger.info("  After dedup (unique) : %d", summary["after_dedup"])
+    logger.info("  Dup groups removed   : %d", summary["dup_removed"])
+    logger.info("  Embedded & upserted  : %d", summary["embedded"])
+    logger.info("  Skipped (noise/short) : %d", summary["skipped"])
     logger.info("  Failed embed         : %d", summary["failed_embed"])
+    logger.info("  Qdrant exact count   : %s", summary["qdrant_exact_count"])
     logger.info("  Vector norm min      : %.6f", summary["norm_min"])
     logger.info("  Vector norm median   : %.6f", summary["norm_median"])
     logger.info("  Vector norm max      : %.6f", summary["norm_max"])

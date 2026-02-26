@@ -20,30 +20,131 @@
     }
   },
   "chunks": {
-    "count": 11855,
-    "unique_chunk_ids": 11646,
+    "count": 28736,
+    "unique_chunk_ids": 28528,
     "doc_type_counts": {
-      "pdf": 10450,
+      "pdf": 27214,
       "image": 777,
-      "docx": 628
+      "docx": 745
     },
     "unique_source_ids": 259,
     "unique_file_paths": 259,
     "noise_count": 3,
-    "noise_ratio": 0.0003,
+    "noise_ratio": 0.0001,
     "pdf_strategy_counts": {
-      "entry": 8055,
-      "page": 2395
+      "entry": 22152,
+      "page": 5062
     }
   },
   "qdrant": {
     "collection": "yhct_chunks_v2_full",
-    "point_count": 11646,
-    "points_count": 11646,
+    "point_count": 28528,
+    "points_count": 28528,
     "match": true
   },
   "error_samples": {
-    "fffd_replacement_char": [],
+    "fffd_replacement_char": [
+      {
+        "chunk_id": "src_234bab2d6139:e648b30bffb8",
+        "source_id": "src_234bab2d6139",
+        "snippet": "15. Cháu cảm ơn bác Hà Nội với bài thuốc quý từ hạt nhãn\n\nHẠT NHÃN GIÚP SINH CƠ, LIỀN XƯƠNG, HỖ TRỢ NGƯỜI LOÃNG XƯƠNG\n\n1. TÁC DỤNG SINH CƠ, LIỀN VẾT THƯƠNG BỊ THỦNG THỊT\nBạn nếu bị tai nạn té ngã và b"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:62b4197be611",
+        "source_id": "src_234bab2d6139",
+        "snippet": "�C HỒI XƯƠNG, GIÚP XƯƠNG MAU LÀNH SAU CHẤN THƯƠNG DO TAI NẠN, HỖ TRỢ NGƯỜI LOÃNG XƯƠNG\nSaukhi xương được cồ định, bạn sẽ lấy khoảng 150gr hạt nhãn tươi luộc chín lên ( sôi khoảng 15 phút thì chín), gọ"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:02dfe5182939",
+        "source_id": "src_234bab2d6139",
+        "snippet": ", xanh tím ở môi mặt có cản trở tĩnh mạch chủ trên, tắc tĩnh mạch chi dưới, gan to mềm, tĩnh mạch cổ nổi, có hiện tượng khó thở. Các dạng phù khu trú\n+ vùng ngực: triệu chứng trung thất\n+ phù do suy t"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:6fcb2da9221b",
+        "source_id": "src_234bab2d6139",
+        "snippet": "� thuật cho thích hợp. Trường hợp này thường có cả nội thấp, ngoại thấp, thấp hàn, và cả thấp nhiệt\n3- Phù thận:( phù toàn thân) Do thận suy, viêm cầu thận, thận nhiễm mỡ gây nên, cần căn cứ các xét n"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:a093987d15ce",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "liễm phế sinh tân. Như vậy NGũ VỊ TỬ liễm Can để liễm Phế, vì tính và vị rất trầm. NGŨ BỘI TỬ thì chuyên chủ liểm Phế, vì tính và vị nó phù. ANH TÚC XÁC (quả thuốc phiện khô) cũng liễm phế, làm hết ho"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:24b4026b081f",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "� (thủy sinh mộc) vị chua dẫn động Can khí cho nên Tân chảy ra.\n\n22. Hỏi : Chua chủ thu liễm, mà chua quá lại phát mữa, sao vậy ? ĐÁP: C ay chủ thăng tán, mà cay quá thì chủ ôn giáng, chua chủ thu liễ"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:53561e451397",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "ơi thòng xuống, không dở lên được, hoặc đau nhức không chịu đựng được. Chữa các chứng ấy, nên dùng Tục-đoạn, Tần-giao dẫn vào gân mạch. Lạnh vào đốt xương, lưng gối châu thân đau nhức, tay chân lạnh n"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:543560636391",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "�, hàn thương phế"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:d7468e16b741",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "�, hàn thương phế\n\ndương, thuỷ không lưu hành, thì dừng ở dạ dày sinh ra thuỷ ẩm, khí xông lên thành ho. Trọng-cảnh dùng Tế-tân để hành thuỷ, dùng Can-khương (gừng phơi khô) để tán hàn, dùng Ma, Quế đ"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:dee5dc6caf93",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "Đậu-căn trị mộc, hoả là trị bệnh ở Tam-tiêu. Rau Samtrong lá có thuỷ ngân, được tính kim thuỷ, vị chua khí hàn, cho nên thanh được hoả ở Tam-tiêu để lợi thuỷ. Mật cá chép, mật cá Trắm, cùng loại Đởm n"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:a1c1349bb330",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "�ng có thể hợp, chẳng phải phân cách tuyệt đối. Thiên dương có"
+      },
+      {
+        "chunk_id": "src_ef87e424bc87:894749aa41b0",
+        "source_id": "src_ef87e424bc87",
+        "snippet": "�ng có thể hợp, chẳng phải phân cách tuyệt đối. Thiên dương có\n\nthể phụ trợ địa hoả. Địa hoả cũng có thể phụ trợ thiên dương. Cho nên nhiệt ở thiếu âm, có thể hợp với hoả ở Tam-tiêu, Can, Đởm mà hoả ở"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:6642428c4fc8",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "khí của phế bị kết nhiệt lâu ngày.\nĐông y phân loại bệnh chứng diễn tiến phản ảnh qua hệ tam tiêu theo đường kinh của các tạng phủ thành 3 giai\nđoạn tiến triển của bệnh có liên quan đến bệnh tiêu khát"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:08405a84c95a",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "�NH Ở TRUNG TIÊU :\n\nCó dấu hiệu mau đói, ăn rất nhiều, da thịt vẫn teo gầy, ra mồ hôi, đại tiện khô, tiểu nhiều do khí hóa của tỳ\nkhông hấp thụ.\nNguyên nhân do tâm hỏa bị nhiệt đốt truyền xuống vị\nthổ"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:a9ff5537e570",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "ận, sinh tinh, làm sáng mắt đen râu tóc,\ncơ thể tráng kiện.\n\nCông dụng của hoài sơn :\n\nPhân tích theo tây y :\nTên khoa học Dioscorea persimillis Prain et Burkill,\nHoài sơn chứa 63,25 % tinh bột, 6,70%"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:1ef44ef00a73",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "� mẫu đơn chứa alkaloid, saponin và một ít chất thuộc nhóm an thocyanin, tinh dầu. Vỏ rễ chứa acetop henon, pan tagaloylglucose... Có tác dụng chống co thắt, chống viêm, giảm đau, ức chế kết tập tiểu "
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:e5dce3476a62",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "khí, giảm đau nhức phong thấp khớp nặng, nhức xương, tay chân tê bại, rối loạn tiêu hóa, nôn mửa,\nđầy hơi đau trướng bụng, tiêu chảy, thận và bàng quang lạnh,\nđau đầu, đau nhức răng miệng, chảy nước m"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:401e1de74023",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "� :\n\nPhân tích theo tây y :\n\nTên khoa học Coix lac ryma-jobi L. Chứa tinh bột 50-\n79%, protein 16-19%, dầu béo 2-7%, 39.8ppm sắt, dầu béo coixenolid, lipid, glycolipid, phospholipid, sterol, thiamine,"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:ce39548ba424",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "ạn nhận thức,\nsa sút trí tuệ ở người già.\n\nPhân tích theo đông y :\n\nMẫu đơn vị cay, đắng, mùi thơm, tính bình vào các kinh tâm, can, thận. Có tác dụng trấn kinh, giảm đau, nóng sốt âm về chiều và đêm,"
+      },
+      {
+        "chunk_id": "src_0b640ce1072c:e9619df5624b",
+        "source_id": "src_0b640ce1072c",
+        "snippet": "�n thuơng, chống ngộ độc nấm, Lá có tác dụng lợi tiểu mạnh hơn hạt mã đề thải trừ các chất điện giải trong nước tiểu, thúc đẩy sự bài xuất sỏi niệu,\nhạ sốt, hạ áp huyết, chất nhầy trong mã đề hạ đường"
+      }
+    ],
     "letter_newline_letter": [
       {
         "chunk_id": "src_234bab2d6139:3938a8088cb4",
@@ -56,7 +157,7 @@
         "snippet": "rong đời sống của bạn\nTuy vậy, sự vượt trội"
       },
       {
-        "chunk_id": "src_234bab2d6139:9cee8e343c1d",
+        "chunk_id": "src_234bab2d6139:933e88a23144",
         "source_id": "src_234bab2d6139",
         "snippet": "hể đến chỗ tổn thương\nNgười ta nhận thấy co"
       },
@@ -66,14 +167,24 @@
         "snippet": "y Châu. Bậy ko gì hơn\nTrước khi cho đũa qua"
       },
       {
-        "chunk_id": "src_234bab2d6139:bc62a8dd8105",
+        "chunk_id": "src_234bab2d6139:90a96496bad2",
         "source_id": "src_234bab2d6139",
         "snippet": "ền, Ngũ Thốn, Ấn Tinh\nBóp dẫn máu xuống tối"
       },
       {
-        "chunk_id": "src_234bab2d6139:79d6da4a272b",
+        "chunk_id": "src_234bab2d6139:ed5b79ecb007",
+        "source_id": "src_234bab2d6139",
+        "snippet": "h. Bật huyệt Đắc Quan\nDay huyệt Xích Thốn, "
+      },
+      {
+        "chunk_id": "src_234bab2d6139:e648b30bffb8",
         "source_id": "src_234bab2d6139",
         "snippet": " THƯƠNG BỊ THỦNG THỊT\nBạn nếu bị tai nạn té"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:62b4197be611",
+        "source_id": "src_234bab2d6139",
+        "snippet": "TRỢ NGƯỜI LOÃNG XƯƠNG\nSaukhi xương được cồ "
       },
       {
         "chunk_id": "src_234bab2d6139:5b780d915161",
@@ -86,27 +197,47 @@
         "snippet": "ỀU TRỊ\n1. Bù kali máu\nTheo dõi\n• Trường hợp"
       },
       {
-        "chunk_id": "src_234bab2d6139:7479f1dfad1a",
+        "chunk_id": "src_234bab2d6139:c8e2208779a5",
         "source_id": "src_234bab2d6139",
         "snippet": " VỀ THẤP VÀ PHÙ THŨNG\nTrong quá điều trị bệ"
       },
       {
-        "chunk_id": "src_234bab2d6139:3308fcfa2723",
+        "chunk_id": "src_234bab2d6139:7138edfe9ffd",
+        "source_id": "src_234bab2d6139",
+        "snippet": "t miến khó gỡ vô cùng\nQuá trình điều trị bệ"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:5d512d2c7685",
+        "source_id": "src_234bab2d6139",
+        "snippet": "i\nC- Để giải quyết tình"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:b944e8617c33",
         "source_id": "src_234bab2d6139",
         "snippet": "àm tấp thuỷ thật mạnh\nDo quá trình học hỏi "
       },
       {
-        "chunk_id": "src_234bab2d6139:3c84400dd025",
+        "chunk_id": "src_234bab2d6139:02dfe5182939",
+        "source_id": "src_234bab2d6139",
+        "snippet": "viêm khử ứ\n- Trừ thấp\nPhản chiếu tim, thận "
+      },
+      {
+        "chunk_id": "src_234bab2d6139:1354c609f6f5",
         "source_id": "src_234bab2d6139",
         "snippet": " thường - có thể tăng\nNgoài ra có thể tham "
       },
       {
-        "chunk_id": "src_234bab2d6139:5aec5aaf5bea",
+        "chunk_id": "src_234bab2d6139:2c62185be84c",
+        "source_id": "src_234bab2d6139",
+        "snippet": " thấp, hoặc trục thấp\nPhản chiếu và tác độn"
+      },
+      {
+        "chunk_id": "src_234bab2d6139:4b165b7b15f6",
         "source_id": "src_234bab2d6139",
         "snippet": " các nguyên nhân khác\nBài: - Điều chỉnh tổn"
       },
       {
-        "chunk_id": "src_234bab2d6139:19bd393c3809",
+        "chunk_id": "src_234bab2d6139:c03f3f550d8e",
         "source_id": "src_234bab2d6139",
         "snippet": "nhanh và hiệu quả cao\nHiên nay rất nhiều ng"
       },
@@ -114,43 +245,13 @@
         "chunk_id": "src_acfe5b0305b9:c1865233c584",
         "source_id": "src_acfe5b0305b9",
         "snippet": " Sơ sơ\n- Vậy được rồi\nThế là lấy máy tính r"
-      },
-      {
-        "chunk_id": "src_acfe5b0305b9:ae833f86eddf",
-        "source_id": "src_acfe5b0305b9",
-        "snippet": "g 7, thành phố Cà Mau\nTel: (0780) 383.1930;"
-      },
-      {
-        "chunk_id": "src_b8a7d4b324ab:ddf3e66d02d9",
-        "source_id": "src_b8a7d4b324ab",
-        "snippet": " của nguyễn ngọc giáp\nNhững người bị say tà"
-      },
-      {
-        "chunk_id": "src_b8a7d4b324ab:ca5f21a5aed1",
-        "source_id": "src_b8a7d4b324ab",
-        "snippet": "ơng Y: ĐỒNG XUÂN TOÁN\nChủ nhiệm CLB Diện Ch"
-      },
-      {
-        "chunk_id": "src_fbd8dd961116:d5966116a4c2",
-        "source_id": "src_fbd8dd961116",
-        "snippet": "ài thuốc → liều lượng\nCQ3: So sánh phối ngũ"
-      },
-      {
-        "chunk_id": "src_fbd8dd961116:78b82685f921",
-        "source_id": "src_fbd8dd961116",
-        "snippet": " chứng Can Thấp Nhiệt\nvtm: Can Thap Nhiet r"
-      },
-      {
-        "chunk_id": "src_fbd8dd961116:28d82641d2b5",
-        "source_id": "src_fbd8dd961116",
-        "snippet": " score ? in gredients\nWHERE {\n? s vtm: has "
       }
     ],
     "scientific_name_split": []
   },
   "error_counts": {
-    "fffd_chunks": 0,
-    "letter_nl_letter_chunks": 20,
+    "fffd_chunks": 976,
+    "letter_nl_letter_chunks": 26,
     "sci_name_split_chunks": 0
   }
 }

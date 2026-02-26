@@ -47,6 +47,30 @@ def _sort_key(rec: dict[str, Any]) -> tuple[str, int, str]:
 
 
 # ---------------------------------------------------------------------------
+# Token-safe splitting (fix long units that exceed chunk_size)
+# ---------------------------------------------------------------------------
+
+def _token_len(text: str, enc: Any) -> int:
+    return len(enc.encode(text))  # type: ignore
+
+
+def _split_text_by_tokens(text: str, max_tokens: int, enc: Any) -> list[str]:
+    """Split text into parts, each <= max_tokens tokens (hard cap)."""
+    if max_tokens <= 0:
+        return [text]
+    toks = enc.encode(text)  # type: ignore
+    if len(toks) <= max_tokens:
+        return [text]
+    parts: list[str] = []
+    for i in range(0, len(toks), max_tokens):
+        piece = enc.decode(toks[i:i + max_tokens])  # type: ignore
+        piece = piece.strip()
+        if piece:
+            parts.append(piece)
+    return parts if parts else [text]
+
+
+# ---------------------------------------------------------------------------
 # DOCX paragraph-level chunking
 # ---------------------------------------------------------------------------
 
@@ -58,25 +82,44 @@ def _chunk_docx_paragraphs(
 ) -> list[dict[str, Any]]:
     """Chunk DOCX paragraphs by accumulating para records up to chunk_size tokens.
 
-    Returns list of chunk dicts with correct para_idx_min/max, element_idx_min/max,
-    locator_context per chunk.
+    Fix: If a single paragraph exceeds chunk_size tokens, split it into smaller
+    parts so no chunk becomes oversized.
     """
-    # sort by para_idx ascending
-    group_recs.sort(key=lambda r: (r.get("para_idx") or 0, r.get("element_idx") or 0))
+    # Expand long paragraphs into smaller parts (para_part)
+    expanded: list[dict[str, Any]] = []
+    for rec in group_recs:
+        txt = rec.get("text", "")
+        nt = _token_len(txt, enc)
+        if nt > chunk_size:
+            parts = _split_text_by_tokens(txt, chunk_size, enc)
+            for pi, part in enumerate(parts):
+                r2 = dict(rec)
+                r2["text"] = part
+                r2["para_part"] = pi
+                r2["para_part_total"] = len(parts)
+                expanded.append(r2)
+        else:
+            r2 = dict(rec)
+            r2["para_part"] = 0
+            r2["para_part_total"] = 1
+            expanded.append(r2)
 
-    first = group_recs[0]
+    # sort by para_idx ascending, then para_part, then element_idx
+    expanded.sort(key=lambda r: (
+        r.get("para_idx") or 0,
+        r.get("para_part") or 0,
+        r.get("element_idx") or 0
+    ))
+
+    first = expanded[0]
     chunks: list[dict[str, Any]] = []
 
-    # current accumulator
     current_paras: list[dict[str, Any]] = []
     current_tokens = 0
 
-    def _token_len(text: str) -> int:
-        return len(enc.encode(text))  # type: ignore
-
     def _finalize_chunk(paras: list[dict[str, Any]]) -> dict[str, Any]:
-        """Build one chunk dict from accumulated paragraphs."""
         chunk_text = "\n\n".join(p["text"] for p in paras)
+
         para_idxs: list[int] = [p["para_idx"] for p in paras if p.get("para_idx") is not None]
         elem_idxs: list[int] = [p["element_idx"] for p in paras if p.get("element_idx") is not None]
 
@@ -85,9 +128,16 @@ def _chunk_docx_paragraphs(
         ei_min: int | None = min(elem_idxs) if elem_idxs else None
         ei_max: int | None = max(elem_idxs) if elem_idxs else None
 
+        # If the chunk is within exactly one paragraph, include para_part range in locator
+        para_parts = [p.get("para_part") for p in paras if p.get("para_part_total", 1) > 1]
         if pi_min is not None and pi_max is not None:
             if pi_min == pi_max:
-                loc_ctx = f"para_{pi_min}"
+                if para_parts:
+                    pmin = min(int(x) for x in para_parts if x is not None)
+                    pmax = max(int(x) for x in para_parts if x is not None)
+                    loc_ctx = f"para_{pi_min}#{pmin}-{pmax}"
+                else:
+                    loc_ctx = f"para_{pi_min}"
             else:
                 loc_ctx = f"para_{pi_min}-{pi_max}"
         else:
@@ -117,18 +167,17 @@ def _chunk_docx_paragraphs(
             "span": None,
         }
 
-    for rec in group_recs:
-        rec_tokens = _token_len(rec["text"])
+    for rec in expanded:
+        rec_tokens = _token_len(rec["text"], enc)
 
-        # If adding this para exceeds chunk_size, finalize current chunk first
         if current_paras and (current_tokens + rec_tokens) > chunk_size:
             chunks.append(_finalize_chunk(current_paras))
 
-            # Overlap: keep trailing paragraphs whose total tokens ~ overlap
+            # Overlap: keep trailing paras whose total tokens ~ overlap
             overlap_paras: list[dict[str, Any]] = []
             overlap_tokens = 0
             for p in reversed(current_paras):
-                pt = _token_len(p["text"])
+                pt = _token_len(p["text"], enc)
                 if overlap_tokens + pt > overlap:
                     break
                 overlap_paras.insert(0, p)
@@ -140,7 +189,6 @@ def _chunk_docx_paragraphs(
         current_paras.append(rec)
         current_tokens += rec_tokens
 
-    # Finalize last chunk
     if current_paras:
         chunks.append(_finalize_chunk(current_paras))
 
@@ -159,11 +207,10 @@ def _strip_page_artifacts(text: str) -> str:
     lines = text.split("\n")
     cleaned: list[str] = []
     for ln in lines:
-        # Drop lines that are only a page number (1-4 digits)
         if _RE_PAGE_NUM_LINE.match(ln):
             continue
         cleaned.append(ln)
-    # Collapse runs of 3+ blank lines down to 2
+
     result: list[str] = []
     blank_count = 0
     for ln in cleaned:
@@ -183,34 +230,63 @@ def _chunk_pdf_pages(
     overlap: int,
     enc: Any,
 ) -> list[dict[str, Any]]:
-    """Chunk PDF page records by accumulating pages up to *chunk_size* tokens.
+    """Chunk PDF page records by accumulating pages up to chunk_size tokens.
 
-    Each chunk tracks its own page_range and locator_context.
+    Fix: If a single page exceeds chunk_size tokens, split that page into smaller
+    page parts so no chunk becomes oversized.
     """
-    # Sort by page ascending
     group_recs.sort(key=lambda r: (r.get("page") or 0))
-
     first = group_recs[0]
     chunks: list[dict[str, Any]] = []
+
+    # Expand oversized pages into page_part chunks (each <= chunk_size tokens)
+    expanded_pages: list[dict[str, Any]] = []
+    for rec in group_recs:
+        page_no = rec.get("page") or 0
+        cleaned = _strip_page_artifacts(rec.get("text", ""))
+        nt = _token_len(cleaned, enc)
+        if nt > chunk_size:
+            parts = _split_text_by_tokens(cleaned, chunk_size, enc)
+            for pi, part in enumerate(parts):
+                r2 = dict(rec)
+                r2["text"] = part
+                r2["page"] = page_no
+                r2["page_part"] = pi
+                r2["page_part_total"] = len(parts)
+                expanded_pages.append(r2)
+        else:
+            r2 = dict(rec)
+            r2["text"] = cleaned
+            r2["page"] = page_no
+            r2["page_part"] = 0
+            r2["page_part_total"] = 1
+            expanded_pages.append(r2)
+
+    # Keep order by (page, page_part)
+    expanded_pages.sort(key=lambda r: (r.get("page") or 0, r.get("page_part") or 0))
 
     current_pages: list[dict[str, Any]] = []
     current_tokens = 0
 
-    def _token_len(text: str) -> int:
-        return len(enc.encode(text))  # type: ignore
-
     def _finalize_chunk(pages: list[dict[str, Any]]) -> dict[str, Any]:
-        """Build one chunk dict from accumulated page records."""
-        chunk_text = "\n\n".join(_strip_page_artifacts(p["text"]) for p in pages)
+        chunk_text = "\n\n".join(p["text"] for p in pages)
         page_nos: list[int] = [p["page"] for p in pages if p.get("page") is not None]
 
         p_min: int | None = min(page_nos) if page_nos else None
         p_max: int | None = max(page_nos) if page_nos else None
 
+        # page_part info only meaningful if single-page chunk
+        page_parts = [p.get("page_part") for p in pages if p.get("page_part_total", 1) > 1]
+
         if p_min is not None and p_max is not None:
             if p_min == p_max:
                 pr = str(p_min)
-                loc_ctx = f"p{p_min}"
+                if page_parts:
+                    pmn = min(int(x) for x in page_parts if x is not None)
+                    pmx = max(int(x) for x in page_parts if x is not None)
+                    loc_ctx = f"p{p_min}#{pmn}-{pmx}"
+                else:
+                    loc_ctx = f"p{p_min}"
             else:
                 pr = f"{p_min}-{p_max}"
                 loc_ctx = f"p{p_min}-{p_max}"
@@ -240,18 +316,16 @@ def _chunk_pdf_pages(
             "span": None,
         }
 
-    for rec in group_recs:
-        rec_tokens = _token_len(rec["text"])
+    for rec in expanded_pages:
+        rec_tokens = _token_len(rec["text"], enc)
 
-        # If adding this page exceeds chunk_size, finalize current chunk first
         if current_pages and (current_tokens + rec_tokens) > chunk_size:
             chunks.append(_finalize_chunk(current_pages))
 
-            # Overlap: keep trailing pages whose total tokens ~ overlap
             overlap_pages: list[dict[str, Any]] = []
             overlap_tokens = 0
             for p in reversed(current_pages):
-                pt = _token_len(p["text"])
+                pt = _token_len(p["text"], enc)
                 if overlap_tokens + pt > overlap:
                     break
                 overlap_pages.insert(0, p)
@@ -263,7 +337,6 @@ def _chunk_pdf_pages(
         current_pages.append(rec)
         current_tokens += rec_tokens
 
-    # Finalize last chunk
     if current_pages:
         chunks.append(_finalize_chunk(current_pages))
 
@@ -274,17 +347,15 @@ def _chunk_pdf_pages(
 # PDF Strategy B: entry-based chunking
 # ---------------------------------------------------------------------------
 
-# Markers that start a new "entry" (numbered item or bullet)
 _RE_ENTRY_START = re.compile(
     r"^(?:"
-    r"\d{1,3}\s*[-–—.)\]]\s"    # "1- ", "2. ", "3) "
-    r"|•\s"                      # bullet "• "
-    r"|[A-Z][A-Z\s]{3,}:"       # all-caps field header like "TÊN PHỔ THÔNG:"
+    r"\d{1,3}\s*[-–—.)\]]\s"
+    r"|•\s"
+    r"|[A-Z][A-Z\s]{3,}:"
     r")",
     re.MULTILINE,
 )
 
-# Field headers that indicate structured content within an entry
 _RE_FIELD_HEADER = re.compile(
     r"^(?:"
     r"Tên phổ thông|Tên khoa học|Bộ phận dùng|Tác dụng|Cách dùng"
@@ -296,22 +367,15 @@ _RE_FIELD_HEADER = re.compile(
 
 
 def _has_entry_markers(text: str) -> bool:
-    """Check if concatenated text from a source has enough entry markers
-    to warrant strategy-B splitting (at least 3 markers)."""
     return len(_RE_ENTRY_START.findall(text)) >= 3
 
 
 def _split_into_entries(full_text: str) -> list[str]:
-    """Split text into entries using entry-start markers.
-
-    Each entry starts at a marker match and ends just before the next marker.
-    """
     positions = [m.start() for m in _RE_ENTRY_START.finditer(full_text)]
     if not positions:
         return [full_text]
 
     entries: list[str] = []
-    # Text before first entry marker is a preamble
     if positions[0] > 0:
         preamble = full_text[:positions[0]].strip()
         if preamble:
@@ -334,33 +398,27 @@ def _chunk_pdf_entries(
 ) -> list[dict[str, Any]]:
     """Chunk PDF by entry markers (strategy B).
 
-    Steps:
-    1. Concatenate all pages (preserving page boundaries).
-    2. Split by entry markers.
-    3. Accumulate entries up to chunk_size tokens.
+    Fix: If a single entry exceeds chunk_size tokens, split that entry into
+    smaller parts (entry_part) so no chunk becomes oversized.
     """
     group_recs.sort(key=lambda r: (r.get("page") or 0))
     first = group_recs[0]
 
-    def _token_len(text: str) -> int:
-        return len(enc.encode(text))  # type: ignore
-
     # Build page-boundary map: (char_offset -> page_no)
-    page_boundaries: list[tuple[int, int]] = []  # (start_char, page_no)
+    page_boundaries: list[tuple[int, int]] = []
     full_parts: list[str] = []
     offset = 0
     for rec in group_recs:
-        page_text = _strip_page_artifacts(rec["text"])
+        page_text = _strip_page_artifacts(rec.get("text", ""))
         page_no = rec.get("page") or 0
         page_boundaries.append((offset, page_no))
         full_parts.append(page_text)
-        offset += len(page_text) + 2  # +2 for "\n\n" separator
+        offset += len(page_text) + 2
 
     full_text = "\n\n".join(full_parts)
     entries = _split_into_entries(full_text)
 
     def _page_for_offset(char_pos: int) -> int:
-        """Find which page a character offset belongs to."""
         result_page = page_boundaries[0][1] if page_boundaries else 1
         for boundary_offset, page_no in page_boundaries:
             if char_pos >= boundary_offset:
@@ -370,7 +428,7 @@ def _chunk_pdf_entries(
         return result_page
 
     # Build entry records with page info
-    entry_records: list[dict[str, str | int]] = []
+    entry_records: list[dict[str, Any]] = []
     search_start = 0
     for entry_text in entries:
         idx = full_text.find(entry_text, search_start)
@@ -378,19 +436,35 @@ def _chunk_pdf_entries(
             idx = search_start
         page_start = _page_for_offset(idx)
         page_end = _page_for_offset(idx + len(entry_text))
-        entry_records.append({
-            "text": entry_text,
-            "page_start": page_start,
-            "page_end": page_end,
-        })
+
+        # Split oversized entry
+        etoks = _token_len(entry_text, enc)
+        if etoks > chunk_size:
+            parts = _split_text_by_tokens(entry_text, chunk_size, enc)
+            for pi, part in enumerate(parts):
+                entry_records.append({
+                    "text": part,
+                    "page_start": page_start,
+                    "page_end": page_end,
+                    "entry_part": pi,
+                    "entry_part_total": len(parts),
+                })
+        else:
+            entry_records.append({
+                "text": entry_text,
+                "page_start": page_start,
+                "page_end": page_end,
+                "entry_part": 0,
+                "entry_part_total": 1,
+            })
+
         search_start = idx + len(entry_text)
 
-    # Accumulate entries into chunks
     chunks: list[dict[str, Any]] = []
-    current_entries: list[dict[str, str | int]] = []
+    current_entries: list[dict[str, Any]] = []
     current_tokens = 0
 
-    def _finalize(entries_acc: list[dict[str, str | int]]) -> dict[str, Any]:
+    def _finalize(entries_acc: list[dict[str, Any]]) -> dict[str, Any]:
         chunk_text = "\n\n".join(str(e["text"]) for e in entries_acc)
         pages: set[int] = set()
         for e in entries_acc:
@@ -399,9 +473,17 @@ def _chunk_pdf_entries(
         p_min: int | None = min(pages) if pages else None
         p_max: int | None = max(pages) if pages else None
 
+        # If single-page chunk and entry parts exist, include in locator
+        entry_parts = [e.get("entry_part") for e in entries_acc if e.get("entry_part_total", 1) > 1]
+
         if p_min is not None and p_max is not None:
             pr = str(p_min) if p_min == p_max else f"{p_min}-{p_max}"
-            loc = f"p{p_min}" if p_min == p_max else f"p{p_min}-{p_max}"
+            if p_min == p_max and entry_parts:
+                pmn = min(int(x) for x in entry_parts if x is not None)
+                pmx = max(int(x) for x in entry_parts if x is not None)
+                loc = f"p{p_min}#e{pmn}-{pmx}"
+            else:
+                loc = f"p{p_min}" if p_min == p_max else f"p{p_min}-{p_max}"
         else:
             pr, loc = None, None
 
@@ -429,14 +511,14 @@ def _chunk_pdf_entries(
         }
 
     for erec in entry_records:
-        et = _token_len(str(erec["text"]))
+        et = _token_len(str(erec["text"]), enc)
         if current_entries and (current_tokens + et) > chunk_size:
             chunks.append(_finalize(current_entries))
-            # Overlap: keep last entry if within overlap budget
-            overlap_entries: list[dict[str, str | int]] = []
+
+            overlap_entries: list[dict[str, Any]] = []
             overlap_tokens = 0
             for e in reversed(current_entries):
-                esize = _token_len(str(e["text"]))
+                esize = _token_len(str(e["text"]), enc)
                 if overlap_tokens + esize > overlap:
                     break
                 overlap_entries.insert(0, e)
@@ -462,48 +544,74 @@ def run_chunk(config: dict[str, Any]) -> int:
     input_path = config["clean"]["output_jsonl"]
     output_path = config["index"]["input_chunks"]
     chunk_cfg = config["chunking"]
-    chunk_size: int = chunk_cfg.get("chunk_size", 500)
-    overlap: int = chunk_cfg.get("overlap", 100)
+    chunk_size: int = int(chunk_cfg.get("chunk_size", 500))
+    overlap: int = int(chunk_cfg.get("overlap", 100))
 
     records = read_jsonl(input_path)
     if not records:
         logger.warning("No records to chunk from %s", input_path)
         return 0
 
-    # Sort
     records.sort(key=_sort_key)
 
     enc = tiktoken.get_encoding("cl100k_base")  # type: ignore
     chunks: list[dict[str, Any]] = []
 
-    # Separate by doc_type
     image_records = [r for r in records if r.get("doc_type") == "image"]
     docx_records = [r for r in records if r.get("doc_type") == "docx"]
     pdf_records = [r for r in records if r.get("doc_type") == "pdf"]
 
-    # --- Image chunks: 1:1 ---
+    # --- Image chunks: 1:1, but split if a single OCR text exceeds chunk_size tokens ---
     for rec in image_records:
-        chunk_id = f"{rec['source_id']}:{sha1_short(rec['text'])}"
-        chunk: dict[str, Any] = {
-            "chunk_id": chunk_id,
-            "text": rec["text"],
-            "source_id": rec.get("source_id"),
-            "title": rec.get("title"),
-            "author": rec.get("author"),
-            "year": rec.get("year"),
-            "file_path": rec.get("file_path"),
-            "url": rec.get("url"),
-            "doc_type": "image",
-            "doc_language": rec.get("doc_language"),
-            "section_heading": None,
-            "heading_path": None,
-            "page_range": None,
-            "doc_fingerprint": rec.get("doc_fingerprint"),
-            "locator_context": rec.get("locator"),
-            "bbox": rec.get("bbox"),
-            "ocr_confidence": rec.get("ocr_confidence"),
-        }
-        chunks.append(chunk)
+        txt = rec.get("text", "")
+        nt = _token_len(txt, enc)
+        if nt > chunk_size:
+            parts = _split_text_by_tokens(txt, chunk_size, enc)
+            for pi, part in enumerate(parts):
+                chunk_id = f"{rec['source_id']}:{sha1_short(part)}"
+                chunk: dict[str, Any] = {
+                    "chunk_id": chunk_id,
+                    "text": part,
+                    "source_id": rec.get("source_id"),
+                    "title": rec.get("title"),
+                    "author": rec.get("author"),
+                    "year": rec.get("year"),
+                    "file_path": rec.get("file_path"),
+                    "url": rec.get("url"),
+                    "doc_type": "image",
+                    "doc_language": rec.get("doc_language"),
+                    "section_heading": None,
+                    "heading_path": None,
+                    "page_range": None,
+                    "doc_fingerprint": rec.get("doc_fingerprint"),
+                    "locator_context": f"{rec.get('locator') or ''}#part{pi}",
+                    "bbox": rec.get("bbox"),
+                    "ocr_confidence": rec.get("ocr_confidence"),
+                    "chunk_strategy": "image_split",
+                }
+                chunks.append(chunk)
+        else:
+            chunk_id = f"{rec['source_id']}:{sha1_short(txt)}"
+            chunk = {
+                "chunk_id": chunk_id,
+                "text": txt,
+                "source_id": rec.get("source_id"),
+                "title": rec.get("title"),
+                "author": rec.get("author"),
+                "year": rec.get("year"),
+                "file_path": rec.get("file_path"),
+                "url": rec.get("url"),
+                "doc_type": "image",
+                "doc_language": rec.get("doc_language"),
+                "section_heading": None,
+                "heading_path": None,
+                "page_range": None,
+                "doc_fingerprint": rec.get("doc_fingerprint"),
+                "locator_context": rec.get("locator"),
+                "bbox": rec.get("bbox"),
+                "ocr_confidence": rec.get("ocr_confidence"),
+            }
+            chunks.append(chunk)
 
     # --- DOCX: paragraph-level chunking per group ---
     docx_groups: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
@@ -522,8 +630,9 @@ def run_chunk(config: dict[str, Any]) -> int:
     entry_strategy_count = 0
     page_strategy_count = 0
     for _sid, group_recs in pdf_groups.items():
-        # Probe: concatenate first few pages to check for entry markers
-        probe_text = "\n\n".join(r["text"] for r in sorted(group_recs, key=lambda r: r.get("page") or 0)[:10])
+        probe_pages = sorted(group_recs, key=lambda r: r.get("page") or 0)[:10]
+        probe_text = "\n\n".join(_strip_page_artifacts(r.get("text", "")) for r in probe_pages)
+
         if _has_entry_markers(probe_text):
             pdf_chunks = _chunk_pdf_entries(group_recs, chunk_size, overlap, enc)
             entry_strategy_count += 1
@@ -538,14 +647,11 @@ def run_chunk(config: dict[str, Any]) -> int:
     ensure_parent_dir(output_path)
     write_jsonl(chunks, output_path)
 
-    # --- Validation stats ---
     logger.info("B3 Chunk complete: %d total chunks → %s", len(chunks), output_path)
 
-    # Count replacement chars remaining
     fffd_count = sum(1 for c in chunks if "\ufffd" in c.get("text", ""))
     logger.info("  Chunks with U+FFFD '�': %d / %d", fffd_count, len(chunks))
 
-    # Show 3 example DOCX chunks with different para ranges
     docx_chunks_out = [c for c in chunks if c.get("doc_type") == "docx"]
     for i, ex in enumerate(docx_chunks_out[:3]):
         logger.info(
@@ -560,7 +666,6 @@ def run_chunk(config: dict[str, Any]) -> int:
             ex.get("element_idx_max"),
         )
 
-    # Show 3 example PDF chunks with page ranges
     pdf_chunks_out = [c for c in chunks if c.get("doc_type") == "pdf"]
     logger.info("  PDF chunks: %d", len(pdf_chunks_out))
     for i, ex in enumerate(pdf_chunks_out[:3]):
@@ -575,10 +680,6 @@ def run_chunk(config: dict[str, Any]) -> int:
             ex.get("element_idx_max"),
         )
 
-    # Verify no duplicate page_range across PDF chunks per source
-    pdf_page_ranges = [c.get("page_range") for c in pdf_chunks_out]
-    unique_ranges = len(set(pdf_page_ranges))
-    logger.info("  PDF unique page_ranges: %d / %d chunks", unique_ranges, len(pdf_chunks_out))
     return len(chunks)
 
 

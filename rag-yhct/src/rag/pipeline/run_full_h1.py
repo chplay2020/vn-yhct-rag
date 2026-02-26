@@ -64,7 +64,24 @@ def _step_done(t0: float, msg: str = "") -> None:
     logger.info("  Done in %.1fs %s", elapsed, msg)
 
 
-def main(with_embedding: bool = False) -> None:
+def _qdrant_exact_count(qdrant_url: str, collection: str) -> int | None:
+    """Get exact point count via Qdrant REST API."""
+    import requests  # type: ignore
+    try:
+        resp = requests.post(
+            f"{qdrant_url}/collections/{collection}/points/count",
+            json={"exact": True},
+            timeout=30,
+        )
+        if resp.status_code == 200:
+            return resp.json().get("result", {}).get("count")
+        logger.warning("Qdrant count returned %d: %s", resp.status_code, resp.text[:200])
+    except Exception as exc:
+        logger.warning("Qdrant count request failed: %s", exc)
+    return None
+
+
+def main(with_embedding: bool = False, recreate_emb: bool = False) -> None:
     t_total = time.time()
 
     # ------------------------------------------------------------------
@@ -154,6 +171,7 @@ def main(with_embedding: bool = False) -> None:
     # ------------------------------------------------------------------
     # Step 5b: Real embedding + upsert (B5) — optional
     # ------------------------------------------------------------------
+    summary: dict[str, Any] | None = None
     if with_embedding:
         t0 = _step_banner(f"STEP 5b: Embed real vectors -> collection '{COLLECTION_EMB}'")
         config = _load_config()
@@ -172,7 +190,7 @@ def main(with_embedding: bool = False) -> None:
             min_len=30,
             skip_noise=True,
             max_retries=3,
-            recreate=True,
+            recreate=recreate_emb,
             vector_size=config["qdrant"].get("vector_size", 1024),
         )
         _step_done(t0, f"({summary['embedded']} points with real vectors)")
@@ -192,6 +210,27 @@ def main(with_embedding: bool = False) -> None:
     )
     write_report(report, REPORT_OUT)
     print_summary(report)
+
+    # EMB verify — exact counts for both collections
+    qdrant_url = config["qdrant"]["url"]
+    full_count = _qdrant_exact_count(qdrant_url, COLLECTION)
+    emb_count = _qdrant_exact_count(qdrant_url, COLLECTION_EMB)
+    logger.info("-" * 60)
+    logger.info("  EMB Verify")
+    logger.info("  full_count_exact (%s): %s", COLLECTION, full_count)
+    logger.info("  emb_count_exact  (%s): %s", COLLECTION_EMB, emb_count)
+    if emb_count is not None and full_count is not None and full_count > 0:
+        coverage = emb_count / full_count
+        logger.info("  coverage (emb/full): %.2f%% (%d / %d)",
+                    coverage * 100, emb_count, full_count)
+    elif emb_count is not None:
+        # compute coverage vs unique chunk_ids from the embed summary
+        unique_after_dedup = (summary or {}).get("after_dedup") if with_embedding else None
+        if unique_after_dedup:
+            logger.info("  coverage (emb/dedup): %.2f%% (%d / %d)",
+                        emb_count / unique_after_dedup * 100, emb_count, unique_after_dedup)
+    logger.info("-" * 60)
+
     _step_done(t0)
 
     # ------------------------------------------------------------------
@@ -213,5 +252,8 @@ if __name__ == "__main__":
     _parser.add_argument("--with-embedding", "--with_embedding",
                          action="store_true", default=False,
                          help="Run B5 real embedding after B4 dummy index")
+    _parser.add_argument("--recreate-emb", "--recreate_emb",
+                         action="store_true", default=False,
+                         help="Drop and recreate EMB collection before embedding")
     _args = _parser.parse_args()
-    main(with_embedding=_args.with_embedding)
+    main(with_embedding=_args.with_embedding, recreate_emb=_args.recreate_emb)
