@@ -1,0 +1,626 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 30: Thuốc tác dụng trên quá trình đông máu
+ và tiêu fibrin
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được cơ chế tác dụng và áp dụng điều trị của  vitamin K.
+2. So sánh được cơ chế tác dụng, động học và áp dụng điều tr ị của  dẫn xuất
+coumarin và heparin.
+3. Phân tích được cơ chế tác dụng và áp dụng điều trị của thuốc làm tiêu fibrin và
+chống tiêu fibrin.
+1. Thuốc tác dụng lên quá trình đông máu
+1.1. Cơ chế đông máu
+Đông máu là một quá trình máu chuyển từ thể lỏng thành th ể đặc do chuyển fibrinogen
+thành fibrin không hòa tan  và các sợi fibrin này bị trùng hợp tạo thành mạng lưới giam
+giữ các thành phần của máu làm máu đông lại.
+Bình thường, trong máu và trong các mô có các chất gây đông và chất chống đông, nhưng
+các chất gây đông ở dạng tiền chất, không có hoạt tính. Khi mạch máu bị tổn thương sĩ
+hoạt hóa các yếu tố đông máu theo kiểu dây truyền làm cho máu đông lại.
+Quá trình đông máu xảy ra qua 3 giai đoạn :
+- Giai đoạn tạo thành phức hợp prothrombinase (1)
+- Giai đoạn tạo thành thrombin (2)
+- Giai đoạn tạo thành fibrin (3)
+Promthrombinase (1)
+   Prothrombin
+       Thrombin (2)
+Fibrinogen
+    Fibrin (3)
+và cục máu đông
+1.1.1.Giai đoạn tạo thành phức hợp prothrombinase
+Là quá trình phức tạp và kéo dài nhất th ông qua hai cơ chế nội sinh và ngoại sinh tạo ra
+phức hợp prothrombinase.
+* Cơ chế ngoại sinh:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Khi mạch máu tổn thương, máu tiếp xúc với vị trí tổn thương. Mô ở vị trí tổn thương giải
+phóng ra yếu tố III (thromboplastin mô) và  phospholipid. Yếu tố III, IV  (calci) cùng yếu
+tố VII, và phosphlipid mô hoạt hóa yếu tố X. Yếu tố X hoạt hóa cùng với yếu V,
+phospholipid mô và ion calci tạo thành phức hợp prothrombinase.
+* Cơ chế nội sinh :
+Đồng thời khi máu tiếp xúc với vị trí tổn thương sĩ làm hoạt hóa yếu tố XII  và tiểu cầu
+làm giải phóng phospho lipid. Yếu tố XII hoạt hóa yếu tố XI và yếu tố XI hoạt hóa yếu tố
+IX. Yếu tố IX cùng với yếu tố VIII hoạt hóa, phospho lipid tiểu cầu và Ca +2 hoạt hóa yếu
+tố X. Yếu tố X, yếu tố V, cùng với phospho lipid tiểu cầu và Ca +2 tạo nên phức hợp
+prothrombinase.
+1.1.2. Giai đoạn tạo thành thrombin
+Prothrombinase tạo ra theo cơ chế ngoại sinh và nội sinh cùng với ion calci xúc tác cho
+phản ứng chuyển prothrombin thành thrombin
+1.1.3. Giai đoạn tạo thành fibrin và cục máu đông
+Dưới tác dụng của thrombin, fibrinogen dạng hòa tan chuyển thành fibrin không hòa tan.
+Các sợi fibrin nối lại với nhau và dưới tác dụng của yếu tố XIII hoạt hóa tạo ra mạng lưới
+fibrin bền vững giam giữ các thành phần của máu làm máu đông lại.
+1.2. Thuốc làm đông máu
+1.2.1. Thuốc làm đông máu toàn thân
+1.2.1.1. VitaminK (K: Koagulation - đông máu)
++ Có 3 nguồn cung cấp vitamin K :
+- Vitamin K1 (phytonadion, phulloquinon) có nguồn gốc thực vật.
+- Vitamin K2 (menaquinon) do vi khuẩn gram âm đường ruột tổng hợp.
+- Vitamin K3 (menadion) có  nguồn gốc tổng hợp.
++ Vitamin K tan trong lipid, nhưng riêng vitamin K 3 ở dạng muối natribisulfit hoặc muối
+tetra natri tan trong nước vào cơ thể bị chuyển hóa thành vitamin K 3.
+* Vai trò sinh lý :
++ Vitamin K giúp cho gan tổng hợp các yếu tố đông máu như prothrombin (II), VII, IX và
+X.
+- Cơ chế : Bình thường, các yếu tố II, VII, IX và X ở dạng tiền chất. Khi có mặt vitamin K
+với vai trò cofactor cần thiết cho enzym ở microsom gan xúc tác chuyển các tiền chất
+thành các chất có hoạt tính bởi sự chuyển acid glutamic gần acid amin cuối cùng của các
+tiền chất thành - carboxyglutamyl. Chất này cũng có mặt trong protein được bài tiết từ
+cốt bào và có vai trò trong sự tạo xương.
+* Dấu hiệu của sự thiếu hụt :
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Nhu cầu hàng ngày khoảng 1g/kg. Khi thiếu hụt sĩ xuất hiện bầm máu dưới da, chảy
+máu đường tiêu hóa, răng miệng, đái ra máu, chảy máu trong sọ.
+* Dược động học :
+Vitamin K tan trong dầu, khi hấp thu cần có mặt của acid mật. Loại tan trong dầu thông
+qua hệ bạch huyết vào máu, còn dạng tan trong nước hấp thu đi trực tiếp vào máu.Vitamin
+K1 được hấp thu nhờ vận chuyển tích cực còn K 2, K3 được hấp thu nhờ khuyếch tán thụ
+động.
+Sau hấp thu vitamin K1 tập trung nhiều ở gan và bị chuyển hóa nhanh thành chất có cực
+thải ra ngoài theo phân và nước tiểu.
+* Độc tính :
+Mặc dù có phạm vi điều trị rộng, nhưng có thể gặp thiếu máu tan máu và chết do vàng da
+tan máu ở trẻ dưới 30 tháng tuổi dùng vitamin K 3.
+Vitamin K3 còn gây kích ứng da, đường hô hấp, gây đái albumin, gây nôn và có thể gây
+tan máu ở người thiếu G6PD.
+* Chỉ định và liều dùng :
+Vitamin K có thể uống hoặc tiêm bắp, dưới da hoặc tiêm tĩnh mạch (dạng tan trong nước)
+với liều 100 - 200mg/ngày cho những bệnh nhân :
+- Thiếu vitamin K do nguyên nhân khác nhau.
+- Chuẩn bị phẫu thuật (đề phòng chảy máu trong và sau phẫu thuật ). Những trường hợp
+này phải dùng thuốc trước 2 -3 ngày.
+- Giảm prothrombin máu
+- Ngộ độc dẫn xuất coumarin.
+1.2.1.2. Calci clorid:
+Ca+2 cần để hoạt hóa các yếu tố VIII, IX và X để chuyển prothrombin sang thrombin .
+Liều trung bình: uống 2- 4g mỗi ngày, dùng cách quãng từng thời kỵ 3 - 4 ngày, rồi nghỉ.
+Tiêm tĩnh mạch cho những trường hợp chảy máu: 20ml dung dịch 5%. Thuốc tiêm ra
+ngoài tĩnh mạch sĩ gây loét. Tuyệt đối cấm tiêm bắp thịt.
+1.2.1.3. Coagulen
+Là tinh chất máu toàn phần, đặc biệt có tinh chất của tiểu cầu. Dùng trong ngoại khoa ở
+người bệnh ưa chảy máu và trong những trạng thái chảy máu (ban chảy máu, đi ngoài ra
+máu v.v...).
+Uống 1-5 ống mỗi ngày (ống 20ml).
+Hemocoagulen: ống tiêm 5ml. Trường hợp  nặng, có thể tiêm tới 4 ống mỗi ngày.
+1.2.1.4. Carbazochrom (Adrenoxyl):
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Làm tăng sức kháng mao mạch, giảm tính thấm thành mạch, nên làm giảm thời gian chảy
+máu. Tác dụng sau khi tiêm 6-24 giờ (tiêm bắp 1,5 - 4,5 mg mỗi ngày hoặc uống 10-30
+mg mỗi ngày).
+Chữa chảy máu do giòn mao mạch hoặc phòng chảy máu sau phẫu thuật tạo hình, tai mũi
+họng, cắt bỏ tuyến tiền liệt.
+1.2.1.5. Ethamsylat và dobesilat calci:
+Làm tăng sức kháng mao mạch, giảm tính thấm thành mạch. Dùng phòng chảy máu cấp
+trong phẫu thuật tạo hình, tai mũi họng, cắt bỏ tuyến tiền liệt, rong kinh.
+Mỗi ngày tiêm bắp 250-500mg hoặc uống 750-1500mg.
+1.2.1.6. Vitamin P (flavonoid, rutosid rutin và dẫn xuất):
+Rutosid và dẫn xuất nguồn gốc thực vật có hoạt tính vitamin P đều giảm tính thấm thành
+mạch và làm tăng sức kháng mao mạch do ức chế sự tự oxy hóa của adrenalin, và ức chế
+COMT ở gan, do đó kéo dài tác dụng của hormon này.. Hoạt tính vitamin P biểu hiện rõ
+trên sự tổng hợp mucopolysacharid  và glycoprotein của mô liên kết. Uống 20 -40mg mỗi
+ngày, chữa giòn mao mạch và tăng tính đàn hồi mạch máu, có tác dụng sau khi uống 6
+giờ.
+1.2.2. Thuốc làm đông máu tại chỗ
+1.2.2.1. Enzym làm đông máu
+* Thrombokinase (prothrombinase): là tinh chất của phủ tạng người và động vật, thường
+lấy ở não và phổi. Tinh chất này chứa th rombokinase và cả những yếu tố đông máu khác.
+Tác dụng không chắc chắn bằng thrombin. Dùng khi chảy máu ít, tại chỗ, thường xuyên
+(chảy máu cam, răng miệng) và cả trong trường hợp chảy máu nhiều (phối hợp với băng
+chặt).
+* Thrombin: Chuyển fibrinogen thành  fibrin đơn phân, rồi thành fibrin polymer không tan
+trong huyết tương.
+Chỉ dùng tại chỗ, tuyệt đối không tiêm tĩnh mạch (vì máu đang chảy sĩ  gây đông máu
+nguy hiểm).
+Uống để chữa chảy máu dạ dày.
+1.2.2.2. Những loại khác
+- Các keo cao phân tử giúp tăng nhanh đông máu : Pectin, albumin v.v...
+- Gelatin, fibrin dạng xốp  tăng diện tiếp xúc, qua đó hủy tiểu cầu nhiều hơn, máu đông
+nhanh hơn.
+- Muối kim loại nặng: Làm biến chất albumin, làm kết tủa fibrinogen và các protein khác
+của máu. Hay dùng dung dịch FeCl3 10% bôi tại chỗ hoặc tẩm bông FeCl 3 đắp lên vết
+thương.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Thuốc làm săn: Làm co mao mạch nhỏ, nên chống đông. Thường dùng tanin, muối Al,
+Pb, Zn hoặc KMnO4 pha loãng.
+1.3. Thuốc chống đông máu
+1.3.1. Thuốc dùng ở phòng  thí nghiệm và ngoài cơ thể
+- Để giảm vì tiểu cầu, ống nghiệm phải tráng parafin, colodion, phim silicon.
+ống
+nghiệm bằng pyrex làm máu đông chậm hơn là khi dùng loại bình thường.
+- Dùng natri oxalat, natri fluorid để ngăn tác động của Ca +2.
+- Natri citrat tạo phức hợp với Ca +2; kết hợp với fibrinogen và các yếu tố II, VII, IX, X nên
+làm chậm đông máu. Máu dự trữ để truyền cho người bệnh thường có natri citrat (3 -4,0
+gam/0,5l máu), vào cơ thể, nồng độ đó bị pha loãng, không có tai biến chảy máu in vivo.
+Nếu truyền nhiều, cần chú ý đến độc  tính của natri citrat.
+- Chất càng cua (chelating agents) như dinatri tetracemat (muối natri của acid etylen
+diamin tetracetic, EDTA, Complexon III, Sequestren) có tác dụng  gắp Ca +2.
+1.3.2. Thuốc dùng ở lâm sàng
+Trong thực tế hay dùng ba loại :
+- ức chế sự tổng hợp của các yếu tố đông máu ở gan (yếu tố II, VII, IX, X): Loại này chỉ
+tác dụng in vivo: dẫn xuất coumarin và indandion.
+- ức chế tác dụng của các yếu tố đông máu : Loại này tác dụng cả in vivo và in vitro:
+heparin.
+- Chống kết dính tiểu cầu: aspirin, dipyridamol, ticlopidin, clopidogel.
+1.3.2.1. Thuốc chống đông đường uống :  Dẫn xuất của coumarin và indandion:
+Là thuốc tổng hợp, độc bảng B.
+- Dẫn xuất 4-hydroxycoumarin có: warfarin, phenprocoumon, acenocoumarol,
+dicoumarol, coumetarol, tromexan.
+- Dẫn xuất indadion có : phenylindadion, clophenindion.
+* Cơ chế tác dụng :
+Do dẫn xuất coumarin và indandion có cấu trúc gần giống vitamin K, nên ức chế cạnh
+tranh enzym epoxid-reductase làm cản trở sự khử vitamin K -epoxid thành vitamin K cần
+thiết cho sự carboxyl hóa các  tiền yếu tố đông máu dưới sự xúc của carboxylase thành
+các yếu tố đông máu II, VII, IX và X.Vì thế các thuốc nhóm này còn được gọi là thuốc
+kháng vitamin K.
+* Dược động học :
+Hấp thu nhanh qua đường tiêu hóa, nhưng xuất hiện tác dụng sau khi uống 24-36 giờ. Các
+thuốc gắn vào protein tỷ lệ rất cao, tromexan 90%, warfarin 97%, phenprocoumon 99%.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Nhiều dẫn xuất của coumarin chuyển hóa qua hệ enzym oxy hóa ở microsom gan như :
+dicoumarol, warfarin, tromexan...
+Chất chuyển hóa thải trừ qua nước tiểu và mật - nhiều thuốc có chu kỵ gan ruột. Thuốc có
+thể đi qua rau thai, qua sữa. Nồng độ thuốc trong rau thai và trẻ em bú mẹ cao có thể gây
+xuất huyết cho thai nhi và trẻ bú mẹ. Nếu uống thuốc vào 3 tháng đầu thai kỵ có thể gây
+cho trẻ sơ sinh một số dị thường ở mũi, mắt, xương.
+* Độc tính :
+- Dùng liều cao, kéo dài gây rối loạn thẩm phân mao mạch, xuất huyết, rất nguy hiểm ở
+bệnh nhân loét dạ dày tá tràng, chấn thương, cao huyết áp.
+- Dị ứng, rụng tóc, viêm gan, thận, tăng bạch cầu ưa acid, nhưng lại  giảm hoặc mất bạch
+cầu hạt.
+- Nước tiểu đỏ màu da cam.
+* Khi phối hợp dẫn xuất coumarin và indandion với một số thuốc có thể xẩy ra tương tác
+dẫn đến thay đổi dược động học hoặc tác dụng .
+- Thuốc làm thay đổi dược động học của coumarin và indandion :
++ Giảm hấp thu coumarin qua ống tiêu hóa:
+Thuốc làm tăng pH dạ dày, thuốc nhuận tràng, thuốc kháng cholinergic, dầu parafin, than
+hoạt, cholestyramin (tạo phức với couramin).
++ Thuốc đẩy coumarin ra khỏi protein- huyết tương :
+Clofibrat, phenylbutazon, sulfamid, tolbutamid, salicylat, acid ethacrynic
++ Thuốc ức chế chuyển hóa coumarin ở microsom gan:
+Allopurinol, chloramphenicol, cimetidin, diazepam, metronidazol, phenylbutazon,
+sulfinpyrazon, thuốc chống trầm cảm loại ba vòng.
++ Thuốc cảm ứng enzym ở micros om gan làm tăng chuyển hóa coumarin: barbiturat,
+rifampicin…
+* áp dụng điều trị :
+- Chỉ định :
++ Phòng hoặc chữa bệnh tắc nghĩn mạch như: viêm tĩnh mạch, tắc mạch phổi, nhồi máu
+cơ tim.
++ Diệt chuột : warfarin.
+- Chống chỉ định: Phụ nữ có thai, cho con bú;  cao huyết áp, viêm tụy cấp; loét dạ dày - tá
+tràng tiến triển; tai biến mạch máu não và tạng chảy máu.
+- Liều lượng - cách dùng :
++ Tác dụng chống đông phụ thuộc vào từng cá thể.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
++ Trong quá trình điều trị bằng dẫn xuất coumarin hoặc indandion phải giảm l iều dần và
+cần theo dõi thời gian Quick, thời gian Howell để chỉnh liều nhằm  duy trì tỷ lệ
+prothrombin khoảng 20% so với bình thường. Sau khi dùng 36 -48 giờ làm xét nghiệm để
+đánh giá tác dụng, chọn liều duy trì phù hợp. Giai đoạn điều trị duy trì cứ sau 2 tuần cho
+xét nghiệm 1 lần.
++ Tác dụng chống đông của thuốc là gián tiếp, liên quan đến sự tổng hợp các yếu tố đông
+máu ở gan nên xuất hiện tác dụng chậm và chỉ tác dụng trong cơ thể, không có tác dụng
+trong ống nghiệm. Muốn đạt hiệu quả chống đông cần ph ải có thời gian.
++ Cần theo dõi những triệu chứng chảy máu nhỏ chứng tỏ quá liều : Chảy máu cam, chảy
+máu lợi, chảy máu trĩ, nước tiểu có vết máu, tụ máu ở da v.v...
++ Khi  quá liều hoặc ngộ độc dẫn xuất coumarin hoặc indandion dùng vitamin K để điều
+trị.
++ Dựa vào thời gian xuất hiện tác dụng, cường độ tác dụng các thuốc để chọn thời gian
+dùng thuốc phù hợp. Hiện nay có 3 nhóm chính :
+Liều duy trì các thuốc đối kháng vitamin K được tập hợp trong bảng  30.1.
+Bảng 30.1: Liều duy trì của các dẫn xuất  coumarin và indandion
+Tên thuốc
+Biệt dược
+Thời gian bán
+thải (giờ)
+Liều duy trì
+(mg/ngày)
+Acenocumarol
+Sintrom,
+24
+1-8
+Dicumarol
+24-96
+50-100
+Phenindion
+Pindione
+5-10
+50-150
+Ethylbiscoumacetat
+Tromexan
+1-2
+450 - 600
+Warfarin
+Coumadin
+36
+3-9
+1.3.2.2. Heparin
+Thuốc độc bảng B, vừa có tác dụng trong cơ thể và ngoài cơ thể.
+* Nguồn gốc:
+Heparin lúc đầu tìm thấy năm 1916 bởi McLean và có nhiều ở gan nên đặt tên heparin.
+Ngoài gan ra, heparin còn được tìm thấy ở thận, phổi, hạch bạch huyết, niêm mạc  ruột.
+Hiện nay heparin được chiết xuất từ niêm mạc ruột lợn hoặc phổi trâu, bò hoặc bán tổng
+hợp.
+* Cấu trúc :
+Heparin không phải đơn chất. Là một anion mucopolysacharid hoặc glycosaminoglycan.
+Trong cấu trúc có nhóm sulfat và carboxylic. Nhóm sulfat cần
+thiết cho sự gắn
+antithrombin với thrombin. Tỷ lệ lưu huỵnh trong phân tử heparin chiếm 13,6%.
+* Tính chất :
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
++ Là acid nội sinh mạnh nhất, có độ ion hóa mạnh, rất tan trong nước và tích điện âm ở
+pH sinh lý.
++ Vững bền ở pH trên 6,5. Đun sôi trong 20 phút ở nhiệt độ 120oC vẫn còn tác dụng.
+Nhưng uống bị phân hủy ở đường tiêu hóa mất hoạt tính.
++ Trọng lượng  phân tử khác nhau dao động từ 2 -20 kDa nhưng tác dụng sinh học giống
+nhau. Khi heparin có trọng lượng phân tử  từ 2 -7 kDa gọi là heparin trọng lượng phân tử
+thấp.
+* Tác dụng :
+- Chống đông máu.
+- Chống đông vón tiểu cầu do kích thích tổng hợp và bài tiết yếu tố hoạt hoá plasmin tổ
+chức (t-PA).
+- Hạ lipoprotein máu đặc biệt là triglycerid do giải phóng lipase giúp thuỷ phân
+triglycerid thành acid béo và glycerol. Tác dụng này xuất hiện ở những liều thấp hơn liều
+có tác dụng chống đông máu. Có hiện tượng tăng lipoprotein hội ứng (rebound) khi ngừng
+heparin.
+- Tăng tác dụng của các yếu tố phát triển nguyên bào sợi có tính acid hoặc base (aFGF và
+bFGF) làm tăng sự phân bào tế bào nội mô mao mạch, tế bào cơ trơn, tế bào trung mô gây
+ra sự tân tạo mạch.
+* Cơ chế chống đông máu :
+- Bình thường antithrombin III trong huyết tương phản ứng chậm chạp với thrombin và
+các yếu tố đông máu IX, X, XI, XII đã hoạt hóa làm mất tác dụng của các yếu tố này. Khi
+có mặt heparin, heparin tạo phức với antithrombin III. Phức hợp heparin - antithrombin III
+thúc đẩy nhanh phản ứng giữa antithrombin và thrombin; antithrombin với các yếu tố IX,
+X, XI và XII. Hậu quả các yếu tố chống đôn g đã đạt hoạt hóa mất hiệu lực nhanh, mất
+khả năng chuyển fibrinogen thành fibrin.
+- Nhờ tích điện âm do có chứa các gốc sulfat nên heparin đã làm biến dạng thrombin và
+prothrombin làm chúng dễ dàng tạo phức với antithrombin.
+* Dược động học
+Uống không hấp thu và bị phân huỷ ở đường tiêu hóa. Do vậy, phải tiêm dưới da, tiêm
+tĩnh mạch, không tiêm bắp. Heparin bị heparinase phá huỷ và thải trừ nhanh. Sau khi tiêm
+1 giờ, 30-50% được thải qua nước tiểu. Không đi qua rau thai.
+Thời gian bán thải phụ thuộc vào liều lượng. Liều  cao và ở người suy gan, thận thì thời
+gian bán thải  của thuốc dài.
+* Tác dụng không mong muốn.
+- Chảy máu, giảm tiểu cầu, triệu chứng này thường xuất hiện sau khi tiêm heparin 7 -14
+ngày và hồi phục sau khi ngừng thuốc.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Dị ứng, nhức đầu, nôn, gây nốt đau, hoại tử gân nếu tiêm dưới da dài ngày. Dùng kéo
+dài với liều trên 15000 đơn vị/ngày gây loãng xương.
+- Tăng AST, ALT.
+* áp dụng điều trị :
+- Chỉ định: phòng, chống huyết khối. Tác dụng tăng khi dùng kết hợp với các thuốc chống
+đông vón tiểu cầu như: aspirin, các thuốc chống viêm phi steroid khác, dipyridamol,
+ticlopidin v.v...và sĩ  mất tác dụng khi trộn lẫn với gentamicin, colistin, cefaloridin do  bị
+kết tủa.
+- Chống chỉ định:
++ Tạng ưa chảy máu; loét dạ dày- tá tràng tiến triển; vết thương.
++ Giảm chức năng gan, thận; cơ thể suy nhược, viêm nội tâm mạc, nhiễm trùng, lao tiến
+triển.
+- Chế phẩm và liều dùng :
++ Lọ 5000 - 25000 đơn vị/ml
+Một đơn vị heparin là lượng heparin ngăn cản được sự đông đặc 1ml huyết tương đã được
+làm mất calci bởi citrat.
++ Liều dùng tuỵ thuộc vào từng bệnh nhân. Thông thường truyền tĩnh mạch 6000 đơn
+vị/trong 6 giờ với tốc độ 1000 đơn vị/giờ.
+Hoặc truyền tĩnh mạch khởi đầu 5000 - 10000 đơn vị, sau đó cách 4-6 giờ truyền   5000 -
+10000 đơn vị. Liều tiếp theo phụ thuộc vào thời gian đông máu và thời gian Howell.
+- Khi quá liều phải ngừng haparin ngay và tiêm tĩnh mạch chậm protamin sulfat để trung
+hòa với tốc độ 50 đơn vị/phút.
+Protamin sulfat là protein kiềm trọng lượng phân tử thấp, thải trừ nhanh hơn heparin
+nhưng có khả năng phân ly phức hợp antithrombin III -heaprin và kết hợp với heparin làm
+mất tác dụng chống đông.
+Một mg protamin sulfat trung hòa được 100 đơn vị heparin.
+* Hiện có heparin trọng lượng phân tử thấp, nhưng có tác dụng sinh học chỉ định, chống
+chỉ định và tai biến gần giống heparin nguồn gốc tự nhiên. Tuy nhiên, có tác dụng đối
+kháng yếu tố X hoạt hóa mạnh và thời gian tác dụng dài hơn heparin thông thường. Do
+vậy, chỉ cần tiêm dưới da một lần/ngày. Một số heparin trọng lượng phân tử thấp đang
+được sử dụng tóm tắt trong bảng 30.2.
+Bảng 30.2: Chế phẩm và liều lượng một số heparin trọng lượng phân tử thấp
+    Tên gốc
+   Biệt dược
+    Hàm lượng
+ Liều dùng/ngày
+Certoparin
+Alphaparin
+3000 đơn vị/0,3ml
+3000 đơn vị
+Dalteparin
+Fragmin
+12500, 25000đơn vị /ml
+ 2500 đơn vị
+Enoxaparin
+Clexan
+100mg/ml
+ 20 mg(2000 đơn vị)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Reviparin
+Clivarin
+1432 đơn vị/ 0,25ml
+1432 đơn vị
+Tinzaparin
+Innohep
+10000 đơn vị /ml
+3500 đơn vị
+1.3.2.3. Heparinoid tổng hợp:
+Là polysacharid bị ester hóa bởi acid sulfuric, có công thứ c hóa học gần giống heparin, cơ
+chế tác dụng giống heparin nhưng tác dụng chống đông yếu hơn.
+- Partiol tác dụng kém heparin 7 lần.
+- Trebuton tác dụng yếu hơn heparin 3 -4 lần.
+1.3.2.4. Hirudin
+Là đa peptid có 65 acid amin, trọng lượng phân tử 7000 - 9000 được chứa trong tuyến đơn
+bào ở trong thực quản của đỉa, vắt, có tác dụng chống đông máu do ngăn cản tác dụng của
+thrombin thông qua sự tạo phức với thrombin làm cho fibrinogen không chuyển thành
+fibrin.
+Thrombin
+      (-)
+ Hirudin
+Fibrinogen
+ Fibrin
+Dùng Hirudin trong chẩn đoán xác định hoạt tính của các yếu tố đông máu như thrombin
+(Hirudin-toleranz-test; Hirudin test). Hiện chưa được dùng điều trị vì số lượng tách chiết
+còn hạn chế.
+Trong tương lai nhờ kü thuật gen có thể sản xuất được hiru din để sử dụng trong điều trị,
+chống huyết khối.
+1.4. Thuốc chống kết dính tiểu cầu
+Tiểu cầu là những tế bào không nhân, hình đĩa, tích điện âm mạnh. Trên bề mặt màng tiểu
+cầu có chứa các yếu tố đông máu I, V, VII. Có các fibrinogen receptor (Gp IIb/IIIa) và
+đặc tính kết dính và kết tụ nên khi thành mạch bị tổn thương các tiểu cầu dính vào nơi bị
+tổn thương và dính vào nhau thành từng lớp tạo ra nút trắng tiểu cầu còn gọi là đinh cầm
+máu Hayem. Trong quá trình kết dính, tiểu cầu còn giải phóng ra phospholip id giúp thúc
+đẩy quá trình tạo ra phức hợp prothrombinase.
+Sự kết dính tiểu cầu là yếu tố tạo ra mảng xơ vữa động mạnh và gây nên tắc mạch.
+Hiện có một số thuốc chống kết dính tiểu cầu được sử dụng trong lâm sàng để phòng và
+điều trị huyết khối như: thuốc chống viêm phi steroid (aspirin), dipyridamol, ticlopidin,
+clopidogrel và thuốc ức chế glycoprotein IIb/IIIa.
+1.4.1. Aspirin (acid acetylsalicylic)
+Ngoài tác dụng hạ sốt, giảm đau, chống viêm, aspirin còn có tác dụng chống đông vón
+tiểu cầu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Cơ chế : xin xem bài “Thuốc hạ sốt, giảm đau, chống viêm”.
+- Dùng liều thấp duy nhất 10mg/kg cân nặng, cách quãng 48 giờ, aspirin ức chế 90%
+cyclooxygenase của tiểu cầu, rất ít ảnh hưởng đến cyclooxygenase của nội mô mao mạch
+nên ảnh hưởng không đáng kể sự tổng hợp củ a prostacyclin I2. Do vậy, tác dụng chống
+kết dính tiểu cầu và kéo dài thời gian chảy máu ở liều này là tối đa. Dùng liều cao aspirin
+không chỉ ức chế COX ở tiểu cầu mà còn ức chế COX ở nội mô mao mạch nên hiệu quả
+chống kết dính tiểu cầu không cao.
+- Ngoài ức chế COX ở tiểu cầu, aspirin còn làm ổn định màng tiểu cầu, hạn chế sự giải
+phóng ADP và phospholipid nên giảm sự kết dính tiểu cầu và tăng thời gian chảy máu.
+- Chỉ định: dùng aspirin trong phòng và điều trị huyết khối động - tĩnh mạch với liều duy
+trì 75 mg/ngày..
+- Chống chỉ định và tác dụng không mong muốn (xin xem bài thuốc hạ sốt, giảm đau và
+chống viêm).
+- Hết sức thận trọng khi phối hợp aspirin với thuốc chống kết dính tiểu cầu khác và thuốc
+chống đông máu như heparin, dẫn xuất coumarin.
+1.4.2. Dipyridamol (Persantone, Peridamol)
+Vừa có tác dụng giãn mạch vành, vừa có tác dụng chống đông vón tiểu cầu do :
++ ức chế sự nhập adenosin vào tiểu cầu và ức chế adenosin desaminase làm tăng adenosin
+trong máu. Adenosin tác động lên A 2-receptor làm giảm sự đông vón tiểu cầu.
++ ức chế phosphodiesterase làm tăng AMP v trong tiểu cầu.
+- Chỉ định: thuốc được phối hợp với warfarin trong phòng huyết khối ở bệnh nhân thay
+van tim nhân tạo.
+1.4.3. Ticlopidin (Ticlid)
+- Do ticlopidin tương tác với glycoprtein IIb/III a receptor của fibrinogen làm ức chế sự
+gắn fibrinogen vào tiểu cầu hoạt hóa, ngăn cản sự kết dính tiểu cầu.
+Ngoài ra, thuốc còn làm tăng prostaglandin D 2 và E2 góp phần chống đông vón tiểu cầu và
+tăng thời gian chảy máu.
+- Thuốc được dùng để phòng huyết khối ở bệnh nhân bị bệnh tổn thương mạch não hoặc
+mạch vành với liều 500mg/ngày.  Không dùng thuốc cho trẻ em. Khi dùng có thể gặp một
+số tác dụng không mong muốn: chảy máu, buồn nôn, ỉa chảy, giảm bạch cầu trung tính.
+1.4.4. Clopidogrel (Plavix)
+- Thuốc có tác dụng chống đông vón tiểu cầu do:
++ ức chế chọn lọc thụ thể ADP của tiểu cầu.
++ Ngăn cản sự hoạt hóa glycoprotein IIb/IIIa của fibrinogen trên tiểu cầu, làm giảm sự
+gắn fibrinogen vào tiểu cầu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Uống liều duy nhất 75mg/ngày để phòng đông vón tiểu cầu.
+1.4.5.   Các chất ức chế glycoprotein IIb/IIIa receptor:
+Glycoprotein IIb/IIIa có vai trò làm tăng sự gắn của fibrinogen vào receptor trên tiểu cầu.
+Một số thuốc gắn vào glycoprotein IIb/IIIa receptor ngăn cản sự gắn của fibrinogen vào
+tiểu cầu có tác dụng chống đông vón tiểu cầu.
++ Abcimab (Reopro): là một kháng thể đơn dòng, khởi đầu tiêm chậm tĩnh mạch     250
+mcg/kg, sau đó  truyền tĩnh mạch 125 nanogam/kg/phút (tối đa 10mcg/phút).
++ Eptifibatid (Integrilin): là peptid tổng hợp, khởi đầu tiêm  tĩnh mạc h 180 mcg/kg, sau đó
+truyền tĩnh mạch 2 mcg/kg/phút liên tục trong 72 -96 giờ.
++ Tirofiban (Aggrastat): khởi đầu tiêm chậm tĩnh mạch 400 nanogam/kg/phút trong   30
+phút, sau đó  truyền tĩnh mạch 100 mcg/kg/phút trong ít nhất 48 giờ.
+2. Thuốc tiêu fibrin
+Cục máu đông có thể tan trở lại nhờ quá trình tiêu fibrin. Đó là quá trình ngược với đông
+máu. Bình thường, enzym plasmin xúc tác cho sự tiêu fibrin trong máu ở thể không hoạt
+tính gọi là plasminogen. Trong điều kiện nhất định, các chất hoạt hóa (kinase, act ivator)
+được giải phóng ra khỏi tổ chức, hoạt hóa plasminogen tạo thành plasmin. Plasmin vừa
+tạo thành giúp fibrin trở thành chất phân huỷ tan được.
+2.1. Urokinase ( Abbokinase)
+Là endopeptidase, gồm 2 chuỗi đa peptid chứa 411 acid amin, trọng  lượng phân tử
+53000, được phân lập từ nước tiểu người (URO = urine = nước tiểu) hoặc từ nuôi cấy tế
+bào phôi thận người.
+Urokinase xúc tác cho phản ứng cắt liên kết peptid của plasminogen (plasminogen có 791
+acid amin) tạo thành lys-plasminogen và chuyển thành plasmi n. Lysin cuối cùng của
+plasmin là vị trí gắn có ái lực cao với fibrin giúp cho sự thuỷ phân fibrin.
+UK bị chuyển hóa ở gan và có thời gian bán thải 15 -20 phút. Thuốc chỉ được tiêm tĩnh
+mạch, khởi đầu 1.000 - 4.500 đơn vị/kg thể trọng, sau đó duy trì 4.400 đơn vị/giờ. Thuốc
+hầu như không có tính kháng nguyên, không bị trung hòa bởi kháng thể, nhưng có thể gây
+sốt.
+2.2. Streptokinase ( SK, Streptase)
+Gồm một chuỗi đapeptid, phân tử lượng 48000, được phân lập từ liên cầu tan máu nhóm
+A.
+Streptokinase kết hợp với plasminogen theo tỷ lệ đồng phân tử (equimolar) tạo thành phức
+hợp SK-plasminogen. Phức hợp này cắt liên kết arginin -valin ở vị trí 560 của plasminogen
+chuyển thành SK-plasmin có hoạt tính tiêu fibrin.
+Ngoài tiêu fibrin, streptokinase còn xúc tác cho ph ản ứng thuỷ phân nucleoprotein thành
+các base purin tự do và pyrimidin nucleotid, do vậy làm loãng các dịch đông đặc như mủ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Sau khi tiêm tĩnh mạch với liều thấp thời gian bán thải khoảng 18 phút, nhưng khi tiêm
+liều cao hoặc liều thấp kéo dài thì thời gia n bán thải  đạt 83 phút vì hết hiện tượng kết hợp
+kháng thể kháng streptokinase do đã bão hòa. Thuốc bị chuyển hóa và thải trừ qua thận.
+- Trong quá trình dùng thuốc có thể gặp một số tác dụng không mong muốn: chảy máu, dị
+ứng hay gặp vào ngày thứ 8, nên sau khi dùng thuốc 8 ngày, cần phải chuyển sang dùng
+thuốc khác.
+- Liều dùng :
++ Khởi đầu tiêm tĩnh mạch 500.000 đơn vị trong 30 phút, sau đó mỗi giờ tiêm   100.000 -
+150.000 đơn vị và dùng trong 24 - 48 giờ liền. Trong nhồi máu cơ tim có thể truyền tĩnh
+mạch1500000 đơn vị trong 60 phút.
++ Có thể hòa tan 20.000 - 100.000 đơn vị vào 5-20ml nước muối sinh lý để tiêm th¼ng vào
+túi mủ sau 6 - 24 giờ hút ra.
+2.3. Anitreplase (Aminase)
+Là phức hợp của plasminogen người tinh khiết và streptokinase của vi khuẩn đã được
+acetyl hoá để bảo vệ vị trí hoạt động của enzym. Khi sử dụng, nhóm acetyl được thuỷ
+phân, giải phóng phức hợp streptokinase - chất tiền hoạt hoá thành phức hợp, hoạt hoá
+plasminogen thành plasmin. Thuốc có tác dụng trên plasminogen của cục máu đông mạn h
+hơn plasminogen tự do nên làm tan cục huyết khối nhanh. Ngoài cơ chế trên thuốc còn
+làm giảm yếu tố V,VIII và chất ức chế tiêu fibrin α-2-antiplasmin.
+2.4. Chất hoạt hoá plasminogen mô(t -PA, Alteplase)
+Là một protease sản phẩm của của kü thuật tái tạo ge n chứa 527 acid amin có tác dụng
+trên plasminogen gắn với fibrin mạnh gấp vài trăm lần plasminogen tự do. Khi lượng
+fibrin thấp tác dụng chuyển plasminogen thành plasmin thấp. Thuốc có thời gian bán thải
+ngắn 5-10 phút. Trong nhồi máu cơ tim cấp tiêm tĩnh mạch  15 mg sau đó truyền tĩnh
+mạch 50 mg trong 30 phút và trong 60 phút tiếp theo truyền 35 mg (tổng liều truyền trong
+90 phút không vượt quá 100 mg).
+2.5.Reteplase (r-PA, Retavase, Rapilysin)
+Là chất hoạt hoá plasminogen tái tổ hợp thuộc thế hệ thứ 3, t ác dụng giống Alteplase
+nhưng cường độ và thời gian xuất hiện tác dụng nhanh hơn. Thuốc được dùng trong nhồi
+máu cơ tim cấp khởi đầu tiêm chậm tĩnh mạch 10 đơn vị trong 2 phút sau đó cứ 30 phút
+tiêm thêm 10 đơn vị.
+2.6. Tenecteplase (Metalyse)
+Thuốc mới có tác dụng tiêu fibrin và chỉ định như r eteplase, tiêm tĩnh mạch toàn bộ liều
+500-600 mcg/kg nhưng không vượt quá 50mg.
+2.7. Chỉ định và chống chỉ định của các thuốc tiêu fibrin
+* Chỉ định:
+- Tắc nghĩn động, tĩnh mạch
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Nhồi máu cơ tim
+- Viêm mủ, đọng máu màng phổi hoặc ở các khớp xương hay các hạch dùng streptokinase
+tại chỗ.
+- Bơm vào ống dẫn lưu mủ để tránh tắc (streptokinase).
+* Chống chỉ định:
+Sau khi phẫu thuật chưa quá 8 ngày; mới đẻ hoặc sảy thai chưa quá 4 ngày; cao huyết áp
+nghiêm trọng, quá trình cầm máu bất thường; cơ địa dị ứng; mới dùng streptokinase chưa
+quá 6 tháng; mới bị bệnh do liên cầu; có thai (thuốc không qua rau thai, nhưng đề phòng
+bong rau sớm); chảy máu đường tiêu hóa nặng trong vòng 3 tháng; tiền sử tai biến mạch
+máu não; viêm màng ngoài tim cấp; phẫu thuật động mạch chủ; viêm tụy cấp; bệnh gan
+nặng.
+2.8. Chất hoạt hóa plasminogen
+Là những chất giúp giải phóng chất hoạt hóa (kinase, activator) để hoạt hóa plasminogen
+hoặc tăng tổng hợp plasminogen và cuối cùng làm cho fibrin trở th ành chất phân hủy tan
+được. Thường dùng ethylestrenol, phenformin, nicotinamid. Dùng khi cơ thể không tự
+giải phóng được chất hoạt hóa, ví dụ khi ứ máu tĩnh mạch do tai biến huyết khối tĩnh
+mạch, hoặc phòng tái phát viêm tĩnh mạch (dùng ethylestrenol cùng phenformin).
+3. Thuốc chống tiêu fibrin
+Có trạng thái bệnh làm tiêu nhanh fibrin, gây chảy máu trầm trọng, ví dụ khi người bị
+bệnh tăng plasmin trong máu.
+Plasmin không những làm tiêu fibrin, mà còn kết hợp với một số yếu tố đông máu và hủy
+hoại chúng, làm cơ chế đông máu càng rối loạn.
+Những phân tử mới sinh do fibrin bị hủy cũng kết hợp lại với fibrin để cho phức hợp
+không đông được nữa. Những chất phân huỷ này còn làm cho tiểu cầu không ngưng kết
+thành cục được. Kết quả làm chảy máu trầm trọng.
+Thuốc làm giảm sự tiêu fibrin sĩ có tác dụng cầm máu. Hiện có một số thuốc chống tiêu
+fibrin đang được sử dụng trên lâm sàng để cầm máu.
+3.1. Aprotinin (Trasylol)
+Là thuốc ức chế protease gồm 58 acid amin, có 3 cầu nối disulfur, phân tử lượng 6500,
+lấy từ tuyến mang tai, phổi, gan. Điều chế đắt tiền, thời gian bán thải ngắn:150 phút; chỉ
+tiêm tĩnh mạch hoặc truyền tĩnh mạch với liều lượng tuỵ thuộc vào chỉ định. Phòng chảy
+máu khi phẫu thuật tim mở liều 2000000 đơn vị, chảy máu do tăng plasmin máu khởi đầu
+500000-1000000 đơn vị.
+Thuốc tạo phức với plasmin để cho phức hợp mới “aprotinin -plasmin” không có hoạt tính
+plasmin. Aprotinin còn ức chế được các enzym huỷ protein khác nữa, như trypsin,
+chymotrypsin, kalikrein.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Aprotinin thải qua nước tiểu dưới dạng mất hoạt tín h, nên không dùng để chống tiêu
+fibrin đường tiết niệu. Dùng nhiều lần có thể gây những phản ứng quá mẫn ở người có cơ
+địa dị ứng.
+3.2. Thuốc tổng hợp
+3.2.1. Acid - aminocaproic
+Có cấu trúc giống lysine có tác dụng chống tiêu fibrin nhờ hai nhóm amin và  carboxyl
+cách nhau 0,7nm, ức chế sự hoạt hóa của plasminogen, kìm hãm không cho plasmin tác
+động lên fibrin, làm cho fibrin không bị giáng hóa bởi plasmin nữa.
+Thuốc không ức chế được các chất hoạt hóa plasminogen (kinase, activator). Thuốc có thể
+uống 24 gam chia làm 4 lần trong ngày hoặc tiêm chậm tĩnh mạch 5 -7,5g để dự phòng
+hoặc điều trị chảy máu.
+3.2.2.  Acid tranexamic (Cyclokapron )
+Là đồng đ¼ng và có tính chất, tác dụng giống  acid - aminocaproic, có thể tiêm tĩnh
+mạch hoặc uống để phòng chảy máu sau mổ tuyến tiền liệt, nhổ răng ở người bị
+hemophilia hoặc quá liều thuốc tiêu cục máu đông hoặc phụ nữ bị đa kinh với liều 2 -
+4g/24 giờ, chia làm 3 lần .
+3.3. áp dụng điều trị của thuốc chống tiêu fibrin
+- Chỉ định: Dùng trong trạng thái tiêu fibri n nguyên phát, tiêu fibrin cấp, dự phòng chảy
+máu sau phẫu thuật tạo hình, tai mũi họng, cắt bỏ tuyến tiền liệt v.v...
+- Chống chỉ định: Độc tính của Acid - aminocaproic  và acid tranexamic rất ít, tuy nhiên
+cần dùng thận trọng khi suy thận nặng (có thể g ây tích luü thuốc), khi có tiền sử hoặc đã
+có biểu hiện huyết khối tắc tĩnh mạch hoặc động mạch.
+Vị trí tác dụng của thuốc tiêu fibrin và chống tiêu fibrin xin xem trong cuốn “Dược lý học
+lâm sàng.
+Câu hỏi tự lượng giá
+1. Trình bày cơ chế tác dụng và áp dụng  điều trị của vitamin K.
+2. Trình bày cơ chế tác dụng và áp dụng điều trị của heparin.
+3. Trình bày cơ chế tác dụng và áp dụng điều trị của dẫn xuất coumarin.
+4. Trình bày cơ chế tác dụng chống đông vón tiểu cầu và áp dụng điều trị của
+aspirin.
+5. Trình bày cơ chế tác dụng tiêu fibrin và áp dụng điều trị của urokinase và
+streptokinase.
+6. Trình bày cơ chế tác dụng tiêu fibrin và áp dụng điều trị của anistreplase và chất
+hoạt hoá plasminogen mô.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+7. Trình bày cơ chế tác dụng chống tiêu fibrin và áp dụng điều trị của aprotinin và
+acid - aminocaproic.
+Hãy so sánh dược động học và cơ chế tác dụng của heparin và dẫn xuất coumarin .

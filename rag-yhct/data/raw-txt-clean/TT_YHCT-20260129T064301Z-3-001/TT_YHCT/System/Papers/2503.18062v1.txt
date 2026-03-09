@@ -1,0 +1,961 @@
+ar Xiv:2503.18062v1 [cs. CL] 23 Mar 2025
+In vestigating Recent Large Lan guage Models for
+Viet namese Mac hine Reading Com prehen sion
+Anh Duc Nguyen, Hieu Minh Phi, Anh Viet Ngo, Long Hai Trieu, Thai Phuong Nguyen
+University of En gineering and Tec hnology - Viet nam National University
+(22022504, 21020200, 22022508, thlong, thainp)@vnu. edu. vn
+Abstract—Large
+Lan guage
+Models
+(LLMs)
+have
+shown
+remarkable proficien cy in Mac hine Reading Com prehen sion
+(MRC)
+tasks; however,
+their effec tiveness
+forlow-resource
+lan guages like Viet namese remains largely unexplored. In this
+paper, we fine-tune and evaluate two state-of-the-art LLMs:
+Llama 3 (8B parameters) and Gem ma (7B parameters), on
+Vi MMRC, a Viet namese MRC dataset. By utilizing Quan tized
+Low-Rank Adap tation (QLo RA), we efficien tly fine-tune these
+models and com pare their performan ce against powerful LLM-
+based baselines. Although our fine-tuned models are smaller than
+GPT-3 and GPT-3.5, they out perform both traditional BERT-
+based ap proac hes and these larger models. This demonstrates
+the effec tiveness of our fine-tuning process, showcasing how
+modern LLMs can surpass the capabilities of older models like
+BERT while still being suitable for dep loyment in resource-
+constrained en viron ments. Through in ten sive analyses, we explore
+various aspects of model performan ce, providing valuable in sights
+in to adap ting LLMs for low-resource lan guages like Viet namese.
+Our study con tributes to the advan cement of natural lan guage
+processing in low-resource lan guages, and we make our fine-
+tuned models public ly available at: https://huggin gface. co/iaiuet.
+In dex
+Terms—Large
+lan guage
+models,
+mac hine
+reading,
+com prehen sion, fine-tuning models
+I. IN TRODUC TION
+Mac hine Reading Com prehen sion (MRC) has emerged as
+a critical area of research in Natural Lan guage Processing
+(NLP), pushing the boun daries of mac hine in telligen ce in
+un derstan ding and processing human lan guage. MRC tasks,
+which in volve the com plex in terplay bet ween a passage, a
+question, and an an swer, challen ge mac hines to com prehend
+text
+an dac curately
+respond
+toqueries
+based
+on that
+un derstan ding [1], [2]. This capability is fun damen tal to
+advan ced NLP ap plications and serves as a benchmark for
+lan guage un derstan ding and reasoning abilities in artificial
+in telligen ce systems. For in stan ce, con sider the exam ple shown
+in Fig. 1, which illustrates a typical MRC task. The MRC
+systems must un derstand the passage and ac curately iden tify
+the correct an swer from the given op tions. Such tasks not on ly
+test the system’s com prehen sion abilities but also its capacity
+for reasoning and con textual un derstan ding [2].
+In recent years, large lan guage models (LLMs) have
+demonstrated remarkable proficien cy ac ross various NLP
+tasks, in cluding MRC, ac hieving state-of-the-art (SOTA)
+results [3]–[5].
+However, the performan ce of these models often diminishes
+when scaled down to smaller parameter sizes, particularly
+Referen ce:
+Bố đi câu về, không một lần nào là chúng tôi không có
+quà.
+Mở thúng câu ra là cả một thế giới dưới nước: cà cuống,
+niềng niễng đực, niềng niễng cái bò nhộn nhạo. Hoa sen
+đỏ, nhị sen vàng tỏa hương thơm lừng. Những con cá
+sộp, cá chuối quẫy tóe nước, mắt thao láo...
+(When Dad went fishing, he never came back wit hout
+gifts for us.
+Opening the fishing basket was like revealing a whole
+un derwater world: giant water bugs, male and female
+dam selflies wriggling around. Red lotus flowers, yellow
+lotus stamens spreading a fragrant aroma. Big fish and
+snakehead fish splashing water, their eyes bulging... )
+Question: Quà của bố có những gì sau những buổi đi
+câu về? (What are dad’s gifts after returning from fishing
+trips?)
+Op tions:
+A. Cà cuống, niềng niễng, hoa sen, cá sộp và cá chuối.
+(Water bugs, dam selflies, lotus, big fish and snakehead
+fish)
+B. Con chim, con châu chấu và con bướm. (Bird,
+grasshop per and but terfly)
+C. Con khỉ, con thỏ, con cò hương và con khướu.
+(Mon key, rabbit, stork and babbler)
+D. Con xập xành, con muỗm và con dế. (Giant cric kets,
+mole cric kets and male cric kets)
+Fig. 1. An exam ple of MRC task (En glish tran slation is in italics).
+for lan guages with fewer resources than En glish [6]. This
+challen ge is particularly evident in Viet namese, a lan guage
+with relatively fewer NLP resources com pared to En glish.
+The in troduc tion of the Vi MMRC dataset [7] has provided
+a stan dardized benchmark for evaluating and im proving
+Viet namese MRC systems. However, the effec tiveness of
+SOTA LLMs on this dataset remains unexplored, highlighting
+the need for im provement in Viet namese MRC capabilities.
+To address this gap, our study focuses on evaluating
+and fine-tuning two cut ting-edge LLMs, i. e., Llama 3 (8B
+
+
+TABLE I
+STATISTICS OF DATASET VIMMRC
+Grade
+1
+2
+3
+4
+5
+All
+Num ber of texts
+10
+70
+188
+99
+120
+417
+Vocabulary size
+595
+3,325
+4,666
+5,006
+5,702
+10,099
+Num ber of questions
+60
+514
+759
+709
+741
+2,783
+parameters) [8] and Gem ma (7B parameters) [9], on the
+Vi MMRC dataset. We aim to demonstrate the necessity
+and effec tiveness of fine-tuning LLMs to en han ce their
+performan ce in Viet namese MRC tasks. Our results show that
+fine-tuned base LLMs ac hieve significan tly higher ac curacy
+com pared to their pre-fine-tuned versions. Notably, our fine-
+tuned models, despite having relatively small parameter
+counts, out perform much larger models such as GPT-3 and
+GPT-3.5, demonstrating the efficien cy and effec tiveness of
+our fine-tuning process. This research not on ly con tributes
+to the advan cement of Viet namese NLP but also provides
+valuable in sights in to the adap tability of LLMs for specific
+lan guages and tasks. Our fin dings have poten tial im plications
+for educational tec hnology, in formation ret rieval systems, and
+ot her AI-driven ap plications in Viet namese-lan guage con texts.
+The main con tributions of this paper are as follows:
+• Several SOTA LLM models are evaluated and finetuned
+using the Quan tized Low-Rank Adap tation (QLo RA) on
+a Viet namese MRC task, which are efficient in terms
+of com putational resources due to fewer parameters
+but ac hieve SOTA performan ce and out perform several
+powerful baselines.
+• In ten sive analyses are con duc ted on the Viet namese MRC
+task, which we reveal op portunities and challen ges for
+adap ting LLMs to low-resource lan guages.
+• Our
+finetuned
+models
+arepublic ly
+released
+forcom munity
+tofurther
+advan ce
+LLM-based
+MRCtask as well as for Viet namese NLP ap plications.
+II. MODELS
+In order to evaluate recent LLMs on Viet namese MRC
+task, we selec ted several models based on their advan ced
+capabilities and public ac cessibility in cluding: Llama 3 [8]
+and Gem ma [9]. First, these models are open ly available.
+Second, both Llama 3 and Gem ma offer base and instruc tion-
+tuned variants, as well as versions with reduced parameter
+counts. The availability of smaller model sizes is particularly
+advan tageous for our experimen tal setup, as it enables
+efficient fine-tuning on the Vi MMRC dataset using limited
+com putational resources.
+III. EXPERIMEN TAL SET TINGS
+A. Llama 3
+Llama 3 [8] is published by Meta AI and available in 8
+billion (8B) and 70 billion (70B) parameter versions. Building
+on the foun dation laid by earlier Llama models [10], Llama
+3 is designed to ac hieve high-quality performan ce through
+exten sive pre-training data rat her than sheer parameter count.
+TABLE II
+CHAT TEM PLATE TO PROMPT THE MODEL FOR AN SWERING
+MULTIP LE-CHOICE QUESTIONS
+user: Use the following referen ce to an swer the given multip le-choice
+question:
+Referen ce: <Referen ce>
+Question: <Question>
+A. <Op tion 1>
+B. <Op tion 2>
+C. <Op tion 3>
+D. <Op tion 4>
+model: <An swer> (A, B, C, or D)
+TABLE III
+HYPERPARAMETERS
+Hyper-parameter
+Value
+Batch Size
+64
+Epochs
+3
+Sequen ce Length
+8192
+Warm-up Steps
+5
+Weight Decay
+0.01
+Op timizer
+Adam W
+Learning rate scheduler
+cosine
+Com pared to its predecessor Llama 2, Llama 3 features
+significant up grades, in cluding a tokenizer capable of han dling
+128k tokens and training on a massive 15 trillion tokens, which
+is seven times the data used for Llama 2. This dataset in cludes
+5% non-En glish data, en suring a diverse and com prehen sive
+training process. Llama 3 also un dergoes high-quality filtering
+to en han ce its overall performan ce, making it a powerful tool
+for various NLP ap plications. We em ploy the 8B version of
+Llama 3 in our study, and will elaborate on its performan ce
+in Sec tion III.
+B. Gem ma
+Gem ma [9] is a family of lightweight, SOTA open
+models from Google Deep Mind, derived from the Gemini
+research and tec hnology. Available in 2 billion (2B) and 7
+billion (7B) parameter versions, Gem ma demonstrates robust
+performan ce ac ross various academic benchmarks for lan guage
+un derstan ding, reasoning, and safety. Notably, the 7B model
+is op timized for efficient dep loyment on GPU and TPU, while
+the 2B model is designed for CPU and on-device ap plications.
+Gem ma models are trained on up to 6 trillion tokens, primarily
+from En glish web documents, mat hematics, and code. This
+exten sive pre-training, com bined with a high-quality filtering
+process, en sures the models’ strong generalist capabilities and
+SOTA performan ce in numerous text domains. We utilize the
+7B version of Gem ma in our study due to its feasibility on
+GPU, and will elaborate on its performan ce in Sec tion III.
+C. Dataset
+In this paper, we utilize the Vi MMRC dataset [7], a
+pioneering corpus for Viet namese multip le-choice mac hine
+reading com prehen sion (MRC). It com prises 2,783 question-
+an swer pairs extrac ted from 417 texts in ten ded for students
+from 1st to 5th grade. The distribution of texts for different
+
+
+TABLE IV
+RESULTS OF OUR FINE-TUNED MODELS ON VIMMRC
+Model
+Size
+Ac curacy
+BERTology
+179M
+82.29
+Llama 2
+7B
+33.46
+BLOOMZ
+7.1B
+79.96
+GPT-3
+175B
+77.04
+GPT-3.5
+175B
+82.88
+Llama 3Instruc ted
+8B
+84.21
+Gem ma Instruc ted
+7B
+84.94
+Llama 3Base
+8B
+84.93
+Gem ma Base
+7B
+87.11
+grades is demonstrated in Table I. Each text in the Vi MMRC
+is curated to test various levels of com prehen sion, from basic
+fac tual recall to more com plex reasoning, reflec ting the diverse
+challen ges in natural lan guage un derstan ding. By focusing on
+multip le-choice questions, the dataset allows for stan dardized
+evaluation of MRC systems, facilitating benchmarking and
+com parison ac ross different models and ap proac hes. The
+Vi MMRC dataset was partitioned in to: 1,975 pairs for training
+set, 294 pairs for develop ment set, and 514 pairs for test set.
+D. Fine-tune set tings
+In this
+study,
+weem ploy
+the
+Quan tized
+Low-Rank
+Adap tation (QLo RA) met hod [11] to fine-tune our lan guage
+models. QLo RA is a parameter-efficient met hod for adap ting
+pre-trained lan guage models by utilizing quan tization and low-
+rank adap tation. This tec hnique reduces the com putational
+cost and memory foot print, making it feasible to han dle large
+models on low com putational resources.
+We adopt the Un sloth tem plate [12] for our QLora
+im plemen tation. Following their recom men dations, we set the
+learning rates to 5e−5 for Gem ma and 2e−4 for Llama, with
+additional hyperparameters detailed in Table III.
+Our im plemen tation em ploys a struc tured chat tem plate
+(Table II) to prompt the model for an swering multip le-choice
+questions based on a given referen ce. The tem plate follows a
+con sistent format to en sure clarity and effec tiveness. The chat
+tem plate con sists of a clear distin ction bet ween user in put and
+model out put The user in put sec tion provides the necessary
+con text for the model, in cluding the referen ce text and the
+multip le-choice question with op tions labeled A, B, C, and D.
+The model’s respon se is expec ted in the form of selec ting one
+of these op tions. This struc tured format helps stream line the
+in terac tion and en sures that the model’s respon ses are aligned
+with the user’s expec tations.
+E. Baseline models
+To evaluate the effec tiveness of our fine-tuned models,
+we com pare the performan ce of our models against several
+powerful baseline models as follows.
+• BERTology [13]: This model in tegrates the pre-trained
+m BERT [14], a multi-step at ten tion mec hanism (MAN),
+and natural lan guage in feren ce (NLI). Initially, the pre-
+trained model un dergoes fine-tuning using a multi-stage
+multi-task learning tec hnique [15]. Following this, a
+TABLE V
+RESULTS ON VIMMRC WITH FINETUNED MODELS (WIT HOUT
+FINETUNING: THE ORIGINAL MODELS; FINETUNED: OUR MODELS AFTER
+FINETUNED; BET TER SCORES ARE IN BOLD.)
+Model
+Wit hout Finetuning
+Finetuned
+Llama 3Instruc ted
+56.80
+84.21
+Gem ma Instruc ted
+80.39
+84.94
+Llama 3Base
+N/A
+84.93
+Gem ma Base
+N/A
+87.11
+coarse-tuning stage is em ployed for the NLI task. Finally,
+a MAN is im plemen ted as a top-level classifier to
+com pute the at ten tion score bet ween the reading passage
+and the question-op tion pairs.
+• GPT-3 & GPT-3.5 [16]: GPT-3 is 10 times larger than
+any previous non-sparse lan guage model. This model
+demonstrates strong performan ce ac ross numerous NLP
+datasets. GPT-3.5 builds upon this foun dation, ac hieving
+superior results and surpassing previous SOTA models.
+They were evaluated wit hout any gradient up dates or fine-
+tuning, relying solely on text in terac tions.
+• Llama 2 [10]: This is a foun dational lan guage model
+series ran ging from 7 billion to 70 billion parameters. It
+is notable for its training on trillions of tokens, exclusively
+using public ly ac cessible datasets, thereby eliminating
+the need for inac cessible data. This demonstrates the
+poten tial of training top-tier models with open ly available
+resources, ac hieving excellent performan ce ac ross various
+tasks.
+• Bloom Z [17]: Bloom Z utilizes multitask prom pted fine-
+tuning (MTF) to adapt pre-trained multilin gual BLOOM
+and m T5 model families. This met hod en han ces the
+models’ ability to han dle tasks ac ross multip le lan guages,
+leveraging En glish prompts for fine-tuning. It im proves
+performan ce on both En glish and non-En glish tasks,
+ac hieving SOTA results in scenarios where no task-
+specific training data is available.
+• Llama3Base,
+Llama3Instruc ted,
+Gem ma Base,
+Gem ma Instruc ted: our finetuned models on the Llama 3
+and Gem ma base and instruc tion variants.
+IV. RESULTS AND DISCUSSIONS
+A. Com parison with baselines
+Table IV com pares the performan ce of our fine-tuned
+models with the baseline models on the Vi MMRC dataset,
+with performan ce measured by ac curacy as per [18]. While
+our fine-tuned models significan tly out perform BERT-based
+ap proac hes, we ac knowledge the differen ce in model sizes. Yet,
+the dramatic im provements we ac hieved through fine-tuning
+suggest that our superior results stem from more than just
+larger parameter counts – our models substan tially out perform
+BERT even when it uses advan ced tec hniques like NLI fine-
+tuning and multi-step at ten tion.
+
+
+TABLE VI
+SAM PLE OF BIAS MITIGATION
+Sam ple
+En glish tran slation
+Passage
+Sau một chuyến đi xa, người ông mang về bốn quả đào. Ông bảo
+vợ và các cháu: Quả to này xin phần bà. Ba quả nhỏ hơn phần các
+cháu. Bữa cơm chiều hôm ấy, ông hỏi các cháu: Thế nào, các cháu
+thấy đào có ngon không? Cậu bé Xuân nói: Đào có vị rất ngon và
+mùi thật là thơm. Cháu đã đem hạt trồng vào một cái vò. Chẳng bao
+lâu, nó sẽ mọc thành một cây đào to đấy, ông nhỉ? Mai sau cháu
+sẽ làm vườn giỏi. - Ông hài lòng nhận xét. Cô bé Vân nói với vẻ
+tiếc rẻ: Đào ngon quá, cháu ăn hết mà vẫn thèm. Còn hạt thì cháu
+vứt đi rồi. Ôi cháu của ông còn thơ dại quái. Thấy Việt chỉ chăm
+chú nhìn vào tấm khăn trải bàn, ông ngạc nhiên hỏi: Còn Việt, sao
+cháu chẳng nói gì thế? Cháu ấy ạ? Cháu mang đào cho Sơn. Bạn
+ấy bịốm. Nhưng bạn ấy không muốn nhận. Cháu đặt quả đào lên
+trên giường rồi trốn về. Cháu là người có tấm lòng nhân hậu! - Ông
+lão thốt lên và xoa đầu đứa cháu nhỏ.
+After a long trip, the gran dfat her brought back four peac hes. He told
+his wife and grandchildren: This big peach is for your gran dmot her.
+The three smaller ones are for you children. At din ner that evening,
+the gran dfat her asked his grandchildren: How did you like the
+peac hes? Xuan said: The peac hes were very delicious and smelled
+won derful. I plan ted the pit in a pot. Soon, it will grow in to a big
+peach tree, right, Gran dpa? You will become a great gardener when
+you grow up, - the gran dfat her remarked, pleased. Lit tle Van, with
+a regret ful expression, said: The peach was so delicious that I ate
+it all and still wan ted more. I threw the pit away. Oh, my lit tle
+one is still so naive. Seeing Viet staring in ten tly at the tablec loth,
+the gran dfat her asked in surprise: And Viet, why haven’t you said
+anyt hing? Me? I gave my peach to Son. He’s sick. But he didn’t
+want to take it. So, I placed the peach on his bed and sneaked away.
+You have a kind heart! - the old man exclaimed, pat ting his lit tle
+gran dson on the head.
+Question
+Trong ba đứa cháu, ai là đứa cháu được ông nhận xét là còn thơ
+dại?
+In three children, who is claimed as in nocent?
+An swers
+A. Vân
+B. Việt
+C. Xuân
+D. Cả3 bạn trên
+A. Van
+B. Viet
+C. Xuan
+D. All of the above
+Predic tions
+Correct an swer: A
+BERTology: D
+Llama 3: A
+Gem ma: A
+Notes: Com pared to the BERT-based model, our fine-tuned models did not show a bias towards the an swer "All of the above."
+B. Advan tages with small-size models
+It is also worth noting that our fine-tuned models, with
+relatively small parameter counts, can out perform much larger
+models such as GPT-3 and GPT-3.5. This demonstrates
+the efficien cy and effec tiveness of our fine-tuning process,
+which allows smaller models to ac hieve higher ac curacy than
+these larger, more resource-in ten sive models. It also suggests
+significant poten tial for more efficient dep loyment of their
+ap plications in resource-constrained en viron ments.
+C. Im provement from fine-tuned models
+Table V highlights the com parison bet ween the models
+before and after fine-tuning. We do not evaluate the base
+models before fine-tuning because they do not con sisten tly
+an swer our questions in a zero-shot set ting. The ac curacy
+of the base LLMs after fine-tuning is substan tially higher
+than before fine-tuning. This highlights the positive im pact
+of adap ting the models specifically to the Vi MMRC dataset,
+leading to im proved com prehen sion and question-an swering
+capabilities in Viet namese.
+In terestin gly, the fine-tuned base LLMs ac hieve bet ter
+ac curacy com pared to their instruc tion-tuned coun terparts.
+The base model Gem ma performs significan tly bet ter than
+the instruc ted version. We speculate that this is because
+the instruc ted Gem ma is trained exclusively on En glish
+data, lac king the multi-lan guage data necessary for op timal
+performan ce on the Vi MMRC dataset. Mean while, the base
+Llama 3 model also surpasses its instruc tion-tuned version,
+though the differen ce is marginal. This could be because the
+instruc ted Llama is primarily op timized for chat abilities and
+toxicity mitigation, which are less relevant for the mac hine
+reading com prehen sion tasks.
+D. Bias mitigation
+We in ferred our fine-tuned Llama 3Base and Gem ma Base
+models on the Vi MMRC test dataset to iden tify positive
+im provements, un derstand the nature of their performan ce, and
+pin point areas where they struggle. These models show clear
+im provements over the BERTology model in terms of bias.
+Un like the BERTology model, which tends to choose "All of
+the above" as the an swer [13], our models do not exhibit this
+bias, as demonstrated in Table VI.
+E. Error analysis
+We further in vestigate these models via error analyses, as
+shown in Table VII. The main source of errors is the difficulty
+in iden tifying the most suitable an swer for questions that
+require reasoning. Reasoning can be particularly challen ging
+for LLMs because it often in volves grasping the un derlying
+message of an en tire story or iden tifying the specific type of
+a poem based on struc tural charac teristics such as word count.
+For in stan ce, in Sam ple 2 of Table V, both models failed to
+correc tly iden tify the poetic form (four syllables) used in the
+poem, in stead in correc tly choosing the "six-eight" op tion.
+Additionally,
+they
+have
+trouble
+un derstan ding
+deep
+figurative lan guage. This highlights the com plexity of tasks
+in volving nuan ced and con text-depen dent lan guage. As shown
+in Sam ple 3, both models struggled to ac curately in terpret
+Un cle Ho’s charac ter from the poem, with Llama 3 choosing
+"a very sim ple person" and Gem ma selec ting "great ly loved
+his coun try" in stead of the correct an swer that he "loved
+nature very much".
+Ourmodels
+also
+sometimes
+struggle
+with
+correc tly
+an swering parts of speech questions, in dicating a need for
+bet ter un derstan ding of gram matical nuan ces. This suggests
+areas where further fine-tuning and en han cement could
+im prove model performan ce. For exam ple, in Sam ple 4, both
+
+
+TABLE VII
+ERROR ANALYSES
+Sam ple
+En glish tran slation
+Passage 1
+Bố đi câu về, không một lần nào là chúng tôi không có quà. Mở
+thúng câu ra là cả một thế giới dưới nước: cà cuống, niềng niễng
+đực, niềng niễng cái bò nhộn nhạo. Hoa sen đỏ, nhị sen vàng tỏa
+hương thơm lừng. Những con cá sộp, cá chuối quẫy tóe nước, mắt
+thao láo... Bố đi cắt tóc về, cũng không lần nào chúng tôi không có
+quà. Mở hòm dụng cụ ra là cả một thế giới mặt đất: con xập xành,
+con muỗm to xù, mốc thếch, ngó ngoáy. Hấp dẫn nhất là những con
+dế lạo xạo trong các vỏ bao diêm: toàn dế đực, cánh xoăn, gáy vang
+nhà và chọi nhau phải biết. Quà của bố làm anh em tôi giàu quá!
+When Dad went fishing, he never came back wit hout gifts for us.
+Opening the fishing basket was like revealing a whole un derwater
+world: giant water bugs, male and female dam selflies wriggling
+around. Red lotus flowers and yellow lotus stamens spread a
+fragrant aroma. Big fish and snakehead fish splashed water, their
+eyes bulging. When Dad went for a haircut, he never came back
+wit hout gifts for us. Opening the toolbox was like revealing a whole
+terrestrial world: giant cric kets and clum sy mole cric kets wriggling
+around. The most fascinating were the chirping cric kets in the
+matchboxes: all male cric kets with curly wings, chirping loudly and
+fiercely fighting each ot her. Dad’s gifts made my siblings and me
+feel so rich!
+Question
+Những món quà mà bố mang về cho các con nói lên điều gì?
+What do the gifts that fat her brings home for the children say?
+An swers
+A. Bố rất yêu thương hai anh em.
+B. Bố rất giỏi đi câu và cắt tóc.
+C. Bố rất thích đồng quê và sông nước.
+D. Bố rất thích tặng quà.
+A. He loves his children.
+B. He’s good at fishing and hairdressing.
+C. He loves coun tryside.
+D. He likes gifting.
+Predic tions
+Correct An swer: A
+Llama 3: C
+Gem ma: C
+Passage 2
+Bút chì xanh đỏ
+Em gọt hai đầu
+Em thử hai màu
+Xanh tươi, đỏ thắm.
+Blue and red pen cil
+I sharpen both ends
+I try both colors
+Bright green, vivid red.
+Question
+Bài thơ đã sử dụng thể thơ nào để viết?
+What poetic form was used to write the poem?
+An swers
+A. Lục bát.
+B. Tự do.
+C. Năm chữ.
+D. Bốn chữ.
+A. six-eight.
+B. free verse.
+C. five syllables.
+D. four syllables.
+Predic tions
+Correct An swer: D
+Llama 3: A
+Gem ma: A
+Passage 3
+Trong tù không rượu cũng không hoa,
+Cảnh đẹp đêm nay, khó hững hờ.
+Người ngắm trăng soi ngoài cửa sổ,
+Trăng nhòm khe cửa ngắm nhà thơ.
+In prison wit hout wine or flowers,
+Tonight’s beauty, hard to disregard.
+Gazing at the moon through the win dow bars,
+The moon peers through, wat ching the poet’s heart
+Question
+Bài thơ này cho thấy Bác Hồ là người như thế nào?
+What does this poem show about Un cle Ho’s charac ter?
+An swers
+A. Bác Hồ là người rất yêu nước.
+B. Bác Hồ rất yêu thiên nhiên.
+C. Bác Hồ là người rất giản dị.
+D. Bác Hồ rất dũng cảm.
+A. Un cle Ho great ly loved his coun try.
+B. Un cle Ho loved nature very much.
+C. Un cle Ho was a very sim ple person.
+D. Un cle Ho was very brave.
+Predic tions
+Correct An swer: B
+Llama 3: C
+Gem ma: A
+Passage 4
+Chiều hôm ấy có một em gái nhỏ đứng áp trán vào tủ kính cửa hàng
+của Pi-e, nhìn từng đồ vật như muốn kiếm thứ gì. Bỗng em ngửng
+đầu lên: - Cháu có thể xem chuỗi ngọc lam này không ạ? Pi-e lấy
+chuỗi ngọc, đưa cho cô bé. Cô bé thốt lên: - Đẹp quá! Xin chú gói
+lại cho cháu! Pi-e ngạc nhiên: - Ai sai cháu đi mua? - Cháu mua
+tặng chị cháu nhân lễ Nô-en. Chị đã nuôi cháu từ khi mẹ cháu mất.
+- Cháu có bao nhiêu tiền? Cô bé mở khăn tay ra, đổ lên bàn một
+nắm xu: - Cháu đã đập con lợn đất đấy! Pi-e trầm ngâm nhìn cô bé.
+Rồi vừa lúi húi gỡ mảnh giấy ghi giá tiền, anh vừa hỏi: - Cháu tên
+gì? - Cháu là Gioan. Anh đưa Gioan chuỗi ngọc gói trong bao lụa
+đỏ: - Đừng đánh rơi nhé! Cô bé mỉm cười rạng rỡ, chạy vụt đi...
+One afternoon, a lit tle girl stood at Pierre’s shop win dow, examining
+items as if searching for somet hing. She asked to see a blue nec klace.
+Pierre showed it to her. Delighted, she requested it be wrap ped.
+When asked who sent her, she explained it was a Christmas gift for
+her sister who raised her after their mot her’s death. She em ptied her
+savings on to the coun ter. Pierre, moved, removed the price tag and
+asked her name. "I am Jean ne." she rep lied. He then han ded her the
+nec klace in a red silk bag, said "Don’t lose it on the way home.".
+She smiled brightly and ran off....
+Question
+Từ"cháu" trong câu "Cháu là Gioan" đóng vai trò cú pháp gì?
+What syn tac tic role does the word "I" play in the sen ten ce "I am
+Jean ne"?
+An swers
+A. Danh từ làm chủ ngữ.
+B. Đại từ làm chủ ngữ.
+C. Tính từ làm chủ ngữ.
+D. Động từ làm chủ ngữ.
+A. Noun fun ctioning as the subject.
+B. Pronoun fun ctioning as the subject.
+C. Adjec tive fun ctioning as the subject.
+D. Verb fun ctioning as the subject.
+Predic tions
+Correct An swer: B
+Llama 3: A
+Gem ma: A
+Notes: Sam ple 1 tests un derstan ding of im plied meanings in dad’s gift-giving. Sam ple 2 assesses recognition of poetic forms. Sam ple 3 evaluates
+com prehen sion of charac ter traits in poet ry. Sam ple 4 examines un derstan ding of gram matical roles in sen ten ces.
+Llama 3 and Gem ma in correc tly iden tified the word "Cháu" as
+a noun fun ctioning as the subject, when it ac tually fun ctions
+as a pronoun in the given sen ten ce "Cháu là Gioan".
+F. Limitation & Future work
+Though we obtained promising results, we still need to
+overcome several limitations. While quan tization tec hniques
+alleviate com putational resource constraints and enabling local
+dep loyment, this may in troduce subtle performan ce trade-
+
+
+offs. Anot her limitation lies in the scope of our evaluation
+dataset. The experiments were primarily con duc ted on the
+original Vi MMRC dataset, excluding newer iterations such as
+Vi MMRC 2.0 [13] which extend the original dataset to 12th
+grade. We propose the following direc tions for future research:
+• Im plement Chain-of-Thought prom pting tec hniques [19]
+to en han ce the models’ reasoning capabilities, poten tially
+im proving performan ce on com plex MRC tasks.
+• Expand the evaluation on ot her datasets such as Vi MMRC
+2.0 [13], offering more diverse and challen ging exam ples
+for a com prehen sive assessment.
+• Develop prac tical ap plications leveraging the fine-tuned
+models, in cluding local question-an swering systems,
+educational tools for automated question generation.
+V. CON CLUSION
+In this study, we fine-tuned two state-of-the-art LLMs,
+Llama 3 and Gem ma, using the QLo RA met hod on the
+Vi MMRC dataset, which led to significant performan ce
+im provements. Our models not on ly out performed traditional
+BERT-based ap proac hes but also surpassed larger models
+like GPT-3 and GPT-3.5, despite having fewer parameters.
+These fin dings highlight the efficien cy and poten tial of
+QLo RA-based fine-tuning, making it highly suitable for
+dep loying high-performan ce NLP models in en viron ments
+with limited com putational resources. Through our in-depth
+analyses, we also demonstrated the adap tability of LLMs
+to Viet namese MRC tasks, providing valuable in sights for
+future advan cements in low-resource lan guage processing.
+Moving forward, future work will focus on en han cing model
+reasoning through Chain-of-Thought prom pting, evaluating
+performan ce on newer datasets such as Vi MMRC 2.0,
+and developing prac tical real-world ap plications. Overall,
+this study un derscores the poten tial of scaling LLM-based
+solutions for un derrep resen ted lan guages, which can drive
+further in novation in natural lan guage processing.
+AC KNOWLEDGMENT
+Wewould
+like
+tot hank
+theanonymous
+reviewers
+fortheir
+valuable
+feedback. This
+work
+wassup ported
+in part
+bycom puting
+resources
+provided
+by
+In telligent In tegration Co., Ltd. (INT2).
+REFEREN CES
+[1] D. Dzen dzik, J. Foster, and C. Vogel, “En glish mac hine reading
+com prehen sion datasets: A survey,” in Proceedings of the 2021
+Con feren ce on Em pirical Met hods in Natural Lan guage Processing,
+M.-F.
+Moens,
+X.
+Huang,
+L.
+Specia,
+and
+S.
+W.-t.
+Yih,
+Eds.
+On line
+and
+Pun ta
+Cana,
+Dominican
+Republic:
+Association
+for
+Com putational
+Lin guistics,
+Nov.
+2021,
+pp.
+8784–8804.
+[On line].
+Available: https://ac lan thology. org/2021. emnlp-main.693
+[2] P. Zhu, Z. Zhang, H. Zhao, and X. Li, “Duma: Reading com prehen sion
+with tran sposition thin king,” IEEE/ACM Tran sac tions on Audio, Speech,
+and Lan guage Processing, vol. 30, pp. 269–279, 2022.
+[3] W. X. Zhao, K. Zhou, J. Li, T. Tang, X. Wang, Y. Hou, Y. Min, B. Zhang,
+J. Zhang, Z. Dong, Y. Du, C. Yang, Y. Chen, Z. Chen, J. Jiang, R. Ren,
+Y. Li, X. Tang, Z. Liu, P. Liu, J. Nie, and J. rong Wen, “A survey
+of large lan guage models,” Ar Xiv, vol. abs/2303.18223, 2023. [On line].
+Available: https://api. seman ticscholar. org/Corpus ID:257900969
+[4] C. Zhou, Q. Li, C. Li, J. Yu, Y. Liu, G. Wang, K. Zhang,
+C. Ji, Q. Yan, L. He, H. Peng, J. Li, J. Wu, Z. Liu, P. Xie,
+C. Xiong, J. Pei, P. S. Yu, L. S. M. S. University, B. University,
+L. University, M. University, N. T. University, U. of California at
+San Diego, D. University, U. of Chicago, and S. Research, “A
+com prehen sive survey on pret rained foun dation models: A history from
+bert to chatgpt,” Ar Xiv, vol. abs/2302.09419, 2023. [On line]. Available:
+https://api. seman ticscholar. org/Corpus ID:257039063
+[5] R. Bom masani, D. A. Hudson, E. Adeli, R. Altman, S. Arora,
+S. von Arx, M. S. Bernstein, J. Bohg, A. Bosselut, E. Brun skill,
+E. Bryn jolfsson, S. Buch, D. Card, R. Castellon, N. S. Chat terji,
+A. S. Chen, K. A. Creel, J. Davis, D. Demszky, C. Donahue,
+M. Doum bouya, E. Durmus, S. Ermon, J. Et chemen dy, K. Et hayarajh,
+L. Fei-Fei, C. Finn, T. Gale, L. E. Gillespie, K. Goel, N. D. Goodman,
+S. Grossman, N. Guha, T. Hashimoto, P. Hen derson, J. Hewitt, D. E.
+Ho, J. Hong, K. Hsu, J. Huang, T. F. Icard, S. Jain, D. Jurafsky,
+P. Kalluri, S. Karam cheti, G. Keeling, F. Khani, O. Khat tab, P. W.
+Koh, M. S. Krass, R. Krishna, R. Kuditipudi, A. Kumar, F. Ladhak,
+M. Lee, T. Lee, J. Leskovec, I. Levent, X. L. Li, X. Li, T. Ma,
+A. Malik, C. D. Man ning, S. P. Mirchan dani, E. Mit chell, Z. Munyikwa,
+S. Nair, A. Narayan, D. Narayanan, B. Newman, A. Nie, J. C. Niebles,
+H. Nilforoshan, J. F. Nyarko, G. Ogut, L. Orr, I. Papadimit riou, J. S.
+Park, C. Piech, E. Portelan ce, C. Potts, A. Raghunat han, R. Reich,
+H. Ren, F. Rong, Y. H. Roohani, C. Ruiz, J. Ryan, C. R’e, D. Sadigh,
+S. Sagawa, K. San thanam, A. Shih, K. P. Srinivasan, A. Tam kin,
+R. Taori, A. W. Thomas, F. Tra mèr, R. E. Wang, W. Wang, B. Wu,
+J. Wu, Y. Wu, S. M. Xie, M. Yasunaga, J. You, M. A. Zaharia,
+M. Zhang, T. Zhang, X. Zhang, Y. Zhang, L. Zheng, K. Zhou, and
+P. Liang, “On the op portunities and risks of foun dation models,” Ar Xiv,
+2021. [On line]. Available: https://crfm. stan ford. edu/assets/report. pdf
+[6] S. Gholami and M. Omar, “Do generative large lan guage models need
+billions of parameters?” Ar Xiv, vol. abs/2309.06589, 2023. [On line].
+Available: https://api. seman ticscholar. org/Corpus ID:261705636
+[7] K.
+V.
+Nguyen,
+K.
+V.
+Tran,
+S.
+T.
+Luu,
+A.
+G.-
+T.
+Nguyen,
+and
+N.
+L.-T.
+Nguyen,
+“A
+pilot
+study
+on multip le
+choice
+mac hine
+reading
+com prehen sion
+forviet namese
+texts,”
+Ar Xiv,
+vol.
+abs/2001.05687,
+2020.
+[On line].
+Available:
+https://api. seman ticscholar. org/Corpus ID:210700877
+[8] AI@Meta,
+“Llama
+3model
+card,”
+2024.
+[On line].
+Available:
+https://git hub. com/meta-llama/llama3/blob/main/MODEL_CARD. md
+[9] G. Team, T. Mesnard, C. Hardin, R. Dadashi, S. Bhupatiraju, S. Pat hak,
+L. Sifre, M. Riviè re, M. S. Kale, J. Love et al., “Gem ma: Open
+models based on gemini research and tec hnology,” ar Xiv prep rint
+ar Xiv:2403.08295, 2024.
+[10] H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei,
+N. Bashlykov, S. Bat ra, P. Bhargava, S. Bhosale, D. Bikel, L. Blec her,
+C. C. Ferrer, M. Chen, G. Cucurull, D. Esiobu, J. Fernan des, J. Fu,
+W. Fu, B. Fuller, C. Gao, V. Goswami, N. Goyal, A. Hartshorn,
+S. Hosseini, R. Hou, H. Inan, M. Kardas, V. Kerkez, M. Khabsa,
+I. Kloumann, A. Korenev, P. S. Koura, M.-A. Lac haux, T. Lavril, J. Lee,
+D. Liskovich, Y. Lu, Y. Mao, X. Martinet, T. Mihaylov, P. Mishra,
+I. Molybog, Y. Nie, A. Poulton, J. Reizen stein, R. Run gta, K. Saladi,
+A. Schelten, R. Silva, E. M. Smith, R. Subramanian, X. E. Tan, B. Tang,
+R. Taylor, A. Williams, J. X. Kuan, P. Xu, Z. Yan, I. Zarov, Y. Zhang,
+A. Fan, M. Kam badur, S. Narang, A. Rodriguez, R. Stojnic, S. Edunov,
+and T. Scialom, “Llama 2: Open foun dation and fine-tuned chat
+models,” 2023. [On line]. Available: https://arxiv. org/abs/2307.09288
+[11] T. Det tmers, A. Pagnoni, A. Holtzman, and L. Zet tlemoyer, “Qlora:
+Efficient finetuning of quan tized llms,” 2023. [On line]. Available:
+https://arxiv. org/abs/2305.14314
+[12] D. Han and M. Han, “Un sloth AI,” 5 2024. [On line]. Available:
+https://git hub. com/un slot hai/un sloth
+[13] S.
+T.
+Luu,
+K.
+T.
+Hoang,
+T.
+Q.
+Pham,
+K.
+V.
+Nguyen,
+and
+N. L.-T. Nguyen, “A multip le choices reading com prehen sion corpus
+forviet namese
+lan guage
+education,”
+2023.
+[On line].
+Available:
+https://arxiv. org/abs/2303.18162
+[14] V. B. The, O. T. Thi, and P. Le-Hong, “Im proving sequen ce tagging
+for viet namese text using tran sformer-based neural models,” Pacific
+Asia Con feren ce on Lan guage, In formation and Com putation, 2020.
+[On line]. Available: https://arxiv. org/abs/2006.15994
+[15] D.
+Jin,
+S.
+Gao,
+J.-Y.
+Kao,
+T.
+Chung,
+and
+D.
+Z.
+Hakkani-T¨ur,
+“Mmm:
+Multi-stage
+multi-task
+learning
+formulti-choice
+reading
+com prehen sion,”
+in
+AAAI
+Con feren ce
+
+
+on
+Artificial
+In telligen ce,
+2019.
+[On line].
+Available:
+https://api. seman ticscholar. org/Corpus ID:203610341
+[16] T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kap lan, P. Dhariwal,
+A.
+Neelakan tan,
+P.
+Shyam,
+G.
+Sastry,
+A.
+Askell,
+S.
+Agarwal,
+A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. M.
+Ziegler, J. Wu, C. Win ter, C. Hesse, M. Chen, E. Sigler, M. Lit win,
+S. Gray, B. Chess, J. Clark, C. Berner, S. Mc Can dlish, A. Radford,
+I. Sut skever, and D. Amodei, “Lan guage models are few-shot learners,”
+2020. [On line]. Available: https://arxiv. org/abs/2005.14165
+[17] N. Muen nighoff, T. Wang, L. Sutawika, A. Roberts, S. Biderman,
+T. L. Scao, M. S. Bari, S. Shen, Z.-X. Yong, H. Schoelkopf, X. Tang,
+D. Radev, A. F. Aji, K. Almubarak, S. Albanie, Z. Alyafeai, A. Webson,
+E. Raff, and C. Raffel, “Crosslin gual generalization through multitask
+finetuning,” 2023. [On line]. Available: https://arxiv. org/abs/2211.01786
+[18] D.-V. Nguyen and Q.-N. Nguyen, “Evaluating the sym bol bin ding
+ability
+oflarge
+lan guage
+models
+formultip le-choice
+questions
+in viet namese
+general
+education,”
+2023.
+[On line].
+Available:
+https://arxiv. org/abs/2310.12059
+[19] J. Wei, X. Wang, D. Schuurmans, M. Bosma, B. Ic hter, F. Xia,
+E. Chi, Q. Le, and D. Zhou, “Chain-of-thought prom pting elicits
+reasoning
+in large
+lan guage
+models,”
+2022. [On line].
+Available:
+https://arxiv. org/pdf/2201.11903

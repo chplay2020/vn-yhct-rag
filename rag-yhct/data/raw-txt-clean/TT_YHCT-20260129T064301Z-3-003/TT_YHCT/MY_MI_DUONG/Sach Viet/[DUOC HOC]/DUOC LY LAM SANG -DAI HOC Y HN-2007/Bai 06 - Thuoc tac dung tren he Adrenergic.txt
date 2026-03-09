@@ -1,0 +1,822 @@
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 6: Thuốc tác dụng trên hệ adrenergic
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được chu trình chuyển hóa của catec holamin tại ngọn dây thần kinh giao
+cảm
+2. Phân biệt được tác dụng của adrenalin, noradrenalin và DA
+3. Phân biệt được tác dụng của thuốc cường β1 và β2: Isop roterenol, dobutamin và
+salbutamol
+4. Phân tích được cơ chế tác dụng của các thuốc huỷ giao cảm
+5. Trình bày được tác dụng và áp dụng điều trị của thuốc hủy giao cảm
+6. Phân biệt được cơ chế tác dụng và áp dụng điều trị của thuốc hủy β1
+Hệ adrenergic là hệ hậu hạch giao cảm, giải phóng chất trung gian hóa học gọi chung là
+catec holamin vì đều mang nhân catec hol (vòng ben zen có hai nhóm -OH ở vị trí ortho và một gốc
+amin ở chuỗi bên. Các catec holamin gồm có adrenalin (được sản xuất chủ yếu ở tuỷ thượn g thận)
+noradrenalin (ở đầu tận cùng các sợi giao cảm) và dopamin (ở một số vùng trên thần kinh trung
+ương).
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Hình 6.1. Sinh tổng hợp catec holamin
+1. Chuyển hóa của catec holamin
+Catec holamin được sinh tổng hợp từ tyrosin dưới tác dụng của một số en zym trong tế bào ưa
+crôm ở tuỷ thượng thận, các nơ ron hậu hạch giao cảm và một số nơ ron của thần kinh trung ương
+theo sơ đồ trên (hình 6.2)
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Hình 6.2. Chuyển vận của catec holamin tại tận cùng dây giao cảm
+Tyrosin được vận chuyển vào đầu tận cùng dây giao cảm nhờ c hất vận chuyển phụ thuộc Na +
+(A). Tyrosin được chuyển hóa thành dopamin (DA) rồi được chất vận chuyển (B) đưa vào các túi
+dự trữ (các hạt). Chất vận chuyển này cũng vận chuyển cả noradrenalin (NA) và vài amin khác.
+Trong túi dự trữ, DA được chuyển hóa thàn h NA. Điện thế hoạt động làm mở kênh calci, Ca 2+
+vào tế bào, giải phóng NA từ túi dự trữ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Sau khi được tổng hợp, một phần catec holamin sĩ kết hợp với ATP hoặc với một dạng protein hòa
+tan là chromogranin để trở thành dạng không có hoạt tính, không bị các e nzym phá huỷ, lưu lại
+trong các “kho dự trữ” là những hạt đặc biệt nằm ở bào tương (khoảng 60%), còn một phần khác
+(khoảng 40%) vẫn ở dạng tự do trong bào tương, dễ di động, nằm ở ngoài hạt. Giữa hai dạng này
+luôn có sự thăng bằng động, khi dạng tự do giảm đi thì lại được bổ sung ngay từ các kho dự trữ.
+Lượng noradrenalin trong bào tương điều chỉnh hoạt tính của tyrosin hydroxylase theo cơ chế
+điều hòa ngược chiều: khi noradrenalin tăng thì hoạt tính của en zym giảm, và ngược lại. Mặt
+khác, các chất cường recep tor 2 làm giảm giải phóng noradrenalin ra khe xinap và do đó trữ
+lượng của noradrenalin trong bào tương sĩ tăng lên.
+Theo giả thiết của Burn và Rand (1959 - 1962) dưới ảnh hưởng của xung tác thần kinh, ngọn dây
+giao cảm lúc đầu tiết ra acetylcholin, là m thay đổi tính thấm của màng tế bào, do đó Ca ++ từ
+ngoài tế bào thâm nhập được vào trong tế bào, đóng vai trò như một en zym làm vì liên kết ATP -
+catec holamin, giải phóng catec holamin ra dạng tự do.
+Sau khi được giải phóng, một phần noradrenalin sĩ tác độn g lên các recep tor (sau và trước xinap),
+một phần chuyển vào máu tuần hoàn để tác dụng ở xa hơn rồi bị giáng hóa, còn phần lớn (trên
+80%) sĩ được thu hồi lại, phần nhỏ khác bị mất hoạt tính ngay trong bào tương.
+Hình 6.3. Số phận của noradrenalin khi được giải phóng
+1. Tác dụng trên recep tor sau (1a) và trước (1b) xinap
+2. Thu hồi
+3. Vào tuần hoàn và bị chuyển hóa bởi COMT
+4. Chuyển hóa trong bào tương bởi MAO
+Catec holamin bị mất hoạt tính bởi quá trình oxy hóa khử amin do hai en zym MAO (mono - amin
+– oxydase) và COMT (catec hol- oxy- tran sferase) để cuối cùng thành acid 3 - met hoxy- 4
+hydroxy man delic (hay vanyl man delic acid - VMA) thải trừ qua nước tiểu.
+MAO có nhiều trong ti thể (mitoc hon dria), vì vậy nó đóng vai trò giáng hóa catec holamin ở trong
+tế bào hơn là ở tuần hoàn. Phong toả MAO thì làm tăng
+catec holamin trong mô nhưng không ảnh hưởng đến tác dụng của catec holamin ngoại lai.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+COMT là en zym giáng hóa catec holamin ở ngoài tế bào, có ở màng xinap và ở nhiều nơi nhưng
+đậm độ cao hơn cả là ở gan và thận. Phong toả COMT thì kéo dài được thời gian tác dụng của
+catec holamin ngoại lai.
+Recep tor: Adrenalin và noradrenalin sau khi được giải phóng ra sĩ tác dụng lên các recep tor của
+hệ adrenergic. Ahlquist (1948) chia các recep tor đó thành hai loại và do chúng có tác dụng
+khác nhau trên các cơ quan (bảng sau).
+Ta thấy rằng tác dụng cường có tính chất kích thích, làm co thắt các cơ trơn, chỉ có cơ trơn
+thành ruột là giãn. Ngược lại, tác dụng cường có tính chất ức chế, làm giãn cơ, trừ cơ tim lại
+làm đập nhanh và đập mạnh.
+Land, Arnold và Mc Auliff (1966) còn chia các recep tor thành hai nhóm 1 (tác dụng trên tim
+và chuyển hóa mì) và nhóm 2 (làm giãn mạch, giãn khí đạo và chuyển hóa đường). 2 trước
+xinap kích thích làm tăng giải phóng NA, có vai trò điều hòa ngược với 2.
+Theo đề xuất của Lan ger (1974), các recep tor được chia thành hai loại: loại 1 là recep tor sau
+xinap, làm co mạch tăng huyết áp, loại 2 là recep tor trước xinap, có tác dụng điều hòa, khi kích
+thích sĩ làm giảm giải phóng norad renalin ra khe xinap, đồng thời làm giảm tiết renin, gây hạ
+huyết áp. Các recep tor 2 có nhiều ở hệ giao cảm trung ương. Hiện cũng thấy có recep tor 2 ở
+sau xinap của mạch máu và tế bào cơ trơn (làm co), mô mì và các tế bào biểu mô xuất tiết (ruột,
+thận, tuyến nội tiết)
+Dopamin chủ yếu tác dụng ở thần kinh trung ương, ở thận và các tạng, trên các recep tor đặc hiệu
+đối với nó gọi là các recep tor dopaminergic (recep tor delta - )
+Bảng 6.1: Các recep tor adrenergic
+Recep to
+r
+Chất chủ
+vận
+Chất đối
+kháng
+Mô
+Đáp ứng
+Cơ chế phân tử
+1
+Adr
+NA
+>>Iso
+Phenylep hrin
+Prazosin
+- Cơ trơn
+thành mạch
+- Cơ trơn
+sinh
+dục tiết niệu
+- Gan
+- Cơ trơn
+ruột
+- Tim
+Co thắt
+Co thắt
+Huỷ glycogen
+Tân tạo đường
+¦u cực hóa và
+giãn
+Tăng co bóp, loạn
+nhịp
+Kích
+thích
+phospholipase
+Cđể
+tạo
+IP3và
+DAG; tăng Ca++
+cytosol
+- Hoạt hóa kênh
+K+ phụ thuộc vào
+Ca++
+- ức chế dòng K+
+2
+Adr NA >>
+Iso
+Clonidin
+Yohim bi
+n
+- Tế bào
+của tụy
+- Tiểu cầu
+- Tận cùng
+sợi TK
+- Cơ trơn
+thành mạch
+Giảm tiết in sulin
+Ngưng kết
+Giảm tiết NA
+Co
+- ức chế
+adenylcyc lase
+(Gi) - Hoạt hóa
+kênh K+
+- ức chế kênh Ca++
+-Tăng luồng Ca,
+tăng Ca++ trong
+cytosol
+1
+Iso>Adr =NA
+Dobutamin
+Metop rol
+ol
+- Tim
+Tăng tần số, biên
+độ và tốc độ dẫn
+Hoạt
+hóaadenylcyc lase và
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Tế bào
+gần cầu
+thận
+truyền A-V
+Tăng tiết renin
+kênh Ca
+2
+Iso>Adr
+>>
+NA
+Terbutalin
+ICI
+118551
+- Cơ trơn
+(mạch khí
+quản,
+ruột...)
+- Cơ vân
+- Gan
+- Giãn
+- Huỷ glycogen
+gắn K+
+- Hủy glycogen
+- Tân tạo đường
+Hoạt
+hóaadenylcyc lase
+3
+Iso=NA>Adr
+BRL 37344
+ICI
+118551
+CGP
+20712A
+Huỷ lipid
+Hoạt
+hóaadenylcyc lase
+Iso*: Isop roterenol
+Adr: adrenalin
+NA: noradrenalin
+Ghi chú của bảng 3:
+- Mọi recep tor đều kích thích adenylcyc lase thông qua protein G S và làm tăng AMPv, ngoài ra
+còn làm kênh calci cảm ứng với điện thế của cơ vân và cơ tim.
+- Recep tor 2, trái lại, ức chế adenylcyc lase thông qua protein G i, đồng thời hoạt hóa kênh kali,
+ức chế kênh calci.
+- Recep tor 1 kích thích làm tăng calci nội bào thông qua 2 chất trung gian Diacylglycerol
+(DAG) và Inositol trip hosphat (IP 3).
+2. Thuốc cường hệ adrenergic
+Là những thuốc có tác dụng giống adrenalin và noradrenalin , kích thích hậu hạch giao cảm nên
+còn gọi là thuốc cường giao cảm. Theo cơ chế tác dụng có thể chia các thuốc này làm hai loại:
+- Loại tác dụng trực tiếp trên các recep tor adrenergic sau xinap như adrenalin, noradrenalin,
+isop roterenol, phenylep hrin
+- Loại tác dụng gián tiếp do kích thích các recep tor trước xinap, làm giải phóng catec holamin nội
+sinh như tyramin (không dùng trong điều trị), ep hedrin, am phetamin và phenyl - et hyl- amin. Khi
+dùng reserpin làm cạn dự trữ catec holamin thì tác dụng của các thuốc đó sĩ giảm đi. Trong nhóm
+này, một số thuốc có tác dụng kích thích thần kinh trung ương theo cơ chế chưa hoàn toàn biết rõ
+(như ep hedrin, am phetamin), reserpin không ảnh hưởng đến tác dụng này; hoặ c ức chế mono-
+amin- oxydase (MAOI), làm vững bền catec holamin.
+2.1. Thuốc cường recep tor alpha và beta
+2.1.1. Adrenalin
+Độc, bảng A
+Là hormon của tuỷ thượng thận, lấy ở động vật hoặc tổng hợp. Chất tự nhiên là đồng phân tả
+tuyền có tác dụng mạnh nhất.
+2.1.1.1. Tác dụng
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Adrenalin tác dụng cả trên và recep tor.
+- Trên tim mạch:
+Adrenalin làm tim đập nhanh, mạnh (tác dụng ) nên làm tăng huyết áp tối đa, tăng áp lực đột
+ngột ở cung động mạch chủ và xoang động mạch cảnh, từ đó phát sinh các phản xạ giảm áp qua
+dây thần kinh Cyon và Hering làm cường trung tâm dây X, vì vậy làm tim đập chậm dần và huyết
+áp giảm. Trên động vật thí nghiệm, nếu cắt dây X hoặc tiêm at ropin (hoặc met hylat ropin) trước
+để cắt phản xạ này thì adrenalin chỉ làm tim đập nhanh mạnh và hu yết áp tăng rất rõ.
+Mặt khác, adrenalin gây co mạch ở một số vùng (mạch da, mạch tạng - recep tor ) nhưng lại gây
+giãn mạch ở một số vùng khác (mạch cơ vân, mạch phổi - recep tor ...) do đó huyết áp tối thiểu
+không thay đổi hoặc có khi giảm nhẹ, huyết áp tru ng bình không tăng hoặc chỉ tăng nhẹ trong
+thời gian ngắn. Vì lĩ đó adrenalin không được dùng làm thuốc tăng huyết áp.
+Tác dụng làm giãn và tăng lưu lượng mạch vành của adrenalin cũng không được dùng trong điều
+trị co thắt mạch vành vì tác dụng này lại kìm theo làm tăng công năng và chuyển hóa của cơ tim.
+Dưới tác dụng của adrenalin, mạch máu ở một số vùng co lại sĩ đẩy máu ra những khu vực ít chịu
+ảnh hưởng hơn, gây giãn mạch thụ động ở những nơi đó (như mạch não, mạch phổi) do đó dễ gây
+các biến chứng đứt mạch não, hoặc phù phổi cấp.
+- Trên phế quản:
+ít tác dụng trên người bình thường. Trên người bị co thắt phế quản do hen thì adrenalin làm giãn
+rất mạnh, kìm theo là co mạch niêm mạc phế quản, làm giảm phù cho nên ảnh hưởng rất tốt tới
+tình trạng bệnh. Song adrenalin bị mất tác dụng rất nhanh với những lần dùng sau, vì vậy không
+nên dùng để cắt cơn hen.
+- Trên chuyển hóa:
+Adrenalin làm tăng huỷ glycogen gan, làm tăng glucose máu, làm tăng acid béo tự do trong máu,
+tăng chuyển hóa cơ bản, tăng sử dụng oxy củ a mô.
+Các cơ chế tác dụng của adrenalin hay catec holamin nói chung là làm tăng tổng hợp adenosin 3' -
+5'- monop hosphat (AMP- vòng) từ ATP do hoạt hóa adenylcyc lase (xem sơ đồ)
+Sơ đồ tác động của catec holamin lên chuyển hóa đường và mì
+Catec holamin
+Cafein
+Diazoxid
+
+(-)
+Adenylcyc lase
+Phosphodiesterase
+ATP
+3', 5'- AMP
+AMP
+(AMP vòng)
+
+Triglycerid
+Triglycerid
+
+lipase
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Glycogen (-)
+Glycogen
+Phospho- Glucose- 1- phosphat syn thetase
+Diglycerid Acid béo
+rylase
+Glucose- 6- phosphat
+Monoglycerid
+Acid béo
+Glucose máu
+Năng lượng
+Acid lac tic
+Glycerol
+Acid béo
+2.1.1.2. áp dụng điều trị:
+- Chống chảy máu bên ngoài (đắp tại chỗ dung dịch adrenalin hydroc lorid 1% để làm co mạch).
+- Tăng thời gian gây tê của thuốc tê vì adrenalin làm co mạch tại chỗ nên làm chậm hấp thu thuốc
+tê.
+- Khi tim bị ngừng đột ngột, tiêm adrenalin trực tiếp vào tim hoặc truyền máu có adrenalin vào
+động mạch để hồi tỉnh.
+- Sốc ngất: dùng adrenalin để tăng huyết áp tạm thời bằng cách tiêm tĩnh mạch theo phương pháp
+tráng bơm tiêm.
+Liều trung bình: tiêm dưới da 0,1- 0,5 m L dung dịch 0,1% adrenalin hydroc lorid.
+Liều tối đa: mỗi lần 1 m L; 24 giờ : 5 m L
+ống 1 m L = 0,001g adrenalin hydroc lorid
+2.1.2. Noradrenalin (arterenol)
+Độc, bảng A
+Là chất dẫn truyền thần kinh của các sợi hậu hạch giao cảm. Tác dụng mạn h trên các recep tor ,
+rất yếu trên , cho nên:
+- Rất ít ảnh hưởng đến nhịp tim, vì vậy không gây phản xạ cường dây phế vị.
+- Làm co mạch mạnh nên làm tăng huyết áp tối thiểu và huyết áp trung bình (mạnh hơn adrenalin
+1,5 lần)
+- Tác dụng trên phế quản rất yếu, vì cơ trơn phế quản có nhiều recep tor 2.
+- Tác dụng trên dinh dưìng và chuyển hoá đều kém adrenalin. Trên nhiều cơ quan, tác dụng của
+NA trên recep tor kém hơn adrenalin một chút. Nhưng do tỷ lệ cường độ tác dụng giữa và
+khác nhau nên tác dụng chung khác nhau rõ rệt.
+Trên thần kinh trung ương, noradrenalin có nhiều ở vùng dưới đồi. Vai trò sinh lý chưa hoàn toàn
+biết rõ. Các chất làm giảm dự trữ catec holamin ở não như reserpin,
+met hyldopa đều
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+gây tác dụng an thần. Trái lại, những thuốc ức chế MAO, làm tăng catec holamin thì đều có tác
+dụng kích thần.
+Điều hòa thân nhiệt phụ thuộc vào sự cân bằng giữa NA, serotonin và acetylcholin ở phần trước
+của vùng dưới đồi.
+Có thể còn tham gia vào cơ chế giảm đau: thuốc làm giảm lượng catec hola min tiêm vào não thất
+ức chế được tác dụng giảm đau của morphin.
+Chỉ định: nâng huyết áp trong một số tình trạng sốc: sốc nhiễm độc, nhiễm khuẩn, sốc do dị
+ứng...
+Chỉ truyền nhỏ giọt tĩnh mạch từ 1- 4 mg pha loãng trong 250- 500 m L dung dịch glucose đ¼ng
+trương. Không được tiêm bắp hoặc dưới da vì làm co mạch kéo dài, dễ gây hoại tử tại nơi tiêm.
+ống 1 m L = 0,001g
+2.1.3. Dopamin
+Dopamin là chất tiền thân của noradrenalin và là chất trung gian hóa học của hệ dopaminergic.
+Có rất ít ở ngọn dây giao cảm. Trong não, tập trung ở các nhân xám trung ương và bó đen vân.
+Trên hệ tim mạch, tác dụng phụ thuộc vào liều:
+- Liều thấp 1- 2 g/ kg/ phút được gọi là "liều thận", tác dụng chủ yếu trên recep tor dopaminergic
+D1, làm giãn mạch thận, mạch tạng và mạch vành. Chỉ đ ịnh tốt trong sốc do suy tim hoặc do giảm
+thể tích máu (cần phục hồi thể tích máu kìm theo).
+- Tại thận, "liều thận" của dopamin làm tăng nước tiểu, tăng thải Na +, K+, Cl-, Ca++, tăng sản xuất
+prostaglan din E2 nên làm giãn mạch thận giúp thận chịu đựng đượ c thiếu oxy.
+- Liều trung bình > 2- 10 g/ kg/ phút, tác dụng trên recep tor 1, làm tăng biên độ và tần số tim.
+Sức cản ngoại biên nói chung không thay đổi.
+- Liều cao trên 10g/ kg/ phút tác dụng trên recep tor 1, gây co mạch tăng huyết áp.
+Trong lâm sàng, tuỵ thuộc vào từng loại sốc mà chọn liều.
+Dopamin không qua được hàng rào máu não
+Chỉ định: các loại sốc, kìm theo vô niệu
+ống 200 mg trong 5 m L. Truyền chậm tĩnh mạch 2 - 5 g/ kg/ phút. Tăng giảm số giọt theo hiệu
+quả mong muốn.
+Chống chỉ định: các bệnh mạch vành
+2.2. Thuốc cường recep tor
+2.2.1. Metaraminol (Aramin)
+Tác dụng ưu tiên trên recep tor 1. Làm co mạch mạnh và lâu hơn adrenalin, có thể còn do kích
+thích giải phóng noradrenalin, không gây giãn mạch thứ phát. Làm tăng lực co bóp của cơ tim, ít
+làm thay đổi nhịp tim. Không kích thích thần kinh trung ương, không ảnh hưởng đến chuyển hóa.
+Vì mất gốc phenol trên vòng ben zen nên vững bền hơn adrenalin.
+Dùng nâng huyết áp trong các trường hợp hạ huyết áp đột ngột (chấn thương, nhiễm khuẩn, sốc).
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Tiêm tĩnh mạch 0,5- 5,0 mg trong trường hợp cấp cứu. Truyền chậm tĩnh mạch dung dịch 10 mg
+trong 1 m L. Có thể tiêm dưới da hoặc tiêm bắp. ống 1 m L= 0,01g metaraminol bitartrat.
+2.2.2. Phenylep hrin (neosynep hrin)
+Tác dụng ưu tiên trên recep tor 1. Tác dụng co mạch tăng huyết áp kéo dài, nhưng không mạnh
+bằng NA. Không ảnh hưởng đến nhịp tim, không kích thích thần kinh trung ương, không làm
+tăng glucose huyết.
+Chỉ định: như noradrenalin
+Tiêm bắp 5- 10 mg
+Truyền chậm vào tĩnh mạch 10- 15 mg trong 1000 m L dung dịch glucose đ¼ng trương
+Còn dùng để chống xung huyết và giãn đồng tử trong một số chế phẩm chuyên khoa.
+2.2.3. Clonidin (Catap ressan)
+Clonidin (dic loro- 2, 6 phenyl- amino- imidazolin) có tác dụng cường recep tor 2 trước xinap ở
+trung ương vì thuốc qua được hàng rào máu- não. Tác dụng cường 2 sau xinap ngoại biên chỉ
+thoáng qua nên gây tăng huyết áp ngắn. Sau đó, do tác dụng cường 2 trung ương chiếm ưu thế,
+clonidin làm giảm giải phóng NA từ các nơ ron giao cảm ở hành não, gây giảm nhịp tim, giảm
+trương lực giao cảm, giảm lưu lượng máu ở não, tạng, thận và mạch vành, đưa đến hạ huyết áp.
+Clonidin làm cạn bài tiết nước bọt, dịch vị, mồ hôi, làm giảm hoạt tính của renin huyết tương,
+giảm lợi niệu. Đồng thời có tác dụng an thần, giảm đau và gây mệt mỏi. Một số tá c giả cho rằng
+clonidin gắn vào recep tor imidazolin ở thần kinh trung ương, là loại recep tor mới đang được
+nghiên cứu.
+Tác dụng không mong muốn: ngủ gà, khô miệng
+Chỉ định: tăng huyết áp thể vừa và nặng (xin xem bài "Thuốc chữa tăng huyết áp")
+Chống chỉ định: trạng thái trầm cảm.
+Không dùng cùng với guanetidin hoặc thuốc liệt hạch vì có thể gây cơn tăng huyết áp.
+Liều lượng: viên 0,15 mg. Uống liều tăng dần tới 6 viên một ngày, tác dụng xuất hiện chậm.
+Dùng cùng với thuốc lợi niệu, tác dụng hạ huyết áp sĩ t ăng.
+2.3. Thuốc cường recep tor
+Có 4 tác dụng dược lý chính
+- Tác dụng giãn phế quản, dùng chữa hen: loại cường 2.
+- Tác dụng giãn mạch: loại cường 2
+- Tác dụng kích thích 1 làm tăng tần số, tăng lực co bóp của cơ tim, tăng tốc độ dẫn truyền trong
+cơ tim, tăng tưới máu cho cơ tim.
+- Trên tử cung có chửa, thuốc cường 2 làm giảm co bóp được dùng chống dọa xẩy thai.
+2.3.1. Isop roterenol (Isop renalin, Isup rel, Aleudrin, Novodrin, Isop ropyl noradrenalin)
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Tác dụng ưu tiên trên recep tor (1 và 2). Làm tăng nhịp tim, tăng sức co bóp của cơ tim và
+cung lượng tim, gây giãn mạch, hạ huyết áp, làm giãn khí quản nhanh và mạnh (gấp 10 lần
+adrenalin), đồng thời làm giảm tiết dịch niêm mạc nên cắt cơn hen rất tốt.
+Dùng trong các trường hợp nhịp tim chậm thường xuyên , nghĩn nhĩ thất hoàn toàn, loạn nhịp do
+nhồi máu cơ tim: truyền tĩnh mạch 0,5mg trong 250 - 500 ml dung dịch glucose 5%. Tác dụng
+tăng đường huyết kém adrenalin vì còn trực tiếp kích thích tế bào tụy tiết in sulin.
+Trong hen phế quản và tràn khí phế mạc mạn tính, đặt dưới lưìi viên 10 mg, 2- 3 lần/ ngày.
+Không uống vì bị chuyển hóa nhanh.
+ống Novodrin 1 m L= 0,5 mg isop renalin clohydrat
+Viên 10- 20 mg isop renalin sulfat
+Phun dịch 1 phần nghìn
+2.3.2. Dobutamin (Dobut rex)
+Công thức gần giống dopamin: tác dụng ư u tiên trên 1 recep tor. Tác dụng phức tạp do
+dobutamin raxemic có 2 đồng phân; đồng phân ( -) dobutamin có tác dụng cường 1 mạnh, gây
+tăng huyết áp; trong khi đồng phân (+) dobutamin lại có tác dụng đối lập hủy 1. Cả hai đồng
+phân đều có tác dụng cường , nhưng đồng phân (+) 10 lần mạnh hơn đồng phân ( -). Tác dụng
+của dobutamin raxemic là tổng hợp của cả hai đồng phân.
+Trên tim, do dobutamin làm tăng co bóp mạnh và ít làm tăng nhịp , vì vậy không làm tăng nhu
+cầu sử dụng oxy của cơ tim. Tác dụng kém isopr oterenol. ít tác dụng trên mạch nhưng làm giãn
+mạch vành. Tác dụng lợi niệu chủ yếu là do tăng lưu lượng tim.
+Chỉ định: suy tim cấp sau mổ tim, nhồi máu cơ tim
+Vì thời gian bán thải chỉ khoảng 2 phút nên chỉ dùng bằng đường truyền chậm tĩnh mạch.
+Chế phẩm: Dobutamin hydroc lorid (Dobut rex) lọ 20 m L chứa 250 mg dobutamin. Khi dùng, hòa
+loãng trong 50 m L dung dịch dextrose 5%, truyền tĩnh mạch với liều 2,5 - 10 g/ kg/ phút. Nếu
+nhịp tim tăng nhanh, giảm tốc độ truyền.
+2.3.3. Thuốc cường ưu tiên (chọn lọc) rece ptor 2
+Là thuốc thường được dùng để điều trị cắt cơn hen. Tuy nhiên, liều cao cũng vẫn kích thích cả 1,
+làm tăng nhịp tim. Vì vậy hướng nghiên cứu tới vẫn là tìm cách thay đổi cấu trúc để có các thuốc
+tác dụng ngày càng chọn lọc trên 1 hơn và có sinh khả dụng cao hơn. Đồng thời dùng thuốc dưới
+dạng khí dung để tránh hấp thu nhiều thuốc vào đường toàn thân, dễ gây tác dụng phụ (tim đập
+nhanh, run tay)
+Các thuốc cường 2 dùng dưới dạng khí dung, ngoài tác dụng làm giãn phế quản còn có thể ức
+chế giải phóng leucot rien và histamin khỏi dưìng bào ở phổi (xem thêm bài "Thuốc điều chỉnh
+rối loạn hô hấp")
+Chống chỉ định: bệnh mạch vành, loạn nhịp tim, cao huyết áp nặng, đái tháo đường, cường giáp.
+Dùng kéo dài liên tục, tác dụng có thể giảm dần do số lượng recept or 2 ở màng tế bào sau xinap
+giảm ("down regulation")
+2.3.3.1. Terbutalin
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Do có vòng resorcinol trong cấu trúc nên không bị COMT metyl hóa. Sau khí dung, tác dụng kéo
+dài được 3- 6 giờ.
+2.3.3.2. Albuterol (Salbutamol- Ven tolin)
+Tính chất dược lý và chỉ định điều trị như terbutalin. Dùng đường uống hoặc khí dung. Sau khí
+dung, tác dụng tối đa vào phút thứ 15 và duy trì được 3 - 4 giờ.
+- Viên giải phóng chậm (Volmax): 4- 8 mg 2 lần/ ngày
+- Khí dung định liều (Ven tolin): 100 g/ nhát bóp 2 nhát/ lần 3- 4lần/ ngày cách nhau 4
+tiếng.
+2.3.2.3. Ritodrin
+Dùng làm giãn tử cung, chống đẻ non (xem bài " Thuốc tác dụng trên tử cung"). Hấp thu nhanh
+qua đường uống nhưng sinh khả dụng chỉ được 30%. Thải trừ qua nước tiểu 90% dưới dạng liên
+hợp. Tiêm tĩnh mạch, 50% thải trừ dưới dạng nguyên chất.
+2.4.
+Thuốc cường giao cảm gián tiếp
+2.4.1. Ep hedrin (ep hedrinum)
+Độc, bảng B
+Ep hedrin là alcaloid của cây ma hoàng (Ep hedra equisetina và Ep hedra vulgaris). Hiện nay đã
+tổng hợp được. Trong y học, dùng loại tả tuyền và raxemic.
+Là thuốc vừa có tác dụng gián tiếp làm giải phóng catec holamin ra khỏi nơi dự trữ, vừa có tác
+dụng trực tiếp trên recep tor.
+Trên tim mạch, so với noradrenalin, tác dụng chậm và yếu hơn 100 lần, nhưng kéo dài hơn tới 10
+lần. Làm tăng huyết áp do co mạch và kích th ích trực tiếp trên tim. Dùng nhiều lần liền nhau, tác
+dụng tăng áp sĩ giảm dần (hiện tượng quen thuốc nhanh: t AC hyp hylaxis)
+Thường dùng chống hạ huyết áp và để kích thích hô hấp trong khi gây tê tuỷ sống, trong nhiễm
+độc rượu, morphin, barbiturat.
+Kích thích trung tâm hô hấp ở hành não và làm giãn phế quản nên dùng để cắt cơn hen, tác dụng
+tốt trên trẻ em.
+Trên thần kinh trung ương, với liều cao, kích thích làm mất ngủ, bồn chồn, run, tăng hô hấp.
+Ep hedrin dễ dàng hấp thu theo mọi đường. Vững bền với MAO. C huyển hóa ở gan, khoảng 40%
+thải trừ nguyên chất qua nước tiểu.
+Dùng dưới thể muối clohydrat hoặc sulfat dễ hòa tan.
+Uống 10- 60 mg / ngày. Liều tối đa 24h là 150 mg
+Tiêm dưới da, bắp thịt hoặc tĩnh mạch 10 - 20 mg/ ngày
+Nhỏ niêm mạc (mắt, mũi) dung dịch 0, 5- 3%
+ống 1 m L= 0,01g ep hedrin clohydrat
+Viên 0,01g ep hedrin clohydrat
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Pseudoep hedrin là đồng phân lập thể của ep hedrin, ít gây tim nhanh, tăng huyết áp và kích thích
+thần kinh trung ương hơn ep hedrin. Thường được dùng trong các chế phẩm nhỏ mũi chống xun g
+huyết niêm mạc.
+2.4.2. Am phetamin
+Là thuốc tổng hợp phenylisop ropanolamin. Tác dụng dược lý theo kiểu ep hedrin, gián tiếp làm
+giải phóng noradrenalin (và có thể còn cả dopamin và serotonin) ra khỏi nơi dự trữ. Khác
+ep hedrin là thấm vào thần kinh trung ương nhan h, tác dụng kích thích mạnh tâm trạng và sự
+nhanh nhẹn do tác động lên vỏ não và hệ liên võng hoạt hóa (vì vậy, được xếp vào loại doping,
+cấm dùng trong thi đấu thể thao). Còn có tác dụng gây chán ăn, dùng để chống béo phì.
+Một số dẫn xuất của am phetamin (met ham phetamin, dimet hoxyam phetamin...) kích thích thần
+trung ương rất mạnh, gây loạn thần, đều xếp vào chất ma tuý.
+2.4.3. Phenylpropanolamin
+ít tác dụng trung ương hơn. ở ngoại biên, tác dụng co mạch thường được dùng để chống ngạt
+mũi, là thuốc phối hợp trong viên thuốc chống cảm cúm (Atussin, Decolgen). Tuy nhiên, gần đây
+thấy nhiều tác dụng phụ trên tim mạch nên có xu hướng không dùng nữa.
+3. Thuốc huỷ hệ adrenergic
+Là những thuốc làm mất tác dụng của adrenalin và noradrenalin. Các thuốc này thường được
+dùng điều trị chứng tăng huyết áp, bệnh Raynaud, loạn nhịp tim, hội chứng cường tuyến giáp
+(tim nhịp nhanh, lồi mắt, giãn đồng tử, tăng hô hấp; chính là những dấu hiệu cường giao cảm).
+Các thuốc được chia thành hai nhóm:
+- Thuốc hủy giao cảm (sym pat holytic): là những thuốc phong toả nơ ron adrenergic trước xinap,
+làm giảm giải phóng catec holamin, không có tác dụng trên recep tor sau xinap, khi cắt các dây
+hậu hạch giao cảm thì thuốc mất tác dụng. Do thiếu chất dẫn truyền thần kinh nội sinh, tính cảm
+thụ của các recep tor sau xinap với catec holamin ngoại lai sĩ tăng lên.
+- Thuốc huỷ adrenalin (adrenolytic) là những thuốc phong toả ngay chính các recep tor adrenergic
+sau xinap, cho nên khi cắt đứt các sợi hậu hạch giao cảm, tác dụng của thuốc không thay đổi.
+Catec holamin cả nội sinh ngoại lai đều bị mất tác dụng.
+1.1.
+Thuốc huỷ giao cảm
+Các thuốc có thể có tác dụng ở những khâu sau:
+1.1.1. ức chế tổng hợp catec holamin
+Thuốc hay được dùng là met hyl dopa (Aldomet) phong tỏa dopa decarboxylase, làm dopa
+không chuyển thành dopamin và 5 - hydroxyt ryp top han không chuyển thành 5 -
+hydroxyt ryp tamin (5 HT- serotonin). Do đó số lượng catec holamin và serotonin ở cả ngoại biên
+và thần kinh trung ương đều giảm. Mặt khác còn ngăn cản khả năng gắn catec holamin vào các
+hạt lưu trữ.
+Ngoài ra, trong cơ thể met hyldopa còn có thể chuyển thành met hyl noradrenalin, tác dụng
+như một chất trung gian hóa học giả chiếm chỗ của noradrenalin (xem bài "Thuốc chữa tăng
+huyết áp")
+Tác dụng phụ: mơ màng, ức chế tâm thần, chóng mặt, nhức đầu, khô miệng, phù.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Không dùng khi có rối loạn tuần hoàn não và mạch vành, các trạng thái trầm cảm, rối loạn gan,
+thận.
+Liều lượng: uống viên 250 mg. Có thể dùng tới 8 viên/ ngày.
+Chế phẩm: Dopegyt viên 0,25 g met hyl dopa.
+Carbidopa và bemerazid, ức chế dopa decarboxylase ở ngo ại biên. Được dùng phối hợp với l-
+dopa để điều trị bệnh Parkin son.
+1.1.2. Làm giảm dự trữ catec holamin trong các hạt
+* Reserpin:
+Làm giải phóng từ từ catec holamin từ các hạt lưu trữ ra ngoài bào tương để MAO phá huỷ, do đó
+lượng catec holamin giảm ở cả trên thần kinh trung ương (gây an thần), cả ở ngoại biên (làm hạ
+huyết áp). Reserpin còn cản trở quá trình gắn catec holamin (cả nội sinh lẫn ngoại sinh) vào các
+hạt lưu trữ.
+* Guanetidin (Ismelin)
+Chiếm chỗ noradrenalin trong các hạt lưu trữ và trở thành chất trung gian hóa học giả. Khác
+reserpin là lúc đầu guanetidin gây tăng nhẹ huyết áp do làm giải phóng nhanh noradrenalin ra
+dạng tự do, mặt khác guanetidin không thấm được vào thần kinh trung ương nên không có tác
+dụng an thần.
+Tác dụng tối đa xuất hiện sau 2- 3 ngày và mất đi 6- 10 ngày sau khi ngừng thuốc.
+Không dùng cho người bệnh có loét dạ dày, suy mạch vành, suy thận. Không dùng cùng với
+clonidin.
+Liều lượng: lúc đầu uống 10 mg/ ngày, sau đó tăng dần tới 50 - 75mg/ ngày
+Chế phẩm: viên 10 và 20 mg
+1.1.3. Ngăn cản giải phóng catec holamin
+Bretylium (Daren tin)
+Cơ chế chưa thật rõ. ức chế giải phóng catec holamin, nhưng không ảnh hưởng đến tác dụng của
+adrenalin và noradrenalin ngoại lai. Có thể là bretylium đã làm cho màng các hạt lưu trữ giảm
+tính thấm với ion Ca++ mà làm cho catec holamin không được giải phóng ra.
+Có tác dụng gây tê tại chỗ.
+Vì có nhiều tác dụng phụ (như xung huyết niêm mạc mũi, khó thở, ỉa lỏng, hạ huyết áp, nhược
+cơ) cho nên còn ít được sử dụng ở lâm sàng.
+1.1.4. Thay thế catec holamin bằng các chất trung gian hoá học giả
+Một số chất không có tác dụng dược lý, nhưng chiếm chỗ của catec holamin và cũng được giải
+phóng ra dưới xúc tác kích thích dây giao cảm như một chất trung gian hóa học, được gọi là chất
+trung gian hóa học giả:
+- met hyldopa tạo thành met hyl noradrenalin
+- Thuốc ức chế MAO: tyramin chuyển thành oc topamin
+- Guanetidin
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+1.2.
+Thuốc huỷ adrenalin
+Các thuốc phong tỏa tác dụng trên recep tor tương đối đặc hiệu hơn thuốc kích thích, nghĩa là
+nhiều thuốc kích thích có tác dụng cả trên hai loại recep tor và , còn thuốc phong toả thường
+chỉ tác dụng trên một loại recep tor mà thôi. Do đó thuốc loại này được chia thành hai nhóm:
+thuốc huỷ và thuốc huỷ adrenergic.
+1.2.1. Thuốc huỷ - adrenergic
+Vì phong toả các recep tor nên làm giảm tác dụng tăng huyết áp của nor adrenalin, làm đảo
+ngược tác dụng tăng áp của adrenalin. Không ức chế tác dụng giãn mạch và tăng nhịp tim của các
+thuốc cường giao cảm vì đều là tác dụng trên các recep tor . Hiện tượng đảo ngược tác dụng tăng
+áp của adrenalin được giải thích là các mao mạ ch có cả hai loại recep tor và , adrenalin tác
+dụng trên cả hai loại recep tor đó, nhưng bình thường, tác dụng chiếm ưu thế nên adrenalin làm
+tăng huyết áp. Khi dùng thuốc phong toả , adrenalin chỉ còn gây được tác dụng kích thích trên
+các recep tor nên làm giãn mạch, hạ huyết áp.
+Nhóm thuốc này được chỉ định trong các cơn tăng huyết áp, chẩn đoán u tuỷ thượng thận, điều trị
+bệnh Raynaud. Hiện đang nghiên cứu thuốc huỷ 1A để điều trị phì đại lành tính tuyến tiền liệt.
+Nhược điểm chung là dễ gây hạ huy ết áp khi đứng, nhịp tim nhanh, xung huyết niêm mạc mũi,
+co đồng tử, buồn nôn, nôn và tiêu chảy do tăng nhu động dạ dày - ruột.
+Các thuốc chỉ khác nhau về cường độ tiêu chảy và thời gian tác dụng.
+1.2.1.1.
+Nhóm haloalkylamin:
+Có phenoxyben zamin (diben zylin) và diben amin.
+Về hóa học, có công thức gần giống như mù tạc ni tơ (nit rogen mustard). Khi vào cơ thể, amin
+bậc 3 được chuyển thành etylen amoni, chất này gắn chặt vào các recep tor theo liên kết cộng
+hóa trị (chủ yếu là recep tor 1), gây ức chế rất mạnh và kéo dài (tới 24 giờ cho một lần dùng
+thuốc) theo kiểu ức chế một chiều.
+Liều lượng: phenoxyben zamin, viên nang 10 mg, uống 2 - 10 viên/ ngày
+1.2.1.2.
+Dẫn xuất imidazolin
+Có tolazolin (Priscol, Divascon) và phen tolamin (Regitin)
+ức chế tranh chấp với noradrenalin ở recep to r 1 và 2 nên tác dụng yếu và ngắn hơn
+phenoxyben zamin nhiều.
+Liều lượng: Priscol uống hoặc tiêm bắp 25 - 50 mg/ ngày. Regitin uống 20- 40 mg/ ngày
+Còn dùng để chẩn đoán u tuỷ thượng thận: nghiệm pháp được coi là dương tính nếu người bệnh
+nghỉ ngơi, hoàn toàn yên tĩnh, tiêm bắp hoặc tiêm tĩnh mạch 5 mg phen tolamin, sau vài phút làm
+huyết áp tối đa và tối thiểu hạ khoảng 4 - 5 cm Hg, duy trì được 7 phút rồi trở lại huyết áp ban đầu
+trong 10- 15 phút.
+3.2.1.3. Prazosin (Minip ress): chất điển hình phong toả 1. Dùng điều trị tăng huyết áp, uống 1 -
+20 mg một ngày. (xin xem bài "Thuốc chữa tăng huyết áp")
+3.2.1.4. Alcaloid nhân in dol:
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Các alcaloid của nấm cựa gà (ergot de seigle; Secale cornutum; Claviceps purpurea), được chia
+thành hai nhóm: loại huỷ giao cảm và làm co bóp tử cung (gồm ergotamin, ergotoxin) và loại làm
+co bóp tử cung đơn thuần (ergomet rin).
+Với liều thấp, ergotamin có tác dụng cường giao cảm nhẹ vì ngăn cản thu hồi noradrenalin ở
+ngọn dây giao cảm. Liều cao, trái lại có tác dụng phong toả recep to r . Ngoài ra còn có tác dụng
+trực tiếp làm co cơ trơn, nên có thể làm co mạch tăng huyết áp, hoặc hoại tử đầu chi và vách mũi
+trong trường hợp nhiễm độc mạn tính do ăn lúa mạch ẩm mốc, làm co thắt ruột, phế quản và tử
+cung.
+Chỉ định: cắt cơn migren, rối loạn thời kỵ mãn kinh, chảy máu tử cung sau sổ rau
+Dẫn xuất hydro hóa của các ergot (như dihydroergotamin, hydroergotoxin) có tác dụng phong toả
+tăng lên trong khi tác dụng co cơ trơn giảm xuống. Ngoài tác dụng phong toả recep tor , tác
+dụng hạ huyết áp của ergotamin còn được giải thích là làm giảm trương lực trung tâm vận mạch
+và kích thích trung tâm phó giao cảm. Do đó được dùng làm thuốc giãn mạch, hạ huyết áp: uống
+4- 6 mg/ ngày, hoặc tiêm dưới da 0,1- 0,5 mg/ ngày.
+Chống chỉ định: có thai, rối loạn mạch vành
+- Yohim bin: là alcaloid của Corynan theyo him be có nhiều ở Châu Phi. Cấu trúc hóa học gần
+giống reserpin, tranh chấp với NA tại recep tor 2. Dễ vào thần kinh trung ương. Tác dụng yếu và
+ngắn, nên ít được dùng trong điều trị.
+Trong lâm sàng còn dùng làm thuốc cường dương, vì ngoài tác dụng giãn mạch còn kích thích
+phản xạ tuỷ.
+Liều lượng: Yohim bin clorhydrat 5- 15 mg/ ngày
+1.2.2. Thuốc huỷ adrenergic
+Còn gọi là thuốc "phong toả " (" bloc king agent") có tác dụng ức chế tranh chấp với
+isop roterenol ở các recep tor. Chất đầu tiên được tìm ra là dic loisop roterenol (Powell và Slater,
+1958). Được dùng nhiều trong lâm sàng.
+1.2.2.1.
+Tác dụng dược lý: có 4 tác dụng dược lý chính với mức độ khác nhau giữa các thuốc:
+* Khả năng huỷ giao cảm : là tính chất chung duy nhất của tất cả các thuốc huỷ :
+- Trên tim: làm giảm nhịp tim (20- 30%), giảm lực co bóp của cơ tim, giảm lưu lượng tim, giảm
+công năng và giảm sử dụng oxy của cơ tim, giảm tốc độ dẫn truyền của tổ chức nút. Chủ yếu là
+do huỷ 1.
+- Trên khí quản: làm co, dễ gây hen. Chủ yếu là do huỷ 2, gây tác dụng không mong muốn.
+- Trên thận: làm giảm tiết renin, hạ huyết áp trên người có HA cao
+- Trên chuyển hóa: ức chế huỷ glycogen và huỷ lipid
++Tác dụng làm ổn định màng: giống quinidin, làm giảm tính thấm của màng tế bào vớ i sự trao
+đổi ion nên có tác dụng chống loạn nhịp tim.
++ Có hoạt tính nội tại kích thích recep tor : một số thuốc phong toả khi gắn vào các recep tor đó
+lại có tác dụng kích thích một phần. Hiệu quả thực tế ít quan trọng, nhưng có thể hạn chế tác
+dụng làm giảm nhịp tim, giảm co bóp cơ tim, giảm co khí quản của chính nó.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
++ Tính chọn lọc: nhiều thuốc phong toả đối lập với tất cả các tác dụng cường giao cảm của
+(1: tim và 2: mạch, khí quản). Nhưng một số thuốc lại chỉ phong toả được một trong hai loại
+recep tor (1hoặc 2), vì thế phân biệt thành các loại phong toả chọn lọc trên giao cảm :
+- Loại tác dụng chọn lọc trên 1 hay loại chọn lọc trên tim ("cardioselec tifs"), như prac tolol,
+acebutalol, atenolol. Thường dùng metop rolol (Lop ressor) và atenolol (T enormin)
+Lợi ích của loại thuốc này là:
+- Do rất kém tác dụng trên 2 của khí quản nên hạn chế được tai biến co thắt khí quản.
+- Kém tác dụng trên 2 của thành mạch sĩ có lợi cho điều trị cao huyết áp (giảm co mạch ngoại
+biên)
+- Do rất kém tác dụng trên 2 của thành mạch vành nên không bộc lộ tác dụng cường -
+adrenergic (tác dụng co mạch vành của CA tuần hoàn trong máu). Bình thường, do có tác dụng
+thì tác dụng của bị lu mờ. Khi bị phong toả thì tác dụng của sĩ được bộc lộ ra.
+- Do không ảnh hưởng đến các recep tor trong huỷ glycogen nên không làm nặng thêm tình trạng
+hạ đường huyết.
+- Loại có tác dụng chọn lọc trên 2, đứng đầu là Butoxamin, ít có ý nghĩa trong lâm sàng.
+1.2.2.2.
+Chỉ định chính
+- Cơn đau thắt ngực, chủ yếu do làm giảm sử dụng oxy của cơ tim . Trong nhồi máu cơ tim, tiêm
+tĩnh mạch ngay từ giờ đầu sĩ làm giảm lan rộng ở nhồi máu và cải thiện được tiên lượng bệnh.
+- Loạn nhịp tim: nhịp nhanh xoang, nhịp nhanh trên thất, tim cường giáp, cuồng động nhĩ do
+nhiễm độc digital.
+- Tăng huyết áp: do làm giảm lưu lượng tim, giảm sức cản ngoại biên, giảm tiết renin và giảm
+giải phóng noradrenalin (xin xem thêm bài "Thuốc chữa tăng huyết áp")
+- Một số chỉ định khác; cường giáp, migren, glocom góc mở (do làm giảm sản xuất thuỷ dịch),
+run tay không rõ nguyên nhân.
+1.2.2.3.
+Chống chỉ định:
+- Suy tim là chống chỉ định chính vì nó ức chế cơ chế bù trừ của tim.
+- Bloc nhĩ- thất vì thuốc có tác dụng làm giảm dẫn truyền nội tại trong cơ tim.
+- Hen phế quản. Loại có tác dụng chọn lọc trên recep tor 1 dùng cho người hen ít nguy hiểm hơn,
+nhưng với liều cao, trong điều trị tăng huyết áp thì cũng bị mất tính chọn lọc.
+- Không dùng cùng với in sulin và các sulfamid hạ đường huyết vì có thể gây hạ đường huyết đột
+ngột.
+- Có thai: không chống chỉ định tuyệt đối, nhưng đã gặp trẻ mới đẻ bị chậm nhịp tim, hạ đường
+huyết, suy hô hấp, thai chậm phát triển.
+1.2.2.4.
+Các tác dụng không mong muốn
+Được chia làm hai loại:
+* Loại tai biến là hậu quả của sự phong toả recep tor
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Tim: suy tim do làm yếu co bóp của cơ tim, chậm nhịp tim, nhĩ thất phân ly .
+- Mạch: hội chứng Raynaud, tím lạnh đầu chi, đi khập khiễng, (thường gặp với prop ranolol, do
+bị phong toả thì sĩ cường). Các thuốc chọn lọc trên 1 và có hoạt tính kích thích nội tại thì ít tai
+biến này hơn
+- Phổi: các thuốc có tác dụng huỷ 2 > 1 sĩ gây co khí quản, khó thở. Không dùng cho người
+hen.
+- Thần kinh trung ương: mệt mỏi, mất ngủ, hay ngủ mê, ảo ảnh, trầm cảm, thường gặp hơn với
+các thuốc dễ tan trong mì vì dễ thấm vào tế bào thần kinh (prop ranolol, metop rolol), loại ít tan
+trong mì (atenolol, nadolol) ít tai biến hơn.
+- Chuyển hoá: làm hạ đường huyết (cần thận trọng với người bị đái tháo đường), tăng triglycerid
+trong máu.
+* Loại tai biến không liên quan đến tác dụng phong toả
+- Hội chứng mắt- da- tai: xuất hiện riêng hoặc phối hợp với các tổn thương của mắt (viêm giác
+mạc, viêm củng mạc), da (sẩn ngứa lòng bàn tay, bàn chân, dầy da), tai (điếc và viêm tai nặng).
+Đã gặp với prac tolol, điều trị trong 1- 2 năm
+- Viêm phúc mạc xơ cứng: đau cứng bụng phúc mạc có những màng dày do tổ chức xơ . Sau khi
+ngừng thuốc hoặc điều trị bằng corticoid sĩ khỏi. Gặp sau khi điều trị kéo dài trên 30 tháng.
+- Trên thực nghiệm, đã gặp ung thư tuyến ức, ung thư vú, lym phosarcom. Do đó cần theo dõi trên
+người khi dùng liều cao kéo dài.
+1.2.2.5.
+Tương tác thuốc
+- Các thuốc gây cảm ứng các en zym chuyển hóa ở gan như phenytoin, rifam pin, phenobarbital,
+hút thuốc lá, sĩ làm tăng chuyển hóa, giảm tác dụng của thuốc huỷ .
+- Các muối nhôm, cholestyramin làm giảm hấp thu
+- Các thuốc huỷ có tác dụng hiệp đồng với thuốc chẹn kênh calci, các thuốc hạ huyết áp
+- In domet hacin và các thuốc chống viêm phi steroid làm giảm tác dụng hạ huyết áp của các thuốc
+huỷ .
+1.2.2.6.
+Phân loại
+Không có tác dụng "chọn lọc
+trên tim"
+Có tác dụng "chọn lọc trên tim"
+ổn định màng
+Không ổn
+định màng
+ổn định màng
+Không ổn định
+màng
+Không
+cường
+nội tại
+Prop ranolol
+Sotalol
+Timolol
+Esmolol
+Atenolol
+Có cường nội
+tại
+Alprenolol
+Oxprenolol
+Pin dolol
+Acebutolol
+Metop rolol
+Prac tolol
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Sự phân loại này giúp cho chọn thuốc trong điều trị. Thí dụ bệnh nhân có r ối loạn co thắt phế
+quản thì nên dùng loại có tác dụng "chọn lọc trên tim"; bệnh nhân có nhịp tim chậm thì dùng loại
+"có cường nội tại "
+1.2.2.7.
+Một số thuốc chính
+* Prop ranolol (In deral, Avlocardyl)
+Là isop ropyl aminonap htyl oxyp rop ranolol. Có tác dụng phong t oả như nhau trên cả 1 và 2,
+không có hoạt tính nội tại kích thích.
+Tác dụng:
+- Trên tim: làm giảm tần số, giảm lực co bóp, giảm lưu lượng tim tới 30%. ức chế tim là do tác
+dụng riêng của prop ranolol ngăn cản calci nhập vào tế bào cơ tim, giảm nồng độ cal ci trong túi
+lưới nội bào.
+- Trên mạch vành: làm giảm lưu lượng 10 - 30% do ức chế giãn mạch. Làm giảm tiêu thụ oxy của
+cơ tim.
+- Trên huyết áp: làm hạ huyết áp rõ sau 48 giờ dùng thuốc. Huyết áp tối thiểu giảm nhiều.
+- Ngoài ra còn có tác dụng chống loạn n hịp tim, gây tê (do tác dụng ổn định màng) và an thần
+Chỉ định:
+- Tăng huyết áp, loạn nhịp tim, nhịp nhanh xoang, cuồng động nhĩ, nhịp nhanh trên thất, bệnh
+cường giáp, suy mạch vành. Uống liều hàng ngày 120- 160 mg
+Viên 40 và 160 mg
+- Dùng trong cấp cứu loạn nhịp tim do nhiễm độc digital hay do thông tim, do đặt ống nội khí
+quản.
+Tiêm tĩnh mạch 5- 10 mg. ống 5 mg
+Chống chỉ định: ngoài chống chỉ định chung, prop ranolol không được dùng cho người có thai
+hoặc loét dạ dày đang tiến triển.
+Thuốc được dễ dàng hấp thu qua đường tiêu hóa do tan nhiều trong mì. Gắn vào protein huyết
+tương tới 90- 95%, đậm độ tối đa trong máu đạt được sau khi uống từ 1 - 2 giờ. Chuyển hóa thành
+hydroxy- 4- prop ranolol và acid nap htoxyl acetic rất nhanh tại gan nên chỉ khoảng 25% liều uống
+vào được vòng tuần hoàn, t/2: 3- 5 giờ.
+Viên 40 mg. Uống trung bình 2- 4 viên / ngày, chia làm nhiều lần
+ống 1 m L= 1 mg. Dùng cấp cứu, tiêm tĩnh mạch rất chậm, từ 1 - 5 mg/ ngày
+* Pin dolol (Visken);
+Có tác dụng cường nội tại và không ảnh hưởng đến vận chuyển của ion Ca++ nên làm tăng lực
+co bóp và tần số của tim. Thường dùng trong các trường hợp có loạn nhịp chậm với liều uống 5 -
+30 mg/ ngày. Tan vừa trong mì, sinh khả dụng 75% và t/2 = 3 - 4 giờ.
+* Oxprenolol (Trasicor):
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Dùng điều trị cao huyết áp, cơn đau thắt ngực, loạn nhịp tim. Uống 160 - 240 mg/ ngày.
+* Atenolol (Tenormin): Tác dụng chọn lọc trên 1- rất tan trong nước nên ít thấm vào thần kinh
+trung ương, sinh khả dụng 50%, t/2 = 5 - 8 giờ. Uống 50- 100 mg/ ngày.
+* Metop rolol (Lop ressor). Có tác dụng chọn lọc trên tim (1) nên đì gây cơn hen phế quản (2).
+Uống 50- 150 mg/ ngày. Hấp thu nhanh qua đường uống, sinh khả dụng 40% và t/2 = 3 - 4 giờ.
+câu hỏi tự lượng giá
+1. Trình bày sinh chuyển hóa của catec holamin tại ngọn dây giao cảm.
+2. Trình bày sự phân loại các recep tor của hệ giao cảm: vị trí, đáp ứng và chất chủ vận.
+3. Phân tích, so sánh tác dụng và áp dụng điều trị của adrenalin, noradrenalin và
+dopamin.
+4. Phân biệt tác dụng của thuốc cường β1 và β2 giao cảm.
+5. Trình bày cơ chế tác dụng, tác dụng và áp dụng lâm sàng của isop roterenol,
+dobutamin và albuterol (Salbutamol, Ven tolin).
+6. Phân tích cơ chế của các thuốc huỷ giao cảm.
+7. Trình bày đặc điểm tác dụng và áp dụng điều trị của thuốc huỷ giao cảm, nêu 2
+thuốc thí dụ.
+8. Trình bày tác dụng dược lý và áp dụng lâm sàng của thuốc huỷ β.
+Trình bày các tác dụng không mong muốn của thuốc huỷ β.

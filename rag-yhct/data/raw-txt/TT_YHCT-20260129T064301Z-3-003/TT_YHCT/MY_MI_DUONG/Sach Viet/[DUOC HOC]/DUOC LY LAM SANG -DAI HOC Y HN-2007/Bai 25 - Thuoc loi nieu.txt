@@ -1,0 +1,433 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 25: Thuốc lợi niệu
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được cơ chế tác dụng và áp dụng điều trị của 4 nhóm thuốc lợi niệu:
+nhóm thuốc ức chế enzym carbonic anhydrase, nhóm thiazid, nhóm thuốc lợi niệu
+quai và nhóm lưu kali máu.
+2. Nêu được các tai biến rối loạn về ion khi dùng các thuốc lợi niệu kéo dài
+3. Trình bày được cơ chế tác dụng và áp dụng điều trị của thuốc lợi niệu thẩm thấu
+1. Đại cương
+Tất cả các chất làm tăng khối lượng nước tiểu đều được coi là có  tác dụng lợi niệu (uống
+nước nhiều làm đái nhiều). Song nếu chỉ như vậy thì không giải quyết được phù, là tình
+trạng ứ đọng Na+ ở dịch ngoài tế bào. Cho nên thuốc lợi niệu phải là thuốc làm tăng thải
+trừ Na+, kìm theo là thải trừ nước lấy từ dịch ngoài tế  bào.
+Trên người không có phù, thuốc lợi niệu vẫn có tác dụng. Đó là cơ sở để sử dụng nó trong
+điều trị cao huyết áp: làm giảm Na + của thành mạch sĩ làm tăng tác dụng của thuốc hạ áp
+và giảm tác dụng của các hormon gây co mạch (như vasopressin).
+Ngoài tác dụng ức chế chọn lọc tái hấp thu Na +, các thuốc lợi niệu còn có ảnh hưởng trực
+tiếp hoặc gián tiếp đến sự bài xuất của một số điện giải hoặc các chất khác: K +, Cl-, HCO3
+-
+, acid uric... và gây ra các rối loạn khi dùng kéo dài.
+Để hiểu rõ cơ chế và các tác dụng không mong muốn của thuốc lợi niệu, cần nhắc lại quá
+trình vận chuyển của một số ion khi qua thận.
+1.1. Vận chuyển của Na +
+- ở ống lượn gần, khoảng 70- 80% Na+ được tái hấp thu cùng với các chất hữu cơ hòa tan
+(đường, acid amin), với các anion (acetat,  phosphat, citrat, Cl-), với bicarbonat dưới ảnh
+hưởng của carbonic anhydrase.
+- ở đoạn lên của quai Henle, Na + tiếp tục được tái hấp thu khoảng 15- 20%, theo cơ chế
+cùng vận chuyển 1 Na+, 1 K+ và 2 Cl-.
+- ở ống lượn xa, tái hấp thu Na + (0- 10%) phụ thuộc vào bài xuất K+ và H+:
+. Trao đổi Na+ và K+ dưới ảnh hưởng của aldosteron, hormon làm tăng tái hấp thu Na + và
+tăng thải K+
+. Trao đổi giữa Na+ và H+ phụ thuộc vào trạng thái thăng bằng acid - base. Trong nhiễm
+acid, có sự tăng thải trừ H + nên làm tăng tái hấp thu Na+: cứ 1 ion H+ thải trừ vào lòng ống
+thận thì 1 ion Na+ được tái hấp thu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Trong nhiễm base có hiện tượng ngược lại.
+Kết quả cuối cùng là sau khi lọc qua cầu thận (25.000 mEq/ 24h), Na + được tái hấp thu tới
+98- 99%, chỉ thải trừ 20- 400 mEq/ 24h.
+1.2. Vận chuyển K+
+K+ qua cầu thận được tái hấp thu hoàn toàn ở ống lượn gần. Sự có mặt của K + trong nước
+tiểu là do được bài xuất ở ống lượn xa bằng các quá trình sau:
+- ảnh hưởng của aldosteron: thải K + và tái hấp thu Na+
+- ảnh hưởng của trạng thái thăng bằng acid- base: H+ và K+ là 2 ion được thải trừ tranh
+chấp ở ống lượn xa. Trong nhiễm acid, khi tăng thải trừ H + để trao đổi với tái hấp thu Na +
+thì sĩ giảm bài xuất K+. Trong nhiễm base thì ngược lại, ion H + được tạo ra phần lớn là do
+enzym carbonic anhydrase (CA). ở ống lượn xa, CA đóng vai trò chủ yếu trong acid hóa
+nước tiểu.
+1.3. Bicarbonat
+ở ống lượn gần, 4/5 bicarbonat lọc qua cầu thận được tái hấp thu do ảnh hưởng của
+enzym CA (hình 25.1). Phần còn lại hầu như sĩ bị tái hấp thu nốt ở ống lượn xa (p H của
+nước tiểu là acid nên không chứa bicarbonat).
+1.4. Vận chuyển nước
+- ở ống lượn gần, nước được tái hấp thu thụ động theo các chất điện giải. Nước tiểu trong
+lòng ống đ¼ng trương.
+- ở nhánh xuống của quai Henle, nước được tái hấp thu đơn thuần, không  kìm theo điện
+giải, nước tiểu ngày càng ưu trương.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 25.1. Tái hấp thu bicarbonat ở ống lượn gần
+- ở nhánh lên của quai Henle, nước không thấm qua được, trong khi Na + lại được tái hấp
+thu, nên nước tiểu dần dần trở thành nhược trương. Vì vậy, phần cuối của nhánh lên và
+phần đầu của ống lượn xa được gọi là đoạn pha loãng.
+Hình 25.2. Vận chuyển nước và điện giải ở đơn vị  thận
+= : Nước tiểu đ¼ng trương
++ : ¦u trương
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- : Nhược trương
+- Trong ống góp, tính thấm với nước có thay đổi phụ thuộc v ào ADH, hormon chống bài
+niệu của thuỵ sau tuyến yên. Với sự có mặt của ADH, ống góp thấm nước mạnh, nước
+được tái hấp thu không kìm theo ion, nước tiểu được cô đặc dần và trở thành ưu trương.
+Khi không có ADH thì ống góp không thấm nước, nước tiểu từ ống lượn xa đến vẫn giữ ở
+trạng thái nhược trương trong ống góp (H.29).
+Như vậy, cầu thận lọc 130 ml/ phút và bài xuất nước tiểu là 1 ml/ phút (1440 ml/ 24h).
+Nghĩa là trên 99% nước tiểu lọc qua cầu thận được tái hấp thu. Rõ ràng là muốn có tác
+dụng lợi niệu nhanh không phải là làm tăng sức lọc của cầu thận mà là cần ức chế quá
+trình tái hấp thu của ống thận.
+2. Các thuốc lợi niệu
+Mỗi thuốc lợi niệu thường tác dụng ở một vị trí nhất định của ống thận, làm thay đổi
+thành phần ion của nước tiểu trong lòng ống thậ n. Sự thay đổi đó sĩ gián tiếp hoặc trực
+tiếp gây ra các phản ứng trong sự vận chuyển các ion và nước ở các phần khác, và sĩ là
+nguyên nhân của các rối loạn điện giải, thăng bằng acid - base của thuốc. Để tiện theo dõi
+lâm sàng khi dùng thuốc lợi niệu kéo d ài, ta chia thành 2 nhóm lớn:
+- Thuốc lợi niệu làm giảm K + máu (tăng thải trừ K+)
+- Thuốc lợi niệu giữ K+ máu (giảm thải trừ K+)
+- Ngoài ra, có loại thuốc lợi niệu thẩm thấu, không gây rối loạn ion.
+2.1. Thuốc lợi niệu làm giảm K + máu
+Các thuốc này do tác dụng làm tăng thải Na + ở đoạn trên của ống lượn nên ở đoạn cuối
+của ống lượn có phản ứng tăng thải K + để giữ Na+, gây các rối loạn giảm K + máu và làm
+tăng độc tính của thuốc dùng cùng (như loại digitalis).
+2.1.1. Thuốc phong toả carbonic anhydrase (CA)
+Còn gọi là sulfamid lợi niệu. Tất cả đều có nhóm sulfonamid ( -SO2NH2) trong công thức,
+nhưng không có tác dụng kìm vi khuẩn.
+2.1.1.1. Tác dụng và cơ chế
+ở ống lượn gần, trong tế bào ống thận, CA có tác dụng làm giải phóng ion H + vào lòng
+ống thận theo phản ứng sau:
+CA
+      H2O + CO2
+ H2CO3
+      HCO3
+- + H+
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+H+ được giải phóng vào lòng ống thận sĩ trao đổi với Na + được tái hấp thu (hình 1). Khi
+enzym CA bị phong tỏa, lượng ion H + bài xuất bị giảm nên Na + không được tái hấp thu,
+thải trừ ra nước tiểu dưới dạng bicarbonat, kéo theo nước nên lợi niệu. Mặt khác, do sự bài
+xuất tranh chấp giữa H + và K+, khi thiếu H+, K+ sĩ bị tăng thải trừ. Tóm lại, thuốc làm
+tăng thải trừ Na+, K+ và bicarbonat (có thể làm thải trừ tới 45% lượng HCO 3
+- qua thận), do
+đó làm giảm K+ máu và gây nhiễm acid chuyển hóa. Tình trạng nhiễm acid này chỉ bù trừ
+sau 3- 7 ngày và sau đó là nguyên nhân tự giới hạn hiệu quả của thuốc: dùng thuốc liên
+tục, tác dụng bị giảm nhanh. Do quá trình bù trừ, nồng độ Cl - huyết tương tăng (do tăng
+tái hấp thu NaCl)
+Ngoài ra ở mắt (cuộn mí) và thần kinh trung ương cũng có enzym CA. Thuốc ức chế
+enzym làm giảm tiết thuỷ dịch của mắt, giảm sản xuất dịch não tủy và gây toan chuyển
+hóa trên thần kinh trung ương.
+2.1.1.2. Chỉ định
+- Vì có nhiều thuốc lợi niệu tốt hơn nên thuốc này không còn được dùng với mục đích lợi
+niệu. Chỉ định của thuốc liên quan đến tác dụng thải trừ bicarbonat và tác dụng ngoài
+thận.
+- Điều trị tăng nhãn áp (glôcôm góc mở) do thuốc làm giảm tiết dịch nhãn cầu.
+- Điều trị chứng động kinh: ngoài tác dụng làm giảm tạo thành dịch não tuỷ, thuốc còn có
+tác dụng chống co giật. Trong não, các quá trình oxy hóa xảy ra rất nhanh cho nên CO 2
+cũng được sinh ra nhanh. Thuốc phong toả enzym CA ở bào tương, làm tích luü H 2CO3
+gây nhiễm acid tế bào nên làm thay đổi chức phận tế bào thần kinh.
+2.1.1.3. Chống chỉ định
+- Bệnh tim phổi mạn tính, hoặc các bệnh phổi mạn tính có suy hô hấp và tăng CO2
+máu, vì các thuốc phong toả CA ngăn cản tái hấp thu bicarbonat cần thiết như là chất đệm
+trung hòa trạng thái quá thừa CO2 trong mô.
+- Xơ gan và suy gan, vì thuốc gây acid máu, dễ làm xuất hiện hôn mê gan.
+2.1.1.4. Tai biến
+- Gây acid huyết do làm giảm dự trữ base, khi đó tác dụng của thuốc cũng bị giảm đi nếu
+dùng thuốc nhiều liều liền nhau, cho nên cần d ùng ngắt quãng.
+- Giảm K+ máu, gây mệt mỏi, hoặc dễ xảy ra nhiễm độc khi đang điều trị bằng digitalis.
+2.1.1.5. Chế phẩm
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Viên 0,25 g. Mỗi ngày uống 1 viên. Trong bệnh tăng nhãn áp, có thể uống 4 - 6 viên một
+ngày. Hấp thu nhanh qua đường tiêu hóa, gắn vớ i protein huyết tương 92%. Thời gian bán
+hủy ngắn, không bị chuyển hóa. Thải trừ hoàn toàn qua nước tiểu trong 24 giờ.
+2.1.2. Nhóm thiazid (benzothiadiazid)
+Trong phân tử có 2 nhóm sulfonamid ( -SO2NH2), 1 tự do và 1 nằm trong dị vòng.
+2.1.2.1. Tác dụng và cơ chế
+Tác dụng ức chế CA kém acetazolamid (Diamox), nhưng tác dụng lợi niệu lại nhanh hơn
+vì vậy còn có những tác dụng khác mà cơ chế còn chưa hoàn toàn biết rõ. Là thuốc tác
+dụng trực tiếp trên thận, tiêm vào 1 thận thì gây lợi niệu chỉ cho thận đó (tuy nhiên chưa
+tìm thấy receptor hay enzym đặc hiệu).
+Thiazid ức chế tái hấp thu Na + và kìm theo là cả Cl- (vị trí đồng vận chuyển) ở đoạn pha
+loãng (phần cuối của nhánh lên quai Henle và phần đầu của ống lượn xa), thải trừ Na + và
+Cl- với số lượng gần ngang nhau nên còn gọi là thuốc lợi niệu thải trừ muối (saluretics).
+Khoảng 5- 10% Na+ lọc qua cầu thận bị thải trừ nên thuộc loại thuốc có tác dụng lợi niệu
+trung bình.
+Thuốc có tác dụng ở cả môi trường acid và base.
+- Làm tăng thải trừ K+, theo 2 cơ chế: một phần do thuốc ức chế enzym CA, làm giảm bài
+tiết ion H+ nên tăng thải K+ (cơ chế thải trừ tranh chấp ở ống lượn xa); một phần do ức chế
+tái hấp thu Na+ làm đậm độ Na+ tăng cao ở ống lượn xa, gây phản ứng bù trừ bài xuất K +
+để kéo Na+ lại.
+- Không làm tăng thải trừ bicarbonat nên không gây acid máu.
+- Làm giảm bài tiết acid uric qua ống thận nên có thể làm nặng thêm bệnh gut. Các
+thiazid được thải trừ qua hệ thải trừ acid hữu cơ của ống thận nên tranh chấp một phần với
+thải trừ acid uric qua hệ này.
+- Dùng lâu, làm giảm calci niệu do làm tăng tái hấp thu Ca ++ ở ống lượn gần và cả xa nên
+có thể dùng để dự phòng sỏi thận. Tuy nhiên, hiếm khi gặp tăng calci máu do thiazid vì có
+thể có các cơ chế bù trừ khác.
+- Làm hạ huyết áp trên những bệnh nhân bị tăng huyết áp v ì ngoài tác dụng làm tăng thải
+trừ muối, các thuốc còn ức chế tại chỗ tác dụng của thuốc co mạch trên thành mạch, như
+vasopressin, noradrenalin. Mặt khác, do lượng Na + của mô thành mạch giảm nên dịch
+gian bào của thành mạch cũng giảm, làm lòng mạch rộng ra , do đó sức cản ngoại vi giảm
+xuống (huyết áp tối thiểu hạ).
+2.1.2.2. Chỉ định
+- Phù các loại: tim, gan, thận, có thể gây thiếu máu thai và teo thai, không dùng cho phù
+và tăng huyết áp khi có thai. Có thể dùng cho phù tim, gan, thận ở người có thai.
+- Tăng huyết áp: dùng riêng hoặc dùng cùng với các thuốc hạ áp khác, vì có tác dụng hiệp
+đồng.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Tăng calci niệu không rõ nguyên nhân dễ dẫn đến sỏi niệu.
+2.1.2.3. Chống chỉ định hoặc dùng thận trọng
+- Trạng thái giảm kali- máu trên bệnh nhân bị xơ gan (vì dễ l àm xuất hiện hôn mê gan),
+trên bệnh nhân đang điều trị bằng digital (sĩ làm tăng độc tính của digital). Khắc phục
+bằng uống KCl 1- 3 g một ngày.
+- Bệnh gut: do thiazid làm tăng acid uric máu
+- Suy thận, suy gan, không dung nạp sulfamid (gây bệnh não do gan ).
+2.1.2.4. Tai biến
+Khi dùng lâu, thuốc có thể gây các tai biến sau:
+- Rối loạn điện giải: hạ Na + và K+ máu (theo cơ chế đã trình bày ở trên), gây mệt mỏi,
+chán ăn, nhức đầu, buồn nôn, chuột rút.
+- Tăng acid uric máu gây ra các cơn đau của bệnh gut. Điều trị bằng probenecid.
+- Làm nặng thêm đái đường tụy. Cơ chế chưa rõ.
+Một số tác giả thấy thiazid ức chế giải phóng insulin và làm tăng bài tiết catecholamin
+đều dẫn tới tăng đường huyết.
+- Làm tăng cholesterol và LDL máu khoảng 5 - 15%. Tuy nhiên khi dùng kéo dài thì cả 2
+mức lại trở về bình thường.
+- Một số biểu hiện dị ứng hoặc không chịu thuốc.
+2.1.2.5. Tương tác thuốc
+- Các thiazid làm giảm tác dụng của các thuốc chống đông máu, thuốc làm tăng thải trừ
+uric để điều trị gut, các sulfonylure và insulin.
+- Các thiazid làm tăng tác dụng của thuốc tê, diazoxid, glycosid trợ tim, lithi, thuốc lợi
+niệu quai và vitamin D.
+- Tác dụng lợi niệu của thiazid bị giảm khi dùng cùng với thuốc chống viêm phi steroid.
+Amphotericin B và corticoid làm tăng nguy cơ hạ kali máu  của thiazid.
+2.1.2.6. Chế phẩm: một số thuốc thường dùng
+Chức halogen ở C6 và nhóm sulfamid ở C 7 rất
+cần cho tác dụng lợi niệu của cả nhóm. Thay
+nhóm -SO2 NH2 ở C7 bằng Cl, được diazoxid
+có tác dụng ngược với chlorothiazid, giữ Na +,
+nhưng có tác dụng giãn mạch, hạ huyết áp.
+Hydrochlorothiazid do bão hòa đường nối 3 - 4,
+đã có tác dụng thải trừ Na + mạnh gấp 10
+chlorothiazid.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bảng 25.1: Một số chế phẩm
+Tên thuốc
+X
+Đường
+nối 3- 4
+Y
+Z
+Thời
+gian tác
+dụng
+Mức
+thải trừ
+muối
+Liều lượng
+Chlorothiazid
+Hydrochlorothiazid
+(hypothiazid)
+Hydroflumethiazid
+Methylchlothiazid
+Polythiazid
+Cl
+Cl
+CF3
+Cl
+Cl
+Nối kép
+Bão hòa
+Bão hòa
+Bão hòa
+Bão hòa
+H
+H
+H
+-CH2Cl
+-CH2-S- CH2 - CF3
+H
+H
+H
+CH3
+CH3
+8- 12h
+8- 12h
+8- 12h
+12- 24h
+30h
+1
+10
+10
+200
+500
+0,5- 2,0g
+0,025- 0,1
+0,025- 0,1
+0,005- 0,01
+0,002- 0,004
+Hiện nay có thêm một số chế phẩm mới:
+- Chronexan (Xipamid). Viên 20 mg
+Dễ hấp thu qua tiêu hóa. Đỉnh huyết tương 45 phút - 2 giờ sau khi uống liều duy nhất.
+T1/2: 6- 8h. Gắn vào protein huyết tương 95%. Thải 90% qua thận, ch ủ yếu là dạng không
+đổi.
+Uống liều duy nhất buổi sáng 10- 40 mg
+- Hygroton (Chlorthalidone). Viên 25 mg
+Hấp thu chậm. T1/2 là 50 giờ.Thải 1/2 qua thận dưới dạng không đổi. Qua được sữa.
+Uống 1 lần vào buổi sáng, 1- 2 viên
+- Fludex (Indapamid) viên 2,5 mg, Natrilix viên 1,5 mg.
+Đặc điểm:
+. Giãn mạch (thay đổi dòng ion, đặc biệt là Ca)
+. Kích thích tổng hợp PGE 2 và PGI2 (giãn mạch và chống vón tiểu cầu)
+. Không ảnh hưởng đến chuyển hóa đường và lipid
+Động học: đạt được đỉnh huyết tương sau 1 - 2h. Gắn 75% vào protein huyết tương, T 1/2 =
+14- 24h
+2.1.3. Thuốc lợi niệu tác dụng mạnh hay thuốc lợi niệu "quai" ("loop diuretics")
+Đó là nhóm thuốc có tác dụng rất mạnh so với các thuốc lợi niệu đã biết và vị trí tác dụng
+là ở đoạn phình to của nhánh lên quai Henl e. Đoạn này có quá trình tái hấp thu tới 35%
+lượng Na+ và Cl- của nước tiểu ban đầu. Thuốc tiêu biểu là furosemid và acid ethacrynic.
+2. 1.3.1. Tác dụng và cơ chế
+- ức chế cơ chế cùng vận chuyển (cotransport mechanism) của 1Na +, 1K+ và 2 Cl- ở đoạn
+phình to của nhánh lên quai Henle. Vì vậy làm tăng thải trừ Na +, Cl- (gần ngang nhau) và
+K+ (ít hơn thiazid).
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Furosemid và bumetanid còn có cả tác dụng ức chế carbonic anhydrase do trong công
+thức cũng có gốc sulfonamid. Nhưng tác dụng này chỉ rất yếu.
+- Tuy có làm tăng thải trừ ion H +, nhưng pH nước tiểu ít thay đổi vì tác dụng ức chế
+carbonic anhydrase đã bù trừ lại.
+- Các thuốc nhóm này làm tăng thải trừ Ca ++ và cả Mg++, trái với tác dụng của thiazid, vì
+vậy có thể dùng điều trị tăng calci máu triệu chứng. Vì  Ca++ còn được tái hấp thu ở ống
+lượn nên thường chỉ thấy hạ Mg ++ máu khi dùng lâu.
+Kết quả là các thuốc lợi niệu "quai" có thể làm thải trừ tới 30% số lượng nước tiểu lọc qua
+cầu thận, vượt quá số lượng nước tái hấp thu của quai Henle, cho nên có thể còn có một
+số cơ chế phụ ức chế tái hấp thu ở ống lượn gần. Hiện là thuốc có tác dụng lợi niệu mạnh
+nhất.
+2.1.3.2. Chỉ định
+- Như nhóm thiazid
+- Vì có tác dụng nhanh nên còn được dùng trong cấp cứu: cơn phù nặng, phù phổi cấp,
+cơn tăng huyết áp, tăng calci huyết cấp tính.
+2.1.3.3. Tai biến
+- Do thải trừ quá nhanh nước và điện giải nên có thể gây mệt mỏi, chuột rút, tiền hôn mê
+gan, hạ huyết áp.
+- Giống nhóm thiazid, có thể gặp tăng acid uric máu, tăng đường máu.
+- Dùng lâu, do tăng thải trừ Cl -, K+ và H+ nên có thể gây nhiễm base giảm Cl -, hoặc nhiễm
+base giảm K+.
+- Do làm tăng thải trừ Mg ++ và Ca++ nên có thể gây hạ Mg++ máu (dễ gây loạn nhịp tim) và
+hạ Ca++ máu (hiếm khi dẫn đến tétani)
+- Những biểu hiện khác có thể gặp: rối loạn tiêu hóa (có khi là chảy máu),  giảm số lượng
+hồng bạch cầu, rối loạn chức phận gan thận, sẩn da, tê bì.
+- Duy nhất với nhóm này là độc tính với dây VIII, có thể gây điếc tai do rối loạn ion trong
+nội dịch hoặc do đặc ứng. Vì vậy không nên dùng cùng với kháng sinh nhóm aminosid.
+2.1.3.4. Chế phẩm và liều lượng
+* Ethacrynic acid (Edecrin): trong công thức có chứa ceton không bão hòa cho nên dễ
+phản ứng với nhóm sulfydril của các enzym vận chuyển ion của ống thận.
+- Viên 25 hoặc 50 mg. Uống 50- 200 mg/ ngày
+- ống bột Edecrin natri 50 mg. Tiêm tĩnh mạch 50 mg hoặc 0,5mg/kg cân nặng. Không
+tiêm bắp hoặc dưới da vì thuốc kích thích tại chỗ gây đau.
+Hấp thu nhanh qua đường tiêu hóa. Gắn nhiều với protein huyết tương, t/2 dưới 1 giờ.
+Thải trừ qua thận 40% dưới dạng không chuyển hóa.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+* Furosemid (Lasix, Lasilix, Trofurit)
+Là dẫn xuất của acid anthranilic, có chứa gốc sulfonamid trong công thức.
+- Viên 20, 40 và 80 mg. Uống 20- 80 mg/ ngày
+- ống 2 ml = 20 mg. Tiêm bắp hoặc tĩnh mạch: 1 - 2 ống
+Trong phù phổi cấp, sau liều đầu 60- 90 phút có thể tiêm nhắc lại.
+Tác dụng lợi niệu xuất hiện nhanh, 3 - 5 phút sau khi tiêm tĩnh mạch, 20 phút sau khi
+uống. Hết tác dụng sau 4- 6h.
+Thuốc dễ hấp thu qua tiêu hóa, một phần gắn với protein huyết tương. Chủ yếu nằm ngoài
+tế bào và ít tan trong mì. Thải trừ phần lớn dưới dạng không chuyển hóa.
+* Bumetanid (Bumex):
+Là dẫn xuất của acid 3- aminobenzoic, trong công thức cũng chứa nhóm sulfonamid.
+Mạnh hơn furosemid 40 lần.
+- Viên 0,5- 1,0 và 2,0 mg. Uống 0,5- 2,0 mg
+- ống 0,5- 1,0 mg. Tiêm bắp hoặc tĩnh mạch 0,5 - 1,0 mg.
+2.2. Thuốc lợi niệu giữ kali- máu (giảm thải trừ K +)
+Các thuốc lợi niệu thuộc các nhóm trên khi dùng lâu đều gây giảm kali - huyết. Các thuốc
+thuộc nhóm này tác dụng ở phần cuối ống lượn xa, do ức chế tái hấp thu Na + bằng cơ chế
+trao đổi với bài xuất K +, vì thế làm giảm bài xuất K +. Đồng thời thuốc làm tăng thải trừ
+bicarbonat, giảm bài xuất H + cho nên nước tiểu nhiễm base.
+Các thuốc này hầu như không dùng một mình vì tác dụng thải Na + yếu và tai biến tăng
+kali- máu thường bất lợi. Dùng phối hợp với các t huốc lợi niệu làm giảm kali- máu sĩ giữ
+được tác dụng thải trừ Na + và khắc phục được rối loạn hạ K + máu. Có nhiều biệt dược
+phối hợp.
+2.2.1. Thuốc đối lập với aldosteron
+Spironolacton (Aldacton): công thức gần giống với aldosteron, tranh chấp với aldostero n
+tại receptor ở ống lượn xa, nên còn gọi là thuốc kháng aldosteron. Tác dụng thải trừ Na +
+của thuốc phụ thuộc vào số lượng aldosteron bài tiết và bị ức chế. Tác dụng xuất hiện
+chậm sau 12- 24 giờ.
+- Viên 25 mg. Uống mỗi ngày 2- 4 viên
+- Dùng lâu có thể gây tác dụng phụ giống hormon: ở nam gây chứng vú to, ở nữ gây
+chứng rậm lông và loạn kinh nguyệt.
+2.2.2. Thuốc không đối lập với aldosteron
+Triamteren (Teriam). Còn gọi là kháng aldosteron giả (pseudo - anti- aldosterone). Công
+thức hoàn toàn không giống với aldosteron nên không có tác dụng tranh chấp với
+aldosteron.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Làm tăng thải Na+, Cl- do làm giảm tính thấm của ống lượn xa với Na +. Làm giảm bài
+xuất K+ và H+. Tác dụng cả khi có mặt cũng như khi không có mặt aldosteron (động vật
+cắt bỏ thượng thận). Spironolacton làm tăng tác dụng của triamteren cho nên 2 thuốc tác
+dụng trên 2 receptor khác nhau.
+Tác dụng tối đa đạt được sau khi uống 2 giờ và chỉ giữ được tác dụng trong 10 giờ.
+- Nang 100 mg. Uống 1- 2 nang/ ngày
+- Có thể gây buồn nôn, nôn, chuột rút, ngủ g à.
+Amilorid (Modamid): tác dụng thải Na+, lưu K+ mạnh hơn triamteren. Ngoài cơ chế tác
+dụng theo kiểu triamteren, amilorid còn tác dụng trên cả ống lượn gần.
+Nồng độ tối đa trong máu đạt được 4 giờ sau khi uống, thời gian bán huỷ khoảng 6 giờ,
+tác dụng kéo dài 24 giờ.
+- Viên 5 mg. Uống mỗi ngày 1 viên. Không vượt quá 20 mg/ ngày
+2.3. Thuốc lợi niệu thẩm thấu
+Thuốc lợi niệu thẩm thấu dùng để chỉ một số chất hòa tan có các tính chất sau:
+- Được lọc tự do qua cầu thận
+- Được hấp thu có giới hạn khi qua ống thận
+- Hầu như không có hoạt tính dược lý
+Những chất này được dùng với số lượng tương đối lớn để làm thay đổi một cách có ý
+nghĩa nồng độ osmol trong huyết tương hay trong nước lọc cầu thận, hoặc dịch ống thận.
+Hiện chỉ có mannitol là được dùng nhiều hơn cả.
+2.3.1. Chỉ định
+Do không làm tăng thải trừ Na + nên không dùng được trong các chứng phù.
+Thường dùng để phòng ngừa đái ít sau mổ, sau chấn thương, tăng áp lực trong sọ, hoặc
+làm tăng lợi niệu trong các trường hợp nhiễm độc để thải trừ chất độc.
+2.3.2. Chống chỉ định
+- Mất nước trong tế bào
+- Suy tim
+2.3.3. Chế phẩm
+Mannitol dung dịch 10- 20% đựng trong lọ 250- 500 và 1000 ml dùng truyền nhỏ giọt
+tĩnh mạch.
+Mannitol thải trừ qua cầu thận và chỉ khoảng 10% được tái ấp thu ở ống lượn, do đó làm
+tăng áp lực thẩm thấu trong ống lượn, ức chế tái hấp thu nước, gây lợi niệu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+câu hỏi tự lượng giá
+1. Trình bày cơ chế tác dụng và áp dụng điều trị của thuốc ức chế enzym carbonic
+anhydrase (CA).
+2. Trình bày cơ chế tác dụng và tác dụng của nhóm thiazid.
+3. Phân tích và so sánh rối loạn điện giải của thuốc ức chế CA và thiazid.
+4. Trình bày cơ chế tác dụng và tai biến của thuốc lợi niệu “ quai” .
+5. So sánh tác dụng và cơ chế của 2 nhóm thuốc lợi niệu giữ kali - máu.
+6. Trình bày cơ chế tác dụng và áp dụng điều trị của mannitol.

@@ -1,0 +1,513 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 17: Thuốc chống lao - thuốc điều trị phong
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được 5 thuốc chống lao thường dùng về các mặt tác dụng, cơ chế tác dụng,
+những điểm chính về dược động học và tác dụng không mong mu ốn.
+2. Trình bày được nguyên tắc  và phác đồ điều trị lao hiện nay.
+3. Trình bày được tác dụng, cơ chế tác dụng, những điểm chính về dược động học và tác
+dụng không mong muốn của dapson và clofazimin.
+4. Nêu được 3 nguyên tắc và phác đồ điều trị phong hiện nay.
+1. Thuốc chống lao
+Lao là bệnh nhiễm khuẩn phổ biến do trực khuẩn lao gây nên và có thể chữa khỏi hoàn toàn.
+Trực khuẩn lao gây bệnh lao phổi và các cơ quan khác là loại vi khuẩn kháng cồn, kháng acid,
+sống trong môi trường ưa khí, phát triển chậm (chu kỵ phâ n chia khoảng 20 giờ).
+Màng tế bào của trực khuẩn lao được cấu tạo bởi 3 lớp: phospholipid trong cùng, polysACharid
+liên kết với peptidoglycan. Các peptidoglycan được gắn với arabingolactose và acid mycolic ở lớp
+giữa. Acid mycolic liên kết với các lipid p hức tạp như myosid, peptidoglycolipid,
+phenolglycolipid ở ngoài cùng.
+Độ dày, mỏng và sự chứa nhiều hay ít lipid của màng tế bào ảnh hưởng rõ rệt đến sự khuyếch tán
+của các thuốc chống lao vào trong tế bào và sức đề kháng của vi khuẩn với các tác nhân hóa học
+và lý học từ bên ngoài.
+Trong cơ thể, vi khuẩn lao có thể tồn tại dưới 4 dạng quần thể ở những vùng tổn thương khác
+nhau. Các quần thể này chịu sự tác động của thuốc chống lao mức độ rất khác nhau.
+- Quần thể trong hang lao còn gọi là quần thể A. Trong  hang lao có pH trung tính, lượng oxy dồi
+dào, vi khuẩn nằm ngoài tế bào và phát triển nhanh, mạnh nên số lượng vi khuẩn nhiều, dễ xuất
+hiện đột biến kháng thuốc. Quần thể này bị tiêu diệt nhanh bởi rifampicin, INH và streptomycin.
+- Quần thể trong đại thực bào còn gọi là quần thể B. Trong đại thực bào pH acid, số lượng vi
+khuẩn ít và phát triển chậm nhưng có khả năng sống sót cao nên tồn tại dai d¼ng gây nguy cơ tái
+phát bệnh lao. Pyrazinamid có tác dụng tốt nhất với quần thể này. Rifampicin có tác dụng, I NH
+rất ít tác dụng còn streptomycin không có tác dụng với loại quần thể này.
+- Quần thể nằm ở trong ổ bã đậu gọi là quần thể C. ổ bã đậu là vùng rất ít oxy, có pH trung tính,
+vi khuẩn chuyển hóa từng đợt ngắn nên phát triển rất chậm, chỉ có rifampicin có t ác dụng với
+quần thể vi khuẩn này.
+- Quần thể nằm  trong các tổn thương xơ, vôi hóa gọi là quần thể D. Số lượng vi khuẩn lao không
+lớn không phát triển được gọi là trực khuẩn “ngủ”. Các thuốc chống lao không có tác dụng trên
+quần thể vi khuẩn này.
+Mục tiêu quan trọng trong điều trị lao là dùng các thuốc để tiêu diệt tất cả các quần thể, đặc biệt
+là quần thể B, C. Ngoài ra, tuỵ theo thể bệnh có thể dùng một số phương pháp điều trị thích hợp
+như phẫu thuật, cắt lọc, bó bột hoặc chọc hút v.v...
+Hiện nay thuốc chống lao được chia thành 2 nhóm:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Nhóm I: Là các thuốc chống lao chính thường dùng, có chỉ số điều trị cao, ít tác dụng không
+mong muốn : isoniazid (INH, Rimifon), rifampicin, ethambutol, streptomycin và pyrazinamid.
+Nhóm II: Là những thuốc ít dùng hơn, d ùng thay thế khi vi khuẩn lao kháng thuốc, có phạm vi
+điều trị hẹp, có nhiều tác dụng không mong muốn: ethionamid, para -aminosalicylic (PAS),
+cycloserin, amikacin, kanamycin, capreomycin, thiacetazon, fluorquinolon và azithromycin,
+clarythromycin.
+1.1. Các thuốc chống lao thường dùng
+1.1.1. Isoniazid (Rimifon, INH, H)
+Là dẫn xuất của acid isonicotinic, vừa có tác dụng kìm khuẩn, vừa có tác dụng diệt khuẩn.
+Nồng độ ức chế tối thiểu đối với trực khuẩn lao 0,025 - 0,05 mcg/ml. Khi nồng độ cao trên
+500mcg/ml, thuốc có tác dụng ức chế sự phát triển của các vi khuẩn khác. Thuốc có tác dụng trên
+vi khuẩn đang nhân lên cả trong và ngoài tế bào, kể cả trong môi trường nuôi cấy.
+1.1.1.1. Cơ chế tác dụng:
+Mặc dù isoniazid đã được sử dụng điều trị lao vài thập kỷ và đến  nay vẫn được coi là thuốc số
+một trong điều trị tất cả các thể lao nhưng cơ chế tác dụng của thuốc vẫn còn chưa được giải thích
+đầy đủ. Theo Takayama và cộng sự (1975), acid mycolic là một thành phần quan trọng trong cấu
+trúc màng của trực khuẩn lao. Giai đoạn đầu của quá trình tổng hợp mycolic là sự kéo dài mạch
+của acid nhờ desaturase. Với nồng độ rất thấp của INH, enzym này bị ức chế làm ngăn cản sự kéo
+dài mạch của acid mycolic dần dần giảm số lượng lipid của màng vi khuẩn, vi khuẩn không phát
+triển được.
+Ngoài ra, một số tác giả còn cho rằng, INH tạo chelat với Cu 2+ và ức chế cạnh tranh với
+nicotinamid và pyridoxin làm rối loạn chuyển hóa của trực khuẩn lao.
+1.1.1.2. Dược động học
+Thuốc được hấp thu nhanh qua đường tiêu hóa. Sau khi uống 1 -2 giờ, nồng độ thuốc trong máu
+đạt tới 3-5mcg/ml. Thức ăn và các thuốc chứa nhôm làm giảm hấp thu thuốc.
+Isoniazid khuếch tán nhanh vào các tế bào và các dịch màng phổi, dịch cổ trướng và nước não
+tuỷ, chất bã đậu, nước bọt, da, cơ. Nồng độ thuốc trong dịch não tuỷ tư ơng đương với nồng độ
+trong máu.
+Thuốc được chuyển hóa ở gan nhờ phản ứng acetyl hóa, thuỷ phân và liên hợp với glycin. Sự
+acetyl hóa của isoniazid thông qua acetyltransferase có tính di truyền.
+ở người có hoạt tính enzym mạnh, thời gian bán thải của thuốc  khoảng 1 giờ, nhưng ở người có
+hoạt tính enzym yếu thời gian bán thải của thuốc khoảng 3 giờ.
+Thuốc được thải trừ chủ yếu qua thận. Sau dùng thuốc 24 giờ, thuốc thải trừ khoảng   75 - 95%
+dưới dạng đã chuyển hóa. Gần đây, một số tác giả cho rằng dạng acet yl hóa của INH được khử
+acetyl trong cơ thể tạo thành dạng còn hoạt tính.
+1.1.1.3. Tác dụng không mong muốn
+- Dị ứng thuốc, buồn nôn, nôn, chóng mặt, táo bón, khô miệng, thoái hoá bạch cầu hạt, thiếu
+máu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Viêm dây thần kinh ngoại vi chiếm 10 - 20%, đặc biệt hay gặp ở bệnh nhân dùng liều cao, kéo
+dài, nghiện rượu, suy dinh dưìng và tăng glucose máu. Vitamin B6 có thể làm hạn chế tác dụng
+không mong muốn này của isoniazid.
+- Viêm dây thần kinh thị giác.
+- Vàng da, viêm gan và hoại tử tế bào gan thường hay g ặp ở người trên 50 tuổi và những người có
+hoạt tính acetyltransferase yếu. Cơ chế gây tổn thương gan của isoniazid đến nay vẫn chưa được
+giải thích đầy đủ. Có giả thuyết cho rằng, acetylhydrazin chất chuyển hóa của isoniazid bị
+chuyển hóa qua cytocrom - P450 sinh ra gốc tự do gây tổn thương tế bào gan.
+Một số thuốc gây cảm ứng cytocrom - P450 như phenobarbital, rifamycin gây tăng tổn thương gan
+của INH.
+- Isoniazid ức chế sự hydroxyl hóa của phenytoin, có thể gây ngộ độc phenytoin khi điều trị phối
+hợp thuốc.
+1.1.1.4. áp dụng điều trị
+- Rimifon: viên nén 50 - 100 - 300 mg; ống tiêm 2ml chứa 50mg hoặc 100mg/ml;  Siro 10
+mg/ml.
+- Phối hợp với các thuốc chống lao khác để điều trị tất cả các thể lao. Người lớn dùng 5mg/kg thể
+trọng, trẻ em 10-20mg/kg thể trọng, tối đa 300mg/24 giờ.
+- Thuốc có thể dùng dự phòng cho những người có test tuberculin dương tính hoặc ở bệnh nhân
+sau điều trị tấn công bằng các thuốc chống lao. Người lớn dùng 300mg/ 24 giờ, trẻ em 10mg/kg
+thể trọng, tối đa 300mg/24 giờ kéo dài 3 - 6 tháng. Khi điều trị, cần dùng kìm vitamin B 6 10-
+50mg /24 giờ để giảm bớt tác dụng không mong muốn của INH.
+1.1.2. Rifampicin (RMP,R)
+Rifamycin là từ chỉ cả một họ kháng sinh có cấu trúc giống nhau được chiết xuất từ Streptomyces
+mediterranei. Rifampicin là kháng sinh bán tổng hợp từ rifamycin B có tác dụng diệt khuẩn cả
+trong và ngoài tế bào, chuyển hóa và thải trừ chậm so với các chất cùng nhóm.
+1.1.2.1. Tác dụng
+Thuốc không chỉ có tác dụng diệt trực khuẩn lao, phong, mà còn diệt cả các vi khuẩn gram âm,
+E-coli, trực khuẩn mủ xanh, Haemophilus influenzae, Nesseria meningitis.
+Rifampicin diệt vi khuẩn cả trong và ngoài tế bào. Trong môi trường acid, tác dụng của thuốc
+mạnh gấp 5 lần.
+1.1.2.2. Cơ chế tác dụng
+Rifampicin gắn vào chuỗi  của ARN - polymerase phụ thuộc ADN của vi khuẩn làm ngăn cản
+sự tạo thành chuỗi ban đầu trong quá trình tổng hợp của ARN. Thuốc không ức chế ARN -
+polymerase của người và động vật ở liều điều trị. Khi dùng liều cao gấp nhiều lần liều điều trị,
+thuốc có thể gây ức chế ARN - polymerase ở ty  thể tế bào động vật.
+1.1.2.3. Dược động học
+Thuốc được hấp thu tốt qua đường tiêu hóa. Sau khi uống 2 - 4 giờ, đạt được nồng độ tối đa trong
+máu. Acid amino salicylic làm chậm hấp thu thuốc.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Trong máu, thuốc gắn vào protein huyết tương khoảng 75 - 80%. Đường thải trừ chủ yếu của
+thuốc là qua gan và thận. Ngoài ra, thuốc còn thải trừ qua nước bọt, đờm, nước mắt, làm cho các
+dịch này có màu đỏ da cam. Thời gian bán thải của thuốc khoảng   1,5 - 5 giờ. Khi chức năng gan
+giảm, thời gian bán thải  của thuốc kéo dài. Ngược lại, do tự gây cảm ứng hệ enzym oxy hóa
+thuốc ở gan, sau điều trị khoảng 14 ngày thời gian bán thải của thuốc bị rút ngắn lại. Thuốc có
+chu kỵ ở gan - ruột.
+Rifampicin làm tăng chuyển hóa một số thuốc thông qua tác dụng gây cảm ứng cytoc rom - P450
+như: thuốc tránh thai, phong tỏa - adrenergic, chẹn kênh calci, diazepam, quinidin, digitoxin,
+prednisolon, sulfonylurea, một số thuốc chống đông máu...
+1.1.2.4. Tác dụng không mong muốn:
+Thuốc ít có tác dụng không mong muốn, song có thể gặp ở  một số người:
+- Phát ban 0,8%; buồn nôn, nôn (1,5%); Sốt (0,5%); rối loạn sự tạo máu.
+- Vàng da, viêm gan rất hay gặp ở người có tiền sử bệnh gan, nghiện rượu và cao tuổi. Tác không
+mong muốn  này tăng lên khi dùng phối hợp với isoniazid.
+1.1.2.5. áp dụng điều trị
+- Chế phẩm Rifampicin (Rifampin, Rimactan, Rifadin) viên nang hoặc viên nén        150 - 300
+mg, siro 100mg/Ml, dung dịch tiêm truyền 300 - 600 mg/lọ.
+- Phối hợp với các thuốc chống lao khác để điều trị các thể lao, không dùng đơn độc rifampicin
+trong điều trị lao. Ngoài ra thuốc còn được chỉ định trong một số bệnh nhiễm khuẩn do các vi
+khuẩn còn nhậy cảm gây nên.
+- Liều dùng cho người lớn 1 lần trong 1 ngày 10 - 20mg/kg thể trọng, tối đa 600mg/24 giờ.
+-Không dùng thuốc ở người giảm chức năng gan v à khi điều trị cần theo dõi chức năng gan
+thường xuyên.
+1.1.3. Ethambutol (EMB, E)
+1.1.3.1. Tác dụng
+Là thuốc tổng hợp, tan mạnh trong nước và vững bền ở nhiệt độ cao, có tác dụng kìm khuẩn lao
+mạnh nhất khi đang kỵ nhân lên, không có tác dụng trên các vi khuẩn khác.
+1.1.3.2. Cơ chế tác dụng:
+Theo Takayama và cộng sự (1979), ethambutol có tác dụng kìm khuẩn là do ức chế sự nhập acid
+mycolic vào thành tế bào trực khuẩn lao, làm rối loạn sự tạo màng trực khuẩn lao. Ngoài ra, một
+số tác giả còn cho rằng ethambutol gây rối loạn sự tổng hợp acid nhân thông qua ức chế cạnh
+tranh với các polyamin và tạo chelat với Zn 2+ và Cu2+.
+1.1.3.3. Dược động học:
+Thuốc được hấp thu tốt qua đường tiêu hóa, sau khi uống 2 - 4 giờ, đạt được nồng độ tối đa trong
+máu. Trong cơ thể, thuốc tập trung cao ở trong các mô chứa nhiều Zn 2+, Cu2+, đặc biệt là thận,
+phổi, nước bọt, thần kinh thị giác, gan, tụy v.v... Sau 24 giờ, một nửa lượng thuốc uống vào được
+thải ra ngoài qua thận, 15% dưới dạng chuyển hóa.
+1.1.3.4. Tác dụng không mong muốn:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+ Khi điều trị lao bằng ethambutol có thể gặp một số tác dụng không mong muốn như: rối loạn
+tiêu hóa, đau đầu, đau bụng, đau khớp, phát ban, sốt, viêm dây thần kinh ngoại vi, nhưng nặng
+nhất là viêm dây thần kinh thị giác gây rối loạn nhận biết màu sắc.  Cắt nghĩa cho tổn thương thị
+giác, có tác giả cho rằng dây thần kinh thị giác chứa nhiều Zn 2+, ethambutol tạo chelat với Z 2+
+gây viêm.
+1.1.3.5. áp dụng điều trị:
+Ethambutol viên nén 100 đến 400mg được phối hợp với các thuốc chống lao để điều trị các thể
+lao, người lớn uống liều khởi đầu 25mg/kg/ngày trong 2 tháng sau đó giảm liều xuống
+15mg/kg/ngày. Trẻ em uống 15mg/kg/ngày. Không dùng cho người có thai, cho con bú, trẻ em
+dưới 5 tuổi và người có viêm thần kinh thị giác và giảm thị lực.
+1.1.4. Streptomycin (SM , S).
+Là kháng sinh thuộc nhóm aminoglycosid có tác dụng diệt khuẩn lao mạnh đặc biệt vi khuẩn
+trong hang lao và một số vi khuẩn Gram (+) và Gram ( -). Nồng độ 10mcg/ml có tác dụng diệt
+trực khuẩn lao.
+Được phối hợp với các thuốc chống lao khác để điều  trị lao. Tiêm bắp hàng ngày hoặc cách ngày
+liều 15mg/kg thể trọng, tối đa không vượt quá 1g/ngày. Đối với người cao tuổi, liều dùng 500 -
+750mg/ngày.
+Dược động học, cơ chế tác dụng, tác dụng không mong muốn và chống chỉ định của thuốc xin
+đọc bài “kháng sinh nhóm aminoglycosid”.
+1.1.5. Pyrazinamid(Z, PZA)
+1.1.5.1. Tác dụng:
+Là thuốc có nguồn gốc tổng hợp, ít tan trong nước, tác dụng mạnh trong môi trường acid có tác
+dụng kìm khuẩn lao có cấu trúc tương tự như nicotinamid. Thuốc diệt trực khuẩn lao trong đạ i
+thực bào có pH acid và tế bào đơn nhân với nồng độ 12,5mcg/ml, đặc biệt khi vi khuẩn đang
+nhân lên.
+Cơ chế: chưa biết dù cấu trúc gần giống acid nicotinic và INH.
+1.1.5.2. Dược động học:
+Thuốc hấp thu nhanh qua đường tiêu hoá. Uống sau hai giờ đạt được n ồng độ tối đa trong máu và
+khuếch tán nhanh vào mô dịch cơ thể. Thuốc đi qua hàng rào máu não tốt nên có hiệu quả điều trị
+cao trong lao màng não. Thời gian bán thải của thuốc khoảng 10 đến 16 giờ.
+1.1.5.3. Tác dụng không mong muốn:
+Thuốc có thể gây một số tác dụng không mong muốn như: đau bụng, chán ăn, buồn nôn, nôn,
+sốt, nhức đầu, đau khớp. Đặc biệt lưu ý, thuốc có thể gây tổn thương tế bào gan, vàng da ở 15%
+số bệnh nhân. Do vậy, khi điều trị cần kiểm tra chức năng gan trước và trong điều trị. Nếu có dấ u
+hiệu giảm chức năng gan phải ngừng thuốc. Do cạnh tranh với acid uric ở hệ vận chuyển tích cực
+tại ống thận, pyrazinamid có thể gây tăng acid uric máu.
+Pyrazinamid làm giảm tác dụng hạ acid uric của probenecid, aspirin, vitamin C và làm tăng tác
+dụng hạ glucose máu của các thuốc nhóm sulfonylure.
+1.1.5.4. áp dụng điều trị:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Viên nén 500mg.
+Pyrazinamid thường phối hợp với các thuốc chống lao khác để điều trị lao trong 6 tháng đầu, sau
+đó thay bằng thuốc khác. Liều trung bình người lớn 1,5 -2,0 g/ngày và trẻ em 35mg/kg/ngày.
+1.2. Các thuốc chống lao khác
+1.2.1. Ethionamid
+- Là thuốc vừa kìm khuẩn vừa diệt khuẩn (do ức chế tổng hợp acid mycolic). Uống hấp thu từ từ
+qua đường tiêu hóa, sau 3 giờ đạt nồng độ tối đa trong máu và thải trừ chủ yếu qua thận dưới
+dạng đã chuyển hóa.
+- Thuốc được chỉ định khi vi khuẩn lao kháng với các thuốc nhóm I. Ngoài ra, ethionamid còn
+được dùng phối hợp với dapson, rifampin để điều trị phong với liều 10mg/kg thể trọng.
+- Một số tác dụng không mong muốn có thể gặp như: chán ăn, buồ n nôn, nôn, đi lỏng, rối loạn
+thần kinh trung ương (đau đầu, co giật, mất ngủ), viêm dây thần kinh ngoại vi. Ethionamid có thể
+gây rối loạn chức năng gan, cần phải theo dõi chức năng gan trước và trong khi điều trị.
+- Thuốc được dùng với liều tăng dần. Khở i đầu 500mg cách 5 ngày tăng 125mg đến khi đạt 15 -
+20mg/kg thể trọng và không vượt quá 1gam/24giờ.
+1.2.2. Acid paraaminosalicylic (PAS)
+Là thuốc kìm khuẩn lao có cơ chế tác dụng giống sulfonamid, nhưng không có tác dụng trên các
+vi khuẩn khác. Liều dùng: 200- 300mg/kg/ngày, tối đa 14 - 16g/ngày. PAS có thể gây ỉa lỏng,
+nôn, đau bụng. Để hạn chế tác dụng không mong muốn, cần uống vào lúc no.
+1.2.3. Một số kháng sinh khác có tác dụng chống lao
+- Kanamycin và amikacin có nồng độ về ức chế tối thiểu với trực k huẩn lao 10 g/ ml. Liều điều
+trị lao 1g/ 24 giờ.
+- Capreomycin là 1 peptid vòng có tác dụng chống lao với liều 15 - 30 mg/ kg/ 24 giờ.
+- Ofloxacin và ciprofloxacin là 2 kháng sinh nhóm fluorquinolon có nồng độ trong tổ chức phổi
+cao hơn trong huyết tương có nồng độ ức chế tối thiểu trên trực khuẩn lao rất thấp từ 0,25 - 3 g/
+ml. Trong điều trị lao ciprofloxacin uống 1,5g chia 2 lần/ngày; ofloxacin uống 600 - 800 mg/
+ngày.
+- Azithromycin và clarythromycin là 2 macrolid mới cũng có tác dụng trên trực khuẩn la o được
+chỉ định khi trực khuẩn lao kháng các thuốc chống lao chính.
+- Cycloserin được chỉ định điều trị lao với liều 15 - 200 mg/ kg/ ngày.
+Chi tiết xin xem bài “Thuốc kháng sinh”.
+1.2.4. Thiacetazon (Amithiozon)
+Là thuốc kìm khuẩn. Có hoạt tính chống lao v ới nồng độ ức chế tối thiểu (MIC) là 1 g/ml. Trong
+lâm sàng có thể phối hợp với INH để điều trị lao. Liều dùng hàng ngày 150mg.
+1.2.5. Clofazimin
+Thuốc được dùng cho những bệnh nhân có trực khuẩn lao đa kháng thuốc với  liều dùng
+200mg/24 giờ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+(Chi tiết xin đọc bài "thuốc điều trị phong").
+1.3. Sự kháng thuốc của vi khuẩn lao
+Tỉ lệ vi khuẩn lao kháng thuốc ngày càng tăng, nguyên nhân chủ yếu là do dùng thuốc không
+đúng phác đồ phối hợp, liều lượng và thời gian dùng thuốc hoặc chất lượng thuốc kém.
+Sự kháng thuốc có thể xếp thành 3 loại:
+- Kháng thuốc tiên phát: là sự kháng thuốc xảy ra ở bệnh nhân chưa được dùng thuốc chống lao
+lần nào. Nguyên nhân là do vi khuẩn lao kháng thuốc lan truyền từ bệnh nhân khác sang.
+- Kháng thuốc mắc phải hay còn gọi là kháng t huốc thứ phát là sự kháng thuốc sau khi dùng các
+thuốc chống lao ít nhất một tháng. Nguyên nhân do dùng thuốc không đúng liều lượng và phối
+hợp thuốc không đúng gây nên sự chọn lọc vi khuẩn kháng thuốc.
+- Đa kháng thuốc là hiện tượng vi khuẩn lao kháng lại  ít nhất 2 loại thuốc chống lao trong đó có
+kháng rifampicin và INH và kháng cùng với các thuốc chống lao khác.
+Để đối phó với sự kháng thuốc của vi khuẩn lao, ngăn ngừa sự chọn lọc tạo ra chủng kháng thuốc
+và sự lan truyền các chủng kháng thuốc trong cộng  đồng, cần phải áp dụng đúng nguyên tắc điều
+trị lao.
+1.4. Nguyên tắc dùng thuốc chống lao và một số phác đồ điều trị lao
+1.4.1. Nguyên tắc dùng thuốc chống lao
+- Để giảm tỷ lệ kháng thuốc và rút ngắn thời gian điều trị, các thuốc chống lao luôn dùng cùng
+một lúc (vào thời gian nhất định trong ngày) ít nhất 3 loại thuốc trong 24 giờ và có thể phối hợp
+4-5 thuốc trong giai đoạn tấn công 2 - 3 tháng đầu, sau đó chuyển sang điều trị duy trì.
+- Cần phải cấy vi khuẩn và làm kháng sinh đồ để chọn kháng sinh thích  hợp.
+- Phối hợp thuốc theo tính năng tác dụng nhằm nâng cao hiệu quả điều trị và giảm tác dụng
+không mong muốn. Thường phối hợp thuốc vừa diệt khuẩn trong tế bào và ngoài tế bào cùng với
+thuốc diệt khuẩn thể đang phát triển  và thể “ủ bệnh”.
+- Điều trị liên tục, không ngắt quãng, ít nhất 6 tháng và có thể kéo dài 9 - 12 tháng.
+- Trị liệu  ngắn ngày có kiểm soát trực tiếp (DOTS =directly observed treatment short course).
+- Liệu pháp dự phòng bằng INH trong 6 tháng cho những người tiếp xúc với bệnh nhân có k hả
+năng bị lao, nhưng chưa có dấu hiệu nhiễm khuẩn và người có test tuberculin rộng trên 10mm và
+người trước kia bị lao nhưng hiện nay ở thể không hoạt động và hiện đang dùng thuốc ức chế
+miễn dịch.
+- Thường xuyên theo dõi tác dụng không mong muốn của thuố c.
+- Trong trường hợp trực khuẩn lao kháng với các thuốc chống lao chính thường dùng hoặc có tác
+dụng không mong muốn mà bệnh nhân không thể chấp nhận được thì lựa chọn các thuốc chống
+lao khác.
+1.4.2. Một số phác đồ điều trị lao hiện nay ở Việt Nam
+Dựa trên phác đồ điều trị lao của tổ chức Y tế Thế giới, chương trình chống lao Quốc gia đã đề
+xuất một số phác đồ áp dụng cho điều trị lao hiện nay ở Việt nam.
+1.4.2.1. Người bệnh chưa chữa lao bao giờ:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2SRHZ / 6HE
+- Điều trị tấn công 2 tháng liên tục dùng 4 l oại thuốc S (SM); H (INH); R (RMP); Z (PZA) hàng
+ngày.
+- Điều trị duy trì hàng ngày liên tục trong 6 tháng với 2 thuốc là H và E (EMB).
+1.4.2.2. Người bệnh có lao tái phát hoặc thất bại điều trị:
+2SHRZE/1HRZE/5H3 R3 E3 *
+- Điều trị tấn công hàng ngày liên tục trong hai tháng với 5 loại thuốc SHRZE, một tháng tiếp
+theo dùng hàng ngày 4 loại thuốc HRZE.
+- Sau đó điều trị duy trì 3 loại thuốc H, R, E một tuần dùng ba lần cách quãng trong 5 tháng liên
+tục.
+* H: Isoniazid
+Z: pyrazinamid
+S: Streptomycin
+R: Rifampicin
+E: Ethambutol
+Số ở trước chữ cái chỉ thời gian điều trị tính bằng tháng; chữ số dưới ở sau chữ cái chỉ số ngày
+dùng thuốc trong 1 tuần, nếu không có các chữ số này thì dùng thuốc hàng ngày.
+2.Thuốc điều trị phong
+Bệnh phong là bệnh nhiễm khuẩn Myc obacterium leprae. Nếu được điều trị sớm và đúng, bệnh
+phong có thể khỏi, không để lại di chứng. Hiện nay, ba thuốc chủ yếu điều trị phong là: dapson,
+rifampicin và clofazimin.
+2.1. Dapson (DDS)
+Là dẫn xuất 4-4 diamino diphenyl sulfon cấu trúc gần giống pa ra-aminobenzoic acid có tác dụng
+kìm trực khuẩn phong. Mặc dù, đã được tổng hợp từ những năm 1940, nhưng đến nay DDS vẫn
+được coi là thuốc quan trọng nhất trong điều trị phong.
+2.1.1. Dược động học
+Thuốc được hấp  thu gần hoàn toàn qua ống tiêu hóa. Uống 1 00mg, sau 24 giờ đạt được nồng độ
+trong máu gấp 50 - 100 lần nồng độ ức chế tối thiểu. Trong máu, thuốc gắn vào protein huyết
+tương khoảng 50% và khuếch tán nhanh vào các tổ chức: da, cơ, gan, thận và dịch não tuỷ.
+Dapson được chuyển hóa ở gan nhờ phản ứng  acetyl hóa tạo thành monoacetyl-DDS không có tác
+dụng kìm khuẩn. Sự chuyển hóa của DDS mang tính di truyền. Thận và mật là đường thải trừ chủ
+yếu của thuốc. Do có chu kỵ gan - ruột, nên thuốc tồn tại rất lâu trong cơ thể, thời gian bán thải
+của thuốc khoảng 28 giờ.
+2.1.2. Tác dụng và cơ chế tác dụng
+Dapson chỉ có tác dụng kìm khuẩn phong, không diệt khuẩn. Cơ chế tác dụng giống sulfonamid.
+Cơ chế chi tiết xin đọc bài “Thuốc kháng sinh”, phần “sulfamid”.
+2.1.3. Tác dụng không mong muốn
+Dùng Dapson có thể gặp một số tác dụng  không mong muốn sau:
+- Buồn nôn, nôn, đau đầu, phát ban ở da.
+- Rối loạn tâm thần, viêm dây thần kinh ngoại vi.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Thiếu máu, tan máu, đặc biệt hay gặp ở người có thiếu hụt G 6PD.
+- Methemoglobin
+- Hội chứng “sulfon” hay “Jarish - Herxheimer”. Hội chứng này thường xuất hiện sau khi dùng
+thuốc 5-6 tuần. Biểu hiện: sốt, vàng da, hoại tử gan, viêm da, met -Hb và thiếu máu.Đây là hội
+chứng rất nặng, cần phải ngừng thuốc ngay và hồi sức tích cực tránh tử vong.
+2.1.4. áp dụng điều trị
+Do tỉ lệ trực khuẩn phong kháng thuốc ngày càng cao, nên từ năm 1982 ở Việt Nam không dùng
+riêng dapson để điều trị mà thường phối hợp với clofazimin hoặc rifampin.
+Thuốc dạng viên nén 25mg, 100mg uống khởi đầu liều thấp 50mg/24 giờ. Nếu bệnh tiến triển
+không tốt, tăng liều lên 100 mg/24 giờ và duy trì ít nhất trong 2 năm. Trong điều trị cần theo dõi
+công thức máu thường xuyên. ở những bệnh nhân có dị ứng với thuốc, suy giảm chức năng gan,
+thiếu hụt G6PD hoặc met-hemoglobinreductase, chống chỉ định dùng thuốc.
+2.2. Rifampicin
+Là kháng sinh không chỉ diệt khuẩn lao và các vi khuẩn Gram (+), Gram ( -) khác, mà còn có khả
+năng diệt trực khuẩn phong mạnh. So với dapson, thuốc khuếch tán vào mô thần kinh kém nên
+không làm giảm được triệu chứng tổn thương thần kinh do trực kh uẩn phong gây nên.
+Thuốc được phối hợp với các thuốc điều trị phong khác với liều 600mg/24 giờ.
+Chi tiết về rifampicin xin đọc bài “Thuốc kháng sinh” và bài “Thuốc chống lao”.
+2.3. Clofazimin (Lampren)
+Thuốc có tác dụng kìm khuẩn phong và một số vi khuẩn g ây viêm loét da (Mycobacterium
+ulcerans) và gây nên viêm phế quản mạn tính (Mycobacterium avium). Ngoài ra, clofazimin còn
+có tác dụng chống viêm và ngăn chặn sự phát triển của các nốt sần trong bệnh phong.
+Theo Morrison và Marley (1976), clofazimin có tác  dụng kìm khuẩn là do thuốc gắn vào ADN
+của trực khuẩn làm ức chế sự nhân đôi của ADN.
+Uống hấp thu nhanh và tích lũy lâu trong các mô. Thận là đường thải trừ chủ yếu của thuốc.
+Ngoài ra, thuốc còn được thải qua mồ hôi.
+Trong quá trình dùng thuốc, có thể g ặp một số tác dụng không mong muốn như: mất màu da,
+viêm ruột, tăng bạch cầu ưa acid.
+Viên 100mg - phối hợp với dapson và rifampin điều trị một số thể phong với liều 50mg/24 giờ
+hoặc 100-300mg/24 giờ/tuần. Khi điều trị, cần theo dõi chức năng gan và thận.
+2.4. Các thuốc điều trị phong khác
+2.4.1. Sulfoxon
+Thuốc có cấu trúc tương tự như dapson, nhưng hấp thu không hoàn toàn qua đường tiêu hóa và
+thải trừ chủ yếu qua mật và qua phân.
+Cơ chế tác dụng và tác dụng không mong muốn của thuốc giống dapson. Thuốc có  thể dùng thay
+dapson để điều trị phong với liều 330mg/24 giờ.
+2.4.2. Thalidomid
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Là thuốc an thần, nhưng có tác dụng điều trị phong, đặc biệt thể phong củ. Liều dùng 100 -
+300mg/24 giờ. Do gây quái thai, đặc biệt giai đoạn 24 - 36 tuần đầu của kỵ thai nghén, nên thuốc
+ít được dùng.
+2.4.3. Ethionamid
+Có tác dụng vừa kìm khuẩn vừa diệt khuẩn lao và phong có thể thay thế clofazimin trong những
+trường hợp kháng clofazimin. Liều dùng hàng ngày 250 - 375mg.
+Chi tiết xin đọc thêm bài “Thuốc chống lao”.
+2.5. Nguyên tắc và một số phác đồ điều trị phong hiện nay
+Nhằm tăng hiệu quả điều trị, rút ngắn thời gian dùng thuốc và hạn chế sự kháng thuốc của trực
+khuẩn phong từ 1982, Tổ chức Y tế Thế giới khuyến cáo một số nguyên tắc điều trị phong như
+sau:
+- Đa hóa trị liệu, không dùng một loại thuốc để điều trị phong và thường dùng 3 thuốc dapson,
+rifampicin và clofazimin.
+- Phối hợp hóa trị liệu với vật lý liệu pháp và thể dục liệu pháp để tránh tàn phế.
+- Uống thuốc đúng liều lượng, đúng phác đồ, đủ thời gian và định kỵ theo dõi tác dụng trên lâm
+sàng, xét nghiệm vi khuẩn và tác dụng không mong muốn.
+- Thời gian điều trị kéo dài tuỵ thuộc vào mức độ nhiễm trực khuẩn.
+2.5.1. Phác đồ điều trị nhóm có nhiều trực khuẩn
+Dapson
+Rifampicin
+Clofazimin
+Thời gian điều trị
+Theo dõi
+100mg tự
+uống mỗi
+ngày
+600mg mỗi
+tháng uống 1
+lần có giám
+sát
+300mg mỗi tháng
+uống 1 lần có giám
+sát + 50mg hàng ngày
+tự uống
+ít nhất 2 năm hoặc cho
+đến khi xét nghiệm
+tìm trực khuẩn âm tính
+Sau 1-2-6
+tháng
+(trong 5
+năm)
+Phác đồ điều trị nhóm ít vi khuẩn
+Dapson
+Rifampicin
+Thời gian điều
+trị
+Theo dõi
+100mg tự uống
+hàng ngày
+600mg mỗi tháng uống 1
+lần có giám sát
+    6 tháng
+Sau 1-2-4-6 tháng
+(trong 3 năm)
+Phác đồ điều trị nhóm bệnh nhiều vi khuẩn ở trẻ em
+Clofazimin
+Cân
+nặng trẻ
+Rifampicin
+hàng tháng
+có kiểm tra
+(uống)
+Hàng tháng
+có giám sát
+(uống)
+Hàng tuần,
+hàng ngày
+tự uống
+Dapson
+ tự uống
+hàng ngày
+Thời gian
+điều trị
+ 20 kg
+150mg
+100mg
+100mg
+(hàng tuần)
+25mg
+21-30kg
+300mg
+150-200mg
+150mg
+(hàng tuần)
+25-50mg
+ít nhất
+2 năm hoặc
+đến khi
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+31-50kg
+450mg
+200-300mg
+50mg
+(hàng tuần)
+50-75mg
+xét nghiệm
+âm tính
+2.5.4. Phác đồ điều trị nhóm bệnh ít vi khuẩn ở trẻ em
+Cân nặng trẻ
+Rifampicin hàng tháng có
+giám sát (uống)
+Dapson hàng ngày tự
+uống
+Thời gian điều
+trị
+ 20kg
+150 mg
+25mg
+21 – 30 kg
+300mg
+25 – 50 mg
+31 – 50 kg
+450 mg
+50 – 70 mg
+6 tháng
+Câu hỏi tự lượng giá
+1. Trình bày tác dụng, cơ chế tác dụng, đặc điểm dược động học và tác dụng không mong
+muốn của INH và các nguyên tắc điều trị lao.
+2. Trình bày tác dụng, cơ chế tác dụng, đặc điểm dư ợc động học và tác dụng không mong
+muốn của rifampicin, và phác đồ điều trị lao hiện nay.
+3. Trình bày tác dụng, cơ chế tác dụng, đặc điểm dược động học và tác dụng không mong
+muốn của ethambutol và pyrazinamid.
+4. Trình bày tác dụng, cơ chế tác dụng, đặc điểm d ược động học và tác dụng không mong
+muốn cuả streptomycin.
+5. Trình bày tác dụng, cơ chế tác dụng, đặc điểm dược động học và tác dụng không mong
+muốn cuả dapson.
+6. Trình bày tác dụng, cơ chế tác dụng, đặc điểm dược động học và tác dụng không mong
+muốn cuả clofazimin.
+7. Trình bày nguyên tắc và phác đồ điều trị phong hiện nay.

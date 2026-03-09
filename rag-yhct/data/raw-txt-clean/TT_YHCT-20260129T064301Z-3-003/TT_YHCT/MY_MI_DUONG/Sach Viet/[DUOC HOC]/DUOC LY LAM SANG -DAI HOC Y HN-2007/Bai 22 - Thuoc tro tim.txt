@@ -1,0 +1,422 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 22: thuốc trợ tim
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Nêu được mối liên quan giữa cấu trúc hóa học và dược động học của thuốc loại
+glycosid
+2. Phân tích được cơ chế tác dụng và độc tính của digitalis
+3. Phân biệt được chỉ định và chống chỉ định của digitalis và strop han tus
+4. Trình bày được cơ chế tác dụng và áp dụng điều trị của hai nhóm thuốc trợ tim do
+làm tăng AMPv
+Thuốc trợ tim là những thuốc có tác dụng làm tăng lực co bóp của cơ tim, dùng trong các
+trường hợp suy tim. Các thuốc được chia làm 2 nhóm:
+- Thuốc loại glycosid được chỉ định trong suy tim mạn.
+- Thuốc không phải glycosid dùng trong suy tim cấp tính.
+1. Thuốc loại glycosid ( glycosid trợ tim): digitalis
+Các thuốc loại này đều có 3 đặc điểm chung:
+- Tất cả đều có nguồn gốc từ thực vật: các loài Digitalis, Strop han tus…
+- Cấu trúc hoá học gần giống nhau: đều có nhân steroid nối với vòng lac ton không bão
+hòa ở C17, gọi là aglycon hoặc genin, có tác dụng chống suy tim. Vị trí C 3 nối với một
+hoặc nhiều phân tử đường(ose), không có tác dụng dược lý nhưng ảnh hưởng đến dược
+động học của thuốc.
+- Hiện chỉ còn digoxin và digitoxin được dùng ở lâm sàng. Digitoxin khác digoxin là
+không có OH ở C12 vì thế ít tan trong nước hơn.
+- Các thuốc tác dụng trên tim theo cùng một cơ chế.
+Digoxin
+1.1. Dược động học
+1.1.1. Hấp thu
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Glycosid không ion hoá, được khuếch tán thụ động qua ống tiêu hóa (dạ dày, tá tràng,
+ruột non): thuốc càng tan trong lipid, càng dễ khuếch tán. Các nhóm –OH của genin là
+những cực ưa nước, làm hạn chế độ tan trong lipid của thuốc:
+- Digitoxin chỉ có một nhóm –OH tự do ở C14, nên dễ tan trong lipid, được hấp thu hoàn
+toàn khi uống.
+- Uabain có 5 nhóm OH tự do, không hấp thu qua đường tiêu hoá, nên phải tiêm tĩnh
+mạch. Hiện không còn được dùng nữa.
+- Digoxin có 2 nhóm –OH tự do, hấp thu qua đường tiêu hóa tốt hơn uabain, nhưng
+không hoàn toàn như digitoxin.
+1.1.2. Phân phối
+Thuốc càng dễ tan trong lipid, càng dễ gắn vào protein huyết tương, song không vững
+bền và dễ dàng được giải phóng ra dạng tự do.
+Glycosid gắn vào nhiều tổ chức, đặc biệt là tim, gan, phổi, thận, vì những cơ quan này
+được tưới máu nhiều; với cơ tim, thuốc gắn vững bền theo kiểu liên kết cộng hoá trị. Kali -
+máu cao, glycosid ít gắn vào tim và ngược lại khi kali- máu giảm, glycosid gắn nhiều vào
+tim, dễ gây độc. Digitalis có thể qua được hàng rào rau thai.
+1.1.3. Chuyển hoá
+Digitoxin chuyển hoá hoàn toàn ở gan, digoxin 5%, còn uabain không chuyển hoá.
+Những phản ứng chuyển hoá quan trọng của digitoxin và digoxin là:
+- Thuỷ phân, mất dần phần đường, để cuối cùng cho gen nin
+- Hydroxyl hoá genin ở vị trí 5-6 bởi mic rô sôm gan
+- Epime hoá: chuyển -OH ở vị trí 3 từ bê ta sang alpha
+- Liên hợp với các acid glucuronic và sulfuric.
+1.1.4. Thải trừ
+Digitoxin và digoxin thải trừ qua thận và qua gan, ở những nơi đó, một phần thuốc được
+tái hấp thu, nên làm tăng tích lũy trong cơ thể. Uabain không bị chuyển hoá, thải trừ qua
+thận dưới dạng còn hoạt tính.
+Bảng 22.1: So sánh chuyển hóa của ba glycosid
+Digitoxin
+Digoxin
+Uabain
+Nguồn gốc
+D. purpurea
+D. laineuse
+Strop han thus
+Số OH gắn vào sterol
+1
+2
+5
+Tan trong mì
++++
++
+0
+Hấp thu qua tiêu hóa
+100:100
+80:100
+0
+Gắn vào protein huyết tương
+90:100
+50:100
+0
+Thời gian có tác dụng sau
+(t/m)
+2h (không dùng)
+20 phút
+5 phút
+Phân huỷ ở gan
++++
++
+0
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Digitoxin
+Digoxin
+Uabain
+Thải trừ
+Chậm
+Nhanh
+Rất nhanh
+Tỷ lệ mất hoạt tính trong ngày
+7:100
+18-20:100
+40:100
+Thời gian tác dụng
+2-3 ngày
+12-24 giờ
+12 giờ
+Thời gian bán thải
+110 giờ
+33 giờ
+6 giờ
+Lưu lại trong cơ thể
+2-4 tuần
+1 tuần
+1-2 ngày
+Trình bày
+- Dung dịch rượu
+1:1000
+1ml = 50 giọt =
+1mgviên
+0,1mg
+=
+5giọt
+Viên 0,25mg
+ống 0,5mg-t/m
+ống 0,25mg
+- t/m
+1.2. Tác dụng của digitalis
+1.2.1. Tác dụng trên tim
+Đây là tác dụng chủ yếu: digitalis làm tâm thu ngắn và mạnh, tâm trương dài ra, nhịp tim
+chậm lại. Nhờ đó, tim được nghỉ nhiều hơn, máu từ nhĩ vào thất ở thời kỵ tâm trương được
+nhiều hơn, cung lượng tim tăng và nhu cầu oxy giảm. Do đó bệnh nhân đì khó thở và
+nhịp hô hấp trở lại bình thường. Digitalis còn làm giảm dẫn truyền nội tại và tăng tính trợ
+của cơ tim nên nếu tim bị loạn nhịp, thuốc có thể làm đều nhịp trở lại.
+Cơ chế tác dụng:
+Các glycosid trợ tim đều ức chế các AT Pase màng, là en zym cung cấp năng lượng cho
+“bơm Na+ K+” của mọi tế bào. “Bơm” này có vai trò quan trọng trong khử cực màng tế
+bào, do đẩy 3 ion Na+ ra để trao đổi với 2 ion K + vào trong tế bào. Tác dụng của glycosid
+phụ thuộc vào tính nhạy cảm của AT Pase của từng mô. Trên người, cơ tim nhạy cảm nhất,
+vì vậy: với liều điều trị, glycosid có tác dụng trước hết là trên tim.
+Khi AT Pase bị ức chế, nồng độ Na + trong tế bào tăng sĩ ảnh hưởng đến một hệ thống
+khác, hệ thống trao đổi Na + - Ca++. Bình thường, hệ thống này sau mỗi hiệu thế hoạt động
+sĩ đẩy 1 ion Ca++ và nhập 4 ion Na+ vào tế bào. Dưới tác dụng của glycosid, nồng độ Na +
+trong tế bào sĩ tăng cản trở sự trao đổi này và làm nồng độ Ca ++ trong tế bào tăng cao, gây
+tăng lực co bóp của cơ tim, vì ion Ca ++ có vai trò hoạt hóa myosin – AT Pase để cung cấp
+năng lượng cho sự co cơ (các sợi ac tin trượt trên sợi myosin). (Hình 22.1)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 22.1. Tác dụng của digitalis trên các luồng ion
+(-) ức chế
+Sau cơ tim AT Pase của các tế bào nhận cảm áp lực của cung động mạch chủ và xoang
+động mạch cảnh cũng rất nhạy cảm với glycosid. Khi AT Pase bị ức chế, tần số phóng
+“xung tác giảm áp” hướng tâm tăng, kích thích trung tâm phó giao cảm và làm giảm
+trương lực giao cảm sĩ làm tim đập chậm lại và làm giảm dẫn truyền nhĩ - thất.
+1.2.2. Các tác dụng khác
+- Trên thận: digitalis làm tăng thải nước và muối nên làm giảm phù do suy tim.
+Cơ chế của tác dụng này là: một mặt, digitalis làm tăng cung lượng tim, nên nước qua cầu
+thận cũng tăng; mặt khác, thuốc ức chế AT Pase ở màng tế bào ống thận làm giảm tái hấp
+thu nat ri và nước.
+- Trên cơ trơn: với liều độc, AT Pase của “bơm” Na + - K+ bị ức chế, nồng độ Ca++ trong tế
+bào thành ruột tăng làm tăng co bóp cơ trơn dạ dày, ruột (nôn, đi lỏng), co thắt khí quản
+và tử cung (có thể gây xảy thai).
+- Trên mô thần kinh: digitalis kích thích trực tiếp trung tâm nôn ở sàn não thất 4 và do
+phản xạ từ xoang cảnh, quai động mạch chủ.
+1.3. Nhiễm độc
+Các dấu hiệu nhiễm độc digitalis rất đa dạng. Khi điều trị, cần chú ý phát hiện các dấu
+hiệu, triệu chứng sau:
+- Tâm thần: mê sảng, khó chịu, mệt mỏi, lú lẫn, choáng váng.
+- Thị giác: nhìn mờ, có quầng sáng.
+- Tiêu hóa: chán ăn, buồn nôn, nôn, đau bụng.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Hô hấp: thở nhanh.
+- Tim mạch: nhịp xoang chậm, loạn nhịp ngoại tâm thu nhĩ, thất; rối loạn dẫn truyền nhĩ -
+thất; nghĩn nhĩ- thất các loại; rung thất.
+Digitalis là thuốc bị tích luü trong cơ thể, phạm vi nồng độ huyết tương có tác dụng điều
+trị lại hẹp, vì vậy trong lâm sàng, tuy dùng liều điều trị vẫn có thể gặp nhiễm độc do nhiều
+yếu tố tương tác như: rối loạn điện giải (hạ K + máu, hạ Mg++ máu, tăng Ca++ máu); nhiễm
+kiềm chuyển hóa; suy gan, suy thận làm giảm chuyển hóa và thải trừ th uốc.
+Trong giám sát điều trị, cần đo nồng độ của thuốc trong huyết tương để hiệu chỉnh liều.
+1.4. áp dụng lâm sàng
+- Chỉ định:
++ Giãn tâm thất.
++ Nhịp nhanh và loạn.
++ Suy tim do tổn thương van.
+- Chống chỉ định:
++ Nhịp chậm.
++ Nhịp nhanh tâm thất, rung thất.
++ Viêm cơ tim cấp (bạch hầu, thương hàn...)
++ Nghĩn nhĩ thất.
++ Không dùng cùng với các thuốc sau, có thể gây chết đột ngột hoặc tăng độc của
+digitalis: calci (nhất là khi tiêm tĩnh mạch), quinidin, thuốc kích thích adrenergic,
+reserpin.
+1.5. Chế phẩm và liều lượng
+- Digitoxin:
+Nồng độ điều trị trong huyết tương là 10 - 25 ng/ m L, nồng độ độc là > 35 ng/ m L
+Liều điều trị: 0,05- 0,2 mg/ ngày.
+Chế phẩm: viên nén 0,05 và 0,1 mg
+- Digoxin:
+Nồng độ điều trị trong huyết tương là 0,5 - 1,5 ng/ m L, nồng độ độc là 0,2ng/ m L.
+Liều điều trị: 0,125- 0,5 mg/ ngày
+Chế phẩm: viên nén 0,125- 0,25- 0,5 mg
+ống tiêm 0,1- 0,25 mg/ m L
+1.6. Điều trị ngộ độc
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Ngộ độc do tích luü thuốc hoặc uống quá liều, vì digitalis gắn rất chặt vào cơ tim, cho nên
+khi ngộ độc phải dùng thuốc ức chế gắn tiếp tục digitalis vào tim (kali), thải trừ calci là
+chất hiệp đồng tác dụng với digitalis trên cơ tim (EDTA) và các thuốc chữa triệu chứng
+loạn nhịp tim (dip henylhydan toin, thuốc phong toả bê ta vv...)
+- KCl uống 20-80m Eq/L/ngày; hoặc 40-60m Eq/L chuyền tĩnh mạch trong 2-3giờ đầu.
+Truyền tĩnh mạch thì dễ kiểm tra và khi cần có thể ngừng ngay. Tuyệt đối không dùng khi
+suy thận.
+- Dip henylhydan toin: làm tăng ngưìng kích thích của tim, đối kháng với tác dụng điện
+tim của digital. Tiêm tĩnh mạch 125-250mg trong 1-3phút. Tác dụng nhanh và giữ được
+4-6 giờ. Có thể truyền lidocain 2mg/ phút.
+Nếu có nhịp chậm, thêm at ropin 0,5-1,0mg tiêm tĩnh mạch.
+- EDTA (acid etylen diamino tet raacetic) có tác dụng “gắp” calci ra khỏi cơ thể. Dùng khi
+kali và dip henylhydan toin không có chỉ định. Truyền tĩnh mạch 3,0g pha trong 200ml
+glucose 5%.
+- Miễn dịch trị liệu kháng digoxin (an tidigoxin im muno therapy). Hiện có thuốc giải độc
+đặc hiệu cho digoxin và digitoxin dưới dạng kháng thể, là các phân đoạn Fab tinh khiế t từ
+kháng huyết thanh kháng digoxin (an tidigoxin an tisera) của cừu (DIGIBIND). Pha trong
+dung dịch nước muối, truyền tĩnh mạch trong 30 - 60 phút. Liều lượng tính theo nồng độ
+hoặc tổng lượng digoxin có trong cơ thể.
+Chế phẩm: Digibind lọ bột đông khô chứa 38 mg Fab và 75 mg sorbitol. Mỗi lọ gắn được
+khoảng 0,5 mg digoxin hoặc digitalin.
+1.7. Strop han thus
+Hạt cây Strop han thus có glycosid là strop han tin (genin là strop han tidin). Trong lâm sàng,
+được dùng nhiều là G. strop han tin (tức uabain) lấy ở
+Strop han thus gratus, và K.
+strop han tin lấy ở Strop han thus kom be.
+Tác dụng của strop han tin xuất hiện nhanh, 5 - 10 phút sau khi tiêm tĩnh mạch, tác dụng tối
+đa sau khoảng 1 giờ và thải trừ nhanh.
+Thuốc ít tác dụng trên dẫn truyển nội tại cơ tim, có thể dùng khi nhịp ch ậm. Chỉ định
+trong suy tim là khi digitalin tỏ ra không hiệu lực, và trong cấp cứu (vì tác dụng nhanh).
+Nhược điểm là tiêm bắp không có tác dụng và uống thì bị thuỷ phân nhanh.
+Mỗi ngày tiêm tĩnh mạch 0,25 mg- 1 mg. vì thuốc thải nhanh, nên có thể tiêm hàn g ngày
+nếu dùng liều 0,25 mg.
+Strop han tin cũng có thể gây nôn, ỉa chảy và rung tâm thất (độc bảng A). Hiện đang được
+thay thế bằng các thuốc cường ò1 giao cảm.
+2. Thuốc trợ tim không phải digitalis: Thuốc làm tăng AMPv
+Thuốc loại này được dùng cho suy tim cấp tính và đợt cấp tính của suy tim mạn, biểu hiện
+bằng cơn khó thở nặng, phù ngoại biên hoặc phù phổi. Việc điều trị trước tiên là phải làm
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+giảm gánh nặng cho tim bằng thuốc giãn mạch, thuốc lợi niệu (xin xem phần tương ứng);
+sau đó là dùng thuốc làm tăng sức co bóp của cơ tim. Các thuốc loại này đều là thuốc
+tiêm và bệnh nhân thường phải nằm viện.
+Thuốc tăng co bóp tim loại digitalis, không được dùng trong shock vì có nhiều tác dụng
+phụ, càng dễ xảy ra khi có tăng catec holamin nội sinh (stress), thiếu ox y, acid huyết.
+Thường xảy ra loạn nhịp.
+Hiện ưa dùng loại làm tăng AMPv ở màng tế bào cơ tim, tác dụng làm mở kênh calci nên
+làm tăng co bóp tim:
+ATP
+(+)
+(+)
+Các
+A dé nylcyc lase
+cường β1, β2
+protein (+)
+kinase
+3’- 5’- AMPv
+(+)
+(-)
+Xan tin
+Tác dụng
+Phosphodiesterase
+Am rinon
+sinh lý
+5’ AMP
+Enoximon
+Thuốc kích thích adenylcyc lase, en zym tổng hợp AMPv, và ức chế phosphodiesterase,
+en zym giáng hoá AMPv, đều có tác dụng làm tăng AMPv (sơ đồ). Các thuốc này làm
+tăng biên độ co bóp của cơ tim, tốc độ co bóp nhanh và thời gian co ngắn lại, có tác dụng
+tốt trong điều trị suy tim cấp, sốc. Các glycosid tim cũng làm tăng biên độ co bóp của cơ
+tim, nhưng tốc độ co bóp chỉ tăng vừa phải và thời g ian co bóp lại kéo dài (hình 22.2), có
+tác dụng cải thiện được tình trạng suy tim mạn
+Tác dụng qua trung gian AMPc
+Tác dụng của glycosid tim
+Hình 22.2. Chu kỵ co bóp của tim bị suy ( )
+và dưới ảnh hưởng của thuốc (----------)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2.1. Các thuốc cường adrenergic
+(Xin xem thêm mục này ở bài “Thuốc tác dụng trên hệ adrenergic”)
+2.1.1. Isop renalin
+- Tác dụng dược lý:
++ Cường 1: tác dụng lên cả 4 tính chất của tim, làm tim đập mạnh, đập nhanh, tăng tĩnh
+dẫn truyền và tính chịu kích thích. Do làm tim đập nhanh, làm tăng nhu cầu oxy của cơ
+tim. Lưu lượng tim tăng, huyết áp tối đa tăng.
++ Cường 2: làm giãn khí quản, giãn mạch (giảm sức cản ngoại biên, giảm hậu gánh).
+Huyết áp tối thiểu giảm.
+Lưu lượng tim tăng và giãn mạch là 2 tác dụng quan trọng làm cải thiện được sự tưới máu,
+đặc biệt là cho vùng tạng nơi chịu ảnh hưởng nhiều của shock.
+Ngoài tác dụng tim mạch, isop renalin còn làm tăng đường huyết, tăng huỷ lipid và do đó
+sinh năng lượng.
+- Tác dụng không mong muốn và độc tính:
++ Hạ huyết áp, loạn nhịp, đau vùng trước tim, nhồi máu cơ tim. Cần theo dõi bằng điện
+tim.
+Không dùng cùng thuốc mê như cyc lop ropan, fluot han, làm tăng độc tính với tim.
+- Chỉ định chính:
++ Shock có hạ huyết áp, cản trở máu tới các mạch do co mạch ngoại biên và thiểu năng
+tim, thể hiện bằng tăng áp lực tĩnh mạch trung tâm.
++ Ngừng tim, kết hợp với xoa bóp tim ngoài lồng ngực.
+- Chế phẩm:
++ Isop renalin clohydrat (Isup rel)
++ Isop renalin sulfat (Aleudrine)
+ống 1ml = 0,2mg.
+Truyền tĩnh mạch 2-6 ống trong 250- 500ml huyết thanh ngọt đ¼ng trương, không có
+base. Khi ngừng tim tiêm 2 ống vào tim.
+2.1.2. Dobutamin
+Tác dụng chọn lọc chỉ trên 1 recep tor.
+- Đặc điểm tác dụng trên hệ tim - mạch:
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
++ Trên tim: làm tăng co bóp cơ tim, đặc biệt là với liều làm tăng biên độ như isop renalin
+thì dobutamin chỉ làm tăng nhịp tim rất ít, do đó chỉ làm tăng ít nhu cầu sử dụng oxy của
+cơ tim, tuy đã làm tăng được lưu lượng của tim.
++ Làm giảm nhẹ sức cản ngoại vi và áp lực mao mạch phổi.
+- Chỉ định:
++ Shock - tim, nhất là sau mổ tim với tuần hoàn ng oài cơ thể.
++ Các suy tim nặng, không bù trừ, không đáp ứng với các cách điều trị khác.
+- Chế phẩm:
++ Dobut rex lọ 20ml = 250mg
+Pha trong dung dịch glucose hoặc muối đ¼ng trương, không có base, truyền tĩnh mạch
+với tốc độ 2- 15 mg/ kg/ phút, tuỵ tình trạng bệnh vì t/2 = 2- 3phút. Khi xuất hiện nhịp tim
+nhanh và loạn nhịp, cần giảm liều.
+2.2. Dopamin
+Dopamin là chất tiền thân của noradrenalin và là chất dẫn truyền thần kinh của hệ
+dopaminergic. Trên tim mạch, tác dụng phụ thuộc vào liều (xin xem “Thuốc cườn g hệ
+adrenergic”). Tuy nhiên, ngay cả với liều trung bình (2 - 5 g/ kg/ phút- liều kích thích
+β1), dopamin đã làm nhịp tim nhanh nên dễ gây thiếu máu cơ tim, nhất là trên bệnh nhân
+đã có bệnh mạch vành. Cần cân nhắc khi chỉ định.
+2.3. Các thuốc phong tỏa phosphodiesterase
+Nhóm thuốc mới phong tỏa phosphodiesterase có ưu điểm hơn nhóm thuốc cổ điển (nhóm
+xan tin) là:
+- Tác dụng chủ yếu trên isoen zym F typ III của phosphodiesterase có nhiều ở màng tế bào
+cơ tim.
+- Không kích thích thần kinh trung ương.
+2.3.1. Dẫn xuất bipyridin: am rinon (Inocor) và milrinon (Primacor)
+- Làm tăng co bóp cơ tim, tăng lưu lượng tim
+- Làm giãn mạch nên làm giảm tiền gánh và hậu gánh
+- Tác dụng phụ: ít. Có thể gặp sốt, nhức đầu, rối loạn tiêu hoá, giảm vị giác và khứu giác.
+Giảm tiểu cầu, ngừng thuốc sĩ khỏi, hiếm gặp với milrinon
+- Chỉ dùng thuốc cho bệnh nhân nằm viện
+- Cách dùng:
++ Am rinon (Inocor) ống 20m L có 100mg am rinon lac tat pha trong dung dịch muối đ¼ng
+trương dùng ngay trong ngày. Tiêm tĩnh mạch liều tấn công 0,5 g/kg, sau đó truyền với
+tốc độ 2-20 g/kg/phút; t/2 = 2-3giờ.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
++ Milrinon (Primacor) 5mg/m L. ống tiêm tĩnh mạch. Khoảng 10 lần mạnh hơn am rinon.
+Liều tấn công 50g/kg tiêm tĩnh mạch, sau đó truyền với tốc độ 0,25 - 1,0g /kg/ phút;
+t/2 = 30-60phút. Đang là thuốc được lựa chọn vì ức chế đặc hiệu PDE III.
+2.3.2. Dẫn xuất ben zimidazol
+Là các dẫn xuất ức chế PDE III đang được nghiên cứu:
+- Pimoben dan: ngoài cơ chế ức chế PDE III còn có cơ chế làm mẫn cảm các yếu tố co thắt
+của cơ tim với Ca++ nội bào.
+2.3.3. Vesnarinon: là quinolinon tác dụng theo đường uống làm tăng lực co bóp tim mạch
+và giãn mạch theo nhiều cơ chế: ức chế PDE III, tăng nhập Ca ++, kéo dài điện thế hoạt
+động, làm chậm nhịp tim. Tuy nhiên phạm vi an toàn hẹp, nhiều nước đã không dùng nữa.
+2.4. Các thuốc khác
+2.4.1. Spartein
+Alcaloid chiết xuất từ hoa cây Kim tước (Spartium jun ceum L.), thường dùng spartein
+sulfat. Làm tim đập mạnh đều, và chậm lại.
+Chỉ định:
+- Đe dọa trụy tim mạch do chấn thương nhiễm độc.
+- Đánh trống ngực, nhói vùng tim (không phải hội chứng động mạch vành).
+- Trợ tim giữa hai đợt dùng digitalis hay strop han thus.
+- Có thể phối hợp với morphin, scopolamin trong tiền mê; spartein còn ức chế bài tiết
+catec holamin. Nên dùng, nếu gây mê bằng cloroform.
+- Thúc đẻ: làm tử cung co bóp mạnh và đề u.
+Liều lượng: uống hay tiêm dưới da 0,05g/ lần, 1 -3 lần/ ngày.
+2.4.2. Long não
+Làm nhịp tim đập mạnh, đều, kích thích hô hấp, gây tiết mồ hôi và hạ nhiệt (rất ít).
+Chỉ định:
+- Trụy tim mạch.
+- Nhiễm khuẩn, nhiễm độc.
+Liều lượng:
+- Dung dịch dầu 10%: tiêm dưới da 2- 5 m L.
+- Long não tan trong nước (nat ri cam phosulfonat): dung dịch 10%. Tiêm dưới da 1 - 10
+m L.
+Hai thuốc trên ngày càng ít dùng vì tác dụng không mạnh.
+2.4.3. Amino- 2- met hyl- 6 hep taminol- 6
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Làm tăng cung lượng động mạch vành, cung lượng tim, lợi niệu, tăng huyết áp. ít độc.
+Thường dùng cùng digitalis chữa suy tim. Được chỉ định trong trụy tim mạch, biến chứng
+tim trong phẫu thuật, viêm cơ tim cấp, nhiễm khuẩn, nhồi máu cơ tim.
+Uống mỗi ngày 0,3- 0,5g.
+Tiêm bắp, tĩnh mạch: 0,05- 0,1g (dung dịch 5%).
+câu hỏi tự lượng giá
+1. Phân tích vì sao có sự khác biệt về dược động học giữa digitoxin, digoxin và
+uabain.
+2. Phân tích cơ chế tác dụng trên tim của digitalin, từ đó giải thích tác dụng và độc
+tính của thuốc.
+3. So sánh các thông số dược động học của digitoxin và digoxin, từ đó suy ra cách
+dùng trong lâm sàng.
+4. Các dấu hiệu nhiễm độc digitalis và cách điều trị.
+5. So sánh chỉ định và chống chỉ định của thuốc trợ tim digitalis và không phải
+digitalis.
+So sánh cơ chế tác dụng và tác dụng của dobutamin và dopamin trên tim mạch.

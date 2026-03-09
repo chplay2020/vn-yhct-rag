@@ -1,0 +1,122 @@
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 11: Thuốc chữa gút
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+Trình bày được cơ chế tác dụng, chỉ định các thuốc colchicin, probenecid, allopurinol.
+Gút là một bệnh do tăng acid uric-máu, trong dịch bao khớp có nhiều tinh thể urat là sản phẩm
+chuyển hóa cuối cùng của purin. Bệnh có thể nguyên phát do rối loạn chuyển hóa acid uric di
+truyền, hoặc thứ phát do bệnh thận, do dùng các thuốc phong tỏa thải trừ urat hoặc do sản xuất
+quá nhiều urat (metabolic overproduction).
+Acid uric-máu bình thường là 2-5mg/100ml, trong bệnh gút có thể tăng tới 8,8mg/100ml.
+Điều trị gút nhằm giải quyết cơn cấp tính và ngăn ngừa sự tái nhiễm, dựa trên sinh bệnh học của
+bệnh này. Các tinh thể urat lúc đầu bị thực bào bởi các tế bào màng hoạt dịch (syno vioucytes).
+Trong quá trình thực bào, các tế bào này giải phóng ra các prostaglandin, các enzym tiêu thể và
+interlenkin-1. Các chất trung gian hóa học này lại “gọi” các bạch cầu hạt tới ổ khớp và làm nặng
+thêm quá trình viêm: số lượng bạch cầu hạt, đại thự c bào tăng, lượng chất hóa học trung gian gây
+viêm tăng.
+Các thuốc điều trị cơn gút cấp tính sĩ ức chế các giai đoạn hoạt hóa bạch cầu. Đặc hiệu nhất là
+colchicin. Ngoài ra còn dùng thuốc CVKS phenylbutazon, indometacin, loại ức chế COX -2, hoặc
+corticoid.
+Điều trị gút mạn tính, dùng thuốc làm giảm acid uric trong cơ thể  bằng các thuốc làm đái ra acid
+uric như probenecid, sunfinpyrazol và allopurinol.
+1. Colchicin
+Colchicin là alcaloid của cây colchicum antumnal. Bột vô định hình, vàng nhạt, không mùi. Được
+dùng từ thế kỷ 18.
+Tác dụng điều trị đặc hiệu cơn gút cấp tính, làm giảm đau và giảm viêm trong vòng 12 - 24 giờ
+đầu dùng thuốc, vì thế còn được dùng làm test chẩn đoán. Colchicin không có tác dụng giảm đau
+và chống viêm khớp khác.
+1.1. Cơ chế tác dụng
+Trong bệnh gút, colchicin không ảnh hưởng đến bài xuất acid uric ở thận và không làm giảm acid
+uric máu. Colchicin gắn vào protein của tiểu quản (protein tubulin) trong tế bào bệnh cầu và các
+tế bào di chuyển khác, vì thế, ngăn cản sự trùng hợp của những pro tein này trong vi tiểu quản
+(microtubulin), dẫn đến ức chế sự di chuyển của bạch cầu và giảm hoạt tính thực bào của bạch
+cầu hạt, làm giảm giải phóng acid lactic và các enzym gây viêm trong quá trình thực bào. Trong
+quá trình “tiêu hóa” các tinh thể urat, bạch cầu hạt sản xuất glycoprotein, chất này có thể là
+nguyên nhân gây ra cơn gút cấp tính. Colchicin ngăn cản sản xuất glycoprotein của bạch cầu hạt
+nên chống được cơn gút.
+Colchicin còn ngăn cản sự phân bào của các tế bào động -thực vật ở giai đoạn trung kỵ và do làm
+giảm sự hình thành các thoi phân bào.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+1.2. Độc tính
+Phần lớn liên quan đến tác dụng ức chế sự trùng hợp của tubulin và ức chế phân bào: buồn nôn,
+nôn, tiêu chảy, đau bụng (tổn thương tế bào biểu mô niêm mạc tiêu hóa), ức chế tuỷ xương, rụng
+tóc, viêm thần kinh, độc với thận...
+1.3. Dược động học
+Hấp thu nhanh  qua đường uống, đạt nồng độ tối đa trong huyết tương sau 0,5 -2 giờ. Chuyển hóa
+ở gan, phần lớn thải trừ qua phân (có chu kỵ ruột - gan), chỉ 10 - 20% thải qua thận.
+1.4. Chỉ định
+- Điều trị cơn gút cấp tính: tiêm tĩnh mạch 2 mg hòa trong 10 - 20 ml dung dịch NaCl 0,9%.
+Tổng liều không vượt quá 4mg. Không tiêm nhắc lại trong vòng 7 ngày. Nếu không chịu được
+thuốc, có thể thay bằng indometacin.
+- Dự phòng: uống 0,5mg mỗi tuần 2 - 4 lần.
+Viên 0,5 mg, 1 mg.
+ống tiêm 2ml = 1mg
+2. Probenecid  (Bennemid)
+Probenecid là dẫn xuất của acid benzoic, tan nhiều trong lipid. Bột tinh thể trắng, không mùi.
+Acid uric được lọc qua cầu thận và bài xuất qua ống thận, song phần lớn lại được tái hấp thu ở
+đoạn giữa của ống lượn gần. Probenecid với liều thấp do cạnh tranh với quá trình thải trừ acid
+uric nên làm lưu acid uric trong cơ thể (Demartini và cộng sự, 1962), nhưng với liều cao lại ức
+chế tái hấp thu acid uric ở ống thận nên làm tăng  thải trừ acid q ua nước tiểu.
+Probenecid còn ức chế có tranh chấp quá trình thải trừ chủ động tại ống lượn gần của một số acid
+yếu như penicilin, para aminosalicylat, salicylat, clorothiazid, indometacin, sunfinpyrazon, v.v...
+Probenecid không có tác dụng giảm đau. Khi cầ n giảm đau, có thể dùng cùng với paracetamol.
+Không dùng cùng với salicylat, vì probenecid sĩ mất tác dụng.
+Dùng thuốc lợi niệu loại thiazid kéo dài như trong điều trị cao huyết áp thường làm ứ urat vì
+những thuốc này ức chế bài xuất urat ở ống thận. Probe necid đối kháng được tác dụng này mà
+không ảnh hưởng đến tác dụng lợi niệu của thuốc. Tuy nhiên, lại ức chế tác dụng đái natri của
+furosemid.
+Probenecid được hấp thu nhanh qua ruột, vào máu, hơn 70% kết hợp với albumin huyết tương,
+thải trừ qua thận phần lớn dưới dạng glucuro-hợp. Thời gian nửa thải trừ khoảng 6-12 giờ.
+Tác dụng phụ rất ít (2-8%): buồn nôn, nôn, mảng đỏ ở da, sốt. Khi làm đái nhiều acid uric, có thể
+gây cặn sỏi urat với cơn quặn thận (khi đó cần base hoá nước tiểu).
+Liều lượng: viên 0,5g. Tuần đầu uống 250mg   2lần/ngày. Tăng dần từng tuần. Tối đa 2g/ngày,
+uống 4 lần. Uống nhiều nước để tránh sỏi acid uric ở thận.
+Dùng hàng năm. Có thể dùng với allopurinol, sunfinpyrazon.
+3. Sunfinpyrazon (Anturant)
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Công thức gần giống phenylbutazon. Gây đá i ra acid uric mạnh do ngăn cản tái hấp thu ở ống
+thận, giống cơ chế của probenecid. Hấp thu nhanh và hoàn toàn qua đường tiêu hoá. Gây tai biến
+máu như phenylbutazon, rối loạn tiêu hoá khoảng 10%.
+Salicylat làm mất tác dụng của sunfinpyrazon do tranh chấp  với sunfinpyrazon khi vận chuyển
+qua ống thận và cả khi gắn vào protein huyết tương.
+Liều lượng: viên 50mg   4lần/ngày, tăng dần tới 400mg hoặc 800mg một ngày. Chia làm 2 -4
+lần, uống vào bữa ăn để tránh kích ứng dạ dày. Uống nhiều nước trong ngày.
+4. Allopurinol (Zyloprim)
+Allopurinol là chất đồng phân của hypoxanthin.
+4.1. Cơ chế tác dụng
+Acid uric là sản phẩm chuyển hoá của purin. Các purin được chuyển thành hypoxanthin và
+xanthin rồi bị oxyhoá nhờ xúc tác của xanthin oxydase thành acid uric. Allopu rinol là chất ức chế
+mạnh xanthin oxydase nên làm giảm sinh tổng hợp acid uric, giảm nồng độ acid uric máu và
+nước tiểu, làm tăng nồng độ trong máu và nước tiểu các chất tiền thân hypoxanthin và xanthin dễ
+tan hơn. Như vậy, allopurinol còn ngăn ngừa được s ự tạo sỏi acid uric trong thận.
+Như vậy, allopurinol còn ngăn ngừa được sự tạo sỏi acid uric trong thận.
+4.2. Độc tính
+ít độc. Phản ứng quá mẫn khoảng 3% (mẩn da, sốt, giảm bạch cầu, gan to, đau cơ).
+Trong những tháng đầu điều trị, có thể có các cơn gút cấ p tính do sự huy động acid uric từ các
+mô dự trữ. Khi đó, cần phối hợp điều trị bằng colchicin.
+4.3. Dược động học
+Hấp thu qua đường uống khoảng 80%, đạt nồng độ tối đa trong máu sau 30 -60 phút. Allopurinol
+cùng bị chuyển hoá bởi xanthin oxydase thành alox anthin, vẫn còn hoạt tính, vì thế tác dụng kéo
+dài, chỉ cần uống thuốc mỗi ngày 1 lần.
+4.4. Chỉ định, liều lượng
+- Gút mạn tính, sỏi urat ở thận.
+- Tăng acid uric máu thứ phát do ung thư, do điều trị bằng các thuốc chống ung thư, thuốc lợi tiểu
+loại thiazid...
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Tăng acid uric máu mà không thể dùng được probenecid hoặc sunfinpyrazon do có phản ứng
+không chịu thuốc.
+Mục tiêu của điều trị là làm giảm nồng độ acid uric máu xuống 6mg/dl (360 micro M).
+Liều lượng: Allopurinol (Zyloprim) viên 100 - 300 mg. Liều đầu 100mg, tăng dần tới
+300mg/ngày tuỵ theo nồng độ acid uric máu.
+Câu hỏi tự lượng giá
+Phân tích so sánh cơ chế tác dụng và chỉ định điều trị của colchicin, probenecid và
+allopurinol.

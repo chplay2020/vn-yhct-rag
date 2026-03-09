@@ -1,0 +1,586 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 26: các chất điện giải chính và các dịch truyền
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Phân biệt được các dấu hiệu thừa và thiếu Na +, K+, Ca++
+2. Trình bày được các thuốc điều chỉnh rối loạn (thừa hoặc thiếu) các ion trên.
+3. Phân tích được sự khác nhau giữa dịch bù ion và dịch thay thế huyết tương.
+4. Trình bày được vai trò của các dịch dinh dưìng.
+1. các chất điện giải chính
+1.1. Natri
+1.1.1. Vai trò sinh lý
+- Giữ vai trò sống còn: duy trì nồng độ và thể tích dịch  ngoài tế bào. Na+ là ion chủ yếu ở
+ngoài tế bào, vì vậy rối loạn Na + bao giờ cũng kìm theo rối loạn nước.
+- Giữ tính kích thích và dẫn truyền thần kinh - cơ do duy trì hiệu thế hoạt động giữa trong
+và ngoài tế bào.
+- Duy trì thăng bằng base acid
+Điều hòa Na trong cơ thể do hormon vỏ thượng thận aldosteron (tái hấp thu Na + và thải
+K+, H+ qua ống thận) và hormon vasopressin (hay ADH, hormon chống bài niệu) của
+tuyến hậu yên.
+Natri máu bình thường là 137- 147 mEq/L
+1.1.2. Thiếu Na (giảm natri- máu; hyponatremia)
+Khi Na- máu < 137 mEq/L
+1.1.2.1.
+Nguyên nhân
+- Nhập nhiều nước, tăng tiết ADH
+- Mất nhiều Na+: do mồ hôi, do dùng thuốc lợi niệu thải Na (như loại thiazid), do thiếu
+aldosteron.
+1.1.2.2.
+Lâm sàng
+- Na+ giảm, làm giảm áp lực thẩm thấu của huyết tương, nước từ ngoài tế bào sĩ đi vào
+trong tế bào. Đặc biệt là khi tế bào thần kinh bị "trương", sĩ gây các triệu chứng thần kinh
+như: kích thích, mỏi mệt, lo sợ, run tay, tăng phản xạ co thắt các cơ, hôn mê.
+Khi Na+ máu từ 120- 125 mEq/L: chưa có dấu hiệu thần kinh
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+115- 120 mEq/L: buồn nôn, uể oải, nhức đầu
+    < 115 mEq/L     : co giật, hôn mê
+- Mất Na+  có thể đi kìm theo mất dịch, làm giảm thể tích dịch ngoài tế bào
++ Nguyên nhân:
+. Tiêu hóa: tiêu chảy, nôn, có ống thông hút dịch
+. Thận: dùng lợi niệu, suy thượng thận
+. Da: bỏng, dẫn lưu vết thương
++ Lâm sàng: giảm thể tích máu, giảm áp lực tĩnh mạch trung tâm, giảm áp lực động mạch
+phổi và huyết áp trung bình
+- Na+ máu giảm , nhưng thể tích dịch ngoài tế bào vẫn bình thường hoặc tăng.
++ Nguyên nhân
+. Hội chứng tăng ADH, giữ nước
+. Phù do suy tim, sơ gan, thận hư
+. Truyền tĩnh mạch quá nhiều dung dịch nhược trương
++ Lâm sàng: ngược với các dấu hiệu trên: thể tích máu tăng, tăng áp lực tĩnh mạch trung
+tâm, tăng áp lực động mạch phổi và huyết áp trung bình.
+1.1.2.3.
+Điều trị
+-Bảo vệ bệnh nhân khỏi nguy cơ trực tiếp: nâng ngay Na + lên trên 120 mEq/L, sau đó dần
+dần đưa về bình thường và cho thăng bằng với dịch ngoài tế bào (xem 1.3.4.)
+- Chú ý điều chỉnh điện giải khác: K +, HCO3
+- (khi tiêu chảy nhiều).
+- Chỉ dùng dung dịch muối ưu trương (3 -5%) khi Na+ dưới 115 mEq/L và rất thận trọng vì
+có thể làm tăng thể tích trong mạch.
+- Nếu Na+ máu giảm mà dịch ngoài tế bào tăng thì dùng "lợi niệu quai" như furosemid
+(Lasix 0,2 - 0,3g/ ngày), vì làm mất nước nhiều hơn mất muối. Không dùng loại thiazid vì
+làm mất muối nhiều hơn mất nước.
+1.1.3. Thừa natri (tăng natri- máu, hypernatremia)
+Khi Na+ máu > 147 mEq/L
+do mất nước hoạc do nhập nhiều Na +
+1.1.3.1.
+Nguyên nhân
+- Mất nước qua da, qua phổi, bệnh đái nhạt, dùng lợi niệu thẩm thấu, tăng đường huyết.
+- Nhập nhiều muối: truyền dung dịch muối ưu trương, NaHCO 3, tăng aldosteron, ăn nhiều
+muối.
+1.1.3.2.
+Lâm sàng
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tăng áp lực thẩm thấu, tăng trương lực của dịch ngoài tế bào, nước trong tế bào ra ngoài
+tế bào, gây khát, mệt mỏi, nhược cơ, hôn mê, giảm đáp ứng với ADH.
+Đánh giá tình trạng tăng hoặc giảm khối lượng dịch ngoài tế bào bằng đo áp lực tĩnh
+mạch trung ương và áp lực động mạch phổi.
+1.1.3.3.
+Điều trị
+Phụ thuộc vào nguyên nhân
+- Nếu do mất nước: cho uống và truyền nước vào tĩnh mạch
+- Điều chỉnh tăng natri máu cần từ từ, khoảng 2 ngày để trá nh một lượng nước lớn vào
+não, gây phù não. Cần theo dõi các dấu hiệu phù não: tăng huyết áp, giảm nhịp tim, loạn
+cảm giác.
+1.1.3.4. Tính lượng nước và muối để điều chỉnh
+* Thiếu nước (trong Na+ máu cao):
+Thí dụ Na+ máu hiện có là 160 mEq/L ([Na] 1), muốn làm giảm xuống 150 mEq/L ([Na] 2)
+bằng pha loãng, cần bao nhiêu nước (TNC 2)?
+Giả sử người bệnh nặng 50 kg, tổng lượng nước của cơ thể (TNC) chiếm 60%, là 30 lít.
+Công thức tính là:
+TNC1   [Na]1 =   TNC2   [Na]2
+  30         160   =    x
+    150
+30   160
+x =
+= 32 L
+    150
+Số nước cần thêm là 32L - 30 = 2 L
+* Thiếu Na+
+Thí dụ: Na+ máu là 120 mEq/L, cần bao nhiêu Na + để nâng lên 130 mEq/L?
+Như vậy, mỗi lít cần 130 mEq - 120 mEq = 10 mEq. Với thí dụ trên, tổng lượng nước
+trong cơ thể (TNC) cho cả dịch trong và ngoài tế bào là 30 lít, cần 10   30 = 300 mEq
+Na+.
+Pmg   hóa trị
+  mEq   phân tử lượng
+Ta biết:     mEq =
+Pmg =
+Phân tử lượng
+Hóa trị
+Như vậy, lượng Na+ tương đương với 300 mEq là:
+     300   23
+Pmg  =
+               = 6900 mg
+  1
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Từ đó tính ra lượng dung dịch cần truyền tuỵ theo việc chỉ định dùng nước muối đ¼ng
+trương (0,9%) hoặc ưu trương.
+Có thể tính riêng cho dung dịch ngoài tế bào.
+Nước chiếm 60% trong lượng cơ thể. Nước trong tế bào chiếm 2/3 và ngoài tế bào là 1/3.
+1.2.
+Kali
+1.2.1. Vai trò sinh lý
+K+ là ion chủ yếu ở trong tế bào, có vai trò:
+- Đảm bảo hiệu thế màng, tính chịu kích thích của thần kinh - cơ
+- Trên cơ tim, K+ làm giảm lực co bóp, giảm tính chịu kích thích và giảm dẫn tru yền.
+Tác dụng đối kháng với Ca ++ và glycosid, tim.
+- Tham gia vào điều hòa acid- base
+Đây là quá trình phức tạp vì K + tham gia vào:
++ Cơ chế trao đổi ion qua màng tế bào
++ Chức phận thải trừ qua thận; liên quan với thải trừ H +
+* Thăng bằng ion qua màng tế bào:
+Nồng độ trong tế bào của K + và H+ lớn hơn ngoài tế bào
+- Khi H+ thay đổi là nguyên phát:
+. Nếu nồng độ H+ ở ngoài tế bào tăng  (acid máu) thì H + sĩ đi vào tế bào, và để giữ thăng
+bằng ion, K+ sĩ ra khỏi tế bào, gây tăng K + máu: acid huyết tăng kali (hyperkaliemic
+acidosis).
+. Ngược lại, nếu H+ ở dịch ngoài tế bào giảm (base máu) thì H + trong tế bào sĩ đi ra. Và
+để giữ thăng bằng ion, K + sĩ đi từ ngoài vào trong tế bào, gây giảm kali máu: base máu
+giảm kali (hypokaliemic alkalosis).
+pH huyết tương thay đổi 0,1 thì K+ thay đổi 0,6 mEq/L
+- Khi K+ thay đổi là nguyên phát thì làm H+ thay đổi theo: nếu K+ đi từ trong ra ngoài tế
+bào thì H+ và Na+ sĩ đi vào để giữ thăng bằng ion, kết quả là ngoài tế bào thì base và trong
+tế bào thì acid (trường hợp mất nhiề u K+).
+* Chức phận điều hòa của thận:
+Khi K+ tăng cấp tính trong máu, thận tăng thải K +, giảm thải H+, nước tiểu base và máu
+càng acid.
+Kali máu bình thường là 3,5- 5,0 mEq/L
+1.2.2. Thiếu kali (giảm kali- máu- hypokaliemia)
+Khi K+ máu < 3,5 mEq/L
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+1.2.2.1.
+Nguyên nhân
+- Giảm kali toàn bộ cơ thể: hội chứng cường aldosteron, dùng thuốc lợi niệu thải K + (loại
+thiazid), mất K+qua đường tiêu hóa (nôn nhiều, tiêu chảy, dẫn lưu), mất K + qua thẩm
+phân.
+- K+ nhập từ ngoài tế bào vào trong tế bào: do dùng insulin hoặc tăng insulin nộ i sinh,
+base máu, thời kỵ phục hồi tổ chức sau bỏng, sau chấn thương.
+Trong tế bào tập trung một số lượng lớn các chất hữu cơ không khuếch tán qua màng (các
+protein). ở môi trường pH của dịch thể, các nhóm chức của các hợp chất hữu cơ này đều
+tích điện âm nên gọi là anion cố định của tế bào. Để đảm bảo trung hòa điện, tế bào phải
+giữ lại một số lượng tương ứng cation, đó là K + (chính) và các cation khác. Từ đó, hệ quả
+là:
+. Khi anion cố định tăng (tăng đồng hóa, sau ăn, tăng insulin) thì K + sĩ đi vào tế bào.
+. Khi anion cố định giảm (dị hóa, đói, sốc, tăng cortisol) thì K + sĩ ra khỏi tế bào.
+- Stress: do có tăng tiết aldosteron và adrenalin từ thượng thận. Adrenalin làm tăng nhập
+K+ vào tế bào.
+1.2.2.2.
+Lâm sàng
+- Liệt ở gốc chi, sau đó là đầu chi. Sờ thấy cơ chắc, g iảm phản xạ gần xương, cảm giác
+còn bình thường, sau là chuột rút và dị cảm (thêm cả rối loạn Na và Ca)
+- Chướng bụng, liệt ruột, táo, bí đái
+- Tim: mạch rộng, nhẩy, tăng nhẹ. Điện tim: ST hạ dần, T có biên độ giảm dần, đ¼ng điện
+rồi âm, QT dài.
+1.2.2.3.
+Điều trị
+- Các chế phẩm:
+. Dung dịch KCl: chứa 20 mEq/ 15 mL (hoặc 1 thìa canh)
+. Viên bao chứa 4- 8 mEq.
+. ống tiêm: 1 mL chứa 1 mEq (dung dịch 7,5%) hoặc 1 mL chứa  2 mEq (dung dịch
+15%); đóng ống 10- 20 mL- 30mL.
+Khi dùng pha loãng trong huyết thanh ngọt đ¼ng trư ơng.
+- Liều lượng:
+. Dự phòng giảm K- máu (khi dùng lợi niệu lâu): 50 mEq/ ngày (tương đương 4,0g KCl),
+chia liều nhiều lần.
+. Liều truyền tối đa 10- 20 mEq/ h ; 50- 100 mEq/ ngày
+Dung dịch truyền tĩnh mạch chứa 30 - 40 mEq/L. Dung dịch đậm đặc quá gây huyế t khối
+và hoại tử nếu tiêm chệch tĩnh mạch.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Tai biến khi dùng quá liều:
+. Dấu hiệu điện tâm đồ: T rộng và nhọn, P dẹt, PR dài, phức hợp QRS rộng.
+. Xử trí: truyền dung dịch NaHCO 3, hoặc dung dịch huyết thanh ngọt có thêm 10 đơn vị
+insulin cho 100 g glucose (xem phần điều trị tăng kali máu)
+1.2.3. Thừa kali (tăng kali máu; hyperkaliemia)
+Khi kali máu > 5 mEq/L
+1.2.3.1.
+Nguyên nhân
+- Uống hoặc truyền quá thừa kali
+- Tổn thương nặng mô (tế bào vì, kali được giải phóng)
+- Acid huyết cấp tính (đôi khi acid huyết mạn tính)
+- Bệnh Addison
+- Kích thích cấp tính receptor  giao cảm
+- Dùng lợi niệu lưu kali không đúng liều lượng
+- Đường huyết tăng
+1.2.3.2.
+Lâm sàng
+- Đờ đẫn vô cảm. Dị cảm đầu chi, lưìi, môi.
+- Loạn vận mạch: da lạnh, ẩm, tái. Nhược cơ, tê bì nhất là chi dưới
+- Trên điện tim: nếu kali tăng vừa phải (5- 7 mEq/L huyết tương), dẫn truyền trong cơ tim
+bị giảm nhẹ: sóng T tăng cao hoặc kéo dài, PR dài, P mất.
+- Nếu kali tăng cao hơn (8-9 mEq/L huyết tương) sĩ ức chế mạnh hơn trên nút dẫn nhịp và
+sự dẫn truyền trong toàn bộ cơ tim: QRS dài, có thể mất tâm thu  (asystole), đôi khi trước
+đó là nhịp thất nhanh hoặc rung thất.
+1.2.3.3.
+Điều trị
+- Nhựa trao đổi cation: natri polystyren sulfonat (Kayexalate) là nhựa trao đổi Na +- K+, có
+ái lực với K+ mạnh hơn nhiều so với Na +. ở ruột, đặc biệt là ruột già, nó giải phóng Na +
+và gắn K+ rồi bị thải trừ theo phân.
+Kayexalat không được hấp thu khi uống và không bị tác dụng của dịch tiêu hóa. Ngoài
+K+, nó còn gắn được cả ion hóa trị 2 là Mg ++ và Ca++, nên có thể gây giảm Mg và Ca-
+máu.
+Thường gây táo, nên dùng cùng với sorbitol (viên 5 mg, 1 - 2 viên/ ngày, có tác dụng
+nhuận tràng).
+. Uống 15 g  1- 4 lần/ ngày
+. Cần kiểm tra K+, Mg++, Ca++, máu.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+. Không dùng khi K+ < 5 mEq/L và cần nhớ rằng 1g nhựa giải phóng 1 mEq Na +.
+- Glucose và insulin: insulin làm K + nhập vào tế bào, và glucose để chống hạ đường huyết
+do insulin gây ra.
+Insulin 10- 15 đơn vị
+Huyết thanh ngọt ưu trương 5-%- 250- 500 mL
+Tác dụng hạ K+ trong 6h.
+- Natri bicarbonat: làm K + nhập vào tế bào, tác dụng tạm thời trong 1 - 2h. Tiêm truyền
+tĩnh mạch dung dịch 1,4% (có 166,6 mEq HCO 3
+- và 166,6 mEq Na+ trong 1000 mL),
+hoặc dung dịch 4,2% (có 500 mEq HCO 3
+-, 500 mEq Na/ lít).
+- Calci gluconat: không có tác dụng trên nồng độ K + nhưng chống lại tác dụng độc của K +
+trên tim.
+ống 10 mL chứa 4,5 mEq Ca ++. Tiêm tĩnh mạch (trong khi CaCl 2 chứa 13,6 mEq).
+- Thẩm phân: dùng nhựa trao đổi ion có thể thải quá nhiều K +. Thẩm phân an toàn hơn, có
+thể dùng cho cả người suy thận.
+1.3.
+Calci
+1.3.1. Vai trò sinh lý
+- Tạo xương, răng dưới dạng calci phosphat
+- Co cơ, dẫn truyền thần kinh, bài xuất của các tuyến tiết
+- Đông máu
+- Tính thấm của màng tế bào
+ở dịch ngoài tế bào có 1- 2% tổng lượng Ca. Trong máu, Ca ở dưới 3 dạng: 50% dưới
+dạng ion Ca++, gần 50% kết hợp với protein huyết tương, chủ yếu là albumin và chỉ còn
+rất ít dưới dạng phức hợp với phosphat, citrat, carbonat.
+Chỉ calci dưới dạng ion mới có vai trò sinh lý quan trọng.
+Điều hoà calci do hormon cận giáp trạng (PTH) và calcitonin.
+Calci- máu bìnhthường là 4,3- 5,3 mEq/L
+1.3.2. Thiếu calci (giảm calci- máu; hypocalcemia)
+Khi calci- máu < 4,3 mEq/L
+1.3.2.1.
+Nguyên nhân
+- Giảm dạng ion hóa; base máu, dùng nhiều citrat hoặc máu loãng
+- Mất Ca qua dịch thể: dùng "lợi niệu quai" loại furosemid
+- Giảm hấp thu qua ruột: chế độ ăn thiếu Ca, thiếu vitamin D, tiêu chảy mạn, cắt dạ dày.
+- Suy cận giáp trạng.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Tăng phospho máu (hyperphosphatemia), giảm magnesi máu
+. P và Ca có tác dụng qua lại: P- máu tăng khi Ca- máu giảm và ngược lại. Đó là cơ chế
+bảo vệ sinh lý quan trọng vì nếu cả 2 cùng tăng sĩ dẫn tới kết tủa calci phosphat vào các
+mô. Khi P tăng thì Ca giảm vì làm giảm sản xuất dạng hoạt động của vitamin D và làm
+giảm huy động calci phosphat từ xương.
+. Mg giảm, thì Ca máu cũng giảm vì làm giảm tiết và giảm tác dụng của PTH.
+- Viêm tụy cấp cũng làm giảm calci máu vì có thể là làm lắng đọng Ca vào mô mì hoại
+tử, giảm tiết PTH, giảm albumin- huyết và tăng sản xuất calcitonin của tuyến giáp.
+1.3.2.2.
+Lâm sàng
+Tê, ngứa các ngón, tăng phản xạ, chuột rút, tetani với các dấu hiệu Trousseau (+),
+Chvostek (+), co giật do ngưìng kích thích của thần kinh b ị giảm. Nếu mạn tính, gây xốp
+xương, gẫy xương, dấu hiệu giảm calci nặng: co thắt thanh quản, khó thở, tiếng thở rít
+(stridor)
+1.3.2.3.
+Điều trị
+- Tiêm tĩnh mạch:
+. Calci gluconat: ống 10 mL dung dịch 10% chứa 4,5 mEq Ca
+. Calci clorid: ống 10 mL, dung dịch 10% chứ a 13,6 mEq Ca
+Tiêm chậm 1mL/ phút để phòng ngất tim và tụt huyết áp do giãn mạch nhanh.
+- Uống:
+. Calci lactat, calci carbonat, calci gluconat: dưới dạng gói bột
+. Vitamin D: Ergocalciferol (D 2): calcitriol 1,25 (OH)2 D3
+Không dùng cùng với fluor và phosphat vì tạo phức không tan, không hấp thu được.
+1.3.3. Thừa calci (tăng calci-máu, hypercalcemia)
+Khi calci- máu > 5,3 mEq/L
+1.3.3.1.
+Nguyên nhân
+- Chế độ ăn nhiều Ca
+- Hấp thu nhiều Ca: thừa vitamin D, cường phó giáp trạng.
+- Tăng giải phóng ca từ xương: ung thư cận giáp t rạng, bệnh Paget (tăng tiết PTH)
+- Giảm thải trừ Ca qua thận; thận suy, dùng lợi niệu loại thiazid lâu.
+- Tăng Ca++ dạng ion vì acid huyết.
+1.3.3.2.
+Triệu chứng
+Suy nhược, chán năn, buồn nôn, nôn, đái nhiều, mơ màng, lú lẫn, tê bì, thay đổi nhân
+cách, hôn mê. Điện tim: ST và QT ngắn, PR dài.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+1.3.3.3.
+Điều trị
+Điều trị nguyên nhân: cận giáp trạng, chế độ ăn
+Khi calci máu > 7 mEq/L phải điều trị tích cực:
+- Uống hoặc tiêm tĩnh mạch thanh huyết mặn 0,45% hoặc 0,9%, có thể tới hàng lít/ ngày
+với điều kiện chức phận thận bình thư ờng: thể tích máu tăng, pha loãng được Ca, thận
+tăng thải Na+ (giảm tái hấp thu), đồng thời tăng thải Ca. Có thể cho uống thêm 2 - 3 lít/
+ngày.
+ "Lợi niệu quai" furosemid làm tăng thải Ca và dự phòng được thừa nước do dùng huyết
+thanh mặn: 40- 60 mg cách 6 h uống 1 lần. Không dùng lợi niệu loại thiazid vì giảm thải
+Ca.
+Phosphat tiêm tĩnh mạch dùng chữa các cơn cấp tính. Tiêm tĩnh mạch Na phosphat hoặc
+K phosphat làm giảm nhanh ion Ca ++ vì tạo Ca phosphat. Nhưng khi Ca phosphat > 75
+mg/ dl thì gây lắng đọng Ca vào các mô.
+Không dùng quá 1,5g/ ngày và không quá 2 ngày.
+- Chế độ ăn ít Ca và dùng cortison: steroid tranh chấp với vitamin D ở receptor của ruột,
+làm giảm hấp thu Ca qua tiêu hóa và tăng thải qua thận.
+Cần dùng liều cao: Prednison 1mg/ kg/ ngày. Tác d ụng hạ calci máu xuất hiện chậm, sau
+1- 2 tuần dùng thuốc. Ngừng thuốc khi có dấu hiệu nhiễm độc.
+ Một số thuốc làm giảm tiêu xương:
+- Mithracin (Plicamycin) là kháng sinh gây độc tế bào, tác dụng ức chế trực tiếp các huỷ
+cốt bào (osteoclastes), làm giảm huy động Ca từ xương ra máu và giảm tái hấp thu Ca tại
+ống thận.
+Chỉ dùng trong tăng Ca- máu do ung thư nặng đã kháng với các cách điều trị khác, vì
+mithracin có nhiều tác dụng phụ, đặc biệt là giảm tiểu cầu, bạch cầu, giảm prothrombin,
+gây chảy máu có thể dẫn đến chết.
+Đựng trong lọ đông khô 2500 g
+Truyền tĩnh mạch 25 g/ kg/ ngày. Pha trong 500 mL  huyết thanh ngọt đ¼ng trương.
+Cách 2-3 ngày, truyền lại tuỵ thuộc vào Ca - máu.
+- Các diphosphonat: là thuốc tổng hợp của các pyrophosphat vô cơ có tác dụng ức  chế tiêu
+xương của các huỷ cốt bào. Thí dụ:
+Didronel (etidronat disodic): chỉ định chính trong bệnh Paget hoặc các di căn ung thư vào
+xương, gây tiêu xương.
+Dùng liều duy nhất, uống 2 giờ trước bữa ăn với liều 5 mg/ kg/ ngày, trong thời gian 6
+tháng. Không dùng cho người suy thận. Dùng quá liều gây hạ Ca - máu (điều trị bằng
+calci- gluconat tiêm tĩnh mạch)
+Viên 200 mg
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Calcitonin: là hormon của tế bào C tuyến giáp trạng, làm hạ calci máu do:
+. ức chế huỷ cốt bào (ngược với PTH, kích thích) làm giảmtiêu xươ ng
+. Tăng thải Ca và P qua thận do ức chế tái hấp thu
+Các chế phẩm sản xuất từ động vật (Staporos, Calcitar từ lợn, Calsyn, Miacalcic từ cá hồi
+salmon) hoặc tổng ợp (Cibacalcin). Calcitonin của cá hồi mạnh hơn của người và lợn 10 -
+40 lần và tác dụng lâu hơn 10 lần.
+Liều lượng: 4- 8 đơn vị quốc tế/ kg/ ngày chia làm 4 lần tiêm dưới da, tiêm bắp hoặc tiêm
+chậm vào tĩnh mạch. Tác dụng xuất hiện nhanh
+2. Các dịch thay thế huyết tương
+Khi thể tích huyết tương bị giảm do mất nước và muối đơn thuần (tiêu chảy, nôn  nhiều)
+thì chỉ cần truyền nước và điện giải là đủ. Nhưng nếu do mất nhiều máu hoặc huyết tương
+như trong sốc xuất huyết, bỏng nặng, thì phải truyền máu, huyết tương hoặc các dịch thay
+thế có áp lực keo cao.
+Các sản phẩm thiên nhiên (máu, huyết tương của n gười) là tốt nhất, nhưng đắt và có nhiều
+nguy cơ (phản ứng miễn dịch, lan truyền viêm gan siêu vi khuẩn B hoặc C, lan truyền
+AIDS). Vì vậy, các dịch thay thế huyết tương đã được nghiên cứu và sử dụng. Các dịch
+này cần phải có bảy tính chất sau:
+- Tồn tại trong tuần hoàn đủ lâu, nghĩa là có áp lực keo tương tự với huyết tương, có trọng
+lượng phân tử tương đưong với albumin huyết tương (  40.000).
+- Không có tác dụng dược lý khác.
+- Không có tác dụng kháng nguyên, không có chí nhiệt tố.
+- Không có tương tác hoặc phản ứng chéo với nhóm máu.
+- Giữ ổn định lâu khi bảo quản hoặc thay đổi của nhiệt độ môi trường.
+- Dễ khử khuẩn
+- Độ nhớt thích hợp với sự tiêm truyền.
+Dưới đây là một số dịch truyền đạt tiêu chuẩn hiện đang được dùng:
+2.1. Gelatin đã biến chất
+Được sản xuất từ colagen của xương, thuỷ phân cho tới khi đạt được các phân tử protein
+có trọng lượng phân tử khoảng 3.000. Có nhiều dạng:
+- Plasmion: chứa 30g gelatin lỏng trong 1 lít, có thêm thành phần các ion Na +, K+, Mg++
+và Cl- tương tự như huyết tương, không có Ca++. Chất đệm là lactat. Đựng trong lọ 500
+mL.
+- Plasmagel: chứa 30g gelatin lỏng trong 1 lít dung dịch muối đ¼ng trương, thêm        27
+mEq Ca++ (cho nên không được dùng cho bệnh nhân đang được điều trị bằng digitalis).
+Không có chất đệm. Đựng trong lọ 500 mL.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Plasmagel không muối, có đường (Plasmagel désodé glucosé): chứa 25 g gelatin trong 1
+lít dung dịch glucose đ¼ng trương, không có muối, Ca ++ và chất đệm (tránh bị thừa muối).
+Đựng trong lọ 500 mL.
++ ưu điểm của gelatin lỏng là dễ bảo quản, k hông cần xác định nhóm máu trước khi
+truyền.
++ Nhược điểm:
+. Không giữ được lâu trong cơ thể, khoảng 75% bị thải trừ qua nước tiểu trong 24h.
+. Vẫn còn phản ứng kháng nguyên: dị ứng biểu hiện ở da, hiếm gặp phản ứng tim mạch.
+. Có rối loạn đông máu: giảm protrombin, fibrinogen, tiểu cầu, kéo dài thời gian chảy
+máu.
+. Gây protein- niệu giả. Nếu dùng Plasmagel, chú ý có thể làm tăng calci huyết.
+. Phải hâm nóng trước khi dùng vì rất quánh khi gặp lạnh.
+2.2. polyvinyl- pyrrolidone (PVP)
+là chất tổng hợp, có trọng lượng phân tử khoảng 40.000.
+Đựng trong lọ 500 mL (Subtosan)
+- ưu điểm: tương đối dễ bảo quản.
+- Nhược điểm: còn phản ứng kháng nguyên, gây protein – niệu giả và nhất là bị giữ lâu
+trong hệ liên võng nội mạc.
+2.3. Dextran
+Là chất trùng phân có trọng lượng phân tử rất cao, được tạo ra từ glucose dưới tác động
+của vi khuẩn Leuconostoc mesenteroides. Phân hai loại:
+2.3.1. Loại có trong lượng phân tử cao
+Khoảng 80.000. Đựng trong lọ 250 và 500 mL. Thải trừ qua chuyển hóa.
+- ưu điểm: dễ bảo quản, giá không đắt lắm.
+- Nhược điểm:
+. Tạo phức hợp fibrinogen- dextran, gắn vào hồng cầu, làm tăng dính tiểu cầu, vì vậy có
+thể gây rối loạn đông máu.
+Rất ít độc, nhưng có thể gây phản ứng quá mẫn ngay từ lần truyền đầu tiên vì mẫn cảm
+với dextran tự nhiên gặp trong một số thức ăn.
+2.3.2. Loại có trọng lượng phân tử thấp .
+Khoảng 40.000. Đựng trong lọ 250 và 500 mL (Rheomacrodex). Thải trừ bằng chuyển
+hóa và qua thận.
+- ưu điểm: làm dễ dàng tuần hoàn của hồng cầu trong mao mạch.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Nhược điểm: giá thành còn cao và gây rối loạn đông máu. Chú ý là sau khi truyền, có
+thể làm sai lạc việc xác định nhóm máu và glucose máu.
+2.4. Dung dịch điện giải
+Có 5 loại hay dùng
+Loại dung dịch
+Nồng độ (mmol/ L)
+ASTT
+pH
+Na+
+K+
+Cl-
+Ca2+
+Lactat
+mOsm/L
+NaCl 0,9%
+154
+154
+308
+5.7
+Ringer
+147
+4
+156
+5
+309
+Ringer lactat
+130
+4
+112
+1,82
+28
+280
+5.1
+NaCl 10%
+1.709
+1.709
+3.418
+NaCl 20%
+3,419
+3,419
+6.836
+1g NaCl = 17 mmol Na= 400 mg Na.
+ASTT: áp suất thẩm thấu
+2.4.1. Dung dịch đ¼ng trương:
+2.4.1.1. Dung dịch nước muối sinh lý (NaCl 0, 9%)
+- ¦u: Rẻ, phổ biến.
+- Nhược: dễ gây toan máu do lượng Cl - cao. Truyền nhiều và nhanh dễ gây ứ nước ngoại
+bào và phù phổi cấp.
+2.4.1.2. Ringer lactat (dung dịch Hartman)
+- Vào cơ thể, lactat chuyển thành bicarbonat (do gan) và kiềm hóa máu (chỉnh được t oan
+nhẹ).
+- Có thêm K+ và Ca2+.
+- Truyền 1 lít sĩ tăng được 200- 300 mL thể tích tuần hoàn, vì vậy cần truyền 1 lượng gấp
+3 lần thể tích bị mất. Nhưng không được giữ lâu trong máu nên cần truyền liên tục.
+Chỉ truyền khi thể tích tuần hoàn mất  1 lít. Tổng lượng truyền không quá                  3 - 4
+lít/ 24h.
+2.4.2. Dung dịch ưu trương
+- Các loại dung dịch: NaCl 1,2- 1,8- 3,6- 7,2- 10 và 20%. Trên thị trường có s½n loại 10-
+20%, ống 10- 20 mL. Khi dùng, pha với glucose 5% để đạt nồng độ mong muốn.
+- Đặc điểm:
+. ASTT quá cao, dễ gây phù.
+. Làm giảm kết tập tiểu cầu, tăng nguy cơ chảy máu.
+. Làm giãn mạch nội tạng: thận, tim. Tăng co bóp tim.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+. Làm giảm phù não, giảm tăng áp lực nội sọ tốt hơn so với dung dịch  keo.
+3. Các dịch cung cấp glucid, acid amin và l ipid
+Dùng để cung cấp năng lượng khi không dinh dưìng được qua đường tiêu hóa. Trong sốc,
+nhu cầu năng lượng được cung cấp ở giai đoạn đầu chủ yếu bằng glucid vì được hấp thu
+trực tiếp, sau đó là các acid amin, và trong giai đoạn hồi phục là lipid.
+3.1. Các glucid dễ hấp thu
+3.1.1. Glucose (dextrose)
+- Dung dịch đ¼ng trương 50g/ 1000 mL (5%)
+- Dung dịch ưu trương 100g; 150g và 300g/ 1000 mL.
+Đựng trong lọ 500- 1000 mL, 100g glucose cung cấp 400 kilo calo. Ngoài ra còn dùng để
+điều trị và dự phòng các trường hơp mất nước nhiều hơn mất muối.
+Truyền chậm vào tĩnh mạch. Các dung dịch ưu trương dễ làm viêm tắc tĩnh mạch tại nơi
+truyền và gây hoại tử nếu truyền ra ngoài tĩnh mạch. Glucose huyết tăng phụ thuộc không
+những vào nồng độ dung dịch tiêm truyền mà còn và o tốc độ truyền và khả năng chuyển
+hóa của người bệnh.
+Khi nuôi dưìng bằng dịch truyền, cần phân phối liều đều trong ngày và giảm liều dần,
+tránh ngừng đột ngột dễ gây hạ đường huyết. Có thể bổ trợ thêm bằng insulin và kali tuỵ
+thuộc vào đường- niệu, aceton- niệu, kali- máu.
+3.1.2. Sorbitol
+Sorbitol là hexa- alcol không có chức khử, trong cơ thể, bị phân huỷ nhanh thành fructose
+dưới tác dụng của sorbitol deshydrogenase ở gan.
+-
+Dung dịch đ¼ng trương 50g/ 1000 mL
+-
+Dung dịch ưu trương 100g/ 1000mL.
+Đựng trong lọ 500- 1000 mL. Tác dụng và chỉ định giống như glucose, 100g sorbitl cung
+cấp 400 Kcal.
+Dung dịch ưu trương có thể gây rối loạn thần kinh hoặc là do tăng áp lực thẩm thấu, hoặc
+là do tác dụng độc trực tiếp trên thần kinh.
+3.2. Các acid amin
+Là dung dịch có chứa các acid amin cần thiết như leucin, isoleucin, lysin, methionin,
+arginin…  dưới dạng L dễ hấp thu.
+Truyền chậm tĩnh mạch (không vượt quá 50 giọt/ phút).
+Không dùng trong giai đoạn đầu của sốc. Thận trọng khi có suy gan, suy thận nặng, suy
+tuần hoàn nặng vì dung dịch chứa nhiều đạm và ưu trương. Có thể gây ra hoặc làm nặng
+thêm phản ứng phản vệ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tác dụng không mong muốn: niễm toan chuyển hóa do quá liều acid amin, tăng N máu ở
+người suy thận, mẫn cảm, dị ứng, đa niệu do tăng áp lực thẩm thấu.
+Các chế phẩm: Alvesin 40, Amigreen- TPN, Proteolysat, Moriamin.
+Phải tuyệt đối vô khuẩn khi tiêm truyền và không được trộn bất kỵ một thuốc gì vào dung
+dịch truyền.
+Lọ thuốc dùng tiêm truyền 100- 250- 500- 1000mL.
+3.3. Lipid
+Là dung dịch cung cấp năng lượng và các a cid béo cần thiết cho cơ thể, không gây ưu
+trương huyết tương.
+Các phản ứng không mong muốn sớm có thể gặp là sốt, buồn nôn, nôn, hạ đường huyết, ứ
+mì phổi, giảm tiểu cầu.
+Các phản ứng muộn: gan to, vàng da, do ứ mật, lách to, giảm tiểu cầu, giảm bạch cầu,
+tăng tạm thời các test chức phận gan.
+Chế phẩm: Intralipid, Lipofundin, Lipovenoes 10% PLR (dầu đậu tương - soja).
+-
+Dịch nhũ tương 10% đựng trong lọ 100 và 500 mL, cung cấp 1100 Kcal/ lit.
+-
+Dịch nhũ tương 20% đựng trong lọ 100 - 250 và 500 mL, cung cấp 2000 Kcal/ lít
+Liều lượng: tổng lượng lipid cho người lớn trong 24 giờ là 2 - 3g/ kg thân trọng; cho trẻ em
+là 0,5- 4g/ kg.
+Trong 10 phút đầu truyền 10 giọt/ phút; trong 20 phút sau là 20 giọt/ phút, sau đó đạt tới
+40 giọt/ phút.
+Khi đã mở lọ phải dùng hết trong 1 lần.
+Câu hỏi tự lượng giá
+1. Trình bày vai trò sinh lý của Na+, các rối loạn do thiếu Na+ và cách điều trị
+2. Trình bày vai trò sinh lý của Na+, các rối loạn do thừa Na+ và cách điều trị.
+3. Trình bày vai trò sinh lý của K+, các rối loạn do thiếu K+ và cách điều trị.
+4. Trình bày vai trò sinh lý của K+, các rối loạn do thừa K+ và cách điều trị
+5. Trình bày vai trò sinh lý của Ca++, các rối loạn do thiếu Ca++ và cách điều trị.
+6. Trình bày vai trò sinh lý của Ca++, các rối loạn do thừa Ca++ và cách điều trị.
+7. Nêu và phân tích 7 tính chất cần có của 1 dịch thay thế huyết tương. Cho thí dụ.
+8. Nêu các chỉ định và cách dùng của dịch truyền cung cấp glucid.
+9. Nêu các chỉ định và cách dùng của dịch truyền cung cấp các acid amin.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+10. Nêu các chỉ định và cách dùng của dịch truyền cung cấp l ipid.

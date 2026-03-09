@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "collection": {
+    "name": "yhct_chunks_v2_full",
+    "point_count": 11646,
+    "vector_size": "unknown"
+  },
+  "vector_stats": {},
+  "sources": {
+    "unique_sources": 259,
+    "avg_chunks_per_source": 45.77220077220077
+  },
+  "intra_source": {
+    "skipped": "Dummy vectors detected (all zeros)"
+  },
+  "inter_source": {
+    "skipped": "Dummy vectors detected (all zeros)"
+  },
+  "retrieval": {
+    "skipped": "Dummy vectors detected (all zeros)"
+  },
+  "assessment": {
+    "status": "WARNING",
+    "issues": [
+      "Intra-source similarity too low (poor clustering)",
+      "Retrieval accuracy low (< 60% relevant in top 5)"
+    ]
+  }
+}

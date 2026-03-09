@@ -1,0 +1,949 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 27: thuốc điều chỉnh rối loạn tiêu hóa
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được cơ chế tác dụng, tác dụng không mong muốn và áp dụng điều trị
+của nhôm hydroxyd, magnesi hydroxyd, thuốc kháng histamin H 2, thuốc ức chế
+H+/ K+- AT Pase và các muối bismuth.
+2. Phân tích được vị trí, cơ chế tác dụng và chỉ định của các thuốc gây nôn và chống
+nôn
+3. Nêu được cơ chế tác dụng, tác dụng và áp dụng điều trị của các thuốc điều hòa
+chức năng vận động của đường tiêu hóa và thuốc chống co thắt cơ trơn đường tiêu
+hóa.
+4. Trình bày được phân loại, cơ chế tác dụng, áp dụng điều trị của các thuốc nhuận
+tràng và thuốc tẩy thường dùng.
+5. Trình bày được tác dụng và áp dụng điều trị của các thuốc chống tiêu chảy: dung
+dịch uống bù nước và điện giải; các chất hấp phụ, bao phủ niêm mạc ruột; thuốc
+làm giảm nhu động ruột; các vi khuẩn và nấm.
+6. Phân biệt được tác dụng của thuốc lợi mật và thuốc thông mật, áp dụng lâm sàng.
+1. thuốc điều trị viêm loét dạ dày - tá tràng
+1.1 Đại cương
+Loét dạ dày- tá tràng là bệnh lý đường tiêu hóa phổ biến, hậu quả của sự mất cân bằng
+giữa các yếu tố gây loét (acid clohydric, pep sin, xoắn khuẩn Helicobac ter pylori) và các
+yếu tố bảo vệ tại chỗ niêm mạc dạ dày (chất nhày, bicarbonat, prostaglan din).
+Xoắn khuẩn H. pylori đóng vai trò quan trọng trong nguy cơ gây loét: khoảng 95% người
+loét tá tràng và 70- 80% người loét dạ dày có vi khuẩn này. Chúng gây viêm dạ dày mạn
+và làm tăng bài tiết acid. Diệt trừ được H. pylori sĩ làm ổ loét liền nhanh và giảm rõ rệt tỷ
+lệ tái phát.
+Mục tiêu của điều trị loét dạ dày- tá tràng là:
+- Chống các yếu tố gây loét:
+. Các thuốc kháng acid: trung hòa acid trong lòng dạ dày (magnesi hydroxyd, nhôm
+hydroxyd...)
+. Các thuốc làm giảm bài tiết acid và pep sin: thuốc kháng histamin H 2 và thuốc ức chế
+bơm proton.
+. Thuốc diệt H. pylori: các kháng sinh, bismuth.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Tăng cường yếu tố bảo vệ: suc ralfat, bismuth, misop rostol.
+Việc điều hòa bài tiết HCl của tế bào thành ở dạ dày là do histamin, acetylcholin và
+gastrin thông qua H+/ K+- AT Pase (bơm proton).
+Prostaglan din có vai trò quan trọng trong cơ chế điều hòa ngược: PGE 2 ức chế
+adenylcyc lase làm giảm AMPv, đối kháng với tác dụng của histamin và ức chế giải phóng
+gastrin. PGI2 kích thích tế bào biểu mô của niêm mạc dạ dày, làm tăng tiết chất nhày,
+bicarbonat để bảo vệ niêm mạc. Các thuốc chống viêm không steroid ức chế tổng hợp
+prostaglan din, có thể gây loét và chảy máu đường tiêu hóa.
+Hình 27.1. Cơ chế điều hòa sinh lý và dược lý của bài tiết dịch vị và các vị trí
+tác dụng của thuốc
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 27.2. Vai trò trung hòa acid của Na HCO 3 tại lớp nhầy
+ở niêm mạc dạ dày
+1.2. Thuốc kháng acid
+1.2.1. Tính chất chung
+Các thuốc kháng acid là những thuốc có tác dụng trung hoà acid trong dịch vị, nâng p H
+của dạ dày lên gần 4, tạo điều kiện thuận lợi cho tái tạo niêm mạc. Khi p H dạ dày tăng,
+hoạt tính của pep sin sĩ giảm (pep sin bị bất hoạt trong dung dịch p H lớn hơn 4).
+Các thuốc kháng acid có tác dụng nhanh nhưng ngắn, chỉ là thuốc điều trị triệu chứng,
+cắt cơn đau.
+Khi dạ dày rỗng, các thuốc kháng acid thoát khỏi dạ dày sau 30 phút, khi có thức ăn thì
+khoảng 2 giờ.
+Thuốc kháng acid thường dùng nhất là các chế phẩm chứa nhôm và magnesi, có tác dụng
+kháng acid tại chỗ, hầu như không hấp thu vào máu nên ít gây tác dụng toàn thân. Thuốc
+kháng acid chứa magnesi có tác dụng nhuận tràng, ngược lại thuốc chứa nhôm có thể gây
+táo bón. Vì vậy, các chế phẩm kháng acid chứa cả hai muối magnesi và nhôm có thể làm
+giảm tác dụng không mong muốn trên ruột của hai thuốc này. Nếu chức năng thận bình
+thường, rất ít nguy cơ tích luü magnesi và nhôm.
+Nat ribicarbonat có tác dụng trung hòa acid dịch vị mạnh, nhưng hiện nay hầu như không
+dùng làm thuốc kháng acid nữa vì hấp thu được vào máu, gây nhiều tác dụng không mong
+muốn toàn thân và có hiện tượng tiết acid hồi ứng (tăng tiết acid sau khi ngừng thuốc).
+Dùng thuốc kháng acid tốt nhất là sau bữa ăn 1 - 3 giờ và trước khi đi ngủ, 3- 4 lần (hoặc
+nhiều hơn) trong một ngày. Các chế phẩm dạng lỏng có hiệu quả hơn dạng rắn nhưng thời
+gian tác dụng ngắn hơn.
+Do làm tăng p H dạ dày, các thuốc khán g acid làm ảnh hưởng đến sự hấp thu của nhiều
+thuốc khác, phải dùng các thuốc này cách xa thuốc kháng acid ít nhất 2 giờ.
+Một số chế phẩm phối hợp thuốc kháng acid với simeticon (chất chống sủi bọt) để làm
+giảm sự đầy hơ I hoặc làm nhẹ triệu chứng nấc.
+1.2.2. Magnesi hydroxyd - Mg(OH)2
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+1.2.2.1. Tác dụng và cơ chế
+ở dạ dày, magnesi hydroxyd phản ứng nhanh với acid clohydric:
+Mg(OH)2 + 2HCl
+Mg Cl2 + 2H2O
+Xuống ruột non, Mg2+ tác động với các ion phosphat (PO 4
+3-) và carbonat (CO3
+2-) tạo thành
+muối rất ít tan hoặc không tan, do đó tránh được sự hấp thu base, tránh được base máu
+ngay cả khi dùng lâu.
+Có thể dùng các muối khác của magnesi như magnesi carbonat, magnesi trisilicat.
+1.2.2.2 Chỉ định
+- Tăng tiết acid (đau, đầy bụng, khó tiêu, ợ nóng, ợ chua) ở người có loét hoặc không có
+loét dạ dày- tá tràng.
+- Trào ngược dạ dày- thực quản.
+1.2.2.3. Chống chỉ định
+Mẫn cảm với thuốc, suy thận nặng, trẻ nhỏ (đặc biệt ở trẻ mất nước và suy thận).
+1.2.2.4. Tác dụng không mong muốn
+Miệng đắng chát, buồn nôn, nôn, cứng bụng, ỉa chảy, tăng magnesi máu (gặp ở người suy
+thận hoặc dùng liều cao, kéo dài).
+1.2.2.5. Tương tác thuốc
+- Các thuốc giảm hấp thu khi dùng cùng thuốc kháng acid: tet racyc lin, digoxin,
+in domet hacin, các muối sắt, isoniazid, ben zodiazepin, ranitid in…
+- Các thuốc tăng tác dụng do giảm thải trừ khi dùng cùng thuốc kháng acid: am phetamin,
+quinidin.
+1.2.2.6. Liều lượng, cách dùng
+Người lớn: mỗi lần uống 300- 600 mg, tối đa tới 1g, ngày 3- 4 lần. Nhai kü viên thuốc
+trước khi nuốt.
+1.2.3. Nhôm hydroxyd- Al(OH)3
+1.2.3.1. Tác dụng và cơ chế
+ở dạ dày, nhôm hydroxyd phản ứng với acid clohydric:
+chậm
+Al(OH)3 + 3HCl
+Al Cl3 + 3H2O
+Nhôm hydroxyd có tác dụng trung hòa acid yếu nên không gây phản ứng tăng tiết acid
+hồi ứng.
+ở ruột, nhôm kết hợp với phosphat từ thức ăn, tạo phosphat nhôm không tan, hầu như
+không hấp thu, thải trừ theo phân, không gây base máu. Vì phosphat bị thải trừ, cơ thể
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+phải huy động phosphat từ xương ra, dễ gây chứng nhuyễn xương. Vì vậy, cần ăn chế độ
+nhiều phosphat và protein.
+1.2.3.2. Chỉ định: như magnesi hydroxyd (mục 1.2.2.2)
+Tăng phosphat máu (ít dùng)
+1.2.3.3. Chống chỉ định: như magnesi hydroxyd. (mục 1.2.2.3)
+Giảm phosphat máu. Rối loạn chuyển hóa porphyrin.
+1.2.3.4. Tác dụng không mong muốn
+Chát miệng, buồn nôn, cứng bụng, táo bón, phân trắng, giảm phosphat máu. Nguy cơ
+nhuyễn xương khi chế độ ăn ít phosphat hoặc điều trị lâu dài. Tăng nhôm trong máu gây
+bệnh não, sa sút trí tuệ, thiếu máu hồng cầu nhỏ.
+1.2.3.5. Tương tác thuốc: giống như magnesi hydroxyd (mục 1.2.2.5)
+1.2.3.6. Liều lượng, cách dùng
+Người lớn: dạng viên nhai mỗi lần 0,5 - 1,0g, dạng hỗn dịch uống mỗi lần 320 - 640 mg,
+ngày 4 lần.
+Trẻ em: 6- 12 tuổi: dạng hỗn dịch uống mỗi lần 320 mg, ngày 3 lần.
+* Chế phẩm phối hợp magnesi hydroxyd và nhôm hydrox yd
+- Dạng hỗn dịch chứa magnesi hydroxyd 195 mg và nhôm hydroxyd 220mg trong 5m L.
+Người lớn uống mỗi lần 10- 20 m L
+- Dạng viên: chứa magnesi hydroxyd 400 mg và nhôm hydroxyd 400 mg. Người lớn mỗi
+lần nhai 1- 2 viên, tối đa 6 lần một ngày.
+* Chế phẩm phối hợp thuốc kháng acid và simeticon: dạng viên hoặc dạng hỗn dịch (chứa
+magnesi hydroxyd 195 mg, nhôm hydroxyd 220 mg và simeticon 25 mg trong 5 ml.
+Người lớn uống mỗi lần 5- 10 m L, ngày 4 lần).
+1.3. Thuốc làm giảm bài tiết acid clohydric và pep sin của dạ dày
+1.3.1. Thuốc kháng histamin H 2
+1.3.1.1. Đặc điểm chung
+Cơ chế tác dụng
+Do công thức gần giống với histamin, các thuốc kháng histamin H 2 tranh chấp với
+histamin tại recep tor H 2 và không có tác dụng trên recep tor H 1. Tuy recep tor H2 có ở
+nhiều mô như thành mạch, khí quản, tim, nhưng thuốc kháng histamin H 2 tác dụng chủ
+yếu tại các recep tor H 2 ở dạ dày. Thuốc kháng histamin H 2 ngăn cản bài tiết dịch vị do bất
+kỵ nguyên nhân nào làm tăng tiết histamin tại dạ dày (cường phó giao cảm, thức ăn,
+gastrin, bài tiết cơ sở).
+Tác dụng của thuốc kháng histamin H 2 phụ thuộc vào liều lượng, thuốc làm giảm tiết cả
+số lượng và nồng độ HCl trong dịch vị
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Chỉ định
+- Loét dạ dày- tá tràng lành tính, kể cả loét do dùng thuốc chống viêm không steroid.
+- Bệnh trào ngược dạ dày- thực quản.
+- Hội chứng tăng tiết acid dịch vị (Hội chứng Zollin ger - Ellison)
+- Làm giảm tiết acid dịch vị trong một số trường hợp loét đường tiêu hóa khác có liên
+quan đến tăng tiết dịch vị như loét miệng nối dạ dày - ruột…
+- Làm giảm các triệu chứng rối loạn tiêu hóa (nóng rát, khó tiêu, ợ chua) do thừa acid
+dịch vị.
+- Làm giảm nguy cơ hít phải acid dịch vị khi gây mê hoặc khi sinh đẻ (Hội chứng
+Men delson).
+Chống chỉ định và thận trọng
+- Chống chỉ định: quá mẫn với thuốc
+- Thận trọng: trước khi dùng thuốc kháng histamin H2, phải loại trừ khả năng ung thư dạ
+dày, đặc biệt ở người từ trung niên trở lên vì thuốc có thể che lấp các triệu chứng, làm
+chậm chẩn đoán ung thư.
+Có nhạy cảm chéo giữa các thuốc trong nhóm kháng histamin H 2.
+Dùng thận trọng, giảm liều và/ hoặc kéo dài khoảng cách giữa các lần dùng thuốc ở người
+suy thận.
+Thận trọng ở người suy gan, phụ nữ có thai và cho con bú (ngừng thuốc hoặc ngừng cho
+con bú).
+Tác dụng không mong muốn
+ỉa chảy và các rối loạn tiêu hóa khác, tăng en zym gan, đau đầu, chó ng mặt, phát ban.
+Hiếm gặp viêm tụy cấp, chậm nhịp tim, nghĩn nhĩ thất, lẫn lộn, trầm cảm, ảo giác (đặc
+biệt ở người già), rối loạn về máu, phản ứng quá mẫn.
+Chứng vú to ở đàn ông và thiểu năng tình dục gặp ở người dùng cimetidin nhiều hơn các
+thuốc kháng histamin H2 khác.
+Tương tác thuốc
+- Do p H dạ dày tăng khi dùng thuốc kháng histamin H 2 nên làm giảm hấp thu của một số
+thuốc như penicilin V, ketoconazol, it raconazol…
+- Cimetidin ức chế cytoc hrom P 450 ở gan nên làm tăng tác dụng và độc tính của nhiều
+thuốc như warfarin, phenytoin, theop hylin, prop ranolol, ben zodiazepin…
+Ranitidin có tương tác này nhưng ở mức độ thấp hơn nhiều (kém 2 - 4 lần).
+Famotidin và nizatidin không gây tương tác kiểu này.
+Một số thông số dược động học của thuốc kháng histamin H 2
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tên thuốc
+Sinh khả
+dụng (%)
+Gắn protein
+huyết
+tương (%)
+Thể tích
+phân bố Vd
+(L/ kg)
+t/2
+(giờ)
+Qua rau
+thai
+Qua sữa
+Cimetidin
+60- 70
+20
+2
+1
++
++
+Ranitidin
+50
+15
+2- 3
+1,3
++
++
+Famotidin
+40- 45
+15- 20
+3
+1,2
+?
++
+Nizatidin
+> 70
+35
+1- 2
+1,3
+?
++
+1.3.1.2. Các thuốc
+Cimetidin
+Hấp thu nhanh khi uống. Uống 200 mg cimetidin có tác dụng nâng p H và giảm đau trong
+1,5 giờ. Liều 400 mg trước khi đi ngủ giữ được p H của dạ dày > 3,5 suốt cả đêm. Với liều
+1,0g/ 24 giờ, tỷ lệ lên sẹo là 60% sau 4 tuần và 80% sau 8 tuần.
+Liều dùng điều trị loét dạ dày- tá tràng ở người lớn: uống mỗi lần 400 mg, ngày 2 lần (vào
+bữa ăn sáng và trước khi đi ngủ) hoặc 800 mg trước khi đi ngủ. Thời gian dùng ít nhất 4
+tuần đối với loét tá tràng và 6 tuần đối với loét dạ dày.
+Liều duy trì: 400 mg trước khi đi ngủ
+Khi loét nặng hoặc người bệnh nôn nhiều, tiêm bắp hoặc tĩnh mạch chậm (ít nhất trong 5
+phút) mỗi lần 200 mg, cách 4- 6 giờ một lần. Giảm liều ở người suy thận.
+Liều dùng ở trẻ em: trẻ trên 1 tuổi mỗi ngày uống 25 - 30 mg/ kg, chia làm nhiều lần. Trẻ
+dưới 1 tuổi mỗi ngày uống 20 mg/ kg, chia làm nhiều lần.
+Cimetidin gây nhiều tác dụng không mong muốn, có nhiều tương tác thuốc hơn các thuốc
+kháng histamin H2 khác. Vì vậy, trong trường hợp cần phối hợp nhiều thuốc, không nên
+chọn cimetidin.
+Ranitidin
+Tác dụng mạnh hơn cimetidin 4- 10 lần, nhưng ít gây tác dụng không mong muốn và ít
+tương tác thuốc hơn cimetidin.
+Liều dùng: uống mỗi lần 150 mg, ngày 2 lần (vào buổi sáng và buổi tối) hoặc 300 mg vào
+buổi tối trong 4- 8 tuần. Liều duy trì: 150 mg vào buổi tối.
+Tiêm bắp hoặc tĩnh mạch chậm (ít nhất trong 2 phút, phải pha loãng 50 mg trong 20
+m L): mỗi lần 50 mg, cách 6- 8 giờ/ lần.
+Famotidin
+Tác dụng mạnh hơn cimetidin 30 lần.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Liều dùng: uống mỗi ngày 40 mg trước khi đi ngủ trong 4 - 8 tuần.
+Liều duy trì: 20 mg trước khi đi ngủ.
+Tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch (pha trong nat ri clorid 0,9%) mỗi lần 20
+mg, cách 12 giờ một lần cho đến khi dùng được đường uống.
+Nizatidin
+Tác dụng và liều lượng tương tự ranitidin, nhưng ít tác dụng không mong muốn hơn các
+thuốc kháng histamin H 2 khác.
+1.3.2. Thuốc ức chế H +/ K+- AT Pase (bơm proton)
+1.3.2.1. Đặc điểm chung
+Cơ chế tác dụng
+Các thuốc ức chế bơm proton là những “tiền thuốc”, không có hoạt tính ở p H trung tính.
+ở tế bào thành dạ dày (p H acid), chúng được chuyển thành các chất có hoạt tính, gắn vào
+bơm proton, ức chế đặc hiệu và không hồi phục bơm này. Do đó, các thuốc ức chế bơm
+proton làm giảm bài tiết acid do bất kỵ nguyên nhân gì vì đó là con đường chung cuối
+cùng của sự bài tiết acid. Thuốc rất ít ảnh hưởng đến khối lượng dịch vị, sự bài tiết pep sin
+và yếu tố nội tại của dạ dày. Dùng một liều, bài tiết acid ở dạ dày bị ức chế trong khoảng
+24 giờ (so sánh với thuốc kháng histamin H 2 tối đa chỉ 12 giờ). Bài tiết acid chỉ trở lại sau
+khi en zym mới được tổng hợp.. Tỷ lệ liền sẹo có thể đạt 95% sau 8 tuần.
+Chỉ định
+- Loét dạ dày- tá tràng lành tính.
+Phòng và điều trị các trường hợp loét do dùng thuốc chống viêm không steroid.
+- Bệnh trào ngược dạ dày- thực quản khi có triệu chứng nặng hoặc biến chứng.
+- Hội chứng Zollin ger- Ellison (kể cả trường hợp đã kháng với các thuốc khác).
+- Dự phóng hít phải acid khi gây mê.
+Chống chỉ định và thận trọng
+- Chống chỉ định: quá mẫn với thuốc
+- Thận trọng: suy gan, phụ nữ có thai hoặc cho con bú. Phải loại trừ khả năng ung thư dạ
+dày trước khi dùng thuốc ức chế bơm proton.
+Tác dụng không mong muốn
+Nói chung thuốc dung nạp tốt. Có thể gặp khô miệng, rối loạn tiêu hóa, tăng en zym gan,
+đau đầu, chóng mặt, rối loạn thị giác, thay đổi về máu, viêm thận, liệt d ương, phản ứng dị
+ứng.
+Do làm giảm độ acid trong dạ dày, nên làm tăng nguy cơ nhiễm khuẩn đường tiêu hóa, có
+thể gây ung thư dạ dày.
+Tương tác thuốc
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Do p H dạ dày tăng nên làm giảm hấp thu một số thuốc như ketoconazol, it raconazol…
+- Omep razol ức chế cytoc hrom P450 ở gan nên làm tăng tác dụng và độc tính của
+diazepam, phenytoin, warfarin, nifedipin… Lan sop razol ít ảnh hưởng đến cytoc hrom P 450,
+trong khi pan top razol không ảnh hưởng đến en zym này.
+- Clarit hromycin ức chế chuyển hóa của omep razol, làm tăng nồ ng độ omep razol trong
+máu lên gấp hai lần.
+1.3.2.2. Các thuốc
+Omep razol
+Loét dạ dày- tá tràng: uống mỗi ngày một lần 20 mg trong 4 tuần nếu loét tá tràng, trong
+8 tuần nếu loét dạ dày. Trường hợp bệnh nặng hoặc tái phát có thể tăng liều tới 40 mg một
+ngày (uống hoặc tiêm tĩnh mạch).
+Dự phòng tái phát: 10- 20 mg/ ngày
+- Hội chứng Zollin ger- Ellison: liều khởi đầu 60 mg/ ngày. Sau đó điều chỉnh liều trong
+khoảng 20- 120 mg/ ngày tuỵ đáp ứng lâm sàng.
+Esomep razol
+Là đồng phân của omep razol.
+Mỗi ngày uống 20- 40 mg trong 4- 8 tuần
+Pan top razol
+Uống mỗi ngày một lần 40 mg vào buổi sáng trong 2 - 4 tuần nếu loét tá tràng hoặc 4- 8
+tuần nếu loét dạ dày. Trường hợp bệnh nặng có thể tiêm tĩnh mạch chậm hoặc truyền tĩnh
+mạch mỗi ngày một lần 40 mg đến khi người bệnh có thể uống lại được.
+Lan sop razol
+- Loét dạ dày: mỗi ngày uống 30 mg vào buổi sáng trong 8 tuần.
+- Loét tá tràng: mỗi ngày uống 30 mg vào buổi sáng trong 4 tuần.
+- Liều duy trì: 15 mg/ ngày.
+Rabep razol
+Mỗi ngày uống 20 mg vào buổi sáng trong 4 - 8 tuần nếu loét tá tràng hoặc 6- 12 tuần nếu
+loét dạ dày.
+Lưu ý: các thuốc ức chế bơm proton bị phá huỷ trong môi trường acid nên phải dùng dưới
+dạng viên bao tan trong ruột. Khi uống phải nuốt nguyên cả viên với nước (không nhai,
+nghiền) và uống cách xa bữa ăn (trước khi ăn sáng, trước khi đi ngủ tối).
+1.4. Các thuốc khác
+1.4.1. Các muối bismuth
+Được dùng dưới dạng keo subcit rat (trikalium dicit rato), subsalicylat…
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Các muối bismuth có tác dụng:
+- Bảo vệ tế bào niêm mạc dạ dày do làm tăng tiết dịch nhày và bicarbon at, ức chế hoạt
+tính của pep sin.
+- Bao phủ chọn lọc lên đáy ổ loét, tạo chelat với protein, làm thành hàng rào bảo vệ ổ loét
+chống lại sự tấn công của acid và pep sin.
+- Diệt Helicobac ter pylori.
+Khi dùng riêng, các muối bismuth chỉ diệt được H. pylori ở khoảng 20% người bệnh,
+nhưng khi phối hợp với kháng sinh và thuốc ức chế bơm proton, có thể tới 95% người
+bệnh tiệt trừ được H. pylori. Vì thế bismuth được coi là thành phần quan trọng trong công
+thức phối hợp thuốc.
+Bismuth dạng keo ít hấp thu qua đường uống (chỉ khoảng 1%) nên ít gây độc với liều
+thông thường. Nếu dùng liều cao hoặc dùng kéo dài có thể gây bệnh não.
+Chống chỉ định: quá mẫn với thuốc, suy thận nặng, phụ nữ có thai.
+Tác dụng không mong muốn: buồn nôn, nôn, đen miệng, đen lưìi, đen phân (thận tr ọng ở
+người có tiền sử chảy máu đường tiêu hóa, vì dễ nhầm với đại tiện phân đen).
+Chế phẩm: Bismuth subcit rat viên nén 120 mg
+Uống mỗi lần 1 viên, ngày 4 lần vào 30 phút trước các bữa ăn và 2 giờ sau bữa ăn tối,
+hoặc mỗi lần uống 2 viên, ngày 2 lần vào 30 phút trước bữa ăn sáng và tối. Điều trị trong
+4- 8 tuần.
+Không dùng để điều trị duy trì, nhưng có thể điều trị nhắc lại sau 1 tháng.
+* Chế phẩm phối hợp ranitidin và muối bismuth: ranitidin bismuth cit rat
+ở dạ dày ranitidin bismuth cit rat được phân ly t hành ranitidin và bismuth, do đó có cả hai
+tác dụng của hợp chất bismuth và của ranitidin.
+Uống mỗi lần 400 mg, ngày 2 lần trong 4 - 8 tuần nếu loét tá tràng hoặc 8 tuần nếu loét dạ
+dày lành tính. Không dùng điều trị duy trì.
+1.4.2. Suc ralfat
+Suc ralfat là phức hợp của nhôm hydroxyd và sulfat suc rose. Giống như bismuth, suc ralfat
+ít hấp thu, chủ yếu có tác dụng tại chỗ.
+Thuốc gắn với protein xuất tiết tại ổ loét, bao phủ vết loét, bảo vệ ổ loét khỏi bị tấn công
+bởi acid dịch vị, pep sin và acid mật. Ngoài ra , suc ralfat còn kích thích sản xuất
+prostaglan din (E2, I1,) tại chỗ, nâng p H dịch vị, hấp phụ các muối mật.
+Thận trọng khi dùng ở người suy thận (tránh dùng khi suy thận nặng) do nguy cơ tăng
+nồng độ nhôm trong máu, phụ nữ có thai và cho con bú.
+ít gây tác dụng không mong muốn, chủ yếu là các rối loạn tiêu hóa.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Uống mỗi ngày 4,0g, chia làm 2- 4 lần vào 1 giờ trước các bữa ăn và trước khi đi ngủ,
+trong 4- 8 tuần.
+Suc ralfat làm giảm hấp thu của nhiều thuốc, vì vậy phải uống các thuốc này trước
+suc ralfat 2 giờ.
+1.4.3. Misop rostol
+Là prostaglan din E1 tổng hợp, có tác dụng kích thích cơ chế bảo vệ ở niêm mạc dạ dày và
+giảm bài tiết acid, làm tăng liền vết loét dạ dày - tá tràng hoặc dự phòng loét dạ dày do
+dùng thuốc chống viêm không steroid.
+Do hấp thu được vào máu nên gây nhiều tác dụng không mong muốn: buồn nôn, đầy
+bụng, khó tiêu, đau quặn bụng, tiêu chảy, chảy máu âm đạo bất thường, gây sẩy thai, phát
+ban, chóng mặt, hạ huyết áp.
+Chống chỉ định dùng misop rostol ở phụ nữ có thai (hoặc dự định có thai) và cho con bú.
+Thận trọng: bệnh mạch não, bệnh tim mạch vì nguy cơ hạ huyết áp.
+Liều dùng:
+- Loét dạ dày- tá tràng: mỗi ngày 800 g chia làm 2- 4 lần vào bữa ăn và trước khi đi ngủ,
+trong 4- 8 tuần.
+- Dự phòng loét dạ dày- tá tràng do dùng thuốc chống viêm không steroid: mỗi lần uống
+200 g, ngày 2- 4 lần cùng với thuốc chống viêm không steroid.
+1.5. Kháng sinh diệt Helicobac ter pylori
+Nếu đã xác định được sự có mặt của H- pylori trong loét dạ dày – tá tràng (bằng test
+phát hiện), phải dùng các phác đồ diệt H. pylori để vết loét liền nhanh và tránh tái phát.
+Phác đồ phổ biến nhất, đạt hiệu quả cao, đơn giản, s½n có và chi phí hợp lý là phác đồ
+dùng 3 thuốc trong 1 tuần (one- week trip le- therapy) gồm một thuốc ức chế bơm proton
+và 2 kháng sinh: amoxicilin với clari thromycin hoặc met ronidazol. Phác đồ này diệt trừ
+được H. pylori trong hơn 90% trường hợp.
+Giới thiệu một số phác đồ dùng 3 thuốc trong 1 tuần để diệt trừ H. pylori:
+Thuốc ức chế
+Kháng sinh
+bài tiết acid
+Amoxicilin
+Clarit hromycin
+Met ronidazol
+Esomep razol
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 20 mg, ngày 2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Lan sop razol
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 30 mg, ngày 2 lần
+Mỗi lần 1 g, ngày
+Mỗi lần 400 mg,
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2 lần
+ngày 2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Omep razol
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 20 mg, ngày 2 lần
+Mỗi lần 500 mg,
+ngày 3 lần
+Mỗi lần 400 mg,
+ngày 3 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Pan top razol
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 40 mg, ngày 2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Rabep razol
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 20 mg, ngày 2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Ranitidin bismuth cit rat
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+mỗi lần 400 mg, ngày 2 lần
+Mỗi lần 1 g, ngày
+2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Mỗi lần 500 mg,
+ngày 2 lần
+Mỗi lần 400 mg,
+ngày 2 lần
+Nếu ổ loét tái phát nhiều lần, ổ loét to, có nhiều ổ loét hoặc các trường hợp loét không đáp
+ứng với phác đồ 3 thuốc, dùng “phác đồ 4 thuốc trong 2 tuần” gồm thuốc ức chế bơm
+proton, muối bismuth và 2 kháng sinh.
+Cũng có thể phối hợp tinidazol hoặc tet racyc lin với các kháng sinh khác và thuốc ức chế
+bài tiết acid để diệt trừ H. pylori.
+2. thuốc điều chỉnh chức năng vận động và bài tiết của đường tiêu hóa
+Đường tiêu hóa có chức năng vận động để hấp thu các chất dinh dưìng, điện giải, nước và
+bài tiết các chất cặn bã. Khi rối loạn các chức năng này sĩ sinh ra các triệu chứng buồn
+nôn, nôn, chướng bụng, khó tiêu, táo bón, tiêu chảy… Ngoài việc chữa triệu chứng, thầy
+thuốc cần tìm nguyên nhân để điều trị.
+2.1. Thuốc kích thích và điều chỉnh vận động đường tiêu hóa
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2.1.1. Thuốc gây nôn
+Nôn là một phản xạ phức hợp, bao gồm co thắt hang - môn vị, mở tâm vị, co thắt cơ hoành
+và cơ bụng, kết quả là các chất chứa trong dạ dày bị tống ra ngoài qua đường miệng.
+Trung tâm nôn nằm ở hành não, chịu sự chi phối của các trung tâm cao hơn là mê đạo và
+vùng nhận cảm hóa học ở sàn não thất 4 (area postrema) hay “trigger zone”
+(Hình 27.3)
+(-)
+(-)
+(-)
+(-)
+(+)
+(+)
+(+)
+(+)
+(+)
+(-)
+(-)
+Hình 27.3: Vị trí, cơ chế tác dụng của nôn và thuốc chống nôn
+Có 3 loại thuốc gây nôn:
+2.1.1.1. Thuốc gây nôn trung ương:
+Là thuốc kích thích vùng nhận cảm hóa học “trigger”: apomorphin, ống 5 mg tiêm dưới
+da. Trẻ em dùng liều 1/20- 1/10 mg/ kg.
+2.1.1.2. Thuốc gây nôn ngoại biên
+Hyoscin
+Kháng histamin
+Kháng serotonin
+(5-HT3)
+Phenot hiazin
+Butyrop henon
+Metoc lop ramid
+Dom peridon
+Kháng histamin
+Vận động
+Tiền đình
+(tai)
+(ACh, H1)
+Trung tâm nôn
+(hành não)
+(ACh, H1, 5- HT3)
+Vùng nhận cảm
+hóa học (sàn não
+thất 4) (D2)
+Kích thích
+nôn khác
+Metoc lop ramid
+Kháng 5- HT3
+Giảm nhạy cảm
+Recep tor ở họng,
+môn vị, ruột và
+đường mật
+Dây thần kinh X, giao
+cảm, cơ hoành và các
+dây thần kinh khác
+Hướng
+tâm
+Ly tâm
+Metoc lop ramid
+Dom peridon
+Tăng tốc độ làm rỗng
+dạ dày và tăng trương
+lực thực quản
+Mở tâm vị
+đóng môn vị
+co cơ bụng
+Nôn
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Là thuốc có tác dụng kích thích các ngọn dây thần kinh lưìi, hầu và dây phế vị tại niêm
+mạc dạ dày.
+- Đồng sulfat 0,3 g/ 100m L nước, có thể uống thêm sau 10 - 20 phút.
+- Kĩm sulfat 0,6- 2 g/ 200 m L nước.
+2.1.1.3. Thuốc gây nôn có cơ chế hỗn hợp
+Ipeca hoặc ipecacuan ha: bột vàng sẫm đựng trong nang 1 - 2g, hoặc rượu thuốc 5-
+20 m L, hoặc siro 15 m L, có thể dùng nhắc lại từng 15 phút cho đến khi nôn.
+Thuốc gây nôn được chỉ định trong các ngộ độc cấp tính qua đường tiêu hóa, nhưng trong
+thực hành thường rửa dạ dày sĩ tốt hơn.
+Không dùng thuốc gây nôn cho người đã hôn mê hoặc nhiễm độc chất ăn da.
+2.1.2. Thuốc làm tăng nhu động ruột
+2.1.2.1. Thuốc nhuận tràng
+Là thuốc làm tăng nhu động chủ yếu ở ruột già, đẩy nhanh các chất chứa trong ruột già ra
+ngoài. Chỉ dùng thuốc nhuận tràng khi chắc chắn bị táo bón, tránh lạm dụng thuốc vì có
+thể gây hậu quả hạ kali máu và mất trương lực đại tràng. Hiếm khi cần điều trị táo bón
+kéo dài, trừ ở một số người cao tuổi.
+Có thể phòng táo bón bằng chế độ ăn cân bằng, đủ nước và chất xơ, vận động hợp lý.
+Theo cơ chế tác dụng, thuốc nhuận tràng được chia thành 5 nhóm chính. Một số thuốc
+nhuận tràng có cơ chế tác dụng hỗn hợp.
+- Thuốc nhuận tràng làm tăng khối lượng phân: met hylcellulose.
+- Thuốc nhuận tràng kích thích: kích thích trực tiếp cơ trơn thành ruột làm tăng nhu động
+ruột, có thể gây co cứng bụng: bisacodyl, glycerin, nhóm anthraquinon, các thuốc cường
+phó giao cảm, docusat nat ri…
+- Chất làm mềm phân: parap hin lỏng, dầu arac his.
+- Thuốc nhuận tràng thẩm thấu, có tác dụng giữ lại dịch trong lòng ruột: muối magnesi,
+lac tulose, sorbitol, mac rogol, glycerin…
+- Dung dịch làm sạch ruột dùng trước khi phẫu thuật đại tràng, soi đại tràng hoặc chuẩn bị
+chiếu chụp X - quang đại tràng, không dùng điều trị táo bón.
+Bisacodyl
+- Bisacodyl làm tăng nhu động ruột do kích thích đám rối thần kinh trong thành ruột,
+đồng thời làm tăng tích lũy ion và dịch trong lòng đại tràng.
+- Chỉ định:
+. Táo bón do các nguyên nhân khác nhau.
+. Làm sạch ruột trước khi phẫu thuật.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+. Chuẩn bị chụp X- quang đại tràng.
+- Chống chỉ định:
+Tắc ruột, viêm ruột thừa, chảy máu trực tràng, viêm dạ dày - ruột.
+- Tác dụng không mong muốn:
+Thường gặp đau bụng, buồn nôn. ít gặp kích ứng trực tràng khi đặt thuốc. Dùng dài ngày
+làm giảm trương lực đại tràng và hạ kali máu.
+- Liều dùng:
+. Táo bón: uống 5- 10 mg vào buổi tối hoặc đặt trực tràng viên đạn 10 mg vào buổi sáng .
+Trẻ em dưới 10 tuổi uống 5 mg vào buổi tối hoặc đặt trực tràng viên đạn 5 mg vào buổi
+sáng.
+. Chuẩn bị chụp X- quang đại tràng hoặc phẫu thuật: người lớn uống mỗi lần 10 mg lúc đi
+ngủ, trong 2 ngày liền trước khi chụp chiếu hoặc phẫu thuật. Trẻ em dùng nửa liều người
+lớn.
+Lưu ý: dạng viên bao bisacodyl để phân rã ở ruột, do đó khô ng được nhai hoặc nghiền
+viên thuốc.
+Không dùng thuốc quá 7 ngày, trừ khi có hướng dẫn của thầy thuốc.
+Magnesi sulfat
+Là thuốc nhuận tràng thẩm thấu. Do ít được hấp thu, magnesi sulfat làm tăng áp lực thẩm
+thấu trong lòng ruột, giữ nước, làm tăng thể tích lòng ruột, gây kích thích tăng nhu động
+ruột.
+Uống magnesi sulfat liều thấp (5g) có tác dụng thông mật và nhuận tràng, liều cao (15 -
+30g) có tác dụng tẩy.
+Tiêm tĩnh mạch magnesi sulfat có tác dụng chống co giật trong sản khoa.
+Chống chỉ định: các bệnh cấp ở đường tiêu hóa.
+Thận trọng: suy thận, suy gan, người cao tuổi, suy nhược.
+Liều dùng nhuận tràng: người lớn và trẻ em trên 12 tuổi: 10g; 6 - 11 tuổi: 5g; 2- 5
+tuổi: 2,5g. Pha thuốc trong cốc nước đầy (ít nhất trong 240 ml) uống trước bữa ă n sáng.
+Thuốc tác dụng trong 2- 4 giờ.
+2.1.2.2. Thuốc tẩy
+Là thuốc tác dụng ở cả ruột non và ruột già, dùng tống mọi chất chứa trong ruột ra ngoài
+(chất độc, giun sán) nên thường chỉ dùng 1 lần.
+Thuốc tẩy muối
+Là các muối ít được hấp thu, làm tăng áp lực t hẩm thấu, giữ nước, làm tăng thể tích lòng
+ruột.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thường dùng megnesi sulfat, nat ri sulfat uống 15 - 30g với nhiều nước.
+Thuốc tẩy dầu
+Thường dùng dầu thầu dầu (ricin) có chứa triglycerid của acid ricinoleic. Dưới tác dụng
+của lipase tụy tạng, triglycerid bị thuỷ phân, giải phóng acid ricinoleic. Acid này có tác
+dụng kích thích niêm mạc ruột non làm tăng nhu động ruột và tăng xuất tiết. Mặt khác,
+khi acid ricinoleic chuyển thành nat ri ricinoleat, thì chất này không bị hấp thu, có tác
+dụng như thuốc tẩy muối. Liều lượng uống 15- 30g.
+Dầu ricin có thể làm dễ dàng hấp thu một số thuốc qua ruột, gây ngộ độc: ví dụ khi dùng
+cùng với một số thuốc chống giun sán.
+Khi điều trị ngộ độc thuốc cấp tính, thường dùng thuốc tẩy muối, không dùng thuốc tẩy
+dầu.
+2.1.3. Thuốc điều hoà chức năng vận động đường tiêu hóa
+Các thuốc loại này có tác dụng phục hồi lại nhu động đường tiêu hóa đã bị “ỵ”, dùng điều
+trị chứng đầy bụng, khó tiêu không do loét.
+2.1.3.1. Thuốc kháng dopamin ngoại biên
+Dom peridon
+Dom peridon là thuốc đối kháng với dopamin chỉ ở ngoại biên vì không qua được hàng rào
+máu – não. Vì vậy có tác dụng:
+- Chống nôn trung ương: ức chế các recep tor dopamin ở vùng nhận cảm hóa học ở sàn não
+thất IV (nằm ngoài hàng rào máu- não).
+- Làm tăng tốc độ đẩy các chất chứa tron g dạ dày xuống ruột do làm giãn vùng đáy dạ
+dày, tăng co hang vị, làm giãn rộng môn vị sau bữa ăn.
+- Tăng trương lực cơ thắt thực quản, chống trào ngược dạ dày - thực quản.
+- Tăng biên độ và tần số của nhu động tá tràng, điều hoà nhu động đường tiêu hóa.
+Chỉ định: điều trị triệu chứng buồn nôn và nôn cấp, đặc biệt ở người bệnh đang điều trị
+bằng thuốc độc tế bào; chướng bụng, khó tiêu sau bữa ăn do thức ăn chậm xuống ruột.
+Chống chỉ định: chảy máu đường tiêu hóa, tắc ruột cơ học, nôn sau khi mổ, trẻ em dưới 1
+tuổi.
+Tác dụng không mong muốn: nhức đầu, tăng prolac tin máu (chảy sữa, rối loạn kinh
+nguyệt, đau tức vú)
+Liều dùng: uống 10- 60 mg/ ngày, trước bữa ăn 15- 30 phút. Không dùng thường xuyên
+hoặc dài ngày.
+Metoc lop ramid
+Khác với dom peridon, metoc lop ramid p hong bế recep tor của dopamin, đối kháng với tác
+dụng của dopamin cả ở trung ương và ngoại biên do thuốc dễ dàng qua được hàng rào
+máu – não.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+ở ngoại biên, metoc lop ramid có tác dụng tương tự như dom peridon. Do có tác dụng cả
+trên trung ương, metoc lop ramid có tác dụng an thần và có thể gây phản ứng loạn trương
+lực cơ cấp tính (co thắt cơ xương và cơ mặt, các cơn vận nhãn), thường xẩy ra ở người
+bệnh là nữ trẻ hoặc người rất già.
+Chỉ định: chống nôn, chống trào ngược dạ dày - thực quản, đầy bụng khó tiêu, chuẩn bị
+chụp X- quang dạ dày hoặc đặt ống thông vào ruột non.
+Chống chỉ định: động kinh, chảy máu đường tiêu hóa, tắc ruột cơ học hoặc thủng ruột.
+Tác dụng không mong muốn: ỉa chảy, buồn ngủ, phản ứng ngoại tháp (loạn trương lực cơ
+cấp), mệt mỏi, yếu cơ.
+Liều dùng: uống 5- 10mg/ lần, ngày 3 lần. Có thể dùng đường tiêm (bắp, tĩnh mạch) hoặc
+truyền tĩnh mạch nếu bệnh nặng.
+2.1.3.2. Thuốc cường phó giao cảm đường tiêu hóa: Cisap rid.
+Cisap rid kích thích giải phóng ACh ở đầu tận cùng của đám rối thần kinh tạng, khôn g
+kích thích trực tiếp recep tor M hoặc phong toả Ch E nên tác dụng chỉ khu trú ở ruột, tạng.
+Khác với metoc lop ramid, cisap rid kích thích vận động tất cả các phần của đường tiêu hóa,
+kể cả thực quản và ruột già.
+Tác dụng: tăng nhu động thực quản, tăng áp lực qua tâm vị. Tăng nhu động dạ dày- tá
+tràng nên làm nhanh rỗng dạ dày. Tăng chuyển vận của dạ dày - ruột non- ruột già.
+Chỉ định: Trào ngược dạ dày- thực quản. Chậm tiêu. Táo bón mạn tính.
+Liều dùng: uống mỗi lần 5- 20mg, ngày 2- 4 lần, trước bữa ăn 30 phút.
+2.1.3.3. Thuốc tác dụng trên hệ en kep halinergic tại ruột
+Các recep tor của hệ en kep halinergic tại ruột có tác dụng điều hòa nhu động: tác dụng
+kích thích trên cơ giảm vận động và tác dụng chống co thắt trên cơ tăng vận động
+Trimebutin
+Kích thích recep tor en kep halinergic ở ruột khi có rối loạn.
+Chỉ định: hội chứng kích thích ruột/ liệt ruột sau mổ. Rối loạn chức năng tiêu hóa: đau
+bụng, chậm tiêu, tiêu chảy/ táo bón.
+Liều dùng: uống mỗi lần 100- 200 mg, ngày 3 lần.
+Racecadot ril
+Chất ức chế en kep halinase có hồi phục tại ruột, làm giảm tiết dịch ruột và điện giải của
+niêm mạc ruột khi bị viêm hoặc độc tố vi khuẩn kích thích. Không có tác dụng trên ruột
+bình thường và không ảnh hưởng đến nhu động ruột nên dùng trong tiêu chảy cấp.
+Liều dùng: uống mỗi lần 100 mg, ngày 3 lần trước các bữa ăn.
+Không dùng cho trẻ em dưới 15 tuổi
+2.2. Thuốc chống co thắt và làm giảm nhu động đường tiêu hóa
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2.2.1. Thuốc chống nôn
+Các thuốc chống nôn được chỉ định trong các chứng nôn do có thai, sau mổ, nhiễm
+khuẩn, nhiễm độc (do nhiễm acid, do u rê máu cao), say tàu xe và do tác dụng phụ của
+thuốc, nhất là các thuốc chống ung thư.
+2.2.1.1. Gây tê ngọn dây cảm giác ở dạ dày : khí CO2, nat ri cit rat, procain
+2.2.1.2. Thuốc ức chế phó giao cảm: at ropin, scopolamin, ben zat ropin
+2.2.1.3. Thuốc kháng histamin H 1: dip hen hydramin, hydroxyzin, cin narizin, cyc lizin,
+promet hazin. Ngoài kháng H1, các thuốc này còn có tác dụng kháng M cholinergic và an
+thần kinh (xin xem bài “Histamin và thuốc kháng histamin H 1”)
+2.2.1.4. Thuốc kháng recep tor D2 (hệ dopaminergic)
+Thuốc có tác dụng ức chế recep tor dopamin ở vùng nhận cảm hóa học ở sàn não thất IV.
+Ngoài ra, thuốc còn ức chế các recep tor D 2 ngoại biên ở đường tiêu hóa.
+- Loại phenot hiazin: clop romazin, perphenazin.
+- Loại butyrop henon: haloperidol, droperidol
+- Dom peridon, metoc lop ramid.
+2.2.1.5. Thuốc kháng serotonin
+Phòng và điều trị buồn nôn, nôn do hóa trị liệu ung thư, do chiếu xạ hoặc sau phẫu thuật.
+Các thuốc:
+- On dan set ron: uống hoặc tiêm tĩnh mạch 8 - 32 mg/ ngày.
+- Graniset ron: uống hoặc tiêm tĩnh mạch 1- 3 mg/ ngày.
+- Dolaset ron mesilat: uống hoặc tiêm tĩnh mạch 12,5 - 200 mg/ ngày.
+2.2.1.6. Các thuốc khác
+- Ben zodiazepin: lorazepam, alprazolam
+- Corticoid: dexamet hason, metylprednisolon. Cơ chế chưa hoàn toàn biết rõ, có một phần
+tác dụng ức chế trung tâm nôn.
+2.2.2. Thuốc chống co thắt cơ trơn đường tiêu hóa
+Do có tác dụng chống co thắt cơ trơn theo các cơ chế khác nhau, các thuốc này được dùng
+điều trị triệu chứng các cơn đau do co thắt đường tiêu hóa, đường mật và cả đường sinh
+dục, tiết niệu.
+2.2.2.1. Thuốc huỷ phó giao cảm
+At ropin sulfat:
+Huỷ phó giao cảm cả trung ương và ngoại biên (xin xem bài “Thuốc tác dụng trên hệ thần
+kinh thực vật”)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hyoscin N- butylbromid
+Vì mang amin bậc 4 nên không vào được thần kinh trung ương, chỉ có tác dụng huỷ phó
+giao cảm ngoại biên.
+Tác dụng không mong muốn: khô miệng, mạch nhanh, bí đái, táo bón, rối loạn điều tiết
+mắt.
+Chống chỉ định: glô côm góc đóng, phì đại tuyến tiền liệt, nhược cơ, tắc liệt ruột, hẹp môn
+vị, rối loạn chuyển hóa porphyrin.
+Liều dùng: mỗi lần uống 10- 20 mg, ngày 3- 4 lần.
+2.2.2.2. Thuốc chống co thắt cơ trơn trực tiếp
+Papaverin hydroc lorid
+Papaverin là một alcaloid trong nhựa khô của quả cây thuốc phiện, không có tác dụng
+giảm đau, gây ngủ giống morphin. Tác dụng chủ yếu của papaverin là làm giãn cơ trơn
+đường tiêu hóa, đường mật và đường tiết niệu.
+Chống chỉ định: quá mẫn với thuốc, bloc nhĩ - thất hoàn toàn, mang thai (có thể gây độc
+cho thai).
+Tác dụng không mong muốn: đỏ bừng mặt, nhịp tim nhanh, chóng mặt, nhức đầu , ngủ gà,
+rối loạn tiêu hóa, viêm gan.
+Liều dùng: uống hoặc tiêm (bắp, tĩnh mạch) mỗi lần 30 - 100mg, ngày 2- 3 lần.
+Alverin cit rat
+Là thuốc chống co thắt, tác dụng trực tiếp lên cơ trơn đường tiêu hóa và tử cung. So với
+papaverin, tác dụng mạnh hơn 3 lần n hưng độc tính kém 3 lần.
+Chống chỉ định: tắc nghĩn ruột hoặc liệt ruột, mất trương lực ruột kết.
+Tác dụng không mong muốn: buồn nôn, đau đầu, chóng mặt, phản ứng dị ứng.
+Liều dùng: mỗi lần uống 60- 120 mg, ngày 1-3 lần.
+Các thuốc khác: mebeverin, dicyc loverin, phloroglucinol, drotaverin.
+2.3. Thuốc chống tiêu chảy
+Trong điều trị tiêu chảy, ngoài việc điều trị nguyên nhân, vấn đề ưu tiên trong mọi trường
+hợp là đánh giá và xử lý đúng những rối loạn nước và điện giải. Các thuốc làm giảm triệu
+chứng (hấp phụ, bao phủ niêm mạc, giảm tiết dịch, giảm nhu động ruột) có thể dùng trong
+một số trường hợp tiêu chảy ở người lớn, nhưng không nên dùng ở trẻ em vì chúng không
+làm giảm được sự mất dịch và điện giải, mà còn có thể gây ra nhiều tác dụng có hại.
+2.3.1. Thuốc uống bù nước và điện giải (ORS, Oresol)
+2.3.1.1. Thành phần và cơ chế tác dụng
+- Thành phần một gói bột (ORS của Unicef)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Nat ri clorid: 3,5g;
+Kali clorid: 1,5g;
+Nat ribicarbonat: 2,5g;
+Glucose: 20,0g.
+Nước để hòa tan: 1gói/ 1 lít.
+- Cơ chế tác dụng: sự hấp thu của nat ri và nước ở ruột được tăng cường bởi glucose (hoặc
+carbohydrat khác). Glucose hấp thu tích cực ở ruột kéo theo hấp thu nat ri (hệ thống đồng
+vận chuyển glucose- nat ri ở ruột non).
+Bù kali trong tiêu chảy cấp đặc biệt quan trọng ở trẻ em, vì trẻ mất kali trong phân cao
+hơn người lớn.
+Bicarbonat (hoặc cit rat) có tác dụng khắc phục tình trạng nhiễm toan chuyển hóa trong
+tiêu chảy.
+2.3.1.2. Chỉ định: phòng và điều trị mất nước và điện giải mức độ nhẹ và vừa.
+2.3.1.3. Chống chỉ định:
+Giảm niệu hoặc vô niệu do giảm chức năng thận. Mất nước nặng (phải truyền tĩnh mạch
+dung dịch Rin ger lac tat). Nôn nhiều và kéo dài, tắc ruột, liệt ruột.
+2.3.1.4. Tác dụng không mong muốn:
+Nôn nhẹ, tăng nat ri máu, suy tim do bù nước quá mức.
+2.3.1.5. Liều dùng:
+- Mất nước nhẹ: uống 50 ml/ kg trong 4- 6 giờ đầu.
+- Mất nước vừa: uống 100 ml/ kg trong 4 - 6 giờ đầu. Sau đó điều chỉnh theo mức độ khát
+và đáp ứng với điều trị.
+Cần tiếp tục cho trẻ bú mẹ hoặc ăn uống bình thường. Có thể cho uống nước trắng giữa
+các lần uống ORS để tránh tăng nat ri máu.
+2.3.2. Các chất hấp phụ, bao phủ niêm mạc ruột
+Do có trọng lượng phân tử cao, cấu trúc phiến mỏng, tính chất dẻo dai nên các chất này
+có khả năng gắn với protein của niêm mạc đường tiêu hóa, tạo thành một lớp mỏng bao
+phủ, bảo vệ niêm mạc.
+- Atapulgit: ngoài tác dụng tạo màng bảo vệ niêm mạc ruột, thuốc còn hấp phụ các độc tố
+của vi khuẩn, các khí trong ruột, có tác dụng cầm máu tại chỗ .
+Liều dùng: gói bột 3g atapulgit hoạt hóa, uống 2 - 3 gói/ ngày.
+Không dùng trong điều trị tiêu chảy cấp ở trẻ em.
+- Smec ta: gói bột 3g, 2- 3 gói/ ngày, uống xa bữa ăn.
+2.3.3. Các chất làm giảm tiết dịch, giảm nhu động ruột
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Loperamid
+Tác dụng: loperamid là opiat tổng hợp nhưng có rất ít tác dụng trên thần kinh trung ương.
+Loperamid làm giảm nhu động ruột, kéo dài thời gian vận chuyển qua ruột, giảm tiết dịch
+đường tiêu hóa, tăng vận chuyển nước và chất điện giải từ lòng ruột vào máu, tăng trương
+lực cơ thắt hậu môn.
+Chỉ định: điều trị triệu chứng tiêu chảy cấp không có biến chứng hoặc ti êu chảy mạn ở
+người lớn.
+Chống chỉ định: mẫn cảm với thuốc, khi cần tránh ức chế nhu động ruột, viêm đại tràng
+nặng, tổn thương gan, hội chứng lỹ, trướng bụng.
+Tác dụng không mong muốn: buồn nôn, táo bón, đau bụng, trướng bụng, chóng mặt, nhức
+đầu, dị ứng.
+Liều dùng:
+- Người lớn: lúc đầu uống 4 mg, sau đó mỗi lần đi lỏng uống 2 mg cho tới khi ngừng tiêu
+chảy. Liều tối đa: 16 mg/ ngày. Không dùng quá 5 ngày trong tiêu chảy cấp.
+- Trẻ em: không dùng thường qui trong tiêu chảy cấp. Chỉ dùng cho trẻ em trên 6 tuổi khi
+thật cần thiết. Mỗi lần uống 2 mg, ngày 2 - 3 lần tuỵ theo tuổi.
+Ngừng thuốc nếu thấy không có kết quả sau 48 giờ.
+2.3.4. Vi khuẩn và nấm
+2.3.4.1. Lac tobacillus acidop hilus
+Vi khuẩn sản xuất acid lac tic và 2 chất diệt khuẩn: lac tocidin và acidop hil lin. Có khả
+năng tổng hợp vitamin nhóm B.
+Bình thường, các vi khuẩn cộng sinh trong lòng ruột có sự cân bằng giữa vi khuẩn huỷ
+sac charose và các vi khuẩn huỷ protein. Một số chất tấn công vào vi khuẩn huỷ
+sac charose như rượu, stress, nhiễm khuẩn, kháng sin h đã gây ra sự mất cân bằng, làm
+tăng vi khuẩn huỷ protein, dẫn đến rối loạn tiêu hóa (tiêu chảy, táo bón, trướng bụng)
+Lac tobacillus acidop hilus có tác dụng lập lại thăng bằng vi khuẩn cộng sinh trong ruột,
+kích thích vi khuẩn huỷ sac charose phát triển, k ích thích miễn dịch không đặc hiệu của
+niêm mạc ruột (tăng tổng hợp Ig A) và diệt khuẩn.
+Chỉ định: các tiêu chảy do loạn khuẩn ở ruột
+Chế phẩm: An tibio: gói bột 1g chứa 100 triệu vi khuẩn sống.
+Người lớn uống mỗi lần 1gói, ngày 3 lần. Trẻ em uống mõi ngày 1- 2 gói.
+2.3.4.2. Sac charomyces boulardii
+Là nấm men có tác dụng tổng hợp vitamin nhóm B, kìm khuẩn, diệt Can dida albicans,
+kích thích miễn dịch không đặc hiệu.
+Chỉ định: dự phòng và điều trị tiêu chảy do dùng kháng sinh, tiêu chảy cấp.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Vì nấm men là các tế bào sống nên không đươc trộn vào nước hay thức ăn nóng (trên
+500C), quá lạnh hoặc có rượu. Không dùng cùng với các thuốc chống nấm.
+Chế phẩm: Ultra- levure, viên nang chứa Sac charomyces boulardii đông khô 56,5mg.
+Mỗi lần uống 1 viên, ngày 4 lần.
+2.4. Thuốc lợi mật và thuốc thông mật
+2.4.1. Thuốc lợi mật
+Phân biệt hai loại:
+- Thuốc lợi mật nước (sec retin, thuốc cường phó giao cảm) làm tăng bài tiết nước và điện
+giải của tế bào biểu mô đường mật, gây tăng tiết mật loãng.
+- Thuốc lợi mật thực thụ kích thích tế bào gan tăng bài tiết mật giống như mật sinh lý.
+Tuỵ theo nguồn gốc, có:
+2.4.1.1. Thuốc lợi mật có nguồn gốc động vật
+Đó là muối mật, các acid mật, hoặc mật toàn phần đã loại bỏ sắc tố và cholesterol
+Chế phẩm: Bilifluine, viên nang 0,1g, uống 2 viên trước mỗi bữa ăn trưa và tối.
+2.4.1.2. Thuốc lợi mật có nguồn gốc thực vật : nghệ, ac tiso, boldo.
+Thường dùng chế phẩm phối hợp nhiều cây thuốc
+2.4.1.3. Thuốc lợi mật tổng hợp
+- Cyc lovalon: viên bao đường 50 mg, uống 6 - 12 viên/ ngày
+- A né thol trit hion: dạng thuốc hạt có 0,0125g/ hạt. Mỗi ngày uống 3 - 6 hạt.
+Chỉ định chung của các thuốc lợi mật
+- Điều trị triệu chứng các rối loạn tiêu hóa: trướng bụng, đầy hơi, ợ hơi, buồn nôn
+- Điều trị phụ trợ chống táo bón
+Chống chỉ định: tắc mật và suy gan nặng
+2.4.2. Thuốc thông mật
+Là những thuốc gây co thắt túi mật, đồng thời làm giãn cơ tròn Oddi. Mật hoàn toàn thoát
+khỏi túi mật.
+Về mặt sinh lý, tác dụng này phụ thuộc vào cholecystokinin pan creatozinin (CCK - PZ)
+do tá tràng tiết ra khi lipid và pep tid từ dạ dày trà n xuống. Hầu như các thuốc có tác dụng
+thông mật là do làm bài tiết CCK- PZ.
+Chỉ định: các rối loạn tiêu hóa như đầy bụng, chậm tiêu, ợ hơi, buồn nôn
+Chống chỉ định: sỏi đường mật, có tiền sử amip.
+Các thuốc:
+Sorbitol gói bột 5g. Mỗi lần pha 1 gói trong nư ớc, uống trước bữa ăn.
+Magnesi sulfat: uống 2- 5g
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Câu hỏi tự lượng giá
+1. Trình bày cơ chế tác dụng, tác dụng không mong muốn và áp dụng điều trị của
+thuốc kháng acid magnesi hydroxyd và nhôm hydroxyd.
+2. Trình bày cơ chế tác dụng, tác dụng không mong mu ốn và áp dụng điều trị của
+thuốc kháng histamin H 2 và thuốc ức chế H+/ K+- AT Pase.
+3. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của các muối
+bismuth.
+4. Vĩ sơ đồ để phân tích vị trí, cơ chế tác dụng và nêu chỉ định điều trị của các thuốc
+gây nôn và chống nôn.
+5. Trình bày về phân loại và cơ chế tác dụng của các thuốc nhuận tràng và thuốc tẩy
+thường dùng.
+6. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của bisacodyl
+và magnesi sulfat.
+7. Nêu các nhóm thuốc điều hòa chức năng vận đ ộng đường tiêu hóa. Mỗi nhóm kể
+tên 1- 2 thuốc đại diện.
+8. Trình bày cơ chế tác dụng, tác dụng, tác dụng không mong muốn và áp dụng điều
+trị của dom peridon và metoc lop ramid.
+9. Trình bày cơ chế tác dụng, tác dụng, tác dụng không mong muốn và áp dụng điều
+trị của hyoscin N- butylbromid, papaverin và alverin cit rat.
+10. Trình bày tác dụng, áp dụng điều trị của ORS.
+11. Trình bày tác dụng, áp dụng điều trị của các thuốc chống tiêu chảy: atapulgit,
+loperamid, vi khuẩn lac tobacillus acidop hilus, nấm sac charomyces boulardii.
+Phân biệt tác dụng của thuốc lợi mật và thuốc thông mật, áp dụng điều trị của các thuốc
+này.

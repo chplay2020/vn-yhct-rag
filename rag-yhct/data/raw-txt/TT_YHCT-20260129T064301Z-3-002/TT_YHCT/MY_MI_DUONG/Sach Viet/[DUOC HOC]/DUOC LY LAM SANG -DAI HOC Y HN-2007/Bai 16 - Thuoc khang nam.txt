@@ -1,0 +1,185 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 16: Thuốc kháng nấm
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được cơ chế tác dụng, tác dụng và độc tính của nhóm thuốc chống nấm toàn
+thân: amphotericin B, griseofulvin.
+2. Trình bày được cơ chế tác dụng, dược động học  và độc tính của 3 thuốc trong nhóm azol.
+Thành công của kháng sinh chống vi khuẩn và virus đã dẫn đến sự tăng đáng kể tỷ lệ nhiễm nấm.
+Nhiễm nấm thường được chia làm 2 loại, nhiễm nấm toàn thân và nhiễm nấm ngoài da, niêm
+mạc. Các thuốc chống nấm vì thế cũng được chia làm 2 loại, toàn thân và tại chỗ. Nhưng thực ra
+thuốc toàn thân cũng có tác dụng tại chỗ và ngược lại.
+1. Thuốc chống nấm toàn thân
+1.1. Amphotericin B
+1.1.1. Đặc điểm: Amphotericin được tìm ra từ năm 1956 (Gold) là một trong số 200 chất thu ộc
+họ kháng sinh polyen macrolid, không tan trong nước, vì vậy thuốc tiêm dùng dưới dạng dịch
+treo.
+1.1.2. Tác dụng và cơ chế
+Tác dụng trên các loại Candida albicans và Cryptococcus neoformans, Blastomyces dermatitidis,
+Histoplasma capsulatum, Coccidioides  immitis, Aspergillus.
+Amphotericin B gắn vào ergosterol của vách tế bào nấm, tạo nên các ống dẫn làm rò rỉ các ion và
+các phân tử nhỏ từ trong tế bào nấm ra ngoài, gây chết  tế bào. Sterol của vách tế bào nấm là
+ergosterol, còn sterol chính của vách vi kh uẩn và tế bào người lại là cholesterol, vì vậy
+amphotericin B không có tác dụng diệt khuẩn và không độc với người.
+1.1.3. Dược động học
+Không hấp thu qua đường uống. Gắn vào protein huyết tương tới 95%, chủ yếu vào -lipoprotein.
+Chỉ dùng đường truyền tĩnh mạch, thấm nhiều vào các mô gan, lách phổi, thận. Nồng độ trong
+dịch bao khớp bằng khoảng 2/3 nồng độ huyết tương, nhưng chỉ 2 -3% vào được dịch não tuỷ.
+Thời gian bán thải khoảng 15 ngày. Thải trừ chậm qua thận trong vài ngày.
+1.1.4. Độc tính
+- Độc tính liên quan đến việc truyền thuốc: run, sốt, nôn, nhức đầu, hạ huyết áp. Cần giảm tốc độ
+truyền hoặc giảm liều. Có thể làm test bằng tiêm 1mg vào tĩnh mạch. Dùng thuốc hạ sốt, kháng
+histamin hoặc corticoid trước khi truyền.
+- Độc tính muộn:
+Tổn thương ống thận, tăng urê-huyết (80%), toan huyết, tăng thải K +, Mg++. Truyền dung dịch
+NaCl 0,9% có thể làm giảm độc tính cho thận.
+Ngoài ra có thể thấy bất thường test chức phận gan, thiếu máu do giảm sản xuất erythropoietin
+của thận.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+1.1.5. Chế phẩm và liều lượng
+- Amphoterincin B (Fungizon) tiêm, truyền tĩnh mạch. Lọ 50 mg bột đông khô để pha thành dịch
+treo trong glucose 5%, truyền 0,5-0,6mg/kg trong 4giờ.
+- Viên nén 100 mg. Ngậm (nấm miệng) hoặc uống (nấm ruột) 1 - 4 viên/ ngày.
+- Kem bôi 3%.
+1.2. Flucytosin
+1.2.1. Đặc điểm
+Flucytosin (5-FC) được tìm ra năm 1957 trong khi nghiên cứu các thuốc chống ung thư (gần
+giống 5-FU). Flucytosin dễ tan trong nước, phổ kháng nấm hẹp hơn amphotericin B và không có
+tác dụng chống ung thư.
+1.2.2. Tác dụng và cơ chế
+Chỉ có tác dụng trên Cryptococcus neoformans và vài loại candida. Vì có tác dụng hiệp đồng với
+thuốc chống nấm khác nên thường được dùng phối hợp để tránh kháng thuốc.
+Flucytosin được nhập vào tế bào nấm nhờ enzym cytosin permease. Trong tế bào, 5 -FC được
+chuyển thành 5-FU (5 fluorouracil), sau đó thành 5 fluorodeoxyuridin monophosphat (F -dUMP)
+ức chế tổng hợp DNA, và thành fluorouridin tri phosphat (FUTP) ức chế tổng hợp RNA. Tế bào
+người và tế bào động vật có vú không chuyển được 5 -FC thành 5-FU, vì thế 5-FC có tác dụng
+chọn lọc trên nấm.
+1.2.3. Dược động học
+Hấp thu dễ dàng qua đường tiêu hóa (>90%), đạt pic huyết tương  sau 1 -2giờ, ít gắn vào protein
+huyết tương, thấm dễ vào các dịch trong cơ thể, vào dịch não tuỷ với nồng độ bằng 65 -90% nồng
+độ huyết tương. Thải qua thận 80% dưới dạng không chuyển hoá. Thời gian bán thải là 3 -6giờ, ở
+người suy thận, có thể kéo dài tới 200 giờ.
+1.2.4. Độc tính
+Có khả năng là vi khuẩn ruột đã chuyển hoá flucytosin thành hợp chất độc, gây ức chế tuỷ xương,
+dẫn đến thiếu máu, giảm bạch cầu, giảm tiểu cầu, rối loạn chức năng gan (5%) rối loạn tiêu hoá
+(nôn, tiêu chảy).
+1.2.5. Chế phẩm
+Ancobon: viêm nang 250-500mg. Uống 100-150mg/kg/ngày chia làm 4lần. Dùng phối hợp với
+amphotericin B (0,3mg/kg/ngày) để chữa nấm Candida.
+Không dùng dạng tiêm.
+1.3. Nhóm azol: Imidazol và Triazol
+1.3.1. Đặc điểm
+Imidazol và triazol đều thuộc nhóm azol chống nấm, có cùng cơ chế và cùng phổ tác dụng.
+Triazol dùng đường toàn thân chậm bị chuyển hoá và ít tác dụng trên tổng  hợp sterol của người
+hơn là imidazol. Vì vậy, các dẫn xuất mới đều phần lớn là từ triazol chứ không phải từ imidazol.
+Việc tìm ra azol (1980) là một bước tiến quan trọng trong nghiên cứu thuốc chống nấm.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+X = C: Imidazol: ketoconazol, miconazol,
+                                           clotrrimazol
+X = N: Triazol; itraconazol, fluconazol
+Nhân triazol
+1.3.2. Tác dụng và cơ chế
+Phổ tác dụng rộng, gồm: các loại Candida, Cryptococcus neoformans, Blastomyces dermatitidis,
+các bệnh nấm da.
+Các azol ức chế enzym cytochrom P 450 của nấm nên làm giảm tổng hợp ergosterol của vách tế
+bào nấm, kìm hãm sự lớn lên và phát triển của nấm.
+1.3.3. Dược động học, độc tính và áp dụng
+Ba thuốc thường dùng của nhóm azol là:
+1.3.3.1. Ketoconazol (Nizoral)
+- Uống dễ hấp thu, nhưng cần môi trường acid (nếu dùng cùng kháng H 2 sĩ làm giảm hấp thu
+mạnh). Gắn vào protein huyết tương 84%, vào hồng cầu 15%, còn 1% ở dạng tự do. Thời gian
+bán thải tăng theo liều, uống 800mg thì t/2 = 7 -8giờ. Vào dịch não tuỷ bằng 1% liều dùng.
+- Độc tính: Kém fluconazol và itraconazol là ức chế cả cytocrom P450 của động vật có vú nên
+dẫn đến 2 hậu quả:
+. Làm cản trở sinh tổng hợp hormon thượng thận, sinh dục, ở đàn ông gây chứng  vú to, giảm tình
+dục; ở phụ nữ gây loạn kinh nguyệt, vô sinh.
+. Làm tăng độc tính của thuốc kết hợp cùng chuyển hoá qua P450.
+Ngoài ra còn gặp buồn nôn, chán ăn (20%), dị ứng (4%) tăng transferase (5 -10%).
+ Vì thế không dùng liều cao.
+- Chỉ địnhvà liều dùng:
+Viên 200mg, kem bôi 2%.
+Candida âm đạo: uống 400mg/ngày   5 ngày
+Candida thực quản: uống 400mg/ngày   10-14 ngày
+Histoplasmosis, blastomycosis: 400mg/ngày   6-12 tháng.
+Không dùng khi có thai và đang nuôi con bằng sữa mẹ.
+1.3.3.2. Itraconazol (Sporanox, Sporal)
+Phổ rộng, ít độc hơn ketoconazol vì chỉ ức chế cytochro m P450 đặc hiệu của nấm.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Hấp thu qua đường uống khoảng 30%, hấp thu tối đa ngay sau khi ăn. Pic huyết tương sau 3 -4
+giờ, t/2 khoảng 1-1,5 ngày. Gắn vào protein huyết tương tới 99,8%. Gắn vào các mô sừng (da,
+móng) với nồng độ cao hơn huyết tương 4lần và giữ rất lâu từ vài tuần đến vài tháng sau ngừng
+điều trị. Nồng độ trong mô mềm (phổi, thận, gan, lách) cũng cao hơn huyết tương 2 -3 lần.
+- Chỉ định và liều lượng:
+Viên nang 100mg, uống ngay sau bữa ăn.
+. Candida âm đạo: Uống 1 ngày duy nhất 400mg chia 2 lầ n, hoặc 200mg/ngày3 ngày.
+. Nấm da, lang ben: uống 200mg/ngày   7 ngày.
+. Candida miệng: 100mg/ngày   15 ngày.
+. Nấm móng: uống 2 đợt cách nhau 3 tuần. Mỗi đợt 7 ngày. Mỗi ngày uống 400mg chia 2 lần.
+1.3.3.3. Fluconazol (Flunaz, Diflucan, Triflucan)
+Có gắn thêm 2 nguyên tử Fluo.
+- Uống hấp thu hoàn toàn, không chịu ảnh hưởng của thức ăn hay acid dịch vị. Rất tan trong nước
+nên có thể tiêm tĩnh mạch. Nồng độ trong huyết tương của đường uống gần bằng đường tiêm tĩnh
+mạch. Gắn vào protein huyết tương 11 -12%, t/2 = 25 giờ, khoảng 90% thải qua thận dưới dạng
+không đổi. Thấm vào mọi dịch của cơ thể, nồng độ trong dịch não tuỷ đạt 50 - 90% nồng độ
+huyết tương.
+- Thuốc dễ dung nạp. Có thể gặp phản ứng dị ứng.
+- Chỉ định và cách dùng:
+Viên nang 50, 100, 150 mg. Liều 100 - 400mg/ngày.
+Lọ 200 - 400 ml, chưa 2mg/ml.
+Candida niêm mạc (miệng, âm đạo), nấm da, nấm móng, nấm Cryptococcosis (màng não, phổi,
+da), nhiễm nấm trong AIDS (làm tăng sinh khả dụng của Zidovudin khoảng 20% vì làm giảm
+chuyển hóa Zidovudin).
+Thời gian điều trị tuỵ từng loại nấm, tương tự itraconazol.
+Không dùng cho phụ nữ có thai hoặc đang cho con bú.
+Không dùng cho trẻ dưới 16 tuổi vì là thuốc mới, chưa đủ số liệu theo dõi.
+1.4. Griseofulvin
+1.4.1. Đặc điểm
+Kháng sinh lấy từ nấm Penicillium griseof ulvum, không tan trong nước, vững bền với nhiệt.
+1.4.2. Tác dụng và cơ chế
+Tác dụng trên nấm da, biểu bì, tóc, móng: Microsporum, Epidermophyton và Trichophyton.
+Không có tác dụng trên vi khuẩn.
+Griseofulvin gắn vào protein tiểu quản, làm gẫy thoi phân bào  nên kìm hãm sự phát triển của
+nấm.
+1.4.3. Dược động học
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hấp thu qua tiêu hóa thay đổi theo dạng thuốc và thức ăn.
+Chế phẩm siêu vi tinh thể (ultramicrocristalline preparation) có sinh khả dụng gấp rưìi loại bột vi
+tỉnh thể. Thức ăn có mì sĩ dễ hấp thu vì  thuốc không tan trong nước. Đạt pic sau 4 giờ và t/2 = 24
+giờ. Thuốc tích luü trong tế bào tiền thân của keratin làm nó kháng lại sự xâm nhập của nấm, do
+đó tóc, móng mới mọc sĩ không bị bệnh.
+1.4.4. Độc tính
+Thường nhẹ: nhức đầu (15%), viêm thần kinh, ng ủ gà, không làm được việc khéo léo, mệt mỏi,
+nhìn mờ, rối loạn tiêu hóa...
+1.4.5. Chế phẩm, liều dùng
+Griseofulvin (Fulvicin, Grisactin) viên nang 125 -250 mg; viên nén 250-500mg.
+Liều trẻ em 10mg/kg; người lớn 0,5 - 1,0 g.
+Thời gian điều trị ít nhất là 1 tháng cho bệnh nấm tóc và 6-9 tháng cho bệnh nấm móng.
+2. Thuốc chống nấm tại chỗ
+2.1. Nystatin
+Nystatin là kháng sinh macrolid, tương tự amphotericin B cả về cấu trúc và cơ chế tác dụng,
+nhưng độc hơn nên chỉ để dùng ngoài vì không hấp thu qua da hoặc âm đ ạo.
+Tác dụng điều trị các loại nấm Candida ở niêm mạng và kĩ da.
+Nystatin (Mycostatin, Nilstrat), dạng pomat, kem bôi, thuốc bột, dạng phun, chứa 100.000 đơn
+vị/g. Bôi 2 - 3 lần/ngày   7 ngày.
+2.2. Clotrimazol và miconazol
+Thuộc nhóm azol dùng ngoài. Bôi ngoài da chỉ hấp thu 0,5%; bôi âm đạo, hấp thu        3 - 10%.
+Dạng thuốc: Kem 1%, thuốc rửa, dung dịch (Lotrimin, Mycelex), viên nén đặt âm đạo 100 - 500
+mg, thuốc phun 2%.
+Nấm da: bôi 2 lần/ngày.
+Nấm âm đạo: đặt viên 500mg/ngày; kem 5g/ngày, dùng trong 7 - 14 ngày.
+Nấm miệng: viên ngậm 10mg   5 lần/ngày.
+Câu hỏi tự lượng giá
+1. Trình bày cơ chế tác dụng và độc tính của amphotericin B và griseofulvin.
+So sánh ketoconazol, itraconazol và fluconazol về dược động học, độc tính và áp dụng điều trị.

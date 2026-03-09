@@ -3,9 +3,9 @@ project:
 
 ingest:
   sources_manifest: data/sources.yaml
-  input_dir: data/raw
+  input_dir: data/raw-txt-clean
   output_jsonl: data/ingest/raw_passages.jsonl
-  allowed_ext: [".pdf", ".docx", ".png", ".jpg", ".jpeg"]
+  allowed_ext: [".txt"]
   strategy_pdf: hi_res
   min_text_len_pdf: 30
   min_text_len_docx: 30
@@ -48,3 +48,11 @@ embed:
   model: bge-m3
   embed_batch: 4
   upsert_batch: 64
+
+parent_child:
+  enabled: true
+  topk_child: 20
+  topk_parent: 4
+  window: 1
+  token_budget: 3500
+  parents_path: data/parents/parents_v2_full.jsonl

@@ -1,0 +1,296 @@
+Bài 19
+KỸ THUẬT TRỒNG CÂY THUỐC
+MỤC TIÊU
+1. Trình bày được các yếu tố ảnh hưởng cần quan tâm trong kĩ thuật trồng cây thuốc.
+2. Trinh bày được kỹ thuật chung trong việc trồng cây thuốc.
+3. Vận dụng được những kiến thức đã học vào thực tế trong hoại động nghề nghiệp.
+NỘI DUNG
+Cây thuốc cũng như nhiều loài thực vật khác, quá trình sinh trưởng và phát triển của chúng phụ thuộc rất nhiều yếu tố
+như: Giông, khí hậu, thời tiết, thổ nhưỡng, điều kiện chăm sóc, phân bón và phòng chống sâu bệnh... Mặt khác, cây thuốc có
+những đặc điểm khác nhau về bộ phận dùng làm thuốc nên việc gieo trồng đòi hỏi những kĩ thuật riêng cho từng loại cây mới
+đạt năng suất và chất lượng cao.
+Trong phạm vi chương trình, chúng ta chỉ để cập đến những yếu tố ảnh hưởng chính và những kĩ thuật chung trong trồng
+cây thuốc.
+1. Các yếu tố chính ảnh hưởng đến công việc trồng cây thuốc
+1.1.
+Khí hậu - Thời tiết
+1.1.1. Sinh thái và thời vụ
+Cây thuốc có những yêu cầu về điều kiện khí hậu, thời tiết nhất định để sinh trưởng và phát triển. Có những loại cây quen
+sống những vùng có khí hậu lạnh như: Tam thất, Hoàng liên, Sa sâm...; ngược lại, có những loại cây ưa sống nơi ấm áp, như:
+Ngưu tất, Địa hoàng, Hoài sơn...
+Ngoài ra, việc gieo trồng cây thuốc còn phải chọn thời vụ thích hợp với từng vùng miền, căn cứ vào điều kiện khí hậu tại
+nơi đó, để nhằm mục đích là cây dễ mọc, thời gian phát triển ngắn, chóng thu hoạch và năng suất cao..
+Thí dụ: ở vùng đồng bằng và trung du nước ta thường có khí hậu nóng thì nên trồng vào mùa thu, khi thời tiết mát mẻ; ở
+miền núi cao thường có khí hậu mát quanh năm thì nên trồng vào đầu mùa xuân.
+1.1.2. Ánh sáng
+Ánh sáng rất quan trọng đối với đời sống thực vật nói chung và cây thuốc nói riêng. Thiếu ánh sáng thì cây không thể mọc
+được và kém phát triển, lá mỏng, khó hoặc không ra hoa và cho quả. Tuy nhiên nếu ánh sáng quá nhiều so với nhu cầu của cây
+cũng không tốt đối với nhiều loại cây. Cây bị nắng dọi quá nhiều sẽ cằn lại, lá dày, hoa dễ biến sắc...
+Như vậy, ánh sáng rất cần cho cây thuốc nhưng nhu cầu về ánh sáng của từng loại cây có khác nhau.
+Thí dụ: Hoắc hương cần ít ánh sáng nên phải trồng chỗ râm mát; Sinh địa ưa nắng thì cần trồng nơi nhiều ánh sáng...
+1.1.3. Nhiệt độ
+Nhiệt độ quá cao hay quá thấp so với yêu cầu cũng có ảnh hưởng không tốt đến việc gieo trồng và sự phát triển của cây
+thuốc. Nhiệt độ quá thấp (rét) thì hạt gieo khó mọc hay mọc chậm; nhiệt độ quá cao thì cây sẽ bị khô héo. Vì vậy, trong quá trình
+gieo trồng cây thuốc, cần có biện pháp chủ động nhằm ổn định nhiệt độ thích hợp bằng cách che vườn ươm, phủ rơm rạ, tưới
+nước...
+Nói chung, nhiệt độ thích hợp cho đa số cây thuốc là khoảng 18 – 28o C.
+1.1.4. Độ ẩm
+Độ ẩm không khí và đất trồng cũng có ảnh hưởng nhiều tới sự phát triển của các cây thuốc. Độ ẩm quá thấp, cây dễ khô
+cằn; độ ẩm quá cao thì dễ gây thối rễ...
+Nhu cầu về độ ẩm không chỉ phụ thuộc vào từng loại cây mà còn phụ thuộc vào từng thời kì phát triển của cây. Thông
+thường, lúc mới gieo hạt và cây còn non thì cẩn giữ độ ẩm thường xuyên. Nhưng khi cây đã ra hoa, kết hạt thì nhu cầu về độ ẩm
+
+
+lại thấp. Nếu độ ẩm quá cao thì hoa nở ít, hạt lép..., đa số các cây thuốc ưa ẩm lại rất sợ úng ngập.
+Thí dụ: Bạc hà nếu bị ngập nước thì cây sẽ chết; Địa hoàng, Bạch chỉ nếu bị úng sẽ bị thối củ.
+Thông thường các cây thuốc cần có độ ẩm đều trong quá trình sinh trưởng, lượng mưa trung bình khoảng 1500mm/năm
+là thích hợp nhất.
+1.2.
+Chọn đất - luân canh
+Phần nhiều cây thuốc ưa đất thịt pha cát, tơi, xốp, nhiều mùn. Những nơi đất cát sỏi rời rạc hay nhiều sét dính và đọng
+nước đều không thể trồng được cây thuốc. Đất chua phèn cũng không thích hợp với cây thuốc.
+Việc chọn đất trồng cây thuốc phải gắn liền với việc luân canh. Luân canh có tác dụng là tận dụng được các chất dinh
+dưỡng có trong đất hay các cây trồng có thể hỗ trợ nhau trong quá trình sống.
+Thí dụ: Ruộng cấy một vụ lúa sau đó trồng Bạch chỉ sẽ làm cho đất đồng đều, cỏ dại ít, đỡ sâu bệnh.
+Luân canh có nhiều cách, thí dụ: trồng xen cây lấy củ với cây lấy lá, như Bạch chỉ - Ích mẫu; Cây có rễ ăn nông với cây có rễ
+ăn sâu, như: Ngưu tất- Địa liền; hoặc luân canh cây thuốc-cây lương thực...
+Thông thường, cây thuốc trồng luân canh với cây lương thực cho sản lượng cao hơn là trồng chuyên canh.
+1.3.
+Làm đất
+Đất trồng cây thuốc phải được cày ải, phơi và cày bừa kĩ nhiều lần. Nếu đất trồng cây thuốc có rễ ăn sâu thì phải cày sâu
+20-30cm, bừa nhiều lần, làm cho đất tơi xốp. Việc làm đất trồng cây thuốc phải đảm bảo sao cho đất giữ được độ ẩm thích hợp
+và kết hợp được với công tác phòng trừ sâu bệnh. Vì vậy, sau khi cày, cần bừa ngay; nếu có điều kiện thì nên trộn thuốc phòng
+trừ sâu bệnh vào đất ngay trong khâu làm đất. Cần phải làm sạch cỏ rồi đốt thành tro bón cho đất và loại bỏ được các mầm sâu
+bệnh.
+Đối với vườn ươm gieo hạt, phải làm đất thật nhỏ, mịn và chú ý khi dùng các thuốc trừ sâu trộn vào đất phải bảo đảm cho
+sự phát triển của cây con còn non.
+Sau khi làm đất xong, phải đánh luống để tiện cho việc tưới tiêu và chăm sóc cây. Luống được đánh cao hay thấp, rộng
+hay hẹp là tùy thuộc vào từng loại cây trồng.
+Thí dụ:
+-
+Với cây trồng để lấy hoa, lá như Bạc hà, Cúc hoa hay những cây ưa ẩm như Mần tưới, Mã đề ... thì luống không cần
+cao.
+Với những cây lấy củ, lấy rễ như: Ngưu tất, Sa sâm, Bạch chỉ... hay những cây mà thời vụ qua mùa mưa thì lại cần đánh
+luống cao. Khi lên luống, cần kết hợp bón lót ngay.
+1.4. Bón phân
+Cũng như các loại cây trồng khác, cây thuốc cũng cần phải được bón phân để bổ sung nguồn dinh dưỡng cho cây trong
+quá trình phát triển mới có được năng suất cao.
+1.4.1. Các loại phân thường dùng bón cho cây thuốc
+•
+Phân hữu cơ: Là loại phân thích hợp nhất vì có nhiều ưu điểm. Phân hữu cơ có nhiều nguồn gốc khác nhau như: Phân
+chuồng, phân bắc ủ hoai mục, phân xanh, bèo dâu... đều có thể sử dụng bón cho cây thuốc.
+•
+Phân vô cơ: Việc dùng phân vô cơ bón cho cây thuốc là nhằm mục đích cung cấp kịp thời các chất dinh dưỡng cho cây
+và bổ sung thêm các yếu tố mà phân hữu cơ còn thiếu. Các loại phân vô cơ thường dùng là:
+- Phân lân: Đây là loại phân cung cấp chất cần cho cây tạo các mô, làm cho cây cứng, chắc. Cây thiếu lân sẽ yếu ớt, hạt,
+quả lép. Phân lân thường khó hấp thu nên thường được bón lót cùng với phân hữu cơ là thích hợp nhất.
+- Phân đạm: Là loại phân cung cấp ni tơ cho cây dưới dạng muối hòa tan nên cây hấp thụ nhanh, hiệu quả kịp thời. Cây
+thiếu đạm sẽ làm cho cây cằn cỗi, lá úa vàng, hoa không trổ được hay dễ bị thui chột. Nhưng cũng cần lưu ý là nếu bón quá
+
+
+nhiều đạm, cây sẽ phát triển quá mức nên ít ra hoa, củ ít bột, mọng nước và khó chế biến nên chất lượng thấp.
+- Phân Kali: Phân kali có tác dụng giúp cho cây chóng tạo mô, xúc tiến quá trình hình thành tinh bột, tăng khả năng
+chống rét, chống sâu bệnh, đồng thời cũng giúp cho việc hấp thụ đạm của cây. Phân kali rất thích hợp với các loại cây lấy củ, lấy
+rễ, lấy hạt. Phân kali có thể dùng bón lót hay hay bón thúc đều được.
+- Vôi: Vôi có tác dụng cung cấp calci cho cây. Thiếu vôi, rễ cây sẽ kém phát triển, hoa chóng rụng, ... ngoài ra, vôi còn có
+tác dụng khử chua và củng cố kết cấu của đất. Tuy nhiên, những loại đất không bị chua thì có thể không cần bón vôi hay bón với
+lượng ít.
+1.4.2. Cách bón phân
+• Bón lót: Khi lên luống, cần phải chuẩn bị phân chuồng, phân xanh đã xử lí mục để bón lót. Số lượng phân bón lót khoảng
+20 - 30 tấn cho 1 ha. Tùy thuộc vào từng loại cây thuốc được trồng mà có thể bón lót thêm phân hóa học với tỉ lệ thích hợp.
+Cách bón lót tùy theo cách trồng, có thế vãi đều nếu là trồng cách gieo vãi hay vườn ươm: rải theo hàng, theo hốc nếu là
+trồng thành hàng hay thành bụi. Sau khi rắc phân, cần trộn đều với đất rồi mới gieo trồng.
+• Tưới và bón thúc: Để cây phát triển tốt, cần phải tưới và bón thúc cho cây.
+Với cây lấy thân, lá, hoa, cần tưới thúc trong suốt quá trình sinh trưởng cho tới lúc cây chớm ra nụ hoa thì thôi.
+Với cây lấy củ, lấy rễ thì cũng dùng phân chuồng hoai mục để bón thúc như trên. Riêng với phân đạm chỉ bón thúc cho cây
+lớn, đến khi củ, rễ đã hình thành thì thôi và chuyển sang bón thúc bằng phân kali.
+Cần chú ý với cây có thời gian sinh trưởng dài thì việc bón thúc phải chia làm nhiều đợt.
+1.5. Chọn giống
+Giống là một trong các khâu quan trọng quyết định năng suất cây thuốc. Nếu chọn giống không tốt sẽ gây ra nhiều hậu
+quả xấu.
+Thí dụ: Giống không khỏe, dễ bị sâu bệnh; giống sớm lên ngồng, ra hoa sẽ làm cho củ dễ bị hóa gỗ và chất lượng sẽ kém.
+Vì vậy, việc chọn giống cần phải được chú ý đặc biệt.
+Về nguyên tắc chung thì thường chọn giống từ những cây khỏe, không mang bệnh hay để giống ở những ruộng riêng và
+có chế độ chăm sóc đặc biệt. Tùy thuộc từng loài cây mà người ta chọn giống từ hạt hay từ mầm, củ rễ hay thân.
+-
+Với giống là hạt: Tùy thuộc từng loại mà người ta thu hái và xử lí và bảo quản thích hợp. Đối với hạt cây thuốc có tinh
+dầu, không nên phơi nắng mà phải phơi trong râm. Sau khi phơi khô, sàng sảy kỹ, loại bỏ tạp chất, hạt lép và để nơi khô ráo,
+thoáng gió. Theo kinh nghiệm thì nên bảo quản hạt giống trong các lọ sành, nút bàng lá chuối khô là tốt nhất. Không nên đựng
+hạt giống trong các lọ thủy tinh nút mài hay trong túi polyetylen hàn kín.
+Tuy nhiên, có một số cây như Tam thất, Hoàng liên thì phải lấy hạt tươi vừa mới thu hoạch để gieo trồng. Nên lấy hạt của
+cây vụ trước trồng cho vụ sau thì tỉ lệ nảy mầm sẽ cao hơn những hạt giống đã bảo quản lâu.
+-
+Với giống là mầm, củ, rễ hay thân cành: Chỉ nên áp dụng cho các loại cây không hay khó có giống bằng hạt. Vì dùng
+giống vô tính thì phải cần khối lượng giống lớn, không kinh tế bằng dùng giống là hạt. Tuy nhiên, chọn giống loại này có ưu điểm
+là chóng được thu hoạch.
+2. Cách gieo trồng và chăm sóc cây thuốc
+2.1. Gieo trồng
+Gieo trồng cây thuốc thường có hai cách, đó là:
+-
+Gieo thẳng: Thường áp dụng đối với các cây như: Ngưu tất, Đương quy, Sâm bố chính...
+-
+Vừa gieo thẳng vừa ươm cây con: Áp dụng với những cây như: Bạch chỉ, Bạch truật, Ích mẫu...
+-
+Sau khi gieo hạt, cần dùng rơm rạ hay cỏ khô phủ kín luống để giữ ẩm. Các loại cây thảo thì nên trồng mật độ cao; loại
+cây có cành vươn rộng thì trồng thưa hơn. Cần có chế độ tưới nước nhẹ làm cho đất ẩm đều. Khi cây đã nẩy mầm thì gõ bỏ rơm
+
+
+rạ đã phủ để cây mọc bình thường.
+2.2. Xảo xới, làm cỏ
+Cần phải xới để phá vỡ các lớp váng sau mỗi trận mưa, làm cho đất trên mặt luống luôn tơi, xốp, thoáng, cần phải xới xáo
+nhẹ nhàng để khỏi ảnh hưởng đến cây và luôn làm sạch cỏ cho cây.
+Đối với những cây lấy củ, lấy rễ như: Huyền sâm, Sinh địa, Bạch truật... cần có chế độ vun gốc ít nhất là 3,4 lần sau mỗi khi
+bón thúc. Việc xáo xới, vun gốc chỉ kết thúc khi lá cây đã phủ kín luống.
+2.3. Tỉa cây
+Để cho cây sinh trưởng tốt và cho năng suất cao, cần có chế độ tỉa bớt những cây con để có những khoảng cách thích hợp.
+Tỉa cây những chỗ dày và giặm vào những chỗ thưa; bỏ hay thay thế cây yếu ớt, có bệnh... và chỉ để lại những cây và mầm khỏe
+mạnh.
+2.4. Tưới - tiêu
+Cây thuốc hầu hết là ưa đất ẩm nhưng lại rất sợ úng ngập. Vì vậy, phải có chế độ tưới tiêu hợp lí. Cây đang ra củ hay ra
+hoa kết quả thì cần tưới thường xuyên, nhưng phải tránh ẩm ướt quá mức.
+2.5. Bấm hoa, tỉa cành
+Việc bấm hoa, tỉa cành thường áp dụng khi trồng cây lấy củ. Khi cây chớm có nụ hoa thì cắt bỏ ngay để cho chất dinh
+dưỡng tập trung nuôi củ; đồng thời cắt bỏ những cành bị sâu bệnh, cành già cho thoáng. Với một số cây thì cần bấm cả ngọn và
+tỉa bớt cành như: Ngưu tất, Huyền sâm. Với những cây lấy hạt làm giống thì cần bấm bớt hoa và quả nhỏ, chỉ để lại những quả
+to. Làm như thế sẽ cho quả to, hạt chắc mẩy và chất lượng tốt hơn.
+2.6. Làm giàn
+Khi trồng các loại cây leo như: Hoài sơn, Đảng sâm, Kim ngân... thì phải làm giàn cho cây leo . Tùy theo từng loại cây mà
+làm giàn to, nhỏ, cao thấp cho phù hợp. Với những cây vươn dài thì nên trồng cạnh cột hay cây cao để cây leo như: sắn giây,
+Gấc... Một số cây ưa bóng râm thì phải làm giàn che nắng như: Tam thất, Ba gạc ...
+3. Phòng trừ sâu bệnh
+Với điều kiện khí hậu như nước ta, sâu bệnh rất dễ phát sinh và phát triển gây hại cho cây thuốc. Sâu bệnh gây hại cây
+thuốc diễn biến rất phức tạp và thay đổi theo mùa, theo năm và phụ thuộc vào nhiều yếu tố như đất đai, khí hậu, nguồn bệnh...
+Có những bệnh như: bệnh gây lở cổ rễ Ngưu tất thường xuất hiện khi cây còn non; bệnh thối gốc ở cây Địa hoàng phát
+sinh khi mưa nắng thất thường; bệnh nấm hạch trên cây Ích mẫu thường xuất hiện vào tháng 2-3...
+Sâu bệnh cũng có rất nhiều loại khác nhau, với đặc điểm sinh lí khác nhau và gây tác hại trên các loại cây khác nhau. Vì
+vậy, để có biện pháp phòng trừ riêng cho từng loại cây là điều khó khăn và không thể làm được. Trong phạm vi chương trình, chỉ
+nêu một số biện pháp phòng trừ sâu bệnh có tính chất tổng hợp để giúp người trồng cây thuốc áp dụng. Các biện pháp đó là:
+3.1. Biện phép canh tác: Làm đất kĩ, khử trùng, vệ sinh tốt đất và đồng ruộng nhằm diệt một phần mầm bệnh có trong đất.
+3.2. Biện pháp nhiệt học, hóa học: Là xử lí hạt giống, mầm giống trước khi gieo trồng bằng nhiệt và chất hóa học.
+3.3. Biện pháp ủ phân hoại mục: Nhằm diệt mầm bệnh trong phân.
+3.4. Biện pháp phòng trừ sâu bệnh cho cây trồng
+Như vậy, việc phòng trừ sâu bệnh cho cây thuốc phải quan tâm đến cả 4 khâu: Đất - Giống - Phân - Cây trồng, chứ không
+chỉ quan tâm tới cây trồng thì mới có hiệu quả.
+4. Một số thuốc phòng trừ sâu bệnh cho cây thuốc
+4.1. Thuốc trừ sâu
+-
+Chlorop hos (Dip terex): Có tác dụng trừ: sâu xanh, sâu khoang, giòi đục lá, quả, bọ nhảy, sâu cuốn lá.
+-
+Cypermet hrin (Sherpa): Có tác dụng diệt nhiều loại sâu và nhện hại. Đặc biệt là côn trùng thuộc bộ cánh vẩy.
+
+
+-
+Et hofen prox (Trebon): Có tác dụng diệt sâu xanh, sâu hồng, rệp và bọ đầu dài.
+4.2. Thuốc trừ bệnh
+-
+Đồng sulfat: Dùng pha thuốc Bóoc-đô, có tác dụng trừ bệnh mốc sương.
+-
+Benomyl (Ben late): Có tác dụng trừ nấm bệnh như: nấm thối củ, thối mầm, bệnh đốm đen, phấn trắng hay bệnh thối
+nhũn như ở su hào, bắp cải.
+-
+Daconil (chlorot halonil): Có tác dụng trừ bệnh thối nhũn, đốm lá, gỉ sắt, phấn trắng, mốc sương.
+-
+An vil (Hexaconazole): Có tác dụng trừ bệnh thối quả, phấn trắng, đốm lá.
+4.3. Nguyên tắc chung khi dùng thuốc phòng, trừ sâu bệnh: Có hai nguyên tắc khi dùng thuốc phòng trừ sâu bệnh, đó là:
+-
+Thuốc phải có tác dụng tốt;
+-
+Phải tuyệt đối an toàn cho cây, cho người và gia súc.
+Muốn thực hiện tốt hai nguyên tắc nêu trên thì cần phải:
+-
+Dùng đúng thuốc thích hợp cho từng loại sâu bệnh phá hoại
+-
+Phải dùng đúng nồng độ, liều lượng thuốc
+-
+Phải dùng đúng cách và đặc biệt là phải đảm bảo thời gian cách ly qui định trước khi thu hoạch dược liệu (thường là
+từ 2- 3 tuần lễ).
+
+LƯỢNG GIÁ
+Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (………):
+1.
+Các yếu tố ảnh hưởng đến việc trồng cây thuốc gồm có:
+A .........................
+B .........................
+C. Làm đất
+D .........................
+E. Chọn giống.
+2.
+Nhiệt độ thích, hợp đối với cây thuốc là: ……………… lượng mưa trung bình hàng năm thích hợp là
+………………….
+3.
+Cây thuốc thường ưa loại đất …………… không ưa loại đất ……………….. hay đất sét dính.
+Phân biệt đúng/sai các câu sau bằng cách đánh dấu vào chữ A (cho câu đúng) và chữ B (cho câu sai):
+4.
+Cây thuốc trồng luân canh với cây lương thực là rất tốt.
+A-B
+5.
+Để đất được tơi, xốp thì không nên cày bừa quá kĩ.
+A-B
+6.
+Phân hữu cơ dùng bón cho cây thuốc tốt hơn phân vô cơ.
+A-B
+7.
+Phân đạm, phân lân, phân chuồng là phân vô cơ.
+A-B
+8.
+Thuốc trừ sâu đồng thời là thuốc phòng trừ bệnh cho cây.
+A-B
+9.
+Giống cây thuốc chỉ có một loại là hạt.
+A-B
+Chọn giải pháp đúng nhất cho các câu sau bằng cách đánh dấu vào chữ cái đầu giải pháp mà bạn chọn:
+10.
+Bón lót là cách bón phân khi:
+A. Làm đất;
+B. Khi cây đang xanh tốt
+C. Khi cây đang ra hoa;
+D. Khi cây còn non.
+11.
+Bấm ngọn, tỉa cành được áp dụng khi trồng cây thuốc để:
+
+
+A. Lấy thân, lá;
+B. Lấy thân, lá, hoa;
+C. Lấy thân, lá và quả;
+D. Lấy củ, rễ.
+12.
+Làm giàn chỉ thực hiện khi trồng loại cây:
+A. Cây loại thảo;
+B. Cây bụi;
+C. Cây leo;
+D. Cây gỗ.
+13.
+Khi dùng thuốc phòng trừ sâu bệnh cho cây, cần tuân thủ mấy nguyên tắc?
+A. Một nguyên tắc;
+B. Hai nguyên tắc;
+C. Ba nguyên tắc;
+D. Bốn nguyên tắc;
+14.
+Lượng phân chuồng cần cho bón lót khi trồng cây thuốc là:
+A. 10 - 20 tấn/1ha;
+B. 20 - 30 tấn/1ha;
+C. 30 - 40 tấn/1ha; D. 40 - 50 tấn/1ha;
+
+
+TÀI LIỆU THAM KHẢO
+4. Bài giảng Dược liệu tập I, Trường Đại học Dược Hà Nội, NXBYH - 1998
+5. Bài giảng Dược liệu tập II, Trường Đại học Dược Hà Nội, NXBYH 2001
+6. Cây thuốc Việt Nam, Viện Dược liệu - Bộ Y tế, NXBKHKT - 1999
+7. Dược điển Việt Nam I (tập II), Bộ Y tế, NXBYH 1983
+8. Dược điển Việt Nam III. Bộ Y tế, 2002
+9. Từ điển bách khoa Dược học, Nhà xuất bản Từ điển bách khoa, Hà Nội, 1999
+10. Cây thuốc, bài thuốc và biệt dược, DS. Phạm Thiệp - DS. Lê Văn Thuần - DS. Bùi Xuân Chương, NXB Y học,
+2000
+Cây thuốc Việt Nam, Thầy thuốc ưu tú LY. Lê Trần Đức, NXB Nông nghiệp Hà Nội, 1997.
+NHÀ XUẤT BẢN Y HỌC
+NHÀ XUẤT BẢN Y HỌC
+DƯỢC LIỆU
+Chịu trách nhiệm xuất bản HOÀNG TRỌNG QUANG
+Biên tập DS. LÊ MINH NGUYỆT
+Sửa bản in: LÊ MINH NGUYỆT
+Trình bày bìa: CHU HÙNG
+Kt vi tính: BÙI THỊ THƯƠNG
+
+
+In 1 .000 cuốn, khổ 19 X 27, tại Nhà xuất bản Y học. Giấy phép xuất bản số: 23 - 2006/CXB/685 - 217/YH. In
+xong và nộp lưu chiểu Quý II năm 2006.

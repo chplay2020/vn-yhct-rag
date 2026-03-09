@@ -1,0 +1,1354 @@
+ViInfographicVQA: A Benchmark for Single and Multi-image Visual Question
+Answering on Vietnamese Infographics
+Tue-Thu Van-Dinh1*, Hoang-Duy Tran1*, Truong-Binh Duong1, Mai-Hanh Pham1,
+Binh-Nam Le-Nguyen1, Quoc-Thai Nguyen1,2†
+1AI VIETNAM Lab, Vietnam
+2National Economics University, Vietnam
+Abstract
+Infographic Visual Question Answering (InfographicVQA)
+evaluates a model’s ability to read and reason over data-
+rich, layout-heavy visuals that combine text, charts, icons,
+and design elements. Compared with scene-text or natural-
+image VQA, infographics require stronger integration of
+OCR, layout understanding, and numerical and semantic rea-
+soning. We introduce ViInfographicVQA, the first bench-
+mark for Vietnamese InfographicVQA, comprising over 6747
+real-world infographics and 20409 human-verified question-
+answer pairs across economics, healthcare, education, and
+more. The benchmark includes two evaluation settings. The
+Single-image task follows the traditional setup in which each
+question is answered using a single infographic. The Multi-
+image task requires synthesizing evidence across multiple
+semantically related infographics and is, to our knowledge,
+the first Vietnamese evaluation of cross-image reasoning in
+VQA. We evaluate a range of recent vision-language mod-
+els on this benchmark, revealing substantial performance dis-
+parities, with the most significant errors occurring on Multi-
+image questions that involve cross-image integration and
+non-span reasoning. ViInfographicVQA contributes bench-
+mark results for Vietnamese InfographicVQA and sheds light
+on the limitations of current multimodal models in low-
+resource contexts, encouraging future exploration of layout-
+aware and cross-image reasoning methods.
+Code —
+https://github.com/duongtruongbinh/ViInfographicVQA
+Datasets — https:
+//huggingface.co/datasets/duytranus/ViInfographicVQA
+Introduction
+Despite substantial progress in multimodal reasoning, most
+Visual Question Answering (VQA) benchmarks remain fo-
+cused on English and emphasize natural images or simple
+*These authors contributed equally.
+†Corresponding author: quocthai@neu.edu.vn.
+We thank AI VIETNAM for facilitating computational resources
+and financial support for this paper.
+Copyright © 2026, Association for the Advancement of Artificial
+Intelligence (www.aaai.org). All rights reserved.
+Q1: Nhiệt độ cao nhất dự báo
+tại Hà Nội ngày 11/09/2016 là
+bao nhiêu?
+A: 31°C
+Single-Image Question
+Answer-Source: Image-span
+Evidence: Text
+Q2: Khu vực Tây Nguyên trên
+bản đồ dự báo thời tiết ngày
+11/09/2016 có màu cam hay
+màu đỏ?
+A: Cam
+Answer-Source: Question-span
+Evidence: Map
+Q3: So sánh nhiệt độ cao nhất ở
+Nam Bộ vào ngày 11/09/2016
+và ngày 18/06/2017, ngày nào
+có nhiệt độ cao hơn và hơn bao
+nhiêu độ?
+A: 18/06/2017; 1°C
+Answer-Source: Cross-Image Synthesis
+Q1
+Q2
+Q4
+Q4
+Q3
+Q3
+Q4:  Chênh lệch nhiệt độ thấp
+nhất (độ C) tại Tây Bắc Bộ giữa
+ngày 11/09/2016 và đêm 17/06
+ngày 18/06/2017 là bao nhiêu?
+A: 3
+Answer-Source: Non-Span
+Multi-Image Question
+Figure 1: Example images from ViInfographicVQA with
+questions and answers. Each question is annotated with its
+answer source, supporting evidence type, and required oper-
+ation.
+scene-text settings (Antol et al. 2015). Such datasets rarely
+capture the complexity of structured, data-rich visuals like
+infographics, which blend text, charts, icons, and layout for
+concise information delivery. Understanding these materi-
+als requires unified reasoning over visual, textual, and spa-
+tialmodalities - a challenge extending beyond typical image-
+based VQA.
+Infographics have recently attracted interest in document-
+
+
+Q: Các nguồn năng lượng tái tạo nào được biểu
+diễn bằng đơn vị triệu kWh?
+A: Điện gió, Năng lượng mặt trời
+Q: Tổng số biểu tượng năng lượng tái tạo riêng
+biệt được hiển thị trong hình là bao nhiêu?
+A: 5
+Evidence: Text
+Answer-Source: Multi-span
+Answer-Source: Non-Extractive
+Evidence: Text
+Answer-Source: Non-Extractive
+Evidence: Table
+Q: Số lượng đường băng hiện có ở London là bao nhiêu?
+A: 3
+A: Heathrow
+Answer-Source: Question-span
+Q: Trong hai sân bay Heathrow và Gatwick thì sân bay
+nào có 2 đường băng?
+Evidence: Table
+Q: Đối thủ của Scotland trong trận lúc 2h ngày 20/6 và của Slovakia trong trận lúc 23h
+ngày 26/6 lần lượt là đội nào?
+A: Thụy Sĩ; Romania
+Answer-Source: Multi-Image Span
+Q: Tổng số trận đấu diễn ra lúc 23h vào ngày 19/6 và 26/6 theo lịch thi đấu được hiển thị
+là bao nhiêu?
+A: Thụy Sĩ; Romania
+Answer-Source: Non-Span
+Q: Dựa vào lịch thi đấu Giữa hai ngày 24/6 và 26/6, ngày nào có nhiều trận đấu hơn và nhiều
+hơn bao nhiêu trận?
+A: 26/6; 2
+Answer-Source: Cross-Image Synthesis
+Figure 2: Representative examples illustrating the diversity of ViInfographicVQA. The dataset covers a wide range of info-
+graphic types (e.g., bar charts, energy reports, event schedules) and question forms spanning extractive, non-extractive, and
+Multi-image reasoning. This diversity enables comprehensive evaluation of multimodal models’ abilities in text understanding,
+numerical reasoning, and cross-image aggregation.
+oriented VQA, where models must comprehend layout, em-
+bedded text, and numerical data simultaneously (Mathew,
+Karatzas, and Jawahar 2021; Mathew et al. 2022; Masry
+et al. 2022). However, existing benchmarks remain largely
+English-centric and provide limited evaluation of layout-
+aware or numerically grounded reasoning (Singh et al. 2019;
+Biten et al. 2019; Tran et al. 2021; Doan et al. 2024). While
+InfographicVQA (Mathew et al. 2022) established the first
+English dataset for infographic understanding, comparable
+resources in low-resource languages such as Vietnamese are
+still absent-particularly for tasks requiring reasoning across
+multiple infographics.
+In the Vietnamese context, prior datasets such as ViVQA
+(Tran et al. 2021), EVJVQA (Luu-Thuy Nguyen et al.
+2023), OpenViVQA (Nguyen et al. 2023), and ViTextVQA
+(Van Nguyen et al. 2024) provide valuable contributions but
+mainly target natural images, OCR scene text, or synthetic
+renderings. None address the more complex domain of info-
+graphic understanding or cross-image reasoning, which de-
+mands synthesis of information across multiple semantically
+related visuals.
+To bridge this gap, we introduce ViInfographicVQA-a
+Vietnamese benchmark designed to evaluate both Single-
+image comprehension and Multi-image reasoning. The
+dataset features linguistically authentic questions and an-
+swers across diverse topics such as economics, healthcare,
+and education, offering two complementary evaluation set-
+tings (Figure 1).
+Our contributions are summarized as follows:
+(i) We introduce ViInfographicVQA, a Vietnamese in-
+fographic VQA dataset with official splits, containing
+over 6747 infographics and nearly 20409 QA pairs.
+(ii) We design both Single-image and Multi-image tasks;
+the latter enforces cross-image evaluation previously
+unaddressed in Vietnamese or multilingual VQA.
+(iii) We establish baselines with recent vision-language
+models (VLMs) and conduct systematic fine-tuning
+on subsets and the combined data, analyzing training
+strategies without rationale leakage.
+Related Work
+Preceding Visual Question Answering Datasets
+Early benchmarks such as VQA v1 (Antol et al. 2015)
+and VQA v2 (Goyal et al. 2017) established the task but
+primarily evaluate models on natural images. Subsequent
+studies show that general-purpose VQA systems struggle
+when reading text or interpreting the layout is required. To
+probe these abilities, text- and document-centric datasets
+were introduced. ST-VQA (Biten et al. 2019) and TextVQA
+(Singh et al. 2019) target scene-text reading and reason-
+ing. DocVQA (Mathew, Karatzas, and Jawahar 2021) ex-
+tends the evaluation to scanned business and administrative
+
+
+Dataset
+Image Source
+Synthetic Images
+Template Questions
+Text Type
+# Images
+# Questions
+Answer Type
+VQA v1/v2
+Natural images
+×
+✓
+MR
+200K+
+1M+
+MCQ
+ST-VQA
+Natural images
+×
+×
+ST
+28K
+45K
+Ex
+TextVQA
+Natural images
+×
+×
+ST
+28K
+45K
+Ex, SAb
+DocVQA
+Industry documents
+×
+×
+Pr, Tw, Hw, BD
+12K
+50K
+Ex
+VisualMRC
+Webpage screenshots
+×
+×
+BD
+10K
+30K
+Ab
+InfographicVQA
+Infographics
+×
+×
+BD
+5.4K
+30K
+Ex, Nm
+FigureQA
+Charts (synthetic)
+✓
+✓
+BD
+120K
+1.5M
+Y/N
+DVQA
+Bar charts
+✓
+✓
+BD
+300K
+3.4M
+Ex, Nm, Y/N
+PlotQA
+Scientific plots
+✓
+✓
+BD
+224K
+28.9M
+Ex
+ChartQA
+Real charts
+×
+×
+BD
+20K
+400K
+Ex
+CharXiv
+Scientific charts (arXiv)
+×
+×
+BD
+10K+
+200K+
+Ex, Ab
+InfoChartQA
+Infographic charts
+×
+×
+BD
+15K
+300K
+Ex, Ab
+ChartQAPro
+Diverse charts
+×
+×
+BD
+50K
+1M+
+Ex, Ab, Nm
+ChartGalaxy
+Mixed infographic charts
+✓
+×
+BD
+1M+
+20M+
+Ex, Ab
+ViVQA
+MS COCO images
+×
+×
+ST
+10.3K
+15K
+Ex
+ViTextVQA
+Natural images with text
+×
+×
+ST
+16.8K
+50.3K
+Ex
+OpenViVQA
+Web images of Vietnamese life
+×
+×
+ST
+11.2K
+37.9K
+Ab
+ViCLEVR
+Rendered CLEVR images
+✓
+×
+ST
+26K
+30K
+Ex / SAb
+ViOCRVQA
+Book covers
+×
+✓
+BD
+28.3K
+121.6K
+Ex
+EVJVQA
+Web images of Vietnamese life
+×
+×
+ST
+4.9K
+33.8K
+Ex, Ab
+Viet-OCR-VQA
+Scene text (Vietnamese)
+×
+×
+ST
+137K
+822K+
+Ex
+Viet-Doc-VQA
+Textbooks, documents
+×
+×
+Pr, BD
+116K+
+500K+
+Ex
+Viet-Handwriting-VQA
+Handwritten text
+×
+×
+Hw
+20K+
+100K+
+Ex
+Viet-Receipt-VQA
+Receipts
+×
+×
+Pr, BD
+30K+
+200K+
+Ex
+Viet-Menu-VQA
+Menus
+×
+×
+Pr, BD
+10K+
+50K+
+Ex
+Table 1: A comparative overview of VQA datasets. This table lists key attributes, including image source, use of synthetic
+images or template-based questions, the number of images and questions, along with the supported text types and answer
+formats. Text Type: MR (Multimodal Reading), ST (Scene Text), BD (Born-Digital), Pr (Printed), Tw (Typewritten), Hw
+(Handwritten). Answer Type: MCQ (Multiple Choice Question), Ex (Extractive), SAb (Short Abstractive), Ab (Abstractive),
+Nm (Numeric), Y/N (Yes/No).
+documents, and VisualMRC (Tanaka, Nishida, and Yoshida
+2021) focuses on webpage screenshots. More recently, PDF-
+VQA (Ding et al. 2023) considers complex multi-page PDFs
+with diverse layouts.
+A second line of research focuses on data visualizations.
+Synthetic testbeds such as FigureQA (Kahou et al. 2017)
+and DVQA (Kafle et al. 2018) allow controlled analysis but
+lack realism. PlotQA (Methani et al. 2020) scales to mil-
+lions of QA pairs over scientific plots. ChartQA (Masry et al.
+2022) introduces real-world charts with human-authored
+questions, while CharXiv (Wang et al. 2024) curates sci-
+entific charts from arXiv. More recent efforts-InfoChartQA
+(Lin et al. 2025), ChartQAPro (Masry et al. 2025), and
+ChartGalaxy (Li et al. 2025)-explicitly include infographic-
+style charts and expand both coverage and diversity.
+Infographic Question Answering Benchmarks
+Infographics combine textual, numerical, and graphical in-
+formation within structured layouts, posing distinct chal-
+lenges that differ from those in natural images, scene text, or
+document-based VQA. To address this complexity, several
+benchmarks have been developed to specifically evaluate
+reasoning over infographic-style content. InfographicVQA
+(Mathew et al. 2022) introduced the first dataset in this do-
+main, featuring questions that require textual understanding
+and reasoning over layout and visual design. Building on
+this direction, InfoChartQA (Lin et al. 2025) investigates
+how visual elements such as icons and pictograms influ-
+ence question answering, ChartQAPro (Masry et al. 2025)
+expands chart types and question formats while explicitly
+covering infographic-style data, and ChartGalaxy (Li et al.
+2025) scales the scope to millions of real and synthetic info-
+graphic charts. Despite these advances, existing benchmarks
+remain predominantly English-centric, leaving non-English
+infographic reasoning largely unexplored.
+Visual Question Answering Datasets in Vietnamese
+Vietnamese VQA has advanced along several directions but
+largely outside the infographic domain. ViVQA (Tran et al.
+2021) adapts a subset of VQA v2, with limited linguistic nat-
+uralness. EVJVQA (Luu-Thuy Nguyen et al. 2023) provides
+multilingual QA pairs but lacks scene text. OpenViVQA
+(Nguyen et al. 2023) supports open-ended answers, and Vi-
+CLEVR (Tran et al. 2024) targets compositional reasoning.
+ViTextVQA (Van Nguyen et al. 2024) is the first Vietnamese
+scene-text dataset, while ViOCRVQA (Pham et al. 2025)
+scales OCR-based QA. The Vintern-1B collection (Doan
+et al. 2024) adds Vietnamese resources for OCR, docu-
+ment understanding, handwriting, and extraction (e.g., Viet-
+OCR-VQA, Viet-Doc-VQA, Viet-Handwriting-VQA, Viet-
+Receipt-VQA; many are hosted by 5CD-AI on Hugging-
+Face1). These datasets lay crucial groundwork yet remain
+limited for infographic understanding. Many rely on trans-
+lated English data or synthetic renderings, whereas our work
+leverages authentic Vietnamese infographics with diverse
+layouts and topics. Table 1 consolidates English and Viet-
+namese resources and highlights the lack of a Vietnamese
+benchmark for infographic VQA-especially one that evalu-
+ates cross-image (Multi-image) reasoning.
+1https://huggingface.co/5CD-AI
+
+
+Data Refinement 
+Web Crawl
+Filtering
+Infographics
+Infographics Grouped
+VLM
+VLM
+VLM
+VLM Validation
+Extract Elements
+QA Pairs
+Human Refinement
+ViInfographic
+Dataset 
+Analysis
+Data Generation
+Data Curation 
+Figure 3: Construction pipeline for ViInfographicVQA. Data curation crawls the web, filters infographics, and selects high-
+quality ones for QA construction. Data generation uses a two-branch VLM pipeline: element extraction from single images
+for factoid QAs, and grouping related infographics to elicit cross-image questions. Data refinement applies automated VLM
+validation followed by human review, yielding the final dataset.
+ViInfographicVQA
+The creation of ViInfographicVQA begins by sourcing and
+filtering real-world Vietnamese infographics, which are then
+organized into semantically related sets to support Multi-
+image reasoning. Figure 2 presents representative examples
+from the dataset, illustrating the diversity of question types
+and reasoning operations covered across both Single-image
+and Multi-image tasks. Figure 3 then outlines the end-to-end
+construction process, combining VLM-assisted element ex-
+traction, clustering, and structured QA generation with sub-
+sequent human verification and refinement to produce high-
+quality, linguistically natural question–answer pairs.
+Data Curation
+We curate real-world Vietnamese infographics and organize
+them into semantically related sets to support both Single-
+image and Multi-image reasoning. The process has 3 steps:
+sourcing and geometry filtering, VLM-assisted representa-
+tion and grouping, and split assignment.
+Step 1: Sourcing and geometry filtering. We collect in-
+fographics from the portal infographics.vn2 across topics
+such as Economics, Healthcare, Culture-Society, Disaster-
+Accident, and Sports-Arts. To ensure OCR and layout pars-
+ing readability while avoiding extreme rescaling artifacts,
+we retain images whose aspect ratios fall within [0.33, 3.00]
+and whose shorter side is at least 512 pixels.
+Step 2: VLM-assisted representation and grouping. To
+capture relationships among infographics, we compute mul-
+timodal representations combining OCR text features with
+visual and layout cues. Concretely, we extract (i) normal-
+ized OCR text and its locations, (ii) global and region-level
+visual descriptors, and (iii) lightweight layout signals (e.g.,
+panel/legend cues) using a VLM-assisted pass that proposes
+informative regions and aggregates them into image-level
+embeddings. We cluster images within topical categories us-
+ing cosine similarity with a fixed number of clusters per cat-
+egory (3 per topic), forming semantically coherent sets that
+enable cross-image reasoning.
+Step 3: Split assignment with set isolation. Entire Multi-
+image sets are assigned to a single split (train/val/test) to pre-
+2https://infographics.vn/, a data visualization and infographics
+portal maintained by the Vietnam News Agency (VNA), the pri-
+mary and official news provider of the Vietnamese government.
+vent cross-split leakage. Splits are further stratified by (topic
+× answer-source) priors to preserve distributional balance
+for downstream evaluation.
+Data Annotation
+Single-image
+Infographic
+Infographics
+combine
+text
+blocks, tables, charts, maps, and icons; these elements are
+natural anchors for structured QA. Rather than treating an
+infographic as a single visual unit, we first identify semanti-
+cally meaningful regions and then build QA on top of them.
+Stage 1: Element extraction. A VLM-assisted scan pro-
+poses informative regions (text boxes, chart panels, legends,
+icons, map areas) and refines their coordinates using visual
+and spatial cues to preserve contextually relevant content.
+Stage 2: QA construction. The extracted elements serve as
+the semantic backbone for question generation, especially
+for reasoning over layout, text, graphics, and data visual-
+izations (Mathew et al. 2022). We organize QA pairs along
+two independent dimensions: (i) element types (e.g., table,
+graph/diagram, map, text, layout/visual), and (ii) answer-
+source categories: Image-span (a single, contiguous verba-
+tim span in the image), Question-span (multiple-choice with
+an explicit option list; the answer is exactly one option, ver-
+batim), Multi-span (two or more non-contiguous verbatim
+spans; the answer is a single string formed by joining the
+selected spans with exactly the comma delimiter between
+adjacent spans; the question is a single sentence specifying
+the task requirements and the properties of the spans), and
+Non-extractive (numeric reasoning such as counting, arith-
+metic, or computing a rank/percentage; the final output is a
+single numeric value). To instantiate diverse QAs, we use
+rule-based prompt templates that pair element types with
+answer-source categories (e.g., Table × Multi-span: “Which
+rows have values exceeding 100?”; Graph × Non-extractive:
+“What is the growth rate between the two years?”).
+Unlike InfographicVQA (Mathew et al. 2022), we do not
+maintain separate labels for operations (counting, arith-
+metic, sorting). All numeric reasoning is grouped into Non-
+extractive. Comparative behaviors that may occur in Image-
+span, Question-span, or Multi-span (e.g., picking a maxi-
+mum, minimum, or top-k) are considered inherent to the
+question semantics, not additional operation tags.
+Stage 3: Verification. We employ VLM-assisted expan-
+sion (Gemini 2.0 Flash (Google Cloud 2025)) to generate
+
+
+multiple candidate QAs per rule, retaining short validation
+explanations but releasing answers only to avoid rationale
+leakage. Human reviewers then filter obvious knowledge
+questions (e.g. questions answerable without reference to the
+image), refine wording, and ensure linguistic naturalness and
+semantic faithfulness.
+Annotation Tool. Gemini 2.0 Flash is used solely for semi-
+automatic dataset annotation during QA pair generation; it
+produces candidate QAs and brief explanations for internal
+validation only. Answers (without rationales) are released,
+and Gemini is not included among the evaluated baselines.
+Multi-image Infographics
+Many real scenarios require
+synthesis across related visuals. Our Multi-image annotation
+follows the same three-stage recipe, applied to semantically
+grouped infographics.
+Stage 1: Set definition. We construct sets of related im-
+ages and define the relation linking them (layout similar-
+ity, subject consistency, content variation, shared theme, or
+differing emphasis). Each set is assigned one of four rela-
+tion types: (i) Identical Replication (same template, subject,
+and content); (ii) Content Augmentation/Variation within the
+Same Specific Subject (same template/subject, varying con-
+tent); (iii) Content Replicated, Presentation Varies (same
+subject/content, different templates); (iv) Thematic Connec-
+tion with Diverse Specific Subjects/Focus (different specific
+subjects under a common theme).
+Stage 2: QA construction. Prompt templates instruct
+VLM-assisted generation to create questions that require
+cross-image evidence. We categorize outputs as: Multi-
+image span (aggregate spans from ≥2 images under a log-
+ical condition), Cross-image synthesis (compare/interpret
+across images to reach a new conclusion), and Non-span
+(numerical computation such as sum, difference, average, or
+counting over values drawn from different images).
+Stage 3: Verification. An automated checker removes du-
+plicates, tests answer-explanation consistency, and verifies
+that each question genuinely depends on at least two images.
+Items flagged by the checker are reviewed and corrected by
+human annotators. As in the Single-image case, we adopt
+VLM-assisted expansion with explanations used only for in-
+ternal validation and do not release rationales.
+For transparency and reproducibility, the exact prompt
+templates used to construct all QA pairs are listed in Ap-
+pendix A.
+Data Refinement
+We apply a multi-step refinement process combining auto-
+mated validation with human review (Baechler et al. 2024;
+Ding et al. 2025) to ensure data quality and reliability.
+First, deduplication is performed to remove redundant or
+near-duplicate QA pairs, preserving diversity and prevent-
+ing overfitting to repeated patterns. Next, automated vali-
+dation with VLMs verifies that generated answers are con-
+sistent with infographic content, flagging potential errors
+or inconsistencies. Finally, human review on a web plat-
+form edits question phrasing for clarity, resolves ambigui-
+ties, and ensures that answers are contextually aligned with
+infographic semantics. By integrating automated validation
+with human review, this human-in-the-loop approach en-
+sures an accurate, linguistically natural, and semantically co-
+herent dataset.
+Question Types Distribution
+68.1%
+31.9%
+Single-image (S)
+Multi-image (M)
+Answer Source vs. Image Type
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+(S) image-span
+(S) Multi-span
+(S) Non-extractive
+(S) Question-span
+(M) Multi-image
+Spans
+(M) Cross-image
+Synthesis
+(M) Non-Span
+25.86%
+25.15%
+29.15%
+23.94%
+30.39%
+26.79%
+29.2%
+18.38%
+18.58%
+18.97%
+18.76%
+22.99%
+28.28%
+26.13%
+12.6%
+12.6%
+14.29%
+12.39%
+12.66%
+8.41%
+9.86%
+10.11%
+9.95%
+10.74%
+8.77%
+9.75%
+11.46%
+9.59%
+8.08%
+7.44%
+8.59%
+7.32%
+8.53%
+10.63%
+9.21%
+24.97%
+26.28%
+18.26%
+28.83%
+15.67%
+14.43%
+16%
+Kinh tế - Hội nhập
+Y tế - Cộng đồng
+Văn hóa - Xã hội
+Thiên tai - Tai nạn
+Thể thao - Nghệ thuật
+Others
+Answer Sources Distribution
+17.7%
+16.9%
+16.9%
+16.8%
+16.7%
+9.1%
+5.9%
+(S) image-span
+(S) Question-span
+(M) Multi-image Spans
+(S) Multi-span
+(S) Non-extractive
+(M) Non-Span
+(M) Cross-image Synthesis
+Figure 4: Distribution of topics per source in ViInfograph-
+icVQA. The inner ring represents answer sources, while the
+outer ring shows topic distribution for each source.
+Data Statistics
+Figure 4 reports the empirical distribution over answer-
+source categories and topics. Single-image questions ac-
+count for 68.1% of QAs, while Multi-image questions com-
+prise 31.9%. The distributions are stratified by topic and an-
+swer source during split construction (details in Table 2).
+This balanced composition demonstrates the dataset’s com-
+prehensive coverage of reasoning strategies, spanning from
+direct extraction to non-extractive inference and cross-image
+synthesis.
+The joint distribution of answer source and image type
+further reveals that, within the Single-image setting, Image-
+span, Question-span, Multi-span, and Non-extractive cat-
+egories appear with comparable frequencies, whereas in
+the Multi-image setting, Multi-image span account for the
+largest proportion, followed by Non-span and Cross-image
+synthesis, highlighting the dataset’s emphasis on reasoning
+that integrates complementary evidence across multiple im-
+ages.
+Across
+both
+settings,
+the
+top-5
+image
+categories
+are Economy-Integration, Healthcare-Community, Culture-
+Society, Disaster-Accident, and Sports-Arts. These domains
+
+
+Table 2: Dataset statistics and splits of ViInfographicVQA.
+Subset
+#Images
+#Groups
+#QAs
+Single-image (train)
+1788
+–
+12521
+Single-image (test)
+192
+–
+1374
+Multi-image (train)
+4823
+2090
+5878
+Multi-image (test)
+509
+218
+636
+Total train
+6096
+2090
+18399
+Total test
+651
+218
+2010
+constitute the majority of the dataset. The remaining cate-
+gories, grouped as miscellaneous, contribute smaller propor-
+tions but enhance the diversity and real-world coverage of
+the dataset.
+Dataset Accounting and Splits
+We provide auditable counts for each subset and enforce set-
+level isolation for Multi-image groups to avoid cross-split
+leakage. The data are stratified by topic and answer-source to
+maintain balanced representation across domains and ques-
+tion types. Additionally, Table 2 summarizes the number of
+images and question–answer pairs in each subset of ViInfo-
+graphicVQA. We include shared images infographics that
+occur in both the Single-image and Multi-image configura-
+tions within the same split to enable cross-task evaluation
+without inducing train-test leakage. This structured organi-
+zation ensures reproducible evaluation and enables fair com-
+parison between the Single-image and Multi-image tasks.
+Experiments
+In this section, we evaluate the performance of several state-
+of-the-art VLMs on ViInfographicVQA. The experiments
+measure both zero-shot reasoning capabilities and the per-
+formance gains achieved through supervised fine-tuning,
+providing a holistic analysis of the challenges posed by our
+dataset.
+Evaluation Metrics
+We adopt Average Normalized Levenshtein Similarity
+(ANLS) (Biten et al. 2019), which offers a flexible evalu-
+ation by tolerating minor textual deviations. It is computed
+as follows:
+ANLS = 1
+N
+N
+X
+i=1
+max
+j
+s(aij, oqi)
+(1)
+where N is the number of questions, oqi is the ground-truth
+answer for question i, and aij denotes the j-th predicted an-
+swer for that question. The similarity function s is defined
+as:
+s(aij, oqi) =
+1 −NL(aij, oqi)
+if NL(aij, oqi) < 0.5
+0
+otherwise
+(2)
+where NL(·) is the normalized Levenshtein distance. ANLS
+credits near-matches while penalizing semantically incor-
+rect answers. The final score ranges from 0 to 1, where
+a higher value indicates better performance by reflecting
+a closer match between predicted and ground-truth an-
+swers. This metric is widely used in text-centric document
+VQA (Mathew, Karatzas, and Jawahar 2021).
+Experimental Results
+We benchmark recent open-source VLMs, including a fine-
+tuned variant of Qwen2.5-VL-7B, to assess the impact of
+supervised training.3 For the Single-image task, we eval-
+uate InternVL3.5-8B (Wang et al. 2025), MiniCPM-o2.6-
+8B (Yao et al. 2024), Molmo D-7B (Deitke et al. 2025),
+Ovis2.5-9B (Lu et al. 2025), Phi-4-multimodal-5B (Aboue-
+lenin et al. 2025), Qwen2.5-VL-7B (Bai et al. 2025), and
+VideoLLaMA3 Image-7B (Zhang et al. 2025). For the
+Multi-image task, we analyze InternVL3.5-8B, MiniCPM-
+o2.6-8B, Phi-4-multimodal-5B, and Qwen2.5-VL-7B. Re-
+sults are summarized in Tables 3 and 4.
+Single-image
+Table 3 shows that Ovis2.5-9B achieves
+the highest overall ANLS, followed by InternVL3.5-8B
+and Qwen2.5-VL-7B. Span-based categories (Image-span,
+Question-span) remain the easiest, often exceeding 75%
+ANLS, while Non-extractive reasoning is consistently lower
+across models. Ovis2.5-9B leads on Multi-span and most
+element types, particularly tables and graphs, whereas
+InternVL3.5-8B performs best on Non-extractive reason-
+ing. Fine-tuning yields moderate gains for Qwen2.5-VL,
+slightly improving arithmetic and reasoning-oriented cate-
+gories. MiniCPM-o2.6-8B performs mid-range, and lighter
+models such as Phi-4-multimodal-5B and Molmo D-7B trail
+far behind. Overall, the results indicate that while modern
+VLMs handle span extraction reliably, numerical and multi-
+step reasoning over structured layouts remain significant
+challenges.
+Multi-image
+Across models, Multi-image performance
+drops substantially relative to Single-image, typically by
+about 12–32 ANLS points, underscoring the added diffi-
+culty of reasoning over multiple images. Qwen2.5-VL-7B
+(Finetuned) is the clear leader overall, with the strongest re-
+sults on Cross-image synthesis and Multi-image span, while
+the base Qwen2.5-VL-7B attains the best Non-span score.
+Qwen2.5-VL-7B (base) ranks second overall. MiniCPM-
+o2.6-8B and InternVL3.5-8B follow, with InternVL3.5-8B
+ranking third on Multi-image span but weak on Cross-
+image synthesis. Lighter or earlier-generation models such
+as Phi-4-multimodal-5B continue to lag, highlighting that
+robust cross-image synthesis remains challenging for cur-
+rent VLMs.
+Ablation Study
+We further compare supervision strategies: (1) zero-shot in-
+ference, (2) fine-tuning on the Single-image subset, (3) fine-
+tuning on the Multi-image subset, and (4) fine-tuning on the
+combined single- and Multi-image data. Table 5 indicates
+that fine-tuning consistently improves ANLS over inference.
+Fine-tuning on the Multi-image subset particularly boosts
+3Models were fine-tuned via QLoRA (r = 8, α = 32, dropout
+0.05) for 5 epochs with learning rate 2 × 10−4.
+
+
+Table 3: Performance of VLMs on the Single-image task, categorized by answer type, element, and operation.
+Method
+Overall
+Answer Type
+Element
+Image
+span
+Multi
+span
+Non-extractive
+Question
+span
+Diagram/
+Graph
+Map
+Sequence
+Table
+Text
+Visual/
+Layout
+Phi-4-multimodal-5B
+41.91
+45.36
+23.90
+39.83
+58.84
+42.87
+43.29
+41.36
+46.46
+42.11
+39.23
+VideoLLaMA3 Image-7B
+49.60
+55.38
+35.52
+44.16
+63.39
+55.96
+49.55
+52.48
+60.01
+49.01
+40.83
+InternVL3.5-8B
+67.02
+73.31
+49.30
+65.70
+79.76
+73.06
+66.84
+70.82
+67.56
+64.30
+64.04
+MiniCPM-o2.6-8B
+57.03
+62.52
+44.63
+53.76
+67.20
+60.39
+53.75
+61.86
+60.17
+55.94
+54.11
+Molmo D-7B
+38.26
+46.66
+15.89
+29.19
+61.48
+41.44
+39.19
+32.48
+46.08
+38.94
+34.38
+Ovis2.5-9B
+71.02
+78.19
+61.42
+61.24
+83.21
+74.81
+67.02
+72.77
+77.45
+69.83
+68.56
+Qwen2.5-VL-7B
+67.42
+73.54
+50.39
+65.63
+80.14
+73.54
+68.81
+65.95
+75.38
+66.25
+61.59
+Qwen2.5-VL-7B (Finetuned)
+67.80
+72.69
+53.89
+63.93
+81.10
+72.95
+67.13
+69.35
+73.65
+68.84
+61.36
+Table 4: Model performance (%) on the Multi-image dataset
+by question type.
+Method
+Overall
+Cross-image synthesis
+Multi-image span
+Non-span
+InternVL3.5-8B
+35.50
+10.97
+51.72
+24.67
+MiniCPM-o2.6-8B
+40.55
+35.22
+48.74
+30.05
+Phi-4-multimodal-5B
+20.95
+20.93
+24.59
+14.60
+Qwen2.5-VL-7B
+54.92
+56.34
+58.33
+47.96
+Qwen2.5-VL-7B (Finetuned)
+55.47
+56.55
+58.91
+47.68
+cross-image reasoning, while joint training achieves the best
+overall performance, suggesting that heterogeneous supervi-
+sion strengthens both intra-document and cross-image rea-
+soning.
+Table 5: Performance (%) of Qwen2.5-VL (7B) under dif-
+ferent fine-tuning configurations.
+Method
+Single-image
+Multi-image
+Combined
+Zero-shot Inference
+67.42
+54.92
+63.43
+Fine-tuning (Single-image only)
+67.80
+54.74
+63.64
+Fine-tuning (Multi-image only)
+67.30
+55.47
+63.52
+Fine-tuning (Combined)
+68.53
+55.62
+64.41
+These findings underscore the complementary roles of
+single- and multi-image supervision in multimodal learn-
+ing, where fine-tuning on single-image data primarily en-
+hances localized visual–textual comprehension, while multi-
+image supervision facilitates cross-image relational reason-
+ing. Combining both approaches yields the best overall per-
+formance, highlighting the importance of balanced, hetero-
+geneous supervision for comprehensive infographic under-
+standing.
+Discussion
+Our study provides a realistic and challenging setting for
+Vietnamese infographic VQA by requiring models to coor-
+dinate text understanding, layout structure, and visual evi-
+dence, often across multiple related images. Our results in-
+dicate that contemporary VLMs handle extractive, Single-
+image questions comparatively well, yet they struggle when
+arithmetic, multi-step synthesis, or cross-image aggregation
+is required. This gap suggests that current pipelines, which
+typically rely on shallow OCR-language fusion, lack explicit
+mechanisms for layout-aware reasoning and information in-
+tegration across documents (e.g., memory over sets, retrieval
+and alignment, or planning-based composition).
+A second challenge concerns evaluation. While ANLS
+is robust to minor orthographic variation, it does not fully
+capture semantic correctness, numerical exactness, ground-
+ing faithfulness, or calibration, limitations that are especially
+salient for non-extractive and Multi-image questions. Future
+evaluations should complement ANLS with task-specific
+measures (e.g., exact/relative numeric accuracy, unit nor-
+malization), faithfulness/attribution checks, and targeted hu-
+man assessment for ambiguous cases. Finally, although our
+dataset covers diverse topics within Vietnamese infograph-
+ics, extending to multilingual and cross-lingual settings, au-
+diting source/template biases, and probing domain transfer
+remain important next steps for assessing generalization of
+multimodal systems.
+Conclusion
+We construct ViInfographicVQA, the first Vietnamese
+benchmark for InfographicVQA that jointly evaluates
+Single-image
+comprehension
+and
+Multi-image
+(cross-
+image) reasoning. The dataset is curated from real-world
+infographics under explicit geometry constraints, organized
+into semantically coherent sets, and annotated via a VLM-
+assisted, human-verified pipeline with standardized answer-
+source categories; we further enforce set-level isolation and
+stratified splits to support robust, reproducible evaluation.
+Experiments with recent open-source VLMs show mid-60%
+ANLS on Single-image questions, especially for image-
+/question-span answers, yet a substantial drop of about
+12-32 ANLS points for Multi-image and non-span rea-
+soning, highlighting cross-image synthesis as a key bot-
+tleneck. Ablation results indicate that targeted fine-tuning
+on Multi-image supervision improves cross-image perfor-
+mance, while joint training on both Single-image and Multi-
+image data yields the best overall trade-off. We hope this
+benchmark catalyzes progress on layout-aware modeling,
+tool-augmented arithmetic and table/chart reasoning, data-
+efficient adaptation without rationale leakage, and richer
+evaluation protocols that complement ANLS with faithful-
+ness and calibration measures for reliable, real-world multi-
+modal reasoning.
+
+
+References
+Abouelenin, A.; Ashfaq, A.; Atkinson, A.; Awadalla, H.;
+Bach, N.; Bao, J.; Benhaim, A.; Cai, M.; Chaudhary, V.;
+Chen, C.; et al. 2025. Phi-4-mini technical report: Compact
+yet powerful multimodal language models via mixture-of-
+loras. arXiv preprint arXiv:2503.01743.
+Antol, S.; Agrawal, A.; Lu, J.; Mitchell, M.; Batra, D.; Zit-
+nick, C. L.; and Parikh, D. 2015. Vqa: Visual question an-
+swering. In Proceedings of the IEEE international confer-
+ence on computer vision, 2425–2433.
+Baechler, G.; Sunkara, S.; Wang, M.; Zubach, F.; Mansoor,
+H.; Etter, V.; C˘arbune, V.; Lin, J.; Chen, J.; and Sharma, A.
+2024. Screenai: A vision-language model for ui and info-
+graphics understanding. arXiv preprint arXiv:2402.04615.
+Bai, S.; Chen, K.; Liu, X.; Wang, J.; Ge, W.; Song, S.; Dang,
+K.; Wang, P.; Wang, S.; Tang, J.; et al. 2025. Qwen2. 5-vl
+technical report. arXiv preprint arXiv:2502.13923.
+Biten, A. F.; Tito, R.; Mafla, A.; Gomez, L.; Rusinol, M.;
+Valveny, E.; Jawahar, C.; and Karatzas, D. 2019. Scene text
+visual question answering. In Proceedings of the IEEE/CVF
+international conference on computer vision, 4291–4301.
+Deitke, M.; Clark, C.; Lee, S.; Tripathi, R.; Yang, Y.; Park,
+J. S.; Salehi, M.; Muennighoff, N.; Lo, K.; Soldaini, L.; et al.
+2025. Molmo and pixmo: Open weights and open data for
+state-of-the-art vision-language models. In Proceedings of
+the Computer Vision and Pattern Recognition Conference,
+91–104.
+Ding, C.; Bian, M.; Chen, P.; Zhang, H.; Li, T.; Liu, L.;
+Chen, J.; Li, Z.; Zhong, Y.; Liu, Y.; et al. 2025. Building
+a Human-Verified Clinical Reasoning Dataset via a Human
+LLM Hybrid Pipeline for Trustworthy Medical AI. arXiv
+preprint arXiv:2505.06912.
+Ding, Y.; Luo, S.; Chung, H.; and Han, S. C. 2023. PDF-
+VQA: A New Dataset for Real-World VQA on PDF Docu-
+ments. In Machine Learning and Knowledge Discovery in
+Databases: Applied Data Science and Demo Track: Euro-
+pean Conference, ECML PKDD 2023, Turin, Italy, Septem-
+ber 18–22, 2023, Proceedings, Part VI, 585–601. Berlin,
+Heidelberg: Springer-Verlag. ISBN 978-3-031-43426-6.
+Doan, K. T.; Huynh, B. G.; Hoang, D. T.; Pham, T. D.;
+Pham, N. H.; Nguyen, Q.; Vo, B. Q.; and Hoang, S. N. 2024.
+Vintern-1B: an efficient multimodal large language model
+for Vietnamese. arXiv preprint arXiv:2408.12480.
+Google Cloud. 2025. Gemini 2.0 Flash. Vertex AI Docu-
+mentation. Accessed: 2025-09-27.
+Goyal, Y.; Khot, T.; Summers-Stay, D.; Batra, D.; and
+Parikh, D. 2017. Making the v in vqa matter: Elevating the
+role of image understanding in visual question answering.
+In Proceedings of the IEEE conference on computer vision
+and pattern recognition, 6904–6913.
+Kafle, K.; Price, B.; Cohen, S.; and Kanan, C. 2018. DVQA:
+Understanding Data Visualizations via Question Answer-
+ing . In 2018 IEEE/CVF Conference on Computer Vision
+and Pattern Recognition (CVPR), 5648–5656. Los Alami-
+tos, CA, USA: IEEE Computer Society.
+Kahou, S. E.; Atkinson, A.; Michalski, V.; Kadar, A.;
+Trischler, A.; and Bengio, Y. 2017. FigureQA: An Anno-
+tated Figure Dataset for Visual Reasoning. arXiv preprint
+arXiv:1710.07300.
+Li, Z.; Guo, Y.; Li, D.; Guo, X.; Li, B.; Xiao, L.; Qiao, S.;
+Chen, J.; Wu, Z.; Zhang, H.; Shu, X.; and Liu, S. 2025.
+ChartGalaxy: A Dataset for Infographic Chart Understand-
+ing and Generation. arXiv preprint arXiv:2505.18668.
+Lin, M.; Xie, T.; Liu, M.; Ye, Y.; Chen, C.; and Liu, S.
+2025. InfoChartQA: A Benchmark for Multimodal Ques-
+tion Answering on Infographic Charts.
+arXiv preprint
+arXiv:2505.19028.
+Lu, S.; Li, Y.; Xia, Y.; Hu, Y.; Zhao, S.; Ma, Y.; Wei, Z.;
+Li, Y.; Duan, L.; Zhao, J.; et al. 2025. Ovis2. 5 Technical
+Report. arXiv preprint arXiv:2508.11737.
+Luu-Thuy Nguyen, N.; Nguyen, N. H.; T.D. Vo, D.; Tran,
+K. Q.; and Nguyen, K. V. 2023. EVJVQA CHALLENGE:
+MULTILINGUAL VISUAL QUESTION ANSWERING.
+Journal of Computer Science and Cybernetics, 237–258.
+Masry, A.; Islam, M. S.; Ahmed, M.; Bajaj, A.; Kabir, F.;
+Kartha, A.; Laskar, M. T. R.; Rahman, M.; Rahman, S.;
+Shahmohammadi, M.; Thakkar, M.; Parvez, M. R.; Hoque,
+E.; and Joty, S. 2025. ChartQAPro: A More Diverse and
+Challenging Benchmark for Chart Question Answering. In
+Che, W.; Nabende, J.; Shutova, E.; and Pilehvar, M. T., eds.,
+Findings of the Association for Computational Linguistics:
+ACL 2025, 19123–19151. Vienna, Austria: Association for
+Computational Linguistics. ISBN 979-8-89176-256-5.
+Masry, A.; Long, D. X.; Tan, J. Q.; Joty, S.; and Hoque,
+E. 2022. ChartQA: A Benchmark for Question Answering
+about Charts with Visual and Logical Reasoning. In Mure-
+san, S.; Nakov, P.; and Villavicencio, A., eds., Findings of
+the Association for Computational Linguistics: ACL 2022,
+2263–2279. Dublin, Ireland: Association for Computational
+Linguistics.
+Mathew, M.; Bagal, V.; Tito, R.; Karatzas, D.; Valveny, E.;
+and Jawahar, C. 2022. Infographicvqa. In Proceedings of the
+IEEE/CVF Winter Conference on Applications of Computer
+Vision, 1697–1706.
+Mathew, M.; Karatzas, D.; and Jawahar, C. 2021. Docvqa: A
+dataset for vqa on document images. In Proceedings of the
+IEEE/CVF winter conference on applications of computer
+vision, 2200–2209.
+Methani, N.; Ganguly, P.; Khapra, M. M.; and Kumar, P.
+2020.
+PlotQA: Reasoning over Scientific Plots . In 2020
+IEEE Winter Conference on Applications of Computer Vi-
+sion (WACV), 1516–1525. Los Alamitos, CA, USA: IEEE
+Computer Society.
+Nguyen, N. H.; Vo, D. T.; Van Nguyen, K.; and Nguyen,
+N. L.-T. 2023. OpenViVQA: Task, dataset, and multimodal
+fusion models for visual question answering in Vietnamese.
+Inf. Fusion, 100(C).
+Pham, H. Q.; Nguyen, T. K.-B.; Van Nguyen, Q.; Tran,
+D. Q.; Nguyen, N. H.; Van Nguyen, K.; and Nguyen, N.
+L.-T. 2025. ViOCRVQA: novel benchmark dataset and Vi-
+sionReader for visual question answering by understanding
+Vietnamese text in images. Multimedia Syst., 31(2).
+
+
+Singh, A.; Natarajan, V.; Shah, M.; Jiang, Y.; Chen, X.; Ba-
+tra, D.; Parikh, D.; and Rohrbach, M. 2019. Towards vqa
+models that can read. In Proceedings of the IEEE/CVF con-
+ference on computer vision and pattern recognition, 8317–
+8326.
+Tanaka, R.; Nishida, K.; and Yoshida, S. 2021. VisualMRC:
+Machine Reading Comprehension on Document Images. In
+Proceedings of the AAAI Conference on Artificial Intelli-
+gence, volume 35, 13878–13888.
+Tran, K. Q.; Nguyen, A. T.; Le, A. T.-H.; and Van Nguyen,
+K. 2021. ViVQA: Vietnamese visual question answering.
+In Proceedings of the 35th Pacific Asia Conference on Lan-
+guage, Information and Computation, 683–691.
+Tran, K. V.; Phan, H. P.; Van Nguyen, K.; and Nguyen, N.
+L. T. 2024. ViCLEVR: a visual reasoning dataset and hybrid
+multimodal fusion model for visual question answering in
+Vietnamese. Multimedia Syst., 30(4).
+Van Nguyen, Q.; Tran, D. Q.; Pham, H. Q.; Nguyen, T. K.-
+B.; Nguyen, N. H.; Van Nguyen, K.; and Nguyen, N. L.-T.
+2024. Vitextvqa: A large-scale visual question answering
+dataset for evaluating vietnamese text comprehension in im-
+ages. arXiv preprint arXiv:2404.10652.
+Wang, W.; Gao, Z.; Gu, L.; Pu, H.; Cui, L.; Wei, X.; Liu, Z.;
+Jing, L.; Ye, S.; Shao, J.; et al. 2025. InternVL3. 5: Advanc-
+ing Open-Source Multimodal Models in Versatility, Reason-
+ing, and Efficiency. arXiv preprint arXiv:2508.18265.
+Wang, Z.; Xia, M.; He, L.; Chen, H.; Liu, Y.; Zhu, R.; Liang,
+K.; Wu, X.; Liu, H.; Malladi, S.; et al. 2024.
+Charxiv:
+Charting gaps in realistic chart understanding in multimodal
+llms. Advances in Neural Information Processing Systems,
+37: 113569–113697.
+Yao, Y.; Yu, T.; Zhang, A.; Wang, C.; Cui, J.; Zhu, H.; Cai,
+T.; Li, H.; Zhao, W.; He, Z.; et al. 2024.
+MiniCPM-V:
+A GPT-4V Level MLLM on Your Phone. arXiv preprint
+arXiv:2408.01800.
+Zhang, B.; Li, K.; Cheng, Z.; Hu, Z.; Yuan, Y.; Chen, G.;
+Leng, S.; Jiang, Y.; Zhang, H.; Li, X.; Jin, P.; Zhang, W.;
+Wang, F.; Bing, L.; and Zhao, D. 2025.
+VideoLLaMA
+3: Frontier Multimodal Foundation Models for Image and
+Video Understanding. arXiv preprint arXiv:2501.13106.
+
+
+Appendix A. Prompt Templates
+To ensure reproducibility, we provide the exact prompt templates used for VLM-assisted QA pair generation. These include
+rule-based templates for Single-image tasks and structured templates for Multi-image tasks.
+Category
+Prompt Template
+Single-image– Image-span
+You are given an infographic image. Your task is to generate 2–3 factual question–answer (QA)
+pairs whose answers are verbatim spans visible in the image.
+Your answer should be a single word, number, or phrase exactly as it appears in the infographic.
+Do not infer or paraphrase. The output format should be [’Answer’]
+Remember to generate the final answer only without any additional text.
+Image: <image>
+Single-image– Question-span
+You are given an infographic image. Your task is to generate 2–3 multiple-choice question–answer
+(QA) pairs where each question explicitly lists several options within the question text.
+The answer must be exactly one option, verbatim, from the provided list of options. Do not para-
+phrase or infer beyond what is written. The output format should be [’Answer’].
+Make sure each question lists explicit options, the answer matches exactly one of them without
+paraphrasing or multiple selections, and output only the final answer without any extra text.
+Image: <image>
+Single-image– Multi-span
+You are given an infographic image. Your task is to generate 2–3 question–answer (QA) pairs where
+each answer consists of two or more non-contiguous text segments, all appearing verbatim in the
+infographic.
+The question should be a single sentence that clearly instructs how to select these segments (not
+two separate questions). Each text segment in the answer must be copied exactly as it appears in
+the image, without merging, paraphrasing, or adding connective words.
+The output format should be an array of strings or a single string with a consistent delimiter (e.g.,
+[’Answer1’, ’Answer2’]).
+Remember to generate the final answer only without any additional text.
+Image: <image>
+Single-image– Non-extractive
+You are given an infographic image. Your task is to generate 2–3 question–answer (QA) pairs where
+each answer is not directly extractable from the image but must be computed or inferred using the
+information shown.
+The final answer must be a single numeric value (integer, decimal, or percentage). Do not provide
+textual explanations or multiple values. Ensure that the question requires reasoning or calculation
+and that the final value is not explicitly written in the infographic.
+The output format should be [’Numeric answer’].
+Remember to generate the final numeric answer only without any additional text.
+Image: <image>
+Multi-image– Multi-image span
+You are given a set of related infographic images. Write 2 QAs whose answers combine textual
+spans from at least two images under a logical condition.
+Your answer should list the merged spans exactly as they appear across images. Use brackets for
+multiple items: [’Answer1’,’Answer2’]. Do not explain.
+Remember to generate the final answer only without any additional text.
+Images: <image1>, <image2>
+Multi-image– Cross-image synthesis
+You are given a set of related infographic images. Write 2 QAs that require comparing, aligning, or
+interpreting information across images to reach a conclusion.
+Your answer should be concise and directly supported by the visuals. Include units as shown if
+applicable. Do not generate reasoning steps or explanations.
+Remember to generate the final answer only without any additional text.
+Images: <image1>, <image2>
+Multi-image– Non-span numeric
+You are given a set of related infographic images. Write 2 QAs requiring numerical operations such
+as sum, difference, or average computed across the images.
+Your answer should be a single number or short phrase with the exact unit shown (e.g., million, B,
+K). Do not show calculation steps.
+Remember to generate the final answer only without any additional text.
+Images: <image1>, <image2>
+Table 6: Prompt templates used for VLM-assisted QA generation and verification across Single-image and Multi-image tasks.

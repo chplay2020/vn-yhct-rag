@@ -1,0 +1,17 @@
+ĐƯỜNG DẪN THU THẬP DỮ LIỆU
+* HerbMaterial.csv: Dược liệu
+Lấy danh sách dược liệu: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-15-VBHN-BYT-2025-Thong-tu-thuoc-dong-y-thuoc-pham-vi-thanh-toan-quy-bao-hiem-y-te-669882.aspx
+Bổ sung Tính Vị / Quy Kinh / Công dụng: https://duocdienvietnam.com/
+* Tra cứu một số dược liệu:
+https://trungtamthuoc.com/
+https://www.yhct.vn/vi-thuoc-y-hoc-co-truyen
+* Formula.csv: Bài thuốc
+Kham khảo danh sách: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-15-VBHN-BYT-2025-Thong-tu-thuoc-dong-y-thuoc-pham-vi-thanh-toan-quy-bao-hiem-y-te-669882.aspx
+Kham khảo: https://ydct.moh.gov.vn/static/files/uploads/cb6139c812419edf247b25207c0d868e6f29db5dbc4ec7358e1995f6ccbcde8e.pdf#page=20.08
+Kham khảo: https://duocdienvietnam.com/thuoc-co-truyen/
+https://nhathuocngocanh.com/
+* SyndromePattern.csv: Chứng / Biện chứng
+Kham khảo: https://bvydct-phcnag.vn/y-duoc-co-truyen/phac-do-dieu-tri-y-hoc-co-truyen-338480
+https://ydct.moh.gov.vn/static/files/uploads/cb6139c812419edf247b25207c0d868e6f29db5dbc4ec7358e1995f6ccbcde8e.pdf#page=20.08
+* TherapeuticPrinciple.csv: Phép trị
+https://ydct.moh.gov.vn/static/files/uploads/cb6139c812419edf247b25207c0d868e6f29db5dbc4ec7358e1995f6ccbcde8e.pdf#page=20.0

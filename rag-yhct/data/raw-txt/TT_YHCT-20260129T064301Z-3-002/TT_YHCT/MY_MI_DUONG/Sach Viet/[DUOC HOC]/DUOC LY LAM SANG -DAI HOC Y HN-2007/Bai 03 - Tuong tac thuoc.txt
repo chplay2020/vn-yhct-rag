@@ -1,0 +1,278 @@
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 3: tương tác thuốc
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được tương tác dược lực học và dược động học.
+2. Trình bày được hiệu quả và áp dụng của tương tác thuốc.
+1.Tương tác thuốc- thuốc
+Nhiều thuốc khi cho dùng cùng một lúc sĩ có tác dụng qua lại lẫn nhau, được gọi là tương tác
+thuốc. Trong lâm sàng, thầy thuốc muốn phối hợp thuốc để làm tăng tác dụng điều trị, giảm các
+tác dụng không mong muốn. Song trong thực tế, nhiều khi không đạt được như thế. Vì vậy, khi
+kê đơn có từ 2 thuốc trở lên, thầy thuốc rất cần hiểu rõ sự tương tác giữa chúng.
+1.1.
+Tương tác dược lực học
+Là tương tác tại các receptor, mang tính đặc hiệu
+1.1.1. Tương tác trên cùng receptor: tương tác cạnh tranh
+Thường làm giảm hoặc mất tác dụng của chất đồng vận (a gonist), do chất đối kháng (antagonist)
+có ái lực với receptor hơn nên ngăn cản chất đồng vận gắn vào receptor: atropin kháng
+acetylcholin và pilocarpin tại receptor M; nalorphin kháng morphin tại receptor của morphin;
+cimetidin kháng histamin tại receptor  H2.
+Thuốc cùng nhóm có cùng cơ chế tác dụng, khi dùng chung tác dụng không tăng bằng tăng liều
+của một thuốc  mà độc tính lại tăng hơn: CVKS, aminosid với dây VIII.
+1.1.2. Tương tác trên các receptor khác nhau: tương tác chức phận.
+- Có cùng đích tác dụng: do đó làm tăng hiệu quả điều trị.
+Thí dụ: trong điều trị bệnh cao huyết áp, phối hợp thuốc giãn mạch, an thần và lợi tiểu; trong điều
+trị lao, phối hợp nhiều kháng sinh (DOTS) để tiêu diệt vi khuẩn ở các vị trí và các giai đoạn phát
+triển khác nhau.
+- Có đích tác dụng đối lập, gây ra được chức phận đối lập, dùng để điều trị nhiễm độc: strychnin
+liều cao, kích thích tủy sống gây co cứng cơ, cura do ức chế dẫn truyền ở tấm vận động, làm mềm
+cơ; histamin tác động trên receptor H 1 gây giãn mạch, tụt huyết áp, trong khi noradrenalin tác
+động lên receptor 1 gây co mạch, tăng huyết áp.
+1.2.
+Tương tác dược động học
+Là các tương tác ảnh hưởng lẫn nhau thông qua các quá trình hấp thu, phân phối, chuyển hóa và
+thải trừ vì thế nó không mang tính đặc hiệu.
+1.2.1. Thay đổi sự hấp thu của thuốc
+- Do thay đổi độ ion hóa của thuốc:
+Như ta đã biết, chỉ những phần không ion hóa của thuốc mới dễ dàng qua được màng sinh học vì
+dễ phân tán hơn trong lipid. Độ phân ly của thuốc phụ thuộc vào hằng số pKa của thuốc và pH
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+của môi trường. Các thuốc có bản chất acid yếu (như aspirin) sĩ hấp thu tốt trong môi trường acid
+(dạ dày), nếu ta trung hòa acid của dịch vị thì sự hấp thu aspirin ở dạ dày sĩ giảm đi.
+- Với các thuốc dùng theo đường uống: khi dùng với thuốc làm thay đổi nhu động ruột sĩ làm
+thay đổi thời gian lưu giữ thuốc trong ruột, thay đổi sự hấp thu của thuốc qua ruột. Mặt khác các
+thuốc dễ tan trong lipid, khi dùng cùng với parafin (hoặc thức ăn có mì) sĩ làm tăng hấp thu.
+- Với các thuốc dùng theo đường tiêm bắp, dưới da: procain là thuốc t ê, khi trộn với adrenalin là
+thuốc co mạch thì procain sĩ chậm bị hấp thu vào máu do đó thời gian gây tê sĩ được kéo dài.
+Insulin trộn với protamin và kĩm (protemin - zinc- insulin- PZI) sĩ làm kéo dài thời gian hấp thu
+insulin vào máu, kéo dài tác dụng hạ đường huyết của insulin.
+- Do tạo phức, thuốc sĩ khó được hấp thu:
+Tetracyclin tạo phức với Ca ++ hoặc các cation kim loại khác ở ruột, bị giảm hấp thu.
+Cholestyramin làm tủa muối mật, ngăn cản hấp thu lipid, dùng làm thuốc hạ cholesterol máu.
+- Do cản trở cơ học: Sucralfat, smecta, maaloc (Al 3+) tạo màng bao niêm mạc đường tiêu hóa, làm
+khó hấp thu các thuốc khác.
+Để tránh sự tạo phức hoặc cản trở hấp thu, 2 thuốc nên uống cách nhau ít nhất 2 giờ.
+1.2.2. Thay đổi sự phân bố thuốc
+Đó là tương tác trong quá trình gắn thuốc vào protein huyết tương. Nhiều thuốc, nhất là thuốc
+loại acid yếu, gắn thuận nghịch với protein (albumin, globulin) sĩ có sự tranh chấp, phụ thuộc
+vào ái lực và nồng độ của thuốc trong huyết tương. Chỉ có thuốc ở dạng tự do mới có tác dụng
+dược lý. Vì vậy, tương tác này đặc biệt có ý nghĩa với thuốc có tỷ lệ gắn vào protein huyết tương
+cao (trên 90%) và có phạm vi điều trị hẹp như:
+. Thuốc chống đông máu loại kháng vitamin K: dicumarol, warfarin
+. Sulfamid hạ đường huyết: tolbutamid, clopropamil
+. Thuốc chống ung thư, đặc biệt là methotrexat
+Tất cả đều bị các thuốc chống viêm phi steroid dễ dàng đẩy khỏi protein huyết tương, có thể gây
+nhiễm độc.
+1.2.3. Thay đổi chuyển hóa
+Nhiều thuốc bị chuyển hóa ở gan do các enzym chuyển hóa thuốc của microsom ga n (xin xem
+phần dược động học). Những enzym này lại có thể được tăng hoạt tính (gây cảm ứng) hoặc bị ức
+chế bởi các thuốc khác. Do đó sĩ làm giảm t/2, giảm hiệu lực (nếu là thuốc gây cảm ứng enzym)
+hoặc làm tăng t/2, tăng hiệu lực (nếu là thuốc ức chế enzy m) của thuốcdùng cùng.
+- Các thuốc gây cảm ứng (inductor) enzym gan: phenobarbital, phenytoin, carbamazepin,
+griseofulvin, rifampicin...
+- Các thuốc ức chế (inhibitor) enzym gan: allopurinol, cloramphenicol, cimetidin, MAOI,
+erythromycin, isoniazid, dicumarol.
+Các thuốc hay phối hợp với các loại trên thường gặp là các hormon (thyroid, corticoid, estrogen),
+thuốc chống động kinh, thuốc hạ đường huyết, thuốc tim mạch.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Phụ nữ đang dùng thuốc tránh thai uống, nếu bị lao dùng thêm rifampicin, hoặc bị động kinh
+dùng phenytoin, có thể sĩ bị "vì kế hoạch" do estrogen trong thuốc tránh thai bị giảm hiệu quả vì
+bị chuyển hóa nhanh, hàm lượng trở nên thấp.
+1.2.4. Thay đổi thải trừ thuốc
+Thải trừ (elimination) thuốc gồm 2 quá trình là chuyển hóa thuốc ở gan (đã nói ở phần trên ) và
+bài xuất (excretion) thuốc qua thận. Nếu thuốc bài xuất qua thận ở dạng còn hoạt tính thì sự tăng/
+giảm bài xuất sĩ có ảnh hưởng đến tác dụng của thuốc.
+- Thay đổi pH của nước tiểu: khi một thuốc làm thay đổi pH của nước tiểu, sĩ làm thay đổi độ ion
+hóa của thuốc dùng kìm, làm thay đổi độ bài xuất của thuốc. Thí dụ barbital có pKa = 7,5; ở pH
+= 7,5 thì 50% thuốc bị ion hóa; ở pH = 6,5 thì chỉ có 9% bị ion hóa ở pH = 9,5 thì 91% barbital bị
+ion hóa. Vì vậy, khi ngộ độc các thuốc barbiturat, truyền dịch NaHCO3 để base hóa nước tiểu sĩ
+tăng bài xuất barbiturat.
+Các thuốc là acid yếu (vitamin C, amoni clorid) dùng liều cao, làm acid hóa nước tiểu sĩ làm tăng
+thải trừ thuốc loại alcaloid (quinin, morphin).
+- Bài xuất tranh chấp tại ống thận: do 2 chất cùng  có cơ chế bài xuất chung tại ống thận nên tranh
+chấp nhau, chất này làm giảm bài xuất chất khác. Dùng probenecid sĩ làm chậm thải trừ
+penicilin, thiazid làm giảm thải trừ acid uric nên có thể gây bệnh gut.
+1.3.
+Kết quả và ý nghĩa của tương tác thuốc
+1.3.1. Tác dụng hiệp đồng
+Thuốc A có tác dụng là a, thuốc B có tác dụng là b. Khi kết hợp thuốc A với thuốc B có tác dụng
+c. Nếu
+c = a + b, ta có hiệp đồng cộng (additive effect)
+c > a + b, ta có hiệp đồng tăng mức (synergysm)
+Hiệp đồng cộng thường không được dùng ở lâm sà ng vì nếu cần thì tăng liều thuốc chứ không
+phối hợp thuốc.
+Hiệp đồng tăng mức thường dùng trong điều trị để làm tăng tác dụng điều trị và làm giảm tác
+dụng phụ, tác dụng độc hại. Hai thuốc có hiệp đồng tăng mức có thể qua tương tác dược động
+học (tăng hấp thu, giảm thải trừ) hoặc tương tác dược lực học (trực tiếp hoặc gián tiếp qua
+receptor)
+1.3.2. Tác dụng đối kháng
+Như trong định nghĩa trên, nhưng khi tác dụng c của thuốc A + B lại nhỏ hơn tác dụng cộng của
+từng thuốc (c < a + b) ta gọi là tác dụng đối kháng. Đối kháng có thể chỉ một phần (partial
+antagonism) khi c < a + b, nhưng cũng có thể đối kháng hoàn toàn khi a làm mất hoàn toàn tác
+dụng của b.
+Trong lâm sàng, thường dùng tác dụng đối kháng để giải độc.
+- Đối kháng có thể xẩy ra ở ngoài cơ thể, gọi là tươ ng kỹ (incompatibility), một loại tương tác
+thuần túy lý hóa:
++ Acid gặp base: tạo muối không tan. Không tiêm kháng sinh loại acid (nhóm  lactam) vào ống
+dẫn dịch truyền có tính base.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
++ Thuốc oxy hóa (vitamin C, B 1, penicilin) không trộn với thuốc oxy kh ử (vitamin B2)
++ Thuốc có bản chất là protein (insulin, heparin) khi gặp muối kim loại sĩ dễ kết tủa.
++ Than hoạt, tanin hấp phụ hoặc làm kết tủa nhiều alcaloid (quinin, atropin) và các muối kim loại
+(Zn, Pb, Hg...)
+- Đối kháng xẩy ra ở trong cơ thể:
+Khi thuốc A làm giảm nồng độ của thuốc B trong máu (qua dược động học) hoặc làm giảm tác
+dụng của nhau (qua dược lực học), ta gọi là đối kháng (antagonism)
+Về dược lực học, cơ chế của tác dụng đối kháng có thể là:
++ Tranh chấp trực tiếp tại receptor: phụ thuộc vào ái lực và nồng độ của thuốc tại receptor. Thí
+dụ: acetylcholin và atropin tại receptor M - cholinergic; histamin và cimetidin trên receptor H 2 ở
+dạ dầy.
++ Đối kháng chức phận: hai chất đồng vận (agonist) tác dụng trên 2 receptor khác nhau nhưng
+chức phận lại đối kháng trên cùng một cơ quan. Strychnin kích thích tuỷ sống, gây co giật; cura
+ức chế dẫn truyền ở tấm vận động, gây mềm cơ, chống được co giật. Histamin kích thích receptor
+H1 làm co cơ trơn khí quản, gây hen; albuterol (Ventolin), kích thích rec eptor 2 adrenergic làm
+giãn cơ trơn khí quản, dùng điều trị cơn hen.
+1.3.3. Đảo ngược tác dụng
+Adrenalin vừa có tác dụng kích tích receptor  adrenergic (co mạch, tăng huyết áp), vừa có tác
+dụng kích thích receptor  adrenergic (giãn mạch, hạ huyết áp). Khi dùng  một mình, do tác dụng
+ mạnh hơn  nên adrenelin gây tăng huyết áp. Khi dùng phentolamin (Regitin) là thuốc ức chế
+chọn lọc receptor  rồi mới tiêm adrenalin thì do chỉ kích thích được receptor  nên adrenelin
+gây hạ huyết áp, tác dụng bị đảo ngược.
+ý nghĩa của tương tác thuốc
+Trong lâm sàng, thầy thuốc dùng thuốc phối hợp với mục đích:
+- Làm tăng tác dụng của thuốc chính (hiệp đồng tăng mức)
+- Làm giảm tác dụng không mong muốn của thuốc điều trị
+- Giải độc (thuốc đối kháng, thuốc làm tăng thải trừ, giảm hấp thu, trung hòa...)
+- Làm giảm sự quen thuốc và kháng thuốc
+Tuy nhiên, nếu không hiểu rõ tác dụng phối hợp, thầy thuốc có thể làm giảm tác dụng điều trị
+hoặc tăng tác dụng độc của thuốc. Trong các sách hướng dẫn dùng thuốc, thường có mục tương
+tác của từng thuốc.
+2.
+Tương tác thuốc- thức ăn- đồ uống
+2.1.
+Tương tác thuốc- thức ăn:
+Thường hay gặp là thức ăn làm thay đổi dược động học của thuốc.
+2.1.1. Thức ăn làm thay đổi hấp thu thuốc:
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Sự hấp thu phụ thuộc vào thời gian rỗng của dạ dày. Dạ dày không phải là nơi có ch ức năng hấp
+thu của bộ máy tiêu hóa. Tuy nhiên, do pH rất acid (khi đói, pH  1; khi no pH  3) cho nên cần
+lưu ý:
++ Uống thuốc lúc đói, thuốc chỉ giữ lại trong dạ dày khoảng 10 - 30 phút.
++ Uống thuốc vào lúc no, thuốc bị giữ lại trong dạ dày khoảng 1 - 4 giờ, do đó:
+. Những thuốc ít tan sĩ có thời gian để tan, khi xuống ruột sĩ được hấp thu nhanh hơn (penicilin
+V). Tuy nhiên, những thuốc dễ tạo phức với những thành phần của thức ăn sĩ bị giảm hấp thu
+(tetracyclin tạo phức với Ca ++ và một số cation hoá trị 2 khác).
+. Các thuốc kém bền trong môi trường acid (ampicilin, erythromycin) nếu bị giữ lâu ở dạ dày sĩ
+bị phá huỷ nhiều.
+. Viên bao tan trong ruột sĩ bị vì (cần uống trước bữa ăn 0,5 - 1h hoặc sau bữa ăn 1- 2 giờ)
+. Những thuốc dễ kích ứng đường tiêu hóa, n ên uống vào lúc no.
+- Sự hấp thu còn phụ thuộc vào dạng bào chế: aspirin viên nén uống sau khi ăn sĩ giảm hấp thu
+50%, trong khi viên sủi bọt lại được hấp thu hoàn toàn.
+2.1.2. Thức ăn làm thay đổi chuyển hóa và thải trừ thuốc
+Thức ăn có thể ảnh hưởng đến enzym c huyển hóa thuốc của gan, ảnh hưởng đến pH của nước
+tiểu, và qua đó ảnh hưởng đến chuyển hóa và bài xuất thuốc. Tuy nhiên, ảnh hưởng không lớn.
+Ngược lại, thuốc có thể ảnh hưởng đến chuyển hóa một số chất trong thức ăn. Thuốc ức chế
+enzym mono- amin- oxydase (MAOI) như iproniazid- là enzym khử amin- oxy hóa của nhiều
+amin nội, ngoại sinh- có thể gây cơn tăng huyết áp kịch phát khi ăn các thức ăn có nhiều tyramin
+(như không được chuyển hóa kịp, làm giải phóng nhiều noradrenalin của hệ giao cảm trong thời
+gian ngắn.
+2.2.
+Tương tác thức ăn đồ uống
+2.2.1. Nước
+- Nước là đồ uống (dung môi) thích hợp nhất cho mọi loại thuốc vì không xẩy ra tương kỹ khi
+hòa tan thuốc.
+- Nước là phương tiện để dẫn thuốc (dạng viên) vào dạ dày - ruột, làm tăng tan rã và hòa tan hoạt
+chất, giúp hấp thu dễ dàng. Vì vậy cần uống đủ nước (100 - 200 mL cho mỗi lần uống thuốc) để
+tránh đọng viên thuốc tại thực quản, có thể gây kích ứng, loét.
+- Đặc biệt cần chú ý:
++ Uống nhiều nước trong quá trình dùng thuốc (1,5 - 2 l/ ngày) để làm tăng tác dụng của thuố c
+(các loại thuốc tẩy), để làm tăng thải trừ và làm tan các dẫn xuất chuyển hóa của thuốc (sulfamid,
+cyclophosphamid).
++ Uống ít nước hơn bình thường để duy trì nồng độ thuốc cao trong ruột khi uống thuốc tẩy sán,
+tẩy giun (niclosamid, mebendazol).
++ Tránh dùng nước quả, nước khoáng base hoặc các loại nước ngọt đóng hộp có gas vì các loại
+nước này có thể làm hỏng thuốc hoặc gây hấp thu quá nhanh.
+2.2.2. Sữa
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Sữa chứa calci caseinat. Nhiều thuốc tạo phức với calci của sữa sĩ không được hấp thu
+(tetracyclin, lincomycin, muối Fe...)
+Những thuốc dễ tan trong lipid sĩ tan trong lipid của sữa chậm được hấp thu.
+Protein của sữa cũng gắn thuốc, làm cản trở hấp thu.
+Sữa có pH khá cao nên làm giảm sự kích ứng dạ dày của các thuốc acid.
+2.2.3. Cà phê, chì
+- Hoạt chất cafein trong cà phê, nước chì làm tăng tác dụng của thuốc hạ sốt giảm đau aspirin,
+paracetamol; nhưng lại làm tăng tác dụng phụ như nhức đầu, tăng nhịp tim, tăng huyết áp ở
+những bệnh nhân đang dùng thuốc loại MAOI.
+- Tanin trong chì gây tủa các thuốc có Fe hoặc al caloid
+- Cafein cũng gây tủa aminazin, haloperidol, làm giảm hấp thu; nhưng lại làm tăng hòa tan
+ergotamin, làm dễ hấp thu.
+2.2.4. Rượu ethylic
+Rượu có rất nhiều ảnh hưởng đến thần kinh trung ương, hệ tim mạch, sự hấp thu của đường tiêu
+hóa. Người nghiện rượu còn bị giảm protein huyết tương, suy giảm chức năng gan, nhưng lại gây
+cảm ứng enzym chuyển hóa thuốc của gan (xin xem bào "rượu"), vì thế rượu có tương tác với rất
+nhiều thuốc và các tương tác này đều là bất lợi. Do đó khi đã dùng thuốc thì không uống rượu.
+Với người nghiện rượu cần phải dùng thuốc, thầy thuốc cần kiểm tra chức năng gan, tình trạng
+tâm thần... để chọn thuốc và dùng liều lượng thích hợp, trong thời gian dùng thuốc cũng phải
+ngừng uống rượu.
+3. Thời điểm uống thuốc
+Sau khi nhận rõ được tương tác giữa thuốc- thức ăn- đồ uống, việc chọn thời điểm uống thuốc hợp
+lý để đạt được nồng độ cao trong máu, đạt được hiệu quả mong muốn cao và giảm được tác dụng
+phụ là rất cần thiết.
+Nên nhớ rằng: uống thuốc vào lúc đói, thuốc chỉ bị giữ lại ở dạ dày 10 - 30 phút, với  pH  1;
+uống lúc no (sau ăn), thuốc bị giữ lại 1 - 4 giờ với pH  3,5. Như vậy, tuỵ theo tính chất của thuốc,
+mục đích của điều trị, có một số gợi ý để chọn thời điểm uống thuốc như sau:
+3.1.Thuốc nên uống vào lúc đói (trước bữa ăn 1/2 - 1 giờ)
+- Thuốc "bọc" dạ dày để chữa loét trước khi thức ăn có mặt, như sucralfat.
+- Các thuốc không nên giữ lại lâu trong dạ dày như: các thuốc kém bền vững trong môi trường
+acid (ampicilin, erythromycin), các loại viên bao tan trong ruột hoặc các thuốc giải phóng chậ m.
+3.2.
+Thuốc nên uống vào lúc no (trong hoặc ngay sau bữa ăn)
+- Thuốc kích thích bài tiết dịch vị (rượu khai vị), các enzym tiêu hóa (pancreatin) chống đái tháo
+đường loại ức chế gluconidase nên uống trước bữa ăn 10 - 15 phút.
+- Thuốc kích thích dạ dày, dễ gây viêm loét đường tiêu hóa: các thuốc chống viêm phi steroid,
+muối kali, quinin.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Những thuốc được thức ăn làm tăng hấp thu, hoặc do thức ăn làm chậm di chuyển thuốc nên
+kéo dài thời gian hấp thu: các vitamin, các viên nang amoxicilin, cephalexin, các viên
+nén
+digoxin, sulfamid.
+- Những thuốc được hấp thu quá nhanh lúc đói, dễ gây tác dụng phụ: levodopa, thuốc kháng
+histamin H1.
+3.3. Thuốc ít bị ảnh hưởng bởi thức ăn, uống lúc nào cũng được: prednisolon, theophylin,
+augmentin, digoxin.
+3.4. Thuốc nên uống vào buổi sáng, ban ngày
+- Các thuốc kích thích thần kinh trung ương, các thuốc lợi niệu để tránh ảnh hưởng đến giấc ngủ.
+- Các corticoid: thường uống 1 liều vào 8 giờ sáng để duy trì được nồng độ ổn định trong máu.
+3.5. Thuốc nên uống vào buổi tối, trước khi  đi ngủ.
+- Các thuốc an thần, thuốc ngủ
+- Các thuốc kháng acid, chống loét dạ dày. Dịch vị acid thường tiết nhiều vào ban đêm, cho nên
+ngoài việc dùng thuốc theo bữa ăn, các thuốc kháng acid dùng chữa loét dạ dày nên được uống
+một liều vào trước khi đi ngủ.
+Cần nhớ rằng không nên nằm ngay sau khi uống thuốc, mà cần ngồi 15 - 20 phút và uống đủ nước
+(100- 200 mL nước) để thuốc xuống được dạ dày.
+Dược lý thời khắc (chronopharmacology) đã cho thấy có nhiều thuốc có hiệu lực hoặc độc tính
+thay đổi theo nhịp ngày đêm. Tuy nhiên, trong điều trị, việc cho thuốc còn tuỵ thuộc vào thời
+gian xuất hiện triệu chứng.
+câu hỏi tự lượng giá
+1. Trình bày tương tác dược động học của thuốc.
+2. Trình bày tương tác dược lực học.
+3. Trình bày ý nghĩa và áp dụng lâm sàng của tương tác th uốc.
+4. Trình bày tương tác thuốc với thức ăn và đồ uống.

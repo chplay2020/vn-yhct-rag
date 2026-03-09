@@ -1,0 +1,395 @@
+BỘ Y TẾ 
+VỤ KHOA HỌC VÀ ĐÀO TẠO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DƯỢC LIỆU 
+(Sách dùng đào tạo dược sỹ trung học) 
+ MÃ SỐ: T.60. Z1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NHÀ XUẤT BẢN Y HỌC HÀ NỘI - 2005 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHỦ BIÊN 
+DS. Nguyễn Huy Công 
+ 
+HIỆU ĐÍNH 
+GS. TS. Phạm Thanh Kỳ 
+ 
+THAM GIA BIÊN SOẠN 
+DS. Nguyễn Huy Công 
+DS. Bùi Đức Dũng 
+DS. Đào Đình Hoan 
+ThS. Nguyễn Thị Thanh Nhài 
+ 
+THAM GIA TỔ CHỨC BẢN THẢO 
+ThS. Phí Văn Thâm 
+ 
+© Bản quyền thuộc Bộ Y tế (Vụ Khoa học và Đào tạo) 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+LỜI NÓI ĐẦU 
+ 
+Thực hiện Nghị định 43/2000/NĐ-CP ngày 30/8/2000 của Chính phủ quy định chi tiết và hướng dẫn triển khai Luật 
+Giáo dục, Bộ Y tế đã phê duyệt và ban hành các chương trình khung giáo dục trung học chuyên nghiệp nhóm ngành sức 
+khỏe. Bộ Y tế tổ chức biên soạn bộ tài liệu dạy - học các môn học cơ sở và chuyên môn theo chương trình mới nhằm từng 
+bước xây dựng bộ sách chuẩn trong công tác đào tạo trung học ngành Y tế. 
+Cuốn Dược liệu là một tài liệu dùng cho dạy - học lý thuyết môn Dược liệu trong chương trình giáo dục dược sĩ 
+trung học. Cuốn sách được cấu trúc gồm 2 phần: đại cương về dược liệu học và các cây thuốc - vị thuốc. 
+Phần Đại cương về dược liệu nêu khái quát về môn học Dưọc liệu và mối liên quan của nó với các môn học khác 
+trong chương trình đào tạo dược sĩ trung học; vai trò, vị trí của dược liệu trong ngành dược và quá trình phát triển của 
+nó; những kiến thức cơ bản và chung nhất về thu hái, sơ chế, bảo quản dược liệu; về các hoạt chất thường có trong thành 
+phần hóa học của các vị dược liệu v.v... 
+Phần Các cây thuốc và vị thuốc đã đề cập đến các cây thuốc và vị thuốc thông dụng và có nhiều ở Việt Nam và 
+được sắp xếp theo tác dụng chữa bệnh của các cây thuốc và vị thuốc có nguồn gốc thảo dược. Trong mỗi cây thuốc, vị 
+thuốc đều được viết theo một đề cương thống nhất gồm: Mô tả đặc điểm thực vật, phân bố, bộ phận dùng làm thuốc và 
+cách thu hái, sơ chế, thành phần hóa học chính, công dụng, cách dùng để phòng và chữa bệnh. 
+Ngoài ra, trong nội dung sách còn đề cập một số kiến thức chung nhất về kỹ thuật trồng cây thuốc. 
+Trong mỗi bài đều có: Mục tiêu mà học sinh phải đạt sau khi học, nội dung kiến, thức bài học và các câu hỏi tự 
+lượng giá sau học. 
+Sách được biên soạn dựa theo chương trình đã được Bộ Y tế ban hành Nội dung sách chỉ đề cập những kiến thức 
+lý thuyết về Dược liệu. 
+Năm 2004, cuốn sách đã được Hội đồng chuyên môn thẩm định sách giáo khoa và tài liệu dạy - học của Bộ Y tế 
+thẩm định. Bộ Y tế ban hành làm tài liệu dạy - học chính thức dùng đào tạo dược sĩ trung học của Ngành Y tế trong giai 
+đoạn hiện nay. Trong thời gian từ 3 đến 5 năm, sách cần được chỉnh lý, bổ sung và cập nhật. 
+Vụ Khoa học và Đào tạo, Bộ Y tế xin chân thành cảm ơn Trường Trung học Dược Trung Ương (Hải Dưong) cùng các 
+tác giả đã bỏ nhiều công sức để biên soạn cuốn sách và cảm ơn GS. Phạm Thanh Kỳ đã đóng góp nhiều ý kiến quý báu để 
+hoàn thành cuốn sách này. 
+ 
+VỤ KHOA HỌC VÀ ĐÀO TẠO 
+BỘ Y TẾ 
+ 
+ 
+ 
+
+
+CHƯƠNG TRÌNH MÔN HỌC 
+ 
+ 
+- Mã số môn học: 13 
+- Số tiết học: 120 (60 tiết lý thuyết) 
+- Xếp loại môn học: Môn thi 
+- Hệ số môn học: 5 
+- Thời điểm thực hiện môn học: Học kỳ II năm thứ nhất. 
+ 
+MỤC TIÊU 
+1. 
+Trình bày thành phần, tác dụng của các nhóm hoạt chất thường có trong dược liệu. 
+2. 
+Trình bày các phương pháp thu hái, phơi sấy, chế biến sơ bộ và bảo quản dược liệu. 
+3. 
+Trình bày các tiêu chuẩn chất lượng và kỹ thuật chung trong việc kiểm tra chất lượng dược liệu. 
+4. 
+Mô tả các đặc điểm hình thái thực vật điển hình, bộ phận dùng, cách thu hái, hoạt chất chính, công dụng, cách 
+dùng và bảo quản các cây, con làm thuốc qui định trong Chương trình đào tạo. 
+5. 
+Hướng dẫn trồng và sử dụng được một số cây thuốc thông thường. 
+6. 
+Nhận biết và hướng dẫn sử dụng an toàn, hợp lý các vị dược liệu thiết yếu dùng làm thuốc. 
+ 
+NỘI DUNG 
+STT
+TÊN BÀI HỌC
+SỐ TIẾT
+1
+Đại cương về dược liệu
+2
+2
+Kỹ thuật chung về thu hái, phơi sấy, chế biến sơ bộ và bảo quản dược liệu
+2
+3
+Thành phần và tác dụng của các nhóm hợp chất thường có trong dược 
+10
+4
+Dược liệu có tác dụng an thần, gây ngủ
+2
+5
+Dược liệu chữa cảm cúm, sốt rét
+4
+6
+Dược liệu có tác dụng giảm đau, chữa thấp khớp
+2
+7
+Dược liệu chữa ho, hen
+4
+8
+Dược liệu chữa bệnh tim mạch, cầm máu
+2
+9
+Dược liệu có tác dụng chữa bệnh dạ dày - tá tràng
+2
+10 
+Dược liệu có tác dụng nhuận tràng, tẩy
+2
+11 
+Dược liệu trị giun, sán
+2
+12 
+Dược liệu chữa lỵ
+2
+13 
+Dược liệu có tác dụng kích thích tiêu hóa, chữa tiêu chảy
+2
+14 
+Dược liệu có tác dụng bổ dưỡng
+2
+15 
+Dược liệu có tác dụng tiêu độc
+2
+16 
+Dược liệu chữa bệnh cho phụ nữ
+2
+17 
+DƯợC liệu có tác dụng lợi tiểu
+2
+18 
+Dược liệu có tác dụng nhuận gan, lợi mật
+2
+19 
+Kỹ thuật trồng cây thuốc
+4
+Cộng
+60
+ 
+ 
+ 
+ 
+
+
+MỤC LỤC 
+ 
+PHẦN I. ĐẠI CƯƠNG VỀ DƯỢC LIỆU 
+1. Định nghĩa, tầm quan trọng, lịch sử phát triển cùa môn Dược liệu học 
+2. Kỹ thuật chung về thu hái, phơi sấy, chế biến sơ bộ và bảo quản dược liệu 
+3. Thành phần và tác dụng của các nhóm hợp chất thường có trong dược liệu 
+ 
+PHẦN II. CÁC CÂY THUỐC - VỊ THUỐC 
+4. Dược liệu có lác dụng an thần, gây ngủ 
+5. Dược liệu chữa cảm cúm, sốt rét 
+6. Dược liệu có tác dụng giảm đau, chữa thấp khớp 
+7. Dược liệu chữa ho, hen 
+8. Dược liệu chữa bệnh tim mạch, cầm máu 
+9. Dược liệu có lác dụng chữa bệnh đau dạ dày 
+10. Dược liệu có tác dụng tẩy, nhuận tràng 
+11. Dược liệu trị giun, sán 
+12. Dược liệu chữa lỵ 
+13. Dược liệu có tác dụng kích thích tiêu hóa, chữa tiêu chảy 
+14. Dược liệu có tác dụng bổ dưỡng 
+15. Dược liệu có tác dụng tiêu độc 
+16. Dược liệu chữa bệnh cho phụ nữ 
+17. Dược liệu có tác dụng lợi tiểu 
+18. Dược liệu có tác dụng nhuận gan, lợi mật 
+19. Kỹ thuật trồng cây thuốc 
+ 
+Tài liệu tham khảo 
+ 
+ 
+
+
+PHẦN I 
+ĐẠI CƯƠNG VỀ DƯỢC LIỆU 
+ 
+Bài 1 
+ĐỊNH NGHĨA -TẦM QUAN TRỌNG - LỊCH SỬ PHÁT TRIỂN CỦA MÔN DƯỢC LIỆU HỌC 
+ 
+MỤC TIÊU 
+1. Trình bày được định nghĩa, những nội dung cơ bản về môn học Dược liệu. 
+2. Thấy được tầm quan trọng của môn học dược liệu, trên cơ sở đó rèn luyện ý thức bảo tồn, sử dụng và phát 
+triển nguồn dược liệu phục vụ sự nghiệp bảo vệ và chăm sóc sức khỏe nhân dân. 
+ 
+NỘI DUNG 
+1. Định nghĩa 
+Dược liệu là môn học về những nguyên liệu làm thuốc từ thực vật và động vật hay khoáng vật. 
+2. Mục tiêu, nội dung môn học  
+2.1. Mục tiêu môn học 
+Sau khi học xong môn Dược liệu, học sinh có khả năng: 
+- Trình bày được những nội dung cơ bản về dược liệu; 
+- Mô tả đúng những đặc điểm thực vật các cây thuốc, vị thuốc trong chương trình qui định; 
+- Trình bày được: Bộ phận dùng làm thuốc, cách thu hái, thành phần hóa học chính, công dụng và cách dùng các 
+dược liệu qui định. 
+- Hướng dẫn sử dụng an toàn, hiệu quả các dược liệu để phòng và chữa bệnh cho cộng đồng. 
+2.2. Nội dung môn học 
+Môn Dược liệu là một môn học chuyên ngành, thuộc loại môn thi và là một trong nhũng môn thi tốt nghiệp cuối 
+khóa học. Môn học gồm có hai phần: Lý thuyết và thực hành. 
+2.2.1. Phần lý thuyết 
+Giới thiệu những kiến thức cơ bản nhất về các cây thuốc, các vị thuốc lấy từ thực vật hay động vật trên các mặt: 
+Tên, đặc điểm thực vật, vùng phân bố, bộ phận dùng, thu hái, công dụng, cách dùng và các bài thuốc, dạng thuốc 
+thông dụng được làm từ các dược liệu. 
+2.2.2. Phần thực hành 
+Học sinh sẽ được nhận biết các cây thuốc, vị thuốc thật và các dạng thuốc được sản xuất từ các dược liệu có lưu 
+hành trên thị trường bằng cảm quan. Trên cơ sở đó, rèn luyện kĩ năng sử dụng và hướng dẫn sử dụng đúng, tránh 
+được nhầm lẫn trong thực tế. 
+3. Mối liên quan giữa môn Dược liệu với các môn học khác 
+Môn Dược liệu có mối quan hệ mật thiết với nhiều môn học khác như: Thực vật, Hóa học, Bào chế, Y học cổ 
+truyền... 
+Vì vậy, để học tốt môn Dược liệu, người học cần phải có những kiến thức cơ bản của các môn học khác có liên 
+quan. 
+Thí dụ: 
+-Môn Thực vật giúp người học nghiên cứu và hiểu biết về tên , đặc điểm thực vật của các cây, con làm thuốc. 
+-Môn Hóa học giúp người học có cơ sở để hiểu về thành phần hóa học có chứa trong dược liệu... 
+4.Tầm quan trọng của dược liệu trong ngành Dược 
+
+
+Từ cổ xưa, con người đã biết sử dụng các dược liệu thảo mộc và động vật để làm thuốc phòng và chữa bệnh. Cùng 
+với sự tồn tại và phát triển của lịch sử loài người, những kinh nghiệm nghiên cứu, sử dụng dược liệu để làm thuốc phòng 
+chữa bệnh cũng ngày một phát triển. Dược liệu học là một phần rất quan trọng của nền Y học cổ truyền trước kia, hiện 
+nay cũng như về lâu dài. 
+Ngày nay, loài người đang sống trong thời đại khoa học kĩ thuật hiện đại. Nhiều thuốc mới đã được nghiên cứu, 
+sản xuất bằng kĩ thuật hiện đại đưa vào sử dụng trong phòng chữa bệnh. Nhưng dược liệu và thuốc có nguồn gốc thực 
+vật và động vật (thuốc cổ truyền) vẫn giữ nguyên ý nghĩa và tầm quan trọng của nó. Dược liệu ngày càng được coi trọng 
+trong sự nghiệp Y tế của nhân loại bởi những ưu điểm nổi bật trong công tác phòng bệnh và chữa bệnh, bảo vệ sức khỏe 
+cũng như phát triển kinh tế. Đó là: 
+- Tỷ trọng thuốc làm từ dược liệu hiện nay vẫn chiếm tỷ lệ cao trong ngành dược; 
+- Nhiều hoạt chất dùng sản xuất (dược phẩm hiện đại hiện nay vẫn còn phải chiết xuất từ dược liệu như: Strychnin, 
+Morphin, Berberin, Artemisinin... 
+- Dùng thuốc cổ truyền làm từ dược liệu rất ít độc, rẻ tiền, dễ kiếm mà hiệu quả cao, sử dụng đơn giản, ít tai biến. 
+Nhiều dược liệu quí không những đưa lại lợi ích trong lĩnh vực Y tế mà góp phần mang lại giá trị kinh tế cao; nhiều 
+dược liệu được làm nguyên liệu xuất khẩu thu ngoại tệ mạnh như: Quế, Nhân sâm, Tam thất, Đại hồi, Long nhãn, Mật 
+ong,... 
+Việt Nam nằm trong vùng khí hậu nhiệt đới ẩm có thực vật và động vật làm thuốc rất phong phú và đa dạng. Đây là 
+một kho tài nguyên thiên nhiên hết sức quí giá. Vì vậy, việc bảo tồn, khai thác sử dụng và phát triển nguồn tài nguyên 
+dược liệu là một trong những nhiệm vụ vừa cấp bách vừa lâu dài, không chỉ là trách nhiệm của ngành Y tế mà là trách 
+nhiệm của Đảng, Nhà nước và nhân dân ta. Điều đó sẽ góp phần thực hiện chiến lược phát triển ngành Dược nói riêng và 
+bảo vệ môi trường sinh thái nói chung; Đảm bảo cho đất nước phát triển bền vững. 
+Hiện nay, nhiều dược liệu đã được nghiên cứu và xây dựng thành các chuyên luận đưa vào Dược điển Việt Nam. 
+Bộ Y tế đã đưa 81 thuốc Y học cổ truyền dạng chế phẩm và 60 cây thuốc nam vào trong danh mục thuốc thiết yếu Việt 
+Nam lần thứ IV (năm 2000). Điều đó đã chứng minh cho ý nghĩa và tầm quan trọng của dược liệu trong chiến lược phát 
+triển ngành Dược và sự nghiệp bảo vệ và chăm sóc sức khỏe nhân dân. 
+5. Sơ lược lịch sử phát triển ngành Dược liệu Việt Nam 
+Việt Nam vốn có nền Y học cổ truyền từ lâu đời, gắn liền với nền Y học đó là việc sử dụng các cây con, các khoáng 
+vật làm thuốc (dược liệu) để phòng và chữa bệnh đã có từ rất cổ xưa. 
+Ngay từ thời các vua Hùng, ông cha ta đã biết dùng các cây cỏ đế làm thực phẩm và làm thuốc như: dùng nước Vôi, 
+gừng để trợ giúp tiêu hóa và chống cảm lạnh, ăn trầu, nhuộm răng để bảo vệ răng, dùng sử quân tử để trị giun... 
+Đời Thục phán (An Dương Vương), lương y Thôi Vỹ đã biết dùng Ngải cứu để chữa bệnh (Châm và cứu). 
+Đời nhà Lý đã xuất hiện nhiều Danh y như: Từ Đạo Hạnh và Nguyễn Minh Thông đã biết trồng thuốc nam ở Đại Yên 
+(Hà Nội), Nghĩa Trai (Hung Yên) để dùng phòng và chữa bệnh. 
+Đời nhà Trần đã thành lập Thái y viện ở kinh đô và đã biết tổ chức sưu tầm cây thuốc ở núi Yên Tử Đông Triểu 
+(Quàng Ninh). Tướng quân Phạm Ngũ Lão đã biết trồng vườn thuốc ở Vạn Yên và gây rừng thuốc Dược Sơn ở Phả Lại 
+thuộc huyện Chí Linh (Hải Dương) ngày nay, để lấy thuốc chữa bệnh cho quân lính. 
+Nhiều nhà Nho, Nhà sư cũng đã nghiên cứu Y học cổ truyền để chữa bệnh cho dân chúng. Tiêu biểu là Chu Văn An 
+đã biên soạn cuốn "Y học chú giải tập chú di biên” nêu ra 700 phương thuốc dùng chữa bệnh cho người. 
+Trong khoảng từ đầu thế kỉ thứ XV, Nguyễn Bá Tĩnh (Biệt hiệu là Tuệ Tĩnh) đã cho ra đời cuốn “Nam dược thần 
+hiệu” gồm 11 quyển, trong đó có ghi 579-630 loài cây dùng làm thuốc và 3875 bài thuốc chữa bệnh. 
+Đời nhà hậu Lê đã mở trường dạy nghề làm thuốc chữa bệnh và đã ban hành các chính sách về Y, Dược học. Phan 
+Phù Tiên đã biên soạn cuốn sách “Bản thảo thực vật toàn yếu” trong đó có ghi 292 vị thuốc nam dùng chữa bệnh. 
+
+
+Thế kỉ XVI, Lê Qui Đôn với bộ sách “Vân đài loại ngữ” đã sơ bộ phân loại thực vật. Lý Thời Trân với cuốn "Bản thảo 
+cương mục” đã nói tới 1094 vị thuốc có nguồn gốc thảo mộc. 
+Năm 1763, Nguyễn Nho đã cho ra đời cuốn “Vạn phương tập nghiệm" rất có giá trị về Đông y lúc bấy giờ. 
+Năm 1772, Lê Ilữu Trác (biệt hiệu Hải thượng Lãn ông” đã cho ra đời cuốn sách “Hải thượng Y tôn tâm lĩnh” gồm 
+28 tập với 64 quyển viết về Y lý và các cây thuốc. Ông là người đã dày công nghiên cứu và xảy dựng lý luận về Đông y và 
+nói nhiều về đạo đức của người làm thuốc chữa bệnh có giá trị đến ngày nay. 
+Cuối thể kỉ XVIII đến đầu thế kỉ thứ XIX thuộc thời Tây Sơn và triều Nguvễn đã có nhiều cuốn sách viết về bệnh tật 
+và các cây thuốc, bài thuốc quí như: "Lịch dịch phương pháp toàn tập” của Nguyễn Gia Phan; "La khê phương dược” của 
+Thái Y Nguyễn Quang Tuân; Nam bang thảo mộc” của Trần Nguyệt Phương... 
+Đầu thế kĩ thứ XX, cũng đã có nhiều cuốn sách viết về các cây thuốc vị thuốc. Điển hình là các cuốn: “Trung Việt 
+dược tính hợp biện'' của Đinh Nho Chấn và Phạm Văn Thái; “Y học tùng thư” của Nguyễn An Nhân; “Việt Nam dược học” 
+của Phó Đức Thành... 
+Ngoài các sách, tài liệu do người Việt nam biên soạn, trong thời kì thuộc Pháp nhiều tác giả người Pháp cũng đã 
+nghiên cứu và viết nhiều tài liệu nói về nguồn dược liệu phong phú, da dạng của Việt Nam. 
+Sau khi cuộc kháng chiến chống Thực dân Pháp thắng lợi (1954), dưới sự lãnh đạo của Đảng Cộng sản Việt Nam, 
+ngành Y tế Cách mạng đã có sự quan tâm thích đáng trong việc duy trì và phát triển nền Y học cổ truyền Việt Nam trong 
+đó có chính sách bảo tồn và phát triển dược liệu. 
+Hiện nay đã có rất nhiều sách, tài liệu quí về dược liệu đã được biên soạn và phát hành càng làm phong phú thêm 
+kho tàng tri thức về dược liệu Việt Nam. Điến hình là các cuốn: “450 cây thuốc nam” của Phó Đức Thành, Văn Đức Tôn, 
+Trần Quang Hy; “Thuốc nam châm cứu” của Viện Y học cổ truyền Việt Nam (nay là Bệnh viện Y học cổ truyền Việt nam); 
+"Những Cây thuốc và vị thuốc Việt Nam" của Đỗ Tất Lợi; “Cây thuốc và động vật làm thuốc” của Viện Dược liệu; “Nam Y 
+nghiệm phương" của Nguyễn Đức Đoàn v.v... 
+Nhiều Viện, cơ sở nghiên cứu về Đông y, về dược liệu đã được thành lập để nghiên cứu kế thừa, phát triển nền Y 
+học cổ truyền của dân tộc như: Viện nghiên cứu Đông y (nay là Bệnh viện y học cổ truyền Việt Nam), Viện Dược liệu, các 
+vườn thuốc Quốc gia (Văn Điển, Tam Đảo, Sa Pa...); các Công ty dược liệu Trung ương và địa phương, các Trạm nghiên 
+cứu dược liệu thuộc các tỉnh, thành được thành lập đã tạo thành một hệ thống rộng khắp với nhiệm vụ là : nghiên cứu, 
+nuôi trồng, khai thác, sản xuất, kinh doanh, bảo tồn các cây con làm thuốc, góp phần bổ sung cho ngành dược nguồn 
+dược liệu phong phú về số lượng đáng kể thực hiện chiến lược chăm sóc sức khỏe nhân dân. 
+ 
+LƯỢNG GIÁ 
+Trả lời ngắn các câu sau bằng cách điền từ hay cụm từ thích hợp vào chỗ trống ( 
+): 
+1. 
+Dược liệu là môn học về những nguyên liệu ………. từ ………….. hay …………..  khoáng vật hay ……………….. 
+2. 
+Môn học dược liệu có liên quan đến nhiều ………………… 
+3. 
+Dùng thuốc cổ truyền rất ít …………., rẻ tiền ……….. và hiệu quả ……………. 
+4. 
+Đặc điểm khí hậu Việt Nam rất ……….. cho việc nuôi trồng và …………… dược liệu. 
+ 
+Phân biệt đúng/sai các câu sau bằng cách đánh dấu vào chữ A (cho câu đúng) và chữ B (cho câu sai): 
+5. 
+Chỉ có những nước kém phát triển mới quan tâm đến dược liệu. A-B 
+6. 
+Chỉ dưới chế độ mới, Việt Nam mới quan tâm đến phát triển và sử dụng dược liệu để phòng và chữa bệnh. A-B 
+7. 
+Phát triển dược liệu, góp phần bảo vệ tài nguyên, môi trường. A-B 
+8. 
+Dược liệu chỉ có ý nghĩa trong việc phòng chữa bệnh chứ không có ý nghĩa về mặt kinh tế. A- B 
+ 
+
+
+Chọn giải pháp đúng nhất trong các câu sau bằng cách đánh dấu vào đầu giải pháp mà bạn chọn: 
+9. 
+Việt Nam đã biết dùng các cây cỏ làm thuốc từ thời đại: 
+A. Vua Hùng; B. Nhà tiền Lê; C. Nhà Trần; D. Nhà Lý. 
+10. 
+Số chế phẩm làm từ dược liệu có trong danh mục thuốc thiết yếu Việt Nam lần thứ IV là: 
+A. 65 chế phẩm;  
+ 
+B. 70 chế phẩm 
+C. 75 chế phẩm;  
+ 
+D. 81 chế phẩm 
+ 

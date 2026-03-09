@@ -21,7 +21,7 @@ import yaml
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(name)s | %(message)s")
 
-ALLOWED_EXT = {".pdf", ".docx", ".jpg", ".jpeg", ".png"}
+ALLOWED_EXT = {".pdf", ".docx", ".jpg", ".jpeg", ".png", ".txt"}
 EXCLUDE_DIRS = {"System", "__MACOSX", ".git", ".ipynb_checkpoints", "__pycache__"}
 
 IMAGE_EXT = {".jpg", ".jpeg", ".png"}
@@ -40,6 +40,8 @@ def _doc_type(ext: str) -> str:
         return "docx"
     if ext in IMAGE_EXT:
         return "image"
+    if ext == ".txt":
+        return "txt"
     return "unknown"
 
 

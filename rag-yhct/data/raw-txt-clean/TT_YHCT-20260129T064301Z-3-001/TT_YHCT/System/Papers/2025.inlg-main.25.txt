@@ -1,0 +1,1329 @@
+Proceedings of the 18th In ternational Natural Lan guage Generation Con feren ce, pages 408–418
+Oc tober 29–Novem ber 2, 2025. ©2025 Association for Com putational Lin guistics
+En han cing Named En tity Tran slation from Classical Chinese to Viet namese
+in Traditional Viet namese Medicine Domain:
+A Hybrid Masking and Dic tionary-Augmen ted Ap proach
+Nhu Pham1,2* and Uyen Nguyen1,2* and Long Nguyen1,2† and Dien Dinh1,2
+1Faculty of In formation Tec hnology, University of Scien ce, Ho Chi Minh City, Viet nam
+2Viet nam National University, Ho Chi Minh City, Viet nam
+{pvqnhu21, npbuyen21}@apcs. fitus. edu. vn
+{nhblong, ddien}@fit. hcmus. edu. vn
+Abstract
+Viet nam’s traditional medical texts were his-
+torically writ ten in Classical Chinese using
+Sino-Viet namese pronun ciations. As the Viet-
+namese lan guage tran sitioned to a Latin-based
+national script and in terest in in tegrating tradi-
+tional medicine with modern healthcare grows,
+ac curate tran slation of these texts has become
+in creasin gly im portant. However, the diversity
+of terminology and the com plexity of trans-
+lating medical en tities in to modern con texts
+pose significant challen ges. To address this,
+we propose a met hod that fine-tunes large lan-
+guage models (LLMs) using augmen ted data
+and a Hybrid En tity Masking and Rep lacement
+(HEMR) strategy to im prove NE tran slation.
+We also in troduce a parallel NE tran slation
+dataset specifically curated for traditional Viet-
+namese medicine. Our evaluation ac ross multi-
+ple LLMs shows that the proposed ap proach
+ac hieves a tran slation ac curacy of 71.91%,
+demonstrating its effec tiveness. These results
+un derscore the im portan ce of in corporating NE
+awareness in to tran slation systems, particularly
+in low-resource and domain-specific set tings
+like traditional Viet namese medicine.
+1
+In troduc tion
+Classical Chinese script, pronoun ced through Sino-
+Viet namese pronun ciations, was the primary writ-
+ing system for Viet namese texts un til the 20th cen-
+tury. It played a cen tral role in documen ting tradi-
+tional Viet namese medicine. With the shift to the
+Latin-based Viet namese national script, the abil-
+ity to ac cess and in terpret these historical texts
+has steadily dec lined. As the Viet namese gov-
+ernment in creasin gly looks to in corporate tradi-
+tional medicine in to modern healthcare systems,
+the preservation and digitization of these historical
+documents has become more urgent than ever.
+*Equal con tribution.
+†Correspon ding aut hor.
+A critical aspect of tran slating traditional Viet-
+namese medicine is the ac curate tran slation of
+named en tities (NEs), particularly medicinal ma-
+terials. These en tities often possess culturally and
+lin guistically specific names in Viet namese that
+do not direc tly correspond to their Chinese equiva-
+lents. Mistran slations can oc cur due to variations in
+naming con ven tions. For exam ple,“黄斤” (Kudzu
+powder) can be tran slated as “Cát căn”, “Hoàng
+cân”, or “Sắn dây”. Among these, “Sắn dây” is the
+most widely un derstood in con tem porary usage,
+but many traditional medical texts still prefer the
+earlier terms. The challen ge stems not on ly from
+the diversity of names but also from the difficulty
+of ac curately tran slating these terms in modern
+con texts.
+Given this challen ge, it is essen tial to develop
+mac hine tran slation systems for Classical Chi-
+nese–Viet namese texts with a strong focus on NE
+ac curacy. In recent years, the emergen ce of large
+lan guage models (LLMs) has significan tly im-
+proved multilin gual tran slation capabilities, in clud-
+ing for Chinese and Viet namese. LLMs have shown
+great poten tial in the field of Traditional Chinese
+Medicine by analyzing classical texts, sup port-
+ing clinical decision-making, and bridging tradi-
+tional and modern medical paradigms (Zhang et al.,
+2025). Rikters and Miwa (2024) fine-tuned T5
+models using Spa Cy for en tity recognition com-
+bined with XML-based tagging, while Liang et al.
+(2024) proposed a data augmen tation framework
+based on tran slation difficulty and con text diversity
+scores. These advan cements highlight the poten-
+tial of LLMs as a promising ap proach to address
+the com plexities of NE tran slation in traditional
+Viet namese medicine.
+In this paper, we aim to tac kle the challen ge
+of NE tran slation from Classical Chinese to Viet-
+namese wit hin the domain of traditional Viet-
+namese medicine. Our ap proach uses fine-tuned
+LLMs, en han ced through data augmen tation tech-
+408
+
+
+niques and an en tity masking and rep lacement strat-
+egy based on a specialized dic tionary. To ac hieve
+these goals, we present the following con tributions:
+• We explore the use of data augmen tation tech-
+niques to im prove the tran slation ac curacy of
+named en tities in LLMs.
+• We propose a systematic met hod called
+Hybrid En tity Masking and Rep lacement
+(HEMR), which com bines en tity masking and
+rep lacement using a Viet namese medicinal
+material dic tionary and LLMs.
+• We develop a dic tionary of medicinal mate-
+rials and traditional medicine terms with an
+evaluation dataset for NE tran slation bet ween
+Classical Chinese and Viet namese.
+2
+Background
+Chinese script, Sino-Viet namese, and Mod-
+ern Viet namese Tran slation: Literary Chinese,
+writ ten in Chinese script and read with Sino-
+Viet namese pronun ciations, was on ce a major writ-
+ing system in Viet nam (Nguyễn, 1979). Most texts,
+in cluding those on traditional medicine, were com-
+posed this way. With the adop tion of the Latin-
+based Viet namese National Script, Viet nam shifted
+to a phonograp hic system that preserves about 60%
+of Sino-Viet namese pronun ciations (Lê, 2002).
+However, this tran sition reduced the population’s
+ability to read Chinese script, limiting ac cess to
+historical texts. Although we can tran sliterate Clas-
+sical Chinese in to the National Script, the text often
+stays largely in com prehen sible because much of the
+vocabulary is obsolete or has been rep laced.
+Traditional Viet namese medicine: Traditional
+Viet namese Medicine (TVM) is a medical system
+that in corporates prac tices from in digenous Viet-
+namese knowledge and external in fluen ces, in clud-
+ing Traditional Chinese Medicine (TCM). Prac-
+tices like Dật Gió (“wind snat ching”) and Cạo Gió
+(“wind scraping,” similar in fun ction to TCM’s
+Gua Sha) ap pear in both systems, yet Viet namese
+prac titioners typically regard them as in digenous
+traditions (Ahn et al., 2006).
+However, many materials used in Traditional
+Viet namese Medicine (TVM) are not in cluded in
+classical Chinese pharmacopeia. There are 70 offi-
+cially classified medicinal plants that are native to
+Viet nam. In addition, Viet namese often use distinct
+names or naming con ven tions for medicinal mate-
+rials, which differ from their Chinese coun terparts.
+These names are often specific to Viet namese prac-
+tice and require ac curate han dling in tran slation. To
+address this, datasets must in clude domain-specific
+terms and reflect the lin guistic and botanical dif-
+feren ces present in TVM. Ac curate tran slation of
+medicinal material names and TVM texts is essen-
+tial not on ly for preserving the original meaning
+but also for en suring correct in terpretation and ap-
+plication of medical knowledge.
+En tity-Aware Mac hine Tran slation En tity-
+Aware Mac hine Tran slation (EAMT) is a special-
+ized branch of Natural Lan guage Processing (NLP)
+and Mac hine Tran slation (MT) that focuses on the
+ac curate and con textually ap prop riate tran slation
+of named en tities (NEs), such as person names,
+organizations, locations, and dates. They are es-
+sen tial to preserve con textual meaning and fac tual
+precision during tran slation.
+In the domain of Classical Chinese–Viet namese
+traditional medicine texts, ac curate tran slation of
+named en tities—such as medicinal herbs, dis-
+ease names, anatomical terms, and measurement
+units—is critical for preserving seman tic fidelity.
+3
+Related work
+Traditional ap proac hes to NE han dling in neural
+mac hine tran slation (NMT) typically in volve ex-
+plicit ly in troducing NE in formation in to the trans-
+lation pipeline to im prove tran slation ac curacy.
+Early research focused on in tegrated neural models
+and at ten tion mec hanisms. Sen nrich and Haddow
+(2016), and Niehues and Cho (2017), en han ced
+NMT using lin guistic an notations and NE em bed-
+dings. Ugawa et al. (2018) exten ded token em-
+beddings with en tity-specific vec tors, while Mod-
+rzejewski et al. (2020) in corporated source-side
+lin guistic fac tors in to Tran sformer net works. These
+met hods im proved con textual rep resen tation but
+relied heavily on large amounts of labeled data,
+which poses scalability challen ges.
+To address these limitations, Xie et al. (2022)
+proposed an end-to-end NMT architec ture with en-
+tity classifiers in tegrated in to both en coder and
+decoder. An adap tive loss fun ction em phasized
+NE tran slation ac curacy. This built-in NE aware-
+ness lessens depen den ce on external systems and
+reduces error propagation, leading to bet ter perfor-
+man ce on six benchmark tasks.
+More recen tly, the field has shifted towards data-
+cen tric and LLM-based ap proac hes. Rikters and
+Miwa (2024) fine-tuned T5 models for NE-aware
+409
+
+
+tran slation using Spa Cy for en tity recognition and
+XML-based en tity tagging. This met hod in creased
+NE preservation and im proved BLEU scores, es-
+pecially for rare en tities. Liang et al. (2024) in-
+troduced a data augmen tation framework based on
+tran slation difficulty and con text diversity scores.
+Their strategy im proved overall tran slation and
+NE ac curacy ac ross WMT news and terminology
+datasets.
+Rikters and Miwa (2024) further ex-
+plored instruc tion tuning for NE-aware tasks using
+customized prompts on pre-an notated data. This
+instruc tion-based ap proach offers flexibility for
+domain-specific scenarios and aligns with recent
+trends in large lan guage model fine-tuning.
+4
+Met hodology
+To address the challen ge of NE-aware tran slation
+from Classical Chinese script to Viet namese in the
+domain of traditional Viet namese medicine, we
+con duc ted a series of experiments guided by the
+following research questions.
+RQ1: What is the current ac curacy of stan dard
+fine-tuning ap proac hes—wit hout the aid of external
+dic tionaries—in tran slating named en tities from
+Classical Chinese texts in to Viet namese wit hin the
+domain of traditional Viet namese medicine?
+RQ2: To what extent does fine-tuning with aug-
+men ted data with curated dic tionary im prove the
+tran slation ac curacy of named en tities in the do-
+main of traditional Viet namese medicine?
+RQ3: To what extent does ap plying fine-tuning
+with NE masking and rep lacement using a hybrid
+ap proach—com bining tran slation with augmen-
+tation data—im prove the tran slation ac curacy of
+named en tities in the domain of traditional Viet-
+namese medicine?
+4.1
+Dataset
+There are curren tly no existing parallel Chinese-
+script–Viet namese datasets in the domain of Tra-
+ditional Viet namese Medicine, nor any datasets
+that in clude NE an notations in this domain. The
+creation of our dataset serves as a foun dational
+step toward advan cing research in Chinese-script
+to Viet namese tran slation for this field. Based on
+the charac teristics of classical medicine texts, we
+propose the following five named en tity labels, as
+detailed in Table 1.
+4.1.1
+Dataset Construc tion Process
+Our dataset con sists of two main com ponents:
+Label
+Full Name
+PLT_MM
+Plant Medicinal Material
+ANI_MM
+Animal Medicinal Material
+MIN_MM
+Mineral Medicinal Material
+PER
+Person
+LOC
+Location
+TRE
+Prescrip tion Name
+CMB
+Tit les of Classical Books
+Table 1: Named En tity Taxonomy
+Medicinal Material and Terminologies Dic-
+tionary: En tries were com piled from two aut hor-
+itative sources. These will serve as the referen ce
+dic tionary for our NE tagging process.
+• WHO In ternational Stan dard Terminologies
+on Traditional Medicine in the Western Pa-
+cific Region (Thuật Ngữ Y Học Cổ Truyền của
+Tổ chức Y tế Thế Giới Khu vực Tây Thái Bình
+Dương) (World Health Organization, 2011).
+• Guide to Medicinal Properties (Dược Tính Chỉ
+Nam), a com prehen sive referen ce on herbal
+substan ces and their uses (Minh, 1967).
+Traditional Medicine Remedies: This part com-
+pile from classical Viet namese medical documents:
+• Treatise of Medical Knowledge of Hải Thượng
+Lãn Ông (Hải Thượng Lãn Ông Y Tông Tâm
+Lĩnh) (Lê, 1998).
+• Dialogue of the Fisherman and the Woodcut-
+ter on the Art of Medicine (Ngư Tiều Vấn Đáp
+Y Thuật) (Nguyễn Đình Chiểu, 2003).
+For the an notation process, we adopt a hybrid
+human-AI ap proach, ap plied in depen den tly to the
+Classical Chinese and Viet namese texts to en sure
+con sistent and ac curate en tity labeling:
+• Stage 1: Automated Pre-an notation
+– Automatic En tity Recognition: Per-
+formed using the Gemini LLMs model
+to iden tify poten tial named en tities.
+– Dic tionary Cross-Referen cing: Iden ti-
+fied en tities are automatically mat ched
+against the dic tionary for validation.
+– Con fiden ce Scoring:
+Each en tity is
+given a con fiden ce score that in dicates
+the model’s level of certain ty.
+410
+
+
+Figure 1: Two-stage An notation Workflow
+– An notation Can didate Generation:
+Preliminary en tity an notations are cre-
+ated for human evaluation.
+• Stage 2: Human Validation
+– Human Review: A team of three an no-
+tators in depen den tly reviews all an nota-
+tions to en sure ac curacy and con sisten cy.
+– An notation Decisions: An notators ac-
+cept or reject each can didate en tity.
+– Majority Voting: We retain an en tity if
+at least two out of the three an notators
+agree on its correc tness.
+– Disagreement Logging: Cases of dis-
+agreement are documen ted to in form fu-
+ture guideline and expert reviews.
+• Dic tionary Validation: All ac cep ted en tities
+were cross-validated against the Dược Tính
+Chỉ Nam dic tionary (Minh, 1967) to en sure
+terminological con sisten cy and medical ac cu-
+racy. En tities not found in the dic tionary were
+subjec ted to additional experts review to dis-
+tin guish bet ween legitimate historical variants
+and an notation errors.
+4.1.2
+Dataset Statistics
+The final dataset is divided in to two com ponents:
+a Medicinal Material and Terminologies Dic tio-
+nary con taining 8,228 en tries, and a Traditional
+Medicine Remedies corpus con sisting of 17,960
+aligned pairs. The overall distribution of NE la-
+bels is sum marized in Table 2. The LOC and TRE
+values are curren tly 0 due to the absen ce of credible
+sources for reliable dic tionary extrac tion. Further
+expan sion in this area is plan ned for future work.
+Label
+(1)
+(2)
+Total
+PLT_MM
+11,252
+18303
+26,951
+ANI_MM
+2,652
+2344
+4,882
+MIN_MM
+1,850
+3643
+5,371
+PER
+138
+662
+804
+LOC
+0
+63
+63
+TRE
+0
+2265
+2,131
+CMB
+324
+909
+1,233
+Total
+16,216
+25,219
+41,435
+Table 2: Named En tity Counts.
+(1): Medicinal Material and Terminologies Dic tionary,
+(2): Traditional Medicine Remedies.
+4.2
+Proposed Ap proach
+In this sec tion, we present our proposed ap proac hes
+to im proving NE tran slation in the domain of tradi-
+tional Viet namese medicine. We describe two key
+com ponents: a data augmen tation strategy and a
+hybrid en tity masking and rep lacement met hod to
+preserve the ac curacy of specialized terms during
+tran slation.
+4.2.1
+Data Augmen tation
+LLMs can effec tively learn from limited domain-
+specific data through fine-tuning. Building on this,
+we propose a data augmen tation met hod that en-
+han ces NE tran slation by systematically rep lacing
+an notated en tities with alternatives from curated
+dic tionaries. The augmen tation process is:
+• Iden tification of Sen ten ces: Select sen ten ces
+411
+
+
+with an notated en tities, keeping on ly those
+con firmed by at least two an notators.
+• En tity Substitution: For each iden tified en-
+tity, ran dom ly select an alternative term from
+the correspon ding dic tionary. Rep lace the
+original men tion in both the Classical Chi-
+nese sen ten ce and the Viet namese tran slation
+while preserving the en tity label.
+Figure 2: Augmen ted Process
+Original Augmen ted
+Total
+14,519
+7,314
+21,833
+Table 3: Statistics of the training dataset before and after
+augmen tation
+4.2.2
+Hybrid En tity Masking and
+Rep lacement
+To preserve the seman tic in tegrity of specialized
+terms, we in troduce a struc tured masking and de-
+masking ap proach ap plied to our previously aug-
+men ted dataset. The process starts by iden tifying
+named en tities in the source text and rep lacing them
+with placeholder tokens, preven ting distortion by
+general-purpose tran slation models. We refer to
+this met hod as Hybrid En tity Masking and Re-
+placement (HEMR) (Figure 3). HEMR operates
+through the following resolution process:
+• Dic tionary Lookup – Each en tity is first
+chec ked against the curated dic tionary con-
+taining medicinal plant names, mineral, and
+animal-based medicinal materials.
+• Automate Tran slation – If no match is found,
+we fallback to the Gemini tran slation API to
+produce a can didate tran slation for the en tity.
+The prompt is detailed in Ap pen dix D.
+• Sino-Viet namese Con version – Where ap-
+plicable, en tities are ren dered in their Sino-
+Viet namese forms to main tain their historical
+and cultural aut hen ticity.
+On ce tran slated, the placeholders are rep laced with
+their resolved en tity tran slations, restoring a com-
+plete and coherent target-lan guage sen ten ce. This
+hybrid pipeline en sures fidelity to domain-specific
+con cepts while leveraging the flexibility and flu-
+en cy of modern lan guage models.
+Figure 3: Hybrid En tity Masking and Rep lacement
+We explore several lan guage models to assess the
+current state of Classical Chinese to Viet namese
+tran slation.
+We prioritize models that demon-
+strate strong multilin gual capabilities, particularly
+with sup port for Viet namese and Traditional Chi-
+nese. The models we selec ted—Phi-4 (Abdin et al.,
+2024), Qwen-3 (Yang et al., 2025), LLa MA-3.11,
+and NLLB-2002—were chosen based on their per-
+forman ce in multilin gual and low-resource set-
+tings, availability of open-source chec kpoints, and
+com patibility with fine-tuning pipelines. Notably,
+models such as Qwen-3 and NLLB-200 have been
+1https://huggin gface. co/meta-llama/Llama-3.1-8B
+2https: //huggin gface. co/facebook/nllb-200-3.3B
+412
+
+
+specifically trained with an em phasis on Asian lan-
+guages, ren dering them particularly well-suited for
+this task. Detailed in formation on the con figuration
+and model resources can be found in Ap pen dix C.
+5
+Results and Analysis
+In this sec tion, we present the experimen tal results
+and analysis of three ap proac hes: stan dard fine-
+tuning, fine-tuning with augmen ted data, and the
+hybrid en tity masking and rep lacement met hod.
+5.1
+Stan dard Fine-tuning
+Case
+Model
+BLEU
+BERTScore
+METEOR
+(1)
+Qwen-3-14B
+5.41
+48.56
+31.92
+Phi-4-14B
+0.87
+34.66
+12.73
+LLa MA-3.1-8B
+2.75
+40.81
+14.94
+NLLB-200-3.3B
+0.74
+25.84
+9.82
+(2)
+Qwen-3-14B
+12.73
+60.68
+36.46
+Phi-4-14B
+23.94
+68.38
+51.30
+LLa MA-3.1-8B
+13.26
+60.87
+36.53
+NLLB-200-3.3B
+14.73
+61.96
+42.72
+Table 4: Com parison of model performan ce in (1) be-
+fore fine-tuning and (2) after fine-tuning wit hout dic tio-
+nary (scaled to 1–100).
+Table 4 shows that fine-tuning markedly im-
+proves tran slation quality ac ross all met rics. Phi-4-
+14B demonstrates the largest gains overall (BLEU
+rising from 0.87 to 23.94, BERTScore nearly dou-
+bling from 34.66 to 68.38, and METEOR in-
+creasing from 12.73 to 51.30). LLa MA-3.1-8B
+and Qwen-3-14B also im prove substan tially, with
+BLEU gains of about 10 points. Notably, NLLB-
+200-3.3B, despite its low baseline, reac hes com-
+petitive performan ce after fine-tuning. Wit hout
+Label
+Qwen-3-14B
+Phi-4-14B
+LLa MA-3.1-8B
+NLLB-200-3.3B
+PLT_MM
+35.76
+70.73
+38.11
+32.39
+ANI_MM
+27.18
+58.25
+18.45
+15.52
+MIN_MM
+48.45
+71.43
+52.80
+35.75
+PER
+14.81
+51.85
+25.93
+3.57
+LOC
+0.00
+33.33
+33.33
+0.00
+TRE
+15.58
+70.13
+37.66
+22.68
+CMB
+14.29
+50.00
+11.90
+0.00
+Overall
+33.62
+67.79
+36.88
+29.72
+Table 5: Named En tity Ac curacy (%) after fine-tuning
+(percen tages scaled 1–100).
+the aid of a dic tionary, Table 5 shows that Phi-
+4-14B con sisten tly ac hieves the highest ac curacy
+ac ross all en tity types, with an overall average of
+67.79%. Qwen-3-14B, LLa MA-3.1-8B and NLLB-
+200-3.3B perform moderately, scoring 33.62%,
+36.88% and 29.72%. Despite this, categories like
+LOC and CMB remain challen ging for all models.
+Based on the results presen ted in Table 4 and
+Table 5, we can an swer RQ1 by observing that
+stan dard fine-tuning ap proac hes - wit hout relying
+on external dic tionaries - already provide a boost
+in overall tran slation. However, ac curacy ac ross
+certain en tity categories, such as LOC and CMB,
+remains con sisten tly low for all models. This un-
+derscores the significant constraints in herent in ex-
+isting fine-tuning ap proac hes, which limit their ca-
+pacity to fully cap ture domain-specific nuan ces
+and address the com plex requirements of Classical
+Chinese–Viet namese tran slation.
+5.2
+Fine-tuning with Augmen ted Data
+Case
+Model
+BLEU
+BERTScore
+METEOR
+(3)
+Qwen-3-14B
+27.92
+70.78
+55.03
+Phi-4-14B
+27.02
+69.96
+53.29
+LLa MA-3.1-8B
+25.35
+68.94
+51.49
+NLLB-200-3.3B
+11.96
+59.92
+38.57
+(4)
+Qwen-3-14B
+26.51
+70.17
+53.73
+Phi-4-14B
+26.98
+70.11
+53.60
+LLa MA-3.1-8B
+24.94
+68.63
+51.02
+NLLB-200-3.3B
+15.36
+62.59
+43.48
+Table 6: Com parison of model performan ce in (3) aug-
+men ted data wit hout tagging and (4) augmen ted data
+with tagging (scaled to 1–100).
+Table 6 show that when finetune with tag, the
+performan ce slightly reduces overall, with BLEU
+drop ping for most models. Phi-4-14B and Qwen-3-
+14B see small gains in BERTScore and METEOR,
+while LLa MA-3.1-8B shows minor dec lines ac ross
+all met rics. NLLB-200-3.3B is the excep tion, with
+BLEU im proving from 11.96 to 15.36.
+Label
+Qwen-3-14B
+Phi-4-14B
+LLa MA-3.1-8B
+NLLB-200-3.3B
+PLT_MM
+66.60
+66.40
+44.20
+35.6
+ANI_MM
+48.54
+49.51
+29.13
+17.5
+MIN_MM
+73.29
+72.04
+59.01
+47.8
+PER
+37.03
+40.74
+11.11
+18.5
+LOC
+33.33
+0.00
+66.67
+33.3
+TRE
+67.53
+68.83
+41.56
+24.7
+CMB
+57.14
+50.00
+9.52
+7.1
+Overall
+64.43
+63.99
+42.41
+32.97
+Table 7: Named En tity Ac curacy (%) with Augmen ted
+Data (Wit hout Tagging) (percen tages scaled 1–100).
+Label
+Qwen-3-14B
+Phi-4-14B
+LLa MA-3.1-8B
+NLLB-200-3.3B
+PLT_MM
+60.71
+70.53
+67.58
+41.45
+ANI_MM
+50.49
+48.54
+46.60
+14.56
+MIN_MM
+68.32
+76.39
+72.67
+59.62
+PER
+29.63
+18.51
+44.44
+29.62
+LOC
+33.33
+33.3
+0.00
+33.33
+TRE
+51.95
+61.04
+66.23
+42.85
+CMB
+35.71
+52.38
+42.86
+23.80
+Overall
+58.03
+65.80
+64.00
+40.60
+Table 8: Named En tity Ac curacy (%) with Augmen ted
+Data (With Tagging) (percen tages scaled 1–100).
+413
+
+
+However, Tables 7 and 8 reveal that tagging im-
+proves NE tran slation ac curacy, particularly for
+smaller or multilin gual models. Phi-4-14B im-
+proves from 63.99% to 65.80%, and LLa MA-
+3.1-8B shows the largest gain, from 42.41% to
+64.00%.
+NLLB-200-3.3B also benefits, espe-
+cially on MIN_MM and TRE. Howerver for Qwen-
+3-14B there is a slight drop with tagging com-
+pared to when finetune with no tag. The ac curacy
+for the LOC category remains in con sistent, likely
+due to the limited num ber of en tities in the test
+set—on ly 8 in total. For exam ple, Phi-4’s perfor-
+man ce fluc tuates from 0% to 33.33% with tagging,
+while LLa MA’s ac curacy drops significan tly from
+66.67% to 0% when tagging is ap plied.
+Com pared the NE ac curacy result of stan dard
+fine-tuning (table 5) and augmen ted (table 8) re-
+veals that Phi-4-14B experien ces a slight dec rease
+in ac curacy when using data augmen tation, ac hiev-
+ing 65.80% com pared to 67.79% with stan dard
+fine-tuning.
+In con trast, Qwen-3-14B benefits
+significan tly from augmen tation, im proving from
+33.62% to 58.03%. Similar trends are observed
+with LLa MA-3.1-8B and NLLB-200-3.3B, which
+im prove from 36.88% to 64.00% and from 29.72%
+to 40.60%, respec tively. But for a limited en tity like
+LOC the ac curacy still varies significan tly. These
+results in dicate that although augmen tation offers
+limited gains for models with strong baseline per-
+forman ce, it can markedly im prove the ac curacy of
+models starting from a lower baseline.
+Addressing RQ2, we observe that fine-tuning
+with dic tionary-augmen ted data im proves the over-
+all ac curacy of NE tran slation. However, the BLEU
+scores still vary. For a strong baseline model like
+Phi-4-14B, the im pact is negligible, while models
+such as Qwen-3-14B, LLa MA-3.1-8B, and NLLB-
+200-3.3B show im provements. Despite these gains,
+the ac curacy for certain en tity types—specifically
+PER, LOC, and CMB—remains below 40%, the
+observed gains sup port the promise of this ap-
+proach as a foun dation for further refinement.
+5.3
+Hybrid En tity Masking and Rep lacement
+For the HEMR met hod, NE ac curacy primarily
+depends on the hybrid rep lacement process. As
+a result, fine-tuning the model does not signifi-
+can tly im pact NE ac curacy, which remains con-
+sistent ac ross different models. Variations in NE
+ac curacy are main ly in fluen ced by the tran slation
+quality of the Gemini model and mismat ched tags
+when tran slating from models. However, the rate
+of mismat ched tag generation (i. e., producing more
+or fewer tags than expec ted) is low, as shown in
+Table 9.
+Model
+Mismat ched tags
+Phi-4
+6
+LLa MA
+8
+Qwen-3
+4
+NLLB
+4
+Table 9: Num ber Generate mismat ched tags
+Model
+BLEU
+BERTScore
+METEOR
+Qwen-3-14B
+28.17
+71.27
+55.86
+Phi-4-14B
+29.16
+71.45
+56.23
+LLa MA-3.1-8B
+25.79
+69.08
+52.01
+NLLB-200-3.3B
+18.06
+64.03
+42.98
+Table 10: Model performan ce using Hybrid En tity Re-
+placement (scaled to 1–100).
+Table 10 presents the performan ce of models af-
+ter ap plying HEMR, showing con sistent im prove-
+ments ac ross all evaluation met rics. Phi-4-14B
+ac hieves the highest scores overall, with a BLEU
+of 29.16, BERTScore of 71.45, and METEOR of
+56.23, rein forcing its strong baseline capabilities.
+Qwen-3-14B follows closely with com parable per-
+forman ce, especially in BERTScore (71.27) and
+METEOR (55.86), in dicating seman tic and syn-
+tac tic preservation. LLa MA-3.1-8B demonstrates
+moderate gains ac ross all evaluation met rics. In
+con trast, NLLB-200-3.3B, while remaining behind
+the ot her models overall, exhibits notable im prove-
+ment, particularly in BLEU, which in creases to
+18.06.
+Label
+Qwen-3-14B
+Phi-4-14B
+LLa MA-3.1-8B
+NLLB-200-3.3B
+PLT_MM
+74.66
+74.27
+74.66
+74.85
+ANI_MM
+68.93
+68.93
+68.93
+68.93
+MIN_MM
+82.61
+82.61
+80.75
+82.61
+PER
+55.56
+55.56
+55.56
+55.56
+LOC
+33.33
+33.33
+33.33
+33.33
+TRE
+58.44
+58.44
+58.44
+57.14
+CMB
+42.86
+42.86
+42.86
+42.86
+Overall
+71.91
+71.69
+71.58
+71.91
+Table 11: Named En tity ac curacy (%) after ap plying
+Hybrid En tity Masking and Rep lacement (percen tages
+scaled 1–100).
+We look at the overall ac curacy of NE tran sla-
+tion ac ross all models. The ac curacy exceeds 71%
+overall (Table 11). NLLB-200-3.3B and Qwen-3-
+14B ac hieve the highest performan ce at 71.91%,
+followed closely by Phi-4-14B at 71.69% and
+LLa MA-3.1-8B at 71.58%. These slight discrepan-
+414
+
+
+cies are primarily at tributed to differen ces in mis-
+mat ched tag generation. Among the en tity types,
+MIN_MM con sisten tly yields the highest ac curacy
+ac ross all models, exceeding 80%. In con trast, cat-
+egories such as LOC and CMB, while showing
+im provement over prior ap proac hes, remain chal-
+len ging, with ac curacies below 45%. The low per-
+forman ce in the LOC category is largely due to the
+absen ce of correspon ding en tries in the dic tionary
+for rep lacement.
+Evaluation of Each Stage in HEMR Process
+To further evaluate the effec tiveness of the HEMR
+process, we systematically assessed the in dividual
+and com bined con tributions of Dic tionary Lookup,
+Automated Tran slation, and Sino-Viet namese Con-
+version to NE tran slation ac curacy wit hin the do-
+main of traditional Viet namese medicine.
+Con fig
+Total Ac curacy
+(1)
+65.62
+(2)
+61.43
+(3)
+7.81
+(1) + (2)
+73.64
+(1) + (3)
+66.38
+(2) + (3)
+61.30
+(1) + (2) + (3)
+73.86
+Table 12: Overall ac curacy ac ross different processes.
+(1) Dic tionary Lookup, (2) Automated Tran slation, (3)
+Sino-Viet namese Con version
+In Table 12, Dic tionary Lookup (1) performs
+stron gly for categories with good lexical cover-
+age, such as PLT_MM (76.03%) and MIN_MM
+(82.61%), but is ineffec tive for LOC (0%) and
+TRE (1.30%), where many names are not in dic-
+tionaries. Automated Tran slation (2) yields more
+balan ced im provements, notably en han cing PER,
+LOC, and TRE ac curacy, though it slightly low-
+ers PLT_MM performan ce com pared to Dic tionary
+Lookup (1). Furthermore, about 0.3 to 0.5% of the
+names could not be tran slated with this met hod.
+Sino-Viet namese Con version (3) alone performs
+poorly overall, with all ac curacies un der 11%. The
+detailed ac curacy scores for each en tity type are
+provided in the Ap pen dix.
+However,
+com bining met hods con sisten tly
+boosts performan ce.
+The (1) + (2) con figura-
+tion already out performs any sin gle-stage base-
+line, demonstrating clear com plemen tarity bet ween
+dic tionary lookup and tran slation. Adding Sino-
+Viet namese Con version yields further gains: the
+full process (1) + (2) + (3) ac hieves the highest over-
+all ac curacy (73.86%), in dicating that even limited
+Sino-Viet namese mat ches can provide valuable ad-
+ditional cues when in tegrated with ot her strategies.
+Com bining Dic tionary Lookup, Automated Trans-
+lation, and Sino-Viet namese Con version ac hieves
+the best performan ce in both NE ac curacy and over-
+all tran slation quality. While in dividual com po-
+nents offer partial im provements, their in tegration
+yields substan tial gains.
+From table 8 and 11, HEMR con sisten tly out per-
+forms the tag-aware ap proach in terms of overall ac-
+curacy. Qwen-3-14B and NLLB-200-3.3B ac hieve
+the highest ac curacy with HEMR at 71.91%, com-
+pared to 58.03% and 40.60% of augmen ted with
+tag training. While the tag-aware augmen tation
+helps cap ture specific en tity types, the ap plication
+of HEMR leading to con sistent gains in overall
+ac curacy. These results demonstrate the com ple-
+men tary nature of the two met hods and highlight
+the effec tiveness of HEMR as a post-processing
+step for im proving en tity tran slation.
+To an swer RQ3, where our proposed HEMR pro-
+cess ac hieves a notable ac curacy of 71.91% with
+the Qwen-3-14B model. This demonstrates the
+effec tiveness of our HEMR ap proach in im prov-
+ing NE tran slation wit hin the domain of traditional
+Viet namese medicine. While com ponents such as
+Automated Tran slation and Sino-Viet namese Con-
+version play a role in han dling rare or previously
+un seen en tities—especially those not present in
+training data—the core con tribution still lies in
+dic tionary-based lookup. These additional steps
+act as im portant fallbacks, but their suc cess is in-
+heren tly tied to the quality and com pleteness of
+the un derlying dic tionaries. Therefore, to further
+en han ce tran slation ac curacy, especially for low-
+resource or domain-specific terms, it is vital to
+con tinue expan ding and refining the dic tionary re-
+sources used in the HEMR.
+6
+Con clusion
+This work explores the challen ge of NE tran sla-
+tion from Classical Chinese script to Viet namese
+wit hin the domain of traditional medicine. We
+in vestigate a dic tionary-based data augmen tation
+met hod and propose a Hybrid En tity Masking and
+Rep lacement (HEMR) ap proach. To sup port our
+evaluation, we in troduce a parallel NE tran slation
+dataset and a curated dic tionary of medicinal ma-
+terial terminologies. Experimen tal results show
+that our HEMR process leads to a significant im-
+415
+
+
+provement in tran slation ac curacy. These fin dings
+highlight the poten tial of com bining LLMs with
+external dic tionaries to en han ce tran slation qual-
+ity in domain-specific set tings such as traditional
+Viet namese medicine. For future work, we in tend
+to en han ce overall tran slation performan ce and fur-
+ther expand the medicinal material dic tionary to
+im prove coverage and ac curacy in domain-specific
+en tity tran slation.
+Limitations
+While our proposed ap proach shows im proved
+tran slation of named en tities, several limitations
+remain. First, in the HEMR ap proach, the limited
+coverage of LOC and TRE en tities requires further
+in vestigation and expan sion. Second, our study
+does not yet address named en tity recognition; the
+ability to iden tify named en tities significan tly im-
+pacts the overall effec tiveness of this met hod.
+Ac knowledgments
+This research is sup ported by research fun ding
+from Faculty of In formation Tec hnology, Univer-
+sity of Scien ce, Viet nam National University - Ho
+Chi Minh City.
+Referen ces
+Marah Abdin, Jyoti Aneja, Harkirat Behl, Sé bastien
+Bubeck, Ronen Eldan, Suriya Gunasekar, Mic hael
+Harrison, Russell J. Hewett, Mojan Javaheripi, Piero
+Kauffmann, James R. Lee, Yin Tat Lee, Yuan zhi Li,
+Weishung Liu, Caio C. T. Men des, Anh Nguyen,
+Eric Price, Gustavo de Rosa, Olli Saarikivi, and
+8 ot hers. 2024. Phi-4 tec hnical report. Prep rint,
+ar Xiv:2412.08905.
+An drew C Ahn, Quyen Ngo-Met zger, An na TR Leg-
+edza, Mic hael P Massagli, Brian R Clarridge, and
+Russell S Phillips. 2006. Com plemen tary and al-
+ternative medical therapy use among chinese and
+viet namese americans: prevalen ce, associated fac-
+tors, and effects of patient–clinician com munication.
+American Journal of Public Health, 96(4):647–653.
+H. T. Lê. 1998. Hải Thượng Y - Tôn tâm lĩnh :.: từ
+tập 5 đến tập 9. Tập thủ- Nội kinh- Mạch lạc (quan
+miện)-Tính dược. Quyển II (trọn bộ5 quyển). Sách
+thuốc Việt Nam. Nxb. Đồng Tháp.
+Tian Liang, Xing Wang, Min gming Yang, Yujiu Yang,
+Shuming Shi, and Zhaopeng Tu. 2024. Addressing
+en tity tran slation problem via tran slation difficulty
+and con text diversity. In Fin dings of the Associa-
+tion for Com putational Lin guistics ACL 2024, pages
+11628–11638.
+Đình Khẩn Lê. 2002. Từ vựng gốc Hán trong tiếng Việt.
+Đại học quốc gia Hồ Chí Minh, TP. Hồ Chí Minh.
+Nguyễn Văn Minh. 1967. Dược Tính Chỉ Nam. Việt
+Nam Kỳ Lão Ái Hữu.
+Maciej Modrzejewski, Miriam Exel, Bian ka Buschbeck,
+Thanh-Le Ha, and Alex Waibel. 2020. In corporating
+external an notation to im prove named en tity trans-
+lation in nmt. In Proceedings of the 22nd an nual
+con feren ce of the european association for mac hine
+tran slation, pages 45–51.
+T. C. Nguyễn. 1979. Nguồn gốc và quá trình hình thành
+cách đọc Hán Việt. Nhà xuất bản Khoa Học Xã Hội.
+Nguyễn Đình Chiểu. 2003. Ngư Tiều y thuật vấn đáp.
+NXB Thuận Hóa.
+Jan Niehues and Eunah Cho. 2017. Exploiting lin guis-
+tic resources for neural mac hine tran slation using
+multi-task learning. In Proceedings of the Second
+Con feren ce on Mac hine Tran slation, pages 80–89,
+Copen hagen, Den mark. Association for Com puta-
+tional Lin guistics.
+Mat¯ıss Rikters and Makoto Miwa. 2024. En tity-aware
+multi-task training helps rare word mac hine tran sla-
+tion. In Proceedings of the 17th In ternational Natu-
+ral Lan guage Generation Con feren ce, pages 47–54.
+Rico Sen nrich and Barry Haddow. 2016. Lin guistic
+in put features im prove neural mac hine tran slation.
+In Proceedings of the First Con feren ce on Mac hine
+Tran slation: Volume 1, Research Papers, pages 83–
+91, Berlin, Germany. Association for Com putational
+Lin guistics.
+Arata Ugawa, Akihiro Tamura, Takashi Ninomiya, Hi-
+roya Takamura, and Manabu Okumura. 2018. Neural
+mac hine tran slation in corporating named en tity. In
+Proceedings of the 27th In ternational Con feren ce on
+Com putational Lin guistics, pages 3240–3250.
+Regional Office for the Western Pacific World
+Health Organization. 2011.
+Thuật ngữ Y học cổ
+truyền của tổ chức Y tế thế giới khu vực Tây Thái
+Bình Dương.
+Shufang Xie, Yin gce Xia, Lijun Wu, Yiqing Huang,
+Yang Fan, and Tao Qin. 2022. End-to-end en tity-
+aware neural mac hine tran slation.
+Mach. Learn.,
+111(3):1181–1203.
+An Yang, An feng Li, Baosong Yang, Beic hen Zhang,
+Binyuan Hui,
+Bo Zheng,
+Bowen Yu,
+Chang
+Gao, Chen gen Huang, Chen xu Lv, and 1 ot hers.
+2025.
+Qwen3 tec hnical report.
+ar Xiv prep rint
+ar Xiv:2505.09388.
+R. Zhang, D. Tian, and Y. Wang. 2025. Large lan guage
+models in traditional chinese medicine: A short sur-
+vey and out look. AI Medicine, 2(1):3.
+416
+
+
+A
+Dataset Con tributors
+• Con tributor 1 - Associate Professor in Com-
+puter Scien ce and Com parative Lin guistics.
+• Con tributor 2 - Ph D in Com puter Scien ce and
+Natural Lan guage Processing (NLP).
+• Con tributor 3 - Ph D student in Traditional
+Viet namese Medicine
+• Con tributor 4 - Un dergraduate Student major-
+ing in Com puter Scien ce and NLP
+• Con tributor 5 - Un dergraduate Student major-
+ing in Com puter Scien ce and NLP
+B
+Dataset Statistics
+Table 1 shows the distribution of en tity labels pro-
+duced by the augmen tation process.
+Label
+Num ber of In stan ces
+PLT_MM
+11070
+ANI_MM
+888
+MIN_MM
+2369
+PER
+2572
+LOC
+587
+TRE
+74
+CMB
+2826
+Total
+20386
+Table 1: Distribution of en tity labels generated by the
+augmen tation process.
+Table 2 shows the distribution of en tity labels
+ac ross the training, validation, and test sets after
+ap plying augmen tation.
+Label
+Train
+Validation
+Test
+PLT_MM
+24,715
+1,037
+1,017
+ANI_MM
+2,740
+172
+206
+MIN_MM
+5,272
+296
+322
+PER
+3,316
+48
+54
+LOC
+636
+8
+6
+TRE
+1,846
+204
+155
+CMB
+3,583
+68
+84
+Table 2: Total counts of each en tity label in the train,
+validation, and test sets after augmen tation.
+C
+Experiment Setup
+This sec tion out lines the experimen tal setup for
+evaluating our tran slation ap proach.
+C.1
+Com putational Resources
+All experiments were performed on Google Colab
+Pro with an NVIDIA A100 GPU (40GB VRAM).
+Mixed-precision training was utilized to im prove
+memory efficien cy and speed up con vergen ce.
+C.2
+Model Con figurations
+Wefine-tuned
+thefollowing
+models
+using
+parameter-efficient Lo RA tec hniques to op timize
+training speed and reduce com putational resource
+requirements wit hout com promising performan ce:
+Model
+Parameters
+Qwen-3-14B
+14.0B
+Phi-4-14B
+14.0B
+LLa MA-3.1-8B
+8.0B
+NLLB-200-3.3B
+3.3B
+Table 3: Model con figurations
+D
+Gemini Prompt for En tity Tran slation
+To tran slate named en tities in to Viet namese, we
+used the following prompt with the gemini-2.0-
+flash model.
+Viet namese Prompt
+Dịch tên thực thể sau sang tiếng Việt, chỉ
+trả về bản dịch, không giải thích. Nếu
+không dịch được, hãy trả về nguyên văn:
+{text}
+En glish Tran slation
+Tran slate the following named en tity in to
+Viet namese. Return on ly the tran slation.
+If not possible, return the original:
+{text}
+E
+Named En tity Ac curacy Ac ross HEMR
+Con figurations
+This sec tion sum marizes how each HEMR con figu-
+ration performs in tran slating named en tities ac ross
+multip le categories. Table 4 shows the per-en tity
+ac curacy and overall ac curacy for each com bination
+of Dic tionary Lookup, Automated Tran slation, and
+Sino-Viet namese Con version.
+417
+
+
+Cfg
+PLT
+ANI
+MIN
+PER
+LOC
+TRE
+CMB
+(1)
+76.03
+60.19
+82.61
+29.63
+1.30
+33.33
+65.62
+(2)
+67.82
+39.81
+64.47
+60.00
+33.33
+58.70
+33.33
+(3)
+10.02
+6.80
+6.21
+3.70
+0.00
+2.60
+2.38
+(1)+(2)
+78.98
+66.99
+82.61
+51.85
+54.55
+42.86
+73.64
+(1)+(3)
+76.62
+61.17
+82.61
+29.63
+0.00
+3.90
+35.71
+(2)+(3)
+68.09
+40.00
+64.36
+56.30
+33.33
+56.36
+33.81
+(1)+(2)+(3)
+78.98
+66.02
+83.23
+55.56
+33.33
+55.84
+42.86
+Table 4: Named En tity Ac curacy (%) ac ross con figurations for different en tity types. Cfg: (1) Dic tionary Lookup,
+(2) Automated Tran slation, (3) Sino-Viet namese Con version.
+418

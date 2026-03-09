@@ -1,0 +1,320 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 15: thuốc kháng virus
+(Nhóm kháng virus sao chép ngược)
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được các giai đoạn phát triển của virus sao chép ngược và vị trí có thể tác động
+của thuốc.
+2. Trình bày được cơ chế tác dụng và độc tính của zidovudin, nevirapin và in dinavir.
+Virus gồm có loại 1 hoặc 2 chuỗi ADN hoặc ARN được bọc trong một vỏ protein gọi là cap sid.
+Một số virus có cả vỏ lipop rotein, và giống như cap sid, vỏ này có thể chứa các protein kháng
+nguyên. Virus bắt buộc phải sống ký sinh trong tế bào vật chủ, sự sao chép của chúng phụ thuộc
+chủ yếu vào các quá trình tổng hợp của tế bào vật chủ.
+- Loại ADN virus như poxvirus (gây bệnh đậu mùa), herpesvirus (gây thuỷ đậu, herpes, zona),
+adenovirus (viêm kết mạc, viêm họng), hepa AND virus (viêm gan B) và papillomavirus (hột
+cơm). Sau khi thâm nhập được vào nhân tế bào vật chủ, ADN virus được sao mã sớm vào ARN m
+bởi ARNm polymerase của tế bào vật chủ, ARN m được dịch mã theo cách thông thường của tế bào
+vật chủ để thành các protein đặc hiệu của virus. Riêng virus đậu mùa, do có ARN polymerase
+riêng nên có thể sao chép ngay trong bào tương của tế bào vật chủ.
+- Loại ARN virus gồm rubellavirus (gây bệnh sởi Đức [German measles], rubeon), rhabdovirus
+(bệnh dại), pico ARNvirus (bệnh bại liệt, viêm màng não, cảm lạnh), arenavirus (viêm màng não,
+sốt Lassa), arbovirus (sốt vàng), orthomyxovirus (cúm), paramyxovirus (sởi, quai bị).
+Với ARN virus, việc sao chép trong tế bào vật chủ sĩ dựa vào hoặc là các en zym trong virion (hạt
+virus) để tổng hợp ARN m cho nó, hoặc là ARN virus được dùng như chính ARN m của nó. ARNm
+được dịch mã thành các protein virus, kể cả ARN polymerase, en zym chi phối sự tổng hợp nhiều
+ARNm virus.
+Một nhóm ARN virus trong loại này là ret rovirus có chứa en zym re verse transcrip tase (en zym
+sao mã ngược), tạo ADN từ ARN virus. Sau đó, bản sao ADN tích hợp vào genom (bộ gen) của
+vật chủ (lúc đó được coi như provirus) và được sao mã thành cả ARN genom và ARN m để dịch
+mã thành các protein virus (HIV).
+Trong nhiều bệnh nhiễm virus, đỉnh điểm của sự sao chép của virus là vào ngay trước lúc triệu
+chứng lâm sàng xuất hiện. Vì vậy, hiệu quả điều trị lâm sàng tối ưu là phải bắt đầu điều trị sớm.
+Các thuốc kháng virus cần phải: ngăn cản sự xâm nhập của virus vào tế bào và phải có hoạt tính
+với virus trong tế bào, nghĩa là phải có tính đặc hiệu.
+Dựa vào các bước trong quá trình sao chép, nhân đôi của virus mà nghiên cứu các thuốc kháng
+virus, theo bảng 15.1
+Thuốc kháng virus sao chép ngược (An tiret roviral agents): thuốc chống HI V.
+HIV (human im munodeficien cy virus) là virus sao chép ngược. ARN tấn công vào các tế bào
+lym pho CD4, đại thực bào và tế bào thần kinh sợi nhánh (den dritic cells). Nghiên cứu vòng đời
+của HIV trong tế bào chính là tìm mục tiêu tác động của thuốc.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 15.1 dưới đây trình bày các giai đoạn phát triển của HIV và mục tiêu có thể tác động của
+thuốc.
+Bảng 15.1: Các giai đoạn sao chép của virus và mục tiêu tác động
+của thuốc chống virus
+Giai đoạn sao chép
+Các nhóm thuốc
+- Bám dính và xâm nhập
+Bám dính
+Xâm nhập
+- Tháo vỏ
+Giải phóng genom của virus
+- Sao mã của genom virus
+- Dịch mã của protein virus
+Các protein điều hòa (sớm)
+Các protein cấu trúc (muộn)
+- Thay đổi sau dịch mã
+- Tập hợp các thành phần của
+virion
+- Thoát khỏi tế bào vật chủ
+- Bẫy recep tor hòa tan, kháng recep tor kháng
+thể ức chế protein kết hợp.
+- Chẹn kênh ion, chất làm vững bền màng
+cap sid
+ức chế các en zym của virus: ADN polymerase,
+ARNpolymerase,
+reverse
+transcrip tase,
+helicase, primase hoặc in tegrase.
+- In terferon, an tisen se oligonuc leotid ribozym.
+- Các chất ức chế protein điều hòa
+- Các chất ức chế protease
+- In terferon, các chất ức chế protein tập hợp
+Chất ức chế neuraminidase, kháng thể kháng
+virus.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 15.1. Quá trình phát triển
+của HIV trong tế bào vật chủ
+1) Virus gắn vào các recep tor CD 4
+2) Hòa màng và thoát vỏ của virus
+3) Sao chép ngược từ ARN
+ADN 4) Tích hợp của ADN virus
+vào ADN vật chủ
+5) Sao mã muộn hay sự tổng hợp
+protein của virus
+6) Lắp ráp hay tổ hợp lại của
+virus và nẩy chồi; : ARN virus;
+.
+ARNvà
+en zym
+reverse
+transcrip tase.
+Qua hình trên, về lý thuyết, có thể nghiên cứu các thuốc tác động vào các khâu sau:
+- Ngăn cản virus gắn vào các recep tor tế bào (1)
+- Ngăn cản sự hòa màng và thoát vỏ của virus (2)
+- Kìm hãm sự sao chép ngược từ ARN (3)
+- Ngăn cản sự tích hợp của ADN virus vào ADN của tế bào vật chủ (4).
+- Ngăn cản sự sao mã muộn hay sự tổng hợp protein của virus (5)
+- Kìm hãm sự lắp ráp hay sự tổ hợp lại của virus và sự nẩy chồi (6).
+ở mỗi giai đoạn trên đều có những cơ chế đặc hiệu và những en zym đặc hiệu riêng cho HIV, và
+như vậy có thể tìm ra các thuốc ức chế thích hợp cho từng giai đoạn. Tuy nhiên, do nhiều khó
+khăn, các nghiên cứu hiện nay phần lớn tập trung vào các loại thuốc ức chế en zym sao chép
+ngược (reverse transcrip tase- RT), protease và in tegrase.
+RT là en zym có tác dụng chuyển mạch đơn ARN của HIV thành mạch kép ADN (giai đoạn 3
+trên sơ đồ) trước khi xâm nhập vào nhiễm sắc thể của tế bào vật chủ. Thuốc ức chế RT có 2 loại:
+- Thuốc ức chế nuc leosid reverse transcrip tase (NRTI): tác dụng rất sớm ở giai đoạn sao chép của
+HIV, ngăn cản nhiễm khuẩn cấp tính của tế bào, rất ít tác dụng trên tế bào đã nhiễm HIV. Các
+thuốc này đều là “tiền thuốc”, có cấu trúc tương tự như một thành phần cấu tạo của ADN nhưng
+phải được en zym ở bào tương của tế bào vật chủ phosphoryl hóa mới trở nên có hoạt tính là nhóm
+thuốc quan trọng nhất trong công thức phối hợp thuốc để điều trị HIV.
+- Thuốc ức chế non- nuc leosid reverse transcrip tase (NNRTI): Thuốc ức chế en zym sao chép
+ngược không phải nuc leosid là thuốc tổng hợp có khả năng gắn vào cạnh vị trí tác động của RT,
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+làm thay đổi hình dáng của vị trí này nên en zym bị mất hoạt tính. Thuốc không cần qua giai đoạn
+phosphoryl hóa như NRTI và chỉ có tác động trên HIV - 1. Tất cả đều chuyển hóa ở gan qua Cyt.
+P450, gây cảm ứng en zym nên làm tăng chuyển hóa của chính nó (phải tăng liều khi dùng kéo dài)
+và một số thuốc dùng cùng.
+In tegrase là en zym có tác dụng găm ADN của provirus vào nhiễm sắc thể của tế bào vật chủ. Nếu
+ức chế được en zym này sĩ làm HIV không nhân lên được trong tế bào ký sinh và sĩ bị tiêu diệt.
+Hiện còn là bước nghiên cứu ở phòng thí nghiệm.
+Các protease là các en zym tham gia trong quá trình tổng hợp nhiều protein cấu trúc của lõi virus
+và các en zym chủ yếu, trong đó có cả RT và chính bản thân protease. ức chế protease thì HIV chỉ
+là các virion (hạt virus) không trưởng thành và không gây bệnh được. Vì vậy, hướng nghiên cứu
+này rất hấp dẫn.
+Trong vòng đời của HIV, các en zym tác động như sau:
+. Mạch đơn ARN
+mạch kép ADN
+. ADN virus
+nhập vào ADN vật chủ
+. ADN hoà nhập
+ARN mới của virus
+(provirus)
+protein của virus
+Các thuốc chống HIV đang được dùng (bảng 15.2) hiện còn rất đắt và nhiều thuốc còn đang ở
+giai đoạn thử lâm sàng.
+Bảng 15.2: Các thuốc chống HIV
+Tên gốc
+Tên thương mại
+Hiệu quả kháng HIV
+ức chế nuc leosid
+reverse transcrip tase(NRT)
+Zidovudin
+Didanosin
+AZT, Ret rovir, Videx EC
+dd I, Videx
+D4T, Zerit
++ +
++ +
++ +
+in tegrase
+cơ chế phiên mã bình
+thường của tế bào vật chủ
+protease
+RT
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Stavudin
+Zalcitabin
+Lamivudin
+ức chế non nuc leosid
+reverse transcrip tase (NNRT)
+Nevirapin
+Efavirenz
+ức chế protease
+Saquinavir
+In dinavir
+Ritonavir
+Nelfinavir
+Am prenavir
+Lopinavir
+dd C, Hivid
+3 TC, Epivir
+Viramune
+Sustiva
+In virase, Fortovase
+Crixivan
+Norvir
+Viracept
+Agenerase
+Kalet ra
++
++ +
++ + +
++ + +
++ +
++ + +
++ + +
++ + +
++ + +
++ + +
+Các thuốc này phần lớn còn đang được nghiên cứu và đánh giá trên lâm sàng. Dưới đây là một số
+thuốc đại diện, hiện có ở Việt Nam.
+1. Thuốc ức chế NRT
+1.1.
+Zidovudin (azidot hymidin, AZT)
+Zidovudin là chất tổng hợp tương tự thymidin, lúc đầu để chống ung thư (Horwitz - 1964), sau
+thấy có tác dụng chống virus (Ostertag, 1974) và đến 1985 thì Mit suya lần đầu tiên thấy có tác
+dụng ức chế được HIV-1 in vit ro
+1.1.1. Cơ chế tác dụng
+Sau khi nhập vào tế bào, zidovudin cũng phải được phosphoryl hóa 3 lần để thành zidovudin 5 -
+trip hosphat mới có hoạt tính. Trong tế bào, dạng hoạt tính có t/2
+3 giờ. Zidovudin 5-
+trip hosphat ức chế tranh chấp với deoxyt hymidin trip hosphat của RT. Ngoài ra còn tranh chấp với
+thymidin trip hosphat để tích hợp vào ADN provirus, làm kết thúc sớm chuỗi ADN, tạo ra ADN
+provirus không hoàn chỉnh. In vit ro, zidovudin chống được HIV - 1, HIV- 2 và các virus hướng
+lym pho T (T cell lym phot ropic viruses) của người.
+1.1.2. Dược động học
+Hấp thu nhanh qua tiêu hóa và phân bố vào mọi mô, nồng độ trong dịch não tuỷ bằng 60% trong
+huyết tương. Sinh khả dụng khoảng 65%; t/2 huyết tương là 1,1 giờ, nhưng dạng hoạt tính trong
+tế bào có t/2 3 giờ. Thải trừ 90% qua thận dưới dạng chuyển hóa và không chuyển hó a.
+1.1.3. Tác dụng không mong muốn
+- Độc tính chính là thiếu máu thường xảy ra trong 4 tuần đầu (7%), giảm bạch cầu (37%), giảm
+tiểu cầu.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Các tác dụng không mong muốn khác là nhức đầu, mất ngủ, chán ăn, buồn nôn, mệt mỏi, đau
+cơ xẩy ra trong vài tuần đầu. Dùng thuốc chữa triệu chứng.
+- Tác dụng phụ xuất hiện chậm hơn, sau 6 - 17 tháng là tụ sắc tố ở các móng, cơn co giật, hội
+chứng giống viêm nhiều cơ.
+- Các thuốc ức chế phản ứng glucuronyl tran sferase ở gan (phản ứng giáng hóa AZT) như
+acetaminop hen, aspirin, in dometacin, probenecid sĩ làm tăng tai biến độc tính về máu của AZT
+nên cần tránh dùng chung.
+1.1.4. Chỉ định và liều lượng
+Uống 200 mg, cách 8 giờ/ lần; hoặc 100 mg 5 lần/ ngày. Dùng liên tục. Có thể phối hợp với
+thuốc ức chế RT khác hoặc thuốc ức chế protease.
+Chế phẩm: AZT, Ret rovir viên nang 100 mg; lọ 200 mg/20 m L.
+1.2.
+Didanosin (dd I)
+Didanosin (2', 3' dideoxy inosin- dd I) là chất tương tự nuc leosid purin, được nghiên cứu từ 1989
+và dùng điều trị từ cuối năm 1991. Tác dụng cả trên HIV - 1 và HIV- 2.
+1.2.1. Cơ chế tác dụng
+Sau khi thâm nhập vào tế bào, dưới tác dụng của en zym chuyển hóa nội bào, didanosin được 3
+lần phosphoryl hóa để thành dạng có hoạt tính là dideoxyadenosin trip hosphat (dd ATP), tranh
+chấp với d ATP (deoxyadenosin trip hosphat) ức chế RT của virus, đồng t hời ngăn cản kéo dài
+chuỗi ADN, ngăn cản tổng hợp ADN provirus.
+1.2.2. Dược động học
+Didanosin bị phá huỷ nhanh ở môi trường acid, vì vậy mọi chế phẩm uống đều chứa chất trung
+hòa p H của dịch vị. Cần uống lúc đói. Uống sau bữa ăn, làm giảm hấp thu tới 50%. Nồng độ đỉnh
+huyết tương của liều uống 300 mg là 1 g/ m L. Nồng độ trong dịch não tuỷ bằng 20% nồng độ
+huyết tương. Thời gian bán thải là 0,6 - 1,5 giờ, nhưng t/2 trong tế bào của dd ATP là 8 - 24 giờ
+nên chỉ cần uống 2 lần/ ngày. Thải trừ qua thận.
+1.2.3. Tác dụng không mong muốn
+- Viêm tụy và viêm thần kinh ngoại biên thường gặp nhất, liên quan đến liều dùng, nhất là khi
+liều > 12,5 mg/ kg. Tỷ lệ thường gặp là 6 - 28%.
+- Tiêu chẩy: 17%, gần 2% là trường hợp nặng
+- Các rối loạn khác: khoảng 2% gồm buồn nôn, nôn, sốt, rét run, nhức đầu, đau cơ, đái acid uric...
+- Một số rối loạn sinh hóa- huyết học giảm bạch cầu, giảm tiểu cầu, thiếu máu, tăng
+tran saminase. Không liên quan đến liều điều trị.
+1.2.4. Chỉ định, liều lượng
+Dùng cho trẻ em trên 6 tháng tuổi và người lớn bị nhiễm HIV k hông dung nạp với AZT hoặc
+dùng AZT 4 tháng nhưng bệnh ít thuyên giảm.
+Người lớn: 200 mg 2 lần/ ngày. Giảm liều nếu nhẹ cân.
+Trẻ em, dựa theo diện tích cơ thể:
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+0,8- 1,2 m2 : 75 mg 2 lần/ ngày
+0,5- 0,7 m2 : 50 mg 2 lần/ ngày
+Phải uống lúc đói, trước bữa ăn 1 giờ. Nhai nát viên thuốc hoặc hòa vào nước cho thật tan rồi
+uống ngay.
+Didanosin (Videx) viên nén 25, 50, 100, 150 mg; bột hoà tan dùng cho trẻ em: 100, 200 mg.
+2. Thuốc ức chế NNRT
+Nevirapin
+2.1.
+Cơ chế tác dụng: Nevirapin khuếch tán vào trong tế bào , gắn vào RT, làm thay đổi hình
+dáng và bất hoạt en zym. Tác động mạnh trên HIV- 1, kể cả các virion ngoài tế bào.
+2.2.
+Dược động học. Dễ hấp thu qua đường tiêu hóa, thấm được qua rau thai và sữa. Nồng độ
+trong dịch não tuỷ bằng 45% nồng độ huyết tương. Thời gian bán thải là 25- 30 giờ.
+Chuyển hóa ở gan qua cytoc rom P 450.
+2.3.
+Tác dụng không mong muốn: phát ban, sốt, nhức đầu ngủ gà và tăng tran saminase.
+2.4.
+Liều lượng: Nevirapin (Viramune) viên 200 mg 1- 2 viên/ ngày.
+3. Thuốc ức chế protease
+3.1.
+In dinavir
+ức chế đặc hiệu HIV- 1 protease
+Dùng kết hợp với một thuốc ức chế RT để làm chậm kháng thuốc. Uống 800 mg, cách 8 giờ uống
+1 lần; để được hấp thu tốt, nên uống cách bữa ăn 2 giờ. Viên 200, 400 mg.
+Tác dụng không mong muốn: tăng bilirubin máu, sỏi thận (nên uống nhiều nước), buồn nôn, tiêu
+chảy, giảm tiểu cầu. In dinavir ức chế mạnh cytoc hrom P 450 nên có tương tác với nhiều thuốc
+chuyển hóa qua cytoc hrom này.
+3.2.
+Ritonavir
+ức chế đặc hiệu HIV- 1 protease
+Sinh khả dụng 60- 80%. Uống liều 600 mg 12 giờ/ lần.
+Tác dụng không mong muốn: rối loạn tiêu hóa, tê bì, tăng tran saminase, tăng triglycerid máu.
+Cũng ức chế mạnh cytoc hrom P 450 như in dinavir nên có tương tác với nhiều thuốc.
+Ritonavir (Norvir): viên nang 100 mg, dung dịch uống 80 mg/m L.
+Nguyên tắc sử dụng thuốc chống HIV
+Sau nhiều năm theo dõi điều trị, WHO đã đưa ra một số khuyến cáo sau:
+- Các liệu pháp điều trị phải theo hướng dẫn toàn quốc. Liệu pháp hàng đầu có thể là:
+AZT + 3 TC + Nevirapin
+AZT + 3 TC + Nelfinavir
+AZT + 3 TC + Lopinavir/ in dinavir/ Saquinavir
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Sử dụng 2 thuốc không còn được coi là thích hợp.
+- Sự tuân thủ có ý nghĩa quan trọng hơn sự lựa chọn thuốc.
+- Phụ nữ mang thai và trẻ nhỏ cũng phải được điều trị phối hợp thuốc tối ưu.
+câu hỏi tự lượng giá
+1. Trình bày các giai đoạn phát triển trong tế bào vật chủ củ a virus sao chép ngược (HIV)
+và các vị trí có thể tác động của thuốc.
+2. So sánh cơ chế tác động và độc tính của zidovudin, nevirapin và in dinavir.

@@ -1,2668 +1,1093 @@
 sources:
-- source_id: src_b4b834a92f33
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI 2.
-    HỌC THUYẾT TẠNG TƯỢNG.pdf
-  doc_type: pdf
+- source_id: src_f3204154b5ed
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI
+    2. HỌC THUYẾT TẠNG TƯỢNG.txt
+  doc_type: txt
   title: BÀI 2. HỌC THUYẾT TẠNG TƯỢNG
   doc_language: vi
   url: ''
-- source_id: src_fedfd1fee6ba
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI 2.
-    TỨ CHẨN - BÁT CƯƠNG - BÁT PHÁP.pdf
-  doc_type: pdf
+- source_id: src_5f93553e263f
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI
+    2. TỨ CHẨN - BÁT CƯƠNG - BÁT PHÁP.txt
+  doc_type: txt
   title: BÀI 2. TỨ CHẨN - BÁT CƯƠNG - BÁT PHÁP
   doc_language: vi
   url: ''
-- source_id: src_510a5e82c758
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI 3.
-    HỆ KINH LẠC VÀ HUYỆT VỊ.pdf
-  doc_type: pdf
+- source_id: src_13b8c5abfbbe
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI
+    3. HỆ KINH LẠC VÀ HUYỆT VỊ.txt
+  doc_type: txt
   title: BÀI 3. HỆ KINH LẠC VÀ HUYỆT VỊ
   doc_language: vi
   url: ''
-- source_id: src_4ab068733df6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI 4.
-    XBBH-DƯỠNG SINH.pdf
-  doc_type: pdf
+- source_id: src_0f6b06613c3a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/BÀI
+    4. XBBH-DƯỠNG SINH.txt
+  doc_type: txt
   title: BÀI 4. XBBH-DƯỠNG SINH
   doc_language: vi
   url: ''
-- source_id: src_f20b7bc9d530
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Bài giảng
-    Y học cổ truyền của Đại học Y Hà Nội tập 1- nguyentruongntan@gmail.com.pdf
-  doc_type: pdf
-  title: Bài giảng Y học cổ truyền của Đại học Y Hà Nội tập 1- nguyentruongntan@gmail.com
-  doc_language: vi
-  url: ''
-- source_id: src_7f1dc96be9fa
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Ngoại khoa
-    Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com.pdf
-  doc_type: pdf
+- source_id: src_acdc38ef8972
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Ngoại
+    khoa Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com.txt
+  doc_type: txt
   title: Ngoại khoa Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com
   doc_language: vi
   url: ''
-- source_id: src_ded5fa0eb3a9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Nhi khoa
-    Y học cổ truyền của đại học y Hà Nội- nguyentruongntan@gmail.com.pdf
-  doc_type: pdf
-  title: Nhi khoa Y học cổ truyền của đại học y Hà Nội- nguyentruongntan@gmail.com
-  doc_language: vi
-  url: ''
-- source_id: src_995a0ea5fd29
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Nội khoa
-    Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com.pdf
-  doc_type: pdf
-  title: Nội khoa Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com
-  doc_language: vi
-  url: ''
-- source_id: src_dc717b40c55e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Sách Y
-    học cổ truyền của đại học Duy Tân- nguyentruongntan@gmail.com.pdf
-  doc_type: pdf
+- source_id: src_901a97a5099b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Sách
+    Y học cổ truyền của đại học Duy Tân- nguyentruongntan@gmail.com.txt
+  doc_type: txt
   title: Sách Y học cổ truyền của đại học Duy Tân- nguyentruongntan@gmail.com
   doc_language: vi
   url: ''
-- source_id: src_4fecb325c6df
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/100 CÂY THUỐC
-    VÀ 66 BÀI THUỐC CHỮA BỆNH THƯỜNG DÙNG CỦA CỘNG ĐỒNG NGƯỜI BAHNAR VÀ JRAI Ở TỈNH
-    GIA LAI.pdf
-  doc_type: pdf
+- source_id: src_6784cb75c99b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/100
+    CÂY THUỐC VÀ 66 BÀI THUỐC CHỮA BỆNH THƯỜNG DÙNG CỦA CỘNG ĐỒNG NGƯỜI BAHNAR VÀ
+    JRAI Ở TỈNH GIA LAI.txt
+  doc_type: txt
   title: 100 CÂY THUỐC VÀ 66 BÀI THUỐC CHỮA BỆNH THƯỜNG DÙNG CỦA CỘNG ĐỒNG NGƯỜI BAHNAR
     VÀ JRAI Ở TỈNH GIA LAI
   doc_language: vi
   url: ''
-- source_id: src_6d523a5f27ee
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/3033 CÂY
-    THUỐC ĐÔNG Y (TUỆ TĨNH).pdf
-  doc_type: pdf
+- source_id: src_d5596b1dce93
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/3033
+    CÂY THUỐC ĐÔNG Y (TUỆ TĨNH).txt
+  doc_type: txt
   title: 3033 CÂY THUỐC ĐÔNG Y (TUỆ TĨNH)
   doc_language: vi
   url: ''
-- source_id: src_642a1a881971
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/CÂY HOA CÂY
-    THUỐC.docx
-  doc_type: docx
+- source_id: src_e2fe10d2d90a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/CÂY
+    HOA CÂY THUỐC.txt
+  doc_type: txt
   title: CÂY HOA CÂY THUỐC
   doc_language: vi
   url: ''
-- source_id: src_09655178a4bb
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/CÂY RAU CÂY
-    THUỐC.docx
-  doc_type: docx
+- source_id: src_e823b7aa03f5
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/CÂY
+    RAU CÂY THUỐC.txt
+  doc_type: txt
   title: CÂY RAU CÂY THUỐC
   doc_language: vi
   url: ''
-- source_id: src_5dfce9198ec9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Cây Lược Vàng Quý như vàng - Kim Quốc Hoa chủ biên.pdf
-  doc_type: pdf
+- source_id: src_12abef9658fb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Cây Lược Vàng Quý như vàng - Kim Quốc Hoa chủ biên.txt
+  doc_type: txt
   title: Cây Lược Vàng Quý như vàng - Kim Quốc Hoa chủ biên
   doc_language: vi
   url: ''
-- source_id: src_118fec9f2030
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai16.pdf
-  doc_type: pdf
+- source_id: src_e56086bb278f
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai16.txt
+  doc_type: txt
   title: Bai16
   doc_language: vi
   url: ''
-- source_id: src_34459b142091
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai18.pdf
-  doc_type: pdf
+- source_id: src_269c3c7d4e3e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai18.txt
+  doc_type: txt
   title: Bai18
   doc_language: vi
   url: ''
-- source_id: src_c922415cf8af
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai3.pdf
-  doc_type: pdf
+- source_id: src_9cfd42812652
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai3.txt
+  doc_type: txt
   title: Bai3
   doc_language: vi
   url: ''
-- source_id: src_2d067d2ae502
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai5.pdf
-  doc_type: pdf
+- source_id: src_1fa00ba5471e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai5.txt
+  doc_type: txt
   title: Bai5
   doc_language: vi
   url: ''
-- source_id: src_1bc723dfbc45
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai8.pdf
-  doc_type: pdf
+- source_id: src_a77a975be1f8
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai8.txt
+  doc_type: txt
   title: Bai8
   doc_language: vi
   url: ''
-- source_id: src_f1b6aaecc326
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] CAY THUOC VA DONG VAT LAM THUOC 01.pdf
-  doc_type: pdf
-  title: '[non-ocr] CAY THUOC VA DONG VAT LAM THUOC 01'
-  doc_language: vi
-  url: ''
-- source_id: src_1d6615562724
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] CAY THUOC VA DONG VAT LAM THUOC 02.pdf
-  doc_type: pdf
-  title: '[non-ocr] CAY THUOC VA DONG VAT LAM THUOC 02'
-  doc_language: vi
-  url: ''
-- source_id: src_44cbb6d3bfd8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Cây Rau Làm Thuốc.pdf
-  doc_type: pdf
-  title: '[non-ocr] Cây Rau Làm Thuốc'
-  doc_language: vi
-  url: ''
-- source_id: src_fe6364b4557d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Cây Thuốc Bài Thuốc Và Biệt Dược.pdf
-  doc_type: pdf
-  title: '[non-ocr] Cây Thuốc Bài Thuốc Và Biệt Dược'
-  doc_language: vi
-  url: ''
-- source_id: src_3b203b4221ba
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Kỹ thuật trồng một số cây dược liệu.pdf
-  doc_type: pdf
-  title: '[non-ocr] Kỹ thuật trồng một số cây dược liệu'
-  doc_language: vi
-  url: ''
-- source_id: src_1da8e8121bed
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Những Cây Thuốc Và Vị Thuốc Việt Nam.pdf
-  doc_type: pdf
-  title: '[non-ocr] Những Cây Thuốc Và Vị Thuốc Việt Nam'
-  doc_language: vi
-  url: ''
-- source_id: src_8bcf45801582
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/Huyet mat.pdf
-  doc_type: pdf
+- source_id: src_275430add098
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/Huyet mat.txt
+  doc_type: txt
   title: Huyet mat
   doc_language: vi
   url: ''
-- source_id: src_3d0b55547be6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/1.jpg
-  doc_type: image
-  title: '1'
-  doc_language: vi
-  url: ''
-- source_id: src_82bbfcb44738
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/11014989_1446957922283485_6226416439833474032_n.jpg
-  doc_type: image
-  title: 11014989_1446957922283485_6226416439833474032_n
-  doc_language: vi
-  url: ''
-- source_id: src_b43c92ca92b5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/14570575_637014603173906_3088486819806034284_o.jpg
-  doc_type: image
-  title: 14570575_637014603173906_3088486819806034284_o
-  doc_language: vi
-  url: ''
-- source_id: src_d6e5ca12314d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/15591609_668557533352946_7962217098017185207_o.jpg
-  doc_type: image
-  title: 15591609_668557533352946_7962217098017185207_o
-  doc_language: vi
-  url: ''
-- source_id: src_7ca7f55f7abe
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/15774830_727965317354192_1928493385295294426_o.jpg
-  doc_type: image
-  title: 15774830_727965317354192_1928493385295294426_o
-  doc_language: vi
-  url: ''
-- source_id: src_04df1382a316
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16387398_746961865454537_1674921034736023584_n.jpg
-  doc_type: image
-  title: 16387398_746961865454537_1674921034736023584_n
-  doc_language: vi
-  url: ''
-- source_id: src_3833c73a0a2d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16729037_751008738383183_3189727629780648175_n.jpg
-  doc_type: image
-  title: 16729037_751008738383183_3189727629780648175_n
-  doc_language: vi
-  url: ''
-- source_id: src_83ef759b860a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16730648_751008668383190_6710433767758381636_n.jpg
-  doc_type: image
-  title: 16730648_751008668383190_6710433767758381636_n
-  doc_language: vi
-  url: ''
-- source_id: src_143cda487611
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931938406.jpg
-  doc_type: image
-  title: FB_IMG_1480931938406
-  doc_language: vi
-  url: ''
-- source_id: src_175fdaf4cb85
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932022805.jpg
-  doc_type: image
-  title: FB_IMG_1480932022805
-  doc_language: vi
-  url: ''
-- source_id: src_c6b00289fb6a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932026871.jpg
-  doc_type: image
-  title: FB_IMG_1480932026871
-  doc_language: vi
-  url: ''
-- source_id: src_6e5c8bcfb200
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932061358.jpg
-  doc_type: image
-  title: FB_IMG_1480932061358
-  doc_language: vi
-  url: ''
-- source_id: src_26db50ae10e8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932092805.jpg
-  doc_type: image
-  title: FB_IMG_1480932092805
-  doc_language: vi
-  url: ''
-- source_id: src_5b8d7ccbca08
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932101009.jpg
-  doc_type: image
-  title: FB_IMG_1480932101009
-  doc_language: vi
-  url: ''
-- source_id: src_034a1fd03a56
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932154259.jpg
-  doc_type: image
-  title: FB_IMG_1480932154259
-  doc_language: vi
-  url: ''
-- source_id: src_8d83c4c55ee0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932194809.jpg
-  doc_type: image
-  title: FB_IMG_1480932194809
-  doc_language: vi
-  url: ''
-- source_id: src_b1e6c618ffbd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932224450.jpg
-  doc_type: image
-  title: FB_IMG_1480932224450
-  doc_language: vi
-  url: ''
-- source_id: src_ed787d706271
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932228300.jpg
-  doc_type: image
-  title: FB_IMG_1480932228300
-  doc_language: vi
-  url: ''
-- source_id: src_c9bd63a8f2f5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932234264.jpg
-  doc_type: image
-  title: FB_IMG_1480932234264
-  doc_language: vi
-  url: ''
-- source_id: src_45a69ad7e275
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932307767.jpg
-  doc_type: image
-  title: FB_IMG_1480932307767
-  doc_language: vi
-  url: ''
-- source_id: src_c96e61b5edb2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932315465.jpg
-  doc_type: image
-  title: FB_IMG_1480932315465
-  doc_language: vi
-  url: ''
-- source_id: src_8cdd7b89f735
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932325934.jpg
-  doc_type: image
-  title: FB_IMG_1480932325934
-  doc_language: vi
-  url: ''
-- source_id: src_0d388f00a1e7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932388200.jpg
-  doc_type: image
-  title: FB_IMG_1480932388200
-  doc_language: vi
-  url: ''
-- source_id: src_e4dc1fbe0e06
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932396557.jpg
-  doc_type: image
-  title: FB_IMG_1480932396557
-  doc_language: vi
-  url: ''
-- source_id: src_93dd22763785
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932427067.jpg
-  doc_type: image
-  title: FB_IMG_1480932427067
-  doc_language: vi
-  url: ''
-- source_id: src_673999bc8572
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932439760.jpg
-  doc_type: image
-  title: FB_IMG_1480932439760
-  doc_language: vi
-  url: ''
-- source_id: src_850edb5fafc8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932567575.jpg
-  doc_type: image
-  title: FB_IMG_1480932567575
-  doc_language: vi
-  url: ''
-- source_id: src_ffca2eff25ff
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932570646.jpg
-  doc_type: image
-  title: FB_IMG_1480932570646
-  doc_language: vi
-  url: ''
-- source_id: src_aa425efb390f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932573045.jpg
-  doc_type: image
-  title: FB_IMG_1480932573045
-  doc_language: vi
-  url: ''
-- source_id: src_4878ee347ddf
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932575474.jpg
-  doc_type: image
-  title: FB_IMG_1480932575474
-  doc_language: vi
-  url: ''
-- source_id: src_2931a0b30c2a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932605362.jpg
-  doc_type: image
-  title: FB_IMG_1480932605362
-  doc_language: vi
-  url: ''
-- source_id: src_b04dae792c85
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932609565.jpg
-  doc_type: image
-  title: FB_IMG_1480932609565
-  doc_language: vi
-  url: ''
-- source_id: src_c7c965278bc0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932614136.jpg
-  doc_type: image
-  title: FB_IMG_1480932614136
-  doc_language: vi
-  url: ''
-- source_id: src_8d9f0c06dc2e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932617011.jpg
-  doc_type: image
-  title: FB_IMG_1480932617011
-  doc_language: vi
-  url: ''
-- source_id: src_351a12eae688
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932619688.jpg
-  doc_type: image
-  title: FB_IMG_1480932619688
-  doc_language: vi
-  url: ''
-- source_id: src_c60282914207
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932645518.jpg
-  doc_type: image
-  title: FB_IMG_1480932645518
-  doc_language: vi
-  url: ''
-- source_id: src_6cfc21d29c96
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932659961.jpg
-  doc_type: image
-  title: FB_IMG_1480932659961
-  doc_language: vi
-  url: ''
-- source_id: src_987b5d98f285
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932707977.jpg
-  doc_type: image
-  title: FB_IMG_1480932707977
-  doc_language: vi
-  url: ''
-- source_id: src_1af366e31c2f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932710223.jpg
-  doc_type: image
-  title: FB_IMG_1480932710223
-  doc_language: vi
-  url: ''
-- source_id: src_9dc97d26a726
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932712352.jpg
-  doc_type: image
-  title: FB_IMG_1480932712352
-  doc_language: vi
-  url: ''
-- source_id: src_592206b7252d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932738935.jpg
-  doc_type: image
-  title: FB_IMG_1480932738935
-  doc_language: vi
-  url: ''
-- source_id: src_69531deb01c3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932741926.jpg
-  doc_type: image
-  title: FB_IMG_1480932741926
-  doc_language: vi
-  url: ''
-- source_id: src_b7a0d149900c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932744040.jpg
-  doc_type: image
-  title: FB_IMG_1480932744040
-  doc_language: vi
-  url: ''
-- source_id: src_433e84793150
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932774497.jpg
-  doc_type: image
-  title: FB_IMG_1480932774497
-  doc_language: vi
-  url: ''
-- source_id: src_7dbba9e350ab
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932807119.jpg
-  doc_type: image
-  title: FB_IMG_1480932807119
-  doc_language: vi
-  url: ''
-- source_id: src_a929483062a1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932838884.jpg
-  doc_type: image
-  title: FB_IMG_1480932838884
-  doc_language: vi
-  url: ''
-- source_id: src_ea807b09394f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1481115762300.jpg
-  doc_type: image
-  title: FB_IMG_1481115762300
-  doc_language: vi
-  url: ''
-- source_id: src_75579227fdd9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1481156770255.jpg
-  doc_type: image
-  title: FB_IMG_1481156770255
-  doc_language: vi
-  url: ''
-- source_id: src_b65cd5c9ecfc
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1481156776545.jpg
-  doc_type: image
-  title: FB_IMG_1481156776545
-  doc_language: vi
-  url: ''
-- source_id: src_4af7f064e6ec
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1481186426884.jpg
-  doc_type: image
-  title: FB_IMG_1481186426884
-  doc_language: vi
-  url: ''
-- source_id: src_ddff404ea917
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1481300342610.jpg
-  doc_type: image
-  title: FB_IMG_1481300342610
-  doc_language: vi
-  url: ''
-- source_id: src_e7398a8fb62a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1482071763219.jpg
-  doc_type: image
-  title: FB_IMG_1482071763219
-  doc_language: vi
-  url: ''
-- source_id: src_0329b5aab604
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/huyet1.jpg
-  doc_type: image
-  title: huyet1
-  doc_language: vi
-  url: ''
-- source_id: src_fa32c99801bd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/huyet2.jpg
-  doc_type: image
-  title: huyet2
-  doc_language: vi
-  url: ''
-- source_id: src_6baa6cec2bd1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/huyett.jpg
-  doc_type: image
-  title: huyett
-  doc_language: vi
-  url: ''
-- source_id: src_234bab2d6139
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/kynam2.docx
-  doc_type: docx
+- source_id: src_ef3d6ff3846c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/kynam2.txt
+  doc_type: txt
   title: kynam2
   doc_language: vi
   url: ''
-- source_id: src_acfe5b0305b9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/kynam3.docx
-  doc_type: docx
+- source_id: src_db2f95e72338
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/kynam3.txt
+  doc_type: txt
   title: kynam3
   doc_language: vi
   url: ''
-- source_id: src_a3cce8ddfa5a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932567575.jpg
-  doc_type: image
-  title: FB_IMG_1480932567575
-  doc_language: vi
-  url: ''
-- source_id: src_f016c5c68599
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932619688.jpg
-  doc_type: image
-  title: FB_IMG_1480932619688
-  doc_language: vi
-  url: ''
-- source_id: src_b270343ce76e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932645518.jpg
-  doc_type: image
-  title: FB_IMG_1480932645518
-  doc_language: vi
-  url: ''
-- source_id: src_ce2ad0289fa1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932712352.jpg
-  doc_type: image
-  title: FB_IMG_1480932712352
-  doc_language: vi
-  url: ''
-- source_id: src_d1ae42d9d30d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932738935.jpg
-  doc_type: image
-  title: FB_IMG_1480932738935
-  doc_language: vi
-  url: ''
-- source_id: src_c534845062fd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932741926.jpg
-  doc_type: image
-  title: FB_IMG_1480932741926
-  doc_language: vi
-  url: ''
-- source_id: src_fd1f125e46fd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932774497.jpg
-  doc_type: image
-  title: FB_IMG_1480932774497
-  doc_language: vi
-  url: ''
-- source_id: src_3f4b16cc22d0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932838884.jpg
-  doc_type: image
-  title: FB_IMG_1480932838884
-  doc_language: vi
-  url: ''
-- source_id: src_74851320e189
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1481115762300.jpg
-  doc_type: image
-  title: FB_IMG_1481115762300
-  doc_language: vi
-  url: ''
-- source_id: src_cdcfb9891f6d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1481156770255.jpg
-  doc_type: image
-  title: FB_IMG_1481156770255
-  doc_language: vi
-  url: ''
-- source_id: src_d2f0cd1874f9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1481156776545.jpg
-  doc_type: image
-  title: FB_IMG_1481156776545
-  doc_language: vi
-  url: ''
-- source_id: src_cbcbb558452a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1481186426884.jpg
-  doc_type: image
-  title: FB_IMG_1481186426884
-  doc_language: vi
-  url: ''
-- source_id: src_ef87e424bc87
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/BẢN THẢO VẤN ĐÁP.docx
-  doc_type: docx
+- source_id: src_f0fc7d32edd3
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/BẢN THẢO VẤN ĐÁP.txt
+  doc_type: txt
   title: BẢN THẢO VẤN ĐÁP
   doc_language: vi
   url: ''
-- source_id: src_6eb48a0e5c97
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Tuệ Tĩnh Toàn Tập.pdf
-  doc_type: pdf
-  title: '[non-ocr] Tuệ Tĩnh Toàn Tập'
-  doc_language: vi
-  url: ''
-- source_id: src_b49445a61dc5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Đông Y Lược Khảo q1.pdf
-  doc_type: pdf
-  title: '[non-ocr] Đông Y Lược Khảo q1'
-  doc_language: vi
-  url: ''
-- source_id: src_bb989210464b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 04 - Dai cuong va phan loai he than
-    kinh thuc vat.pdf
-  doc_type: pdf
+- source_id: src_487a77534c7b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 04 - Dai cuong va phan
+    loai he than kinh thuc vat.txt
+  doc_type: txt
   title: Bai 04 - Dai cuong va phan loai he than kinh thuc vat
   doc_language: vi
   url: ''
-- source_id: src_93a3d0bafd23
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 09 - Thuoc giam dau loai Morphin.pdf
-  doc_type: pdf
+- source_id: src_53d4b576238c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 09 - Thuoc giam dau loai
+    Morphin.txt
+  doc_type: txt
   title: Bai 09 - Thuoc giam dau loai Morphin
   doc_language: vi
   url: ''
-- source_id: src_6e87e8c630a7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 11 - Thuoc chua Gut.pdf
-  doc_type: pdf
+- source_id: src_678c2cfcca04
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 11 - Thuoc chua Gut.txt
+  doc_type: txt
   title: Bai 11 - Thuoc chua Gut
   doc_language: vi
   url: ''
-- source_id: src_d5f2468cfaa6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/[non-ocr] Dược Điển Việt Nam.pdf
-  doc_type: pdf
-  title: '[non-ocr] Dược Điển Việt Nam'
-  doc_language: vi
-  url: ''
-- source_id: src_0d224d93d169
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/[non-ocr] Thuoc_biệt_duoc.pdf
-  doc_type: pdf
-  title: '[non-ocr] Thuoc_biệt_duoc'
-  doc_language: vi
-  url: ''
-- source_id: src_84a33bc8fcf2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/[non-ocr] Thực vật dược - Trương Thị Đẹp.pdf
-  doc_type: pdf
-  title: '[non-ocr] Thực vật dược - Trương Thị Đẹp'
-  doc_language: vi
-  url: ''
-- source_id: src_c931df34400f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/[non-ocr]Thuốc Biệt Dược Và Cách Sử Dụng.pdf
-  doc_type: pdf
-  title: '[non-ocr]Thuốc Biệt Dược Và Cách Sử Dụng'
-  doc_language: vi
-  url: ''
-- source_id: src_53e084c33421
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Bi quyet van khi de tri benh- GS. Pham Van Chinh.pdf
-  doc_type: pdf
+- source_id: src_6fac66c04752
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Bi quyet van khi de tri benh- GS. Pham Van Chinh.txt
+  doc_type: txt
   title: Bi quyet van khi de tri benh- GS. Pham Van Chinh
   doc_language: vi
   url: ''
-- source_id: src_8b721327ea23
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Huyen Thoai Nghiem Tan.pdf
-  doc_type: pdf
+- source_id: src_df81449827c6
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Huyen Thoai Nghiem Tan.txt
+  doc_type: txt
   title: Huyen Thoai Nghiem Tan
   doc_language: vi
   url: ''
-- source_id: src_e87ef4930f59
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Tranh mặt nghiêng.jpg
-  doc_type: image
-  title: Tranh mặt nghiêng
-  doc_language: vi
-  url: ''
-- source_id: src_54595bb3da71
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[Tham khảo] 10 QUÁ TRÌNH ĐIỀU HÒA TÂM TƯ TÌNH CẢM KHI LUYỆN CÔNG.docx
-  doc_type: docx
+- source_id: src_5a6f033f109f
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[Tham khảo] 10 QUÁ TRÌNH ĐIỀU HÒA TÂM TƯ TÌNH CẢM KHI LUYỆN CÔNG.txt
+  doc_type: txt
   title: '[Tham khảo] 10 QUÁ TRÌNH ĐIỀU HÒA TÂM TƯ TÌNH CẢM KHI LUYỆN CÔNG'
   doc_language: vi
   url: ''
-- source_id: src_6f665973df92
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/sach_trieuchunglamsanghoc.pdf
-  doc_type: pdf
+- source_id: src_a73c386f17dc
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/sach_trieuchunglamsanghoc.txt
+  doc_type: txt
   title: sach_trieuchunglamsanghoc
   doc_language: vi
   url: ''
-- source_id: src_6890bdbacb16
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-3.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-3'
-  doc_language: vi
-  url: ''
-- source_id: src_82be5de61465
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/[non-ocr] Sổ Tay Thuốc Nam Chữa Bệnh Tuyến Cơ Sở.pdf
-  doc_type: pdf
-  title: '[non-ocr] Sổ Tay Thuốc Nam Chữa Bệnh Tuyến Cơ Sở'
-  doc_language: vi
-  url: ''
-- source_id: src_78ccdb87a4e6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/cay-rau-cay-thuoc-trungtamthuoc.pdf
-  doc_type: pdf
+- source_id: src_ed672128ae8e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/cay-rau-cay-thuoc-trungtamthuoc.txt
+  doc_type: txt
   title: cay-rau-cay-thuoc-trungtamthuoc
   doc_language: vi
   url: ''
-- source_id: src_1578aa74971e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/hướng dẫn
-    chẩn đoán và điều trị bệnh theo y học cổ truyền kết hợp y học cổ truyền và y học
-    hiện đại.pdf
-  doc_type: pdf
+- source_id: src_309ee3f2ff0b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/hướng
+    dẫn chẩn đoán và điều trị bệnh theo y học cổ truyền kết hợp y học cổ truyền và
+    y học hiện đại.txt
+  doc_type: txt
   title: hướng dẫn chẩn đoán và điều trị bệnh theo y học cổ truyền kết hợp y học cổ
     truyền và y học hiện đại
   doc_language: vi
   url: ''
-- source_id: src_12ce9ebfc9d5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-1-125-1-60-output.pdf
-  doc_type: pdf
+- source_id: src_1492afe87488
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-1-125-1-60-output.txt
+  doc_type: txt
   title: nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-1-125-1-60-output
   doc_language: vi
   url: ''
-- source_id: src_f4817174557a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-126-250-1-60-output.pdf
-  doc_type: pdf
+- source_id: src_676e071a4efa
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-126-250-1-60-output.txt
+  doc_type: txt
   title: nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-126-250-1-60-output
   doc_language: vi
   url: ''
-- source_id: src_e17be0731d1a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/tt-40.pdf
-  doc_type: pdf
-  title: tt-40
-  doc_language: vi
-  url: ''
-- source_id: src_9344c516493f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/HTL ebook 46
-    Cây Thuốc Nam Vị Thuốc Thông Dụng (NXB Hồng Đức 2013) - Tuệ Tĩnh, 272 Trang.pdf
-  doc_type: pdf
+- source_id: src_6f802cb99781
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/HTL
+    ebook 46 Cây Thuốc Nam Vị Thuốc Thông Dụng (NXB Hồng Đức 2013) - Tuệ Tĩnh, 272
+    Trang.txt
+  doc_type: txt
   title: HTL ebook 46 Cây Thuốc Nam Vị Thuốc Thông Dụng (NXB Hồng Đức 2013) - Tuệ
     Tĩnh, 272 Trang
   doc_language: vi
   url: ''
-- source_id: src_d8ab3bf11529
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/HTL ebook 50
-    Chữa Bệnh Bằng Cây Lá Quanh Nhà (NXB Văn Hóa Dân Tộc 2000) - Diệp Tâm, 277 Trang.pdf
-  doc_type: pdf
-  title: HTL ebook 50 Chữa Bệnh Bằng Cây Lá Quanh Nhà (NXB Văn Hóa Dân Tộc 2000) -
-    Diệp Tâm, 277 Trang
-  doc_language: vi
-  url: ''
-- source_id: src_1cc44a904a3d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/HTL ebook 9
-    ĐHY.Dược Học Cổ Truyền (NXB Y Học 2002) - Phạm Xuân Sinh, 469 Trang.pdf
-  doc_type: pdf
-  title: HTL ebook 9 ĐHY.Dược Học Cổ Truyền (NXB Y Học 2002) - Phạm Xuân Sinh, 469
-    Trang
-  doc_language: vi
-  url: ''
-- source_id: src_ff21bc53d926
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/Vi thuoc_duoc
-    lieu.pdf
-  doc_type: pdf
+- source_id: src_9dd63d03d7ec
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/Vi
+    thuoc_duoc lieu.txt
+  doc_type: txt
   title: Vi thuoc_duoc lieu
   doc_language: vi
   url: ''
-- source_id: src_101dde8158bd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/cay-thuoc-va-dong-vat-lam-thuoc-tap-1-trungtamthuoc.com.pdf
-  doc_type: pdf
+- source_id: src_c9136ee349e6
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/cay-thuoc-va-dong-vat-lam-thuoc-tap-1-trungtamthuoc.com.txt
+  doc_type: txt
   title: cay-thuoc-va-dong-vat-lam-thuoc-tap-1-trungtamthuoc.com
   doc_language: vi
   url: ''
-- source_id: src_fc04e4f007bd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/d93e3828e74a3ddfb06193a5c304993f0e13fed16e1d01e9c2a2943695deeca2.pdf
-  doc_type: pdf
+- source_id: src_565d308c7183
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/d93e3828e74a3ddfb06193a5c304993f0e13fed16e1d01e9c2a2943695deeca2.txt
+  doc_type: txt
   title: d93e3828e74a3ddfb06193a5c304993f0e13fed16e1d01e9c2a2943695deeca2
   doc_language: vi
   url: ''
-- source_id: src_9e2f97c16115
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc.pdf
-  doc_type: pdf
+- source_id: src_884f8bf44c10
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc.txt
+  doc_type: txt
   title: sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc
   doc_language: vi
   url: ''
-- source_id: src_43d425609028
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/GiaoKhoaVeYCT/BÀI 1.
-    HỌC THUYẾT CƠ BẢN.pdf
-  doc_type: pdf
+- source_id: src_cf98a096f6af
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/ClimateLuck.txt
+  doc_type: txt
+  title: ClimateLuck
+  doc_language: vi
+  url: ''
+- source_id: src_c0a520ebc496
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/FiveElementRelation.txt
+  doc_type: txt
+  title: FiveElementRelation
+  doc_language: vi
+  url: ''
+- source_id: src_fe2e8d6d46fb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/FormulaComponent.txt
+  doc_type: txt
+  title: FormulaComponent
+  doc_language: vi
+  url: ''
+- source_id: src_ca8a0828b05f
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/FourDiagnostics.txt
+  doc_type: txt
+  title: FourDiagnostics
+  doc_language: vi
+  url: ''
+- source_id: src_656ba2e79bde
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/OrganZangFu.txt
+  doc_type: txt
+  title: OrganZangFu
+  doc_language: vi
+  url: ''
+- source_id: src_5cec4d0905e5
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/SyndromePattern.txt
+  doc_type: txt
+  title: SyndromePattern
+  doc_language: vi
+  url: ''
+- source_id: src_4d53e9794fff
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/ThreePowers.txt
+  doc_type: txt
+  title: ThreePowers
+  doc_language: vi
+  url: ''
+- source_id: src_fec5d7720c36
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/YinYangTheory.txt
+  doc_type: txt
+  title: YinYangTheory
+  doc_language: vi
+  url: ''
+- source_id: src_d273ae772bf7
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/GiaoKhoaVeYCT/BÀI
+    1. HỌC THUYẾT CƠ BẢN.txt
+  doc_type: txt
   title: BÀI 1. HỌC THUYẾT CƠ BẢN
   doc_language: vi
   url: ''
-- source_id: src_ea72cb5a6e32
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/3033 CÂY THUỐC ĐÔNG Y (TUỆ TĨNH).pdf
-  doc_type: pdf
+- source_id: src_e0520ddfd9ac
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/3033 CÂY THUỐC ĐÔNG Y (TUỆ TĨNH).txt
+  doc_type: txt
   title: 3033 CÂY THUỐC ĐÔNG Y (TUỆ TĨNH)
   doc_language: vi
   url: ''
-- source_id: src_6438e04878a8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai1.pdf
-  doc_type: pdf
+- source_id: src_775e7ad62f4a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai1.txt
+  doc_type: txt
   title: Bai1
   doc_language: vi
   url: ''
-- source_id: src_cfaa901cd54e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai11.pdf
-  doc_type: pdf
+- source_id: src_6df1bcf43898
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai11.txt
+  doc_type: txt
   title: Bai11
   doc_language: vi
   url: ''
-- source_id: src_95fb5d5bf607
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai15.pdf
-  doc_type: pdf
+- source_id: src_eeee5b6ff251
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai15.txt
+  doc_type: txt
   title: Bai15
   doc_language: vi
   url: ''
-- source_id: src_3037984402e5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai19.pdf
-  doc_type: pdf
+- source_id: src_8b8fba7c5ff9
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai19.txt
+  doc_type: txt
   title: Bai19
   doc_language: vi
   url: ''
-- source_id: src_3223dfd46e28
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai6.pdf
-  doc_type: pdf
+- source_id: src_4fd9b68d1856
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai6.txt
+  doc_type: txt
   title: Bai6
   doc_language: vi
   url: ''
-- source_id: src_104c2ad55f3d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai9.pdf
-  doc_type: pdf
+- source_id: src_dadfcd75cb6b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai9.txt
+  doc_type: txt
   title: Bai9
   doc_language: vi
   url: ''
-- source_id: src_bf485b910590
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/anh bia.pdf
-  doc_type: pdf
-  title: anh bia
-  doc_language: vi
-  url: ''
-- source_id: src_c42adefcb773
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] 101 cây thuốc với sức khỏe sinh sản phụ nữ.pdf
-  doc_type: pdf
-  title: '[non-ocr] 101 cây thuốc với sức khỏe sinh sản phụ nữ'
-  doc_language: vi
-  url: ''
-- source_id: src_5235245727ac
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] CÂY THUỐC AN GIANG.pdf
-  doc_type: pdf
-  title: '[non-ocr] CÂY THUỐC AN GIANG'
-  doc_language: vi
-  url: ''
-- source_id: src_59bc48de3462
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Cây Cảnh - Cây Thuốc Trong Nhà Trường.pdf
-  doc_type: pdf
-  title: '[non-ocr] Cây Cảnh - Cây Thuốc Trong Nhà Trường'
-  doc_language: vi
-  url: ''
-- source_id: src_6d65b9d9f158
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Cây rau dinh dưỡng trong bữa ăn gia đình.pdf
-  doc_type: pdf
-  title: '[non-ocr] Cây rau dinh dưỡng trong bữa ăn gia đình'
-  doc_language: vi
-  url: ''
-- source_id: src_1fbaf254235e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] Tủ Thuốc Gia Ðình Vườn Thuốc Nhà.pdf
-  doc_type: pdf
-  title: '[non-ocr] Tủ Thuốc Gia Ðình Vườn Thuốc Nhà'
-  doc_language: vi
-  url: ''
-- source_id: src_98fc3d0e7ad5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/[non-ocr] tu_dien_thao_duoc_hoc_0267.pdf
-  doc_type: pdf
+- source_id: src_e4d63516c434
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/[non-ocr] tu_dien_thao_duoc_hoc_0267.txt
+  doc_type: txt
   title: '[non-ocr] tu_dien_thao_duoc_hoc_0267'
   doc_language: vi
   url: ''
-- source_id: src_bfebb5fbfddd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/Diện chẩn - Điều khiển liệu pháp.pdf
-  doc_type: pdf
+- source_id: src_ff2b95264bfc
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/Diện chẩn - Điều khiển liệu pháp.txt
+  doc_type: txt
   title: Diện chẩn - Điều khiển liệu pháp
   doc_language: vi
   url: ''
-- source_id: src_c2072d0ce4bc
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cac PD Can Ban Trong Dieu Tri Benh.pdf
-  doc_type: pdf
+- source_id: src_98d48624b8cf
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/Cac PD Can Ban Trong Dieu Tri Benh.txt
+  doc_type: txt
   title: Cac PD Can Ban Trong Dieu Tri Benh
   doc_language: vi
   url: ''
-- source_id: src_f19276e31824
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931952174.jpg
-  doc_type: image
-  title: FB_IMG_1480931952174
-  doc_language: vi
-  url: ''
-- source_id: src_9585bfb78d77
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931992458.jpg
-  doc_type: image
-  title: FB_IMG_1480931992458
-  doc_language: vi
-  url: ''
-- source_id: src_d32a4e352ae1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Huyet mat.pdf
-  doc_type: pdf
+- source_id: src_f53ffb685763
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/Huyet mat.txt
+  doc_type: txt
   title: Huyet mat
   doc_language: vi
   url: ''
-- source_id: src_b8a7d4b324ab
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/kynam1.docx
-  doc_type: docx
+- source_id: src_54b7e1d9b1cb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/kynam1.txt
+  doc_type: txt
   title: kynam1
   doc_language: vi
   url: ''
-- source_id: src_31790d5000d8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/1.jpg
-  doc_type: image
-  title: '1'
-  doc_language: vi
-  url: ''
-- source_id: src_fac237e97705
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/14570575_637014603173906_3088486819806034284_o.jpg
-  doc_type: image
-  title: 14570575_637014603173906_3088486819806034284_o
-  doc_language: vi
-  url: ''
-- source_id: src_1b965aa4e5ab
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/15492229_723241417826582_3740000409104800319_n.jpg
-  doc_type: image
-  title: 15492229_723241417826582_3740000409104800319_n
-  doc_language: vi
-  url: ''
-- source_id: src_5ffda27d5fb0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/15591609_668557533352946_7962217098017185207_o.jpg
-  doc_type: image
-  title: 15591609_668557533352946_7962217098017185207_o
-  doc_language: vi
-  url: ''
-- source_id: src_217653197237
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/2.jpg
-  doc_type: image
-  title: '2'
-  doc_language: vi
-  url: ''
-- source_id: src_8a5f19c188e7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931682453.jpg
-  doc_type: image
-  title: FB_IMG_1480931682453
-  doc_language: vi
-  url: ''
-- source_id: src_08b231445e5b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931685096.jpg
-  doc_type: image
-  title: FB_IMG_1480931685096
-  doc_language: vi
-  url: ''
-- source_id: src_67985b2ae1f6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931712626.jpg
-  doc_type: image
-  title: FB_IMG_1480931712626
-  doc_language: vi
-  url: ''
-- source_id: src_8133aff29851
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931727613.jpg
-  doc_type: image
-  title: FB_IMG_1480931727613
-  doc_language: vi
-  url: ''
-- source_id: src_a0b1156e29e1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931747110.jpg
-  doc_type: image
-  title: FB_IMG_1480931747110
-  doc_language: vi
-  url: ''
-- source_id: src_f8538fa88f1d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931789824.jpg
-  doc_type: image
-  title: FB_IMG_1480931789824
-  doc_language: vi
-  url: ''
-- source_id: src_b47c0c33bb19
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931793610.jpg
-  doc_type: image
-  title: FB_IMG_1480931793610
-  doc_language: vi
-  url: ''
-- source_id: src_9270ff8889f2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931841926.jpg
-  doc_type: image
-  title: FB_IMG_1480931841926
-  doc_language: vi
-  url: ''
-- source_id: src_4bfa6b0b4221
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931868748.jpg
-  doc_type: image
-  title: FB_IMG_1480931868748
-  doc_language: vi
-  url: ''
-- source_id: src_7a1e92aee853
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931938406.jpg
-  doc_type: image
-  title: FB_IMG_1480931938406
-  doc_language: vi
-  url: ''
-- source_id: src_8d9e0a583356
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931952174.jpg
-  doc_type: image
-  title: FB_IMG_1480931952174
-  doc_language: vi
-  url: ''
-- source_id: src_c97ae3b34c0e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931969750.jpg
-  doc_type: image
-  title: FB_IMG_1480931969750
-  doc_language: vi
-  url: ''
-- source_id: src_12133377499e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931982470.jpg
-  doc_type: image
-  title: FB_IMG_1480931982470
-  doc_language: vi
-  url: ''
-- source_id: src_649cc190a890
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931992458.jpg
-  doc_type: image
-  title: FB_IMG_1480931992458
-  doc_language: vi
-  url: ''
-- source_id: src_6af82aa84d55
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931994857.jpg
-  doc_type: image
-  title: FB_IMG_1480931994857
-  doc_language: vi
-  url: ''
-- source_id: src_79def1a5aa36
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932022805.jpg
-  doc_type: image
-  title: FB_IMG_1480932022805
-  doc_language: vi
-  url: ''
-- source_id: src_61e37a660aa1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932026871.jpg
-  doc_type: image
-  title: FB_IMG_1480932026871
-  doc_language: vi
-  url: ''
-- source_id: src_75407a0b81a2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932061358.jpg
-  doc_type: image
-  title: FB_IMG_1480932061358
-  doc_language: vi
-  url: ''
-- source_id: src_004c2ebbcc78
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932092805.jpg
-  doc_type: image
-  title: FB_IMG_1480932092805
-  doc_language: vi
-  url: ''
-- source_id: src_70d7b7a8d2a4
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932101009.jpg
-  doc_type: image
-  title: FB_IMG_1480932101009
-  doc_language: vi
-  url: ''
-- source_id: src_96c2a501b7f4
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932147033.jpg
-  doc_type: image
-  title: FB_IMG_1480932147033
-  doc_language: vi
-  url: ''
-- source_id: src_4d2c2acfa413
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932154259.jpg
-  doc_type: image
-  title: FB_IMG_1480932154259
-  doc_language: vi
-  url: ''
-- source_id: src_5e2687349435
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932194809.jpg
-  doc_type: image
-  title: FB_IMG_1480932194809
-  doc_language: vi
-  url: ''
-- source_id: src_4d3d5b57be01
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932217926.jpg
-  doc_type: image
-  title: FB_IMG_1480932217926
-  doc_language: vi
-  url: ''
-- source_id: src_4dbd502abd8f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932224450.jpg
-  doc_type: image
-  title: FB_IMG_1480932224450
-  doc_language: vi
-  url: ''
-- source_id: src_698a1304129a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932228300.jpg
-  doc_type: image
-  title: FB_IMG_1480932228300
-  doc_language: vi
-  url: ''
-- source_id: src_a2a99da1ce5b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932234264.jpg
-  doc_type: image
-  title: FB_IMG_1480932234264
-  doc_language: vi
-  url: ''
-- source_id: src_49b2948eeb8c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932307767.jpg
-  doc_type: image
-  title: FB_IMG_1480932307767
-  doc_language: vi
-  url: ''
-- source_id: src_7c5f28509ba8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932315465.jpg
-  doc_type: image
-  title: FB_IMG_1480932315465
-  doc_language: vi
-  url: ''
-- source_id: src_d4fa8783f0f5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932388200.jpg
-  doc_type: image
-  title: FB_IMG_1480932388200
-  doc_language: vi
-  url: ''
-- source_id: src_d6019afd2fb7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932396557.jpg
-  doc_type: image
-  title: FB_IMG_1480932396557
-  doc_language: vi
-  url: ''
-- source_id: src_465ba89a2b71
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932427067.jpg
-  doc_type: image
-  title: FB_IMG_1480932427067
-  doc_language: vi
-  url: ''
-- source_id: src_25a7fdfeb5d3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932439760.jpg
-  doc_type: image
-  title: FB_IMG_1480932439760
-  doc_language: vi
-  url: ''
-- source_id: src_f34616cc35e7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932570646.jpg
-  doc_type: image
-  title: FB_IMG_1480932570646
-  doc_language: vi
-  url: ''
-- source_id: src_1936ca9bd87d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932573045.jpg
-  doc_type: image
-  title: FB_IMG_1480932573045
-  doc_language: vi
-  url: ''
-- source_id: src_65fd5f5fbdc7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932575474.jpg
-  doc_type: image
-  title: FB_IMG_1480932575474
-  doc_language: vi
-  url: ''
-- source_id: src_9137c5525530
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932605362.jpg
-  doc_type: image
-  title: FB_IMG_1480932605362
-  doc_language: vi
-  url: ''
-- source_id: src_3839ee4bdb69
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932609565.jpg
-  doc_type: image
-  title: FB_IMG_1480932609565
-  doc_language: vi
-  url: ''
-- source_id: src_52024c2ad204
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932614136.jpg
-  doc_type: image
-  title: FB_IMG_1480932614136
-  doc_language: vi
-  url: ''
-- source_id: src_f7ecd7e55409
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932617011.jpg
-  doc_type: image
-  title: FB_IMG_1480932617011
-  doc_language: vi
-  url: ''
-- source_id: src_236a38a1740e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932659961.jpg
-  doc_type: image
-  title: FB_IMG_1480932659961
-  doc_language: vi
-  url: ''
-- source_id: src_32f1b38d6a6e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932707977.jpg
-  doc_type: image
-  title: FB_IMG_1480932707977
-  doc_language: vi
-  url: ''
-- source_id: src_f59031678572
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932710223.jpg
-  doc_type: image
-  title: FB_IMG_1480932710223
-  doc_language: vi
-  url: ''
-- source_id: src_b24999cde8ec
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932744040.jpg
-  doc_type: image
-  title: FB_IMG_1480932744040
-  doc_language: vi
-  url: ''
-- source_id: src_fc0083d3d1dd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932807119.jpg
-  doc_type: image
-  title: FB_IMG_1480932807119
-  doc_language: vi
-  url: ''
-- source_id: src_35c63d71449a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1482071763219.jpg
-  doc_type: image
-  title: FB_IMG_1482071763219
-  doc_language: vi
-  url: ''
-- source_id: src_947c4fcda87c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/dienchan.pdf
-  doc_type: pdf
+- source_id: src_363b2e9ecf9b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/dienchan.txt
+  doc_type: txt
   title: dienchan
   doc_language: vi
   url: ''
-- source_id: src_c1049c337b56
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/380 Bai Thuoc Dong Y Hieu Nghiem.pdf
-  doc_type: pdf
+- source_id: src_6c0d8caff063
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/380 Bai Thuoc Dong Y Hieu Nghiem.txt
+  doc_type: txt
   title: 380 Bai Thuoc Dong Y Hieu Nghiem
   doc_language: vi
   url: ''
-- source_id: src_cdf08a89e8ea
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/BẢN THẢO VẤN ĐÁP.pdf
-  doc_type: pdf
+- source_id: src_dc9975133c19
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/BẢN THẢO VẤN ĐÁP.txt
+  doc_type: txt
   title: BẢN THẢO VẤN ĐÁP
   doc_language: vi
   url: ''
-- source_id: src_2a47f5ff1089
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Dong Y Nhap Mon - Nguyen Thien Quyen.pdf
-  doc_type: pdf
+- source_id: src_269929393446
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Dong Y Nhap Mon - Nguyen Thien Quyen.txt
+  doc_type: txt
   title: Dong Y Nhap Mon - Nguyen Thien Quyen
   doc_language: vi
   url: ''
-- source_id: src_7b300c598868
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Dược tính chỉ nam/[non-ocr] Quyen 1.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyen 1'
-  doc_language: vi
-  url: ''
-- source_id: src_1a3795402610
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Dược tính chỉ nam/[non-ocr] Quyen 2.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyen 2'
-  doc_language: vi
-  url: ''
-- source_id: src_8e2f77d07310
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Dược tính chỉ nam/[non-ocr] Quyen 3.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyen 3'
-  doc_language: vi
-  url: ''
-- source_id: src_53206cbb6acb
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Dược tính chỉ nam/[non-ocr] Quyen 4.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyen 4'
-  doc_language: vi
-  url: ''
-- source_id: src_941123ab8184
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/Học Châm Cứu Bằng Hình Ảnh - Lê Quý Ngưu.pdf
-  doc_type: pdf
+- source_id: src_2327023347c0
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Ebook về Châm cứu/Học Châm Cứu Bằng Hình Ảnh - Lê Quý Ngưu.txt
+  doc_type: txt
   title: Học Châm Cứu Bằng Hình Ảnh - Lê Quý Ngưu
   doc_language: vi
   url: ''
-- source_id: src_558dd2fa6636
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/[non-ocr] Bao Anh Than Thuat.pdf
-  doc_type: pdf
-  title: '[non-ocr] Bao Anh Than Thuat'
-  doc_language: vi
-  url: ''
-- source_id: src_92eea8ac8c5d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/[non-ocr] Y Án Châm Cứu Thực Nghiệm - Thượng Trúc.pdf
-  doc_type: pdf
-  title: '[non-ocr] Y Án Châm Cứu Thực Nghiệm - Thượng Trúc'
-  doc_language: vi
-  url: ''
-- source_id: src_d54de39871bf
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Quyển 1.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyển 1'
-  doc_language: vi
-  url: ''
-- source_id: src_ba62a79af525
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Quyển 3.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyển 3'
-  doc_language: vi
-  url: ''
-- source_id: src_922ade5efeff
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Quyển 4.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyển 4'
-  doc_language: vi
-  url: ''
-- source_id: src_ba55a98b7918
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Quyển 5.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyển 5'
-  doc_language: vi
-  url: ''
-- source_id: src_d34374bb8c2c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] hai thuong y ton tam linh - quyen 1.pdf
-  doc_type: pdf
+- source_id: src_237847684ed8
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Hai thuong y ton tam linh/[non-ocr] hai thuong y ton tam linh -
+    quyen 1.txt
+  doc_type: txt
   title: '[non-ocr] hai thuong y ton tam linh - quyen 1'
   doc_language: vi
   url: ''
-- source_id: src_22477f58ea0e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] hai thuong y ton tam linh - quyen 2.pdf
-  doc_type: pdf
-  title: '[non-ocr] hai thuong y ton tam linh - quyen 2'
-  doc_language: vi
-  url: ''
-- source_id: src_d0e7610f6264
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Huynh Minh - Ba benh than phuong.docx
-  doc_type: docx
+- source_id: src_a9b32924bfc1
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Huynh Minh - Ba benh than phuong.txt
+  doc_type: txt
   title: Huynh Minh - Ba benh than phuong
   doc_language: vi
   url: ''
-- source_id: src_7d2662bcadc7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Tử Siêu Y Thoại - VATMFORUM..pdf
-  doc_type: pdf
+- source_id: src_eb28c8848470
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Tử Siêu Y Thoại - VATMFORUM..txt
+  doc_type: txt
   title: Tử Siêu Y Thoại - VATMFORUM.
   doc_language: vi
   url: ''
-- source_id: src_536c96257a24
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Gia Đạo Truyền Thông Bảo.pdf
-  doc_type: pdf
-  title: '[non-ocr] Gia Đạo Truyền Thông Bảo'
-  doc_language: vi
-  url: ''
-- source_id: src_da5d1b89f24e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Nam Khoa Nữ Khoa - Trị Nam Nữ Bá Chứng.pdf
-  doc_type: pdf
-  title: '[non-ocr] Nam Khoa Nữ Khoa - Trị Nam Nữ Bá Chứng'
-  doc_language: vi
-  url: ''
-- source_id: src_8bb4ea9e32ad
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Ngư Tiều Vấn Đáp Y Thuật.pdf
-  doc_type: pdf
-  title: '[non-ocr] Ngư Tiều Vấn Đáp Y Thuật'
-  doc_language: vi
-  url: ''
-- source_id: src_9f4eb06a8d46
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] Thiet_Chan.pdf
-  doc_type: pdf
-  title: '[non-ocr] Thiet_Chan'
-  doc_language: vi
-  url: ''
-- source_id: src_68138b1388db
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/[non-ocr] ĐÔNG Y TRỊ BỆNH NHỮNG BÀI THUỐC DÂN GIAN HIỆU NGHIỆM VỀ GIẤM TRỨNG
-    GÀ.pdf
-  doc_type: pdf
-  title: '[non-ocr] ĐÔNG Y TRỊ BỆNH NHỮNG BÀI THUỐC DÂN GIAN HIỆU NGHIỆM VỀ GIẤM TRỨNG
-    GÀ'
-  doc_language: vi
-  url: ''
-- source_id: src_f8d738f3789b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap1.pdf
-  doc_type: pdf
+- source_id: src_0797fad8a92a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap1.txt
+  doc_type: txt
   title: dongytap1
   doc_language: vi
   url: ''
-- source_id: src_71a38ca45ff1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap2a.pdf
-  doc_type: pdf
+- source_id: src_715f913a01a9
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap2a.txt
+  doc_type: txt
   title: dongytap2a
   doc_language: vi
   url: ''
-- source_id: src_6fb666e4b8b1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap2b.pdf
-  doc_type: pdf
+- source_id: src_0496352f7f54
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap2b.txt
+  doc_type: txt
   title: dongytap2b
   doc_language: vi
   url: ''
-- source_id: src_ff2b4d493bfc
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap3a.pdf
-  doc_type: pdf
+- source_id: src_5f7d37558571
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap3a.txt
+  doc_type: txt
   title: dongytap3a
   doc_language: vi
   url: ''
-- source_id: src_78aa99e00a78
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap3b.pdf
-  doc_type: pdf
+- source_id: src_d46b0d8ba7c2
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap3b.txt
+  doc_type: txt
   title: dongytap3b
   doc_language: vi
   url: ''
-- source_id: src_489efb842a44
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap3c.pdf
-  doc_type: pdf
+- source_id: src_38b1059dce22
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap3c.txt
+  doc_type: txt
   title: dongytap3c
   doc_language: vi
   url: ''
-- source_id: src_29db3adf76bb
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap4a.pdf
-  doc_type: pdf
+- source_id: src_8a1746d31bb4
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap4a.txt
+  doc_type: txt
   title: dongytap4a
   doc_language: vi
   url: ''
-- source_id: src_79636446d030
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap4b.pdf
-  doc_type: pdf
+- source_id: src_5c35274f42f8
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap4b.txt
+  doc_type: txt
   title: dongytap4b
   doc_language: vi
   url: ''
-- source_id: src_0b640ce1072c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap5.pdf
-  doc_type: pdf
+- source_id: src_40c21fbc97fb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap5.txt
+  doc_type: txt
   title: dongytap5
   doc_language: vi
   url: ''
-- source_id: src_a0901043a8eb
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap6.pdf
-  doc_type: pdf
+- source_id: src_7cdb5f831e1c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap6.txt
+  doc_type: txt
   title: dongytap6
   doc_language: vi
   url: ''
-- source_id: src_3c7843fd6c8d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/dongytap7.pdf
-  doc_type: pdf
+- source_id: src_e7b72b3ed72e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/dongytap7.txt
+  doc_type: txt
   title: dongytap7
   doc_language: vi
   url: ''
-- source_id: src_d9d482e7ef20
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Đông y chuẩn đoán và luận trị.pdf
-  doc_type: pdf
+- source_id: src_ddda3e542b7e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/Đông y chuẩn đoán và luận trị.txt
+  doc_type: txt
   title: Đông y chuẩn đoán và luận trị
   doc_language: vi
   url: ''
-- source_id: src_9ee3dd8dbb09
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 01 - Dai cuong ve duoc hoc.pdf
-  doc_type: pdf
+- source_id: src_f3cf94fd3921
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 01 - Dai cuong ve duoc
+    hoc.txt
+  doc_type: txt
   title: Bai 01 - Dai cuong ve duoc hoc
   doc_language: vi
   url: ''
-- source_id: src_a29a85019b63
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 02 - Dai cuong ve duoc luc hoc.pdf
-  doc_type: pdf
+- source_id: src_bad0b7a7f0a0
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 02 - Dai cuong ve duoc
+    luc hoc.txt
+  doc_type: txt
   title: Bai 02 - Dai cuong ve duoc luc hoc
   doc_language: vi
   url: ''
-- source_id: src_596783285710
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 03 - Tuong tac thuoc.pdf
-  doc_type: pdf
+- source_id: src_3b0cc34e05ab
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 03 - Tuong tac thuoc.txt
+  doc_type: txt
   title: Bai 03 - Tuong tac thuoc
   doc_language: vi
   url: ''
-- source_id: src_0dae55acd070
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 16 - Thuoc khang nam.pdf
-  doc_type: pdf
+- source_id: src_d1333ff4c529
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 16 - Thuoc khang nam.txt
+  doc_type: txt
   title: Bai 16 - Thuoc khang nam
   doc_language: vi
   url: ''
-- source_id: src_1b2c28dbdb4e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 23 - Thuoc dieu tri con dau that
-    nguc.pdf
-  doc_type: pdf
+- source_id: src_dd9001e14f7d
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 23 - Thuoc dieu tri con
+    dau that nguc.txt
+  doc_type: txt
   title: Bai 23 - Thuoc dieu tri con dau that nguc
   doc_language: vi
   url: ''
-- source_id: src_2a14acdea807
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/Ky thuat san xuat duoc pham tap 1.pdf
-  doc_type: pdf
+- source_id: src_92a6ae24adf8
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/Ky thuat san xuat duoc pham tap 1.txt
+  doc_type: txt
   title: Ky thuat san xuat duoc pham tap 1
   doc_language: vi
   url: ''
-- source_id: src_26df7a157541
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/Ky thuat san xuat duoc pham tap 2.pdf
-  doc_type: pdf
+- source_id: src_4aa8d7a49009
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/Ky thuat san xuat duoc pham tap 2.txt
+  doc_type: txt
   title: Ky thuat san xuat duoc pham tap 2
   doc_language: vi
   url: ''
-- source_id: src_24cc48038700
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/Từ điển bách khoa y học Việt Nam.pdf
-  doc_type: pdf
+- source_id: src_3ad7c6b78d18
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/Từ điển bách khoa y học Việt Nam.txt
+  doc_type: txt
   title: Từ điển bách khoa y học Việt Nam
   doc_language: vi
   url: ''
-- source_id: src_7c340a81a3d3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr] 1000 phương pháp dưỡng sinh.pdf
-  doc_type: pdf
-  title: '[non-ocr] 1000 phương pháp dưỡng sinh'
-  doc_language: vi
-  url: ''
-- source_id: src_124dce93a0e6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr] Canh Dưỡng Sinh.pdf
-  doc_type: pdf
-  title: '[non-ocr] Canh Dưỡng Sinh'
-  doc_language: vi
-  url: ''
-- source_id: src_573d7c69ea47
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr] Phương Pháp Dưỡng Sinh Trong Thời Đại Mới.pdf
-  doc_type: pdf
-  title: '[non-ocr] Phương Pháp Dưỡng Sinh Trong Thời Đại Mới'
-  doc_language: vi
-  url: ''
-- source_id: src_2021ada9d2e7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr]Thuat Duong Sinh Truong Tho.PDF
-  doc_type: pdf
-  title: '[non-ocr]Thuat Duong Sinh Truong Tho'
-  doc_language: vi
-  url: ''
-- source_id: src_db5e68a76e65
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr]Y học với dưỡng sinh.pdf
-  doc_type: pdf
-  title: '[non-ocr]Y học với dưỡng sinh'
-  doc_language: vi
-  url: ''
-- source_id: src_9c0599262060
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/y_hoc_duong_sinh_1.pdf
-  doc_type: pdf
-  title: y_hoc_duong_sinh_1
-  doc_language: vi
-  url: ''
-- source_id: src_903c7b17f623
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/y_hoc_duong_sinh_4.pdf
-  doc_type: pdf
-  title: y_hoc_duong_sinh_4
-  doc_language: vi
-  url: ''
-- source_id: src_b335927d083f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/yhocthuongthuc.pdf
-  doc_type: pdf
+- source_id: src_c4740443e07d
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUONG SINH]/yhocthuongthuc.txt
+  doc_type: txt
   title: yhocthuongthuc
   doc_language: vi
   url: ''
-- source_id: src_9c8c00a46204
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/BacSyTotNhatLaChinhMinh.pdf
-  doc_type: pdf
+- source_id: src_f80e34eb56ad
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/BacSyTotNhatLaChinhMinh.txt
+  doc_type: txt
   title: BacSyTotNhatLaChinhMinh
   doc_language: vi
   url: ''
-- source_id: src_9f84d5b08b64
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Kham Pha Moi Ve Gao Lut.pdf
-  doc_type: pdf
+- source_id: src_012c89872f9e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Kham Pha Moi Ve Gao Lut.txt
+  doc_type: txt
   title: Kham Pha Moi Ve Gao Lut
   doc_language: vi
   url: ''
-- source_id: src_6d60ee5bb7af
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/THANG DAU CA QUYET.pdf
-  doc_type: pdf
+- source_id: src_dd44d09f37b8
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/THANG DAU CA QUYET.txt
+  doc_type: txt
   title: THANG DAU CA QUYET
   doc_language: vi
   url: ''
-- source_id: src_fa3074f598ff
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/TRUONG QUYEN 1.pdf
-  doc_type: pdf
+- source_id: src_db953abb5373
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/TRUONG QUYEN 1.txt
+  doc_type: txt
   title: TRUONG QUYEN 1
   doc_language: vi
   url: ''
-- source_id: src_9483e3ae8a8c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/TRUONG QUYEN 2.pdf
-  doc_type: pdf
+- source_id: src_3cba41932863
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/TRUONG QUYEN 2.txt
+  doc_type: txt
   title: TRUONG QUYEN 2
   doc_language: vi
   url: ''
-- source_id: src_f550a2f57bff
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Thai Cuc Quyen Duong gia 85.pdf
-  doc_type: pdf
+- source_id: src_d92a21efcf76
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Thai Cuc Quyen Duong gia 85.txt
+  doc_type: txt
   title: Thai Cuc Quyen Duong gia 85
   doc_language: vi
   url: ''
-- source_id: src_27041109257d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Thai Cuc Quyen Luan Giai.pdf
-  doc_type: pdf
+- source_id: src_27dfc1ab5a19
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Thai Cuc Quyen Luan Giai.txt
+  doc_type: txt
   title: Thai Cuc Quyen Luan Giai
   doc_language: vi
   url: ''
-- source_id: src_f9cb400e41ab
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Thien gia dieu phuong.pdf
-  doc_type: pdf
+- source_id: src_cbe302f22a0b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/Thien gia dieu phuong.txt
+  doc_type: txt
   title: Thien gia dieu phuong
   doc_language: vi
   url: ''
-- source_id: src_38b669ad12d8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Tranh mặt sau.jpg
-  doc_type: image
-  title: Tranh mặt sau
-  doc_language: vi
-  url: ''
-- source_id: src_93f046141ee0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/Tranh mặt trước.jpg
-  doc_type: image
-  title: Tranh mặt trước
-  doc_language: vi
-  url: ''
-- source_id: src_39fa49eb1b1c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[Ebook ]Hoa Ha Than Cong - Nghiem Tan (NXB TDTT_2005).pdf
-  doc_type: pdf
+- source_id: src_1bcc0ba43edd
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[Ebook ]Hoa Ha Than Cong - Nghiem Tan (NXB TDTT_2005).txt
+  doc_type: txt
   title: '[Ebook ]Hoa Ha Than Cong - Nghiem Tan (NXB TDTT_2005)'
   doc_language: vi
   url: ''
-- source_id: src_a3c98ca7d198
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[Tham khảo] Nghiem Tan Khi Cong.pdf
-  doc_type: pdf
+- source_id: src_65dbb399342b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[Tham khảo] Nghiem Tan Khi Cong.txt
+  doc_type: txt
   title: '[Tham khảo] Nghiem Tan Khi Cong'
   doc_language: vi
   url: ''
-- source_id: src_3b59f39ebdf3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] 37 THẾ VÕ THÁI CỰC QUYỀN.pdf
-  doc_type: pdf
-  title: '[non-ocr] 37 THẾ VÕ THÁI CỰC QUYỀN'
-  doc_language: vi
-  url: ''
-- source_id: src_bf781fbb9c28
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] BAT DOAN CAM.pdf
-  doc_type: pdf
+- source_id: src_85c6053c7b81
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] BAT DOAN CAM.txt
+  doc_type: txt
   title: '[non-ocr] BAT DOAN CAM'
   doc_language: vi
   url: ''
-- source_id: src_184bdcac81d8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] DAI NHA KHI CONG.pdf
-  doc_type: pdf
+- source_id: src_ad2085a6f337
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] DAI NHA KHI CONG.txt
+  doc_type: txt
   title: '[non-ocr] DAI NHA KHI CONG'
   doc_language: vi
   url: ''
-- source_id: src_da4a2126916d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] KARATE CAN CHIEN TU DO - tuandeptrai.pdf
-  doc_type: pdf
+- source_id: src_6e71010b7f7a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] KARATE CAN CHIEN TU DO - tuandeptrai.txt
+  doc_type: txt
   title: '[non-ocr] KARATE CAN CHIEN TU DO - tuandeptrai'
   doc_language: vi
   url: ''
-- source_id: src_b697a114c06f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] KHI CONG TOAN THU- www.MAISONLAM.com - Website Vo Thuat.pdf
-  doc_type: pdf
+- source_id: src_e665ae937e31
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] KHI CONG TOAN THU- www.MAISONLAM.com - Website Vo Thuat.txt
+  doc_type: txt
   title: '[non-ocr] KHI CONG TOAN THU- www.MAISONLAM.com - Website Vo Thuat'
   doc_language: vi
   url: ''
-- source_id: src_d3de0dbe0393
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] KHI CONG TRUNG HOA - www.MAISONLAM.com - Website Vo Thuat(2).pdf
-  doc_type: pdf
+- source_id: src_dea00618f068
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] KHI CONG TRUNG HOA - www.MAISONLAM.com - Website Vo
+    Thuat(2).txt
+  doc_type: txt
   title: '[non-ocr] KHI CONG TRUNG HOA - www.MAISONLAM.com - Website Vo Thuat(2)'
   doc_language: vi
   url: ''
-- source_id: src_fb45adb29214
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] KHI CONG TU TRI BENH.pdf
-  doc_type: pdf
+- source_id: src_d4e36023c6a1
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/[non-ocr] KHI CONG TU TRI BENH.txt
+  doc_type: txt
   title: '[non-ocr] KHI CONG TU TRI BENH'
   doc_language: vi
   url: ''
-- source_id: src_cb42b4ebdfc6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] KhiCongYDao.pdf
-  doc_type: pdf
-  title: '[non-ocr] KhiCongYDao'
-  doc_language: vi
-  url: ''
-- source_id: src_0517e2f71a67
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] Massage gia đình bảo vệ sức khỏe và vẻ đẹp.pdf
-  doc_type: pdf
-  title: '[non-ocr] Massage gia đình bảo vệ sức khỏe và vẻ đẹp'
-  doc_language: vi
-  url: ''
-- source_id: src_eebd01e24f08
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/[non-ocr] Mật Tạng Tứ Bộ Y Điển - Tập 1.pdf
-  doc_type: pdf
-  title: '[non-ocr] Mật Tạng Tứ Bộ Y Điển - Tập 1'
-  doc_language: vi
-  url: ''
-- source_id: src_757aa305f3ab
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/bailythuyettuchan1.pdf
-  doc_type: pdf
+- source_id: src_909a81ac45f6
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/bailythuyettuchan1.txt
+  doc_type: txt
   title: bailythuyettuchan1
   doc_language: vi
   url: ''
-- source_id: src_ae1a06acbfdc
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/sach_luantri.pdf
-  doc_type: pdf
+- source_id: src_4ddd36e6324c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/sach_luantri.txt
+  doc_type: txt
   title: sach_luantri
   doc_language: vi
   url: ''
-- source_id: src_7f374e346ac5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/sach_machbenh.pdf
-  doc_type: pdf
+- source_id: src_6d2b06d7e922
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/sach_machbenh.txt
+  doc_type: txt
   title: sach_machbenh
   doc_language: vi
   url: ''
-- source_id: src_57e0eb27e9ce
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[KHI
-    CONG]/sach_quykinhchanphap-toantap.pdf
-  doc_type: pdf
+- source_id: src_83ddc2a9c23c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[KHI CONG]/sach_quykinhchanphap-toantap.txt
+  doc_type: txt
   title: sach_quykinhchanphap-toantap
   doc_language: vi
   url: ''
-- source_id: src_94008b7a59ba
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-9.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-9'
-  doc_language: vi
-  url: ''
-- source_id: src_7181a549cd0a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/[non-ocr] 500 Bài Thuốc Hay Chữa Bệnh Cao Huyết Áp.pdf
-  doc_type: pdf
-  title: '[non-ocr] 500 Bài Thuốc Hay Chữa Bệnh Cao Huyết Áp'
-  doc_language: vi
-  url: ''
-- source_id: src_1d07df9936f7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-hoa-cay-thuoc-trungtamthuoc.pdf
-  doc_type: pdf
+- source_id: src_b63d285aba2e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-hoa-cay-thuoc-trungtamthuoc.txt
+  doc_type: txt
   title: cay-hoa-cay-thuoc-trungtamthuoc
   doc_language: vi
   url: ''
-- source_id: src_1a2c67ba1980
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-qua-cay-thuoc-trungtamthuoc_com.pdf
-  doc_type: pdf
+- source_id: src_0a2099bef982
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-qua-cay-thuoc-trungtamthuoc_com.txt
+  doc_type: txt
   title: cay-qua-cay-thuoc-trungtamthuoc_com
   doc_language: vi
   url: ''
-- source_id: src_9ed656623fc2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/SACHYHCT/1-s2.0-S2090123224006180-main.pdf
-  doc_type: pdf
+- source_id: src_c212833c3924
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/SACHYHCT/1-s2.0-S2090123224006180-main.txt
+  doc_type: txt
   title: 1-s2.0-S2090123224006180-main
   doc_language: vi
   url: ''
-- source_id: src_b6ea9b18d893
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/2024.08.07.606195v1.full.pdf
-  doc_type: pdf
+- source_id: src_5ce672689048
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/2024.08.07.606195v1.full.txt
+  doc_type: txt
   title: 2024.08.07.606195v1.full
   doc_language: vi
   url: ''
-- source_id: src_b9400472525c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI UPDATED)/Link_web.docx
-  doc_type: docx
+- source_id: src_822909be1889
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/FiveElements.txt
+  doc_type: txt
+  title: FiveElements
+  doc_language: vi
+  url: ''
+- source_id: src_5f1901f0f619
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/HerbMaterial.txt
+  doc_type: txt
+  title: HerbMaterial
+  doc_language: vi
+  url: ''
+- source_id: src_e50105048161
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/Link_web.txt
+  doc_type: txt
   title: Link_web
   doc_language: vi
   url: ''
-- source_id: src_fbd8dd961116
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/HuongdanXD.docx
-  doc_type: docx
+- source_id: src_7768dd496c3f
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/MeridianOrgan.txt
+  doc_type: txt
+  title: MeridianOrgan
+  doc_language: vi
+  url: ''
+- source_id: src_2b8c885b60be
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
+    UPDATED)/TherapeuticPrinciple.txt
+  doc_type: txt
+  title: TherapeuticPrinciple
+  doc_language: vi
+  url: ''
+- source_id: src_99146e9b3c45
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/HuongdanXD.txt
+  doc_type: txt
   title: HuongdanXD
   doc_language: vi
   url: ''
-- source_id: src_ff39fa9c9153
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai10.pdf
-  doc_type: pdf
+- source_id: src_3ec3e565990d
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai10.txt
+  doc_type: txt
   title: Bai10
   doc_language: vi
   url: ''
-- source_id: src_1eecac362956
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai12.pdf
-  doc_type: pdf
+- source_id: src_daad1eba3ee5
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai12.txt
+  doc_type: txt
   title: Bai12
   doc_language: vi
   url: ''
-- source_id: src_3fa8f29a61e6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai13.pdf
-  doc_type: pdf
+- source_id: src_89e17c21b844
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai13.txt
+  doc_type: txt
   title: Bai13
   doc_language: vi
   url: ''
-- source_id: src_e6e53b4fc1e2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai14.pdf
-  doc_type: pdf
+- source_id: src_ae3b6786b57c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai14.txt
+  doc_type: txt
   title: Bai14
   doc_language: vi
   url: ''
-- source_id: src_991efd2e6dd6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai17.pdf
-  doc_type: pdf
+- source_id: src_ab5904eafcde
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai17.txt
+  doc_type: txt
   title: Bai17
   doc_language: vi
   url: ''
-- source_id: src_7d818f827629
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai2.pdf
-  doc_type: pdf
+- source_id: src_87f1c4c0e959
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai2.txt
+  doc_type: txt
   title: Bai2
   doc_language: vi
   url: ''
-- source_id: src_50842eaf90e3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai4.pdf
-  doc_type: pdf
+- source_id: src_71335b198faa
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai4.txt
+  doc_type: txt
   title: Bai4
   doc_language: vi
   url: ''
-- source_id: src_1c8ffff4eb60
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/Cây
-    Thuốc - Dược Liệu/Duoc lieu trung cap/Bai7.pdf
-  doc_type: pdf
+- source_id: src_7caef25456a4
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/Cây Thuốc - Dược Liệu/Duoc lieu trung cap/Bai7.txt
+  doc_type: txt
   title: Bai7
   doc_language: vi
   url: ''
-- source_id: src_e07c1331e4e9
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/11264040_1446958308950113_4788058059935341932_n.jpg
-  doc_type: image
-  title: 11264040_1446958308950113_4788058059935341932_n
-  doc_language: vi
-  url: ''
-- source_id: src_bea147c873c2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/14718778_637520383123328_6997527437712651168_n.jpg
-  doc_type: image
-  title: 14718778_637520383123328_6997527437712651168_n
-  doc_language: vi
-  url: ''
-- source_id: src_f2a248e89b70
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/15032847_650589441816422_4205351114788196946_n.jpg
-  doc_type: image
-  title: 15032847_650589441816422_4205351114788196946_n
-  doc_language: vi
-  url: ''
-- source_id: src_652db2a3edda
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/15492229_723241417826582_3740000409104800319_n.jpg
-  doc_type: image
-  title: 15492229_723241417826582_3740000409104800319_n
-  doc_language: vi
-  url: ''
-- source_id: src_e5ad8c6e3b00
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16195678_743183629165694_4971631712314644345_n.jpg
-  doc_type: image
-  title: 16195678_743183629165694_4971631712314644345_n
-  doc_language: vi
-  url: ''
-- source_id: src_f1dedaca9f4a
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16402806_743183599165697_5420326617856182749_o.jpg
-  doc_type: image
-  title: 16402806_743183599165697_5420326617856182749_o
-  doc_language: vi
-  url: ''
-- source_id: src_eff9f91e4d5f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16406720_746955722121818_2751725751767287100_n.jpg
-  doc_type: image
-  title: 16406720_746955722121818_2751725751767287100_n
-  doc_language: vi
-  url: ''
-- source_id: src_a69357df045c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16473067_747018385448885_3430005567411871016_n.jpg
-  doc_type: image
-  title: 16473067_747018385448885_3430005567411871016_n
-  doc_language: vi
-  url: ''
-- source_id: src_c7d4b8f17abf
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16681453_751008601716530_5199743408193651967_n.jpg
-  doc_type: image
-  title: 16681453_751008601716530_5199743408193651967_n
-  doc_language: vi
-  url: ''
-- source_id: src_2af5e50a7cc0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16683984_751008848383172_3009113958896076855_n.jpg
-  doc_type: image
-  title: 16683984_751008848383172_3009113958896076855_n
-  doc_language: vi
-  url: ''
-- source_id: src_2dfc7998b72d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16700418_751008798383177_1670758950656474650_o.jpg
-  doc_type: image
-  title: 16700418_751008798383177_1670758950656474650_o
-  doc_language: vi
-  url: ''
-- source_id: src_2f2218519e64
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16708220_751212181696172_4356198544504526722_n.jpg
-  doc_type: image
-  title: 16708220_751212181696172_4356198544504526722_n
-  doc_language: vi
-  url: ''
-- source_id: src_ddc72c13f440
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16711560_751008535049870_7568936033361221238_n.jpg
-  doc_type: image
-  title: 16711560_751008535049870_7568936033361221238_n
-  doc_language: vi
-  url: ''
-- source_id: src_6a14ab1c239b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/16712063_751008471716543_6725825503713770994_n.jpg
-  doc_type: image
-  title: 16712063_751008471716543_6725825503713770994_n
-  doc_language: vi
-  url: ''
-- source_id: src_0e0ec5d607d3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/2.jpg
-  doc_type: image
-  title: '2'
-  doc_language: vi
-  url: ''
-- source_id: src_c6b67652ec39
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/3.jpg
-  doc_type: image
-  title: '3'
-  doc_language: vi
-  url: ''
-- source_id: src_1ec3f48602e8
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931658400.jpg
-  doc_type: image
-  title: FB_IMG_1480931658400
-  doc_language: vi
-  url: ''
-- source_id: src_52daa9d21995
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931679033.jpg
-  doc_type: image
-  title: FB_IMG_1480931679033
-  doc_language: vi
-  url: ''
-- source_id: src_cc8b262da097
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931682453.jpg
-  doc_type: image
-  title: FB_IMG_1480931682453
-  doc_language: vi
-  url: ''
-- source_id: src_c62481321d2c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931685096.jpg
-  doc_type: image
-  title: FB_IMG_1480931685096
-  doc_language: vi
-  url: ''
-- source_id: src_8218b0292eb6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931712626.jpg
-  doc_type: image
-  title: FB_IMG_1480931712626
-  doc_language: vi
-  url: ''
-- source_id: src_afbd602f6378
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931727613.jpg
-  doc_type: image
-  title: FB_IMG_1480931727613
-  doc_language: vi
-  url: ''
-- source_id: src_a045b91c2dc3
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931747110.jpg
-  doc_type: image
-  title: FB_IMG_1480931747110
-  doc_language: vi
-  url: ''
-- source_id: src_7fd10896ba73
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931789824.jpg
-  doc_type: image
-  title: FB_IMG_1480931789824
-  doc_language: vi
-  url: ''
-- source_id: src_525004d6e0fc
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931793610.jpg
-  doc_type: image
-  title: FB_IMG_1480931793610
-  doc_language: vi
-  url: ''
-- source_id: src_81a43ac77d41
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931841926.jpg
-  doc_type: image
-  title: FB_IMG_1480931841926
-  doc_language: vi
-  url: ''
-- source_id: src_d92f94c5661b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931868748.jpg
-  doc_type: image
-  title: FB_IMG_1480931868748
-  doc_language: vi
-  url: ''
-- source_id: src_195a5e95e4ed
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931969750.jpg
-  doc_type: image
-  title: FB_IMG_1480931969750
-  doc_language: vi
-  url: ''
-- source_id: src_f34ad4375999
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931982470.jpg
-  doc_type: image
-  title: FB_IMG_1480931982470
-  doc_language: vi
-  url: ''
-- source_id: src_e92d99ed23df
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480931994857.jpg
-  doc_type: image
-  title: FB_IMG_1480931994857
-  doc_language: vi
-  url: ''
-- source_id: src_dc10dfd6b47b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932147033.jpg
-  doc_type: image
-  title: FB_IMG_1480932147033
-  doc_language: vi
-  url: ''
-- source_id: src_44c34f5f9fa0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Cơ thể người/FB_IMG_1480932217926.jpg
-  doc_type: image
-  title: FB_IMG_1480932217926
-  doc_language: vi
-  url: ''
-- source_id: src_8df2d20c8e68
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/Diện chẩn - Điều khiển liệu pháp.pdf
-  doc_type: pdf
+- source_id: src_2e608dafe081
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/Diện chẩn - Điều khiển liệu pháp.txt
+  doc_type: txt
   title: Diện chẩn - Điều khiển liệu pháp
   doc_language: vi
   url: ''
-- source_id: src_65740ec9908f
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/[DIEN CHAN]/dienchan.pdf
-  doc_type: pdf
+- source_id: src_82c72885324a
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DIEN CHAN]/[DIEN CHAN]/dienchan.txt
+  doc_type: txt
   title: dienchan
   doc_language: vi
   url: ''
-- source_id: src_c91affb46ce5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/11014989_1446957922283485_6226416439833474032_n.jpg
-  doc_type: image
-  title: 11014989_1446957922283485_6226416439833474032_n
-  doc_language: vi
-  url: ''
-- source_id: src_2fd4db7825c6
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/11264040_1446958308950113_4788058059935341932_n.jpg
-  doc_type: image
-  title: 11264040_1446958308950113_4788058059935341932_n
-  doc_language: vi
-  url: ''
-- source_id: src_22a737af85ca
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/14718778_637520383123328_6997527437712651168_n.jpg
-  doc_type: image
-  title: 14718778_637520383123328_6997527437712651168_n
-  doc_language: vi
-  url: ''
-- source_id: src_adee5ef37df2
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/15032847_650589441816422_4205351114788196946_n.jpg
-  doc_type: image
-  title: 15032847_650589441816422_4205351114788196946_n
-  doc_language: vi
-  url: ''
-- source_id: src_921f63286e38
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/15774830_727965317354192_1928493385295294426_o.jpg
-  doc_type: image
-  title: 15774830_727965317354192_1928493385295294426_o
-  doc_language: vi
-  url: ''
-- source_id: src_e2bb3944eed5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/3.jpg
-  doc_type: image
-  title: '3'
-  doc_language: vi
-  url: ''
-- source_id: src_46c9ee54e854
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931658400.jpg
-  doc_type: image
-  title: FB_IMG_1480931658400
-  doc_language: vi
-  url: ''
-- source_id: src_140eddadbbcf
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480931679033.jpg
-  doc_type: image
-  title: FB_IMG_1480931679033
-  doc_language: vi
-  url: ''
-- source_id: src_fd9874716418
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1480932325934.jpg
-  doc_type: image
-  title: FB_IMG_1480932325934
-  doc_language: vi
-  url: ''
-- source_id: src_84acb56271ae
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DIEN
-    CHAN]/cơ thể người/FB_IMG_1481300342610.jpg
-  doc_type: image
-  title: FB_IMG_1481300342610
-  doc_language: vi
-  url: ''
-- source_id: src_4f2fc7715992
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/Châm Cứu Giáp Ất Kinh/Châm cứu giáp ất kinh 1.pdf
-  doc_type: pdf
-  title: Châm cứu giáp ất kinh 1
-  doc_language: vi
-  url: ''
-- source_id: src_d4c30f983635
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/Châm Cứu Giáp Ất Kinh/Châm cứu giáp ất kinh 2.pdf
-  doc_type: pdf
-  title: Châm cứu giáp ất kinh 2
-  doc_language: vi
-  url: ''
-- source_id: src_83c116515d4e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/[non-ocr] Châm Cứu Học Trung Quốc.pdf
-  doc_type: pdf
-  title: '[non-ocr] Châm Cứu Học Trung Quốc'
-  doc_language: vi
-  url: ''
-- source_id: src_06173e238e7c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Ebook về Châm cứu/[non-ocr] Từ Điển Châm Cứu.pdf
-  doc_type: pdf
-  title: '[non-ocr] Từ Điển Châm Cứu'
-  doc_language: vi
-  url: ''
-- source_id: src_42c8df1aa03d
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Quyển 2.pdf
-  doc_type: pdf
-  title: '[non-ocr] Quyển 2'
-  doc_language: vi
-  url: ''
-- source_id: src_52a3bd6c9d70
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Tập 1 Và Tập 2.pdf
-  doc_type: pdf
-  title: '[non-ocr] Tập 1 Và Tập 2'
-  doc_language: vi
-  url: ''
-- source_id: src_d4dd83274311
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/Hai thuong y ton tam linh/[non-ocr] Tập 3 Và Tập 4.pdf
-  doc_type: pdf
-  title: '[non-ocr] Tập 3 Và Tập 4'
-  doc_language: vi
-  url: ''
-- source_id: src_30f8061f40c5
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DONG
-    Y]/camnangchantridongyLevansuu.pdf
-  doc_type: pdf
+- source_id: src_1d81088c863e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DONG Y]/camnangchantridongyLevansuu.txt
+  doc_type: txt
   title: camnangchantridongyLevansuu
   doc_language: vi
   url: ''
-- source_id: src_fa8f5e2cd3af
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 05 - Thuoc tac dung tren he cholinergic.pdf
-  doc_type: pdf
+- source_id: src_536dee77a8c4
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 05 - Thuoc tac dung tren
+    he cholinergic.txt
+  doc_type: txt
   title: Bai 05 - Thuoc tac dung tren he cholinergic
   doc_language: vi
   url: ''
-- source_id: src_b23e4e68ae72
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 06 - Thuoc tac dung tren he Adrenergic.pdf
-  doc_type: pdf
+- source_id: src_37fcdceb82f1
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 06 - Thuoc tac dung tren
+    he Adrenergic.txt
+  doc_type: txt
   title: Bai 06 - Thuoc tac dung tren he Adrenergic
   doc_language: vi
   url: ''
-- source_id: src_e7cc9dc89ffb
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 07 - Thuoc te.pdf
-  doc_type: pdf
+- source_id: src_49f6718da0f1
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 07 - Thuoc te.txt
+  doc_type: txt
   title: Bai 07 - Thuoc te
   doc_language: vi
   url: ''
-- source_id: src_a4294f657d3c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 08 - Thuoc ngu va ruou.pdf
-  doc_type: pdf
+- source_id: src_bd98c264a643
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 08 - Thuoc ngu va ruou.txt
+  doc_type: txt
   title: Bai 08 - Thuoc ngu va ruou
   doc_language: vi
   url: ''
-- source_id: src_68aa4456f38e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 10 - thuoc ha sot giam dau chong
-    viem.pdf
-  doc_type: pdf
+- source_id: src_55469f644a44
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 10 - thuoc ha sot giam
+    dau chong viem.txt
+  doc_type: txt
   title: Bai 10 - thuoc ha sot giam dau chong viem
   doc_language: vi
   url: ''
-- source_id: src_2503d60ba026
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 12 - Thuoc an than kinh va binh than.pdf
-  doc_type: pdf
+- source_id: src_4743c6c00114
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 12 - Thuoc an than kinh
+    va binh than.txt
+  doc_type: txt
   title: Bai 12 - Thuoc an than kinh va binh than
   doc_language: vi
   url: ''
-- source_id: src_68fa412a6779
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 13 - Thuoc chua dong kinh.pdf
-  doc_type: pdf
+- source_id: src_e6103c3fa8e4
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 13 - Thuoc chua dong kinh.txt
+  doc_type: txt
   title: Bai 13 - Thuoc chua dong kinh
   doc_language: vi
   url: ''
-- source_id: src_d5b28375ae23
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 14 - Thuoc khang sinh khang khuan.pdf
-  doc_type: pdf
+- source_id: src_02172872945b
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 14 - Thuoc khang sinh
+    khang khuan.txt
+  doc_type: txt
   title: Bai 14 - Thuoc khang sinh khang khuan
   doc_language: vi
   url: ''
-- source_id: src_9876db7dd045
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 15 - Thuoc khang virus.pdf
-  doc_type: pdf
+- source_id: src_3d15d26341d7
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 15 - Thuoc khang virus.txt
+  doc_type: txt
   title: Bai 15 - Thuoc khang virus
   doc_language: vi
   url: ''
-- source_id: src_c1e484c73904
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 17 - Thuoc chong lao va thuoc dieu
-    tri Phong.pdf
-  doc_type: pdf
+- source_id: src_5d405c0d22fd
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 17 - Thuoc chong lao va
+    thuoc dieu tri Phong.txt
+  doc_type: txt
   title: Bai 17 - Thuoc chong lao va thuoc dieu tri Phong
   doc_language: vi
   url: ''
-- source_id: src_cb91d8a8b8da
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 18 - Thuoc dieu tri sot ret.pdf
-  doc_type: pdf
+- source_id: src_cd71bccc01fc
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 18 - Thuoc dieu tri sot
+    ret.txt
+  doc_type: txt
   title: Bai 18 - Thuoc dieu tri sot ret
   doc_language: vi
   url: ''
-- source_id: src_7a12587b4641
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 19 - Thuoc chong giun san.pdf
-  doc_type: pdf
+- source_id: src_207577dabbe1
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 19 - Thuoc chong giun
+    san.txt
+  doc_type: txt
   title: Bai 19 - Thuoc chong giun san
   doc_language: vi
   url: ''
-- source_id: src_fd546f4f58c0
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 20 - Thuoc chong amip va trichomonas.pdf
-  doc_type: pdf
+- source_id: src_e47c617b6b5c
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 20 - Thuoc chong amip
+    va trichomonas.txt
+  doc_type: txt
   title: Bai 20 - Thuoc chong amip va trichomonas
   doc_language: vi
   url: ''
-- source_id: src_4754edb4c429
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 21 - Thuoc sat khuan va thuoc tay
-    ue.pdf
-  doc_type: pdf
+- source_id: src_a27b51c5a8a7
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 21 - Thuoc sat khuan va
+    thuoc tay ue.txt
+  doc_type: txt
   title: Bai 21 - Thuoc sat khuan va thuoc tay ue
   doc_language: vi
   url: ''
-- source_id: src_e2b3ffc38691
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 22 - Thuoc tro tim.pdf
-  doc_type: pdf
+- source_id: src_8e7052f1084e
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 22 - Thuoc tro tim.txt
+  doc_type: txt
   title: Bai 22 - Thuoc tro tim
   doc_language: vi
   url: ''
-- source_id: src_664bf4179d3e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 25 - Thuoc loi nieu.pdf
-  doc_type: pdf
+- source_id: src_4b483055b6e2
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 25 - Thuoc loi nieu.txt
+  doc_type: txt
   title: Bai 25 - Thuoc loi nieu
   doc_language: vi
   url: ''
-- source_id: src_ccbfc09fb407
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 26 - Cac chat dien giai chinh va
-    cac chat dan truyen.pdf
-  doc_type: pdf
+- source_id: src_ce0ec7e118ce
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 26 - Cac chat dien giai
+    chinh va cac chat dan truyen.txt
+  doc_type: txt
   title: Bai 26 - Cac chat dien giai chinh va cac chat dan truyen
   doc_language: vi
   url: ''
-- source_id: src_c6730b4548cd
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 27 - Thuoc dieu chinh roi loan tieu
-    hoa.pdf
-  doc_type: pdf
+- source_id: src_6fec98426674
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 27 - Thuoc dieu chinh
+    roi loan tieu hoa.txt
+  doc_type: txt
   title: Bai 27 - Thuoc dieu chinh roi loan tieu hoa
   doc_language: vi
   url: ''
-- source_id: src_e7bba9f30f1e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 28 - Thuoc dieu chinh roi loan hoa
-    hap.pdf
-  doc_type: pdf
+- source_id: src_968dd8db7ffb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 28 - Thuoc dieu chinh
+    roi loan hoa hap.txt
+  doc_type: txt
   title: Bai 28 - Thuoc dieu chinh roi loan hoa hap
   doc_language: vi
   url: ''
-- source_id: src_204468045808
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 29 - Thuoc dieu tri thieu mau.pdf
-  doc_type: pdf
+- source_id: src_a42f1c9cf410
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 29 - Thuoc dieu tri thieu
+    mau.txt
+  doc_type: txt
   title: Bai 29 - Thuoc dieu tri thieu mau
   doc_language: vi
   url: ''
-- source_id: src_a9845ba7b834
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 30 - Thuoc tac dung tren qua trinh
-    chong dong va tieu fibrin.pdf
-  doc_type: pdf
+- source_id: src_eb66bd445feb
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 30 - Thuoc tac dung tren
+    qua trinh chong dong va tieu fibrin.txt
+  doc_type: txt
   title: Bai 30 - Thuoc tac dung tren qua trinh chong dong va tieu fibrin
   doc_language: vi
   url: ''
-- source_id: src_85a93b27b545
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 32 - Thuoc ha Glucose mau [bacsihoasung.wordpress.com].pdf
-  doc_type: pdf
+- source_id: src_9caf74a7de3d
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 32 - Thuoc ha Glucose
+    mau [bacsihoasung.wordpress.com].txt
+  doc_type: txt
   title: Bai 32 - Thuoc ha Glucose mau [bacsihoasung.wordpress.com]
   doc_language: vi
   url: ''
-- source_id: src_7a9379c6e0db
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 33 - Histamin va khang Histamin [bacsihoasung.wordpress.com].pdf
-  doc_type: pdf
+- source_id: src_03cd7a55d413
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 33 - Histamin va khang
+    Histamin [bacsihoasung.wordpress.com].txt
+  doc_type: txt
   title: Bai 33 - Histamin va khang Histamin [bacsihoasung.wordpress.com]
   doc_language: vi
   url: ''
-- source_id: src_bf25a4f2010c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 34 - Vitamin [bacsihoasung.wordpress.com].pdf
-  doc_type: pdf
+- source_id: src_f4cb5897dd74
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 34 - Vitamin [bacsihoasung.wordpress.com].txt
+  doc_type: txt
   title: Bai 34 - Vitamin [bacsihoasung.wordpress.com]
   doc_language: vi
   url: ''
-- source_id: src_709e55db7eca
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 35 - Hormon va thuoc khang Hormon
-    [bacsihoasung.wordpress.com].pdf
-  doc_type: pdf
+- source_id: src_6c283b2818e7
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 35 - Hormon va thuoc khang
+    Hormon [bacsihoasung.wordpress.com].txt
+  doc_type: txt
   title: Bai 35 - Hormon va thuoc khang Hormon [bacsihoasung.wordpress.com]
   doc_language: vi
   url: ''
-- source_id: src_14adc4e50e06
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUOC
-    HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/bai 31 - Thuoc dieu tri roi loan lipoprotein
-    mau.pdf
-  doc_type: pdf
+- source_id: src_3c74cc60ac30
+  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach
+    Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/bai 31 - Thuoc dieu tri roi
+    loan lipoprotein mau.txt
+  doc_type: txt
   title: bai 31 - Thuoc dieu tri roi loan lipoprotein mau
-  doc_language: vi
-  url: ''
-- source_id: src_5e895106699e
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/[non-ocr]ThuatSongLau.pdf
-  doc_type: pdf
-  title: '[non-ocr]ThuatSongLau'
-  doc_language: vi
-  url: ''
-- source_id: src_03e3ef0c4f90
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/y_hoc_duong_sinh_2.pdf
-  doc_type: pdf
-  title: y_hoc_duong_sinh_2
-  doc_language: vi
-  url: ''
-- source_id: src_b0b8927f308b
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[DUONG
-    SINH]/y_hoc_duong_sinh_3.pdf
-  doc_type: pdf
-  title: y_hoc_duong_sinh_3
-  doc_language: vi
-  url: ''
-- source_id: src_5bcf434a4eba
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] Nam Y Nghiem Phuong.pdf
-  doc_type: pdf
-  title: '[non-ocr] Nam Y Nghiem Phuong'
-  doc_language: vi
-  url: ''
-- source_id: src_1cff3282139c
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-1.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-1'
-  doc_language: vi
-  url: ''
-- source_id: src_a46a95bdc095
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-10.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-10'
-  doc_language: vi
-  url: ''
-- source_id: src_4142d20f5963
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-2.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-2'
-  doc_language: vi
-  url: ''
-- source_id: src_941b321c8461
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-4.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-4'
-  doc_language: vi
-  url: ''
-- source_id: src_491db1300cd7
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-5.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-5'
-  doc_language: vi
-  url: ''
-- source_id: src_0c107c7e14d1
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-6.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-6'
-  doc_language: vi
-  url: ''
-- source_id: src_d6a90095c5d4
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-7.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-7'
-  doc_language: vi
-  url: ''
-- source_id: src_67dc2a453504
-  file_path: data/raw/TT_YHCT-20260129T064301Z-3-003/TT_YHCT/MY_MI_DUONG/Sach Viet/[NAM
-    Y]/Nam Y Nghiệm Phương Full/[non-ocr] nam-y-nghiem-phuong-part-8.pdf
-  doc_type: pdf
-  title: '[non-ocr] nam-y-nghiem-phuong-part-8'
   doc_language: vi
   url: ''

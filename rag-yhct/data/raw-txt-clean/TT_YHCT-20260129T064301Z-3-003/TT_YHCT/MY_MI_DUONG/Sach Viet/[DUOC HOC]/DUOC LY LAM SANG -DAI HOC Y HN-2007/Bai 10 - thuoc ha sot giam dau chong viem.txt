@@ -1,0 +1,720 @@
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 10: Thuốc hạ sốt - giảm đau - chống viêm
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Phân tích được những tác dụng chính và cơ chế tác dụng của thuốc chống viêm phi
+steroid (CVKS)
+2. Trình bày được đặc điểm tác dụng và áp dụng điều trị của các thuốc: aspirin,
+in domet hacin, dic lofenac.
+3. Trình bày được đặc điểm tác dụng và áp dụng điều trị của các thuốc: dẫn xuất Oxicam,
+dẫn xuất acid propionic, paracetamol và thuốc ức chế COX - 2
+4. Nêu được 7 nguyên tắc khi sử dụng thuốc CVKS.
+Các thuốc trong nhóm này rất khác nhau về cấu trúc hóa học, gồm các dẫn xuất của salicylat,
+pyrazolon, anilin, in dol và một số thuốc khác. Tất cả các thuốc, ở mức độ khác nhau, đều có tác
+dụng hạ sốt, giảm đau, và - trừ dẫn xuất anilin - còn có tác dụng chống viêm, chống thấp khớp,
+chống đông vón tiểu cầu. Vì vậy còn được gọi chung là thuốc chống viêm không (mang nhân)
+steroid (CVKS) để phân biệt với các glucocorticoid, mang nhân sterol, được gọi là thuốc chống
+viêm steroid.
+1. Tác dụng chính và cơ chế
+Cơ chế chung của thuốc CVKS: ức chế sinh tổng hợp prostagladin
+Vane 1971 cho rằng cơ chế tác dụng chính của các thuốc CVKS là ức chế en zym
+cyc looxygenase, làm giảm tổng hợp các prostaglan din là những chất trung gian hóa học có vai trò
+quan trọng trong việc làm tăng và kéo dài đáp ứng viêm ở mô sau tổn thương.
+Khi tổn thương, màng tế bào giải phóng phospholipid màng. Dưới tác dụng của phospholipase A 2
+(là en zym bị corticoid ức chế), chất này chuyển thành acid ar AC hidonic. Sau đó, một mặt, dưới
+tác dụng của lipooxygenase (LOX), acid ar AC hidonic cho các leucot rien có tác dụng co khí
+quản; mặt khác, dưới tác dụng của cyc looxygenase, acid ar AC hidonic cho PGE 2 (gây viêm, đau),
+prostacyc lin (PGI2) và throm boxan A2 (TXA2) tác động đến sự lắng đọng tiểu cầu. Các CVKS ức
+chế COX nên ức chế được các phản ứng viêm (sơ đồ)
+corticoid
+Phospholipid màng
+(tế bào tổn thương)
+Lipocortin
+(+)
+(-)
+Phospholipase A2
+Acid arac hidonic (-) CVKS
+LOX
+COX
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Các leucot rien
+(co khí quản)
+PGE2
+PGI2 TXA2
+(viêm đau)
+(lắng đọng tiểu cầu...)
+Hình 10.1: Vị trí tác dụng của CVKS và corticoid trong tổng hợp PG
+Tuy nhiên, cơ chế trên chưa giải thích được đầy đủ những nhận xét lâm sàng trong quá trình sử
+dụng CVKS, như:
+- Hiệu quả và tính an toàn của các thu ốc CVKS không giống nhau.
+- Hiệu quả ức chế tổng hợp PG và TX của các thuốc rất thay đổi. Nhiều thuốc ức chế mạnh tổng
+hợp PG hơn TX và ngược lại. Aspirin ức chế mạnh và không hồi phục sự kết tụ tiểu cầu với liều
+thấp, nhưng phải liều rất cao mới có tác dụ ng chống viêm.
+Từ mươi năm gần đây, các nghiên cứu đã cho thấy có 2 loại COX, được gọi là COX - 1 và COX-
+2 có chức phận khác nhau và các thuốc chống viêm tác dụng với mức độ khác nhau trên COX - 1
+và COX-2 (sơ đồ )
+- COX-1: hay PGG/ H syn thetase- 1 có tác dụng duy trì các hoạt động sinh lý bình thường của tế
+bào là một "en zym cấu tạo". En zym có mặt ở hầu hết các mô, thận, dạ dày, nội mạc mạch, tiểu
+cầu, tử cung, tinh hoàn ... Tham gia trong quá trình sản xuất các PG có tác dụng bảo vệ, do đó
+còn gọi là "en zym giữ nhà" ("house keeping en zyme") :
+. Throm boxan A2 của tiểu cầu
+. Prostacyc lin (PGI2) trong nội mạc mạch, niêm mạc dạ dày
+. Prostaglan din E2 tại dạ dày bảo vệ niêm mạc
+. Prostaglan din E2 tại thận, đảm bảo chức phận sinh lý.
+- COX- 2: hay PGG/ H syn thetase 2 có chức phận thúc đẩy quá trình viêm. Thấy ở hầu hết các
+mô với nồng độ rất thấp, ở các tế bào tham gia vào phản ứng viêm (bạch cầu 1 nhân, đại thực bào,
+bao hoạt dịch khớp, tế bào sụn). Trong các mô viêm, nồng độ COX - 2 có thể tăng cao tới 80 lần
+do các kích thích viêm gây cảm ứng và hoạt hóa mạnh COX - 2. Vì vậy COX- 2 còn được gọi là
+"en zym cảm ứng"
+Như vậy, thuốc ức chế COX- 1 nhiều sĩ gây nhiều tác dụng không mong muốn, thuốc ức chế
+COX- 2 mạnh sĩ có tác dụng chống viêm mạnh mà ít gây tác dụng phụ.
+Giải phóng acid
+ar AC hidonic
+màng tế bào
+CVKS (-)
+(-) CVKS
+COX- 1
+COX- 2
+(en zym cấu tạo)
+(en zym cảm ứng)
+Tác dụng
+Kích thích
+sinh lý
+Kích thích
+gây viêm
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Các tác
+chống viêm
+dụng phụ
+Chức phận bảo vệ tế bào
+Thúc đẩy
+và "giữ nhà"
+quá trình viêm
+Hình 10.2: Vai trò sinh lý của COX- 1 và COX- 2
+Ngoài tác dụng ức chế tổng hợp PG, các CVKS còn có thể có nhiều cơ chế khác. Các CVKS là
+các phân tử ưa mì, dễ thâm nhập vào màng tế bào hoặc màng ti thể, nhất là vào các bạch cầu đa
+nhân, nên đã:
+. ức chế tiết các en zym của các thể tiêu bào
+. ức chế sản xuất các gốc tự do.
+. ức chế lắng đọng và kết dính các bạch cầu đa nhân trung tính.
+. ức chế các chức phận màng của đại thực bào như ức chế NADPH, oxydase, phospholipasse C,
+protein G và sự vận chuyển của các anion qua màng.
+1.1. Tác dụng chống viêm
+Các CVKS có tác dụng trên hầu hết các loại viêm không kể đến nguyên nhân, theo các cơ chế
+sau:
+- ức chế sinh tổng hợp prostaglan din (PG) do ức chế có hồi phục cyc looxygenase (COX), làm
+giảm PG E2 và F1 là những trung gian hóa học của phản ứng viêm (Vane và cs. 1971).
+- Làm vững bền màng lysosom (thể tiêu bào): ở ổ viêm, trong quá trình thực bào, các đại thực bào
+làm giải phóng các en zym của lysosom (hydrolase, aldolase, phosphatase acid, colagenase,
+elastase...), làm tăng thêm quá trình viêm. Do làm vững bền màng lysosom, các CVKS làm ngăn
+cản giải phóng các en zym phân giải, ức chế quá trình viêm.
+- Ngoài ra có thể còn có thêm một số cơ chế khác như đối kháng với các chất trung gian hoá học
+của viêm do tranh chấp với cơ chất của en zym, ức chế di chuyển bạch cầu, ức chế phản ứng
+kháng nguyên- kháng thể.
+Tuy các CVKS đều có tác dụng giảm đau - chống viêm, song lại khác nhau giữa tỷ lệ l iều chống
+viêm/ liều giảm đau. Tỷ lệ ấy lớn hơn hoặc bằng 2 với hầu hết các CVKS, kể cả aspirin (nghĩa là
+liều có tác dụng chống viêm cần phải gấp đôi liều có tác dụng giảm đau) nhưng lại chỉ gần bằng
+1 với in dometacin, phenylbutazon và piroxicam.
+1.2. Tác dụng giảm đau
+TXA2
+PGI1
+PGE2
+(tiểu cầu) (nội mạc
+(thận)
+niêm mạc
+dạ dày
+Các PG (bạch
+cầu 1 nhân đại
+thực bào, tế bào
+sụn)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Chỉ có tác dụng với các chứng đau nhẹ, khu trú. Tác dụng tốt với các chứng đau do viêm (đau
+khớp, viêm cơ, viêm dây thần kinh, đau răng, đau sau mổ). Khác với morphin, các thuốc này
+không có tác dụng với đau nội tạng, không gây ngủ, không gâ y khoan khoái và không gây
+nghiện. Theo Mon cada và Vane (1978), do làm giảm tổng hợp PG F 2 nên các CVKS làm giảm
+tính cảm thụ của các ngọn dây cảm giác với các chất gây đau của phản ứng viêm như bradykinin,
+histamin, serotinin.
+Đối với một số chứng đau sau mổ, CVKS có thể có tác dụng giảm đau mạnh hơn cả morphin vì
+mổ đã gây ra viêm.
+Trong đau do chìn ép cơ học hoặc tác dụng trực tiếp của các tác nhân hóa học, kể cả tiêm trực
+tiếp prostaglan din, các CVKS có tác dụng giảm đau kém hơn, càng chứng tỏ cơ chế quan trọng
+của giảm đau do CVKS là do ức chế tổng hợp PG. Ngoài ra có thể còn những cơ chế khác.
+1.3. Tác dụng hạ sốt
+Với liều điều trị, CVKS chỉ làm hạ nhiệt trên những người sốt do bất kỵ nguyên nhân gì, không
+có tác dụng trên người thường. Khi vi khuẩn , độc tố, nấm... (gọi chung là các chất gây sốt ngoại
+lai) xâm nhập vào cơ thể sĩ kích thích bạch cầu sản xuất các chất gây sốt nội tại (các cytokin,
+in terferon, TNF...). Chất này hoạt hóa prostaglan din syn thetase, làm tăng tổng hợp PG (đặc biệt
+là PG E1, E2) từ acid ar AC hidonic của vùng dưới đồi, gây sốt do làm tăng quá trình tạo nhiệt
+(rung cơ, tăng hô hấp, tăng chuyển hóa) và giảm quá trình mất nhiệt (co mạch da). Thuốc CVKS
+do ức chế prostaglan din syn thetase, làm giảm tổng hợp PG, có tác dụng hạ sốt d o làm tăng quá
+trình thải nhiệt (giãn mạch ngoại biên, ra mồ hôi), lập lại thăng bằng cho trung tâm điều nhiệt ở
+vùng dưới đồi. Các CVKS không ức chế được sốt do tiêm trực tiếp PG vào vùng dưới đồi. Vì
+không có tác dụng đến nguyên nhân gây sốt nên thuốc hạ sốt chỉ có tác dụng chữa triệu chứng,
+sau khi thuốc bị thải trừ, sốt sĩ trở lại.
+Thuốc hạ sốt
+(-)
+Vùng dưới đồi
+- rung cơ
+Chất gây sốt
+Bạch cầu
+TKT¦ - tăng hô hấp
+ngoại lai
+PG (E1- E2)
+
+(+)
+sốt
+Chất gây sốt
+PG
+nội tại
+syn thetase
+TKTV - co mạch
+acid
+- tăng chuyển hóa
+ar AC hidonic
+Hình 10.3. Cơ chế gây sốt và tác dụng của thuốc hạ sốt
+1.4. Tác dụng chống ngưng kết tiểu cầu
+Trong màng tiểu cầu có chứa nhiều throm boxan syn thetase là en zym chuyển en doperoxyd của
+PG G2/ H2 thành throm boxan A 2 (chỉ tồn tại 1 phút) có tác dụng làm đông vón tiểu cầu. Nhưng
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+nội mạc mạch cũng rất giàu prostacyc lin syn thetase, là en zym tổng hợp PG I 2 có tác dụng đối lập
+với throm boxan A2. Vì vậy tiểu cầu chảy trong mạch bình thường không bị đông vón. Khi nội
+mạch bị tổn thương, PGI2 giảm; mặt khác, khi tiểu cầu tiếp xúc với thành mạch bị tổn thương,
+ngoài việc giải phóng ra throm boxan A 2 còn phóng ra các "giả túc" làm dính các tiểu cầu với
+nhau và với thành mạch, dẫn tới hiện tượng ngưng kết tiểu cầu. Các CVKS ức chế thr om boxan
+syn thetase, làm giảm tổng hợp throm boxan A 2 của tiểu cầu nên có tác dụng chống ngưng kết tiểu
+cầu (hình 3.4)
+Tiểu cầu không có khả năng tổng hợp protein nên không tái tạo được cyc looxyganase. Vì thế,
+một liều nhỏ của aspirin (40- 100 mg/ ngày) đã có thể ức chế không hồi phục cyc looxyganase
+suốt cuộc sống của tiểu cầu (8- 11 ngày)
+Cyc looxygenase
+(-)
+Aspirin
+Thr. synth
+Throm boxan A2
+Tiểu cầu
+(làm vón tiểu cầu)
+
+Acid ar AC hodonic
+PGG2/ H2
+Tác dụng
+đối kháng
+Prost. Synth
+Prostacyc lin
+nội mạc
+(PG I2)
+Hình 10.4. Cơ chế ức chế đông vón tiểu cầu
+2. Các dẫn xuất
+Phân loại hóa học các thuốc CVKS
+Loại ức chế COX không chọn lọc
+Nhóm acid salicylic
+. Aspirin
+Nhóm pirazolon
+. Phenylbutazon
+Nhóm in dol
+. In dometacin, sulin dac
+. Etodolac (riêng thuốc này lại ức chế chọn lọc COX - 2)
+Nhóm acid enolic
+. Oxicam (piroxicam, meloxicam)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Nhóm acid propionic
+. Ibup rofen, nap roxen, ketop rofen, fenop rofen
+Nhóm dẫn xuất acid phenylacetic
+. Dic lofenac
+Nhóm dẫn xuất acid heteroarylacetic
+. Tolmetin, ketorolac
+Loại ức chế chọn lọc COX- 2
+Nhóm furanon có nhóm thế diaryl
+. Rofecoxib
+Nhóm pyrazol có nhóm thế diaryl
+. Celecoxib
+Nhóm acid in dol acetic
+. Etodolac
+Nhóm sulfonanilid
+. Nimesulid
+2.1. Dẫn xuất acid salicylic
+2.1.1. Acid salicylic (acidum salicylicum):
+Tinh thể hình kim, không màu, n hẹ, óng ánh,
+không mùi, vị chua và hơi ngọt, khó tan trong
+nước. Do kích ứng mạnh niêm mạc nên không
+dùng để uống. Dùng ngoài da, dung dịch 10% để
+chữa chai chân, hột cơm, nấm da...
+2.1.2. Acid acetylsalicylic (aspirin):
+Kết tinh hình kim trắng, hơi chua, khó tan trong
+nước, dễ tan hơn trong rượu và các dung dịch
+base. Là sản phẩm acetyl hóa của acid salicylic
+giảm tính kích ứng nên uống được.
+2.1.2.1. Đặc điểm tác dụng:
+- Tác dụng hạ sốt và giảm đau trong vòng 1 - 4 giờ với liều 500 mg/lần. Không gây hạ thân nhiệt.
+- Tác dụng chống viêm: chỉ có tác dụng khi dùng liều cao, trên 3g/ngày. Liều thấp chủ yếu là hạ
+sốt và giảm đau.
+- Tác dụng thải trừ acid uric: liều thấp (1 -2g/ngày) làm giảm thải trừ acid uric qua nước tiểu do
+làm giảm bài xuất chất này ở ống lượn xa. Liều cao (2-5g/ngày) làm đái nhiều urat do ức chế tái
+hấp thu acid uric ở ống lượn gần.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Tác dụng trên tiểu cầu và đông máu:
+Aspirin với liều thấp (40-325mg/ngày) đã ức chế mạnh cyc looxygenase của tiểu cầu, làm giảm
+tổng hợp throm boxan A 2 (chất làm đông vón tiểu cầu) nên làm giảm đông vón tiểu cầu. Liều cao
+hơn, ức chế cyc looxygenase của thành mạch, làm giảm tổng hợp PG I 2 (prostacyc lin) là chất
+chống kết dính và lắng đọng tiểu cầu, gây tác dụng ngược lại. Nhưng tác dụng trên tiểu cầu mạnh
+hơn nhiều.
+Liều cao aspirin cũng làm giảm tổng hợp prot hrom bin, có thể là do đối kháng với vitamin K. Vì
+vậy, aspirin có tác dụng chống đông máu.
+- Tác dụng trên ống tiêu hóa:
+Niêm mạc dạ dày - ruột sản xuất ra PG, đặc biệt là PG E 2, có tác dụng làm tăng tạo chất nhày và
+có thể là cả kích thích phân bào để thay thế các tế bào bị phá huỷ. Như vậy, vai trò của PGE là để
+bảo vệ niêm mạc đường tiêu hóa. Aspirin và các thuốc chống viêm phi steroid nói chung, với mức
+độ khác nhau, ức chế cyc looxygenase, làm giảm PG , tạo điều kiện cho HCl và pep sin của dịch vị
+gây tổn thương cho niêm mạc sau khi “hàng rào” bảo vệ bị suy yếu. Vì vậy, không được dùng
+thuốc cho những người có tiền sử loét dạ dày và phải uống thuốc sau bữa ăn.
+2.1.2.2. Dược động học
+ở p H của dạ dày, các dẫn xuất salicylic ít bị ion hóa cho nên dễ khuếch tán qua màng, được hấp
+thụ tương đối nhanh vào máu rồi bị thuỷ phân thành acid salicylic, khoảng 50 - 80% gắn với
+protein huyết tương, bị chuyển hóa ở gan, thời gian bán thải khoảng 6 giờ. Thải trừ qua nước tiểu
+50% trong 24 giờ dưới dạng tự do, glycuro - hợp, acid salicylic và acid gen tisic. Nếu p H của nước
+tiểu base, thải trừ salicylic tăng.
+2.1.2.3. Độc tính:
+- Mặc dầu các dẫn xuất salicylic đều ít độc, dễ uống, nhưng dùng lâu có thể gây “hội chứng
+salicyle” (“salicylisme”): buồn nôn, ù tai, điếc, nhức đầu, lú lẫn.
+- Đặc ứng: phù, mề đay, mẩn, phù Quin cke, hen.
+- Xuất huyết dạ dày thể ẩn (có hồng cầu trong phân) hoặc thể nặng (loét, nôn ra máu).
+- Nhiễm độc với liều trên 10g. Do aspirin kích thích trung tâm hô hấp, làm thở nhanh và sâu (nên
+gây nhiễm alcali hô hấp), sau đó vì áp lực riêng phần của CO 2 giảm, mô giải phóng nhiều acid
+lac tic, đưa đến hậu quả nhiễm acid do chuyển hóa (hay gặp ở trẻ em vì cơ chế điều hòa chưa ổn
+định).
+Liều chết đối với người lớn khoảng 20g.
+2.1.2.4. Liều lượng và chế phẩm:
+- Uống 1-6g/ngày, chia làm nhiều lần. Dùng để hạ sốt, giảm đau và chống viêm (thấp khớp cấp,
+thấp khớp mạn, viêm đa khớp, viêm thần kinh...)
+Viên nén aspirin 0,5g (biệt dược: Acesal, Aspro, Polopyrin).
+- Lysin acetyl salicylat (Aspé gic): là dạng muối hòa tan, mỗi lọ tương đương với 0,5g aspirin.
+Tiêm tĩnh mạch hoặc tiêm bắp 1-4 lọ/ngày.
+- Aspirin p H8: viên nén chứa 0,5 g aspirin, được bao bằng chất kháng với dịch vị, nhưng tan trong
+dịch ruột, ở đoạn 2 của tá tráng, từ đó thuốc được hấp thu vào máu và bị thuỷ phân thành acid
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+salicylic. Nồng độ tối đa trong máu đạt được sau 7 giờ, thời gian bán thải dài hơn aspirin bình
+thường, do đó giảm được số lần uống thuốc trong ngày, rất tiện lợi cho các trường hợp điều trị
+kéo dài.
+2.1.3. Met hyl salicylat
+Dung dịch không màu, mùi hắc lâu, chỉ dùng xoa bóp
+giảm đau tại chỗ. Ngấm qua da cho nên khi xoa bóp,
+thấy metyl salicylat trong nước tiểu.
+2.2. Dẫn xuất pyrazolon
+Hiện chỉ còn dùng một cách hạn chế phenylbutazon. Các
+dẫn xuất khác như phenazon
+(an tipyrin), aminop henazon (pyramidon), metamizol (analgin), không còn dùng nữa vì có nhiều
+độc tính với máu (giảm bạch cầu, suy tuỷ), với thận (đái albumin, viêm ống thận cấp, vô niệu).
+Chỉ dùng phenylbutazon cho viêm cứng khớp và viêm đa khớp mạn tính tiến triển khi các thuốc
+CVKS khác không còn tác dụng và phải theo dõi chặt chĩ các tác dụng không mong muốn của
+thuốc.
+Liều lượng và chế phẩm:
+Ngày đầu uống 200mg chia làm 2 lần uống trong hoặc sau bữa ăn, tăng dần liều tới 600 mg /ngày.
+Tuỵ theo tình trạng bệnh và sức chịu đựng của người bệnh, có thể giữ liều đó trong 4 - 5 ngày,
+sau đó giảm xuống liều duy trì 100 - 200 mg. Nói chung, một đợt thuốc không quá 15 ngày, sau
+đó nghỉ 4 - 5 ngày mới dùng.
+Phenylbutazon viên 50 và 100 mg.
+Oxyp hen butazon (Tan dery) viên 100 mg.
+Chún gta sĩ bỏ thuốc này trong tương lai gần
+2.3. Dẫn xuất in dol:
+2.3.1. In dometacin
+2.3.1.1. Đặc điểm tác dụng
+- Tác dụng giảm viêm mạnh hơn phenylbutazon 20 - 80 lần và mạnh hơn hydrocortioson 2 - 4
+lần. Đối kháng rõ với PG. Tác dụng cả trên giai đoạn đầu và giai đoạn muộn (mạn tính) của viêm.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Tác dụng giảm đau liên quan mật thiết với tác dụng chống viêm (liều chống viêm/liều giảm đau
+= 1).
+- Có tác dụng hạ sốt, nhưng không dùng để chữa sốt đơn thuần vì có nhiều độc tính và đã có
+thuốc hạ sốt khác thay thế (paracetamol, aspirin).
+- Sinh khả dụng gần bằng 100%. Gắn protein huyết tương 99%, thấm được vào dịch ổ khớp (bằng
+khoảng 20% nồng độ huyết tương).
+2.3.1.2. Độc tính: Xảy ra cho khoảng 20 -50% người dùng thuốc.
+- Có thể gây chóng mặt, nhức đầu (vì công thức của in domatacin tương tự như serotonin), rối
+loạn tiêu hóa, loét dạ dày. Vì thế không được dùng cho người có tiền sử dạ dày.
+2.3.1.3. Chỉ định:
+- Viêm xương khớp, hư khớp, thấp khớp cột sống, viêm nhi ều khớp mạn tính tiến triển, đau lưng,
+viêm dây thần kinh...
+- Chế phẩm và liều lượng:
+In dometacin (In docid; In docin): viên nén hoặc viên nang 25mg. Thuốc đạn 50 - 100mg. Mỗi
+ngày uống 50 - 150 mg chia làm nhiều lần.
+2.3.2. Sulin dac
+Sulin dac là tiền chất (prodrug): bản thân nó không có hoạt tính, vào cơ thể được chuyển hóa
+thành dẫn chất sulfat có hoạt tính sinh học mạnh, ức chế cyc looxygenase 500 lần mạnh hơn
+sulin dac. Về cấu trúc hóa học, sulin dac là in dometacin đã được thay met hoxy bằng fluor và thay
+Cl bằng gốc met hylsulfinyl (CH 3SO).
+- Trong thực nghiệm, tác dụng dược lý của sulin dac bằng 1/2 in dometacin; trong thực tế lâm
+sàng, tác dụng chống viêm và giảm đau của sulin dac tương tự aspirin.
+- Tỷ lệ và mức độ độc tính kém in dometacin.
+- Chế phẩm: Arthrocin, Artribid, Clinoril viên 150 và 200 mg; mỗi ngày uống 1 -2 viên, liều tối đa
+400mg/ngày, là liều tương đương với 4g aspirin hoặc 125 mg in dometacin.
+2.3.3. Etodolac
+Là thuốc có tác dụng ức chế ưu tiên COX - 2, hấp thu nhanh qua tiêu hóa, 99% gắn vào prot ein
+huyết tương, có chu kỵ gan- ruột. Thời gian bán thải là 7 giờ.
+Liều uống 200- 400 mg
+2.4. Dẫn xuất enolic acid: oxicam (piroxicam, meloxicam và tenoxicam)
+Là nhóm thuốc giảm viêm mới, có nhiều ưu điểm:
+- Tác dụng chống viêm mạnh vì ngoài tác dụng ức c hế COX còn ức chế proteoglycanase và
+collagenase của mô sụn, liều điều trị chỉ bằng 1/6 so với các thuốc thế hệ trước. Tác dụng giảm
+đau xuất hiện nhanh, nửa giờ sau khi uống.
+- Thời gian bán thải dài (2-3 ngày) cho phép dùng liều duy nhất trong 24 giờ. Gắ n vào protein
+huyết tương tới 99%. Vì t/2 quá dài, dễ có nguy cơ tích luü thuốc.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- ít tan trong mì so với các CVKS khác, cho nên dễ thấm vào tổ chức bao khớp bị viêm, ít thấm
+vào các mô khác và vào thần kinh, giảm được nhiều tai biến.
+- Các tai biến thường nhẹ và tỷ lệ thấp hơn so với các CVKS khác, ngay cả khi dùng thuốc kéo
+dài tới 6 tháng.
+- Thường chỉ định trong các viêm mạn vì tác dụng dài.
+- Chế phẩm và liều lượng:
++ Piroxicam (Feldene) 10-40 mg/ngày. Viên nang 10 mg,20 mg; ống tiêm 20 mg/ ml
+Từ 2002 do thấy tai biến trên tiêu hóa cao nên nhiều nước đã bỏ.
++ Tenoxicam (Tilcotil) 20mg/ngày. Viên nén 20 mg, ống tiêm 20 mg/ ml.
++ Meloxicam (Mobic). Viên nén 7,5 mg và 15 mg. Liều bình thường 7,5 mg/ ngày, tối đa 15
+mg/ ngày; t/2= 20 giờ. Lúc đầu, dựa vào kế tquả thử in vit ro, meloxicam được coi như thuốc ức
+chế chọn lọc COX- 2 (1999), nhưng trên lâm sàng, in vivo, tác dụng ức chế COX - 2 chỉ mạnh
+hơn COX- 1 có 10 lần nên không còn được xếp vào nhóm thuốc này nữa.
+2.5. Dẫn xuất acid propionic
+- Liều thấp có tác dụng giảm đau; liều cao hơn, chống viêm.
+- So với aspirin, in dometacin và pyrazolon có ít tác dụng phụ hơn, nhất là trên tiêu hóa, vì vậy
+được dùng nhiều trong các viêm khớp mạn .
+- Chế phẩm và liều lượng:
+Ibup rofen:
+- Tác dụng chống viêm và giảm đau tươn g tự aspirin, nhưng tác dụng phụ trên tiêu hóa thì thấp
+hơn nhiều, dễ được dung nạp hơn.
+- Được hấp thu nhanh qua đường tiêu hóa, nồng độ tối đa đạt được trong huyết tương sau 1 - 2 giờ.
+Thuốc bị chuyển hóa nhanh và thải trừ qua thận, thời gian bán thải là 1,8- 2 giờ.
+- Chỉ định chính trong viêm khớp dạng thấp, viêm cương khớp, điều trị các chứng đau nhẹ và vừa
+(nhức đầu, đau răng, đau do kinh nguyệt).
+- Tác dụng không mong muốn: ngoài các tác dụng không mong muốn chung của nhóm thuốc
+CVKS, còn thấy nhìn mờ, giảm thị lực, thay đổi nhận cảm màu sắc. Cần ngừng dùng thuốc và
+khám chuyên khoa mắt.
+- Liều lượng và cách dùng:
+. Viên nén 100, 150, 200, 300 và 400 mg
+. Viên nang 200 mg
+. Đạn trực tràng 500 mg
+Viêm khớp: thường dùng 1,2- 1,8g/ ngày, chia làm 4 lần. Có thể tăng liều nhưng không vượt quá
+3,2g/ ngày. Sau 1- 2 tuần cần giảm xuống liều thấp nhất có tác dụng (0,6 - 1,2g/ ngày).
+Giảm đau: uống 400 mg/ lần, cách 4- 6 giờ/ lần.
+Nap roxen
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Viên 250mg. Uống 250mg x 2 lần/ngày. Thời gian bán thải là 14 giờ.
+Dễ dung nạp nên thường được dùng như ibup rofen
+2.6. Nhóm dẫn xuất của acid phenylacetic
+Đại diện duy nhất là dic lofenac (Voltaren)
+- Tác dụng ức chế COX mạnh hơn in dometain, nap roxen và nhiều thuốc khác. Ngoài ra có thể
+còn làm giảm nồng độ acid ar AC hidonic t ự do trong bạch cầu do ngăn cản giải phóng hoặc thu
+hồi acid béo.
+- Hấp thu nhanh và hoàn toàn qua đường tiêu hóa, nhưng chỉ 50% vào được tuần hoàn và bị
+chuyển hóa trong quá trình hấp thu. T 1/2 = 1- 2 h, nhưng tích luü ở dịch bao khớp nên tác dụng
+vẫn giữ được lâu.
+- Chỉ định trong viêm khớp mạn. Còn dùng giảm đau trong viêm cơ, đau sau mổ và đau do kinh
+nguyệt.
+- Tác dụng phụ ít, chỉ khoảng 20%, có thể làm tăng aminot ran sferase gan gấp 3 lần, nhưng hồi
+phục được.
+- Chế phẩm và liều lượng: viên 50- 100 mg uống 100- 150 mg/ ngày.
+2.7. Nhóm dẫn xuất acid heteroarylacetic
+- Tolmetin:
+. Tác dụng chống viêm, giảm đau và hạ sốt tương tự aspirin nhưng dễ dung nạp hơn. Thuốc được
+giữ lại trong bao hoạt dịch tới 8 giờ sau 1 liều duy nhất.
+. Tác dụng phụ: 25- 40%.
+. Tác dụng chống viêm, giảm đau ở liều 0,8 - 1,6g/ ngày, tương đương với aspirin 4 - 4,5g/
+ngày hoặc in dometacin 100- 150 mg/ ngày. Liều tối đa là 2g/ ngày chia làm 3 - 4 lần.
+- Ketorolac:
+. Là thuốc có tác dụng giảm đau mạnh hơn chống viêm. Khác opioid , tác dụng giảm đau của
+ketorolac không gây quen thuốc và dấu hiệu cai thuốc, không ức chế trung tâm hô hấp. Có tác
+dụng chống viêm tại chỗ, dùng nhỏ mắt.
+. Là một trong số ít thuốc CVKS có thể dùng đường tiêm.
+. Tác dụng phụ gấp 2 lần placebo, thường là n gủ gà, chóng mặt, nhức đầu, chậm tiêu, nôn, đau
+chỗ tiêm.
+Thường dùng cho giảm đau sau mổ, đau cấp tính.
+Liều uống 5- 30 mg/ ngày; tiêm bắp 30- 60 mg/ ngày;
+Tiêm tĩnh mạch 150 30 mg/ ngày, không dùng quá 5 ngày.
+. Chỉ định để giảm đau ngắn hạn, dưới 5 ngà y như đau sau mổ: tiêm bắp 30- 60 mg; tiêm tĩnh
+mạch 15- 30 mg và uống 5- 30 mg.
+. Không dùng cho đau trong sản khoa. Không dùng cho đau nhẹ và đau mạn tính.
+2.8. Thuốc CVKS loại ức chế chọn lọc COX - 2
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Các thuốc loại này, có những đặc điểm sau:
+- ức chế chọn lọc trên COX -2 nên tác dụng chống viêm mạnh, vì ức chế COX - 1 yếu nên các tác
+dụng phụ về tiêu hóa, máu, thận, cơn hen... giảm đi rất rõ rệt, chỉ còn từ 0,1 - 1%.
+- Thời gian bán thải dài, khoảng 20 giờ cho nên chỉ cần uống mỗi ngày 1 lần.
+- Hấp thu dễ dàng qua đường tiêu hóa, dễ thấm vào các mô và dịch bao khớp nên có nồng độ cao
+trong mô viêm, chỉ định tốt cho viêm xương khớp và viêm khớp dạng thấp
+Vì kết tụ tiểu cầu phụ thuộc duy nhất vào COX - 1, nên các thuốc nhóm này không dùng để dự
+phòng được nhồi máu cơ tim. Vẫn cần dùng Aspirin.
+Qua thực tế sử dụng, vẫn thấy có tác dụng phụ do ức chế COX - 1 cho nên nhiều tác giả đề nghị
+không dùng từ ức chế "chọn lọc" mà nên thay bằng từ ức chế "ưu tiên" COX- 2 thì đúng hơn.
+Rofecoxib (Vioxx)
+ức chế COX- 2 mạnh hơn COX- 1 tới 800 lần. Được dùng từ 1999. Qua nhiều thử nghiệm lâm
+sàng dùng liên tục trên 18 tháng để điều trị polip đại tràng, ung thư tuyến tiền liệt, bệnh
+Alzheimer, thấy tai biến tim mạch của Vioxx cao hơn placebo nên tháng 10/ 2004 Hãng sản xuất
+(Merck) đã tự nguyện xin rút khỏi thị trường.
+Celecoxib (Celebrex)
+Thuốc ức chế COX- 2 mạnh hơn COX- 1 từ 100 đến 400 lần, được dùng từ 1998.
+- Hấp thu qua tiêu hóa, đạt nồng độ tối đa trong huyết tương sau 2 - 4 giờ. Gắn mạnh với protein
+huyết tương. Phần lớn bị chuyển hóa ở gan. Thời gian bán thải là 11 giờ.
+- Liều thường dùng 100 mg 2 lần/ ngày. trong thấp khớp có thể tăng liều tới 200 mg 2
+lần/ ngày.
+Etodolac: (xem 2.3.3)
+Các thuốc ức chế chọn lọc COX- 2 đã được kh¼ng định là làm giảm rõ rệt t ai biến chảy máu tiêu
+hóa, nhưng sau 5 năm sử dụng đã thấy nguy cơ tim mạch tăng vì thuốc đã gây mất thăng bằng
+giữa PGI2 và TXA2, làm giảm mạnh PGI2, yếu tố bảo vệ nội mạc mạch. Hiện nay (2005) thuốc
+vẫn được giám sát chặt chĩ khi dùng kéo dài.
+2.9. Dẫn xuất para aminop henol : Acetaminop hen, paracetamol
+2.9.1 Đặc điểm tác dụng
+Paracetamol có cường độ và thời gian tác dụng tương tự như aspirin về giảm đau và hạ sốt.
+Không có tác dụng chống viêm nên nhiều tác giả không xếp vào nhóm thuốc CVKS. Thực ra,
+trên mô hình thực nghiệm, paracetamol vẫn tác dụng chống viêm, nhưng phải dùng liều cao hơn
+liều giảm đau, vì trong ổ viêm có nồng độ cao các peroxid, làm mất tác dụng ức chế COX của
+paracetamol (Marshall và cộng sự 1987) và mặt khác, paracetamol không ức chế sự hoạt hóa
+bạch cầu trung tính như các CVKS khác (Abram son và cộng sự, 1989).
+Trong thực hành, paracetamol được dùng để hạ sốt, giảm đau. Chỉ định tốt cho những người
+không dùng được aspirin (loét tiêu hóa, rối loạn đông máu).
+2.9.2. Dược động học
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Hấp thu nhanh qua tiêu hóa, sinh khả dụng là 80 - 90%, t/2 = 2 giờ, hầu như không gắn vào
+protein huyết tương. Chuyển hóa phần lớn ở gan và một phần nhỏ ở thận, cho các dẫn xuất
+glucuro và sulfo-hợp, thải trừ qua thận.
+2.9.3. Độc tính
+Với liều điều trị thông thường, hầu như không có tác dụng phụ, không gây tổn thương đường tiêu
+hóa, không gây mất thăng bằng base -acid, không gây rối loạn đông máu.
+Tuy nhiên, khi dùng liều cao (> 10g), sau thời gian tiềm tàng 24 giờ, xuất hiện hoại tử tế bào gan
+có thể tiến triển tới chết sau 5 - 6 ngày. Nguyên nhân là paracetamol bị oxy hóa ở gan cho N -
+acetyl paraben zoquinon-imin. Bình thường, chất chuyển hóa này bị khử độc ngay bằng liên hợp
+với glutat hion của gan. Nhưng khi dùng liều cao, N -acetyl paraben zoquinon-imin quá thừa sĩ gắn
+vào protein của tế bào gan và gây ra hoại tử tế bào. Biểu hiện bằng đau hạ sườn phải, gan to, vàng
+da, hôn mê gan (do tăng amoniac), acid máu. Về sinh hóa, AST, ALT, LDH đều tăng. Bệnh nhân
+thường chết sau 6-7 ngày. Nếu điều trị sớm bằng N-acetyl-cystein (NAC, Mucomyst, Mucosol),
+là chất tiền thân của glutat hion, bệnh nhân có thể qua khỏi. Sau 36 giờ, gan đã bị tổn thương, kết
+quả sĩ kém. Sau ngộ độc dưới 10 giờ, dùng NAC có hiệu quả hơn: uống dung dịch 5%
+-
+140mg/kg, sau đó, cách từng 4 giờ, uống 70 mg/kg 17 liều. NAC cũng có tác dụng phụ: ban đỏ,
+mày đay, nôn, tiêu chảy, nhưng không cần ngừng thuốc.
+2.9.4. Chế phẩm và liều lượng
+- Paracetamol (Efferalgan; Dafalgan): viên 0,5g; gói bột 0,08g; viên đạn 80, 150, 300 mg.
+. Người lớn: 0,5-1,0g 1-3 lần/ngày. Không được dùng quá 4 g/ngày.
+. Trẻ em 13-15 tuổi: 0,5g 1-3 lần/ngày.
+. Trẻ em 7-13 tuổi: 0,25g 1-3 lần/ngày.
+- Propacetamol clohydrat (Pro- Dafalgan) (thế hệ 1)
+Vì paracetamol khó tan trong nước nên đã tổng hợp tiền chất của paracetamol tan đư ợc trong
+nước, vào cơ thể dưới tác dụng của esterase huyết tương sĩ giải phóng paracetamol:
+esterase
+Propacetamol
+Diet hylglycin + PARACETAMOL
+(2g)
+huyết tương
+(1g)
+Trình bày: lọ thuốc bột + dung môi. Pha ngay trước khi dùng, khôn g để quá 30 phút. Tiêm bắp
+sâu hay tiêm tĩnh mạch chậm trong vòng 2 phút. Có thể truyền tĩnh mạch trong vòng 15 phút (pha
+trong 100 m L Na Cl 0,9% hoặc glucose 5%). Liều dùng 1 -2g/ lần, cách 4- 6 giờ. Không
+dùng quá 8g/ ngày. Không dùng cho trẻ em dư ới 15 tuổi và người suy thận.
+- Perfalgan (thế hệ 2)
+Là paracetamol được làm tan hoàn toàn trong nước (1g/ 100 m L). Perfalgan 1g có tương đương
+sinh học với propacetamol 2g và có tác dụng giảm đau tương đương với dic lofenac 75 mg tiêm
+bắp, hoặc morphin 10 mg tiêm bắp.
+- Rất nhiều chế phẩm khác có chứa paracetamol kết hợp với cafein, ep hedrin, codein,
+phenylpropanolamin (PPA)...
+3. những vấn đề chung
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+3.1.
+Dược động học chung
+- Mọi CVKS đang dùng đều là các acid yếu, có p Ka từ 2 đến 5.
+- Hấp thu dễ qua tiêu hóa do ít bị ion hóa ở dạ dày.
+- Gắn rất mạnh vào protein huyết tương, chủ yếu là albumin, có thuốc tới 99,7% (nhóm oxicam,
+dic lofenac), do đó dễ đẩy các thuốc khác ra dạng tự do, làm tăng độc tính của thuốc đó (sulfamid
+hạ đường huyết, thuốc kháng vitamin K... ).
+Các thuốc CVKS dễ dàng thâm nhập vào các mô viêm. Nồng độ thuốc trong bao hoạt dịch bằng
+khoảng 30- 80% nồng độ huyết tương. Khi dùng lâu, sĩ vượt quá nồng độ huyết tương. Do đó tác
+dụng viêm khớp được duy trì.
+- Bị giáng hóa ở gan (trừ acid salicylic), thải qua thận dưới dạng còn hoạt tính khi dùng với liều
+chống viêm và liều độc.
+- Các thuốc khác nhau về độ thải trừ, t 1/2 huyết tương thay đổi từ 1- 2 giờ (aspirin, nhóm
+propionic) đến vài ngày (pyrazol, oxicam).
+- Nhóm salicylic dùng cho đau nhẹ (răng) hoặc các viêm cấp. Các CVKS có t 1/2 dài được dùng
+cho viêm mạn với liều 1 lần/ ngày.
+Dựa theo thời gian bán thải của thuốc, có thể chia các CVKS làm 3 nhóm (bảng 3.3):
+- Các thuốc có thời gian bán thải ngắn, dưới 10 giờ, cần uống 3 lần/ ngày, bệnh nhân khó tuân
+thủ. Tuy nhiên, có lợi là khi ngừng thuốc, tác dụng sĩ hết nhanh, nhất là khi xẩy ra tác dụng
+không mong muốn. An toàn hơn cho người cao tuổi và bệnh nhân suy thận.
+- Các thuốc có thời gian bán thải dài, trên 30 giờ, chỉ cần dùng 1 lần/ ngày, người b ệnh không
+quên. Tuy nhiên, dễ gây tích luü thuốc, nhất là với người có tuổi và suy thận, dễ gây tai biến
+nặng, khi ngừng thuốc tác dụng độc hại còn kéo dài. Phải 7 lần t/2 thì thuốc mới thải trừ hết, như
+vậy, với piroxicam có t/2 = 40 giờ, phải chờ 12 ngày .
+- Các thuốc có thời gian bán thải trung gian: tương đối dễ dùng và ít tác dụng phụ hơn.
+Bảng 10.1: Phân loại thuốc theo thời gian bán thải (t/2)
+Loại thuốc
+Tên thuốc
+t/2 (h)
+Số lần dùng/ ngày
+t/2 ngắn
+Aspirin
+Dic lofenac
+Ketop rofen
+Salicylat
+Ibup rofen
+In domet hacin
+0.25
+1.1
+1.8
+2.0- 15
+2.1
+4.6
+3- 4
+2- 4
+2- 4
+3- 4
+3- 4
+3- 4
+t/2 trung bình
+Nap roxen
+Sulin dac
+14
+14
+2
+2
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Meloxicam
+Tenidap
+20
+20- 30
+1
+1t/2 dài
+Piroxicam
+Tenoxicam
+Phenylbutazon
+40- 45
+60- 75
+68
+1
+1
+1
+3.2. Các tác dụng không mong muốn
+Thường liên quan đến tác dụng ức chế tổng hợp PG.
+- Loét dạ dày - ruột: niêm mạc dạ dày ruột sản xuất PG, đặc biệt là PG E 2 có tác dụng làm tăng
+chất nhày và có thể là cả kích thích phân bào để thường xuyên thay thế các tế bào niêm mạc bị
+phá huỷ. Thuốc CVKS ức chế tổng hợp PG, tạo điều kiện cho HCl của dịch vị gây tổn thương cho
+niêm mạc sau khi “hàng rào” bảo vệ bị suy yếu.
+- Làm kéo dài thời gian chảy máu do ức chế ngưng kết tiểu cầu.
+- Với thận, PG có vai trò quan trọng trong tuần hoàn thận. ức chế tổng hợp PG gây hoại tử gan và
+sau là viêm thận kĩ mạn, giảm chức phận cầu thận, dễ dẫn đến tăng huyết áp.
+- Với phụ nữ có thai:
++ Trong 3 tháng đầu, CVKS dễ gây quái thai
++ Trong 3 tháng cuối, CVKS dễ gây các rối loạn ở phổi, liên quan đến việc đóng ống động
+mạch của bào thai trong tử cung. Mặt khác, do làm giảm PG E và F, CVKS có thể kéo dài thời
+gian mang thai, làm chậm chuyển dạ vì PG E, PG F làm tăng co góp tử cung, trước khi đẻ vài giờ,
+sự tổng hợp các PG này tăng rất mạnh.
+- Mọi CVKS đều có khả năng gây cơn hen giả (pseudo asthma) và tỷ lệ những người hen không
+chịu thuốc là cao vì có thể là CVKS ức chế cyc looxygenase nên làm tăng các chất chuyển hóa
+theo đường lipooxygenase (tăng leucot rien).
+3.3. Tương tác thuốc
+Không dùng CVKS với:
+- Thuốc chống đông máu, nhất là với loại kháng vitamin K.
+- Thuốc lợi niệu và hạ huyết áp, vì CVKS ức chế tổng hợp cả các PG gây giãn mạch.
+- Lit hium: CVKS làm giảm thải trừ lit hi qua thận, gây tích luü.
+- CVKS làm tăng tác dụng của phenytoin và sulfamid hạ đường huyết d o đẩy chúng ra khỏi
+protein huyết tương, làm tăng nồng độ thuốc tự do trong máu.
+3.4. Chỉ định
+3.4.1. Giảm đau và hạ sốt thông thường: aspirin, paracetamol
+Giảm đau sau mổ: cho thuốc trước khi rạch dao, loại có t/2 trung bình hoặc dài.
+3.4.2. Các bệnh thấp cấp và mạn
+- Vì tỷ lệ độc tính tiêu hóa/hiệu quả chống viêm giống nhau cho mọi loại CVKS, cho nên tiêu
+chuẩn chọn thuốc cần dựa trên:
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
++ Đáp ứng của từng người bệnh
++ Sự thuận tiện trong sử dụng
++ Tác dụng nhanh.
+- Thí dụ:
++ Viêm đa khớp dạng thấp: dẫn xuất propionic, dic lofenac (Voltaren).
++ Viêm khớp mạn của người trẻ: aspirin
++ Viêm cứng khớp: in dometacin
++ Thoái hóa khớp: loại có tác dụng giảm đau với liều thấp và khi tăng liều sĩ đạt được tác
+dụng chống viêm: aspirin, dẫn xuất propionic. Hoặc một thu ốc giảm đau đơn thuần paracetamol.
+3.4.3. Các chỉ định khác
+Các thuốc ức chế chọn lọc COX- 2 đang được thử dùng để dự phòng và điều trị bệnh Alzheimer,
+polip đại tràng, ung thư ruột kết- trực tràng, tuyến tiền liệt. Tuy nhiên, do phải dùng dài ( 18
+tháng), đã thấy nguy cơ tim mạch tăng.
+3.5. Nguyên tắc chung khi sử dụng CVKS
+- Việc chọn thuốc tuỵ thuộc vào cá thể. Có người chịu đựng được thuốc này nhưng không chịu
+đựng được thuốc khác.
+- Uống trong hoặc sau bữa ăn để tránh kích ứng dạ dày.
+- Không chỉ định cho bệnh nhân có tiền sử loét dạ dày. Trong trường hợp thật cần thiết, phải dùng
+cùng với các chất bảo vệ niêm mạc dạ dày. Song, những tai biến tiêu hóa không phải chỉ do tác
+dụng kích thích trực tiếp của thuốc lên niêm mạc mà còn do tác dụng chung của th uốc.
+CVKS gây loét dạ dày do ức chế tổng hợp PG E 2 , PG I2 ở niêm mạc dạ dày. Các PG này có vai
+trò ức chế bài tiết HCl, và kích thích bài tiết dịch nhày cùng bicarbonat ở dạ dày, vì thế có tác
+dụng bảo vệ niêm mạc dạ dày. Hiện đã tổng hợp được một loại t ương tự PG E1 là Misop rostol
+(Cytotec), tức 15- deoxy- 16 hydroxy- 16 metyl- PG E1 có tác dụng chống loét dạ dày tương tự
+thuốc kháng H2. Đặc biệt được dùng trong những người phải điều trị kéo dài bằng CVKS.
+Tác dụng phụ: tiêu chảy (30%), đau quặn bụng, x ảy thai.
+Liều lượng: Viên 200 g x 4 lần/ ngày.
+Đang nghiên cứu tổng hợp thuốc tương tự PGE 2 (Arbop rostol, En prostil, Trimop rostil).
+- Chỉ định thận trọng đối với bệnh nhân viêm thận, suy gan, có cơ địa dị ứng, cao huyết áp.
+- Khi điều trị kéo dài, cần kiểm tra có định kỵ (2 tuần một lần) công thức máu, chức phận thận.
+- Nếu dùng liều cao để tấn công, chỉ nên kéo dài 5 - 7 ngày.
+Nhanh chóng tìm được liều thấp nhất có tác dụng điều trị để tránh được tai biến.
+- Chú ý khi dùng phối hợp thuốc:
++ Không dùng phối hợp với các CVKS với nhau vì làm tăng độc tính của nhau.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
++ Không dùng CVKS cùng với thuốc chống đông máu loại kháng vitamin K (dicumarol,
+warfarin), sulfamid hạ đường huyết, dip henylhydan toin, vì CVKS sĩ đẩy các thuốc này ra khỏi
+nơi dự trữ (protein huyết tương), làm tăng độc. Nếu vẫn cần phối hợp thì giảm liều các thuốc đó.
++ Các CVKS có thể làm giảm tác dụng một số thuốc do làm tăng giáng hóa hoặc đối kháng tại
+nơi tác dụng, như mep robamat, an drogen, lợi niệu furosemid.
+Câu hỏi tự lượng giá
+1. Trình bày cơ chế tác dụng chung của thuốc CVKS - Phân biệt thuốc ức chế COX- 1 và ức
+chế COX- 2.
+2. Trình bày cơ chế tác dụng chống viêm của thuốc CVKS.
+3. Trình bày cơ chế tác dụng giảm đau của thuốc CVKS.
+4. Trình bày cơ chế tác dụng hạ sốt của thuốc CVKS.
+5. Trình bày cơ chế chống ngưng kết tiểu cầu của aspirin.
+6. Phân tích so sánh đặc điểm tác dụng và áp dụng điều trị của aspirin, dẫn xuất in dol
+(in dometacin), dẫn xuất phenylacetic (dic lofenac, voltaren).
+7. Trình bày đặc điểm tác dụng và áp dụng điều trị của các thuốc CVKS loại ức chế chọn
+lọc COX- 2.
+8. Trình bày tác dụng, cơ chế tác dụng, độc tính, và áp dụng điều trị của paracetamol.
+Trình bày các tác dụng không mong muốn và nguyên tắc chung khi sử dụng thuốc CVKS.

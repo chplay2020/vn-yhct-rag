@@ -1,0 +1,220 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 13: Thuốc chữa động kinh
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Phân loại được thuốc điều trị động kinh theo cơn và các cách tác dụng của thuốc chữa
+động kinh.
+2. Trình bày được cơ chế tác dụng, tác dụng dược lý và áp dụng điề u trị của các thuốc
+dip henylhydan toin, phenobarbital, carbamazepin và acid valproic.
+3. Trình bày được nguyên tắc dùng thuốc chữa động kinh.
+1. Đại cương
+Thuốc chữa động kinh là những thuốc có khả năng loại trừ hoặc làm giảm tần số, mức độ trầm
+trọng của các cơn động kinh, hoặc các triệu chứng tâm thần kìm theo bệnh động kinh, mà không
+gây ngủ. Thuốc mê và thuốc ngủ cũng có tác dụng chống co giật, nhưng tác dụng này chỉ xuất
+hiện sau khi người bệnh đã ngủ.
+Thuốc chống động kinh cũng không cùng nghĩa với thuốc chống co giật.
+1.1. Phân loại cơn động kinh
+Các cơn động kinh luôn xuất phát từ vỏ não và được phân loại thành:
+- Cơn động kinh cục bộ: bắt đầu từ 1 ổ trên vỏ não và tuỵ theo vùng chức phận mà thể hiện ra
+triệu chứng. Thí dụ, vị trí tổn thương ở vùng vỏ nã o vận động, sĩ có triệu chứng giật rung ở phần
+cơ thể do vùng vỏ não ấy kiểm tra. Trong loại này còn phân ra:
+. Cơn cục bộ đơn giản, bệnh nhân vẫn còn ý thức kéo dài khoảng 30 -60 giây.
+. Cơn cục bộ phức hợp, có kìm theo mất ý thức, kéo dài khoảng 30 giây đ ến 2 phút.
+- Cơn động kinh toàn thể: ngày từ đầu đã lan rộng toàn bộ 2 bán cầu đại não. Có thể gặp:
+. Không có cơn co giật: bất chợt mất ý thức khoảng 30 giây trong lúc đang làm việc (động kinh
+cơn nhỏ - petit mal).
+. Cơn giật rung cơ: co thắt bất ngờ, ngắ n (khoảng 30 giây) có thể giới hạn ở một chi, một vùng,
+hoặc toàn thể.
+. Cơn co cứng - giật rung toàn cơ thể (động kinh cơn lớn - grand mal).
+1.2. Phân loại thuốc điều trị theo cơn
+Loại động kinh
+Thuốc thông thường
+Thuốc mới
+Động kinh cục bộ
+. Cục bộ đơn giản
+Carbamazepin, phenytoin, phenobarbital,
+primidon, valproat
+Gabapen tin
+Lamot rigin
+. Cục bộ phức hợp
+Carbamazepin, phenytoin, phenobarbital,
+primidon, valproat
+Gabapen tin
+Lamot rigin
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Động kinh toàn thể
+. Không cơn co giật
+Clonazepam, et hosuximid, valproat
+Lamot rigin
+. Cơn giật rung
+valproat
+Lamot rigin
+. Cơn co cứng- giật
+rung
+Carbamazepin, phenobarbital, phenytoin,
+primidon, valproat
+Lamot rigin
+1.3. Cách tác dụng của thuốc chữa động kinh
+Các thuốc chữa động kinh có thể tác động theo một trong ba cơ chế sau:
+- Làm tăng dẫn truyền ức chế của hệ GABA - ergic
+- Làm giảm dẫn truyền kích thích, thường là hệ glutamatergic.
+- Làm thay đổi sự dẫn truyền ion qua màng nơ ron do tác động trên kênh Na + phụ thuộc điện thế,
+hoặc kênh Ca++ typ T.
+Vì cơ chế bệnh sinh của động kinh chưa được hoàn toàn biết rõ cho nên các thuốc chữa động
+kinh chỉ ức chế được các triệu chứng của bệnh chứ không dự phòng và điều trị được bệnh. Thuốc
+phải được sử dụng lâu dài, dễ có nhiều tác dụng không mong muốn. Do đó cần được g iám sát
+nghiêm ngặt.
+2. Các thuốc chính
+Sau đây chỉ trình bày những thuốc có trong danh mục thuốc thiết yếu Việt Nam lần thứ 5 (2005)
+2.1. Dẫn xuất hydan toin: Dip henylhydan toin (Phenytoin, Dilan tin)
+Dip henylhydan toin là một trong những thuốc có tác dụng t ốt chữa mọi thể động kinh, trừ động
+kinh thể không có cơn co giật.
+2.1.1. Tác dụng và cơ chế
+Phenytoin có tác dụng chống cơn động kinh nhưng không gây ức chế toàn bộ hệ thần kinh trung
+ương. Liều độc còn gây kích thích. Tác dụng trên cơn co giật động kinh
+cũng giống
+phenobarbital, nhưng không gây an thần và ngủ.
+Phenytoin có tác dụng ổn định màng tế bào thần kinh và cơ tim, làm giảm luồng Na + trong hiệu
+thế hoạt động trong khử cực do các chất hóa học (ức chế kênh Na + cảm ứng với điện thế).
+2.1.2. Dược động học
+Phenytoin là acid yếu, có p Ka = 8,3 tan trong nước kém.
+Hấp thu qua đường tiêu hóa chậm và đôi khi không hoàn toàn. Nồng độ tối đa trong máu khi
+uống là từ 3 - 12 giờ. Gắn vào protein huyết tương 90%. Nồng độ trong thần kinh trung ương
+tương đương nồng độ trong huyết tương. Phần lớn chuyển hóa ở gan và thải trừ qua thận dưới
+dạng liên hợp, chỉ 5% dưới dạng không chuyển hóa. Thời gian bán thải từ 6-24 giờ.
+2.1.3. Tác dụng không mong muốn
+- Da và niêm mạc: viêm lợi quá sản, mẩn da, lupus ban đỏ.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Máu: thiếu máu hồng cầu to do thiếu acid folic (do thuốc phong tỏa sự hấp thu acid folic tại
+ruột), giảm bạch cầu...
+- Tiêu hóa: nôn, cơn đau bụng cấp.
+- Thần kinh-tâm thần: liên quan đến nồng độ thuốc trong máu:
+20 g/ml có tác dụng điều trị.
+= 30 g/ml làm rung giật nhãn cầu.
+= 40 g/ml gây mất phối hợp động tác.
+> 40 g/ml gây rối loạn tâm thần.
+- Xương: còi xương hoặc mềm xương, có thể là do rối loạn chuyển hóa vitamin D, nhất là khi
+phối hợp với phenobarbital.
+2.1.4. Tương tác thuốc
+Cloram phenicol, dicumarol, isoniazid, cimetidin có thể làm tăng nồng độ của phenytoin trong
+huyết tương do làm giảm chuyển hóa. Trái lại, carbamazepin làm tăng chuyển hóa nên làm giảm
+nồng độ phenytoin trong huyết tương.
+Salicylat, tolbutamid, sulfisoxazol tranh chấp với phenytoi n ở vị trí gắn vào protein huyết tương.
+2.1.5. áp dụng điều trị
+Phenytoin (Dihydan, Dilan tin): viên nén 30 -100mg; ống tiêm 50mg/ml. Liều đầu 3-5mg/kg
+(300mg/ngày). Theo dõi nồng độ thuốc trong máu, khi đạt được nồng độ có tác dụng, nghỉ 1
+tuần. Liều cao 300mg/ngày thì khoảng cách giữa các đợt điều trị là 2 tuần. Có thể dùng liều 1
+lần/ngày.
+Phenytoin tiêm tĩnh mạch không vượt quá 50mg/phút, pha loãng trong Na Cl 0,9% vì thuốc có p H
+base, kích thích. Không tiêm bắp, gây tổn thương tổ chức.
+2.2. Phenobarbital (Gardenal, Luminal)
+Phenobarbital thuộc nhóm barbiturat (xem bài “thuốc ngủ”), là thuốc đầu tiên dùng điều trị động
+kinh (1912). Khác với barbiturat khác, phenobarbital có tác dụng chống các cơn co giật của động
+kinh ngay cả với những liều chưa gây an thần hoặc ngủ. Thuốc giới hạn được sự lan truyền của
+cơn co giật và nâng được ngưìng kích thích gây co giật.
+Phenobarbital và cả pen tobarbital tác dụng trên recep tor GABA -A làm tăng quá trình ức chế.
+Ngoài ra còn chẹn kênh Ca ++ trước xinap nên làm giảm giải phóng các chất dẫn truyền thần kinh,
+đặc biệt là glutamat nên làm giảm mạnh các quá trình kích thích trên thần kinh trung ương.
+Vì ít độc và giá rẻ nên tương đối được dùng rộng rãi, nhưng có nhược điểm là gây an thần, ngủ gà
+và có xu hướng làm rối loạn hành vi của trẻ em nên cần thận trọng.
+Liều lượng: uống 0,1 - 0,3 g/ngày (1 - 5 mg/kg). Không ngừng thuốc đột ngột để tránh trạng thái
+động kinh liên tục.
+2.3. Dẫn xuất Iminostilben: Carbamazepin
+2.3.1. Tác dụng và cơ chế
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tuy trên động vật thực nghiệm và người, carbamazepin có nhiều điểm giống như phenytoin,
+nhưng:
+- Tác dụng chống cơn co giật gây ra bởi pen tylen tretazol lại mạnh hơn.
+- Có tác dụng điều trị bệnh nhân bị hưng trầm cảm, kể cả những trường hợp lit hium không còn
+tác dụng.
+- Có tác dụng chống bài niệu do làm giảm nồng độ ADH huyết tương.
+Các cơ chế này đều chưa rõ. Các dẫn xuất iminostilben cũng ức chế kênh Na + như phenytoin.
+2.3.2. Dược động học
+Carbamazepin được hấp thu chậm qua đường tiêu hóa, nồng độ tối đa trong máu đạt được sau 4 -8
+giờ và giữ được tới 24 giờ. Gắn vào protein huyết tương 75% và phân phối vào mọi mô. Nồng độ
+trong dịch não tuỷ tương đương với dạng tự do trong huyết tương.
+Bị chuyển hóa ở gan, cho 10- 11 epoxid vẫn còn hoạt tính. Dưới 3% thải qua thận dưới dạng
+không đổi. Thời gian bán thải từ 10 đến 20 giờ. Dùng cùng với phenobarbital hoặc phenytoin,
+thời gian bán thải giảm còn 9-10 giờ.
+2.3.3. Tác dụng không mong muốn
+- Thường gặp: ngủ gà, chóng mặt, nhìn lóa, mất động tác, buồn nôn, nôn.
+- Ngoài ra, có thể gặp: rối loạn tạo máu, t ổn thương nặng ngoài da, viêm gan ứ mật, suy thận cấp,
+suy tim. Vì vậy, trong quá trình điều trị cần kiểm tra các chức phận trên.
+- Phản ứng dị ứng.
+2.3.4. áp dụng lâm sàng
+- Chỉ định:
+. Cơn động kinh thể tâm thần vận động.
+. Cơn co giật cứng hoặc giật rung cục bộ hoặc toàn thân.
+. Tác dụng giảm đau đặc hiệu trong viêm dây thần kinh tam thoa.
+- Chế phẩm:
+Carbamazepin (Tegretol) viên nén 100 -200mg.
+Liều đầu 200mg x2 lần/ngày. Tăng dần liều tới 600 -1200mg. Trẻ em 20-30mg/kg. Nên chia liều
+hàng ngày làm 3 – 4 lần để giữ được nồng độ hằng định trong máu.
+2.4. Acid valproic
+2.4.1. Tác dụng dược lý và cơ chế
+- Tác dụng trên mọi loại động kinh.
+- Rất ít tác dụng an thần và tác dụng phụ.
+- Các giả thiết hiện nay đều cho rằng valproat ức chế kênh Na + nhạy cảm với điện thế
+(Mac Donald, 1988) và làm tăng tích luü GABA (L ửscher, 1985). Những tác dụng đó giống với
+tác dụng của phenytoin và carbamazepin. Ngoài ra còn làm giảm dòng Ca ++ qua kênh.
+2.4.2. Dược động học
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hấp thu nhanh và hoàn toàn qua tiêu hóa. Nồng độ tối đa trong huyết tương đạt được sau 1-4 giờ.
+Gắn vào protein huyết tương 90%. Nồng độ trong dịch não tuỷ tương đương trong huyết tương.
+Hầu như hoàn toàn bị chuyển hóa ở gan, trong đó có một chất chuyển hóa 2 -propyl-2-pen tanoic
+acid vẫn còn hoạt tính như chất mẹ. Thời gian bán thải là 15 giờ.
+2.4.3. Tác dụng không mong muốn
+- Khoảng 16% có các triệu chứng chán ăn, buồn nôn, nôn, đau vùng thượng vị.
+- Khi dùng liều cao 7-30 mg/kg có thể gặp viêm gan cấp, viêm tuỹ, an thần, run, hói, giảm
+prot hrom bin.
+2.4.4. áp dụng lâm sàng
+- Chỉ định: động kinh các loại, đặc biệt là thể không có cơn co giật.
+- Chế phẩm:
+Acid valproic (Depakin): viên bọc đường 250mg; si rô 5ml có 250mg hoạt chất. Liều đầu
+15mg/kg, tăng dần hàng tuần 5 - 10mg/kg cho tới 60mg/kg. Nồng độ điều trị trong máu từ 30 đến
+100g/ml.
+3. Những vấn đề trong sử dụng thuốc
+3.1. Nguyên tắc dùng thuốc
+- Chỉ dùng thuốc khi đã có chẩn đoán lâm sàng chắc chắn.
+- Lúc đầu chỉ dùng một thuốc.
+- Cho liều từ thấp tăng dần, thích ứng với các cơn.
+- Không ngừng thuốc đột ngột.
+- Phải đảm bảo cho bệnh nhân uống đều hàng ngày, không quên.
+- Cấm uống rượu trong quá trình dùng thuốc.
+- Chờ đợi đủ thời hạn để đánh giá hiệu quả của điều trị:
+. Vài ngày với et hosuximid, ben zodiazepin
+. Hai ba tuần với phenobarbital, phenytoin
+. Vài tuần với valproic acid.
+- Hiểu rõ các tác dụng phụ, tác dụng không mong muốn của từng thuốc để theo dõi kịp thời.
+- Nếu có thể, kiểm tra nồng độ của thuốc trong máu khi cần.
+3.2. Điều trị động kinh và thai nghén
+Tỷ lệ thai nhi có dị dạng hoặc tử vong ở người mẹ có động kinh được điều trị cao hơn người bình
+thường 2 - 3 lần. Các cơn động kinh cũng thường tăng lên khi có thai, có thể do nồng độ thuốc
+trong huyết tương giảm.
+Khi có thai vẫn không được ngừng thuốc, tuy nhiên, tuỵ theo từng trường hợp, có thể giảm liều,
+nhất là trong 3 tháng đầu.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Trẻ mới đẻ ở những người mẹ điều trị bằng phenobarbital, primidon hoặc phenytoin có thể gặp tai
+biến chảy máu do thiếu vitamin K, cần bổ sung dự phòng trước bằng vitamin K.
+câu hỏi tự lượng giá
+1. Phân loại các thuốc điều trị động kinh theo cơn và trình bày các cách tác dụng của
+thuốc chữa động kinh nói chung.
+2. Trình bày tác dụng và áp dụng điều trị của dẫn xuất hydan toin (Phenytoin) và
+phenobarbital trong điều trị động kinh.
+3. Phân tích tác dụng điều trị và tác dụng không mong muốn của carbamazepin và acid
+valproic.

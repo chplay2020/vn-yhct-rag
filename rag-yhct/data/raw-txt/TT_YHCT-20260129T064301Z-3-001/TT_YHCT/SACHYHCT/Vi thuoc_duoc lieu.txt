@@ -1,0 +1,3318 @@
+STT
+Tên hoạt 
+chất
+Đường 
+dùng, 
+dạng BC
+Nồn
+g 
+độ/ 
+hàm 
+Tên 
+thuốc
+G ĐK 
+LH hoặc 
+GP NK
+GĐKLH 
+hoặc 
+GPNK 
+CHUẨN
+Tên nhà 
+sản xuất
+Nước 
+sản xuất
+Quy 
+cách 
+đóng gói
+Đơn 
+vị 
+tính
+ Số lượng 
+ Đơn giá (có 
+VAT) tính trên 
+ĐVT nhỏ nhất 
+ Thành tiền 
+Nhà 
+thầu 
+trúng 
+thầu
+Nhóm 
+TC KT
+Mã gói 
+thầu
+Mã 
+gói_chuẩ
+n hóa
+Tên đơn 
+vị 
+(SYT/Tr
+ung 
+tâm/CSK
+Tỉnh, TP
+SốQĐcôn
+gbốKQL
+CNT
+Ngày 
+KQLCN
+T bắt 
+đầu có 
+hiệu lực
+1 Hạ khô thảo
+Hạ khô thả10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+20
+                  
+212.000
+             
+4.240.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+2 Huyền sâmUống
+Huyền sâmVD-35326 VD-35326-21
+Kg
+30
+                  
+107.100
+             
+3.213.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+3 Huyền sâm
+Huyền sâm10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+148.000
+             
+22.200.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+4 Tri mẫu
+B
+Tri mẫu
+VCT- 0026VCT-00268-22
+Việt Nam Túi 1- 5kg Kg
+45
+                  
+208.950
+             
+9.402.750
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+5 Bán chi liên
+Bán chi liê 7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+25
+                  
+172.200
+             
+4.305.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+6 Hoàng bá
+Hoàng bá 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+50
+                  
+252.000
+             
+12.600.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+7 Hoàng cầm
+Hoàng cầm10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+50
+                  
+310.000
+             
+15.500.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+8 Hoàng đằng
+Hoàng đằn 7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+44
+                  
+208.950
+             
+9.193.800
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+9 Hoàng liên
+Hoàng liên10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+30
+                  
+1.028.000
+          
+30.840.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+10 Đan sâm (RUống
+Đan sâm (R6225/BYT 6225/BYT-YDCT
+Kg
+50
+                  
+178.500
+             
+8.925.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+11 Bạch mao căn
+N
+Bạch mao VCT-0004 VCT-00044-20
+Việt Nam Túi 1- 5kg Kg
+150
+                
+101.850
+             
+15.277.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+12 Mẫu đơn bì
+Mẫu đơn b10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+40
+                  
+262.000
+             
+10.480.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+13 Mẫu đơn bUống
+B
+Mẫu đơn b6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+10
+                  
+375.900
+             
+3.759.000
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+14 Sinh địa
+Uống
+B
+Sinh địa
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+10
+                  
+189.000
+             
+1.890.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+15 Thiên hoa phấn
+Thiên hoa 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+32
+                  
+180.000
+             
+5.760.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+16 Xích thược
+B
+Xích thượcVCT- 0027VCT-00273-22
+Việt Nam Túi 1- 5kg Kg
+250
+                
+261.450
+             
+65.362.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+17 Xích thượcUống
+B
+Xích thược6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+20
+                  
+189.000
+             
+3.780.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+18 Xích thượcUống
+Xích thượcVCT-0009 VCT-00091-21
+Kg
+10
+                  
+178.500
+             
+1.785.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+19 Bán hạ bắc
+Bán hạ bắc7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+30
+                  
+402.675
+             
+12.080.250
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+20 Qua lâu nhân
+Qua lâu nh10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+20
+                  
+338.000
+             
+6.760.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+21 Cát căn
+N
+Cát căn
+VCT-0000 VCT-00005-20
+Việt Nam Túi 1- 5kg Kg
+120
+                
+132.930
+             
+15.951.600
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+22 Xuyên bối mẫu
+Xuyên bối 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+10
+                  
+1.748.000
+          
+17.480.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+23 Cát cánh (RUống
+Cát cánh (R6225/BYT 6225/BYT-YDCT
+Kg
+40
+                  
+225.750
+             
+9.030.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+24 Cát cánh
+Cát cánh
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+70
+                  
+295.000
+             
+20.650.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+25 Hạnh nhân
+Hạnh nhân 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+25
+                  
+342.000
+             
+8.550.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+26 Kha tử
+Kha tử
+7501/BYT 7501/BYT-YDCT
+Túi 1- 5kg Kg
+34
+                  
+161.700
+             
+5.497.800
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+27 Tiền hồ
+B
+Tiền hồ
+VCT-0019 VCT-00191-22
+Việt Nam Túi 1- 5kg Kg
+15
+                  
+390.600
+             
+5.859.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+28 Cúc hoa (HUống
+Cúc hoa (H6560/BYT 6560/BYT-YDCT
+Kg
+40
+                  
+424.200
+             
+16.968.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+29 Bạch tật lê
+Bạch tật lê 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+20
+                  
+198.500
+             
+3.970.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+30 Câu đằng
+Câu đằng 7501/BYT 7501/BYT-YDCT
+Túi 1- 5kg Kg
+30
+                  
+303.450
+             
+9.103.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+31 Bá tử nhân
+Bá tử nhân6560/BYT 6560/BYT-YDCT
+Túi PE 1K Kg
+30
+                  
+854.000
+             
+25.620.000
+  
+FITOPHARN2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+32 Linh chi
+Linh chi
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+10
+                  
+550.000
+             
+5.500.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+33 Phục thần Uống
+Phục thần 6560/BYT 6560/BYT-YDCT
+Kg
+10
+                  
+270.900
+             
+2.709.000
+    
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+34 Phục thần
+Phục thần 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+50
+                  
+305.000
+             
+15.250.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+35 Táo nhân
+Táo nhân 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+50
+                  
+610.000
+             
+30.500.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+36 Thảo quyết minh
+N
+Thảo quyếVCT-0002 VCT-00028-20
+Việt Nam Túi 1- 5kg Kg
+100
+                
+72.450
+               
+7.245.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+37 Viễn chí
+Viễn chí
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+50
+                  
+1.050.000
+          
+52.500.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+38 Trần bì
+N
+Trần bì
+VCT-0003 VCT-00031-20
+Việt Nam Túi 1- 5kg Kg
+100
+                
+93.450
+               
+9.345.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+39 Đan sâm
+B
+Đan sâm
+VCT-0026 VCT-00263-22
+Việt Nam Túi kín PE Kg
+300
+                
+210.000
+             
+63.000.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+40 Đào nhân Uống
+B
+Đào nhân 6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+5
+                    
+722.400
+             
+3.612.000
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+41 Đào nhân (Uống
+Đào nhân (6560/BYT 6560/BYT-YDCT
+Kg
+50
+                  
+438.900
+             
+21.945.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+42 Đào nhân
+N
+Đào nhân VCT-0000 VCT-00009-20
+Việt Nam Túi 1- 5kg Kg
+60
+                  
+522.900
+             
+31.374.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+43 Hồng hoa
+B
+Hồng hoa VCT-0018 VCT-00183-22
+Việt Nam Túi 1- 5kg Kg
+85
+                  
+922.950
+             
+78.450.750
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+44 Hồng hoa Uống
+B
+Hồng hoa 6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+15
+                  
+1.050.000
+          
+15.750.000
+  
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+45 Huyền hồ
+Huyền hồ10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+30
+                  
+600.000
+             
+18.000.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+46 Một dược
+Một dược 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+30
+                  
+381.000
+             
+11.430.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+47 Ngưu tất
+Uống
+B
+Ngưu tất
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+194.250
+             
+6.798.750
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+Danh mục thuốc Vị thuốc y học cổ truyền/dược liệu trúng thầu do BHXH các tỉnh báo cáo, đề nghị đăng tải đợt 5 (T9-10 năm 2022) theo hình thức đấu thầu rộng rãi tại các địa phương
+
+
+48 Nhũ hương
+Nhũ hương7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+10
+                  
+378.000
+             
+3.780.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+49 Tam lăng
+Tam lăng 7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+15
+                  
+253.050
+             
+3.795.750
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+50 Xuyên khung
+B-N Xuyên khuVCT-0026 VCT-00267-22
+Việt Nam Túi kín PE Kg
+350
+                
+234.000
+             
+81.900.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+51 Xuyên khuUống
+B
+Xuyên khu6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+241.500
+             
+8.452.500
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+52 Xuyên khuUống
+Xuyên khu6560/BYT 6560/BYT-YDCT
+Kg
+100
+                
+168.000
+             
+16.800.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+53 Bạch cập
+Bạch cập
+7501/BYT 7501/BYT-YDCT
+Túi 1- 5kg Kg
+10
+                  
+6.298.950
+          
+62.989.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+54 Bạch linh Uống
+B
+Bạch linh 6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+20
+                  
+252.000
+             
+5.040.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+55 Bạch linh (Phục linh, Bạch pBạch linh (10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+300
+                
+238.000
+             
+71.400.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+56 Ngưu bàng tử
+Ngưu bàng7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+25
+                  
+338.100
+             
+8.452.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+57 Trư linh
+Trư linh
+7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+15
+                  
+940.800
+             
+14.112.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+58 Xa tiền tử
+N
+Xa tiền tửVCT-0019 VCT-00193-22
+Việt Nam Túi 1- 5kg Kg
+60
+                  
+229.950
+             
+13.797.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+59 Ý dĩ
+B
+Ý dĩ
+VCT-0003 VCT-00035-20
+Việt Nam Túi 1- 5kg Kg
+50
+                  
+120.750
+             
+6.037.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+60 Đại hoàng
+B
+Đại hoàng VCT-0005 VCT-00051-20
+Việt Nam Túi 1- 5kg Kg
+25
+                  
+228.900
+             
+5.722.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+61 Sài hồ
+Sài hồ
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+524.000
+             
+78.600.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+62 Sài hồ (RễUống
+Sài hồ (Rễ6225/BYT 6225/BYT-YDCT
+Kg
+10
+                  
+467.250
+             
+4.672.500
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+63 Sơn tra
+B
+Sơn tra
+VCT-0002 VCT-00026-20
+Việt Nam Túi 1- 5kg Kg
+50
+                  
+114.450
+             
+5.722.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+64 Thương truật
+Thương tru10861/BYT10861/BYT-YDCT
+Túi kín PE Kg
+40
+                  
+752.000
+             
+30.080.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+65 Tang diệp
+N 
+Tang diệp VCT- 0027VCT-00270-22
+Việt Nam Túi 1- 5kg Kg
+30
+                  
+108.150
+             
+3.244.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+66 Khiếm thực
+Khiếm thự10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+35
+                  
+386.000
+             
+13.510.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+67 Kim anh
+Kim anh
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+45
+                  
+240.000
+             
+10.800.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+68 Ngũ vị tử
+Ngũ vị tử10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+25
+                  
+496.000
+             
+12.400.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+69 Nhục đậu khấu
+Nhục đậu k7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+15
+                  
+786.450
+             
+11.796.750
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+70 Thăng ma
+B
+Thăng ma VCT- 0026VCT-00269-22
+Việt Nam Túi 1- 5kg Kg
+50
+                  
+448.350
+             
+22.417.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+71 Sơn thù
+B
+Sơn thù
+VCT-0002 VCT-00025-20
+Việt Nam Túi 1- 5kg Kg
+50
+                  
+292.950
+             
+14.647.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+72 Sơn thù
+Uống
+B
+Sơn thù
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+5
+                    
+304.500
+             
+1.522.500
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+73 Sơn thù (QUống
+Sơn thù (Q6225/BYT 6225/BYT-YDCT
+Kg
+10
+                  
+262.500
+             
+2.625.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+74 Bạch thượcUống
+B
+Bạch thược6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+20
+                  
+189.000
+             
+3.780.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+75 Bạch thượcUống
+Bạch thược6225/BYT 6225/BYT-YDCT
+Kg
+50
+                  
+152.250
+             
+7.612.500
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+76 Bạch thược
+Bạch thược10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+300
+                
+182.000
+             
+54.600.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+77 Đương quyUống
+B
+Đương quy6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+399.000
+             
+13.965.000
+  
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+78 Đương quyUống
+Đương quy6560/BYT 6560/BYT-YDCT
+Kg
+100
+                
+323.400
+             
+32.340.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+79 Đương quy (Toàn quyB
+Đương quyVCT-0001 VCT-00012-20
+Việt Nam Túi 1- 5kg Kg
+300
+                
+454.650
+             
+######### Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+80 Hà thủ ô đỏUống
+B
+Hà thủ ô đỏ6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+268.800
+             
+9.408.000
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+81 Hà thủ ô đỏUống
+Hà thủ ô đỏ6560/BYT 6560/BYT-YDCT
+Kg
+80
+                  
+205.800
+             
+16.464.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+82 Thục địa
+Uống
+N
+Thục địa
+02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+210.000
+             
+7.350.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+83 Câu kỷ tửUống
+B
+Câu kỷ tử6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+304.500
+             
+10.657.500
+  
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+84 Câu kỷ tử
+Câu kỷ tử10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+330.000
+             
+49.500.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+85 Mạch môn
+Mạch môn 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+30
+                  
+300.000
+             
+9.000.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+86 Ngọc trúc
+Ngọc trúc 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+25
+                  
+320.000
+             
+8.000.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+87 Sa sâm
+Sa sâm
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+25
+                  
+256.000
+             
+6.400.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+88 Sa sâm (RễUống
+Sa sâm (RễVD-26953 VD-26953-17
+Kg
+10
+                  
+233.100
+             
+2.331.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+89 Thạch hộc
+Thạch hộc 7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+25
+                  
+315.000
+             
+7.875.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+90 Thiên mônUống
+Thiên môn6560/BYT 6560/BYT-YDCT
+Kg
+10
+                  
+384.300
+             
+3.843.000
+    
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+91 Ba kích
+N
+Ba kích
+VCT-0026 VCT-00261-22
+Việt Nam Túi kín PE Kg
+300
+                
+622.000
+             
+######### Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+92 Cẩu tích
+N
+Cẩu tích
+VCT-0003 VCT-00036-20
+Việt Nam Túi 1- 5kg Kg
+100
+                
+124.950
+             
+12.495.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+93 Cốt toái bổ
+N
+Cốt toái bổVCT-0000 VCT-00007-20
+Việt Nam Túi 1- 5kg Kg
+165
+                
+114.450
+             
+18.884.250
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+94 Dâm dương hoắc
+Dâm dươn 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+316.000
+             
+47.400.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+95 Đỗ trọng
+Đỗ trọng
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+300
+                
+141.000
+             
+42.300.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+96 Đỗ trọng
+Uống
+B
+Đỗ trọng
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+168.000
+             
+5.880.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+97 Đỗ trọng (VUống
+Đỗ trọng (VVD-29809 VD-29809-18
+Kg
+100
+                
+120.750
+             
+12.075.000
+  
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+98 Ích trí nhân
+Ích trí nhân10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+25
+                  
+610.000
+             
+15.250.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+99 Nhục thung dung
+Nhục thung4841/BYT 4841/BYT-YDCT
+Túi PE 1K Kg
+50
+                  
+910.000
+             
+45.500.000
+  
+FITOPHARN2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+100 Nhục thungUống
+B
+Nhục thung4841/BYT 4841/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+15
+                  
+1.539.300
+          
+23.089.500
+  
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+
+
+101 Phá cố chỉ (Bổ cốt chỉ)
+Phá cố chỉ 7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+25
+                  
+156.450
+             
+3.911.250
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+102 Tục đoạn ( Uống
+Tục đoạn ( 6560/BYT 6560/BYT-YDCT
+Kg
+30
+                  
+176.400
+             
+5.292.000
+    
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+103 Bạch truật Uống
+B
+Bạch truật 6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+5
+                    
+210.000
+             
+1.050.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+104 Bạch truật
+Bạch truật 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+350
+                
+218.000
+             
+76.300.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+105 Cam thảo Uống
+B
+Cam thảo 6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+10
+                  
+189.000
+             
+1.890.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+106 Cam thảo (Uống
+Cam thảo (6225/BYT 6225/BYT-YDCT
+Kg
+100
+                
+168.000
+             
+16.800.000
+  
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+107 Cam thảo
+Cam thảo 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+400
+                
+214.000
+             
+85.600.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+108 Đại táo
+Uống
+B
+Đại táo
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+105.000
+             
+3.675.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+109 Đại táo (QuUống
+Đại táo (Qu6560/BYT 6560/BYT-YDCT
+Kg
+100
+                
+92.400
+               
+9.240.000
+    
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+110 Đại táo
+Đại táo
+7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+200
+                
+114.450
+             
+22.890.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+111 Đảng sâm Uống
+B
+Đảng sâm 6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+470.400
+             
+16.464.000
+  
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+112 Đảng sâm Uống
+Đảng sâm 6560/BYT 6560/BYT-YDCT
+Kg
+80
+                  
+388.500
+             
+31.080.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+113 Đảng sâm
+B
+Đảng sâm VCT-0026 VCT-00264-22
+Việt Nam Túi kín PE Kg
+300
+                
+610.000
+             
+######### Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+114 Đinh lăng
+N
+Đinh lăng VCT- 0027VCT-00279-22
+Việt Nam Túi 1- 5kg Kg
+130
+                
+187.950
+             
+24.433.500
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+115 Hoàng kỳ (Uống
+Hoàng kỳ (6225/BYT 6225/BYT-YDCT
+Kg
+50
+                  
+199.500
+             
+9.975.000
+    
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+116 Hoàng kỳ (Bạch kỳ)
+Hoàng kỳ (10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+300
+                
+253.000
+             
+75.900.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+117 Độc hoạt
+Uống
+B
+Độc hoạt
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+10
+                  
+189.000
+             
+1.890.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+118 Độc hoạt ( Uống
+Độc hoạt ( VD-26931 VD-26931-17
+Kg
+70
+                  
+168.000
+             
+11.760.000
+  
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+119 Độc hoạt
+B
+Độc hoạt
+VCT-0001 VCT-00011-20
+Việt Nam Túi 1- 5kg Kg
+200
+                
+231.966
+             
+46.393.200
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+120 Hy thiêm Uống
+N
+Hy thiêm 6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+20
+                  
+102.900
+             
+2.058.000
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+121 Ké đấu ngựa (Thương nhĩ tửKé đấu ngự7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+30
+                  
+208.950
+             
+6.268.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+122 Khương hoUống
+B
+Khương ho6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+10
+                  
+1.575.000
+          
+15.750.000
+  
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+123 Khương hoUống
+Khương ho6560/BYT 6560/BYT-YDCT
+Kg
+30
+                  
+1.224.300
+          
+36.729.000
+  
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+124 Khương hoạt
+Khương ho10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+1.526.000
+          
+######### Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+125 Mộc qua
+Mộc qua
+7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+100
+                
+166.950
+             
+16.695.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+126 Phòng pho Uống
+B
+Phòng pho 6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+417.900
+             
+14.626.500
+  
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+127 Phòng pho Uống
+Phòng pho VD-29046 VD-29046-18
+Kg
+50
+                  
+420.000
+             
+21.000.000
+  
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+128 Phòng phong
+Phòng pho 6560/BYT 6560/BYT-YDCT
+Túi PE 1K Kg
+200
+                
+565.600
+             
+######### FITOPHARN2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+129 Tang ký sinUống
+N
+Tang ký sin6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+77.700
+               
+2.719.500
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+130 Tần giao
+Tần giao
+10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+150
+                
+540.000
+             
+81.000.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+131 Tần giao
+Uống
+B
+Tần giao
+6225/BYT 6225/BYT 02-Công tyViệt Nam Túi 1-5kg Kg
+35
+                  
+567.000
+             
+19.845.000
+  
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+132 Tần giao (RUống
+Tần giao (RVD-31808 VD-31808-19
+Kg
+50
+                  
+409.500
+             
+20.475.000
+  
+29_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+133 Uy linh tiên
+Uy linh tiê 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+20
+                  
+462.000
+             
+9.240.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+134 Quế chi
+Uống
+N
+Quế chi
+6560/BYT 6560/BYT 01-Công tyViệt Nam Túi 1-5kg Kg
+15
+                  
+71.400
+               
+1.071.000
+    
+01-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+135 Đinh hương
+Đinh hươn 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+10
+                  
+658.000
+             
+6.580.000
+    
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+136 Ngô thù du
+Ngô thù du7501/BYT 7501/BYT-YDCT
+Túi 1- 5kg Kg
+20
+                  
+789.600
+             
+15.792.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+137 Quế nhục
+N
+Quế nhục VCT-0005 VCT-00055-20
+Việt Nam Túi 1- 5kg Kg
+250
+                
+159.600
+             
+39.900.000
+  
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+138 Bạch biển đậu
+N
+Bạch biển VCT-0004 VCT-00045-20
+Việt Nam Túi 1- 5kg Kg
+30
+                  
+103.950
+             
+3.118.500
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+139 Bồ công anh
+N
+Bồ công anVCT- 0027VCT-00271-22
+Việt Nam Túi 1- 5kg Kg
+40
+                  
+124.950
+             
+4.998.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+140 Tân di
+Tân di
+7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+20
+                  
+292.950
+             
+5.859.000
+    
+Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+141 Tế tân
+Tế tân
+7140/BYT 7140/BYT-YDCT
+Túi 1- 5kg Kg
+150
+                
+733.950
+             
+######### Dược Liệu N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+142 Tế tân (RễUống
+Tế tân (Rễ6560/BYT 6560/BYT-YDCT
+Kg
+10
+                  
+367.500
+             
+3.675.000
+    
+24_Công tyN3
+G3
+G5
+TTYT CànTrà Vinh
+108/QĐ-TT16032022
+143 Liên kiều
+Liên kiều 10681/BYT10681/BYT-YDCT
+Túi kín PE Kg
+45
+                  
+448.000
+             
+20.160.000
+  
+Ninh Hiệp N2
+G4
+G5
+BV Quân YBình Dươn331/QĐ-BV15072022
+144 Thổ phục l Uống
+N
+Thổ phục l VCT-0007 VCT-0007 02-Công tyViệt Nam Túi 1-5kg Kg
+30
+                  
+117.600
+             
+3.528.000
+    
+02-Công tyN2
+G5
+G5
+BVĐKKV Trà Vinh
+ 30/QĐ-BV20042022
+145 Bạch chỉ
+Uống
+Bạch chỉ
+0
+0 N
+Việt Nam Túi PE hút Kg
+32
+                  
+115.000
+             
+3.680.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+146 Kinh giới (Uống
+Kinh giới (
+0
+0 N
+Việt Nam Đóng túi P Kg
+10
+                  
+52.000
+               
+520.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+147 Bạc hà
+Uống
+Bạc hà
+0
+0 N
+Việt Nam Túi PE hút Kg
+4
+                    
+67.000
+               
+268.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+148 Cát căn
+Uống
+Cát căn
+0
+0 N
+Việt Nam Túi PE hút Kg
+11
+                  
+65.000
+               
+715.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+149 Lức (Sài hồUống
+Lức (Sài hồ
+0
+0 N
+Việt Nam Túi PE hút Kg
+13
+                  
+38.000
+               
+494.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+150 Dây đau xưUống
+Dây đau xư
+0
+0 N
+Việt Nam Túi PE hút Kg
+36
+                  
+42.000
+               
+1.512.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+151 Tang ký sinUống
+Tang ký sin
+0
+0 N
+Việt Nam Túi PE hút Kg
+52
+                  
+37.000
+               
+1.924.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+152 Thiên niên Uống
+Thiên niên
+0
+0 N
+Việt Nam Túi PE hút Kg
+19
+                  
+85.000
+               
+1.615.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+153 Can khươnUống
+Can khươn
+0
+0 N
+Việt Nam Đóng túi P Kg
+5
+                    
+118.000
+             
+590.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+
+
+154 Thổ phục l Uống
+Thổ phục l
+0
+0 N
+Việt Nam Đóng túi P Kg
+62
+                  
+88.000
+               
+5.456.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+155 Thổ phục l Uống
+Thổ phục l
+0
+0 N
+Việt Nam Túi PE hút Kg
+1
+                    
+75.000
+               
+75.000
+         
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+156 Chi tử
+Uống
+Chi tử
+0
+0 N
+Việt Nam Túi PE hút Kg
+7
+                    
+135.000
+             
+945.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+157 Nhân trần Uống
+Nhân trần
+0
+0 N
+Việt Nam Túi PE hút Kg
+9
+                    
+58.000
+               
+522.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+158 Bán hạ namUống
+Bán hạ nam
+0
+0 N
+Việt Nam Đóng túi P Kg
+7
+                    
+112.000
+             
+784.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+159 Câu đằng Uống
+Câu đằng
+0
+0 N
+Việt Nam Túi PE hút Kg
+4
+                    
+165.000
+             
+660.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+160 Bình vôi (NUống
+Bình vôi (N
+0
+0 N
+Việt Nam Túi PE hút Kg
+67
+                  
+90.000
+               
+6.030.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+161 Lạc tiên
+Uống
+Lạc tiên
+0
+0 N
+Việt Nam Túi PE hút Kg
+90
+                  
+41.000
+               
+3.690.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+162 Thảo quyếUống
+Thảo quyế
+0
+0 N
+Việt Nam Đóng túi P Kg
+6
+                    
+34.000
+               
+204.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+163 Thạch xươ Uống
+Thạch xươ
+0
+0 N
+Việt Nam Túi PE hút Kg
+14
+                  
+260.000
+             
+3.640.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+164 Chỉ thực
+Uống
+Chỉ thực
+0
+0 N
+Việt Nam Túi PE hút Kg
+10
+                  
+62.000
+               
+620.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+165 Hương phụUống
+Hương phụ
+0
+0 N
+Việt Nam Túi PE hút Kg
+5
+                    
+83.000
+               
+415.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+166 Sa nhân (QUống
+Sa nhân (Q
+0
+0 N
+Việt Nam Đóng túi P Kg
+2
+                    
+298.000
+             
+596.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+167 Trần bì (V Uống
+Trần bì (V
+0
+0 N
+Việt Nam Đóng túi P Kg
+62
+                  
+66.000
+               
+4.092.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+168 Huyết giác Uống
+Huyết giác
+0
+0 N
+Việt Nam Túi PE hút Kg
+10
+                  
+152.000
+             
+1.520.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+169 Kê huyết đ Uống
+Kê huyết đ
+0
+0 N
+Việt Nam Túi PE hút Kg
+92
+                  
+35.000
+               
+3.220.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+170 Khương hoUống
+Khương ho
+0
+0 N
+Việt Nam Đóng túi P Kg
+39
+                  
+78.000
+               
+3.042.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+171 Hòe hoa
+Uống
+Hòe hoa
+0
+0 N
+Việt Nam Túi PE hút Kg
+6
+                    
+230.000
+             
+1.380.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+172 Ngải cứu ( Uống
+Ngải cứu (
+0
+0 N
+Việt Nam Túi PE hút Kg
+6
+                    
+52.000
+               
+312.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+173 Trạch tả (TUống
+Trạch tả (T
+0
+0 N
+Việt Nam Đóng túi P Kg
+68
+                  
+80.000
+               
+5.440.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+174 Xa tiền tửUống
+Xa tiền tử
+0
+0 N
+Việt Nam Túi PE hút Kg
+6
+                    
+170.000
+             
+1.020.000
+    
+Liên danh N3
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+175 Ý dĩ
+Uống
+Ý dĩ
+0
+0 N
+Việt Nam Túi PE hút Kg
+61
+                  
+92.000
+               
+5.612.000
+    
+Liên danh N3
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+176 Mạch nha Uống
+Mạch nha 
+0
+0 N
+Việt Nam Đóng túi P Kg
+26
+                  
+42.000
+               
+1.092.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+177 Thương truUống
+Thương tru
+0
+0 B
+Trung quốcTúi PE hút Kg
+8
+                    
+510.000
+             
+4.080.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+178 Liên nhục Uống
+Liên nhục
+0
+0 N
+Việt Nam Túi PE hút Kg
+12
+                  
+95.000
+               
+1.140.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+179 Ngũ vị tử (Uống
+Ngũ vị tử (
+0
+0 N
+Việt Nam Đóng túi P Kg
+5
+                    
+388.000
+             
+1.940.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+180 Bạch thượcUống
+Bạch thược
+0
+0 B
+Trung quốcTúi PE hút Kg
+114
+                
+145.000
+             
+16.530.000
+  
+Liên danh N3
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+181 Long nhãn Uống
+Long nhãn
+0
+0 N
+Việt Nam Đóng túi P Kg
+18
+                  
+186.000
+             
+3.348.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+182 Mạch môn Uống
+Mạch môn
+0
+0 N
+Việt Nam Túi PE hút Kg
+7
+                    
+245.000
+             
+1.715.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+183 Cẩu tích
+Uống
+Cẩu tích
+0
+0 N
+Việt Nam Túi PE hút Kg
+38
+                  
+45.000
+               
+1.710.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+184 Cốt toái bổUống
+Cốt toái bổ
+0
+0 N
+Việt Nam Túi PE hút Kg
+32
+                  
+92.000
+               
+2.944.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+185 Hoài sơn (RUống
+Hoài sơn (R
+0
+0 N
+Việt Nam Đóng túi P Kg
+110
+                
+104.000
+             
+11.440.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+186 Ngũ gia bì Uống
+Ngũ gia bì 
+0
+0 N
+Việt Nam Túi PE hút Kg
+44
+                  
+52.000
+               
+2.288.000
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+187 Tế tân (RễUống
+Tế tân (Rễ5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+8
+                    
+410.000
+             
+3.280.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+188 Cúc hoa 
+(HUống
+Cúc hoa 
+(H6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+4
+                    
+512.400
+             
+2.049.600
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+189 Độc hoạt  ( Uống
+Độc hoạt  ( 6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+37
+                  
+279.300
+             
+10.334.100
+  
+Liên danh N3
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+190 Độc hoạt ( Uống
+Độc hoạt ( 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+46
+                  
+178.000
+             
+8.188.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+191 Khương hoUống
+Khương ho5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+16
+                  
+1.234.000
+          
+19.744.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+192 Phòng pho Uống
+Phòng pho 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+73
+                  
+343.000
+             
+25.039.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+193 Tần giao (RUống
+Tần giao (R5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+94
+                  
+408.000
+             
+38.352.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+194 Đinh hươn Uống
+Đinh hươn 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+6
+                    
+354.000
+             
+2.124.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+195 Kim ngân hUống
+Kim ngân h6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+1
+                    
+760.200
+             
+760.200
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+196 Huyền sâmUống
+Huyền sâm5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+9
+                    
+118.000
+             
+1.062.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+197 Tri mẫu  (TUống
+Tri mẫu  (T6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+2
+                    
+157.500
+             
+315.000
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+198 Hoàng bá (Uống
+Hoàng bá (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+2
+                    
+244.000
+             
+488.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+199 Hoàng cầmUống
+Hoàng cầm5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+12
+                  
+258.000
+             
+3.096.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+200 Mẫu đơn bUống
+Mẫu đơn b5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+22
+                  
+189.000
+             
+4.158.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+201 Thiên hoa Uống
+Thiên hoa 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+5
+                    
+108.000
+             
+540.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+202 Xích thượcUống
+Xích thược5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+25
+                  
+198.000
+             
+4.950.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+203 Cát cánh  (RUống
+Cát cánh  (R6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+2
+                    
+270.900
+             
+541.800
+       
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+204 Bạch tật lê Uống
+Bạch tật lê 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+20
+                  
+182.000
+             
+3.640.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+205 Thiên ma (Uống
+Thiên ma (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+12
+                  
+976.000
+             
+11.712.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+206 Bá tử nhânUống
+Bá tử nhân5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+13
+                  
+720.000
+             
+9.360.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+
+
+207 Phục thần Uống
+Phục thần 6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+11
+                  
+281.400
+             
+3.095.400
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+208 Táo nhân ( Uống
+Táo nhân ( 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+43
+                  
+502.000
+             
+21.586.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+209 Viễn chí (RUống
+Viễn chí (R5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+7
+                    
+886.000
+             
+6.202.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+210 Đan sâm (RUống
+Đan sâm (R5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+60
+                  
+176.000
+             
+10.560.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+211 Đào nhân (Uống
+Đào nhân (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+2
+                    
+376.000
+             
+752.000
+       
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+212 Hồng hoa (Uống
+Hồng hoa (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+5
+                    
+844.000
+             
+4.220.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+213 Xuyên khuUống
+Xuyên khu5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+12
+                  
+186.000
+             
+2.232.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+214 Bạch linh (Uống
+Bạch linh (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+58
+                  
+184.000
+             
+10.672.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+215 Ý dĩ (Hạt) Uống
+Ý dĩ (Hạt) 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+24
+                  
+88.000
+               
+2.112.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+216 Sơn thù (QUống
+Sơn thù (Q5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+30
+                  
+264.000
+             
+7.920.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+217 Bạch thượcUống
+Bạch thược5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+64
+                  
+134.000
+             
+8.576.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+218 Đương quyUống
+Đương quy5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+110
+                
+318.000
+             
+34.980.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+219 Hà thủ ô đỏUống
+Hà thủ ô đỏ5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+72
+                  
+176.000
+             
+12.672.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+220 Câu kỷ tử (Uống
+Câu kỷ tử (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+101
+                
+204.000
+             
+20.604.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+221 Đỗ trọng (VUống
+Đỗ trọng (V5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+89
+                  
+126.000
+             
+11.214.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+222 Tục đoạn  ( Uống
+Tục đoạn  ( 6560/BYT 6560/BYT B
+Trung quốcTúi PE 1 KKg
+32
+                  
+180.600
+             
+5.779.200
+    
+Liên danh N2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+223 Bạch truật Uống
+Bạch truật 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+61
+                  
+154.000
+             
+9.394.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+224 Cam thảo (Uống
+Cam thảo (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+49
+                  
+187.000
+             
+9.163.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+225 Đại táo (QuUống
+Đại táo (Qu5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+79
+                  
+72.000
+               
+5.688.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+226 Đảng sâm Uống
+Đảng sâm 5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+55
+                  
+329.000
+             
+18.095.000
+  
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+227 Hoàng kỳ (Uống
+Hoàng kỳ (5691/BYT 5691/BYT B
+Trung quốcĐóng túi P Kg
+42
+                  
+178.000
+             
+7.476.000
+    
+Công ty cổN2
+G5
+G5
+BVĐK tỉnhNinh Bình 1218/QĐ-B12042022
+228 Táo nhân Uống
+Sao đTáo nhân  VCT-0015VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+400
+                
+739.200
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+229 Bạch linh (Uống
+Gọt v Bạch linh (VCT-0015 VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+600
+                
+319.200
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+230 Bạch thượcUống
+Thái pBạch thượcVCT-0014 VCT-0014 CTCP ĐônViệt Nam Túi nilong Kg
+900
+                
+247.800
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+231 Câu kỷ tử Uống
+Dùng Câu kỷ tử  VCT-0015VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+400
+                
+409.500
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+232 Cam thảo Uống
+Thái pCam thảo  VCT-0015VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+350
+                
+304.500
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+233 Đại táo (QuUống
+Dùng Đại táo (QuVCT-0015 VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+460
+                
+178.500
+             
+82.110.000
+  
+CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+234 Hoài sơn Uống
+Sao c Hoài sơn VCT-0015 VCT-0015 CTCP ĐônViệt Nam Túi nilong Kg
+400
+                
+149.100
+             
+59.640.000
+  
+CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+235 Đương quyUống
+Trích Đương quyVCT-0025 VCT-0025 CTCP ĐônViệt Nam Túi nilong Kg
+800
+                
+768.600
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022
+236 Đảng sâm Uống
+Trích Đảng sâm  VCT-0014VCT-0014 CTCP ĐônViệt Nam Túi nilong Kg
+720
+                
+598.500
+             
+######### CTCP ĐônN2
+G5
+G5
+BV Y học Ninh Bình 409/QĐ-Y 19102022

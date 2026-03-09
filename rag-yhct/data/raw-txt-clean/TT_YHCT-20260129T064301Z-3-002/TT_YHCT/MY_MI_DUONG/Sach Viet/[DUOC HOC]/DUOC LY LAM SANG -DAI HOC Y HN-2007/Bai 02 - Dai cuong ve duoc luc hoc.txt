@@ -1,0 +1,505 @@
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 2: đại cương về Dược lực học
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1.
+Trình bày được cơ chế tác dụng của thuốc qua recep tor và không qua recep tor.
+2.
+Phân biệt được các cách tác dụng của thuốc.
+3.
+Trình bày được những yếu tố thuộc về bản thân thuốc quyết định tác dụng của thuốc (lý
+hóa, cấu trúc, dạng bào chế).
+4.
+Nêu được những yếu tố chính về phía người bệnh có ảnh hưởng đến tác d ụng của thuốc
+(tuổi, quen thuốc).
+5.
+Trình bày được 5 trạng thái tác dụng đặc biệt của thuốc.
+Dược lực học nghiên cứu tác dụng của thuốc lên cơ thể sống, giải thích cơ chế của các tác dụng
+sinh hóa và sinh lý của thuốc. Phân tích càng đầy đủ được các tác dụng, càng cung cấp được
+những cơ sở cho việc dùng thuốc hợp lý trong điều trị. Đây là nhiệm vụ cơ bản nhất và cũng là
+khó khăn lớn nhất của dược lực học.
+1. Cơ chế tác dụng của thuốc
+1.1.
+Recep tor
+- Tác dụng của phần lớn các thuốc là kết quả của sự tương tác giữa thuốc với recep tor (thể thụ
+cảm). Recep tor là một thành phần đại phân tử (mac romo lé cular) tồn tại với một l ượng giới hạn
+trong một số tế bào đích, có thể nhận biết một cách đặc hiệu chỉ một phân tử "thông tin" tự nhiên
+(hormon, chất dẫn truyền thần kinh), hoặc một tác nhân ngoại lai (chất hóa học, thuốc) để gây
+ra một tác dụng sinh học đặc hiệu, là kết quả của tác dụng tương hỗ đó.
+Thành phần đại phân tử của recep tor thường là protein vì chỉ có protein mới có cấu trúc phức tạp
+để nhận biết đặc hiệu của một phân tử có cấu trúc 3 chiều.
+Recep tor có 2 chức phận:
+1) Nhận biết các phân tử thông tin (hay còn gọi là ligand) bằng sự gắn đặc hiệu các phân tử này
+vào recep tor theo các liên kết hóa học:
+- Liên kết ion: các chất hóa học mang điện tích (như nhóm amoni bậc 4 cuả acetylcholin có điện
+tích dương), sĩ gắn vào vùng mang điện tích trái dấu của recep tor theo liên kết này, với lực liên
+kết khoảng 5- 10 kcal/ mol.
+- Liên kết hydro: do sự phân bố không đồng đều elec tron trong phân tử nên có mối liên kết giữa
+nguyên tử hydro với các nguyên tử có điện tích âm cao như oxy, ni tơ và fluor. Lực liên kết
+khoảng 2- 5 kcal/ mol
+- Liên kết Van- der- Waals: là lực liên kết của mối tương hỗ giữa các elec tron với các nhân của
+các phân tử sát bên. Lực liên kết phụ thuộc vào khoảng cách giữa các phân tử, lực này tương đối
+yếu, khoảng 0,5 kcal/ mol. Các thuốc có vòng ben zen, có mật độ elec tron phân bố đồng đều
+thường có mối liên kết này.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Các lực liên kết trên đều là thuận nghịch.
+- Liên kết cộng hóa trị: là lực liên kết giữa các nguyên tử bằng những cặp điện tử chung. Vì là lực
+liên kết lớn 50- 150 kcal/ mol nên là liên kết không thuận nghịch ở nhiệt độ cơ thể, không có chất
+xúc tác. Loại liên kết này ít gặp. Thí dụ liên kết giữa chất alkyl hóa với tế bào ung thư, các thuốc
+ức chế en zym mono- amin oxydase (MAOI), thuốc trừ sâu lân hữu cơ với cholinesterase.
+Một phân tử thuốc có thể gắn vào recep tor theo nhiều kiểu liên kết. Thí dụ: acetylcholin gắn vào
+recep tor M- cholinergic:
+Hình 2.1. Phức hợp acetylcholin- recep tor M
+Acetylcholin gắn vào recep tor M theo đường nối sau:
+-
+Hai O của chức ester tạo liên kết hydro với recep tor
+-
+Nhóm CH2- CH2 gắn với recep tor bằng liên kết phân tử (lực Van - der- Waals)
+-
+Hai gốc CH3 của amin bậc 4 gắn vào các khoang của vị trí anion cũng bằng lực
+Van- der- Waals
+2) Chuyển tác dụng tương hỗ giữa ligand và recep tor thành một tín hiệu để gây ra được đáp ứng
+tế bào. Các recep tor nằm ở nhân tế bào được hoạt hóa bởi các ligand gắn trên các vị trí đặc hiệu
+của ADN nằm trong các vùng điều hòa gen, gây ra sự sao chép các gen đặc hiệu (recep tor của
+hormon steroid, vitamin D 3...). Các recep tor nằm ở màng tế bào vì ở xa nhân nên không tham gia
+trực tiếp vào các chương trình biểu hiện của gen. Khi các ligand tác động lên recep tor sĩ làm sản
+xuất ra các phân tử trung gian- "người truyền tin thứ 2" (AMPv, GMPv, IP 3, Ca2+, diacetyl
+glycerol...)- Những chất này sĩ gây ra một loạt phản ứng trong tế bào, dẫn tới một thay đổi
+chuyển hóa trong tế bào, cùng với hoặc không có sự thay đổi về biểu hiện gen (recep tor của
+adrenalin, của ben zodiazepin...).
+Như vậy, khi thuốc gắn vào recep tor của tế bào thì gây ra được tác dụng sinh lý. Nhưng có khi
+thuốc gắn vào tế bào mà không gây ra tác dụng gì, nơi gắn thuốc được gọi là nơi tiếp nhận
+(ac cep tor) hoặc recep tor câm, (silent recep tor) như thuốc mê gắn vào tế bào mì, digitalis gắn vào
+gan, phổi, thận...
+Thuốc gắn vào recep tor phụ thuộc vào ái lực (affinity) của thuốc với recep tor. Hai thuốc có cùng
+recep tor, thuốc nào có ái lực cao hơn sĩ đẩy được thuốc khác ra. Còn tác dụng của thuốc là do
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+hiệu lực (efficacy) của thuốc trên recep tor đó. ái lực và hiệu lực không phải lúc nào cũng đi cùng
+nhau: acetylcholin là chất dẫn truyền thần kinh của hệ phó giao cảm, khi gắn vào recep tor M, gây
+hiệu lực làm tăng tiết nước bọt, co đồng tử, chậm nhịp tim...; at ropin có ái lực trên recep tor M
+mạnh hơn acetylcholin rất nhiều nên đẩy được acetylcholin ra khỏ i recep tor M, nhưng bản thân
+nó lại không có hiệu lực gì. ở lâm sàng, tác dụng của at ropin quan sát được chính là tác dụng của
+sự thiếu vắng acetylcholin trên recep tor M: khô miệng (giảm tiết nước bọt), giãn đồng tử, nhịp
+tim nhanh...
+1.2.
+Các cơ chế tác dụng của thuốc
+1.2.1. Tác dụng của thuốc thông qua recep tor
+Thuốc tác dụng trực tiếp trên các recep tor của các chất nội sinh (hormon, chất dẫn truyền thần
+kinh): nhiều thuốc tác dụng trên các recep tor sinh lý và thường mang tính đặc hiệu. Nếu tác dụng
+của thuốc lên recep tor giống với chất nội sinh, gọi là chất đồng vận hay chất chủ vận (agonists),
+như pilocarpin trên recep tor M- cholinergic. Nếu thuốc gắn vào recep tor, không gây tác dụng
+giống chất nội sinh, trái lại, ngăn cản chất nội sinh gắn vào recep tor, gây tác dụn g ức chế chất
+đồng vận, được gọi là chất đối kháng (an tagonists), như d- tubocurarin tranh chấp với
+acetylcholin tại recep tor N của cơ vân.
+- Một số thuốc thông qua việc giải phóng các chất nội sinh trong cơ thể để gây tác dụng:
+am phetamin giải phóng adrenalin trên thần kinh trung ương, nit rit làm giải phóng NO gây giãn
+mạch...
+Xét trên nhiều mặt, protein là một nhóm quan trọng của recep tor - thuốc. Do đó, ngoài recep tor tế
+bào, các recep tor của thuốc còn là:
+- Các en zym chuyển hóa hoặc điều hòa các quá trìn h sinh hóa có thể bị thuốc ức chế hoặc hoạt
+hóa:
+. Thuốc ức chế en zym: cap top ril ức chế en zym chuyển an gioten sin I không hoạt tính thành
+an gioten sin II có hoạt tính dùng chữa cao huyết áp; các thuốc chống viêm phi steroid ức chế
+cyc looxygenase, làm giảm tổng hợp prostaglan din nên có tác dụng hạ sốt, chống viêm; thuốc trợ
+tim digitalis ức chế Na +- K+ AT Pase...
+. Thuốc hoạt hóa en zym: các yếu tố vi lượng như Mg 2+, Cu2+, Zn2+ hoạt hóa nhiều en zym protein
+kinase, phosphokinase tác dụng lên nhiều quá trình chuy ển hóa của tế bào.
+- Các ion: thuốc gắn vào các kênh ion, làm thay đổi sự vận chuyển ion qua màng tế bào.
+Novocain cản trở Na+ nhập vào tế bào thần kinh, ngăn cản khử cực nên có tác dụng gây tê;
+ben zodiazepin làm tăng nhập Cl - vào tế bào, gây an thần.
+1.2.2. Tác dụng của thuốc không qua recep tor
+Một số thuốc có tác dụng không phải do kết hợp với recep tor.
+- Thuốc có tác dụng do tính chất lý hóa, không đặc hiệu:
+Các muối chứa các ion khó hấp thu qua màng sinh học như Mg SO 4, khi uống sĩ "gọi nước" ở
+thành ruột vào lòng ruột và giữ nước trong lòng ruột nên có tác dụng tẩy; khi tiêm vào tĩnh mạch
+sĩ kéo nước từ gian bào vào máu nên được dùng chữa phù não.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Isosorbid, man nitol dùng liều tương đối cao, làm tăng áp lực thẩm thấu trong huyết tương. Khi
+lọc qua cầu thận, không bị tái hấp thu ở ống thận, làm tăng áp lực thẩm thấu trong ống thận, có
+tác dụng lợi niệu.
+Những chất tạo chelat hay còn gọi là chất "càng cua" do có các nhóm có cực như -OH, -SH, -
+NH2, dễ tạo phức với các ion hóa trị 2, đẩy chúng ra khỏi cơ thể. Các c hất "càng cua" như EDTA
+(et hyl diamin tet ra acetic acid), BAL (British an ti lewisit - dimercap rol), d- penicilamin thường
+được dùng để chữa ngộ độc kim loại nặng như Cu 2+, Pb2+, Hg2+ hoặc thải trừ Ca2+ trong ngộ độc
+digital.
+Than hoạt hấp phụ được các hơi, các độc tố nên dùng chữa đầy hơi, ngộ độc.
+Các base yếu làm trung hòa dịch vị acid dùng để chữa loét dạ dày (kháng acid), như hydroxyd
+nhôm, magnesi oxyd.
+- Thuốc có cấu trúc tương tự như những chất sinh hóa bình thường, có thể thâm nhập vào các
+thành phần cấu trúc của tế bào, làm thay đổi chức phận của tế bào. Thuốc giống purin, giống
+pyrimidin, nhập vào acid nuc leic, dùng chống ung thư, chống virus. Sulfamid gần giống
+paraamino ben zoic acid (PABA), làm vi khuẩn dùng "nhầm", không phát triển được.
+2. Các cách tác dụng của thuốc
+Khi vào cơ thể, thuốc có thể có 4 cách tác dụng sau:
+2.1.
+Tác dụng tại chỗ và toàn thân:
+- Tác dụng tại chỗ là tác dụng ngay tại nơi thuốc tiếp xúc, khi thuốc chưa được hấp thu vào máu:
+thuốc sát khuẩn ngoài da, thuốc làm săn niêm mạc (tani n), thuốc bọc niêm mạc đường tiêu hóa
+(kaolin, hydroxyd nhôm).
+- Tác dụng toàn thân là tác dụng xẩy ra sau khi thuốc đã được hấp thu vào máu qua đường hô
+hấp, đường tiêu hóa hay đường tiêm: thuốc mê, thuốc trợ tim, thuốc lợi niệu. Như vậy, tác dụng
+toàn thân không có nghĩa là thuốc tác dụng khắp cơ thể mà chỉ là thuốc đã vào máu để "đi" khắp
+cơ thể.
+Tác dụng tại chỗ hoặc toàn thân có thể gây hiệu quả trực tiếp hoặc gián tiếp: tiêm d -
+tubocurarin vào tĩnh mạch, thuốc trực tiếp tác dụng lên bản vận động làm liệt cơ vân và gián tiếp
+làm ngừng thở do cơ hoành và cơ liên sườn bị liệt chứ không phải thuốc ức chế trung tâm hô hấp.
+Mặt khác, tác dụng gián tiếp còn có thể thông qua phản xạ: khi ngất, ngửi am moniac, các ngọn
+dây thần kinh trong niêm mạc đường hô hấp bị kích thích, gây phản xạ kích thích trung tâm hô
+hấp và vận mạch ở hành tủy, làm người bệnh hồi tỉnh.
+2.2.
+Tác dụng chính và tác dụng phụ
+- Tác dụng chính là tác dụng để điều trị
+- Ngoài tác dụng điều trị, thuốc có thể còn gây nhiều tác dụng khác, không có ý nghĩa trong điều
+trị, được gọi là tác dụng không mong muốn, tác dụng dụng ngoại ý (adverse drug reac tions -
+ADR). Các tác dụng ngoại ý có thể chỉ gây khó chịu cho người dùng (chóng mặt, buồn nôn, mất
+ngủ), gọi là tác dụng phụ; nhưng cũng có thể gây phả n ứng độc hại (ngay với liều điều trị) như
+xuất huyết tiêu hóa, giảm bạch cầu, tụt huyết áp thế đứng...
+Thí dụ: aspirin là thuốc hạ sốt, giảm đau, chống viêm (tác dụng chính), nhưng gây chảy máu tiêu
+hóa (tác dụng độc hại). Nifedipin, thuốc chẹn kênh calci dùng điều trị tăng huyết áp (tác dụng
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+chính), nhưng có thể gây nhức đầu, nhịp tim nhanh (tác dụng phụ), ho, phù chân, tăng en zym
+gan, tụt huyết áp (tác dụng độc hại).
+Trong điều trị, thường phối hợp thuốc để làm tăng tác dụng chính và giảm tác dụng không mong
+muốn. Thí dụ uống thuốc chẹn giao cảm cùng với nifedipin sĩ làm giảm được tác dụng làm
+tăng nhịp tim, nhức đầu của nifedipin. Cũng có thể thay đổi đường dùng thuốc như dùng thuốc
+đặt hậu môn để tránh tác dụng khó uống, gây buồn nôn.
+2.3.
+Tác dụng hồi phục và không hồi phục
+- Tác dụng hồi phục: sau tác dụng, thuốc bị thải trừ, chức phận của cơ quan lại trở về bình
+thường. Sau gây mê để phẫu thuật, người bệnh lại có trạng thái bình thường, tỉnh táo.
+- Tác dụng không hồi phục: thuốc làm mất hoàn toàn chức ph ận của tế bào, cơ quan. Thí dụ:
+thuốc chống ung thư diệt tế bào ung thư, bảo vệ tế bào lành; thuốc sát khuẩn bôi ngoài da diệt vi
+khuẩn nhưng không ảnh hưởng đến da; kháng sinh cloram phenicol có tai biến gây suy tủy xương.
+2.4.
+Tác dụng chọn lọc
+Tác dụng chọn lọc là tác dụng điều trị xẩy ra sớm nhất, rõ rệt nhất. Thí dụ aspirin uống liều 1 - 2
+g/ ngày có tác dụng hạ sốt và giảm đau, uống liều 4 - 6 g/ ngày có cả tác dụng chống viêm;
+digitalis gắn vào tim, não, gan, thận... nhưng với liều điều trị, chỉ có tác dụng trên tim; albuterol
+(Salbutamol- Ven tolin) kích thích chọn lọc recep tor 2 adrenergic...
+Thuốc có tác dụng chọn lọc làm cho việc điều trị trở nên dễ dàng hơn, hiệu quả hơn, tránh được
+nhiều tác dụng không mong muốn.
+3. Những yếu tố ảnh huởng đến tác dụng của thuốc:
+3.1.
+Về thuốc
+3.1.1. Thay đổi cấu trúc làm thay đổi dược lực học của thuốc.
+Như ta đã biết, thuốc muốn có tác dụng, phải gắn được vào recep tor (ái lực với recep tor) và sau
+đó là hoạt hóa được recep tor đó (có hiệu lực hay tác dụng dược lý). Recep tor mang tính đặ c hiệu
+cho nên thuốc cũng phải có cấu trúc đặc hiệu. Recep tor được ví như ổ khóa và thuốc là chìa khóa.
+Một sự thay đổi nhỏ về cấu trúc hóa học (hình dáng phân tử của thuốc) cũng có thể gây ra những
+thay đổi lớn về tác dụng.
+Như vậy việc tổng hợp các thuốc mới thường nhằm:
+- Làm tăng tác dụng điều trị và giảm tác dụng không mong muốn. Khi thêm F vào vị trí 9 và CH 3
+vào vị trí 16 của corticoid (hormon vỏ thượng thận), ta được betametason có tác dụng chống viêm
+gấp 25 lần và không có tác dụng giữ Na + như corticoid, tránh phải ăn nhạt.
+- Làm thay đổi tác dụng dược lý: thay đổi cấu trúc của isoniazid (thuốc chống lao), ta được
+ip roniazid, có tác dụng chống trầm cảm, do gắn vào recep tor hoàn toàn khác.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Sulfanilamid
+PABA (para amino ben zoic acid)
+Kháng histamin H1 có công thức gần giống với histamin, tranh chấp với histamin tại recep tor H 1.
+- Các đồng phân quang học hoặc đồng phân hình học của thuốc cũng làm thay đổi cường độ tác
+dụng, hoặc làm thay đổi hoàn toàn tác dụng của thuốc.
+l. isop renalin có tác dụng kích thích recep tor adrenergic 500 lần mạnh hơn d. isop renalin.
+l. quinin là thuốc chữa sốt rét, d. quinin (quinidin) là thuốc chữa loạn nhịp tim.
+- Càng ngày người ta càng hiểu rõ được siêu cấu trúc của recep tor và sản xuất các thuốc rất đặc
+hiệu, gắn được vào dưới typ của recep tor: recep tor adrenergic 1, 2, 1, 2, 3, recep tor
+cholinergic M1, M2, M3, recep tor dopaminergic D 1, D2, ... D7.
+3.1.2. Thay đổi cấu trúc thuốc, làm thay đổi dược động học của thuốc
+Khi cấu trúc của thuốc thay đổi, làm tính chất lý hóa của thuốc thay đổi, ảnh hưởng đến sự hòa
+tan của thuốc trong nước hoặc trong lipid, ảnh hưởng đến sự gắn thuốc vào protein, độ ion hóa
+của thuốc và tính vững bền của thuốc. Một số ví dụ:
+- Dopamin không qua được hàng rào máu não, nhưng l. dopamin (Levo dopa), chất tiền thân của
+dopamin thì qua được.
+- Estradiol thiên nhiên không uống được vì bị chuyển hóa mạnh ở gan. dẫn xuất et hinyl estradiol
+(-C CH gắn ở vị trí 17) rất ít bị chuyển hóa nên uống được.
+- Tolbutamid bị mic rosom gan oxy hóa gốc CH 3 ở vị trí para, có t/2 huyết tương là 4- 8 h. Thay
+gốc CH3 bằng Cl (Clorpropamid) sĩ rất khó bị chuyển hóa, làm t/2 của thuốc kéo dài tới 35 h.
+- Các thiobarbituric ít bị phân ly hơn barbituric ở p H của ống thận nên bị thải trừ chậm hơn.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Qua đây ta có thể nhận thấy rằng, khi thuốc gắn vào recep tor để gây hiệu lực, không phải toàn bộ
+phân tử thuốc mà chỉ có những nhóm chức phận gắn vào recep tor. Khi thay đổi cấu trúc của
+nhóm hoặc vùng chức phận, dược lực học của thuốc sĩ thay đổi. Còn khi thay đổi cấu trúc ở
+ngoài vùng chức phận, có thể thay đổi dược động học của thuốc.
+3.2. Dạng thuốc
+Dạng thuốc là hình thức trình bày đặc biệt của dược chất để đưa dược chất vào cơ thể. Dạng thuốc
+phải được bào chế sao cho tiện bảo quản, vận chuyển, sử dụng và phát huy tối đa hiệu lực chữa
+bệnh của thuốc.
+Có thể tóm tắt quá trình hình thành và phát huy tác dụng của một dạng thuốc trong cơ thể như
+sau:
+Dược chất
+Kü thuật bào chế
+Đường dùng thuốc
+Dạng thuốc
+Tá dược
+Dạng thuốc
+Giải phóng dược
+Dược chất
+tới nơi
+Hiệu quả
+trong cơ thể
+vào máu
+điều trị
+chất và hấp thu (sinh khả dụng)
+tác dụng
+Qua sơ đồ, ta thấy từ 1 dược chất, các nhà bào chế có thể đưa ra thị trường nhiều loại biệt dược
+(dạng thuốc) khác nhau, có sinh khả dụng khác nhau do đó có ảnh hưởng khác nhau tới hiệu quả
+điều trị.
+3.2.1. Trạng thái của dược chất
+- Độ tán nhỏ: thuốc càng mịn, diện tiếp xúc càng tăng, hấp thu thuốc càng nhanh.
+- Dạng vô định hình và dạng tinh thể: thuốc rắn ở dạng vô định hình dễ tan, dễ hấp thu.
+3.2.2. Tá dược
+Tá dược không phải chỉ là "chất độn" để bao gói thuốc mà còn ảnh hưởng đến độ hòa tan, khuếch
+tán... của thuốc. Khi thay calci sulfat (thạch cao, tá dược cổ điển) bằng lac tose để dập viên
+dip henylhydan toin, đã gây hàng loạt ngộ độc dip henylhydan toin do lượng thuốc được hấp thu
+nhiều hơn (úc, 1968). Nguyên nhân là tá dược calci sulfat chỉ đóng vai trò một khung mang,
+không tiêu và xốp, làm dược chất được giải phóng từ từ trong ống tiêu hóa. Còn lac tose lại làm
+dược chất dễ tan, nên được hấp thu nhanh trong thời gian ngắn.
+3.2.3. Kü thuật bào chế và dạng thuốc
+Kü thuật bào chế là một yếu tố không kém phần quan trọng có tác động trực tiếp đến sinh khả
+dụng của thuốc, có thể kiểm soát được sự giải phóng dược chất và vị trí để thuốc giải phóng ( giải
+phóng tại đích). Vì vậy nó thường được các nhà sản xuất giữ bí mật.
+Hiện có rất nhiều dạng thuốc khác nhau được sản xuất theo các kü thuật khác nhau để sao cho:
+- Hoạt tính của thuốc được vững bền
+- Dược chất được giải phóng với tốc độ ổn định
+- Dược chất được giải phóng tại nơi cần tác động (giải phóng tại đích, target ting medication)
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Thuốc có sinh khả dụng cao.
+3.3.
+Về người dùng thuốc
+3.3.1. Đặc điểm về tuổi (xin xem phần "dược động học")
+3.3.1.1. Trẻ em:
+"Trẻ em không phải là người lớn thu nhỏ lại", nghĩa là không phải chỉ giảm liều thuốc của người
+lớn thì thành liều của trẻ em, mà trẻ em còn có những đặc điểm riêng của sự phát triển, đó là:
+- Sự gắn thuốc vào protein huyết tương còn ít, mặt khác, một phần protein huyết tương còn gắn
+bilirubin, dễ bị thuốc đẩy ra, gây ngộ độc bilirubin.
+- Hệ en zym chuyển hóa thuốc chưa phát triển
+- Hệ thải trừ thuốc chưa phát triển
+- Hệ thần kinh chưa phát triển, myelin còn ít, hàng rào máu - não chưa đủ bảo vệ nên thuốc dễ
+thấm qua và tế bào thần kinh còn dễ nhạy cảm (như với morphin)
+- Tế bào chứa nhiều nước, không chịu được thuốc gây mất nước.
+- Mọi mô và cơ quan đang phát triển, hết sức thận trọng khi dùng các loại hormon.
+Một số tác giả đã đưa ra các công thức để tính liều lượng cho trẻ em:
+1. Công thức của Young: dùng cho trẻ từ 2- 12 tuổi
+Tuổi TE
+Liều người lớn
+Tuổi TE + 12
+2. Công thức của Cowling: Dùng cho trẻ em từ 2 - 12 tuổi
+Tuổi TE + 1
+Liều người lớn
+24
+Thí dụ: liều cho người lớn là 2,0. Liều cho trẻ 4 tuổi là
+4 + 1
+2,0 g = 0,41 g
+24
+3. Công thức của Fried: dùng cho nhũ nhi
+Tuổi TE (tháng)
+Liều người lớn
+150 (Trọng lượng trung bình của người lớn)
+4. Công thức của Clark
+Trọng lượng TE (pounds)
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Liều người lớn
+150
+Tuy nhiên tính liều theo diện tích cơ thể thì tốt hơn. Khi đó dùng công thức:
+BSA (m2) của trẻ em
+Liều người lớn
+1.7
+BSA: Body Surface Area-Diện tích cơ thể (tra monogram)
+1.7: BSA trung bình của người lớn
+3.3.1.2. Người cao tuổi
+Người cao tuổi cũng có những đặc điểm riêng cần lưu ý:
+- Các hệ en zym đều kém hoạt động vì đã "lão hóa"
+- Các tế bào ít giữ nước nên cũng không chịu được thuốc gây mất n ước
+- Người cao tuổi thường mắc nhiều bệnh (cao huyết áp, xơ vữa mạch, thấp khớp, tiểu đường...)
+nên phải dùng nhiều thuốc một lức. Cần rất chú ý tương tác thuốc khi kê đơn (xin xem phần
+"tương tác thuốc")
+3.3.2. Đặc điểm về giới
+Nhìn chung, không có sự khác biệt về tác dụng và liều lượng của thuốc giữa nam và nữ. Tuy
+nhiên, với nữ giới, cần chú ý đến 3 thời kỵ:
+3.3.2.1. Thời kỵ có kinh nguyệt
+Không cấm h¼n thuốc. Nếu phải dùng thuốc dài ngày, có từng đợt ngừng thuốc thì nên sắp xếp
+vào lúc có kinh.
+3.3.2.2. Thời kỵ có thai
+Trong 3 tháng đầu, thuốc dễ gây dị tật bẩm sinh, tạo ra quái thai. Trong 3 tháng giữa thuốc có thể
+ảnh hưởng xấu đến sự phát triển của bào thai, đến chức phận phát triển của các cơ quan. Trong 3
+tháng cuối, thuốc có thể gây xảy thai, đẻ n on.
+Vì vậy, khi cần chỉ định thuốc cho phụ nữ có thai, cần cân nhắc thật kü giữa lợi ích cho người mẹ
+và mức nguy hại cho bào thai. Nói chung, trong 3 tháng đầu, tuyệt đối tránh dùng mọi loại thuốc.
+Đối với người mẹ, khi có thai, lượng nước giữ lại trong c ơ thể tăng, thể tích máu tăng, hàm lượng
+protein huyết tương có thể giảm, lượng lipid có thể tăng... làm ảnh hưởng đến động học của
+thuốc.
+3.3.2.3. Thời kỵ cho con bú
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Rất nhiều thuốc khi dùng cho người mẹ sĩ thải trừ qua sữa và như vậy có thể gây độc hại c ho con.
+Các nghiên cứu về các loại thuốc này nói chung còn chưa được đầy đủ, do đó tốt nhất là chỉ nên
+dùng những loại thuốc thật cần thiết cho mẹ. Tuyệt đối không dùng những thuốc có chứa thuốc
+phiện và dẫn xuất của thuốc phiện (thuốc ho, codein, viên rửa ) vì thuốc thải trừ qua sữa và trung
+tâm hô hấp của trẻ rất nhạy cảm, có thể bị ngừng thở. Không dùng các loại corticoid (làm suy
+thượng thận trẻ), các kháng giáp trạng tổng hợp và iod (gây rối loạn tuyến giáp), cloram phenicol
+và thuốc phối hợp sulfametoxazol + trimet hop rim (Co- trimoxazol) vì có thể gây suy tuỷ xương.
+Cần rất thận trọng khi dùng các thuốc ức chế thần kinh trung ương (mep robamat, diazepam),
+thuốc chống động kinh, đều gây mơ màng và li bì cho trẻ.
+4. Những trạng thái tác dụng đặc biệt của th uốc
+Trong quá trình sử dụng thuốc, ngoài tác dụng điều trị, đôi khi còn gặp những tác dụng "không
+mong muốn" do sự phản ứng khác nhau của từng cá thể với thuốc.
+4.1.
+Phản ứng có hại của thuốc (Adverse drug reac tions - ADR)
+"Một phản ứng có hại của thuốc là một p hản ứng độc hại, không định được trước và xuất hiện ở
+liều lượng thường dùng cho người" (Định nghĩa của Chương trình giám sát thuốc quốc tế - WHO).
+ADR là tên gọi chung cho mọi triệu chứng bất thường xẩy ra khi dùng thuốc đúng liều. Có thể
+chỉ là những triệu chứng rất nhẹ như nhức đầu, buồn nôn... cho đến những triệu chứng rất nặng
+dẫn đến tử vong như sốc, phản vệ, suy tuỷ xương. Tuỵ theo nước và tuỵ theo tác giả, ADR có thể
+xẩy ra khoảng 8- 30% số người dùng thuốc.
+4.2.
+Phản ứng dị ứng
+Dị ứng thuốc cũng là 1 ADR.
+Do thuốc là 1 protein lạ (in sulin, thyroxin lấy từ súc vật), là đa pep tid, polysac charid có phân tử
+lượng cao, mang tính kháng nguyên. Tuy nhiên, những thuốc có phân tử lượng thấp hoặc chính
+sản phẩm chuyển hóa của nó cũng có thể gây dị ứng, chúng được gọi là bán kháng nguyên hay
+"hap ten". Vào cơ thể, hap ten có khả năng gắn với một protein nội sinh theo đường nối cộng hóa
+trị và tạo thành phức hợp kháng nguyên.
+Những thuốc có mang nhóm NH 2 ở vị trí para, như ben zocain, procain, sulfonamid,
+sulfonylurea... là những thuốc dễ gây mẫn cảm vì nhóm NH 2 dễ bị oxy hóa và sản phẩm oxy hóa
+đó sĩ dễ gắn với nhóm SH của protein nội sinh để thành kháng nguyên.
+Phản ứng miễn dịch dị ứng được chia thành 4 typ dựa trên cơ sở của cơ chế miễn dịch:
+- Typ I hay phản ứng phản vệ (anap hylac tic reac tions) do sự kết hợp của kháng nguyên với kháng
+thể Ig E, gắn trên bạch cầu ưa base tuần hoàn hoặc các dưìng bào. Phản ứng làm giải phóng nhiều
+chất hóa học trung gian như histamin, leucot rien, prostaglan din, gây giãn mạch, phù và vi êm. Các
+cơ quan đích của phản ứng này là đường tiêu hóa (dị ứng thức ăn), da (mày đay, viêm da dị ứng),
+đường hô hấp (viêm mũi, hen) và hệ tim - mạch (sốc phản vệ)
+Các phản ứng này thường xẩy ra ngay sau khi dùng thuốc.
+Các thuốc dễ gây phản ứng typ I: thuố c tê procain, lidocain, kháng sinh nhóm lac tam,
+aminoglycosid, huyết thanh, globulin, vac cin, vitamin B 1 tiêm tĩnh mạch.
+- Typ II hay phản ứng huỷ tế bào (cytolytic reac tions) xẩy ra khi có sự kết hợp kháng nguyên với
+kháng thể Ig G và Ig M đồng thời có sự hoạt hóa hệ bổ thể. Mô đích của phản ứng này là các tế
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+bào của hệ tuần hoàn. Thí dụ: thiếu máu tan máu do penicilin, thiếu máu tan máu tự miễn do
+met hyl dopa, ban xuất huyết giảm tiểu cầu do quinidin, giảm bạch cầu hạt do sulfamid, luput ban
+đỏ hệ thống do procainamid.
+- Typ III hay phản ứng Arthus, trung gian chủ yếu qua Ig G có sự tham gia của bổ thể. Phản ứng
+giữa kháng nguyên và kháng thể tạo thành phức hợp miễn dịch. Phức hợp này lắng đọng vào nội
+mạc mạch, gây tổn thương viêm huỷ hoại, được gọi là bệnh huyết thanh. Biểu hiện lâm sàng
+thường là: mày đay, ban đỏ, đau, viêm khớp, nổi hạch, sốt. Thường xẩy ra sau 6 - 12 ngày.
+Các thuốc có thể gặp là sulfonamid, penicilin, một số thuốc chống co giật, iod, muối Hg, huyết
+thanh.
+Hội chứng Stevens- Johnson là biểu hiện nặng của typ này.
+- Typ IV hay phản ứng nhạy cảm muộn, trung gian qua tế bào lym pho T đã được mẫn cảm và đại
+thực bào. Khi các tế bào mẫn cảm tiếp xúc với kháng nguyên, sĩ giải phóng các lym phokin gây
+ra phản ứng viêm. Viêm da tiếp xúc là biểu hiện thường gặp của typ này.
+Các phản ứng dị ứng thuốc không liên quan đến liều lượng thuốc dùng, số lần dùng và thường có
+dị ứng chéo. Vì vậy cần hỏi tiền sử dị ứng của bệnh nhân trước khi dùng thuốc. Với những thuốc
+hay gây dị ứng (penicilin, lidocain,.. .) khi dùng, phải có s½n thuốc và phương tiện cấp cứu
+(adrenalin). Sốc phản vệ có thể xẩy ra do đường dùng thuốc khác nhau: vitamin B 1 dạng tiêm tĩnh
+mạch có thể gây sốc chết người, trong khi dạng uống không gây phản ứng này.
+4.3.
+Tai biến thuốc do rối loạn di truyền
+Thường là do thiếu en zym bẩm sinh, mang tính di truyền trong gia đình hay chủng tộc.
+Người thiếu en zym glucose- 6- phosphat deshydrogenase (G-6-PD) hoặc glutat hion reduc tase dễ
+bị thiếu máu tan máu khi dùng primaquin, quinin, pamaquin (xin xem bài " Thuốc chống sốt rét"),
+sulfamid, nit rofuran...
+Gen kiểm tra việc tạo G- 6-PD nằm trên chromosom X, vì vậy, tai biến thường xảy ra ở nam.
+Người ta ước lượng có khoảng 100- 200 triệu người mang gen này và thường gặp trên người da
+đen.
+Người thiếu en zym met hemoglobin reduc tase là những người dị hợp tử (khoảng 1% dân số). Khi
+dùng thuốc sốt rét (pamaquin, primaquin), thuốc kháng sinh, sát khuẩn (cloram phenicol, sulfon,
+nit rofuran toin), thuốc hạ sốt (phenazol, paracetamol) rất dễ bị met hemoglobin.
+Người thiếu acetyl tran sferase sĩ chậm acetyl hóa một số thuốc như hydralazin, isoniazid,
+phenelzin... nên dễ bị nhiễm độc các thuốc này.
+Hiện tượng đặc ứng (idiosyn crasy) là độ nhạy cảm cá nhân bẩm sinh với thuốc chính là sự thiếu
+hụt di truyền 1 en zym nào đó.
+4.4.
+Quen thuốc
+Quen thuốc là sự đáp ứng với thuốc yếu hơn h¼n so với người bình thường dùng cùng liều. Liều
+điều trị trở thành không có tác dụng, đòi hỏi ngày càng phải tăng liều cao hơn.
+Quen thuốc có thể xảy ra tự nhiên ngay từ lần đầu dùng thuốc do thuốc ít được hấp thu, hoặc bị
+chuyển hóa nhanh, hoặc cơ thể kém mẫn cảm với thuốc. Thường do nguyên nhân di truyền.
+Thường gặp quen thuốc do mắc phải sau một thời gian dùng thuốc, đòi hỏi phải tăng dần liều.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+4.4.1. Quen thuốc nhanh (t AC hyp hylaxis)
+Thực nghiệm dùng những liều ep hedrin bằng nhau, tiêm tĩnh mạch cách nhau từng 15 phút, sau
+4- 6 lần, tác dụng gây tăng huyết áp giảm dần rồi mất h¼n. Một số thuốc khác cũng có hiện tượng
+quen thuốc nhanh như am phetamin, isop renalin, adrenalin, histamin...
+Nguyên nhân là:
+- Thuốc tác dụng gián tiếp qua sự giải phóng chất nội sinh của cơ thể, làm cạn kiệt chất nội sinh.
+Ep hedrin, am phetamin làm giải phóng adrenalin dự trữ của hệ giao cảm.
+- Kích thích gần nhau quá làm recep tor "mệt mỏi"
+- Tạo chất chuyển hóa có tác dụng đối kháng với ch ất mẹ: isop renalin (cường giao cảm) qua
+chuyển hóa ở gan, tạo ra 3- orthomet hylisop renalin có tác dụng huỷ .
+4.4.2. Quen thuốc chậm
+Sau một thời gian dùng thuốc liên tục, tác dụng của thuốc giảm dần, đòi hỏi phải tăng liều hoặc
+đổi thuốc khác. Có nhiều nguyên nhân:
+- Do gây cảm ứng en zym chuyển hóa thuốc, làm những liều thuốc sau bị chuyển hóa nhanh, mất
+tác dụng nhanh. Barbiturat, diazepam, tolbutamid, rượu et hylic... đều là những thuốc gây cảm
+ứng en zym chuyển hóa của chính nó.
+- Do giảm số lượng recep tor cảm ứng với thuốc ở màng tế bào (điều hòa giảm - down regulation):
+khi dùng thuốc cường giao cảm, phó giao cảm kéo dài... Trái lại, khi dùng các thuốc phong toả
+kéo dài sĩ làm tăng số lượng recep tor (điều hòa tăng - up regulation) như dùng thuốc huỷ giao
+cảm, thuốc an thần ức chế hệ dopaminergic. Khi ngừng thuốc dễ gây hiện tượng hồi ứng
+(rebound)
+- Do cơ thể phản ứng bằng cơ chế ngược lại dùng các thuốc lợi niệu thải Na + lâu, cơ thể mất
+nhiều Na+ sĩ tăng tiết aldosteron để giữ lại Na +, làm giảm tác dụng lợi niệu.
+Để tránh hiện tượng quen thuốc, trong lâm sàng thường dùng thuốc ngắt quãng hoặc luân phiên
+thay đổi các nhóm thuốc (sĩ trình bày trong phần thuốc cụ thể)
+4.5.
+Nghiện thuốc
+Nghiện thuốc là một trạng thái đặc biệt làm cho người nghiện phụ thuộc cả về tâ m lý và thể chất
+vào thuốc với các đặc điểm sau:
+- Thìm thuồng mãnh liệt nên xoay sở mọi cách để có thuốc dùng, kể cả hành vi phạm pháp
+- Có khuynh hướng tăng liều
+- Thuốc làm thay đổi tâm lý và thể chất theo hướng xấu: nói điêu, lười lao động, bẩn thỉu, thiếu
+đạo đức... gây hại cho bản thân và xã hội
+- Khi cai thuốc sĩ bị thuốc " vật" hay lên cơn "đói thuốc" : vật vã, lăn lộn, dị cảm, vã mồ hôi, tiêu
+chảy... Nếu lại dùng thuốc cơn "vật" sĩ hết ngay.
+Những thuốc gây nghiện đều có tác dụng lên thần kinh tr ung ương gây sảng khoái lâng lâng, ảo
+ảnh, ảo giác ("phê" thuốc) hoặc trạng thái hưng phấn mạnh (thuốc lắc), được gọi chung là "ma
+túy": morphin và các chất loại thuốc phiện (heroin, pet hidin, met hadon), cocain, cần sa (can nabis,
+marijuana), metam phetamin, ec tasy... Rượu và thuốc lá hiện còn được coi là ma túy "hợp pháp".
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Cơ chế nghiện còn chưa được hoàn toàn biết rõ, có nhiều giả thuyết giải thích: do cơ thể không
+sản xuất morphin nội sinh; làm rối loạn chức phận của nơ ron, gây phản ứng bù trừ của cơ thể; tạo
+ra chất đối kháng với ma túy nên đòi hỏi phải tăng liều...
+Hiện nay không có phương pháp cai nghiện nào có hiệu quả, ngoại trừ ý chí của người nghiện. Vì
+vậy, nghiện ma tuý là một tệ nạn xã hội phải được loại trừ.
+Câu hỏi tự lượng giá
+1. Trình bày các cơ chế tác dụng của thuốc.
+2. Trình bày các cách tác dụng của thuốc.
+3. Phân tích những yếu tố về thuốc có ảnh hưởng đến tác dụng của thuốc.
+4. Phân tích những yếu tố của người dùng thuốc có ảnh hưởng đến tác dụng của thuốc.
+5. Trình bày những tai biến khi dùng thuố c: phản ứng có hại, phản ứng dị ứng, rối loạn do
+di truyền, nghiện thuốc.

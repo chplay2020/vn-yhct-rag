@@ -36,7 +36,7 @@ logging.basicConfig(
 # ---------------------------------------------------------------------------
 CONFIG_PATH = "config/config.yaml"
 SOURCES_FULL = "data/sources_full.yaml"
-RAW_DIR = "data/raw"
+RAW_DIR = "data/raw-txt-clean"
 COLLECTION_EMB = "yhct_chunks_v2_full_emb"
 
 RAW_OUT = "data/ingest/raw_passages_full.jsonl"
@@ -44,6 +44,7 @@ CLEAN_OUT = "data/clean/clean_passages_v2_full.jsonl"
 CHUNKS_V1_OUT = "data/chunks/chunks_v1_full.jsonl"
 CHUNKS_V2_OUT = "data/chunks/chunks_v2_full.jsonl"
 COLLECTION = "yhct_chunks_v2_full"
+PARENTS_OUT = "data/parents/parents_v2_full.jsonl"
 REPORT_OUT = "data/reports/h1_full_report.json"
 
 
@@ -230,6 +231,14 @@ def main(with_embedding: bool = False, recreate_emb: bool = False) -> None:
             logger.info("  coverage (emb/dedup): %.2f%% (%d / %d)",
                         emb_count / unique_after_dedup * 100, emb_count, unique_after_dedup)
     logger.info("-" * 60)
+
+    # Parents verify
+    parents_path = Path(PARENTS_OUT)
+    if parents_path.exists():
+        parents_count = sum(1 for _ in open(parents_path, encoding="utf-8") if _.strip())
+        logger.info("  Parents JSONL: %s (%d parents)", PARENTS_OUT, parents_count)
+    else:
+        logger.info("  Parents JSONL: %s (not found)", PARENTS_OUT)
 
     _step_done(t0)
 

@@ -1,0 +1,1350 @@
+Vi In fograp hic VQA: A Benchmark for Sin gle and Multi-image Visual Question
+An swering on Viet namese In fograp hics
+Tue-Thu Van-Dinh1*, Hoang-Duy Tran1*, Truong-Binh Duong1, Mai-Hanh Pham1,
+Binh-Nam Le-Nguyen1, Quoc-Thai Nguyen1,2†
+1AI VIET NAM Lab, Viet nam
+2National Economics University, Viet nam
+Abstract
+In fograp hic Visual Question An swering (In fograp hic VQA)
+evaluates a model’s ability to read and reason over data-
+rich, layout-heavy visuals that com bine text, charts, icons,
+and design elements. Com pared with scene-text or natural-
+image VQA, in fograp hics require stron ger in tegration of
+OCR, layout un derstan ding, and numerical and seman tic rea-
+soning. We in troduce Vi In fograp hic VQA, the first bench-
+mark for Viet namese In fograp hic VQA, com prising over 6747
+real-world in fograp hics and 20409 human-verified question-
+an swer pairs ac ross economics, healthcare, education, and
+more. The benchmark in cludes two evaluation set tings. The
+Sin gle-image task follows the traditional setup in which each
+question is an swered using a sin gle in fograp hic. The Multi-
+image task requires syn thesizing eviden ce ac ross multip le
+seman tically related in fograp hics and is, to our knowledge,
+the first Viet namese evaluation of cross-image reasoning in
+VQA. We evaluate a ran ge of recent vision-lan guage mod-
+els on this benchmark, revealing substan tial performan ce dis-
+parities, with the most significant errors oc curring on Multi-
+image questions that in volve cross-image in tegration and
+non-span reasoning. Vi In fograp hic VQA con tributes bench-
+mark results for Viet namese In fograp hic VQA and sheds light
+on the limitations of current multimodal models in low-
+resource con texts, en couraging future exploration of layout-
+aware and cross-image reasoning met hods.
+Code —
+https://git hub. com/duongtruon gbinh/Vi In fograp hic VQA
+Datasets — https:
+//huggin gface. co/datasets/duyt ranus/Vi In fograp hic VQA
+In troduc tion
+Despite substan tial progress in multimodal reasoning, most
+Visual Question An swering (VQA) benchmarks remain fo-
+cused on En glish and em phasize natural images or sim ple
+*These aut hors con tributed equally.
+†Correspon ding aut hor: quoc thai@neu. edu. vn.
+We thank AI VIET NAM for facilitating com putational resources
+and finan cial sup port for this paper.
+Copyright © 2026, Association for the Advan cement of Artificial
+In telligen ce (www. aaai. org). All rights reserved.
+Q1: Nhiệt độ cao nhất dự báo
+tại Hà Nội ngày 11/09/2016 là
+bao nhiêu?
+A: 31°C
+Sin gle-Image Question
+An swer-Source: Image-span
+Eviden ce: Text
+Q2: Khu vực Tây Nguyên trên
+bản đồ dự báo thời tiết ngày
+11/09/2016 có màu cam hay
+màu đỏ?
+A: Cam
+An swer-Source: Question-span
+Eviden ce: Map
+Q3: So sánh nhiệt độ cao nhất ở
+Nam Bộ vào ngày 11/09/2016
+và ngày 18/06/2017, ngày nào
+có nhiệt độ cao hơn và hơn bao
+nhiêu độ?
+A: 18/06/2017; 1°C
+An swer-Source: Cross-Image Syn thesis
+Q1
+Q2
+Q4
+Q4
+Q3
+Q3
+Q4:  Chênh lệch nhiệt độ thấp
+nhất (độ C) tại Tây Bắc Bộ giữa
+ngày 11/09/2016 và đêm 17/06
+ngày 18/06/2017 là bao nhiêu?
+A: 3
+An swer-Source: Non-Span
+Multi-Image Question
+Figure 1: Exam ple images from Vi In fograp hic VQA with
+questions and an swers. Each question is an notated with its
+an swer source, sup porting eviden ce type, and required oper-
+ation.
+scene-text set tings (An tol et al. 2015). Such datasets rarely
+cap ture the com plexity of struc tured, data-rich visuals like
+in fograp hics, which blend text, charts, icons, and layout for
+con cise in formation delivery. Un derstan ding these materi-
+als requires unified reasoning over visual, textual, and spa-
+tialmodalities - a challen ge exten ding beyond typical image-
+based VQA.
+In fograp hics have recen tly at trac ted in terest in document-
+
+
+Q: Các nguồn năng lượng tái tạo nào được biểu
+diễn bằng đơn vị triệu k Wh?
+A: Điện gió, Năng lượng mặt trời
+Q: Tổng số biểu tượng năng lượng tái tạo riêng
+biệt được hiển thị trong hình là bao nhiêu?
+A: 5
+Eviden ce: Text
+An swer-Source: Multi-span
+An swer-Source: Non-Extrac tive
+Eviden ce: Text
+An swer-Source: Non-Extrac tive
+Eviden ce: Table
+Q: Số lượng đường băng hiện có ở Lon don là bao nhiêu?
+A: 3
+A: Heat hrow
+An swer-Source: Question-span
+Q: Trong hai sân bay Heat hrow và Gat wick thì sân bay
+nào có 2 đường băng?
+Eviden ce: Table
+Q: Đối thủ của Scot land trong trận lúc 2h ngày 20/6 và của Slovakia trong trận lúc 23h
+ngày 26/6 lần lượt là đội nào?
+A: Thụy Sĩ; Romania
+An swer-Source: Multi-Image Span
+Q: Tổng số trận đấu diễn ra lúc 23h vào ngày 19/6 và 26/6 theo lịch thi đấu được hiển thị
+là bao nhiêu?
+A: Thụy Sĩ; Romania
+An swer-Source: Non-Span
+Q: Dựa vào lịch thi đấu Giữa hai ngày 24/6 và 26/6, ngày nào có nhiều trận đấu hơn và nhiều
+hơn bao nhiêu trận?
+A: 26/6; 2
+An swer-Source: Cross-Image Syn thesis
+Figure 2: Rep resen tative exam ples illustrating the diversity of Vi In fograp hic VQA. The dataset covers a wide ran ge of in fo-
+grap hic types (e. g., bar charts, energy reports, event schedules) and question forms span ning extrac tive, non-extrac tive, and
+Multi-image reasoning. This diversity enables com prehen sive evaluation of multimodal models’ abilities in text un derstan ding,
+numerical reasoning, and cross-image aggregation.
+orien ted VQA, where models must com prehend layout, em-
+bedded text, and numerical data simultaneously (Mat hew,
+Karat zas, and Jawahar 2021; Mat hew et al. 2022; Masry
+et al. 2022). However, existing benchmarks remain largely
+En glish-cen tric and provide limited evaluation of layout-
+aware or numerically groun ded reasoning (Singh et al. 2019;
+Biten et al. 2019; Tran et al. 2021; Doan et al. 2024). While
+In fograp hic VQA (Mat hew et al. 2022) established the first
+En glish dataset for in fograp hic un derstan ding, com parable
+resources in low-resource lan guages such as Viet namese are
+still absent-particularly for tasks requiring reasoning ac ross
+multip le in fograp hics.
+In the Viet namese con text, prior datasets such as Vi VQA
+(Tran et al. 2021), EVJVQA (Luu-Thuy Nguyen et al.
+2023), Open Vi VQA (Nguyen et al. 2023), and Vi Text VQA
+(Van Nguyen et al. 2024) provide valuable con tributions but
+main ly target natural images, OCR scene text, or syn thetic
+ren derings. None address the more com plex domain of in fo-
+grap hic un derstan ding or cross-image reasoning, which de-
+mands syn thesis of in formation ac ross multip le seman tically
+related visuals.
+To bridge this gap, we in troduce Vi In fograp hic VQA-a
+Viet namese benchmark designed to evaluate both Sin gle-
+image com prehen sion and Multi-image reasoning. The
+dataset features lin guistically aut hen tic questions and an-
+swers ac ross diverse topics such as economics, healthcare,
+and education, offering two com plemen tary evaluation set-
+tings (Figure 1).
+Our con tributions are sum marized as follows:
+(i) We in troduce Vi In fograp hic VQA, a Viet namese in-
+fograp hic VQA dataset with official splits, con taining
+over 6747 in fograp hics and nearly 20409 QA pairs.
+(ii) We design both Sin gle-image and Multi-image tasks;
+the lat ter en forces cross-image evaluation previously
+unaddressed in Viet namese or multilin gual VQA.
+(iii) We establish baselines with recent vision-lan guage
+models (VLMs) and con duct systematic fine-tuning
+on subsets and the com bined data, analyzing training
+strategies wit hout rationale leakage.
+Related Work
+Preceding Visual Question An swering Datasets
+Early benchmarks such as VQA v1 (An tol et al. 2015)
+and VQA v2 (Goyal et al. 2017) established the task but
+primarily evaluate models on natural images. Subsequent
+studies show that general-purpose VQA systems struggle
+when reading text or in terpreting the layout is required. To
+probe these abilities, text- and document-cen tric datasets
+were in troduced. ST-VQA (Biten et al. 2019) and Text VQA
+(Singh et al. 2019) target scene-text reading and reason-
+ing. Doc VQA (Mat hew, Karat zas, and Jawahar 2021) ex-
+tends the evaluation to scan ned business and administrative
+
+
+Dataset
+Image Source
+Syn thetic Images
+Tem plate Questions
+Text Type
+# Images
+# Questions
+An swer Type
+VQA v1/v2
+Natural images
+×
+✓
+MR
+200K+
+1M+
+MCQ
+ST-VQA
+Natural images
+×
+×
+ST
+28K
+45K
+Ex
+Text VQA
+Natural images
+×
+×
+ST
+28K
+45K
+Ex, SAb
+Doc VQA
+In dustry documents
+×
+×
+Pr, Tw, Hw, BD
+12K
+50K
+Ex
+Visual MRC
+Webpage screen shots
+×
+×
+BD
+10K
+30K
+Ab
+In fograp hic VQA
+In fograp hics
+×
+×
+BD
+5.4K
+30K
+Ex, Nm
+Figure QA
+Charts (syn thetic)
+✓
+✓
+BD
+120K
+1.5M
+Y/N
+DVQA
+Bar charts
+✓
+✓
+BD
+300K
+3.4M
+Ex, Nm, Y/N
+Plot QA
+Scien tific plots
+✓
+✓
+BD
+224K
+28.9M
+Ex
+Chart QA
+Real charts
+×
+×
+BD
+20K
+400K
+Ex
+Char Xiv
+Scien tific charts (ar Xiv)
+×
+×
+BD
+10K+
+200K+
+Ex, Ab
+In fo Chart QA
+In fograp hic charts
+×
+×
+BD
+15K
+300K
+Ex, Ab
+Chart QAP ro
+Diverse charts
+×
+×
+BD
+50K
+1M+
+Ex, Ab, Nm
+Chart Galaxy
+Mixed in fograp hic charts
+✓
+×
+BD
+1M+
+20M+
+Ex, Ab
+Vi VQA
+MS COCO images
+×
+×
+ST
+10.3K
+15K
+Ex
+Vi Text VQA
+Natural images with text
+×
+×
+ST
+16.8K
+50.3K
+Ex
+Open Vi VQA
+Web images of Viet namese life
+×
+×
+ST
+11.2K
+37.9K
+Ab
+Vi CLEVR
+Ren dered CLEVR images
+✓
+×
+ST
+26K
+30K
+Ex / SAb
+Vi OCRVQA
+Book covers
+×
+✓
+BD
+28.3K
+121.6K
+Ex
+EVJVQA
+Web images of Viet namese life
+×
+×
+ST
+4.9K
+33.8K
+Ex, Ab
+Viet-OCR-VQA
+Scene text (Viet namese)
+×
+×
+ST
+137K
+822K+
+Ex
+Viet-Doc-VQA
+Textbooks, documents
+×
+×
+Pr, BD
+116K+
+500K+
+Ex
+Viet-Handwriting-VQA
+Handwrit ten text
+×
+×
+Hw
+20K+
+100K+
+Ex
+Viet-Receipt-VQA
+Receipts
+×
+×
+Pr, BD
+30K+
+200K+
+Ex
+Viet-Menu-VQA
+Menus
+×
+×
+Pr, BD
+10K+
+50K+
+Ex
+Table 1: A com parative overview of VQA datasets. This table lists key at tributes, in cluding image source, use of syn thetic
+images or tem plate-based questions, the num ber of images and questions, along with the sup ported text types and an swer
+formats. Text Type: MR (Multimodal Reading), ST (Scene Text), BD (Born-Digital), Pr (Prin ted), Tw (Typewrit ten), Hw
+(Handwrit ten). An swer Type: MCQ (Multip le Choice Question), Ex (Extrac tive), SAb (Short Abstrac tive), Ab (Abstrac tive),
+Nm (Numeric), Y/N (Yes/No).
+documents, and Visual MRC (Tanaka, Nishida, and Yoshida
+2021) focuses on webpage screen shots. More recen tly, PDF-
+VQA (Ding et al. 2023) con siders com plex multi-page PDFs
+with diverse layouts.
+A second line of research focuses on data visualizations.
+Syn thetic testbeds such as Figure QA (Kahou et al. 2017)
+and DVQA (Kafle et al. 2018) allow con trolled analysis but
+lack realism. Plot QA (Met hani et al. 2020) scales to mil-
+lions of QA pairs over scien tific plots. Chart QA (Masry et al.
+2022) in troduces real-world charts with human-aut hored
+questions, while Char Xiv (Wang et al. 2024) curates sci-
+en tific charts from ar Xiv. More recent efforts-In fo Chart QA
+(Lin et al. 2025), Chart QAP ro (Masry et al. 2025), and
+Chart Galaxy (Li et al. 2025)-explicit ly in clude in fograp hic-
+style charts and expand both coverage and diversity.
+In fograp hic Question An swering Benchmarks
+In fograp hics com bine textual, numerical, and grap hical in-
+formation wit hin struc tured layouts, posing distinct chal-
+len ges that differ from those in natural images, scene text, or
+document-based VQA. To address this com plexity, several
+benchmarks have been developed to specifically evaluate
+reasoning over in fograp hic-style con tent. In fograp hic VQA
+(Mat hew et al. 2022) in troduced the first dataset in this do-
+main, featuring questions that require textual un derstan ding
+and reasoning over layout and visual design. Building on
+this direc tion, In fo Chart QA (Lin et al. 2025) in vestigates
+how visual elements such as icons and pic tograms in flu-
+en ce question an swering, Chart QAP ro (Masry et al. 2025)
+expands chart types and question formats while explicit ly
+covering in fograp hic-style data, and Chart Galaxy (Li et al.
+2025) scales the scope to millions of real and syn thetic in fo-
+grap hic charts. Despite these advan ces, existing benchmarks
+remain predominan tly En glish-cen tric, leaving non-En glish
+in fograp hic reasoning largely unexplored.
+Visual Question An swering Datasets in Viet namese
+Viet namese VQA has advan ced along several direc tions but
+largely out side the in fograp hic domain. Vi VQA (Tran et al.
+2021) adapts a subset of VQA v2, with limited lin guistic nat-
+uralness. EVJVQA (Luu-Thuy Nguyen et al. 2023) provides
+multilin gual QA pairs but lacks scene text. Open Vi VQA
+(Nguyen et al. 2023) sup ports open-en ded an swers, and Vi-
+CLEVR (Tran et al. 2024) targets com positional reasoning.
+Vi Text VQA (Van Nguyen et al. 2024) is the first Viet namese
+scene-text dataset, while Vi OCRVQA (Pham et al. 2025)
+scales OCR-based QA. The Vin tern-1B collec tion (Doan
+et al. 2024) adds Viet namese resources for OCR, docu-
+ment un derstan ding, handwriting, and extrac tion (e. g., Viet-
+OCR-VQA, Viet-Doc-VQA, Viet-Handwriting-VQA, Viet-
+Receipt-VQA; many are hosted by 5CD-AI on Hugging-
+Face1). These datasets lay crucial groun dwork yet remain
+limited for in fograp hic un derstan ding. Many rely on trans-
+lated En glish data or syn thetic ren derings, whereas our work
+leverages aut hen tic Viet namese in fograp hics with diverse
+layouts and topics. Table 1 con solidates En glish and Viet-
+namese resources and highlights the lack of a Viet namese
+benchmark for in fograp hic VQA-especially one that evalu-
+ates cross-image (Multi-image) reasoning.
+1https://huggin gface. co/5CD-AI
+
+
+Data Refinement
+Web Crawl
+Filtering
+In fograp hics
+In fograp hics Grouped
+VLM
+VLM
+VLM
+VLM Validation
+Extract Elements
+QA Pairs
+Human Refinement
+Vi In fograp hic
+Dataset
+Analysis
+Data Generation
+Data Curation
+Figure 3: Construc tion pipeline for Vi In fograp hic VQA. Data curation crawls the web, filters in fograp hics, and selects high-
+quality ones for QA construc tion. Data generation uses a two-branch VLM pipeline: element extrac tion from sin gle images
+for fac toid QAs, and grouping related in fograp hics to elicit cross-image questions. Data refinement ap plies automated VLM
+validation followed by human review, yielding the final dataset.
+Vi In fograp hic VQA
+The creation of Vi In fograp hic VQA begins by sourcing and
+filtering real-world Viet namese in fograp hics, which are then
+organized in to seman tically related sets to sup port Multi-
+image reasoning. Figure 2 presents rep resen tative exam ples
+from the dataset, illustrating the diversity of question types
+and reasoning operations covered ac ross both Sin gle-image
+and Multi-image tasks. Figure 3 then out lines the end-to-end
+construc tion process, com bining VLM-assisted element ex-
+trac tion, clustering, and struc tured QA generation with sub-
+sequent human verification and refinement to produce high-
+quality, lin guistically natural question–an swer pairs.
+Data Curation
+We curate real-world Viet namese in fograp hics and organize
+them in to seman tically related sets to sup port both Sin gle-
+image and Multi-image reasoning. The process has 3 steps:
+sourcing and geomet ry filtering, VLM-assisted rep resen ta-
+tion and grouping, and split assignment.
+Step 1: Sourcing and geomet ry filtering. We collect in-
+fograp hics from the portal in fograp hics. vn2 ac ross topics
+such as Economics, Healthcare, Culture-Society, Disaster-
+Ac cident, and Sports-Arts. To en sure OCR and layout pars-
+ing readability while avoiding extreme rescaling artifacts,
+we retain images whose aspect ratios fall wit hin [0.33, 3.00]
+and whose shorter side is at least 512 pixels.
+Step 2: VLM-assisted rep resen tation and grouping. To
+cap ture relation ships among in fograp hics, we com pute mul-
+timodal rep resen tations com bining OCR text features with
+visual and layout cues. Con cretely, we extract (i) normal-
+ized OCR text and its locations, (ii) global and region-level
+visual descrip tors, and (iii) lightweight layout signals (e. g.,
+panel/legend cues) using a VLM-assisted pass that proposes
+in formative regions and aggregates them in to image-level
+em beddings. We cluster images wit hin topical categories us-
+ing cosine similarity with a fixed num ber of clusters per cat-
+egory (3 per topic), forming seman tically coherent sets that
+enable cross-image reasoning.
+Step 3: Split assignment with set isolation. En tire Multi-
+image sets are assigned to a sin gle split (train/val/test) to pre-
+2https://in fograp hics. vn/, a data visualization and in fograp hics
+portal main tained by the Viet nam News Agen cy (VNA), the pri-
+mary and official news provider of the Viet namese government.
+vent cross-split leakage. Splits are further stratified by (topic
+× an swer-source) priors to preserve distributional balan ce
+for downstream evaluation.
+Data An notation
+Sin gle-image
+In fograp hic
+In fograp hics
+com bine
+text
+blocks, tables, charts, maps, and icons; these elements are
+natural an chors for struc tured QA. Rat her than treating an
+in fograp hic as a sin gle visual unit, we first iden tify seman ti-
+cally meanin gful regions and then build QA on top of them.
+Stage 1: Element extrac tion. A VLM-assisted scan pro-
+poses in formative regions (text boxes, chart panels, legends,
+icons, map areas) and refines their coordinates using visual
+and spatial cues to preserve con textually relevant con tent.
+Stage 2: QA construc tion. The extrac ted elements serve as
+the seman tic bac kbone for question generation, especially
+for reasoning over layout, text, grap hics, and data visual-
+izations (Mat hew et al. 2022). We organize QA pairs along
+two in depen dent dimen sions: (i) element types (e. g., table,
+graph/diagram, map, text, layout/visual), and (ii) an swer-
+source categories: Image-span (a sin gle, con tiguous verba-
+tim span in the image), Question-span (multip le-choice with
+an explicit op tion list; the an swer is exac tly one op tion, ver-
+batim), Multi-span (two or more non-con tiguous verbatim
+spans; the an swer is a sin gle string formed by joining the
+selec ted spans with exac tly the com ma delimiter bet ween
+adjacent spans; the question is a sin gle sen ten ce specifying
+the task requirements and the properties of the spans), and
+Non-extrac tive (numeric reasoning such as coun ting, arith-
+metic, or com puting a rank/percen tage; the final out put is a
+sin gle numeric value). To in stan tiate diverse QAs, we use
+rule-based prompt tem plates that pair element types with
+an swer-source categories (e. g., Table × Multi-span: “Which
+rows have values exceeding 100?”; Graph × Non-extrac tive:
+“What is the growth rate bet ween the two years?”).
+Un like In fograp hic VQA (Mat hew et al. 2022), we do not
+main tain separate labels for operations (coun ting, arith-
+metic, sorting). All numeric reasoning is grouped in to Non-
+extrac tive. Com parative behaviors that may oc cur in Image-
+span, Question-span, or Multi-span (e. g., pic king a maxi-
+mum, minimum, or top-k) are con sidered in herent to the
+question seman tics, not additional operation tags.
+Stage 3: Verification. We em ploy VLM-assisted expan-
+sion (Gemini 2.0 Flash (Google Cloud 2025)) to generate
+
+
+multip le can didate QAs per rule, retaining short validation
+explanations but releasing an swers on ly to avoid rationale
+leakage. Human reviewers then filter obvious knowledge
+questions (e. g. questions an swerable wit hout referen ce to the
+image), refine wording, and en sure lin guistic naturalness and
+seman tic fait hfulness.
+An notation Tool. Gemini 2.0 Flash is used solely for semi-
+automatic dataset an notation during QA pair generation; it
+produces can didate QAs and brief explanations for in ternal
+validation on ly. An swers (wit hout rationales) are released,
+and Gemini is not in cluded among the evaluated baselines.
+Multi-image In fograp hics
+Many real scenarios require
+syn thesis ac ross related visuals. Our Multi-image an notation
+follows the same three-stage recipe, ap plied to seman tically
+grouped in fograp hics.
+Stage 1: Set definition. We construct sets of related im-
+ages and define the relation lin king them (layout similar-
+ity, subject con sisten cy, con tent variation, shared theme, or
+differing em phasis). Each set is assigned one of four rela-
+tion types: (i) Iden tical Rep lication (same tem plate, subject,
+and con tent); (ii) Con tent Augmen tation/Variation wit hin the
+Same Specific Subject (same tem plate/subject, varying con-
+tent); (iii) Con tent Rep licated, Presen tation Varies (same
+subject/con tent, different tem plates); (iv) Thematic Con nec-
+tion with Diverse Specific Subjects/Focus (different specific
+subjects un der a com mon theme).
+Stage 2: QA construc tion. Prompt tem plates instruct
+VLM-assisted generation to create questions that require
+cross-image eviden ce. We categorize out puts as: Multi-
+image span (aggregate spans from ≥2 images un der a log-
+ical con dition), Cross-image syn thesis (com pare/in terpret
+ac ross images to reach a new con clusion), and Non-span
+(numerical com putation such as sum, differen ce, average, or
+coun ting over values drawn from different images).
+Stage 3: Verification. An automated chec ker removes du-
+plicates, tests an swer-explanation con sisten cy, and verifies
+that each question genuinely depends on at least two images.
+Items flagged by the chec ker are reviewed and correc ted by
+human an notators. As in the Sin gle-image case, we adopt
+VLM-assisted expan sion with explanations used on ly for in-
+ternal validation and do not release rationales.
+For tran sparen cy and rep roducibility, the exact prompt
+tem plates used to construct all QA pairs are listed in Ap-
+pen dix A.
+Data Refinement
+We ap ply a multi-step refinement process com bining auto-
+mated validation with human review (Baec hler et al. 2024;
+Ding et al. 2025) to en sure data quality and reliability.
+First, dedup lication is performed to remove redun dant or
+near-dup licate QA pairs, preserving diversity and prevent-
+ing overfit ting to repeated pat terns. Next, automated vali-
+dation with VLMs verifies that generated an swers are con-
+sistent with in fograp hic con tent, flagging poten tial errors
+or in con sisten cies. Finally, human review on a web plat-
+form edits question phrasing for clarity, resolves am bigui-
+ties, and en sures that an swers are con textually aligned with
+in fograp hic seman tics. By in tegrating automated validation
+with human review, this human-in-the-loop ap proach en-
+sures an ac curate, lin guistically natural, and seman tically co-
+herent dataset.
+Question Types Distribution
+68.1%
+31.9%
+Sin gle-image (S)
+Multi-image (M)
+An swer Source vs. Image Type
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+(S) image-span
+(S) Multi-span
+(S) Non-extrac tive
+(S) Question-span
+(M) Multi-image
+Spans
+(M) Cross-image
+Syn thesis
+(M) Non-Span
+25.86%
+25.15%
+29.15%
+23.94%
+30.39%
+26.79%
+29.2%
+18.38%
+18.58%
+18.97%
+18.76%
+22.99%
+28.28%
+26.13%
+12.6%
+12.6%
+14.29%
+12.39%
+12.66%
+8.41%
+9.86%
+10.11%
+9.95%
+10.74%
+8.77%
+9.75%
+11.46%
+9.59%
+8.08%
+7.44%
+8.59%
+7.32%
+8.53%
+10.63%
+9.21%
+24.97%
+26.28%
+18.26%
+28.83%
+15.67%
+14.43%
+16%
+Kinh tế - Hội nhập
+Y tế - Cộng đồng
+Văn hóa - Xã hội
+Thiên tai - Tai nạn
+Thể thao - Nghệ thuật
+Ot hers
+An swer Sources Distribution
+17.7%
+16.9%
+16.9%
+16.8%
+16.7%
+9.1%
+5.9%
+(S) image-span
+(S) Question-span
+(M) Multi-image Spans
+(S) Multi-span
+(S) Non-extrac tive
+(M) Non-Span
+(M) Cross-image Syn thesis
+Figure 4: Distribution of topics per source in Vi In fograph-
+ic VQA. The in ner ring rep resents an swer sources, while the
+outer ring shows topic distribution for each source.
+Data Statistics
+Figure 4 reports the em pirical distribution over an swer-
+source categories and topics. Sin gle-image questions ac-
+count for 68.1% of QAs, while Multi-image questions com-
+prise 31.9%. The distributions are stratified by topic and an-
+swer source during split construc tion (details in Table 2).
+This balan ced com position demonstrates the dataset’s com-
+prehen sive coverage of reasoning strategies, span ning from
+direct extrac tion to non-extrac tive in feren ce and cross-image
+syn thesis.
+The joint distribution of an swer source and image type
+further reveals that, wit hin the Sin gle-image set ting, Image-
+span, Question-span, Multi-span, and Non-extrac tive cat-
+egories ap pear with com parable frequen cies, whereas in
+the Multi-image set ting, Multi-image span ac count for the
+largest proportion, followed by Non-span and Cross-image
+syn thesis, highlighting the dataset’s em phasis on reasoning
+that in tegrates com plemen tary eviden ce ac ross multip le im-
+ages.
+Ac ross
+both
+set tings,
+thetop-5
+image
+categories
+are Economy-In tegration, Healthcare-Com munity, Culture-
+Society, Disaster-Ac cident, and Sports-Arts. These domains
+
+
+Table 2: Dataset statistics and splits of Vi In fograp hic VQA.
+Subset
+#Images
+#Groups
+#QAs
+Sin gle-image (train)
+1788
+–
+12521
+Sin gle-image (test)
+192
+–
+1374
+Multi-image (train)
+4823
+2090
+5878
+Multi-image (test)
+509
+218
+636
+Total train
+6096
+2090
+18399
+Total test
+651
+218
+2010
+con stitute the majority of the dataset. The remaining cate-
+gories, grouped as miscellaneous, con tribute smaller propor-
+tions but en han ce the diversity and real-world coverage of
+the dataset.
+Dataset Ac coun ting and Splits
+We provide auditable counts for each subset and en force set-
+level isolation for Multi-image groups to avoid cross-split
+leakage. The data are stratified by topic and an swer-source to
+main tain balan ced rep resen tation ac ross domains and ques-
+tion types. Additionally, Table 2 sum marizes the num ber of
+images and question–an swer pairs in each subset of Vi In fo-
+grap hic VQA. We in clude shared images in fograp hics that
+oc cur in both the Sin gle-image and Multi-image con figura-
+tions wit hin the same split to enable cross-task evaluation
+wit hout in ducing train-test leakage. This struc tured organi-
+zation en sures rep roducible evaluation and enables fair com-
+parison bet ween the Sin gle-image and Multi-image tasks.
+Experiments
+In this sec tion, we evaluate the performan ce of several state-
+of-the-art VLMs on Vi In fograp hic VQA. The experiments
+measure both zero-shot reasoning capabilities and the per-
+forman ce gains ac hieved through supervised fine-tuning,
+providing a holistic analysis of the challen ges posed by our
+dataset.
+Evaluation Met rics
+We adopt Average Normalized Levenshtein Similarity
+(ANLS) (Biten et al. 2019), which offers a flexible evalu-
+ation by tolerating minor textual deviations. It is com puted
+as follows:
+ANLS = 1
+N
+N
+Xi=1
+maxj
+s(aij, oqi)
+(1)
+where N is the num ber of questions, oqi is the ground-truth
+an swer for question i, and aij denotes the j-th predic ted an-
+swer for that question. The similarity fun ction s is defined
+as:
+s(aij, oqi) =
+1 −NL(aij, oqi)
+if NL(aij, oqi) < 0.5
+0ot herwise
+(2)
+where NL(·) is the normalized Levenshtein distan ce. ANLS
+credits near-mat ches while penalizing seman tically in cor-
+rect an swers. The final score ran ges from 0 to 1, where
+a higher value in dicates bet ter performan ce by reflec ting
+a closer match bet ween predic ted and ground-truth an-
+swers. This met ric is widely used in text-cen tric document
+VQA (Mat hew, Karat zas, and Jawahar 2021).
+Experimen tal Results
+We benchmark recent open-source VLMs, in cluding a fine-
+tuned variant of Qwen2.5-VL-7B, to assess the im pact of
+supervised training.3 For the Sin gle-image task, we eval-
+uate In tern VL3.5-8B (Wang et al. 2025), Mini CPM-o2.6-
+8B (Yao et al. 2024), Molmo D-7B (Deit ke et al. 2025),
+Ovis2.5-9B (Lu et al. 2025), Phi-4-multimodal-5B (Aboue-
+lenin et al. 2025), Qwen2.5-VL-7B (Bai et al. 2025), and
+Video LLa MA3 Image-7B (Zhang et al. 2025). For the
+Multi-image task, we analyze In tern VL3.5-8B, Mini CPM-
+o2.6-8B, Phi-4-multimodal-5B, and Qwen2.5-VL-7B. Re-
+sults are sum marized in Tables 3 and 4.
+Sin gle-image
+Table 3 shows that Ovis2.5-9B ac hieves
+the highest overall ANLS, followed by In tern VL3.5-8B
+and Qwen2.5-VL-7B. Span-based categories (Image-span,
+Question-span) remain the easiest, often exceeding 75%
+ANLS, while Non-extrac tive reasoning is con sisten tly lower
+ac ross models. Ovis2.5-9B leads on Multi-span and most
+element types, particularly tables and graphs, whereas
+In tern VL3.5-8B performs best on Non-extrac tive reason-
+ing. Fine-tuning yields moderate gains for Qwen2.5-VL,
+slightly im proving arit hmetic and reasoning-orien ted cate-
+gories. Mini CPM-o2.6-8B performs mid-ran ge, and lighter
+models such as Phi-4-multimodal-5B and Molmo D-7B trail
+far behind. Overall, the results in dicate that while modern
+VLMs han dle span extrac tion reliably, numerical and multi-
+step reasoning over struc tured layouts remain significant
+challen ges.
+Multi-image
+Ac ross models, Multi-image performan ce
+drops substan tially relative to Sin gle-image, typically by
+about 12–32 ANLS points, un derscoring the added diffi-
+culty of reasoning over multip le images. Qwen2.5-VL-7B
+(Finetuned) is the clear leader overall, with the stron gest re-
+sults on Cross-image syn thesis and Multi-image span, while
+the base Qwen2.5-VL-7B at tains the best Non-span score.
+Qwen2.5-VL-7B (base) ranks second overall. Mini CPM-
+o2.6-8B and In tern VL3.5-8B follow, with In tern VL3.5-8B
+ran king third on Multi-image span but weak on Cross-
+image syn thesis. Lighter or earlier-generation models such
+as Phi-4-multimodal-5B con tinue to lag, highlighting that
+robust cross-image syn thesis remains challen ging for cur-
+rent VLMs.
+Ablation Study
+We further com pare supervision strategies: (1) zero-shot in-
+feren ce, (2) fine-tuning on the Sin gle-image subset, (3) fine-
+tuning on the Multi-image subset, and (4) fine-tuning on the
+com bined sin gle- and Multi-image data. Table 5 in dicates
+that fine-tuning con sisten tly im proves ANLS over in feren ce.
+Fine-tuning on the Multi-image subset particularly boosts
+3Models were fine-tuned via QLo RA (r = 8, α = 32, dropout
+0.05) for 5 epochs with learning rate 2 × 10−4.
+
+
+Table 3: Performan ce of VLMs on the Sin gle-image task, categorized by an swer type, element, and operation.
+Met hod
+Overall
+An swer Type
+Element
+Image
+span
+Multi
+span
+Non-extrac tive
+Question
+span
+Diagram/
+Graph
+Map
+Sequen ce
+Table
+Text
+Visual/
+Layout
+Phi-4-multimodal-5B
+41.91
+45.36
+23.90
+39.83
+58.84
+42.87
+43.29
+41.36
+46.46
+42.11
+39.23
+Video LLa MA3 Image-7B
+49.60
+55.38
+35.52
+44.16
+63.39
+55.96
+49.55
+52.48
+60.01
+49.01
+40.83
+In tern VL3.5-8B
+67.02
+73.31
+49.30
+65.70
+79.76
+73.06
+66.84
+70.82
+67.56
+64.30
+64.04
+Mini CPM-o2.6-8B
+57.03
+62.52
+44.63
+53.76
+67.20
+60.39
+53.75
+61.86
+60.17
+55.94
+54.11
+Molmo D-7B
+38.26
+46.66
+15.89
+29.19
+61.48
+41.44
+39.19
+32.48
+46.08
+38.94
+34.38
+Ovis2.5-9B
+71.02
+78.19
+61.42
+61.24
+83.21
+74.81
+67.02
+72.77
+77.45
+69.83
+68.56
+Qwen2.5-VL-7B
+67.42
+73.54
+50.39
+65.63
+80.14
+73.54
+68.81
+65.95
+75.38
+66.25
+61.59
+Qwen2.5-VL-7B (Finetuned)
+67.80
+72.69
+53.89
+63.93
+81.10
+72.95
+67.13
+69.35
+73.65
+68.84
+61.36
+Table 4: Model performan ce (%) on the Multi-image dataset
+by question type.
+Met hod
+Overall
+Cross-image syn thesis
+Multi-image span
+Non-span
+In tern VL3.5-8B
+35.50
+10.97
+51.72
+24.67
+Mini CPM-o2.6-8B
+40.55
+35.22
+48.74
+30.05
+Phi-4-multimodal-5B
+20.95
+20.93
+24.59
+14.60
+Qwen2.5-VL-7B
+54.92
+56.34
+58.33
+47.96
+Qwen2.5-VL-7B (Finetuned)
+55.47
+56.55
+58.91
+47.68
+cross-image reasoning, while joint training ac hieves the best
+overall performan ce, suggesting that heterogeneous supervi-
+sion strengthens both in tra-document and cross-image rea-
+soning.
+Table 5: Performan ce (%) of Qwen2.5-VL (7B) un der dif-
+ferent fine-tuning con figurations.
+Met hod
+Sin gle-image
+Multi-image
+Com bined
+Zero-shot In feren ce
+67.42
+54.92
+63.43
+Fine-tuning (Sin gle-image on ly)
+67.80
+54.74
+63.64
+Fine-tuning (Multi-image on ly)
+67.30
+55.47
+63.52
+Fine-tuning (Com bined)
+68.53
+55.62
+64.41
+These fin dings un derscore the com plemen tary roles of
+sin gle- and multi-image supervision in multimodal learn-
+ing, where fine-tuning on sin gle-image data primarily en-
+han ces localized visual–textual com prehen sion, while multi-
+image supervision facilitates cross-image relational reason-
+ing. Com bining both ap proac hes yields the best overall per-
+forman ce, highlighting the im portan ce of balan ced, hetero-
+geneous supervision for com prehen sive in fograp hic un der-
+stan ding.
+Discussion
+Our study provides a realistic and challen ging set ting for
+Viet namese in fograp hic VQA by requiring models to coor-
+dinate text un derstan ding, layout struc ture, and visual evi-
+den ce, often ac ross multip le related images. Our results in-
+dicate that con tem porary VLMs han dle extrac tive, Sin gle-
+image questions com paratively well, yet they struggle when
+arit hmetic, multi-step syn thesis, or cross-image aggregation
+is required. This gap suggests that current pipelines, which
+typically rely on shallow OCR-lan guage fusion, lack explicit
+mec hanisms for layout-aware reasoning and in formation in-
+tegration ac ross documents (e. g., memory over sets, ret rieval
+and alignment, or plan ning-based com position).
+A second challen ge con cerns evaluation. While ANLS
+is robust to minor orthograp hic variation, it does not fully
+cap ture seman tic correc tness, numerical exac tness, ground-
+ing fait hfulness, or calibration, limitations that are especially
+salient for non-extrac tive and Multi-image questions. Future
+evaluations should com plement ANLS with task-specific
+measures (e. g., exact/relative numeric ac curacy, unit nor-
+malization), fait hfulness/at tribution checks, and targeted hu-
+man assessment for am biguous cases. Finally, although our
+dataset covers diverse topics wit hin Viet namese in fograph-
+ics, exten ding to multilin gual and cross-lin gual set tings, au-
+diting source/tem plate biases, and probing domain tran sfer
+remain im portant next steps for assessing generalization of
+multimodal systems.
+Con clusion
+We construct Vi In fograp hic VQA, the first Viet namese
+benchmark for In fograp hic VQA that join tly evaluates
+Sin gle-image
+com prehen sion
+and
+Multi-image
+(cross-
+image) reasoning. The dataset is curated from real-world
+in fograp hics un der explicit geomet ry constraints, organized
+in to seman tically coherent sets, and an notated via a VLM-
+assisted, human-verified pipeline with stan dardized an swer-
+source categories; we further en force set-level isolation and
+stratified splits to sup port robust, rep roducible evaluation.
+Experiments with recent open-source VLMs show mid-60%
+ANLS on Sin gle-image questions, especially for image-
+/question-span an swers, yet a substan tial drop of about
+12-32 ANLS points for Multi-image and non-span rea-
+soning, highlighting cross-image syn thesis as a key bot-
+tleneck. Ablation results in dicate that targeted fine-tuning
+on Multi-image supervision im proves cross-image perfor-
+man ce, while joint training on both Sin gle-image and Multi-
+image data yields the best overall trade-off. We hope this
+benchmark catalyzes progress on layout-aware modeling,
+tool-augmen ted arit hmetic and table/chart reasoning, data-
+efficient adap tation wit hout rationale leakage, and ric her
+evaluation protocols that com plement ANLS with fait hful-
+ness and calibration measures for reliable, real-world multi-
+modal reasoning.
+
+
+Referen ces
+Abouelenin, A.; Ashfaq, A.; At kin son, A.; Awadalla, H.;
+Bach, N.; Bao, J.; Ben haim, A.; Cai, M.; Chaudhary, V.;
+Chen, C.; et al. 2025. Phi-4-mini tec hnical report: Com pact
+yet powerful multimodal lan guage models via mixture-of-
+loras. ar Xiv prep rint ar Xiv:2503.01743.
+An tol, S.; Agrawal, A.; Lu, J.; Mit chell, M.; Bat ra, D.; Zit-
+nick, C. L.; and Parikh, D. 2015. Vqa: Visual question an-
+swering. In Proceedings of the IEEE in ternational con fer-
+en ce on com puter vision, 2425–2433.
+Baec hler, G.; Sun kara, S.; Wang, M.; Zubach, F.; Man soor,
+H.; Et ter, V.; C˘arbune, V.; Lin, J.; Chen, J.; and Sharma, A.
+2024. Screenai: A vision-lan guage model for ui and in fo-
+grap hics un derstan ding. ar Xiv prep rint ar Xiv:2402.04615.
+Bai, S.; Chen, K.; Liu, X.; Wang, J.; Ge, W.; Song, S.; Dang,
+K.; Wang, P.; Wang, S.; Tang, J.; et al. 2025. Qwen2. 5-vl
+tec hnical report. ar Xiv prep rint ar Xiv:2502.13923.
+Biten, A. F.; Tito, R.; Mafla, A.; Gomez, L.; Rusinol, M.;
+Valveny, E.; Jawahar, C.; and Karat zas, D. 2019. Scene text
+visual question an swering. In Proceedings of the IEEE/CVF
+in ternational con feren ce on com puter vision, 4291–4301.
+Deit ke, M.; Clark, C.; Lee, S.; Tripat hi, R.; Yang, Y.; Park,
+J. S.; Salehi, M.; Muen nighoff, N.; Lo, K.; Soldaini, L.; et al.
+2025. Molmo and pixmo: Open weights and open data for
+state-of-the-art vision-lan guage models. In Proceedings of
+the Com puter Vision and Pat tern Recognition Con feren ce,
+91–104.
+Ding, C.; Bian, M.; Chen, P.; Zhang, H.; Li, T.; Liu, L.;
+Chen, J.; Li, Z.; Zhong, Y.; Liu, Y.; et al. 2025. Building
+a Human-Verified Clinical Reasoning Dataset via a Human
+LLM Hybrid Pipeline for Trustworthy Medical AI. ar Xiv
+prep rint ar Xiv:2505.06912.
+Ding, Y.; Luo, S.; Chung, H.; and Han, S. C. 2023. PDF-
+VQA: A New Dataset for Real-World VQA on PDF Docu-
+ments. In Mac hine Learning and Knowledge Discovery in
+Databases: Ap plied Data Scien ce and Demo Track: Euro-
+pean Con feren ce, ECML PKDD 2023, Turin, Italy, Sep tem-
+ber 18–22, 2023, Proceedings, Part VI, 585–601. Berlin,
+Heidelberg: Sprin ger-Verlag. ISBN 978-3-031-43426-6.
+Doan, K. T.; Huynh, B. G.; Hoang, D. T.; Pham, T. D.;
+Pham, N. H.; Nguyen, Q.; Vo, B. Q.; and Hoang, S. N. 2024.
+Vin tern-1B: an efficient multimodal large lan guage model
+for Viet namese. ar Xiv prep rint ar Xiv:2408.12480.
+Google Cloud. 2025. Gemini 2.0 Flash. Vertex AI Docu-
+men tation. Ac cessed: 2025-09-27.
+Goyal, Y.; Khot, T.; Sum mers-Stay, D.; Bat ra, D.; and
+Parikh, D. 2017. Making the v in vqa mat ter: Elevating the
+role of image un derstan ding in visual question an swering.
+In Proceedings of the IEEE con feren ce on com puter vision
+and pat tern recognition, 6904–6913.
+Kafle, K.; Price, B.; Cohen, S.; and Kanan, C. 2018. DVQA:
+Un derstan ding Data Visualizations via Question An swer-
+ing . In 2018 IEEE/CVF Con feren ce on Com puter Vision
+and Pat tern Recognition (CVPR), 5648–5656. Los Alami-
+tos, CA, USA: IEEE Com puter Society.
+Kahou, S. E.; At kin son, A.; Mic halski, V.; Kadar, A.;
+Trischler, A.; and Ben gio, Y. 2017. Figure QA: An An no-
+tated Figure Dataset for Visual Reasoning. ar Xiv prep rint
+ar Xiv:1710.07300.
+Li, Z.; Guo, Y.; Li, D.; Guo, X.; Li, B.; Xiao, L.; Qiao, S.;
+Chen, J.; Wu, Z.; Zhang, H.; Shu, X.; and Liu, S. 2025.
+Chart Galaxy: A Dataset for In fograp hic Chart Un derstand-
+ing and Generation. ar Xiv prep rint ar Xiv:2505.18668.
+Lin, M.; Xie, T.; Liu, M.; Ye, Y.; Chen, C.; and Liu, S.
+2025. In fo Chart QA: A Benchmark for Multimodal Ques-
+tion An swering on In fograp hic Charts.
+ar Xiv prep rint
+ar Xiv:2505.19028.
+Lu, S.; Li, Y.; Xia, Y.; Hu, Y.; Zhao, S.; Ma, Y.; Wei, Z.;
+Li, Y.; Duan, L.; Zhao, J.; et al. 2025. Ovis2. 5 Tec hnical
+Report. ar Xiv prep rint ar Xiv:2508.11737.
+Luu-Thuy Nguyen, N.; Nguyen, N. H.; T. D. Vo, D.; Tran,
+K. Q.; and Nguyen, K. V. 2023. EVJVQA CHALLEN GE:
+MULTILIN GUAL VISUAL QUESTION AN SWERING.
+Journal of Com puter Scien ce and Cybernetics, 237–258.
+Masry, A.; Islam, M. S.; Ahmed, M.; Bajaj, A.; Kabir, F.;
+Kartha, A.; Laskar, M. T. R.; Rahman, M.; Rahman, S.;
+Shahmoham madi, M.; Thakkar, M.; Parvez, M. R.; Hoque,
+E.; and Joty, S. 2025. Chart QAP ro: A More Diverse and
+Challen ging Benchmark for Chart Question An swering. In
+Che, W.; Naben de, J.; Shutova, E.; and Pilehvar, M. T., eds.,
+Fin dings of the Association for Com putational Lin guistics:
+ACL 2025, 19123–19151. Vien na, Austria: Association for
+Com putational Lin guistics. ISBN 979-8-89176-256-5.
+Masry, A.; Long, D. X.; Tan, J. Q.; Joty, S.; and Hoque,
+E. 2022. Chart QA: A Benchmark for Question An swering
+about Charts with Visual and Logical Reasoning. In Mure-
+san, S.; Nakov, P.; and Villavicen cio, A., eds., Fin dings of
+the Association for Com putational Lin guistics: ACL 2022,
+2263–2279. Dublin, Ireland: Association for Com putational
+Lin guistics.
+Mat hew, M.; Bagal, V.; Tito, R.; Karat zas, D.; Valveny, E.;
+and Jawahar, C. 2022. In fograp hic vqa. In Proceedings of the
+IEEE/CVF Win ter Con feren ce on Ap plications of Com puter
+Vision, 1697–1706.
+Mat hew, M.; Karat zas, D.; and Jawahar, C. 2021. Doc vqa: A
+dataset for vqa on document images. In Proceedings of the
+IEEE/CVF win ter con feren ce on ap plications of com puter
+vision, 2200–2209.
+Met hani, N.; Gan guly, P.; Khap ra, M. M.; and Kumar, P.
+2020.
+Plot QA: Reasoning over Scien tific Plots . In 2020
+IEEE Win ter Con feren ce on Ap plications of Com puter Vi-
+sion (WACV), 1516–1525. Los Alamitos, CA, USA: IEEE
+Com puter Society.
+Nguyen, N. H.; Vo, D. T.; Van Nguyen, K.; and Nguyen,
+N. L.-T. 2023. Open Vi VQA: Task, dataset, and multimodal
+fusion models for visual question an swering in Viet namese.
+Inf. Fusion, 100(C).
+Pham, H. Q.; Nguyen, T. K.-B.; Van Nguyen, Q.; Tran,
+D. Q.; Nguyen, N. H.; Van Nguyen, K.; and Nguyen, N.
+L.-T. 2025. Vi OCRVQA: novel benchmark dataset and Vi-
+sion Reader for visual question an swering by un derstan ding
+Viet namese text in images. Multimedia Syst., 31(2).
+
+
+Singh, A.; Natarajan, V.; Shah, M.; Jiang, Y.; Chen, X.; Ba-
+tra, D.; Parikh, D.; and Rohrbach, M. 2019. Towards vqa
+models that can read. In Proceedings of the IEEE/CVF con-
+feren ce on com puter vision and pat tern recognition, 8317–
+8326.
+Tanaka, R.; Nishida, K.; and Yoshida, S. 2021. Visual MRC:
+Mac hine Reading Com prehen sion on Document Images. In
+Proceedings of the AAAI Con feren ce on Artificial In telli-
+gen ce, volume 35, 13878–13888.
+Tran, K. Q.; Nguyen, A. T.; Le, A. T.-H.; and Van Nguyen,
+K. 2021. Vi VQA: Viet namese visual question an swering.
+In Proceedings of the 35th Pacific Asia Con feren ce on Lan-
+guage, In formation and Com putation, 683–691.
+Tran, K. V.; Phan, H. P.; Van Nguyen, K.; and Nguyen, N.
+L. T. 2024. Vi CLEVR: a visual reasoning dataset and hybrid
+multimodal fusion model for visual question an swering in
+Viet namese. Multimedia Syst., 30(4).
+Van Nguyen, Q.; Tran, D. Q.; Pham, H. Q.; Nguyen, T. K.-
+B.; Nguyen, N. H.; Van Nguyen, K.; and Nguyen, N. L.-T.
+2024. Vitextvqa: A large-scale visual question an swering
+dataset for evaluating viet namese text com prehen sion in im-
+ages. ar Xiv prep rint ar Xiv:2404.10652.
+Wang, W.; Gao, Z.; Gu, L.; Pu, H.; Cui, L.; Wei, X.; Liu, Z.;
+Jing, L.; Ye, S.; Shao, J.; et al. 2025. In tern VL3. 5: Advanc-
+ing Open-Source Multimodal Models in Versatility, Reason-
+ing, and Efficien cy. ar Xiv prep rint ar Xiv:2508.18265.
+Wang, Z.; Xia, M.; He, L.; Chen, H.; Liu, Y.; Zhu, R.; Liang,
+K.; Wu, X.; Liu, H.; Malladi, S.; et al. 2024.
+Charxiv:
+Charting gaps in realistic chart un derstan ding in multimodal
+llms. Advan ces in Neural In formation Processing Systems,
+37: 113569–113697.
+Yao, Y.; Yu, T.; Zhang, A.; Wang, C.; Cui, J.; Zhu, H.; Cai,
+T.; Li, H.; Zhao, W.; He, Z.; et al. 2024.
+Mini CPM-V:
+A GPT-4V Level MLLM on Your Phone. ar Xiv prep rint
+ar Xiv:2408.01800.
+Zhang, B.; Li, K.; Cheng, Z.; Hu, Z.; Yuan, Y.; Chen, G.;
+Leng, S.; Jiang, Y.; Zhang, H.; Li, X.; Jin, P.; Zhang, W.;
+Wang, F.; Bing, L.; and Zhao, D. 2025.
+Video LLa MA
+3: Fron tier Multimodal Foun dation Models for Image and
+Video Un derstan ding. ar Xiv prep rint ar Xiv:2501.13106.
+
+
+Ap pen dix A. Prompt Tem plates
+To en sure rep roducibility, we provide the exact prompt tem plates used for VLM-assisted QA pair generation. These in clude
+rule-based tem plates for Sin gle-image tasks and struc tured tem plates for Multi-image tasks.
+Category
+Prompt Tem plate
+Sin gle-image– Image-span
+You are given an in fograp hic image. Your task is to generate 2–3 fac tual question–an swer (QA)
+pairs whose an swers are verbatim spans visible in the image.
+Your an swer should be a sin gle word, num ber, or phrase exac tly as it ap pears in the in fograp hic.
+Do not in fer or parap hrase. The out put format should be [’An swer’]
+Remem ber to generate the final an swer on ly wit hout any additional text.
+Image: <image>
+Sin gle-image– Question-span
+You are given an in fograp hic image. Your task is to generate 2–3 multip le-choice question–an swer
+(QA) pairs where each question explicit ly lists several op tions wit hin the question text.
+The an swer must be exac tly one op tion, verbatim, from the provided list of op tions. Do not para-
+phrase or in fer beyond what is writ ten. The out put format should be [’An swer’].
+Make sure each question lists explicit op tions, the an swer mat ches exac tly one of them wit hout
+parap hrasing or multip le selec tions, and out put on ly the final an swer wit hout any extra text.
+Image: <image>
+Sin gle-image– Multi-span
+You are given an in fograp hic image. Your task is to generate 2–3 question–an swer (QA) pairs where
+each an swer con sists of two or more non-con tiguous text segments, all ap pearing verbatim in the
+in fograp hic.
+The question should be a sin gle sen ten ce that clearly instructs how to select these segments (not
+two separate questions). Each text segment in the an swer must be copied exac tly as it ap pears in
+the image, wit hout merging, parap hrasing, or adding con nec tive words.
+The out put format should be an array of strings or a sin gle string with a con sistent delimiter (e. g.,
+[’An swer1’, ’An swer2’]).
+Remem ber to generate the final an swer on ly wit hout any additional text.
+Image: <image>
+Sin gle-image– Non-extrac tive
+You are given an in fograp hic image. Your task is to generate 2–3 question–an swer (QA) pairs where
+each an swer is not direc tly extrac table from the image but must be com puted or in ferred using the
+in formation shown.
+The final an swer must be a sin gle numeric value (in teger, decimal, or percen tage). Do not provide
+textual explanations or multip le values. En sure that the question requires reasoning or calculation
+and that the final value is not explicit ly writ ten in the in fograp hic.
+The out put format should be [’Numeric an swer’].
+Remem ber to generate the final numeric an swer on ly wit hout any additional text.
+Image: <image>
+Multi-image– Multi-image span
+You are given a set of related in fograp hic images. Write 2 QAs whose an swers com bine textual
+spans from at least two images un der a logical con dition.
+Your an swer should list the merged spans exac tly as they ap pear ac ross images. Use brac kets for
+multip le items: [’An swer1’,’An swer2’]. Do not explain.
+Remem ber to generate the final an swer on ly wit hout any additional text.
+Images: <image1>, <image2>
+Multi-image– Cross-image syn thesis
+You are given a set of related in fograp hic images. Write 2 QAs that require com paring, aligning, or
+in terpreting in formation ac ross images to reach a con clusion.
+Your an swer should be con cise and direc tly sup ported by the visuals. In clude units as shown if
+ap plicable. Do not generate reasoning steps or explanations.
+Remem ber to generate the final an swer on ly wit hout any additional text.
+Images: <image1>, <image2>
+Multi-image– Non-span numeric
+You are given a set of related in fograp hic images. Write 2 QAs requiring numerical operations such
+as sum, differen ce, or average com puted ac ross the images.
+Your an swer should be a sin gle num ber or short phrase with the exact unit shown (e. g., million, B,
+K). Do not show calculation steps.
+Remem ber to generate the final an swer on ly wit hout any additional text.
+Images: <image1>, <image2>
+Table 6: Prompt tem plates used for VLM-assisted QA generation and verification ac ross Sin gle-image and Multi-image tasks.

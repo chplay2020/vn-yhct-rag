@@ -127,6 +127,8 @@ def ensure_payload_indexes(qdrant_url: str, collection: str) -> None:
         ("doc_type", "keyword"),
         ("category", "keyword"),
         ("is_noise", "bool"),
+        ("parent_id", "keyword"),
+        ("child_index", "integer"),
     ]
     for field_name, schema_type in index_specs:
         try:

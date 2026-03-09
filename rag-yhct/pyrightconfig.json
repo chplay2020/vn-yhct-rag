@@ -1,5 +1,9 @@
 {
   "extraPaths": ["src"],
   "venvPath": ".",
-  "venv": ".venv"
+  "venv": ".venv",
+  "reportUnknownMemberType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownParameterType": false
 }

@@ -1,0 +1,328 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 31: Thuốc điều trị rối loạn lipop rotein máu
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được cơ chế tác dụng, tác dụng, tác dụng không mong muốn và áp dụng
+điều trị của các thuốc ảnh hưởng đến hấp thu và thải trừ lipid máu: cholestyramin,
+colestipol .
+2. Nêu được cơ chế tác dụng, tác dụng không mong muốn, áp dụng điều trị của
+các thuốc ảnh hưởng đến sinh tổng hợp lipid: acid nicotinic, dẫn xuất của
+acid fibric, dẫn xuất statin, probucol.
+1. Đại cương
+Tăng lipop rotein máu là một yếu tố gây nên vữa xơ động mạch và bệnh mạch vành. Để
+điều trị rối loạn lipop rotein máu, ngoài thay đổi chế độ ăn, đặc biệt là ăn ít lipid, tăng
+cường hoạt động thể lực là những biện pháp rất quan trọng, thì không thể thiếu được các
+thuốc hạ lipop rotein máu.
+1.1. Cấu trúc và phân loại lipop rotein
+ở trong máu, các lipid không tan được, vì vậy phải kết hợp với protein nhờ liên kết Van -
+der-Walls để tạo thành lipop rotein. Nhờ tạo thành lipop rotein, tan được trong nước để vận
+chuyển đến các mô. Lipop rotein có dạng hình cầu với đường kính 100 -500 A° gồm 2
+thành phần chính:
+- Phần ưa nước (phần vỏ ) chứa apop rotein, cholesterol tự do và phospholipid .
+- Phần kỹ nước (trung tâm) chứa cholesterol este hoá, triglycerid.
+Protein gắn vào các lipid có nguồn gốc tạ i niêm mạc ruột hoặc tại gan gọi là
+apolipop rotein. Dựa vào cấu trúc các acid amin, phân tử lượng và các chức năng,
+apolipop rotein được xếp thành các nhóm khác nhau theo thứ tự chữ cái A, B, C, D, E.
+Trong mỗi nhóm, lại được xếp thành dưới nhóm, ví dụ nhóm A gồm A1, A2, A4; nhóm B
+gồm B48, B100; C gồm C1, C2, C4 và nhóm E gồm E1, E2, E4.
+Do tỉ lệ protein và lipid khác nhau nên tỉ trọng dao động từ 0,9 đến trên 1,2. Dựa vào tỷ
+trọng, lipop rotein được xếp thành 5 loại có chức năng khác nhau.
+- Hạt vi thể dưìng chấp (chylomic ron)
+- Lipop rotein tỷ trọng rất thấp (VLDL: very low den sity lipop rotein)
+- Lipop rotein tỷ trọng thấp (LDL: low den sity lipop rotein)
+- Lipop rotein tỷ trọng trung bình (IDL: in termediate den sity lipop rotein)
+- Lipop rotein tỷ trọng cao (HDL: high den sity lipop rotein)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Trong mỗi tế bào, đặc biệt là tế bào gan, tế bào nội mô mao mạch có chứa bộ phận nhận
+cảm đặc hiệu LDL gọi là LDL-recep tor. Recep tor này có chức năng nhập LDL vào trong
+tế bào và giải phóng lipid thông qua en zym trong lysosom . Khi lượng cholesterol trong tế
+bào tăng cao so với nhu cầu, sự tổng hợp LDL -recep tor ở màng tế bào giảm xuống. Ngược
+lại, khi lượng cholesterol trong nội bào giảm, thì sự tổng hợp LDL -recep tor ở màng tế bào
+tăng lên.
+Cho đến nay, cơ chế vận chuyển choles terol của HDL vẫn còn chưa được biết rõ. Theo
+một số tác giả, thì dưới tác dụng của lecit hin cholesterol acyltran sferase (LCAT), cùng
+với sự hoạt hóa apolipop rotein AI, cholesterol tự do của VLDL và LDL bị ester hóa đi vào
+phần trung tâm không phân cực của HDL; HDL sĩ vận chuyển cholesterol này đến gan và
+bị chuyển hóa. HDL có vai trò rất quan trọng trong bệnh vữa xơ động mạch, khi HDL
+trong máu < 0,3g/l, thì tỷ lệ vữa xơ động mạch cao và ngược lại khi nồng độ HDL > 0,76
+g/l thì tỷ lệ vữa xơ động mạch rất thấp. Một thuốc hạ lipop rotein tốt là thuốc làm giảm
+mạnh LDL và gây tăng HDL rõ rệt.
+Mỗi tế bào cũng tự tổng hợp cholesterol từ acetyl Co A nhờ hydroxymet hyl glutaryl - Co A
+- reduc tase (HMG - Co A - reduc tase). Hoạt tính của en zym này bị giảm khi lượng
+cholesterol trong tế bào tăng cao và ngược lại, hoạt tính tăng khi lượng cholesterol trong
+nội bào giảm xuống.
+1.2. Tăng lipop rotein máu và phân loại sự tăng lipop rotein máu
+ở cơ thể bình thường, nồng độ các lipop rotein trong máu tồn tại trong trạng thái cân b ằng
+động. Khi có rối loạn trạng thái cân bằng động này sĩ gây nên rối loạn chuyển hóa
+lipop rotein máu. Sự rối loạn có thể do:
+- Tăng cường cholesterol, triglycerid ngoại sinh.
+- Rối loạn chức năng xúc tác chuyển hóa lipop rotein của lipop roteinase.
+- Yếu tố toàn thân làm tăng chuyển hóa glucid, protid để tổng hợp lipid và tăng hoạt động
+của số hormon làm giảm thuỷ phân lipid ở trong cơ, gan và mì như bệnh đái tháo đường,
+hội chứng thận hư, tăng ure máu, suy giáp, nghiện rượu, dùng thuốc tránh thai, corticoid ,
+ức chế - giao cảm...
+- Yếu tố di truyền: ở một số người có rối loạn chuyển hóa lipop rotein, mang tính chất di
+truyền. ở những người này, thấy có sự giảm số lượng LDL -recep tor hoặc giảm chất lượng
+recep tor này.
+Dựa vào tăng các loại lipop rotein sự tăng l ipop rotein máu được chia thành 6 typ khác
+nhau: I, IIa, IIb, III, IV và V.
+Đến nay, 99% hội chứng tăng lipop rotein máu thuộc typ IIa, IIb và IV. Nhiều thuốc hạ
+lipop rotein đã được nghiên cứu và được dùng trên lâm sàng với nhiều cơ chế khác nhau,
+nhưng chưa có thuốc nào có tác dụng tốt trên tất cả các typ của rối loạn lipop rotein máu.
+2. Thuốc điều trị rối loạn lipop rotein máu
+Dựa vào cơ chế tác dụng trên lipop rotein, thuốc được chia thành 2 nhóm chính:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Làm giảm hấp thu và tăng thải trừ lipid
+- Làm giảm tổng hợp lipid.
+2.1. Thuốc làm giảm hấp thu và tăng thải trừ lipid
+Là những thuốc có tính hấp thụ mạnh, tạo phức với acid mật, làm giảm quá trình nhũ hóa
+các lipid ở ruột, dẫn đến giảm hấp thu và tăng thải lipid qua phân. Ngoài ra, các thuốc
+nhóm này gián tiếp làm tăng chuyển hóa cholesterol tạo thành acid mật thông qua sự
+thoát ức chế hydroxylase ở mic rosom gan (hydroxylase là en zym điều hòa tổng hợp acid
+mật từ cholesterol bị ức chế bởi acid mật), và làm tăng số lượng và hoạt tính LDL -
+recep tor ở màng tế bào.
+2.1.1. Cholestyramin
+Là chất nhựa trao đổi ion, có tính base mạnh, không tan trong nước, uống hầu như không
+hấp thu qua đường tiêu hóa, nhưng không ảnh hưởng đến các en zym ở các đường tiêu hóa.
+Do có sự trao đổi ion clo với acid mật mang điện â m tạo nên phức hợp nhựa gắn acid mật
+không hấp thu làm tăng thải acid mật qua phân; ức chế chu kỵ gan ruột của acid mật làm
+tăng sự tổng hợp acid mật từ cholesterol bởi sự thoát ức chế hydroxylase. Do giảm acid
+mật nên thuốc cũng làm giảm sự hấp thu sterol nguồn tổng hợp cholesterol..
+Thuốc bắt đầu có tác dụng hạ LDL trong máu sau khi dùng 4 -7 ngày và tác dụng tối đa
+trong vòng 2 tuần. Trên hầu hết bệnh nhân, thuốc làm tăng triglycerid từ 5 - 20% so với
+trước khi điều trị, nhưng dần dần sĩ trở về giá trị ba n đầu trong vòng 4 tuần.
+Cholestyramin làm tăng HDL-cholesterol khoảng 5% và giảm LDL - cholesterol khoảng
+10 - 35% tuỵ theo liều lượng, và được chỉ định tốt ở bệnh nhân tăng lipop rotein máu typ
+IIa.
+Do tạo được phức với acid mật, nên thuốc có thể gây rối loạn đường tiêu hóa như: buồn
+nôn, đầy bụng, táo bón, hạ prot hrom bin. Ngoài ra do tính hấp thu mạnh, nên thuốc còn
+làm giảm hấp thu một số thuốc khi dùng cùng đường uống như: digitoxin, pheylbutazon,
+phenobarbital, clorot hiazid, thuốc chống đông dẫn xuất c oumarin, thyroxin. Để tránh
+tương tác thuốc, những thuốc trên nên uống một giờ trước hoặc 4 giờ sau khi dùng
+cholestyramin.
++ Chế phẩm và liều dùng:
+- Cholestyramin (Questran) gói bột 4g, uống 16 -32 gam trong 24 giờ chia làm 2 - 4 lần.
+2.1.2. Colestipol
+Là polyme của diet hylpen tamin và epic lohydrin, tan trong nước, hút ẩm rất mạnh. Tác
+dụng, cơ chế tác dụng và tác dụng không mong muốn giống như cholestyramin.
+Chế phẩm:
+Colestipol (Colestid) gói 5 gam hoặc viên 1 gam, uống 10 -30 gam/24 giờ, chia 2-4 lần.
+Thuốc được chỉ định trong tăng lipop rotein máu typ II.
+2.1.3. Neomycin
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Là kháng sinh nhóm aminoglycosid, uống làm hạ lipop rotein máu, đặc biệt là hạ LDL -
+cholesterol (không phụ thuộc vào tác dụng kháng khuẩn) và được chỉ định trong tăng
+lipop rotein máu typ IIa.
+- Uống liều 0,5 - 2g/24 giờ.
+- Tác dụng không mong muốn (xin đọc bài “Kháng sinh”).
+2.1.4 . Ezetimib
+Là thuốc ức chế sự hấp thu cholesterol ở ruột được dùng riêng rĩ hoặc phối hợp với dẫn
+xuất statin trong trường hợp tăng cholesterol máu do chế độ ăn hoặc do di truyền với liều
+10 mg /ngày. Khi dùng thuốc có thể gặp một số tác dụng không mong muốn như: ỉa chảy,
+đau bụng, đau đầu, phù mạch và phát ban. Không dùng thuốc cho trẻ em dưới 10 tuổi và
+người giảm chức năng gan .
+2.2. Thuốc làm giảm tổng hợp lipid
+Gồm những dẫn xuất của acid fibric ( bezafibrat, cip rofibrat, fenofibrat và gem fibrozil);
+dẫn xuất statin (pravastatin, sim vastatin, lovastatin, rosuvastatin); acid nicotinic; probucol.
+Các dẫn xuất acid fibric tăng hoạt tính lipop rotein lipase, các dẫn xuấ t statin có cấu trúc
+gầ ngiống
+với
+HMG-Co A
+nê nức
+chế cạnh
+tranh
+HMG -Co A-reduc tase
+(hydroxymet hylglutaryl- Co A- reduc tase) làm giảm tổng hợp cholesterol, đồng thời cũng
+làm tăng sinh LDL-recep tor ở màng tế bào.
+Acid nicotinic là một vitamin dùng để điều t rị bệnh Pellagra, nhưng cũng làm hạ
+lipop rotein máu. Tác dụng này được thông qua bởi sự tăng sinh LDL -recep tor và ức chế
+sự tích tụ AMP trong mì, tăng hoạt tính triglyceridlipase làm giảm LDL -cholesterol.
+Probucol có cấu trúc hóa học hoàn toàn khác với nh óm thuốc trên, cơ chế tác dụng của
+thuốc vẫn còn chưa được giải thích đầy đủ. Nhiều nghiên cứu đã chứng minh thuốc làm
+tăng chuyển hóa LDL-cholesterol không thông qua LDL-recep tor vì ở người tăng
+lipop rotein máu có thiếu hụt LDL-recep tor do di truyền, thuốc vẫn còn tác dụng. Có tác
+giả cho rằng probucol ngăn cản oxy hóa của acid béo và làm giảm khả năng tiếp nhập
+LDL của tế bào nội mô.
+2.2.1. Acid nicotinic (Vitamin PP, Vitamin B3, Niacin)
+Là vitamin tan trong nước, có nhiều trong gan, thịt, cá, rau, quả và ngũ cốc. Vi khuẩn ruột
+có thể tổng hợp một lượng nhỏ vitamin PP.
+Ngoài vai trò NAD, NADP tham gia vào chuyển hóa protid, glucid và oxy hóa trong
+chuỗi hô hấp tế bào ở các mô, acid nicotinic còn làm hạ lipop rotein máu rõ rệt. Sau 1 - 4
+ngày điều trị, vitamin PP làm giảm triglycerid 20 - 80%. Đối với LDL-cholesterol, thuốc
+có tác dụng rõ sau 5 - 7 ngày. Sau 3 - 5 tuần điều trị thuốc có tác dụng tối đa. Cơ chế tác
+dụng của thuốc có thể do giảm sản xuất và tăng thải VLDL, ức chế phân huỷ lipid, giảm
+cung cấp acid béo cho gan, giảm tổng hợp triglycerid, giảm vận chuyển triglycerid,
+VLDL và giảm sản xuất LDL. Thuốc gây tăng HDL-cholesterol nhưng cơ chế chưa rõ
+ràng.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Khi thiếu hụt vitamin PP nặng sĩ gây bệnh pellagra có biểu hiện viêm da, ỉa chảy và rối
+loạn trí nhớ.
+- Để giảm tác dụng không mong muốn đặc biệt là nóng bong ,ngứa nửa người trên của
+thuốc, nên uống thuốc vào bữa ăn với liều tăng dần, khởi đầu 300 -600 mg chia làm 3 lần
+trong ngày sau 3- 4 tuần đó sĩ dùng liều duy trì 2-6 g/ngày. Một số tác giả khuyên nên
+uống aspirin 160 - 325 mg/24 giờ cũng có thể làm giảm tác dụng không mong muốn của
+acid nicotinic.
+Thuốc được chỉ định trong tăng lipop rotein máu typ II, III, IV và V. Nên phối hợp với
+cholestyramin và colestipol trong điều trị sĩ giảm được liều l ượng và giảm tác dụng
+không mong muốn của thuốc. Ngoài ra, vitamin PP còn được chỉ định trong trường hợp
+thiếu máu và phụ nữ dùng thuốc tránh thai.
+2.2.2. Dẫn xuất của acid fibric
+Các thuốc nhóm này hấp thu tốt qua đường tiêu hóa, gắn mạnh vào protein huyế t và có tác
+dụng rất khác nhau trên lipop rotein máu, nhưng có cùng một cơ chế chung là tăng hoạt
+tính lipop rotein lipase ở trong tế bào đặc biệt là tế bào cơ, dẫn đến làm tăng thuỷ phân
+triglycerid và tăng thoái hóa VLDL. Sự tăng HDL -cholesterol với cơ chế chưa rõ ràng.
+Các chế phẩm fenofibrat (Lypan thyl), bezafibrat (Bezalip), gem fibrozil (Lopid) và
+cip rofibrat ( Lipanor) đang được ưu tiên lựa chọn sử dụng trong tăng triglyceride nhưng
+do còn có tác dụng trên LDL nên còn được dùng trong tăng lipop rotein t yp II, III, IV và V
+với liều lượng từ 200 mg-1200 mg tuỵ từng chế phẩm. Thuốc có rất ít tác dụng không
+mong muốn, tuy nhiên có thể gặp rối loạn tiêu hóa, đau đầu, chóng mặt, mệt mỏi và đau
+cơ, tiêu cơ vân( đặc biệt ở người giảm chức năng thận), thiếu máu, t ăng nhẹ tran saminase,
+giảm phosphatase kiềm.
+- Chống chỉ định giống nhau với tất cả các thuốc cùng nhóm:
++ Giảm chức năng gan, thận và sỏi mật.
++ Người có thai, cho con bú, trẻ em dưới 10 tuổi.
+2.2.3. Dẫn xuất statin
+Các thuốc nhóm này ức chế HMG-Co A nên làm giảm LDL-cholesterol từ 25-45% tuỵ
+theo từng thuốc và liều lượng. Tác dụng hạ triglycerid kém hơn dẫn xuất acid fibric nên
+được lựa chọn ưu tiên trong những trường hợp tăng cholesterol máu đặc biệt typ II, III, IV
+và V.
+Do đi qua được rau thai và sữa nên thuốc không dùng cho người có chức năng gan, thận
+giảm nặng, phụ nữ có thai và cho con bú, trẻ em dưới 18 tuổi vì thuốc có thể gây bất
+thường ở xương của súc vật thí nghiệm . Dùng lâu dài thuốc gây tăng tran saminase gấp
+3- 4 lần bình thường, ngừng thuốc en zym lại trở về bình thường. Khi điều trị cần theo dõi
+chức năng gan và creatinin phosphokinase.
++ Thuốc có tác dụng không mong muốn giống nhau:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Đau cơ, tiêu cơ vân, sẩn ngứa, đau đầu, chóng mặt, rối loạn tiêu hóa và tăng cao
+tran saminase trong máu.
+- Các thuốc trong nhóm được tóm tắt trong bảng 30.1.
+Bảng 30.1: Chế phẩm và liều lượng một số thuốc trong nhóm statin
+Tên gốc
+Biệt dược
+Liều lượng
+(mg/ngày)
+Atorvastatin
+Lipitor
+10-40
+Fluvastatin
+Lescol
+200-400
+Lovastatin
+Mevacor
+20- 80
+Pravastatin
+Vasten
+10-40
+Rosuvastatin
+Crestor
+10-20
+Sim vastatin
+Lodales
+10- 40
+2.2.4. Probucol (Lorelco, Lurselle)
+Có cấu trúc hoàn toàn khác với các thuốc đã nêu t rên. Rất tan trong lipid nhưng hấp thu
+kém. Thức ăn làm tăng sự hấp thu thuốc. Do tan trong lipid, nên thuốc đọng lại lâu trong
+cơ thể. Sau khi ngừng thuốc 6 tháng, nồng độ thuốc chỉ giảm 80% so với nồng độ tối đa
+trong máu. Thuốc làm hạ LDL-C thất thường, không làm hạ triglycerid. Thuốc gây hạ
+HDL-cholesterol mạnh và kéo dài nên nó chỉ được lựa chọn trong điều trị sau các thuốc
+khác.
+Probucol là chất chống oxy hóa mạnh nên có tác dụng chống xơ vữa mạnh ở súc vật thí
+nghiệm.
+Khi dùng thuốc có thể gặp một số tác dụng không mong muốn: ỉa chảy, đầy bụng, đau
+bụng, buồn nôn.
+Không dùng thuốc ở những bệnh nhân mới bị nhồi máu cơ tim, có khoảng QT C kéo dài,
+phụ nữ có thai, cho con bú, trẻ em dưới 18 tuổi, đang dùng các thuốc chống loạn nhịp tim
+nhóm I, III, chống trầm cảm loại 3 vòng, dẫn xuất phenot hiazin.
+- Viên 250 mg, ngày uống 500mg chia 2 lần.
+2.2.5. D-Thyroxin
+D-Thyroxin là đồng phân quay phải của L -Thyroxin mất một số tác dụng của hormon
+tuyến giáp, nhưng lại có tác dụng hạ lipop rotein máu mạnh do tăng chuy ển cholesterol
+thành acid mật và tăng thải sterol qua phân.
+Được chỉ định cho trẻ em có lipop rotein máu cao. Không dùng cho người có bệnh tim vì
+dễ có cơn nhồi máu cơ tim và cơn đau vùng trước tim. Liều khởi đầu 1mg, sau đó tăng
+dần, tối đa 4-8 mg/24 giờ. Với liều này, không thấy có phản ứng có hại.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2.2.6. Các acid béo không no đa trị họ omega 3
+Trong dầu một số loại cá đặc biệt là cá hồi, cá ngừ, cá trích, cá thu có chứa một số acid
+béo không no đa trị họ Omega 3 có tác dụng làm giảm triglycerid và VLDL nh ưng ít ảnh
+hưởng đến LDL và HDL-cholesterol trong máu. Có 2 acid béo không no họ Omega 3 hay
+dùng là:
+-Omega-3-acid et hylesters: 1 gam biệt dược Omacor 90% omega -3-acid et hylesters
+chứa 46% acid eicosapen taenolic(EPA) , 38 % acid docosahexaenoic (DHA) và 4 mg -
+tocop herol.
+-Omega-3-marin triglyceride: 1 gam biệt dược Maxepa chứa170 mg acid
+eicosapen taenolic(EPA), 115 mg acid docosahexaenoic (DHA) và dưới 100 đơn vị
+vitamin A và 10 đơn vị vitamin D.
+Liều lượng các chế phẩm xin xem tờ hướng dẫn sử dụng thuốc.
+Để hạn chế sự tăng và giúp hạ triglycerid và các lipop rotein máu, nên tăng cường ăn cá,
+đặc biệt là cá hồi, cá thu, cá ngừ, cá trích trung bình 30g/ngày hoặc 3 lần/tuần.
+2.2.7. Một số thuốc điều trị rối loạn lipop rotein mới
+- Hai thuốc mới đang được thử nghiệm trên lâm sàng pha II và III ở người có rối loạn
+lipop rotein máu:
++ BMS-201038 là chất ức chế mic rosomal triglycerid tran sfer protein làm giảm sự
+vận chuyển triglycerid và các lipid không phân cực đến apolipop rotein và giảm sự bài tiết
+triglycerid từ ruột dẫn đến giảm triglycerid và VLDL -cholesterol.
++ Avasimibe : thuốc ức chế ACAT1 và ACAT2(cholesterol acyltran sferase) làm giảm
+sự ester hoá cholesterol ở gan, ruột, đại thực bào và giảm tổng hợp acid mật thông qua sự
+cảm ứng hydroxylase gây nên giảm chylomic ron, VLDL, LDL -cholesterol và triglycerid.
+3. Nguyên tắc điều trị rối loạn lipop rotein máu
+Để hạn chế nguy cơ gây bệnh tim mạch cần phải hạ LDL và tăng HDL trong máu. Theo
+một số nghiên cứu cho thấy muốn ngăn chặn được bệnh mạch v ành nguyên phát hoặc thứ
+phát cần phải giảm cholesterol toàn phần trong máu 20 -25 % hoặc LDL khoảng 30 %.
+Nhằm đạt hiệu quả điều trị cần phải áp dụng một số nguyên tắc sau:
+- Trước tiên phải có chế độ ăn thích hợp để duy trì trọng lượng bình thường và gi ảm
+lipop rotein máu. ở những người có chỉ số khối cơ thể (BMI –body mass in dex ) cao hơn
+bình thường, cần có chế độ ăn chứa < 300 mg cholesterol, acid béo bão hoà chiếm 10%,
+acid béo không bão hòa 10 -15%, glucid 50 - 60% và protein chiếm 10 - 20% tổng số
+calo/ngày.
+- Điều trị nguyên nhân gây tăng lipop rotein máu như: đái tháo đường, suy giáp, hội chứng
+thận hư, tăng ure máu.
+- Giảm hoặc chấm dứt các nguy cơ gây tăng lipop rotein máu như: hút thuốc lá, uống
+rượu, dùng các thuốc corticoid, thuốc tránh thai, t huốc ức chế - adrenergic.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Tăng cường hoạt động thể lực.
+- Sau 3 - 6 tháng thay đổi chế độ ăn, tăng cường hoạt động thể lực và điều trị các nguyên
+nhân và loại bỏ các nguy cơ mà lipop rotein máu vẫn cao thì phải dùng thuốc hạ
+lipop rotein máu.
+- Tuỵ theo cơ chế tác dụng, các thuốc có thể được dùng riêng rĩ hoặc phối hợp 2 hoặc 3
+thuốc có cơ chế khác nhau để đạt được tác dụng hiệp đồng trong điều trị như :
++ Cholestyramin với dẫn xuất statin;
++ Cholestyramin phối hợp với acid nicotinic hoặc cho lestyramin phối hợp với dẫn
+xuất statin và acid nicotinic.
++ Các thuốc thuộc dẫn xuất statin được lựa chọn trước tiên cho tăng cholesterol còn
+dẫn xuất acid fibric ưu tiên cho trường hợp tăng triglycerid. Hai dẫn xuất này có thể dùng
+riêng rĩ hoặc kết hợp trong những trường hợp tăng lipop rotein hỗn hợp. Nhưng phải thận
+trọng và theo dõi tác dụng không mong muốn, đặc biệt là dấu hiệu tiêu cơ vân. Do có tăng
+nguy cơ tiêu cơ vân nên gem fibrozil và dẫn xuất statin không dùng phối hợp trong điều
+trị.
+- Trong quá trình điều trị, ngoài việc thường xuyên theo dõi lượng lipop rotein máu để
+đánh giá hiệu quả điều trị, bệnh nhân còn được theo dõi tác dụng không mong muốn do
+thuốc gây ra như viêm cơ, tiêu cơ vân, tăng tran saminase, rối loạn điện tim v. v...
+Câu hỏi tự lượng giá
+1. Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của cholestyramin và
+colestipol.
+2. Trình bày tác dụng, cơ chế tác dụng áp dụng điều trị của acid nicotinic và
+probucol.
+3. Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của dẫn xuất acid fibric.
+Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của dẫn xuất statin.

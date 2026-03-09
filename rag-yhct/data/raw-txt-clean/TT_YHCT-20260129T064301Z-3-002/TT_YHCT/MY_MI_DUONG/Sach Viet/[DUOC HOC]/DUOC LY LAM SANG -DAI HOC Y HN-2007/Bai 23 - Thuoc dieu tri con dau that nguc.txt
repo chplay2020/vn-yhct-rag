@@ -1,0 +1,344 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 23: Thuốc điều trị cơn đau thắt ngực
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Nêu được các yêu cầu một thuốc chữa cơn đau thắt ngực
+2. Phân biệt được thuốc loại nit rit và thuốc chẹn kênh calci về mặt cơ chế và áp dụng
+điều trị
+Nguyên nhân của cơn đau thắt ngực là do cơ tim bị thiếu oxy đột ngột vì mất thăng bằng
+giữa sự tăng nhu cầu oxy của cơ tim và sự cung cấp không đủ oxy của mạch vành.
+Cơ tim chỉ chiếm 0,5% trọng lượng cơ thể, nhưng khi nghỉ ngơi cũng lưu giữ 5% lưu
+lượng tim. Cơ tim lấy 80- 90% oxy của dòng máu qua cơ tim. Khi cố gắng, khi xúc động
+hoặc dùng catec holamin, tim phải làm việc tăng, nhu cầu oxy chỉ được thoả mãn bằng
+tăng lượng máu cung cấp cho tim.
+Từ lâu, để chống cơn đau thắt ngực, vẫn dùng thuốc làm giãn m ạch vành. Tuy nhiên,
+nhiều thuốc ngoài tác dụng làm giãn mạch vành, lại đồng thời làm giãn mạch toàn thân, vì
+vậy một khối lượng máu đáng lĩ cần cung cấp cho tim thì lại chảy ra các vùng khác. Mặt
+khác, áp lực tĩnh mạch giảm, đòi hỏi tim phải làm việc nhiề u hơn, và vì vậy lại càng tăng
+sử dụng oxy của tim. Khi một phần mạch vành bị tắc, vùng dưới chỗ tắc bị thiếu máu,
+chuyển hoá lâm vào tình trạng kỹ khí, làm tăng tạo thành acid lac tic, adenosin, kali là
+những chất gây giãn mạch mạnh tại chỗ. Nếu cho thuốc giãn mạch, sự cung cấp máu sĩ
+tăng lên ở vùng lành, không có lợi gì cho vùng bị thiếu máu, trái lại, sự tưới máu cho vùng
+bị thiếu máu lại còn bị giảm đi. Hiện tượng này được gọi là “lấy trộm của mạch vành”
+(“vol coronarien”).
+Trong cơn đau thắt ngực mà nguyên nhân là do thiếu máu đột ngột của cơ tim thì việc cần
+trước hết là làm giảm nhu cầu oxy của cơ tim, và hơn nữa là loại trừ tất cả những tác động
+đòi hỏi tim phải làm việc nhiều lên và chuyển hoá tăng lên.
+Vì vậy, các thuốc chống cơn đau thắt ngực tốt cần đạt được những yêu cầu sau:
+- Tăng cung cấp oxy, tưới máu cho cơ tim.
+- Giảm sử dụng oxy bằng cách giảm công năng tim (tình trạng co bóp của cơ tim, nhịp
+tim).
+- Làm giảm cơn đau. Tuy nhiên cần thấy rằng vị trí của vùng thiếu máu ở cơ tim không
+hoàn toàn có liên quan đến sự có mặt hoặc mức độ của cảm giác đau, nghĩa là có thể thiếu
+máu ở cơ tim mà không có đau.
+Các thuốc điều trị được chia thành hai loại:
+- Loại chống cơn: các nit rat và nit rit
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Loại điều trị củng cố làm giảm công năng tim và giảm sử d ụng oxy: thuốc phong toả
+rec ptor adrenergic, thuốc chẹn kênh calci (có cả tác dụng giãn mạch)
+1. Loại chống cơn: Nit rat và nit rit
+Các nit rat hữu cơ là các este polyol của acid nit ric, còn các nit rit hữu cơ là các este của
+acid ni tơ. Este nit rat (CONO2) và este nit rit (CONO) được đặc trưng bởi chuỗi C
+ON, trong khi các hợp chất nit ro là C NO2. Như vậy, nit roglycerin là tên gọi không
+đúng của glyceryl trinit rat và không phải là hợp chất nit ro, nhưng do dùng quen và quá
+phổ biến nên không sửa được!
+Các thuốc nhóm này hoặc là dung dịch bay hơi (amylnit rit), hoặc là dung dịch bay hơi
+nhẹ (nit roglycerin), hoặc là thể rắn (isosorbid dinit rat). Tất cẩ các hoạt chất trong nhóm
+này đều giải phóng nit ric oxid (NO) tại mô đích ở cơ trơn thành mạch
+Các loại thường dùng ở lâm sàng là:
+Tên chung và biệt dược
+Cấu trúc hóa học
+Liều lượng và đường
+dùng
+Amyl nit rit
+H3C
+CHCH2CH2ONO
+H3C
+Hít: 0,18- 0,3 ml
+Nit roglycerin
+(glyceryl trinit rat
+Nit rostat,
+Nit ro-
+bid
+O
+NO2
+NO2
+O
+NO2
+H2C
+HC
+O
+H2C
+Viên: 0,15- 0,16 mg,
+ngậm
+Phun: 0,14 mg/ nhát bóp
+Viên giải phóng chậm:
+2,5- 9 mg
+Dán: 2,5- 15 mg/ ngày
+Isosorbid dinit rat
+(Isorrdil, sorbit rat)
+O2N
+H2C
+HC
+CH
+C
+CH2
+O
+NO2
+O
+O
+O
+Viên ngậm: 2,5- 10 mg
+Viên nhai: 5- 10 mg
+Viên uống: 10- 40 mg
+Viên giải phóng chậm:
+40- 80 mg
+Eryt hrityl tet ranit rat
+(cardilat)
+H2C O NO2
+HC O NO2
+HC O NO2
+H2C O NO2
+Viên ngậm: 5- 10 mg
+Viên uống: 10 mg
+1.1. Tác dụng dược lý và cơ chế
+Nit rat làm giãn mọi loại cơ trơn do bất kỵ nguyên nhân gây tăng trương lực nào. Không
+tác dụng trực tiếp trên cơ tim và cơ vân.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Trên mạch, nit rat làm giãn mạch da và mặt (gây đỏ mặt) làm giãn mạch toàn thân. Tĩnh
+mạch giảm, làm giảm dòng máu chảy về tim (giảm tiền gánh). Động mạch giãn, làm
+giảm sức cản ngoại biên (giảm hậu gánh). Mặc dù nhịp tim có thể nhanh một chút do
+phản xạ giãn mạch, nhưng thể tích tâm thu giảm, công năng tim giảm nên vẫn giảm sử
+dụng oxy của cơ tim. Mặt khác, sự phân bố máu cho cơ tim cũng thay đổi, có lợi cho
+vùng dưới nội tâm mạc.
+Trên cơ trơn khác, nit rat làm giãn phế quản, ống tiêu hoá, đường mật, đường tiết niệu sinh
+dục.
+Cơ chế làm giãn cơ trơn: Các nit rit, nit rat và hợp chất nit roso giải phóng nit ric oxyd (NO)
+trong tế bào cơ trơn dưới tác dụng của hệ en zim chưa hoàn toàn biết rõ. NO được giải
+phóng ra sĩ hoạt hóa guanylyl cyc lase và làm tă ng tổng hợp GMPv, dẫn đến khử
+phosphoryl chuỗi nhẹ của myosin, gây giãn cơ trơn (hình 23.1). Myosin chuỗi nhẹ
+(myosin light chain) phosphoryl hóa (Myosin LC PO4) thì gây co cơ.
+Nit rat
+Tế bào nội mạc mạch
+NO
+Guanylyl
+Guanylyl
+cyc lase
+cyc lase hoạt hóa
+GTP
+GMPv
+Myosin- LC- PO4
+Myosin LC
+Co cơ
+Giãn cơ
+Hình 23.1: cơ chế gây giãn cơ trơn của nit rat
+Tác dụng giãn cơ của nit rat giống tác dụng của yếu tố giãn cơ của tế bào nội mô (EDRF:
+En dot helium- derived relaxing fac tor). Tế bào nội mô mạch máu tiết EDRF, chính nó là
+NO hoặc là tiền chất của NO (nit rosot hiol). EDRF thấm từ nội mô mạch vào tế bào cơ
+trơn thành mạch và hoạt hóa guanylyl cyc lase tại đó.
+Các chất nội sinh gây giãn mạch có thể cũng do thông qua cơ chế giải phóng EDRF
+(hình 23.2) như con đường chung cuối cùng.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 23.2. Tác dụng giãn cơ thông qua EDRF
+Vùng giãn mạch phụ thuộc vào sinh khả dụng và chuyển hoá khác nhau của thuốc.
+Nit roglycerin cần có cystein mới chuyển thành n it rosot hiol. Vì vậy, dùng lâu tác dụng sĩ
+giảm (quen thuốc), cần dùng ngắt quãng để hồi phục cystein. Nit rop russiat trong quá trình
+chuyển hóa không cần cystein nên không có hiện tượng quen thuốc.
+1.2. Dược động học
+Các nit rat hữu cơ chịu ảnh hưởng rất mạn h của en zim gan glutat hion - organic nit rat
+reduc tase, thuốc bị khử nit rat từng bước và mất hoạt tính.
+Nit roglycerin đặt dưới lưìi, đạt nồng độ tối đa sau 4 phút, t/2 = 1 -3 phút. Chất chuyển hoá
+dinit rat có hoạt tính giãn mạch kém 10 lần và t/2 khoảng 40 p hút.
+Isosorbid dinit rat đặt dưới lưìi có pic huyết tương sau 6 phút và t/2 = 45 phút. Các chất
+chuyển hoá ban đầu là isosorbid - 2 - mononit rat và isosorbid - 5 - mononit rat vẫn còn tác
+dụng và có t/2 là từ 2 – 5 giờ.
+1.3. Độc tính
+Độc tính cấp tính liên quan đến tác dụng giãn mạch: tụt huyết áp thế đứng, nhịp tim
+nhanh, đau nhói đầu. Các chế phẩm nit rat vẫn có thể dùng cho người có tăng nhãn áp, tuy
+nhiên không dùng được cho người có tăng áp lực nội sọ.
+1.4. Các chế phẩm và liều lượng
+Bảng dưới đây ghi các chế phẩm của nit rat và nit rit dùng trong điều trị cơn đau thắt ngực.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thuốc
+Liều lượng
+Thời gian
+tác dụng
+Loại “ tác dụng ngắn”
+Nit roglycerin, đặt dưới lưìi
+Isosorbid dinit rat, dưới lưìi
+Amyl nit rit, ngửi
+0,15- 1,2 mg
+2,5- 5,0 mg
+0,18- 0,3 m L
+10- 30 phút
+10- 60 phút
+3- 5 phút
+Loại “ tác dụng dài”
+Nit roglycerin, uống tác dụng chậm
+Nit roglycerin, thuốc mì 2%
+Nit roglycerin, giải phóng chậm, uống
+Nit roglycerin, giải phóng chậm qua da.
+Isosorbid dinit rat, uống
+Isosorbid dinit rat, nhai
+Isosorbid dinit rat, uống
+6,5- 13 mg mỗi 6- 8 giờ
+2,5- 5 mg mỗi 4- 8 giờ
+2 mg mỗi 4 giờ
+10- 25 mg(1 miếng cao)/24 giờ
+10- 60 mg mỗi 4- 6 giờ
+5- 10 mg mỗi 2- 4 giờ
+20 mg mỗi 12 giờ
+6- 8 giờ
+3- 6 giờ
+3- 6 giờ
+8- 10 giờ
+4- 6 giờ
+3 giờ
+6- 10 giờ
+2. Loại điều trị củng cố
+2.1. Thuốc phong toả adrenergic
+Làm giảm công năng tim do làm chậm nhịp tim. Đối kháng với tăng nhịp tim do gắng
+sức. Làm tăng thể tích tâm thất và kéo dài thời kỵ tâm thu. Tuy vậy, tác dụng chính vẫn là
+tiết kiệm sử dụng oxy cho cơ tim. Mặt khác, thuốc làm hạ huyết áp trên người tăng huyết
+áp.
+Không dùng cho người có suy thất trái, vì có thể gây trụy tim mạch đột ngột. Không nên
+ngừng thuốc đột ngột và có thể gây hiện tượng “bật lại” làm nhồi máu cơ tim, đột tử.
+- Chế phẩm: các thuốc thường dùng là timolol, me top rolol atenolol và prop ranolol. Xin
+xem mục này trong bài “thuốc tác dụng trên hệ thần kinh thực vật”.
+2.2. Thuốc chẹn kênh calci
+Trong hiệu thế hoạt động của tim, Ca 2+ có vai trò trong giai đoạn 2 (giai đoạn cao nguyên)
+và đặc biệt là trong khử cực của nút dẫn nhịp (pacemaker), nút xoang và nút nhĩ thất.
+Calci vào tế bào theo kênh chậm. Trong cơ tim, Ca 2+ gắn vào troponin, làm mất hiệu quả
+ức chế của troponin trên bộ co thắt, do đó ac tin và myosin có thể tương tác với nhau để
+gây ra co cơ tim. Vì thế, các thuốc chẹn kênh calci làm giảm lực co bóp của cơ tim (xim
+xem thêm mục này trong bài “Thuốc chữa tăng huyết áp”), làm chậm nhịp tim và giảm
+dẫn truyền nhĩ thất.
+2.2.1. Cơ chế tác dụng chống cơn đau thắt ngực
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Các thuốc chẹn kênh calci do làm giảm lực co bóp của cơ tim nên làm giảm nhu cầu oxy
+của cơ tim (cơ chế chính).
+- Trên thành mạch, các thuốc làm giãn mao động mạch, làm giảm sức cản ngoại biên,
+giảm huyết áp và giảm áp lực trong tâm thất, giảm nhu cầu oxy.
+- Đối kháng với co thắt mạch vành. Tác dụng tốt trong điều trị các cơn đau thắt ngực chưa
+ổn định. Tác dụng phân phối lại máu trong cơ tim, có lợi cho vùng dưới nội mạc, là vùng
+rất nhạy cảm với thiếu máu.
+2.2.2. Chỉ định
+- Dự phòng các cơn co thắt mạch vành
+- Cơn đau thắt ngực do co thắt mạch vành (Prin zmetal) là chỉ định tốt nhất.
+- Cơn đau thắt ngực do co thắt ngực không ổn định: tác dụng tương tự với thuốc chẹn .
+Có thể dùng phối hợp với các dẫn xuất nit ro
+2.2.3. Tác dụng không mong muốn
+Các tác dụng không mong muốn thường liên quan đến tác dụn g giãn mạch như nhức đầu,
+cơn bốc hoả, tụt huyết áp thế đứng, thỉu. Nặng hơn là các dấu hiệu ức chế trên tim: tim
+nhịp chậm, nhĩ thất phân ly, suy tim sung huyết, ngừng tim.
+2.2.4. Các thuốc
+Bảng 23.1: So sánh tác dụng trên tim của một số thuốc
+Tên thuốc
+Giãn mạch
+vành
+ức chế co
+bóp tim
+ức chế tính
+tự động (nút
+xoang)
+ức chế sự
+dẫn truyền
+nhĩ thất
+Nifedipin
+Nicardipin
+Nimodipin
+Diltiazem
+Verapamil
+5
+5
+5
+3
+4
+1
+0
+1
+2
+4
+1
+1
+1
+5
+5
+0
+0
+0
+4
+5
+Ghi chú: Thang điểm cho từ 0 (không tác dụng) đến 5 (tác dụng mạnh n hất).
+Qua bảng trên cho thấy nifedipin và các thuốc cùng nhóm (xem “Thuốc chữa tăng huyết
+áp”) làm giãn mạch vành mạnh, ít ảnh hưởng đến hoạt động của cơ tim. Verapamil ức chế
+hoạt động của cơ tim mạnh nhất, dùng tốt cho điều trị loạn nhịp tim.
+Bảng 23.2: Dược động học và liều lượng một số thuốc thường dùng
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tên thuốc
+Sinh khả
+dụng (%)
+Khởi phát tác
+dụng
+t/2 (h)
+Liều lượng (uống)
+Nifedipin
+Nicardipin
+Am lodipin
+Diltiazem
+Verapamil
+45- 70
+35
+65- 90
+40- 65
+20- 35
+5- 20 phút
+(ngậm, uống)
+20 phút uống
+-
+> 30 phút
+30 phút (uống)
+4
+2- 3
+30- 50
+3- 4
+6
+20- 40 mg, cách 8giờ/ lần
+20- 40mg, cách 8giờ/ lần
+5- 10 mg/ lần/ ngày
+30- 80 mg, cách 6giờ/ lần
+80-160 mg, cách 8giờ/ lần
+3. Thuốc khác
+Các hướng nghiên cứu thuốc mới đang phát triển và cò n đang trong bước thử nghiệm:
+- Yếu tố phát triển nội mạc mạch (VEGF: vascular en dot helial growth fac tor) nhằm phát
+triển các mạch bàng hệ cho vùng thiếu máu.
+- Tremetazidin (Vastarel): duy trì chuyển hoá năng lượng ở các tế bào bị thiếu oxy hoặc
+thiếu máu do trimetazidin ngăn ngừa sự giảm sút mức ATP trong tế bào, vì vậy đảm bảo
+được chức phận của các bơm ion qua màng tế bào, duy trì được tính hằng định nội môi.
+Dùng điều trị dài ngày.
+Vastarel viên nén 20mg. Mỗi lần uống 1 viên vào bữa ăn, mỗi ngày uống 2 -3 lần.
+câu hỏi tự lượng giá
+1. Trình bày cơ chế bệnh sinh của cơn đau thắt ngực và những yêu cầu của 1 thuốc
+chữa cơn đau thắt ngực tốt.
+2. Trình bày cơ chế tác dụng của thuốc loại nit rit.
+3. Phân tích dược động học và cách dùng của loại nit rit tác dụng ngắn và n it rit tác
+dụng dài. Cho thí dụ từng loại.
+Phân tích cơ chế thuốc chẹn kênh calci để lựa chọn thuốc cho tim mạch

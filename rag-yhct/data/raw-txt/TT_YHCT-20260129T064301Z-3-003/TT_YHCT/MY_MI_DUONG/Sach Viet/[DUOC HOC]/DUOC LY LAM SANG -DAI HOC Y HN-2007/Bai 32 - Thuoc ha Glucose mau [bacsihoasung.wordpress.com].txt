@@ -1,0 +1,352 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 32: Thuốc hạ glucose máu
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được tác dụng, cơ chế tác dụng và áp dụng điều trị của insulin
+2. Trình bày được phân loại, cơ chế tác dụng, và áp dụng điều trị của dẫn xuất
+sulfonylure và cơ chế tác dụng và áp dụng điều trị của dẫn xuất biguanid và
+acarbose và các thuốc khác.
+1. Đại cương
+ở cơ thể bình thường, glucose máu được duy trì ở nồng độ hằng định nhờ sự cân bằng
+giữa insulin và glucagon, hormon tăng trưởng, cortisol, thyroxin và catecholamin. Khi có
+rối loạn sự cân bằng của hệ thống này, đặc biệt là giảm số lượng, chất lượng cũng như sự
+nhạy cảm của các tế bào đối với insulin sĩ gây ra bệnh tăng glucose máu.
+Dựa vào số lượng insulin và mức độ nhạy cảm của tế bào với insulin, bệ nh đái tháo đường
+được chia thành hai nhóm:
+- Nhóm phụ thuộc insulin còn gọi là tăng glucose máu týp I, thường gặp ở người gầy, trẻ,
+dưới 40 tuổi có giảm số lượng tế bào  ở tuyến tuỹ và nồng độ insulin máu rất thấp. Điều
+trị dùng insulin.
+- Nhóm không phụ thuộc insulin còn gọi là tăng glucose máu týp II, thường gặp ở người
+lớn tuổi, không giảm số lượng nhưng có giảm chức năng gây nên sự rối loạn bài tiết
+insulin của tế bào  , nồng độ insulin trong máu bình thường hoặc cao và có hiện tượng
+kháng insulin ở các mô ngoại vi. Ngoài ra, còn có tăng glucagon và giảm đáp ứng của tế
+bào  với GLP1(glucagon like peptid 1)và với GIP(glucose dependent insulin tropic
+peptid ). Theo các thống kê, 80 -90% bệnh nhân có tăng glucose máu thuộc typ II. Thuốc
+điều trị chủ yếu là các thuốc chống đái tháo đường tổng hợp dùng đường uống.
+2. Các thuốc hạ glucose máu
+Hiện nay có 2 cách phân loại thuốc hạ glucose máu:
+* Theo cơ chế tác dụng, thuốc hạ glucose máu được chia thành 5 nhóm chính:
+- Insulin
+- Thuốc kích thích bài tiết insulin: sulfonylure, nateglinid.
+- Các thuốc làm tăng nhậy cảm của tế bào với insulin: dẫn xuất biguanid, nhóm
+thiazolindindion.
+- Thuốc ức chế - glucosidase.
+- Các thuốc bắt chước incretin (GLP1, GIP) và thuốc ức chế DPP4(dipeptidyl peptidase 4).
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+* Theo đường dùng và nguồn gốc, các thuốc hạ glucose máu được chia thành 2 nhóm
+chính:
+-  Insulin
+- Thuốc hạ glucose máu dùng đường uống.
+2.1. Insulin
+Insulin là một hormon gây hạ đường huyết do tuyến tuỹ tiết ra. Ngày nay, dựa vào cấu
+trúc, insulin có thể  được bán tổng hợp từ insulin lợn hoặc  nhờ kü thuật tái tổ hợp gen
+thông qua vi khuẩn hoặc nấm. Để đánh giá tác dụng và độ tinh khiết, insulin được quy
+thành đơn vị chuẩn quốc tế. Một đơn vị insulin (1 IU) là lượng insulin cần để làm giảm
+glucose máu ở thỏ nặng 2,5kg nhịn đói xuống còn 45mg/100ml và gây co giật sau khi
+tiêm 5 giờ và bằng 40g insulin.
+2.1.1. Tác dụng và cơ chế tác dụng
+Tất cả tế bào của người và động vật đều chứa receptor đặc hiệu cho insulin. Receptor của
+insulin là một glycoprotein gồm 2 đơn vị  dưới  nằm mặt ngoài tế bào và hai đơn vị dưới
+ nằm mặt trong tế bào. Bốn đơn vị này gắn đối xứng nhau bằng cầu disulfid. Thông qua
+receptor này, insulin gắn vào dưới đơn vị  gây kích thích tyrosinkinase của đơn vị dưới 
+làm hoạt hóa hệ thống vận chuyển glucose ở màng tế bào ( glucose transporters = GLUT),
+làm cho glucose đi vào trong tế bào một cách dễ dàng, đặc biệt là tế bào cơ, gan và tế bào
+mì. Hiện nay người ta đã phát hiện ra 5  chất vận chuyển glucose phân bố ở những tế bào
+khác nhau. Tác dụng làm hạ glucose máu của insulin xuất hiện nhanh chỉ trong vòng vài
+phút sau khi tiêm tĩnh mạch và bị mất tác dụng bởi insulinase.
+Cơ chế tác dụng xin đọc thêm bài “Hormon”.
+2.1.2. Tác dụng không mong muốn
+Nhìn chung, insulin rất ít độc, nhưng cũng có thể gặp :
+- Dị ứng: Có thể xuất hiện sau khi tiêm lần đầu hoặc sau nhiều lần tiêm insulin, tỷ lệ dị
+ứng nói chung thấp.
+- Hạ glucose máu: Thường gặp khi tiêm insulin quá liều, gây chảy mồ hôi, hạ thân nhiệt,
+co giật, thậm chí có thể hôn mê.
+- Phản ứng tại chỗ tiêm: Ngứa, đau, cứng (teo mì dưới da) hoặc u mì vùng tiêm. Để tránh
+tác dụng phụ này, nên thay đổi  vị trí tiêm thường xuyên.
+- Tăng đường huyết hồi ứng (rebound): Gặp ở những bệnh nhân dùng insulin liều cao sau
+khi ngừng thuốc.
+2.1.3. Chế phẩm
+Dựa vào dược động học và nhu cầu điều trị insulin  được xếp  thành 3 nhóm chế phẩm
+khác nhau:
+2.1.3.1. Insulin tác dụng nhanh:
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
++ Insulin hydroclorid: Thời gian xuất hiện tác dụng sau khi tiêm 1 giờ và đạt tối đa sau 3
+giờ và kéo dài tác dụng khoảng 6 giờ. Thuốc được sử dụng trong hôn mê do đái tháo
+đường, 1ml chứa 20-40 đơn vị, có thể tiêm bắp, dưới da, tĩnh mạch.
++ Nhũ dịch Insulin- kĩm: Chỉ tiêm dưới da; sau khi tiêm 1 giờ bắt đầu xuất hiện tác dụng
+và kéo dài khoảng 14 giờ.
+2.1.3.2. Insulin tác dụng trung bình:
+- Insophan insulin: (NPH - Neutral Protamin Hagedorninsulin) dạng nhũ dịch, là sự phối
+hợp insulin, protamin và kĩm trong môi trường đệm phosphat. Cứ 100 đơn vị insulin, có
+thêm 0,4mg protamin. Tiêm dưới da, tác dụng xuất hiện sau 2 giờ và kéo dài khoảng 24
+giờ.
+- Lente insulin: Dạng nhũ dịch, tiêm dưới da xuất hiện tác dụng sau 2 giờ và kéo dài
+khoảng 24 giờ.
+2.1.3.3. Insulin tác dụng chậm:
+Insulin protamin kĩm: Chế phẩm dạng nhũ dịch, cứ 100 đơn vị insulin có kìm theo 0,2mg
+protamin. Thời gian xuất hiện tác dụn g sau khi tiêm dưới da 4-6 giờ và kéo dài tới 37 giờ.
+Insulin kĩm tác dụng chậm (Ultralente insulin) tiêm dưới da, thời gian xuất hiện tác dụng
+và kéo dài tác dụng gần giống insulin protamin - kĩm.
+2.1.4. áp dụng điều trị
+- Tất cả các bệnh nhân tăng glucose  máu thuộc týp I đều được chỉ định dùng insulin.
+Ngoài ra, insulin còn được chỉ định cho bệnh nhân tăng glucose máu týp II, sau khi đã
+thay đổi chế độ ăn và dùng các thuốc chống tăng glucose máu tổng hợp không có tác
+dụng.
+- Tăng glucose máu sau cắt bỏ tụy tạng, ở phụ nữ có thai.
+- Tăng glucose máu có ceton máu và niệu cao.
+Trên  cơ sở định lượng insulin trong máu của người bình thường, ta thấy lượng insulin bài
+tiết trung bình vào khoảng 18 - 40 đơn vị/24 giờ, một nửa số đó được gọi là insulin cơ sở,
+lượng insulin còn lại được bài tiết theo bữa ăn. Vì vậy, để duy trì lượng glucose máu ổn
+định, insulin nên dùng khoảng 0,2 - 0,5 đơn vị cho 1 kilogam thể trọng/24 giờ.
+ Cho đến nay, duy nhất có insulin là dùng đường tiêm, còn các thuốc hạ glucose máu
+khác  có cơ chế tác dụng khác nhau nhưng đường dùng duy nhất là uống để điều trị tăng
+glucose máu typ II sau ít nhất 3 tháng đã thay đổi chế độ ăn, tăng cường tập luyện thể lực
+không có kết quả. Các thuốc này không thay thế chế độ ăn giảm glucid, giảm năng lượng
+và tăng cường hoạt động thể lực trong quá trình điều trị. Dựa vào cơ chế, các thuốc chống
+tăng glucose máuđường uống được chia thành:
+- Thuốc kích thích bài tiết insulin
+- Thuốc làm tăng nhạy cảm của tế bào đích với insulin
+- Thuốc làm giảm hấp thu glucose ở ruột.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Các thuốc bắt chước incretin(incretin mimetic) và thuốc ức chế DPP4(dipeptidyl
+peptidase 4 inhibitor).
+2.2. Thuốc kích thích bài tiết insulin
+2.2.1. Dẫn xuất Sulfonylure
+Từ những năm 1942, Janbon và cộng sự đã phát hiện được tác dụng hạ glucose m áu của
+một số sulfonamid ở súc vật thí nghiệm và bệnh nhân điều trị thương hàn. Nhờ phát hiện
+này, carbutamid, một sulfonamid được tổng hợp có tác dụng hạ glucose máu, sử dụng trên
+lâm sàng. Nhưng do có tác dụng ức chế tuỷ xương, thuốc đã bị lãng quên. Son g nhu cầu
+điều trị bệnh đái tháo đường ngày càng cao, khoảng 20 thuốc đã được tổng hợp và dựa
+vào cường độ tác dụng và dược động học các thuốc xếp thành hai thế hệ I và II.
+- Thế hệ I gồm: tolbutamid, acetohexamid, tolazamid, clopropamid.
+- Thế hệ II: tác dụng mạnh gấp khoảng 100 lần và có thời gian tác dụng dài hơn thế hệ I
+nên chỉ cần dùng 1 lần trong một ngày, gồm: glibenclamid, glipizid, gliclazid.
+Bảng 32.1: Tóm tắt một số thông số dược động học và liều dùng một số  thuốc
+nhóm sulfonylure
+    Thế hệ
+Thuốc
+Cường độ
+tác dụng
+Nồng độ cao
+nhất trong
+máu sau khi
+uống (giờ)
+Thời gian
+bán thải
+(giờ)
+Thời gian
+kéo dài tác
+dụng (giờ)
+Liều trung bình
+(gam)/24 giờ)
+Tolbutamid
+(Orabet)
+1
+3-5
+5-6
+6-12
+0,5-2,0
+Acetohexamid
+(Dymelor)
+2-4
+4-5
+12-24
+0,25-1,25
+Tolazamid
+(Tolinase)
+4-8
+7
+12-24
+0,1-0,75
+Thế hệ 1
+Clopropamid
+(Meldian,)
+5-10
+2-4
+18-35
+40-60
+0,1-0,5
+Glibenclamid
+(Maninil,)
+100-200
+4-5
+4-5
+24
+0,0025-0,02
+      Thế hệ 2
+Glipizid (Glucotrol)
+100-200
+1-3
+4
+10-16
+0,005-0,02
+2.2.1.1. Cơ chế tác dụng:
+Dựa vào những nghiên cứu thực nghiệm trên tuyến tụy cô lập, đảo tụy cô lập và nuôi cấy
+tế bào , Pfeifer và cộng sự (1981) đã chứng minh  rằng, tác dụng hạ glucose máu của các
+dẫn xuất sulfonylure là do tác dụng trên receptor bề mặt K+ATPase của tế bào  ở đảo
+Langerhans làm chẹn kênh K + nhạy cảm với ATP, gây giảm K + đi vào trong tế bào tạo ra
+sự khử cực màng dẫn đến mở kênh calci làm tăng lượng calci từ ngoại bào đi vào trong tế
+bào, kích thích giải phóng insulin.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Một số nghiên cứu gần đây chứng minh các thuốc này còn làm tăng số lượng và tăng tính
+nhậy cảm receptor của insulin ở bạch cầu đơn nhân to, tế bào mì, hồng cầu, do đó làm
+tăng tác dụng của insulin. Theo Krall (1985), các dẫn xuất sulfonylure có tác dụng kích
+thích giải phóng ra somatostatin, chính somatostatin ức chế giải phóng glucagon, cho nên
+cũng gây hạ glucose máu.
+Ngoài ra, người ta còn thấy thuốc  có tác dụng ức chế insulinase, ức chế sự kết hợp insulin
+với kháng thể kháng insulin và sự kết gắn với prot ein huyết tương.
+2.2.1.2. Dược động học
+Thuốc được hấp thu nhanh qua đường tiêu hóa. Nồng độ tối đa trong máu đạt được sau
+khi uống khoảng 2-4 giờ, gắn vào protein huyết tương 92 -99% chủ yếu là albumin. Gắn
+mạnh nhất là glibenclamid, gắn kém nhất là clopro pamid.
+Thuốc được chuyển hóa chủ yếu ở gan. Tolbutamid chuyển hóa nhờ phản ứng oxy hóa
+thông qua hệ enzym chuyển hóa ở microsom gan thành một số chất chuyển hóa vẫn còn
+tác dụng như hydroxymethyl-tolbutamid, 4-hydroxymethyl-tolazamid. Clopropamid
+không bị chuyển hóa sĩ thải trừ qua thận.
+Thận là đường thải trừ chủ yếu của các thuốc hạ glucose máu dùng đường uống. Riêng
+glibenclamid thải chủ yếu qua gan, vì vậy được chỉ định cho những bệnh nhân tăng
+glucose máu có chức năng thận suy yếu.
+2.2.1.3. Chỉ định:
+- Tất cả bệnh nhân tăng glucose máu typ II, không phụ thuộc insulin.
+- Người béo bệu trên 40 tuổi có insulin máu dưới 40 đơn vị một ngày.
+2.2.1.4. Chống chỉ định:
+- Tăng glucose máu typ I, phụ thuộc insulin
+- Người có thai, cho con bú, suy chức năng gan, th ận
+- Tăng glucose máu nặng trong tình trạng tiền hôn mê hoặc hôn mê.
+2.2.1.5. Tác dụng không mong muốn:
+- Hạ glucose máu, dị ứng, rối loạn tiêu hóa, buồn nôn, nôn, vàng da tắc mật.
+- Tan máu, thoái hóa bạch cầu hạt.
+- Phản ứng giống disulfuram khi dùng clo propamid cùng rượu (gặp khoảng 1-15% bệnh
+nhân).
+- Hạ natri máu hay gặp với clopropamid, do có tác dụng giống ADH (ở 50% bệnh nhân).
+2.2.1.6. Tương tác thuốc:
+Thuốc thế hệ I gắn mạnh vào protein huyết gây nên cạnh tranh ở vị trí gắn với một số
+thuốc: dicoumarol, diphenylhydantoin, salicylat, phenylbutazon, sulfonamid. Thế hệ II
+không có tương tác kiểu này.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Cloramphenicol, IMAO, probenecid làm tăng tác dụng hạ glucose máu của cả hai thế hệ I
+và II, nhưng corticoid, thuốc tránh thai, diphenylhydantoin, rifamp icin, INH, các
+phenothiazin lại gây giảm tác dụng hạ glucose máu của thuốc.
+Thuốc ức chế -adrenergic dùng cùng với các dẫn xuất sulfonylure gây nhịp tim nhanh,
+thay đổi huyết động học và tăng tác dụng hạ glucose máu vì vậy tránh dùng phối hợp.
+2.2.2 Loại không phải sulfonylure
+2.2.2.1. Nateglinid:
+Là dẫn xuất của D-phenylalanin có tác dụng kiểm soát sự tăng đường huyết sau bữa ăn,
+do vậy sĩ cải thiện tình trạng tăng đường huyết sau khi ăn ở bệnh nhân tăng glucose máu
+typ II.
+Trong cơ thể, nateglinid gắn vào receptor đặc hiệu (SUR 1) ở tế bào  của tụy làm chẹn
+kênh K+ nhậy cảm với ATP, gây khử cực màng tế bào làm mở kênh calci. Calci kích thích
+giải phóng insulin. Do thuốc có đặc điểm gắn nhanh  và tách ra nhanh khỏi receptor đặc
+hiệu nên kích thích bài tiết insulin nhanh, nên nhanh chóng kiểm soát đường huyết sau
+khi ăn. Nhưng cũng do thuốc tách ra khỏi receptor đặc hiệu nhanh làm rút ngắn giai đoạn
+kích thích bài tiết insulin, làm giảm nguy cơ tăng cao insulin trong máu nên tránh được
+tình trạng hạ glucose máu và sự suy kiệt tế bào  của tụy.
+Thuốc được hấp thu tốt qua đường tiêu hóa, thức ăn tăng hấp thu thuốc. Sau uống liều duy
+nhất 60mg, nồng độ tối đa trong máu đạt được sau 55 phút. Thuốc gắn vào protein huyết
+với tỷ lệ 99% và có thời gian bán thải 1,4 - 2 giờ. Trong cơ thể thuốc bị chuyển hóa qua
+Cyt-P450 (CyP3A4, CYP2C9) ở gan và thải trừ qua mật và qua nước tiểu.
+Thuốc có phạm vi an toàn rộng, ít độc tính. Nghiên cứu trên lâm sàng với liều 60, 120,
+180mg uống trước bữa ăn 20 phút, có tác dụng kiểm soá t đường huyết sau ăn rõ rệt.
+Thuốc có thể dùng riêng rĩ hoặc kết hợp với metformin để kiểm soát sự tăng đường huyết
+sau ăn ở người tăng glucose máu typ II.
+2.2.2.2.Repaglinid
+Giống như nateglinid, repaglinid cũng có tác dụng kiểm soát đường huyết nhanh sau  khi
+ăn do vậy cách dùng giống nhau với liều khởi đầu 500 mcg sau đó điều chỉnh liều phụ
+thuộc vào đáp ứng của bệnh nhân nhưng không vượt quá 16 mg/ngày.
+2.3.Thuốc làm tăng nhạy cảm của tế bào đích với insulin
+2.3.1. Dẫn xuất của biguanid
+Các dẫn xuất của biguanid có cấu trúc hoàn toàn khác với dẫn xuất sulfonylure gồm:
+phenformin (phenethylbiguanid) do gây acid lactic máu, nên  đã bị đình chỉ lưu hành trên
+thị trường, hiện chỉ còn  metformin (dimethylbiguanid) .
+Mặc dù các thuốc này có tác dụng hạ glucose máu rõ rệt ở những người tăng glucose
+máu, nhưng cơ chế tác dụng còn chưa được rõ. Một số tác giả cho rằng, thuốc tác dụng
+thông qua sự tăng dung nạp glucose, ức chế sự tân tạo glucose và tăng tổng hợp glycogen
+ở gan do tăng hoạt tính glycogensynthetase và  làm tăng tác dụng của insulin ở tế bào
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+ngoại vi. Ngoài ra, thuốc còn hạn chế hấp thu glucose ở ruột. Thuốc không tác dụng trực
+tiếp trên tế bào  của đảo Langerhans, và chỉ có tác dụng khi có mặt insulin nội sinh, nên
+thuốc được chỉ định ở bệnh nhân tụy c òn khả năng bài tiết insulin.
+- Metformin (Glucophage): Hấp thụ kém qua đường tiêu hóa, không gắn vào protein
+huyết tương, không bị chuyển hóa, thải trừ chủ yếu qua thận. Thời gian bán thải khoảng
+1,3 - 4,5 giờ, thời gian tác dụng khoảng 6 -8 giờ, liều trung bình 0,5-2,5g/24 giờ, tối đa
+3g/24 giờ và được chia làm 3 lần sau các bữa ăn hàng ngày.
++ Giống như dẫn xuất sulfonylure, metfomin được chỉ định dùng riêng rĩ hoặc kết hợp với
+các thuốc khác  cho bệnh nhân tăng glucose máu typ II sau khi điều chỉnh chế đ ộ ăn và
+tập luyện thể lực không có hiệu quả. Metformin có thể kết hợp với một số thuốc khác để
+kích thích buồng trứng trong điều trị vô sinh. Không dùng thuốc ở người tăng glucose
+máu có ceton máu cao và có ceton niệu, phụ nữ có thai, cho con bú.
+ + Thuốc có thể gây rối loạn tiêu hóa, acid hóa máu do tăng acid lactic đặc biệt ở bệnh
+nhân có kìm theo giảm chức năng gan, thận.
+2.3.2.Các thuốc thuộc nhóm thiazolidindion
+Là những thuốc có cấu trúc và cơ chế tác dụng hoàn toàn  khác với dẫn xuất sulfonylure
+và biguanid. Các thuốc nhóm này là những chất chủ vận và có ái lực cao với PPAR 
+(peroxisome proliferator activated receptor ). Receptor này ở trong nhân tế bào chịu
+trách nhiệm điều hòa một số gen liên quan đến sự chuyển hóa lipid và glucose. Khi thuốc
+gắn vào receptor gây nên sự tương tác với ADN đặc hiệu làm hoạt hóa giải mã gen, làm
+tăng nhậy cảm của tế bào với insulin giúp tăng chuyển hoá glucid và lipid. Trên thực
+nghiệm, người ta thấy các thuốc làm tăng chuyển hóa glucose và tăng số lượng insulin
+receptor ở màng tế bào, tăng tổng hợp glycogen thông qua tăng hoạt tính
+glycogensynthetase và tăng sử dụng glucose ở ngoại vi.
+Các thuốc thuộc dẫn xuất thiazolidindion có thể dùng riêng rĩ hoặc phối hợp với
+metformin hoặc các thuốc trong nhóm sulfonylure  nhưng không phối hợp với insulin để
+điều trị tăng glucose máu typ II. Thuốc không được dùng cho người bị suy gan, suy tim,
+phụ nữ có thai, cho con bú.Trong quá trình điều trị cần thường xuyên theo dõi chức năng
+gan. Hai thuốc trong nhóm  sử dụng nhiều hiện nay l à :
+-
+Pioglitazon (Actos) viên 15,30,45 mg, uống 15 -45 mg/ngày.
+-
+Rosiglitazon (Avandia) viên 4;8 mg, uống 4 -8 mg/ngày.
+2.4. Thuốc làm giảm hấp thu glucose ở ruột:  acarbose (Glucobay):
+Thuốc được chỉ định ở bệnh nhân tăng glucose máu typ II kìm theo béo bệu. Cơ chế tác
+dụng của thuốc không liên quan đến sự bài tiết insulin ở tế bào  của tụy mà thông qua sự
+ức chế - glucosidase ở bờ bàn chải niêm mạc ruột non. Ngoài ra, thuốc còn ức chế,
+glucoamylase, maltase ở ruột. Cuối cùng, làm giảm hấp thu glucose gây hạ  glucose máu.
+Thuốc có thể gây rối loạn tiêu hóa như trướng bụng, tiêu chảy và đau bụng.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Khi điều trị, cần điều chỉnh liều cho phù hợp với từng bệnh nhân, nhưng nhìn chung liều
+trung bình cho người lớn 300mg trong 24 giờ. Các thuốc kháng acid, cholestyrami n, một
+số chất hấp phụ mạnh và chế phẩm chứa enzym tiêu hóa làm giảm tác dụng của acarbose.
+Không dùng thuốc ở những người có rối loạn chức năng hấp thu, phụ nữ có thai, cho con
+bú và trẻ em dưới 18 tuổi.
+ 2.5. Các thuốc bắt chước incretin (incretin mimeti c) và thuốc ức chế
+DPP4(dipeptidyl peptidase 4 inhibitor) .
+  Gần đây người ta tìm ra 2 peptid hormon  GLP1, GIP gọi chung là incretin có nguồn gốc
+tại niêm mạc ruột, có tác dụng điều hoà glucose máu sau khi ăn thông qua sự kích thích
+bài tiết insulin và làm chậm sự tháo rỗng dạ dày. Trên cơ sở phát hiện này liraglutid và
+exenatid hai chất giống incretin (incretin mimetic) đang được thử nghiệm lâm sàng pha II
+và III trên bệnh nhân tăng glucose máu typ II.
+  GLP1 kích thích bài tiết insulin sau khi ăn rất mạn h, ngoài ra còn ức chế bài tiết
+glucagon, làm chậm sự tháo rỗng dạ dày, kích thích sự sao chép gen glucokinase và
+GLUT2 nhưng lại mất tác dụng nhanh do bị enzym dipeptidylpeptidase phá huỷ nên có
+thời gian bán thải dưới 2 phút. Vildagliptin, sitagliptin, s axagliptin là các chất ức chế
+DPP4 làm kéo dài tác dụng của GLP1 đang được thử nghiệm lâm sàng pha II trên bệnh
+nhân tăng glucose máu typ II.
+Câu hỏi tự lượng giá
+1. Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của insulin.
+2. Trình bày cách phân loại, cơ chế tác dụng và áp dụng điều trị của nhóm
+sulfonylure.
+3. Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của nhóm biguanid và
+acarbose.
+4. Trình bày tác dụng, cơ chế tác dụng và áp dụng điều trị của nateglinid và nhóm
+thiazolidindion.

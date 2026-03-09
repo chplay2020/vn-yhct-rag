@@ -1,0 +1,908 @@
+1)　Hoàng Bảo Châu, Phó Dức Thực and Hữu Ngọc, “Overview of Viet namese Traditional
+Medicine,” in id., eds., Viet namese Traditional Medicine (2nd ed.) (Hanoi: The Giới Publishers,
+1999), pp. 1–28; Lâm Giang, “Thư tịch y dược cổ truyền Việt Nam thực trạng” [The ac tual state
+of books of Viet namese traditional medicine and pharmacology], in id., ed., Tìm hiểu thư tịch y
+dược cổ truyền Việt Nam [A study of books of Viet namese traditional medicine and pharmacology]
+(Hanoi: Nhà xuất bản Khoa học xã hội, 2009), pp. 13–190 (this study has been cited on the basis
+87
+PREAM BLE
+From the fourteenth cen tury on wards, the Viet namese, em phasizing the distin ctive
+ness of Viet nam, lying as it did to the south of China, called their own medicine
+“Sout hern medicine” (nam y 南醫 or nam dược 南藥) and Chinese medicine or Viet
+namized Chinese medicine “Northern medicine” (bắc y 北醫 or bắc dược 北藥). After
+French rule began in the nineteenth cen tury, these two traditions of medicine were
+toget her called “Eastern medicine” (đông y 東醫) in con trast to “Western medicine”
+(tây y 西醫). Further, following in depen den ce in 1945, the term “Eastern medicine”
+(đông y học 東醫學) was used; then, after the deterioration of relations bet ween
+China and Viet nam in 1978, the term “et hnic medicine” (dân tộc y học 民族醫學)
+came in to use, and sin ce 1986 the term “Viet namese traditional medicine” (Việt Nam
+truyện thống y học 越南傳統醫學) has been used toget her with “Eastern medicine.”
+Today, specialists in Eastern medicine are being trained in six-year courses at Tuệ
+Tĩnh College of Traditional Medicine and in departments of Eastern medicine at six
+medical schools, and graduates are en gaged in the treat ment of patients. In 1961
+an In stitute of Eastern Medicine and a Society of Eastern Medicine were also
+established.
+Because of its high tem peratures, humidity, and wars, many medical texts and
+ot her sources have been lost in Viet nam. Partly for this reason, in this artic le I wish
+to survey the traditions of Viet namese medicine and its charac teristics during the
+Trần 陳 (1225–1413), Lê 黎 (1428–1789), and Nguyễn 阮 (1802–1945) dynasties,
+which were in depen dent of China. The following survey is based on prior research
+by ot hers1) and also on my own previous research.2)
+The Traditions and Charac teristics of Viet namese Medicine
+
+MAYANAGI Makoto
+
+
+of an abridged Japanese tran slation by Ōnishi Kazuhiko 大西和彦); and Nguyễn Thị Dương, “Ngư
+tiều y thuật vấn đáp trong tủ sách đông y thời Nguyễn” [The Ngư tiều y thuật vấn đáp on the
+bookcase of Eastern medicine during the Nguyễn dynasty], Tạp chí Hán Nôm 漢喃雜誌 103
+(2010), pp. 56–62.
+2)　Mayanagi Makoto 真柳誠, “Betonamu kokka toshokan no koiseki shoshi” ベトナム國家圖書
+館の古醫籍書誌 [The bibliograp hy of the old medical books in the National Library of Viet nam
+(sic)], Jin bun Gakka Ronshū 人文学科論集 (Ibaraki Univ.) 45 (2006), pp. 1–16; id., “Nghiên cứu so
+sánh định lượng thư tịch y học cổ truyền các nước khu vực đồng văn” [Quan titative com parative
+studies on traditional medical treatises in coun tries using the same lan guage (i. e., classical
+Chinese)], Tạp chí Hán Nôm 97 (2009), pp. 10–29; id., “Betonamu kokka toshokan no koiseki
+shoshi: hoi (ic hi)” ベトナム國家圖書館の古醫籍書誌　補遺 (一) [The bibliograp hy of the old medical
+books in the National Library of Viet nam: Adden dum (1)], Jin bun Komyunikēshon Gakka Ronshū
+人文コミュニケーション学科論集 (Ibaraki Univ.) 10 (2011), pp. 21–39; id., “Betonamu kokka
+toshokan no koiseki shoshi: hoi (ni)” ベトナム國家圖書館の古醫籍書誌　補遺 (二) [The bibliograp hy
+of the old medical books in the National Library of Viet nam: Adden dum (2)], Jin bun
+Komyunikēshon Gakka Ronshū 11 (2011), pp. 51–73; and id., “Betonamu Kan-Nan Ken kyūjo no
+koiseki shoshi” ベトナム漢喃研究所の古醫籍書誌 [The bibliograp hy of the old medical books in the
+In stitute of Han-Nom Studies, Viet nam (sic)], (1)–(7), Jin bun Komyunikēshon Gakka Ronshū 12
+(2012), pp. 19–42; 13 (2012), pp. 53–76; 14 (2013), pp. 39–65; 15 (2013), pp. 71–97; 16 (2014),
+pp. 17–46; 17 (2014), pp. 51–76; 18 (2015), pp. 17–41.
+3)　It is possible that some of the old books held in Hue were lost during the massac re at Hue
+during the Tet Offen sive in 1968. There is said to be a depository of medical and pharmacological
+treatises in Hue in the home of an elderly woman who is the gran ddaughter of Trương Dăng Quế
+張登桂, a minister during the Nguyễn dynasty, and some texts of the Im perial Academy of Medi
+cine may have survived.
+88
+MAYANAGI MAKOTO
+I. THE HISTORY OF VIET NAM AND MEDICAL SOURCES
+From the second cen tury B. C., when northern Viet nam was ruled by China’s Han 漢
+dynasty, Chinese rule of northern Viet nam con tinued un til the tenth cen tury except
+for a brief period during the sixth cen tury. Con sequen tly, the Chinese script was
+widely used, and a civil service examination system modeled on that of China
+operated from the eleventh cen tury, after northern Viet nam gained in depen den ce
+from China, un til 1918. The chữ nôm 字喃 charac ters used for writing Viet namese
+were used from the thirteenth cen tury down to the mid-twen tieth cen tury, and Viet
+namese was usually writ ten in mixed Hán-Nôm 漢喃, com bining Chinese charac ters
+with chữ nôm charac ters. The majority of early books of the Lý Trần 李陳 period
+(11th to 14th cen turies) were lost during Ming 明 rule and the war for in depen den ce
+in the early ﬁfteenth cen tury, and extant books are limited to manuscripts and prin ted
+books postdating the ﬁfteenth cen tury. The state collec tion of books that was held in
+Thăng Long 昇龍 (present-day Hanoi), the capital of the Lê dynasty, was later moved
+to Phú Xuân 富春 (present-day Hue), the capital of the Nguyễn dynasty (1802–1945).
+Partly because the in habitants of Hue are un favorably disposed towards the govern
+ment in Hanoi,3) the current state of these materials has still not been adequately
+
+
+89
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+in vestigated, although during the period of French rule many of the books held in Hue
+were copied by the É cole française d’Extrê me-Orient, and almost all of the old
+books it collec ted are today held in the In stitute of Hán-Nôm Studies (Viện Nghiên
+cứu Hán Nôm) in Hanoi.
+On ly medical and pharmacological works dating from the fourteenth cen tury and
+later are known today. Nonet heless, from the period of in depen dent dynasties that
+began in the eleventh cen tury, court physicians were using expen sive Chinese medi
+cines to manage the health of the king and ofﬁcials, while village doc tors were treat
+ing ordinary peop le with cheap Viet namese medicines produced in Viet nam. These
+local doc tors would probably have kept records of their experien ces, but because of
+their need to make a living such manuscript writings would have been regarded as
+“sec ret” and would not have circulated widely, and it is on ly natural that they would
+have been gradually lost.
+I on ce in vestigated about one hun dred old books (all originals) at the National
+Library of Viet nam (Thư viện Quốc gia Việt Nam) and found 59 Viet namese books
+and 16 Chinese books related to medicine and pharmacology. I likewise examined
+about ﬁve hun dred books (both originals and copies) at the In stitute of Hán-Nôm
+Studies and found 323 Viet namese books and 22 Chinese books related to medicine
+and pharmacology. Among these books, there were 19 Viet namese books on medi
+cine and pharmacology and 2 Viet namese books on plants and natural scien ce held
+by both in stitutions, and if we exclude these, there were 361 Viet namese medical and
+pharmacological books, the majority of which dated from the eighteenth to twen tieth
+cen turies. They in cluded formularies (64), books on smallpox and measles (43),
+books on obstet rics, gynecology, and pediat rics (37), general works on various areas
+of medicine (29), and books on diagnosis (26), and these trends in num bers are
+similar to the situation in China, Japan, and Korea. There was, however, a high
+proportion of works on obstet rics, gynecology, and pediat rics, and the presen ce of 11
+works related to Taoism and Buddhism was a charac teristic peculiar to Viet nam.
+Records of the prin ting of books in Viet nam go back to the fourteenth cen tury, but
+up un til the mid-twen tieth cen tury the vast majority of books were com piled by the
+government and published by the state, and not many books were published privately
+or com mercially. Some medical and pharmacological books were published non-
+com mercially by Buddhist and Taoist tem ples, but few of these have survived.
+Com mercially published medical and pharmacological books were also few in
+num ber, and most that have survived were prin ted in the nineteenth cen tury and later.
+Con sequen tly, the majority of medical and pharmacological texts have been trans
+mit ted as manuscripts that were formerly kept sec ret. Furthermore, in formation about
+old books held throughout Viet nam is not exhaustive at the present stage. Owing
+
+
+4)　Chu Văn An 朱文安 (real name: Chu An 朱安; courtesy name: Linh Triệt 靈澤) was born on
+the out skirts of Hanoi on the 25th of the eighth month of 1292 and died on the 28th of the eleventh
+month of 1370 at the age of seven ty-eight. In stead of en tering government service after passing
+the civil service examinations, he opened a school in his home district and taught many students.
+During the reign of Minh Tông 明宗 (1314–29), he became a teac her for a time at the Im perial
+Academy (quốc tử giám 國子監), where he taught the crown prin ce. He is regarded as one of the
+luminaries of Viet namese Con fucianism and com posed an in troduc tion to Chu Hsi’s 朱熹 Ssu-shu
+chi-chu 四書集注 (Collec ted Com men taries on the Four Books) un der the tit le Tứ thư thuyết ước 四
+書説約 (Con cise Exposition of the Four Books) in 10 volumes. This is the oldest extant Viet namese
+work related to the Con fucian classics and is also the oldest eviden ce of the tran smission of Neo-
+Con fucianism to Viet nam.
+5)　Tuệ Tĩnh is a monastic name that was used by several monks from the tenth to seven teenth
+cen turies, and ac cording to some, one of these was Hồng Nghĩa 洪義 of the early ﬁfteenth cen tury,
+who was well versed in medicine.
+90
+MAYANAGI MAKOTO
+to these various circum stan ces, it remains difﬁcult to trace the history of Viet-
+namese medicine and pharmacology in terms of historical facts back before the Trần
+dynasty.
+II.　MEDICAL AND PHARMACOLOGICAL TREATISES OF THE TRẦN DYNASTY
+(1225–1400) AND TUỆ TĨNH
+Viet nam’s oldest extant medical treatise is con sidered to be the Y học yếu giải 醫學要
+解 (Exposition of the Essen tials of Medicine) com piled by Chu Văn An (1292–
+1370).4) I have not seen this work, but it analyzes the etiology and pat hology of
+various diseases on the basis of the Chinese medical classic Nei-ching 內經 and
+describes diagnoses and treat ments, and the com piler is said to have devised two
+prescrip tions for treating in fec tious fevers and chills.
+The physician rep resen tative of the Trần dynasty was Tuệ Tĩnh 慧靖 (1330–1385–
+?), who was born Nguyễn Bá Tĩnh 阮伯靖. He passed the civil service examinations
+in 1374 at the age of forty-ﬁve, but in stead of en tering government service, he took
+the ton sure and began prac ticing Buddhism at Buddhist tem ples, and it seems that he
+prac ticed medicine un der his monastic name, ﬁrst Huệ Tĩnh 惠靖 and later Tuệ Tĩnh
+慧靖 (frequen tly miswrit ten 慧靜). He was sent to China in his capacity as a monk in
+1385, but he was detained there so that he could prac tice medicine, and he is said to
+have died in China. This means that his medical writings must predate 1385.5)
+In 1717 the Lê dynasty com piled and published Tuệ Tĩnh’s writings un der the tit le
+Hồng Nghĩa giác tư y thư 洪義覺斯醫書 (Medical Books of Hồng Nghĩa giác tư) in
+two volumes. The ﬁrst volume con sists of the Nam dược quốc ngữ phú 南藥國語賦
+(Prose-poem in the Viet namese Lan guage on Sout hern Drugs) and Trực giải chỉ nam
+dược tính phú 直解指南藥性賦 (Prose-poem of Instruc tions Direc tly Explaining the
+
+
+Fig. 1. Hồng Nghĩa giác tư y thư, vol. 2
+(National Library of Viet nam [NLV],
+R.1556)
+Fig. 2. Nam dược thần hiệu, opening vol.
+(NLV, R.1740)
+91
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+Properties of Sout hern Drugs), while the second volume (ﬁg. 1) con sists of the Thập
+tam phương gia giảm 十三方加減 (Thirteen Formulas with Additive and Subtrac tive
+Adjustments), Thương hàn cách pháp trị lệ 傷寒格法治例 (Exam ples of Met hods for
+Treating Cold Damage), and Chứng trị phương pháp 症治方法 (Met hods for Treating
+Maladies). It is clear, however, that the Thập tam phương gia giảm is an abridged
+Hán-Nôm tran slation of the Chinese Yüan 元-period Chia-chien shih-san fa 加減十三
+方 (ﬁrst pub. 1413), while the Thương hàn cách pháp trị lệ is likewise an abridged
+Hán-Nôm tran slation of the Sha-ch‘e ch‘ui-fa 殺車槌法 (Met hod for Crushing Cold
+Damage) among the Ming-period Shang-han liu-shu 傷寒六書 (Six Treatises on Cold
+Damage) (ﬁrst pub. 1522), and therefore they are un doubtedly additions at tributed to
+Tuệ Tĩnh that date from the sixteenth to eighteenth cen turies. The edition illustrated
+in ﬁg. 1 (of which on ly vol. 2 survives) is not from the ﬁrst edition in 1717, but
+probably from a nineteenth-cen tury rep rint.
+The Nam dược quốc ngữ phú records the Chinese names, Viet namese names, and
+effects of Sout hern drugs in com mon use in Viet nam in the form of twen ty-four Hán-
+Nôm prose-poems. Although it has modiﬁcations and additions made in later times,
+
+
+92
+MAYANAGI MAKOTO
+it in cludes some old forms of chữ nôm charac ters, and the original work may
+therefore be con sidered to have been writ ten by Tuệ Tĩnh. The Trực giải chỉ nam
+dược tính phú lists 218 drugs classiﬁed by treat ment in the form of a Chinese prose-
+poem, and it begins by em phasizing the fact that Sout hern medicines produced in
+Viet nam are ap prop riate for illnesses prevalent in Viet nam: “If one wishes to beneﬁt
+the peop le, one should ﬁrst seek out sac red medicines. Heaven ly writings will most
+certain ly ap pear in the coun try in the south, and locally produced [medicines] differ
+from those of the land to the north” (欲惠生民，先尋聖藥。天書越定南邦，土産有殊北
+國). At the end of this work men tion is also made of “the exten sive beneﬁt of the
+South” (南天廣惠), and sin ce the charac ter tuệ 惠 is used both at the start and at the
+end, this work may be con sidered to have been writ ten by Tuệ Tĩnh (惠靖 = 慧靖).
+In addition, Tuệ Tĩnh also seems to have writ ten the original version of the Nam
+dược thần hiệu thập khoa ứng trị 南藥神效十科應治 (Miraculous Efﬁcacy of Sout hern
+Drugs Ap plied to the Treat ment of Ten Bran ches of Medicine). A manuscript copied
+by the É cole française d’Extrê me-Orient and held by the In stitute of Hán-Nôm
+Studies (A.1270) in cludes the preface to a 1761 rep rint, and it con stitutes an 11-
+volume com pen dium of medicine con sisting of an opening volume and ten volumes
+ran ging in subject mat ter from cerebrovascular disorders (vol. 1) to surgery (vol. 10).
+The opening volume, “Dược phẩm nam danh khí vị chính trị ca quát” 藥品南名氣味
+正治歌括 (Songs Sum marizing the Sout hern Names, Properties, and Effects of
+Drugs), was rep rin ted three times in the ﬁrst half of the twen tieth cen tury un der the
+tit le Nam dược thần hiệu 南藥神效 (Miraculous Efﬁcacy of Sout hern Drugs) (ﬁg. 2 is
+from an edition published in Hanoi in 1920). This opening volume records in the
+form of songs of several lines the Chinese names, Viet namese names (in chữ nôm
+charac ters), effects, and met hods of preparation for 563 medicines classiﬁed in to
+herbs, grains, vegetables, fruits, and so on. Sin ce the met hod of classiﬁcation coin
+cides by and large with that of the Chinese Pen-ts‘ao kang-mu 本草綱目 (Guidelines
+and Details of Materia Medica) (ﬁrst pub. 1596), there can be no doubt that it was
+substan tially revised and sup plemen ted in later times. However, vols. 1–10 are all
+writ ten in Hán-Nôm, in clude many sim ple treat ments using Sout hern drugs, and
+show lit tle Chinese inﬂuen ce, and therefore the received text probably derives from
+an original work by Tuệ Tĩnh.
+At any rate, Tuệ Tĩnh’s view that Sout hern medicines should be used to treat the
+Viet namese and his use of the song format were to have an enormous inﬂuen ce on
+subsequent Viet namese medicine and medical and pharmacological treatises.
+
+
+6)　Phan Phu Tiên 潘孚先 (d. u.) was born on the out skirts of Hanoi. He passed the civil service
+examinations in 1396 during the Trần dynasty and then again in 1429 during the Lê dynasty,
+even tually rising to the position of erudite (bác sĩ 博士) in the Im perial Academy. He also com
+piled the 6-volume Việt âm thi tập 越音詩集, Viet nam’s ﬁrst literary an thology, which con tains 624
+poetic works from the Trần to Lê dynasties.
+7)　Nguyễn Trực 阮直 was born to the west of present-day Hanoi and passed the civil service
+examinations in 1442. In the years 1443–53 he served as a government historiograp her.
+93
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+III.　MEDICAL AND PHARMACOLOGICAL TREATISES OF THE LÊ DYNASTY
+(1428–1789)
+1. Phan Phu Tiên’s Bản Thảo Thực Vật Toản Yếu
+At the start of this period, the original version of the Bản thảo thực vật toản yếu 本草
+食物纂要 (Collec ted Essen tials of Comestible Materia Medica) was com posed. The
+extant text of this work was han dcopied by the É cole française d’Extrê me-Orient
+(In stitute of Hán-Nôm Studies, A.1219), and it classiﬁes 392 readily obtainable
+Sout hern drugs and everyday foodstuffs in to herbs, vegetables, minerals, etc., adds
+the Viet namese equivalents in chữ nôm charac ters to their Chinese names, and also
+records their properties, efﬁcacy, detoxiﬁcation met hods, and so on. It also in cludes
+a postscript by Phan Phu Tiên, ac cording to which it was com piled in 1429. Phan
+Phu Tiên gained the degree of presen ted scholar (tiến sĩ 進士) in both the Trần and
+Lê dynasties and made con tributions to history and literature,6) and his period of
+ac tivity and ofﬁcial posts do not conﬂict with the postscript’s con tents.
+This work also has an un dated, anonymous preface, ac cording to which it was
+excerpted from various pharmacopoeias and Li Shih-chen’s 李時珍 Pen-ts‘ao kang-
+mu. Sin ce the main text in cludes many quotations from Li Shih-chen’s work, there
+can be no doubt that use was made of the Pen-ts‘ao kang-mu. But because the
+sixteenth-cen tury date of the Pen-ts‘ao kang-mu conﬂicts with Phan Phu Tiên’s
+dates, it may be assumed that later additions and modiﬁcations were made to the
+preface and main text and that the extant text differs con siderably from the original
+work. However, sin ce some old chữ nôm charac ters found in the ﬁfteenth-cen tury
+Hồng Dức quốc âm thi tập 洪徳國音詩集 (An thology of Poems in Viet namese Pronun-
+ciation by Hồng Dức) are used, it may be sup posed that there existed a pharma
+copoeia of comestibles by Phan Phu Tiên that served as a basis for the extant version.
+2. Nguyễn Trực’s Bảo Anh Lương Phương
+The presen ted scholar Nguyễn Trực (1417–73)7) com piled the 4-volume Bảo anh
+lương phương 保嬰良方 (Effec tive Prescrip tions for Protec ting In fants), the oldest
+extant Viet namese work on pediat rics. On ly a han dcopy of the volume on spring,
+
+
+94
+MAYANAGI MAKOTO
+made by the É cole française d’Extrê me-Orient (In stitute of Hán-Nôm Studies,
+A.1462), is extant, and the whereabouts of the volumes on sum mer, autumn, and
+win ter are un known. In Nguyễn Trực’s un dated preface it is stated that, “Although it
+is out side my area of expertise, I studied Chinese medical and pharmacological
+treatises and collec ted and excerpted their essen ce.” Ac cording to the tit le page, this
+work was presen ted “on an auspicious day in the seventh month, in autumn, of the
+second year of the Diên Ninh 延寧 era (1455),” and so it is evident that it was
+com pleted in 1455. Its stan dardized format suggests that the base text of the hand
+copy may have been a prin ted edition. It is writ ten in Chinese and con tains no chữ
+nôm charac ters.
+The extant portion of this work describes diagnoses and treat ments for in fants’
+skin diseases, con vulsions, smallpox, measles, etc., in the form of songs, prose-
+poems, expositions, discourses, etc. It is possible to iden tify parts that preserve the
+original forms of Chinese songs and prose-poems and parts that have been revised
+and edited by the com piler. The com pilation of medical and pharmacological books
+by men who had passed the civil service examinations, as in this case, could be
+described as a charac teristic of Viet nam.
+3. Hoàng Đôn Hòa’s Hoạt Nhân Toát Yếu and Trịnh Đôn Phác’s Hoạt Nhân Toát
+Yếu Tăng Bổ
+Hoàng Đôn Hòa 黄敦和 is not men tioned in the genealogy of seven teen generations
+of the Hoàng clan, and so his dates are not known. But sin ce it is recorded in the
+Thần phả 神譜 (Sac red Genealogy) that in the struggles with the Mạc 莫 clan in 1592
+he treated fever, vomiting, and diarrhea among soldiers of the Lê dynasty’s army and
+also treated its war elep hants, it is evident that he was a physician of the sixteenth
+cen tury. The Hoạt nhân toát yếu 活人撮要 (Com pen dium for Saving Peop le) at trib
+uted to him does in fact in clude treat ments for fever, vomiting, and diarrhea, and
+also met hods for treating water buffaloes, cat tle, and horses, but because there are
+virtually no elep hants in northern Viet nam, there is no men tion of the treat ment of
+elep hants. It in cludes many treat ments based on readily available medicinal sub
+stan ces, and it may be described as a com pen dium of the essen tial points of medical
+treat ment. The treat ment of domestic animals is not found in any earlier works, and
+so Hoàng Đôn Hòa could be called the fat her of Viet namese veterinarians and army
+doc tors.
+Trịnh Đôn Phác 鄭敦樸 (1692–1762), who produced an en larged edition of the
+Hoạt nhân toát yếu, passed the physicians’ examination in 1741 and was respon sible
+for looking after the em press and ot hers at the court’s Academy of Medicine. His
+3-volume Hoạt nhân toát yếu tăng bổ 活人撮要増補 (Sup plement to the Com pen dium
+
+
+95
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+for Saving Peop le) survives in the form of a han dcopy by the É cole française
+d’Extrê me-Orient (In stitute of Hán-Nôm Studies, A.2535), and its systematic format
+suggests that it was copied from a prin ted edition. Vol. 1 deals with gynecology, vol.
+2 with pediat rics, and vol. 3 with surgery and domestic animals, and it is by and
+large writ ten in Chinese. There are quite a num ber of Viet namese medical treatises
+dealing with the two subjects of gynecology and pediat rics, with surgery sometimes
+being added. The works used by Trịnh Đôn Phác to sup plement the Hoạt nhân toát
+yếu in clude, in addition to the Nam dược thần hiệu, the Chinese medical and phar
+macological treatises Ching-yüeh ch‘üan-shu 景岳全書 (Com plete Works of Ching-
+yüeh; ﬁrst pub. 1710), Shou-shih pao-yüan 壽世保元 (Lon gevity and the Preservation
+of Health; 1615), I-hsüeh ju-men 醫學入門 (In troduc tion to Medicine; 1575), Chi-yin
+kang-mu 濟陰綱目 (Guidelines and Details for Beneﬁting Women; ﬁrst pub. 1620),
+and Pen-ts‘ao kang-mu (ﬁrst pub. 1596), and it is evident that these works were held
+by the court’s Academy of Medicine. These Chinese works are, moreover, frequen tly
+quoted in later Viet namese medical works and exerted a strong inﬂuen ce on
+Viet namese medicine. In con tent, the Hoạt nhân toát yếu tăng bổ main ly describes
+formulas arran ged by sym ptoms, the diseases for which they are in dicated, their
+con stituent drugs, their doses, and how they are to be taken, and there is lit tle theoreti-
+cal discussion. It also in cludes many lists of oral instruc tions, which are in dicative of
+Trịnh Đôn Phác’s clinical experien ce.
+The on ly ot her medical works dating from up un til the seven teenth cen tury that I
+have been able to iden tify are the 5-volume Bảo sinh diên thọ toản yếu 保生延壽纂要
+(Collec ted Essen tials for Preserving Life and Prolon ging Life Span) by Đào Công
+Chính 陶公正, with his own preface dated 1676 (In stitute of Hán-Nôm Studies,
+A.3179), and the 1-volume Châm cứu thủ huyệt đồ 鍼灸取穴圖 (Diagrams for Select
+ing Points in Acu-moxibustion) with a colop hon dated 1695 by Lí Công Tuấn 李公俊
+(In stitute of Hán-Nôm Studies, VHv.2015).
+4. Ngô Văn Tĩnh’s Vạn Phương Tập Nghiệm
+Ngô Văn Tĩnh 呉文靖, anot her presen ted scholar, com piled the 8-volume Vạn
+phương tập nghiệm 萬方集驗 (Collec ted Effects of a Myriad Formulas). The extant
+han dcopy made by the É cole française d’Extrê me-Orient (In stitute of Hán-Nôm
+Studies, A.1287/1–8) has a preface dating from when it was rep rin ted in 1762, ac-
+cording to which it was “com piled by Ngô Văn Tĩnh, a presen ted scholar of the Lê
+dynasty, proofread by Nguyễn Nho 阮儒, a presen ted scholar of the Lê dynasty, and
+copied by Nguyễn Địch 阮迪, an en try-level licen tiate (tú tài 秀才) of the Academy
+of Medicine.” It is also stated that because it was difﬁcult to obtain a con spec tus of
+formulas, this collec tion was com piled by searching widely and in cludes formulas
+
+
+96
+MAYANAGI MAKOTO
+han ded down in families throughout the coun try.
+The Vạn phương tập nghiệm is writ ten en tirely in Chinese, and it con stitutes a
+formulary arran ged by illness. Vols. 1–4 deal with in ternal treat ment, starting with
+various illnesses such as malaria, diarrhea, food poisoning, cerebrovascular disor
+ders, sum mer colds, cold-in duced disorders, inﬂuen za, and colds caught when it is
+chilly. The placing of malaria, diarrhea, and food poisoning before cold-in duced
+disorders could be described as a charac teristic com mon to Viet namese medical
+treatises. Vol. 5 deals with surgery, vol. 6 with gynecology and pediat rics, vol. 7 with
+illnesses of the head, and vol. 8 with thoracico-abdominal illnesses and illnesses of
+the lower half of the body, and a distin ctive feature of the ﬁnal two volumes can be
+seen in the fact that they are both divided in to three parts.
+For each illness, formulas are listed by sym ptoms, but there is no theoretical
+discussion of the illnesses, and sources are given at eit her the start or the end of each
+sec tion. Many of the formulas have been in direc tly quoted from Chinese works such
+as the Pen-ts‘ao kang-mu, Wai-t‘ai mi-yao-fang 外臺祕要方 (Sec ret and Essen tial
+Formulas from the Im perial Library), and Cheng-lei pen-ts‘ao 證類本草 (Veriﬁed and
+Classiﬁed Pharmacopoeia), but there are also quotations from Chinese works post
+dating the Pen-ts‘ao kang-mu. It is worth noting that the Vạn phương tập nghiệm also
+quotes from Viet namese medical and pharmacological treatises the current where
+abouts of which are un known. This format of brin ging toget her on ly formulas may
+have been inﬂuen ced by the Chinese P‘u-chi-fang 普濟方 (Prescrip tions for Univer
+sal Relief; 1390). This work is the on ly extant Viet namese formulary com piled by
+im perial order, and in this sen se too it is quite valuable.
+5. Lê Hữu Trác’s [Hải Thượng Lãn Ông] Y Tông Tâm Lĩnh
+Lê Hữu Trác 黎有倬 (1720–91), whose given name was Hữu Chẩn 有診, also went by
+the pseudonym of Hải Thượng Lãn Ông 海上懶翁 (Old Idler of Hải Thượng). Both
+his gran dfat her and fat her had been presen ted scholars. He was born in his mot her’s
+hometown in Hà Tĩnh 河靜 provin ce, grew up in his fat her’s hometown in Hải
+Dương 海陽 provin ce, and later returned to his mot her’s home district, where he took
+the name Hải Thượng Lãn Ông and prac ticed medicine. He is therefore generally
+known as Hải Thượng Lãn Ông or Lãn Ông.
+As a boy, Lê Hữu Trác went with his fat her to the capital Thăng Long, where he
+studied and became renowned for his excep tional talent and exten sive knowledge. At
+the age of twen ty he returned to his birthplace to perform the funeral service for his
+fat her and discharge his ﬁlial duties towards his mot her, and he never resumed his
+studies. At the time, the coun try was in a state of up heaval because of numerous
+conﬂicts, and it was also suffering from droughts and famines. Unable to decide on
+
+
+97
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+how to sup port him self, Lê Hữu Trác studied yin-yang 陰陽 theory un der an eighty-
+year-old teac her named Võ 武. He later joined the army, but realizing that war is of
+no beneﬁt to the general populace, he returned to his mot her’s hometown after his
+older brot her’s death.
+But because he had many worries and had become debilitated, Lê Hữu Trác
+received treat ment from Trần Độc 陳讀, who had given up studying for the civil
+service examinations and had retired to become a doc tor, and he recovered after
+about one year. The medical books he studied at this time in cluded the Chinese
+Feng-shih chin-nang mi-lu 馮氏錦囊祕錄 (Mr. Feng’s Sec ret Records from a Brocade
+Pouch), a medical en cyc lopedia in 8 parts and 50 fascic les by Feng Chao-chang 馮
+兆張 and ﬁrst published in 1702, and because Lê Hữu Trác displayed a profound
+un derstan ding of yin-yang theory as it ap plied to medicine, Trần Độc tran smit ted all
+of his medical knowledge to him. In 1756 Lê Hữu Trác went to the capital in search
+of a teac her of medicine, but unable to ﬁnd one, he returned home and con tinued
+with his reading. Then, after having prac ticed medicine for a further ten-odd years,
+he began writing some years prior to 1770 a work based on his own experien ces and
+studies and ultimately com posed the [Hải Thượng Lãn Ông] Y tông tâm lĩnh [海上懶
+翁]醫宗心領 (Essen tial Guidelines for Medicine [by the Old Idler of Hải Thượng]) in
+28 parts and 66 volumes. The above biograp hical in formation is based on his own
+preface to this work (ﬁg. 3), its explanatory remarks and ﬁnal volume, and ot her
+sources.
+The Y tông tâm lĩnh was proofread by Đường Mi Võ 唐郿武 on the basis of Lê
+Hữu Trác’s own handwrit ten manuscript, etc., and was ﬁrst prin ted in 1879–85 at
+Đồng Nhân 同人 tem ple in Bắc Ninh 北寧. Judging from the prefaces to each
+volume, it was writ ten in the years bet ween 1770 and 1786. The woodblocks were
+stored at Đồng Nhân tem ple un til the end of the Viet nam War in 1975, and some
+surviving woodblocks that en ded up in the south are curren tly held by Bắc Ninh
+Provin cial Museum (ﬁg. 4). The general table of con tents gives the tit le of each
+volume, and their con tents are as follows:
+Opening vol., “Y nghiệp thần chương” 醫業神章: describes in ter alia the aut hor’s
+experien ces with medical treat ment throughout his life.
+Vol. 1, “Nội kinh yếu chỉ” 内經要旨: explains the essen tial points of the Nei-ching.
+Vol. 2, “Y gia quan miện” 醫家冠冕: sum marizes the main points of medicine.
+Vols. 3–5, “Y hải cầu nguyên” 醫學求源: present sayings of earlier physicians with
+explanations.
+Vol. 6, “Huyễn tẫn phát vi” 玄牝發微: discusses con genital water and ﬁre (yin and
+yang) in the kidney’s energy (shen-ch‘i 腎氣) and pills with six in gredients (liu-
+
+
+Fig. 3. Y tông tâm lĩnh, aut hor’s preface (NLV, R.1077)
+Fig. 4. Woodblock held by Bắc Ninh Provin cial Museum
+98
+MAYANAGI MAKOTO
+
+
+99
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+wei-wan 六味丸) and eight in gredients (pa-wei-wan 八味丸).
+Vol. 7, “Khôn hóa thái chân” 坤化採眞: discusses ac quired energy and blood (ch‘i-
+hsüeh 氣血) in the spleen and stomach and formulas for tonifying the spleen.
+Vol. 8, “Đạo lưu dư vận” 導流餘韻: sets forth the aut hor’s medical theories.
+Vol. 9, “Vận khí bí điển” 運氣祕典: discusses the theory of circulatory phases and
+seasonal inﬂuen ces (yün-ch‘i 運氣).
+Vols. 10–11, “Dược phẩm vựng yếu” 藥品彙要: describe the effects of 150 im por
+tant drugs.
+Vols. 12–13, “Lĩnh Nam bản thảo” 嶺南本草: describe the effects of Viet namese
+drugs on the basis of the Nam dược thần hiệu, etc.
+Vol. 14, “Ngoại cảm thông trị” 外感通治: discusses illnesses due to external ma-
+leﬁc inﬂuen ces and their treat ment.
+Vols. 15–24, “Bách bệnh cơ yếu” 百病機要 (on ly vols. 17–18 published): discuss
+various illnesses and their treat ment.
+Vol. 25, “Y trung quan kiện” 醫中關鍵: discusses the sec rets to treating various
+illnesses.
+Vols. 26–27, “Phụ đạo xán nhiên” 婦道燦然: discuss gynecological disorders,
+prepartum and postpartum disorders, and their treat ment.
+Vol. 28, “Toạ thảo lương mô” 坐草良模: discusses obstet rics.
+Vols. 29–32, “Ấu ấu tu tri” 幼幼須知: discuss pediat rics.
+Vols. 34–43, “Mộng trung giác đậu” 夢中覺痘: discuss smallpox.
+Vol. 44, “Ma chẩn chuẩn thằng” 麻疹準繩: discusses measles.
+Vol. 45, “Tâm đắc thần phương” 心得神方: explains formulas in cluded in the
+Feng-shih chin-nang mi-lu.
+Vol. 46, “Hiệu phỏng tân phương” 傚倣新方: lists formulas devised by the aut hor.
+Vols. 47–49, “Bách gia trân tàng” 百家珍藏: list formulas devised by renowned
+Viet namese physicians, arran ged by illness.
+Vols. 50–57, “Hành giản trân nhu” 行簡珍需: give drugs suitable for various
+illnesses.
+Vols. 58–60, “Y phương hải hội” 醫方海會 (on ly vol. 58 published): bring toget her
+formulas arran ged by illness.
+Vol. 61, “Y dương án” 醫陽案: gives exam ples of suc cessful treat ments.
+Vol. 62, “Y âm án” 醫陰案: gives exam ples of un suc cessful treat ments.
+Vol. 63, “Truyền tâm bí chỉ” 傳心祕旨 (“Châu ngọc cách ngôn” 珠玉格言): presents
+sayings about the quin tessen ce of medical treat ment in general.
+Vol. 64, “Vấn sách” 問策: un published.
+Closing vol., “Thượng Kinh kí sự” 上京記事: in cludes an ac count of the aut hor’s
+visit to Thăng Long, poems exchan ged with famous peop le, etc.
+
+
+8)　Nguyễn Gia Phan 阮嘉璠 was born in Từ Liêm 慈廉 district (present-day Hanoi) in 1749.
+He passed the civil service examinations at the age of twen ty-six and was ap poin ted to the post of
+cen sor, overseeing ofﬁcials in Sơn Tây 山西 provin ce.
+100
+MAYANAGI MAKOTO
+The Y tông tâm lĩnh thus con sists of 64 volumes toget her with opening and closing
+volumes, making 66 volumes in total. But the extant version is missing several
+volumes, and judging from the prefaces added at the time of publication it would
+seem that a total of 55 volumes in 27 parts were ac tually published. It is, of course,
+the most voluminous medical treatise com piled by a sin gle person in Viet nam, and
+there are few similar exam ples in China, Japan, or Korea. When one also takes in to
+ac count the fact that it was published about a hun dred years after the aut hor’s death,
+it is questionable whet her it was ac tually com posed by Lãn Ông alone. But the
+overall con tents, in cluding the aut hor’s prefaces to each volume, display a high level
+of in ternal con sisten cy, and signs of the in clusion of the writings of ot her peop le can
+be found on ly in vols. 12–13. The most frequen tly quoted work is the Feng-shih
+chin-nang mi-lu, followed by the I-hsüeh ju-men, Wan-ping hui-ch‘un 萬病回春
+(Recovery from a Myriad Diseases), Shou-shih pao-yüan, and Ching-yüeh ch‘üan-
+shu, all of which are medical en cyc lopedias dating from the Ming to early Ch‘ing
+period, and it is to be surmised that it was partly because of the inﬂuen ce of these
+works that the Y tông tâm lĩnh was com posed.
+The ac hievements of this work may be con sidered to have been threefold. First, it
+presen ted a system of medicine in which Chinese medicine had been Viet namized
+and clariﬁed its charac teristics. Secon dly, it dealt com prehen sively with the effects
+of and formulas for Viet namese drugs from the perspec tive of Tuệ Tĩnh’s view that
+Sout hern medicines should be used for treating the Viet namese, and it also provided
+newly devised treat ments and formulas. Thirdly, it described not on ly suc cessful but
+also un suc cessful exam ples of treat ment for the beneﬁt of future students of
+medicine. This work presen ted both theories and met hods of treat ment, especially
+met hods of treat ment and formulas using Sout hern drugs, and a systematic form of
+Viet namese medicine was brought to com pletion. Even prior to its publication, it
+was quoted in many Viet namese medical and pharmacological works, and manu
+scripts of parts of it or excerpts from it also circulated. It was thus an extremely inﬂu-
+en tial work, and its aut hor Lãn Ông must in deed be regarded as one of the leading
+physicians in the history of Viet nam.
+6. Medical Treatises by Nguyễn Gia Phan
+Nguyễn Gia Phan (1749–1829),8) anot her presen ted scholar, wrote several medical
+treatises, in cluding the Thai sản điều kinh phương pháp 胎産調經方法 (Met hods for
+
+
+9)　Extant copies of this work also bear the tit les Thai tiền điều kinh phương pháp 胎前調經方
+法, Thai tiền điều dưỡng phương pháp 胎前調養方法, Thai sản điều lí phương pháp 胎産調理方法,
+and Thai sản điều dưỡng phương pháp 胎産調養方法. But these tit les are all misnomers deriving
+from chap ter tit les, and the correct tit le is Thai sản điều kinh phương pháp.
+101
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+Con ceiving by Regulating Menstruation), Lý âm phương pháp thông lục 理陰方法
+通錄 (Com prehen sive Record of Met hods for Managing Women’s Health), Hộ nhi
+phương pháp thông lục 護兒方法通錄 (Com prehen sive Record of Met hods for Pro
+tec ting In fants), and Liệu dịch phương pháp toàn tập 療疫方法全集 (Com plete Col
+lec tion of Met hods for Treating Epidemics).
+The Trịnh 鄭 family, which wielded power in the ﬁnal years of the Lê dynasty, had
+few suc cessors, and learning that the presen ted scholar Nguyễn Gia Phan came from
+a family of physicians that had con tinued for three generations, they had him com
+pile a book about prepartum mat ters (1777), which was then used at the im perial
+court. Nguyễn Gia Phan returned home in 1786 and, adding a sec tion on postpartum
+mat ters which had been missing in the work he had presen ted to the Trịnh family, he
+wrote the Thai sản điều kinh phương pháp, a book on obstet rics writ ten in Chinese
+(In stitute of Hán-Nôm Studies, VHv.2069).9) It in cludes an explanation of the
+relation ship bet ween the fetus during the ten months of pregnan cy and the meridians
+or chan nels (ching-mai 經脈), met hods for predic ting the sex of the fetus, medicines
+to be used at childbirth, illustrated explanations of the fetus during the ten months of
+pregnan cy, treat ment for menstrual irregularities, met hods for becoming pregnant,
+sec ret instruc tions for con ceiving through sexual in tercourse, and sec ret instruc tions
+for chan ging a female fetus in to a male fetus wit hin the ﬁrst three months of preg
+nan cy. Each chap ter con tains a theoretical discussion and formulas, as well as ac-
+counts of the aut hor’s experien ces in treating the con ditions dealt with. The works
+quoted in clude, in addition to the Chinese gynecological texts Chi-yin kang-mu and
+Fu-jen liang-fang 婦人良方 (Effec tive Formulas for Women), the en cyc lopedic Cheng-
+chih chun-sheng 證治準繩 (Stan dards for Diagnosis and Treat ment), Ching-yüeh
+ch‘üan-shu, Feng-shih chin-nang mi-lu, Shou-shih pao-yüan, and Wan-ping hui-
+ch‘un, suggesting that these works were widely read at the time.
+Nguyễn Gia Phan then took the sec tions on pediat rics in the Thai sản điều kinh
+phương pháp and in 1813 com piled the Hộ nhi phương pháp thông lục in 4 volumes
+(In stitute of Hán-Nôm Studies, A.1989/1–2, etc.), again in Chinese. He quotes theo
+retical discussions and treat ments, arran ged by sym ptoms, from Chinese works on
+pediat rics and medical en cyc lopedias, and it is worth noting that this work in cludes
+“Western met hods of treat ment.”
+In 1814, Nguyễn Gia Phan com piled the 4-volume Lý âm phương pháp thông lục
+(2 vols. extant; In stitute of Hán-Nôm Studies, A.2853/1–2) on gynecology, also in
+
+
+102
+MAYANAGI MAKOTO
+Chinese. Sin ce it in cludes a preface from 1788, it could be regarded as an en larged
+version of the Thai sản điều kinh phương pháp, and again it con tains many quota
+tions from Chinese medical works. Ac cording to the aut hor’s preface from 1814, he
+also wrote the Y gia phương pháp tổng lục 醫家方法總錄 (Com plete Record of
+Physicians’ Met hods), but it is not known whet her it has survived.
+In 1814 Nguyễn Gia Phan also wrote the 2-volume Liệu dịch phương pháp toàn
+tập on the treat ment of epidemics, again in Chinese. Ac cording to the 1816 colop hon
+in the manuscript of this work (In stitute of Hán-Nôm Studies, A.1306), it is based on
+the aut hor’s experien ces of treating epidemics during two major out breaks in 1789
+and 1814. The aut hors of works quoted in clude Chang Ching-yüeh 張景岳, Feng
+Chao-chang, Chao Hsien-k‘o 趙獻可, and Wu Mien-hsüeh 呉勉學 of the Ming, and it
+is evident that their writings were widely con sulted at the time.
+IV.　MEDICAL AND PHARMACOLOGICAL TREATISES OF THE NGUYỄN PERIOD
+(1802–1945)
+1. The System of Medical Treat ment and Traditional Medical Circles
+In the capital Phú Xuân (present-day Hue) there was an Im perial Academy of
+Medicine (thái y viện 太醫院) at tac hed to the court, and it was respon sible for
+providing medical care for the im perial family and government ofﬁcials. The training
+of court physicians at the Im perial Academy of Medicine began in 1856, but because
+the lec tures provided on ly sim ple in troduc tions to in ternal medicine and surgery, the
+majority of ofﬁcial physicians were selec ted from among doc tors prac ticing among
+the general populace. Ofﬁcial physicians respon sible for looking after government
+ofﬁcials and troops were also at tac hed to local medical ofﬁces (lương y ti 良醫司).
+But there was no public health care for ordinary peop le, nor were there any training
+and research facilities, and private doc tors learnt from teac hings passed down in
+their families or else studied at the private schools of renowned physicians. In the
+period from 1820 to 1883, the government provided medical care and medicines for
+the general populace, and during epidemics ofﬁcials from the cen tral government
+and court physicians were sent to the provin ces.
+In the 1880s Fran ce abolished the civil service examination system in Sài Gòn
+(present-day Ho Chi Minh) in the south, and from around 1910 a romanized form of
+Viet namese orthograp hy devised by the French (quốc ngữ 國語) began to spread.
+Thereafter, the use of mixed-script texts em ploying Chinese and chữ nôm charac ters
+fell in to dec line, and as a result of the spread of education and hospitals (ﬁg. 5) based
+on Western medicine by the French, traditional medical treat ment became the pre
+serve of the private sec tor. However, the civil service examination system survived
+
+
+Fig. 5. Viet nam’s first Western hospital (Sài Gòn, 1876)
+103
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+un til 1918 in Hue in cen tral Viet nam and in Hanoi in the north, and Hán-Nôm
+writing was used in to the twen tieth cen tury, as a result of which traditional medicine
+has not been relegated to the private sec tor to the same extent as in the south. At
+the same time, the num ber of peop le en gaged in prac ticing traditional medicine
+in creased nation wide, and its spread and popularization also advan ced. It is partly for
+this reason that the majority of extant works on traditional medicine and pharma
+cology by Viet namese are manuscripts or prin ted books dating from the Nguyễn
+period.
+2. Datable Works
+There are no voluminous works such as the Y tông tâm lĩnh among extant medical
+and pharmacological works from the Nguyễn period. Furthermore, the majority of
+works thought to have been handwrit ten sin ce the nineteenth cen tury are notebooks
+and the like that record teac hings and so on tran smit ted by certain families, and on ly
+a small num ber men tion the aut hor or date of com position. But there are also some
+that have prefaces and so on which in form us of when they were writ ten or pub
+lished. In the following, I shall therefore give a brief overview of works that I have
+been able to date. For further details, referen ce should be made to two on-line
+
+
+10)　http://square. umin. ac. jp/mayanagi/paper01/han nom. html (MAYANAGI Makoto, The
+Bibliograp hy of the Old Medical Books in the In stitute of Han-Nom Studies); http://square. umin.
+ac. jp/mayanagi/paper01/nlv. html (MAYANAGI Makoto, The Bibliograp hy of the Old Medical
+Books in the National Library of Viet nam).
+104
+MAYANAGI MAKOTO
+sources.10)
+Nguyễn Hành 阮衡, Lạc sinh tâm đắc 樂生心得 (Rules for Hap py Living), 1 vol.
+(aut hor’s preface dated 1802; In stitute of Hán-Nôm Studies, VHb.199): medical
+treatise writ ten in Chinese; also in cludes songs on the meridians writ ten in Hán-
+Nôm in alternating lines of six and eight syllables.
+Lê Trác Như 黎卓如, Cứu pháp tinh vi trích yếu tiện lãm 灸法精微摘要便覽 (Con
+cise Com pen dium of the Essen ce of Moxibustion), 2 vols. (aut hor’s preface
+dated 1805; In stitute of Hán-Nôm Studies, VHv.2946): treatise on moxibustion,
+writ ten in Chinese.
+Ngô Thủ 呉手, Hoạt nhân bị yếu 活人備要 (Essen tials for Saving Peop le), 1 vol.
+extant (aut hor’s preface dated 1809; In stitute of Hán-Nôm Studies, A.2798):
+originally a 4-volume medical en cyc lopedia writ ten in Chinese; the general dis
+cussion of diagnosis, etc., has survived.
+Lê Văn Huệ 黎文惠 (?), Tổng toản y tập 總纂醫集 (Com pen dium of Medicine),
+vols. 2–3 extant (1854?; In stitute of Hán-Nôm Studies, A.1242): medical en cy
+clopedia writ ten in Chinese; the extant manuscript ap pears to be based on a
+prin ted edition.
+Bùi Thúc Trinh 裴叔貞, Y học thuyết nghi 醫學説疑 (Exposition of Doubts about
+Medicine), vols. 1, 3–5 & 7 extant (aut hor’s preface dated 1854; National Li-
+brary of Viet nam, R.1963): medical treatise writ ten in Chinese in question-and-
+an swer format (ﬁg. 6).
+Bùi Thúc Trinh, Vệ sinh yếu chỉ 衞生要旨 (Main Points for Protec ting Life), 8 vols.
+(colop hon dated 1866, aut hor’s preface dated 1890; National Library of Viet
+nam, R.1201–04, etc.): systematic medical en cyc lopedia writ ten in Chinese;
+judging from the extant manuscripts, a prin ted edition may have been published
+in 1890.
+Trần Đức Hinh 陳徳馨, Đậu khoa 痘科 (Smallpox), 4 vols. (aut hor’s preface dated
+1869; In stitute of Hán-Nôm Studies, A.2949/1–2): systematic and com prehen
+sive collec tion of treat ments for smallpox, writ ten in Chinese (in cluding songs
+and prose-poems).
+Nguyễn Hi Viên 阮希袁, Sử đồng tê thọ đậu hậu toàn thư 使童躋壽痘後全書 (En-
+cyc lopedia for Recovery from In fan tile Smallpox), 1 vol. (aut hor’s preface
+
+
+Fig. 6. Y học thuyết nghi, aut hor’s preface (NLV, R.1963)
+105
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+dated 1880; In stitute of Hán-Nôm Studies, A.2273): extant version was copied
+from a prin ted edition with a preface dated 1880.
+Nguyễn Văn Thi 阮文詩, Tự dục bí quyết 嗣育祕訣 (Sec ret Instruc tions for Ob-
+taining an Heir), 5 vols. (aut hor’s preface dated 1884; In stitute of Hán-Nôm
+Studies, VHt.3/1–3): detailed treatise on obstet rics, with exam ples of how
+childless prominent peop le had children.
+Lê Đức Vọng 黎徳望 (?), Nhãn khoa yếu lục 眼科要錄 (Essen tials of Ophthal
+mology), 1 vol. (colop hon dated 1884; In stitute of Hán-Nôm Studies, A.2160):
+treatise on ophthalmology, writ ten in Chinese.
+Nguyễn Địch 阮迪, Văn khê y thư yếu lục 雲溪醫書要錄 (Essen tials of Vân Khê’s
+Medical Treatise), 2 vols. extant (preface dated 1885; In stitute of Hán-Nôm
+Studies, A.2133/1–2): collec tion of medical theories and sec tions on obstet rics
+and gynecology taken from the Y lý yếu lục 醫理要錄 (Essen tials of Medical
+Theory) by the court physician Vân Khê 雲溪.
+
+
+106
+MAYANAGI MAKOTO
+Aut hor un known, Bảo thai thần hiệu toàn thư giải ậm 保胎神效全書解音 (En cy
+clopedia in Viet namese on Divine Efﬁcacy in Protec ting the Fetus), 1 vol. (pub.
+1885; National Library of Viet nam, R.383, etc.): correct tit le is Bảo thai chủng
+tử quốc ậm toản yếu 保胎種子國音纂要 (Essen tials in Viet namese Pronun ciation
+for Protec ting Con cep tion and the Fetus); a treatise on obstet rics and pediat rics
+writ ten in Hán-Nôm.
+Aut hor un known, Kì phương diệu tuyển 奇方妙選 (Won drous Selec tion of Novel
+Formulas), 4 vols. (colop hon dated 1896; In stitute of Hán-Nôm Studies, VHv.
+2950): family formulary arran ged by illness.
+Aut hor un known, Vệ sinh bảo giám 衞生寶鑑 (Precious Mirror on Hygiene), 1 vol.
+(pub. 1898; In stitute of Hán-Nôm Studies, AB.428): writ ten in Hán-Nôm, it dis
+cusses hygiene in everyday life; un related to a Chinese work of the same tit le.
+Hoàng Chí Y 黄志伊, Tự luân đường dược tài bị khảo 敘倫堂藥材備考 (Tự Luân
+Đường’s Notes on Materia Medica), 9 vols. (colop hon dated 1899; In stitute of
+Hán-Nôm Studies, A.290/1–2): pharmacopoeia which classiﬁes 520 drugs by
+their effects and brieﬂy describes them.
+Nguyễn Văn Thịnh 阮文盛, Công tư phổ tế linh dược 公私普濟靈藥 (Miraculous
+Drugs for Universal Relief, Public and Private) (pub. 1910; In stitute of Hán-
+Nôm Studies, AC.235): collec tion of formulas for illnesses in seven bran ches of
+medicine, in cluding men’s health and pediat rics, said to have been sent down to
+earth by order of the Jade Em peror of Taoism.
+Chí Thiện Đàn 志善壇, Hoạt thế lương pháp 活世良法 (Effec tive Met hods for
+Saving the World), 3 vols. (pub. 1931; National Library of Viet nam, R.1788,
+etc.): collec tion of formulas said to have been im parted by a deity who had
+descen ded upon a medium (ﬁg. 7).
+3. The Trung Việt Dược Tính Hợp Biên by Phan Văn Thái et al.
+In addition to the above works, a notable pharmacopoeia is the 16-volume Trung việt
+dược tính hợp biên 中越藥性合編 (Com bined Com pilation of the Properties of Chi
+nese and Viet namese Drugs) (In stitute of Hán-Nôm Studies, A.2702/1–16). Ac cord
+ing to the preface, “Because un til now there had been no monograph on drugs pro
+duced in Viet nam, and it had been difﬁcult to ascertain their Viet namese names and
+utilize them, the government ordered the court physician Phan Văn Thái and ot hers
+to com pile one, and it was com pleted in 1916.”
+This work lists a total of 1,655 drugs produced in China and Viet nam, classifying
+them in the man ner of the Pen-ts‘ao kang-mu in to water, ﬁre, and earth. Writ ten in
+suc cinct Chinese, for each drug it gives the name, its provenan ce (whet her it is
+produced in China or Viet nam), alternative Chinese name(s) and Viet namese name
+
+
+Fig. 7. Hoạt thế lương pháp (NLV, R.1788)
+107
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+(the lat ter in chữ nôm charac ters), ap pearan ce, properties, processing met hods, and
+effects, toget her with textual sources. The most frequen tly cited source is the Pen-
+ts‘ao kang-mu, followed by Hải Thượng Lãn Ông, the Ch‘ing-period Pen-ts‘ao
+ts‘ung-hsin 本草從新 (New Pharmacopoeia), the local gazet teer Đại Nam nhất thống
+chí 大南一統志 (pub. 1910) com piled during the Nguyễn period, the Ming-period
+I-hsüeh ju-men, and the Ch‘ing-period Pen-ts‘ao pei-yao 本草備要 (Essen tials of
+Materia Medica). Viet namese historical works are also quoted.
+In the explanatory remarks added to the sec tion on gin seng (Panax gin seng) in
+vol. 15, men tion is made of gin seng produced in ot her coun tries, and Western (i. e.,
+American) gin seng (Panax quin quefolius) from North America is mistaken ly said to
+come from Fran ce. But it is correc tly noted that Orien tal (i. e., Japanese) gin seng
+(Panax gin seng cultivar) is produced in Japan and that “ﬂower-ﬂag gin seng” (hua-
+ch‘i-shen 花旗參), anot her name for American gin seng, comes from the Americas. It
+is also in teresting to note that in the sec tion on tobac co (Nicotiana tabacum) in vol.
+16 it is stated that it ﬁrst en tered Viet nam from Yün-nan 雲南 in China in 1660. This
+
+
+11)　http://lib. nom foun dation. org/ (Digital collec tions of the Viet namese Nôm Preservation
+Foun dation).
+108
+MAYANAGI MAKOTO
+work, which also pays at ten tion to natural history, is the on ly Viet namese pharma
+copoeia com piled by im perial order, and judging from its size, it was probably never
+prin ted. The sole extant copy held by the In stitute of Hán-Nôm Studies is a han dcopy
+made by the É cole française d’Extrê me-Orient, and because it was probably based
+on the original preserved in Hue, it is valuable also for the history of Viet namese
+scholarship.
+4. The Ngư Tiều Vấn Đáp Nho Y Diễn Ca and Medicine in Sout hern Viet nam
+Among the Viet namese medical and pharmacological works con sidered above, on ly
+a small num ber, such as the Hồng Nghĩa giác tư y thư, have been tran slated and
+published in modern Viet namese, and in most cases on ly the tit les and/or aut hors
+have been men tioned in ot her studies. It is also un likely that there exist any photo
+grap hic rep roduc tions of the originals, but curren tly works held main ly by the Na-
+tional Library of Viet nam are being made digitally ac cessible.11) Furthermore, these
+were all works from northern and cen tral Viet nam, especially Hanoi, the capital from
+the Trần period, and Hue, the capital during the Nguyễn period. Up un til the ﬁrst half
+of the Nguyễn period, sout hern Viet nam was far removed from the cen ters of politics
+and culture, and few old books from the south have survived.
+Following the Treaty of Saigon in 1862, on the basis of which the Nguyễn dynasty
+ceded sout hern Viet nam to Fran ce, French-style medical treat ment became the ofﬁ
+cial form of treat ment in sout hern Viet nam, and traditional medical treat ment became
+the preserve of local physicians. In resistan ce to these moves, there was com posed
+bet ween about 1870 and 1880 the Ngư tiều vấn đáp nho y diễn ca 漁樵問答儒醫演歌
+(Verses of a Dialogue bet ween a Fisherman and a Woodcut ter about Con fucian
+Medicine) (ﬁg. 8; pub. 1911), and it has con tinued to be rep rin ted un der the tit le Ngư
+tiều vấn đáp y thuật 漁樵問答醫術 (Dialogue bet ween a Fisherman and a Woodcut ter
+on the Art of Medicine), which in cludes a parallel ren dering in romanized Viet nam
+ese. This work was com posed by the blind poet and Con fucian physician Nguyễn
+Đình Chiểu 阮廷炤 (pseudonym: Hối Trai 晦齋; 1822–88) in mixed Hán-Nôm that
+makes use of many chữ nôm charac ters, and it presents the quin tessen ce of Chinese
+medical and pharmacological theories in about 3,600 verses (diễn ca 演歌) in alter
+nating lines of six and eight syllables.
+Because this work was writ ten in a style of Viet namese that was easy for peop le to
+un derstand and popularized systematic knowledge of traditional medicine for the
+
+
+Fig. 8. Ngư Tiều vấn đáp nho y diễn ca (Sout hern
+In stitute of Social Scien ces Library, Ho Chi
+Minh)
+109
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+ﬁrst time, it is con sidered to rep resent a pin nac le in the Viet namization of Chinese
+medicine. It was also the lon gest work in the history of Viet namese medicine to be
+writ ten in the distin ctively Viet namese literary style known as diễn ca. It could be
+said that the reason that similar works did not ap pear at the time in cen tral and
+northern Viet nam was that it was in the south that traditional medical treat ment was
+un der the greatest threat from French colonial medicine.
+V.　THE DEVELOP MENT AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+AND PHARMACOLOGY
+In the above we have examined extant medical and pharmacological works from
+the Trần period down to the Nguyễn period, and through these works it is possible
+to gain a glim pse of some of the develop ments and charac teristics distin ctive of
+Viet nam.
+The ﬁrst point to be noticed is the develop ment of a form of medicine suited to
+Viet nam’s climatic con ditions, the struc ture of illnesses to which its peop le were
+
+
+110
+MAYANAGI MAKOTO
+suscep tible, and peop le’s physical con stitutions. The fourteenth-cen tury Y học yếu
+giải, the oldest extant Viet namese medical work, in cludes two newly devised formu
+las for treating in fec tious fevers and chills. In dealing with acute diseases, greater
+em phasis is placed on malaria, diarrhea, and food poisoning than on cerebrovascular
+disorders and cold-in duced disorders, and this is a charac teristic com mon to Viet
+namese medical works. In vol. 14 (“Ngoại cảm thông trị”) of the Y tông tâm lĩnh,
+cold-in duced disorders are discussed toget her with Viet nam’s climatic con ditions
+and the physical con stitution of its peop le, and it is deemed inap prop riate to use the
+warming diap horetics ep hedra (ma-huang 麻黄 [Ep hedrae herba]) and cin namon
+twigs (kuei-chih 桂枝 [Cin namomum obtusifolium (ramus)]) to treat cold-in duced
+disorders because of Viet nam’s high tem peratures. This work also in cludes many
+new formulas for sup plemen ting bodily ﬂuids lost through perspiration because of
+Viet nam’s heat and humidity.
+Related to this is the ap plication of Sout hern drugs in formulas, advocated by Tuệ
+Tĩnh, and the inﬂuen ce of this can be widely seen in many medical works. That is to
+say, the second charac teristic is the expan sion of the ﬁeld of Viet namese medicine
+and pharmacology. The develop ment and ap plication of Sout hern drugs exten ded
+to a recognition of the medicinal efﬁcacy of distin ctively Viet namese foodstuffs,
+and there were born original pharmacopoeias of Viet namese drugs and foodstuffs,
+culminating in the Trung việt dược tính hợp biên, com piled by im perial order. In
+clinical develop ments, not on ly did there develop treat ments for malaria, warm-
+tem perature diseases, and miasma, which could all be described as en demic diseases,
+but there were com posed medical treatises that placed an equal im portan ce on the
+treat ment of domestic animals. Further, owing to frequent warfare, military medicine
+was born, while in measures taken in the im perial court to produce heirs there were
+advan ces in the ﬁelds of ap hrodisiacs, sexual hygiene, gynecology, pediat rics, and
+smallpox to assist in con cep tion and childcare. These formulas based on experien ce
+were in cluded in the Vạn phương tập nghiệm, a com prehen sive formulary com piled
+by im perial order.
+Thirdly, men tion may be made of the spread of expositions of medicine in song
+form, starting with Tuệ Tĩnh’s Nam dược quốc ngữ phú and Trực giải chỉ nam dược
+tính phú. Medical and pharmacological works in song form ﬁrst ap peared in China
+during the Yüan dynasty and circulated somewhat during the Ming, and their in-
+ﬂuen ce also exten ded to some extent to Korea and Japan. But the adop tion of this
+format in the greatest num ber of medical and pharmacological works is a major
+charac teristic of Viet nam, and it could be said to be a reﬂec tion of the fact that
+the essen tials of medicine and pharmacology were tran smit ted by recitation from
+memory and oral tran smission. This format was brought to com pletion in Nguyễn
+
+
+111
+THE TRADITIONS AND CHARAC TERISTICS OF VIET NAMESE MEDICINE
+Đình Chiểu’s Ngư Tiều vấn đáp nho y diễn ca in the form of diễn ca writ ten in
+alternating lines of six and eight syllables. It is to be surmised that com mercial
+publishing, which also has the fun ction of publicizing and disseminating medical
+and pharmacological knowledge, did not emerge in Viet nam un til the late nineteenth
+cen tury. Background fac tors in this widespread adop tion of the song form in Viet
+namese medical and pharmacological works may have been this social economy and
+an oral culture.
+The fourth charac teristic is the fact that many of the con tem porary medical and
+pharmacological works that con tinued to be copied and have survived down to the
+present day were com piled by men who had passed the civil service examinations or
+by men belon ging to or associated with such families. Of course, the existen ce of the
+civil service examination system lies behind this, but in China and Korea, where
+civil service examinations were also held, medical and pharmacological works com
+piled by men who had passed these examinations were not circulated or tran smit ted
+to the same extent as they were in Viet nam. This suggests a relation ship bet ween
+Con fucianism and medicine peculiar to Viet nam. Con sequen tly, the Chinese medical
+and pharmacological works quoted in their writings were all voluminous and ex-
+pen sive works such as the 52-fascic le Pen-ts‘ao kang-mu (1596), 59-fascic le Feng-
+shih chin-nang mi-lu (1702), 64-fascic le Ching-yüeh ch‘üan-shu (1710), and 44-
+fascic le Cheng-chih chun-sheng (1760), and these were not works that local doc tors
+could usually utilize. Even smaller works such as the 8-fascic le I-hsüeh ju-men
+(1575), 8-fascic le Wan-ping hui-ch‘un (1587), and 10-fascic le Shou-shih pao-yüan
+(1615) were being used in Viet nam not all that long after they had been com pleted or
+had been ﬁrst published in China, and this too would have been difﬁcult for local
+prac titioners to do. It was probably partly because of such fac tors that medical works
+by men who had passed the civil service examinations con tinued to be tran smit ted
+and quoted.
+Fifthly, men tion must be made of the ap pearan ce of the [Hải thượng lãn ông] Y
+tông tâm lĩnh in 28 books and 66 volumes. Not on ly can all of the charac teristics of
+Viet namese medicine and pharmacology noted above be found in this work, but they
+have been systematically and logically organized, and it is no exaggeration to say
+that a system en dowed with the distin ctive features of Viet namese medicine was
+given con crete expression in this work. This great ac hievement is com parable to that
+of Manase Dōsan 曲直瀬道三 (1507–94) in Japan and Hŏ Chun 許浚 (1539–1615) in
+Korea, and for this reason Hải Thượng Lãn Ông (Lê Hữu Trác) is regarded as the
+greatest physician in the history of Viet nam. But because of its voluminousness and
+the fact that it is writ ten in Chinese, this work is not used at all in present-day
+Viet nam.
+
+
+Fig. 9. Tem ple of Medicine (Hanoi), where Lãn Ông and ot hers are enshrined.12)
+12)
+This Tem ple of Medicine (Y Miếu 醫廟) was established in 1774 by Trịnh Đình Ngoạn 鄭
+廷玩, head of the Im perial Academy of Medicine, for the purpose of venerating renowned
+Viet namese physicians such as Tuệ Tĩnh and Hải Thượng Lãn Ông. It was renovated and exten ded
+in 1834, but was then aban doned during the period of French rule. In 2000 it was rebuilt and
+restored by the municipal aut horities of Hanoi, and sin ce then a memorial service has been held
+an nually on Traditional Medicine Day (15th day of the ﬁrst month of the lunar calen dar) by peop le
+in volved in medicine. It is in teresting to note that the names inscribed on the pillars―Shou-shih
+壽世 and Ching-yüeh 景岳 on the right and Hui-ch‘un 回春 and Tan-hsi 丹溪 on the left―are the
+names of Chinese medical works and physicians that had an inﬂuen ce on Viet namese medicine.
+112
+MAYANAGI MAKOTO
+Further, because of the in troduc tion by the government in Hanoi of con tem porary
+Chinese medicine in modern Viet namese tran slation sin ce 1955, medicine in present-
+day Viet nam, with the excep tion of research in to Viet nam’s own medicines, is far
+removed from the old medical and pharmacological works that record Viet nam’s
+own experien tial knowledge. It is to be hoped that in the future the diversity of tra
+ditional Viet namese medicine and pharmacology will be given greater prominen ce.

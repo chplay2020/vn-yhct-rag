@@ -1,0 +1,308 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 29: thuốc điều trị thiếu máu
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được vai trò sinh lý, dược động học và chỉ định của sắt.
+2. Phân tích được nguồn gốc, vai trò sinh lý, chỉ định của vitamin B 12, acid folic,
+eryt hropoitin, và nguyên tắc điều trị thiếu máu.
+1.
+Đại cương
+1.1. Định nghĩa thiếu máu
+Thiếu máu là tình trạng giảm số lượng hồng cầu hoặc huyết sắc tố hoặc hematoc rit dưới
+mức bình thường so với người cùng tuổi, cùng giới khoẻ mạnh.
+- Đối với nam giới được coi là thiếu máu khi: số lượng hồng cầu dưới 4 triệu hoặc
+hemoglobin dưới 12 g/ 100 m L hoặc hematoc rit dưới 36%.
+- Đối với nữ giới được coi là thiếu máu khi: số lượng hồng cầu dưới 3,5 triệu hoặc
+hemoglobin dưới 10 g/ 100 m L hoặc hematoc rit dưới 30%.
+1.2. Nguyên nhân thiếu máu
+Thiếu máu do rất nhiều nguyên nhân có thể : do chấn thương, sau phẫu thuật, do giun
+móc, tóc, rong kinh, trĩ, loét dạ dày - tá tràng, do tan máu ở người có bất thường về
+hemoglobin, thiếu G6PD, bệnh tự miễn, do thuốc hoặc hóa chất, sốt rét hoặc do tuỷ
+xương kém hoạt động hoặc không hoạt động hoặc do thiếu hụt các thành phần tổng hợp
+hemoglobin, sản xuất hồng cầu.
+Dựa vào chỉ số nhiễm sắc và kích thước hồng cầu thiếu máu được xếp thành 3 loại:
+. Thiếu máu nhược sắc: hồng cầu nhỏ và chỉ số nhiễm sắc < 1
+. Thiếu máu đ¼ng sắc: hồng cầu bình thường và chỉ số nhiễm sắc = 1
+. Thiếu máu ưu sắc: hồng cầu to và chỉ số nhiễm sắc > 1
+2. Nguyên tắc điều trị thiếu máu
+Trong quá trình điều trị thiếu máu phải kết hợp điều trị nguyên nhân với dùng thuốc hoặc
+với điều trị triệu chứng và bồi dưìng cơ thể.
+- Trường hợp mất máu cấp với khối lượng lớn: cần phải truyền máu ngay. Trong khi chờ
+đợi máu phải truyền nước muối sinh lý hoặc Rin ger lac tat và tìm nguyên nhân, vị trí chảy
+máu để điều trị.
+- Mất máu mạn tính do giun tóc, móc, rong kinh, trĩ, sốt rét dùng các thuốc điều trị
+nguyên nhân kết hợp với bổ sung sắt và bồi dưìng cơ thể.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Thiếu máu do giảm sản xuất hồng cầu: có thể dựa vào thể tích trung bình hồng cầu để
+dùng các thuốc. Hồng cầu nhỏ khi thể tích trung bình dưới 70 fl. Ngược lại hồng cầu gọi
+là to khi thể tích trung bình > 110 fl.
+. Trường hợp thiếu máu hồng cầu nhỏ: dùng sắt kết hợp với vitamin B 6 và tăng lượng
+protid, lipid trong khẩu phần ăn và điều trị nguyên nhân.
+. Thiếu máu hồng cầu to phải tìm nguyên nhân điều trị kết hợp dùng B 12 hoặc acid folic.
+. Thiếu máu do tan máu: dùng các phương pháp hạn chế nguyên nhân gây tan máu kết
+hợp với dùng acid folic.
+3. Các thuốc chữa thiếu máu
+3.1. Sắt
+3.1.1. Vai trò và nhu cầu sắt của cơ thể
+Cơ thể người lớn chứa khoảng 3- 5 gam sắt, trong đó 1,5- 3 gam tồn tại trong hồng cầu,
+phần còn lại 0,5 gam chứa trong sắc tố cơ (myoglobulin), một số en zym xan thinoxidase,
+- glycerop hosphatoxidase.
+ở người bình thường, nhu cầu sắt hàng ngày khoảng 0,5 - 1 mg . Phụ nữ giai đoạn có kinh
+nguyệt hoặc có thai, cho con bú nhu cầu sắt cao hơn khoảng 1 - 2 mg và 5- 6 mg trong 24
+giờ.
+Khi thiếu hụt sắt, cơ thể không chỉ có thay đổi sự tạo máu, mà còn thay đổi chức năng của
+nhiều en zym quan trọng. Do vậy, bổ sung sắt là biện pháp rất quan trọng để điều trị thiếu
+máu nhược sắc.
+3.1.2. Động học của sắt trong cơ thể
+Nguồn cung cấp sắt hàng ngày cho cơ thể chủ yếu từ các thức ăn có nguồn gốc động vật
+và thực vật. Thức ăn chứa lượng sắt trên 5 mg trong 100 gam: gan, tim, trứng, thịt nạc, giá
+đậu, hoa quả.
+* ở dạ dày: sắt từ nguồn thức ăn có thể ở dạng ion Fe 2+ hoặc Fe3+. Fe2+ được hấp thu dễ
+dàng qua niêm mạc dạ dày, ruột; còn Fe 3+ sĩ kết hợp với albumin niêm mạc đường tiêu
+hóa, nên không hấp thu được, gây kích thích niêm mạc ống tiêu hóa. Muốn hấp thu được,
+Fe3+ phải được chuyển thành Fe 2+ nhờ tác dụng của acid hydroc loric ở dạ dày.
+* Tại ruột: Fe2+ được gắn với một albumin ở tế bào niêm mạc ruột là apoferritin để tạo
+thành ferritin đi vào máu. Apoferritin là chất mang sắt, có nhiệm vụ đưa sắt vào máu xong
+quay trở lại niêm mạc ruột để vận chuyển tiếp sắt. Khi cơ thể thiếu sắt thì số lượng
+apoferritin tăng lên để làm tăng hấp thu sắt và ngược lại. Một số chất như vitamin C,
+protein có chứa nhóm- SH làm Fe3+ chuyển thành Fe2+ dễ hấp thu. Nhưng có một số chất
+cản trở hấp thu như: phosphat, acid nuc leic, acid phytic, tanin, tet racyc lin.
+* Trong máu: sắt tách ra từ ferritin và được gắn với - globulin, chất vận chuyển sắt đặc
+hiệu tạo thành tran sferritin. Dạng phức hợp sắt được chuyển đến các mô như tuỷ xương,
+có một phần ở dạng dự trữ còn một phần để tạo ra hồng cầu và các en zym (Hình 28.1).
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+* ở mô: sắt đi vào trong tế bào được phải thông qua tran sferritin recep tor ở màng tế bào.
+Nhờ quá trình nhập bào, phức hợp tran sferritin recep tor đi vào trong tế bào giải phóng ra
+ion sắt. Sau khi giải phóng sắt trong nội bào, tran sferritin quay lại màng tế bào để làm
+nhiệm vụ vận chuyển sắt tiếp. Khi thiếu hụt sắt thì số lượng tran sferritin recep tor tăng và
+giảm ferritin (giảm dự trữ sắt) và ngược lại, khi lượng sắt trong cơ thể tăng cao thì số
+lượng tran sferritin recep tor giảm xuống và tăng dạng dự trữ sắt lên (ferritin) và tăng thải
+trừ sắt qua phân, mồ hôi và nước tiểu.
+Thức ăn:
+Fe2+ hoặc Fe3+
+HCl
+Dạ dày
+Fe Cl2
+Niêm mạc ruột
+(tá tràng):
+Fe2+ + Apoferritin
+Ferritin(Fe3+)
+Thải theo phân
+Máu:
+Tran sferritin (Fe3+)
+- globulin + Fe3+
+Sắt từ hồng cầu
+Bị huỷ (Fe2+)
+Tuỷ xương
+Mô
+Dự trữ:
+Thải trừ
+(tạo hồng cầu)
+(tạo en zym,
+(gan, lách
+( mồ hôi, nước
+globin cơ)
+tuỷ xương)
+tiểu, kinh nguyệt)
+Hình 28.1. Sơ đồ vận chuyển sắt trong cơ thể
+3.1.3. Sự thiếu hụt sắt
+Sự thiếu hụt sắt có thể do:
+- Cung cấp không đầy đủ, gặp ở những người có mức sống thấp.
+- Mất cân bằng giữa cung và cầu: phụ nữ có thai, cho con bú, trẻ em đang lớn.
+- Giảm sự hấp thu sắt ở đường tiêu hóa: gặp ở những người cắt một phần dạ dày, viêm
+ruột, thiếu apoferritin, dùng một số thuốc hoặc thức ăn chứa một số chất ngăn cản sự hấp
+thu sắt.
+- Chảy máu: đường tiêu hóa (giun tóc, giun móc, trĩ), tử cung cấp hoặc mạn tính (rong
+kinh)...
+3.1.4. Chỉ định
+- Thiếu máu thiếu sắt do các nguyên nhân khác nhau.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Phụ nữ có thai, cho con bú, chứng xanh lướt của phụ nữ.
+3.1.5. Chế phẩm và liều lượng
+Trong điều trị sắt có thể dùng riêng rĩ hoặc phối hợp với một số ion hoặc và các vitamin.
+Trên lâm sàng sắt có thể dùng đường uống hoặc tiêm tĩnh mạch chậm. Tiêm tĩnh mạch
+khi bệnh nhân không dung nạp hoặc rối loạn hấp thu sắt theo đường uống hoặc người suy
+thận mạn tính kìm theo phải lọc máu. Hiện có 2 chế phẩm sắt dextran và sắt suc rose dùng
+tiêm chậm tĩnh mạch hoặc truyền tĩnh mạch. Khi dùng cần phải thử với liều thấp trước để
+đề phòng phản ứng phản vệ. Các chế phẩm sắt thường dùng đường uống trên lâm sàng
+đều ở dạng muối sulfat, clorid, fumarat, gluconat, aminoat và ascorbat.
+- Người lớn liều trung bình 2-3 mg/ kg cân nặng tương đương 200 mg/ ngày.
+- Trẻ nhỏ liều trung bình 5 mg/ kg cân nặng/ ngày.
+- Phụ nữ có thai hoặc cho con bú liều trung bình 4 - 6 mg/ kg cân nặng/ ngày.
+Trong quá trình điều trị cần theo dõi lượng hemoglobin. Khi hemoglobulin máu trở về
+giá trị bình thường cần tiếp tục uống thuốc trong 3 -4 tháng để tạo sự bão hoà dự trữ sắt.
+3.1.6. Tác dụng không mong muốn
+- Khi dùng đường uống: lợm giọng, buồn nôn, nôn, táo bón, ỉa chảy, kích ứng đường tiêu
+hóa.
+- Khi dùng đường tiêm: đau tại chỗ tiêm , đau đầu, buồn nôn, nôn, sốt, shock kiểu phản vệ
+khi tiêm tĩnh mạch do vậy khi dùng cần phải tiêm tĩnh mạch chậm.
+3.1.7. Sự quá liều lượng
+Ngộ độc sắt do quá liều ít gặp ở người lớn, nhưng hay gặp ở trẻ em. ở trẻ em liều 1- 2 g
+có thể gây tử vong. Triệu chứng ngộ độc có thể xuất hiện sau khi uống nhầm 30 phút đến
+vài giờ.
+- Khi gặp ngộ độc, ngoài biện pháp điều trị tích cực và điều trị triệu chứng, các biện pháp
+loại trừ chất độc như gây nôn, rửa ruột bằng dung dịch nat ribicarbonat hoặc phosphat
+cũng được sử dụng. Khi sắt trong máu cao trên 3,5 mg/ L phải dùng deferoxamin tiêm
+tĩnh mạch hoặc tiêm bắp hoặc có thể dùng deferip ron đường uống. Hai thuốc này có tác
+dụng tạo chelat với ion sắt.
+3.2. Vitamin B12
+3.2.1. Nguồn gốc
+Vitamin B12 là tên chung chỉ 5 cobalamid: cyanocobalamin, hydroxycobalamin, met hyl
+cobalamin và 5- deoxyadenosylcobalamin. Vitamin B 12và cyanocobalamin được dùng để
+chỉ tất cả các cobalamid có hoạt tính ở người. Nhưng trên thực tế chỉ có 2 cobalamid:
+cyanocobalamin và hydroxycobalamin được dùng trong điều trị vì các cobalamid này
+đóng vai trò coen zym của nhiều phản ứng chuyển hóa, đặc biệt là sự tổng hợp ADN. Hơn
+thế nữa, các cobalamid này ổn định hơn các cobalamid khác.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tế bào cơ thể không tự tổng hợp được vitamin B 12. Nguồn cung cấp vitamin B 12 nhiều
+nhất là gan, thịt, cá, trứng. Trong thực vật không có vitamin B 12.
+3.2.2. Dự ơc động học của vitamin B 12
+Trong thức ăn vitamin B 12 (yếu tố ngoại lai) được dịch vị và protease giải phóng ra khỏi
+các liên kết với protein và được gắn ngay với glycop ro tein ở dạ dày (yếu tố nội). Phức hợp
+vitamin B12- yếu tố nội xuống ruột tác động lên recep tor đặc hiệu trên niêm mạc hỗng
+tràng và được chuyển vào máu. Trong máu vitamin B 12 gắn vào - globulin có nguồn gốc
+ở gan gọi là tran scobalamin II. Phức hợp vitamin B12- tran scobalamin nhanh chóng được
+phân phối vào các mô đặc biệt là nhu mô gan. Ngoài tran scobalamin II, vitamin B 12 còn
+được gắn vào tran scobalamin I và III. Phức hợp tran scobalamin I - B12 là dạng dự trữ của
+vitamin B12. Gan là cơ quan dự trữ 90% lượng vitamin B12 của cơ thể (1- 10 mg). Vitamin
+B12 được thải trừ qua phân, nước tiểu. Vì có chu kỵ gan ruột, cho nên có trường hợp sau
+cắt dạ dày 3- 4 năm mới có biểu hiện thiếu vitamin B 12.
+3.2.3. Vai trò của vitamin B 12
+Vitamin B12 là chất cho met hyl nên rất cần cho sự chuyển hóa acid folic để tổng hợp acid
+nhân giúp cho tế bào nhân lên phát triển.
+- Chuyển homocystein thành met hionin và 5 -met hyltet rahydrofolic thành acid
+tet rahydrofolic.
+- Chuyển L- met hylmalonyl- Co A thành suc cinyl - Co A trong chuỗi các phản ứng chuyển
+hóa glucid, lipid thông qua chu trình Krebs.
+- Duy trì nồng độ myelin bình thường trong các neuron của hệ thống thần kinh.
+3.2.4. Thiếu hụt vitamin B 12
+Nhu cầu hàng ngày của vitamin B 12 phụ thuộc vào tuổi, giới, tình trạng bệnh lý và nằm
+trong khoảng từ 0,3- 2,6 g.
+Thiếu vitamin B12 có thể do: Cung cấp không đầy đủ, giảm hấp thu do giảm yếu tố nội,
+viêm ruột, cắt hỗng tràng, bệnh tụy tạng gây thiếu protease, tự sinh kháng thể chống yếu
+tố nội, rối loạn chu kỵ gan ruột hoặc do giảm số lượng, chất lượng tran scobalamin II do di
+truyền. Khi thiếu vitamin B12 gây nên thiếu máu ưu sắc hồng cầu to (thiếu máu ác tính
+Biermer), tổn thương neuron hệ thần kinh: phù nề, mất myelin. Có thể gây chết neuron
+thần kinh ở tuỷ sống, vỏ não, gây rối loạn cảm giá c, vận động ở chi, rối loạn trí nhớ, rối
+loạn tâm thần. ở người cao tuổi có thể gặp tổn thương thần kinh do thiếu vitamin B 12
+nhưng không có dấu hiệu thiếu máu.
+3.2.5. Chỉ định- chống chỉ định
+- Thiếu máu ưu sắc hồng cầu to Biermer.
+- Viêm đau dây thần kinh, rối loạn tâm thần.
+- Suy nhược cơ thể, chậm phát triển, già yếu.
+- Nhiễm độc, nhiễm khuẩn.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Không dùng thuốc cho người dị ứng với thuốc và ung thư các thể khác nhau.
+3.2.6. Chế phẩm và cách dùng
+Vitamin B12 có thể dùng dưới dạng đơn chất hoặc kết hợp v ới các vitamin và các muối
+kim loại để uống hoặc tiêm bắp hay tiêm dưới da. Hiện nay có 2 chế phẩm được dùng với
+hàm lượng khác nhau là cyanocobalamin và hydroxycobalamin nhưng hydroxycobalamin
+được sử dụng nhiều hơn vì tồn tại trong cơ thể lâu hơn cyanoco balamin.
+Chỉ định dùng dạng thuốc và liều lượng dựa vào nguyên nhân và tổn thương do thiếu
+vitamin B12 gây ra.
+- Thiếu hụt vitamin B12 do yếu tố nội phải dùng dạng tiêm.
+- Trong điều trị thiếu máu, suy nhược cơ thể... chỉ cần dùng liều trung bình
+100
+g/ ngày, nhưng trong trường hợp viêm dây thần kinh, rối loạn trí nhớ, rối loạn tâm thần
+phải dùng dạng tiêm liều 500, 1000, 5000 g/ ngày.
+3.3. Acid folic (vitamin L1, vitamin B9)
+Là sự kết hợp của pteridin, acid paraaminoben zoic và acid glutamic.
+Acid folic không chỉ có nhiều trong thịt, cá, trứng, gan, men bia mà còn có trong rau
+xanh, hoa quả. Khi nấu chín thức ăn, đặc biệt là rau xanh 90% acid folic bị phân hủy.
+3.3.1. Dược động học và vai trò của acid folic
+Acid folic trong thức ăn tồn tại dưới d ạng folat polyglutamat. Dạng này cũng là kho dự trữ
+folat ở trong các tế bào người.
+* ở đường tiêu hóa, folat polyglutamat bị thuỷ phân tạo thành folat monoglutamat và bị
+khử để tạo thành met hyltet rahydrofolat (MTHF). Nhờ hoạt tính của en zym pteroyl - -
+glutamyl- carboxypep tidase ở niêm mạc ruột, MTHF được hấp thu và đi vào máu.
+* Trong máu, met hyltet rahydrofolat được vận chuyển đến mô và thông qua nhập bào,
+MTHF vào trong tế bào.
+* Trong tế bào của mô, met hyltet rahydrofolat đóng vai trò chất cho met hyl để ch uyển
+vitamin B12 thành met hylcobalamin. Met hylcobalamin giúp chuyển homocystein thành
+met hionin. Sau khi mất met hyl, met hyltet rahydrofolat sĩ thành tet rahydrofolat, tham gia
+vào một số quá trình chuyển hóa quan trọng như:
+- Chuyển serin thành glycin với sự tham gia của vitamin B 6.
+- Chuyển deoxyuridylat thành thymidylat để tạo ADN - thymin.
+Ngoài ra, tet rahydrofolat còn tham gia vào quá trình chuyển hóa histidin và tổng hợp base
+purin.
+* ở gan, met hyltet rahydrofolat một phần tham gia chuyển hóa, phần khác đư ợc đưa vào
+mật thải xuống tá tràng. ở tá tràng, MTHF được tái hấp thu trở lại. Rượu làm giải phóng
+MTHF từ tế bào gan vào mật làm giảm nồng độ folat trong máu (hình 29.2)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 29.2. Vai trò của acid folic và vitamin B 12 trong chuyển hóa
+3.3.2. Sự thiếu hụt acid folic
+- Hàng ngày, người lớn cần 25- 50 g, phụ nữ có thai, cho con bú và trẻ em cần 100 - 200
+g. Khi cung cấp không đầy đủ hoặc do mất cân bằng giữa cung và cầu hoặc do một số
+bệnh làm giảm hấp thu hoặc do một số thuốc kháng chuyển hóa trong đ iều trị ung thư,
+primaquin, trimet hop rim, sulfonamid hoặc do tan máu gây nên thiếu hụt acid folic.
+Khi thiếu hụt acid folic sĩ gây nên thiếu máu hồng cầu to không kìm tổn thương thần
+kinh
+3.3.3. Chỉ định
+- Thiếu máu hồng cầu to không có dấu hiệu tổn thương thần kinh.
+- Thiếu máu tan máu.
+- Giảm bạch cầu hạt, mất bạch cầu hạt.
+- Dự phòng thiếu hụt acid folic khi dùng một số thuốc, phụ nữ có thai, cho con bú.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+3.3.4. Chế phẩm và liều lượng
+Acid folic được bào chế dưới dạng uống hoặc tiêm bắp hoặc tĩnh mạch có dạng đơn chất
+hoặc phối hợp với các vitamin khác và các muối kim loại.
+Liều trung bình từ 2- 5 - 15 mg/ 24 giờ.
+3.4. Các thuốc chống thiếu máu khác
+Ngoài sắt, acid folic và vitamin B 12, vitamin B2 , vitamin B6, đồng và Cobalt cũng có tác
+dụng chống thiếu máu.
+3.5. Eryt hropoietin
+Là yếu tố điều hòa sự nhân lên của tế bào gốc trong tuỷ xương, kích thích sự trưởng thành
+của hồng cầu non và giải phóng hồng cầu khỏi tuỷ xương đi vào tuần hoàn. Yếu tố này có
+cấu trúc protein gồm 165 acid amin, phân tử lượng 3040 0, được sản xuất chủ yếu ở tế bào
+cạnh cầu thận, thứ yếu ở tế bào gan.
+Trong máu người không thiếu máu có nồng độ eryt hropoietin dưới 20 UI/L và được gắn
+vào glucose không có tác dụng dược lý. Khi cơ thể thiếu máu, thiếu oxy sự tổng hợp và
+bài tiết của yếu tố này tăng lên gấp 100 lần so với bình thường. Khi cầu thận bị viêm cấp
+hoặc mạn tính hay tổn thương tuỷ xương hoặc thiếu sắt, sự bài tiết eryt hropoietin giảm
+xuống rõ rệt, gây nên thiếu máu. Chính vì lý do đó, eryt hropoietin được chỉ định chủ yếu
+trong các trường hợp thiếu máu do viêm thận. Ngoài ra, eryt hropoietin còn được dùng
+trong thiếu máu do bệnh AIDS, điều trị thuốc chống ung thư, thiếu máu do mất máu sau
+phẫu thuật và phòng thiếu máu ở trẻ đẻ non trọng lượng thấp.
+- Chế phẩm và liều dùng:
++ Epoetin alpha (Epogen; Ep rex) ống tiêm chứa 2000, 3000, 4000, 5000,6000,8000,
+10000 và lọ chứa 40000 đơn vị, là eryt hropoietin người tái tổ hợp nhờ kü thuật tái tổ hợp
+ADN. Tiêm tĩnh mạch hoặc dưới da 50 - 100 đơn vị/ kg thể trọng,3 lần trong một tuần. ở
+người có suy thận mạn tính thuốc có t/2 từ 4 -12 giờ.
++ Epoetin beta ( Neo Recormon ) ống tiêm chứa 500,1000, 2000, 4000 5000, 6000, 10000
+và lọ chứa 50000,100000 đơn vị. Thuốc có thể tiêm dưới da hoặc tiêm tĩnh mạch liều khởi
+đầu 40-60 đơn vị /tuần trong 4 tuần liền, sau đó tuỵ theo đáp ứng của cơ thể mà điều
+chỉnh liều phù hợp.
+Khi dùng thuốc điều trị, nên cung cấp thêm sắt nhằm giúp tuỷ xương sinh sản nhanh hồng
+cầu. Do thuốc có thể gây tăng thể tích máu và hematoc rit và tăng sức cản ngoại vi, nên
+phải chỉnh liều cho phù hợp với bệnh nhân bị bệnh thận có cao huyết áp.
+Câu hỏi tự lượng giá
+1. Trình bày vai trò sinh lý, đặc điểm dược động học và chỉ định của sắt.
+2. Trình bày nguồn gốc, vai trò sinh lý, và chỉ định của vitamin B12.
+3. Trình bày nguồn gốc, vai trò sinh lý v à chỉ định của acid folic.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+4. Trình bày nguồn gốc vai trò , chỉ định của eryt hropoietin và nguyên tắc điều trị
+thiếu máu.

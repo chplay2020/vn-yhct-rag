@@ -1,0 +1,987 @@
+arXiv:2503.18062v1  [cs.CL]  23 Mar 2025
+Investigating Recent Large Language Models for
+Vietnamese Machine Reading Comprehension
+Anh Duc Nguyen, Hieu Minh Phi, Anh Viet Ngo, Long Hai Trieu, Thai Phuong Nguyen
+University of Engineering and Technology - Vietnam National University
+(22022504, 21020200, 22022508, thlong, thainp)@vnu.edu.vn
+Abstract—Large
+Language
+Models
+(LLMs)
+have
+shown
+remarkable proficiency in Machine Reading Comprehension
+(MRC)
+tasks; however,
+their effectiveness
+for
+low-resource
+languages like Vietnamese remains largely unexplored. In this
+paper, we fine-tune and evaluate two state-of-the-art LLMs:
+Llama 3 (8B parameters) and Gemma (7B parameters), on
+ViMMRC, a Vietnamese MRC dataset. By utilizing Quantized
+Low-Rank Adaptation (QLoRA), we efficiently fine-tune these
+models and compare their performance against powerful LLM-
+based baselines. Although our fine-tuned models are smaller than
+GPT-3 and GPT-3.5, they outperform both traditional BERT-
+based approaches and these larger models. This demonstrates
+the effectiveness of our fine-tuning process, showcasing how
+modern LLMs can surpass the capabilities of older models like
+BERT while still being suitable for deployment in resource-
+constrained environments. Through intensive analyses, we explore
+various aspects of model performance, providing valuable insights
+into adapting LLMs for low-resource languages like Vietnamese.
+Our study contributes to the advancement of natural language
+processing in low-resource languages, and we make our fine-
+tuned models publicly available at: https://huggingface.co/iaiuet.
+Index
+Terms—Large
+language
+models,
+machine
+reading,
+comprehension, fine-tuning models
+I. INTRODUCTION
+Machine Reading Comprehension (MRC) has emerged as
+a critical area of research in Natural Language Processing
+(NLP), pushing the boundaries of machine intelligence in
+understanding and processing human language. MRC tasks,
+which involve the complex interplay between a passage, a
+question, and an answer, challenge machines to comprehend
+text
+and
+accurately
+respond
+to
+queries
+based
+on
+that
+understanding [1], [2]. This capability is fundamental to
+advanced NLP applications and serves as a benchmark for
+language understanding and reasoning abilities in artificial
+intelligence systems. For instance, consider the example shown
+in Fig. 1, which illustrates a typical MRC task. The MRC
+systems must understand the passage and accurately identify
+the correct answer from the given options. Such tasks not only
+test the system’s comprehension abilities but also its capacity
+for reasoning and contextual understanding [2].
+In recent years, large language models (LLMs) have
+demonstrated remarkable proficiency across various NLP
+tasks, including MRC, achieving state-of-the-art (SOTA)
+results [3]–[5].
+However, the performance of these models often diminishes
+when scaled down to smaller parameter sizes, particularly
+Reference:
+Bốđi câu về, không một lần nào là chúng tôi không có
+quà.
+Mởthúng câu ra là cảmột thếgiới dưới nước: cà cuống,
+niềng niễng đực, niềng niễng cái bò nhộn nhạo. Hoa sen
+đỏ, nhịsen vàng tỏa hương thơm lừng. Những con cá
+sộp, cá chuối quẫy tóe nước, mắt thao láo...
+(When Dad went fishing, he never came back without
+gifts for us.
+Opening the fishing basket was like revealing a whole
+underwater world: giant water bugs, male and female
+damselflies wriggling around. Red lotus flowers, yellow
+lotus stamens spreading a fragrant aroma. Big fish and
+snakehead fish splashing water, their eyes bulging... )
+Question: Quà của bốcó những gì sau những buổi đi
+câu về? (What are dad’s gifts after returning from fishing
+trips?)
+Options:
+A. Cà cuống, niềng niễng, hoa sen, cá sộp và cá chuối.
+(Water bugs, damselflies, lotus, big fish and snakehead
+fish)
+B. Con chim, con châu chấu và con bướm. (Bird,
+grasshopper and butterfly)
+C. Con khỉ, con thỏ, con cò hương và con khướu.
+(Monkey, rabbit, stork and babbler)
+D. Con xập xành, con muỗm và con dế. (Giant crickets,
+mole crickets and male crickets)
+Fig. 1. An example of MRC task (English translation is in italics).
+for languages with fewer resources than English [6]. This
+challenge is particularly evident in Vietnamese, a language
+with relatively fewer NLP resources compared to English.
+The introduction of the ViMMRC dataset [7] has provided
+a standardized benchmark for evaluating and improving
+Vietnamese MRC systems. However, the effectiveness of
+SOTA LLMs on this dataset remains unexplored, highlighting
+the need for improvement in Vietnamese MRC capabilities.
+To address this gap, our study focuses on evaluating
+and fine-tuning two cutting-edge LLMs, i.e., Llama 3 (8B
+
+
+TABLE I
+STATISTICS OF DATASET VIMMRC
+Grade
+1
+2
+3
+4
+5
+All
+Number of texts
+10
+70
+188
+99
+120
+417
+Vocabulary size
+595
+3,325
+4,666
+5,006
+5,702
+10,099
+Number of questions
+60
+514
+759
+709
+741
+2,783
+parameters) [8] and Gemma (7B parameters) [9], on the
+ViMMRC dataset. We aim to demonstrate the necessity
+and effectiveness of fine-tuning LLMs to enhance their
+performance in Vietnamese MRC tasks. Our results show that
+fine-tuned base LLMs achieve significantly higher accuracy
+compared to their pre-fine-tuned versions. Notably, our fine-
+tuned models, despite having relatively small parameter
+counts, outperform much larger models such as GPT-3 and
+GPT-3.5, demonstrating the efficiency and effectiveness of
+our fine-tuning process. This research not only contributes
+to the advancement of Vietnamese NLP but also provides
+valuable insights into the adaptability of LLMs for specific
+languages and tasks. Our findings have potential implications
+for educational technology, information retrieval systems, and
+other AI-driven applications in Vietnamese-language contexts.
+The main contributions of this paper are as follows:
+• Several SOTA LLM models are evaluated and finetuned
+using the Quantized Low-Rank Adaptation (QLoRA) on
+a Vietnamese MRC task, which are efficient in terms
+of computational resources due to fewer parameters
+but achieve SOTA performance and outperform several
+powerful baselines.
+• Intensive analyses are conducted on the Vietnamese MRC
+task, which we reveal opportunities and challenges for
+adapting LLMs to low-resource languages.
+• Our
+finetuned
+models
+are
+publicly
+released
+for
+community
+to
+further
+advance
+LLM-based
+MRC
+task as well as for Vietnamese NLP applications.
+II. MODELS
+In order to evaluate recent LLMs on Vietnamese MRC
+task, we selected several models based on their advanced
+capabilities and public accessibility including: Llama 3 [8]
+and Gemma [9]. First, these models are openly available.
+Second, both Llama 3 and Gemma offer base and instruction-
+tuned variants, as well as versions with reduced parameter
+counts. The availability of smaller model sizes is particularly
+advantageous for our experimental setup, as it enables
+efficient fine-tuning on the ViMMRC dataset using limited
+computational resources.
+III. EXPERIMENTAL SETTINGS
+A. Llama 3
+Llama 3 [8] is published by MetaAI and available in 8
+billion (8B) and 70 billion (70B) parameter versions. Building
+on the foundation laid by earlier Llama models [10], Llama
+3 is designed to achieve high-quality performance through
+extensive pre-training data rather than sheer parameter count.
+TABLE II
+CHAT TEMPLATE TO PROMPT THE MODEL FOR ANSWERING
+MULTIPLE-CHOICE QUESTIONS
+user: Use the following reference to answer the given multiple-choice
+question:
+Reference: <Reference>
+Question: <Question>
+A. <Option 1>
+B. <Option 2>
+C. <Option 3>
+D. <Option 4>
+model: <Answer> (A, B, C, or D)
+TABLE III
+HYPERPARAMETERS
+Hyper-parameter
+Value
+Batch Size
+64
+Epochs
+3
+Sequence Length
+8192
+Warm-up Steps
+5
+Weight Decay
+0.01
+Optimizer
+AdamW
+Learning rate scheduler
+cosine
+Compared to its predecessor Llama 2, Llama 3 features
+significant upgrades, including a tokenizer capable of handling
+128k tokens and training on a massive 15 trillion tokens, which
+is seven times the data used for Llama 2. This dataset includes
+5% non-English data, ensuring a diverse and comprehensive
+training process. Llama 3 also undergoes high-quality filtering
+to enhance its overall performance, making it a powerful tool
+for various NLP applications. We employ the 8B version of
+Llama 3 in our study, and will elaborate on its performance
+in Section III.
+B. Gemma
+Gemma [9] is a family of lightweight, SOTA open
+models from Google DeepMind, derived from the Gemini
+research and technology. Available in 2 billion (2B) and 7
+billion (7B) parameter versions, Gemma demonstrates robust
+performance across various academic benchmarks for language
+understanding, reasoning, and safety. Notably, the 7B model
+is optimized for efficient deployment on GPU and TPU, while
+the 2B model is designed for CPU and on-device applications.
+Gemma models are trained on up to 6 trillion tokens, primarily
+from English web documents, mathematics, and code. This
+extensive pre-training, combined with a high-quality filtering
+process, ensures the models’ strong generalist capabilities and
+SOTA performance in numerous text domains. We utilize the
+7B version of Gemma in our study due to its feasibility on
+GPU, and will elaborate on its performance in Section III.
+C. Dataset
+In this paper, we utilize the ViMMRC dataset [7], a
+pioneering corpus for Vietnamese multiple-choice machine
+reading comprehension (MRC). It comprises 2,783 question-
+answer pairs extracted from 417 texts intended for students
+from 1st to 5th grade. The distribution of texts for different
+
+
+TABLE IV
+RESULTS OF OUR FINE-TUNED MODELS ON VIMMRC
+Model
+Size
+Accuracy
+BERTology
+179M
+82.29
+Llama 2
+7B
+33.46
+BLOOMZ
+7.1B
+79.96
+GPT-3
+175B
+77.04
+GPT-3.5
+175B
+82.88
+Llama 3Instructed
+8B
+84.21
+GemmaInstructed
+7B
+84.94
+Llama 3Base
+8B
+84.93
+GemmaBase
+7B
+87.11
+grades is demonstrated in Table I. Each text in the ViMMRC
+is curated to test various levels of comprehension, from basic
+factual recall to more complex reasoning, reflecting the diverse
+challenges in natural language understanding. By focusing on
+multiple-choice questions, the dataset allows for standardized
+evaluation of MRC systems, facilitating benchmarking and
+comparison across different models and approaches. The
+ViMMRC dataset was partitioned into: 1,975 pairs for training
+set, 294 pairs for development set, and 514 pairs for test set.
+D. Fine-tune settings
+In
+this
+study,
+we
+employ
+the
+Quantized
+Low-Rank
+Adaptation (QLoRA) method [11] to fine-tune our language
+models. QLoRA is a parameter-efficient method for adapting
+pre-trained language models by utilizing quantization and low-
+rank adaptation. This technique reduces the computational
+cost and memory footprint, making it feasible to handle large
+models on low computational resources.
+We adopt the Unsloth template [12] for our QLora
+implementation. Following their recommendations, we set the
+learning rates to 5e−5 for Gemma and 2e−4 for Llama, with
+additional hyperparameters detailed in Table III.
+Our implementation employs a structured chat template
+(Table II) to prompt the model for answering multiple-choice
+questions based on a given reference. The template follows a
+consistent format to ensure clarity and effectiveness. The chat
+template consists of a clear distinction between user input and
+model output The user input section provides the necessary
+context for the model, including the reference text and the
+multiple-choice question with options labeled A, B, C, and D.
+The model’s response is expected in the form of selecting one
+of these options. This structured format helps streamline the
+interaction and ensures that the model’s responses are aligned
+with the user’s expectations.
+E. Baseline models
+To evaluate the effectiveness of our fine-tuned models,
+we compare the performance of our models against several
+powerful baseline models as follows.
+• BERTology [13]: This model integrates the pre-trained
+mBERT [14], a multi-step attention mechanism (MAN),
+and natural language inference (NLI). Initially, the pre-
+trained model undergoes fine-tuning using a multi-stage
+multi-task learning technique [15]. Following this, a
+TABLE V
+RESULTS ON VIMMRC WITH FINETUNED MODELS (WITHOUT
+FINETUNING: THE ORIGINAL MODELS; FINETUNED: OUR MODELS AFTER
+FINETUNED; BETTER SCORES ARE IN BOLD.)
+Model
+Without Finetuning
+Finetuned
+Llama 3Instructed
+56.80
+84.21
+GemmaInstructed
+80.39
+84.94
+Llama 3Base
+N/A
+84.93
+GemmaBase
+N/A
+87.11
+coarse-tuning stage is employed for the NLI task. Finally,
+a MAN is implemented as a top-level classifier to
+compute the attention score between the reading passage
+and the question-option pairs.
+• GPT-3 & GPT-3.5 [16]: GPT-3 is 10 times larger than
+any previous non-sparse language model. This model
+demonstrates strong performance across numerous NLP
+datasets. GPT-3.5 builds upon this foundation, achieving
+superior results and surpassing previous SOTA models.
+They were evaluated without any gradient updates or fine-
+tuning, relying solely on text interactions.
+• Llama 2 [10]: This is a foundational language model
+series ranging from 7 billion to 70 billion parameters. It
+is notable for its training on trillions of tokens, exclusively
+using publicly accessible datasets, thereby eliminating
+the need for inaccessible data. This demonstrates the
+potential of training top-tier models with openly available
+resources, achieving excellent performance across various
+tasks.
+• BloomZ [17]: BloomZ utilizes multitask prompted fine-
+tuning (MTF) to adapt pre-trained multilingual BLOOM
+and mT5 model families. This method enhances the
+models’ ability to handle tasks across multiple languages,
+leveraging English prompts for fine-tuning. It improves
+performance on both English and non-English tasks,
+achieving SOTA results in scenarios where no task-
+specific training data is available.
+• Llama3Base,
+Llama3Instructed,
+GemmaBase,
+GemmaInstructed: our finetuned models on the Llama 3
+and Gemma base and instruction variants.
+IV. RESULTS AND DISCUSSIONS
+A. Comparison with baselines
+Table IV compares the performance of our fine-tuned
+models with the baseline models on the ViMMRC dataset,
+with performance measured by accuracy as per [18]. While
+our fine-tuned models significantly outperform BERT-based
+approaches, we acknowledge the difference in model sizes. Yet,
+the dramatic improvements we achieved through fine-tuning
+suggest that our superior results stem from more than just
+larger parameter counts – our models substantially outperform
+BERT even when it uses advanced techniques like NLI fine-
+tuning and multi-step attention.
+
+
+TABLE VI
+SAMPLE OF BIAS MITIGATION
+Sample
+English translation
+Passage
+Sau một chuyến đi xa, người ông mang vềbốn quảđào. Ông bảo
+vợvà các cháu: Quảto này xin phần bà. Ba quảnhỏhơn phần các
+cháu. Bữa cơm chiều hôm ấy, ông hỏi các cháu: Thếnào, các cháu
+thấy đào có ngon không? Cậu bé Xuân nói: Đào có vịrất ngon và
+mùi thật là thơm. Cháu đã đem hạt trồng vào một cái vò. Chẳng bao
+lâu, nó sẽmọc thành một cây đào to đấy, ông nhỉ? Mai sau cháu
+sẽlàm vườn giỏi. - Ông hài lòng nhận xét. Cô bé Vân nói với vẻ
+tiếc rẻ: Đào ngon quá, cháu ăn hết mà vẫn thèm. Còn hạt thì cháu
+vứt đi rồi. Ôi cháu của ông còn thơ dại quái. Thấy Việt chỉchăm
+chú nhìn vào tấm khăn trải bàn, ông ngạc nhiên hỏi: Còn Việt, sao
+cháu chẳng nói gì thế? Cháu ấy ạ? Cháu mang đào cho Sơn. Bạn
+ấy bịốm. Nhưng bạn ấy không muốn nhận. Cháu đặt quảđào lên
+trên giường rồi trốn về. Cháu là người có tấm lòng nhân hậu! - Ông
+lão thốt lên và xoa đầu đứa cháu nhỏ.
+After a long trip, the grandfather brought back four peaches. He told
+his wife and grandchildren: This big peach is for your grandmother.
+The three smaller ones are for you children. At dinner that evening,
+the grandfather asked his grandchildren: How did you like the
+peaches? Xuan said: The peaches were very delicious and smelled
+wonderful. I planted the pit in a pot. Soon, it will grow into a big
+peach tree, right, Grandpa? You will become a great gardener when
+you grow up, - the grandfather remarked, pleased. Little Van, with
+a regretful expression, said: The peach was so delicious that I ate
+it all and still wanted more. I threw the pit away. Oh, my little
+one is still so naive. Seeing Viet staring intently at the tablecloth,
+the grandfather asked in surprise: And Viet, why haven’t you said
+anything? Me? I gave my peach to Son. He’s sick. But he didn’t
+want to take it. So, I placed the peach on his bed and sneaked away.
+You have a kind heart! - the old man exclaimed, patting his little
+grandson on the head.
+Question
+Trong ba đứa cháu, ai là đứa cháu được ông nhận xét là còn thơ
+dại?
+In three children, who is claimed as innocent?
+Answers
+A. Vân
+B. Việt
+C. Xuân
+D. Cả3 bạn trên
+A. Van
+B. Viet
+C. Xuan
+D. All of the above
+Predictions
+Correct answer: A
+BERTology: D
+Llama 3: A
+Gemma: A
+Notes: Compared to the BERT-based model, our fine-tuned models did not show a bias towards the answer "All of the above."
+B. Advantages with small-size models
+It is also worth noting that our fine-tuned models, with
+relatively small parameter counts, can outperform much larger
+models such as GPT-3 and GPT-3.5. This demonstrates
+the efficiency and effectiveness of our fine-tuning process,
+which allows smaller models to achieve higher accuracy than
+these larger, more resource-intensive models. It also suggests
+significant potential for more efficient deployment of their
+applications in resource-constrained environments.
+C. Improvement from fine-tuned models
+Table V highlights the comparison between the models
+before and after fine-tuning. We do not evaluate the base
+models before fine-tuning because they do not consistently
+answer our questions in a zero-shot setting. The accuracy
+of the base LLMs after fine-tuning is substantially higher
+than before fine-tuning. This highlights the positive impact
+of adapting the models specifically to the ViMMRC dataset,
+leading to improved comprehension and question-answering
+capabilities in Vietnamese.
+Interestingly, the fine-tuned base LLMs achieve better
+accuracy compared to their instruction-tuned counterparts.
+The base model Gemma performs significantly better than
+the instructed version. We speculate that this is because
+the instructed Gemma is trained exclusively on English
+data, lacking the multi-language data necessary for optimal
+performance on the ViMMRC dataset. Meanwhile, the base
+Llama 3 model also surpasses its instruction-tuned version,
+though the difference is marginal. This could be because the
+instructed Llama is primarily optimized for chat abilities and
+toxicity mitigation, which are less relevant for the machine
+reading comprehension tasks.
+D. Bias mitigation
+We inferred our fine-tuned Llama 3Base and GemmaBase
+models on the ViMMRC test dataset to identify positive
+improvements, understand the nature of their performance, and
+pinpoint areas where they struggle. These models show clear
+improvements over the BERTology model in terms of bias.
+Unlike the BERTology model, which tends to choose "All of
+the above" as the answer [13], our models do not exhibit this
+bias, as demonstrated in Table VI.
+E. Error analysis
+We further investigate these models via error analyses, as
+shown in Table VII. The main source of errors is the difficulty
+in identifying the most suitable answer for questions that
+require reasoning. Reasoning can be particularly challenging
+for LLMs because it often involves grasping the underlying
+message of an entire story or identifying the specific type of
+a poem based on structural characteristics such as word count.
+For instance, in Sample 2 of Table V, both models failed to
+correctly identify the poetic form (four syllables) used in the
+poem, instead incorrectly choosing the "six-eight" option.
+Additionally,
+they
+have
+trouble
+understanding
+deep
+figurative language. This highlights the complexity of tasks
+involving nuanced and context-dependent language. As shown
+in Sample 3, both models struggled to accurately interpret
+Uncle Ho’s character from the poem, with Llama 3 choosing
+"a very simple person" and Gemma selecting "greatly loved
+his country" instead of the correct answer that he "loved
+nature very much".
+Our
+models
+also
+sometimes
+struggle
+with
+correctly
+answering parts of speech questions, indicating a need for
+better understanding of grammatical nuances. This suggests
+areas where further fine-tuning and enhancement could
+improve model performance. For example, in Sample 4, both
+
+
+TABLE VII
+ERROR ANALYSES
+Sample
+English translation
+Passage 1
+Bốđi câu về, không một lần nào là chúng tôi không có quà. Mở
+thúng câu ra là cảmột thếgiới dưới nước: cà cuống, niềng niễng
+đực, niềng niễng cái bò nhộn nhạo. Hoa sen đỏ, nhịsen vàng tỏa
+hương thơm lừng. Những con cá sộp, cá chuối quẫy tóe nước, mắt
+thao láo... Bốđi cắt tóc về, cũng không lần nào chúng tôi không có
+quà. Mởhòm dụng cụra là cảmột thếgiới mặt đất: con xập xành,
+con muỗm to xù, mốc thếch, ngó ngoáy. Hấp dẫn nhất là những con
+dếlạo xạo trong các vỏbao diêm: toàn dếđực, cánh xoăn, gáy vang
+nhà và chọi nhau phải biết. Quà của bốlàm anh em tôi giàu quá!
+When Dad went fishing, he never came back without gifts for us.
+Opening the fishing basket was like revealing a whole underwater
+world: giant water bugs, male and female damselflies wriggling
+around. Red lotus flowers and yellow lotus stamens spread a
+fragrant aroma. Big fish and snakehead fish splashed water, their
+eyes bulging. When Dad went for a haircut, he never came back
+without gifts for us. Opening the toolbox was like revealing a whole
+terrestrial world: giant crickets and clumsy mole crickets wriggling
+around. The most fascinating were the chirping crickets in the
+matchboxes: all male crickets with curly wings, chirping loudly and
+fiercely fighting each other. Dad’s gifts made my siblings and me
+feel so rich!
+Question
+Những món quà mà bốmang vềcho các con nói lên điều gì?
+What do the gifts that father brings home for the children say?
+Answers
+A. Bốrất yêu thương hai anh em.
+B. Bốrất giỏi đi câu và cắt tóc.
+C. Bốrất thích đồng quê và sông nước.
+D. Bốrất thích tặng quà.
+A. He loves his children.
+B. He’s good at fishing and hairdressing.
+C. He loves countryside.
+D. He likes gifting.
+Predictions
+Correct Answer: A
+Llama 3: C
+Gemma: C
+Passage 2
+Bút chì xanh đỏ
+Em gọt hai đầu
+Em thửhai màu
+Xanh tươi, đỏthắm.
+Blue and red pencil
+I sharpen both ends
+I try both colors
+Bright green, vivid red.
+Question
+Bài thơ đã sửdụng thểthơ nào đểviết?
+What poetic form was used to write the poem?
+Answers
+A. Lục bát.
+B. Tựdo.
+C. Năm chữ.
+D. Bốn chữ.
+A. six-eight.
+B. free verse.
+C. five syllables.
+D. four syllables.
+Predictions
+Correct Answer: D
+Llama 3: A
+Gemma: A
+Passage 3
+Trong tù không rượu cũng không hoa,
+Cảnh đẹp đêm nay, khó hững hờ.
+Người ngắm trăng soi ngoài cửa sổ,
+Trăng nhòm khe cửa ngắm nhà thơ.
+In prison without wine or flowers,
+Tonight’s beauty, hard to disregard.
+Gazing at the moon through the window bars,
+The moon peers through, watching the poet’s heart
+Question
+Bài thơ này cho thấy Bác Hồlà người như thếnào?
+What does this poem show about Uncle Ho’s character?
+Answers
+A. Bác Hồlà người rất yêu nước.
+B. Bác Hồrất yêu thiên nhiên.
+C. Bác Hồlà người rất giản dị.
+D. Bác Hồrất dũng cảm.
+A. Uncle Ho greatly loved his country.
+B. Uncle Ho loved nature very much.
+C. Uncle Ho was a very simple person.
+D. Uncle Ho was very brave.
+Predictions
+Correct Answer: B
+Llama 3: C
+Gemma: A
+Passage 4
+Chiều hôm ấy có một em gái nhỏđứng áp trán vào tủkính cửa hàng
+của Pi-e, nhìn từng đồvật như muốn kiếm thứgì. Bỗng em ngửng
+đầu lên: - Cháu có thểxem chuỗi ngọc lam này không ạ? Pi-e lấy
+chuỗi ngọc, đưa cho cô bé. Cô bé thốt lên: - Đẹp quá! Xin chú gói
+lại cho cháu! Pi-e ngạc nhiên: - Ai sai cháu đi mua? - Cháu mua
+tặng chịcháu nhân lễNô-en. Chịđã nuôi cháu từkhi mẹcháu mất.
+- Cháu có bao nhiêu tiền? Cô bé mởkhăn tay ra, đổlên bàn một
+nắm xu: - Cháu đã đập con lợn đất đấy! Pi-e trầm ngâm nhìn cô bé.
+Rồi vừa lúi húi gỡmảnh giấy ghi giá tiền, anh vừa hỏi: - Cháu tên
+gì? - Cháu là Gioan. Anh đưa Gioan chuỗi ngọc gói trong bao lụa
+đỏ: - Đừng đánh rơi nhé! Cô bé mỉm cười rạng rỡ, chạy vụt đi...
+One afternoon, a little girl stood at Pierre’s shop window, examining
+items as if searching for something. She asked to see a blue necklace.
+Pierre showed it to her. Delighted, she requested it be wrapped.
+When asked who sent her, she explained it was a Christmas gift for
+her sister who raised her after their mother’s death. She emptied her
+savings onto the counter. Pierre, moved, removed the price tag and
+asked her name. "I am Jeanne." she replied. He then handed her the
+necklace in a red silk bag, said "Don’t lose it on the way home.".
+She smiled brightly and ran off....
+Question
+Từ"cháu" trong câu "Cháu là Gioan" đóng vai trò cú pháp gì?
+What syntactic role does the word "I" play in the sentence "I am
+Jeanne"?
+Answers
+A. Danh từlàm chủngữ.
+B. Đại từlàm chủngữ.
+C. Tính từlàm chủngữ.
+D. Động từlàm chủngữ.
+A. Noun functioning as the subject.
+B. Pronoun functioning as the subject.
+C. Adjective functioning as the subject.
+D. Verb functioning as the subject.
+Predictions
+Correct Answer: B
+Llama 3: A
+Gemma: A
+Notes: Sample 1 tests understanding of implied meanings in dad’s gift-giving. Sample 2 assesses recognition of poetic forms. Sample 3 evaluates
+comprehension of character traits in poetry. Sample 4 examines understanding of grammatical roles in sentences.
+Llama 3 and Gemma incorrectly identified the word "Cháu" as
+a noun functioning as the subject, when it actually functions
+as a pronoun in the given sentence "Cháu là Gioan".
+F. Limitation & Future work
+Though we obtained promising results, we still need to
+overcome several limitations. While quantization techniques
+alleviate computational resource constraints and enabling local
+deployment, this may introduce subtle performance trade-
+
+
+offs. Another limitation lies in the scope of our evaluation
+dataset. The experiments were primarily conducted on the
+original ViMMRC dataset, excluding newer iterations such as
+ViMMRC 2.0 [13] which extend the original dataset to 12th
+grade. We propose the following directions for future research:
+• Implement Chain-of-Thought prompting techniques [19]
+to enhance the models’ reasoning capabilities, potentially
+improving performance on complex MRC tasks.
+• Expand the evaluation on other datasets such as ViMMRC
+2.0 [13], offering more diverse and challenging examples
+for a comprehensive assessment.
+• Develop practical applications leveraging the fine-tuned
+models, including local question-answering systems,
+educational tools for automated question generation.
+V. CONCLUSION
+In this study, we fine-tuned two state-of-the-art LLMs,
+Llama 3 and Gemma, using the QLoRA method on the
+ViMMRC dataset, which led to significant performance
+improvements. Our models not only outperformed traditional
+BERT-based approaches but also surpassed larger models
+like GPT-3 and GPT-3.5, despite having fewer parameters.
+These findings highlight the efficiency and potential of
+QLoRA-based fine-tuning, making it highly suitable for
+deploying high-performance NLP models in environments
+with limited computational resources. Through our in-depth
+analyses, we also demonstrated the adaptability of LLMs
+to Vietnamese MRC tasks, providing valuable insights for
+future advancements in low-resource language processing.
+Moving forward, future work will focus on enhancing model
+reasoning through Chain-of-Thought prompting, evaluating
+performance on newer datasets such as ViMMRC 2.0,
+and developing practical real-world applications. Overall,
+this study underscores the potential of scaling LLM-based
+solutions for underrepresented languages, which can drive
+further innovation in natural language processing.
+ACKNOWLEDGMENT
+We
+would
+like
+to
+thank
+the
+anonymous
+reviewers
+for
+their
+valuable
+feedback. This
+work
+was
+supported
+in
+part
+by
+computing
+resources
+provided
+by
+Intelligent Integration Co., Ltd. (INT2).
+REFERENCES
+[1] D. Dzendzik, J. Foster, and C. Vogel, “English machine reading
+comprehension datasets: A survey,” in Proceedings of the 2021
+Conference on Empirical Methods in Natural Language Processing,
+M.-F.
+Moens,
+X.
+Huang,
+L.
+Specia,
+and
+S.
+W.-t.
+Yih,
+Eds.
+Online
+and
+Punta
+Cana,
+Dominican
+Republic:
+Association
+for
+Computational
+Linguistics,
+Nov.
+2021,
+pp.
+8784–8804.
+[Online].
+Available: https://aclanthology.org/2021.emnlp-main.693
+[2] P. Zhu, Z. Zhang, H. Zhao, and X. Li, “Duma: Reading comprehension
+with transposition thinking,” IEEE/ACM Transactions on Audio, Speech,
+and Language Processing, vol. 30, pp. 269–279, 2022.
+[3] W. X. Zhao, K. Zhou, J. Li, T. Tang, X. Wang, Y. Hou, Y. Min, B. Zhang,
+J. Zhang, Z. Dong, Y. Du, C. Yang, Y. Chen, Z. Chen, J. Jiang, R. Ren,
+Y. Li, X. Tang, Z. Liu, P. Liu, J. Nie, and J. rong Wen, “A survey
+of large language models,” ArXiv, vol. abs/2303.18223, 2023. [Online].
+Available: https://api.semanticscholar.org/CorpusID:257900969
+[4] C. Zhou, Q. Li, C. Li, J. Yu, Y. Liu, G. Wang, K. Zhang,
+C. Ji, Q. Yan, L. He, H. Peng, J. Li, J. Wu, Z. Liu, P. Xie,
+C. Xiong, J. Pei, P. S. Yu, L. S. M. S. University, B. University,
+L. University, M. University, N. T. University, U. of California at
+San Diego, D. University, U. of Chicago, and S. Research, “A
+comprehensive survey on pretrained foundation models: A history from
+bert to chatgpt,” ArXiv, vol. abs/2302.09419, 2023. [Online]. Available:
+https://api.semanticscholar.org/CorpusID:257039063
+[5] R. Bommasani, D. A. Hudson, E. Adeli, R. Altman, S. Arora,
+S. von Arx, M. S. Bernstein, J. Bohg, A. Bosselut, E. Brunskill,
+E. Brynjolfsson, S. Buch, D. Card, R. Castellon, N. S. Chatterji,
+A. S. Chen, K. A. Creel, J. Davis, D. Demszky, C. Donahue,
+M. Doumbouya, E. Durmus, S. Ermon, J. Etchemendy, K. Ethayarajh,
+L. Fei-Fei, C. Finn, T. Gale, L. E. Gillespie, K. Goel, N. D. Goodman,
+S. Grossman, N. Guha, T. Hashimoto, P. Henderson, J. Hewitt, D. E.
+Ho, J. Hong, K. Hsu, J. Huang, T. F. Icard, S. Jain, D. Jurafsky,
+P. Kalluri, S. Karamcheti, G. Keeling, F. Khani, O. Khattab, P. W.
+Koh, M. S. Krass, R. Krishna, R. Kuditipudi, A. Kumar, F. Ladhak,
+M. Lee, T. Lee, J. Leskovec, I. Levent, X. L. Li, X. Li, T. Ma,
+A. Malik, C. D. Manning, S. P. Mirchandani, E. Mitchell, Z. Munyikwa,
+S. Nair, A. Narayan, D. Narayanan, B. Newman, A. Nie, J. C. Niebles,
+H. Nilforoshan, J. F. Nyarko, G. Ogut, L. Orr, I. Papadimitriou, J. S.
+Park, C. Piech, E. Portelance, C. Potts, A. Raghunathan, R. Reich,
+H. Ren, F. Rong, Y. H. Roohani, C. Ruiz, J. Ryan, C. R’e, D. Sadigh,
+S. Sagawa, K. Santhanam, A. Shih, K. P. Srinivasan, A. Tamkin,
+R. Taori, A. W. Thomas, F. Tramèr, R. E. Wang, W. Wang, B. Wu,
+J. Wu, Y. Wu, S. M. Xie, M. Yasunaga, J. You, M. A. Zaharia,
+M. Zhang, T. Zhang, X. Zhang, Y. Zhang, L. Zheng, K. Zhou, and
+P. Liang, “On the opportunities and risks of foundation models,” ArXiv,
+2021. [Online]. Available: https://crfm.stanford.edu/assets/report.pdf
+[6] S. Gholami and M. Omar, “Do generative large language models need
+billions of parameters?” ArXiv, vol. abs/2309.06589, 2023. [Online].
+Available: https://api.semanticscholar.org/CorpusID:261705636
+[7] K.
+V.
+Nguyen,
+K.
+V.
+Tran,
+S.
+T.
+Luu,
+A.
+G.-
+T.
+Nguyen,
+and
+N.
+L.-T.
+Nguyen,
+“A
+pilot
+study
+on
+multiple
+choice
+machine
+reading
+comprehension
+for
+vietnamese
+texts,”
+ArXiv,
+vol.
+abs/2001.05687,
+2020.
+[Online].
+Available:
+https://api.semanticscholar.org/CorpusID:210700877
+[8] AI@Meta,
+“Llama
+3
+model
+card,”
+2024.
+[Online].
+Available:
+https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+[9] G. Team, T. Mesnard, C. Hardin, R. Dadashi, S. Bhupatiraju, S. Pathak,
+L. Sifre, M. Rivière, M. S. Kale, J. Love et al., “Gemma: Open
+models based on gemini research and technology,” arXiv preprint
+arXiv:2403.08295, 2024.
+[10] H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei,
+N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale, D. Bikel, L. Blecher,
+C. C. Ferrer, M. Chen, G. Cucurull, D. Esiobu, J. Fernandes, J. Fu,
+W. Fu, B. Fuller, C. Gao, V. Goswami, N. Goyal, A. Hartshorn,
+S. Hosseini, R. Hou, H. Inan, M. Kardas, V. Kerkez, M. Khabsa,
+I. Kloumann, A. Korenev, P. S. Koura, M.-A. Lachaux, T. Lavril, J. Lee,
+D. Liskovich, Y. Lu, Y. Mao, X. Martinet, T. Mihaylov, P. Mishra,
+I. Molybog, Y. Nie, A. Poulton, J. Reizenstein, R. Rungta, K. Saladi,
+A. Schelten, R. Silva, E. M. Smith, R. Subramanian, X. E. Tan, B. Tang,
+R. Taylor, A. Williams, J. X. Kuan, P. Xu, Z. Yan, I. Zarov, Y. Zhang,
+A. Fan, M. Kambadur, S. Narang, A. Rodriguez, R. Stojnic, S. Edunov,
+and T. Scialom, “Llama 2: Open foundation and fine-tuned chat
+models,” 2023. [Online]. Available: https://arxiv.org/abs/2307.09288
+[11] T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer, “Qlora:
+Efficient finetuning of quantized llms,” 2023. [Online]. Available:
+https://arxiv.org/abs/2305.14314
+[12] D. Han and M. Han, “Unsloth AI,” 5 2024. [Online]. Available:
+https://github.com/unslothai/unsloth
+[13] S.
+T.
+Luu,
+K.
+T.
+Hoang,
+T.
+Q.
+Pham,
+K.
+V.
+Nguyen,
+and
+N. L.-T. Nguyen, “A multiple choices reading comprehension corpus
+for
+vietnamese
+language
+education,”
+2023.
+[Online].
+Available:
+https://arxiv.org/abs/2303.18162
+[14] V. B. The, O. T. Thi, and P. Le-Hong, “Improving sequence tagging
+for vietnamese text using transformer-based neural models,” Pacific
+Asia Conference on Language, Information and Computation, 2020.
+[Online]. Available: https://arxiv.org/abs/2006.15994
+[15] D.
+Jin,
+S.
+Gao,
+J.-Y.
+Kao,
+T.
+Chung,
+and
+D.
+Z.
+Hakkani-T¨ur,
+“Mmm:
+Multi-stage
+multi-task
+learning
+for
+multi-choice
+reading
+comprehension,”
+in
+AAAI
+Conference
+
+
+on
+Artificial
+Intelligence,
+2019.
+[Online].
+Available:
+https://api.semanticscholar.org/CorpusID:203610341
+[16] T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal,
+A.
+Neelakantan,
+P.
+Shyam,
+G.
+Sastry,
+A.
+Askell,
+S.
+Agarwal,
+A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. M.
+Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin,
+S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford,
+I. Sutskever, and D. Amodei, “Language models are few-shot learners,”
+2020. [Online]. Available: https://arxiv.org/abs/2005.14165
+[17] N. Muennighoff, T. Wang, L. Sutawika, A. Roberts, S. Biderman,
+T. L. Scao, M. S. Bari, S. Shen, Z.-X. Yong, H. Schoelkopf, X. Tang,
+D. Radev, A. F. Aji, K. Almubarak, S. Albanie, Z. Alyafeai, A. Webson,
+E. Raff, and C. Raffel, “Crosslingual generalization through multitask
+finetuning,” 2023. [Online]. Available: https://arxiv.org/abs/2211.01786
+[18] D.-V. Nguyen and Q.-N. Nguyen, “Evaluating the symbol binding
+ability
+of
+large
+language
+models
+for
+multiple-choice
+questions
+in
+vietnamese
+general
+education,”
+2023.
+[Online].
+Available:
+https://arxiv.org/abs/2310.12059
+[19] J. Wei, X. Wang, D. Schuurmans, M. Bosma, B. Ichter, F. Xia,
+E. Chi, Q. Le, and D. Zhou, “Chain-of-thought prompting elicits
+reasoning
+in large
+language
+models,”
+2022. [Online].
+Available:
+https://arxiv.org/pdf/2201.11903

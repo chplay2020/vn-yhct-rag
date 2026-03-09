@@ -1,0 +1,595 @@
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Bài 9: thuốc giảm đau loại morphin
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Nêu được mối liên quan giữa cấu trúc và tác dụng của morphin.
+2. Phân tích được các tác dụng của morphin, từ đó nêu được áp dụng điều trị của
+morphin.
+3. Trình bày được triệu chứng và cách điều trị ngộ độc cấp và mạn của morphin.
+4. Nêu được đặc điểm tác dụng của một số opioid tổng hợp: pet hidin, pen tazoxin,
+met hadon, fen tanyl.
+1. Đại cương
+Đau là một cơ chế bảo vệ cơ thể. Đau là do các ngọn dây thần kinh cảm giác bị kích thích quá độ
+bởi tác nhân vật lý hay hóa học (nhiệt, cơ, điện, các acid hay base...). Dưới ảnh hưởng của các
+kích thích đau, cơ thể giải phóng ra một hoặc nhiều chất gây đau như histamin, chất P, các chất
+chuyển hóa acid, các kinin huyết tương (brady kinin, kallidin...).
+Thuốc giảm đau được chia làm 3 loại:
+- Thuốc giảm đau loại morphin.
+- Thuốc giảm đau không phải loại morphin: paracetamol và thuốc chống viêm không steroid.
+- Thuốc giảm đau hỗ trợ: là những thuốc có tác dụng làm tăng hiệu quả giảm đ au hoặc giảm nhẹ
+tác dụng không mong muốn của các thuốc trên.
+2. thuốc giảm đau loại morphin
+Thuốc giảm đau loại morphin có chung một đặc tính là gây nghiện, vì vậy đều thuộc "bảng A,
+gây nghiện", không kê đơn quá 7 ngày.
+Nhóm thuốc này bao gồm:
+- Opiat: là các dẫn xuất của thuốc phiện (opium), có tính chất giống như morphin.
+- Opioid: là các chất tổng hợp, bán tổng hợp, có tác dụng giống morphin hoặc gắn được vào các
+recep tor của morphin.
+Nhựa khô của quả cây thuốc phiện có chứa khoảng 25 alcaloid, trong đó morphin chiếm 10%,
+codein gần 0,5%, papaverin 0,8%...
+Dựa vào cấu trúc hóa học, các alcaloid của thuốc phiện được chia làm 2 loại:
+- Nhân piperidin- phenanthren: morphin, codein..., tác dụng ưu tiên trên thần kinh trung ương.
+- Nhân ben zyl- isoquinolein: papaverin
+Papaverin không gây ngủ, tác dụng chủ yếu là làm giãn cơ trơn (mạch vành, tiểu động mạch của
+tim, phổi, não, sợi cơ trơn của phế quản, ruột, đường mật và niệu quản).
+2.1.
+Morphin
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Trong lâm sàng dùng muối morphin clohydrat dễ tan trong nước, chứa 75% mo rphin.
+2.1.1. Tác dụng
+Morphin có tác dụng chọn lọc với tế bào thần kinh trung ương, đặc biệt là vỏ não. Một số trung
+tâm bị ức chế (trung tâm đau, trung tâm hô hấp, trung tâm ho), trong khi có trung tâm lại bị kích
+thích gây co đồng tử, nôn, chậm nhịp tim . Tác dụng của thuốc thay đổi theo loài, gây hưng phấn
+ở mìo, chuột nhắt, loài nhai lại, cá... nhưng ức chế rõ ở người, chó, thỏ, chuột lang.
+2.1.1.1. Recep tor của morphin (và các opioid)
+Recep tor đặc hiệu của morphin được tìm thấy từ cuối 1973, có 3 loại chính và mỗi loại lại có các
+phân loại nhỏ. Gần đây, một recep tor mới được phát hiện, có tên là N/ OFQ recep tor. Các
+recep tor này có rất nhiều ở sừng sau tuỷ sống của động vật có xương sống, ở nhiều vùng trong
+thần kinh trung ương: Đồi thị, chất xám quanh cầu não, não giữa. Các recep tor của morphin còn
+tìm thấy ở trong vùng chi phối hành vi (hạnh nhân, hồi hải mã, nhân lục, vỏ não), vùng điều hòa
+hệ thần kinh thực vật (hành não) và chức phận nội tiết (lồi giữa). ở ngoại biên, các recep tor có ở
+tuỷ thượng thận, tuyến ngoại tiết dạ dày, đám rối thần kinh tạng. Về mặt điều trị, mỗi recep tor
+được coi như có chức phận riêng.
+Tác dụng của các recep tor
+Tác dụng
+Loại recep tor
+Tác dụng của chất
+đồng vận
+Tác dụng của chất
+đối kháng
+Giảm đau
+Trên tủy sống
+Tủy sống
+Hô hấp
+Nhu động ruột
+Tâm thần
+1, 3, 1, 2
+2, 2, 2
+2
+2,
+
+Giảm đau
+Giảm đau
+Giảm
+Giảm
+Tăng hoạt động
+Không
+Không
+Không
+Không
+Không
+2.1.1.2. Tác dụng trên thần kinh trung ương
+* Tác dụng giảm đau
+Morphin là thuốc giảm đau mạnh do làm tăng ngưìng nhận cảm giác đau, thuốc còn làm giảm
+các đáp ứng phản xạ với đau. Tác dụng giảm đau của morphin là do thuốc kích thích trên recep tor
+muy và kap pa.
+Morphin ức chế tất cả các điểm chốt trên đường dẫn truyền cảm giác đau của hệ thần kinh trung
+ương như tuỷ sống, hành tuỷ, đồi thị và vỏ não. Như vậy, vị trí tác dụng của morphin và các
+opioid chủ yếu nằm trong hệ thần kinh trung ương. Khi dùng morphin, các trung tâm ở vỏ não
+vẫn hoạt động bình thường, nhưng cảm giác đau đã mất, chứng tỏ tác dụng giả m đau của morphin
+là chọn lọc. Khác với thuốc ngủ, khi tất cả các trung tâm ở vỏ não bị ức chế, bệnh nhân mới hết
+đau.
+Tác dụng giảm đau của morphin được tăng cường khi dùng cùng thuốc an thần kinh. Morphin
+làm tăng tác dụng của thuốc tê.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+* Gây ngủ
+Morphin làm giảm hoạt động tinh thần và gây ngủ. Với liều cao có thể gây mê và làm mất tri
+giác.
+* Gây sảng khoái
+Cùng với tác dụng giảm đau, morphin làm mất mọi lo lắng, bồn chồn, căng th¼ng do đau gây ra
+nên người bệnh cảm thấy thanh thản, thư giãn và dễ dẫn t ới sảng khoái.
+Morphin làm thay đổi tư thế, làm tăng trí tưởng tượng, người bệnh luôn ở trạng thái lạc quan và
+mất cảm giác đói.
+* Trên hô hấp
+Morphin tác dụng trên recep tor 2 và ảnh hưởng trực tiếp đến trung tâm hô hấp. Morphin ức chế
+trung tâm hô hấp ở hành tuỷ, làm trung tâm này giảm nhạy cảm với CO 2 nên cả tần số và biên độ
+hô hấp đều giảm. Khi nhiễm độc, nếu chỉ cho thở O 2 ở nồng độ cao, có thể gây ngừng thở.
+ở trẻ mới đẻ và trẻ còn bú, trung tâm hô hấp rất nhạy cảm với morphin và các dẫn xuất của
+morphin. Morphin qua được hàng rào rau thai, hàng rào máu - não. Vì vậy, cấm dùng morphin và
+các opioid cho người có thai hoặc trẻ em.
+Morphin còn ức chế trung tâm ho nhưng tác dụng này không mạnh bằng codein, pholcodin,
+dextromet horphan...
+* Tác dụng trên vùng dưới đồi
+Morphin làm mất thăng bằng cơ chế điều nhiệt làm thân nhiệt giảm nhẹ. Tuy nhiên, khi dùng liều
+cao kéo dài, thuốc có thể gây tăng nhiệt độ cơ thể.
+* Tác dụng nội tiết
+Morphin tác động ngay tại vùng dưới đồi, ức chế giải phóng Gn RH (Go nadot rop in- releasing
+hormone) và CRF (corticot ropin- releasing fac tor) do đó làm giảm LH, FSH, ACTH, TSH và beta
+en dorphin.
+Các opioid kích thích recep tor muy, làm tăng tiết ADH (hormon kháng niệu), trong khi chất chủ
+vận của recep tor kap pa lại làm giảm tiết ADH, gây lợi niệu.
+* Co đồng tử
+Do kích thích các recep tor muy và kap pa trên trung tâm thần kinh III, morphin và opioid có tác
+dụng gây co đồng tử. Khi ngộ độc morphin, đồng tử co rất mạnh, chỉ còn nhỏ như đầu đanh
+ghim.
+* Tác dụng gây buồn nôn và nôn
+Morphin kích thích trực tiếp trung tâm nôn ở sàn não thất IV, gây cảm giác buồn nôn và nôn. Khi
+dùng liều cao thuốc có thể ức chế trung tâm này.
+2.1.1.3. Tác dụng ngoại biên
+* Trên tim mạch: ở liều điều trị morphin ít tác dụng trên tim mạch. Liều cao làm hạ huyết áp do
+ức chế trung tâm vận mạch.
+* Trên cơ trơn:
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Cơ trơn của ruột: trên thành ruột và đám rối thần kinh có nhiều recep tor với morphin nội sinh.
+Morphin làm giảm nhu động ruột, làm giảm tiết mật, dịch tụy, dịch ruột và làm tăng hấp thu
+nước, điện giải qua thành ruột, do đó gây táo bón. Làm co cơ vòng (môn vị, hậu môn....) co thắt
+cơ oddi ở chỗ nối ruột tá- ống mật chủ
+- Trên các cơ trơn khác: morphin làm tăng trương lực, tăng co bóp nên có thể gây bí đái (do co
+thắt cơ vòng bàng quang), làm xuất hiện cơn hen trên người có tiền sử bị hen (do co khí quản).
+* Trên da: với liều điều trị morphin gây giãn mạch da và ngứa, mặt, cổ, nửa thân trên người bệnh
+bị đỏ.
+* Trên chuyển hóa: làm giảm oxy hóa, giảm dự trữ base, gây tích luü acid trong máu. Vì vậy,
+người nghiện mặt bị phù, móng tay và môi thâm tím.
+2.1.2. Liên quan giữa cấu trúc và tác dụng
+Hai nhóm ảnh hưởng nhiều đến tác dụng của morphin là:
+- Nhóm phenol ở vị trí 3: tác dụng giảm đau gây nghiện sĩ giảm đi khi alkyl hóa nhóm này, ví dụ
+codein (met hyl morphin). Ngược lại, tác dụng của morphin sĩ được tăng cường nếu nhóm phenol
+ở vị trí 3 bị hóa ester, như acetyl morphin (acetyl hóa).
+Công thức:
+- Nhóm rượu ở vị trí 6: tác dụng giảm đau và độc tính sĩ tăng lên nhưng thời gian tác dụng lại
+giảm đi khi nhóm này bị khử H để cho nhóm ceton (hydro morphin) hay bị hóa ester, hóa et her.
+Tác dụng giảm đau và gây nghiện sĩ tăng mạnh khi cả 2 nhóm phenol và rượu đều bị acetyl hóa,
+ví dụ heroin (diacetyl morphin).
+2.1.3. Dược động học
+2.1.3.1. Hấp thu
+Morphin dễ hấp thu qua đường tiêu hóa, chủ yếu ở tá tràng, hấp thu qua niêm mạc trực tràng song
+vì phải qua chuyển hóa ban đầu ở gan nên sinh khả dụng của morphin dùng đường uống thấp hơn
+đường tiêm (chỉ khoảng 25%). Morphin hấp thu nhanh sau khi tiêm dưới da hoặc tiêm bắp và có
+thể thâm nhập tốt vào tuỷ sống sau khi tiêm ngoài màng cứng hoặc trong màng cứng (trong ống
+sống).
+2.1.3.2. Phân phối
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Trong huyết tương, khoảng 1/3 morphin gắn với protein. Morphin không ở lâu trong các mô. Mặc
+dù vị trí tác dụng chủ yếu của morphin là ở hệ thần kinh tr ung ương, nhưng chỉ có một lượng nhỏ
+qua được hàng rào máu- não vì morphin ít tan trong mì hơn các opioid khác, như codein, heroin
+và met hadon.
+2.1.3.3. Chuyển hóa
+Con đường chính chuyển hóa morphin là liên hợp với acid glucuronic ở vị trí gắn OH (3 và 6),
+cho morphin - 3- glucuronid không có tác dụng dược lý và morphin - 6- glucuronid (chất chuyển
+hóa chính của morphin) có tác dụng giảm đau mạnh hơn morphin. Khi dùng lâu, morphin - 6-
+glucuronid cũng được tích luü.
+Thời gian bán thải của morphin khoảng 2 - 3 giờ; morphin - 6- glucuronic có thời gian bán thải
+dài hơn.
+2.1.3.4. Thải trừ
+Morphin thải trừ dưới dạng nguyên chất rất ít. Trên 90% liều dùng được thải trừ qua thận trong
+24 giờ đầu dưới dạng morphin - 3- glucuronid. Morphin có chu kỵ gan- ruột, vì thế nhiều ngày
+sau vẫn còn thấy chất chuyển hóa trong phân và nước tiểu.
+2.1.4. Tác dụng không mong muốn
+Khi dùng morphin có thể gặp một số tác dụng không mong muốn:
+* Thường gặp: buồn nôn và nôn (khoảng 20%), táo bón, ức chế thần kinh, co đồng tử, bí đái...
+* ít gặp: ức chế hô hấp, ngứa, toát mồ hôi, lú lẫn, ác mộng, ảo giác, co thắt túi mật, co thắt phế
+quản...
+Morphin tiêm ngoài màng cứng ít gây buồn nôn, nôn, co thắt đường mật hoặc đường niệu hơn khi
+dùng qua các đường khác.
+2.1.5. áp dụng điều trị
+2.1.5.1. Chỉ định
+- Giảm đau: dùng trong những cơn đau dữ dội cấp tính hoặc đau không đáp ứng với các thuốc
+giảm đau khác (đau sau chấn thương, đau sau phẫu thuật, đau ở thời kỵ cuối của bệnh, đau do
+ung thư...). Để giảm đau ở những bệnh không chữa khỏi được (như ung thư thời kỵ cuối), có thể
+dùng morphin quá 7 ngày.
+- Phối hợp khi gây mê và tiền mê
+2.1.5.2. Chống chỉ định
+- Trẻ em dưới 30 tháng tuổi
+- Triệu chứng đau bụng cấp không rõ nguyên nhân
+- Suy hô hấp
+- Suy gan nặng
+- Chấn thương não hoặc tăng áp lực nội sọ
+- Hen phế quản (morphin gây co thắt cơ trơn phế quản)
+- Ngộ độc rượu cấp
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Đang dùng các chất ức chế monoaminoxidase
+2.1.5.3. Thận trọng
+Cần chú ý khi dùng morphin ở người cao tuổi, suy gan, suy thận, thiểu năng tuyến giáp, suy
+thượng thận, người có rối loạn tiết niệu - tiền liệt (nguy cơ bí đái), bệnh nhược cơ.
+- Thuốc làm giảm sự tỉnh táo, vì vậy không nên lái xe hoặc vận hành máy khi dùng morphin.
+- Không nên dùng morphin trong thời kỵ mang thai và cho con bú.
+2.1.6. Tương tác thuốc
+- Cấm phối hợp với thuốc ức chế monoaminoxidase vì có thể gây trụy tim mạch, tăng thân nhiệt,
+hôn mê và tử vong. Morphin chỉ được dùng sau khi đã ngừng thuốc MAOI ít nhất 15 ngày.
+- Các chất vừa chủ vận vừa đối kháng morphin như bup renorphin, nalbup hin, pen tazocin làm
+giảm tác dụng giảm đau của morphin (do ức chế cạnh tr anh trên recep tor)
+- Các thuốc chống trầm cảm loại 3 vòng, kháng histamin H 1 loại cổ điển, các barbiturat,
+ben zodiazepin, rượu, clonidin làm tăng tác dụng ức chế thần kinh trung ương của morphin.
+2.1.7. Độc tính
+2.1.7.1. Độc tính cấp
+* Triệu chứng ngộ độc:
+Các biểu hiện của ngộ độc cấp morphin xuất hiện rất nhanh: người bệnh thấy nặng đầu, chóng
+mặt, miệng khô, mạch nhanh và mạnh, nôn. Sau đó ngủ ngày càng sâu, đồng tử co nhỏ như đầu
+đanh ghim và không phản ứng với ánh sáng. Thở chậm (2 - 4 nhịp/ phút), nhịp thở Cheyne-
+Stokes, có thể chết nhanh trong vài phút sau tiêm hoặc 1 - 4 giờ sau uống trong trạng thái ngừng
+thở, mặt tím xanh, thân nhiệt hạ, đồng tử giãn và trụy mạch.
+Nếu hôn mê kéo dài có thể chết vì viêm phổi.
+Hôn mê, đồng tử co nhỏ như đầu đanh ghim và suy giảm hô hấp là 3 triệu chứng thường gặp khi
+ngộ độc các opioid.
+* Xử trí
+Cấp cứu bệnh nhân ngộ độc cấp morphin phải dựa vào tình trạng bệnh nhân lúc được đưa vào
+bệnh viện. Đầu tiên phải đảm bảo thông khí cho bệnh nhân bằng thở oxy, hô hấp nhân tạo...
+Truyền dịch để giữ vững huyết áp, nếu bệnh nhân hôn mê phải cho thở máy.
+Giải độc bằng naloxon (thuốc đối kháng với morphin). Tiêm tĩnh mạch naloxon 1 m L = 0,4
+mg cho cả người lớn và trẻ em, có thể cho liều ban đầu 2 mg nếu ngộ độc nặng. Hai - ba phút sau
+bệnh nhân không tỉnh, dùng thêm 0,4 mg (có thể tới 4 liều), sau đó dùng naloxon qua đường tiêm
+bắp. Tổng liều naloxon có thể tới 10- 20 mg/ 24 giờ.
+Trong xử trí ngộ độc cấp morphin nên dùng naloxon qua đường truyền tĩnh mạch liên tục để dự
+phòng suy hô hấp trở lại vì naloxon có thời gian bán thải ngắn.
+2.1.7.2. Độc tính mạn
+* Quen thuốc
+Quen thuốc phụ thuộc vào liều dùng và sự dùng lặp lại. Người quen thuốc có thể dùng morphin
+với liều gấp 10- 20 lần liều ban đầu và cao hơn nhiều so với người bình thường.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Từ khi tìm ra morphin nội sinh, người ta đã cắt nghĩa được hiện tượng quen thuốc: chất chủ vận
+nội sinh của recep tor morphinic là en kep halin bị giáng hóa quá nhanh, nên không gây quen
+thuốc. En kep halin (và cả morphin) kích thích recep tor, ức chế giải phóng một số chất trung gian
+hoá học, ức chế adenylcyc lase, làm giảm sản xuất AMP vòng. Khi dùng thuốc lặp đi lặp lại, cơ
+thể phản ứng bằng tăng tổng hợp AMP vòng, vì vậy liều morphin sau đòi hỏi phải cao hơn liều
+trước để recep tor đáp ứng mạnh như cũ, đó là hiện tượng que n thuốc.
+* Nghiện thuốc
+Một số tác giả cho rằng khi dùng morphin ngoại sinh lâu sĩ dẫn tới 2 hậu quả:
+- Recep tor giảm đáp ứng với morphin
+- Cơ thể giảm sản xuất morphin nội sinh
+Sự thiếu hụt morphin nội sinh làm người dùng phải lệ thuộc vào morphin ngoại lai, đó là nghiện
+thuốc.
+Người nghiện morphin thường có rối loạn về tâm lý, nói điêu, lười biếng, ít chú ý vệ sinh thân
+thể. Hay bị táo bón, co đồng tử, mất ngủ, chán ăn nên sút cân, thiếu máu, run... Khả năng đề
+kháng kém, vì vậy họ dễ bị chết vì các bện h truyền nhiễm.
+Người nghiện luôn "đói morphin", khi thôi thuốc đột ngột, morphin nội sinh không đủ, các
+recep tor morphinic đang trong tình trạng chống lại sự tác động thường xuyên của morphin bị rơi
+vào trạng thái "mất thăng bằng" ; tỉ lệ GMPv/ AMPv bị đả o ngược, dẫn đến một số rối loạn lâm
+sàng: vật vã, đau cơ, đau quặn bụng, vã mồ hôi, nôn, ỉa lỏng, chảy nước mũi, run, sởn gai ốc, dị
+cảm, tăng nhịp tim, tăng huyết áp, tăng thân nhiệt, giãn đồng tử, mất nước, sút cân. Ngoài ra, còn
+gặp một số dấu hiệu về thần kinh như: thao thức, bồn chồn, chán ăn, ngáp vặt, u sầu. Các biểu
+hiện này nặng nhất là 36- 72 giờ sau khi dùng liều thuốc cuối cùng và mất dần sau 2 - 5 tuần.
+* Cai nghiện morphin
+Người nghiện cần được cách ly, kết hợp giữa lao động chân tay với tâm l ý liệu pháp và dùng
+thuốc. Trong thực tế, dù đã cai được cũng dễ bị nghiện lại.
+- Dùng thuốc loại morphin
+Phương pháp cổ điển để cai nghiện morphin là dùng met hadon, một opioid có tác dụng kéo dài.
+Met hadon có tác dụng làm nhẹ cơn đói ma túy, phong tỏa tác dụng gây khoái cảm của các chất
+dạng thuốc phiện do đó làm các triệu chứng của hội chứng cai xảy ra êm đềm hơn, nhẹ nhàng
+hơn và không thôi thúc tìm ma túy cấp bách ở người nghiện.
+Việc điều trị bằng met hadon được chia làm 2 giai đoạn:
+Điều trị tấn công: liều thường dùng từ 10 - 40 mg/ngày (không quá 120 mg/ngày), kéo dài 3 - 5
+ngày, sau đó bắt đầu giảm liều từng đợt, mỗi đợt giảm 5 mg.
+Điều trị duy trì: kéo dài từ 9 - 12 tháng, sau đó giảm dần liều rồi ngừng h¼n.
+Hiện nay, đang dùng thử levomet hadyl aceta t (L - - acetylmet hadon) trong cai nghiện heroin vì
+thuốc có thời gian tác dụng rất dài, 3 ngày mới cần uống 1 lần.
+- Không dùng thuốc loại morphin
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+. Điều trị triệu chứng: chống bồn chồn, vật vã bằng ben zodiazepin hay thuốc an thần kinh. Chống
+đau bằng các thuốc giảm đau phi steroid (aspirin, paracetamol). Dùng loperamid (là opioid ít tác
+dụng trên thần kinh trung ương) để chống tiêu chảy. Chống nôn, chống mất ngủ...
+. Điều trị bằng clonidin: tại vùng nhân lục (locus ceruleus) có nhiều nơ ron của noradrena lin, các
+nơ ron này bình thường bị các opioid tác động trên các recep tor muy ức chế. Khi cai thuốc, các
+nơ ron noradrenalin được thoát ức chế, gây nên các triệu chứng cường giao cảm, vì thế sĩ rất hiệu
+quả nếu dùng clonidin, thuốc cường 2 adrenergic trước synap, có tác dụng làm giảm tiết
+noradrenalin. Clonidin thường được dùng 0,1 mg/ lần, mỗi ngày 2 lần (tối đa 0,4 mg/ngày), trong
+3- 4 tuần.
+Ngoài ra có thể dùng các thuốc đối kháng với morphin như naloxon, naltrexon.
+2.2.
+Dẫn xuất của morphin
+Một số dẫn xuất của morphin như thebain, dionin, dicodid, eucodal... có tác dụng giảm đau, gây
+sảng khoái, gây nghiện như morphin. Người nghiện morphin có thể dùng những dẫn xuất này để
+thay thế. Đặc biệt có heroin gây nghiện mạnh hơn h¼n những dẫn xuất khác nên không dùng l àm
+thuốc. Không cai heroin được.
+2.3.
+Các opioid thường dùng
+2.3.1. Pet hidin (meperidin, dolosal, dolargan)
+2.3.1.1. Tác dụng
+- Sau khi uống 15 phút, pet hidin đã có tác dụng giảm đau mặc dù không mạnh bằng morphin
+(kém 7- 10lần). ít gây nôn, không gây táo bón. Không giảm ho, pet hidin cũng gây an thần, làm
+dịu, ức chế hô hấp như morphin.
+- Pet hidin làm giảm huyết áp, nhất là ở tư thế đứng, do làm giảm sức cản ngoại vi và làm giảm
+hoạt động của hệ giao cảm.
+Khi dùng qua đường tĩnh mạch, pet hidin làm tăng lưu lượng tim, làm tim đập nhanh, do đó có thể
+nguy hiểm cho người bị bệnh tim.
+- ở đường mật, thuốc làm co thắt cơ oddi, vì vậy khi đau đường mật phải dùng thêm at ropin.
+2.3.1.2. Dược động học
+Hấp thu dễ qua các đường dùng. Sau khi uống, khoảng 50% pet hidin phải q ua chuyển hóa ban
+đầu ở gan. Thời gian bán thải là 3 giờ.
+Gắn với protein huyết tương khoảng 60%
+Pet hidin ít tan trong lipid, nên có ái lực với thần kinh trung ương yếu hơn morphin.
+2.3.1.3. Tác dụng không mong muốn
+Pet hidin ít độc hơn morphin
+Thường gặp: Buồn nôn, nôn, khô miệng.
+Hiếm gặp các tác dụng không mong muốn trên thần kinh trung ương như buồn ngủ, suy giảm hô
+hấp, ngất.
+2.3.1.4. áp dụng điều trị
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Chỉ định: giảm đau, tiền mê
+- Chống chỉ định như morphin
+- Liều lượng: uống hoặc đặt hậu môn 0,05g m ỗi lần, ngày dùng 2- 3 lần
+Tiêm bắp 1 m L dung dịch 1%, liều tối đa: 0,05 g mỗi lần, 0,15g trong 24 giờ.
+2.3.1.5. Tương tác thuốc
+- Dùng pet hidin cùng MAOI gây nguy hiểm: ức chế mạnh hô hấp, hôn mê, sốt cao, hạ huyết áp,
+co giật ....
+- Clop romazin làm tăng tác dụng ức chế hô hấp của pet hidin
+- Scopolamin, barbiturat và rượu làm tăng độc tính của pet hidin, do đó phải giảm liều pet hidin khi
+dùng đồng thời.
+2.3.2. Met hadon (dolop hin, amidone, phenadon)
+Là thuốc tổng hợp, tác dụng chủ yếu trên recep tor muy
+2.3.2.1. Tác dụng
+Met hadon có tác dụng tương tự morphin nhưng nhanh hơn và kéo dài hơn, ít gây táo bón. Gây
+giảm đau mạnh hơn pet hidin. Dễ gây buồn nôn và nôn.
+2.3.2.2. Dược động học
+Hấp thu tốt qua đường tiêu hóa, 90% gắn với protein huyết tương. Nhờ có nhóm c eton và amin
+trong cấu trúc nên met hadon có liên kết đồng hóa trị bền với protein não. Thuốc có thể tích luü
+nếu dùng liên tiếp. Chuyển hóa qua gan với phản ứng N - khử met hyl. Thải trừ qua nước tiểu và
+mật. Thời gian bán thải khoảng 15- 40 giờ.
+2.3.2.3. Tác dụng không mong muốn
+Tác dụng không mong muốn và độc tính giống như morphin. Khi dùng kéo dài, met hadon có thể
+làm ra nhiều mồ hôi, tăng bạch cầu lym pho, tăng nồng độ prolac tin, albumin và globulin trong
+máu.
+2.3.2.4. áp dụng điều trị
+Trên lâm sàng, met hadon được dùng để giảm đau và cai nghiện morphin, heroin
+Liều lượng: uống mỗi lần 2,5 mg, ngày 2 - 3 lần, tuỵ thuộc mức độ đau và phản ứng của bệnh
+nhân.
+2.3.3. Fen tanyl (Submimaze, Fen tanest, lep tanal)
+Thuốc tổng hợp, tác dụng chủ yếu trên recep tor muy
+2.3.3.1. Tác dụng
+Fen tanyl giảm đau mạnh gấp 100 lần morphin, tác dụng nhanh (khoảng 3 - 5 phút sau khi tiêm
+tĩnh mạch) và kéo dài 1- 2 giờ.
+2.3.3.2. Dược động học
+Thuốc chỉ dùng tiêm bắp hoặc tĩnh mạch. 80% fen tanyl gắn với protein huyết tương; phân bố
+một phần trong dịch não tuỷ, rau thai và sữa.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Fen tanyl bị chuyển hóa ở gan và mất hoạt tính. Thải trừ qua nước tiểu (khoảng10% dưới dạng
+chưa chuyển hóa).
+2.3.3.3. Tác dụng không mong muốn
+Khoảng 45% trường hợp điều trị với fen tanyl có thể xuất hiện tác dụng không m ong muốn.
+- Toàn thân: chóng mặt, ngủ lơ mơ, lú lẫn, ảo giác, ra mồ hôi, đỏ bừng mặt, sảng khoái.
+- Tiêu hóa: buồn nôn, nôn, táo bón, co thắt túi mật, khô miệng.
+- Tuần hoàn: chậm nhịp tim, hạ huyết áp thoáng qua, đánh trống ngực, loạn nhịp .
+- Hô hấp: thở nhanh, suy hô hấp, ngạt thở
+- Cơ xương: co cứng cơ bao gồm cơ lồng ngực, giật rung
+- Mắt: co đồng tử
+2.3.3.4. áp dụng điều trị
+* Chỉ định
+- Giảm đau trong phẫu thuật.
+- Phối hợp với droperidol để giảm đau, an thần
+- Phối hợp trong gây mê.
+* Chống chỉ định
+- Các trường hợp đau nhẹ (có thể dùng các thuốc giảm đau khác như acetaminop hen)
+- Nhược cơ
+- Thận trọng trong các trường hợp: bệnh phổi mạn tính, chấn thương sọ não và tăng áp lực sọ não,
+bệnh tim, trầm cảm, phụ nữ có thai.
+Fen tanyl được chỉ định đối với phụ nữ cho con bú, mặc dù thuốc có mặt ở trong sữa mẹ nhưng
+với liều điều trị fen tanyl không ảnh hưởng đến trẻ đang bú.
+* Liều lượng
+- Dùng cho tiền mê: 50- 100 g, có thể tiêm bắp 30- 60 phút trước khi gây mê.
+- Giảm đau trong phẫu thuật: 0,07- 1,4 g/ kg thể trọng, có thể nhắc lại trong 1 - 2 giờ nếu cần.
+2.3.3.5. Tương tác thuốc
+- Các thuốc ức chế thần kinh trung ương như rượu, thuốc ngủ, thuốc mê, phenot hiazin... làm tăng
+tác dụng giảm đau của fen tanyl.
+- Fen tanyl làm giảm hấp thu của một số thuốc như metoc lopamid, mexiletin... khi dùng phối hợp.
+- Huyết áp giảm mạnh khi phối hợp fen tanyl với thuốc ức chế - adrenergic và thuốc chẹn kênh
+calci.
+Sulfen tanyl (Sufen ta)
+- Tác dụng và chỉ định tương tự fen tanyl. Mạnh hơn fen tanyl 10 lần, cũng gây cứng cơ.
+- Gắn với protein huyết tương trên 90%, thời gian bán thải 2 - 3 giờ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+- Thường tiêm tĩnh mạch 8 g/ kg
+Alfen tanil (Alfen ta)
+Tác dụng nhanh và ngắn hơn sufen tanyl nên còn dùng theo đường truyền tĩnh mạch. Thường
+được dùng để khởi mê và giảm đau, phối hợp với thuốc mê loại barbiturat, ni tơoxyd.
+2.3.4. Propoxyp hen
+2.3.4.1. Tác dụng
+Propoxyp hen có công thức gần giống met hadon, tác động chủ yếu trên recep tor muy. Tác dụng
+giảm đau kém, chỉ bằng 1/2 đến 2/3 codein: 90 - 120 mg propoxyp hen hydroc lorid theo đường
+uống, có tác dụng giảm đau tương tự 60 mg codein hoặc 60 mg aspirin.
+2.3.4.2. Dược động học
+Sau khi uống 1- 2 giờ, thuốc đạt được nồng độ tối đa trong máu. Chuyển hóa chủ yếu qua gan,
+nhờ phản ứng N- khử met hyl. Thời gian bán thải từ 6 - 12 giờ. Chất chuyển hóa là
+norpropoxyp hen có thời gian bán thải dài hơn (khoảng 30 giờ).
+2.3.4.3. Tác dụng không mong muốn
+Propoxyp hen có thể gây ức chế hô hấp, co giật, hoang tưởng, ảo giác, độc với tim... khi dùng.
+2.3.4.4. áp dụng điều trị
+Dùng để giảm đau nhẹ và trung bình. Propoxyp hen thường được phối hợp với aspirin hoặc
+acetaminop hen.
+2.3.5. Các opioid có tác dụng hỗn hợp : vừa hiệp đồng- vừa đối lập, hoặc hiệp đồng một phần
+(Agonist- an tagonist; partial agonist)
+Có nhiều thuốc gắn trên recep tor muy, tranh chấp với morphin và các opioid khác nhưng không
+gây tác dụng gì, được gọi là thuốc đối lập tranh chấp, ví dụ naloxon, cyc lazocin... Ngược lại, một
+số thuốc sau khi tranh chấp được recep tor còn có thể gây ra một số tác dụng dược lý, hoặc trên
+recep tor muy, hoặc trên các recep tor khác như delta và kap pa. Các thuốc đó được gọi là thuốc có
+tác dụng hỗn hợp hoặc hiệp đồng một phần, ví dụ: pen tazocin, nalbup hin...
+2.3.5.1. Pen tazocin
+Pen tazocin là một dẫn xuất ben zomorphan, cấu trúc có nhiều điểm giống morphin.
+* Tác dụng
+Thuốc có tác dụng đối kháng tại recep tor muy nhưng lại có tác dụng hiệp đồng tại recep tor kap pa
+1, gây an thần , giảm đau và ức chế hô hấp
+Tác dụng giảm đau như morphin nhưng không gây sảng khoái.
+Khi dùng liều cao, pen tazocin làm tăng huyết áp và nhịp tim.
+* Dược động học
+Hấp thu dễ qua đường tiêu hóa. Sau khi uống 1 - 3 giờ, thuốc đạt được nồng độ tối đa trong máu.
+Thời gian bán thải khoảng 4- 5 giờ. Vì phải qua chuyển hóa lần đầu ở gan nên chỉ 20%
+pen tazocin vào được vòng tuần hoàn. Thuốc qua được hàng rào rau th ai.
+* Tác dụng không mong muốn
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Pen tazocin có thể gây ra một số tác dụng không mong muốn: an thần, vã mồ hôi, chóng mặt,
+buồn nôn và nôn... Thuốc ức chế hô hấp khi dùng ở liều cao.
+* áp dụng điều trị
+Thuốc được chỉ định trong những cơn đau nặng, mạn tính h oặc khi người bệnh không dùng được
+các thuốc giảm đau khác.
+Thường dùng dung dịch pen tazocin lac tat chứa 30 mg pen tazocin base/ 1 m L. Tiêm tĩnh mạch
+hoặc dưới da 30 mg mỗi lần, sau 4 giờ có thể tiêm lại.
+Hiện nay có những chế phẩm phối hợp giữa pen tazocin với aspirin hay acetaminop hen.
+2.3.5.2. Bup renorphin
+Là thuốc tổng hợp, dẫn xuất của thebain. Bup renorphin hiệp đồng 1 phần trên recep tor muy, có
+tác dụng giảm đau mạnh hơn morphin từ 25 - 50 lần.
+Hấp thu dễ qua các đường dùng: uống, dưới lưìi, tiêm bắp... Gắn với protein huyết tương khoảng
+96%, thời gian bán thải 3 giờ.
+Được dùng để giảm đau trên lâm sàng. Thường tiêm bắp hoặc tĩnh mạch 0,3 mg mỗi lần, ngày
+dùng 3- 4 lần.
+2.4. Thuốc đối kháng với opioid
+Thay đổi công thức hóa học của morphin, đặc biệt ở vị trí 17 mang nhóm N- met hyl, nhóm đặc
+hiệu kích thích recep tor muy, sĩ được các chất đối kháng. Ví dụ:
+Morphin
+nalorphin
+Levorphanol
+levallorphan
+Oxymorphon
+naloxon, naltrexon
+Các chất này đối lập được các tác dụng do morphin gây ra, chủ yếu là những dấu hiệu ức chế như
+giảm đau, ức chế hô hấp, an thần, sảng khoái. Thời gian tác dụng nói chung ngắn hơn morphin.
+Nalorphin không được dùng trên lâm sàng vì ức chế hô hấp, làm chậm nhịp tim, co đồng tử, sảng
+khoái.
+2.4.1. Naloxon (nalonee, narcan, narcan ti)
+2.4.1.1. Tác dụng
+Khác với levallorphan hoặc nalorphin, naloxon ít hoặc không có hoạt tính chủ vận. ở người đã
+dùng liều lớn opioid, naloxon đối kháng phần lớn những tác dụng không mong muốn của opioid
+như ức chế hô hấp, an thần, gây ngủ...
+Khi dùng, naloxon có thể gây ra hội chứng thiếu thuốc sớm ở người nghiện opioid, tuy vậy dùng
+liều cao sĩ ngăn chặn được triệu chứng suy hô hấp trong hội chứng này.
+2.4.1.2. Dược động học
+Mặc dù được hấp thu dễ qua đường tiêu hóa nhưng naloxon bị chuyển hóa ở gan trước khi vào
+vòng tuần hoàn nên liều uống phải lớn hơn nhiều so với liều tiêm. Thuốc có tác dụng nhanh (1 - 2
+phút sau khi tiêm tĩnh mạch) thời gian tác dụng phụ thuộc vào liều và đường dùng.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Sau khi tiêm, naloxon phân bố nhanh vào các mô và dịch cơ thể. Thời gian bán thải là 60- 90
+phút.
+2.4.1.3. Tác dụng không mong muốn
+- Tim mạch: tăng huyết áp (có khi giảm huyết áp), nhịp tim nhanh, loạn nhịp thất.
+- Thần kinh trung ương: mất ngủ, kích thích, lo âu
+- Tiêu hóa: buồn nôn, nôn
+- Nhìn mờ, ban đỏ ngoài da.
+2.4.1.4. áp dụng điều trị
+Naloxon được dùng để điều trị ngộ độc cấp các opiat và opioid, cai nghiện opioid
+Phải hết sức thận trọng khi dùng naloxon cho người có bệnh tim mạch, phụ nữ có thai và cho con
+bú.
+Liều lượng; người lớn: 0,4- 2 mg, tiêm tĩnh mạch, 2 -3 phút tiêm nhắc lại nếu cần. Tổng liều 10
+mg.
+Vì thời gian tác dụng của naloxon rất ngắn (60 - 90 phút) nên cần truyền liên tục naloxon khi
+bệnh nhân ngộ độc opium nặng.
+2.4.2. Naltrexon
+Đối kháng với opioid mạnh hơn naloxon, thường dùng đường uống. Nồng độ tối đa trong máu đạt
+được sau 1- 2 giờ. Thời gian bán thải là 3 giờ.
+Naltrexon được chuyển hóa thành 6- naltrexon (có hoạt tính sinh học yếu hơn nhưng thời gian
+bán thải dài hơn, khoảng 13 giờ).
+Naltrexon được dùng để cai nghiện opioid (uống 100 mg / ngày), cai nghiện rượu (phối hợp với
+disulfiram).
+2.5. Morphin nội sinh
+Hai năm sau khi tìm ra recep tor của opiat, một số công trình nghiên cứu cho thấy recep tor của
+morphin còn có ái lực rất mạnh với một số pep tid đặc hiệu s½n có trong cơ thể động vật, những
+pep tid này gây ra những tác dụng giống morphin.
+Các morphin nội được chia thành 3 họ:
+- En kep halins (Met- en kep halin và leu- en kep halin)
+- En dorphins
+- Dynorphins
+Mỗi loại có tiền thân khác nhau và phân bố ở những vị trí khác nhau trên thần kinh tru ng ương.
+Các morphin nội sinh hoạt động như một chất dẫn truyền thần kinh, hoặc chất điều biến của dẫn
+truyền hoặc là hormon thần kinh. Vì thế, chúng tham gia vào các cơ chế giảm đau, các cảm giác
+thìm muốn (ăn uống, tình dục), các quá trình cảm xúc, tâm t hần, trí nhớ.
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+ở tuỷ sống, morphin nội sinh ức chế giải phóng chất P, là một decapep tid (10 acid amin) được
+giải phóng tại ngọn dây cảm giác ở sừng sau tuỷ sống. Chất P có vai trò kiểm tra đường cảm giác
+truyền vào và kích thích các nơ ron vận động của sừng trước để gây phản xạ tự vệ.
+Các en kep halin là pen tapep tid có tác dụng giảm đau rất ngắn vì bị giáng hóa nhanh trong cơ thể
+nhờ các en zym: dipep tidyl amino pep tidase, aminopep tidase và en kep halinase. Các en dorphin có
+4 loại, nhưng chỉ có beta en dorphin có t ác dụng giảm đau mạnh và lâu (3- 4 giờ) vì tương đối
+vững bền.
+3. Thuốc giảm đau không phải loại morphin : (xin xem bài thuốc hạ sốt- giảm
+đau- chống viêm).
+4. Thuốc giảm đau hỗ trợ
+Thuốc giảm đau hỗ trợ có tác dụng hiệp đồng, làm tăng tác dụng giảm đau của các opioid và
+thuốc giảm đau chống viêm không steroid. Các thuốc này đặc biệt hiệu quả đối với đau do
+nguyên nhân thần kinh.
+4.1. Thuốc chống trầm cảm:
+Tác dụng giảm đau không phụ thuộc vào tác dụng chống trầm cảm. Thường dùng trong các
+trường hợp đau kéo dài, có liên quan đến bệnh lý thần kinh.
+Nhóm thuốc có tác dụng tốt nhất là thuốc chống trầm cảm loại ba vòng (xin xem thêm bài thuốc
+chống trầm cảm).
+4.2. Thuốc chống động kinh
+Để giảm đau trong bệnh thần kinh do đái tháo đường, đau sau zona, đau dây t hần kinh, dự phòng
+cơn đau nửa đầu (migraine) có thể dùng các thuốc: phenytoin, carbamazepin và valproat (xin xem
+thêm bài thuốc chữa động kinh).
+5. Nguyên tắc sử dụng thuốc giảm đau
+5.1. Chọn thuốc
+Thuốc giảm đau chỉ điều trị triệu chứng, thuốc có thể che lấp các dấu hiệu của bệnh trong khi
+bệnh vẫn tiến triển nên phải hết sức cân nhắc khi sử dụng thuốc giảm đau. Khi lựa chọn thuốc
+cần chú ý đến cường độ và bản chất của đau. Tổ chức Y tế Thế giới khuyến cáo nên uống thuốc
+theo bậc thang giảm đau:
+- Bậc 1 (đau nhẹ): dùng thuốc giảm đau không phải opioid như paracetamol, thuốc chống viêm
+không phải steroid.
+- Bậc 2 (đau vừa): phối hợp thuốc loại opioid yếu (codein, oxycodon) với paracetamol, thuốc
+viêm không steroid hoặc thuốc giảm đau hỗ trợ.
+- Bậc 3 (đau nặng): dùng thuốc giảm đau loại opioid mạnh : morphin, hydromorphon,
+met hadon... phối hợp với thuốc chống viêm không steroid.
+5.2. Đường dùng thuốc
+Thông thường nên dùng đường uống. Tuy nhiên, trong các cơn đau nặng, cấp tính hoặc sau phẫu
+thuật lớn... phải dùng ngay các thuốc giảm đau mạnh loại opioid qua đường tiêm để tránh sốc và
+ảnh hưởng xấu của đau đến tiến triển của bệnh .
+
+
+dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bác sĩ đa khoa)
+Câu hỏi tự lượng giá
+1. Trình bày các tác dụng của morphin trên thần kinh trung ương.
+2. Trình bày các tác dụng ngoại biên của morphin .
+3. Phân tích mối liên quan giữa cấu trúc hóa học và tác dụng dược lý của morphin.
+4. Trình bày các chỉ định và chống chỉ định khi sử dụng morphin.
+5. Trình bày các tác dụng không mong muốn và thận trọng khi dùng morphin.
+6. Trình bày triệu chứng và cách xử trí ngộ đ ộc cấp morphin.
+7. Trình bày triệu chứng ngộ độc mạn và cách cai nghiện morphin.
+8. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của pet hidin.
+9. Trình bày tác dụng và áp dụng điều trị của loperamid.
+10. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của met hadon.
+11. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của pen tazoxin.
+12. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của fen tanyl.

@@ -333,6 +333,96 @@ def _ingest_image(
 
 
 # ---------------------------------------------------------------------------
+# TCVN3 garbled-text detection
+# ---------------------------------------------------------------------------
+
+# Characters that appear when a TCVN3-font PDF is extracted as Latin-1.
+_TCVN3_MARKERS = frozenset(chr(cp) for cp in [
+    0xA7, 0xA8, 0xAB, 0xAC, 0xAE,
+    0xB5, 0xB6, 0xB7, 0xB8, 0xB9, 0xBB, 0xBE,
+    0xC6, 0xC7, 0xC8, 0xC9, 0xCA, 0xCB, 0xCC, 0xCE, 0xCF,
+    0xD0, 0xD1, 0xD2, 0xD3, 0xD4, 0xD5, 0xD6, 0xD7, 0xD8,
+    0xDC, 0xDD, 0xDE, 0xDF,
+    0xE4, 0xE5, 0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEE, 0xEF,
+    0xF1, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xFA, 0xFB, 0xFE,
+])
+_TCVN3_STRONG = frozenset(chr(cp) for cp in [0xAE, 0xB8, 0xB5])  # ® ¸ µ
+
+
+def _is_tcvn3_garbled(text: str, ratio_threshold: float = 0.02, strong_threshold: int = 10) -> bool:
+    """Return True if *text* looks like TCVN3 garbled content (not proper Unicode)."""
+    if not text:
+        return False
+    marker_count = sum(1 for ch in text if ch in _TCVN3_MARKERS)
+    strong_count = sum(1 for ch in text if ch in _TCVN3_STRONG)
+    ratio = marker_count / len(text)
+    return ratio > ratio_threshold or strong_count > strong_threshold
+
+
+# ---------------------------------------------------------------------------
+# TXT ingestion
+# ---------------------------------------------------------------------------
+
+def _ingest_txt(
+    source: dict[str, Any],
+    cfg_ingest: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Ingest a pre-normalized TXT file. Each blank-line-separated paragraph = one passage."""
+    file_path = source["file_path"]
+    source_id = source["source_id"]
+    min_text_len: int = cfg_ingest.get("min_text_len_pdf", 30)
+    doc_fp = sha1_fingerprint(file_path)
+    manifest_lang = source.get("doc_language")
+
+    try:
+        raw = Path(file_path).read_text(encoding="utf-8")
+    except Exception as exc:
+        logger.error("Cannot read TXT %s: %s", file_path, exc)
+        return []
+
+    if _is_tcvn3_garbled(raw):
+        logger.warning("[TXT] SKIP (TCVN3 garbled): %s", file_path)
+        return []
+
+    # Split on blank lines to get paragraphs
+    blocks = [b.strip() for b in raw.split("\n\n")]
+    records: list[dict[str, Any]] = []
+    para_idx = 0
+
+    for block in blocks:
+        text = " ".join(block.split())  # collapse inner newlines
+        if len(text) < min_text_len:
+            continue
+        para_idx += 1
+        doc_lang = manifest_lang or detect_language(text)
+        rec: dict[str, Any] = {
+            "source_id": source_id,
+            "doc_type": "txt",
+            "title": source.get("title", ""),
+            "author": source.get("author", ""),
+            "year": source.get("year"),
+            "file_path": file_path,
+            "url": source.get("url", ""),
+            "page": None,
+            "page_range": None,
+            "section_heading": None,
+            "span": None,
+            "locator": f"para_{para_idx}",
+            "doc_fingerprint": doc_fp,
+            "doc_language": doc_lang,
+            "text": text,
+            "element_idx": para_idx,
+        }
+        for key in ("doi", "journal"):
+            if key in source:
+                rec[key] = source[key]
+        records.append(rec)
+
+    logger.info("[TXT] %s — %d paragraphs kept", source_id, len(records))
+    return records
+
+
+# ---------------------------------------------------------------------------
 # Main ingest driver
 # ---------------------------------------------------------------------------
 
@@ -342,7 +432,7 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 def _resolve_doc_type(source: dict[str, Any]) -> str:
     """Determine doc_type from manifest or file extension."""
     doc_type = source.get("doc_type", "").lower()
-    if doc_type in ("pdf", "docx", "image"):
+    if doc_type in ("pdf", "docx", "image", "txt"):
         return doc_type
     ext = Path(source["file_path"]).suffix.lower()
     if ext == ".pdf":
@@ -351,6 +441,8 @@ def _resolve_doc_type(source: dict[str, Any]) -> str:
         return "docx"
     if ext in IMAGE_EXTENSIONS:
         return "image"
+    if ext == ".txt":
+        return "txt"
     return doc_type
 
 
@@ -398,6 +490,8 @@ def run_ingest(config: dict[str, Any]) -> int:
                 recs = _ingest_docx(src, cfg_ingest, paper_sections)
             elif doc_type == "image":
                 recs = _ingest_image(src, cfg_ingest)
+            elif doc_type == "txt":
+                recs = _ingest_txt(src, cfg_ingest)
             else:
                 logger.warning("Unknown doc_type '%s' for %s", doc_type, file_path)
                 continue
