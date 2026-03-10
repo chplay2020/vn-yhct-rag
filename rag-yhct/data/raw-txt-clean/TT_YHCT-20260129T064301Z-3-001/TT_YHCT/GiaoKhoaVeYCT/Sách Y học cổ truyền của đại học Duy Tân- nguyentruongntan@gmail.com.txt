@@ -1673,14 +1673,14 @@ nhọt giai đoạn đầu (dùng ngoài).
 
 2.7. Ma hoàng: bộ phận trên mặt đất đã phơi hay sấy khô cùa nhiều loài Ma
 hoàng, nhất là của Thào ma hoàng (Ep hedra sinica Staff), Mộc tặc ma hoàng
-(Ep hedra equysetina Bun ge), Trung ma hoàng (Ep hedra in termedia Schreink ef
+(Ep hedra equysetina Bun ge), Trung ma hoàng (Ep hedra in termedia Schrein kef
 Mey), họ Ma hoàng (Ep hedraceae).
 - Tính vị quy định: cay, ấm vào kinh Phế, Bàng quang.
 - Tác dụng: chữa cảm mạo do lạnh, chữa ho hen do lạnh, viêm mũi dị ứng,
 viêm phổi sau sởi, chữa phù thũng, vàng da (do tác dụng lợi tiểu).
 - Liều dùng: 4 - 12g/ 24h để làm ra mồ hôi; 2 - 3g/ 24h để chữa hen xuyễn.
 2.8. Te tăn: toàn cây đã phơi khô của cây Liêu tế tân (Asarum heterot ropoides
-F. Schm. Var. Ma doc huricum (Max) Kitag), hoặc của cây Hoa tế tàn (Asarum
+F. Schm. Var. Madoc huricum (Max) Kitag), hoặc của cây Hoa tế tàn (Asarum
 sieboldi Miq), cùng họ Mộc hương nam (Aristoloc hiaceae).
 - Tính vị quy kinh: cay, ấm vào kinh Phế, Tâm, Thận.
 - Tác dụng: chữa cảm mạo phong hàn gây chứng nhức đầu, đau người, chữa ho
@@ -2291,7 +2291,7 @@ olerucea L), họ rau Sam (Portulacaceae), dùng tươi tốt hơn.
 - Tác dụng chữa bệnh: chữa lỵ trực trùng, viêm bàng quang cấp.
 - Liều dùng: dùng tươi 50 - l OOg/ 24h
 6. Khô sâm: rề phơi hay sấy khô của cây Khổ sâm (Sop hora flavesecens Ait)
-(Sop hora an gustí folia Sieb ct Zuce, họ Đậu (Fabaceae).
+(Sop hora an gustí folia Siebct Zuce, họ Đậu (Fabaceae).
 - Tính vị quy kinh: dang, lạnh vào kinh Tàm, Tỳ, Thận.
 - Tác dụng chữa bệnh: chừa lỵ, hoàn ti dàn nhiễm trùng, chàm, lờ, naứa dị írnụ
 chữa viêm báñe quang, lợi niệu trừ thấp nhiệt.
@@ -2374,7 +2374,7 @@ không có mồ hôi, chữa ỉa ch IV, đau bụng, lợi niệu, chữa phù 
 - Tác dụng: chữa ỉa chảy, nôn mửa, đau bụng.
 - Liều dùng: 6-12g/ 24h.
 2.3. Bạch biển đậu: hạt già phơi hay sấy khô của cây Đậu ván trắng (Dilic hos
-lablab L; Lablab vulgaria), họ Đậu (Fabaceae).
+lablab L; Lablabvulgaria), họ Đậu (Fabaceae).
 - rinh vị quy kinh: ngọt, hơi ấm vào kinh Tỳ, VỊ.
 - Tác dụng: chữa ia chày, nôn mửa về mùa hò, sinh tân chi khát, chữa bệnh đái
 dường, chữa ỉa chày do Tỳ hư, giải độc rượu.
@@ -2472,7 +2472,7 @@ kinh thực vật, hội chứng tiền đinh, hạ sốt, làm khoè mạnh gâ
 rong kinh, rong huyết kco dài.
 - Liều dùng: 12 - 40g/ 24h.
 4.5. Miết giáp (mai Bu bd): mai dã phơi hay sấy khô của con Ba ba (Amyda
-sinen sis Stẹị neger), bọ Ba ba (Tronyc hidae).
+sinen sis Stẹị neger), bọ Baba (Tronyc hidae).
 - Tính vị quy kinh: mặn, lạnh vào Kinh Can, Tỳ.
 - Tác dụng: chữa sốt cao co giật, thiếu can xi huyết, chữa sốt rót. lách to. chữa
 nhức trong xương, hố kinh.
@@ -2482,7 +2482,7 @@ kin gianum Coll et Ilemsl), họ Hành (Liliaceae).
 - Tính vị quy kinh: ngọt, bình vào kinh Phế, Vị, Tỳ.
 - Tác dụng: chữa ho lâu ngà) , ho khan, ho lao, dái đường, thiếu máu. dims lèun dồ ăn.
 - Liều dùng: 8 - 16g/ 24h.
-4.7. Thạch hộc: thân của nhiều loại phong lan, họ Lan (Orehidaceae). vì có
+4.7. Thạch hộc: thân của nhiều loại phon glan, họ Lan (Orehidaceae). vì có
 những loại có đốt, trê nio, dưới nhỏ mọc trên đá nên gọi là Thạch hộc (Den drobium sp).
 - Tính vị quy kinh: ngọt, đạm, hơi lạnh và kinh Phế, Vị, I hận.
 - Tác dụng: hạ sốt, chữa khát nước, họng khô, miệng khò. họng đau. táo bón do
@@ -2541,7 +2541,7 @@ băng huyết, rong kinh kéo dài, tiểu tiện nhiều lần.
 
 
 4.2. Cầu lích: thân rễ (thường gọi là cù) đã chế biến và làm khô của cây Lông
-cu li (Cibotium barametz (L). J. Sm), họ Kim mao (Dic ksoniaceae).
+culi (Cibotium barametz (L). J. Sm), họ Kim mao (Dic ksoniaceae).
 - Tính vị quy kinh: đắng, ngọt, ấm vào kinh Can, Thận.
 - Tác dụng: chữa di tinh, di niệu, ra khí hư, chữa đau khớp, làm khoẻ mạnh gân
 xương, chữa đau lưng, mỏi gối, chữa đau khớp, đau dây thân kinh.
@@ -3145,7 +3145,7 @@ Av >
 
 
 T H U Ó C T R ỌN G CHÁN AN T H ÀN
-1. Chu sa, Thần sa: (Cin nabaris) là một khoáng chất thành phần chủ ỵêu là
+1. Chusa, Thần sa: (Cin nabaris) là một khoáng chất thành phần chủ ỵêu là
 Sun fua thuỷ ngân, ngoài ra có chứa Selenua thuỷ ngân, còn được gọi là Thân sa,
 Đơn sa. Loại thuốc này có Hg S trong thành phần và một số tạp chất khác, không nên
 dùng trực tiếp với lửa, chất Hg S sẽ phân tích cho SƠ2 và Hg rất độc vì vậy trong chế
@@ -3357,8 +3357,7 @@ lên 2 thốn, đo ngang ra 3 thốn.
 kinh toạ, liệt chi dưới.
 3. Bễ quan
 (Thận kinh)
-- Là điểm gặp cùa dường ngang
-qua khớp mu và dường dọc qua
+- Là điểm gặp cùa dường ngan gqua khớp mu và dường dọc qua
 gai chậu trước trên.
 - Đau khớp háng, liệt chi dưới
 4 Thừa phù
@@ -3717,25 +3716,21 @@ huyệt kiên ngung.
 - Vai và lưng trên đau nhức.
 7. Đại trữ
 (Kinh Bàng quang)
-- Chính giữa D| và D|| đo ngang
-ra 1,5 thốn.
+- Chính giữa D| và D|| đo ngan gra 1,5 thốn.
 - Cảm mạo, ho, hen, đau lưng, đau
 vai gáy.
 8. Phong môn
 (Kinh Bàng quang)
-- Từ giữa D|| và D||| đo ngang
-ra 1,5 thốn.
+- Từ giữa D|| và D||| đo ngan gra 1,5 thốn.
 - Ho, hen, cảm cúm, đau vai gáy.
 9. Phế du
 (Kinh Bàng quang)
--T ừ giữa D||I và Dlv đo ngang
-ra 1,5 thốn.
+-T ừ giữa D||I và Dlv đo ngan gra 1,5 thốn.
 - Ho hen, khó thờ, viêm tuyến vú,
 chăp, lẹo.
 10. Tâm du
 (Kinh Bàng quang)
-- Từ giữa Dv và DV| đo ngang
-ra 1,5 thốn.
+- Từ giữa Dv và DV| đo ngan gra 1,5 thốn.
 - Ho, mất ngủ, mộng tinh, rối loạn
 thần kinh tim.
 11. Đốc du
@@ -3747,8 +3742,7 @@ kinh liên sườn VI, VII, rối loạn
 thần kinh tim.
 12. Cách du
 (Kinh Bàng quang)
-- ơ giữa DVI1 và Dviii đo ngang
-ra 1,5 thốn.
+- ơ giữa DVI1 và Dviii đo ngan gra 1,5 thốn.
 - Nôn, nấc, thiếu máu, cơn đau thắt
 ngực.
 113
@@ -3791,8 +3785,7 @@ màng tiếp họp, đau dạ dày.
 ống mật, tăng huyết áp.
 5. Tỳ du
 (Bàng quang kinh)
-- Từ giữa DX| - DX|| đo ngang
-ra 1,5 thốn.
+- Từ giữa DX| - DX|| đo ngan gra 1,5 thốn.
 - Đau dạ dày, đầy bụng, chậm
 tiêu, rối loạn tiêu hoá.
 6. Vị du
@@ -3855,8 +3848,7 @@ quản.
 ia chảy mạn
 7. Đại trường du
 (Bàng quang kinh)
-- Giữa liên đốt L|V - Lv đo ngang
-ra 1,5 thốn.
+- Giữa liên đốt L|V - Lv đo ngan gra 1,5 thốn.
 - Đau thần kinh toạ, trĩ, ia
 chày, sa trực tràng.
 8. Bát liêu
@@ -4705,8 +4697,7 @@ Tế tân
 04g
 Đảng sâm
 12g
-Xuyên khung
-l Og
+Xuyên khungl Og
 Bạch linh
 12g
 Cam thào
@@ -5246,8 +5237,7 @@ Bài 1: Kê đơn theo đối pháp lập phương
 Khu phong:
 Độc hoạt
 12g
-Phòng phong
-l Og
+Phòng phongl Og
 Uy linh tiên
 12g
 Tang ký sinh
@@ -5559,8 +5549,7 @@ ngù, suy giảm trí nhớ, cốt hóa nhân cách...
 tay: đau tê bỉ cánh tay, cang tay, bàn ngón tay, phàn xạ gân xương có thể tăng nhẹ.
 - Chụp Xquang đốt cổ có giá trị chẩn đoán cao: trên phim thấy hình ảnh mỏ
 xương, gai xương, viêm sụt viền, viêm khớp cổ sau hoặc trượt, xẹp đốt sống. Chú ý
-phân biệt với lao đốt cổ gây phá huỷ cung trước, ung thư đốt sống cổ phá hủy cung
-sau không thuộc phạm vi nghiên cứu của bài này.
+phân biệt với lao đốt cổ gây phá huỷ cung trước, ung thư đốt sống cổ phá hủy cun gsau không thuộc phạm vi nghiên cứu của bài này.
 3.2.2. Pháp điều trị: Trừ phong thấp, bổ khí huyết, hoạt huyết.
 3.2.3. Điều trị bằng châm cứu
 - Neu thiên hàn ncn cứu cách gừng, các mồi ngải đặt dọc theo mạch Đốc từ C|

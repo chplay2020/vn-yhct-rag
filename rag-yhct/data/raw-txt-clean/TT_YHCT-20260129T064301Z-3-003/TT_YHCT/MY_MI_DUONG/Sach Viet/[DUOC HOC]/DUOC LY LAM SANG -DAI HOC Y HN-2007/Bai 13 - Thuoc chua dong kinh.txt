@@ -49,8 +49,7 @@ sách dùng cho sinh viên hệ bác sĩ đa khoa
 . Không cơn co giật
 Clonazepam, et hosuximid, valproat
 Lamot rigin
-. Cơn giật rung
-valproat
+. Cơn giật run gvalproat
 Lamot rigin
 . Cơn co cứng- giật
 rung
@@ -196,7 +195,7 @@ Acid valproic (Depakin): viên bọc đường 250mg; si rô 5ml có 250mg hoạ
 - Chờ đợi đủ thời hạn để đánh giá hiệu quả của điều trị:
 . Vài ngày với et hosuximid, ben zodiazepin
 . Hai ba tuần với phenobarbital, phenytoin
-. Vài tuần với valproic acid.
+. Vài tuần với valproicacid.
 - Hiểu rõ các tác dụng phụ, tác dụng không mong muốn của từng thuốc để theo dõi kịp thời.
 - Nếu có thể, kiểm tra nồng độ của thuốc trong máu khi cần.
 3.2. Điều trị động kinh và thai nghén

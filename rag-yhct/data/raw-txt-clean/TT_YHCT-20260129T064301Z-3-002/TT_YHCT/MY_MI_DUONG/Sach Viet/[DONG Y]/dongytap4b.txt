@@ -500,7 +500,7 @@ những di chứng khổ sở suốt đời. Còn hai phương pháp xạ
 trị và hóa trị thì ai cũng biết ngoài cách này ra, tây y
 không còn con đường nào khác hay hơn, bệnh nhân đành
 phải theo trong suốt tiến trình trị liệu thử nghiệm cho đến
-khi khoa học bó tay thì chết, chứ chưa một ai may mắn hồi
+khi khoa học bó tay thì chết, chứ chưa một aimay mắn hồi
 phục, bởi vì hai phương pháp này đem lại nhiều tai hại
 cho bệnh nhân .
 
@@ -1389,7 +1389,7 @@ cưa tay chân, đường nhiều làm tăng nồng độ máu gây tăng
 of 78
 101áp huyết, suy thận nên tuyến thượng thận không sản suất
 in sulin để làm giảm lượng đường trong máu, lúc đó cơ thể
-cần phải được bổ sung in sulin từ ngoài vào để hạ đường,
+cần phải được bổ sun gin sulin từ ngoài vào để hạ đường,
 nhưng ngược lại nếu lạm dụng thuốc hạ đường hoặc kiêng
 cữ không ăn đường khiến cơ tim không co bóp sẽ bị suy
 tim, nhồi máu cơ tim làm chết người.
@@ -1397,7 +1397,7 @@ tim, nhồi máu cơ tim làm chết người.
 3-Nếu lạm dụng thuốc calcium :
 Tùy theo loại calcium nào, dạng bột, dạng nước, dạng sủi
 bọt, dạng thiên nhiên có trong thực phẩm như mè đen, đậu
-nành, rau brocoli, fromage...
+nành, raubrocoli, fromage...
 Nếu dư calcium khiến áp huyết tăng, thân nhiệt tăng, sưng
 tuyến giáp trạng. Riêng thuốc viên bột calcium làm xương
 khô dòn dễ gẫy và mòn sụn ở khớp đầu gối do ma xát đi
@@ -1448,7 +1448,7 @@ Trong bệnh lao phổi cũng cần đến calcium để làm ấm
 phổi, mau lành vết thương trong phổi chứ không phải để
 làm cứng xương, nếu nó có thể làm cứng xương thì nó
 cũng có thể làm cho cứng các xoang phổi không thở được.
-Ở bắc Mỹ chúng ta có loại rau brocoli chứa nhiều calcium
+Ở bắc Mỹ chúng ta có loại raubrocoli chứa nhiều calcium
 thuộc dạng dễ hấp thụ và chuyển hóa, không bị đóng cặn,
 không bị tăng thân nhiệt và không bị táo bón như dùng
 thuốc calcium viên bột.
@@ -1881,7 +1881,7 @@ Như vậy tập khí công đã chữa được những bệnh như
 niên, loét bao tử và ruột non ( ulcè re gastro duo dé nal ),
 viêm bao tử kinh niên ( gastrite chronique ), viêm ruột
 mãn tính ( en té ro colite chronique ), viêm gan mãn tính (
-cirrhose du foie), viêm túi mật ( cho lé cystite ).
+cirrhose dufoie), viêm túi mật ( cho lé cystite ).
 
 Đối với hệ thần kinh :
 Tùy theo phương pháp tập để hưng phấn hay ức chế
@@ -2119,12 +2119,11 @@ Tuyến yên :
 Trục dưới đồi tuyến yên điều hòa chức năng của tuyến
 thượng thận, tuyến giáp, tinh hoàn, bài tiết chất
 an drenocorticot ropin (A. C. T. H.) ở thùy trước điều hòa
-tuyến thượng thận, chất thyroid stimulating hormone
-(TSH) điều hòa tuyến giáp, chất follic le stimulating
-hormone (FSH) kích thích tinh hoàn sinh tinh trùng, chất
-luteinizing hormone (LH) kích thích tinh hoàn bài tiết
+tuyến thượng thận, chất thyroid stimulatin ghormone
+(TSH) điều hòa tuyến giáp, chất follic le stimulatin ghormone (FSH) kích thích tinh hoàn sinh tinh trùng, chất
+luteinizin ghormone (LH) kích thích tinh hoàn bài tiết
 testeron, chất prolac tin (PRL) kích thích sản xuất sữa, chất
-human growth hormone (h. GH) điều hòa sự phát triển cơ
+human growthhormone (h. GH) điều hòa sự phát triển cơ
 thể. Ở thùy sau có chất kích thích tố vasop ressin kháng bài
 niệu (ADH) và Oxytocin điều hòa bài tiết sữa và tăng sự
 co bóp tử cung lúc sắp sinh.

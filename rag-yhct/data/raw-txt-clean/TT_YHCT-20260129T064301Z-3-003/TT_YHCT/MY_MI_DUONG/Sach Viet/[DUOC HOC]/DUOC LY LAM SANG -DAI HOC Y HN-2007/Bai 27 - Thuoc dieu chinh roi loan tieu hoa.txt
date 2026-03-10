@@ -151,7 +151,7 @@ Người lớn uống mỗi lần 5- 10 m L, ngày 4 lần).
 1.3.1.1. Đặc điểm chung
 Cơ chế tác dụng
 Do công thức gần giống với histamin, các thuốc kháng histamin H 2 tranh chấp với
-histamin tại recep tor H 2 và không có tác dụng trên recep tor H 1. Tuy recep tor H2 có ở
+histamin tại recep tor H 2 và không có tác dụng trên recep tor H 1. Tuyrecep tor H2 có ở
 nhiều mô như thành mạch, khí quản, tim, nhưng thuốc kháng histamin H 2 tác dụng chủ
 yếu tại các recep tor H 2 ở dạ dày. Thuốc kháng histamin H 2 ngăn cản bài tiết dịch vị do bất
 kỵ nguyên nhân nào làm tăng tiết histamin tại dạ dày (cường phó giao cảm, thức ăn,
@@ -343,7 +343,7 @@ dạng viên bao tan trong ruột. Khi uống phải nuốt nguyên cả viên v
 nghiền) và uống cách xa bữa ăn (trước khi ăn sáng, trước khi đi ngủ tối).
 1.4. Các thuốc khác
 1.4.1. Các muối bismuth
-Được dùng dưới dạng keo subcit rat (trikalium dicit rato), subsalicylat…
+Được dùng dưới dạng keosubcit rat (trikalium dicit rato), subsalicylat…
 
 
 dược lý học 2007 - đại học Y Hà nội
@@ -368,8 +368,8 @@ Uống mỗi lần 1 viên, ngày 4 lần vào 30 phút trước các bữa ăn 
 hoặc mỗi lần uống 2 viên, ngày 2 lần vào 30 phút trước bữa ăn sáng và tối. Điều trị trong
 4- 8 tuần.
 Không dùng để điều trị duy trì, nhưng có thể điều trị nhắc lại sau 1 tháng.
-* Chế phẩm phối hợp ranitidin và muối bismuth: ranitidin bismuth cit rat
-ở dạ dày ranitidin bismuth cit rat được phân ly t hành ranitidin và bismuth, do đó có cả hai
+* Chế phẩm phối hợp ranitidin và muối bismuth: ranitidin bismut hcit rat
+ở dạ dày ranitidin bismut hcit rat được phân ly t hành ranitidin và bismuth, do đó có cả hai
 tác dụng của hợp chất bismuth và của ranitidin.
 Uống mỗi lần 400 mg, ngày 2 lần trong 4 - 8 tuần nếu loét tá tràng hoặc 8 tuần nếu loét dạ
 dày lành tính. Không dùng điều trị duy trì.
@@ -480,7 +480,7 @@ Mỗi lần 500 mg,
 ngày 2 lần
 Mỗi lần 400 mg,
 ngày 2 lần
-Ranitidin bismuth cit rat
+Ranitidin bismut hcit rat
 Mỗi lần 1 g, ngày
 2 lần
 Mỗi lần 500 mg,
@@ -629,7 +629,7 @@ sáng.
 . Chuẩn bị chụp X- quang đại tràng hoặc phẫu thuật: người lớn uống mỗi lần 10 mg lúc đi
 ngủ, trong 2 ngày liền trước khi chụp chiếu hoặc phẫu thuật. Trẻ em dùng nửa liều người
 lớn.
-Lưu ý: dạng viên bao bisacodyl để phân rã ở ruột, do đó khô ng được nhai hoặc nghiền
+Lưu ý: dạng viên baobisacodyl để phân rã ở ruột, do đó khô ng được nhai hoặc nghiền
 viên thuốc.
 Không dùng thuốc quá 7 ngày, trừ khi có hướng dẫn của thầy thuốc.
 Magnesi sulfat

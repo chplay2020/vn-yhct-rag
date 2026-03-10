@@ -1,7 +1,6 @@
 In tegrative Medicine Research 14 (2025) 101143
-Con tents lists available at Scien ce Direct
-In tegrative Medicine Research
-journal homepage: www. elsevier. com/locate/imr
+Con tents lists availableat Scien ce Direct
+In tegrative Medicine Researchjournal homepage: www. elsevier. com/locate/imr
 Original Artic le
 Traditional Viet namese herbal medicine TD0015 in Knee Osteoarthritis: A
 Phase-II ran domized con trolled trial
@@ -10,15 +9,13 @@ a , 1 , Duong Trong Nghia
 b , 1 , Ha Thi Viet Nga
 b , Trinh Thi Lua
 a ,
-Nguyen Thi Bich Hong
-b , Nguyen Thi Hanh
-c , Nguyen Kim Ngoc
-a , Nguyen Lam Vuong
+Nguyen Thi Bich Hongb , Nguyen Thi Hanh
+c , Nguyen Kim Ngoca , Nguyen Lam Vuong
 d , ∗
-a Faculty of Traditional Medicine, Hanoi Medical University, Hanoi, Viet nam
-b National Hospital of Traditional Medicine, Hanoi, Viet nam
+a Facultyof Traditional Medicine, Hanoi Medical University, Hanoi, Viet nam
+b National Hospitalof Traditional Medicine, Hanoi, Viet nam
 c Thai Binh Medical University Hospital, Thai Binh, Viet nam
-d Department of Medical Statistics and In formatics, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh, Viet nam
+d Departmen tof Medical Statistic sand In formatics, Facultyof Public Health, Universityof Medicineand Pharmacyat Ho Chi Minh City, Ho Chi Minh, Viet nam
 a r t i c l e
 i n f o
 Keywords:
@@ -27,303 +24,295 @@ Herbal
 Knee
 Osteoarthritis
 a b s t r a c t
-Background: Knee osteoarthritis (KOA) is a leading cause of disability among older adults worldwide. Traditional
-medicine oﬀers a promising treat ment for KOA with fewer side eﬀects com pared to current treat ments such as
-non-steroidal an ti-inﬂam matory drugs and corticosteroids. This study aimed to evaluate the safety and eﬃcacy
+Background: Knee osteoarthritis (KOA) is a leadin gcause ofdisability amon golder adults worldwide. Traditional
+medicine oﬀers a promising treat men tfor KOAwit hfewer side eﬀects com pared tocurrent treat ments suc has
+non-steroidal an ti-inﬂam matory drugs an dcorticosteroids. This study aimed toevaluate thesafety and eﬃcacy
 of TD0015, a herbal formulation based on the Duhuo Jisheng decoc tion, in treating KOA.
 Met hods: This ran domized, double-blind, placebo-con trolled trial en rolled 108 patients with KOA. Participants
-were ran dom ly assigned in a 1:1:1 ratio to receive TD0015 5 g, TD0015 7.5 g, or placebo daily for 60 days. Eﬃcacy
-en dpoints in cluded chan ges in Western On tario and Mc Master Universities Osteoarthritis in dex (WOMAC), Visual
-Analogue Scale (VAS), Lequesne in dex, heel-but tock distan ce, and knee ﬂexion and exten sion ran ge of motion.
-Safety was assessed by adverse events (AEs).
+were ran dom ly assigned in a 1:1:1 ratio toreceive TD0015 5 g, TD0015 7.5 g, orplacebo daily for 60 days. Eﬃcacy
+en dpoints in cluded chan gesin Western On tarioand Mc Master Universities Osteoarthritis in dex (WOMAC), Visual
+Analogue Scale (VAS), Lequesne in dex, heel-but tock distan ce, andknee ﬂexion an dexten sion ran ge ofmotion.
+Safety wasassessed byadverse events (AEs).
 Results: The mean age was around 60 years, and > 80 % were females. Both TD0015 treat ment groups signiﬁcan tly
-im proved the WOMAC, VAS, Lequesne score, heel-but tock distan ce, and knee ﬂexion and exten sion during the
-treat ment period. At the 90-day follow-up, the mean percen tage im provement in WOMAC scores was 74.5 % ±
-13.4 %, 83.9 % ± 14.8 %, and 7.4 % ± 31.5 % in the TD0015 5 g, TD0015 7.5 g, and placebo groups, respec tively,
+im provedthe WOMAC, VAS, Lequesne score, heel-but tock distan ce, and knee ﬂexion an dexten sion duringthe
+treat ment period. At the 90-day follow-up, themean percen tage im provemen tin WOMAC scores was 74.5 % ±
+13.4 %, 83.9 % ± 14.8 %, and 7.4 % ± 31.5 % in the TD0015 5 g, TD0015 7.5 g, andplacebo groups, respec tively,
 which corresponds to a 67.1 % (95 % CI: 56.3–77.9) and 76.5 % (95 % CI: 65.6–87.4) im provement in the TD0015
-5 g and TD0015 7.5 g groups, com pared to placebo. No AEs were reported in any group.
+5 g and TD0015 7.5 g groups, com pared top lacebo. No AEswere reported inany group.
 Con clusions: The Viet namese herbal medicine TD0015 is safe, eﬃcacious, and well-tolerated in treating KOA.
-Further studies are required to conﬁrm the long-term eﬃcacy and safety of TD0015.
+Further studies arerequired to conﬁrm the long-term eﬃcacy and safety of TD0015.
 Trial registration: Clinical Trials. gov, NCT06657495.
 1. In troduc tion
 Knee osteoarthritis (KOA) is a prevalent degenerative joint disease
-charac terized by pain, swelling, stiﬀness, and fun ctional im pairment. 1
-With the global aging population and rising obesity rates, the preva-
-len ce of KOA is in creasing, posing a signiﬁcant burden on in dividuals
-and healthcare systems. 2-4 KOA is a leading cause of disability and a
-substan tial source of societal costs, particularly among older adults, as
-highlighted by the 2019 Global Burden of Disease Study. 5 This con di-
-tion signiﬁcan tly diminishes quality of life and con tributes substan tially
-to healthcare expen ditures. 2-4
-∗ Correspon ding aut hor at: University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang, Ward 11, District 5, Ho Chi Minh City, Viet nam.
+charac terized bypain, swelling, stiﬀness, an dfun ctional im pairment. 1
+Withthe global aging population an drisin gobesity rates, the preva-
+len ceof KOA isin creasing, posing a signiﬁcant burden onin dividuals
+an dhealthcare systems. 2-4 KOA is a leadin gcause ofdisability and a
+substan tial source ofsocietal costs, particularly amon golder adults, as
+highlighted byt he 2019 Global Burdenof Disease Study. 5 This con di-
+tion signiﬁcan tly diminishes quality oflife an dcon tributes substan tially
+tohealthcare expen ditures. 2-4
+∗ Correspon din gaut hor at: Universityof Medicineand Pharmacyat Ho Chi Minh City, 217 Hong Bang, Ward 11, District 5, Ho Chi Minh City, Viet nam.
 E-mail address: nguyen lam vuong@ump. edu. vn (N. L. Vuong) .
 1 These aut hors con tributed equally as co-ﬁrst aut hors.
-The com plex pat hogenesis of KOA in volves a multifaceted in terplay
-of fac tors, in cluding inﬂam mation, oxidative stress, apop tosis, and al-
+Thecom plex pat hogenesisof KOA in volves a multifaceted in terplay
+offac tors, in cluding inﬂam mation, oxidative stress, apop tosis, and al-
 tered energy metabolism. 6 Current treat ment strategies, such as non-
 steroidal an ti-inﬂam matory drugs (NSAIDs), analgesics, and corticos-
-teroids, primarily target sym ptom management but often have lim-
-itations, in cluding poten tial adverse eﬀects, such as gastroin testinal
-and cardiovascular disorders, particularly with long-term use, and lim-
-ited capacity to modify disease progression. 7 , 8 While in tra-articular
+teroids, primarily target sym ptom management butoften have lim-
+itations, in cluding poten tial adverse eﬀects, suc has gastroin testinal
+an dcardiovascular disorders, particularly with long-term use, and lim-
+ited capacity tomodify disease progression. 7 , 8 While in tra-articular
 corticosteroid in jec tions can provide short-term pain relief, con cerns
-exist regarding their long-term im pact on joint health, in cluding the
+exist regardingtheir long-term im pact on joint health, in cludingthe
 https://doi. org/10.1016/j. imr.2025.101143
 Received 27 Novem ber 2024; Received in revised form 7 March 2025; Ac cep ted 31 March 2025
 Available on line 31 March 2025
-2213-4220/© 2025 Korea In stitute of Orien tal Medicine. Published by Elsevier B. V. This is an open ac cess artic le un der the CC BY-NC-ND licen se
+2213-4220/© 2025 Korea In stituteof Orien tal Medicine. Publishedby Elsevier B. V. This isan open ac cess artic le un derthe CC BY-NC-ND licen se
 ( http://creativecom mons. org/licen ses/by-nc-nd/4.0/ )
 
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-poten tial for ac celerated KOA progression, subchon dral in suﬃcien cy
-frac ture, com plications of osteonec rosis, and rapid joint destruc tion. 9
-These limitations un derscore the urgent need for more eﬀec tive and
-safer KOA treat ments. Traditional medicine, with its long history of
-use and poten tially fewer side eﬀects, oﬀers a promising avenue for
-addressing this un met need. 10 , 11 Furthermore, herbal therapies have
+poten tial forac celerated KOAp rogression, subchon dral in suﬃcien cy
+frac ture, com plications ofosteonec rosis, an drapid joint destruc tion. 9
+These limitations un derscore theurgent need formore eﬀec tive and
+safer KOAt reat ments. Traditional medicine, wit hits lon ghistory ofuse an dpoten tially fewer side eﬀects, oﬀers a promisin gavenue for
+addressingthis un met need. 10 , 11 Furthermore, herbal therapies have
 demonstrated poten tial in slowing KOA progression through various
 mec hanisms. 12
 Duhuo Jisheng decoc tion (DJD), a well-known traditional Chinese
-medicine formula com prising 15 herbs, has demonstrated eﬃcacy in
-osteoarthritis (OA) treat ment. 13 Its use in treating KOA has been docu-
+medicine formula com prising 15 herbs, hasdemonstrated eﬃcacy in
+osteoarthritis (OA) treat ment. 13 It suse in treating KOA hasbeen docu-
 men ted in various coun tries, in cluding Viet nam. 14 However, preparing
-DJD using the classical formulation requires traditional medicine prac-
-titioners, limiting its broader ap plicability. TD0015 was developed from
-the DJD formulation as a com mercially available drug, rep resen ting an
-im provement on the classical preparation and broadening its poten tial
+DJDusingthe classical formulation requires traditional medicine prac-
+titioners, limitin gits broader ap plicability. TD0015 wasdeveloped from
+the DJDformulation as a com mercially available drug, rep resen tin gan
+im provement on the classical preparation andbroadenin gits poten tial
 use. Prec linical studies have shown promising an ti-inﬂam matory and
-analgesic eﬀects of TD0015. 15-17 This phase II clinical trial was there-
-fore designed to evaluate the safety and op timal dosage of TD0015 in
+analgesic eﬀects of TD0015. 15-17 This phase IIc linical trial was there-
+fore designed toevaluate thesafety an dop timal dosage of TD0015 in
 patients with KOA.
 2. Met hods
 2.1. Study design
 This was a double-blind ran domized, placebo-con trolled phase-II
-trial to assess the safety and op timal dose of oral TD0015 in adults with
-KOA. The trial was con duc ted at the National Hospital of Traditional
-Medicine (Hanoi, Viet nam) bet ween March and June 2022. Et hical ap-
-proval was obtained from the Ministry of Health et hics com mit tee (No.
+trial toassess thesafety an dop timal dose oforal TD0015 in adults with
+KOA. Thet rial wascon duc ted at the National Hospitalof Traditional
+Medicine (Hanoi, Viet nam) bet ween Marchand June 2022. Et hical ap-
+proval wasobtained from the Ministryof Healthet hics com mit tee (No.
 107/CN–HDDD, dated July 19, 2021). Writ ten in formed con sent was
-obtained from all participants. The trial adhered to the Dec laration of
-Helsin ki and Good Clinical Prac tice guidelines and was registered at
-Clinical Trials. gov (NCT06657495). For the reporting of the trial, we re-
-ferred to the Con solidated Stan dards of Reporting Trials (CON SORT)
+obtained from allparticipants. Thet rial adhered tot he Dec laration of
+Helsin kiand Good Clinical Prac tice guidelines an dwas registered at
+Clinical Trials. gov (NCT06657495). Forthe reportin gofthe trial, we re-
+ferred tot he Con solidated Stan dardsof Reporting Trials (CON SORT)
 2010 statement (Sup plement 1).
 2.2. Patients
-The study en rolled men and women aged 18 years or above with
-a conﬁrmed diagnosis of KOA ac cording to the American College of
-Rheumatology Clinical classiﬁcation criteria for knee osteoarthritis, ex-
-perien cing knee joint pain, 18 and with a Kellgren and Lawren ce grade
+Thestudy en rolled menand women aged 18 years or above wit ha conﬁrmed diagnosisof KOA ac cordin gtot he American College of
+Rheumatology Clinical classiﬁcation criteria forknee osteoarthritis, ex-
+perien cingknee joint pain, 18 and with a Kellgrenand Lawren ce grade
 below 4. 19 , 20 Patients with Kellgren-Lawren ce grade 4 were excluded
-because non-operative treat ments are often ineﬀec tive at this stage, and
-surgical in terven tion is typically required. Exclusion criteria in cluded:
-(i) con train dication to NSAIDS; (ii) known allergy or in toleran ce to any
-of the product in gredient; (iii) pregnan cy or breastfeeding; (iv) plan ned
-surgery wit hin six months of screening; (v) con comitant severe in fec-
-tions, malignant diseases, coagulation disorders, or un con trolled or un-
-manageable systemic diseases; (vi) presen ce of ot her types of arthritis
-besides OA; (vii) in tra-articular in jec tion of hyaluronic acid or corticos-
-teroid in the preceding two months; and (viii) inability to com ply with
-study procedures or en suring com plian ce with study drug administra-
-tion as assessed by in vestigators.
+because non-operative treat ments areoften ineﬀec tive at this stage, and
+surgical in terven tion istypically required. Exclusion criteria in cluded:
+(i) con train dication to NSAIDS; (ii) known allergy orin toleran ce toany
+ofthe product in gredient; (iii) pregnan cy orbreastfeeding; (iv) plan ned
+surgery wit hin sixmonths ofscreening; (v) con comitant severe in fec-
+tions, malignant diseases, coagulation disorders, orun con trolled or un-
+manageable systemic diseases; (vi) presen ce ofot her types ofarthritis
+besides OA; (vii) in tra-articular in jec tion ofhyaluronicacid or corticos-
+teroid in the precedingtwo months; and (viii) inability tocom ply withstudy procedures oren suring com plian ce withstudy drug administra-
+tion asassessed byin vestigators.
 2.3. In vestigational product
-TD0015, based on the DJD formulation, was developed as a 5 g
-and 7.5 g oral dosage form. Each pill con tained a ﬁne powder of 22
-herbal in gredients extrac ted using water as the solvent (Sup plement 2).
-Both TD0015 and the placebo were manufac tured ac cording to Good
-Manufac turing Prac tice (GMP) stan dards by the Sao Thai Duong Joint
-Stock Com pany (Sun star JSC), a com pany with 25 years of experien ce
-in herbal product manufac turing. The two products were iden tical in
-ap pearan ce (color, shape, size, and smell) to en sure blin ding.
-2.4. Ran domization and in terven tion
+TD0015, based on the DJDformulation, wasdeveloped as a 5 gand 7.5 g oral dosage form. Eac hpill con tained a ﬁne powder of 22
+herbal in gredients extrac ted usin gwater asthe solvent (Sup plement 2).
+Both TD0015 andthe placebo were manufac tured ac cordin gto Good
+Manufac turing Prac tice (GMP) stan dards byt he Sao Thai Duong Joint
+Stock Com pany (Sun star JSC), a com pany with 25 years ofexperien ce
+in herbal product manufac turing. Thet wo products were iden tical in
+ap pearan ce (color, shape, size, and smell) toen sure blin ding.
+2.4. Ran domization an din terven tion
 Eligible participants were ran dom ly assigned in a 1:1:1 ratio to re-
-ceive TD0015 5 g, TD0015 7.5 g, or placebo. The dose selec tion for
-TD0015 was based on prec linical studies in mice. 15-17 Block ran domiza-
-tion with a block size of six was generated using the PROC PLAN state-
-ment in SAS version 9.4. Ran domization codes were placed in sequen-
-tially num bered, sealed en velopes. Treat ment allocation was known
-on ly to one study team mem ber respon sible for generating the ran-
-domization sequen ce un til the database was loc ked on June 24, 2023.
-All participants, out come assessors, and ot her study person nel were
-blin ded to treat ment assignment. Participants were allocated to treat-
-ment groups sequen tially and received eit her TD0015 5 g, TD0015 7.5 g,
-or placebo one pill twice daily for 60 days (total of 120 pills).
+ceive TD0015 5 g, TD0015 7.5 g, orplacebo. Thedose selec tion for
+TD0015 wasbased on prec linical studies in mice. 15-17 Block ran domiza-
+tion with a bloc ksize ofsix wasgenerated usingthe PROC PLAN state-
+men tin SASversion 9.4. Ran domization codes were placed in sequen-
+tially num bered, sealed en velopes. Treat ment allocation wasknown
+on ly toone study team mem ber respon sible forgeneratingthe ran-
+domization sequen ce un til thedatabase wasloc kedon June 24, 2023.
+Allparticipants, out come assessors, an dot her study person nel were
+blin ded tot reat ment assignment. Participants were allocated to treat-
+ment groups sequen tially an dreceived eit her TD0015 5 g, TD0015 7.5 g,
+orplacebo onepill twice daily for 60 days (total of 120 pills).
 2.5. Assessments
 Assessments were con duc ted at baseline (T0), 15, 30, 45, and 60
 days post-ran domization (T1, T2, T3, and T4 respec tively), and a 90-
 day follow-up (T5). Clinical assessments in cluded physical examina-
-tions, the Western On tario and Mc Master Universities Osteoarthritis in-
-dex (WOMAC), Lequesne in dex, knee ran ge of motion, and Visual Ana-
-logue Scale (VAS) for pain in ten sity. Laboratory tests, in cluding blood
-chemistry and hematology, were performed at baseline (T0) and at the
-end of treat ment (T4). Baseline X-ray and ultrasound imaging were con-
-duc ted to conﬁrm and assess the severity of KOA.
+tions, the Western On tarioand Mc Master Universities Osteoarthritis in-
+dex (WOMAC), Lequesne in dex, knee ran ge ofmotion, and Visual Ana-
+logue Scale (VAS) forpain in ten sity. Laboratory tests, in cludingblood
+chemistry an dhematology, were performed at baseline (T0) and at the
+en dof treat ment (T4). Baseline X-ray an dultrasound imagin gwere con-
+duc ted to conﬁrm an dassess theseverity of KOA.
 2.6. Out comes
-The primary eﬃcacy en dpoint was the chan ge in WOMAC score from
-baseline to the end of treat ment (T4) and the 90-day follow-up (T5).
+Thep rimary eﬃcacy en dpoint wasthe chan gein WOMAC score from
+baseline tot he en dof treat ment (T4) and the 90-day follow-up (T5).
 The WOMAC is a widely used self-administered question naire in pa-
 tients with OA. It con sists of 24 items divided in to three subscales: pain
-(5 items), stiﬀness (2 items), and physical fun ction (17 items). 21 The
-score ran ges from 0 to 96, with higher scores in dicating greater symp-
-tom severity and fun ctional im pairment.
-Secon dary eﬃcacy en dpoints in cluded the VAS for pain in ten sity,
-Lequen se in dex score for overall disease severity, heel-but tock distan ce,
-and knee ﬂexion and exten sion ran ge of motion to evaluate fun ctional
+(5 items), stiﬀness (2 items), andphysical fun ction (17 items). 21 The
+score ran ges from 0 to 96, wit hhigher scores in dicatinggreater symp-
+tom severity an dfun ctional im pairment.
+Secon dary eﬃcacy en dpoints in cludedthe VASfor pain in ten sity,
+Lequen se in dex score foroverall disease severity, heel-but tock distan ce,
+and knee ﬂexion an dexten sion ran ge ofmotion toevaluate fun ctional
 limitations. The VAS is a 10-cm visual analog scale, with higher scores
-in dicating greater pain in ten sity (0 rep resents no pain, and 10 rep resents
-worst pain imaginable). The Lequesne in dex is an 11-item question naire
-divided in to three sec tions: pain or discom fort (5 items), maximum dis-
-tan ce walked (2 items), and ac tivities of daily living (4 items). The score
+in dicatinggreater pain in ten sity (0 rep resents no pain, and 10 rep resents
+worst pain imaginable). The Lequesne in dex isan 11-item question naire
+divided in to three sec tions: pain ordiscom fort (5 items), maximum dis-
+tan ce walked (2 items), an dac tivities ofdaily living (4 items). The score
 ran ges from 0 (no pain, no disability) to 24 (maximum pain and disabil-
-ity). 22 Heel-but tock distan ce and knee ran ge of motion are objec tive
-measures by study physicians. Im provement rates for each eﬃcacy end-
-point were calculated as the percen tage chan ge from baseline to T4 and
-T5, except for the knee exten sion which was the absolute chan ge.
-For all the primary and secon dary eﬃcacy en dpoints, except for the
-knee exten sion, the percen tage chan ge was calculated for each in divid-
-ual patient as follows: Percen tage chan ge at T4 or T5 = (Score at T4 or
+ity). 22 Heel-but tock distan ce andknee ran ge ofmotion areobjec tive
+measures bystudy physicians. Im provement rates foreach eﬃcacy end-
+point were calculated asthe percen tage chan ge from baseline to T4 and
+T5, except forthe knee exten sion whic hwas theabsolute chan ge.
+Forall thep rimary an dsecon dary eﬃcacy en dpoints, except for the
+knee exten sion, thepercen tage chan ge wascalculated foreach in divid-
+ualpatient asfollows: Percen tage chan ge at T4 or T5 = (Score at T4 or
 T5 – Score at T0) / Score at T0 ∗ 100 %.
-Safety was assessed by monitoring adverse events (AEs), serious ad-
-verse events (SAEs), and routine laboratory tests, in cluding com plete
-blood count and blood chemistry (hepatic and renal fun ctions tests, and
+Safety wasassessed bymonitorin gadverse events (AEs), serious ad-
+verse events (SAEs), an droutine laboratory tests, in cludin gcom plete
+blood count andblood chemistry (hepatic an drenal fun ctions tests, and
 glucose tests). Con comitant medications were recorded throughout the
 study period.
 2.7. Statistical analysis
-As this is the ﬁrst study to explore the eﬃcacy and safety of TD0015
-on patients with KOA, we decided to rec ruit a con venient sam ple of
-30 participants in each treat ment group. Con sidering a dropout rate of
-15 %, we rec ruited 36 patients for each group.
+As this is the ﬁrst study toexplore the eﬃcacy and safety of TD0015
+on patients with KOA, wedecided torec ruit a con venient sam ple of
+30 participants ineach treat ment group. Con sidering a dropout rate of
+15 %, werec ruited 36 patients foreachgroup.
 2
 
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-All eﬃcacy analyses were performed on an in ten tion-to-treat (ITT)
-basis, in cluding all ran domized patients regardless of their protocol ad-
-heren ce and con tinued participation in the study. Patients were ana-
-lyzed ac cording to their ran domized group. Safety analyses were on an
-as-treated basis, in cluding all patients who received at least one dose of
-the study drugs. Patients were analyzed ac cording to their ac tual treat-
+All eﬃcacy analyses were performed onan in ten tion-to-treat (ITT)
+basis, in cludin gall ran domized patients regardless oftheir protocol ad-
+heren ce an dcon tinued participation in the study. Patients were ana-
+lyzed ac cordin gto their ran domized group. Safety analyses were onan
+as-treated basis, in cludin gall patients whoreceived at least onedose ofthe study drugs. Patients were analyzed ac cordin gto their ac tual treat-
 ment group.
-Con tinuous data with a normal distribution, in cluding all the eﬃ-
-cacy en dpoints, were sum marized using mean and stan dard deviation.
-Non-normally distributed con tinuous data, such as laboratory parame-
-ters, were sum marized using median and in terquartile ran ge (25th, 75th
+Con tinuous data with a normal distribution, in cludin gall the eﬃ-
+cacy en dpoints, were sum marized usin gmean andstan dard deviation.
+Non-normally distributed con tinuous data, suc has laboratory parame-
+ters, were sum marized usin gmedian an din terquartile ran ge (25th, 75th
 percen tiles). Categorical data were sum marized using frequen cies and
 percen tages.
-Kruskal-Wallis test was used to assess overall diﬀeren ces in the
-chan ge from baseline to T4 or T5 for each en dpoint. Where signiﬁ-
+Kruskal-Wallis test wasused toassess overall diﬀeren ces in the
+chan ge from baseline to T4 or T5 foreac hen dpoint. Where signiﬁ-
 cant diﬀeren ces were iden tiﬁed, Dunn’s non-paramet ric all-pairs test
-was used for post-hoc pairwise com parisons. In addition, linear regres-
-sion models were used to further assess the chan ge from baseline to T4
-or T5 for each en dpoint. The models in cluded treat ment group (TD0015
-5 g, TD0015 7.5 g, or placebo) as the sole in depen dent variable. Mean
+was used for post-hoc pairwise com parisons. Inaddition, linear regres-
+sion models were used tofurther assess thec han ge from baseline to T4
+or T5 foreac hen dpoint. Themodels in cluded treat ment group (TD0015
+5 g, TD0015 7.5 g, orplacebo) asthe sole in depen dent variable. Mean
 diﬀeren ces (MDs) and 95 % conﬁden ce in tervals (CIs) were calculated
-for pairwise com parisons bet ween each TD0015 group and placebo, and
-bet ween the two TD0015 groups. Linear regression was selec ted to facil-
+forpairwise com parisons bet ween each TD0015 groupand placebo, and
+bet ween thet wo TD0015 groups. Linear regression wasselec ted to facil-
 itate pairwise com parisons, estimate eﬀect sizes using mean diﬀeren ces,
-and because of its ease of in terpretation.
+an dbecause ofits ease ofin terpretation.
 For non-normally distributed con tinuous variables, such as labora-
-tory parameters, the Kruskal-Wallis test was used to com pare diﬀeren ces
-bet ween groups. Fisher’s exact test was used to com pare categorical vari-
-ables, in cluding safety en dpoints. All statistical tests were two-sided. To
-ac count for multip le com parisons, statistical signiﬁcan ce was deﬁned as
+tory parameters, the Kruskal-Wallis test wasused tocom pare diﬀeren ces
+bet ween groups. Fisher’s exact test wasused tocom pare categorical vari-
+ables, in cludin gsafety en dpoints. Allstatistical tests were two-sided. To
+ac count formultip le com parisons, statistical signiﬁcan ce was deﬁned as
 a p-value < 0.01.
-There were missing data on the en dpoints due to discon tinuation of
-the study. We therefore performed a sen sitivity analysis with im putation
-using the last observation carried forward (LOCF) met hod for the eﬃ-
-cacy en dpoints. This ap proach was chosen because the primary reason
-for dropout was loss to follow-up (presumed missing at ran dom), and
-a smaller proportion of patients discon tinued due to perceived lack of
-im provement. LOCF assumes that patients who were lost to follow-up
+There were missin gdata on the en dpoints dueto discon tinuation ofthe study. Wet herefore performed a sen sitivity analysis with im putation
+usingthe last observation carried forward (LOCF) met hod forthe eﬃ-
+cacy en dpoints. This ap proac hwas chosen because thep rimary reason
+fordropout wasloss to follow-up (presumed missin gat ran dom), and
+a smaller proportion ofpatients discon tinued dueto perceived lac kof
+im provement. LOC Fassumes that patients whowere lost to follow-up
 would have main tained their last observed value, which is a con serva-
-tive assum ption in the con text of an in terven tion aimed at im proving
-sym ptoms. All the analyses were done using statistical software R ver-
+tive assum ption in the con text ofan in terven tion aimed atim proving
+sym ptoms. Allthe analyses were done using statistical software R ver-
 sion 4.1.0.
 3. Results
-Participant en rollment began on March 21, 2022 and con cluded on
+Participant en rollment beganon March 21, 2022 an dcon cluded on
 June 23, 2022. Participants at ten ded clinic visits at baseline (ran dom-
-ization), at 15-day in tervals for 60 days during the treat ment period, and
+ization), at 15-day in tervals for 60 days duringthe treat ment period, and
 at a ﬁnal follow-up visit 90 days after ran domization. The last follow-up
-visit for the ﬁnal participant oc curred on Sep tem ber 24, 2022. Bet ween
+visit for the ﬁnal participant oc curredon Sep tem ber 24, 2022. Bet ween
 March and June 2022, 123 patients were screened, of whom 108 were
-eligible for ran domization. Thirty-six patients were ran dom ly assigned
-to each treat ment group: placebo, TD0015 5 g, and TD0015 7.5 g. A total
+eligible forran domization. Thirty-six patients were ran dom ly assigned
+toeach treat ment group: placebo, TD0015 5 g, and TD0015 7.5 g. A total
 of 17 patients discon tinued participation in the study: 8 in the placebo
 group, 4 in the TD0015 5 g group, and 5 in the TD0015 7.5 g group.
-The primary reason for dropout was loss to follow-up (13/17 patients),
-where in vestigators were unable to con tact the participants. Four pa-
+Thep rimary reason fordropout wasloss to follow-up (13/17 patients),
+where in vestigators were unable tocon tact theparticipants. Four pa-
 tients (2 in the placebo group, 1 in the TD0015 5 g group, and 1 in the
-TD0015 7.5 g group) withdrew due to perceived lack of im provement.
-All ran domized patients were in cluded in the ITT analysis ( Fig. 1 ).
-Baseline demograp hic and clinical charac teristics were balan ced
-among the three groups ( Table 1 ). The mean age of patients in the
+TD0015 7.5 g group) withdrewdue toperceived lac kof im provement.
+Allran domized patients were in cluded in the IT Tanalysis ( Fig. 1 ).
+Baseline demograp hicand clinical charac teristics were balan ced
+among the three groups ( Table 1 ). Themean ageofpatients in the
 placebo, TD0015 5 g, and TD0015 7.5 g groups was 61.8, 61.9 and 57.9
-years, respec tively. The majority of patients in all groups were female
-(83.3 %, 80.6 %, and 86.1 %, respec tively). Sym ptoms, in cluding pain
-and limited ran ge of motion, were present in both knees for 44.4 %,
-30.6 %, and 33.3 % of patients, respec tively. For analysis, the knee with
-more severe sym ptoms was selec ted, with the right knee being more
+years, respec tively. Themajority ofpatients inall groups were female
+(83.3 %, 80.6 %, and 86.1 %, respec tively). Sym ptoms, in cludin gpain
+an dlimited ran ge ofmotion, were present in bothknees for 44.4 %,
+30.6 %, and 33.3 % ofpatients, respec tively. Foranalysis, theknee wit hmore severe sym ptoms wasselec ted, with the right knee being more
 com mon. Most patients were categorized as Kellgren-Lawren ce grade 2.
-All eﬃcacy en dpoints were non-signiﬁcan tly diﬀerent bet ween the three
+All eﬃcacy en dpoints were non-signiﬁcan tly diﬀerent bet ween thet hree
 groups at baseline.
-The mean num ber of study drug pills used was similar ac ross all
+Themean num ber ofstudy drugpills used wassimilar ac ross all
 three groups: 111 in the placebo group, 115 in the TD0015 5 g group,
-and 115 in the TD0015 7.5 g group. One patient in the placebo group,
-two patients in the TD0015 5 g group, and no patients in the TD0015
+and 115 in the TD0015 7.5 g group. Onepatient in the placebo group,
+twopatients in the TD0015 5 g group, and no patients in the TD0015
 7.5 g group required rescue medication (NSAIDs) (Sup plemen tary Table
 S1).
-Fig. 2 illustrates the progression of all eﬃcacy en dpoints over time.
+Fig. 2 illustrates thep rogression ofall eﬃcacy en dpoints over time.
 Both TD0015 treat ment groups (5 g and 7.5 g) demonstrated greater
-im provements in WOMAC, VAS, Lequesne scores, and heel-but tock dis-
-tan ce com pared to the placebo group. Additionally, the higher-dose
+im provemen tsin WOMAC, VAS, Lequesne scores, and heel-but tock dis-
+tan ce com pared tot he placebo group. Additionally, the higher-dose
 TD0015 group showed a slightly bet ter im provement than the lower-
-dose group. Regarding knee ﬂexion and exten sion, both treat ment
-groups im proved com pared to the placebo group, with similar eﬀects
-bet ween the two TD0015 doses.
-Tables 2 and 3 present the im provement rates (percen tage chan ge
-from baseline) for the primary and secon dary eﬃcacy en dpoints. Both
+dose group. Regardingknee ﬂexion an dexten sion, both treat ment
+groups im proved com pared tot he placebo group, wit hsimilar eﬀects
+bet ween thet wo TD0015 doses.
+Tables 2 and 3 present theim provement rates (percen tage chan ge
+from baseline) forthe primary an dsecon dary eﬃcacy en dpoints. Both
 TD0015 treat ment groups demonstrated signiﬁcant im provements in
 WOMAC, VAS, Lequesne scores, heel-but tock distan ce, and knee ﬂex-
-ion and exten sion at both T4 and T5 com pared to placebo. At T5, the
-mean percen tage im provement in WOMAC scores was 74.5 % ± 13.4 %
+ionand exten sion at both T4 and T5 com pared top lacebo. At T5, the
+mean percen tage im provemen tin WOMAC scores was 74.5 % ± 13.4 %
 in the TD0015 5 g group, 83.9 % ± 14.8 % in the TD0015 7.5 g group,
 and 7.4 % ± 31.5 % in the placebo group. This corresponds to a 67.1 %
 (95 % CI: 56.3–77.9) and 76.5 % (95 % CI: 65.6–87.4) im provement
 in the TD0015 5 g and TD0015 7.5 g groups, respec tively, com pared
-to placebo. Similar trends were observed for WOMAC at T4, and VAS
-and Lequesne scores at both T4 and T5. While the im provements in heel-
-but tock distan ce and knee ﬂexion/exten sion were smaller in magnitude,
+top lacebo. Similar trends were observedfor WOMACat T4, and VAS
+and Lequesne scores at both T4 and T5. While theim provements in heel-
+but toc kdistan ce andknee ﬂexion/exten sion were smaller in magnitude,
 they were still statistically signiﬁcant in both TD0015 groups. Sen sitiv-
-ity analysis using last observation carried forward im putation conﬁrmed
-the primary ﬁndings, although the magnitude of the diﬀeren ces bet ween
-the two TD0015 groups was slightly reduced (Sup plemen tary Table S1,
+ityanalysis usin glast observation carried forward im putation conﬁrmed
+thep rimary ﬁndings, although themagnitude ofthe diﬀeren ces bet ween
+the two TD0015 groups wasslightly reduced (Sup plemen tary Table S1,
 Table S2).
 In the primary analysis, the higher-dose TD0015 group showed a
-slightly greater im provement in WOMAC, VAS, Lequesne score, heel-
-but tock distan ce, and knee ﬂexion and exten sion com pared to the lower-
-dose group at T4 and T5. However, this diﬀeren ce was not statistically
+slightly greater im provemen tin WOMAC, VAS, Lequesne score, heel-
+but toc kdistan ce, and knee ﬂexion an dexten sion com pared tot he lower-
+dose group at T4 and T5. However, this diﬀeren ce wasnot statistically
 signiﬁcant in the sen sitivity analysis using LOCF im putation (Sup ple-
 men tary Table S1, Table S2).
-No AEs or SAEs were reported in any of the treat ment groups.
-Routine laboratory tests, in cluding hematology and blood chemistry,
+No AEsor SAEs were reported inany ofthe treat ment groups.
+Routine laboratory tests, in cluding hematology andblood chemistry,
 showed no signiﬁcant abnormalities or treat ment-related adverse eﬀects
 (Sup plemen tary Table S2, Figure S1, Table S3).
 4. Discussion
 This prospec tive, ran domized, double-blind, placebo-con trolled trial
-demonstrated the safety and eﬃcacy of oral TD0015 in managing KOA.
+demonstrated thesafety and eﬃcacy of oral TD0015 in managing KOA.
 Over a 3-month period, both TD0015 treat ment groups showed signiﬁ-
-cant im provements in pain, stiﬀness, and physical fun ction com pared to
-the placebo group, as assessed by the WOMAC score, VAS, and Lequesne
+cant im provements in pain, stiﬀness, andphysical fun ction com pared to
+thep lacebo group, asassessed byt he WOMAC score, VAS, and Lequesne
 In dex. The higher-dose TD0015 group exhibited slightly greater im-
-provements in pain and fun ctional limitations com pared to the lower-
+provements in pain an dfun ctional limitations com pared tot he lower-
 dose group. Im portan tly, TD0015 was well-tolerated, with no AEs re-
 ported.
-Traditional medicine in Viet nam has a long history of treating
-bone disorders, in cluding OA. In traditional Chinese and Viet namese
+Traditional medicinein Viet nam has a lon ghistory oftreatin gbone disorders, in cluding OA. In traditional Chineseand Viet namese
 medicine, OA is often classiﬁed as “Bi syn drome ” or “ﬂac cidity syn-
-drome ”. 23 TD0015 was developed from DJD, which is a well-known
+drome ”. 23 TD0015 wasdeveloped from DJD, which is a well-known
 traditional Chinese medicine formula com prising 15 herbs, in clud-
 ing An gelica pubescens, Taxillus chinen sis, Gen tiana mac rop hylla, Saposh-
 nikovia divaricata, Asarum sieboldii, Ligusticum chuan xiong, An gelica sinen-
@@ -332,9 +321,9 @@ nikovia divaricata, Asarum sieboldii, Ligusticum chuan xiong, An gelica sinen-
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-Fig. 1. Flowchart of patient selec tion and follow-up. NSAIDS, non steroidal an ti-inﬂam matory drugs.
+Fig. 1. Flowchart ofpatient selec tion and follow-up. NSAIDS, non steroidal an ti-inﬂam matory drugs.
 Table 1
-Baseline clinical and demograp hic charac teristics.
+Baseline clinical an ddemograp hic charac teristics.
 Placebo
 ( N = 36)
 TD0015 5 g
@@ -361,7 +350,7 @@ Postmenopause
 23/30 (76.7)
 24/29 (82.8)
 22/31 (71.0)
-Side with pain and limited ran ge of motion
+Side wit hpain an dlimited ran ge ofmotion
 Left
 10 (27.8)
 9 (25.0)
@@ -374,7 +363,7 @@ Both sides
 16 (44.4)
 11 (30.6)
 12 (33.3)
-Side with more severe sym ptoms
+Side wit hmore severe sym ptoms
 Right
 24 (66.7)
 25 (69.4)
@@ -404,7 +393,7 @@ Grade 4
 0 (0.0)
 0 (0.0)
 0 (0.0)
-Knee joint eﬀusion on ultrasound
+Knee joint eﬀusion onultrasound
 25 (69.4)
 26 (72.2)
 29 (80.6)
@@ -432,23 +421,22 @@ Knee exten sion (degree)
 − 6.8 ± 5.5
 − 8.2 ± 3.2
 − 6.9 ± 5.2
-Sum mary statistics are mean ± stan dard deviation and n (%).
-VAS, visual analogue scale; WOMAC, Western On tario and Mc Master Universities Osteoarthritis
+Sum mary statistics aremean ± stan dard deviation and n (%).
+VAS, visual analogue scale; WOMAC, Western On tarioand Mc Master Universities Osteoarthritis
 In dex.
 4
 
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-Fig. 2. Progression of the eﬃcacy en dpoints by treat ment groups The line in side each box is the median, the up per and lower margins of each box rep resent the
-in terquartile ran ge (25th; 75th percen tiles), and the diamond in side each box is the mean of the correspon ding en dpoint. VAS, visual analogue scale; WOMAC,
-Western On tario and Mc Master Universities Osteoarthritis In dex.
+Fig. 2. Progression ofthe eﬃcacy en dpoints byt reat ment groups Theline in side eac hbox isthe median, theup per an dlower margins ofeac hbox rep resent the
+in terquartile ran ge (25th; 75th percen tiles), andthe diamond in side eac hbox isthe mean ofthe correspon din gen dpoint. VAS, visual analogue scale; WOMAC,
+Western On tarioand Mc Master Universities Osteoarthritis In dex.
 Table 2
-Percen tage chan ge of the eﬃcacy en dpoints by treat ment groups.
+Percen tage chan ge ofthe eﬃcacy en dpoints byt reat ment groups.
 Placebo
 TD0015 5 g
-TD0015 7.5 g
-n
+TD0015 7.5 gn
 Mean ± SD
 n
 Mean ± SD
@@ -458,7 +446,7 @@ Poverall
 P01
 P02
 P12
-Percen tage chan ge of WOMAC score (%)
+Percen tage chan geof WOMAC score (%)
 At T4
 28
 6.2 ± 23.6
@@ -481,7 +469,7 @@ At T5
 < 0.001
 < 0.001
 0.140
-Percen tage chan ge of VAS score (%)
+Percen tage chan geof VAS score (%)
 At T4
 28
 5.5 ± 19.9
@@ -504,7 +492,7 @@ At T5
 < 0.001
 < 0.001
 0.093
-Percen tage chan ge of Lequesne score (%)
+Percen tage chan geof Lequesne score (%)
 At T4
 28
 7.7 ± 15.4
@@ -550,7 +538,7 @@ At T5
 < 0.001
 < 0.001
 1
-Percen tage chan ge of knee ﬂexion (%)
+Percen tage chan ge ofknee ﬂexion (%)
 At T4
 28
 2.8 ± 5.4
@@ -573,7 +561,7 @@ At T5
 < 0.001
 < 0.001
 0.710
-Absolute chan ge of knee exten sion (degree)
+Absolute chan ge ofknee exten sion (degree)
 At T4
 28
 0.6 ± 3.9
@@ -596,9 +584,9 @@ At T5
 < 0.001
 0.002
 1
-Poverall values are from the Kruskal-Wallis test. P01 , P02 , and P12 values are from Dunn’s post-hoc test, rep resen ting com parisons bet ween placebo vs. TD0015 5 g,
+Poverall values arefrom the Kruskal-Wallis test. P01 , P02 , and P12 values are from Dunn’s post-hoc test, rep resen ting com parisons bet ween placebo vs. TD0015 5 g,
 placebo vs. TD0015 7.5 g, and TD0015 5 g vs. TD0015 7.5 g, respec tively.
-SD, stan dard deviation; VAS, visual analogue scale; WOMAC, Western On tario and Mc Master Universities Osteoarthritis In dex.
+SD, stan dard deviation; VAS, visual analogue scale; WOMAC, Western On tarioand Mc Master Universities Osteoarthritis In dex.
 5
 
 
@@ -606,13 +594,13 @@ N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
 Table 3
 Mean diﬀeren ces of the eﬃcacy en dpoints bet ween treat ment groups.
-At the end of treat ment (T4)
+At the en dof treat ment (T4)
 At 90-day follow-up (T5)
 MD (95 % CI)
 P
 MD (95 % CI)
 P
-Percen tage chan ge of WOMAC score (%)
+Percen tage chan geof WOMAC score (%)
 < 0.001
 < 0.001
 TD0015 5 g vs. Placebo
@@ -624,7 +612,7 @@ TD0015 7.5 g vs. Placebo
 TD0015 7.5 g vs. TD0015 5 g
 11.5 (2.5; 20.5)
 9.4 (− 1.1; 19.9)
-Percen tage chan ge of VAS score (%)
+Percen tage chan geof VAS score (%)
 < 0.001
 < 0.001
 TD0015 5 g vs. Placebo
@@ -636,7 +624,7 @@ TD0015 7.5 g vs. Placebo
 TD0015 7.5 g vs. TD0015 5 g
 14.2 (4.2; 24.3)
 16.9 (4.2; 29.5)
-Percen tage chan ge of Lequesne score (%)
+Percen tage chan geof Lequesne score (%)
 < 0.001
 < 0.001
 TD0015 5 g vs. Placebo
@@ -660,7 +648,7 @@ TD0015 7.5 g vs. Placebo
 TD0015 7.5 g vs. TD0015 5 g
 10.9 (1.0; 20.8)
 11.2 (− 2.2; 24.6)
-Percen tage chan ge of knee ﬂexion (%)
+Percen tage chan ge ofknee ﬂexion (%)
 < 0.001
 < 0.001
 TD0015 5 g vs. Placebo
@@ -672,7 +660,7 @@ TD0015 7.5 g vs. Placebo
 TD0015 7.5 g vs. TD0015 5 g
 5.9 (− 1.7; 13.4)
 5.4 (− 4.2; 15.0)
-Absolute chan ge of knee exten sion (degree)
+Absolute chan ge ofknee exten sion (degree)
 < 0.001
 < 0.001
 TD0015 5 g vs. Placebo
@@ -688,85 +676,83 @@ CI, conﬁden ce in terval; MD, mean diﬀeren ce; VAS, visual analogue scale; W
 Master Universities Osteoarthritis In dex.
 sis, Rehman nia glutinosa, Paeonia lac tiﬂora, Cin namomum cassia, Poria co-
 cos, Eucom mia ulmoides, Ac hyran thes biden tata, Panax gin seng , and Gly-
-cyrrhiza uralen sis . This formula is traditionally used to treat arthralgia,
-promoting blood circulation, and nourishing the liver and kidneys. 24
-Modern research has sup ported the traditional use of DJD. Studies have
-demonstrated its poten tial to promote chon drocyte proliferation, in hibit
-apop tosis, and regulate the expression of key inﬂam matory fac tors like
-vascular en dot helial growth fac tor (VEGF) and hypoxia-in ducible fac tor-
+cyrrhiza uralen sis . This formula istraditionally used tot reat arthralgia,
+promotingblood circulation, an dnourishingthe liver an dkidneys. 24
+Modern researchhas sup ported thet raditional useof DJD. Studies have
+demonstrated it spoten tial top romote chon drocyte proliferation, in hibit
+apop tosis, an dregulate theexpression ofkey inﬂam matory fac tors like
+vascular en dot helial growthfac tor (VEGF) and hypoxia-in ducible fac tor-
 1 𝛼(HIF-1 𝛼). 25-28 Clinical trials have demonstrated the eﬃcacy of DJD
 in managing OA sym ptoms, showing signiﬁcant im provement in total
-WOMAC scores and pain com pared to con trol groups. 13 These stud-
-ies suggest that DJD treat ment should be administered for at least four
-weeks. TD0015, a formulation based on DJD, in corporates additional
-herbs such as Plastrum Testudinis, Cortex Pheloden dri , Animal bone ex-
-tract, and Salix alba extract. These additions are believed to further en-
+WOMAC scores an dpain com pared tocon trol groups. 13 These stud-
+iessuggest that DJDtreat ment should beadministered forat least four
+weeks. TD0015, a formulation basedon DJD, in corporates additional
+herbs suc has Plastrum Testudinis, Cortex Pheloden dri , Animal bone ex-
+tract, and Salix alba extract. These additions arebelieved tofurther en-
 han ce the formula’s bone-strengthening and pain-relieving properties. 29
-Several prec linical studies have in vestigated the poten tial eﬀects
-of TD0015 in models of OA. A 2018 study com pared the eﬀects of
-oral TD0015 (1.2 g/kg and 3.6 g/kg twice daily) with oral dic lofenac
+Several prec linical studies have in vestigated thepoten tial eﬀects
+of TD0015 in models of OA. A 2018 study com pared the eﬀects oforal TD0015 (1.2 g/kg and 3.6 g/kg twice daily) wit horal dic lofenac
 (3 mg/kg twice daily) in rats with monosodium iodoacetate-in duced
-KOA over six weeks. 15 Both doses of TD0015, as well as dic lofenac,
+KOA over six weeks. 15 Both doses of TD0015, aswell asdic lofenac,
 reduced knee mobility im pairment, im proved articular cartilage struc-
-ture, and dec reased levels of the pro-inﬂam matory cytokines IL-1 𝛽and
+ture, an ddec reased levels ofthe pro-inﬂam matory cytokines IL-1 𝛽and
 TNF- 𝛼. The higher dose of TD0015 demonstrated greater analgesic, an ti-
 inﬂam matory, and an ti-degenerative eﬀects. 15 A 2022 study evaluated
 the an ti-inﬂam matory eﬀects of oral TD0015 (at the same doses) com-
-pared to oral aspirin (200 mg/kg) in rat models of carrageenan-in duced
-paw edema and peritonitis. 17 In a separate arm of this study, TD0015
-(2.4 g/kg and 7.2 g/kg twice daily) was com pared to oral met hyl-
+pared tooral aspirin (200 mg/kg) in rat models of carrageenan-in duced
+pawedema an dperitonitis. 17 In a separate armofthis study, TD0015
+(2.4 g/kg and 7.2 g/kg twice daily) wascom pared tooral met hyl-
 prednisolone (10 mg/kg) in a rat model of asbestos-in duced granu-
 loma. TD0015 demonstrated an ti-inﬂam matory eﬀects in both acute and
-chronic models. 17 Anot her 2022 study examined the analgesic ac tiv-
-ity of TD0015 com pared to oral aspirin (150 mg/kg) in three diﬀer-
-ent pain models (heat, mec hanical, and chemical). 16 TD0015 exhibited
-analgesic eﬀects in the mec hanical and chemical pain models, but not
-the heat pain model. These prec linical studies provide eviden ce of the
-an ti-inﬂam matory and analgesic properties of TD0015 and sup port its
-poten tial for the treat ment of KOA.
+chronic models. 17 Anot her 2022 study examined theanalgesic ac tiv-
+ity of TD0015 com pared tooral aspirin (150 mg/kg) in three diﬀer-
+ent pain models (heat, mec hanical, andchemical). 16 TD0015 exhibited
+analgesic eﬀects in the mec hanical andchemical pain models, but not
+the heat pain model. These prec linical studies provide eviden ce ofthe
+an ti-inﬂam matory an danalgesic properties of TD0015 an dsup port its
+poten tial forthe treat ment of KOA.
 Apart from TD0015 and DJD, numerous herbal medicines have been
-used to treat KOA, both orally and topically. A meta-analysis in volving
-2362 patients demonstrated the safety and eﬃcacy of Chinese herbal
-medicine in alleviating pain, im proving fun ction, and promoting over-
-all health in KOA patients. 30 Similarly, a systematic review of 56 high-
-quality ran domized con trolled trials in volving 5350 KOA patients pro-
-vided strong eviden ce for the safety and eﬃcacy of Chinese herbal
-medicine. 31 Traditional herbal medicine has been used in various forms
+used to treat KOA, bot horally an dtopically. A meta-analysis in volving
+2362 patients demonstrated thesafety and eﬃcacy of Chinese herbal
+medicine inalleviatin gpain, im provin gfun ction, andpromoting over-
+allhealthin KOApatients. 30 Similarly, a systematic reviewof 56 high-
+quality ran domized con trolled trials in volving 5350 KOApatients pro-
+vided stron geviden ce forthe safety and eﬃcacy of Chinese herbal
+medicine. 31 Traditional herbal medicine hasbeen used in various forms
 in the treat ment of KOA. 32 , 33 Traditional herbal medicines, in clud-
-ing those used in Viet nam, often target speciﬁc sym ptoms and mech-
-anisms of disease. For exam ple, TD0015, derived from the DJD for-
-mula, is believed to exert its therapeutic eﬀects through analgesic, an ti-
+ingthose usedin Viet nam, often target speciﬁc sym ptoms and mech-
+anisms ofdisease. Forexam ple, TD0015, derived from the DJD for-
+mula, isbelieved toexert itstherapeutic eﬀects through analgesic, an ti-
 inﬂam matory, and blood circulation-promoting properties. 15-17 The in-
-creasing global in terest in traditional medicine, particularly in Asia, re-
-ﬂects its poten tial to provide safe and eﬀec tive treat ments for chronic
-con ditions like KOA.
-This study has several limitations. Firstly, the relatively short follow-
-up period of 90 days limits our ability to assess long-term eﬃcacy and
-safety. Secon dly, the sam ple size was relatively small with a dropout rate
-of 16 %, which may have im pac ted the statistical power of the study.
-Therefore, the ﬁndings should be in terpreted with caution. A larger,
+creasingglobal in terest in traditional medicine, particularlyin Asia, re-
+ﬂects it spoten tial top rovide safe and eﬀec tive treat ments forchronic con ditions like KOA.
+This study hasseveral limitations. Firstly, therelatively short follow-
+up period of 90 days limits ourability toassess long-term eﬃcacy and
+safety. Secon dly, thesam ple size wasrelatively small with a dropout rate
+of 16 %, whic hmay have im pac ted thestatistical power ofthe study.
+Therefore, the ﬁndings should bein terpreted wit hcaution. A larger,
 lon ger-term phase III trial is needed to conﬁrm the beneﬁts of TD0015.
-Finally, the primary and secon dary out comes were primarily patient-
-reported, which may be subject to bias. However, these measures are
+Finally, thep rimary an dsecon dary out comes were primarily patient-
+reported, whic hmay besubject tobias. However, these measures are
 6
 
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-widely used in KOA research and repeated assessments over time can
+widely usedin KOAresearchand repeated assessments over time can
 mitigate poten tial bias. 7 , 8 , 31
 In con clusion, this trial phase-II ran domized con trolled trial demon-
-strated the safety and eﬃcacy of TD0015, a Viet namese herbal medicine,
+strated thesafety and eﬃcacy of TD0015, a Viet namese herbal medicine,
 in managing KOA. Both TD0015 treat ment groups showed signiﬁ-
-cant im provements in pain, stiﬀness, and physical fun ction com pared
-to placebo. The higher-dose TD0015 group exhibited slightly greater
+cant im provements in pain, stiﬀness, andphysical fun ction com pared
+top lacebo. The higher-dose TD0015 group exhibited slightly greater
 im provements in several out comes. Im portan tly, TD0015 was well-
 tolerated, with a favorable safety proﬁle. While these ﬁndings are
-promising, further larger-scale, long-term studies are needed to conﬁrm
+promising, further larger-scale, long-term studies areneeded to conﬁrm
 the long-term eﬃcacy and safety of TD0015. Additionally, further stud-
-ies, in cluding mec hanistic in vestigations, are required to elucidate the
-un derlying mec hanisms of ac tion of this herbal formulation and to eval-
-uate its poten tial as a disease-modifying osteoarthritis drug.
+ies, in cluding mec hanistic in vestigations, arerequired toelucidate the
+un derlying mec hanisms ofac tion ofthis herbal formulation an dto eval-
+uate it spoten tial as a disease-modifying osteoarthritis drug.
 CRedi T aut hor statement
 Con cep tualization: NTTH, DTN, HTVN, TTL, NTBH. Met hodology:
 NTTH, DTN, NLV, HTVN, TTL, NTBH, NTH, NKN. Formal Analysis: NLV.
@@ -775,137 +761,133 @@ NKN. Writing - Original Draft: NTTH, DTN. Writing - Review & Edit-
 ing: NLV, HTVN, TTL, NTBH, NTH, NKN. Project Administration: HTVN,
 TTL.
 Ac knowledgements
-We ac knowledge all the patients who participated in this study and
-the medical staﬀwho looked helped in their management at the National
-Hospital of Traditional Medicine (Hanoi, Viet nam).
-Dec laration of com peting in terest
-All aut hors conﬁrm that they have no conﬂict of in terest to dec lare.
+Weac knowledge allthe patients whoparticipated in this study and
+themedical staﬀwho looked helped in their management at the National
+Hospitalof Traditional Medicine (Hanoi, Viet nam).
+Dec laration ofcom petin gin terest
+Allaut hors conﬁrm that they have no conﬂict ofin terest todec lare.
 Fun ding
-This work was fun ded by the Sun star Joint Stock Com pany (Sao Thai
-Duong JSC, Hanoi, Viet nam). The fun ding body had no role in the design
-of the study, collec tion, analysis, and in terpretation of data, and writing
-the manuscript.
+This workwas fun ded byt he Sun star Joint Stock Com pany (Sao Thai
+Duong JSC, Hanoi, Viet nam). Thefun din gbody had no role in the designofthe study, collec tion, analysis, an din terpretation ofdata, andwriting
+themanuscript.
 Et hical statement
-Et hical ap proval was obtained from the Ministry of Health et hics
+Et hical ap proval wasobtained from the Ministryof Healthet hics
 com mit tee (No. 107/CN–HDDD, dated 19 July 2021). Writ ten in formed
-con sent was obtained from all participants. The trial adhered to the Dec-
-laration of Helsin ki and Good Clinical Prac tice guidelines and was reg-
+con sent wasobtained from allparticipants. Thet rial adhered tot he Dec-
+larationof Helsin kiand Good Clinical Prac tice guidelines an dwas reg-
 istered at Clinical Trials. gov (NCT06657495).
 Data availability
-The data that sup port the ﬁndings of this study are available from
-the correspon ding aut hor upon reasonable request.
+Thedata that sup port the ﬁndings ofthis study areavailable from
+thecorrespon din gaut hor upon reasonable request.
 Sup plemen tary materials
-Sup plemen tary material associated with this artic le can be found, in
-the on line version, at doi:10.1016/j. imr.2025.101143 .
-Table S1. Percen tage chan ge of the eﬃcacy en dpoints by treat ment
-groups after im putation using the last observation carried forward
+Sup plemen tary material associated withthis artic le can be found, in
+theon line version, at doi:10.1016/j. imr.2025.101143 .
+Table S1. Percen tage chan ge ofthe eﬃcacy en dpoints byt reat ment
+groups after im putation usingthe last observation carried forward
 met hod.
 Table S2. Mean diﬀeren ces of the eﬃcacy en dpoints bet ween treat-
-ment groups after im putation using the last observation carried forward
+ment groups after im putation usingthe last observation carried forward
 met hod.
 Table S3. Follow-up status, use of study drugs and rescue drugs, and
 adverse events.
-Table S4. Percen tage chan ge of routine laboratory tests after treat ments.
-Figure S1. Routine laboratory tests before and after treat ments.
+Table S4. Percen tage chan ge ofroutine laboratory tests after treat ments.
+Figure S1. Routine laboratory tests before an dafter treat ments.
 Sup plement 1. CON SORT 2010 reporting chec klist.
-Sup plement 2. Com position of herbal mixture in a TD0015 pill.
+Sup plement 2. Com position ofherbal mixture in a TD0015 pill.
 Referen ces
 1. Herrero-Beaumont G, Pé rez-Baos S, Sán chez-Pernaute O, Roman-Blas JA, Lamue-
-dra A, Largo R. Targeting chronic in nate inﬂam matory pat hways, the main road to
-preven tion of osteoarthritis progression. Bioc hem Pharmacol . 2019;165:24–32 .
+dra A, Largo R. Targetingchronicin nate inﬂam matory pat hways, the main road to
+preven tion ofosteoarthritis progression. Bioc hem Pharmacol . 2019;165:24–32 .
 2. Dulay GS, Cooper C, Den nison EM. Knee pain, knee in jury, knee osteoarthritis & work.
 Best Pract Res Clin Rheumatol . 2015;29(3):454–461 .
 3. Hun ter DJ, Bierma-Zeinstra S. Osteoarthritis. Lan cet . 2019;393(10182):1745–1759 .
 4. Vos T, Flaxman AD, Naghavi M, Lozano R, Mic haud C, Ezzati M, et al. Years lived
-with disability (YLDs) for 1160 sequelae of 289 diseases and in juries 1990-2010:
-a systematic analysis for the Global Burden of Disease Study 2010. Lan cet .
+with disability (YLDs) for 1160 sequelae of 289 diseases an din juries 1990-2010:
+a systematicanalysis forthe Global Burdenof Disease Study 2010. Lan cet .
 2012;380(9859):2163–2196 .
-5. GBD 2019 Diseases and In juries Collaborators Global burden of 369 diseases and in-
-juries in 204 coun tries and territories, 1990-2019: a systematic analysis for the Global
-Burden of Disease Study. Lan cet 2020 . 2019;396(10258):1204–1222 .
-6. Liu-Bryan R, Terkeltaub R. Emerging regulators of the inﬂam matory process in os-
+5. GBD 2019 Diseasesand In juries Collaborators Global burden of 369 diseases and in-
+juries in 204 coun tries an dterritories, 1990-2019: a systematicanalysis forthe Global
+Burdenof Disease Study. Lan cet 2020 . 2019;396(10258):1204–1222 .
+6. Liu-Bryan R, Terkeltaub R. Emerging regulators ofthe inﬂam matory process in os-
 teoarthritis. Nat Rev Rheumatol . 2015;11(1):35–44 .
 7. da Costa BR, Pereira TV, Saadat P, Rudnic ki M, Iskan der SM, Bodmer NS, et al. Ef-
-fec tiveness and safety of non-steroidal an ti-inﬂam matory drugs and opioid treat ment
-for knee and hip osteoarthritis: net work meta-analysis. Bmj . 2021;375: n2321 .
+fec tiveness an dsafety of non-steroidal an ti-inﬂam matory drugs an dopioid treat ment
+forknee an dhip osteoarthritis: net work meta-analysis. Bmj . 2021;375: n2321 .
 8. Leopoldino AO, Mac hado GC, Ferreira PH, Pin heiro MB, Day R, Mc Lac hlan AJ, et al.
-Paracetamol versus placebo for knee and hip osteoarthritis. Coc hrane Database Syst
+Paracetamol versus placebo forknee an dhip osteoarthritis. Coc hrane Database Syst
 Rev . 2019;2(2): Cd013273 .
 9. Guermazi A, Neogi T, Katz JN, Kwoh CK, Conaghan PG, Felson DT, et al. In tra-artic-
-ular corticosteroid in jec tions for the treat ment of hip and knee osteoarthritis-related
-pain: con siderations and con troversies with a focus on imaging-radiology scien tiﬁc
+ular corticosteroid in jec tions forthe treat ment ofhipand knee osteoarthritis-related
+pain: con siderations an dcon troversies with a focus on imaging-radiology scien tiﬁc
 expert panel. Radiology . 2020;297(3):503–512 .
-10. Cameron M, Chrubasik S. Oral herbal therapies for treating osteoarthritis. Coc hrane
+10. Cameron M, Chrubasik S. Oral herbal therapies fortreating osteoarthritis. Coc hrane
 Database Syst Rev . 2014;2014(5): Cd002947 .
 11. Cameron M, Gagnier JJ, Lit tle CV, Parsons TJ, Blümle A, Chrubasik S. Eviden ce of
-eﬀec tiveness of herbal medicinal products in the treat ment of arthritis. Part I: os-
+eﬀec tiveness ofherbal medicinal products in the treat ment ofarthritis. Part I: os-
 teoarthritis. Phytot her Res . 2009;23(11):1497–1515 .
-12. Wang A, Leong DJ, Cardoso L, Sun HB. Nut raceuticals and osteoarthritis pain. Phar-
+12. Wang A, Leong DJ, Cardoso L, Sun HB. Nut raceuticals an dosteoarthritis pain. Phar-
 macol Ther . 2018;187:167–179 .
-13. Zhang W, Wang S, Zhang R, Zhang Y, Li X, Lin Y, et al. Eviden ce of Chinese herbal
-medicine Duhuo Jisheng decoc tion for knee osteoarthritis: a systematic review of
-ran domised clinical trials. BMJ Open . 2016;6(1): e008973 .
-14. Hou PW, Fu PK, Hsu HC, Hsieh CL. Traditional Chinese medicine in patients with
-osteoarthritis of the knee. J Tradit Com plement Med . 2015;5(4):182–196 .
+13. Zhang W, Wang S, Zhang R, Zhang Y, Li X, Lin Y, et al. Eviden ceof Chinese herbal
+medicine Duhuo Jisheng decoc tion forknee osteoarthritis: a systematic review ofran domised clinical trials. BMJ Open . 2016;6(1): e008973 .
+14. Hou PW, Fu PK, Hsu HC, Hsieh CL. Traditional Chinese medicine in patients wit hosteoarthritis ofthe knee. J Tradit Com plement Med . 2015;5(4):182–196 .
 15. Ha NTT, Huong NTTG. Eﬀect of TD0015 on knee osteoarthritis treat ment on experi-
 men tal models. Med Res J [Viet namese] . 2018;113(4):1–9 .
-16. Ha NTT, Trang TQ, Anh PTV, Lien NTH. Analgesic ac tivity of TD0015 on experimen tal
+16. Ha NTT, Trang TQ, Anh PTV, Lien NTH. Analgesicac tivity of TD0015 onexperimen tal
 models. Med Res J [Viet namese] . 2022;157(9):90–97 .
 17. Ha NTT, Trang TQ, Anh PTV, Lien NTH. An ti-inﬂam matory eﬀect of TD0015 in ex-
 perimen tal animals. Med Res J [Viet namese] . 2022;157(9):82–89 .
-18. Altman RD. Criteria for classiﬁcation of clinical osteoarthritis. J Rheumatol Suppl .
+18. Altman RD. Criteria for classiﬁcation ofclinical osteoarthritis. J Rheumatol Suppl .
 1991;27:10–12 .
 19. Kohn MD, Sassoon AA, Fernan do ND. Classiﬁcations in brief: kellgren-Lawren ce clas-
-siﬁcation of osteoarthritis. Clin Orthop Relat Res . 2016;474(8):1886–1893 .
-20. Schip hof D, Boers M, Bierma-Zeinstra SM. Diﬀeren ces in descrip tions of Kellgren and
-Lawren ce grades of knee osteoarthritis. Ann Rheum Dis . 2008;67(7):1034–1036 .
+siﬁcation ofosteoarthritis. Clin Orthop Relat Res . 2016;474(8):1886–1893 .
+20. Schip hof D, Boers M, Bierma-Zeinstra SM. Diﬀeren ces in descrip tion sof Kellgren and
+Lawren ce grades ofknee osteoarthritis. Ann Rheum Dis . 2008;67(7):1034–1036 .
 21. Bellamy N, Buc hanan WW, Goldsmith CH, Cam pbell J, Stitt LW. Validation study
-of WOMAC: a health status instrument for measuring clinically im portant patient
-relevant out comes to an tirheumatic drug therapy in patients with osteoarthritis of
-the hip or knee. J Rheumatol . 1988;15(12):1833–1840 .
-22. Lequesne MG. The algofun ctional in dices for hip and knee osteoarthritis. J Rheumatol .
+of WOMAC: a healthstatus instrument formeasuring clinically im portant patient
+relevant out comes toan tirheumatic drugtherapy in patients with osteoarthritis ofthe hipor knee. J Rheumatol . 1988;15(12):1833–1840 .
+22. Lequesne MG. Thealgofun ctional in dices forhipand knee osteoarthritis. J Rheumatol .
 1997;24(4):779–781 .
 23. Wang X, Wei S, Liu T, Pang J, Gao N, Ding D, et al. Eﬀec tiveness, medication pat-
-terns, and adverse events of traditional chinese herbal pat ches for osteoarthritis: a
+terns, an dadverse events oftraditional chinese herbal pat ches forosteoarthritis: a
 systematic review. Evid Based Com plement Alternat Med . 2014:343176 2014 .
-24. Ma Y, Cui J, Huang M, Meng K, Zhao Y. Eﬀects of Duhuojisheng Tang and com bined
-therapies on prolap se of lum bar in tervertebral disc: a systematic review of ran dom-
+24. Ma Y, Cui J, Huang M, Meng K, Zhao Y. Eﬀects of Duhuojisheng Tan gand com bined
+therapies on prolap se oflum bar in tervertebral disc: a systematic reviewof ran dom-
 ized con trol trails. J Tradit Chin Med . 2013;33(2):145–155 .
 25. Wu G, Chen W, Fan H, Zheng C, Chu J, Lin R, et al. Duhuo Jisheng decoc tion promotes
-chon drocyte proliferation through ac celerated G1/S tran sition in osteoarthritis. Int J
+chon drocyte proliferation through ac celerated G1/S tran sition inosteoarthritis. Int J
 Mol Med . 2013;32(5):1001–1010 .
 26. Wu G, Fan H, Huang Y, Zheng C, Ye J, Liu X. Duhuo Jisheng decoc tion ‑con taining
-serum promotes proliferation of in terleukin ‑1 𝛽‑in duced chon drocytes through the
+serum promotes proliferation ofin terleukin ‑1 𝛽‑in duced chon drocytes through the
 p16 ‑cyc lin D1/CDK4 ‑Rb pat hway. Mol Med Rep . 2014;10(5):2525–2534 .
 27. Liu F, Liu G, Liang W, Ye H, Weng X, Lin P, et al. Duhuo Jisheng decoc tion treat-
-ment in hibits the sodium nit rop russiate ‑in duced apop tosis of chon drocytes through
-the mitoc hon drial ‑depen dent signaling pat hway. Int J Mol Med . 2014;34(6):1573–
+ment in hibits thesodium nit rop russiate ‑in duced apop tosis ofchon drocytes through
+themitoc hon drial ‑depen dent signalin gpat hway. Int J Mol Med . 2014;34(6):1573–
 1580 .
 28. Chen CW, Sun J, Li YM, Shen PA, Chen YQ. Ac tion mec hanisms of du-huo-ji-sheng–
-tang on cartilage degradation in a rabbit model of osteoarthritis. Evid Based Com ple-
+tang on cartilage degradation in a rabbit model ofosteoarthritis. Evid Based Com ple-
 ment Alternat Med . 2011;2011:571479 .
 7
 
 
 N. T. T. Ha, D. T. Nghia, H. T. V. Nga et al.
 In tegrative Medicine Research 14 (2025) 101143
-29. Wang X, He Y, Guo B, Tsang MC, Tu F, Dai Y, et al. In vivo screening for an ti-os-
-teoporotic frac tion from extract of herbal formula Xian lin ggubao in ovariec tomized
+29. Wang X, He Y, Guo B, Tsang MC, Tu F, Dai Y, et al. In vivo screenin gfor an ti-os-
+teoporotic frac tion from extract ofherbal formula Xian lin ggubao inovariec tomized
 mice. PLo S One . 2015;10(2): e0118184 .
 30. Chen B, Zhan H, Marszalek J, Chung M, Lin X, Zhang M, et al. Traditional Chinese
-medications for knee osteoarthritis pain: a meta-analysis of ran domized con trolled
+medications forknee osteoarthritis pain: a meta-analysis ofran domized con trolled
 trials. Am J Chin Med . 2016;44(4):677–703 .
-31. Lin Z, Zheng J, Chen M, Chen J, Lin J. The eﬃcacy and safety of Chinese
-herbal medicine in the treat ment of knee osteoarthritis: an up dated systematic re-
+31. Lin Z, Zheng J, Chen M, Chen J, Lin J. The eﬃcacy an dsafetyof Chinese
+herbal medicine in the treat ment ofknee osteoarthritis: anup dated systematic re-
 view and meta-analysis of 56 ran domized con trolled trials. Oxid Med Cell Lon gev .
 2022;2022:6887988 .
 32. Lao L, Hoc hberg M, Lee DYW, Gilpin AMK, Fong HHS, Lan gen berg P, et al.
-Huo-Luo-Xiao-Ling (HLXL)-Dan, a Traditional Chinese medicine, for patients
-with osteoarthritis of the knee: a multi-site, ran domized, double-blind, place-
-bo-con trolled phase II clinical trial. Osteoarthritis Cartilage . 2015;23(12):2102–
+Huo-Luo-Xiao-Ling (HLXL)-Dan, a Traditional Chinese medicine, forpatients
+with osteoarthritis ofthe knee: a multi-site, ran domized, double-blind, place-
+bo-con trolled phase IIc linical trial. Osteoarthritis Cartilage . 2015;23(12):2102–
 2108 .
 33. Chen R, Chen M, Su T, Zhou M, Sun J, Xiong J, et al. Heat-sen si-
-tive moxibustion in patients with osteoarthritis of the knee: a three-armed
+tive moxibustion in patients with osteoarthritis ofthe knee: a three-armed
 multicen tre ran domised ac tive con trol trial. Acupunct Med . 2015;33(4):262–
 269 .
 8

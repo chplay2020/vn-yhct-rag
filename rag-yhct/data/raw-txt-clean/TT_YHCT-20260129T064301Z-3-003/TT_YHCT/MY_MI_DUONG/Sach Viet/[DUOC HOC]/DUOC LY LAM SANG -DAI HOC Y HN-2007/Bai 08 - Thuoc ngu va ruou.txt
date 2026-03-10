@@ -34,8 +34,7 @@ NH2
 HOOC
 NH - OC
 H
-U rêacid malonic
-acid barbituric
+U rêacid malonicacid barbituric
 Vì là acid mạnh, dễ bị phân ly nên acid barbituric chưa khuếch tán được qua màng sinh học và
 chưa có tác dụng. Khi thay H ở C 5 bằng các gốc R1 và R2, được các barbiturat (là acid yếu, ít
 phân ly) có tác dụng ức chế thần kinh trung ương.
@@ -215,7 +214,7 @@ Dược lý học 2007 - đại học Y Hà nội
 - Chuyển hóa qua alcool dehydrogenase (ADH): (là con đường chính). ADH là một en zym chứa
 kĩm, có nhiều ở gan. Người ta còn tìm thấy ADH ở não và dạ dày. ADH chuyển rượu thành
 acetaldehyd với sự tham gia của NAD + (nicotinamid adenin dinuc leotid).
-- Chuyển hóa qua hệ mic rosomal et hanol oxidizing system (MEOS) khi nồng độ rượu trong máu
+- Chuyển hóa qua hệ mic rosomal et hanol oxidizin gsystem (MEOS) khi nồng độ rượu trong máu
 trên 100 mg/ d L (22 mmol/ L), rượu được chuyển hóa qua hệ MEOS. ở những người nghiện
 rượu, hoạt tính của các en zym tăng lên, làm tăng chuyển hóa của chính rượu và một số thuốc
 được
@@ -280,7 +279,7 @@ gan. Naltrexon được dùng 50 mg/ lần/ ngày.
 - Các thuốc an thần, thuốc ngủ, chống co giật, thuốc ức chế tâm thần, thuốc giảm đau loại opioid
 làm tăng tác dụng của rượu trên thần kinh trung ương.
 - Rượu làm tăng tác dụng phụ trên đường tiêu hóa như viêm, loét, chảy máu của các thuốc chống
-viêm phi steroid (aspirin...), uống rượu cùng với paracetamol làm tăng nguy cơ viêm gan.
+viêm phisteroid (aspirin...), uống rượu cùng với paracetamol làm tăng nguy cơ viêm gan.
 - Khi uống kéo dài, rượu gây cảm ứng một số en zym chuyển hóa thuốc ở mic rosom gan, làm tăng
 chuyển hóa và giảm hiệu quả điều trị của một số thuốc: sulfamid hạ đường huyết, thuốc chống
 đông máu loại cumarin, mep robamat, dip henylhydan toin, carbamazepin...

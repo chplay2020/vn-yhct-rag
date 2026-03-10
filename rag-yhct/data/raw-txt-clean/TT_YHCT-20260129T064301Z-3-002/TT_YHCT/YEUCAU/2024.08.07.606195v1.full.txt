@@ -1,107 +1,103 @@
-Vie Med KG: Knowledge Graph and Benchmark for Traditional Viet namese
+Vie Med KG: Knowledge Grap hand Benchmarkfor Traditional Viet namese
 Medicine
 Tam Trinh 1, 2, *, Anh Hoang 3, *, Hy Thi Hong Nhung 4, Truong Son Hy 1, †,
-1 University of Alabama at Birmin gham, United States
+1 Universityof Alabamaat Birmin gham, United States
 2 National Economics University, Viet nam
 3 Mic higan State University, United States
-4 Hanoi National University of Education, Viet nam
+4 Hanoi National Universityof Education, Viet nam
 * Equal con tribution
 † Correspon den ce: thy@uab. edu
 Abstract
 Traditional Viet namese Medicine (TVM) and
 Traditional Chinese Medicine (TCM) have
-shared significant similarities due to their ge-
+shared significant similarities dueto their ge-
 ograp hical location, cultural exchan ges, and
-hot and humid climatic con ditions. However,
-un like TCM, which has substan tial works pub-
-lished to construct a knowledge graph, there is
+hotand humid climatic con ditions. However,
+un like TCM, whic hhas substan tial works pub-
+lished toconstruct a knowledge graph, there is
 a notable absen ce of a com prehen sive knowl-
 edge graph for TVM. This paper presents the
-first en deavor to build a knowledge graph for
-TVM based on exten sive existing resources
-from TCM. We name our knowledge graph
-as Vie Med KG. We propose a tran slation and
-filtration process to adapt TCM knowledge
-graphs to TVM, iden tifying the overlap ping
-and unique elements of TVM. In addition,
-the construc ted knowledge graph is then ex-
-ploited further for developing a curated bench-
-mark for the knowledge graph-based question-
-an swering problem with the poten tial to sup-
-port doc tors and patients in assisting doc tors
-and patients in iden tifying various diseases.
+first en deavor tobuild a knowledge grap hfor
+TVMbased onexten sive existing resources
+from TCM. Wename ourknowledge grap has Vie Med KG. Wep ropose a tran slation and
+filtration process toadapt TCMknowledge
+graphs to TVM, iden tifyingthe overlap pin gand unique elements of TVM. Inaddition,
+theconstruc ted knowledge grap his then ex-
+ploited further fordeveloping a curated bench-
+markfor theknowledge graph-based question-
+an sweringproblem withthe poten tial to sup-
+port doc tors an dpatients inassistin gdoc tors
+an dpatients iniden tifyin gvarious diseases.
 Our work will not on ly bridge the gap be-
 tween TCM and TVM but also set the foun-
-dation for future research in to traditional Viet-
+dation forfuture researchin to traditional Viet-
 namese medicine com munity. Our source code
-is public ly available at https://git hub. com/
+ispublic ly available at https://git hub. com/
 Hy Son Lab/Vie Med KG/.
 1
 In troduc tion
 Traditional Viet namese Medicine (TVM) is a com-
-plete medical system that has been discovered and
-developed for many thousands of years. In the
-past, deep ly in fluen ced by the an cient philosop hies
+plete medical system that hasbeen discovered and
+developed formany thousands ofyears. In the
+past, deep ly in fluen ced byt he an cient philosop hies
 of Yin and Yang, the Five Elements from Tradi-
-tional Chinese Medicine, TVM has in tegrated a
-wide ran ge of elements, in cluding herbal medicine,
-massage, disease names, and met hods to cure them,
-while also preserving and in tegrating the unique
-Viet namese traditional elements and in digenous
-knowledge. Sin ce TVM has evolved throughout
-the long history of Viet namese nation and peop le,
-a systematic way such as Knowledge Graph to rep-
-resent a com prehen sive view of TVM is crucial.
-A knowledge graph can effec tively organize and
-rep resent the com plex relation ship bet ween vari-
-ous element of TVM such as diseases, sym ptoms,
-herbal medicine, the cause of disease and treat ment
+tional Chinese Medicine, TVMhas in tegrated a
+wide ran ge ofelements, in cludin gherbal medicine,
+massage, disease names, an dmet hods tocure them,
+while also preservin gand in tegratingthe unique
+Viet namese traditional elements an din digenous
+knowledge. Sin ce TVMhas evolved throughout
+thelong historyof Viet namese nation an dpeop le,
+a systematic way suc has Knowledge Grap hto rep-
+resent a com prehen sive viewof TVM iscrucial.
+A knowledge grap hcan effec tively organize and
+rep resent thecom plex relation ship bet ween vari-
+ouselemen tof TVM suc has diseases, sym ptoms,
+herbal medicine, thecause ofdisease andtreat ment
 met hods. This struc tured rep resen tation can not
-on ly help cultural preservation but also make TVM
-more ac cessible to develop future research works
-and ap plications in the domain of Viet namese tra-
+on ly helpcultural preservation butalso make TVM
+more ac cessible todevelop future researchworks
+an dap plications in the domainof Viet namese tra-
 ditional medicine.
 However, despite several advan tages, building a
-knowledge graph from a vast resources of TVM
-requires overcoming many challen ges. The knowl-
-edge of TVM is often documen ted in historical
-texts, local manuscrips or oral com munication
-which are in heren tly unstruc tured and lack of stan-
-dardardiztion. Knowledge Graphs help to prevent
-hallucination in Large Lan guage Models (LLMs)
-because they are more rigorous and struc tured.
-Therefore, processing these kind of data in to a
-knowledge graph for TVM can be time con suming
-and costly. At the same time, many works (Chen
+knowledge graphfrom a vast resourcesof TVM
+requires overcomin gmany challen ges. The knowl-
+edgeof TVM isoften documen ted in historical
+texts, local manuscrips ororal com munication
+whic hare in heren tly unstruc tured an dlac kof stan-
+dardardiztion. Knowledge Graphs helpto prevent
+hallucinationin Large Lan guage Models (LLMs)
+because they aremore rigorous andstruc tured.
+Therefore, processingthese kind ofdata in to a
+knowledge grap hfor TVMcan betime con sumin gand costly. At the same time, many works (Chen
 et al., 2023; Cheng et al., 2018; Long et al., 2019;
 Zhou et al., 2010) have been published with sig-
-nificant efforts to collect, validate, con truct and
-exploit several downstream ap plication of TCM
-in knowledge graph rep resen tation such as graph-
-based question an swering and in fomation ret rieval.
-Realizing the similarities bet ween TCM and TVM,
-we propose a met hod to leverage the existing TCM
-knowledge graph as a foun dation in order to build a
-com prehen sive knowledge graph for TVM. Our ap-
-proach in volves not on ly tran slating TCM data in to
-Viet nam ses version but also filtering and adap ting
-that data to preverse and reflect the uniqueness of
+nificant efforts tocollect, validate, con truct and
+exploit several downstream ap plicationof TCM
+in knowledge graph rep resen tation suc has graph-
+based question an swerin gand in fomation ret rieval.
+Realizingthe similarities bet ween TCMand TVM,
+wep ropose a met hod toleverage theexisting TCM
+knowledge grap has a foun dation inorder tobuild a
+com prehen sive knowledge grap hfor TVM. Our ap-
+proac hin volves noton ly tran slating TCM data in to
+Viet nam ses version butalso filterin gand adap tingthat data top reverse an dreflect theuniqueness of
 Viet namese traditional medicine. By doing so, we
-can effec tively utilize the huge amount of TCM
+caneffec tively utilize thehuge amoun tof TCM
 data already available. Furthermore, we also analy-
-sis and propose a benchmark for graph-based ques-
-tion an swering problem on our TVM knowledge
+sisand propose a benchmarkfor graph-based ques-
+tion an sweringproblem onour TVMknowledge
 1
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 DISEASE
@@ -111,329 +107,308 @@ MEDICINE
 SYM PTOM
 ASSOCIATED
 DISEASE
-Figure 1: Illustrative rep resen tation of Vie Med KG,
-showing the con nec tions among en tities
-graph. To sum up, our con tributions can be divided
-in to the following categories:
-• We in troduce a new knowledge graph
-Vie Med KG
-for
+Figure 1: Illustrative rep resen tationof Vie Med KG,
+showingthe con nec tions amon gen tities
+graph. To sum up, ourcon tributions can be divided
+in to thefollowing categories:
+• Wein troduce a newknowledge graph
+Vie Med KGfor
 Traditional
 Viet namese
-Medicine built upon the current existing
-Traditional Chinese Medicine by ap plying
-tran slation and filtration process. To the best
-of our knowledge, this is the first en deavor to
-construct a systemetic way to rep resent TVM
+Medicine built upon thecurrent existing
+Traditional Chinese Medicine byap plyingtran slation an dfiltration process. To the best
+ofour knowledge, this isthe first en deavor to
+construct a systemetic way torep resent TVM
 knowledge (see Figure 1).
-• We propose a curated benchmark for graph-
-based question an swering problem about
-TVM and further analysis some met hods on
+• Wep ropose a curated benchmarkfor graph-
+based question an sweringproblem about
+TVMand further analysis some met hods on
 Vie Med KG.
 2
 Related works
 2.1
-TCM and TVM dataset
-The availability of com prehen sive datasets is cru-
-cial for knowledge discovery in TCM. Several sig-
-nificant TCM data resources have been developed.
+TCMand TVMdataset
+Theavailability ofcom prehen sive datasets is cru-
+cial forknowledge discovery in TCM. Several sig-
+nificant TCMdata resources have been developed.
 China TCM Patent Database (CTCMPD), managed
-by the State In tellec tual Property Office of China,
+byt he State In tellec tual Property Officeof China,
 in cludes over 19,000 patents and 40,000 formulae
 (Liu and Sun, 2004). TCMBank (Lv et al., 2023),
 exten ded from TCM Database@Taiwan (Chen,
 2011), in cludes 9,192 herbs, 61,966 in gredients,
 15,179 targets, and 32,529 diseases.
-In addition, several notable efforts have been
-made to construct TCM Knowledge Graphs. Yu
-et al. (2017) construc ted the TCM health care
-knowledge graph through on tology-based database
+Inaddition, several notable efforts have been
+made toconstruct TCM Knowledge Graphs. Yu
+et al. (2017) construc tedthe TCMhealthcare
+knowledge graphthrough on tology-based database
 in tegration.
 Zheng et al. (2020) construc ted
-TCMKG by training deep learning model for
-named en tity recognition, aligning data, and creat-
-ing trip les based on the on tology. Zhang and Hao
-(2024) adop ted Large Lan guage Models for name
-en tity recognition to construct a knowledge graph
-of TCM.
-In the con text of Viet namese Medicine, several
-datasets have been developed to facilitate research
-and ap plication in this field. Viet HERB, a database
+TCMKGby trainin gdeep learnin gmodel for
+named en tity recognition, alignin gdata, and creat-
+ingtrip les based on the on tology. Zhang and Hao
+(2024) adop ted Large Lan guage Models forname
+en tity recognition toconstruct a knowledge grap hof TCM.
+In the con textof Viet namese Medicine, several
+datasets have been developed tofacilitate researchand ap plication in this field. Viet HERB, a database
 for Viet namese Herbal Species, was built in an
-on tology-based struc ture to organize the numer-
-ous hierarchical multi-class of herbs (Nguyen-Vo
+on tology-based struc ture toorganize the numer-
+oushierarchical multi-class of herbs (Nguyen-Vo
 et al., 2018). However, Nguyen-Vo et al. (2018)
-poin ted out that the limitations of obtaining data
-are poor handwriting records and unexpec ted in cor-
-rect in formation when com puterizing from hard-
+poin ted out that thelimitations ofobtainin gdata
+arepoor handwritin grecords an dunexpec ted in cor-
+rect in formation when com puterizingfrom hard-
 copied documents. Vi MQ, a Viet namese Medi-
 cal Question Dataset, con tains 9,000 questions for
-the two tasks of in tent classification and named
+thet wo tasks ofin tent classification an dnamed
 en tity recognition (Huy et al., 2021).
 Despite
-these resources, there is no benchmark for Question
+these resources, there is no benchmarkfor Question
 An swering (QA) over Knowledge Graphs (KGs)
 for Viet namese Medicine, highlighting a gap that
-needs to be addressed for further advan cement in
+needs tobe addressed forfurther advan cement in
 this field.
 2.2
 Question An swering System using
 Knowledge Graphs (KGs)
-Early efforts in Knowledge Graph Question An-
-swering (KGQA) aimed to con vert natural lan guage
-queries in to formal logical queries using deep neu-
-ral seman tic parsing such as (An dreas et al., 2016;
+Early effortsin Knowledge Graph Question An-
+swering (KGQA) aimed tocon vert natural lan guage
+queries in to formal logical queries usin gdeep neu-
+ralseman tic parsin gsuc has (An dreas et al., 2016;
 Lan et al., 2019; Yin et al., 2016). However, these
-ap proac hes struggle with com plex queries that need
-multi-hop reasoning and managing constraints on
-in com plete knowledge graphs. An alternative re-
-search ap proach to Knowledge Graph Question An-
-swering (KGQA) frames the task as a graph traver-
-sal problem, direc tly reasoning on the in put graph
-to un cover struc tural pat terns in tran sitive relations.
+ap proac hes struggle wit hcom plex queries that need
+multi-hop reasonin gand managing constraints on
+in com plete knowledge graphs. Analternative re-
+searchap proac hto Knowledge Graph Question An-
+swering (KGQA) frames thetaskas a graph traver-
+salproblem, direc tly reasonin gon thein put grap hto un cover struc tural pat terns in tran sitive relations.
 Met hods like VRN (Zhang et al., 2018), Graft Net
 (Sun et al., 2018), and Pull Net (Sun et al., 2019)
-em ploy graph neural net works and local subgraph
-searches to navigate en tities wit hin the knowledge
+em ploy grap hneural net works an dlocal subgrap hsearches tonavigate en tities wit hin theknowledge
 graph.
-Recent advan cements in in tegrating large lan-
+Recent advan cements inin tegratin glarge lan-
 guage models (LLMs) with knowledge graphs
 (KGs) have shown significant progress.
 Tech-
 niques such as REALM (Guu et al., 2020) and RAG
-(Lewis et al., 2020) have been developed to ret rieve
-documents and en han ce lan guage models using
-these documents. Furthermore, KGs can serve as a
+(Lewis et al., 2020) have been developed toret rieve
+documents an den han ce lan guage models usingthese documents. Furthermore, KGs can serve as a
 2
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 valuable & rigorous knowledge source, where in-
-formation is suc cinctly en coded, and several meth-
-ods have been proposed to in tegrate these facts
-from KGs in to lan guage models (Galet zka et al.,
+formation issuc cinctly en coded, an dseveral meth-
+odshave been proposed toin tegrate these facts
+from KGsin to lan guage models (Galet zka et al.,
 2021; Rony et al., 2022; Kang et al., 2022). Never-
 theless, these ap proac hes generally require exten-
-sive training data and frequent model up dates for
+sive trainin gdata andfrequent model up dates for
 various downstream tasks. Recent research (Izac-
 ard et al., 2024) in dicates that ret rieval-augmen ted
-lan guage models can ac hieve strong performan ce
+lan guage models canac hieve strong performan ce
 with few-shot learning. In our work, we will exper-
 iment with ret rieval-augmen ted lan guage models
 using both zero-shot and few-shot learning, wit hout
-additional training steps.
+additional trainingsteps.
 3
 Met hod
 3.1
-Knowledge Graph for Traditional
+Knowledge Grap hfor Traditional
 Viet namese Medicine (Vie Med KG)
 3.1.1
-Ac cess to Traditional Medical
+Ac cessto Traditional Medical
 Knowledge
 Both TVM and TCM share a historical foun dation
-due to Viet nam’s an nexation by China for over a
-thousand years, facilitating the tran sfer of medical
-knowledge and prac tices. Both traditions heavily
+due to Viet nam’s an nexation by China forover a
+thousand years, facilitatingthe tran sfer ofmedical
+knowledge andprac tices. Both traditions heavily
 rely on herbal remedies, but TVM adapts its phar-
-macopeia to in clude local Viet namese plants suited
-to the tropical climate, un like the tem perate-climate
-plants used in Chinese Medicine (Bui, 2019). Addi-
-tionally, TVM data collec tion faces challen ges like
-poor handwriting in historical records and errors
+macopeia toin clude local Viet namese plants suited
+tot he tropical climate, un like the tem perate-climate
+plants usedin Chinese Medicine (Bui, 2019). Addi-
+tionally, TVMdata collec tion faces challen ges like
+poor handwritin gin historical records an derrors
 during com puterization (Nguyen-Vo et al., 2018).
-In con trast, TCM benefits from a well-established
-and com prehen sive database developed over several
-decades. As a result, leveraging the TCM database
-can im prove the ac curacy and depth of medical re-
-search. In this study, we obtained struc tured data
+In con trast, TCMbenefits from a well-established
+an dcom prehen sive database developed over several
+decades. As a result, leveragingthe TCMdatabase
+canim prove theac curacy an ddep thofmedical re-
+search. In this study, weobtained struc tured data
 from Open KG, the Chinese open database. Our
-dataset, presen ted in Traditional Chinese, con tains
+dataset, presen tedin Traditional Chinese, con tains
 com prehen sive in formation on 9,464 different dis-
-eases, in cluding their sym ptoms, treat ments, medi-
-cations, patient advice, and lin ked diseases.
+eases, in cludingtheir sym ptoms, treat ments, medi-
+cations, patient advice, an dlin ked diseases.
 3.1.2
 Tran slation
-Viet namese word formation has been significan tly
-in fluen ced by Chinese, with Chinese-originated
-words ac coun ting for about 70% of Viet namese
+Viet namese word formation hasbeen significan tly
+in fluen cedby Chinese, with Chinese-originated
+words ac coun tin gfor about 70% of Viet namese
 vocabulary, termed Sino-Viet namese, and about
 50% in modern Viet namese (Đặng, 2003). Sino-
-Viet namese can be easily tran slated word by word,
-often resulting in meanin gless tran slations, and
+Viet namese can be easily tran slated word byword,
+often resultin gin meanin gless tran slations, and
 some terms lack Viet namese equivalents but have
-En glish ones. Therefore, we have decided to trans-
-late from Chinese to En glish, then from En glish to
+En glishones. Therefore, wehave decided to trans-
+late from Chineseto En glish, then from En glishto
 Viet namese.
-Baidu Tran slator is widely recognized as the
-most popular tool for tran slating Chinese to En-
-glish quic kly through free in ternet use (Yao et al.,
-2012). Ac cording to (Razzaka et al., 2019), Baidu
-tran slation tends to be more ac curate and con tex-
-tually ap prop riate for traditional Chinese literature
+Baidu Tran slator iswidely recognized asthe
+most popular tool fortran slating Chinese to En-
+glishquic kly through free in ternet use (Yao et al.,
+2012). Ac cordin gto (Razzaka et al., 2019), Baidu
+tran slation tends tobe more ac curate and con tex-
+tually ap prop riate fortraditional Chinese literature
 than Google Tran slator, which is one of the most
 popular tran slators. Furthermore, Baidu Tran slator
-offers a specialized API for medical tran slations.
-For in stan ce, the Chinese term “附錄” is trans-
-lated by Google Tran slator as "phụ lục," referring
-to a sec tion at the end of a book, whereas Baidu
-Tran slator ren ders it as "ruột thừa," aligning with
-its medical meaning as a small organ at tac hed to
-the in testines on the right side of the human body.
-Con sequen tly, we have chosen to utilize Baidu
-Tran slator for tran slation. To en sure ac curacy and
-the quality of the tran slations, we then used GPT-4
-(Ac hiam et al., 2023) and human evaluation, which
-is chec ked by a lin guistic expert with a Ph D in
+offers a specialized APIfor medical tran slations.
+Forin stan ce, the Chinese term “附錄” is trans-
+latedby Google Tran slator as "phụ lục," referrin gto a sec tion at the en dof a book, whereas Baidu
+Tran slator ren ders itas "ruột thừa," alignin gwit hits medical meanin gas a small organ at tac hed to
+thein testines on the right side ofthe human body.
+Con sequen tly, wehave chosen toutilize Baidu
+Tran slator fortran slation. Toen sure ac curacy and
+thequality ofthe tran slations, we then used GPT-4
+(Ac hiam et al., 2023) an dhuman evaluation, whic his chec ked by a lin guisticexpert with a Ph D in
 Chinese lin guistics for fact-chec king, tran slating
-quality, and refinement.
+quality, an drefinement.
 3.1.3
-Construc tion of Vie Med KG
-The construc tion of Viet Med KG requires a num-
-ber of processes such as En tity Disam biguation
-and En tity Lin king. The core of the knowledge
+Construc tionof Vie Med KG
+Theconstruc tionof Viet Med KGrequires a num-
+berof processes suc has En tity Disam biguation
+and En tity Lin king. Thecore ofthe knowledge
 graph are the trip le’s en tities, at tributes, and rela-
-tion ships. The en tities and at tributes are com bined
-and fed in to the knowledge graph through the popu-
-lar graph database - Neo4j database (Miller, 2013)
-to store data about nodes and relation ships. En-
-tities have 5 labels in cluding disease, sym ptom,
-treat ment, medicine, and advice correspon ding
-to which relation ships in clude HAS_SYM PTOM,
+tion ships. Theen tities an dat tributes arecom bined
+an dfed in to theknowledge graphthrough the popu-
+largrap hdatabase - Neo4j database (Miller, 2013)
+tostore data about nodes an drelation ships. En-
+tities have 5 labels in cludin gdisease, sym ptom,
+treat ment, medicine, an dadvice correspon din gto which relation ships in clude HAS_SYM PTOM,
 HAS_TREAT MENT, USE_MEDICINE, HAS_
 ADVICE, and IS_LIN KED_WITH. Each en tity
-provides its own additional at tributes with detailed
-in formation as Figure 4 shows. The construc ted
-medical data knowledge graph in cludes 41,549
-nodes and 42,112 relation ships. The detailed de-
-scrip tion of the knowledge graph is shown in Table
+provides it sown additional at tributes wit hdetailed
+in formationas Figure 4 shows. Theconstruc ted
+medical data knowledge grap hin cludes 41,549
+nodes and 42,112 relation ships. Thedetailed de-
+scrip tion ofthe knowledge grap his shownin Table
 3 and Table 4.
-Vie Med KG is stored in Neo4j Graph Database,
-a No SQL database that falls un der the category
-of graph databases, adhering to the mat hematical
-theory of trees. In Neo4j, nodes are rep resen ted
-as vertices and relation ships as edges. A literature
+Vie Med KGis stored in Neo4j Graph Database,
+a No SQL database that falls un der thecategory
+ofgraph databases, adherin gto themat hematical
+theory of trees. In Neo4j, nodes arerep resen ted
+asvertices an drelation ships asedges. A literature
 review by (Ló pez and la Cruz, 2015), in dicates that
 3
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 Neo4j demonstrates superior performan ce in terms
-of time respon se and provides shorter pat hfin ding
-com pared to relational databases.
+oftime respon se andprovides shorter pat hfin din gcom pared torelational databases.
 3.1.4
 Benchmark Dataset for Question
 An swering
 Trip le creation
-In construc ting a benchmark
-dataset for question-an swering systems, the pro-
-cess of trip le creation is pivotal. A trip le is com-
-posed of three com ponents: a head, a relation, and
+In construc ting a benchmarkdataset for question-an swering systems, the pro-
+cess oftrip le creation ispivotal. A trip le is com-
+posed ofthree com ponents: a head, a relation, and
 a tail. In the con text of a dataset cen tered on dis-
-eases, the head rep resents the name of the disease,
-the relation denotes the at tribute associated with
-the disease, and the tail in dicates the value of that
-at tribute. These trip les are then used to generate
-various types of questions, in cluding 1-hop and 2-
-hop questions, which assess the ability of question-
-an swering systems to navigate different levels of
-com plexity in the knowledge base.
-We used the two sequen tial ap proac hes which
-are label con catenation met hod and the usage of
-Large Lan guage Model (LLM). The initial met hod
-in volves con catenating labels from un seen trip les
-to generate questions. For in stan ce, using the trip le
+eases, thehead rep resents thename ofthe disease,
+therelation denotes theat tribute associated withthe disease, andthe tail in dicates thevalue ofthat
+at tribute. These trip les aret hen used togenerate
+various types ofquestions, in cluding 1-hop and 2-
+hop questions, whic hassess theability of question-
+an swerin gsystems tonavigate different levels ofcom plexity in the knowledge base.
+Weused thet wo sequen tial ap proac hes whic hare label con catenation met hod andthe usage of
+Large Lan guage Model (LLM). Theinitial met hod
+in volves con catenatin glabels from un seen trip les
+togenerate questions. Forin stan ce, using the trip le
 (“pertussis”, “peop le_easy_get”, “More com mon
-in children”) would create a question such as “Per-
+in children”) would create a question suc has “Per-
 tussis have peop le easy get?”. Despite poten tially
-generating gram matically in correct or non sen sical
+generating gram matically in correct ornon sen sical
 questions, this ap proach effec tively im parts tex-
-tual in formation to the model con cerning keywords
-lin ked with the relations.
+tual in formation tot he model con cernin gkeywords
+lin ked withthe relations.
 1-hop question dataset
 For 1-hop question, we
-designed 32 types of questions in total (see Table
-5). In exploring the relation ship bet ween exten sive
+designed 32 types ofquestions in total (see Table
+5). Inexploringthe relation ship bet ween exten sive
 medical in formation (an at tribute in the graph) and
 disease iden tification, this study en coun tered chal-
-len ges with question length. Utilizing all details
-from at tributes resulted in overly long questions. To
+len ges wit hquestion length. Utilizin gall details
+from at tributes resulted inoverly long questions. To
 address this, the GPT-4 lan guage model (Ac hiam
-et al., 2023) was em ployed. GPT-4 offered two
-fun ctionalities: 1) ran dom sum marization of an
+et al., 2023) wasem ployed. GPT-4 offered two
+fun ctionalities: 1) ran dom sum marization ofan
 at tribute, and 2) targeted selec tion of a key point
 wit hin that at tribute. Both ap proac hes aimed to
-shorten the question to un der 25 words while pre-
-serving its core meaning.
+shorten thequestion toun der 25 words while pre-
+servin gits core meaning.
 2-hop question dataset
-We designed 10 types
-of questions (see Table 5). To address the issue of
-lengthy questions, we em ployed a similar met hod-
+Wedesigned 10 types
+ofquestions (see Table 5). Toaddress theissue oflengthy questions, weem ployed a similar met hod-
 ology as used for the 1-hop questions.
-Creating
-multip le
+Creatin gmultip le
 an swer
 questions
-Wegrouped questions of the same type from the
-dataset and calculated the Jac card similarity
+Wegrouped questions ofthe same type from the
+dataset an dcalculatedthe Jac card similarity
 (Niwat tanakul et al., 2013) bet ween at tribute
-values used in question creation. If the similarity
-exceeded 0.9, we merged the an swers ac cord-
-in gly. This process en sured that questions with
-highly similar at tributes yielded merged an swers,
-op timizing question diversity while main taining
+values used in question creation. Ifthe similarity
+exceeded 0.9, wemerged thean swers ac cord-
+in gly. This process en sured that questions wit hhighly similar at tributes yielded merged an swers,
+op timizin gquestion diversity while main taining
 relevan ce.
 Generating natural-soun ding question using
 LLM
-We em ployed the GPT-4 lan guage model to
+Weem ployed the GPT-4 lan guage model to
 create natural-soun ding questions from those gen-
-erated by the label con catenation met hod. Using
-zero-shot prom pting, we instruc ted the model to
-emulate doc tors or patients seeking disease in for-
-mation. Figure 2 demonstrates the question genera-
-tion process from trip les, in volving feeding pairs of
-trip les and target questions derived from the train-
+erated byt he label con catenation met hod. Using
+zero-shot prom pting, weinstruc ted themodel to
+emulate doc tors orpatients seekin gdisease in for-
+mation. Figure 2 demonstrates thequestion genera-
+tion process from trip les, in volvin gfeedin gpairs oftrip les an dtarget questions derived from the train-
 ing data.
-By ap plying GPT-4 (Ac hiam et al., 2023) to our
-training set, we harnessed its ability to en code re-
-lation ships bet ween words and phrases, thus pro-
-ducing coherent questions even for trip les with pre-
+Byap plying GPT-4 (Ac hiam et al., 2023) to our
+trainin gset, weharnessed it sability toen code re-
+lation ships bet ween words andphrases, thus pro-
+ducin gcoherent questions even fortrip les with pre-
 viously un seen relations. Subsequen tly, we man-
-ually reviewed and eliminated non sen sical ques-
-tions, and utilized uniform sam pling to establish
-the benchmark. The dataset con sists of 4,232 ques-
+ually reviewed an deliminated non sen sical ques-
+tions, an dutilized uniform sam plin gto establishthe benchmark. Thedataset con sists of 4,232 ques-
 tions, in cluding 2,164 one-hop questions and 2,068
 two-hop questions. Table 6 provides a detailed
-descrip tion of the benchmark.
+descrip tion ofthe benchmark.
 3.2
 Ret rieval-Augmen ted Generation (RAG)
 with Viet Med KG
 3.2.1
 The Cyp her Query
-Neo4j’s query lan guage is called Cyp her (Fran cis
+Neo4j’s query lan guage iscalled Cyp her (Fran cis
 et al., 2018). Cyp her is a dec larative query lan-
 guage for graphs that uses graph pat tern-mat ching
-as a main mec hanism for graph data selec tion for
-both read-on ly and mutating operations. As an ex-
-am ple, the query to ret rieve sym ptoms of pertussis
-can be stated as follows:
+as a main mec hanismfor grap hdata selec tion for
+both read-on ly an dmutating operations. As an ex-
+am ple, thequery toret rieve sym ptoms ofpertussis
+can be stated asfollows:
 START Disease=node:
 Disease(disease_name={disease_name})
 MATCH (Disease)-[: HAS_SYM PTOM] ->
@@ -446,13 +421,13 @@ ORDER BY COUNT(*) DESC
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 Head: Pertussis
@@ -467,137 +442,130 @@ Tail: 75%
 Head: Em physema
 Relation: disease_cause
 Tail: Long term exposure to
-organic or inorganic dust,
+organicor inorganic dust,
 harmful gases, smokers
-Pertussis has peop le
+Pertussis haspeop le
 easy get?
-Ben zene poisoning
-has cure probability?
+Ben zene poisonin ghas cure probability?
 Em physema has
 cause by?
 GPT-4
-Which populations are more
-suscep tible to pertussis?
-How likely is it to be cured of
-ben zene poisoning?
+Which populations aremore
+suscep tible topertussis?
+Howlikely isit tobe cured ofben zene poisoning?
 What are the causes of
 em physema?
-Figure 2: Overview of the procedure for question generation. The in put is a trip le from the KG, and the out put is a
+Figure 2: Overviewofthe procedure forquestion generation. The in put is a trip le from the KG, and the out put is a
 natural lan guage question.
 This
 query
 starts
-bysearching
-thein dex
+bysearchingthein dex
 called “Disease” for a node whose at tribute
-“disease_name” is set to the con tents of the pa-
+“disease_name” isset tot he con tents ofthe pa-
 rameter “disease_name”.
 It then uses pat tern
-mat ching to find all sym ptoms associated with this
-disease. The “WHERE” clause en sures that we are
-specifically querying for the disease “pertussis”.
-As a result, the query returns all sym ptoms as-
-sociated with pertussis and how often they were
-en coun tered during the traversal, which is also
-the sort criterion. At tributes could be ac cessed
+mat chin gto find allsym ptoms associated withthis
+disease. The “WHERE” clause en sures that weare
+specifically queryin gfor thedisease “pertussis”.
+As a result, thequery returns allsym ptoms as-
+sociated with pertussis an dhowoften they were
+en coun tered duringthe traversal, which is also
+thesort criterion. At tributes could beac cessed
 by “Sym ptom. disease_sym ptom”.
-To en han ce the effec tiveness of Cyp her state-
-ments in prac tice, leveraging the few-shot learning
-capabilities of large lan guage models (LLMs) in-
-volves presen ting exam ples that guide the model in
+Toen han ce theeffec tivenessof Cyp her state-
+ments in prac tice, leveragingthe few-shot learnin gcapabilities oflarge lan guage models (LLMs) in-
+volves presen tin gexam ples that guide themodel in
 generating Cyp her statements. This ap proach facil-
-itates the adap tation of Cyp her syn tax to specific
-query requirements, en suring com patibility with
-database struc tures and query out comes.
+itates theadap tationof Cyp her syn tax tospecific query requirements, en suring com patibility with
+database struc tures an dquery out comes.
 3.2.2
-Augmen ting LLM an swer with RAG
-and zero-shot prom pting
-Figure 3 illustrates the architec ture of the Ret rieval-
+Augmen ting LLM an swer with RAGand zero-shot prom pting
+Figure 3 illustrates thearchitec ture ofthe Ret rieval-
 Augmen ted Generation (RAG) system. The work-
-flow begins with the user submit ting a question.
-This question is then processed using a Cyp her
-query and LLM to generate relevant queries. The
-ret rieved nodes are used to query the knowledge
-graph through Cyp her queries, extrac ting addi-
-tional con textual in formation. The results are re-
+flowbegins withthe user submit ting a question.
+This question isthen processed using a Cyp her
+queryand LLMto generate relevant queries. The
+ret rieved nodes areused toquery theknowledge
+graphthrough Cyp her queries, extrac ting addi-
+tional con textual in formation. Theresults are re-
 turned in JSON format, after which LLM generates
-an an swer based on the augmen ted query and the
-con textual in formation provided by the knowledge
+anan swer based on the augmen ted query andthe
+con textual in formation provided byt he knowledge
 graph.
 4
 Experiments
 4.1
 Experiment Design
-Researchers have been working on Question-
-An swering (QA) system for Viet namese such as
+Researchers have been workin gon Question-
+An swering (QA) system for Viet namese suc has
 (Tran et al., 2023). However, in this paper, we
-propose the first-ever QA system that in corporates
-Knowledge Graph (i. e. Vie Med KG) for medicine
-in Viet namese. We evaluated our QA system using
-a benchmark dataset designed for QA tasks based
-on Vie Med KG. In our experiments, we em ployed
+propose the first-ever QAsystem that in corporates
+Knowledge Graph (i. e. Vie Med KG) formedicine
+in Viet namese. Weevaluatedour QAsystem usin ga benchmarkdataset designedfor QAtasks based
+on Vie Med KG. Inour experiments, weem ployed
 large lan guage models (LLMs), specifically GPT-4
 (Ac hiam et al., 2023) and Gemini 1.0 Pro (Team
-et al., 2023), using zero-shot prom pting to serve
-as baseline for the benchmark. Subsequen tly, we
-leveraged our RAG system with the GPT-4 and
-Gemini 1.0 Pro as the generator to measure the
-performan ce for both 1-hop and 2-hop benchmark
+et al., 2023), using zero-shot prom ptin gto serve
+asbaseline forthe benchmark. Subsequen tly, we
+leveragedour RAGsystem withthe GPT-4 and
+Gemini 1.0 Proas thegenerator tomeasure the
+performan ce forboth 1-hop and 2-hop benchmark
 dataset.
-To evaluate the ret rieval performan ce and deter-
-mine the con tribution of ret rieved trip les to an swer
-generation, we em ployed ac curacy as our primary
-met ric. For assessing the overall performan ce of the
-QA system, we utilized met rics in cluding BLEU
+Toevaluate theret rieval performan ce and deter-
+mine thecon tribution ofret rieved trip les toan swer
+generation, weem ployed ac curacy asour primary
+met ric. Forassessingthe overall performan ce ofthe
+QA system, weutilized met rics in cluding BLEU
 (Papineni et al., 2002), ROUGE (Lin, 2004), and
 METEOR (Lavie and Agarwal, 2007) scores.
 4.2
-Experimen tal Results and Analyses
-The performan ces of ret rieval and question-
-an swering are detailed in Tables 1 and 2, respec-
-tively. When com pared to the zero-shot prompt-
-ing capabilities of state-of-the-art lan guage mod-
+Experimen tal Resultsand Analyses
+Theperforman ces ofret rieval and question-
+an swerin gare detailedin Tables 1 and 2, respec-
+tively. When com pared tot he zero-shot prompt-
+in gcapabilities of state-of-the-art lan guage mod-
 els such as GPT-4 and Gemini 1.0 Pro, our sys-
-tem exhibits a significant im provement in question-
-an swering performan ce. Specifically, our proposed
-RAG system en han ces the BLEU score of GPT-
-4 by ap proximately 7.19 times and that of Gem-
-ini 1.0 Pro by ap proximately 6.76 times for 1-hop
+temexhibits a significant im provement in question-
+an swering performan ce. Specifically, ourproposed
+RAGsystem en han cesthe BLEU score of GPT-
+4 byap proximately 7.19 times and that of Gem-
+ini 1.0 Proby ap proximately 6.76 times for 1-hop
 5
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 Question
 Query Knowledge Graph
-Ask question with con text
+Askquestion wit hcon text
 Knowledge Graph
-What are the sym ptoms of
+What aret he sym ptoms of
 pertussis?
 LLM
-The sym ptoms of pertussis in clude
+Thesym ptoms ofpertussis in clude
 spasmodic cough, chest tightness, low
-fever, and cicada chirping sound
+fever, an dcicada chirpin gsound
 during in halation.
 Cyp her
 Query + LLM
-Figure 3: Overview of the RAG system. The process begins with a user question processed through Cyp her and
-LLM queries to ret rieve relevant knowledge graph nodes. An an swer is then generated using the augmen ted query
-and con textual in formation.
-questions, and by ap proximately 11.19 times for
+Figure 3: Overviewofthe RAGsystem. Thep rocess begins with a user question processed through Cyp her and
+LLMqueries toret rieve relevant knowledge grap hnodes. Anan swer isthen generated usingthe augmen ted query
+an dcon textual in formation.
+questions, an dby ap proximately 11.19 times for
 GPT-4 and 5.83 times for Gemini 1.0 Pro for 2-hop
 questions. These con siderable im provements come
-with on ly a marginal in crease in in feren ce laten cy,
-adding an average of 8.40 seconds for GPT-4 and
-5.52 seconds for Gemini 1.0 Pro.
+with on ly a marginal in crease inin feren ce laten cy,
+addin gan average of 8.40 seconds for GPT-4 and
+5.52 secondsfor Gemini 1.0 Pro.
 Model
 1-hop
 2-hop
@@ -611,21 +579,19 @@ Table 1: Results for 1-hop and 2-hop ret rieval perfor-
 man ce.
 5
 Con clusion
-In this paper, we have in troduced the first knowl-
-edge graph for Traditional Viet namese Medicine
+In this paper, wehave in troduced thefirst knowl-
+edge grap hfor Traditional Viet namese Medicine
 (TVM), leveraging resources from Traditional Chi-
 nese Medicine (TCM). Through systematic trans-
-lation and filtration, we adap ted TCM knowledge
-graphs to reflect TVM’s unique elements, address-
-ing a gap in the documen tation of Viet namese med-
-ical knowledge. Our knowledge graph, Vie Med KG,
-serves as a foun dational resource for future research
-and ap plications in the TVM domain. By providing
-a curated benchmark for knowledge graph-based
-question an swering, we have laid the groun dwork
-for further develop ments in QA systems for tra-
-ditional medicine. Our experiments demonstrate
-the feasibility and poten tial of using advan ced lan-
+lation an dfiltration, weadap ted TCMknowledge
+graphs toreflect TVM’s unique elements, address-
+ing a gapin thedocumen tationof Viet namese med-
+ical knowledge. Ourknowledge graph, Vie Med KG,
+serves as a foun dational resource forfuture researchand ap plications in the TVMdomain. Byp roviding
+a curated benchmarkfor knowledge graph-based
+question an swering, wehave laid thegroun dworkfor further develop men tsin QAsystems for tra-
+ditional medicine. Ourexperiments demonstrate
+thefeasibility an dpoten tial ofusin gadvan ced lan-
 guage models and ret rieval-augmen ted generation
 tec hniques in this con text.
 Referen ces
@@ -633,37 +599,37 @@ Josh Ac hiam, Steven Adler, San dhini Agarwal, Lama
 Ahmad, Ilge Akkaya, Floren cia Leoni Aleman,
 Diogo Almeida, Jan ko Altenschmidt, Sam Altman,
 Shyamal Anadkat, et al. 2023. Gpt-4 tec hnical report.
-ar Xiv prep rint ar Xiv:2303.08774.
+ar Xivprep rint ar Xiv:2303.08774.
 Jacob An dreas, Marcus Rohrbach, Trevor Darrell, and
 Dan Klein. 2016.
-Learning to com pose neural
-net works for question an swering.
-ar Xiv prep rint
+Learnin gto com pose neural
+net works forquestion an swering.
+ar Xivprep rint
 ar Xiv:1601.01705.
 Anita Bui. 2019. Traditional viet namese medicine be-
-tween chinese heritage and national tradition. Chi-
-nese Medicine and Culture, 2(1):21–25.
+tween chinese heritage an dnational tradition. Chi-
+nese Medicineand Culture, 2(1):21–25.
 Calvin Yu-Chian Chen. 2011.
 Tcm database@ tai-
 wan: the world’s largest traditional chinese medicine
-database for drug screening in silico.
+database fordrug screenin gin silico.
 Plo S one,
 6(1): e15939.
 Jiyu Chen, Jin chuan Qian, Xin min Zhang, Zhihuan
 Song, Chenying Wen, and Xueer Fan. 2023. Gpbp:
-Pipeline extrac tion of en tities and relations for con-
-struc tion of urban utility tun nel knowledge graph. In
+Pipeline extrac tion ofen tities an drelations for con-
+struc tion ofurban utility tun nel knowledge graph. In
 6
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 Model
@@ -703,37 +669,35 @@ Gemini 1.0 Pro + RAG (ours)
 0.204
 0.265
 0.246
-Table 2: Results for 1-hop and 2-hop question-an swering performan ce. We highlight the best result for each met ric.
-2023 CAA Sym posium on Fault Detec tion, Supervi-
-sion and Safety for Tec hnical Processes (SAFEP RO-
+Table 2: Results for 1-hop and 2-hop question-an swering performan ce. Wehighlight thebest result foreac hmet ric.
+2023 CAA Sym posiumon Fault Detec tion, Supervi-
+sionand Safetyfor Tec hnical Processes (SAFEP RO-
 CESS), pages 1–6. IEEE.
 Boya Cheng, Yuan Zhang, Dejun Cai, Wan Qiu, and
-Don gxin Shi. 2018. Construc tion of traditional chi-
-nese medicine knowledge graph using data mining
-and expert knowledge. In 2018 In ternational Con fer-
-en ce on Net work In frastruc ture and Digital Con tent
+Don gxin Shi. 2018. Construc tion oftraditional chi-
+nese medicine knowledge grap husin gdata minin gand expert knowledge. In 2018 In ternational Con fer-
+en ceon Net work In frastruc tureand Digital Con tent
 (IC-NIDC), pages 209–213.
 Nadime Fran cis, Alastair Green, Paolo Guagliardo,
 Leonid Libkin, Tobias Lin daaker, Vic tor Marsault,
 Stefan Plan tikow, Mats Rydberg, Pet ra Selmer, and
-An drés Taylor. 2018. Cyp her: An evolving query
-lan guage for property graphs. In Proceedings of the
-2018 In ternational Con feren ce on Management of
+An drés Taylor. 2018. Cyp her: Anevolvin gquery
+lan guage forproperty graphs. In Proceedings ofthe
+2018 In ternational Con feren ceon Management of
 Data, SIGMOD ’18, page 1433–1445, New York,
 NY, USA. Association for Com puting Mac hinery.
 Fabian Galet zka, Jewgeni Rose, David Schlan gen, and
 Jens Lehmann. 2021. Space efficient con text en cod-
-ing for non-task-orien ted dialogue generation with
-graph at ten tion tran sformer. In Proceedings of the
-59th An nual Meeting of the Association for Com pu-
-tational Lin guistics and the 11th In ternational Joint
-Con feren ce on Natural Lan guage Processing (Vol-
+ing for non-task-orien ted dialogue generation withgraph at ten tion tran sformer. In Proceedings ofthe
+59th An nual Meetin gofthe Association for Com pu-
+tational Lin guistics andthe 11th In ternational Joint
+Con feren ceon Natural Lan guage Processing (Vol-
 ume 1: Long Papers), pages 7028–7041, On line.
 Association for Com putational Lin guistics.
 Kelvin Guu, Ken ton Lee, Zora Tung, Panupong Pasu-
 pat, and Ming-Wei Chang. 2020. Realm: ret rieval-
 augmen ted lan guage model pre-training. In Proceed-
-ings of the 37th In ternational Con feren ce on Mac hine
+ings of the 37th In ternational Con feren ceon Mac hine
 Learning, ICML’20. JMLR. org.
 Ta Duc Huy, Nguyen Anh Tu, Tran Hoang Vu,
 Nguyen Phuc Minh, Nguyen Phan, Trung H. Bui, and
@@ -744,21 +708,21 @@ national Publishing.
 Gautier Izacard, Pat rick Lewis, Maria Lomeli, Lucas
 Hosseini, Fabio Pet roni, Timo Schick, Jane Dwivedi-
 Yu, Armand Joulin, Sebastian Riedel, and Edouard
-Grave. 2024. At las: few-shot learning with ret rieval
+Grave. 2024. At las: few-shot learnin gwith ret rieval
 augmen ted lan guage models. J. Mach. Learn. Res.,
 24(1).
 Min ki Kang, Jin Myung Kwak, Jin heon Baek, and
 Sung Ju Hwang. 2022. Knowledge-con sistent di-
 alogue generation with knowledge graphs.
 Yun shi Lan, Shuohang Wang, and Jing Jiang. 2019.
-Knowledge base question an swering with a mat ching-
+Knowledge base question an swerin gwith a mat ching-
 aggregation model and question-specific con textual
-relations. IEEE/ACM Tran sac tions on Audio, Speech,
+relations. IEEE/ACM Tran sac tion son Audio, Speech,
 and Lan guage Processing, 27(10):1629–1638.
-Alon Lavie and Abhaya Agarwal. 2007. Meteor: an
-automatic met ric for mt evaluation with high levels
-of correlation with human judgments. In Proceed-
-ings of the Second Workshop on Statistical Mac hine
+Alon Lavieand Abhaya Agarwal. 2007. Meteor: an
+automatic met ric for mtevaluation wit hhigh levels
+ofcorrelation wit hhuman judgments. In Proceed-
+ings ofthe Second Workshopon Statistical Mac hine
 Tran slation, Stat MT ’07, page 228–231, USA. Asso-
 ciation for Com putational Lin guistics.
 Pat rick Lewis,
@@ -771,56 +735,53 @@ Wen-tau Yih,
 Tim Rockt¨aschel, Sebastian Riedel, and Douwe
 Kiela. 2020.
 Ret rieval-augmen ted generation for
-knowledge-in ten sive nlp tasks. In Proceedings of
-the 34th In ternational Con feren ce on Neural In for-
+knowledge-in ten sive nlp tasks. In Proceedings ofthe 34th In ternational Con feren ceon Neural In for-
 mation Processing Systems, NIPS ’20, Red Hook,
 NY, USA. Curran Associates Inc.
-Chin-Yew Lin. 2004. ROUGE: A pac kage for automatic
-evaluation of sum maries.
+Chin-Yew Lin. 2004. ROUGE: A pac kage forautomaticevaluation ofsum maries.
 In Text Sum marization
 Bran ches Out, pages 74–81, Barcelona, Spain. Asso-
 ciation for Com putational Lin guistics.
-Yan huai Liu and Yan ling Sun. 2004.
+Yan huai Liuand Yan ling Sun. 2004.
 China tradi-
 tional chinese medicine (tcm) patent database. World
 Patent In formation, 26(1):91–96.
 Hai Long, Yan Zhu, Lirong Jia, Bo Gao, Jing Liu, Li-
-hong Liu, and Hein rich Herre. 2019. An on tological
-framework for the formalization, organization and
+hong Liu, and Hein rich Herre. 2019. Anon tological
+frameworkfor theformalization, organization and
 usage of tcm-knowledge. BMC Medical In formatics
 and Decision Making, 19:79–89.
 Fé lix Melchor San tos Ló pez and Eulogio San tos De
-la Cruz. 2015. Literature review about neo4j graph
-database as a feasible alternative for rep lacing rdbms.
+la Cruz. 2015. Literature reviewabout neo4j grap hdatabase as a feasible alternative forrep lacingrdbms.
 In dustrial Data, 18:135–139.
 Qiujie Lv, Guan xing Chen, Haohuai He, Ziduo Yang,
 Lu Zhao, Kang Zhang, and Calvin Yu-Chian Chen.
-2023. Tcmbank-the largest tcm database provides
+2023. Tcmbank-the largest tcmdatabase provides
 deep learning-based chinese-western medicine exclu-
-sion predic tion. Signal Tran sduc tion and Targeted
+sion predic tion. Signal Tran sduc tionand Targeted
 Therapy, 8(1):127.
-Justin J Miller. 2013. Graph database ap plications and
-con cepts with neo4j. In Proceedings of the south-
-ern association for in formation systems con feren ce,
+Justin J Miller. 2013. Grap hdatabase ap plications and
+con cepts with neo4j. In Proceedings ofthe south-
+ernassociation forin formation systems con feren ce,
 At lan ta, GA, USA, volume 2324, pages 141–147.
 7
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 Thanh-Hoang Nguyen-Vo, Tri Le, Duy Pham, Tri
 Nguyen, Phuc Le, An Nguyen, Thanh Nguyen,
 Thien-Ngan Nguyen, Vu Nguyen, Hai Do, et al.
-2018. Viet herb: a database for viet namese herbal
-species. Journal of chemical in formation and model-
+2018. Viet herb: a database forviet namese herbal
+species. Journal ofchemical in formation and model-
 ing, 59(1):1–9.
 Sup hakit
 Niwat tanakul,
@@ -828,87 +789,80 @@ Jat sada
 Singthongchai,
 Ekkac hai Naenudorn, and Supac hanun Wanapu.
 2013.
-Using of jac card coefficient for keywords
+Usin gofjac card coefficient forkeywords
 similarity.
 Kishore Papineni, Salim Roukos, Todd Ward, and Wei-
-Jing Zhu. 2002. Bleu: a met hod for automatic evalu-
-ation of mac hine tran slation. In Proceedings of the
-40th An nual Meeting on Association for Com puta-
+Jing Zhu. 2002. Bleu: a met hod forautomatic evalu-
+ation ofmac hine tran slation. In Proceedings ofthe
+40th An nual Meetin gon Association for Com puta-
 tional Lin guistics, ACL ’02, page 311–318, USA.
 Association for Com putational Lin guistics.
 Md Abdur Razzaka, Md Serajul Islamb, Sharowar Hos-
 sainc, and Jin zhang Jiang. 2019.
-Exploring and
-learning en glish: An analysis of baidu and google
+Explorin gand
+learnin gen glish: Ananalysis ofbaidu an dgoogle
 tran slation.
 Md. Rony, Ricardo Usbeck, and Jens Lehmann. 2022.
 Dialokg: Knowledge-struc ture aware task-orien ted
 dialogue generation. Ar Xiv, abs/2204.09149.
 Haitian Sun, Tania Bedrax-Weiss, and William Cohen.
-2019. Pull Net: Open domain question an swering
-with iterative ret rieval on knowledge bases and text.
-In Proceedings of the 2019 Con feren ce on Em pirical
-Met hods in Natural Lan guage Processing and the
-9th In ternational Joint Con feren ce on Natural Lan-
+2019. Pull Net: Open domain question an swerin gwith iterative ret rieval on knowledge bases an dtext.
+In Proceedings ofthe 2019 Con feren ceon Em pirical
+Met hodsin Natural Lan guage Processin gand the
+9th In ternational Joint Con feren ceon Natural Lan-
 guage Processing (EMNLP-IJCNLP), pages 2380–
 2390, Hong Kong, China. Association for Com puta-
 tional Lin guistics.
 Haitian Sun, Bhuwan Dhin gra, Man zil Zaheer, Kat hryn
 Mazaitis, Ruslan Salakhut dinov, and William W Co-
 hen. 2018. Open domain question an swering us-
-ing early fusion of knowledge bases and text. ar Xiv
-prep rint ar Xiv:1809.00782.
+in gearly fusion ofknowledge bases an dtext. ar Xivprep rint ar Xiv:1809.00782.
 Gemini Team, Rohan Anil, Sebastian Borgeaud,
 Yon ghui Wu, Jean-Bap tiste Alayrac, Jiahui Yu,
 Radu Soricut, Johan Schalkwyk, An drew M Dai,
 An ja Hauth, et al. 2023.
-Gemini: a family of
-highly capable multimodal models. ar Xiv prep rint
+Gemini: a family ofhighly capable multimodal models. ar Xivprep rint
 ar Xiv:2312.11805.
 Cong Dao Tran, Nhut Huy Pham, Anh Tuan Nguyen,
 Truong Son Hy, and Tu Vu. 2023. Vi De BERTa: A
-powerful pre-trained lan guage model for Viet namese.
-In Fin dings of the Association for Com putational Lin-
+powerful pre-trained lan guage modelfor Viet namese.
+In Fin dings ofthe Association for Com putational Lin-
 guistics: EACL 2023, pages 1071–1078, Dubrovnik,
 Croatia. Association for Com putational Lin guistics.
 Jia Yao, Muyun Yang, Jun mao Meng, Don gqing Xiao,
-Tiejun Zhao, and Sheng Li. 2012. How good is web
-based mt: A case study on paper tit le tran slation. In
-2012 In ternational Con feren ce on Asian Lan guage
+Tiejun Zhao, and Sheng Li. 2012. Howgood iswebbased mt: A case study on paper tit le tran slation. In
+2012 In ternational Con feren ceon Asian Lan guage
 Processing, pages 213–216. IEEE.
 Wen peng Yin, Mo Yu, Bing Xiang, Bowen Zhou, and
-Hin rich Sch¨ut ze. 2016. Sim ple question an swering
-by at ten tive con volutional neural net work.
-ar Xiv
-prep rint ar Xiv:1606.03391.
+Hin rich Sch¨ut ze. 2016. Sim ple question an swerin gby at ten tive con volutional neural net work.
+ar Xivprep rint ar Xiv:1606.03391.
 Tong Yu, Jin ghua Li, Qi Yu, Ye Tian, Xiaofeng Shun,
 Lili Xu, Ling Zhu, and Hon gjie Gao. 2017. Knowl-
-edge graph for tcm health preservation: Design, con-
-struc tion, and ap plications. Artificial in telligen ce in
+edge grap hfor tcmhealth preservation: Design, con-
+struc tion, an dap plications. Artificial in telligen ce in
 medicine, 77:48–52.
-Yic hong Zhang and Yon gtao Hao. 2024.
+Yic hong Zhan gand Yon gtao Hao. 2024.
 Tradi-
 tional chinese medicine knowledge graph construc-
 tion based on large lan guage models. Elec tronics,
 13(7).
 Yuyu Zhang, Han jun Dai, Zornit sa Kozareva, Alexan-
-der Smola, and Le Song. 2018. Variational reasoning
-for question an swering with knowledge graph. In
-Proceedings of the AAAI con feren ce on artificial in-
+der Smola, and Le Song. 2018. Variational reasonin gfor question an swerin gwith knowledge graph. In
+Proceedings ofthe AAAI con feren ce onartificial in-
 telligen ce, volume 32.
 Ziqiang Zheng, Yon gguo Liu, Yun Zhang, and Chuan-
-biao Wen. 2020. Tcmkg: A deep learning based
+biao Wen. 2020. Tcmkg: A deep learnin gbased
 traditional chinese medicine knowledge graph plat-
 form. In 2020 IEEE In ternational Con feren ce on
 Knowledge Graph (ICKG), pages 560–564.
 Xuezhong Zhou, Yon ghong Peng, and Baoyan Liu.
-2010. Text mining for traditional chinese medical
+2010. Text minin gfor traditional chinese medical
 knowledge discovery: a survey. Journal of biomedi-
-cal in formatics, 43(4):650–660.
+calin formatics, 43(4):650–660.
 Đức Siêu Đặng. 2003. Dạy và học từ Hán Việt ở trường
 phổ thông. Giáo dục.
 A
-Descrip tion of Vie Med KG
+Descrip tionof Vie Med KG
 HAS_SYM PTOM
 HAS_ADVICE
 IS_LIN KED_WITH
@@ -941,21 +895,21 @@ disease_name
 disease_descrip tion
 disease_category
 disease_cause
-Figure 4: Graph Schema for Viet Med KG.
+Figure 4: Graph Schemafor Viet Med KG.
 8
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
-Figure 5: Subgraph of Vie Med KG, visualized using Neo4j.
+Figure 5: Subgrap hof Vie Med KG, visualized using Neo4j.
 En tity Type
 No. of En tities
 disease
@@ -970,7 +924,7 @@ advice
 5,577
 Total
 41,549
-Table 3: Num ber of En tities by Type.
+Table 3: Num berof En titiesby Type.
 Relation ship Type
 No. of Relation ships
 HAS_SYM PTOM
@@ -985,18 +939,18 @@ IS_LIN KED_WITH
 10,117
 Total
 42,112
-Table 4: Num ber of Relation ships by Type.
+Table 4: Num berof Relation ship sby Type.
 9
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint
 
 
 1-hop question type
@@ -1045,9 +999,9 @@ disease_to_drug_recom mend,
 disease_to_associated_disease.
 Table 5: Question types of 1-hop and 2-hop questions.
 Question
-No. of an swers
-No. of questions
-per question
+No. ofan swers
+No. ofquestions
+perquestion
 1
 900
 1-hop
@@ -1062,15 +1016,15 @@ per question
 410
 3+
 1,000
-Table 6: Descrip tion of KGQA benchmark.
+Table 6: Descrip tionof KGQA benchmark.
 10
 .
 CC-BY-NC-ND 4.0 In ternational licen se
 made available un der a
-(which was not certified by peer review) is the aut hor/fun der, who has gran ted bio Rxiv a licen se to display the prep rint in perpetuity. It is
-The copyright holder for this prep rint
+(which wasnot certified bypeer review) is the aut hor/fun der, whohas gran ted bio Rxiv a licen se todisplay thep rep rint in perpetuity. It is
+Thecopyright holder forthis prep rint
 this version posted August 9, 2024.
 ;
 https://doi. org/10.1101/2024.08.07.606195
 doi:
-bio Rxiv prep rint
+bio Rxivprep rint

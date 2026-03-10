@@ -64,7 +64,7 @@ cao (trên 90%) và có phạm vi điều trị hẹp như:
 . Thuốc chống đông máu loại kháng vitamin K: dicumarol, warfarin
 . Sulfamid hạ đường huyết: tolbutamid, clop ropamil
 . Thuốc chống ung thư, đặc biệt là met hot rexat
-Tất cả đều bị các thuốc chống viêm phi steroid dễ dàng đẩy khỏi protein huyết tương, có thể gây
+Tất cả đều bị các thuốc chống viêm phisteroid dễ dàng đẩy khỏi protein huyết tương, có thể gây
 nhiễm độc.
 1.2.3. Thay đổi chuyển hóa
 Nhiều thuốc bị chuyển hóa ở gan do các en zym chuyển hóa thuốc của mic rosom ga n (xin xem
@@ -139,7 +139,7 @@ dạ dầy.
 + Đối kháng chức phận: hai chất đồng vận (agonist) tác dụng trên 2 recep tor khác nhau nhưng
 chức phận lại đối kháng trên cùng một cơ quan. Stryc hnin kích thích tuỷ sống, gây co giật; cura
 ức chế dẫn truyền ở tấm vận động, gây mềm cơ, chống được co giật. Histamin kích thích recep tor
-H1 làm co cơ trơn khí quản, gây hen; albuterol (Ven tolin), kích thích rec ep tor 2 adrenergic làm
+H1 làm co cơ trơn khí quản, gây hen; albuterol (Ven tolin), kích thích recep tor 2 adrenergic làm
 giãn cơ trơn khí quản, dùng điều trị cơn hen.
 1.3.3. Đảo ngược tác dụng
 Adrenalin vừa có tác dụng kích tích recep tor adrenergic (co mạch, tăng huyết áp), vừa có tác
@@ -244,7 +244,7 @@ acid (am picilin, eryt hromycin), các loại viên bao tan trong ruột hoặc 
 Thuốc nên uống vào lúc no (trong hoặc ngay sau bữa ăn)
 - Thuốc kích thích bài tiết dịch vị (rượu khai vị), các en zym tiêu hóa (pan creatin) chống đái tháo
 đường loại ức chế gluconidase nên uống trước bữa ăn 10 - 15 phút.
-- Thuốc kích thích dạ dày, dễ gây viêm loét đường tiêu hóa: các thuốc chống viêm phi steroid,
+- Thuốc kích thích dạ dày, dễ gây viêm loét đường tiêu hóa: các thuốc chống viêm phisteroid,
 muối kali, quinin.
 
 

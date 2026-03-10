@@ -10,7 +10,7 @@ kháng histamin H1.
 Histamin là chất trung gian hóa học quan trọng có vai trò trong phản ứng viêm và dị ứng,
 trong sự bài tiết dịch vị và cũng có chức năng như chất dẫn truyền thần kinh và điều biến
 thần kinh, được tạo ra do sự khử carboxyl của histidin dưới sự xúc tác của decarboxylase.
-Do histamin tích điện dương nên dễ dàng liên kết với chất tích điện âm như protease,
+Dohistamin tích điện dương nên dễ dàng liên kết với chất tích điện âm như protease,
 chon droitin sulfat, proteoglycan hoặc heparin tạo thành phức hợp không có tác dụng sinh
 học. Phức hợp này được dự trữ trong các hạt trong dưìng bào, bạch cầu ưa base, tế bào
 niêm mạc dạ dày, ruột, tế bào thần kinh v. v... Da, niêm mạc, cây khí phế quản là những
@@ -31,7 +31,7 @@ sinh học.
 1.4. Recep tor của histamin
 Hiện nay đã tìm thấy 4 recep tor khác nhau của histamin là H 1, H2, H3 và H4. Sự phân bố
 số lượng recep tor và chức năng của từng loại recep tor rất khác nhau.
-Khi histamin gắn vào recep tor H 1 sĩ làm tăng IP3 (inositol 1,4,5-trip hosphat) và
+Khihistamin gắn vào recep tor H 1 sĩ làm tăng IP3 (inositol 1,4,5-trip hosphat) và
 diacylglycerol từ phospholipid. IP 3 làm tăng giải phóng calci từ lưới nội bào.
 
 

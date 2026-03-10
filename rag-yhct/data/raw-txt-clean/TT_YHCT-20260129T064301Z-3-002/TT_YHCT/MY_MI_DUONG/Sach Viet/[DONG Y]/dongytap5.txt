@@ -63,8 +63,7 @@ Một thầy thuốc giỏi, sau khi đã chẩn bệnh bắt mạch
 cho một bệnh nhân, nếu bệnh nhân đưa cho thầy thuốc một
 toa thuốc gia truyền hay toa thuốc kinh nghiệm mà bạn mình
 uống đã khỏi bệnh, để hỏi thử thầy thuốc xem mình có dùng
-được không, thầy thuốc cũng phải đối chứng vị thuốc trong
-toa có phù hợp với chứng bệnh của người bệnh không mới
+được không, thầy thuốc cũng phải đối chứng vị thuốc tron gtoa có phù hợp với chứng bệnh của người bệnh không mới
 quyết định cho dùng hay không, và thầy thuốc phải giải thích
 tại sao dùng được hay tại sao không dùng được. Cho nên
 chúng ta không phải là thầy thuốc làm sao dám bảo đảm toa
@@ -698,8 +697,7 @@ Phân tích công dụng của Tiểu hồi theo tây y :
 
 Tên khoa học Foeniculum vulgare Mill. chứa các
 glucoside, acid pet roselinic làm giảm cholesterol trong máu,
-chống co thắt, giảm áp huyết nhẹ, có độ hòa tan cao trong
-lipid ức chế dòng Ca2+ đi vào và dự phòng sự tăng độ thấm
+chống co thắt, giảm áp huyết nhẹ, có độ hòa tan cao tron glipid ức chế dòng Ca2+ đi vào và dự phòng sự tăng độ thấm
 của Na+ và phong bế dẫn truyền thần kinh, trợ tim.
 
 Phân tích theo đông y :
@@ -1642,7 +1640,7 @@ hoàng, tên khoa học Rehman nia glutinosa (Gaertn.) Libosch..
 tác dụng của chất iridoid glycoside A,B,C,D, một mặt kích
 thích tiết in sulin, một mặt giảm glycogen trong gan. Trong
 Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt tính ức
-chế men aldose reduc tase để ức chế sự hình thành đục thủy
+chế menaldose reduc tase để ức chế sự hình thành đục thủy
 tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -1933,7 +1931,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -2092,8 +2090,7 @@ Tên khoa học là At rac tylodes mac rocep hala Koidz.,
 bộ phận dùng là rễ củ, vỏ mầu nâu, ruột trắng ngà ức chế vi
 khuẩn gây ra bệnh ngoài da, nước sắc của bạch truật có chất
 glucoside kali at rac tylat làm hạ đường huyết trong gan xuống
-thấp có thể tới mức gây co giật, nhưng lượng glycogen trong
-tim hơi tăng, ức chế sự đông máu, tăng chức năng hoạt động
+thấp có thể tới mức gây co giật, nhưng lượng glycogen tron gtim hơi tăng, ức chế sự đông máu, tăng chức năng hoạt động
 của gan, chống loét các cơ quan thuộc đường tiêu hóa, chống
 viêm khớp.
 
@@ -2368,7 +2365,7 @@ Công dụng của râu bắp :
 
 Phân tích theo tây y :
 
-Tên khoa học Zea mays L. chứa nhiều suc rose, chất
+Tên khoa học Zeamays L. chứa nhiều suc rose, chất
 béo, tinh dầu, chất gôm, nhựa, glucoside đắng, saponin,
 cryp toxan thin, vit. C, K, sitosterol, stigmasterol, nhiều acid
 hữu cơ, an thocyan. Có tác dụng lợi tiểu, thải trừ clorid, bài
@@ -2456,8 +2453,7 @@ sâm dùng dài ngày phòng ngừa được phản ứng gây sốt do
 tiêm vac cin gây ra, dịch chiết nhân sâm làm tăng cao hàm
 lượng
 
-adrenocorticot ropic
-hormone
+adrenocorticot ropic hormone
 (ACTH)
 và corticosteron. Các gin senoid có tác dụng trên hệ nội tiết, ức
 chế rõ rệt những thay đổi về trọng lượng của tuyến thượng
@@ -2492,7 +2488,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -2642,7 +2638,7 @@ máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 
 65mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -2708,7 +2704,7 @@ chất ester làm tăng cường chuyển hóa các lipid no và
 cholesterol, lipid trong máu, chữa xơ mỡ động mạch, chống
 viêm, nước sắc làm giảm acid ascorbic trong tuyến thượng
 thận, làm giảm lượng bạch cầu ưa acid trong máu ngoại vi,
-tăng cường hoạt động men RNA polymerase trong gan.
+tăng cường hoạt động men RNApolymerase trong gan.
 
 Phân tích theo đông y :
 
@@ -2912,7 +2908,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bở I biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -3065,7 +3061,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -3394,7 +3390,7 @@ hoàng, tên khoa học Rehman nia glutinosa (Gaertn.) Libosch.
 tác dụng của chất iridoid glycoside A,B,C,D, một mặt kích
 thích tiết in sulin, một mặt giảm glycogen trong gan. Trong
 Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt tính ức
-chế men aldose reduc tase để ức chế sự hình thành đục thủy
+chế menaldose reduc tase để ức chế sự hình thành đục thủy
 tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -3689,7 +3685,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -3747,7 +3743,7 @@ chất ester làm tăng cường chuyển hóa các lipid no và
 cholesterol, lipid trong máu, chữa xơ mỡ động mạch, chống
 viêm, nước sắc làm giảm acid ascorbic trong tuyến thượng
 thận, làm giảm lượng bạch cầu ưa acid trong máu ngoại vi,
-tăng cường hoạt động men RNA polymerase trong gan.
+tăng cường hoạt động men RNApolymerase trong gan.
 
 Phân tích theo đông y :
 
@@ -4044,7 +4040,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bởi biến chứng của bệnh tiểu đường.
 
 Phân tích theo đông y :
@@ -4162,8 +4158,7 @@ sâm dùng dài ngày phòng ngừa được phản ứng gây sốt do
 99tiêm vac cin gây ra, dịch chiết nhân sâm làm tăng cao hàm
 lượng
 
-adrenocorticot ropic
-hormone
+adrenocorticot ropic hormone
 (ACTH)
 và corticosteron. Các gin senoid có tác dụng trên hệ nội tiết, ức
 chế rõ rệt những thay đổi về trọng lượng của tuyến thượng
@@ -4333,7 +4328,7 @@ Libosch.. Địa hoàng có hoạt tính chặn miễn dịch, hạ đường
 máu nhờ tác dụng của chất iridoid glycoside A,B,C,D, một
 mặt kích thích tiết in sulin, một mặt giảm glycogen trong gan.
 Trong Địa hoàng có 3 phenet hyl alcohol glycoside có hoạt
-tính ức chế men aldose reduc tase để ức chế sự hình thành đục
+tính ức chế menaldose reduc tase để ức chế sự hình thành đục
 thủy tinh thể gây ra bở I biến chứng của bệnh tiểu đường.
 
 

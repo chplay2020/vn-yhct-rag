@@ -199,8 +199,7 @@ dược lý học 2007 - đại học Y Hà nội
 2.3.
 Các chất dẫn truyền khác
 Trong những năm gần đây, nhiều nghiên cứu đã cho thấy rằng phần lớn các nơ ron trung ương và
-ngoại biên có chứa 2 hoặc nhiều chất dẫn truyền, có thể được giải phóng ra cùng một lúc ở xinap
-khi dây thần kinh bị kích thích. Như vậy, ở hệ thần kinh thực vật, ngoài acetylcholin (ACh) và
+ngoại biên có chứa 2 hoặc nhiều chất dẫn truyền, có thể được giải phóng ra cùng một lúc ở xinap khi dây thần kinh bị kích thích. Như vậy, ở hệ thần kinh thực vật, ngoài acetylcholin (ACh) và
 noradrenalin (NA), còn có những chất dẫn truyền thần kinh (neurot ran smit ters) khác cùng được
 giải phóng và có thể có vai trò như chất cùng dẫn truyền (cot ran smit ters), chất điều biến thần
 kinh (neuromodulators) hoặc chính nó cũng là chất dẫn truyền (tran smit ters).
@@ -237,7 +236,7 @@ tiết ra acetylcholin.
 - Các dây thần kinh vận động đi đến các cơ xương (thuộc hệ thần kinh trung ương) cũng giải
 phóng ra acetylcholin.
 - Trong não, các xung tác giữa các nơ ron cũng nhờ acetylcholin. Ngoài ra còn có những chất
-trung gian hóa học khác như serotonin, catec holamin, acid - gama- amino- butyic (GABA)...
+trun ggian hóa học khác như serotonin, catec holamin, acid - gama- amino- butyic (GABA)...
 
 
 dược lý học 2007 - đại học Y Hà nội
@@ -286,8 +285,8 @@ dược lý học 2007 - đại học Y Hà nội
 (sách dùng cho sinh viên hệ bác sĩ đa khoa)
 Dẫn truyền xinap ở thần kinh
 ngoại biên
-Trung gian acetylcholin
-Trung gian noradrenalin
+Trun ggian acetylcholin
+Trun ggian noradrenalin
 (cholinergic)
 (adrenergic)
 Hệ muscarinic(M)

@@ -114,7 +114,7 @@ sách dùng cho sinh viên hệ bác sĩ đa khoa
 Là nhóm thuốc tiêu biểu, được tìm ra đầu tiên.
 * Nguồn gốc và đặc tính lý hóa
 Trong sản xuất công nghiệp, lấy từ Penicillium notatum, 1 m L môi trường nuối cấy cho 300 UI; 1
-đơn vị quốc tế (UI)= 0,6 g Na ben zylpenicilin hay 1.000.000 UI = 0,6g. Penicilin G là dạn g bột
+đơn vị quốc tế (UI)= 0,6 g Naben zylpenicilin hay 1.000.000 UI = 0,6g. Penicilin G là dạn g bột
 trắng, vững bền ở nhiệt độ thường, nhưng ở dung dịch nước, phải bảo quản lạnh và chỉ vững bền
 ở p H 6- 6,5, mất tác dụng nhanh ở p H < 5 và > 7,5
 * Phổ kháng khuẩn
@@ -716,7 +716,7 @@ khi có penicilin.
 Sulfamid đều là các chất tổng hợp, dẫn xuất của Sulfanilamid do thay thế nhóm - NH2 hoặc
 nhóm - SO2NH2. Là bột trắng, rất ít tan trong nước, dễ tan hơn tron g huyết thanh và mật.
 2.8.2. Cơ chế tác dụng và phổ kháng khuẩn
-PABA (para amino ben zoic acid) là nguồn nguyên liệu cần thiết cho vi khuẩn tổng hợp acid folic
+PABA (para amino ben zoicacid) là nguồn nguyên liệu cần thiết cho vi khuẩn tổng hợp acid folic
 để phát triển. Do có cấu trúc hóa học gần giống với PABA nên sulfamid đã tranh chấp với PABA
 ngăn cản quá trình tổng hợp acid folic của vi khuẩn.
 Ngoài ra, sulfamid còn ức chế dihydrofolat syn thetase, một en zym tham gia tổng hợp acid folic
@@ -814,9 +814,9 @@ một số chủng. Không tác dụng trên Pseudomonas, S. perfrin gens, xoắ
 2.9.2. Dược động học
 Tỷ lệ lý tưởng cho hiệp đồng tác dụng của nồng độ thuốc trong máu của sulfamet hoxazol (SMZ):
 trimet hop rim (TMP) là 20: 1. Vì TMP hấp thu nhanh hơn SMZ (pic huyết thanh là 2 và 4h) và t/ 2
-10h, cho nên nếu tỷ lệ SMZ: TMP trong viên thuốc là 5: 1 (800 mg sulfameth oxazol + 160 mg
+10h, cho nên nếu tỷ lệ SMZ: TMP trong viên thuốc là 5: 1 (800 mg sulfamet hoxazol + 160 mg
 trimet hop rim), sau khi uống, nồng độ trong máu sĩ đạt được tỷ lệ 20: 1(40 g/ m L huyết tương
-sulfamet hoxazol và 2 g/ m L trimet hop rim).
+sulfamet hoxazol và 2 g/ m Ltrimet hop rim).
 Cả 2 thuốc được hấp thu qua đường uống, phân phối tốt vào các mô (dịch não tuỷ, mật, tuyến tiền
 liệt). Thải trừ chủ yếu qua nước tiểu với nồng độ còn hoạt tính.
 2.9.3. Độc tính và chống chỉ định
@@ -835,7 +835,7 @@ Thuốc kết hợp được chỉ định chính trong nhiễm khuẩn tiết n
 hoặc 800 mg). Liều thường dùng là 4- 6 viên (loại 80 mg TMP + 400 mg SMZ), uống trong 10
 ngày
 . Dịch treo: trong 5 m L có 400 mg TMP + 200 mg SMZ. Dùng cho trẻ em.
-. Dịch tiêm truyền: TMP 80 mg + SMZ 400 mg trong ống 5 m L. Hoà trong 125 m L dextrose 5%
+. Dịch tiêm truyền: TMP 80 mg + SMZ 400 mg trong ống 5 m L. Hoà trong 125 m Ldextrose 5%
 truyền tĩnh mạch trong 60- 90 phút.
 3. một số vấn đề về sử dụng kháng sinh
 3.1. Nguyên tắc dùng kháng sinh
@@ -1055,8 +1055,7 @@ Doxycyc line
 
 dược lý học 2007 - đại học Y Hà nội
 sách dùng cho sinh viên hệ bác sĩ đa khoa
-Aminogl
-id
+Aminoglid
 Proteus
 Nhiễm
 khuẩn

@@ -52,7 +52,7 @@ rất yếu.
 1.1.1.4. Có tác dụng kháng histamin H 1, nhưng yếu.
 1.1.2. Tương tác thuốc
 - Clop romazin làm tăng tác dụng của thuốc ngủ, thuốc mê, thuốc tê, thuốc giảm đau loại
-morphin, thuốc hạ huyết áp (nhất là guaneth idin, thuốc ức chế en zym chuyển an gioten sin), rượu.
+morphin, thuốc hạ huyết áp (nhất là guanet hidin, thuốc ức chế en zym chuyển an gioten sin), rượu.
 - Clop romazin đối kháng tác dụng với các thuốc kích thích thần kinh tâm thần, đặc biệt với
 am phetamin và các chất gây ảo giác.
 - Giữa các thuốc an thần kinh, không có tác dụng hiệp đồng tăng mức, nhưng về mặt điều trị các
@@ -132,8 +132,7 @@ Do có nhiều tác dụng đa dạng, clop romazin được dùng ở nhiều k
 1.2. Dẫn xuất butyrop henon: Haloperidol
 Haloperidol (Haldol) là tiêu biểu cho nhóm an thần kinh đa năn g (polyvalent neurolep tics) hay an
 thần kinh “chống triệu chứng dương tính” (“an tip roduc tive”), chống thao cuồng.
-Về cấu trúc hoá học, haloperidol gần giống với acid gam ma -amin- butyric (GABA) là chất trung
-gian hoá học của các quá trình ức chế trong thần kinh trung ương. Tác dụng an tâm thần mạnh là
+Về cấu trúc hoá học, haloperidol gần giống với acid gam ma -amin- butyric (GABA) là chất trun ggian hoá học của các quá trình ức chế trong thần kinh trung ương. Tác dụng an tâm thần mạnh là
 do ức chế recep tor dopaminergic trung ương và cũng vì vậy tác dụng không mong muốn, hội
 chứng Parkin son cũng rõ.
 1.2.1. Chỉ định
@@ -154,7 +153,7 @@ Giống như với clop romazin, hay gặp ngủ gà, hội chứng ngoài bó t
 1.3. Dẫn xuất ben zamid: Sulpirid (Dogmatil)
 1.3.1. Tác dụng
 Sulpirid là đại diện cho nhóm ben zamid, là thuốc an tâm thần có tác dụng lưìng cực (bipolar):
-- Liều 600mg có tác dụng giải ức chế chống triệu chứng âm tính, kích thích recep tor sau xinap
+- Liều 600mg có tác dụng giải ức chế chống triệu chứng âm tính, kích thích recep tor sauxinap
 của hệ dopaminergic trung ương.
 
 

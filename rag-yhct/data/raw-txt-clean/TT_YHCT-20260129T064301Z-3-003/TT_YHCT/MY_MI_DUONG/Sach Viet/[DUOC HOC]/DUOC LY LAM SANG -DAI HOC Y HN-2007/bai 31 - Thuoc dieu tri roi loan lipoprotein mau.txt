@@ -28,8 +28,8 @@ gồm B48, B100; C gồm C1, C2, C4 và nhóm E gồm E1, E2, E4.
 Do tỉ lệ protein và lipid khác nhau nên tỉ trọng dao động từ 0,9 đến trên 1,2. Dựa vào tỷ
 trọng, lipop rotein được xếp thành 5 loại có chức năng khác nhau.
 - Hạt vi thể dưìng chấp (chylomic ron)
-- Lipop rotein tỷ trọng rất thấp (VLDL: very low den sity lipop rotein)
-- Lipop rotein tỷ trọng thấp (LDL: low den sity lipop rotein)
+- Lipop rotein tỷ trọng rất thấp (VLDL: very lowden sity lipop rotein)
+- Lipop rotein tỷ trọng thấp (LDL: lowden sity lipop rotein)
 - Lipop rotein tỷ trọng trung bình (IDL: in termediate den sity lipop rotein)
 - Lipop rotein tỷ trọng cao (HDL: high den sity lipop rotein)
 

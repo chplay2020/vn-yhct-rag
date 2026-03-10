@@ -1,126 +1,118 @@
-Global Journal of Medical Terminology Research and In formatics, Vol. 2, No, 2, 2024
+Global Journalof Medical Terminology Researchand In formatics, Vol. 2, No, 2, 2024
 ISSN-3107-5282
 5
-On tology-Driven Ap proac hes for Stan dardizing Rare
+On tology-Driven Ap proac hesfor Stan dardizing Rare
 Disease Terminology
 Dr. Divya Pillai1, and Dr. San jay Bhatia2
-1Am rita In stitute of Medical Scien ces, Koc hi.
-2Am rita In stitute of Medical Scien ces, Koc hi.
+1Am rita In stituteof Medical Scien ces, Koc hi.
+2Am rita In stituteof Medical Scien ces, Koc hi.
 Received: 04/March/2024; Revised: 06/Ap ril/2024; Ac cep ted: 06/May/2024; Published: 28/June/2024
 Abstract
 Rare diseases rep resent ap proximately 7000 disease en tities that affect almost 3.5 % of the world
-population. Each rare disease receives in con sistent nomen clature from different medical systems which
-im pedes research, diagnosis and treat ment. In this paper, we study the problem of in tegrating rare disease
-terminologies using seman tic models through an on tology driven ap proach. Using existing on tological
-datasets and on tology reasoners, we develop an up per on tology which automates the map ping and
-alignment of diseases’ names and definitions wit hin databases. The data in teroperability, im proved
-ret rieve and en han ced framework adap tability presen ted in the results demonstrate the effec tiveness of the
-system. This study presents an in tegration ap proach that gives precise and scalable solution for
-harmonization of rare disease in formatics terminologies.
+population. Eac hrare disease receives in con sistent nomen clature from different medical systems whic him pedes research, diagnosis andtreat ment. In this paper, westudy thep roblem ofin tegratin grare disease
+terminologies usin gseman tic models through anon tology driven ap proach. Usin gexisting on tological
+datasets an don tology reasoners, wedevelopan up per on tology which automates themap pin gand
+alignment of diseases’ names an ddefinitions wit hin databases. Thedata in teroperability, im proved
+ret rieve an den han ced framework adap tability presen ted in the results demonstrate theeffec tiveness ofthe
+system. This study presents anin tegration ap proachthat gives precise andscalable solution for
+harmonization ofrare disease in formatics terminologies.
 Keywords: Rare Diseases On tology, Seman tic Stan dardization, Harmonization, Medical In formatics,
 Data In teroperability, Automated Reasoning, Disease On tology
 1 IN TRODUC TION
-An ailment is called rare when their prevalen ce is less than one in two thousands persons.
-In dividually, they are rare but there are over seven thousand such diseases oc curring all over the world.
-While the in formatics of rare diseases cap tures in formation and facilitates the organizations of rare
-diseases data, it still grap ples with the phenomenon of data silos ac cessibility. One of which is
-on tological fragmen tation due to un classified nomen clature systems stems from heterogeneous
-diagnosis criteria and locale specific public health coding system. As previously men tioned, these
-overlap ping terms lead to subop timal results. Take, for in stan ce, a sin gle rare disease that could be
-referred to by different names wit hin different databases, making its iden tification and analysis
-exceedin gly difficult. As far as the systematization of medical terminology is con cerned, there is a
-growing demand for a fully in tegrated ap proach system that focuses on the un derlying seman tics that
-is clear in recent years, especially with the advent of efforts direc ted towards in dividualized and
-precision ap proac hes to medicine.
-The rapid advan cement in life scien ces in creases the volume and com plexity of medical knowledge
-which makes it necessary to con tinually up date the chan ges in the un derlying con cepts of medicine
-ac ross varying fields and bran ches of medicine. On tology driven ap proac hes provide a struc ture of
-knowledge in a specific field using a con trolled vocabulary and relation ships through which domain
+Anailment iscalled rare when their prevalen ce isless than onein twot housands persons.
+In dividually, they arerare but there areover seven thousand suc hdiseases oc currin gall over theworld.
+While thein formatics ofrare diseases cap tures in formation an dfacilitates theorganizations ofrare
+diseases data, it still grap ples withthe phenomenon ofdata silos ac cessibility. One of which is
+on tological fragmen tation dueto un classified nomen clature systems stems from heterogeneous
+diagnosis criteria an dlocale specific public healthcodin gsystem. Aspreviously men tioned, these
+overlap pin gterms lead tosubop timal results. Take, forin stan ce, a sin gle rare disease that could be
+referred toby different names wit hin different databases, makin gits iden tification an danalysis
+exceedin gly difficult. Asfar asthe systematization ofmedical terminology iscon cerned, there is a
+growin gdemand for a fully in tegrated ap proac hsystem that focuses on the un derlying seman tics that
+is clear in recent years, especially withthe advent ofefforts direc ted towards in dividualized and
+precision ap proac hes tomedicine.
+Therapid advan cement in life scien ces in creases thevolume an dcom plexity ofmedical knowledge
+whic hmakes it necessary tocon tinually up date thec han ges in the un derlyin gcon cepts ofmedicine
+ac ross varyin gfields andbran ches ofmedicine. On tology driven ap proac hes provide a struc ture ofknowledge in a specific field using a con trolled vocabulary an drelation ships through whic hdomain
 
 
-Global Journal of Medical Terminology Research and In formatics, Vol. 2, No, 2, 2024
+Global Journalof Medical Terminology Researchand In formatics, Vol. 2, No, 2, 2024
 ISSN-3107-5282
-6con cepts can be arran ged forming a hierarchy enabling formal rep resen tations. This elaborative
-lan guage permits the syn thesis of heterogeneous data sources in to one cohesive body referred to as
-on tology which enables data to be syn thesized from different sources. The opus of the Human
-Phenotype On tology (HPO), Orphanet Rare Disease On tology (ORDO), and SNOMED CT can serve
-as un derlying biomedical on tologies.
-Alon gside these resources, there lies a problem regarding the in tegration, up dating, and en han cing
-medical con cepts and knowledge with ever-evolving medical knowledge terminologies. Not on ly have
-these most on tologies been developed in silos, creating gaps in usefulness resulting in poor reliability
-and validity, but also scope gaps have been created causing overlap, which blurs the distin ction bet ween
-these con cepts. By using an on tological ap proach for unifying rare disease terminology, more effec tive
-data mining, seam less patient care through in teroperable health records, and bet ter in ter and in tra
+6con cepts can be arran ged forming a hierarchy enablin gformal rep resen tations. This elaborative
+lan guage permits thesyn thesis ofheterogeneous data sources in to onecohesive body referred toas
+on tology whic henables data tobe syn thesized from different sources. The opus of the Human
+Phenotype On tology (HPO), Orphanet Rare Disease On tology (ORDO), and SNOMED CTcan serve
+asun derlying biomedical on tologies.
+Alon gside these resources, there lies a problem regardingthe in tegration, up dating, an den han cin gmedical con cepts andknowledge with ever-evolving medical knowledge terminologies. Not on ly have
+these most on tologies been developed in silos, creatin ggaps inusefulness resultin gin poor reliability
+an dvalidity, butalso scope gaps have been created causin goverlap, whichblurs thedistin ction bet ween
+these con cepts. Byusin gan on tological ap proac hfor unifyin grare disease terminology, more effec tive
+data mining, seam less patient care through in teroperable healthrecords, and bet ter in ter and in tra
 coun try collaborations can be at tained.
-The paper discusses a framework that uses existing disease on tologies, which are augmen ted with
-automated reasoning, to iden tify and correct seman tic mismat ches. These frameworks are construc ted
-to be scalable and adap table for different regions and in stitutions, thus harmonizing the terminology
-system. We evaluate its efficacy by con duc ting performan ce evaluations and com paring the results with
-traditional ap proac hes. The following sec tions provide a thorough descrip tion of the research’s system
-design, fin dings, and their relevan ce to healthcare.
+Thepaper discusses a frameworkthat uses existin gdisease on tologies, whic hare augmen ted wit hautomated reasoning, toiden tify an dcorrect seman tic mismat ches. These frameworks areconstruc ted
+tobe scalable an dadap table fordifferent regions an din stitutions, thus harmonizingthe terminology
+system. Weevaluate it sefficacy bycon duc ting performan ce evaluations an dcom paringthe results withtraditional ap proac hes. Thefollowin gsec tions provide a thorough descrip tion ofthe research’s system
+design, fin dings, andtheir relevan ce tohealthcare.
 2 LITERARY REVIEW
-An in creasing num ber of recent studies have been documen ted focusing on the utilization of
-on tology-based ap proac hes for stan dardization of healthcare data, especially for the orphanet rare
-disease namespace. A few notable studies done in 2022 and 2023 demonstrate the progress in this area.
-Li et al., (2022) focused on the issue of a seman tic gap in multi-source healthcare data and proposed
-a hybrid on tology alignment model that raised both recall and precision for equivalent medical term
-iden tification. Their fin dings em phasized in tegrating a diverse ran ge of lexical, struc tural, and domain-
+Anin creasin gnum ber ofrecent studies have been documen ted focusin gon theutilization of
+on tology-based ap proac hes forstan dardization ofhealthcare data, especially forthe orphanet rare
+disease namespace. A fewnotable studies done in 2022 and 2023 demonstrate thep rogress in this area.
+Li et al., (2022) focused on the issue of a seman tic gapin multi-source healthcare data andproposed
+a hybrid on tology alignment model that raised bot hrecall andprecision forequivalent medical term
+iden tification. Their fin dings em phasized in tegrating a diverse ran ge oflexical, struc tural, and domain-
 level in formation.
-Wang & Zhou, (2023) looked in to the in corporation of Orphanet’s ORDO in to clinical decision
-sup port systems. They noted a significant im provement in diagnosis of rare diseases, with on tology-
-driven systems in creasin gly iden tifying phenotypic overlaps and synonyms for diseases.
-Silva et al., (2023) made anot her noteworthy con tribution by developing a framework for cross-
-lin king scarce disease registries in Europe using the HPO and SNOMED CT. This ap proach
-stan dardization of terminology en han ced the searchability of patient cohorts with com parable
+Wang & Zhou, (2023) looked in to thein corporation of Orphanet’s ORDO in to clinical decision
+sup port systems. They noted a significant im provement in diagnosis ofrare diseases, with on tology-
+driven systems in creasin gly iden tifying phenotypicoverlaps an dsynonyms fordiseases.
+Silva et al., (2023) made anot her noteworthy con tribution bydeveloping a frameworkfor cross-
+lin kingscarce disease registriesin Europe usingthe HPOand SNOMED CT. This ap proachstan dardization ofterminology en han ced thesearchability ofpatient cohorts with com parable
 phenotypes (HPO 2023).
-In NLP, Patel & Nguyen, (2022) advan ced the study by proposing a tran sform model to map
-unstruc tured clinical text to rare disease on tologies. Their model ap pears to suc cessfully tac kle the
+In NLP, Patel & Nguyen, (2022) advan ced thestudy byp roposing a tran sform model tomapunstruc tured clinical text torare disease on tologies. Their model ap pears tosuc cessfully tac kle the
 
 
-Global Journal of Medical Terminology Research and In formatics, Vol. 2, No, 2, 2024
+Global Journalof Medical Terminology Researchand In formatics, Vol. 2, No, 2, 2024
 ISSN-3107-5282
-7map ping of detailed relation ships wit hin com plex diseases, but shortcomings of generalizability ac ross
-lan guage and in stitution were noted.
-Fink et al., (2023) added volatility of on tology as an emergent building block of in teroperability to
-the already existing discourse on the im portan ce of ap plying the FAIR prin cip les of Fin dable,
-Ac cessible, In teroperable, and Reusable in rare disease research. They promoted con cepts of
-collaborative on tology curation where tools can be designed to main tain perpetual revision and
+7map ping ofdetailed relation ships wit hin com plex diseases, but shortcomings ofgeneralizability ac ross
+lan guage an din stitution were noted.
+Fink et al., (2023) added volatility ofon tology asan emergent buildingbloc kof in teroperability to
+thealready existing discourse on the im portan ce ofap plyingthe FAIR prin cip lesof Fin dable,
+Ac cessible, In teroperable, and Reusable in rare disease research. They promoted con cepts ofcollaborative on tology curation where tools can be designed tomain tain perpetual revision and
 alignment.
-As a whole, these works em phasized the value of using on tology-based ap proac hes to en han ce the
-syn thesis of fragmen ted data for precise diagnostics and seam less data in teroperability. There are,
-however, still in con sisten cies in the in tegration of com peting on tologies along with con stant modular
-frameworks. Our ap proach com bines these solutions and proposes a dynamic bridge for on tology
+As a whole, these works em phasized thevalue ofusing on tology-based ap proac hes toen han ce the
+syn thesis offragmen ted data forprecise diagnostics an dseam less data in teroperability. There are,
+however, still in con sisten cies in the in tegration ofcom peting on tologies alon gwit hcon stant modular
+frameworks. Ourap proac hcom bines these solutions andproposes a dynamic bridge foron tology
 discrepan cy based on reasoning.
 3 MET HODOLOGY
-This work's system framework is built around four main modules: seman tic reasoning, validation,
-con flict resolution, and on tology in tegration. The framework aims to align the different terminologies
+This work's system frameworkis built around four main modules: seman tic reasoning, validation,
+con flict resolution, an don tology in tegration. Theframeworkaims toalignthe different terminologies
 used ac ross rare disease databases in to a sin gle on tology-based systematized rep resen tation.
-1. On tology In tegration Module: The module downloads and parses disease on tologies like
-ORDO, HPO, and SNOMED CT. The system uses the OWL API to recon cile ap plicable class
-hierarchies direc tory merging synonym shared object properties.
-2. Con flict Detec tion and Resolution: Con flic ting definitions or labels for any one con cept create
-con flict. A hybrid string similarity (Levenshtein distan ce), seman tic distan ce (Word Net), and con cept
-con text using em bedding models (Bio BERT) are ap plied for con flict detec tion. Con flicts are scored
-and sorted in ac cordan ce with their con fiden ce scores and then resolved based on an established rule-
+1. On tology In tegration Module: Themodule downloads an dparses disease on tologies like
+ORDO, HPO, and SNOMED CT. Thesystem usesthe OWL APIto recon cile ap plicable class
+hierarchies direc tory mergin gsynonym shared object properties.
+2. Con flict Detec tionand Resolution: Con flic ting definitions orlabels forany onecon cept create
+con flict. A hybrid string similarity (Levenshtein distan ce), seman tic distan ce (Word Net), an dcon cept
+con text using em beddin gmodels (Bio BERT) areap plied forcon flict detec tion. Con flicts arescored
+an dsorted inac cordan ce withtheir con fiden ce scores andthen resolved based onan established rule-
 based hierarchy.
-3. Reasoning En gine: En sures all new assertions made in the on tology will not con tradict the pre-
-existing axioms. An OWL reasoner, for exam ple, Hermi T, runs a con sisten cy check and derives new
-equivalen ces. The module is also respon sible for verifying that all assertions made after merging are
-logically valid and that subsum ption relations, such as disease syn drome and sym ptom, are correc tly
+3. Reasoning En gine: En sures allnew assertions made in the on tology will not con tradict the pre-
+existin gaxioms. An OWLreasoner, forexam ple, Hermi T, runs a con sisten cy chec kand derives new
+equivalen ces. Themodule isalso respon sible forverifyingthat allassertions made after mergin gare
+logically valid andthat subsum ption relations, suc has disease syn drome an dsym ptom, arecorrec tly
 in ferred.
-4. Validation and Out put: We evaluate the harmonized on tology by ap plying it to several clinical
-cases and chec king whet her there is en han ced resolution of terms (i. e., bet ter recognition of diseases
-ac ross records). The on tology is out put in RDF and JSON-LD formats for system in teroperability.
-The system was built with Pro té gé 5.5 and was tested against 500 rare disease en tries from Orphanet
-as well as clinical data from MIMIC-III. In teroperability met rics were calculated through the
+4. Validationand Out put: Weevaluate theharmonized on tology byap plyin git toseveral clinical
+cases andchec kingwhet her there isen han ced resolution ofterms (i. e., bet ter recognition ofdiseases
+ac ross records). Theon tology isout putin RDFand JSON-LD formats forsystem in teroperability.
+The system was built with Pro té gé 5.5 an dwas tested against 500 rare disease en tries from Orphanet
+aswell asclinical data from MIMIC-III. In teroperability met rics were calculated through the
 
 
-Global Journal of Medical Terminology Research and In formatics, Vol. 2, No, 2, 2024
+Global Journalof Medical Terminology Researchand In formatics, Vol. 2, No, 2, 2024
 ISSN-3107-5282
 8harmonized terminology com paring unstruc tured clinical records against a provided gold stan dard for
 an notation.
-4 RESULTS AND DISCUSSION
-Our system demonstrated significant im provements in terminology con sisten cy and data
+4 RESULTSAND DISCUSSION
+Oursystem demonstrated significant im provements in terminology con sisten cy an ddata
 in teroperability.
 Table 1: Term Resolution Ac curacy Com parison
 Met hod
@@ -136,9 +128,9 @@ NLP-on ly (BERT)
 Proposed On tology System 0.91
 0.88
 0.89
-Both manual and NLP based met hods were out performed by the proposed on tology-driven
-framework. The reason for this advan tage is its capacity to resolve am biguities of meaning associated
-with diseases and deduce relations that ot her met hods based on string mat ching fail to iden tify.
+Bot hmanualand NLPbased met hods were out performed byt he proposed on tology-driven
+framework. Thereason forthis advan tage isits capacity toresolve am biguities ofmeaning associated
+wit hdiseases an ddeduce relations that ot her met hods based onstring mat chin gfail toiden tify.
 Table 2: Performan ce Com parison of On tology-Driven Met hods
 Met hod
 Ac curacy (%) Speed (ms/query) Adap tability (score out of 10)
@@ -153,46 +145,42 @@ NLP-based (BERT)
 Proposed On tology System 91
 80
 9
-These results showcase the reasoning en gine's ac curacy and trac king performan ce ac ross different
-datasets. The resolution suc cess rate was best in the Orphanet dataset and somewhat lower in
-unstruc tured clinical notes. Nevertheless, in all noted con ditions, the im provement was statistically
+These results showcase thereasoning en gine's ac curacy andtrac king performan ce ac ross different
+datasets. Theresolution suc cess rate wasbest in the Orphanet dataset an dsomewhat lower in
+unstruc tured clinical notes. Nevertheless, inall noted con ditions, theim provement wasstatistically
 significant (p < 0.01).
-Study On tology-bac ked synergistic ap proac hes on tologies en han ce not on ly in teroperability but also
-analyses such as patient similarity, phenotype-based diagnostic, and patient model simulations. The
-out lined issues are on tology drift, con stant chan ge man dates, and oc casional am biguity in the synonym
-map ping leading to ‘tissues’. These can be solved through collaborative spaces and automated up dating
+Study On tology-bac ked synergistic ap proac hes on tologies en han ce noton ly in teroperability butalso
+analyses suc has patient similarity, phenotype-based diagnostic, an dpatient model simulations. The
+out lined issues areon tology drift, con stant chan ge man dates, an doc casional am biguity in the synonym
+map pin gleadin gto ‘tissues’. These can be solved through collaborative spaces an dautomated up dating
 systems.
 5 CON CLUSION
-On tology met hodologies formulate rare diseases' stan dards in a flexible and precise man ner. Using
-formal seman tics and automated reasoning allows our system to amalgamate heterogeneous
-terminologies through and beyond data in teroperability and phenomenical analytics ac curacy. Results
-have out performed traditional met hods, as well as NLP-based ap proac hes, demonstrating greater
+On tology met hodologies formulate rare diseases' stan dards in a flexible andprecise man ner. Usin gformal seman tics an dautomated reasonin gallows oursystem toamalgamate heterogeneous
+terminologies through an dbeyond data in teroperability andphenomenical analytics ac curacy. Results
+have out performed traditional met hods, as well as NLP-based ap proac hes, demonstratinggreater
 
 
-Global Journal of Medical Terminology Research and In formatics, Vol. 2, No, 2, 2024
+Global Journalof Medical Terminology Researchand In formatics, Vol. 2, No, 2, 2024
 ISSN-3107-5282
-9efficacy. The met hod provides equal relevan ce to any chan ges, additions, or removals of medical terms,
-thus im proving research and clinical value. Work with regard to real-time elec tronic health cen sus
-in tegration, multilin gualism, and expan sion towards treat ment and drug related on tologies un der rare
-disease in formatics will be prioritized in precision care in frastruc ture initiatives.
+9efficacy. Themet hod provides equal relevan ce toany chan ges, additions, orremovals ofmedical terms,
+thus im provin gresearchand clinical value. Work with regard to real-time elec tronic healthcen sus
+in tegration, multilin gualism, an dexpan sion towards treat ment anddrugrelated on tologies un der rare
+disease in formatics will bep rioritized in precision care in frastruc ture initiatives.
 REFEREN CES
-[1] Li, J., Zhang, Y., & Hu, W. (2022). Seman tic
-in tegration
+[1] Li, J., Zhang, Y., & Hu, W. (2022). Seman ticin tegration
 in heterogeneous
 medical
-databases using hybrid on tologies. Journal
+databases usin ghybrid on tologies. Journal
 of Biomedical In formatics, 128, 104050.
-[2] Wang, F., & Zhou, X. (2023). En han cing
-rare disease diagnosis with in tegrated
+[2] Wang, F., & Zhou, X. (2023). En han cin grare disease diagnosis with in tegrated
 on tology-based decision systems. Artificial
-In telligen ce in Medicine, 139, 102460.
+In telligen cein Medicine, 139, 102460.
 [3] Silva, R. et al., (2023). Harmonization of
 European rare disease registries through
-on tology lin kage. Orphanet Journal of Rare
+on tology lin kage. Orphanet Journalof Rare
 Diseases, 18(1), 113.
-[4] Patel, A., & Nguyen, T. (2022). Map ping
-unstruc tured clinical narratives to rare
-disease con cepts with deep learning. Journal
+[4] Patel, A., & Nguyen, T. (2022). Map pin gunstruc tured clinical narratives torare
+disease con cepts wit hdeep learning. Journal
 of Biomedical Seman tics, 13(1), 22.
 [5] Fink, D., Thomas, J., & Meyer, P. (2023).
 FAIR data prin cip les in rare disease research.

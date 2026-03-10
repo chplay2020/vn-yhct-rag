@@ -54,7 +54,7 @@ Chỉ có tác dụng trên Cryp tococ cus neoformans và vài loại can dida. 
 thuốc chống nấm khác nên thường được dùng phối hợp để tránh kháng thuốc.
 Flucytosin được nhập vào tế bào nấm nhờ en zym cytosin permease. Trong tế bào, 5 -FC được
 chuyển thành 5-FU (5 fluorouracil), sau đó thành 5 fluorodeoxyuridin monop hosphat (F -d UMP)
-ức chế tổng hợp DNA, và thành fluorouridin tri phosphat (FUTP) ức chế tổng hợp RNA. Tế bào
+ức chế tổng hợp DNA, và thành fluorouridin trip hosphat (FUTP) ức chế tổng hợp RNA. Tế bào
 người và tế bào động vật có vú không chuyển được 5 -FC thành 5-FU, vì thế 5-FC có tác dụng
 chọn lọc trên nấm.
 1.2.3. Dược động học
@@ -143,7 +143,7 @@ Không dùng cho phụ nữ có thai hoặc đang cho con bú.
 Không dùng cho trẻ dưới 16 tuổi vì là thuốc mới, chưa đủ số liệu theo dõi.
 1.4. Griseofulvin
 1.4.1. Đặc điểm
-Kháng sinh lấy từ nấm Penicillium griseof ulvum, không tan trong nước, vững bền với nhiệt.
+Kháng sinh lấy từ nấm Penicillium griseofulvum, không tan trong nước, vững bền với nhiệt.
 1.4.2. Tác dụng và cơ chế
 Tác dụng trên nấm da, biểu bì, tóc, móng: Mic rosporum, Epidermop hyton và Tric hop hyton.
 Không có tác dụng trên vi khuẩn.

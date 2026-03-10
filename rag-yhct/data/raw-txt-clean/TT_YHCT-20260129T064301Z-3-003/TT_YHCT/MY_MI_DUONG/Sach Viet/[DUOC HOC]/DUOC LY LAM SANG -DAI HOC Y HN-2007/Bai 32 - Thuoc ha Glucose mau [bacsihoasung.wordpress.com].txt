@@ -20,8 +20,7 @@ trị dùng in sulin.
 lớn tuổi, không giảm số lượng nhưng có giảm chức năng gây nên sự rối loạn bài tiết
 in sulin của tế bào , nồng độ in sulin trong máu bình thường hoặc cao và có hiện tượng
 kháng in sulin ở các mô ngoại vi. Ngoài ra, còn có tăng glucagon và giảm đáp ứng của tế
-bào với GLP1(glucagon like pep tid 1) và với GIP(glucose depen dent in sulin tropic
-pep tid ). Theo các thống kê, 80 -90% bệnh nhân có tăng glucose máu thuộc typ II. Thuốc
+bào với GLP1(glucagon like pep tid 1) và với GIP(glucose depen dent in sulin tropic pep tid ). Theo các thống kê, 80 -90% bệnh nhân có tăng glucose máu thuộc typ II. Thuốc
 điều trị chủ yếu là các thuốc chống đái tháo đường tổng hợp dùng đường uống.
 2. Các thuốc hạ glucose máu
 Hiện nay có 2 cách phân loại thuốc hạ glucose máu:
@@ -228,7 +227,7 @@ glucose máu có chức năng thận suy yếu.
 2.2.1.5. Tác dụng không mong muốn:
 - Hạ glucose máu, dị ứng, rối loạn tiêu hóa, buồn nôn, nôn, vàng da tắc mật.
 - Tan máu, thoái hóa bạch cầu hạt.
-- Phản ứng giống disulfuram khi dùng clo propamid cùng rượu (gặp khoảng 1-15% bệnh
+- Phản ứng giống disulfuram khi dùng clop ropamid cùng rượu (gặp khoảng 1-15% bệnh
 nhân).
 - Hạ nat ri máu hay gặp với clop ropamid, do có tác dụng giống ADH (ở 50% bệnh nhân).
 2.2.1.6. Tương tác thuốc:

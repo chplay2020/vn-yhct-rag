@@ -92,7 +92,7 @@ heme, gây độc với ký sinh trùng sốt rét, làm ly giải ký sinh trù
 Thuốc tập trung trong không bào thức ăn của ký sinh trùng sốt rét, làm tăng p H ở đó và
 ảnh hưởng đến quá trình giáng hóa hemoglobin, làm giảm các amino acid cần thiết cho sự
 tồn tại của ký sinh trùng.
-Cloroquin còn có thể gắn vào chuỗi xoắn kép DNA ức chế DNA và RNA polymerase, cản
+Cloroquin còn có thể gắn vào chuỗi xoắn kép DNA ức chế DNA và RNApolymerase, cản
 trở sự tổng hợp nuc leop rotein của ký sinh trùng sốt rét.
 3.1.1.2.
 Dược động học
@@ -242,8 +242,7 @@ PABA + dihydrop teridin
 Acid
 Acid
 Tổng hợp
-dihydrofolic
-tet rahydrofolic
+dihydrofolic tet rahydrofolic
 các purin
 RNA
 3.1.3.2.
@@ -348,7 +347,7 @@ Trẻ em: uống tuỵ theo tuổi.
 - Phải hết sức thận trọng khi dùng mefloquin cho người bệnh đang dùng các thuốc chẹn
 beta, chẹn kênh calci, digitalis hoặc các thuốc chống trầm cảm (có thể xảy ra tương tác
 bất lợi)
-- Dùng mefloquin cùng với valproic acid làm giảm nồng độ valproat trong huyết thanh.
+- Dùng mefloquin cùng với valproicacid làm giảm nồng độ valproat trong huyết thanh.
 - Phối hợp mefloquin với quinin sĩ làm tăng độc tính trên thần kinh (gây co giật) và tim
 mạch
 Mefloquin có thể dùng cho người sau khi tiêm quinin nhưng phải cách 12 giờ sau liều

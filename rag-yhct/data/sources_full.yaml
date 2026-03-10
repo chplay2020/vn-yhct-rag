@@ -253,62 +253,6 @@ sources:
   title: sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc
   doc_language: vi
   url: ''
-- source_id: src_cf98a096f6af
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/ClimateLuck.txt
-  doc_type: txt
-  title: ClimateLuck
-  doc_language: vi
-  url: ''
-- source_id: src_c0a520ebc496
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/FiveElementRelation.txt
-  doc_type: txt
-  title: FiveElementRelation
-  doc_language: vi
-  url: ''
-- source_id: src_fe2e8d6d46fb
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/FormulaComponent.txt
-  doc_type: txt
-  title: FormulaComponent
-  doc_language: vi
-  url: ''
-- source_id: src_ca8a0828b05f
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/FourDiagnostics.txt
-  doc_type: txt
-  title: FourDiagnostics
-  doc_language: vi
-  url: ''
-- source_id: src_656ba2e79bde
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/OrganZangFu.txt
-  doc_type: txt
-  title: OrganZangFu
-  doc_language: vi
-  url: ''
-- source_id: src_5cec4d0905e5
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/SyndromePattern.txt
-  doc_type: txt
-  title: SyndromePattern
-  doc_language: vi
-  url: ''
-- source_id: src_4d53e9794fff
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/ThreePowers.txt
-  doc_type: txt
-  title: ThreePowers
-  doc_language: vi
-  url: ''
-- source_id: src_fec5d7720c36
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/YinYangTheory.txt
-  doc_type: txt
-  title: YinYangTheory
-  doc_language: vi
-  url: ''
 - source_id: src_d273ae772bf7
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/GiaoKhoaVeYCT/BÀI
     1. HỌC THUYẾT CƠ BẢN.txt
@@ -770,41 +714,6 @@ sources:
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/2024.08.07.606195v1.full.txt
   doc_type: txt
   title: 2024.08.07.606195v1.full
-  doc_language: vi
-  url: ''
-- source_id: src_822909be1889
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/FiveElements.txt
-  doc_type: txt
-  title: FiveElements
-  doc_language: vi
-  url: ''
-- source_id: src_5f1901f0f619
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/HerbMaterial.txt
-  doc_type: txt
-  title: HerbMaterial
-  doc_language: vi
-  url: ''
-- source_id: src_e50105048161
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/Link_web.txt
-  doc_type: txt
-  title: Link_web
-  doc_language: vi
-  url: ''
-- source_id: src_7768dd496c3f
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/MeridianOrgan.txt
-  doc_type: txt
-  title: MeridianOrgan
-  doc_language: vi
-  url: ''
-- source_id: src_2b8c885b60be
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/Data(PHI
-    UPDATED)/TherapeuticPrinciple.txt
-  doc_type: txt
-  title: TherapeuticPrinciple
   doc_language: vi
   url: ''
 - source_id: src_99146e9b3c45

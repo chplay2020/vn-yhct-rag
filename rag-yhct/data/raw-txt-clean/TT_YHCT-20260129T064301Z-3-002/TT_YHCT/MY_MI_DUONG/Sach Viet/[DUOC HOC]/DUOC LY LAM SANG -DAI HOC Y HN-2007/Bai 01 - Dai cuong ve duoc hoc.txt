@@ -163,8 +163,8 @@ Acid yếu
 p Ka
 Base yếu
 p Ka
-Salicylic acid
-Acetylsalicylic acid
+Salicylicacid
+Acetylsalicylicacid
 Sulfadiazin
 Barbital
 Boric acid
@@ -188,7 +188,7 @@ Sự ion hóa của thuốc còn phụ thuộc vào p H môi trường.
 
 dược lý học 2007 - đại học Y Hà nội
 (sách dùng cho sinh viên hệ bác sĩ đa khoa)
-Bảng 1.2: ảnh hưởng của p H đến sự ion hóa của salicylic acid
+Bảng 1.2: ảnh hưởng của p H đến sự ion hóa của salicylicacid
 có p Ka = 3
 p H
 % không ion hóa
@@ -204,7 +204,7 @@ p H
 9,09
 0,99
 0,10
-Như vậy, salicylic acid (aspirin) đuợc hấp thu nhiều ở dạ dày và phần trên của ống tiêu hóa. Qua
+Như vậy, salicylicacid (aspirin) đuợc hấp thu nhiều ở dạ dày và phần trên của ống tiêu hóa. Qua
 bảng này cho thấy khi bị ngộ độc thuốc, muốn ngăn cản hấp thu hoặc thuốc đã bị hấp thu ra
 ngoài, ta có thể thay đổi p H của môi t rường.
 Thí dụ phenobarbital (Luminal, Gardenal) là một acid yếu có p Ka = 7,2; nước tiểu bình thường
@@ -349,7 +349,7 @@ Amoxicilin (gắn thêm nhóm OH) có F = 95%
 pass metabolism) làm giảm sinh khả dụng của thuốc. Song đôi khi vì thuốc qua gan lại có thể
 được chuyển hóa thành chất có hoạt tính nên tuy sinh khả dụng của đường uống là thấp nhưng tác
 dụng dược lý lại không kém đường tiêm chích tĩnh mạch. Thí dụ prop ranolol có sinh khả dụng
-theo đường uống là 30% nhưng ở gan nó được chuyển hóa thành 4 - OH prop ranolol vẫn có hoạt
+theo đường uống là 30% nhưng ở gan nó được chuyển hóa thành 4 - OHprop ranolol vẫn có hoạt
 tính như prop ranolol.
 - Các yếu tố làm thay đổi F do người dùng thuốc:
 . Thức ăn làm thay đổi p H hoặc nhu động của đường tiêu hóa.
@@ -644,8 +644,7 @@ Phản ứng oxy hóa
 Đây là phản ứng phổ biến nhất, được xúc tác bởi các en zym oxy hóa (mixed - fun ction oxydase
 en zym system- mf O), thấy có nhiều trong mic rosom gan, đặc biệt là họ en zym cytoc hrom P 450
 (Cyt- P450), là các protein màng có chứa hem (hemop rotein) khu trú ở lưới nội bào nh½n của tế
-bào gan và vài mô khác. Trong cơ thể người hiện đã thấy có tới 17 typ và rất nhiều dưới typ
-cytoc hrom P450 tham gia chuyển hóa các chất nội sinh và ngoại sinh từ môi trường, thuốc. Phản
+bào gan và vài mô khác. Trong cơ thể người hiện đã thấy có tới 17 typ và rất nhiều dưới typ cytoc hrom P450 tham gia chuyển hóa các chất nội sinh và ngoại sinh từ môi trường, thuốc. Phản
 ứng oxy hóa loại này đòi hỏi NADPH và O 2 theo phác đồ sau:
 Cơ chất
 Cơ chất (R- OH)
@@ -774,7 +773,7 @@ Glycin
 Phosphoaden
 osyl
 phosphosulfat
-UDP glucuronosyl
+UDPglucuronosyl
 tran sferase
 (mic rosom)
 GSH-
@@ -809,8 +808,7 @@ diazepam,
 digitoxin,
 acetaminop hen,
 sulfat hiazol
-Acid et hac rynic
-bromoben zen
+Acid et hac rynic bromoben zen
 Acid salicylic,
 a. ben zoic,
 a. nicotinic,
@@ -937,7 +935,7 @@ tim...).
 - Các chất bay hơi như rượu, tinh dầu (eucalyp tol, men thol)
 - Các chất khí: protoxyd ni tơ, halot han
 2.4.4. Thải trừ qua sữa
-Các chất tan mạnh trong lipid (barbiturat, chống viêm phi steroid, tet racyc lin, các alcaloid), có
+Các chất tan mạnh trong lipid (barbiturat, chống viêm phisteroid, tet racyc lin, các alcaloid), có
 trọng lượng phân tử dưới 200 thường dễ dàng thải trừ qua sữa.
 Vì sữa có p H hơi acid hơn huyết tương nên các thuốc là base yếu có thể có nồng độ trong sữa hơi
 cao hơn huyết tương và các thuốc là acid yếu thì có nồng độ thấp hơn.

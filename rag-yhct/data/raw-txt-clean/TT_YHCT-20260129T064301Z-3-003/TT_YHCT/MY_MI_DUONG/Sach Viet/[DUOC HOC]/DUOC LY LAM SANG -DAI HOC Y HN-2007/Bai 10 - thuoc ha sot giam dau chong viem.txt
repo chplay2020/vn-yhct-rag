@@ -192,7 +192,7 @@ nội mạc mạch cũng rất giàu prostacyc lin syn thetase, là en zym tổn
 với throm boxan A2. Vì vậy tiểu cầu chảy trong mạch bình thường không bị đông vón. Khi nội
 mạch bị tổn thương, PGI2 giảm; mặt khác, khi tiểu cầu tiếp xúc với thành mạch bị tổn thương,
 ngoài việc giải phóng ra throm boxan A 2 còn phóng ra các "giả túc" làm dính các tiểu cầu với
-nhau và với thành mạch, dẫn tới hiện tượng ngưng kết tiểu cầu. Các CVKS ức chế thr om boxan
+nhau và với thành mạch, dẫn tới hiện tượng ngưng kết tiểu cầu. Các CVKS ức chế throm boxan
 syn thetase, làm giảm tổng hợp throm boxan A 2 của tiểu cầu nên có tác dụng chống ngưng kết tiểu
 cầu (hình 3.4)
 Tiểu cầu không có khả năng tổng hợp protein nên không tái tạo được cyc looxyganase. Vì thế,
@@ -280,7 +280,7 @@ vậy, aspirin có tác dụng chống đông máu.
 - Tác dụng trên ống tiêu hóa:
 Niêm mạc dạ dày - ruột sản xuất ra PG, đặc biệt là PG E 2, có tác dụng làm tăng tạo chất nhày và
 có thể là cả kích thích phân bào để thay thế các tế bào bị phá huỷ. Như vậy, vai trò của PGE là để
-bảo vệ niêm mạc đường tiêu hóa. Aspirin và các thuốc chống viêm phi steroid nói chung, với mức
+bảo vệ niêm mạc đường tiêu hóa. Aspirin và các thuốc chống viêm phisteroid nói chung, với mức
 độ khác nhau, ức chế cyc looxygenase, làm giảm PG , tạo điều kiện cho HCl và pep sin của dịch vị
 gây tổn thương cho niêm mạc sau khi “hàng rào” bảo vệ bị suy yếu. Vì vậy, không được dùng
 thuốc cho những người có tiền sử loét dạ dày và phải uống thuốc sau bữa ăn.
@@ -295,7 +295,7 @@ tiểu base, thải trừ salicylic tăng.
 salicyle” (“salicylisme”): buồn nôn, ù tai, điếc, nhức đầu, lú lẫn.
 - Đặc ứng: phù, mề đay, mẩn, phù Quin cke, hen.
 - Xuất huyết dạ dày thể ẩn (có hồng cầu trong phân) hoặc thể nặng (loét, nôn ra máu).
-- Nhiễm độc với liều trên 10g. Do aspirin kích thích trung tâm hô hấp, làm thở nhanh và sâu (nên
+- Nhiễm độc với liều trên 10g. Doaspirin kích thích trung tâm hô hấp, làm thở nhanh và sâu (nên
 gây nhiễm alcali hô hấp), sau đó vì áp lực riêng phần của CO 2 giảm, mô giải phóng nhiều acid
 lac tic, đưa đến hậu quả nhiễm acid do chuyển hóa (hay gặp ở trẻ em vì cơ chế điều hòa chưa ổn
 định).

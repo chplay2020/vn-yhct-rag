@@ -56,7 +56,7 @@ Những phản ứng chuyển hoá quan trọng của digitoxin và digoxin là:
 Digitoxin và digoxin thải trừ qua thận và qua gan, ở những nơi đó, một phần thuốc được
 tái hấp thu, nên làm tăng tích lũy trong cơ thể. Uabain không bị chuyển hoá, thải trừ qua
 thận dưới dạng còn hoạt tính.
-Bảng 22.1: So sánh chuyển hóa của ba glycosid
+Bảng 22.1: So sánh chuyển hóa của baglycosid
 Digitoxin
 Digoxin
 Uabain
@@ -229,8 +229,7 @@ kali và dip henylhydan toin không có chỉ định. Truyền tĩnh mạch 3,0
 glucose 5%.
 - Miễn dịch trị liệu kháng digoxin (an tidigoxin im muno therapy). Hiện có thuốc giải độc
 đặc hiệu cho digoxin và digitoxin dưới dạng kháng thể, là các phân đoạn Fab tinh khiế t từ
-kháng huyết thanh kháng digoxin (an tidigoxin an tisera) của cừu (DIGIBIND). Pha trong
-dung dịch nước muối, truyền tĩnh mạch trong 30 - 60 phút. Liều lượng tính theo nồng độ
+kháng huyết thanh kháng digoxin (an tidigoxin an tisera) của cừu (DIGIBIND). Phat ron gdung dịch nước muối, truyền tĩnh mạch trong 30 - 60 phút. Liều lượng tính theo nồng độ
 hoặc tổng lượng digoxin có trong cơ thể.
 Chế phẩm: Digibind lọ bột đông khô chứa 38 mg Fab và 75 mg sorbitol. Mỗi lọ gắn được
 khoảng 0,5 mg digoxin hoặc digitalin.

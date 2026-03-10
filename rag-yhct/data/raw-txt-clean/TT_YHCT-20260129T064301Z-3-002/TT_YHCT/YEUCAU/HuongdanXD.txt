@@ -1,7 +1,7 @@
 Hướng dẫn Xây dựng Hệ thống Knowledge Graph cho Traditional Viet namese Medicine (TVM)
 TVM On tology Framework (TVM-KB) - Hệ thống Knowledge Graph, tích hợp đặc thù thuốc Nam Việt Nam
 https://ydct. moh. gov. vn/static/files/up loads/cb6139c812419edf247b25207c0d868e6f29db5dbc4ec7358e1995f6ccbcde8e. pdf#page=20.08
-Seman tic repurposing model for traditional Chinese an cient formulas based on a knowledge graph - Digital Discovery (RSC Publishing) DOI:10.1039/D5DD00344J
+Seman tic repurposin gmodel fortraditional Chinese an cient formulas based on a knowledge graph - Digital Discovery (RSC Publishing) DOI:10.1039/D5DD00344J
 Bộ dữ liệu lâm sàng: Hồ sơ bệnh án điện tử YHCT, dữ liệu chẩn đoán (Vọng, Văn, Vấn, Thiết) từ các bệnh viện/phòng khám đối tác.
 Tri thức YHCT Việt Nam (Knowledge Graph): Số hóa các sách y văn cổ, các bài thuốc gia truyền, kinh nghiệm dân gian đã được kiểm chứng.
 Cở sở dữ liệu-> thu thập dữ liệu (dược liệu, thuốc đông y,…) -> csv ->knowledge graph (node4j)--> csv à file pdf, sách, cào trang dược liệu
@@ -18,16 +18,16 @@ Phạm vi chính (Core Domain)
 ├── Pháp trị + Phương pháp dân gian
 └── Map ping ICD-11 + Eviden ce lâm sàng
 12 Com peten cy Questions (CQs) cốt lõi
-CQ1: Liệt kê bài thuốc Nam exclusive cho "Can Thấp Nhiệt" (không TCM)
+CQ1: Liệt kê bài thuốc Namexclusive cho "Can Thấp Nhiệt" (không TCM)
 CQ2: Tìm cây thuốc miền Nam → hội chứng → bài thuốc → liều lượng
 CQ3: So sánh phối ngũ YHCT VN vs TCM cho ĐTĐ type 2
 CQ4: Truy vấn bài thuốc dân tộc (Tày, Dao, Khmer)
 CQ5: Map ping triệu chứng → ICD-11 → YHCT syn drome
 CQ6: Tìm herbs có eviden ce RCT/meta-analysis
 CQ7: Query theo thể trạng (age, region, con stitution)
-CQ8: Ran king formulas theo safety/efficacy score
-CQ9: Visualize herb-disease net work TVM vs TCM
-CQ10: Export CDS recom men dation (JSON/SPARQL)
+CQ8: Ran kin gformulas theo safety/efficacy score
+CQ9: Visualize herb-disease net work TVMvs TCM
+CQ10: Export CDSrecom men dation (JSON/SPARQL)
 2. TVM On tology En gineering Pipeline (7 Steps)
 STEP 1: Knowledge Ac quisition (3 weeks)
 ├── Sources: Bộ Y tế guidelines + Viện Dược liệu + 15 YHCT experts
@@ -47,8 +47,8 @@ STEP 3: OWL Im plemen tation (2 weeks)
 
 STEP 4: TCM Differen tiation Layer (1 week)
 ├── VTMExclusive: true/false flag
-├── skos: close Match → TCM con cepts
-└── Map ping table: 15 unique VN syn dromes
+├── skos: close Match → TCMcon cepts
+└── Map pin gtable: 15 unique VNsyn dromes
 
 STEP 5: Evaluation Framework (2 weeks)
 ├── CQ Testing: 12/12 an swered <500ms
@@ -89,7 +89,7 @@ vtm: treats rdf: type owl: Object Property ;
 rdfs: domain vtm: VTMFormula ;
 rdfs: ran ge vtm: VTMDisease .
 Sam ple In dividuals (Real TVM data)
-# Atiso đỏ - Exclusive TVM herb
+# Atiso đỏ - Exclusive TVMherb
 vtm: Atiso Do rdf: type vtm: VTMHerb ;
 vtm: scien tific Name "Gynura procum bens"@en ;
 vtm: viet namese Name "Atiso đỏ"@vi ;
@@ -106,7 +106,7 @@ vtm: pat tern Type "Excess-Heat" .
 In tegration Flow:
 Raw Texts → Vn Core NLP → Named En tity Recognition
 → TVM_Glossary mat ching → OWL Trip les
-→ Graph DB in gest → Reasoning → CDS API
+→ Graph DBin gest → Reasoning → CDS API
 5. Evaluation & Validation Framework
 On tology Met rics Tem plate
 Classes: 280 (42% leaf nodes)
@@ -136,8 +136,8 @@ User: "Bài thuốc Nam cho đau bụng tiêu chảy?"
 TVM-KB → Top-3 formulas + eviden ce
 LLM: "Khuyến nghị: Hoàn Ngũ + Atiso đỏ (RCT eviden ce level 2)"
 7. Im plemen tation Chec klist
-[ ] Week 1-2: Glossary + 100 herbs → OWL prototype
-[ ] Week 3-4: 50 syn dromes + formulas → CQ testing
+[ ] Week 1-2: Glossary + 100 herbs → OWLprototype
+[ ] Week 3-4: 50 syn dromes + formulas → CQtesting
 [ ] Week 5: Expert validation survey
 [ ] Week 6: CDS demo + SPARQL en dpoint
 [ ] Week 7: Zenodo publication + Git Hub repo

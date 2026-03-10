@@ -211,7 +211,7 @@ mức lại trở về bình thường.
 uric để điều trị gut, các sulfonylure và in sulin.
 - Các thiazid làm tăng tác dụng của thuốc tê, diazoxid, glycosid trợ tim, lit hi, thuốc lợi
 niệu quai và vitamin D.
-- Tác dụng lợi niệu của thiazid bị giảm khi dùng cùng với thuốc chống viêm phi steroid.
+- Tác dụng lợi niệu của thiazid bị giảm khi dùng cùng với thuốc chống viêm phisteroid.
 Am photericin B và corticoid làm tăng nguy cơ hạ kali máu của thiazid.
 2.1.2.6. Chế phẩm: một số thuốc thường dùng
 Chức halogen ở C6 và nhóm sulfamid ở C 7 rất
@@ -336,7 +336,7 @@ hồng bạch cầu, rối loạn chức phận gan thận, sẩn da, tê bì.
 - Duy nhất với nhóm này là độc tính với dây VIII, có thể gây điếc tai do rối loạn ion trong
 nội dịch hoặc do đặc ứng. Vì vậy không nên dùng cùng với kháng sinh nhóm aminosid.
 2.1.3.4. Chế phẩm và liều lượng
-* Et hac rynic acid (Edec rin): trong công thức có chứa ceton không bão hòa cho nên dễ
+* Et hac rynicacid (Edec rin): trong công thức có chứa ceton không bão hòa cho nên dễ
 phản ứng với nhóm sulfydril của các en zym vận chuyển ion của ống thận.
 - Viên 25 hoặc 50 mg. Uống 50- 200 mg/ ngày
 - ống bột Edec rin nat ri 50 mg. Tiêm tĩnh mạch 50 mg hoặc 0,5mg/kg cân nặng. Không
@@ -423,8 +423,7 @@ tăng áp lực thẩm thấu trong ống lượn, ức chế tái hấp thu nư
 dược lý học 2007 - đại học Y Hà nội
 sách dùng cho sinh viên hệ bác sĩ đa khoa
 câu hỏi tự lượng giá
-1. Trình bày cơ chế tác dụng và áp dụng điều trị của thuốc ức chế en zym carbonic
-an hydrase (CA).
+1. Trình bày cơ chế tác dụng và áp dụng điều trị của thuốc ức chế en zym carbonican hydrase (CA).
 2. Trình bày cơ chế tác dụng và tác dụng của nhóm thiazid.
 3. Phân tích và so sánh rối loạn điện giải của thuốc ức chế CA và thiazid.
 4. Trình bày cơ chế tác dụng và tai biến của thuốc lợi niệu “ quai” .

@@ -47,7 +47,7 @@ ON, trong khi các hợp chất nit ro là C NO2. Như vậy, nit roglycerin là
 phổ biến nên không sửa được!
 Các thuốc nhóm này hoặc là dung dịch bay hơi (amylnit rit), hoặc là dung dịch bay hơi
 nhẹ (nit roglycerin), hoặc là thể rắn (isosorbid dinit rat). Tất cẩ các hoạt chất trong nhóm
-này đều giải phóng nit ric oxid (NO) tại mô đích ở cơ trơn thành mạch
+này đều giải phóng nit ricoxid (NO) tại mô đích ở cơ trơn thành mạch
 Các loại thường dùng ở lâm sàng là:
 Tên chung và biệt dược
 Cấu trúc hóa học
@@ -119,7 +119,7 @@ dụng oxy của cơ tim. Mặt khác, sự phân bố máu cho cơ tim cũng th
 vùng dưới nội tâm mạc.
 Trên cơ trơn khác, nit rat làm giãn phế quản, ống tiêu hoá, đường mật, đường tiết niệu sinh
 dục.
-Cơ chế làm giãn cơ trơn: Các nit rit, nit rat và hợp chất nit roso giải phóng nit ric oxyd (NO)
+Cơ chế làm giãn cơ trơn: Các nit rit, nit rat và hợp chất nit roso giải phóng nit ricoxyd (NO)
 trong tế bào cơ trơn dưới tác dụng của hệ en zim chưa hoàn toàn biết rõ. NO được giải
 phóng ra sĩ hoạt hóa guanylyl cyc lase và làm tă ng tổng hợp GMPv, dẫn đến khử
 phosphoryl chuỗi nhẹ của myosin, gây giãn cơ trơn (hình 23.1). Myosin chuỗi nhẹ
@@ -139,7 +139,7 @@ Co cơ
 Giãn cơ
 Hình 23.1: cơ chế gây giãn cơ trơn của nit rat
 Tác dụng giãn cơ của nit rat giống tác dụng của yếu tố giãn cơ của tế bào nội mô (EDRF:
-En dot helium- derived relaxing fac tor). Tế bào nội mô mạch máu tiết EDRF, chính nó là
+En dot helium- derived relaxin gfac tor). Tế bào nội mô mạch máu tiết EDRF, chính nó là
 NO hoặc là tiền chất của NO (nit rosot hiol). EDRF thấm từ nội mô mạch vào tế bào cơ
 trơn thành mạch và hoạt hóa guanylyl cyc lase tại đó.
 Các chất nội sinh gây giãn mạch có thể cũng do thông qua cơ chế giải phóng EDRF
@@ -328,7 +328,7 @@ Verapamil
 80-160 mg, cách 8giờ/ lần
 3. Thuốc khác
 Các hướng nghiên cứu thuốc mới đang phát triển và cò n đang trong bước thử nghiệm:
-- Yếu tố phát triển nội mạc mạch (VEGF: vascular en dot helial growth fac tor) nhằm phát
+- Yếu tố phát triển nội mạc mạch (VEGF: vascular en dot helial growthfac tor) nhằm phát
 triển các mạch bàng hệ cho vùng thiếu máu.
 - Tremetazidin (Vastarel): duy trì chuyển hoá năng lượng ở các tế bào bị thiếu oxy hoặc
 thiếu máu do trimetazidin ngăn ngừa sự giảm sút mức ATP trong tế bào, vì vậy đảm bảo

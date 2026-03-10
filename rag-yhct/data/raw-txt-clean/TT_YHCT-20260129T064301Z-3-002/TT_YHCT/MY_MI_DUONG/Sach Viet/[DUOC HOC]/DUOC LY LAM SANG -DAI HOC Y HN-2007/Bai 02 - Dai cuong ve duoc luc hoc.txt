@@ -105,7 +105,7 @@ bào, các recep tor của thuốc còn là:
 - Các en zym chuyển hóa hoặc điều hòa các quá trìn h sinh hóa có thể bị thuốc ức chế hoặc hoạt
 hóa:
 . Thuốc ức chế en zym: cap top ril ức chế en zym chuyển an gioten sin I không hoạt tính thành
-an gioten sin II có hoạt tính dùng chữa cao huyết áp; các thuốc chống viêm phi steroid ức chế
+an gioten sin II có hoạt tính dùng chữa cao huyết áp; các thuốc chống viêm phisteroid ức chế
 cyc looxygenase, làm giảm tổng hợp prostaglan din nên có tác dụng hạ sốt, chống viêm; thuốc trợ
 tim digitalis ức chế Na +- K+ AT Pase...
 . Thuốc hoạt hóa en zym: các yếu tố vi lượng như Mg 2+, Cu2+, Zn2+ hoạt hóa nhiều en zym protein
@@ -137,7 +137,7 @@ nhôm, magnesi oxyd.
 - Thuốc có cấu trúc tương tự như những chất sinh hóa bình thường, có thể thâm nhập vào các
 thành phần cấu trúc của tế bào, làm thay đổi chức phận của tế bào. Thuốc giống purin, giống
 pyrimidin, nhập vào acid nuc leic, dùng chống ung thư, chống virus. Sulfamid gần giống
-paraamino ben zoic acid (PABA), làm vi khuẩn dùng "nhầm", không phát triển được.
+paraamino ben zoicacid (PABA), làm vi khuẩn dùng "nhầm", không phát triển được.
 2. Các cách tác dụng của thuốc
 Khi vào cơ thể, thuốc có thể có 4 cách tác dụng sau:
 2.1.
@@ -210,7 +210,7 @@ ip roniazid, có tác dụng chống trầm cảm, do gắn vào recep tor hoàn
 dược lý học 2007 - đại học Y Hà nội
 (sách dùng cho sinh viên hệ bác sĩ đa khoa)
 Sulfanilamid
-PABA (para amino ben zoic acid)
+PABA (para amino ben zoicacid)
 Kháng histamin H1 có công thức gần giống với histamin, tranh chấp với histamin tại recep tor H 1.
 - Các đồng phân quang học hoặc đồng phân hình học của thuốc cũng làm thay đổi cường độ tác
 dụng, hoặc làm thay đổi hoàn toàn tác dụng của thuốc.
@@ -227,7 +227,7 @@ của thuốc và tính vững bền của thuốc. Một số ví dụ:
 dopamin thì qua được.
 - Estradiol thiên nhiên không uống được vì bị chuyển hóa mạnh ở gan. dẫn xuất et hinyl estradiol
 (-C CH gắn ở vị trí 17) rất ít bị chuyển hóa nên uống được.
-- Tolbutamid bị mic rosom gan oxy hóa gốc CH 3 ở vị trí para, có t/2 huyết tương là 4- 8 h. Thay
+- Tolbutamid bị mic rosom ganoxy hóa gốc CH 3 ở vị trí para, có t/2 huyết tương là 4- 8 h. Thay
 gốc CH3 bằng Cl (Clorpropamid) sĩ rất khó bị chuyển hóa, làm t/2 của thuốc kéo dài tới 35 h.
 - Các thiobarbituric ít bị phân ly hơn barbituric ở p H của ống thận nên bị thải trừ chậm hơn.
 

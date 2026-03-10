@@ -56,3 +56,14 @@ parent_child:
   window: 1
   token_budget: 3500
   parents_path: data/parents/parents_v2_full.jsonl
+
+retrieval:
+  mode: hybrid_rrf          # vector | bm25 | hybrid_rrf
+  topk_vector: 40
+  topk_bm25: 40
+  topk_final: 40
+  rrf_k: 60
+  save_debug: false
+  debug_dir: data/reports/retrieval_debug
+  chunks_path: data/chunks/chunks_v2_full.jsonl
+  bm25_index_path: data/indexes/bm25_chunks_v2_full.pkl

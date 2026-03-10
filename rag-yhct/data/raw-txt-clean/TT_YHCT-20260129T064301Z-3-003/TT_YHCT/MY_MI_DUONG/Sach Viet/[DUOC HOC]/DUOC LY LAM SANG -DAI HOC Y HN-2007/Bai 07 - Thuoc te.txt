@@ -68,8 +68,7 @@ R3
 Trong ống tiêm, thuốc dưới dạng muối
 Chuyển thành dạng base tự
 do,
-hydroc lorid, tan, là ion, không qua đượ c
-qua được màng
+hydroc lorid, tan, là ion, không qua đượ cqua được màng
 màng tế bào
 Màng tế bào
 R1
@@ -149,7 +148,7 @@ làp rilocain
 người suy gan nặng có thể tới >6giờ. Các thuốc tê có chức ester (procain) bị thuỷ phân bởi các
 esterase của cả gan và huyết tương, nên giáng hoá và mất tác dụng nhanh, t/2 với procain chỉ
 khoảng 1 phút.
-Loại ester bị chuyển hoá thành para amino ben zoic acid (PABA) nên dễ gây dị ứng. Còn loại
+Loại ester bị chuyển hoá thành para amino ben zoicacid (PABA) nên dễ gây dị ứng. Còn loại
 amid không bị chuyển thành PABA nên rất hiếm gây dị ứng.
 1.8. Tương tác thuốc
 - Để khắc phục tác dụng gây giãn mạch của thuốc tê (trừ cocain gây co mạch), thường phối hợp

@@ -1816,8 +1816,7 @@ dược phẩm Thành
 Phát
 Công ty cổ phần dược
 phẩm Thành Phát
-110 Nhục thung
-dung phiến
+110 Nhục thun gdung phiến
 Nguyên
 liệu làm
 thuốc
@@ -4038,8 +4037,7 @@ dược TW
 Medip lan tex
 Công ty cổ phần dược
 trung ương Medip lan tex
-269 Nhục thung
-dung
+269 Nhục thun gdung
 Nguyên
 liệu làm
 thuốc
@@ -7918,8 +7916,7 @@ Chi nhánh Công ty Cổ
 phần Dược phẩm OPC
 tại Bình Dương - Nhà
 máy Dược phẩm OPC
-544 Nhục thung
-dung phiến
+544 Nhục thun gdung phiến
 Nguyên
 liệu làm
 thuốc
@@ -9237,8 +9234,7 @@ Dược liệu Việt Nam
 Công ty cổ phần Dược
 liệu Việt Nam
 635
-Nhục thung
-dung chưng
+Nhục thun gdung chưng
 rượu
 Chứng
 rượu

@@ -28,11 +28,10 @@ Chol. acetyltran sferase
 a. acetic
 Cholin + Acetyl Co A
 Ch E
-ACh
-cholin
+AChcholin
 Có hai loại cholinesterase:
 - Acetylcholinesterase hay cholinesterase thật (cholinesterase đặc hiệu), khu trú ở các nơ ron và
-bản vận động cơ vân để làm mất tác dụng của acetylch olin trên các recep tor.
+bản vận động cơ vân để làm mất tác dụng của acetylcholin trên các recep tor.
 
 
 dược lý học 2007 - đại học Y Hà nội
@@ -45,7 +44,7 @@ Quá trình tổng hợp acetylcholin có thể bị ức chế bởi hemic holi
 Hình 5.1. Chuyển vận của ACh tại tận cùng dây phó giao cảm
 Cholin được nhập vào đầu tận cùng dây phó giao cảm bằng chất vận chuyển phụ thuộc Na + (A).
 Sau khi được tổng hợp, ACh được lưu giữ trong các nang cùng với pep tid (P) và ATP nhờ chất
-vận chuyển thứ hai (B). Dưới tác động của Ca 2+, ACh bị đẩy ra khỏi nang dự trữ vào khe xinap.
+vận chuyển thứ hai (B). Dưới tác động của Ca 2+, ACh bị đẩy ra khỏi nang dự trữ vào khexinap.
 1.1.2. Tác dụng sinh lý
 Acetylcholin là chất dẫn truyền thần kinh có ở nhiều nơi trong cơ thể, cho nên tác dụng rất phức
 tạp:
@@ -82,8 +81,7 @@ Tổ chức (mô)
 Đáp ứng
 Cơ chế phân
 tử
-Nicotinic
-muscle (Nm)
+Nicotinic muscle (Nm)
 (N- cơ vân)
 Phenyltrimet
 hylam monium
@@ -101,7 +99,7 @@ Nicotinic
 nơ ron (Nn)
 (hạch tk)
 Dimet hylphe
-nyl piperazin
+nylpiperazin
 (DMPP)
 Trimet hap ha
 n
@@ -302,7 +300,7 @@ Viên Aeron có scopolamin cam phonat 0,1mg và hyoscyamin cam phonat 0,4mg; dù
 sóng, say tầu: uống 1 viên 30 phút trước lúc khởi hành.
 2.4.
 Thuốc bán tổng hợp mang amoni bậc 4: Ip rat ropium
-Do gắn thêm nhóm isop ropyl vào nguyên tử N của at ropin, ip rat ropium mang amoni bậc 4, không
+Do gắn thêm nhóm isop ropyl vào nguyên tử N của at ropin, ip rat ropium man gamoni bậc 4, không
 hấp thu được qua đường uống và không vào được thần kinh trung ương. Thường dùng dưới dạng
 khí dung để điều trị bệnh phổi tắc nghĩn mạn tính và để cắt cơn hen. Chỉ 1% hấp thu vào máu và
 khoảng 90% liều khí dung được nuốt vào đường tiêu hóa và thải trừ theo phân. Tác dụng tối đa
@@ -607,7 +605,7 @@ at ropin (giãn đồng tử). Ngày đầu có thể tiêm tới 200 mg.
 5.2.3.2. Dùng thuốc hoạt hóa cholinesterase: một số chất ưa nhân (nuc leop hylic agents) như
 hydroxylamin (NH2OH), acid hydroxamic (R- CO- NHOH) và oxim (R- CH = NOH) có khả
 năng giải phóng được en zym bị phospho hữu cơ phong tỏa và hoạt hóa trở lại. Chất thường dùng
-là pralidoxim (2- PAM) tác dụng lên Ch E phosphoryl hóa, tạo oxim phosphonat bị thải trừ và giải
+là pralidoxim (2- PAM) tác dụng lên Ch Ep hosphoryl hóa, tạo oxim phosphonat bị thải trừ và giải
 phóng cholinesterase.
 Pralidoxim (2- PAM): lọ 1g kìm ống nước 20 m L. Mới đầu, tiêm tĩnh mạch 1 - 2g, sau đó truyền
 nhỏ giọt tĩnh mạch mỗi giờ 0,5g.

@@ -236,7 +236,7 @@ trị lao 1g/ 24 giờ.
 - Cap reomycin là 1 pep tid vòng có tác dụng chống lao với liều 15 - 30 mg/ kg/ 24 giờ.
 - Ofloxacin và cip rofloxacin là 2 kháng sinh nhóm fluorquinolon có nồng độ trong tổ chức phổi
 cao hơn trong huyết tương có nồng độ ức chế tối thiểu trên trực khuẩn lao rất thấp từ 0,25 - 3 g/
-ml. Trong điều trị lao cip rofloxacin uống 1,5g chia 2 lần/ngày; ofloxacin uống 600 - 800 mg/
+ml. Trong điều trị laocip rofloxacin uống 1,5g chia 2 lần/ngày; ofloxacin uống 600 - 800 mg/
 ngày.
 - Azit hromycin và claryt hromycin là 2 mac rolid mới cũng có tác dụng trên trực khuẩn la o được
 chỉ định khi trực khuẩn lao kháng các thuốc chống lao chính.
@@ -312,7 +312,7 @@ E: Et ham butol
 Số ở trước chữ cái chỉ thời gian điều trị tính bằng tháng; chữ số dưới ở sau chữ cái chỉ số ngày
 dùng thuốc trong 1 tuần, nếu không có các chữ số này thì dùng thuốc hàng ngày.
 2. Thuốc điều trị phong
-Bệnh phong là bệnh nhiễm khuẩn Myc obac terium lep rae. Nếu được điều trị sớm và đúng, bệnh
+Bệnh phong là bệnh nhiễm khuẩn Mycobac terium lep rae. Nếu được điều trị sớm và đúng, bệnh
 phong có thể khỏi, không để lại di chứng. Hiện nay, ba thuốc chủ yếu điều trị phong là: dap son,
 rifam picin và clofazimin.
 2.1. Dap son (DDS)

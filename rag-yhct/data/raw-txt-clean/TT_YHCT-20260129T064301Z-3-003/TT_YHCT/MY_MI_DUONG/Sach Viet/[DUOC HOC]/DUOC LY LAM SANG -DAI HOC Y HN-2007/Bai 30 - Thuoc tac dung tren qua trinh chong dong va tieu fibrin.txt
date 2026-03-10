@@ -96,7 +96,7 @@ này phải dùng thuốc trước 2 -3 ngày.
 - Giảm prot hrom bin máu
 - Ngộ độc dẫn xuất coumarin.
 1.2.1.2. Calci clorid:
-Ca+2 cần để hoạt hóa các yếu tố VIII, IX và X để chuyển prot hrom bin sang throm bin .
+Ca+2 cần để hoạt hóa các yếu tố VIII, IX và X để chuyển prot hrom bin sangthrom bin .
 Liều trung bình: uống 2- 4g mỗi ngày, dùng cách quãng từng thời kỵ 3 - 4 ngày, rồi nghỉ.
 Tiêm tĩnh mạch cho những trường hợp chảy máu: 20ml dung dịch 5%. Thuốc tiêm ra
 ngoài tĩnh mạch sĩ gây loét. Tuyệt đối cấm tiêm bắp thịt.
@@ -130,7 +130,7 @@ giờ.
 1.2.2. Thuốc làm đông máu tại chỗ
 1.2.2.1. En zym làm đông máu
 * Throm bokinase (prot hrom binase): là tinh chất của phủ tạng người và động vật, thường
-lấy ở não và phổi. Tinh chất này chứa th rom bokinase và cả những yếu tố đông máu khác.
+lấy ở não và phổi. Tinh chất này chứa throm bokinase và cả những yếu tố đông máu khác.
 Tác dụng không chắc chắn bằng throm bin. Dùng khi chảy máu ít, tại chỗ, thường xuyên
 (chảy máu cam, răng miệng) và cả trong trường hợp chảy máu nhiều (phối hợp với băng
 chặt).
@@ -289,7 +289,7 @@ p H sinh lý.
 + Vững bền ở p H trên 6,5. Đun sôi trong 20 phút ở nhiệt độ 120o C vẫn còn tác dụng.
 Nhưng uống bị phân hủy ở đường tiêu hóa mất hoạt tính.
 + Trọng lượng phân tử khác nhau dao động từ 2 -20 k Da nhưng tác dụng sinh học giống
-nhau. Khi heparin có trọng lượng phân tử từ 2 -7 k Da gọi là heparin trọng lượng phân tử
+nhau. Khiheparin có trọng lượng phân tử từ 2 -7 k Da gọi là heparin trọng lượng phân tử
 thấp.
 * Tác dụng :
 - Chống đông máu.
@@ -329,7 +329,7 @@ dài với liều trên 15000 đơn vị/ngày gây loãng xương.
 - Tăng AST, ALT.
 * áp dụng điều trị :
 - Chỉ định: phòng, chống huyết khối. Tác dụng tăng khi dùng kết hợp với các thuốc chống
-đông vón tiểu cầu như: aspirin, các thuốc chống viêm phi steroid khác, dipyridamol,
+đông vón tiểu cầu như: aspirin, các thuốc chống viêm phisteroid khác, dipyridamol,
 tic lopidin v. v... và sĩ mất tác dụng khi trộn lẫn với gen tamicin, colistin, cefaloridin do bị
 kết tủa.
 - Chống chỉ định:
@@ -409,11 +409,11 @@ Tiểu cầu là những tế bào không nhân, hình đĩa, tích điện âm 
 cầu có chứa các yếu tố đông máu I, V, VII. Có các fibrinogen recep tor (Gp IIb/IIIa) và
 đặc tính kết dính và kết tụ nên khi thành mạch bị tổn thương các tiểu cầu dính vào nơi bị
 tổn thương và dính vào nhau thành từng lớp tạo ra nút trắng tiểu cầu còn gọi là đinh cầm
-máu Hayem. Trong quá trình kết dính, tiểu cầu còn giải phóng ra phospholip id giúp thúc
+máu Hayem. Trong quá trình kết dính, tiểu cầu còn giải phóng ra phospholipid giúp thúc
 đẩy quá trình tạo ra phức hợp prot hrom binase.
 Sự kết dính tiểu cầu là yếu tố tạo ra mảng xơ vữa động mạnh và gây nên tắc mạch.
 Hiện có một số thuốc chống kết dính tiểu cầu được sử dụng trong lâm sàng để phòng và
-điều trị huyết khối như: thuốc chống viêm phi steroid (aspirin), dipyridamol, tic lopidin,
+điều trị huyết khối như: thuốc chống viêm phisteroid (aspirin), dipyridamol, tic lopidin,
 clopidogrel và thuốc ức chế glycop rotein IIb/IIIa.
 1.4.1. Aspirin (acid acetylsalicylic)
 Ngoài tác dụng hạ sốt, giảm đau, chống viêm, aspirin còn có tác dụng chống đông vón
@@ -445,7 +445,7 @@ trong máu. Adenosin tác động lên A 2-recep tor làm giảm sự đông vó
 - Chỉ định: thuốc được phối hợp với warfarin trong phòng huyết khối ở bệnh nhân thay
 van tim nhân tạo.
 1.4.3. Tic lopidin (Tic lid)
-- Do tic lopidin tương tác với glycop rtein IIb/III a recep tor của fibrinogen làm ức chế sự
+- Dotic lopidin tương tác với glycop rtein IIb/III a recep tor của fibrinogen làm ức chế sự
 gắn fibrinogen vào tiểu cầu hoạt hóa, ngăn cản sự kết dính tiểu cầu.
 Ngoài ra, thuốc còn làm tăng prostaglan din D 2 và E2 góp phần chống đông vón tiểu cầu và
 tăng thời gian chảy máu.

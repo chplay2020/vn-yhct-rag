@@ -16,341 +16,310 @@ Monash University
 Melbourne, Australia
 mor. vered@monash. edu
 ABSTRACT
-Facial expression recognition (FER) has emerged as a promising
-ap proach to the develop ment of emotion-aware in telligent agents
-and systems. However, key challen ges remain in utilizing FER
-in real-world con texts, in cluding en suring user un derstan ding
-and establishing a suitable level of user trust. We developed a
+Facial expression recognition (FER) hasemerged as a promisin gap proac hto thedevelop ment of emotion-aware in telligent agents
+an dsystems. However, keyc hallen ges remain inutilizing FER
+in real-world con texts, in cludin gen surin guser un derstan din gand establishing a suitable level ofuser trust. Wedeveloped a
 novel explanation met hod utilizing Facial Ac tion Units (FAUs)
-to explain the out put of a FER model through both textual and
-visual modalities. We con duc ted an em pirical user study evaluating
-user un derstan ding and trust, com paring our ap proach to state-
-of-the-art e Xplainable AI (XAI) met hods. Our results in dicate that
-visual AND textual as well as textual-on ly FAU-based explanations
-resulted in bet ter user un derstan ding of the FER model. We
-also show that all modalities of FAU-based met hods im proved
-ap prop riate trust of the users towards the FER model.
+toexplain theout put of a FERmodel through bot htextual and
+visual modalities. Wecon duc ted anem pirical user study evaluatin guser un derstan din gand trust, com parin gour ap proac hto state-
+of-the-art e Xplainable AI (XAI) met hods. Ourresults in dicate that
+visual AN Dtextual aswell as textual-on ly FAU-based explanations
+resulted in bet ter user un derstan din gofthe FERmodel. We
+also showthat allmodalities of FAU-based met hods im proved
+ap prop riate trust ofthe users towardsthe FERmodel.
 KEYWORDS
 Facial Expression Recognition; Explainability; Tran sparen cy; Trust;
 Facial Ac tion Unit
 ACM Referen ce Format:
 San jeev Nahulanthran, Leimin Tian, Dana Kulić, and Mor Vered. 2025.
 Explaining Facial Expression Recognition. In Proc. of the 24th In ternational
-Con feren ce on Autonomous Agents and Multiagent Systems (AAMAS 2025),
+Con feren ceon Autonomous Agen tsand Multiagent Systems (AAMAS 2025),
 Det roit, Mic higan, USA, May 19 – 23, 2025, IFAAMAS, 9 pages.
 1
 IN TRODUC TION
-Automatic facial expression recognition (FER) systems, which
-recognize human emotions from visual in formation using mac hine
-learning ap proac hes, have been proposed to sup port emotion-
-aware in telligent systems. FER systems have been adop ted
-in ap plications in multip le domains such as e-learning [20],
-healthcare [18], automated driver-assistan ce [22] and security [41].
-The performan ce of FER systems has been con tinuously im proving,
-especially with the advan cements in data-driven deep-learning
-ap proac hes. However, FER systems are far from perfect, due to
-tec hnical limits and human emotional expressions being personal
-and con text-depen dant [4, 44]. This has led to urgent challen ges in
-This work is licen sed un der a Creative Com mons At tribution
+Automatic facial expression recognition (FER) systems, whic hrecognize human emotions from visual in formation usin gmac hine
+learning ap proac hes, have been proposed tosup port emotion-
+aware in telligent systems. FERsystems have been adop ted
+inap plications in multip le domains suc has e-learning [20],
+healthcare [18], automated driver-assistan ce [22] an dsecurity [41].
+Theperforman ceof FER systems hasbeen con tinuously im proving,
+especially withthe advan cements in data-driven deep-learning
+ap proac hes. However, FERsystems arefar from perfect, due to
+tec hnical limits an dhuman emotional expressions bein gpersonal
+and con text-depen dant [4, 44]. This hasled tourgent challen ges in
+This workis licen sed un der a Creative Com mons At tribution
 In ternational 4.0 Licen se.
-Proc. of the 24th In ternational Con feren ce on Autonomous Agents and Multiagent Systems
+Proc. of the 24th In ternational Con feren ceon Autonomous Agen tsand Multiagent Systems
 (AAMAS 2025), Y. Vorobeyc hik, S. Das, A. No wé (eds.), May 19 – 23, 2025, Det roit, Mic higan,
-USA. © 2025 In ternational Foun dation for Autonomous Agents and Multiagent Systems
+USA. © 2025 In ternational Foun dation for Autonomous Agen tsand Multiagent Systems
 (www. ifaamas. org).
-utilizing FER systems to ac hieve real-world benefits, as highlighted
-by the recent discussion of poten tially ban ning the use of AI
+utilizing FER systems toac hieve real-world benefits, ashighlighted
+byt he recent discussion ofpoten tially ban ningthe useof AI
 tec hnologies in cluding FER systems in the EU’s AI Act [12]. One
-major con cern is the lack of tran sparen cy and explainability in deep-
-learning based FER [25]. This hin ders an end-user’s un derstan ding
-of these systems as well as their ability to calibrate trust towards
-the system’s out puts and use this tec hnology to their benefit [1].
-The growing literature in e Xplainable AI (XAI) suggests
+major con cern isthe lac kof tran sparen cy an dexplainability in deep-
+learnin gbased FER [25]. This hin ders an end-user’s un derstan din gofthese systems aswell astheir ability tocalibrate trust towards
+the system’s out puts an duse this tec hnology tot heir benefit [1].
+Thegrowing literature ine Xplainable AI (XAI) suggests
 numerous benefits in providing explanations to end-users, namely
-in enabling bet ter un derstan ding of AI model predic tions [48] while
-mitigating bias [47] and helping users gain greater con fiden ce
-in model predic tions [45]. However, in FER, the majority of
-existing research has focused on providing explanations to
+inenablin gbet ter un derstan din gof AI model predic tions [48] while
+mitigatin gbias [47] an dhelpin gusers gain greater con fiden ce
+in model predic tions [45]. However, in FER, themajority ofexistin gresearchhas focused on providing explanations to
 model developers [7], in stead of end-users. A recent work [33]
-demonstrates the benefits of FER explanations on im proving user
-un derstan ding as well as perceived and demonstrated trust of a
-FER system. However, as on ly one XAI met hod was evaluated in
-this study, it is un clear which explanation types and presen tation
-modalities in current XAI literature are the most effec tive for
-explaining FER to end-users. Moreover, this work did not in vestigate
-trust calibration, i. e., whet her or not the user’s trust towards the FER
-model aligns with its performan ce. As explanations can in fluen ce a
+demonstrates thebenefit sof FER explanations onim provin guser
+un derstan din gas well asperceived an ddemonstrated trust of a
+FER system. However, ason lyone XAImet hod wasevaluated in
+this study, itis un clear which explanation types andpresen tation
+modalities in current XAIliterature aret he most effec tive for
+explaining FER to end-users. Moreover, this workdid notin vestigate
+trust calibration, i. e., whet her ornot the user’s trust towardsthe FER
+model aligns wit hits performan ce. Asexplanations canin fluen ce a
 user’s trust in a system’s capabilities, care must be taken to reduce
-over or un der relian ce [31] which may im pair a user’s decision
-making in mission critical set tings.
-We therefore in vestigate the effect of explanations on user trust
-and un derstan ding of FER systems. We first propose a novel XAI
+over orun der relian ce [31] which may im pair a user’s decision
+makin gin mission critical set tings.
+Wet herefore in vestigate theeffect ofexplanations onuser trust
+an dun derstan din gof FER systems. Wefirst propose a novel XAI
 met hod, named DEFAULTS (Deterministic Explanations through a
-Facial Ac tion Unit visua L-Textual System) that explains FER with
-visual and textual in formation groun ded in facial expression and
-emotion theories. We then measure ap prop riate trust, i. e., when the
+Facial Ac tion Unit visua L-Textual System) that explains FERwit hvisual an dtextual in formation groun ded in facial expression and
+emotion theories. Wet hen measure ap prop riate trust, i. e., when the
 user’s belief in the system aligns with the system’s out put ac curacy,
-as well as system un derstan ding, measured as the alignment bet ween
-a user’s predic tion of the FER model’s out put and the model’s ac tual
-out put. We em pirically show, through a user study that this novel
-met hod yields higher ap prop riate trust and un derstan ding in users
-com pared to state-of-the-art XAI met hods.
-Using the con tribution taxonomy proposed in [50], our work
-has the following con tributions: Artifact: We developed a
+aswell assystem un derstan ding, measured asthe alignment bet ween
+a user’s predic tion ofthe FER model’s out put and the model’s ac tual
+out put. Weem pirically show, through a user study that this novel
+met hod yields higher ap prop riate trust an dun derstan din gin users
+com pared to state-of-the-art XAImet hods.
+Usingthe con tribution taxonomy proposed in [50], ourworkhas thefollowing con tributions: Artifact: Wedeveloped a
 novel explanation met hod (DEFAULTS) using predic ted Facial
-Ac tion Units (FAUs) to generate a com bined textual and visual
-explanation for FER models. Visual explanations are shown through
+Ac tion Units (FAUs) togenerate a com bined textual an dvisual
+explanation for FERmodels. Visual explanations areshown through
 highlighted facial lan dmarks associated with ac tivated FAUs, while
-textual explanations describe the FAU ac tivations; Em pirical: We
+textual explanations describet he FAUac tivations; Em pirical: We
 ar Xiv:2501.15864v2 [cs. HC] 16 Apr 2025
 
 
-demonstrate that users who are provided with visual and textual
-FAU-based explanations on FER have a bet ter un derstan ding of
-the system’s predic tions. We also demonstrate that this type of
+demonstrate that users whoare provided wit hvisual an dtextual
+FAU-based explanation son FERhave a bet ter un derstan din gofthe system’s predic tions. Wealso demonstrate that this type of
 explanation met hod en gen ders higher ap prop riate trust in the
-system as com pared to not having explanations; and Dataset: We
-con tribute a dataset1 con taining images, explanations, participant
-survey and free-text respon ses for all con ditions, collec ted from a
+system ascom pared tonot having explanations; and Dataset: We
+con tribute a dataset1 con tainin gimages, explanations, participant
+survey and free-text respon ses forall con ditions, collec ted from a
 total of 280 participants.
 2
 RELATED WORK
 2.1
 Facial Expression Recognition (FER)
-FER is a widely adop ted, non-con tact met hod for recognising
-human expressions and emotions con veyed by images and facial
-movements which has garnered growing research in the past few
-years [5, 51]. FER has been shown to be naturalistic, unobtrusive,
-economical and easy to dep loy and main tain using com mercially
-available sen sing systems [20, 22, 24, 32]. As the field con tinues
-to advan ce rapidly, it is crucial to provide a deeper un derstan ding
-of the un derlying mac hine learning models so that end-users can
-have a greater sen se of autonomy when using these systems [1].
+FER is a widely adop ted, non-con tact met hod forrecognisin ghuman expressions an demotions con veyed byimages an dfacial
+movements whic hhas garnered growin gresearchin thepast fewyears [5, 51]. FERhas been shown tobe naturalistic, unobtrusive,
+economical an deasy todep loy an dmain tain using com mercially
+available sen sin gsystems [20, 22, 24, 32]. Asthe field con tinues
+toadvan ce rapidly, itis crucial top rovide a deeper un derstan din gofthe un derlyin gmac hine learnin gmodels sot hat end-users can
+have a greater sen se ofautonomy when usingthese systems [1].
 Despite recent advan cements, several challen ges remain in
-developing ac curate, reliable, and robust FER systems that can
-operate in real-world con texts. FER literature has focused on
-im proving classification ac curacy and rarely in vestigates the
-percep tion, relian ce and trust of users [8, 37]. One major challen ge
-in im proving these qualities is due to the lack of tran sparen cy
-to end-users, which is in creasin gly becoming more im portant
-in the con text of prac tical affec tive com puting research and
-ap plication [4, 44]. A lack of tran sparen cy with regards to how
-an in tegrated FER system uses the data in put to predict the out put
-and how it uses the predic ted out put in making a decision could
-affect the user’s percep tion and relian ce towards the system [25].
-A system that is not tran sparent could be perceived as am biguous,
-not ac coun table or even having mismat ched goals with the user [1].
+developin gac curate, reliable, an drobust FERsystems that can
+operate in real-world con texts. FERliterature hasfocused on
+im proving classification ac curacy an drarely in vestigates the
+percep tion, relian ce andtrust ofusers [8, 37]. Onemajor challen ge
+inim provingthese qualities isdue tot he lac kof tran sparen cy
+to end-users, whic his in creasin gly becomin gmore im portant
+in the con text ofprac tical affec tive com putin gresearchand
+ap plication [4, 44]. A lac kof tran sparen cy wit hregards tohowan in tegrated FERsystem uses thedata in put top redict theout put
+an dhowit uses thep redic ted out put in making a decision could
+affect the user’s percep tion an drelian ce towards thesystem [25].
+A system that isnot tran sparent could beperceived asam biguous,
+notac coun table oreven having mismat ched goals withthe user [1].
 2.2
 e Xplainable Artificial In telligen ce (XAI)
-In the field of artificial in telligen ce (AI), explainability (also
+In the field ofartificial in telligen ce (AI), explainability (also
 sometimes equated with in terpretability) [10, 17] aims to create a
 shared un derstan ding [30] bet ween end-users and the AI system
-that is being used. The main goal of these explainable AI systems
-or XAI is to make the in ner workings of AI systems more
-in terpretable and com prehen sible to human users [26, 46, 48],
-provide greater tran sparen cy [16, 31], help users gain greater
-con fiden ce in model predic tions [45] and en gen der ap prop riate
+that is being used. Themain goal ofthese explainable AIsystems
+or XAIis tomake thein ner workin gsof AI systems more
+in terpretable an dcom prehen sible tohuman users [26, 46, 48],
+provide greater tran sparen cy [16, 31], helpusers gain greater
+con fiden ce in model predic tions [45] an den gen der ap prop riate
 trust in these systems [49].
 When in vestigating prevalent explanation met hods, there are
-two main ap proac hes: backpropagation-based and perturbation-
-based tec hniques [6]. In backpropagation-based tec hniques such
-as Salien cy Maps [43], the algorithm performs one or more
-forward passes through a net work and generates at tributions
-during the backpropagation stage. SHAP [28] and LIME [39] on the
-ot her hand, use perturbation-based tec hniques in which the in put
-in stan ces are perturbed by oc clusions, substitutions, masking, etc
-to generate an at tribution rep resen tation which in forms feature
+twomain ap proac hes: backpropagation-based and perturbation-
+based tec hniques [6]. In backpropagation-based tec hniques suc has Salien cy Maps [43], thealgorithm performs oneor more
+forward passes through a net workand generates at tributions
+duringthe backpropagation stage. SHAP [28] and LIME [39] on the
+ot her hand, use perturbation-based tec hniques in whichthe in put
+in stan ces areperturbed byoc clusions, substitutions, masking, et cto generate anat tribution rep resen tation whic hin forms feature
 1https://bridges. monash. edu/artic les/dataset/DEFAULTS_Dataset/28443197
-im portan ce [6]. We choose these different explanation tec hniques
-as they are rep resen tative of the explanation met hods exten sively
+im portan ce [6]. Wec hoose these different explanation tec hniques
+asthey arerep resen tative ofthe explanation met hods exten sively
 used curren tly in the field of XAI. While multip le com parison
 studies [2, 35] have been con duc ted wit hin ot her areas, these
-met hods have yet to be com pared wit hin the con text of FER.
+met hods have yet to becom pared wit hin thecon text of FER.
 2.3
 FER XAI
-As discussed earlier, multip le XAI met hods exist curren tly (such as
-Grad-CAM [42], LIME [39], SHAP [28]) which at tempt to provide
-post-hoc explanations to the in ner workings of different classifiers.
-However, despite these being powerful met hods of explaining
-generic models in AI, they have been developed to work with any
-classifiers and not specifically with the purpose of in terpreting
-FER models. As is usually the case, generality can cause a loss of
-in formation which can affect performan ce. Prior com parison work
-mostly utilized these types of met hod categories to qualitatively
-assess the suitability of explanations [7, 38] which is subjec tive
-in nature. In ot her studies [14, 28], aut hors use XAI tec hniques to
-determine which features the model places more im portan ce on, so
-that re-training with critical data points can take place for bet ter
-performan ce. Crucially, these studies do not em pirically evaluate
-the percep tions and un derstan ding of poten tial non-expert end-
-users who are im portant stakeholders in the use of this tec hnology.
-Em pirical experiments which con duct com parisons of end-user
-un derstan ding and percep tion when provided with these different
+Asdiscussed earlier, multip le XAImet hods exist curren tly (such as
+Grad-CAM [42], LIME [39], SHAP [28]) whic hat tempt top rovide
+post-hoc explanations tot he in ner workings ofdifferent classifiers.
+However, despite these bein gpowerful met hods ofexplainin ggeneric modelsin AI, they have been developed toworkwit hany
+classifiers an dnot specifically withthe purpose ofin terpreting
+FER models. Asis usually thecase, generality can cause a loss ofin formation whic hcan affect performan ce. Prior com parison work
+mostly utilized these types ofmet hod categories toqualitatively
+assess thesuitability ofexplanations [7, 38] whic his subjec tive
+in nature. Inot her studies [14, 28], aut horsuse XAItec hniques to
+determine whic hfeatures themodel places more im portan ce on, so
+that re-training withcritical data points can take place forbet ter
+performan ce. Crucially, these studies do notem pirically evaluate
+thepercep tions an dun derstan din gof poten tial non-expert end-
+users whoare im portant stakeholders in the useofthis tec hnology.
+Em pirical experiments whic hcon duct com parisons of end-user
+un derstan din gand percep tion when provided withthese different
 explanations have not been exten sively researched in the con text
-of FER to the best of our knowledge.
-We com pare the performan ce of these widely used, general, XAI
-met hods to our novel explanation system (DEFAULTS), tailored
-specifically for the task of FER. To develop our system, we leverage
-work from the Facial Ac tion Coding System (FACS) [13]. The FACS
-en codes human facial expressions in terms of muscle ac tivations
-on a person’s face. Each muscle ac tivation, or Facial Ac tion
+of FER tot he best ofour knowledge.
+Wecom pare theperforman ce ofthese widely used, general, XAI
+met hods toour novel explanation system (DEFAULTS), tailored
+specifically forthe taskof FER. Todevelopour system, weleverage
+workfrom the Facial Ac tion Coding System (FACS) [13]. The FACS
+en codes human facial expressions in terms ofmuscle ac tivations
+on a person’s face. Eac hmuscle ac tivation, or Facial Ac tion
 Unit (FAU) rep resents a visible facial muscle movement that can
-give in dications towards a person’s emotional state. Exam ples of
-these FAUs in clude Eyebrow Raiser, Nose Wrin kler, Lips Part, etc.
-DEFAULTS is therefore groun ded in formal theory with regards to
-human physiology when expressing facial emotions.
-In order to use FAUs as part of our explanations we first
-need to be able to detect them. To guaran tee a fair com parison
-of model ac curacy we need to en sure that the com parable,
-general, XAI met hods are able to generate explanations from the
-com mon referen ce FER model. To do this we leveraged prior work
-which predic ted FAUs using various mac hine learning models,
-such as Sup port Vec tor Mac hines (SVMs) [3] or Deep Learning
-ap proac hes [21]. Kim and Kim [21] developed a Con volutional
-Neural Net work (CNN) which ac cepts in put images and out puts
-a predic tion of 8 emotion classes. Using the predic tion vec tor
-and final con volutional layer, the aut hors fed that in to a Deep
+give in dications towards a person’s emotional state. Exam ples ofthese FAUs in clude Eyebrow Raiser, Nose Wrin kler, Lips Part, etc.
+DEFAULTS istherefore groun ded in formal theory wit hregards to
+human physiology when expressin gfacial emotions.
+Inorder touse FAUs aspart ofour explanations wefirst
+need to be able to detect them. Toguaran tee a fair com parison
+ofmodel ac curacy weneed toen sure that thecom parable,
+general, XAImet hods areable togenerate explanations from the
+com mon referen ce FERmodel. To do this weleveraged prior workwhich predic ted FAUs usin gvarious mac hine learnin gmodels,
+suc has Sup port Vec tor Mac hines (SVMs) [3] or Deep Learnin gap proac hes [21]. Kimand Kim [21] developed a Con volutional
+Neural Net work (CNN) whic hac cepts in put images an dout puts
+a predic tion of 8 emotion classes. Usingthe predic tion vec tor
+an dfinal con volutional layer, theaut hors fedthat in to a Deep
 Neural Net work (DNN) which out put ted a predic tion vec tor on 15
-classes of FAUs. This met hod allows for effec tively generating FAU
-predic tions using the DNN model. In our work we utilised the CNN
-model, which was used as the basis prior to the DNN predic tor, as
-the com mon referen ce model over which we generated explanations
-using the ot her XAI met hods described.
+classesof FAUs. This met hod allows foreffec tively generating FAU
+predic tions usingthe DNNmodel. Inour workwe utilisedthe CNN
+model, whic hwas used asthe basis prior tot he DNNpredic tor, as
+thecom mon referen ce model over whic hwe generated explanations
+usingthe ot her XAImet hods described.
 
 
 3
 MET HOD
-An overview diagram of our study can be seen in Figure 1. The
-top sec tion shows an exam ple of images shown to participants
-of a person displaying an emotion. The first image shows
-how images were presen ted to the con trol group, with no
-additional explanations added to the image. The subsequent
-images show exam ples of explanations by each XAI met hod being
-com pared. Below that we display the survey questions presen ted to
-participants after each test image. The questions in the test phase
-were developed to gauge participant un derstan ding as well as level
-of trust towards the model’s predic tive capabilities. The an swer
-to the first question establishes the human ground truth predic tion
-(HGTP), while the an swer to the second question established the
-human model predic tion (HMP). We also in clude Evaluation Met rics
-(displayed at the bot tom) to guide how we assess user un derstan ding
-and trust. This evaluation is based on participant respon ses, dataset
+Anoverviewdiagram ofour study can be seenin Figure 1. The
+top sec tion shows anexam ple ofimages shown toparticipants
+of a person displayin gan emotion. The first image shows
+howimages were presen ted tot he con trol group, with no
+additional explanations added tot he image. Thesubsequent
+images showexam ples ofexplanations byeach XAI met hod being
+com pared. Belowthat wedisplay thesurvey questions presen ted to
+participants after eac htest image. Thequestions in the test phase
+were developed togauge participant un derstan din gas well aslevel
+oftrust towards the model’s predic tive capabilities. The an swer
+tot he first question establishes thehuman ground truth predic tion
+(HGTP), while thean swer tot he second question established the
+human model predic tion (HMP). Wealso in clude Evaluation Met rics
+(displayed at the bot tom) toguide howwe assess user un derstan din gand trust. This evaluation isbased on participant respon ses, dataset
 an notations, and the model’s ac tual predic tions. In the following
-subsec tions, we will provide more details on the FER model used
-as a baseline, the XAI met hods chosen for com parison as well as
-our novel explanation met hod, the study design used, experimen tal
-procedure and finally, the participant selec tion and sam ple size
+subsec tions, wewill provide more details on the FERmodel used
+as a baseline, the XAImet hods chosen forcom parison aswell as
+ournovel explanation met hod, the study design used, experimen tal
+procedure an dfinally, theparticipant selec tion an dsam ple size
 determination.
 3.1
 FER Model & Explanation Met hods
-We rep licated the FER model developed by Kim and Kim [21], as
-discussed in subsec tion 2.3, because it could be direc tly ap plied
-by both general XAI met hods and FAU predic tions. The CNN
-com ponent of the model was trained on the CK+ dataset [27],
+Werep licatedthe FERmodel developedby Kimand Kim [21], as
+discussed in subsec tion 2.3, because it could bedirec tly ap plied
+bybot hgeneral XAImet hodsand FAUp redic tions. The CNN
+com ponent ofthe model wastrained on the CK+ dataset [27],
 ac hieving a validation ac curacy of 91.13%. This CNN model
-took images as in put and produced out puts in the form of a
-1x8 vec tor, predic ting the eight emotion classes. We used this
-CNN model to generate explanations with various state-of-the-
-art XAI met hods. The met hods chosen for com parison in clude
-LIME [39] and SHAP [28] which are rep resen tatives of state-of-
-the-art pertubation-based met hods, as well as Salien cy Maps [43]
+tookimages asin put andproduced out puts in the form of a
+1x8 vec tor, predic tingthe eight emotion classes. We used this
+CNNmodel togenerate explanations wit hvarious state-of-the-
+art XAImet hods. Themet hods chosen forcom parison in clude
+LIME [39] and SHAP [28] whic hare rep resen tatives of state-of-
+the-art pertubation-based met hods, aswellas Salien cy Maps [43]
 which is a rep resen tative of state-of-the-art gradient-based met hod.
-By using the same CNN model to generate all explanations, we
-en sured a fair com parison as the ac curacy of the model is kept
+Byusingthe same CNNmodel togenerate allexplanations, we
+en sured a fair com parison asthe ac curacy ofthe model iskept
 con stant.
-The DNN model was then trained as a separate head to the
-CNN model in order to predict FAUs. It used a con catenation
-of the final con volution layer of the CNN model (a 1x4032 Fully
+The DNNmodel wasthen trained as a separate head tot he
+CNNmodel inorder top redict FAUs. It used a con catenation
+ofthe final con volution layer ofthe CNNmodel (a 1x4032 Fully
 Con nec ted node) and the 1x8 emotion predic tion vec tor from the
-CNN to predict the FAUs present in an image. The DNN model
-out puts a 1x15 vec tor of boolean ac tive/inac tive predic tions for
+CNNto predictthe FAUs present inan image. The DNN model
+out puts a 1x15 vec tor ofboolean ac tive/inac tive predic tions for
 FAUs. When cross-validated using the CK+ dataset, this model
-ac hieved a minimum ac curacy of 96.33%, similar to the CNN model.
-With this in place, we now have the ability to generate FAU-based
-explanations from the previously trained CNN model.
-The out put of the DNN model, a 1x15 vec tor of boolean
-ac tive/inac tive FAUs, could now be con verted direc tly in to textual
-explanations of ac tivated FAUs (such as Eyebrow Raiser, Nose
-Wrin kler, Lips Part, etc). An exam ple of this can be seen in
-the Exam ple Test Image sec tion in Figure 1 un der the FAU-
-T met hod. We then sought to develop a met hod to generate
-visual rep resen tations of FAUs to com plement these textual
-Figure 1: An Overview Figure. (From top) Visualisation of
-exam ple test image shown to each cohort. Survey Questions
-asked to users on ce they view the image and subsequent
-explanation image. Dataset model labels con sisting of ‘GT’
-which is the an notated label in the dataset for this image and
+ac hieved a minimum ac curacy of 96.33%, similar tot he CNNmodel.
+With this in place, wenowhave theability togenerate FAU-based
+explanations from thep reviously trained CNNmodel.
+The out put of the DNN model, a 1x15 vec tor ofboolean
+ac tive/inac tive FAUs, could nowbe con verted direc tly in to textual
+explanations ofac tivated FAUs (such as Eyebrow Raiser, Nose
+Wrin kler, Lips Part, etc). Anexam ple ofthis can be seen in
+the Exam ple Test Image sec tionin Figure 1 un der the FAU-
+T met hod. Wet hen sought todevelop a met hod togenerate
+visual rep resen tation sof FAUs tocom plement these textual
+Figure 1: An Overview Figure. (From top) Visualisation ofexam ple test image shown toeac hcohort. Survey Questions
+asked tousers on ce they viewthe image an dsubsequent
+explanation image. Dataset model labels con sistin gof ‘GT’
+whic his thean notated label in the dataset forthis image and
 ‘MP’ which is the FER model’s ac tual predic tion. Evaluation
-Met rics visualisation, as detailed in Sec tion 3.5 (bot tom).
-explanations. Utilizing the work from [36], we iden tified the facial
-lan dmarks associated with each FAU ac tivated. We then drew
-con tours bet ween the points to rep resent our finalized visual FAU
-explanations. An exam ple of this can be seen in the Exam ple Test
-Image sec tion in Figure 1 un der the FAU-V met hod. Both the
-FAU-T and FAU-V met hods were com bined to generate the final
+Met rics visualisation, asdetailedin Sec tion 3.5 (bot tom).
+explanations. Utilizingthe workfrom [36], weiden tified thefacial
+lan dmarks associated wit heach FAU ac tivated. Wet hen drewcon tours bet ween thepoints torep resent ourfinalized visual FAU
+explanations. Anexam ple ofthis can be seen in the Exam ple Test
+Image sec tionin Figure 1 un der the FAU-V met hod. Both the
+FAU-T and FAU-V met hods were com bined togenerate thefinal
 FAU-VT met hod as seen in Figure 1 which rep resents explanations
-generated by DEFAULTS. The stan dardized masked rep resen tations
-presen ted to participants are shown in Figure 2. The decision
-to use stan dardized masked rep resen tations en sured that each
-rep resen tation shown did not bias the user. For each masked image,
-the original image was also displayed to users for easy com parison
-of the regions highlighted by the mask.
+generatedby DEFAULTS. Thestan dardized masked rep resen tations
+presen ted toparticipants areshownin Figure 2. Thedecision
+touse stan dardized masked rep resen tations en sured that eac hrep resen tation shown didnot bias theuser. For each masked image,
+theoriginal image wasalso displayed tousers foreasy com parison
+ofthe regions highlighted byt he mask.
 3.2
 Con ditions
-The experiment was con duc ted as a bet ween-subject study with
-seven con ditions. The list below out lines the seven cohort groups,
+Theexperiment wascon duc ted as a bet ween-subject study wit hseven con ditions. Thelist belowout lines theseven cohort groups,
 
 
-which were based on the explanation met hods described in the
-previous subsec tion. Exam ple images generated for each cohort
-can be seen in the Exam ple Test Images sec tion in Figure 1.
-(1) CON TROL (CAI) Participants were not provided with any
+whic hwere based on the explanation met hods described in the
+previous subsec tion. Exam ple images generated foreac hcohort
+can be seen in the Exam ple Test Images sec tionin Figure 1.
+(1) CON TROL (CAI) Participants were not provided wit hany
 explanations.
-(2) LIME Participants were provided with explanations using
-the LIME met hod.
+(2) LIME Participants were provided with explanations usingthe LIME met hod.
 (3) SALMAP Participants were provided with explanations
-using the Salien cy Map met hod.
-(4) SHAP Participants were provided with explanations using
-the SHAP met hod.
-(5) FAU-T Participants were provided with explanations using
-on ly the textual modality of DEFAULTS. Exam ple: In ner Brow
+usingthe Salien cy Map met hod.
+(4) SHAP Participants were provided with explanations usingthe SHAP met hod.
+(5) FAU-T Participants were provided with explanations usin gon ly thetextual modalityof DEFAULTS. Exam ple: In ner Brow
 Raised, Lips Parted, Nose Wrin kled, etc.
-(6) FAU-V Participants were provided with explanations using
-on ly the visual modality of DEFAULTS.
-(7) FAU-VT Participants were provided with explanations using
-both the textual and visual modality of DEFAULTS.
+(6) FAU-V Participants were provided with explanations usin gon ly thevisual modalityof DEFAULTS.
+(7) FAU-VT Participants were provided with explanations usin gboththe textual an dvisual modalityof DEFAULTS.
 Figure 2: Stan dardized masked image explanations generated
-by (a) LIME, (b) FAU-based, (c) Salien cy Map and (d) SHAP
+by (a) LIME, (b) FAU-based, (c) Salien cy Mapand (d) SHAP
 3.3
 Research Questions & Hypot heses
-The goal of this work is to iden tify which types and modalities
-of explanations en han ce users’ un derstan ding of FER models and
-foster ap prop riate trust. We hypot hesized that users who receive
-both textual and visual FAU-based explanations would bet ter
-un derstand the system, demonstrated by their ability to more
-ac curately predict the model’s out puts com pared to users who
-receive no explanations at all. We further hypot hesized that this
-in creased un derstan ding will also en gen der more ap prop riate trust
-in the model. Based on this, we explored the following research
-questions and associated hypot heses.
+Thegoal ofthis workis toiden tify whic htypes an dmodalities
+ofexplanations en han ce users’ un derstan din gof FER models and
+foster ap prop riate trust. Wehypot hesized that users whoreceive
+bot htextual an dvisual FAU-based explanations would bet ter
+un derstand thesystem, demonstrated byt heir ability tomore
+ac curately predict the model’s out puts com pared tousers who
+receive no explanations atall. Wefurther hypot hesized that this
+in creased un derstan din gwill also en gen der more ap prop riate trust
+in the model. Based on this, weexplored thefollowing researchquestions an dassociated hypot heses.
 Research Questions:
 (1) RQ1: Which explanation met hod most effec tively helps users
-un derstand how the model works in prac tice?
-H1.1: Users provided with visual explanations based on
-FAUs will show a stron ger alignment with the model’s
-predic tions com pared to users provided with ot her types
-of visual explanations.
-H1.2: Users provided with explanations in both visual and
-textual modalities will show a stron ger alignment with the
-model’s predic tions com pared to users provided with on ly
-one modality of explanation.
+un derstand howthe model works in prac tice?
+H1.1: Users provided wit hvisual explanations based on
+FAUs will show a stron ger alignment withthe model’s
+predic tions com pared tousers provided wit hot her types
+ofvisual explanations.
+H1.2: Users provided with explanations in bot hvisual and
+textual modalities will show a stron ger alignment withthe
+model’s predic tions com pared tousers provided wit hon ly
+onemodality ofexplanation.
 (2) RQ2: Which explanation met hod helps users develop the most
-ap prop riate level of trust in the model?
+ap prop riate level oftrust in the model?
 H2.1: Explanations based on visual FAUs will foster more
-ap prop riate perceived and demonstrated trust in the model,
-com pared to ot her types of visual explanations.
-H2.2: Explanations provided as both visual and textual
-modalities will lead to more ap prop riate perceived and
-demonstrated trust in the model, com pared to in dividual
+ap prop riate perceived an ddemonstrated trust in the model,
+com pared toot her types ofvisual explanations.
+H2.2: Explanations provided asbot hvisual an dtextual
+modalities will lead tomore ap prop riate perceived and
+demonstrated trust in the model, com pared toin dividual
 modalities.
 Part #
 Analyses
@@ -370,416 +339,387 @@ Con trol
 FAU-T,
 FAU-V, FAU-VT
 Table 1: Analyses
-In order to an swer Research Question 1 and 2 the following
-analyses were created, as shown in Table 1. Analysis Part #1
+Inorder toan swer Research Question 1 and 2 thefollowin ganalyses were created, as shown in Table 1. Analysis Part #1
 (Explanation Types (visual on ly)) an swers H1.1 and H2.1 whereas
 Analysis Part #2 (Explanation Modality) an swers H1.2 and H2.2.
-The design of both experiment analyses was cap tured in a pre-
-registration on Open Scien ce Framework2 which was made public
-before the experiment com men ced. The study procedure was
-reviewed and ap proved by the Monash University Human Research
+Thedesignofboth experiment analyses wascap tured in a pre-
+registrationon Open Scien ce Framework2 whic hwas made public before theexperiment com men ced. Thestudy procedure was
+reviewed an dap proved byt he Monash University Human Research
 Et hics Com mit tee un der Project ID 37086.
 3.4
 Experiment Procedure
-All cohorts gave their con sent at the start of the session and
+Allcohorts gave their con sent at the start ofthe session and
 com pleted a brief pre-question naire on demograp hics. Participants
-then en tered a training phase specific to their cohort. The images
-selec ted for the training phase were ran dom ly sam pled from the
-CK+ dataset. During training participants in the con trol cohort
-viewed images with facial expressions and were in formed of both
-the ground truth an notated emotion and the model’s predic tion.
-These participants did not receive any explanations. Participants
-in the ot her six explanation cohorts were shown the original
-images, ground truth an notation and model predic tion as well as an
-explanation of the model ac cording to their cohort group. For each
-of the 7 Ekman emotion categories [13] (neut ral, an ger, sadness,
-hap piness, fear, surprise and disgust) participants were shown one
-exam ple of an ac curate model predic tion and one exam ple of an
-inac curate model predic tion (an exam ple for LIME is shown in
-Figure 3). Participants were explicit ly in formed that the exam ples
-of ac curate and inac curate predic tions were not reflec tive of the
+then en tered a trainingphase specific to their cohort. The images
+selec ted forthe trainingphase were ran dom ly sam pled from the
+CK+ dataset. Duringtraining participants in the con trol cohort
+viewed images wit hfacial expressions an dwere in formed ofboththe ground truth an notated emotion andthe model’s predic tion.
+These participants didnot receive anyexplanations. Participants
+in the ot her sixexplanation cohorts were shown theoriginal
+images, ground truth an notation an dmodel predic tion aswell asan
+explanation ofthe model ac cordin gto their cohort group. For eac hof the 7 Ekman emotion categories [13] (neut ral, an ger, sadness,
+hap piness, fear, surprise an ddisgust) participants were shown one
+exam ple ofan ac curate model predic tion an done exam ple ofan
+inac curate model predic tion (an exam plefor LIME isshown in
+Figure 3). Participants were explicit ly in formed that theexam ples
+ofac curate an dinac curate predic tions were not reflec tive ofthe
 model’s overall ac curacy.
-Following the training phase, participants moved on to the
-testing phase, which in cluded a total of 28 images (4 images for each
-of the 7 emotion classes). The images were ran dom ly sam pled from
-the Aff-Wild2 dataset [23] which features non-posed expression
-images un der various lighting con ditions, age groups, and gen ders.
+Followingthe trainingphase, participants moved on to the
+testingphase, whic hin cluded a total of 28 images (4 images for eac hof the 7 emotion classes). Theimages were ran dom ly sam pled from
+the Aff-Wild2 dataset [23] whic hfeatures non-posed expression
+images un der various lighting con ditions, age groups, an dgen ders.
 A balan ced distribution of 50% correct and 50% in correct predic tion
-images was chosen to reflect state-of-the-art FER ac curacy of 52%
-on this dataset [40]. Therefore, for each emotion class 2 correct and
-2 in correc tly predic ted images were selec ted to be tested. By using
-state-of-the-art FER benchmark with in-the-wild data to determine
-the ac curacy of the model to be presen ted to users, our ap proach
+images waschosen toreflect state-of-the-art FERac curacy of 52%
+on this dataset [40]. Therefore, foreac hemotion class 2 correct and
+2 in correc tly predic ted images were selec ted tobe tested. By using
+state-of-the-art FERbenchmarkwith in-the-wild data todetermine
+theac curacy ofthe model tobe presen ted tousers, ourap proach
 2Links to pre-registration: osf. io/2ez64,osf. io/35upf
 
 
-does not rely on the un derlying model’s ac curacy offering in sights
-in to the ap plication of XAI in realistic FER con texts.
-Similar to the training phase, for each image in the testing
-phase, participants were shown the original test image along with
-explanations of the model based on their specific cohort (eit her
+does not rely on the un derlying model’s ac curacy offerin gin sights
+in to theap plicationof XAI in realistic FER con texts.
+Similar tot he trainingphase, foreac himage in the testing
+phase, participants were shown theoriginal test image along wit hexplanations ofthe model based on their specific cohort (eit her
 LIME, SHAP, SALMAP, FAU-T, FAU-V or FAU-VT) (Figure 1, top).
 Participants in the CON TROL (CAI) cohort were shown on ly the
-original test image wit hout any explanations. Model predic tions
-were not displayed to participants during the test phase. The order
-in which the images were presen ted was ran domized to con trol for
-any poten tial ordering effects.
-Participants were then asked two questions (as shown in
-the Survey Questions sec tion of Figure 1). For both questions,
-participants were required to select one op tion from the seven
-emotion categories. The seven emotion categories were used in stead
-of the eight categories the model was trained on because the test
-dataset (Aff-wild2) does not in clude the “con tempt” emotion. After
-com pleting the 28 images, participants an swered the Trust Scale
+original test image wit hout anyexplanations. Model predic tions
+were not displayed toparticipants duringthe test phase. The order
+in whichthe images were presen ted wasran domized tocon trol for
+anypoten tial orderin geffects.
+Participants were then asked twoquestions (as shown in
+the Survey Questions sec tionof Figure 1). Forboth questions,
+participants were required toselect oneop tion from theseven
+emotion categories. Theseven emotion categories were used in stead
+ofthe eight categories themodel wastrained on because thetest
+dataset (Aff-wild2) does notin clude the “con tempt” emotion. After
+com pletingthe 28 images, participants an sweredthe Trust Scale
 and Explanation Satisfac tion scale [19]. The survey items were
-designed to assess the participant’s perceived trust in the FER
-model after being exposed to explanations, as well as to measure the
-helpfulness of the explanations in the con text of FER. Participants in
-the CON TROL cohort were not asked to com plete the Explanation
+designed toassess the participant’s perceived trust in the FER
+model after bein gexposed toexplanations, aswell asto measure the
+helpfulness ofthe explanations in the con text of FER. Participants in
+the CON TROL cohort were notasked tocom pletet he Explanation
 Satisfac tion Scale, as no explanations were provided to them. A full
-process flow of the experiment procedure can be seen in Figure 4.
-Figure 3: Exam ple images shown for the LIME cohort during
-the training phase.
+process flowofthe experiment procedure can be seenin Figure 4.
+Figure 3: Exam ple images shown forthe LIME cohort duringthe trainingphase.
 3.5
 Evaluation Met rics
-To evaluate and address RQ1 and RQ2, the following met ric items
+Toevaluate an daddress RQ1 and RQ2, thefollowing met ricitems
 were used:
-(1) Human Model Predic tion (Hmp) Ac curacy: The num ber
-of times that participants an swered Question #2 from the
-Survey Questions sec tion in Figure 1 correc tly out of the
-total num ber of questions. This measured a participant’s
-ability to guess the model’s predic tion, which con tributes
+(1) Human Model Predic tion (Hmp) Ac curacy: Thenum ber
+oftimes that participants an swered Question #2 from the
+Survey Questions sec tionin Figure 1 correc tly outofthe
+total num ber ofquestions. This measured a participant’s
+ability toguess the model’s predic tion, which con tributes
 towards an swering RQ1 H2.1 and H2.2.
 (2) Ap prop riate Trust: This con tributes towards an swering
-RQ2 H3.1 and H3.2. In Figure 1, “GT” rep resents the ground
-Figure 4: Process Flow of Experiment Procedure.
+RQ2 H3.1 and H3.2. In Figure 1, “GT” rep resents theground
+Figure 4: Process Flowof Experiment Procedure.
 truth an notation label from the Aff-Wild2 dataset and “MP”
-rep resents the model predic tion of our FER model. Trust is
+rep resents themodel predic tion ofour FERmodel. Trust is
 con sidered ap prop riate when eit her:
-(a) For the correct test images (where GT is the same as MP):
-Participant an swers for Question #1 (Hgtp) and Question
-#2 (Hmp) from the Survey Questions sec tion in Figure 1
+(a) Forthe correct test images (where GT is the same as MP):
+Participant an swersfor Question #1 (Hgtp) and Question
+#2 (Hmp) from the Survey Questions sec tionin Figure 1
 are the same. This means that participants trusted that
-the model will predict the same emotion as what they
-an swered for Question #1. OR;
-(b) For the in correct test images (where GT is not the same
-as MP): Participant an swers for Question #1 (Hgtp) and
+themodel will predict thesame emotion aswhat they
+an sweredfor Question #1. OR;
+(b) Forthe in correct test images (where GT is not the same
+as MP): Participant an swersfor Question #1 (Hgtp) and
 Question #2 (Hmp) from the Survey Questions sec tion in
 Figure 1 were different. This means that participants did
-not trust that the model will predict the same emotion as
-what they an swered for Question #1.
-Ot her met rics cap tured and analysed which do not direc tly relate
-to the research questions are shown below. These met rics help to
-in form the study and add more con text to the discussion.
-(1) HP Ac curacy: The num ber of times that the participant
+not trust that themodel will predict thesame emotion as
+what they an sweredfor Question #1.
+Ot her met rics cap tured an danalysed which do not direc tly relate
+tot he research questions areshown below. These met rics helpto
+in form thestudy an dadd more con text tot he discussion.
+(1) HP Ac curacy: Thenum ber oftimes that theparticipant
 an swered Question #1 from the Survey Questions sec tion in
 Figure 1 correc tly (i. e., Hgtp = GT) out of the total num ber of
-questions. This measured a participant’s ability to recognise
+questions. This measured a participant’s ability torecognise
 facial expressions.
-(2) Trust Scale Overall Score: This was calculated as the sum
-of the points for each question in the scale after deduc ting
-the score from item #6 (“I am wary of the emotion recognition
-system.”) which was negatively weighted.
+(2) Trust Scale Overall Score: This wascalculated asthe sum
+ofthe points foreac hquestion in the scale after deduc tingthe score from item #6 (“I am wary ofthe emotion recognition
+system.”) whic hwas negatively weighted.
 (3) Explanation Satisfac tion Scale Overall score: calculated
-as the sum of the points for each question in the scale.
-We con duc ted a one-way ANOVA test for each of the met ric
-items shown above to com pare the means of multip le groups wit hin
+asthe sumofthe points foreac hquestion in the scale.
+Wecon duc ted a one-way ANOVA test foreac hofthe met ricitems shown above tocom pare themeans ofmultip le groups wit hin
 
 
-each analysis part. If the ANOVA test revealed any significan ce, we
-con duct a subsequent post-hoc Tukey HSD test to determine which
-groups were significan tly different from one anot her.
+eac hanalysis part. Ifthe ANOVA test revealed anysignifican ce, we
+con duct a subsequent post-hoc Tukey HSDtest todetermine whichgroups were significan tly different from oneanot her.
 3.6
 Participants
-A G*Power analysis was con duc ted to determine the num ber of
-sam ples required for each participant group. The goal was to
-obtain 0.8 power at the stan dard .05 alpha error probability. Using
-a one-way ANOVA test as our plan ned statistical test and an
+A G*Power analysis wascon duc ted todetermine thenum ber ofsam ples required foreach participant group. The goal was to
+obtain 0.8 power at the stan dard .05 alpha error probability. Usin ga one-way ANOVA test asour plan ned statistical test an dan
 estimated medium effect size of 0.25, we found the total sam ple
-size recom men ded to be 200 participants for Analysis #1 which
-has 5 groups. For Analysis #2, the total sam ple size recom men ded
+size recom men ded tobe 200 participantsfor Analysis #1 whic hhas 5 groups. For Analysis #2, thetotal sam ple size recom men ded
 was 160 participants for a medium effect size of 0.265 and 4 groups.
-Due to the overlap of the Con trol and the FAU-V cohorts for both
-analysis parts, the num ber of participants rec ruited was 280 in total.
-Participants were rec ruited from the Prolific plat form which has
-been shown to produce high quality respon ses [11, 15]. Participants
-were selec ted from En glish speaking coun tries (Australia, UK,
-US, Canada) bet ween the ages of 18 to 100 years old with the
+Dueto theoverlapofthe Con trol andthe FAU-V cohorts forbot hanalysis parts, thenum ber ofparticipants rec ruited was 280 in total.
+Participants were rec ruited from the Prolific plat form whic hhas
+been shown top roduce high quality respon ses [11, 15]. Participants
+were selec ted from En glishspeaking coun tries (Australia, UK,
+US, Canada) bet ween theages of 18 to 100 years old with the
 male: female gen der ratio balan ced at 50%. Participants were paid at
 a rate of £6 per hour and the study’s estimated time was 30 minutes
 based on a pilot study con duc ted with 21 participants.
-To en sure the quality of respon ses, two at ten tion checks were
-put in place wit hin the survey which tested participants based on
-their ability to recognize generic objects. The questions were not
-relevant to the test questions presen ted in the main body of the
-survey. Participants who com pleted the survey in less than half
-of the median time (ap proximately 30 minutes) and failed both
-at ten tion checks were removed from the study results to en sure
+Toen sure thequality ofrespon ses, twoat ten tion checks were
+putin place wit hin thesurvey whic htested participants based on
+their ability torecognize genericobjects. Thequestions were not
+relevant tot he test questions presen ted in the main body ofthe
+survey. Participants whocom pleted thesurvey in less than halfofthe median time (ap proximately 30 minutes) and failed both
+at ten tion checks were removed from thestudy results toen sure
 on ly quality respon ses were cap tured.
 4
 RESULTS
-We now describe the results of our study. We use boxplots to
-present our results, in which the top line of the box rep resents
-the 3rd quartile and the bot tom line rep resents the 1st quartile of
-the data points. The middle “bolded” line in the box rep resents the
-2nd quartile or median of the data. Dots in the boxplots rep resent
-out liers in the data. A one-way ANOVA was performed for both
-analyses (referred to in Table 1) for each of the met ric items
-discussed in subsec tion 3.5. The ANOVA test helps to determine
-how the means of the groups differ with regards to the evaluation
-met rics through different explanation types. If significant effect is
+Wenowdescribe theresults ofour study. Weuse boxplots to
+present ourresults, in whichthe top line ofthe boxrep resents
+the 3rd quartile andthe bot tom line rep resents the 1st quartile ofthe data points. The middle “bolded” line in the boxrep resents the
+2nd quartile ormedian ofthe data. Dots in the boxplots rep resent
+out liers in the data. A one-way ANOVA wasperformed forbot hanalyses (referred to in Table 1) for each of the met ric items
+discussed in subsec tion 3.5. The ANOVA test helps todetermine
+howthe means ofthe groups differ wit hregards tot he evaluation
+met rics through different explanation types. Ifsignificant effect is
 found, this means that there is a significant differen ce in the means
 of at least two groups. However, the ANOVA test alone can not
-determine which two groups differ. Therefore, for results with
-significan ce, a Tukey HSD test was then carried out to determine
-which groups were significan tly different as this test com pares all
-pairwise differen ces for significan ce.
+determine whichtwo groups differ. Therefore, forresults with
+significan ce, a Tukey HSDtest wasthen carried out to determine
+whichgroups were significan tly different asthis test com pares all
+pairwise differen ces forsignifican ce.
 4.1
-FER model un derstan ding
+FERmodel un derstan ding
 The one-way ANOVA test revealed no significan ce bet ween cohorts
 in the Explanation Type part (𝐹(4, 195) = 0.8, 𝑝= 0.53) as well
-as the Explanation Modality part (𝐹(3, 156) = 1.02, 𝑝= 0.39)
-for the Human Predic tion (HP) Ac curacy. The HP Ac curacy was
-determined by calculating the num ber of times the participant
+asthe Explanation Modality part (𝐹(3, 156) = 1.02, 𝑝= 0.39)
+forthe Human Predic tion (HP) Ac curacy. The HPAc curacy was
+determined bycalculatingthe num ber oftimes theparticipant
 got Question #1 correct (Hgtp) in the Survey Questions shown in
 Figure 1. This shows that participants in this study were similar in
-their ability to recognize emotions and in dicates that no specific
-group had bet ter emotion recognition abilities which could be seen
-as an advan tage over ot her groups.
+their ability torecognize emotions an din dicates that no specific group had bet ter emotion recognition abilities whic hcould beseen
+asan advan tage over ot her groups.
 In order to an swer H1.1 and H1.2 for Research Question 1
-(RQ1), we analysed the Human Model Predic tion (Hmp) Ac curacy.
-The Hmp Ac curacy was determined by calculating the num ber
-of times the participant got Question #2 correct (Hmp) in the
-Survey Questions shown in Figure 1. The one-way ANOVA test
+(RQ1), weanalysedthe Human Model Predic tion (Hmp) Ac curacy.
+The Hmp Ac curacy wasdetermined bycalculatingthe num ber
+oftimes theparticipan tgot Question #2 correct (Hmp) in the
+Survey Questions shownin Figure 1. The one-way ANOVA test
 revealed no significan ce bet ween cohorts in the Explanation Type
 part (𝐹(4, 195) = 2.21, 𝑝= 0.07) as can be seen in Figure 5. However,
-the test did show a large significan ce for the Explanation Modality
+the test did show a large significan ce forthe Explanation Modality
 part (𝐹(3, 156) = 15.41, p < 0.001) as shown in Figure 6. A post-
-hoc Tukey HSD test in dicates that the means for the FAU-T and
-FAU-VT groups was significan tly higher (p = 0.0002 & p < 0.0001)
+hoc Tukey HSDtest in dicates that themeans forthe FAU-T and
+FAU-VT groups wassignifican tly higher (p = 0.0002 & p < 0.0001)
 than the CON TROL group. The test also showed that the mean for
 the FAU-VT group was significan tly higher (p = 0.0001) than the
 FAU-V group.
 Figure 5: Hmp Ac curacy bet ween groups with different XAI
-met hods. No significan ce was found bet ween the groups.
+met hods. Nosignifican ce wasfound bet ween thegroups.
 4.2
-Ap prop riate trust of the FER model
+Ap prop riate trust ofthe FERmodel
 In order to an swer H2.1 and H2.2 for Research Question 2 (RQ2),
-we then analyse the Ap prop riate Trust Score for each analysis. As
-men tioned earlier in subsec tion 3.5, trust is con sidered ap prop riate
-when the participant an swers that their guess of the emotion shown
-on the image and the emotion the model will predict is the same
-for correct images (where the model predic tion is the same as the
-ground truth). Alternatively, trust is also con sidered ap prop riate
-when the participant an swers that their guess of the emotion shown
-on the image and the emotion the model will predict is different
-for in correct images (where the model predic tion is different than
+wet hen analyset he Ap prop riate Trust Score foreac hanalysis. As
+men tioned earlier in subsec tion 3.5, trust iscon sidered ap prop riate
+when theparticipant an swers that their guess ofthe emotion shown
+on the image andthe emotion themodel will predict isthe same
+forcorrect images (where themodel predic tion isthe same asthe
+ground truth). Alternatively, trust isalso con sidered ap prop riate
+when theparticipant an swers that their guess ofthe emotion shown
+on the image andthe emotion themodel will predict isdifferent
+forin correct images (where themodel predic tion isdifferent than
 the ground truth).
 The one-way ANOVA test revealed significan ce bet ween cohorts
 in the Explanation Type part (𝐹(4, 195) = 11.65, p < 0.0001) (seen
-in Figure 7) as well as the Explanation Modality part (𝐹(3, 156) =
-17.26, p < 0.0001) (seen in Figure 8). For analysis part 1 (Explanation
+in Figure 7) aswell asthe Explanation Modality part (𝐹(3, 156) =
+17.26, p < 0.0001) (seen in Figure 8). Foranalysis part 1 (Explanation
 Type), the post-hoc Tukey HSD test showed that the FAU-V met hod
 en gen dered significan tly higher (p-value < 0.001) ap prop riate
 
 
 Figure 6: Hmp Ac curacy bet ween groups with different XAI
-modality. The FAU-VT met hod has higher Hmp ac curacy
-than FAU-V and Con trol. FAU-T has higher Hmp ac curacy
+modality. The FAU-VT met hod hashigher Hmpac curacy
+than FAU-V and Con trol. FAU-T hashigher Hmpac curacy
 than Con trol.
-trust when com pared to the ot her visual-on ly explanation met hods
-(LIME, Salien cy Map, SHAP) and the Con trol cohort. For analysis
+trust when com pared tot he ot her visual-on ly explanation met hods
+(LIME, Salien cy Map, SHAP) andthe Con trol cohort. Foranalysis
 part 2 (Explanation Modality), the test showed that all the FAU
 modalities en gen dered significan tly higher (p-value < 0.0001)
-ap prop riate trust as com pared to the con trol cohort.
-Figure 7: Ap prop riate Trust bet ween groups for Met hod Type
-(visual-on ly) Part. FAU-V type has higher ap prop riate trust
-as com pared to all ot her visual-on ly types and the Con trol
+ap prop riate trust ascom pared tot he con trol cohort.
+Figure 7: Ap prop riate Trust bet ween group sfor Met hod Type
+(visual-on ly) Part. FAU-V type hashigher ap prop riate trust
+ascom pared toall ot her visual-on ly types andthe Con trol
 cohort.
-We excluded analytic graphs of the Trust Scale and Explanation
-Satisfac tion Scale out comes as no significan ce was found with this
+Weexcluded analytic graphs ofthe Trust Scaleand Explanation
+Satisfac tion Scale out comes as no significan ce wasfound withthis
 self-reported question naire met hod.
 5
 DISCUSSION
-In this study we sought to un derstand if XAI met hods can help
-end-users un derstand what a FER model will predict and when
-to trust an FER model’s predic tion. We proposed a novel FAU-
-based XAI met hod (DEFAULTS) and com pared it with current
-XAI met hods. We first com pared different XAI met hods using
-Figure 8: Ap prop riate Trust bet ween groups for Modality
+In this study wesought toun derstan dif XAI met hods can help
+end-users un derstand what a FERmodel will predict andwhen
+to trust an FER model’s predic tion. Wep roposed a novel FAU-
+based XAImet hod (DEFAULTS) an dcom pared it wit hcurrent
+XAImet hods. Wefirst com pared different XAImet hods using
+Figure 8: Ap prop riate Trust bet ween group sfor Modality
 Part. FAU-based met hods have higher ap prop riate trust as
-com pared to the con trol cohort.
-visual-on ly explanations. Second, we com pared different modalities,
-namely visual and textual, wit hin the proposed met hod it self.
+com pared tot he con trol cohort.
+visual-on ly explanations. Second, wecom pared different modalities,
+namely visual an dtextual, wit hin thep roposed met hod it self.
 5.1
-Im proving user un derstan ding of an FER
-model with visual and textual explanations
+Im provin guser un derstan din gofan FER
+model wit hvisual an dtextual explanations
 When con sidering Research Question #1, which in vestigated the
-effect of explanations in terms of model un derstan ding, the Hmp
-Ac curacy results did not sup port H1.1, which hypot hesised that
+effect ofexplanations in terms ofmodel un derstan ding, the Hmp
+Ac curacy results didnot sup port H1.1, which hypot hesised that
 participants shown the FAU-based visual explanations would have
-higher alignment with the model’s predic tion as com pared to ot her
-forms of visual explanations. No significant differen ce was found
-using the one-way ANOVA test and thus this hypot hesis was
-rejec ted. One possible reason for this could be that the in formation
-relayed by the FAU-V met hod was purely provided through visual
-aid, similar to the ot her XAI met hods, and that purely visual-on ly
-tec hniques are not sufficient to educate end-users on the knowledge
-required to determine what the model could predict. This is a
-critical fin ding as most explanations generated on adap ted XAI
-tec hniques on FER systems cen ters around providing visual-on ly
-explanations which are clearly not significant enough to im prove
-user un derstan ding of a FER model.
-However, for the Hmp results in analysis #2 which in vestigates
-H1.2, we see that the Hmp Ac curacy was significan tly higher with
-the FAU visual+textual met hod (FAU-VT) com pared to the FAU
-visual-on ly met hod (FAU-V) and the con trol cohort. In terestin gly,
+higher alignment withthe model’s predic tion ascom pared toot her
+forms ofvisual explanations. Nosignificant differen ce wasfound
+using the one-way ANOVA test andthus this hypot hesis was
+rejec ted. Onepossible reason forthis could bet hat thein formation
+relayed byt he FAU-V met hod waspurely provided through visual
+aid, similar tot he ot her XAImet hods, and that purely visual-on ly
+tec hniques arenot sufficient toeducate end-users on the knowledge
+required todetermine what themodel could predict. This is a
+critical fin din gas most explanations generated onadap ted XAI
+tec hniqueson FERsystems cen ters around providing visual-on ly
+explanations whic hare clearly not significant enough toim prove
+user un derstan din gof a FER model.
+However, forthe Hmpresults inanalysis #2 which in vestigates
+H1.2, wesee that the Hmp Ac curacy wassignifican tly higher withthe FAU visual+textual met hod (FAU-VT) com pared tot he FAU
+visual-on ly met hod (FAU-V) andthe con trol cohort. In terestin gly,
 the FAU textual-on ly met hod (FAU-T) also had a significan tly higher
-Hmp Ac curacy com pared to the con trol cohort as well. This results
-partially sup port H2.2: FAU met hods using both visual+textual
-and the textual-on ly modalities are bet ter than no explanations
-in helping the user un derstand the model bet ter. The FAU-VT
+Hmp Ac curacy com pared tot he con trol cohort aswell. This results
+partially sup port H2.2: FAUmet hods usin gboth visual+textual
+and the textual-on ly modalities arebet ter than no explanations
+in helpingthe user un derstand themodel bet ter. The FAU-VT
 met hod shown as having a higher score than the FAU-V met hod also
-in dicates that com bining the textual modality with visual en han ces
-its performan ce and in creases user un derstan ding of the model
-and subsequent predic tion. Therefore, sin ce FAU-based met hods
-seem to lead users to un derstand the model bet ter, we find that the
-textual com ponent of explanations are extremely im portant but
-the com bination of both textual+visual would be the best in terms
+in dicates that com biningthe textual modality wit hvisual en han ces
+it sperforman ce an din creases user un derstan din gofthe model
+an dsubsequent predic tion. Therefore, sin ce FAU-based met hods
+seem tolead users toun derstand themodel bet ter, we find that the
+textual com ponent ofexplanations areextremely im portant but
+thecom bination ofboth textual+visual would be the best in terms
 
 
-of im proving user un derstan ding. This is an im portant fin ding
-as, to the best of our knowledge, there are no ot her existing FER
+ofim provin guser un derstan ding. This isan im portant fin ding
+as, tot he best ofour knowledge, there are no ot her existing FER
 explanation models that adopt this ap proach.
 5.2
-Im proving ap prop riate user trust in FER
+Im proving ap prop riate user trustin FER
 model with FAU-based explanation
-Next we con sider Research Question #2 which in vestigates which
-explanation met hod and modality helps to en gen der ap prop riate
-user trust in the model. The results, as shown in Figure 7, in dicate
+Next wecon sider Research Question #2 which in vestigates whic hexplanation met hod an dmodality helps toen gen der ap prop riate
+user trust in the model. Theresults, as shown in Figure 7, in dicate
 that FAU-V en gen ders significan tly higher ap prop riate trust
-com pared to the con trol cohort and ot her visual-based explanation
-cohorts. This con firms H2.1: visual based FAU explanations can
-en gen der higher ap prop riate demonstrated trust com pared to ot her
-forms of visual explanations. This significan ce was not found in the
-in vestigation in to user un derstan ding, in dicating that FAU visual
-met hods may be helpful in providing a certain “in tuition” to users on
-whet her or not a model is behaving well or misbehaving. However,
-the visual-on ly FAU met hod is not enough to really im prove user
-un derstan ding towards the in ner working of the model.
-In terms of the different modalities and their effect on ap prop riate
-trust levels, we refer to the results shown in Figure 8. The results
+com pared tot he con trol cohort an dot her visual-based explanation
+cohorts. This con firms H2.1: visual based FAUexplanations can
+en gen der higher ap prop riate demonstrated trust com pared toot her
+forms ofvisual explanations. This significan ce wasnot found in the
+in vestigation in to user un derstan ding, in dicatingthat FAUvisual
+met hods maybe helpful in providing a certain “in tuition” to users on
+whet her ornot a model isbehavin gwell ormisbehaving. However,
+the visual-on ly FAUmet hod isnot enough toreally im prove user
+un derstan din gtowards thein ner workin gofthe model.
+In terms ofthe different modalities andtheir effect onap prop riate
+trust levels, werefer tot he results shownin Figure 8. Theresults
 in dicate that although each different modality wit hin the FAU-based
-met hod had a significan tly higher ap prop riate trust as com pared to
-the con trol cohort, there was no significan ce bet ween the different
+met hod had a significan tly higher ap prop riate trust ascom pared to
+thecon trol cohort, there was no significan ce bet ween thedifferent
 modalities it self. This suggests that, as a whole, the FAU-based
-met hods are more suc cessful at en gen dering ap prop riate trust
-as com pared to not having explanations at all. Users who were
-provided with this explanation type had a bet ter un derstan ding of
-when the model will suc ceed or fail.
-In analysing these results we can see that, in general,
-variants of the FAU-based met hod are bet ter at im proving user
-un derstan ding or at least in tuition when a model is performing
-well and when it is not, with the textual com ponent of FAU-
-based explanations in dicating a bet ter im provement of user
-un derstan ding. Furthermore, the com bination of textual and visual
+met hods aremore suc cessful aten gen dering ap prop riate trust
+ascom pared tonot having explanations atall. Users who were
+provided withthis explanation type had a bet ter un derstan din gofwhen themodel will suc ceed orfail.
+Inanalysingthese results wecan seet hat, in general,
+variants ofthe FAU-based met hod arebet ter atim provin guser
+un derstan din gor at least in tuition when a model isperformin gwell andwhen itis not, withthe textual com ponent of FAU-
+based explanations in dicating a bet ter im provement ofuser
+un derstan ding. Furthermore, thecom bination oftextual an dvisual
 explanation modalities significan tly im proves user knowledge
-of the model com pared to each modality in dividually. This
-aligns direc tly with our hypot hesis and initial thoughts where
-explanations on FER using FAUs are essen tially groun ded in human
-physiology while also being formal met hods of explaining. While
-formal explanations guaran tees soun dness of explanations, it also
-reduces the amount of redun dant in formation which could con fuse
-users that in teract with these types of systems [29].
-By focusing on explainable tec hniques that offer a prac tical and
-naturalistic ac count of un derstan ding towards an AI model [34],
-there is definitely room for im provement in im proving tran sparen cy
-and un derstan ding [44] towards these AI models for end-users.
-However, the lack in significant differen ce bet ween each cohort
-with regards to the participant’s self-reported out comes of the
-Trust Scale and Explanation Satisfac tion Scale shows that much
-work is still needed to measure and im prove user’s trust and
-satisfac tion of explanations in general. Ultimately, these in sights
-and im provements to explanations should culminate in im proved
-percep tion, relian ce and trust of users [8, 25, 37] which enable fair
-use of FER tec hnology through raising awareness of the poten tial
-biases and limitations of current FER systems [8, 9].
+ofthe model com pared toeac hmodality in dividually. This
+aligns direc tly wit hour hypot hesis an dinitial thoughts where
+explanation son FERusing FAUs areessen tially groun ded in human
+physiology while also bein gformal met hods ofexplaining. While
+formal explanations guaran tees soun dness ofexplanations, it also
+reduces theamount ofredun dant in formation whic hcould con fuse
+users that in teract withthese types ofsystems [29].
+Byfocusin gon explainable tec hniques that offer a prac tical and
+naturalisticac count ofun derstan ding towardsan AImodel [34],
+there isdefinitely room forim provement inim proving tran sparen cy
+an dun derstan ding [44] towards these AImodels for end-users.
+However, thelac kin significant differen ce bet ween eac hcohort
+wit hregards tot he participant’s self-reported out comes ofthe
+Trust Scaleand Explanation Satisfac tion Scale shows that muc hworkis still needed tomeasure an dim prove user’s trust and
+satisfac tion ofexplanations in general. Ultimately, these in sights
+an dim provements toexplanations should culminate inim proved
+percep tion, relian ce andtrust ofusers [8, 25, 37] which enable fair
+useof FER tec hnology through raising awareness ofthe poten tial
+biases an dlimitations ofcurrent FERsystems [8, 9].
 5.3
 Limitations
-Our work should be viewed in light of the following limitations. One
-limitation of our work is that the experiments were con duc ted with
-a sin gle type of stakeholder (laypeop le) and wit hin demograp hics
-which speak En glish as a primary lan guage. This limits our scope
-as we would not know how this explanation types affect user
-un derstan ding and ap prop riate trust when tested on a more
-multicultural and multilin gual group with diverse professional
+Ourworkshould beviewed in light ofthe following limitations. One
+limitation ofour workis that theexperiments were con duc ted wit ha sin gle type ofstakeholder (laypeop le) an dwit hin demograp hics
+whichspeak En glishas a primary lan guage. This limits our scope
+aswe would not knowhowthis explanation types affect user
+un derstan din gand ap prop riate trust when tested on a more
+multicultural an dmultilin gual group wit hdiverse professional
 backgrounds. We also plan to extend our work to a more in terac tive
-set ting with some element of risk in volved as this would be a more
-prac tical way of measuring trust towards a system. Furthermore, the
-textual com ponent of FAUs denote some sort of “ac tion” whereas
-the visual com ponent on ly relay static in formation. This could
-be perceived as a limitation of com paring the visual and textual
-rep resen tations as it may not be direc tly com parable. However, this
-presents a clear advan tage of using textual FAU explanations as they
-provide more con textual in formation com pared to static images. In
-future com parisons, we plan to expand the visual rep resen tation
-with animation to add an “ac tion” to visual explanation similar to
-the textual com ponent. Last but not least, although we aimed for
-a rep resen tative of each XAI types, we could not test all state-of-
-the-art XAI met hods which are curren tly being developed. In the
-future, we aim to provide more literature on XAI met hods to see
-their relevan ce to explaining FER models and develop benchmarks
-for evaluating XAI for FER.
+set tin gwit hsome element ofriskin volved asthis would be a more
+prac tical wayof measuringtrust towards a system. Furthermore, the
+textual com ponen tof FAUs denote some sort of “ac tion” whereas
+thevisual com ponent on ly relay static in formation. This could
+beperceived as a limitation ofcom paringthe visual an dtextual
+rep resen tations asit maynot bedirec tly com parable. However, this
+presents a clear advan tage ofusin gtextual FAUexplanations asthey
+provide more con textual in formation com pared tostaticimages. In
+future com parisons, wep lan toexpand thevisual rep resen tation
+with animation toadd an “ac tion” tovisual explanation similar to
+thetextual com ponent. Last but not least, although weaimed for
+a rep resen tative ofeach XAI types, we could not test all state-of-
+the-art XAImet hods whic hare curren tly being developed. In the
+future, weaim top rovide more literatureon XAImet hods tosee
+their relevan ce toexplaining FER models an ddevelop benchmarks
+forevaluating XAI for FER.
 6
 CON CLUSION
-We proposed DEFAULTS, a novel explanation met hod specifically
-designed for facial expression recognition (FER), and evaluated
-its effec tiveness in com parison with state-of-the-art XAI met hods.
-We con duc ted an on line crowd-sourcing experiment to in vestigate
-how different explanation met hods in fluen ce user un derstan ding
-and ap prop riate trust in the model. Our fin dings revealed that,
-com pared to participants wit hout explanations, those provided
-with the DEFAULTS met hod using both visual and textual Facial
-Ac tion Unit (FAU)-based explanations, had a bet ter un derstan ding
-of the model. This was reflec ted in their higher ac curacy in
-predic ting the model’s out puts, as well as their more ap prop riate
-trust in the model’s ac curacy - trusting the FER model when it
-was ac curate and wit hholding trust when it was inac curate. In
+Wep roposed DEFAULTS, a novel explanation met hod specifically
+designed forfacial expression recognition (FER), an devaluated
+it seffec tiveness in com parison with state-of-the-art XAImet hods.
+Wecon duc ted anon line crowd-sourcing experiment toin vestigate
+howdifferent explanation met hods in fluen ce user un derstan din gand ap prop riate trust in the model. Ourfin dings revealed that,
+com pared toparticipants wit hout explanations, those provided
+withthe DEFAULTS met hod usin gbot hvisual an dtextual Facial
+Ac tion Unit (FAU)-based explanations, had a bet ter un derstan din gofthe model. This wasreflec ted in their higher ac curacy in
+predic tingthe model’s out puts, aswell astheir more ap prop riate
+trust in the model’s ac curacy - trustingthe FERmodel when it
+wasac curate an dwit hholdingtrust when it was inac curate. In
 con trast, existing XAI met hods (LIME, SHAP, Salien cy Map) showed
-no significant im provement in user un derstan ding or ap prop riate
-trust. We also demonstrated that purely visual explanations for
-FER models are in sufficient to en han ce user un derstan ding of how
-the model operates. Our fin dings suggest that FAU-based met hods
-offer greater in tuition for end-users to assess whet her the model is
-performing well or misbehaving. This work is the first to explore
-effec tive XAI met hods and explanation modalities for FER models,
-highlighting the benefits of generating multimodal explanations
-groun ded in emotion theories to im prove user un derstan ding
-and ap prop riate trust in FER systems. Our research thus lays the
-foun dation for the future develop ment of more explainable emotion-
+no significant im provement inuser un derstan din gor ap prop riate
+trust. Wealso demonstrated that purely visual explanations for
+FERmodels arein sufficient toen han ce user un derstan din gofhowthe model operates. Ourfin dings suggest that FAU-based met hods
+offer greater in tuition for end-users toassess whet her themodel is
+performin gwell ormisbehaving. This workis thefirst toexplore
+effec tive XAImet hods an dexplanation modalitiesfor FERmodels,
+highlightingthe benefits ofgenerating multimodal explanations
+groun ded inemotion theories toim prove user un derstan din gand ap prop riate trustin FERsystems. Ourresearchthus lays the
+foun dation forthe future develop ment ofmore explainable emotion-
 aware systems.
 
 
 REFEREN CES
 [1] Ashraf Abdul, Jo Vermeulen, Dan ding Wang, Brian Y Lim, and Mohan
-Kan kan halli. 2018. Trends and trajec tories for explainable, ac coun table and
-in telligible systems: An hci research agen da. In Proceedings of the 2018 CHI
-con feren ce on human fac tors in com puting systems. 1–18.
+Kan kan halli. 2018. Trends andtrajec tories forexplainable, ac coun table and
+in telligible systems: An hci researchagen da. In Proceedings ofthe 2018 CHI
+con feren ce on human fac tors in com putin gsystems. 1–18.
 [2] Bader Aldughayfiq, Farzeen Ashfaq, NZ Jhan jhi, and Mamoona Humayun. 2023.
-Explainable AI for retinoblastoma diagnosis: in terpreting deep learning models
+Explainable AIfor retinoblastoma diagnosis: in terpretin gdeep learnin gmodels
 with LIME and SHAP. Diagnostics 13, 11 (2023), 1932.
 [3] Tadas Baltrusaitis, Amir Zadeh, Yao Chong Lim, and Louis-Philip pe Moren cy.
 2018. Open face 2.0: Facial behavior analysis toolkit. In 2018 13th IEEE in ternational
-con feren ce on automatic face & gesture recognition (FG 2018). IEEE, 59–66.
+con feren ce onautomatic face & gesture recognition (FG 2018). IEEE, 59–66.
 [4] Lisa Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix M Martinez, and
-Seth D Pollak. 2019. Emotional expressions recon sidered: Challen ges to in ferring
-emotion from human facial movements. Psyc hological scien ce in the public in terest
+Seth D Pollak. 2019. Emotional expressions recon sidered: Challen ges toin ferrin gemotion from human facial movements. Psyc hological scien ce in the publicin terest
 20, 1 (2019), 1–68.
 [5] Giovan na Castellano, Berardina De Carolis, and Nicola Mac chiarulo. 2023.
 Automatic facial emotion recognition at the COVID-19 pan demic time.
-Multimedia Tools and Ap plications 82, 9 (2023), 12751–12769.
-[6] Arun Das and Paul Rad. 2020. Op portunities and challen ges in explainable
-artificial in telligen ce (xai): A survey. ar Xiv prep rint ar Xiv:2006.11371 (2020).
+Multimedia Toolsand Ap plications 82, 9 (2023), 12751–12769.
+[6] Arun Das and Paul Rad. 2020. Op portunities andchallen ges inexplainable
+artificial in telligen ce (xai): A survey. ar Xivprep rint ar Xiv:2006.11371 (2020).
 [7] Guillermo
 del
 Castillo
@@ -787,143 +727,142 @@ Torres,
 Maria Fran cesca Roig-Mai mó, Miquel Masca ró-Oliver, Esperança Amen gual-
 Alcover, and Ramon Mas-San só. 2022. Un derstan ding How CNNs Recognize
 Facial Expressions: A Case Study with LIME and CEM. Sen sors 23, 1 (2022), 131.
-[8] Lauren ce Devillers. 2021. Human–robot in terac tions and affec tive com puting:
-The et hical im plications. Robotics, AI, and Humanity: Scien ce, Et hics, and Policy
+[8] Lauren ce Devillers. 2021. Human–robot in terac tions an daffec tive com puting:
+Theet hical im plications. Robotics, AI, and Humanity: Scien ce, Et hics, and Policy
 (2021), 205–211.
-[9] Lauren ce Devillers and Roddy Cowie. 2023. Et hical con siderations on affec tive
-com puting: an overview. Proc. IEEE (2023).
+[9] Lauren ce Devillersand Roddy Cowie. 2023. Et hical con siderations onaffec tive
+com puting: anoverview. Proc. IEEE (2023).
 [10] Finale Doshi-Velez and Been Kim. 2017.
-Towards a rigorous scien ce of
-in terpretable mac hine learning. ar Xiv prep rint ar Xiv:1702.08608 (2017).
+Towards a rigorous scien ce ofin terpretable mac hine learning. ar Xivprep rint ar Xiv:1702.08608 (2017).
 [11] Ben jamin D Douglas, Pat rick J Ewell, and Markus Brauer. 2023. Data quality
 in on line human-subjects research: Com parisons bet ween MTurk, Prolific,
 Cloud Research, Qualtrics, and SONA. Plos one 18, 3 (2023), e0279720.
-[12] Lilian Edwards. 2021. The EU AI Act: a sum mary of its significan ce and scope.
+[12] Lilian Edwards. 2021. The EU AI Act: a sum mary ofits significan ce andscope.
 Artificial In telligen ce (the EU AI Act) 1 (2021).
-[13] Paul Ekman and Wallace V Friesen. 1978.
+[13] Paul Ekmanand Wallace V Friesen. 1978.
 Facial ac tion coding system.
 En viron men tal Psyc hology & Non verbal Behavior (1978).
 [14] Dan-Mikael Ellin gsen, An drea Duggen to, Kylie Isen burg, Chan gjin Jung,
 Jeungchan Lee, Jessica Gerber, Ishtiaq Mawla, Roberta Scloc co, Robert R Edwards,
 John M Kelley, et al. 2022.
 Patient–clinician brain con cordan ce un derlies
-causal dynamics in non verbal com munication and negative affec tive expressivity.
+causal dynamics in non verbal com munication an dnegative affec tive expressivity.
 Tran slational Psyc hiat ry 12, 1 (2022), 44.
 [15] Peer Eyal, Rothschild David, Gordon An drew, Evernden Zak, and Damer
-Ekaterina. 2021. Data quality of plat forms and panels for on line behavioral
-research. Behavior research met hods (2021), 1–20.
+Ekaterina. 2021. Data quality ofplat forms an dpanels foron line behavioral
+research. Behavior researchmet hods (2021), 1–20.
 [16] Prashant Gohel, Priyan ka Singh, and Manoran jan Mohan ty. 2021. Explainable
-AI: current status and future direc tions. ar Xiv prep rint ar Xiv:2107.07045 (2021).
+AI: current status an dfuture direc tions. ar Xivprep rint ar Xiv:2107.07045 (2021).
 [17] Mara Graziani, Lidia Dut kiewicz, Davide Calvaresi, Jo sé Pereira Amorim, Katerina
 Yordanova, Mor Vered, Rahul Nair, Pedro Hen riques Abreu, Tobias Blan ke, Valeria
-Pulignano, et al. 2023. A global taxonomy of in terpretable AI: unifying the
-terminology for the tec hnical and social scien ces. Artificial in telligen ce review 56,
+Pulignano, et al. 2023. A global taxonomy ofin terpretable AI: unifyingthe
+terminology forthe tec hnical an dsocial scien ces. Artificial in telligen ce review 56,
 4 (2023), 3473–3504.
 [18] Muham mad Anas Hasnul, Nor Azlina Ab Aziz, Salem Alelyani, Mohamed
 Mohana, and Azlan Abd Aziz. 2021.
 Elec trocardiogram-based emotion
-recognition systems and their ap plications in healthcare—A review. Sen sors
+recognition systems andtheir ap plications in healthcare—A review. Sen sors
 21, 15 (2021), 5015.
 [19] Robert R Hoffman, Shane T Mueller, Gary Klein, and Jordan Lit man. 2018. Met rics
-for explainable AI: Challen ges and prospects. ar Xiv prep rint ar Xiv:1812.04608
+forexplainable AI: Challen ges andprospects. ar Xivprep rint ar Xiv:1812.04608
 (2018).
-[20] Maryam Imani and Gholam Ali Mon tazer. 2019. A survey of emotion recognition
-met hods with em phasis on E-Learning en viron ments. Journal of Net work and
+[20] Maryam Imaniand Gholam Ali Mon tazer. 2019. A survey ofemotion recognition
+met hods wit hem phasis on E-Learning en viron ments. Journalof Net workand
 Com puter Ap plications 147 (2019), 102423.
-[21] Sun bin Kim and Hyeon cheol Kim. 2019.
+[21] Sun bin Kimand Hyeon cheol Kim. 2019.
 Deep explanation model for
-facial expression recognition through facial ac tion coding unit. In 2019 IEEE
-In ternational Con feren ce on Big Data and Smart Com puting (Big Comp). IEEE, 1–4.
+facial expression recognition through facial ac tion codin gunit. In 2019 IEEE
+In ternational Con feren ceon Big Dataand Smart Com puting (Big Comp). IEEE, 1–4.
 [22] Abhiram Kolli, Alireza Fasih, Fadi Al Mac hot, and Kyan doghere Kyamakya.
-2011. Non-in trusive car driver’s emotion recognition using thermal camera.
-In Proceedings of the Joint INDS’11 & ISTET’11. IEEE, 1–5.
-[23] Dimit rios Kollias and Stefanos Zafeiriou. 2018. Aff-wild2: Exten ding the aff-wild
-database for affect recognition. ar Xiv prep rint ar Xiv:1811.07770 (2018).
+2011. Non-in trusive car driver’s emotion recognition usingthermal camera.
+In Proceedings ofthe Joint INDS’11 & ISTET’11. IEEE, 1–5.
+[23] Dimit rios Kolliasand Stefanos Zafeiriou. 2018. Aff-wild2: Exten dingthe aff-wild
+database foraffect recognition. ar Xivprep rint ar Xiv:1811.07770 (2018).
 [24] Louisa Kulke, Den nis Feyerabend, and An nekat hrin Schacht. 2020. A com parison
-of the Affec tiva i Motions Facial Expression Analysis Software with EMG for
-iden tifying facial expressions of emotion. Fron tiers in Psyc hology 11 (2020), 329.
+ofthe Affec tiva i Motions Facial Expression Analysis Software with EM Gfor
+iden tifyin gfacial expressions ofemotion. Fron tiersin Psyc hology 11 (2020), 329.
 [25] Pan telis Linardatos, Vasilis Papastefanopoulos, and Sotiris Kot sian tis. 2020.
-Explainable ai: A review of mac hine learning in terpretability met hods. En tropy
+Explainable ai: A reviewofmac hine learning in terpretability met hods. En tropy
 23, 1 (2020), 18.
-[26] Zac hary C Lip ton. 2018. The myt hos of model in terpretability: In mac hine
-learning, the con cept of in terpretability is both im portant and slip pery. Queue
+[26] Zac hary C Lip ton. 2018. Themyt hos ofmodel in terpretability: In mac hine
+learning, thecon cept ofin terpretability isboth im portant andslip pery. Queue
 16, 3 (2018), 31–57.
 [27] Pat rick Lucey, Jeffrey F Cohn, Takeo Kanade, Jason Saragih, Zara Am badar, and
-Iain Mat thews. 2010. The exten ded cohn-kanade dataset (ck+): A com plete dataset
+Iain Mat thews. 2010. Theexten ded cohn-kanade dataset (ck+): A com plete dataset
 for ac tion unit and emotion-specified expression. In 2010 ieee com puter society
-con feren ce on com puter vision and pat tern recognition-workshops. IEEE, 94–101.
-[28] Scott M Lun dberg and Su-In Lee. 2017. A unified ap proach to in terpreting model
-predic tions. Advan ces in neural in formation processing systems 30 (2017).
-[29] Joao Marques-Silva and Alexey Ignatiev. 2022. Delivering trustworthy AI through
-formal XAI. In Proceedings of the AAAI Con feren ce on Artificial In telligen ce, Vol. 36.
+con feren ce on com puter vision an dpat tern recognition-workshops. IEEE, 94–101.
+[28] Scott M Lun dbergand Su-In Lee. 2017. A unified ap proac hto in terpretin gmodel
+predic tions. Advan ces in neural in formation processin gsystems 30 (2017).
+[29] Joao Marques-Silva and Alexey Ignatiev. 2022. Delivering trustworthy AIt hrough
+formal XAI. In Proceedings ofthe AAAI Con feren ceon Artificial In telligen ce, Vol. 36.
 12342–12350.
-[30] Tim Miller. 2019. Explanation in artificial in telligen ce: In sights from the social
+[30] Tim Miller. 2019. Explanation inartificial in telligen ce: In sights from thesocial
 scien ces. Artificial in telligen ce 267 (2019), 1–38.
 [31] Tim Miller. 2022.
-Are we measuring trust correc tly in explainability,
-in terpretability, and tran sparen cy research? ar Xiv prep rint ar Xiv:2209.00651
+Arewe measuringtrust correc tly inexplainability,
+in terpretability, andtran sparen cy research? ar Xivprep rint ar Xiv:2209.00651
 (2022).
-[32] Gregory Mone. 2015. Sen sing emotions. Com mun. ACM 58, 9 (2015), 15–16.
+[32] Gregory Mone. 2015. Sen sin gemotions. Com mun. ACM 58, 9 (2015), 15–16.
 [33] San jeev Nahulanthran, Mor Vered, Leimin Tian, and Dana Kulić. 2024. "I think you
-need help! Here’s why": Un derstan ding the Effect of Explanations on Automatic
-Facial Expression Recognition. In Proceedings of the 12th In ternational Con feren ce
+need help! Here’s why": Un derstan dingthe Effec tof Explanation son Automatic
+Facial Expression Recognition. In Proceedings ofthe 12th In ternational Con feren ce
 on Affec tive Com puting & In telligent In terac tion (ACII).
-[34] An drés Páez. 2019. The pragmatic turn in explainable artificial in telligen ce (XAI).
-Minds and Mac hines 29, 3 (2019), 441–459.
+[34] An drés Páez. 2019. Thep ragmatic turn inexplainable artificial in telligen ce (XAI).
+Min dsand Mac hines 29, 3 (2019), 441–459.
 [35] Chan dana Panati, Simon Wagner, and Stefan Brüggen wirth. 2022.
 Feature
-relevan ce evaluation using grad-CAM, LIME and SHAP for deep learning SAR
-data classification. In Proceedings of the 23rd In ternational Radar Sym posium (IRS).
+relevan ce evaluation using grad-CAM, LIMEand SHAP for deep learning SAR
+data classification. In Proceedings ofthe 23rd In ternational Radar Sym posium (IRS).
 IEEE, 457–462.
-[36] Nazil Perveen and Chalavadi Krishna Mohan. 2020. Con figural Rep resen tation of
-Facial Ac tion Units for Spon taneous Facial Expression Recognition in the Wild..
+[36] Nazil Perveenand Chalavadi Krishna Mohan. 2020. Con figural Rep resen tation of
+Facial Ac tion Unit sfor Spon taneous Facial Expression Recognition in the Wild..
 In VISIGRAPP (4: VISAPP). 93–102.
 [37] Rosalind W. Picard. 2003. Affec tive com puting: challen ges. In ternational Journal
 of Human-Com puter Studies 59, 1 (2003), 55–64. https://doi. org/10.1016/S1071-
-5819(03)00052-1 Ap plications of Affec tive Com puting in Human-Com puter
+5819(03)00052-1 Ap plication sof Affec tive Com putin gin Human-Com puter
 In terac tion.
 [38] Manish Rat hod, Chirag Dalvi, Kulveen Kaur, Shruti Patil, Shilpa Gite, Pooja Kamat,
 Ketan Kotec ha, Ajith Abraham, and Lubna Abdelkareim Gabralla. 2022. Kids’
 Emotion Recognition Using Various Deep-Learning Models with Explainable AI.
 Sen sors 22, 20 (2022), 8066.
 [39] Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. " Why should i
-trust you?" Explaining the predic tions of any classifier. In Proceedings of the 22nd
-ACM SIGKDD in ternational con feren ce on knowledge discovery and data mining.
+trust you?" Explainingthe predic tions ofany classifier. In Proceedings ofthe 22nd
+ACM SIGKDD in ternational con feren ce on knowledge discovery an ddata mining.
 1135–1144.
 [40] Elena Ryumina, Denis Dresvyan skiy, and Alexey Karpov. 2022. In search of a
 robust facial expressions recognition model: A large-scale visual cross-corpus
 study. Neurocom puting 514 (2022), 435–450.
 [41] Muham mad Sajjad, Man soor Nasir, Fath U Min Ullah, Khan Muham mad,
-Arun Kumar San gaiah, and Sung Wook Baik. 2019. Raspberry Pi assisted facial
-expression recognition framework for smart security in law-en forcement services.
+Arun Kumar San gaiah, and Sung Wook Baik. 2019. Raspberry Piassisted facial
+expression recognition frameworkfor smart security in law-en forcement services.
 In formation Scien ces 479 (2019), 416–431.
 [42] Ram prasaath R Selvaraju, Mic hael Cogswell, Abhishek Das, Ramakrishna
 Vedan tam, Devi Parikh, and Dhruv Bat ra. 2017. Grad-cam: Visual explanations
-from deep net works via gradient-based localization. In Proceedings of the IEEE
+from deep net works via gradient-based localization. In Proceedings ofthe IEEE
 in ternational con feren ce on com puter vision. 618–626.
 [43] Karen Simonyan, An drea Vedaldi, and An drew Zisserman. 2013. Deep in side
-con volutional net works: Visualising image classification models and salien cy
-maps. ar Xiv prep rint ar Xiv:1312.6034 (2013).
+con volutional net works: Visualisin gimage classification models an dsalien cy
+maps. ar Xivprep rint ar Xiv:1312.6034 (2013).
 [44] Leimin Tian, Sharon Oviatt, Mic hal Muszyn ski, Brent C. Cham berlain, Jen nifer
 Healey, and Akane Sano. 2022. Ap plied Affec tive Com puting (1 ed.). Vol. 41.
 Association for Com puting Mac hinery, New York, NY, USA.
 [45] Jasper van der Waa, Tjeerd Schoon derwoerd, Jurriaan van Diggelen, and Mark
-Neerincx. 2020. In terpretable con fiden ce measures for decision sup port systems.
+Neerincx. 2020. In terpretable con fiden ce measures fordecision sup port systems.
 In ternational Journal of Human-Com puter Studies 144 (2020), 102493.
 [46] Mor Vered, Piers Howe, Tim Miller, Liz Sonen berg, and Eduardo Velloso. 2020.
-Demand-driven tran sparen cy for monitoring in telligent agents. IEEE Tran sac tions
+Demand-driven tran sparen cy formonitoring in telligent agents. IEEE Tran sac tions
 on Human-Mac hine Systems 50, 3 (2020), 264–275.
 [47] Mor Vered, Tali Livni, Piers Douglas Lionel Howe, Tim Miller, and Liz Sonen berg.
-2023. The effects of explanations on automation bias. Artificial In telligen ce 322
+2023. Theeffects ofexplanations onautomation bias. Artificial In telligen ce 322
 (2023), 103952.
 [48] Giulia Vilone and Luca Lon go. 2020.
 Explainable artificial in telligen ce: a
-systematic review. ar Xiv prep rint ar Xiv:2006.00093 (2020).
-[49] Daniel S Weld and Gagan Ban sal. 2019. The challen ge of crafting in telligible
+systematic review. ar Xivprep rint ar Xiv:2006.00093 (2020).
+[49] Daniel S Weld and Gagan Ban sal. 2019. Thec hallen ge ofcrafting in telligible
 in telligen ce. Com mun. ACM 62, 6 (2019), 70–79.
 [50] Jacob O Wobbrock. 2012. Seven research con tributions in HCI. studies 1, 1 (2012),
 52–80.
 [51] Zhihong Zeng, Maja Pan tic, Glenn I Roisman, and Thomas S Huang. 2007. A
-survey of affect recognition met hods: audio, visual and spon taneous expressions.
-In Proceedings of the 9th in ternational con feren ce on Multimodal in terfaces. 126–
+survey ofaffect recognition met hods: audio, visual andspon taneous expressions.
+In Proceedings ofthe 9th in ternational con feren ceon Multimodal in terfaces. 126–
 133.
