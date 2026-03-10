@@ -18,6 +18,7 @@ import argparse
 import logging
 import sys
 from pathlib import Path
+from typing import Callable
 
 # ---------------------------------------------------------------------------
 # TCVN3 (.VnTime) → Unicode conversion
@@ -99,7 +100,7 @@ def _pdf_to_text(pdf_path: Path) -> str:
 
     Automatically detects and converts TCVN3 (.VnTime) garbled text to Unicode.
     """
-    import fitz  # PyMuPDF
+    import fitz  # pyright: ignore[reportMissingTypeStubs]  # PyMuPDF
 
     pages: list[str] = []
     try:
@@ -189,7 +190,7 @@ def _csv_to_text(csv_path: Path) -> str:
 # Core conversion
 # ---------------------------------------------------------------------------
 
-CONVERTERS = {
+CONVERTERS: dict[str, Callable[[Path], str]] = {
     ".pdf": _pdf_to_text,
     ".docx": _docx_to_text,
     ".csv": _csv_to_text,

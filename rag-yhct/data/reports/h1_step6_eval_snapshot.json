@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "full_exact": 27263,
+    "emb_exact": 26862,
+    "coverage_emb_over_full": 0.9852914206066831,
+    "payload_schema": {
+      "parent_id": {
+        "data_type": "keyword",
+        "points": 26862
+      },
+      "doc_type": {
+        "data_type": "keyword",
+        "points": 26862
+      },
+      "child_index": {
+        "data_type": "integer",
+        "points": 26862
+      },
+      "is_noise": {
+        "data_type": "bool",
+        "points": 26862
+      },
+      "category": {
+        "data_type": "keyword",
+        "points": 26862
+      }
+    }
+  },
+  "data": {
+    "chunks_total": 27403,
+    "doc_types": {
+      "txt": 27403
+    },
+    "noise_chunks": 92,
+    "noise_ratio": 0.003357296646352589,
+    "u_fffd_chunks": 5,
+    "u_fffd_ratio": 0.0001824617742582929,
+    "cyrillic_chunks": 22,
+    "category_present_non_unknown": 27403,
+    "category_present_ratio": 1.0,
+    "parents": 5891,
+    "avg_children_per_parent": 4.651672042098116,
+    "p95_children_per_parent": 6,
+    "max_children_per_parent": 7,
+    "bad_parents": 0
+  },
+  "vector": {
+    "sample_n": 1000,
+    "dim": 1024,
+    "norm_mean": 1.0,
+    "norm_std": 3.470403342475947e-08,
+    "pairwise_mean": 0.47670137882232666,
+    "pairwise_p95": 0.6208920478820801,
+    "nn_median": 0.7194302082061768,
+    "nn_p95": 0.8477818369865417,
+    "collapse_heuristic": false
+  },
+  "generated_at": "2026-03-10 17:00:35"
+}
