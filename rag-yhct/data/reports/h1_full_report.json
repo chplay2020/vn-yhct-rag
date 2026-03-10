@@ -23,8 +23,8 @@
     },
     "unique_source_ids": 138,
     "unique_file_paths": 138,
-    "noise_count": 0,
-    "noise_ratio": 0.0,
+    "noise_count": 86,
+    "noise_ratio": 0.0031,
     "pdf_strategy_counts": {}
   },
   "qdrant": {
@@ -36,111 +36,41 @@
   "error_samples": {
     "fffd_replacement_char": [
       {
-        "chunk_id": "src_02172872945b:2265b09ecb2e",
-        "source_id": "src_02172872945b",
-        "snippet": "Chỉ định Là thuốc được chọn lựa chỉ định cho nhiễm corynebac teria (bạch hầu, nh iễm nấm corynebac terium minutissimum- eryt hrasma); nhiễm clamidia đường hô hấp, sinh dục, mắt, viêm phổi mắc phải ở c"
+        "chunk_id": "src_3ad7c6b78d18:9bdb77276c18",
+        "source_id": "src_3ad7c6b78d18",
+        "snippet": "�"
       },
       {
-        "chunk_id": "src_02172872945b:3b9c71dfb3a1",
-        "source_id": "src_02172872945b",
-        "snippet": "�), đạt nồng độ cao hơn huyết tương tới 10- 100 lần, sau đó được giải phóng ra từ từ nên t/2 khoảng 3 ngày. Vì thế cho phép dùng l iều 1 lần/ ngày và thời gian điều trị ngắn. Thí dụ với viêm phổi cộng"
+        "chunk_id": "src_54b7e1d9b1cb:9bdb77276c18",
+        "source_id": "src_54b7e1d9b1cb",
+        "snippet": "�"
       },
       {
-        "chunk_id": "src_0797fad8a92a:41d452b47be7",
-        "source_id": "src_0797fad8a92a",
-        "snippet": "Loại bệnh đường ruột hay bị tiêu chảy có dấu hiệu hễ ăn thức ăn nguội lạnh, ăn rau nhiều, ăn đồ biển hoặc uống nước lạnh là cảm thấy đau bụng tiêu chảy. Bệnh mãn tính có dấu hiệu quanh vành môi mầu da"
+        "chunk_id": "src_e2fe10d2d90a:9bdb77276c18",
+        "source_id": "src_e2fe10d2d90a",
+        "snippet": "�"
       },
       {
-        "chunk_id": "src_0797fad8a92a:e8c58193439c",
-        "source_id": "src_0797fad8a92a",
-        "snippet": "�u oan uổng.\n\nNhiều khi thuốc ngủ đúng liều, có kết qủa ức chế thần kinh làm cơn buồn ngủ đến ngay, nhưng vì uống nhiều nước một lần trước khi đi ngủ khiến cho đêm bị thức giấc để đi tiểu cũng sẽ khôn"
+        "chunk_id": "src_e4d63516c434:9bdb77276c18",
+        "source_id": "src_e4d63516c434",
+        "snippet": "�"
       },
       {
-        "chunk_id": "src_0a2099bef982:7d502b7462b3",
-        "source_id": "src_0a2099bef982",
-        "snippet": "Thái nhỏ hạt cau trộn với rộp thân cây ổi, sắc với l OOml nưốc, còn 50ml chia làm 2-3 lần uô’ng trong ngày. Bài 3. Chữa sán sơ mít (phổi hợp với hạt bí ngô) Hạt cau tươi Nhân hạt bí ngô 25g 50g Sáng s"
+        "chunk_id": "src_ef3d6ff3846c:9bdb77276c18",
+        "source_id": "src_ef3d6ff3846c",
+        "snippet": "�"
       },
       {
-        "chunk_id": "src_0a2099bef982:08617274dbae",
-        "source_id": "src_0a2099bef982",
-        "snippet": "�. Thu hái, c h ế biến: Thu hái quanh năm, dùng tươi hoặc khô. 10https://trun gtam thuoc. com/"
-      },
-      {
-        "chunk_id": "src_12abef9658fb:59d5f4037c4e",
-        "source_id": "src_12abef9658fb",
-        "snippet": "kiên trì điều trị. Trong quá trình điều trị, chị còn được chạy xạ hai đợt tại Bệnh viện Da liễu Hà Nội, mỗi đợt 5 ngày, mỗi ngày khoảng 5 phút, người đỏ như\n\ntôm luộc. Tuy biết vẩy nến không nguy hiểm"
-      },
-      {
-        "chunk_id": "src_12abef9658fb:ce54d5cbcf93",
-        "source_id": "src_12abef9658fb",
-        "snippet": "�ng sử dụng các loại thuốc Tây. Sau 5 ngày, chị thấy người thay đổi: Toàn thân như căng ra, nhất là chân, tay, da căng mọng, chân các vẩy rớm máu, rất khó chịu. Đó là phản ứng có tác dụng như sách đã "
-      },
-      {
-        "chunk_id": "src_12abef9658fb:1516f13dfde6",
-        "source_id": "src_12abef9658fb",
-        "snippet": "tập Kim Quốc Hoa (chủ biên) cuốn “Lược Vàng Quý như vàng” nghiên cứu có thể tái bản có bổ sung hoặc ra tập tiếp theo có thêm thông tin mới, chúng tôi rất mong được đáp ứng. Nguyễn Đình Nguyên. (78 tuổ"
-      },
-      {
-        "chunk_id": "src_12abef9658fb:f2abb33f336f",
-        "source_id": "src_12abef9658fb",
-        "snippet": "�ng có cây Lược Vàng trồng trong chậu hoặc trong"
-      },
-      {
-        "chunk_id": "src_12abef9658fb:fd9d691f7303",
-        "source_id": "src_12abef9658fb",
-        "snippet": "�ng có cây Lược Vàng trồng trong chậu hoặc trong\n\nvườn, mọi người dùng mỗi khi thấy có bệnh đều có hiệu quả tốt rõ rệt. Ông Đặng Quang Đa, 73 tuổi sức khoẻ còn tốt, dùng búa đóng đinh trên một tấm ván"
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:8e50ca066e35",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "nay rất nhiều đứa trẻ có công năng đặc biệt phải m ang một gánh nặng, cha mẹ chúng cũng vậy. Một vài bậc phụ huynh đã nói với tôi: \"Bác sĩ Nghiêm Tân, bác sĩ hãy thu công năng của con tôi lại đi, nếu "
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:19b164ba1c99",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "� anh ta. Khi tôi ỏ chỗ anh ta, đã có rất nhiều ngưòi tìm đến tôi để được khám bệnh, anh ta rất hiểu khám bệnh sẽ bị hao tổn công lực rất nhiều, anh ta thường nói với những người gọi điện thoại đến: \""
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:3c2004eabee3",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "về bệnh tật của bạn, vì những tín hiệu này khó có thể loại bỏ ngay trong một lúc, bạn phải chú ý đến nội dung quan trọng này, đây là điểm thứ 2 tôi muôn nói đến trong thực nghiệm về thông tin. Điểm th"
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:2f9dcaa6647c",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "�ng đừng tranh luận về nó, nếu bạn tran h luận sẽ ảnh hưởng đến việc thu nhận tín hiệu, bởi đây là một phương pháp dùng để ám thị, tựa như \"Hạng Trang m úa kiếm, ý nhằm Bái Công\". R ất nhiều thầy dạy "
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:feccb0933287",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "một con người chỉ sử dụng một phần rất nhỏ bộ não của mình. Hiện nay khi nghiên cứu não người, hầu như y học chỉ chú trọng lớp vỏ não, chưa chú ý mấy đến các tế bào thần kinh ỏ tầng trong của não, đặc"
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:6fd1f8e38417",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "�a là đang được nghỉ ngơi tốt, mà luyện công mói chính là cách nghỉ ngơi tốt nhất. Hiện nay người ta đã phát hiện ra rằng, trong trạng thái khí công, hoạt động của vỏ não được giảm tới mức tối đa, vỏ "
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:cdb788193abe",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "thảo mái. Tại sao lại thế. Theo phân tích của tôi thì các dịch vị, dịch ruột trong cơ thể chị tự hợp thành các chất dinh dưỡng, các chất này lại dễ hấp thu hơn những thứ có giá trị dinh dưỡng cao mà c"
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:827485ff9bff",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "�n chưa phải là điều tôi vừa nói ở trên. Dosau khi rơi vào trạng thái khí công (hoặc dưới tác dụng của khí công) các vòng tuần hoàn nhỏ được cải thiện rõ rệt, đặc biệt là vòng tuần hoá của các cơ quan"
-      },
-      {
-        "chunk_id": "src_1bcc0ba43edd:2b0ae9bdfc0b",
-        "source_id": "src_1bcc0ba43edd",
-        "snippet": "chữa bệnh được ỏ chỗ đó. Khi tôi chữa trị gãy xương cho Tụng Điện Chương ỏ Bắc Đà, kết quả bệnh đau lưng của ông cũng biến m ất và bệnh hen suyễn cũng khỏi. Tưỏng Trí lập ỏ nhà máy máy ép khí Trùng K "
+        "chunk_id": "src_ef3d6ff3846c:9bdb77276c18",
+        "source_id": "src_ef3d6ff3846c",
+        "snippet": "�"
       }
     ],
     "letter_newline_letter": [],
     "scientific_name_split": []
   },
   "error_counts": {
-    "fffd_chunks": 529,
+    "fffd_chunks": 6,
     "letter_nl_letter_chunks": 0,
     "sci_name_split_chunks": 0
   }

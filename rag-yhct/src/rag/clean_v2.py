@@ -14,12 +14,42 @@ import argparse
 import logging
 import re
 import unicodedata
+from collections import defaultdict
 from typing import Any
 
 from rag.utils.io import read_jsonl, write_jsonl, ensure_parent_dir
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(name)s | %(message)s")
+
+
+# ---------------------------------------------------------------------------
+# Encoding-noise / mojibake detection
+# ---------------------------------------------------------------------------
+
+_RE_CYRILLIC = re.compile(r"[\u0400-\u04FF]")
+_MOJIBAKE_CHARS = frozenset("¿¶µ¹²³¼½¾")
+
+# Thresholds — tune if needed
+BAD_RATIO_THRESHOLD: float = 0.03    # 3 %
+UFFFD_RATIO_THRESHOLD: float = 0.005  # 0.5 %
+
+
+def _detect_encoding_noise(
+    text: str,
+) -> tuple[float, float, bool]:
+    """Return (bad_ratio, ufffd_ratio, has_cyrillic) for *text*."""
+    ufffd_count = text.count("\ufffd")
+    text_no_space = re.sub(r"\s", "", text)
+    length = max(1, len(text_no_space))
+
+    bad_count = len(_RE_CYRILLIC.findall(text))
+    bad_count += sum(1 for ch in text if ch in _MOJIBAKE_CHARS)
+
+    bad_ratio = bad_count / length
+    ufffd_ratio = ufffd_count / length
+    has_cyrillic = bool(_RE_CYRILLIC.search(text))
+    return bad_ratio, ufffd_ratio, has_cyrillic
 
 
 # ---------------------------------------------------------------------------
@@ -164,6 +194,16 @@ def normalize_text_v2(text: str, doc_type: str = "") -> tuple[str, bool]:
         if _is_noise(text):
             return "", True
 
+    # --- Encoding-noise detection (on original text) ---
+    bad_ratio, ufffd_ratio, _has_cyr = _detect_encoding_noise(text)
+    encoding_noise = (
+        bad_ratio > BAD_RATIO_THRESHOLD
+        or ufffd_ratio > UFFFD_RATIO_THRESHOLD
+    )
+
+    # --- Sanitize: replace U+FFFD with space ---
+    text = text.replace("\ufffd", " ")
+
     # A) Unicode NFKC
     norm = unicodedata.normalize("NFKC", text)
 
@@ -208,6 +248,9 @@ def normalize_text_v2(text: str, doc_type: str = "") -> tuple[str, bool]:
 
     norm = "\n".join(result_lines).strip()
 
+    if encoding_noise:
+        return norm, True
+
     return norm, False
 
 
@@ -230,6 +273,11 @@ def process_chunks(records: list[dict[str, Any]], debug: bool = False) -> list[d
     after_lnl = 0
     after_sci = 0
 
+    # --- Encoding-noise trackers ---
+    cyrillic_count = 0
+    noise_encoding_count = 0
+    file_bad_ratios: dict[str, list[float]] = defaultdict(list)
+
     for rec in records:
         text = rec.get("text", "")
         doc_type = rec.get("doc_type", "")
@@ -240,7 +288,19 @@ def process_chunks(records: list[dict[str, Any]], debug: bool = False) -> list[d
         if re_sci.search(text):
             before_sci += 1
 
+        # Encoding-noise stats (on original text)
+        bad_ratio, ufffd_ratio, has_cyr = _detect_encoding_noise(text)
+        if has_cyr:
+            cyrillic_count += 1
+        fp = rec.get("file_path") or rec.get("source_id") or "unknown"
+        if bad_ratio > 0 or ufffd_ratio > 0:
+            file_bad_ratios[fp].append(bad_ratio + ufffd_ratio)
+
         text_norm, is_noise_flag = normalize_text_v2(text, doc_type)
+
+        if is_noise_flag and (bad_ratio > BAD_RATIO_THRESHOLD
+                              or ufffd_ratio > UFFFD_RATIO_THRESHOLD):
+            noise_encoding_count += 1
 
         # Count after (normalized text)
         if not is_noise_flag and re_lnl.search(text_norm):
@@ -276,6 +336,22 @@ def process_chunks(records: list[dict[str, Any]], debug: bool = False) -> list[d
         "  sci-split      : %d -> %d  (reduced %.1f%%)",
         before_sci, after_sci, pct_sci,
     )
+
+    # --- Encoding-noise stats ---
+    logger.info("=== Encoding-noise stats ===")
+    logger.info("  Chunks with Cyrillic chars : %d", cyrillic_count)
+    logger.info("  Chunks marked is_noise (encoding) : %d", noise_encoding_count)
+    logger.info("  Total is_noise (all reasons)       : %d", noise_count)
+    # Top 5 files by worst bad_ratio
+    if file_bad_ratios:
+        file_avg = {
+            fp: sum(vals) / len(vals)
+            for fp, vals in file_bad_ratios.items()
+        }
+        top5 = sorted(file_avg.items(), key=lambda x: x[1], reverse=True)[:5]
+        logger.info("  Top 5 files with highest avg bad_ratio:")
+        for fp, avg in top5:
+            logger.info("    %.4f  %s", avg, fp)
 
     if debug and transforms:
         logger.info("--- Top 20 transformations (before -> after) ---")

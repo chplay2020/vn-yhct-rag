@@ -17,6 +17,7 @@ import argparse
 import json
 import logging
 import random
+import re
 import time
 from pathlib import Path
 from typing import Any
@@ -42,6 +43,11 @@ DEFAULT_GEN_MODEL = "qwen2.5"
 DEFAULT_SAMPLE_SIZE = 30
 DEFAULT_TOPK = 10
 DEFAULT_MIN_TEXT_LEN = 80
+
+# Mojibake / encoding-noise filter for sample candidates
+_RE_CYRILLIC = re.compile(r"[\u0400-\u04FF]")
+_MOJIBAKE_CHARS = frozenset("\u00bf\u00b6\u00b5\u00b9\u00b2\u00b3\u00bc\u00bd\u00be")
+_BAD_RATIO_THRESHOLD: float = 0.03
 
 
 # ── helpers ────────────────────────────────────────────────────────────────
@@ -114,13 +120,29 @@ def run_synth_eval(
     """
     chunks = read_jsonl(chunks_path)
 
-    # Filter candidate chunks
-    candidates = [
-        c for c in chunks
-        if len(c.get("text_norm") or c.get("text", "")) >= min_text_len
-        and not c.get("is_noise")
-        and c.get("chunk_id")
-    ]
+    # Filter candidate chunks — exclude noise / mojibake
+    def _is_clean(c: dict[str, Any]) -> bool:
+        text = c.get("text_norm") or c.get("text", "")
+        if len(text) < min_text_len:
+            return False
+        if c.get("is_noise"):
+            return False
+        if not c.get("chunk_id"):
+            return False
+        if "\ufffd" in text:
+            return False
+        if _RE_CYRILLIC.search(text):
+            return False
+        # bad_ratio check
+        text_ns = re.sub(r"\s", "", text)
+        length = max(1, len(text_ns))
+        bad = len(_RE_CYRILLIC.findall(text))
+        bad += sum(1 for ch in text if ch in _MOJIBAKE_CHARS)
+        if bad / length > _BAD_RATIO_THRESHOLD:
+            return False
+        return True
+
+    candidates = [c for c in chunks if _is_clean(c)]
     logger.info("Candidates for sampling: %d / %d", len(candidates), len(chunks))
 
     sample = random.sample(candidates, min(sample_size, len(candidates)))

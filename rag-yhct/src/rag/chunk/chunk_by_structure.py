@@ -29,6 +29,23 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(name)s | %(mes
 
 
 # ---------------------------------------------------------------------------
+# Category extraction
+# ---------------------------------------------------------------------------
+
+def parse_category(file_path: str | None) -> str:
+    """Extract category from file_path.
+
+    Expected layout: ``…/TT_YHCT/<CATEGORY>/…``
+    Returns *CATEGORY* or ``"unknown"``.
+    """
+    if not file_path:
+        return "unknown"
+    s = file_path.replace("\\", "/")
+    m = re.search(r"/TT_YHCT/([^/]+)/", s)
+    return m.group(1) if m else "unknown"
+
+
+# ---------------------------------------------------------------------------
 # Parent-size constants
 # ---------------------------------------------------------------------------
 
@@ -566,6 +583,7 @@ def _assign_parent_child(
             "parent_id": pid,
             "source_id": first_c.get("source_id"),
             "doc_type": dt,
+            "category": parse_category(first_c.get("file_path")),
             "title": first_c.get("title"),
             "author": first_c.get("author"),
             "year": first_c.get("year"),
@@ -751,6 +769,24 @@ def run_chunk(config: dict[str, Any]) -> int:
         entry_strategy_count,
         page_strategy_count,
     )
+
+    # --- Assign category to every chunk ---
+    for c in chunks:
+        c["category"] = parse_category(c.get("file_path"))
+
+    # --- Propagate is_noise from input records (source_id lookup) ---
+    noisy_sources: set[str] = {
+        r.get("source_id", "")
+        for r in records
+        if r.get("is_noise")
+    }
+    if noisy_sources:
+        propagated = 0
+        for c in chunks:
+            if c.get("source_id", "") in noisy_sources:
+                c["is_noise"] = True
+                propagated += 1
+        logger.info("  Propagated is_noise from input passages: %d chunks", propagated)
 
     # --- Parent-Child assignment (builds parents JSONL + stats) ---
     parents_path = config.get("parent_child", {}).get(
