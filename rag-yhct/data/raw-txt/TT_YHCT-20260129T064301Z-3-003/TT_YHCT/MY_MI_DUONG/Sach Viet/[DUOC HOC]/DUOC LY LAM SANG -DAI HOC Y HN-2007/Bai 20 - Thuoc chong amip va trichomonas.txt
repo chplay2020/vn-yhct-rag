@@ -1,0 +1,290 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 20: Thuốc chống amíp- trichomonas
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Trình bày được tác dụng, cơ chế tác dụng của các thuốc chống amíp.
+2. Trình bày được tác dụng không mong muốn và áp dụng điều trị của các thuốc
+chống amíp.
+1.
+Thuốc chống amip
+Amíp ký sinh ở người có nhiều loài, nhưng chỉ có Entamoeba histolytica là loài duy nhất
+thực sự gây bệnh cho người. Amíp có thể gây bệnh ở ruột (lỹ amíp, viêm đại tràng mạn
+tính do amip) hoặc ở các mô khác (áp xe gan, amip ở phổi, não,  da...)
+Người nhiễm E. histolytica là do ăn phải bào nang. Bào nang nhiễm vào người qua đường
+tiêu hóa bằng nhiều cách: thức ăn, nước uống hoặc do ruồi, gián vận chuyển mầm bệnh ...
+Các bệnh do amíp chủ yếu là điều trị nội khoa, nếu điều trị không triệt để , bệnh dễ trở
+thành mạn tính. Thể bào nang (thể kén) là thể bảo vệ và phát tán amíp nên rất nguy hiểm
+vì dễ lan truyền bệnh (bào nang được thải ra theo phân và có thể sống nhiều ngày trong
+nước).  Amíp ở thể bào nang khi gặp điều kiện thuận lợi sĩ chuyển s ang thể hoạt động
+1.1.
+Thuốc diệt amip ở mô
+Các thuốc này rất có hiệu quả đối với các thể ăn hồng cầu của amíp.
+1.1.1. Emetin hydroclorid
+Là alcaloid của cây Ipeca.
+Vì có nhiều độc tính nên hiện nay rất ít dùng
+1.1.2. Dehydroemetin (Dametin, Mebadin)
+Là dẫn xuất tổng hợp của emetin, có tác dụng dược lý tương tự nhưng ít độc hơn emetin.
+1.1.2.1.
+Tác dụng
+Thuốc có tác dụng diệt amíp ở trong các mô, ít có tác dụng trên amip ở ruột.
+Dehydroemetin có tác dụng diệt amíp trực tiếp do cản trở sự chuyển dịch phân tử ARN
+thông tin dọc theo ribosom nên ức chế không phục hồi sự tổng hợp protein của amíp.
+1.1.2.2.
+Dược động học
+Thuốc hấp thu kém qua đường tiêu hóa. Sau khi tiêm bắp dehydroemetin được phân bố
+vào nhiều mô, tích luü ở gan, phổi, lách và thận.
+Dehydroemetin thải trừ qua nước tiểu nhanh hơn em etin nên ít tích luü hơn và do đó ít
+độc hơn emetin.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+1.1.2.3.
+Tác dụng không mong muốn
+Tác dụng không mong muốn của thuốc cũng tương tự như khi dùng emetin nhưng nhẹ và
+ít gặp hơn.
+- Các phản ứng tại chỗ: tại vùng tiêm thường bị đau, dễ tạo thành áp xe vô trùng. Có  thể
+gặp ban kiểu eczema.
+- Tác dụng trên thần kinh cơ: thường gặp mệt mỏi và đau cơ, đặc biệt ở chân tay và cổ.
+Các triệu chứng này phụ thuộc vào liều dùng và là dấu hiệu báo trước độc tính trên tim.
+- Tác dụng trên tim: hạ huyết áp, đau vùng trước tim, n hịp tim nhanh và loạn nhịp là
+những biểu hiện thường gặp khi bị tổn thương tim. Những thay đổi trên điện tim (sóng T
+dẹt hoặc đảo ngược, kéo dài khoảng Q - T) là các dấu hiệu đến sớm hơn.
+- Tác dụng trên hệ tiêu hóa: buồn nôn, nôn, đau bụng, tiêu chảy
+Còn có thể gặp các triệu chứng: ngứa, run, dị cảm.
+1.1.2.4.
+áp dụng điều trị
+Chỉ định
+- Lỹ amíp nặng
+- áp xe gan do amíp
+Chỉ nên dùng dehydroemetin khi không có các thuốc khác an toàn hơn hoặc bị chống chỉ
+định
+Chống chỉ định
+Phụ nữ có thai không được dùng dehydroemeti n vì thuốc độc với thai nhi.
+Hết sức thận trọng khi dùng thuốc ở bệnh nhân có bệnh tim, thận, thần kinh cơ, thể trạng
+chung quá yếu hoặc trẻ em. Khi dùng dehydroemetin, người bệnh phải luôn luôn được
+thầy thuốc theo dõi. Phải ngừng luyện tập căng th¼ng tro ng 4- 5 tuần sau khi điều trị.
+Liều lượng
+- Người lớn: 1 mg/ kg/ ngày, không dùng quá 60 mg/ ngày. Cần giảm liều ở người cao
+tuổi và người bị bệnh nặng (có thể giảm tới 50%). Đợt điều trị 4 - 6 ngày.
+- Trẻ em: 1mg/ kg/ ngày, không dùng quá 5 ngày.
+Thuốc nên dùng qua đường tiêm bắp sâu, không tiêm tĩnh mạch vì dễ gây độc cho tim,
+không dùng đường uống vì kích ứng gây nôn. Các đợt điều trị phải cách nhau ít nhất 6
+tuần.
+Trong điều trị lỹ do amíp, dùng thêm tetracyclin để giảm nguy cơ bội nhiễm. Khi điều trị
+áp xe gan do amíp phải uống thêm cloroquin đồng thời hoặc ngay sau đó. Sau điều trị tất
+cả các bệnh nhân nên uống thêm diloxanid để loại trừ amip còn sống sót ở kết tràng, đề
+phòng tái phát.
+1.1.3. Metronidazol (Elyzol, Flagyl, Klion, Trichazol)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Là một dẫn xuất 5- nitro- imidazol, có phổ hoạt tính rộng, ít tan trong nước, không ion
+hóa ở pH sinh lý, khuếch tán rất nhanh qua màng sinh học.
+1.1.3.1.
+Tác dụng
+Metronidazol có hiệu quả cao trong điều trị nhiễm amíp ngoài ruột (áp xe gan, amíp ở
+não, phổi- lách) và amíp ở thành ruột. Thuốc có tác dụng diệt amíp thể hoạt động nhưng ít
+ảnh hưởng đến thể kén.
+Thuốc còn được dùng để điều trị trichomonas đường niệu - sinh dục, bệnh do Giardia
+lamblia và các vi khuẩn kỹ khí bắt buộc.
+Cơ chế tác dụng: trong các vi khuẩn kỹ khí và động vật nguyên sinh (đơn bào), nhóm 5-
+nitro của thuốc bị khử thành các chất trung gian độc với tế bào. Các chất này liên kết với
+cấu trúc xoắn của phân tử DNA, làm vì các sợi DNA và cuối cùng làm tế bào chết.
+Quá trình khử nhóm 5- nitro của thuốc có sự tham gia "tích cực" của ferredoxin- một
+protein xúc tác có nhiều trong các vi khuẩn và đơn bào nhạy cảm với thuốc. Một số
+nghiên cứu cho thấy, các chủng kháng metronidazol có chứa ít ferredoxin.
+1.1.3.2.
+Dược động học
+Metronidazol hấp thu nhanh và hoàn toàn qua ống tiêu hóa.  Sau khi uống 1- 3 giờ, thuốc
+đạt nồng độ tối đa trong máu (6- 40 g/ mL). Metronidazol gắn rất ít vào protein huyết
+tương (10- 20%) và có thể tích phân phối lớn (Vd  0,6- 0,8 lít/ kg) nên thuốc khuếch tán
+tốt vào các mô và dịch cơ thể, có nồng độ cao tro ng nước bọt, dịch não tuỷ, sữa mẹ...
+Thời gian bán thải là 7,5 giờ. Trên 90% liều uống được thải trừ qua thận trong 24 giờ, chủ
+yếu là các chất chuyển hóa hydroxy (30 - 40%) và dạng acid (10- 22%). 10%
+metronidazol thải nguyên vẹn qua nước tiểu, 14% qua phâ n.
+1.1.3.3.
+Tác dụng không mong muốn
+Phản ứng có hại thường phụ thuộc vào liều dùng. Với liều điều trị đơn bào, các tác dụng
+không mong muốn của thuốc thường nhẹ, có phục hồi và gặp ở 4 - 5% bệnh nhân được
+điều trị.
+Hay gặp các rối loạn ở đường tiêu hóa: buồn nôn, c hán ăn, khô miệng, lưìi có vị kim loại,
+đau vùng thượng vị và các triệu chứng trên hệ thần kinh trung ương: đau đầu, chóng mặt,
+buồn ngủ.
+Có thể gặp tiêu chảy, viêm miệng, phồng rộp da, phát ban, ngứa, dị cảm.
+Khi dùng liều cao, kéo dài, thuốc có thể gây c ơn động kinh, rối loạn tâm thần, viêm đa
+dây thần kinh ngoại biên, viêm tụy.
+Nước tiểu có màu nâu xẫm do chất chuyển hóa của thuốc
+1.1.3.4. áp dụng điều trị
+Chỉ định
+- Lỹ amíp cấp ở ruột
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- áp xe gan do amíp, amíp trong các mô
+- Nhiễm trichomonas vaginalis: cần điều trị cho cả vợ và chồng.
+- Bệnh do Giardia Lamblia
+- Nhiễm khuẩn kỹ khí; viêm màng trong tim, nhiễm khuẩn toàn thân, áp xe não, viêm
+màng não có mủ, viêm loét lợi cấp, viêm quanh thân răng...
+Chống chỉ định
+Không nên dùng Metronidazol cho phụ nữ có thai (đặc biệt trong 3 tháng đầu), phụ nữ
+cho con bú, người có tiền sử quá mẫn với thuốc.
+Cần thận trọng khi dùng thuốc ở bệnh nhân có tiền sử rối loạn thể tạng máu, bệnh ở hệ
+thống thần kinh trung ương. Phải giảm liều ở người bị suy gan nặng.
+Liều lượng
+Metronidazol có thể uống dưới dạng viên nén (250 mg, 500 mg) hoặc dung dịch treo
+metronidazol benzoat. Trường hợp bệnh nhân không uống được, có thể truyền tĩnh mạch
+(dung dịch 5 mg/ mL), tốc độ truyền 5 mL/ phút.
+- Điều trị lỹ a míp cấp: có thể dùng đơn độc hoặc tốt hơn nên phối hợp với iodoquinol
+hoặc với diloxanid furoat. Liều thường dùng cho người lớn là 750 mg, ngày uống 3 lần
+trong 5- 10 ngày, uống sau bữa ăn.
+- áp xe gan do amíp: người lớn uống 500 - 750 mg/ lần, ngày 3 lần trong 5- 10 ngày.
+Đối với trẻ em liều thường dùng là 30- 40 mg/ kg/ 24 giờ, chia làm 3 lần, uống liền 5 - 10
+ngày.
+- Bệnh do Giardia:
+. Người lớn: uống 250 mg, ngày 3 lần, trong 5 - 7 ngày hoặc uống 1 lần 2g/ ngày, trong 3
+ngày.
+. Trẻ em: uống 15 mg/ kg/ ngày, chia làm 3 lần, trong 5- 10 ngày.
+Tinidazol (Fasigyne): viên nén 500 mg. Là dẫn xuất thế của imidazol (C 8H13N3O4). Tác
+dụng và cơ chế tác dụng tương tự metronidazol, chỉ khác nhau về dược động học: hấp thu
+nhanh và hoàn toàn qua đường tiêu hóa, nồng độ tối đa trong máu đạt được  sau 2giờ, t/2 =
+12- 14 giờ, gắn vào protein huyết tương 8 - 12%, thấm vào mọi mô, thải trừ chủ yếu qua
+thận, phần nhỏ qua phân (tỷ lệ 5: 1).
+Liều lượng: liều duy nhất 2g. Hoặc điều trị các nhiễm khuẩn kỹ khí dùng ngày đầu 2g;
+ngày sau 1g (hoặc 500 mg  2 lần) trong 5- 6 ngày.
+1.1.3.5.
+Tương tác thuốc
+Metronidazol làm tăng tác dụng chống đông máu của các thuốc kháng vitamin K, có thể
+gây chảy máu nếu dùng đồng thời metronidazol với warfarin.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Phenobarbital và các thuốc gây cảm ứng microsom gan làm tăng chuyển hóa
+metronidazol nên metronidazol thải trừ nhanh hơn.
+Metronidazol có tác dụng kiểu disulfiram (cai rượu)vì vậy, không nên uống rượu trong
+thời gian dùng thuốc để tránh tác dụng độc trên thần kinh: đau đầu, buồn nôn, nôn, chóng
+mặt, rối loạn tâm thần, lú lẫn...
+1.2. Thuốc diệt amíp trong lòng ruột  (diệt amíp do tiếp xúc)
+Thuốc tập trung ở trong lòng ruột và có tác dụng với thể minuta (sống hoại sinh trong
+lòng ruột) và bào nang (thể kén).
+1.2.1. Diloxanid (Furamid)
+Diloxanid Furoat là dẫn xuất dicloro acetamid có tác dụn g chủ yếu với amíp trong lòng
+ruột.
+1.2.1.1.
+Tác dụng
+Thuốc có tác dụng diệt trực tiếp amíp trong lòng ruột nên được dùng để điều trị các bệnh
+amíp ở ruột.
+Diloxanid có hiệu lực cao đối với bào nang amíp. Không có tác dụng đối với amíp ở trong
+các tổ chức.
+Cơ chế tác dụng của thuốc chưa được sáng tỏ. Diloxanid có cấu trúc gần giống
+cloramphenicol (đều là dẫn xuất dicloro acetamid) nên thuốc có thể ức chế sự tổng hợp
+protein của vi sinh vật.
+1.2.1.2.
+Dược động học
+Những nghiên cứu trên động vật cho thấy diloxanid hấp thu rất chậm nên nồng độ thuốc ở
+trong ruột khá cao. Tại ruột thuốc (Diloxanid furoat) bị thuỷ phân thành diloxanid và acid
+furoic. Lượng thuốc đã hấp thu được thải trừ trên 50% qua thận dưới dạng glucuronid
+trong 6 giờ đầu tiên. Dưới 10% liều dùng thải trừ qua ph ân.
+1.2.1.3.
+Tác dụng không mong muốn
+Thuốc dung nạp tốt ngay cả khi dùng liều cao. Diloxanid ít gây các phản ứng có hại
+nghiêm trọng.
+Hay gặp các rối loạn trên đường tiêu hóa: chướng bụng (87%), chán ăn (3%), nôn (6%),
+tiêu chảy (2%), co cứng bụng (2%).
+ít gặp các triệu chứng trên hệ thần kinh trung ương: nhức đầu, ngủ lịm, chóng mặt, hoa
+mắt, nhìn đôi, dị cảm...
+1.2.1.4.
+áp dụng điều trị
+Chỉ định
+Diloxanid được lựa chọn để điều trị amíp thể bào nang (không có triệu chứng lâm sàng ở
+những vùng không có dịch bệnh lưu hành).
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thuốc còn được phối hợp với metronidazol để diệt amíp thể hoạt động ở trong lòng ruột.
+Chống chỉ định
+Không nên dùng thuốc cho phụ nữ có thai (3 tháng đầu) và trẻ em dưới 2 tuổi.
+Liều lượng
+Diloxanid chỉ dùng theo đường uống
+- Điều trị cho nguời bệnh mang kén amíp không triệu chứng:
+. Người lớn: mỗi lần uống 500 mg, ngày uống 3 lần trong 10 ngày. Nếu cần, điều trị có
+thể kéo dài đến 20 ngày.
+. Trẻ em: 20 mg/ kg/ ngày, chia làm 3 lần, uống liền 10 ngày.
+- Điều trị lỹ amíp cấp: cần điều trị bằng metronidaz ol trước, sau đó tiếp theo bằng
+diloxanid furoat liều như trên.
+1.2.2. Iodoquinol (Yodoxin, Moebequin)
+1.2.2.1.
+Tác dụng
+Iodoquinol (diiodohydroxyquin) là một dẫn xuất halogen của hydroxyquinolein có tác
+dụng diệt amíp ở trong lòng ruột nhưng không ảnh hưởng đến amíp ở th ành ruột và trong
+các tổ chức.
+Cơ chế tác dụng của thuốc chưa được rõ ràng.
+1.2.2.2.
+Dược động học
+Thuốc hấp thu rất kém qua đường tiêu hóa (90% thuốc không được hấp thu). Phần thuốc
+vào được vòng tuần hoàn có thời gian bán thải khoảng 11 - 14 giờ và thải trừ qua nước tiểu
+dưới dạng glucuronid.
+1.2.2.3.
+Tác dụng không mong muốn
+Khi dùng liều cao và kéo dài, iodoquinol có thể gây những phản ứng có hại trên hệ thần
+kinh trung ương. Thuốc dễ gây phản ứng có hại ở trẻ em hơn ở người lớn.
+Với liều điều trị, iodoquinol có thể gây m ột số tác dụng không mong muốn nhẹ và thoáng
+qua như: buồn nôn, nôn, tiêu chảy (thường hết sau vài ngày), chán ăn, viêm dạ dày, khó
+chịu vùng bụng, đau đầu, ban đỏ, ngứa...
+1.2.2.4.
+áp dụng điều trị
+Chỉ định
+Phối hợp để điều trị các trường hợp nhiễm amíp ở ruột (t hể nhẹ và trung bình)
+Chống chỉ đinh
+Không nên dùng thuốc cho những người có bệnh tuyến giáp, dị ứng với iod, phụ nữ có
+thai, trẻ em dưới 2 tuổi.
+Liều lượng
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Uống 650 mg/ lần, ngày 3 lần, trong 10 - 20 ngày. Nên uống thuốc sau bữa ăn.
+2. Thuốc diệt Trichomonas
+Trichomonas ký sinh ở người có 3 loại:
+Trichomonas hominis (Trichomonas intestinalis)
+Trichomonas bucalis (Trichomonas tenax)
+Trichomonas vaginalis
+Trichomonas vaginalis ký sinh chủ yếu ở âm đạo, trong nước tiết âm đạo, ở các nếp nhăn
+của da ở bộ phân sinh dục người. Khi ký sinh ở âm đạo, Trichomonas chuyển pH từ acid
+sang base, nên tạo điều kiện cho vi khuẩn trong âm đạo sinh sản, gây viêm âm đạo cấp và
+mạn tính.
+Thuốc diệt T.vaginalis gồm có các dẫn xuất của 5 - nitroimidazol như metronidazol
+(Flagyl), tinidazol (Fasigyn), ornidazol (Tibéral, Secnidazol, Flagentyl), nimorazol... (xin
+xem bài kháng sinh)
+Trong điều trị bệnh do Trichomonas cần đảm bảo các nguyên tắc sau:
+- Vệ sinh bộ phận sinh dục thường xuyên là rất cần thiết vì tăng cường vệ sinh sĩ giảm
+mức độ viêm nhiễm của bộ phận sinh dục
+- Điều trị cho cả vợ và chồng (vì đây là một bệnh lây truyền từ vợ sang chồng và ngược
+lại)
+- Trong thời gian đang điều trị không được giao hợp để bệnh khỏi truyền từ vợ sang chồng
+hoặc ngược lại.
+- Phải phối hợp diệt Trichomonas với diệt vi khuẩn và nấm men (Candida albicans) vì
+thuốc không diệt trực khuẩn Dửderlein (là vật chủ bình thường và cần của âm đạo), không
+tác động với candida albicans. Vì vậy, nên dùng kìm acid boric trong điều trị
+Trichomonas để chống sự phát triển của nấm men và phối hợp với kháng sinh diệt vi
+khuẩn.
+Liều lượng: uống 1 liều duy nhất 2 g hoặc dùng 7 ngày, mỗi ngày 3 lần, mỗi lần      250
+mg.
+Câu hỏi tự lượng giá
+1. Trình bày tác dụng, cơ chế tác dụng, tác dụng không mong muốn của
+dehydroemetin.
+2. Trình bày áp dụng điều trị của dehydroemetin.
+3. Trình bày tác dụng, cơ chế tác dụng, tác dụng không mong muốn của
+metronidazol.
+4. Trình bày chỉ định, chống chỉ định và cách dùng metronidazol.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+5. Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của
+diloxanid.
+Trình bày tác dụng, tác dụng không mong muốn và áp dụng điều trị của iodoquinol .

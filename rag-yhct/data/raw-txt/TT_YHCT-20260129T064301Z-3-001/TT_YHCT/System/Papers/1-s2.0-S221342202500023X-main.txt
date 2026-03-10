@@ -1,0 +1,911 @@
+Integrative Medicine Research 14 (2025) 101143 
+Contents lists available at ScienceDirect 
+Integrative Medicine Research 
+journal homepage: www.elsevier.com/locate/imr 
+Original Article 
+Traditional Vietnamese herbal medicine TD0015 in Knee Osteoarthritis: A 
+Phase-II randomized controlled trial 
+Nguyen Thi Thu Ha
+a , 1 , Duong Trong Nghia
+b , 1 , Ha Thi Viet Nga
+b , Trinh Thi Lua
+a , 
+Nguyen Thi Bich Hong
+b , Nguyen Thi Hanh
+c , Nguyen Kim Ngoc
+a , Nguyen Lam Vuong 
+d , ∗ 
+a Faculty of Traditional Medicine, Hanoi Medical University, Hanoi, Vietnam 
+b National Hospital of Traditional Medicine, Hanoi, Vietnam 
+c Thai Binh Medical University Hospital, Thai Binh, Vietnam 
+d Department of Medical Statistics and Informatics, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh, Vietnam 
+a r t i c l e 
+i n f o 
+Keywords: 
+Traditional medicine 
+Herbal 
+Knee 
+Osteoarthritis 
+a b s t r a c t 
+Background: Knee osteoarthritis (KOA) is a leading cause of disability among older adults worldwide. Traditional 
+medicine oﬀers a promising treatment for KOA with fewer side eﬀects compared to current treatments such as 
+non-steroidal anti-inﬂammatory drugs and corticosteroids. This study aimed to evaluate the safety and eﬃcacy 
+of TD0015, a herbal formulation based on the Duhuo Jisheng decoction, in treating KOA. 
+Methods: This randomized, double-blind, placebo-controlled trial enrolled 108 patients with KOA. Participants 
+were randomly assigned in a 1:1:1 ratio to receive TD0015 5 g, TD0015 7.5 g, or placebo daily for 60 days. Eﬃcacy 
+endpoints included changes in Western Ontario and McMaster Universities Osteoarthritis index (WOMAC), Visual 
+Analogue Scale (VAS), Lequesne index, heel-buttock distance, and knee ﬂexion and extension range of motion. 
+Safety was assessed by adverse events (AEs). 
+Results: The mean age was around 60 years, and > 80 % were females. Both TD0015 treatment groups signiﬁcantly 
+improved the WOMAC, VAS, Lequesne score, heel-buttock distance, and knee ﬂexion and extension during the 
+treatment period. At the 90-day follow-up, the mean percentage improvement in WOMAC scores was 74.5 % ± 
+13.4 %, 83.9 % ± 14.8 %, and 7.4 % ± 31.5 % in the TD0015 5 g, TD0015 7.5 g, and placebo groups, respectively, 
+which corresponds to a 67.1 % (95 % CI: 56.3–77.9) and 76.5 % (95 % CI: 65.6–87.4) improvement in the TD0015 
+5 g and TD0015 7.5 g groups, compared to placebo. No AEs were reported in any group. 
+Conclusions: The Vietnamese herbal medicine TD0015 is safe, eﬃcacious, and well-tolerated in treating KOA. 
+Further studies are required to conﬁrm the long-term eﬃcacy and safety of TD0015. 
+Trial registration: ClinicalTrials.gov, NCT06657495. 
+1. Introduction 
+Knee osteoarthritis (KOA) is a prevalent degenerative joint disease 
+characterized by pain, swelling, stiﬀness, and functional impairment. 1 
+With the global aging population and rising obesity rates, the preva- 
+lence of KOA is increasing, posing a signiﬁcant burden on individuals 
+and healthcare systems. 2-4 KOA is a leading cause of disability and a 
+substantial source of societal costs, particularly among older adults, as 
+highlighted by the 2019 Global Burden of Disease Study. 5 This condi- 
+tion signiﬁcantly diminishes quality of life and contributes substantially 
+to healthcare expenditures. 2-4 
+∗ Corresponding author at: University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang, Ward 11, District 5, Ho Chi Minh City, Vietnam. 
+E-mail address: nguyenlamvuong@ump.edu.vn (N.L. Vuong) . 
+1 These authors contributed equally as co-ﬁrst authors. 
+The complex pathogenesis of KOA involves a multifaceted interplay 
+of factors, including inﬂammation, oxidative stress, apoptosis, and al- 
+tered energy metabolism. 6 Current treatment strategies, such as non- 
+steroidal anti-inﬂammatory drugs (NSAIDs), analgesics, and corticos- 
+teroids, primarily target symptom management but often have lim- 
+itations, including potential adverse eﬀects, such as gastrointestinal 
+and cardiovascular disorders, particularly with long-term use, and lim- 
+ited capacity to modify disease progression. 7 , 8 While intra-articular 
+corticosteroid injections can provide short-term pain relief, concerns 
+exist regarding their long-term impact on joint health, including the 
+https://doi.org/10.1016/j.imr.2025.101143 
+Received 27 November 2024; Received in revised form 7 March 2025; Accepted 31 March 2025 
+Available online 31 March 2025 
+2213-4220/© 2025 Korea Institute of Oriental Medicine. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license 
+( http://creativecommons.org/licenses/by-nc-nd/4.0/ ) 
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+potential for accelerated KOA progression, subchondral insuﬃciency 
+fracture, complications of osteonecrosis, and rapid joint destruction. 9 
+These limitations underscore the urgent need for more eﬀective and 
+safer KOA treatments. Traditional medicine, with its long history of 
+use and potentially fewer side eﬀects, oﬀers a promising avenue for 
+addressing this unmet need. 10 , 11 Furthermore, herbal therapies have 
+demonstrated potential in slowing KOA progression through various 
+mechanisms. 12 
+Duhuo Jisheng decoction (DJD), a well-known traditional Chinese 
+medicine formula comprising 15 herbs, has demonstrated eﬃcacy in 
+osteoarthritis (OA) treatment. 13 Its use in treating KOA has been docu- 
+mented in various countries, including Vietnam. 14 However, preparing 
+DJD using the classical formulation requires traditional medicine prac- 
+titioners, limiting its broader applicability. TD0015 was developed from 
+the DJD formulation as a commercially available drug, representing an 
+improvement on the classical preparation and broadening its potential 
+use. Preclinical studies have shown promising anti-inﬂammatory and 
+analgesic eﬀects of TD0015. 15-17 This phase II clinical trial was there- 
+fore designed to evaluate the safety and optimal dosage of TD0015 in 
+patients with KOA. 
+2. Methods 
+2.1. Study design 
+This was a double-blind randomized, placebo-controlled phase-II 
+trial to assess the safety and optimal dose of oral TD0015 in adults with 
+KOA. The trial was conducted at the National Hospital of Traditional 
+Medicine (Hanoi, Vietnam) between March and June 2022. Ethical ap- 
+proval was obtained from the Ministry of Health ethics committee (No. 
+107/CN–HDDD, dated July 19, 2021). Written informed consent was 
+obtained from all participants. The trial adhered to the Declaration of 
+Helsinki and Good Clinical Practice guidelines and was registered at 
+ClinicalTrials.gov (NCT06657495). For the reporting of the trial, we re- 
+ferred to the Consolidated Standards of Reporting Trials (CONSORT) 
+2010 statement (Supplement 1). 
+2.2. Patients 
+The study enrolled men and women aged 18 years or above with 
+a conﬁrmed diagnosis of KOA according to the American College of 
+Rheumatology Clinical classiﬁcation criteria for knee osteoarthritis, ex- 
+periencing knee joint pain, 18 and with a Kellgren and Lawrence grade 
+below 4. 19 , 20 Patients with Kellgren-Lawrence grade 4 were excluded 
+because non-operative treatments are often ineﬀective at this stage, and 
+surgical intervention is typically required. Exclusion criteria included: 
+(i) contraindication to NSAIDS; (ii) known allergy or intolerance to any 
+of the product ingredient; (iii) pregnancy or breastfeeding; (iv) planned 
+surgery within six months of screening; (v) concomitant severe infec- 
+tions, malignant diseases, coagulation disorders, or uncontrolled or un- 
+manageable systemic diseases; (vi) presence of other types of arthritis 
+besides OA; (vii) intra-articular injection of hyaluronic acid or corticos- 
+teroid in the preceding two months; and (viii) inability to comply with 
+study procedures or ensuring compliance with study drug administra- 
+tion as assessed by investigators. 
+2.3. Investigational product 
+TD0015, based on the DJD formulation, was developed as a 5 g 
+and 7.5 g oral dosage form. Each pill contained a ﬁne powder of 22 
+herbal ingredients extracted using water as the solvent (Supplement 2). 
+Both TD0015 and the placebo were manufactured according to Good 
+Manufacturing Practice (GMP) standards by the Sao Thai Duong Joint 
+Stock Company (Sunstar JSC), a company with 25 years of experience 
+in herbal product manufacturing. The two products were identical in 
+appearance (color, shape, size, and smell) to ensure blinding. 
+2.4. Randomization and intervention 
+Eligible participants were randomly assigned in a 1:1:1 ratio to re- 
+ceive TD0015 5 g, TD0015 7.5 g, or placebo. The dose selection for 
+TD0015 was based on preclinical studies in mice. 15-17 Block randomiza- 
+tion with a block size of six was generated using the PROC PLAN state- 
+ment in SAS version 9.4. Randomization codes were placed in sequen- 
+tially numbered, sealed envelopes. Treatment allocation was known 
+only to one study team member responsible for generating the ran- 
+domization sequence until the database was locked on June 24, 2023. 
+All participants, outcome assessors, and other study personnel were 
+blinded to treatment assignment. Participants were allocated to treat- 
+ment groups sequentially and received either TD0015 5 g, TD0015 7.5 g, 
+or placebo one pill twice daily for 60 days (total of 120 pills). 
+2.5. Assessments 
+Assessments were conducted at baseline (T0), 15, 30, 45, and 60 
+days post-randomization (T1, T2, T3, and T4 respectively), and a 90- 
+day follow-up (T5). Clinical assessments included physical examina- 
+tions, the Western Ontario and McMaster Universities Osteoarthritis in- 
+dex (WOMAC), Lequesne index, knee range of motion, and Visual Ana- 
+logue Scale (VAS) for pain intensity. Laboratory tests, including blood 
+chemistry and hematology, were performed at baseline (T0) and at the 
+end of treatment (T4). Baseline X-ray and ultrasound imaging were con- 
+ducted to conﬁrm and assess the severity of KOA. 
+2.6. Outcomes 
+The primary eﬃcacy endpoint was the change in WOMAC score from 
+baseline to the end of treatment (T4) and the 90-day follow-up (T5). 
+The WOMAC is a widely used self-administered questionnaire in pa- 
+tients with OA. It consists of 24 items divided into three subscales: pain 
+(5 items), stiﬀness (2 items), and physical function (17 items). 21 The 
+score ranges from 0 to 96, with higher scores indicating greater symp- 
+tom severity and functional impairment. 
+Secondary eﬃcacy endpoints included the VAS for pain intensity, 
+Lequense index score for overall disease severity, heel-buttock distance, 
+and knee ﬂexion and extension range of motion to evaluate functional 
+limitations. The VAS is a 10-cm visual analog scale, with higher scores 
+indicating greater pain intensity (0 represents no pain, and 10 represents 
+worst pain imaginable). The Lequesne index is an 11-item questionnaire 
+divided into three sections: pain or discomfort (5 items), maximum dis- 
+tance walked (2 items), and activities of daily living (4 items). The score 
+ranges from 0 (no pain, no disability) to 24 (maximum pain and disabil- 
+ity). 22 Heel-buttock distance and knee range of motion are objective 
+measures by study physicians. Improvement rates for each eﬃcacy end- 
+point were calculated as the percentage change from baseline to T4 and 
+T5, except for the knee extension which was the absolute change. 
+For all the primary and secondary eﬃcacy endpoints, except for the 
+knee extension, the percentage change was calculated for each individ- 
+ual patient as follows: Percentage change at T4 or T5 = (Score at T4 or 
+T5 – Score at T0) / Score at T0 ∗ 100 %. 
+Safety was assessed by monitoring adverse events (AEs), serious ad- 
+verse events (SAEs), and routine laboratory tests, including complete 
+blood count and blood chemistry (hepatic and renal functions tests, and 
+glucose tests). Concomitant medications were recorded throughout the 
+study period. 
+2.7. Statistical analysis 
+As this is the ﬁrst study to explore the eﬃcacy and safety of TD0015 
+on patients with KOA, we decided to recruit a convenient sample of 
+30 participants in each treatment group. Considering a dropout rate of 
+15 %, we recruited 36 patients for each group. 
+2
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+All eﬃcacy analyses were performed on an intention-to-treat (ITT) 
+basis, including all randomized patients regardless of their protocol ad- 
+herence and continued participation in the study. Patients were ana- 
+lyzed according to their randomized group. Safety analyses were on an 
+as-treated basis, including all patients who received at least one dose of 
+the study drugs. Patients were analyzed according to their actual treat- 
+ment group. 
+Continuous data with a normal distribution, including all the eﬃ- 
+cacy endpoints, were summarized using mean and standard deviation. 
+Non-normally distributed continuous data, such as laboratory parame- 
+ters, were summarized using median and interquartile range (25th, 75th 
+percentiles). Categorical data were summarized using frequencies and 
+percentages. 
+Kruskal-Wallis test was used to assess overall diﬀerences in the 
+change from baseline to T4 or T5 for each endpoint. Where signiﬁ- 
+cant diﬀerences were identiﬁed, Dunn’s non-parametric all-pairs test 
+was used for post-hoc pairwise comparisons. In addition, linear regres- 
+sion models were used to further assess the change from baseline to T4 
+or T5 for each endpoint. The models included treatment group (TD0015 
+5 g, TD0015 7.5 g, or placebo) as the sole independent variable. Mean 
+diﬀerences (MDs) and 95 % conﬁdence intervals (CIs) were calculated 
+for pairwise comparisons between each TD0015 group and placebo, and 
+between the two TD0015 groups. Linear regression was selected to facil- 
+itate pairwise comparisons, estimate eﬀect sizes using mean diﬀerences, 
+and because of its ease of interpretation. 
+For non-normally distributed continuous variables, such as labora- 
+tory parameters, the Kruskal-Wallis test was used to compare diﬀerences 
+between groups. Fisher’s exact test was used to compare categorical vari- 
+ables, including safety endpoints. All statistical tests were two-sided. To 
+account for multiple comparisons, statistical signiﬁcance was deﬁned as 
+a p-value < 0.01. 
+There were missing data on the endpoints due to discontinuation of 
+the study. We therefore performed a sensitivity analysis with imputation 
+using the last observation carried forward (LOCF) method for the eﬃ- 
+cacy endpoints. This approach was chosen because the primary reason 
+for dropout was loss to follow-up (presumed missing at random), and 
+a smaller proportion of patients discontinued due to perceived lack of 
+improvement. LOCF assumes that patients who were lost to follow-up 
+would have maintained their last observed value, which is a conserva- 
+tive assumption in the context of an intervention aimed at improving 
+symptoms. All the analyses were done using statistical software R ver- 
+sion 4.1.0. 
+3. Results 
+Participant enrollment began on March 21, 2022 and concluded on 
+June 23, 2022. Participants attended clinic visits at baseline (random- 
+ization), at 15-day intervals for 60 days during the treatment period, and 
+at a ﬁnal follow-up visit 90 days after randomization. The last follow-up 
+visit for the ﬁnal participant occurred on September 24, 2022. Between 
+March and June 2022, 123 patients were screened, of whom 108 were 
+eligible for randomization. Thirty-six patients were randomly assigned 
+to each treatment group: placebo, TD0015 5 g, and TD0015 7.5 g. A total 
+of 17 patients discontinued participation in the study: 8 in the placebo 
+group, 4 in the TD0015 5 g group, and 5 in the TD0015 7.5 g group. 
+The primary reason for dropout was loss to follow-up (13/17 patients), 
+where investigators were unable to contact the participants. Four pa- 
+tients (2 in the placebo group, 1 in the TD0015 5 g group, and 1 in the 
+TD0015 7.5 g group) withdrew due to perceived lack of improvement. 
+All randomized patients were included in the ITT analysis ( Fig. 1 ). 
+Baseline demographic and clinical characteristics were balanced 
+among the three groups ( Table 1 ). The mean age of patients in the 
+placebo, TD0015 5 g, and TD0015 7.5 g groups was 61.8, 61.9 and 57.9 
+years, respectively. The majority of patients in all groups were female 
+(83.3 %, 80.6 %, and 86.1 %, respectively). Symptoms, including pain 
+and limited range of motion, were present in both knees for 44.4 %, 
+30.6 %, and 33.3 % of patients, respectively. For analysis, the knee with 
+more severe symptoms was selected, with the right knee being more 
+common. Most patients were categorized as Kellgren-Lawrence grade 2. 
+All eﬃcacy endpoints were non-signiﬁcantly diﬀerent between the three 
+groups at baseline. 
+The mean number of study drug pills used was similar across all 
+three groups: 111 in the placebo group, 115 in the TD0015 5 g group, 
+and 115 in the TD0015 7.5 g group. One patient in the placebo group, 
+two patients in the TD0015 5 g group, and no patients in the TD0015 
+7.5 g group required rescue medication (NSAIDs) (Supplementary Table 
+S1). 
+Fig. 2 illustrates the progression of all eﬃcacy endpoints over time. 
+Both TD0015 treatment groups (5 g and 7.5 g) demonstrated greater 
+improvements in WOMAC, VAS, Lequesne scores, and heel-buttock dis- 
+tance compared to the placebo group. Additionally, the higher-dose 
+TD0015 group showed a slightly better improvement than the lower- 
+dose group. Regarding knee ﬂexion and extension, both treatment 
+groups improved compared to the placebo group, with similar eﬀects 
+between the two TD0015 doses. 
+Tables 2 and 3 present the improvement rates (percentage change 
+from baseline) for the primary and secondary eﬃcacy endpoints. Both 
+TD0015 treatment groups demonstrated signiﬁcant improvements in 
+WOMAC, VAS, Lequesne scores, heel-buttock distance, and knee ﬂex- 
+ion and extension at both T4 and T5 compared to placebo. At T5, the 
+mean percentage improvement in WOMAC scores was 74.5 % ± 13.4 % 
+in the TD0015 5 g group, 83.9 % ± 14.8 % in the TD0015 7.5 g group, 
+and 7.4 % ± 31.5 % in the placebo group. This corresponds to a 67.1 % 
+(95 % CI: 56.3–77.9) and 76.5 % (95 % CI: 65.6–87.4) improvement 
+in the TD0015 5 g and TD0015 7.5 g groups, respectively, compared 
+to placebo. Similar trends were observed for WOMAC at T4, and VAS 
+and Lequesne scores at both T4 and T5. While the improvements in heel- 
+buttock distance and knee ﬂexion/extension were smaller in magnitude, 
+they were still statistically signiﬁcant in both TD0015 groups. Sensitiv- 
+ity analysis using last observation carried forward imputation conﬁrmed 
+the primary ﬁndings, although the magnitude of the diﬀerences between 
+the two TD0015 groups was slightly reduced (Supplementary Table S1, 
+Table S2). 
+In the primary analysis, the higher-dose TD0015 group showed a 
+slightly greater improvement in WOMAC, VAS, Lequesne score, heel- 
+buttock distance, and knee ﬂexion and extension compared to the lower- 
+dose group at T4 and T5. However, this diﬀerence was not statistically 
+signiﬁcant in the sensitivity analysis using LOCF imputation (Supple- 
+mentary Table S1, Table S2). 
+No AEs or SAEs were reported in any of the treatment groups. 
+Routine laboratory tests, including hematology and blood chemistry, 
+showed no signiﬁcant abnormalities or treatment-related adverse eﬀects 
+(Supplementary Table S2, Figure S1, Table S3). 
+4. Discussion 
+This prospective, randomized, double-blind, placebo-controlled trial 
+demonstrated the safety and eﬃcacy of oral TD0015 in managing KOA. 
+Over a 3-month period, both TD0015 treatment groups showed signiﬁ- 
+cant improvements in pain, stiﬀness, and physical function compared to 
+the placebo group, as assessed by the WOMAC score, VAS, and Lequesne 
+Index. The higher-dose TD0015 group exhibited slightly greater im- 
+provements in pain and functional limitations compared to the lower- 
+dose group. Importantly, TD0015 was well-tolerated, with no AEs re- 
+ported. 
+Traditional medicine in Vietnam has a long history of treating 
+bone disorders, including OA. In traditional Chinese and Vietnamese 
+medicine, OA is often classiﬁed as “Bi syndrome ” or “ﬂaccidity syn- 
+drome ”. 23 TD0015 was developed from DJD, which is a well-known 
+traditional Chinese medicine formula comprising 15 herbs, includ- 
+ing Angelica pubescens, Taxillus chinensis, Gentiana macrophylla, Saposh- 
+nikovia divaricata, Asarum sieboldii, Ligusticum chuanxiong, Angelica sinen- 
+3
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+Fig. 1. Flowchart of patient selection and follow-up. NSAIDS, nonsteroidal anti-inﬂammatory drugs. 
+Table 1 
+Baseline clinical and demographic characteristics. 
+Placebo 
+( N = 36) 
+TD0015 5 g 
+( N = 36) 
+TD0015 7.5 g 
+( N = 36) 
+Age (years) 
+61.8 ± 12.1 
+61.9 ± 11.2 
+57.9 ± 11.3 
+Sex, female 
+30 (83.3) 
+29 (80.6) 
+31 (86.1) 
+Hypertension 
+6 (16.7) 
+7 (19.4) 
+4 (11.1) 
+Diabetes 
+3 (8.3) 
+3 (8.3) 
+1 (2.8) 
+Postmenopause 
+23/30 (76.7) 
+24/29 (82.8) 
+22/31 (71.0) 
+Side with pain and limited range of motion 
+Left 
+10 (27.8) 
+9 (25.0) 
+10 (27.8) 
+Right 
+10 (27.8) 
+16 (44.4) 
+14 (38.9) 
+Both sides 
+16 (44.4) 
+11 (30.6) 
+12 (33.3) 
+Side with more severe symptoms 
+Right 
+24 (66.7) 
+25 (69.4) 
+23 (63.9) 
+Left 
+12 (33.3) 
+11 (30.6) 
+13 (36.1) 
+Body mass index (kg/m2 ) 
+23.4 ± 3.1 
+23.6 ± 1.8 
+23.4 ± 2.4 
+Kellgren–Lawrence grade 
+Grade 1 
+0 (0.0) 
+1 (2.8) 
+0 (0.0) 
+Grade 2 
+33 (91.7) 
+35 (97.2) 
+34 (94.4) 
+Grade 3 
+3 (8.3) 
+0 (0.0) 
+2 (5.6) 
+Grade 4 
+0 (0.0) 
+0 (0.0) 
+0 (0.0) 
+Knee joint eﬀusion on ultrasound 
+25 (69.4) 
+26 (72.2) 
+29 (80.6) 
+WOMAC score 
+40.0 ± 8.3 
+43.9 ± 8.1 
+45.1 ± 10.4 
+VAS score 
+4.2 ± 0.9 
+4.4 ± 0.9 
+4.4 ± 0.9 
+Lequense score 
+13.9 ± 2.7 
+14.8 ± 2.7 
+15.0 ± 2.6 
+Heel-buttock distance (cm) 
+16.6 ± 4.5 
+15.4 ± 3.7 
+15.0 ± 3.7 
+Knee ﬂexion (degree) 
+102.9 ± 10.2 
+105.6 ± 10.1 
+103.1 ± 10.8 
+Knee extension (degree) 
+− 6.8 ± 5.5 
+− 8.2 ± 3.2 
+− 6.9 ± 5.2 
+Summary statistics are mean ± standard deviation and n (%). 
+VAS, visual analogue scale; WOMAC, Western Ontario and McMaster Universities Osteoarthritis 
+Index. 
+4
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+Fig. 2. Progression of the eﬃcacy endpoints by treatment groups The line inside each box is the median, the upper and lower margins of each box represent the 
+interquartile range (25th; 75th percentiles), and the diamond inside each box is the mean of the corresponding endpoint. VAS, visual analogue scale; WOMAC, 
+Western Ontario and McMaster Universities Osteoarthritis Index. 
+Table 2 
+Percentage change of the eﬃcacy endpoints by treatment groups. 
+Placebo 
+TD0015 5 g 
+TD0015 7.5 g 
+n 
+Mean ± SD 
+n 
+Mean ± SD 
+n 
+Mean ± SD 
+Poverall 
+P01 
+P02 
+P12 
+Percentage change of WOMAC score (%) 
+At T4 
+28 
+6.2 ± 23.6 
+33 
+68.3 ± 14.8 
+31 
+79.8 ± 15.5 
+< 0.001 
+< 0.001 
+< 0.001 
+0.099 
+At T5 
+28 
+7.4 ± 31.5 
+32 
+74.5 ± 13.4 
+31 
+83.9 ± 14.8 
+< 0.001 
+< 0.001 
+< 0.001 
+0.140 
+Percentage change of VAS score (%) 
+At T4 
+28 
+5.5 ± 19.9 
+33 
+59.1 ± 18.1 
+31 
+73.3 ± 22.4 
+< 0.001 
+< 0.001 
+< 0.001 
+0.190 
+At T5 
+28 
+− 0.6 ± 28.6 
+32 
+63.2 ± 27.1 
+31 
+80.1 ± 19.5 
+< 0.001 
+< 0.001 
+< 0.001 
+0.093 
+Percentage change of Lequesne score (%) 
+At T4 
+28 
+7.7 ± 15.4 
+33 
+63.0 ± 15.7 
+31 
+75.4 ± 15.5 
+< 0.001 
+< 0.001 
+< 0.001 
+0.110 
+At T5 
+28 
+3.7 ± 24.6 
+32 
+68.5 ± 19.1 
+31 
+78.7 ± 14.3 
+< 0.001 
+< 0.001 
+< 0.001 
+0.270 
+Percentage change of heel-buttock distance (%) 
+At T4 
+28 
+5.3 ± 16.8 
+33 
+43.7 ± 23.8 
+31 
+54.6 ± 17.8 
+< 0.001 
+< 0.001 
+< 0.001 
+0.380 
+At T5 
+28 
+4.0 ± 15.5 
+32 
+47.0 ± 36.4 
+31 
+58.2 ± 22.8 
+< 0.001 
+< 0.001 
+< 0.001 
+1 
+Percentage change of knee ﬂexion (%) 
+At T4 
+28 
+2.8 ± 5.4 
+33 
+24.0 ± 18.5 
+31 
+29.9 ± 17.1 
+< 0.001 
+< 0.001 
+< 0.001 
+0.490 
+At T5 
+28 
+3.1 ± 8.1 
+32 
+24.8 ± 23.1 
+31 
+30.2 ± 21.5 
+< 0.001 
+< 0.001 
+< 0.001 
+0.710 
+Absolute change of knee extension (degree) 
+At T4 
+28 
+0.6 ± 3.9 
+33 
+7.1 ± 5.3 
+31 
+5.5 ± 4.9 
+< 0.001 
+< 0.001 
+< 0.001 
+1 
+At T5 
+28 
+0.5 ± 4.8 
+32 
+6.6 ± 4.5 
+31 
+5.6 ± 5.9 
+< 0.001 
+< 0.001 
+0.002 
+1 
+Poverall values are from the Kruskal-Wallis test. P01 , P02 , and P12 values are from Dunn’s post-hoc test, representing comparisons between placebo vs. TD0015 5 g, 
+placebo vs. TD0015 7.5 g, and TD0015 5 g vs. TD0015 7.5 g, respectively. 
+SD, standard deviation; VAS, visual analogue scale; WOMAC, Western Ontario and McMaster Universities Osteoarthritis Index. 
+5
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+Table 3 
+Mean diﬀerences of the eﬃcacy endpoints between treatment groups. 
+At the end of treatment (T4) 
+At 90-day follow-up (T5) 
+MD (95 % CI) 
+P 
+MD (95 % CI) 
+P 
+Percentage change of WOMAC score (%) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+62.2 (52.9; 71.4) 
+67.1 (56.3; 77.9) 
+TD0015 7.5 g vs. Placebo 
+73.6 (64.3; 83.0) 
+76.5 (65.6; 87.4) 
+TD0015 7.5 g vs. TD0015 5 g 
+11.5 (2.5; 20.5) 
+9.4 (− 1.1; 19.9) 
+Percentage change of VAS score (%) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+53.6 (43.3; 63.9) 
+63.8 (50.8; 76.8) 
+TD0015 7.5 g vs. Placebo 
+67.9 (57.4; 78.3) 
+80.7 (67.6; 93.8) 
+TD0015 7.5 g vs. TD0015 5 g 
+14.2 (4.2; 24.3) 
+16.9 (4.2; 29.5) 
+Percentage change of Lequesne score (%) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+55.3 (47.4; 63.3) 
+64.8 (54.7; 74.9) 
+TD0015 7.5 g vs. Placebo 
+67.7 (59.7; 75.8) 
+75.0 (64.9; 85.2) 
+TD0015 7.5 g vs. TD0015 5 g 
+12.4 (4.7; 20.1) 
+10.2 (0.4; 20.0) 
+Percentage change of heel-buttock distance (%) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+38.5 (28.3; 48.6) 
+43.0 (29.3; 56.8) 
+TD0015 7.5 g vs. Placebo 
+49.4 (39.0; 59.7) 
+54.3 (40.4; 68.1) 
+TD0015 7.5 g vs. TD0015 5 g 
+10.9 (1.0; 20.8) 
+11.2 (− 2.2; 24.6) 
+Percentage change of knee ﬂexion (%) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+21.2 (13.4; 28.9) 
+21.7 (11.8; 31.5) 
+TD0015 7.5 g vs. Placebo 
+27.1 (19.2; 34.9) 
+27.1 (17.1; 37.0) 
+TD0015 7.5 g vs. TD0015 5 g 
+5.9 (− 1.7; 13.4) 
+5.4 (− 4.2; 15.0) 
+Absolute change of knee extension (degree) 
+< 0.001 
+< 0.001 
+TD0015 5 g vs. Placebo 
+6.5 (4.0; 8.9) 
+6.0 (3.4; 8.6) 
+TD0015 7.5 g vs. Placebo 
+4.9 (2.5; 7.4) 
+5.1 (2.5; 7.7) 
+TD0015 7.5 g vs. TD0015 5 g 
+− 1.5 (− 3.9; 0.9) 
+− 0.9 (− 3.5; 1.6) 
+CI, conﬁdence interval; MD, mean diﬀerence; VAS, visual analogue scale; WOMAC, Western Ontario and Mc- 
+Master Universities Osteoarthritis Index. 
+sis, Rehmannia glutinosa, Paeonia lactiﬂora, Cinnamomum cassia, Poria co- 
+cos, Eucommia ulmoides, Achyranthes bidentata, Panax ginseng , and Gly- 
+cyrrhiza uralensis . This formula is traditionally used to treat arthralgia, 
+promoting blood circulation, and nourishing the liver and kidneys. 24 
+Modern research has supported the traditional use of DJD. Studies have 
+demonstrated its potential to promote chondrocyte proliferation, inhibit 
+apoptosis, and regulate the expression of key inﬂammatory factors like 
+vascular endothelial growth factor (VEGF) and hypoxia-inducible factor- 
+1 𝛼(HIF-1 𝛼). 25-28 Clinical trials have demonstrated the eﬃcacy of DJD 
+in managing OA symptoms, showing signiﬁcant improvement in total 
+WOMAC scores and pain compared to control groups. 13 These stud- 
+ies suggest that DJD treatment should be administered for at least four 
+weeks. TD0015, a formulation based on DJD, incorporates additional 
+herbs such as Plastrum Testudinis, Cortex Phelodendri , Animal bone ex- 
+tract, and Salix alba extract. These additions are believed to further en- 
+hance the formula’s bone-strengthening and pain-relieving properties. 29 
+Several preclinical studies have investigated the potential eﬀects 
+of TD0015 in models of OA. A 2018 study compared the eﬀects of 
+oral TD0015 (1.2 g/kg and 3.6 g/kg twice daily) with oral diclofenac 
+(3 mg/kg twice daily) in rats with monosodium iodoacetate-induced 
+KOA over six weeks. 15 Both doses of TD0015, as well as diclofenac, 
+reduced knee mobility impairment, improved articular cartilage struc- 
+ture, and decreased levels of the pro-inﬂammatory cytokines IL-1 𝛽and 
+TNF- 𝛼. The higher dose of TD0015 demonstrated greater analgesic, anti- 
+inﬂammatory, and anti-degenerative eﬀects. 15 A 2022 study evaluated 
+the anti-inﬂammatory eﬀects of oral TD0015 (at the same doses) com- 
+pared to oral aspirin (200 mg/kg) in rat models of carrageenan-induced 
+paw edema and peritonitis. 17 In a separate arm of this study, TD0015 
+(2.4 g/kg and 7.2 g/kg twice daily) was compared to oral methyl- 
+prednisolone (10 mg/kg) in a rat model of asbestos-induced granu- 
+loma. TD0015 demonstrated anti-inﬂammatory eﬀects in both acute and 
+chronic models. 17 Another 2022 study examined the analgesic activ- 
+ity of TD0015 compared to oral aspirin (150 mg/kg) in three diﬀer- 
+ent pain models (heat, mechanical, and chemical). 16 TD0015 exhibited 
+analgesic eﬀects in the mechanical and chemical pain models, but not 
+the heat pain model. These preclinical studies provide evidence of the 
+anti-inﬂammatory and analgesic properties of TD0015 and support its 
+potential for the treatment of KOA. 
+Apart from TD0015 and DJD, numerous herbal medicines have been 
+used to treat KOA, both orally and topically. A meta-analysis involving 
+2362 patients demonstrated the safety and eﬃcacy of Chinese herbal 
+medicine in alleviating pain, improving function, and promoting over- 
+all health in KOA patients. 30 Similarly, a systematic review of 56 high- 
+quality randomized controlled trials involving 5350 KOA patients pro- 
+vided strong evidence for the safety and eﬃcacy of Chinese herbal 
+medicine. 31 Traditional herbal medicine has been used in various forms 
+in the treatment of KOA. 32 , 33 Traditional herbal medicines, includ- 
+ing those used in Vietnam, often target speciﬁc symptoms and mech- 
+anisms of disease. For example, TD0015, derived from the DJD for- 
+mula, is believed to exert its therapeutic eﬀects through analgesic, anti- 
+inﬂammatory, and blood circulation-promoting properties. 15-17 The in- 
+creasing global interest in traditional medicine, particularly in Asia, re- 
+ﬂects its potential to provide safe and eﬀective treatments for chronic 
+conditions like KOA. 
+This study has several limitations. Firstly, the relatively short follow- 
+up period of 90 days limits our ability to assess long-term eﬃcacy and 
+safety. Secondly, the sample size was relatively small with a dropout rate 
+of 16 %, which may have impacted the statistical power of the study. 
+Therefore, the ﬁndings should be interpreted with caution. A larger, 
+longer-term phase III trial is needed to conﬁrm the beneﬁts of TD0015. 
+Finally, the primary and secondary outcomes were primarily patient- 
+reported, which may be subject to bias. However, these measures are 
+6
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+widely used in KOA research and repeated assessments over time can 
+mitigate potential bias. 7 , 8 , 31 
+In conclusion, this trial phase-II randomized controlled trial demon- 
+strated the safety and eﬃcacy of TD0015, a Vietnamese herbal medicine, 
+in managing KOA. Both TD0015 treatment groups showed signiﬁ- 
+cant improvements in pain, stiﬀness, and physical function compared 
+to placebo. The higher-dose TD0015 group exhibited slightly greater 
+improvements in several outcomes. Importantly, TD0015 was well- 
+tolerated, with a favorable safety proﬁle. While these ﬁndings are 
+promising, further larger-scale, long-term studies are needed to conﬁrm 
+the long-term eﬃcacy and safety of TD0015. Additionally, further stud- 
+ies, including mechanistic investigations, are required to elucidate the 
+underlying mechanisms of action of this herbal formulation and to eval- 
+uate its potential as a disease-modifying osteoarthritis drug. 
+CRediT author statement 
+Conceptualization: NTTH, DTN, HTVN, TTL, NTBH. Methodology: 
+NTTH, DTN, NLV, HTVN, TTL, NTBH, NTH, NKN. Formal Analysis: NLV. 
+Investigation: NTTH, DTN. Data Curation: HTVN, TTL, NTBH, NTH, 
+NKN. Writing - Original Draft: NTTH, DTN. Writing - Review & Edit- 
+ing: NLV, HTVN, TTL, NTBH, NTH, NKN. Project Administration: HTVN, 
+TTL. 
+Acknowledgements 
+We acknowledge all the patients who participated in this study and 
+the medical staﬀwho looked helped in their management at the National 
+Hospital of Traditional Medicine (Hanoi, Vietnam). 
+Declaration of competing interest 
+All authors conﬁrm that they have no conﬂict of interest to declare. 
+Funding 
+This work was funded by the Sunstar Joint Stock Company (Sao Thai 
+Duong JSC, Hanoi, Vietnam). The funding body had no role in the design 
+of the study, collection, analysis, and interpretation of data, and writing 
+the manuscript. 
+Ethical statement 
+Ethical approval was obtained from the Ministry of Health ethics 
+committee (No. 107/CN–HDDD, dated 19 July 2021). Written informed 
+consent was obtained from all participants. The trial adhered to the Dec- 
+laration of Helsinki and Good Clinical Practice guidelines and was reg- 
+istered at ClinicalTrials.gov (NCT06657495). 
+Data availability 
+The data that support the ﬁndings of this study are available from 
+the corresponding author upon reasonable request. 
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.imr.2025.101143 . 
+Table S1. Percentage change of the eﬃcacy endpoints by treatment 
+groups after imputation using the last observation carried forward 
+method. 
+Table S2. Mean diﬀerences of the eﬃcacy endpoints between treat- 
+ment groups after imputation using the last observation carried forward 
+method. 
+Table S3. Follow-up status, use of study drugs and rescue drugs, and 
+adverse events. 
+Table S4. Percentage change of routine laboratory tests after treatments. 
+Figure S1. Routine laboratory tests before and after treatments. 
+Supplement 1. CONSORT 2010 reporting checklist. 
+Supplement 2. Composition of herbal mixture in a TD0015 pill. 
+References 
+1. Herrero-Beaumont G, Pérez-Baos S, Sánchez-Pernaute O, Roman-Blas JA, Lamue- 
+dra A, Largo R. Targeting chronic innate inﬂammatory pathways, the main road to 
+prevention of osteoarthritis progression. Biochem Pharmacol . 2019;165:24–32 . 
+2. Dulay GS, Cooper C, Dennison EM. Knee pain, knee injury, knee osteoarthritis & work. 
+Best Pract Res Clin Rheumatol . 2015;29(3):454–461 . 
+3. Hunter DJ, Bierma-Zeinstra S. Osteoarthritis. Lancet . 2019;393(10182):1745–1759 . 
+4. Vos T, Flaxman AD, Naghavi M, Lozano R, Michaud C, Ezzati M, et al. Years lived 
+with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990-2010: 
+a systematic analysis for the Global Burden of Disease Study 2010. Lancet . 
+2012;380(9859):2163–2196 . 
+5. GBD 2019 Diseases and Injuries CollaboratorsGlobal burden of 369 diseases and in- 
+juries in 204 countries and territories, 1990-2019: a systematic analysis for the Global 
+Burden of Disease Study. Lancet 2020 . 2019;396(10258):1204–1222 . 
+6. Liu-Bryan R, Terkeltaub R. Emerging regulators of the inﬂammatory process in os- 
+teoarthritis. Nat Rev Rheumatol . 2015;11(1):35–44 . 
+7. da Costa BR, Pereira TV, Saadat P, Rudnicki M, Iskander SM, Bodmer NS, et al. Ef- 
+fectiveness and safety of non-steroidal anti-inﬂammatory drugs and opioid treatment 
+for knee and hip osteoarthritis: network meta-analysis. Bmj . 2021;375:n2321 . 
+8. Leopoldino AO, Machado GC, Ferreira PH, Pinheiro MB, Day R, McLachlan AJ, et al. 
+Paracetamol versus placebo for knee and hip osteoarthritis. Cochrane Database Syst 
+Rev . 2019;2(2):Cd013273 . 
+9. Guermazi A, Neogi T, Katz JN, Kwoh CK, Conaghan PG, Felson DT, et al. Intra-artic- 
+ular corticosteroid injections for the treatment of hip and knee osteoarthritis-related 
+pain: considerations and controversies with a focus on imaging-radiology scientiﬁc 
+expert panel. Radiology . 2020;297(3):503–512 . 
+10. Cameron M, Chrubasik S. Oral herbal therapies for treating osteoarthritis. Cochrane 
+Database Syst Rev . 2014;2014(5):Cd002947 . 
+11. Cameron M, Gagnier JJ, Little CV, Parsons TJ, Blümle A, Chrubasik S. Evidence of 
+eﬀectiveness of herbal medicinal products in the treatment of arthritis. Part I: os- 
+teoarthritis. Phytother Res . 2009;23(11):1497–1515 . 
+12. Wang A, Leong DJ, Cardoso L, Sun HB. Nutraceuticals and osteoarthritis pain. Phar- 
+macol Ther . 2018;187:167–179 . 
+13. Zhang W, Wang S, Zhang R, Zhang Y, Li X, Lin Y, et al. Evidence of Chinese herbal 
+medicine Duhuo Jisheng decoction for knee osteoarthritis: a systematic review of 
+randomised clinical trials. BMJ Open . 2016;6(1):e008973 . 
+14. Hou PW, Fu PK, Hsu HC, Hsieh CL. Traditional Chinese medicine in patients with 
+osteoarthritis of the knee. J Tradit Complement Med . 2015;5(4):182–196 . 
+15. Ha NTT, Huong NTTG. Eﬀect of TD0015 on knee osteoarthritis treatment on experi- 
+mental models. Med Res J [Vietnamese] . 2018;113(4):1–9 . 
+16. Ha NTT, Trang TQ, Anh PTV, Lien NTH. Analgesic activity of TD0015 on experimental 
+models. Med Res J [Vietnamese] . 2022;157(9):90–97 . 
+17. Ha NTT, Trang TQ, Anh PTV, Lien NTH. Anti-inﬂammatory eﬀect of TD0015 in ex- 
+perimental animals. Med Res J [Vietnamese] . 2022;157(9):82–89 . 
+18. Altman RD. Criteria for classiﬁcation of clinical osteoarthritis. J Rheumatol Suppl . 
+1991;27:10–12 . 
+19. Kohn MD, Sassoon AA, Fernando ND. Classiﬁcations in brief: kellgren-Lawrence clas- 
+siﬁcation of osteoarthritis. Clin Orthop Relat Res . 2016;474(8):1886–1893 . 
+20. Schiphof D, Boers M, Bierma-Zeinstra SM. Diﬀerences in descriptions of Kellgren and 
+Lawrence grades of knee osteoarthritis. Ann Rheum Dis . 2008;67(7):1034–1036 . 
+21. Bellamy N, Buchanan WW, Goldsmith CH, Campbell J, Stitt LW. Validation study 
+of WOMAC: a health status instrument for measuring clinically important patient 
+relevant outcomes to antirheumatic drug therapy in patients with osteoarthritis of 
+the hip or knee. J Rheumatol . 1988;15(12):1833–1840 . 
+22. Lequesne MG. The algofunctional indices for hip and knee osteoarthritis. J Rheumatol . 
+1997;24(4):779–781 . 
+23. Wang X, Wei S, Liu T, Pang J, Gao N, Ding D, et al. Eﬀectiveness, medication pat- 
+terns, and adverse events of traditional chinese herbal patches for osteoarthritis: a 
+systematic review. Evid Based Complement Alternat Med . 2014:343176 2014 . 
+24. Ma Y, Cui J, Huang M, Meng K, Zhao Y. Eﬀects of Duhuojisheng Tang and combined 
+therapies on prolapse of lumbar intervertebral disc: a systematic review of random- 
+ized control trails. J Tradit Chin Med . 2013;33(2):145–155 . 
+25. Wu G, Chen W, Fan H, Zheng C, Chu J, Lin R, et al. Duhuo Jisheng decoction promotes 
+chondrocyte proliferation through accelerated G1/S transition in osteoarthritis. Int J 
+Mol Med . 2013;32(5):1001–1010 . 
+26. Wu G, Fan H, Huang Y, Zheng C, Ye J, Liu X. Duhuo Jisheng decoction ‑containing 
+serum promotes proliferation of interleukin ‑1 𝛽‑induced chondrocytes through the 
+p16 ‑cyclin D1/CDK4 ‑Rb pathway. Mol Med Rep . 2014;10(5):2525–2534 . 
+27. Liu F, Liu G, Liang W, Ye H, Weng X, Lin P, et al. Duhuo Jisheng decoction treat- 
+ment inhibits the sodium nitroprussiate ‑induced apoptosis of chondrocytes through 
+the mitochondrial ‑dependent signaling pathway. Int J Mol Med . 2014;34(6):1573–
+1580 . 
+28. Chen CW, Sun J, Li YM, Shen PA, Chen YQ. Action mechanisms of du-huo-ji-sheng–
+tang on cartilage degradation in a rabbit model of osteoarthritis. Evid Based Comple- 
+ment Alternat Med . 2011;2011:571479 . 
+7
+
+
+N.T.T. Ha, D.T. Nghia, H.T.V. Nga et al.
+Integrative Medicine Research 14 (2025) 101143
+29. Wang X, He Y, Guo B, Tsang MC, Tu F, Dai Y, et al. In vivo screening for anti-os- 
+teoporotic fraction from extract of herbal formula Xianlinggubao in ovariectomized 
+mice. PLoS One . 2015;10(2):e0118184 . 
+30. Chen B, Zhan H, Marszalek J, Chung M, Lin X, Zhang M, et al. Traditional Chinese 
+medications for knee osteoarthritis pain: a meta-analysis of randomized controlled 
+trials. Am J Chin Med . 2016;44(4):677–703 . 
+31. Lin Z, Zheng J, Chen M, Chen J, Lin J. The eﬃcacy and safety of Chinese 
+herbal medicine in the treatment of knee osteoarthritis: an updated systematic re- 
+view and meta-analysis of 56 randomized controlled trials. Oxid Med Cell Longev . 
+2022;2022:6887988 . 
+32. Lao L, Hochberg M, Lee DYW, Gilpin AMK, Fong HHS, Langenberg P, et al. 
+Huo-Luo-Xiao-Ling (HLXL)-Dan, a Traditional Chinese medicine, for patients 
+with osteoarthritis of the knee: a multi-site, randomized, double-blind, place- 
+bo-controlled phase II clinical trial. Osteoarthritis Cartilage . 2015;23(12):2102–
+2108 . 
+33. Chen R, Chen M, Su T, Zhou M, Sun J, Xiong J, et al. Heat-sensi- 
+tive moxibustion in patients with osteoarthritis of the knee: a three-armed 
+multicentre randomised active control trial. Acupunct Med . 2015;33(4):262–
+269 . 
+8

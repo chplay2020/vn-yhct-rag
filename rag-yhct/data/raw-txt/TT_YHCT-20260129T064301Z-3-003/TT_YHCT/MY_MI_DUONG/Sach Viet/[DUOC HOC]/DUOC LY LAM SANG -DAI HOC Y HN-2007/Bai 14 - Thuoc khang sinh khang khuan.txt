@@ -1,0 +1,1164 @@
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 14: thuốc kháng sinh kháng khuẩn
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Phát biểu được định nghĩa kháng sinh, tác dụng kìm khuẩn và diệt khuẩn
+2. Trình bày được cơ chế tác dụng, áp dụng điều trị và phân loại của nhóm β lactam
+3. Nêu được cơ chế tác dụng, áp dụng điều trị và độc tính của nhóm aminoglycosid
+4. Trình bày được cơ chế tác dụng, độc tính và áp dụng điều trị của kháng sinh nhóm
+cloramphenicol, tetracyclin, lincosamid & macrolid, quinolon - 5- nitro- imidazol,
+dẫn xuất nitrofuran và sulfamid.
+5. Trình bày được những nguyên tắc sử dụng kháng sinh an toàn và hợp lý
+6. Phân tích được những nguyên nhân gây thất bại trong việc dùng kháng sinh và cách
+khắc phục
+1. Đại cương
+1.1. Định nghĩa
+Kỷ nguyên hiện đại của hóa trị liệu kháng  khuẩn được bắt đầu từ việc tìm ra sulfonamid
+(Domagk, 1936), "Thời kỵ vàng son" của kháng sinh bắt đầu từ khi sản xuất penicilin để dùng
+trong lâm sàng (1941). Khi đó, "kháng sinh được coi là những chất do vi sinh vật tiết ra (vi
+khuẩn, vi nấm), có khả năng kìm hãm sự phát triển của vi sinh vật khác".
+Về sau, với sự phát triển của khoa học, người ta đã
+- Có thể tổng hợp, bán tổng hợp các kháng sinh tự nhiên (cloramphenicol)
+- Tổng hợp nhân tạo các chất có tính kháng sinh: sulfamid, quinolon
+- Chiết xuất từ vi sinh vật những chất diệt được tế bào ung thư (actinomycin)
+Vì thế định nghĩa kháng sinh đã được thay đổi: "Kháng sinh là những chất do vi sinh vật tiết ra
+hoặc những chất hóa học bán tổng hợp, tổng hợp, với nồng độ rất thấp, có khả năng đặc hiệu kìm
+hãm sự phát triển hoặc diệt được vi khuẩn"
+1.2. Cơ chế tác dụng của kháng sinh
+Sơ đồ dưới đây chỉ rõ vị trí và cơ chế tác dụng chính của các kháng sinh trên vi khuẩn:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Hình 14.2. Các kháng sinh ức chế quá trình tổng hợp protei
+1. ức chế tạo cầu peptid (Cloramphenicol)
+2. Ngăn cản chuyển động chuyển đoạn của ribosom theo ARN m (Erythromycin)
+3. Ngăn cản sự gắn kết của ARN t vào phức hợp ribosom ARN m (Tetracyclin)
+4. Làm thay đổi hình dạng 30S mã hóa trên ARN m nên đọc nhầm (Streptomycin)
+Hình 14.3. Vị trí tác dụng của kháng sinh ức chế tổng hợp protein
+1.3. Phổ kháng khuẩn
+Do kháng sinh có tác dụng theo cơ chế đặc hiệu nên mỗi kháng sinh chỉ có tác dụng trên một số
+chủng vi khuẩn nhất định, gọi là phổ kháng khuẩn của kháng sinh
+1.4.
+Tác dụng trên vi khuẩn
+Kháng sinh ức chế sự phát triển của vi khuẩn, gọi là kháng sinh kìm khuẩn; kháng sinh huỷ hoại
+vĩnh viễn được vi khuẩn gọi là kháng sinh diệt khuẩn. Tác dụng kìm khuẩn và diệt khuẩn thường
+phụ thuộc vào nồng độ
+    Nồng độ diệt khuẩn tối thiểu (MBC)
+Tỷ lệ
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+    Nồng độ kìm khuẩn tối thiểu (MIC)
+Khi tỷ lệ > 4, kháng sinh có tác dụng kìm khuẩn. Khỉ tỷ lệ gần bằng1, kháng sinh được
+xếp vào loại diệt khuẩn.
+1.5. Phân loại
+Các kháng sinh được phân loại theo cấu trúc hóa học, từ đó chúng có chung một cơ chế tá c dụng
+và phổ kháng khuẩn tương tự. Mặt khác, trong cùng một họ kháng sinh, tính chất dược động học
+và sự dung nạp thường khác nhau, và đặc điểm về phổ kháng khuẩn cũng không hoàn toàn giống
+nhau, vì vậy cũng cần phân biệt các kháng sinh trong cùng một họ
+Một số họ (hoặc nhóm) kháng sinh chính:
+- Nhóm  lactam (các penicilin và các cephalosporin)
+- Nhóm aminosid hay aminoglycosid
+- Nhóm cloramphenicol
+- Nhóm tetracyclin
+- Nhóm macrolid và lincosamid
+- Nhóm quinolon
+- Nhóm 5- nitro- imidazol
+- Nhóm sulfonamid
+2. Các kháng sinh chính
+2.1. Nhóm  lactam
+Về cấu trúc đều có vòng  lactam (H  )
+Về cơ chế đều gắn với transpeptidase (hay PBP: Penicilin Binding Protein), enzym xúc tác cho sự
+nối peptidoglycan để tạo vách vi khuẩn. Vách vi khuẩn là bộ phận rất qua n trọng để đảm bảo sự
+tồn tại và phát triển. Thành phần đảm bảo cho tính bền vững cơ học của vách là mạng lưới
+peptidoglycan, gồm các chuỗi glycan nối chéo với nhau bằng chuỗi peptid. Khoảng 30 enzym
+của vi khuẩn tham gia tổng hợp peptidoglycan, trong đó c ó transpeptidase (hay PBP). Các 
+lactam và kháng sinh loại glycopeptid (như vancomycin) tạo phức bền vững với transpeptidase,
+ức chế tạo vách vi khuẩn, làm ly giải hoặc biến dạng vi khuẩn. Vách vi khuẩn gram (+) có mạng
+lưới peptidoglycan dầy từ 50- 100 phân tử, lại ở ngay bề mặt tế bào nên dễ bị tấn công. Còn ở vi
+khuẩn gram (-) vách chỉ dầy 1- 2 phân tử  nhưng lại được che phủ ở lớp ngoài cùng một vỏ bọc
+lipopolysaccharid như 1 hàng rào không thấm kháng sinh, muốn có tác dụng, kháng sinh phải
+khuếch tán được qua ống dẫn (pores) của màng ngoài như amoxicilin, một số cephalosporin.
+Do vách tế bào của động vật đa bào có cấu trúc khác vách vi khuẩn nên không chịu tác động của
+β lactam (thuốc hầu như không độc). Tuy nhiên vòng β lactam rất dễ gây dị ứng.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Các kháng sinh  lactam được chia thành 4 nhóm dựa theo cấu trúc hóa học
+- Các penam: vòng A có 5 cạnh bão hòa, gồm các penicilin và các chất phong tỏa β lactamase.
+- Các cephem: vòng A có 6 cạnh không bão hòa, gồm các cephalosporin.
+- Các penem: vòng A có 5 cạnh không bão hòa, gồm các imipenem, ertapenem.
+- Các monobactam: không có vòng A, là kháng sinh có thể tổng hợp như aztreonam.
+Penam
+        Cephem
+(vòng A có 5 cạnh
+(Vòng A có 6 cạnh,
+bão hòa)
+không bão hòa)
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+2.1.1.1. Penicilin G
+Là nhóm thuốc tiêu biểu, được tìm ra đầu tiên.
+* Nguồn gốc và đặc tính lý hóa
+Trong sản xuất công nghiệp, lấy từ Penicillium notatum, 1 mL môi trường nuối cấy cho 300 UI; 1
+đơn vị quốc tế (UI)= 0,6 g Na benzylpenicilin hay 1.000.000 UI = 0,6g. Penicilin G là dạn g bột
+trắng, vững bền ở nhiệt độ thường, nhưng ở dung dịch nước, phải bảo quản lạnh và chỉ vững bền
+ở pH 6- 6,5, mất tác dụng nhanh ở pH < 5 và > 7,5
+* Phổ kháng khuẩn
+- Cầu khuẩn Gr (+); liên cầu (nhất là loại  tan huyết), phế cầu và tụ cầu không sản xuấ t
+penicilinase.
+- Cầu khuẩn Gr (-): lậu cầu, màng não cầu
+- Trực khuẩn Gr (+) ái khí (than, subtilis, bạch cầu) và yếm khí (clostridium hoại thư sinh hơi)
+- Xoắn khuẩn, đặc biệt là xoắn khuẩn giang mai (treponema pallidum)
+* Dược động học
+- Hấp thu: bị dịch vị phá huỷ nên không uống được. Tiêm bắp, nồng độ tối đa đạt được sau 15 - 30
+phút, nhưng giảm nhanh (cần tiêm 4h/ lần). Tiêm bắp 500.000 UI, pic huyết thanh 10 UI/ mL.
+- Phân phối: gắn vào protein huyết tương 40 - 60%. Khó thấm vào xương và não. Khi màng  não
+viêm, nồng độ trong dịch não tuỷ bằng 1/ 10 huyết tương. Trên người bình thường, t/2 là khoảng
+30 - 60 phút.
+- Thải trừ: chủ yếu qua thận dưới dạng không hoạt tính 60 - 70%, phần còn lại vẫn còn hoạt tính.
+Trong giờ đầu, 60- 90% thải trừ qua nước tiểu, trong đó 90% qua bài xuất ở ống thận (một số
+acid  hữu cơ như probenecid ức chế quá trình này, làm chậm thải trừ penicilin)
+* Độc tính
+Penicilin rất ít độc, nhưng so với thuốc khác, tỷ lệ gây dị ứng khá cao (1 - 10%), từ phản ứng rất
+nhẹ đến tử vong do choáng phản vệ. Có dị ứng chéo với mọi  lactam và cephalosporin.
+*  Chế phẩm, liều lượng
+- Penicilin G lọ bột, pha ra dùng ngay. Liều lượng tuỵ theo tình trạng nhiễm khuẩn, từ 1 triệu đến
+50 triệu UI/ 24h chia 4 lần, tiêm bắp hoặc truyền tĩnh mạch (pH dịch t ruyền 6- 7). Trẻ em trung
+bình cho 100.000 UI/ kg/ 24 h
+- Penicilin có phổ G, tác dụng kéo dài: kết hợp với các muối ít tan và chậm hấp thu sĩ kéo dài
+được tác dụng của penicilin G:
+. Bipenicilin (natri benzylpenicilinat + procain benzylpenicilinat): mỗi n gày tiêm 1 lần, không
+dùng cho trẻ em.
+. Extencilin (benzathin penicilin): tiêm bắp 1 lần, tác dụng kéo dài 3 - 4 tuần. Dùng điều trị lậu,
+giang mai và dự phòng thấp khớp cấp tái nhiễm - lọ 600.000, 1.000.000 và 2.400.000 UI
+- Penicilin có phổ G, uống được
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Penicilin V (Oracilin, Ospen): không bị dịch vị phá hủy, hấp thu ở tá tràng, nhưng phải dùng liều
+gấp đôi penicilin G mới đạt được nồng độ huyết thanh tương tự. Cách 6h/ lần.
+2.1.1.2. Penicilin kháng penicilinase: Methicilin
+Là penicilin bán tổng hợp
+Phổ kháng khuẩn và thời gian tác dụng tương tự penicilin G, nhưng cường độ tác dụng thì yếu
+hơn. Tiêm bắp hoặc tĩnh mạch 2- 8 g/ 24h chia làm 4 lần. Không uống dược
+Một số thuốc khác vững bền với dịch vị, uống được: oxacilin (Bristopen), cloxacilin (Orbenin):
+uống  2- 8g một ngày chia làm 4 lần
+Chỉ định tốt trong nhiễm tụ cầu sản xuất penicilinase (tụ cầu vàng)
+Có thể gặp viêm thận kĩ, ức chế tủy xương ở liều cao
+2.1.1.3. Penicilin có phổ rộng
+Ampicilin, amoxicilin
+Là penicilin bán tổng hợp, amino- benzyl penicilin có một số đặc điểm:
+- Trên các khuẩn Gr (+) tác dụng như penicilin G, nhưng có thêm tác dụng trên một số khuẩn
+gram (-): E. coli, salmonella, Shigella, proteus, hemophilus influenzae
+- Bị penicilinase phá huỷ
+- Không bị dịch vị phá hủy, uống được nhưng  hấp thu không hoàn toàn (khoảng 40%). Hiện có
+nhiều thuốc trong nhóm này có tỷ lệ hấp thu qua đường uống cao (như amoxicilin tới 90%) nên
+nhiều nước đã không còn dùng ampicilin nữa
+- Liều lượng: Amoxicilin (clamoxyl, Oramox)
+Uống: 2- 4 g/ ngày. Trẻ em 50 mg/ kg/ ngày. Chia 4 lần
+- Chỉ định chính: viêm màng não mủ, thương hàn, nhiễm khuẩn đường mật, tiết niệu, nhiễm
+khuẩn sơ sinh.
+2.1.1.4. Các penicilin kháng trực khuẩn mủ xanh: Carboxypenicilin và ureidopenicilin.
+Là nhóm  kháng sinh quan trọng được dùng điều trị các nhiễm khuẩn nặng do trực khuẩn gram ( -
+) như trực khuẩn mủ xanh, Proteus, Enterobacter, vi khuẩn kháng penicilin và ampicilin. Thường
+là nhiễm khuẩn mắc phải tại bệnh viện, nhiễm khuẩn sau bỏng, nhiễm khuẩn tiết niệu, viêm phổi.
+Các kháng sinh này đều là bán tổng hợp và vẫn bị penicilinase phá huỷ.
+- Carbenicilin, ticarcilin: uống 2- 20g/ ngày.
+- Ureidopenicilin:
+. Mezlocilin: 5- 15g/ ngày. Tiêm bắp, truyền tĩnh mạch.
+. Piperacilin: 4- 18g/ ngày. Tiêm bắp, truyền tĩnh mạch.
+2.1.2. Các cephalosporin
+Được chiết xuất từ nấm cephalosporin hoặc bán tổng hợp, đều là dẫn xuất của acid amino - 7-
+cephalosporanic, có mang vòng  lactam. Tuỵ theo tác dụng kháng khuẩn, chia thành 4 "thế hệ"
+2.1.2.1. Cephalosporin thế hệ 1:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Có phổ kháng khuẩn gần với meticilin và penicilin A. Tác dụng tốt trên cầu khuẩn và trực khuẩn
+gram (+), kháng được penicilinase của tụ cầu.
+Có tác dụng trên một số trực khuẩn gram ( -), trong đó có các trực khuẩn đường ruột như
+Salmonella, Shigella.
+Bị cephalosporinase ( lactamase) phá huỷ.
+Chỉ định chính: sốc nhiễm khuẩn, nhiễm khuẩn huyết do tụ cầu, nhiễm khuẩn kháng penicilin.
+Các chế phẩm dùng theo đường tiêm (bắp hoặc tĩnh mạch) có: cefalotin (Kezlin), cefazolin
+(Kefzol), liều 2- 8g/ ngày
+Theo đường uống có cefalexin (Keforal), cefaclor (Alfatil), liều 2g/ngày.
+Để khắc phục 2 nhược điểm: ít tác dụng trên vi khuẩn gram ( -) và vẫn còn bị cephalosporinase
+phá, các thế hệ cephalosporin tiếp theo đã và đang được nghiên cứu sản xuất.
+2.1.2.2. Cephalosporin thế hệ 2:
+Hoạt tính kháng khuẩn trên gram (-) đã tăng, nhưng còn kém thế hệ 3. Kháng được
+cephalosporinase. Sự dung nạp thuốc cũng tốt hơn.
+Chế phẩm tiêm: cefamandole (Kefandol), cefuroxim (Curoxim) liều 3 - 6 g/ ngày.
+Chế phẩm uống: cefuroxim acetyl (Zinnat) 250 mg  2 lần/ ngày.
+2.1.2.3. Cephalosporin thế hệ 3
+Tác dụng trên cầu khuẩn gram (+) kém thế hệ 1, nhưng tác dụng trên các khuẩn gram ( -), nhất là
+trực khuẩn đường ruột, kể cả chủng tiết  lactamase thì mạnh hơn nhiều.
+Cho tới nay, các thuốc nhóm này hầu hết đều là dạng tiêm:
+Cefotaxim (Claforan), ceftizoxim (Cefizox), ceftriaxon (Rocephin), liều từ 1 đến 6g/ngày, chia 3 -
+4 lần tiêm.
+2.1.2.4. Cephalosporin thế hệ 4.
+Phổ kháng khuẩn rộng và vững bền với  lactamase hơn thế hệ 3, đặc biệt dùng chỉ định trong
+nhiễm trực khuẩn gram (-) hiếu khí đã kháng với thế hệ 3.
+Chế phẩm: cefepim, tiêm t/ m 2g  2 lần/ ngày.
+2.1.3. Các chất ức chế  lactamase (cấu trúc Penam)
+Là những chất có tác dụng kháng sinh yếu, nhưng gắn không hồi phục với  lactamase và có ái
+lực với  lactam, cho nên khi phối hợp với kháng sinh nhóm  lactam sĩ làm vững bền và tăng
+cường hoạt tính kháng khuẩn của kháng sinh này. Hiện có các chế phẩm sau:
+Chất (-)  lactamase
+Kháng sinh phối hợp
+Biệt dược
+Acid clavulinic
+Amoxicilin
+- Augmentin: viên nén 250, 500
+mg, lọ 500 mg, 1g tiêm tĩnh mạch
+- Timentin
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Ticarcilin
+Sulbactam
+Ampicilin
+Unasyn: viên nén 220 mg
+ống tiêm 500- 1000 mg
+Tazobactam
+Piperacilin
+Zosyn
+2.1.4. Các penem
+Imipenem
+Thuộc nhóm carbapenem, trong công thức vòng A thay S bằng C.
+Phổ kháng khuẩn rất rộng, gồm các khuẩn ái khí và kỹ khí: liên cầu, tụ cầu (kể cả chủng tiết
+penicilinase), cầu khuẩn ruột (enterococci), pseudomonas.
+Được dùng trong nhiễm khuẩn sinh dục - tiết niệu, đường hô hấp dưới, mô mềm, xương - khớp,
+nhiễm khuẩn bệnh viện.
+Không hấp thu qua đường uống. Chỉ tiêm tĩnh mạch liều 1 - 2g/ ngày.
+Ertapenem
+Phổ kháng khuẩn như imipenem, nhưng mạnh hơn trên gram ( -). Tiêm bắp hoặc truyền tĩnh mạch
+1g/ ngày.
+2.1.5. Monobactam Aztreonam
+Kém tác dụng trên khuẩn gram (+) và kỹ khí. Trái lại, tác dụng mạnh  trên khuẩn gram (-), tương
+tự cephalosporin thế hệ 3 hoặc aminoglycosid. Kháng  lactamase.
+Không tác dụng theo đường uống. Dung nạp tốt, có thể dùng cho bệnh nhân dị ứng với penicilin
+hoặc cephalosporin.
+Tiêm bắp 1- 4 g/ ngày. Trường hợp nặng, tiêm tĩnh mạch 2g, cách 6- 8 giờ/ lần.
+2.1.6. Thuốc khác cũng ức chế tổng hợp vách vi khuẩn: Vancomycin
+Kháng sinh có nguồn gốc từ Streptococcus orientalis.
+Cơ chế tác dụng: ức chế transglycosylase nên ngăn cản kéo dài và tạo lưới peptidoglycan. Vi
+khuẩn không tạo được vách nên bị ly giải.  Vancomycin là kháng sinh diệt khuẩn.
+Tác dụng: chỉ diệt khuẩn gram (+): phần lớn các tụ cầu gây bệnh, kể cả tụ cầu tiết  lactamase và
+kháng methicilin. Hiệp đồng với gentamycin và streptomycin trên enterococcus.
+Động học: được hấp thu rất ít qua đường tiêu hóa nên chỉ được dùng điều trị viêm ruột kết giả
+mạc cùng với tetracyclin, clindamycin. Tiêm truyền tĩnh mạch, gắn với protein huyết tương
+khoảng 55%, thấm vào dịch não tuỷ 7 - 30% nếu có viêm màng não, trên 90% thải qua lọc cầu
+thận (khi có viêm thận phải giảm liều). Thời gian bán thải khoảng 6 h.
+Chỉ định chính: viêm màng trong tim do tụ cầu kháng methicilin, cho bệnh nhân có dị ứng
+penicilin. Liều lượng 1g   2 lần/ ngày.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Tác dụng không mong muốn: chỉ khoảng 10% và nhẹ. Thường gặp là kích ứng viêm tĩnh mạch tại
+chỗ tiêm truyền, rét run, sốt, độc với dây VIII. Nồng độ truyền nên giữ từ 5 - 15 g/ mL (dưới 60
+g/ mL) thì tránh được tác dụng phụ.
+Chế phẩm: Vancomycin (Vancocin, Vancoled): lọ bột đông khô để pha dịch tiêm truyền 500 mg
+và 1,0g.
+2.2. Nhóm aminosid hay aminoglycosid
+Đều lấy từ nấm, cấu trúc hóa học đều mang đường (ose) và có chức amin nên có tên aminosid.
+Một số là bán tổng hợp.
+Có 4 đặc tính chung cho cả nhóm:
+- Hầu như không hấp thu qua đường tiêu hóa vì có P M cao.
+- Cùng một cơ chế tác dụng
+- Phổ kháng khuẩn rộng. Dùng chủ yếu để chống khuẩn hiếu khí gram ( -).
+- Độc tính chọn lọc với dây thần kinh VIII và với thận (tăng creatinin máu, protein - niệu. Thường
+phục hồi)
+Thuốc tiêu biểu trong nhóm này là streptomycin. Ngoài ra còn: Neomycin, kanamycin, amikacin,
+gentamycin, tobramycin.
+2.2.1. Streptomycin
+2.2.1.1. Nguồn gốc và đặc tính
+Lấy từ nấm streptomyces griseus (1944). Thường dùng dưới dạng muối dễ tan, vững bền ở nhiệt
+độ dưới 250C và pH = 3- 7.
+2.2.1.2. Cơ chế tác dụng và phổ kháng khuẩn
+Sau khi nhập vào vi khuẩn, streptomycin gắn vào tiểu phần 30 s của ribosom, làm vi khuẩn đọc
+sai mã thông tin ARN m, tổng hợp protein bị gián đoạn. Có tác dụng diệt khuẩn trên các vi khuẩn
+phân chia nhanh, ở ngoài tế bào hơn là trên  vi khuẩn phân chia chậm. pH tối ưu là 7,8 (cho nên
+cần alcali (kiềm) hóa nước tiểu nếu điều trị nhiễm khuẩn tiết niệu)
+Phổ kháng khuẩn rộng, gồm:
+- Khuẩn gram (+): tụ cầu, phế cầu, liên cầu (có tác dụng hiệp đồng với kháng sinh nhóm 
+lactam)
+- Khuẩn gram (-): Salmonella, Shigella, Haemophilus, Brucella.
+- Xoắn khuẩn giang mai
+- Là kháng sinh hàng đầu chống trực khuẩn lao (BK)
+Vi khuẩn kháng streptomycin: khuẩn kỹ khí, trực khuẩn mủ xanh và một số nấm bệnh.
+2.2.1.3. Dược động học
+- Hấp thu: uống, bị thải trừ hoàn toàn theo phân. Tiêm bắp, hấp thu chậm hơn penicilin, nhưng
+giữ được lâu hơn nên chỉ cần tiêm mỗi ngày 1 lần. Gắn vào protein huyết tương 30 - 40%.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Phân phối: do tan nhiều trong nước và bị ion hóa ở pH huyết tương, streptomycin khó thấm ra
+ngoài mạch. Gắn nhiều hơn vào thận, cơ, phổi, gan. Nồng độ trong máu thai nhi bằng 1/2 nồng
+độ huyết tương. ít thấm vào trong tế bào (không diệt được BK trong đại thực bào như isoniazid).
+Không qua được hàng rào máu não.
+- Thải trừ: khoảng 85- 90% liều tiêm bị thải trừ qua lọc cầu thận trong 24h.
+2.2.1.4. Độc tính
+- Dây VIII rất dễ bị tổn thương, nhất là khi điều trị kéo dài và có suy thận. Độc tính ở đoạn tiền
+đình thường nhẹ và ngừng thuốc sĩ khỏi, còn độc ở đoạn ốc tai có thể gây điếc vĩnh viễn kể cả
+ngừng thuốc. Dihydrostreptomycin có tỷ lệ độc cho ốc tai cao hơn nên không còn được dùng nữa.
+- Độc với thận và phản ứng quá mẫn ít gặp. Có thể thấy viêm da do tiếp xúc ở y tá (người tiêm
+thuốc).
+- Có tác dụng mềm cơ kiểu cura nên có thể gây ngừng hô hấp do liệt cơ hô hấp vì dùng
+streptomycin sau phẫu thuật có gây mê.
+Không dùng cho người nhược cơ và phụ nữ có thai.
+2.2.1.5. Cách dùng:
+Do độc tính nên chỉ giới hạn giành cho các nhiễm khuẩn sau:
+- Lao: phối hợp với 1 hoặc 2 kháng sinh khác (xem bài " thuốc chống lao")
+- Một số nhiễm khuẩn tiết niệu, dịch hạch, brucellose: phối hợp với tetracyclin
+- Nhiễm khuẩn huyết nặng do liên cầu: phối hợp với penicilin G.
+Lọ sulfat streptomycin 1g. Liều thông thường tiêm bắp 1g/ ngày. Trong điều trị lao, tổng liều
+không quá 80- 100g.
+2.2.2. Các aminosid khác
+- Kanamycin:
+Tác dụng, dược động học và độc tính tương tự như streptomycin. Thường dùng phối hợp (thuốc
+hàng 2) trong điều trị lao. Liều 1g/ ngày (xem bài" thuốc chống lao")
+- Gentamycin:
+Phổ kháng khuẩn rất rộng. Là thuốc được  chọn lựa cho nhiễm khuẩn bệnh viện do Enterococcus
+và Pseudomonas aeruginosa. Dùng phối hợp với penicilin trong sốt giảm bạch cầu và nhiễm trực
+khuẩn gram (-) như viêm nội tâm mạc, nhiễm khuẩn huyết, viêm tai ngoài ác tính.
+Gentamycin sulfat đóng trong ống 160, 80, 40 và 10 mg. Liều hàng ngày là 3 - 5 mg/ kg, chia 2- 3
+lần/ ngày, tiêm bắp.
+- Amikacin:
+Là thuốc có phổ kháng khuẩn rộng nhất trong nhóm và kháng được các enzym làm mất hoạt
+aminoglycosid nên có vai trò đặc biệt trong nhiễm khuẩn bệnh viện gram ( -) đã kháng với
+gentamycin và tobramycin.
+Liều lượng một ngày 15 mg/ kg tiêm bắp hoặc tĩnh mạch 1 lần, hoặc chia làm 2 lần.  ống 500 mg.
+- Neomycin:
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thường dùng dưới dạng thuốc bôi để điều trị nhiễm khuẩn da - niêm mạc trong bỏng, vết thương,
+vết loét và các bệnh ngoài da bội nhiễm. Dùng neomycin đơn độc hoặc phối hợp với polymyxin,
+bacitracin, kháng sinh khác hoặc corticoid.
+2.3. Cloramphenicol và dẫn xuất
+2.3.1. Nguồn gốc và tính chất lý hóa
+Phân lập từ nấm Streptomyces venezualae (1947) và ngay sau đó đã t ổng hợp được . Là bột trắng,
+rất đắng, ít tan trong nước, vững bền ở nhiệt độ thường và pH từ 2 - 9, vì thế có thể uống được.
+2.3.2. Cơ chế tác dụng và phổ kháng khuẩn
+Cloramphenicol có tác dụng kìm khuẩn, gắn vào tiểu phần 50s của ribosom nên ngăn cản ARN m
+gắn vào ribosom, đồng thời ức chế transferase nên acid amin được mã hóa không gắn được vào
+polypeptid.
+Cloramphenicol cũng ức chế tổng hợp protein của ty thể ở tế bào động vật có vú (vì ribosom của
+ty thể cũng là loại 70s như vi khuẩn), hồng cầu động vật có vú đặc biệt nhạy cảm với
+cloramphenicol.
+Phổ kháng khuẩn rất rộng: phần lớn các vi khuẩn Gram (+) và Gram ( -), xoắn khuẩn, tác dụng
+đặc hiệu trên thương hàn và phó thương hàn.
+2.3.3. Dược động học
+- Hấp thu: sau khi uống, nồng độ tối đa trong máu đạt được sau 2 giờ, t/ 2 từ 1,5- 3 giờ, khoảng
+60% gắn vào protein huyết tương.
+- Phân phối: thấm dễ dàng vào các mô, nhất là các hạch mạc treo, nồng độ đạt được cao hơn
+trong máu (rất tốt cho điều trị thương hàn). Thấm tốt vào dịch não tuỷ nhất là khi màng nã o bị
+viêm, có thể bằng nồng độ trong máu. Qua được rau thai.
+- Chuyển hóa: phần lớn bị mất hoạt tính do quá trình glycuro - hợp ở gan hoặc quá trình khử.
+- Thải trừ: chủ yếu qua thận, 90% dưới dạng chuyển hóa.
+2.3.4. Độc tính
+Hai độc tính rất nguy hiểm:
+- Suy tủy:
+. Loại phụ thuộc vào liều: khi liều cao quá 25 g/ mL có thể thấy sau 5- 7 ngày xuất hiện thiếu
+máu nặng, giảm mạnh hồng cầu lưới, bạch cầu, hồng cầu non. Liều uống 0,5g sĩ có pic huyết
+thanh 6- 10 g/ mL
+. Loại không phụ thuộc liều, thường do đặc  ứng: giảm huyết cầu toàn thể do suy tuỷ thực sự, tỷ lệ
+tử vong từ 50- 80% và tần xuất mắc từ 1: 150.000 đến 1: 6.000
+- Hội chứng xám (grey baby syndrome) gặp ở nhũ nhi sau khi dùng liều cao theo đường tiêm:
+nôn, đau bụng, tím tái, mất nước, người mềm nhũ n, trụy tim mạch và chết. Đó là do gan chưa
+trưởng thành, thuốc không được khử độc bằng quá trình glycuro - hợp và thận không thải trừ kịp
+cloramphenicol.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Ngoài ra, ở bệnh nhân thương hàn nặng, dùng ngay liều cao cloramphenicol, vi khuẩn chết giải
+phóng quá nhiều nội độc tố có thể gây trụy tim mạch và tử vong. Vì vậy, duy nhất trong trường
+hợp thương hàn nặng phải dùng từ liều thấp.
+2.3.5. Tương tác thuốc
+Cloramphenicol ức chế các enzym chuyển hóa thuốc ở gan nên kéo dài t/2 và làm tăng nồng độ
+huyết tương của phenytoin, tolbutamid, warfarin...
+2.3.6. Chế phẩm và cách dùng
+Vì có độc tính nặng nên phải cân nhắc trước khi dùng cloramphenicol. Chỉ dùng cloramphenicol
+khi không có thuốc tác dụng tương đương, kém độc hơn thay thế.
+- Thương hàn và nhiễm salmonella toàn thân trước đây là chỉ định tốt của cloramphenicol. Nay
+không dùng nữa và được thay bằng cephalosporin thế hệ 3 (ceftriaxon) hoặc fluoroquinolon.
+- Viêm màng não do trực khuẩn gram ( -) (H. influenzae) là chỉ định tốt vì cloramphenicol dễ
+thấm qua màng não. Cũng có thể thay bằng cephalosporin thế hệ 3.
+- Bệnh do xoắn khuẩn Rickettsia: Tetracyclin là chỉ định tốt nhất. Nhưng khi tetracyclin có chống
+chỉ định thì thay bằng cloramphenicol.
+Liều lượng: uống từ 25- 50 mg/ kg/ 24h. Chia làm 4- 6 lần. Không dùng cho người suy gan nặng.
+- Thiophenicol (thiamphenicol): chế phẩm tổng hợp, nhóm NO 2 trong cloramphenicol được thay
+bằng CH3 - SO2 - . Độc tính ít hơn, dễ dung nạp, nhưng tác dụng cũng kém hơn, vì vậy liều dùng
+gấp 2 lần cloramphenicol. Không dùng cho người suy thận nặng.
+2.4. Nhóm tetracyclin
+2.4.1. Nguồn gốc và tính chất lý hóa
+Đều là kháng sinh có 4 vòng 6 cạnh, lấy từ Streptomyces aureofaciens (clotetracyclin, 1947),
+hoặc bán tổng hợp. Là bột vàng, ít tan trong nước, tan trong base hoặc acid.
+2.4.2. Cơ chế tác dụng và phổ kháng khuẩn
+Các tetracyclin đều là kháng sinh kìm khuẩn, có phổ kháng khuẩn rộng nhất trong các kháng sinh
+hiện có. Các tetracyclin đều có phổ tương tự, trừ minocyclin: một số chủng đã kháng với
+tetracyclin khác có thể vẫn còn nhạy cảm với minocyclin.
+Tác dụng kìm khuẩn là do gắn trên tiểu phần 30s của ribosom  vi khuẩn, ngăn cản RNA t chuyển
+acid amin vào vị trí A trên phức hợp ARNm - riboxom để tạo chuỗi polypeptid. Tác dụng trên:
+. Cầu khuẩn gram (+) và gram (-): nhưng kém penicilin
+. Trực khuẩn gram (+) ái khí và yếm khí
+. Trực khuẩn gram (-), nhưng proteus và trực khuẩn mủ xanh rất ít nhạy cảm
+. Xoắn khuẩn (kém penicilin), rickettsia, amip, trichomonas...
+2.4.3. Chỉ định
+Do phổ kháng khuẩn rộng, tetracyclin được dùng bừa bãi, dễ gâ y kháng thuốc. Vì vậy chỉ nên
+dùng cho các bệnh gây ra do vi khuẩn trong tế bào vì tetracyclin rất dễ thấm vào đại thực bào.
+- Nhiễm rickettsia
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Nhiễm mycoplasma pneumoniae
+- Nhiễm chlamidia: bệnh Nicolas- Favre, viêm phổi, phế quản, viêm xoang, psittacos is, bệnh mắt
+hột.
+- Bệnh lây truyền qua đường tình dục
+- Nhiễm trực khuẩn: brucella, tularemia, bệnh tả, lỹ, E.coli.
+- Trứng cá: do tác dụng trên vi khuẩn propionibacteria khu trú trong nang tuyến bã và chuyển hóa
+lipid thành acid béo tự do gây kích ứng vi êm. Dùng liều thấp                    250  2lần/ ngày.
+2.4.4. Dược động học
+- Các tetracyclin khác nhau về tính chất dược động học, các dẫn xuất mới có đặc điểm hấp thu tốt
+hơn, thải trừ chậm hơn và do đó có thể giảm được liều dùng hoặc uống ít lần hơn.
+- Hấp thu qua tiêu hóa 60- 70%. Dễ tạo phức với sắt, calci, magnesi và casein trong thức ăn và
+giảm hấp thu. Nồng độ tối đa trong máu đạt được sau 2 - 4 giờ.
+- Phân phối: gắn vào protein huyết tương từ 30% (oxytetracyclin) đến 50% (tetracyclin) hoặc trên
+90% (doxycyclin). Thấm được vào dịch não tuỷ, rau thai, sữa nhưng ít. Đặc biệt là thấm được vào
+trong tế bào nên có tác dụng tốt trong điều trị các bệnh do brucella. Gắn mạnh vào hệ lưới nội mô
+của gan, lách, xương, răng. Nồng độ ở ruột cao gấp 5 - 10 lần nồng độ trong máu.
+- Thải trừ: qua gan (có chu kỵ gan - ruột) và thận, phần lớn dưới dạng còn hoạt tính. Thời gian
+bán thải là từ 8h (tetracyclin) đến 20h (doxycyclin)
+Bảng 14.1. Các tetracyclin thường dùng
+Tên thuốc
+Hấp thu theo
+đường uống
+(%)
+Độ thanh thải
+của thận (mL/
+phút)
+t/2
+Phân loại tác
+dụng
+Chlortetracycli
+n
+Oxytetracyclin
+Tetracyclin
+30
+60- 70
+-
+35
+90
+65
+6- 8h
+-
+-
+ Tác dụng
+ngắn
+-
+Demeclocyclin
+Methacyclin
+-
+-
+35
+31
+12h
+-
+Tác dụng
+ Trung bình
+Doxycyclin
+Minocyclin
+90- 100
+-
+16
+10
+16- 18h
+-
+Tác dụng dài
+2.4.5. Độc tính
+- Rối loạn tiêu hóa: buồn nôn, nôn, tiêu chảy, do thuốc kích ứng niêm mạc, nhưng thường là do
+loạn khuẩn
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Vàng răng trẻ em: tetracyclin lắng đọng vào răng trong thời kỵ đầu của sự vôi hóa (trong tử
+cung nếu người mẹ dùng thuốc sau 5 tháng có thai hoặc trẻ em dưới 8 tuổi)
+- Độc với gan thận: khi dùng liều cao, nhất là trên người có suy gan, thận, phụ nữ có thai có thể
+gặp vàng da gây thoái hóa mì, urê máu cao dẫn đến tử vong.
+- Các rối loạn ít gặp hơn: dị ứng, xuất huyết giảm tiểu  cầu, tăng áp lực nội sọ ở trẻ đang bú, nhức
+đầu, phù gai mắt...
+Vì vậy, phải thận trọng theo dõi khi sử dụng và tránh dùng:
+. Cho phụ nữ có mang
+. Cho trẻ em dưới 8 tuổi
+2.4.6. Chế phẩm, cách dùng
+Dù sao, tetracyclin vẫn là kháng sinh có phổ rộng, ít gâ y dị ứng, ít độc, đặc biệt là thấm được vào
+trong tế bào nên được dành cho điều trị bệnh do brucella, nhiễm khuẩn đường mật, mũi - họng,
+phổi.
+Một số dẫn xuất chính:
+- Tetracyclin: uống 1- 2 g/ ngày, chia 3- 4 lần. Viên 250- 500 mg; dịch treo 125 mg/ 5mL
+- Clotetracyclin (Aureomycin): uống, tiêm t/m 1- 2 g.
+- Oxytetracyclin (Terramycin): uống 1- 2 g; tiêm bắp, t/m 200 mg- 1g.
+- Minocyclin (Mynocin): uống 100 mg  2 lần; tiêm bắp hoặc t/m 100 mg. Viên 50 - 100 mg; dịch
+treo 50 mg/ 5 mL
+- Doxycyclin (Vibramycin): uống liều duy nhất 100- 200 mg. Viên 50- 100 mg; dịch treo 25- 50
+mg/ mL
+2.5. Nhóm macrolid và lincosamid
+Hai nhóm này tuy công thức khác nhau nhưng có nhiều điểm chung về cơ chế tác dụng, phổ
+kháng khuẩn và đặc điểm sử dụng lâm sàng.
+2.5.1. Nguồn gốc và tính chất
+Nhóm macrolid phần lớn đều lấy từ streptomyces, công thức rất cồng kềnh, đại diện là
+erythromycin (1952), ngoài ra còn clarithromycin và azithromycin.
+Các lincosamid cũng lấy từ streptomyces, công thức đơn giản hơn nhiều, đại diện là lincomycin
+(1962), clindamycin.
+Hai nhóm này có đặc tính:
+- Tác dụng trên các chủng đã kháng penicilin và tetracyclin, đặc biệt là staphylococus.
+- Giữa chúng có kháng chéo do cơ chế tương tự
+- Thải trừ chủ yếu qua đường mật
+- ít độc và dung nạp tốt
+2.5.2. Cơ chế tác dụngvà phổ kháng khuẩn
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Gắn vào tiểu phần 50s của ribosom vi khuẩn, cản trở tạo chuỗi đa peptid (ngăn cản chuyển vị của
+ARNt) của vi khuẩn.
+Phổ tác dụng tương tự penicilin G: cầu khuẩn và rickettsia. Hoàn toàn không tác dụng trên trực
+khuẩn đường ruột và pseudomonas.
+Tác dụng kìm khuẩn mạnh, có tác dụng diệt khuẩn, nhưng yếu.
+2.5.3. Dược động học
+Bị dịch vị phá huỷ một phần, nếu dùng dạng bào chế thích hợp, có thể uống được tốt. Nồng độ tối
+đa đạt được trong máu sau 1- 4h và giữ không quá 6 tiếng nên phải  uống 4 lần mỗi ngày. Gắn vào
+protein huyết tương khoảng 70% (lincomycin) đến 90% (erythromycin), t/2 từ 1h 30 đến 3 h.
+Thấm mạnh vào các mô, đặc biệt là phổi, gan, lách, xương, tuyến tiền liệt. Nồng độ trong đại
+thực bào và bạch cầu đa nhân gấp 10- 25 lần trong huyết tương do có vận chuyển tích cực. Rất ít
+thấm qua màng não.
+Thải trừ chủ yếu qua mật dưới dạng còn hoạt tính (nồng độ trong mật gấp 5 lần trong huyết
+tương).
+2.5.4. Chỉ định
+Là thuốc được chọn lựa chỉ định cho nhiễm corynebacteria (bạch hầu, nh iễm nấm
+corynebacterium minutissimum- erythrasma); nhiễm clamidia đường hô hấp, sinh dục, mắt, viêm
+phổi mắc phải ở cộng đồng; thay thế penicilin cho bệnh nhân bị dị ứng với penicilin khi nhiễm tụ
+cầu, liên cầu hoặc phế cầu; dự phòng viêm nội tâm mạc trong  phẫu thuật răng miệng cho những
+bệnh nhân có bệnh van tim.
+2.5.5. Độc tính
+Nói chung ít độc và dung nạp tốt chỉ gặp các rối loạn tiêu hóa nhẹ (buồn nôn, nôn, tiêu chảy) và
+dị ứng ngoài da.
+Tuy nhiên, lincomycin và clindamycin có thể gây viêm ruột kết mạc giả, đôi khi nặng, dẫn đến tử
+vong; erythromycin và Tri Acetyl Oleandomycin (TAO) có thể gây viêm da ứ mật, vàng da.
+2.5.6. Chế phẩm, cách dùng
+2.5.6.1. Nhóm macrolid
+- Erythromycin (Erythromycin, Erythrocin): uống 1- 2g/ ngày, chia làm 4 lần
+- Spiramycin (Rovamycin): uống 1- 3g/ ngày, truyền chậm t/m 1,5 triệu UI 3 lần/ ngày
+- Azithromycin: thấm rất nhiều vào mô (trừ dịch não tuỷ), đạt nồng độ cao hơn huyết tương tới
+10- 100 lần, sau đó được giải phóng ra từ từ nên t/2 khoảng 3 ngày. Vì thế cho phép dùng l iều 1
+lần/ ngày và thời gian điều trị ngắn. Thí dụ với viêm phổi cộng đồng, ngày đầu cho 500 mg uống
+1 lần; 3 ngày sau uống 250 mg/ lần/ ngày chỉ dùng trong 4 ngày.
+Viên nang 250 mg
+2.5.6.2. Nhóm lincosamid
+- Lincomycin (Lincocin): uống 2g/ ngày. Chia làm  4 lần. Viên nang 500 mg.
+                                         tiêm bắp, t/m: 0,6 - 1,8g/ ngày
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Clindamycin (Dalacin): uống 0,6- 1,2g/ ngày, chia làm 4 lần (0,15- 0,3g/ lần)
+Kháng sinh 2 nhóm này thường dùng cho nhiễm cầu khuẩn gram (+), nhất là trong tai mũi họng,
+viêm phổi, nhiễm khuẩn đường hô hấp.
+Nhóm lincosamid do thấm mạnh được vào xương nên còn được chỉ định tốt cho các viêm xương
+tủy.
+2.6. Nhóm Quinolon
+2.6.1. Nguồn gốc và tính chất lý hóa
+Là kháng sinh hoàn toàn tổng hợp. Loại kinh điển có acid nalidixic (1963) là tiêu biểu. Loại mới,
+do gắn thêm fluor vào vị trí 6, gọi là 6 - fluoroquinolon (pefloxacin 1985) có phổ kháng khuẩn
+rộng hơn, uống được. Tất cả đều là các acid yếu, cần tránh ánh sáng
+2.6.2. Cơ chế tác dụng và phổ kháng khuẩn
+Các quinolon đều ức chế ADN gyrase, là enzym mở vòng xoắn ADN, giúp cho sự sao chép và
+phiên mã, vì vậy ngăn cản sự tổng hợp ADN của vi khuẩn. Ngoài ra còn tác dụng cả trên ARN m
+nên ức chế tổng hợp protein  vi khuẩn. Các quinolon đều là thuốc diệt khuẩn.
+Acid nalidixic (còn gọi là quinolon thế hệ 1) chỉ ức chế ADN gyrase nên chỉ có tác dụng diệt
+khuẩn gram (-) đường tiết niệu và đường tiêu hóa. Không tác dụng trên trực khuẩn mủ xanh
+(Pseudomonas aeruginosa).
+Các fluoroquinolon có tác dụng lên 2 enzym đích là ADN gyr ase và topoisomerase IV của vi
+khuẩn (Drlica, 1997) nên phổ kháng khuẩn rộng hơn, hoạt tính kháng khuẩn cũng mạnh hơn từ
+10- 30 lần. Các fluoroquinolon thế hệ đầu, còn gọi là quinolon thế hệ 2 (pefloxacin, norfloxacin,
+ofloxacin, ciprofloxacin... 1987- 1997) có khác nhau tương đối về tác động trên gyrase và
+topoisomerase IV: trên vi khuẩn gram ( -), hiệu lực kháng gyrase mạnh hơn; còn trên vi khuẩn
+gram (+), lại có hiệu lực kháng topoisomerrase IV mạnh hơn. Các fluoroquinolon thế hệ mới còn
+gọi là quinolon thế hệ 3 (levofloxacin, trovafloxacin, từ 1999) có tác động cân bằng trên cả 2
+enzym vì vậy phổ kháng mở rộng trên gram (+), nhất là các nhiễm khuẩn đường hô hấp, và vi
+khuẩn khó kháng thuốc hơn vì phải đột biến 2 lần trên 2 enzym đích.
+Phổ kháng khuẩn của fluoroquinolon gồm: E.coli, Salmonella, Shigella, Enterobacter, Neisseria,
+P.aeruginosa, Enterococci, phế cầu, tụ cầu (kể cả loại kháng methicilin). Các vi khuẩn trong tế
+bào cũng bị ức chế với nồng độ fluoroquinolon huyết tương như chlamidia, mycoplasma,
+brucella, mycobacterium...
+2.6.3.Dược động học
+Acid nalidixic dễ hấp thu qua tiêu hóa và thải trừ nhanh qua thận, vì vậy được dùng làm kháng
+sinh đường tiết niệu, nhưng phần lớn bị chuyển hoá ở gan, chỉ 1/4 qua thận dưới dạng còn hoạt
+tính.
+Các fluorquinolon có sinh khả dụng cao, tới 90% (pefloxacin), hoặc trên 95% (gatifloxacin và
+nhiều thuốc khác), ít gắn vào protein huyết tương (10% với ofloxacin, 30% với pefloxacin). Rất
+dễ thấm vào mô và vào trong tế bào, kể cả dịch não tuỷ. Bị chuyển hoá ở gan chỉ mộ t phần.
+Pefloxacin bị chuyển hóa thành norfloxacin vẫn còn hoạt tính và chính nó bị thải trừ qua thận
+70%. Thời gian bán thải từ 4h (Ciprofloxacin) đến 12h (pefloxacin). Nồng độ thuốc trong tuyến
+tiền liệt, thận, đại thực bào, bạch cầu hạt cao hơn trong hu yết tương.
+2.6.4. Chỉ định
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Nhiễm khuẩn đường tiết niệu và viêm tuyến tiền liệt, acid nalixilic, norfloxacin, ciprofloxacin,
+ofloxacin, tác dụng giống nhau, tương tự như trimethoprim - sulfamethoxazol
+- Bệnh lây theo đường tình dục:
+.Bệnh lậu: uống liều duy nhất ofloxacin hoặc ciprofloxacin
+. Nhuyễn hạ cam: 3 ngày ciprofloxacin
+. Các viêm nhiễm vùng chậu hông: ofloxacin phối hợp với kháng sinh chống vi khuẩn kỹ khí
+(clindamycin, metronidazol)
+- Nhiễm khuẩn đường tiêu hóa: do E. coli, S.typhi, viêm phúc mạc trên bệnh nhân phải làm thẩm
+phân nhiều lần.
+- Viêm đường hô hấp trên và dưới, viêm phổi mắc phải tại cộng đồng, viêm xoang: các
+fluoroquinolon mới như levofloxacin, trovafloxacin, gatifloxacin.
+- Nhiễm khuẩn xương- khớp và mô mềm: thường do trực khuẩn gra m (-) và tụ cầu vàng, liều
+lượng phải cao hơn cho nhiễm khuẩn tiết niệu (500 - 750 mg  2 lần/ ngày) và thường phải kéo
+dài (7- 14 ngày, có khi phải tới 4- 6 tuần)
+2.6.5. Độc tính
+Khoảng 10%, từ nhẹ đến nặng: buồn nôn, nôn, tiêu chảy, dị ứng ngoài da, tăng áp lực nội sọ
+(chóng mặt, nhức đầu, lú lẫn, co giật, ảo giác). Trên trẻ nhỏ, có acid chuyển hóa, đau và sưng
+khớp, đau cơ.
+Thực nghiệm trên súc vật còn non thấy mô sụn bị huỷ hoại cho nên không dùng cho trẻ em dưới
+18 tuổi, phụ nữ có mang và đang nuôi con bú. Không dùng cho người thiếu G 6PD.
+2.6.6. Chế phẩm và cách dùng
+2.6.6.1. Loại quinolon kinh điển, acid nalidixic (Negram): nhiễm khuẩn tiết niệu do trực khuẩn
+gram (-), trừ pseudomonas aeruginosa. Uống 2g/ ngày, chia 2 lần. Đường tiêm t/m chỉ được dùng
+trong bệnh viện khi thật cần thiết.
+2.6.6.2. Loại fluorquinolon: dùng cho các nhiễm khuẩn bệnh viện do các chủng đa kháng kháng
+sinh như viêm phổi, nhiễm khuẩn huyết, viêm màng não, màng tim, nhiễm khuẩn xương cần điều
+trị kéo dài.
+Một số chế phẩm đang dùng:
+Pefloxacin (Peflacin)   : uống 800 mg/ 24h chia 2 lần
+Norfloxacin (Noroxin): uống 800 mg/ 24h chia 2 lần
+Ofloxacin (Oflocet)     : uống 400- 800 mg/ 24h chia 2 lần
+Ciprofloxacin (Ciflox) : uống 0,5- 1,5g/ 24 h chia 2 lần
+Levofloxacin (Levaquin): uống 500 mg
+Gatifloxacin (Tequin): uống liều duy nhất 400 mg/ 24h
+Hiện nay fluoroquinolon là thuốc kháng sinh được dùng rộng rãi vì:
+- Phổ rộng
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Hấp thu qua tiêu hóa tốt, đạt nồng độ huyết tương gần với truyền tĩnh mạch.
+- Phân phối rộng, cả các mô ngoài mạch
+- t/2 dài, không cần dùng nhiều lần
+- Dễ dùng nên có thể điều trị ngoại trú
+- Rẻ hơn so với điều trị bằng kháng sinh tiêm truyền khác.
+- Tương đối ít tác dụng không mong muốn
+Vì vậy đã sinh ra lạm dụng thuốc. Nên tránh dùng cho các nhiễm khuẩn thông thường. H ãy giành
+cho các nhiễm khuẩn nặng, khó trị như: Pseudomonas aeruginosa, tụ cầu vàng kháng methicilin,
+E. coli và khuẩn gram (-) kháng trimethoprim- sulfamethoxazol.
+2.7. Nhóm 5- nitro- imidazol
+2.7.1. Nguồn gốc và tính chất
+Là dẫn xuất tổng hợp, ít tan trong nước, không ion hóa ở pH sinh lý, khuếch tán nhanh qua màng
+sinh học. Lúc đầu (1960) dùng chống đơn bào (trichomonas, amip) (xem bài "thuốc chữa amip"),
+sau đó (1970) thấy có tác dụng kháng khuẩn kỹ khí.
+2.7.2. Cơ chế tác dụng và phổ kháng khuẩn
+Nitroimidazol có độc tính chọn lọc trên các vi khuẩn kỹ khí và cả các tế bào trong tình trạng
+thiếu oxy. Trong các vi khuẩn này, nhóm nitro của thuốc bị khử bởi các protein vận chuyển
+electron đặc biệt của vi khuẩn, tạo ra các sản phẩm độc, diệt được vi khuẩn, là m thay đổi cấu trúc
+của ADN.
+Phổ kháng khuẩn: mọi cầu khuẩn kỹ khí, trực khuẩn kỹ khí gram ( -), trực khuẩn kỹ khí gram (+)
+tạo được bào tử. Loại trực khuẩn kỹ khí gram (+) không tạo được bào tử thường kháng được
+thuốc (propionibacterium).
+2.7.3. Dược động học
+Hấp thu nhanh qua tiêu hóa, ít gắn vào protein huyết tương, thấm được vào mọi mô, kể cả màng
+não, t/2 từ 9h (metronidazol) đến 14h (ornidazol). Thải trừ qua nước tiểu phần lớn dưới dạng còn
+hoạt tính, làm nước tiểu có thể bị xẫm màu.
+2.7.4. Độc tính
+Buồn nôn, sần da, rối loạn thần kinh, giảm bạch cầu, hạ huyết áp.
+2.7.5. Chế phẩm, cách dùng
+Thường được dùng trong viêm màng trong tim, apxe não, dự phòng nhiễm khuẩn sau phẫu thuật
+vùng bụng- hố chậu...
+Có tác dụng hiệp đồng với kháng sinh nhóm  lactam và aminosid.
+Metronidazol (Flagyl), ornidazol (Tiberal): uống 1,5g hoặc 30 - 40 mg/ kg/ 24h.
+(Xin xem thêm bài "thuốc chống amíp")
+2.8. Sulfamid
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Năm 1935 Domagk đã phát hiện ra tính kháng khuẩn của một phẩm nhuộm là
+sulfamidochrysoidin (Prontosil), từ đó mở r a kỵ nguyên của các thuốc chống nhiễm khuẩn trước
+khi có penicilin.
+2.8.1. Nguồn gốc và tính chất
+Sulfamid đều là các chất tổng hợp, dẫn xuất của Sulfanilamid  do thay thế nhóm - NH2 hoặc
+nhóm - SO2NH2. Là bột trắng, rất ít tan trong nước, dễ tan hơn tron g huyết thanh và mật.
+2.8.2. Cơ chế tác dụng và phổ kháng khuẩn
+PABA (para amino benzoic acid) là nguồn nguyên liệu cần thiết cho vi khuẩn tổng hợp acid folic
+để phát triển. Do có cấu trúc hóa học gần giống với PABA nên sulfamid đã tranh chấp với PABA
+ngăn cản quá trình tổng hợp acid folic của vi khuẩn.
+Ngoài ra, sulfamid còn ức chế dihydrofolat synthetase, một enzym tham gia tổng hợp acid folic
+(xem sơ đồ mục 2.9). Vì vậy sulfamid là chất kìm khuẩn. Tế bào động vật có vú và vi khuẩn nào
+có thể sử dụng trực tiếp acid folic từ môi trường thì đều không chịu ảnh hưởng của sulfamid.
+Về mặt lý thuyết, phổ kháng khuẩn của sulfamid rất rộng, gồm hầu hết các cầu khuẩn, trực khuẩn
+gram (+) và (-). Nhưng hiện nay, tỷ lệ kháng thuốc và kháng chéo giữa các sulfamid đang rất cao
+nên đã hạn chế việc sử dụng sulfamid rất nhiều. Vi khuẩn kháng thuốc bằng cách tăng tổng hợp
+PABA hoặc giảm tính thấm với sulfamid.
+2.8.3. Dược động học
+- Các sulfamid được hấp thu nhanh qua dạ dày và ruột (trừ loại sulfaguanidin), 70 - 80% liều uống
+vào được máu, gắn với protein huyết tương 40 - 80%, nồng độ tối đa đạt được sau 2- 4h.
+- Từ máu, sulfamid khuếch tán rất dễ dàng vào các mô, vào dịch não tuỷ (bằng 1/2 hoặc tương
+đương với nồng độ trong máu), qua rau thai, gây độc.
+- Các quá trình chuyển hóa chủ yếu ở gan của sulfamid gồm:
+. Acetyl hóa, từ 10- 50% tuỵ loại. Các sản phẩm acetyl hóa rất ít tan, dễ gây tai biến khi thải trừ
+qua thận. Các sulfamid mới có tỷ lệ acetyl hóa thấp (6 -16%) và sản phẩm acetyl hóa lại dễ tan.
+. Hợp với acid glucuronic (sulfadimethoxin), rất dễ tan
+. Oxy hóa
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+ Thải trừ: chủ yếu qua thận (lọc qua cầu thận và bài xuất qua ống thận). Dẫn xuất acetyl hóa (25 -
+60% trong nước tiểu) không tan, tạo tinh thể có thể gây đái máu hoặc vô niệu. Vì vậy, cần uống
+nhiều nước (1g/ 0,5 lít).
+* Phân loại sulfamid: Vì tác dụng của sulfamid đều giống nhau, việc điều trị dựa vào dược động
+học của thuốc cho nên người ta chia các sulfamid làm 4 loại:
+- Loại hấp thu nhanh, thải trừ nhanh: nồng độ tối đa trong máu sau uống là 2 - 4h.      t/2=6-8h,
+thải trừ 95% trong 24h. Gồm sulfadiazin, sulfisoxazol (Gantrisin), sulfamethoxazol (Gantazol).
+Dùng điều trị nhiễm khuẩn theo đường máu.
+- Loại hấp thu rất ít: dùng chữa viêm ruột, viêm loét đại tràng. Gồm sufaguanidin (Ganidan),
+salazosulfapyridin (Salazopyrin).
+- Loại thải trừ chậm: duy trì được nồng độ điều trị trong máu lâu, t/2 có thể tới 7 - 9 ngày nên chỉ
+cần uống 1 lần ngày. Hiện dùng sulfadoxin (Fanasil), phối hợp với pyrimethamin trong Fansidar
+để dự phòng và điều trị sốt rét kháng cloroquin .
+- Loại để dùng tại chỗ: ít hoặc khó tan trong nước. Dùng điều trị các vết thương tại chỗ (mắt, vết
+bỏng) dưới dạng dung dịch hoặc kem. Có sulfacetamid, silver sulfadiazin, mafenid.
+2.8.4. Độc tính
+- Tiêu hóa: buồn nôn, nôn, tiêu chảy.
+- Thận: do sulfamid ít tan và các dẫn xuất acetyl hóa kết tủa trong ống thận gây cơn đau bụng
+thận, đái máu, vô niệu (điều trị, dự phòng bằng uống nhiều nước và base hóa nước tiểu). Viêm
+ống kĩ thận do dị ứng.
+- Ngoài da: các biểu hiện dị ứng từ nhẹ đến rất nặng như hội chứn g Stevens- Johnson, hội chứng
+Lyell. Thường gặp với loại sulfamid chậm.
+- Máu: thiếu máu tan máu (do thiếu G 6PD), giảm bạch cầu, giảm tiểu cầu, mất bạch cầu hạt, suy
+tủy.
+- Gan: tranh chấp với bilirubin để gắn vào protein huyết tương, dễ gây vàng da, độc. Không dùng
+cho phụ nữ có thai và trẻ em mới đẻ.
+Không dùng cho người suy gan, suy thận, thiếu G 6PD, địa tạng dị ứng.
+2.8.5. Chế phẩm cách dùng
+Do có nhiều độc tính và đã có kháng sinh thay thế, sulfamid ngày càng ít dùng một mình.
+Thường phối hợp sulfamethoxazol với trimethoprim (xin xem phần sau). Hiện còn được chỉ định
+trong các trường hợp sau:
+- Viêm đường tiết niệu:
+. Sulfadiazin: viên nén 0,5g
+. Sulfamethoxazol (Gantanol): viên nén 0,5g
+Ngày đầu uống 2g  4 lần; những ngày sau 1g  4 lần. Uống từ 5- 10 ngày
+- Nhiễm khuẩn tiêu hóa:
+. Sulfaguanidin (Ganidan): viên nén 0,5g uống 3 - 4g/ ngày
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+. Sulfasalazin (Azalin): viên nén 0,5g uống 3 - 4 g/ ngày
+- Dùng bôi tại chỗ:
+. Bạc sulfadiazin (Silvaden): 10mg/ g kem bôi
+2.9. Phối hợp sulfamid và trimethoprim
+2.9.1. Cơ chế tác dụng và phổ kháng khuẩn
+Sơ đồ dưới đây cho thấy vị trí tác dụng của sulfamid và trimethoprim trong quá trình tổng hợp
+acid folic. Hai thuốc ức chế tranh chấp với 2 enzym của vi khuẩn ở 2 khâu của quá trình tổng hợp
+nên có tác dụng hiệp đồng mạnh hơn 20- 100 lần so với dùng sulfamid một mình.
+Dihydrofolat
+Dihydrofolat
+     synthetase
+reductase
+     (-)
+   (-)
+  SUL        TMP
+       ADN
+         Tổng hợp
+       PABA+
+             Acid
+                             Acid
+          purin và
+  dihydropteridin                       dihydrofolic                     tetrahydrofolic             pyrimidin
+          ARN
+Hình 14.5. Vị trí tác dụng của sulfamid và trimethoprim trong quá trình
+tổng hợp acid folic
+Trimethoprim là một chất hóa học tổng hợp có tác dụng ức chế dihydrofolat reductase của vi
+khuẩn 50.000- 100.000 lần mạnh hơn trên người, và ức chế trên enzym của ký sinh trùng sốt rét
+2000 lần mạnh hơn người.
+Phổ kháng khuẩn rộng và chủng kháng lại ít hơn so với sulfamid. Có tác dụng diệt khuẩn trên
+một số chủng. Không tác dụng trên Pseudomonas, S.perfringens, xoắn khuẩn.
+2.9.2. Dược động học
+Tỷ lệ lý tưởng cho hiệp đồng tác dụng của nồng độ thuốc trong máu của sulfamethoxazol (SMZ):
+trimethoprim (TMP) là 20: 1. Vì TMP hấp thu nhanh hơn SMZ (pic huyết thanh là 2 và 4h) và t/ 2
+ 10h, cho nên nếu tỷ lệ SMZ: TMP trong viên thuốc là 5: 1 (800 mg sulfameth oxazol + 160 mg
+trimethoprim), sau khi uống, nồng độ trong máu sĩ đạt được tỷ lệ 20: 1(40 g/ mL huyết tương
+sulfamethoxazol và 2 g/ mL trimethoprim).
+Cả 2 thuốc được hấp thu qua đường uống, phân phối tốt vào các mô (dịch não tuỷ, mật, tuyến tiền
+liệt). Thải trừ chủ yếu qua nước tiểu với nồng độ còn hoạt tính.
+2.9.3. Độc tính và chống chỉ định
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thuốc phối hợp này có tất cả các độc tính của sulfamid. Ngoài ra, trên những người thiếu folat,
+TMP có thể gây thiếu máu nguyên hồng cầu khổng lồ, tỷ lệ bị ban cũng cao hơn.
+Không dùng cho phụ nữ có thai và trẻ em mới đẻ (nhất là đẻ non)
+2.9.4. Chế phẩm và cách dùng
+Thuốc kết hợp được chỉ định chính trong nhiễm khuẩn tiết niệu, tai - mũi- họng, đường hô hấp,
+đường tiêu hóa (thương hàn, tả), bệnh hoa liễu (clamydia)
+- Phối hợp  trimethoprim + sulfamethoxazol:
+. Viên Bactrim, Cotrimoxazol, gồm trimethoprim (80 hoặc 160 mg) và sulfamethoxazol (400
+hoặc 800 mg). Liều thường dùng là 4- 6 viên (loại 80 mg TMP + 400 mg SMZ), uống trong 10
+ngày
+. Dịch treo: trong 5 mL có 400 mg TMP + 200 mg SMZ. Dùng cho trẻ em.
+. Dịch tiêm truyền: TMP 80 mg + SMZ 400 mg trong ống 5 mL. Hoà trong 125 mL dextrose 5%
+truyền tĩnh mạch trong 60- 90 phút.
+3. một số vấn đề về sử dụng kháng sinh
+3.1. Nguyên tắc dùng kháng sinh
+1. Chỉ dùng kháng sinh cho nhiễm khuẩn. Không dùng cho nhiễm virus (có loại riêng). Dùng
+càng sớm càng tốt.
+2. Chỉ định theo phổ tác dụng. Nếu nhiễm khuẩn đã xác định, dùng kháng sinh phổ hẹp.
+3. Dùng đủ liều để đạt được nồng độ đủ và ổn định. Không dùng liều tăng dần.
+4. Dùng đủ thời gian: trên cơ thể nhiễm khuẩn, vi khuẩn ở nhiều giai đoạn khác nhau với
+kháng sinh. Nếu sau 2 ngày dùng kháng sinh, sốt không giảm, cần thay hoặc phối hợp
+kháng sinh. Khi điều trị đã hết sốt, vẫn cần cho thêm kháng sinh 2 - 3 ngày nữa.
+Nói chung, các nhiễm khuẩn cấp, cho kháng sinh 5- 7 ngày. Các nhiễm khuẩn đặc biệt, dùng lâu
+hơn, như: viêm nội tâm mạc Osler, nhiễm khuẩn tiết niệu (viêm bể thận): 2 - 4 tuần; viêm tuyến
+nhiếp hộ: 2 tháng; nhiễm khuẩn khớp háng: 3 - 6 tháng; nhiễm lao: 9 tháng...
+5. Chọn thuốc theo dược động học (hấp thu, phân phối, chuyển hóa, thải trừ) phụ thuộc vào
+nơi nhiễm khuẩn và tình trạng bệnh nhân.
+6. Cần phối hợp với biện pháp điều trị khác: khi nhiễm khuẩn có ổ mủ, hoại tử mô, vật lạ
+(sỏi) thì cho kháng sinh phải kìm theo thông mủ, phẫu thuật.
+3.2. Những nguyên nhân thất bại trong việc dùng kháng sinh
+1. Chọn kháng sinh không đúng phổ tác dụng
+2. Kháng sinh không đạt được tới ngưìng tác dụng tại ổ nhiễm khuẩn, do liều lượng không
+hợp lý, do dược động học không thích hợp, do tương tác thuốc làm giảm tác  dụng của
+kháng sinh
+3. Do vi khuẩn đã kháng thuốc. Cần thay kháng sinh khác hoặc phối hợp kháng sinh.
+3.3. Vi khuẩn kháng kháng sinh
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+3.3.1. Kháng tự nhiên: vi khuẩn đã có tính kháng từ trước khi tiếp xúc với kháng sinh, như sản
+xuất  lactamase, cấu trúc của thành vi khuẩn không thấm với kháng sinh.
+3.3.2. Kháng mắc phải: vi khuẩn đang nhậy cảm với kháng sinh, sau một thời gian tiếp xúc, trở
+thành không nhậy cảm nữa, do:
+* Đột biến hoặc kháng qua nhiễm sắc thể.
+Mọi vi khuẩn đều có "protein đích" để gắn với kh áng sinh cụ thể tại ribosom, DNA gyrase, RNA
+polymerase... Do đột biến, các "protein đích" đã thay đổi, không gắn kháng sinh nữa.
+*Kháng qua plasmid: có nhiều dạng. Thường là sản xuất các enzym làm bất hoạt kháng sinh,
+hoặc giảm ái lực của kháng sinh với " protein đích", hoặc thay đổi đường chuyển hóa.
+Vi khuẩn kháng kháng sinh có thể phát triển sự kháng chéo với kháng sinh trong cùng họ. Qua
+plasmid có thể kháng nhiều loại kháng sinh một lúc. Người lần đầu nếu nhiễm vi khuẩn đã kháng
+kháng sinh, mặc dầu chưa dùng kháng sinh bao giờ đã có kháng kháng sinh ngay.
+Loại kháng mắc phải thường là do dùng kháng sinh không đúng liều hoặc lạm dụng thuốc, đang
+gây một trở ngại rất lớn cho việc điều trị.
+3.4. Phối hợp kháng sinh
+3.4.1. Chỉ định phối hợp kháng sinh
+1. Nhiễm 2 hoặc nhiều vi khuẩn một lúc
+2. Nhiễm khuẩn nặng mà nguyên nhân chưa rõ
+3. Sử dụng tác dụng hiệp đồng làm tăng hoạt tính kháng sinh trong một số nhiễm khuẩn đặc
+biệt:
+. Viêm nội tâm mạc: penicilin + streptomycin
+. Trimethoprim + sulfamethoxazol
+. Kháng sinh lactam + chất ức chế lactamase
+      4. Phòng ngừa xuất hiện vi khuẩn kháng kháng sinh.
+Chỉ phối hợp kháng sinh cho một số ít các trường hợp nhiễm khuẩn trong bệnh viện như cầu
+khuẩn ruột, một số trực khuẩn gram ( -) (trực khuẩn mủ xanh, trực khuẩn một loại  Serratia,
+Enterobacter, Citrobacter… ).
+3.4.2. Nhược điểm của phối hợp kháng sinh
+Khi thầy thuốc không hiểu rõ và phối hợp không đúng sĩ:
+. Dễ gây kháng do sự chọn lựa của vi khuẩn
+. Tăng độc tính của kháng sinh
+. Hiệp đồng đối kháng
+. Giá thành điều trị cao
+Nói chung, nên hạn chế phối hợp vì đã có kháng sinh phổ rộng
+3.4.3. Một số nhiễm khuẩn thường gặp và cách chọn kháng sinh.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bảng giới thiệu một số cách lựa chọn kháng sinh.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bảng 14.2.Lựa chọn kháng sinh trong điều trị nhiễm khuẩn
+Vi khuẩn
+Bệnh
+Thuốc được chọn
+Thứ nhất
+Thứ hai
+Thứ ba
+Cầu 
+khuẩn
+Gr(+)
+Tụ cầu vàng
+áp xe
+Nhiễm 
+khuẩn
+huyết
+Viêm nội tâm
+mạc
+Viêm phổi
+Viêm 
+xương-
+tuỷ
+Oxacillin
+Nafcillin
+Cephalospori
+n I
+Vancomycin
+Clindamycin
+Erythromycin
+Trim+
+sulfamethoxazol
+Ciprofloxacin 
++
+rifampin
+Liên cầu sinh
+mủ (nhóm A)
+Viêm họng
+Viêm tai giữa,
+xoang
+Viêm phổi
+Nhiễm 
+khuẩn
+huyết
+Penicilin
+Amoxicilin
+Cephalospori
+n I
+Vancomycin
+Erythromycin
+Clindamycin
+Streptococcus
+viridans
+Viêm nội tâm
+mạc
+Nhiễm 
+khuẩn
+huyết
+Penicilin G
+Gentamycin
+Ceptriaxon
+(III)
+Vancomycin
+Phế cầu
+Viêm phổi
+Viêm khớp
+Viêm xoang
+Viêm tai
+Penicilin
+Amoxicilin
+Cephalospori
+n I
+TMP- SMZ
+Chloramphenicol
+macrolid
+Clindamycin
+Cầu 
+khuẩn
+Gr(-)
+Moraxella
+catarrhalis
+Viêm tai
+Viêm xoang
+Viêm phổi
+Amox+
+clavulanat
+Ampi+
+sulbactam
+TMP + SMZ
+Cephalospori
+n II- III
+Ciprofloxacin
+Tetracyclin
+Erythromycin
+Neisseria
+meningitis
+Pen. 
+G-
+Rifampin
+Ceft. 
+Cefot.
+minocyclin
+Ciprofloxacin
+Trựckhuẩn
+Gr(+)
+Corynebacteriu
+m
+diphteriae
+Viêm họng
+Viêm phổi
+Viêm thanh phế
+quản
+Erythromycin
+Clindamycin
+Cephalosporrin I
+Rifampin
+Corynebacteriu
+m species, ái
+khí
+Viêm nội tâm
+mạc
+Nhiễm 
+khuẩn
+huyết
+Penicilin G +
+aminoglycosi
+d
+Vancomycin
+Rifampicin +
+penicilin G
+Ampicilin +
+sullactam
+Trực 
+khuẩn
+Gr(-)
+ Escheria coli
+Nhiễm 
+khuẩn
+tiết niệu
+TMP- SMZ
+Ciprofloxacin
+Ampi+
+Pen + ức chế
+penicilinase
+Aminoglycos
+Aztreonam
+Nitrofurantoin
+Doxycycline
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Aminogl
+id
+Proteus
+Nhiễm 
+khuẩn
+tiết niệu
+Ampi/ Amox
+Cephalospori
+n
+Aminoglycos
+id
+Ciprofloxacin hoặc
+Ofloxacin
+Pseudomonas
+aeruginosa
+Nhiễm 
+khuẩn
+tiết niệu
+Viêm phổi
+Nhiễm 
+khuẩn
+huyết
+Pen. phổ rộng
+Ceftazidim
+Ciprofloxacin
+Pen.phổ rộng
+Aminoglycos
+id
+Aminoglycos
+id
+Aztreonam
+Ceftazidim +
+Aminogl
+Ciprofloxacin
+Imipenem
+Imipenem + aminogl
+Aztreonam 
++
+aminoglycosid
+Salmonella
+Thương hàn
+Phó thương hàn
+Nhiễm 
+khuẩn
+huyết
+Ciprofloxacin
+Ceftriaxon
+TMP + SMZ
+Ampicilin
+Chloramphenicol
+Shigella
+Viêm ruột cấp
+Ciprofloxacin
+TMP + SMZ
+Amoxicilin
+Hemophilus
+influeuzae
+Viêm tai giữa
+Viêm xoang
+Viêm phổi
+TMP + SMZ
+Amoxicilin +
+clavulinat
+Cefuroxim
+Amox/ Ampi
+Ciprofloxacin
+Azithromycin
+Vibrio
+cholerae
+Tả
+Doxycyclin
+Ciprofloxacin
+TMP + SMZ
+Chloramphenicol
+Câu hỏi tự lượng giá
+1. Trong các thuốc dưới đây, thuốc nào là kháng sinh? Kháng sinh diệt khuẩn? Kháng sinh
+kìm khuẩn?
+Penicilin, Streptomycin, Sulfonamid, Iod, Tetracycli n, Erythromycin, Thuốc tím (KMnO 4),
+Quinolon, Phenol.
+2. Hãy phân loại nhóm β lactam theo cấu trúc hóa học và nêu đặc điểm.
+3. Hãy phân tích cơ chế tác dụng và tác dụng của Penicilin và Cephalosporin.
+4. Trình bày cơ chế tác dụng và áp dụng điều trị của aminoglycos id.
+5. Trình bày cơ chế tác dụng và áp dụng điều trị của:
+-
+Nhóm cloramphenicol
+-
+Nhóm tetracyclin
+-
+Nhóm macrolid
+-
+Nhóm quinolon
+-
+Thuốc phối hợp sulfamid- trimethoprim
+-
+Nhóm 5- nitro imidazol.
+
+
+dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+6. Hãy phân biệt độc tính của các nhóm kháng sinh
+β –  lactam, aminoglycosid,
+cloramphenicol, tetracyclin và quinolon.
+7. Trình bày 6 nguyên tắc sử dụng kháng sinh an toàn và hợp lý.
+8. Phân tích các nguyên nhân thất bại trong việc dùng kháng sinh và cách khắc phục.

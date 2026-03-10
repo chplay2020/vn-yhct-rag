@@ -1,0 +1,322 @@
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+Bài 8: thuốc ngủ và Rượu
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Nêu được mối liên quan giữa cấu trúc hóa học và tác dụng của barbiturat.
+2. Trình bày được các tác dụng dược lý của barbiturat.
+3. Nêu được triệu chứng ngộ độc cấp và cá ch xử lý ngộ độc của thuốc ngủ barbiturat
+(phenobarbital).
+4. Trình bày được tác dụng, ngộ độc cấp và mạn, điều trị ngộ độc rượu ethylic.
+1. Đại cương
+Giấc ngủ là nhu cầu rất cần thiết cho cơ thể. ở những động vật bậc cao, để cho quá trình sống có
+thể diễn ra bình thường phải có sự luân phiên của hai trạng thái thức và ngủ.
+Do ức chế thần kinh trung ương, thuốc ngủ tạo một giấc ngủ gần giấc ngủ sinh lý. Khi dùng liều
+thấp, thuốc gây tác dụng an thần, với liều cao có thể gây mê. Thuốc có thể gây ngộ độc và chế t
+khi dùng ở liều rất cao.
+Để chống mất ngủ, làm giảm trạng thái căng th¼ng thần kinh... trước đây thường dùng barbiturat
+và một số thuốc ngủ khác như dẫn xuất piperidindion, carbamat, rượu, paraldehyd, dẫn xuất
+benzodiazepin. Ngày nay, hay dùng thuốc an t hần- gây ngủ loại benzodiazepin vì ít gây quen
+thuốc và ít tác dụng không mong muốn.
+2. Barbiturat
+Các barbiturat đều là thuốc độc bảng B, hiện nay ít dùng.
+2.1. Cấu trúc
+Acid barbituric (2, 4, 6- trioxohexahydropyrimidin) được tạo thành từ acid malonic v à ure.
+NH2
+HOOC                       NH - OC
+          H
+                                               1       6
+  O = C
+  +
+     CH2      O  = C 2
+                    5 C
+                  3       4
+NH2
+HOOC
+  NH - OC
+H
+Urê
+acid malonic
+     acid barbituric
+Vì là acid mạnh, dễ bị phân ly nên acid barbituric chưa khuếch tán được qua màng sinh học và
+chưa có tác dụng. Khi thay H ở C 5 bằng các gốc R1 và R2, được các barbiturat (là acid yếu, ít
+phân ly) có tác dụng ức chế thần kinh trung ương.
+2.2. Liên quan giữa cấu trúc và tác dụng
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+Khi thay đổi cấu trúc, sĩ ảnh hưởng đến độ ion hóa và khả năng tan trong lipid của thuốc, do đó
+mức độ khuếch tán của thuốc vào não và ái lực của thuốc đối với lipid của cơ thể cũng bị thay
+đổi, nên cường độ tác dụng cũng thay đổi.
+Tác dụng sĩ rất yếu khi chỉ thay thế một H ở C 5.
+Nếu thay hai H ở C5 bằng các chuỗi R1 và R2 sĩ tăng tác dụng gây ngủ.
+Tác dụng ức chế thần kinh trung ương sĩ mạnh hơn khi R1 và R2 là chuỗi nhánh hoặc gốc carbua
+hydro vòng hoặc chưa no.
+Khi một H ở C5 được thay bằng một gốc phenyl, sĩ được phenobarbital có tác dụng chống co
+giật.
+Thay O ở C2 bằng S, được thiobarbiturat (thiopental) gây mê nhanh và ngắn.
+Khi thay H ở N1 hoặc N3 bằng gốc methyl ta có barbiturat ức chế thần kinh trung ương mạnh và
+ngắn (hexobarbital).
+2.3. Tác dụng dược lý
+2.3.1. Trên thần kinh
+Barbiturat ức chế thần kinh trung ương. Tuỵ vào liều dùng, cách dùng, tuỵ trạng thái người bệnh
+và tuỵ loại barbiturat mà được tác dụng an thần, gây ngủ hoặc gây mê.
+Barbiturat tạo ra giấc ngủ gần giống giấc ngủ sinh lý, làm cho giấc ngủ đến nhanh, giảm lượng
+toàn thể của giấc ngủ nghịch thường (pha ngủ nhanh, điện não đồ có sóng nhanh, ngủ rất say
+nhưng có hiện tượng vận động nhãn cầu nhanh nên pha này còn được gọi là pha ngủ có vận động
+nhãn cầu nhanh), giảm tỷ lệ của giấc ngủ nghịch thường so với giấc ngủ sinh lý.
+Với liều gây mê, barbiturat ức chế tủy sống, làm giảm phản xạ đa synap và có thể làm giảm áp
+lực dịch não tuỷ khi dùng ở liều cao.
+Barbiturat (ví dụ phenobarbital) còn chống được co giật, chống động kinh, do làm giảm tính bị
+kích thích của vỏ não. Barbiturat đối lập với cơn co giật do strychnin, picrotoxin, cardiazol, độc
+tố uốn ván...
+Cơ chế tác dụng:
+Giữa hành não và củ não sinh tư có hệ lưới của não giữa gồm phần trước (phần đi lên) hoạt hóa và
+phần sau (phần đi xuống) có tính ức chế. Barbiturat tác động bằng cách ức chế chức phận của hệ
+lưới mà vai trò là dẫn dắt, chọn lọc những thông tin từ ngoại biên vào vỏ não. Thuốc có thể ngăn
+cản xung tác thần kinh qua các trục hệ lưới - vỏ não, ngoại biên- đồi não- vỏ não, hệ lưới- cá
+ngựa, vỏ não- đồi não...
+Barbiturat tác dụng gián tiếp thông qua GABA, làm tăng thời lượng mở kênh Cl
+-. Với liều cao,
+barbiturat tác dụng trực tiếp trên kênh Cl -, giúp mở kênh, Cl - tiến ào ạt vào trong tế bào thần
+kinh, gây ưu cực hóa. Picrotoxin đối lập với barbiturat ở kênh Cl
+-, ức chế vận chuyển Cl -, gây co
+giật.
+Barbiturat có khả năng tăng cường hoặc bắt chước tác dụng ức chế synap của GABA, tuy nhiên
+tính chọn lọc kém các benzodiazepin.
+2.3.2. Trên hệ thống hô hấp
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+Do ức chế trực tiếp trung tâm hô hấp ở hành não nên barbiturat làm giảm biên độ và tần số các
+nhịp thở. Liều cao, thuốc huỷ hoại trung tâm hô hấp, làm gi ảm đáp ứng với CO2, có thể gây nhịp
+thở Cheyne- Stockes.
+Ho, hắt hơi, nấc và co thắt thanh quản là những dấu hiệu có thể gặp, khi dùng barbiturat gây mê.
+Các barbiturat làm giảm sử dụng oxy ở não trong lúc gây mê (do ức chế hoạt động của neuron).
+2.3.3. Trên hệ thống tuần hoàn
+Với liều gây ngủ barbiturat ít ảnh hưởng đến tuần hoàn. Liều gây mê, thuốc làm giảm lưu lượng
+tim và hạ huyết áp. Barbiturat ức chế tim ở liều độc.
+2.4. Độc tính
+Trong bài này chúng tôi chỉ đề cập đến độc tính của phenobarbital, một b arbiturat còn được dùng
+nhiều trên lâm sàng.
+2.4.1. Tác dụng không mong muốn
+Khi dùng phenobarbital, tỉ lệ người gặp các phản ứng có hại chiếm khoảng 1%.
+- Toàn thân: buồn ngủ
+- Máu: có hồng cầu khổng lồ trong máu ngoại vi.
+- Thần kinh: rung giật nhãn cầu, mất điều hòa động tác, bị kích thích, lo sợ, lú lẫn (hay gặp ở
+người bệnh cao tuổi).
+- Da: nổi mẩn do dị ứng (hay gặp ở người bệnh trẻ tuổi). Hiếm gặp hội chứng đau khớp, rối loạn
+chuyển hóa porphyrin do phenobarbital.
+2.4.2. Ngộ độc cấp
+Ngộ độc cấp phenobarbital phần lớn do người bệnh uống thuốc với mục đích tự tử. Với liều gấp
+5- 10 lần liều ngủ, thuốc có thể gây nguy hiểm đến tính mạng. Tử vong thường xảy ra khi nồng
+độ phenobarbital trong máu cao hơn 80 microgam / ml.
+2.4.2.1. Triệu chứng nhiễm độc
+- Người bệnh buồn ngủ, mất dần phản xạ. Nếu ngộ độc nặng có thể mất hết phản xạ gân xương,
+kể cả phản xạ giác mạc.
+- Đồng tử giãn, nhưng vẫn còn phản xạ với ánh sáng (chỉ mất nếu người bệnh ngạt thở do tụt lưìi
+hoặc suy hô hấp).
+- Giãn mạch da và có thể hạ thân nhiệt (vì thuốc làm giảm chuyển hóa chung nên gây giảm sinh
+nhiệt).
+- Rối loạn hô hấp, nhịp thở chậm và nông, giảm lưu lượng hô hấp, giảm thông khí phế nang.
+- Rối loạn tuần hoàn: giảm huyết áp, trụy tim mạch. Cuối cùng, người bệnh bị hôn mê và chết do
+liệt hô hấp, phù não, suy thận cấp.
+2.4.2.2. Xử trí
+Xử trí cấp cứu phụ thuộc vào mức độ nặng khi bệnh nhân vào viện: loại bỏ chất độc trước hay hồi
+sức trước.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+- Đảm bảo thông khí: đặt ống nội khí quản, hút đờm, hô hấp nhân tạo, mở khí quản nếu có phù
+thiệt hầu, thanh môn.
+- Hạn chế ngộ độc:
+. Rửa dạ dày bằng dung dịch NaCl 0,9% hoặc KMnO 4 0,1%, ngay cả khi đã ngộ độc từ lâu vì khi
+ngộ độc barbiturat, nhu động dạ dày bị giảm nên thuốc ở lại lâu trong dạ dày.
+Lấy dịch rửa dạ dày ở lần đầu để xét nghiệm độc c hất.
+. Uống than hoạt để tăng đào thải thuốc và rút ngắn thời gian hôn mê hoặc thuốc tẩy sorbitol 1 - 2
+g/kg.
+- Tăng đào thải:
+. Gây bài niệu cưìng bức: truyền dung dịch mặn đ¼ng trương hoặc dung dịch glucose 5% (4 - 6
+lít/ ngày)
+Dùng thuốc lợi niệu thẩm thấu (truyền tĩnh mạch chậm dung dịch manitol 100 g/ lít) để tăng thải
+barbiturat.
+. Base hoá huyết tương: truyền tĩnh mạch dung dịch base natribicarbonat 0,14% (0,5 - 1 lít)
+. Lọc ngoài thận: là biện pháp thải trừ chất độc rất có hiệu quả nhưng không phải ở t uyến nào
+cũng có thể làm được, giá thành cao.
+. Khi bệnh nhân ngộ độc nặng, nồng độ barbiturat trong máu cao nên chạy thận nhân tạo (phải
+đảm bảo huyết áp bằng truyền dịch, dopamin hay noradrenalin).
+. ở những bệnh nhân có tụt huyết áp, suy vành hoặc suy t im, lọc màng bụng sĩ có hiệu quả hơn
+thận nhân tạo.
+- Đảm bảo tuần hoàn.
+. Hồi phục nước điện giải, thăng bằng acid base.
+. Nếu trụy mạch: chống sốc, truyền noradrenalin, plasma, máu.
+- Chống bội nhiễm, chú ý tới công tác hộ lý và chăm sóc đặc biệt trong t rường hợp  bệnh nhân bị
+hôn mê.
+2.4.3. Ngộ độc mạn tính
+Ngộ độc mạn tính barbiturat thường gặp ở các bệnh nhân lạm dụng thuốc dẫn đến nghiện thuốc.
+Biểu hiện của ngộ độc gồm các triệu chứng: co giật, hoảng loạn tinh thần, mê sảng...
+2.5. Tương tác thuốc
+- Barbiturat gây cảm ứng mạnh microsom gan, do đó sĩ làm giảm tác dụng của những thuốc được
+chuyển hóa qua microsom gan khi dùng phối hợp, ví dụ như dùng phenobarbital cùng với
+sulfamid chống đái tháo đường, thuốc chống thụ thai, estrogen, griseofulvin, cort ison, corticoid
+tổng hợp, diphenylhydantoin, dẫn xuất cumarin, aminazin, diazepam, doxycyclin, lidocain,
+vitamin D, digitalin...
+- Có một số thuốc có thể làm thay đổi tác dụng của barbiturat như rượu ethylic, reserpin,
+aminazin, haloperidol, thuốc chống đá i tháo đường, thuốc ức chế microsom gan (cimetidin,
+cloramphenicol...) làm tăng giấc ngủ barbiturat.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+3. Dẫn xuất benzodiazepin
+Được tổng hợp từ 1956, ngày nay được dùng nhiều hơn barbiturat vì ít độc, ít tương tác với thuốc
+khác. Benzodiazepin có tác dụng an thần, giải lo, làm dễ ngủ, giãn cơ và chống co giật. Thường
+dùng để chữa mất ngủ hoặc khó đi vào giấc ngủ do ưu tư lo lắng (xem bài"Thuốc bình thần").
+4. Rượu
+4.1. Rượu ethylic (ethanol)
+4.1.1. Tác dụng
+- Thần kinh trung ương: rượu ức chế thần kinh trun g ương. Tác dụng của rượu trên thần kinh
+trung ương phụ thuộc vào nồng độ rượu trong máu: ở nồng độ thấp rượu có tác dụng an thần, làm
+giảm lo âu, ở nồng độ cao hơn rượu gây rối loạn tâm thần, mất điều hòa, không tự chủ được hành
+động và có thể bị hôn mê, ức chế hô hấp, nguy hiểm đến tính mạng khi nồng độ rượu trong máu
+quá cao.
+Cơ chế tác dụng: Trước đây người ta cho rằng tác dụng ức chế thần kinh trung ương là do rượu
+làm tan rã lớp lipid của màng, nên ảnh hưởng đến hoạt động của các kênh ion và các prote in tác
+động trên các kênh.
+Những nghiên cứu gần đây cho thấy rượu làm tăng khả năng gắn của GABA trên receptor
+GABAA. Rượu còn tác động trên receptor NMDA glutamat (N - methyl- D- aspartat), ức chế khả
+năng mở kênh Ca++ của glutamat.
+- Tại chỗ: khi bôi ngoài da rượu có tác dụng sát khuẩn, tốt nhất là rượu 70 0. Rượu 900 làm đông
+protein ở da, làm hẹp các lỗ tiết mồ hôi, do đó rượu không thấm sâu vào trong da được.
+- Tim mạch: rượu nhẹ ít ảnh hưởng đến tim mạch. Dùng rượu mạnh trong thời gian dài có thể gây
+giãn cơ tim, phì đại tâm thất và xơ hóa.
+- Tiêu hóa: rượu nhẹ (dưới 10 0) làm tăng tiết dịch vị, dịch vị có nhiều acid và ít pepsin, tăng nhu
+động ruột, tăng khả năng hấp thu thức ăn ở niêm mạc ruột. Vì vậy, dùng rượu nhẹ có điều độ sĩ
+làm tăng thể trọng.
+Ngược lại, rượu 200 ức chế sự bài tiết dịch vị. Rượu mạnh (40 0) gây viêm niêm mạc dạ dày (do
+ảnh hưởng tới lớp chất nhày ở dạ dày), nôn, co thắt vùng hạ vị, làm giảm sự hấp thu của một số
+thuốc qua ruột.
+- Cơ trơn: do ức chế trung tâm vận mạch nên rượu gây g iãn mạch. Tác dụng giãn mạch của rượu
+còn do khả năng  làm giãn cơ trơn của acetaldehyd (chất chuyển hóa của rượu). Do đó, người ngộ
+độc rượu dễ bị hạ thân nhiệt và khi gặp lạnh dễ bị chết cóng.
+Rượu còn làm giãn cơ tử cung.
+4.1.2. Dược động học
+Rượu hấp thu nhanh qua đường tiêu hóa. Sau khi uống 30 phút, rượu đạt nồng độ tối đa trong
+máu. Thức ăn làm giảm hấp thu rượu.
+Sau khi hấp thu, rượu được phân phối nhanh vào các tổ chức và dịch của cơ thể (qua được rau
+thai). Nồng độ rượu trong tổ chức tương đương v ới nồng độ trong máu.
+Trên 90% rượu được oxy hóa ở gan, phần còn lại được thải trừ nguyên vẹn qua phổi và thận. Có 2
+con đường để chuyển hóa rượu thành acetaldehyd.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+- Chuyển hóa qua alcool dehydrogenase (ADH): (là con đường chính). ADH là một enzym chứa
+kĩm, có nhiều ở gan. Người ta còn tìm thấy ADH ở não và dạ dày. ADH chuyển rượu thành
+acetaldehyd với sự tham gia của NAD + (nicotinamid adenin dinucleotid).
+- Chuyển hóa qua hệ microsomal ethanol oxidizing system (MEOS) khi nồng độ rượu trong máu
+trên 100 mg/ dL (22 mmol/ L), rượu được chuyển hóa qua hệ MEOS. ở những người nghiện
+rượu, hoạt tính của các enzym tăng lên, làm tăng chuyển hóa của chính rượu và một số thuốc
+được 
+chuyển 
+hóa 
+qua 
+hệ 
+này 
+như 
+phenobarbital, 
+meprobamat, 
+carbamazepin,
+diphenylhydantoin...
+4.1.3. ứng dụng của rượu
+- Ngoài da: dùng để sát khuẩn
+- Giảm đau: có thể tiêm rượu vào dây thần kinh bị viêm để giảm đau.
+4.1.4. Ngộ độc mạn
+ở những người dùng rượu lâu dài, một số cơ quan như gan, thần kinh, dạ dày, tim mạch... sĩ bị
+tổn thương.
+- Gan dễ bị viêm, nhiễm mì gan, xơ gan. Phụ nữ dễ nhạy cảm với độc tính của rượu hơn nam
+giới.
+- Rượu làm tăng sự bài tiết dịch vị, dịch tụy, ảnh hưởng tới lớp chất nhày ở niêm mạc dẫn tới
+viêm dạ dày.
+Người nghiện rượu hay bị tiêu chảy (rượu gây thương tổn ruộ t non), chán ăn, gầy yếu và thiếu
+máu.
+- Viêm dây thần kinh, rối loạn tâm thần, co giật, giảm khả năng làm việc trí óc, mê sảng... thường
+gặp ở người nghiện rượu nặng.
+- Uống rượu mạnh và kéo dài, cơ tim dễ bị tổn thương và xơ hóa. 5% người nghiện rượu bị tăng
+huyết áp.
+- Rượu có ảnh hưởng tới hệ thống miễn dịch (thay đổi sự hóa ứng động bạch cầu, số lượng tế bào
+limpho T, hoạt tính của NK (natural  killer cell) do đó người nghiện rượu dễ mắc các bệnh nhiễm
+khuẩn như viêm phổi, lao...
+Khả năng bị ung thư miệng, thực quản, thanh quản và gan ở người nghiện rượu thường cao hơn
+người bình thường.
+4.1.5. Điều trị ngộ độc
+4.1.5.1. Ngộ độc cấp
+- Rửa dạ dày nếu bệnh nhân mới bị ngộ độc
+- Đảm bảo thông khí để tránh suy hô hấp
+- Giải quyết tình trạng hạ đường máu, tăn g ceton máu bằng truyền glucose.
+- Bệnh nhân nôn nhiều, có thể dùng thêm kali (nếu chức phận thận bình thường)
+- Vitamin B1 và một số vitamin khác như acid folic, vitamin B 6 có thể làm giảm bớt các thương
+tổn thần kinh do rượu gây ra.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+4.1.5.2. Ngộ độc mạn tính
+Dùng disulfiram để chữa nghiện rượu
+Disulfiram (tetraethylthiuram) ức chế aldehyd dehydrogenase, làm tăng nồng độ acetaldehyd
+(gấp 5 đến 10 lần) nên gây độc.
+Sau khi uống, khoảng 80% disulfiram được hấp thu nhanh qua đường tiêu hóa nhưng nồng độ
+thuốc trong máu thấp vì disulfiram bị chuyển hóa thành diethyldithiocarbamate (chất chuyển hóa
+còn tác dụng).
+Liều thường dùng: 250 mg/ ngày (tối đa 500 mg/ ngày) trong 1 - 2 tuần, sau đó chuyển sang liều
+duy trì 125 mg/ ngày (tuỵ thuộc vào mức độ nhạy cảm của b ệnh nhân).
+Sau khi dùng disulfiram 1 giờ, người nghiện uống rượu sĩ bị đỏ bừng mặt, nhức đầu dữ dội, buồn
+nôn, nôn, vã mồ hôi, tụt huyết áp và bối rối. Các dấu hiệu này có thể kéo dài từ 30 phút đến vài
+giờ, sau đó bệnh nhân ngủ thiếp đi.
+Một số thuốc như metronidazol, cephalosporin, sulfamid chống đái tháo đường, khi phối hợp với
+rượu ethylic cũng gây những phản ứng như ở disulfiram.
+Các nghiên cứu gần đây cho thấy có thể phối hợp Naltrexon (chất đối kháng trên receptor opioid)
+với disulfiram để chữa nghiện rượu. Sự phối hợp này sĩ làm giảm được độc tính của thuốc đối với
+gan. Naltrexon được dùng 50 mg/ lần/ ngày.
+4.1.6. Tương tác thuốc
+- Các thuốc an thần, thuốc ngủ, chống co giật, thuốc ức chế tâm thần, thuốc giảm đau loại opioid
+làm tăng tác dụng của rượu trên thần kinh trung ương.
+- Rượu làm tăng tác dụng phụ trên đường tiêu hóa như viêm, loét, chảy máu của các thuốc chống
+viêm phi steroid (aspirin...), uống rượu cùng với paracetamol làm tăng nguy cơ viêm gan.
+- Khi uống kéo dài, rượu gây cảm ứng một số enzym chuyển hóa thuốc ở microsom gan, làm tăng
+chuyển hóa và giảm hiệu quả điều trị của một số thuốc: sulfamid hạ đường huyết, thuốc chống
+đông máu loại cumarin, meprobamat, diphenylhydantoin, carbamazepin...
+- Do tác dụng giãn mạch ngoại vi của rượu, nếu  uống đồng thời với các thuốc chống tăng huyết
+áp, có thể có nguy cơ gây tụt huyết áp đột ngột quá mức cần thiết.
+- Các thuốc hạ đường huyết nhóm biguanid có thể gây tăng acid lactic máu nếu uống nhiều rượu
+trong thời gian điều trị.
+4.2. Methanol (rượu methylic)
+Loại rượu này dùng trong công nghiệp, không dùng trong y tế vì độc. Trong cơ thể, dưới sự xúc
+tác của alcool dehydrogenase, methanol được oxy hóa thành formaldehyd rất độc (gây đau đầu,
+buồn nôn, nôn, da lạnh, hemoglobin niệu và có thể dẫn đến mù nế u không được điều trị kịp thời).
+    Alcool -
+CH3OH
+       H2CO
+        HCOO-
+         CO2+ H2O
+methanol        dehydrogenase formaldehyd
+        format
+4.3. Ethylen glycol (CH 2OHCH2OH)
+
+
+Dược lý học 2007 - đại học Y Hà nội
+(sách dùng cho sinh viên hệ bá c sĩ đa khoa)
+Được sử dụng nhiều trong công nghiệp, trong máy điều khí của xe ô tô... Không dùng trong y tế.
+Khi ngộ độc, ethylenglycol có thể gây acid chuyển hóa và suy thận (do lắng đọng các tinh thể
+oxalat ở ống thận).
+Câu hỏi tự lượng giá
+1. Phân tích cấu trúc hóa học và các đặc tính lý hóa của các barbiturat.
+2. Phân tích mối liên quan giữa cấu trúc hóa học và tác dụng dược lý của barbiturat.
+3. Trình bày các tác dụng dược lý của thuốc ngủ  barbiturat.
+4. Trình bày các tác dụng không mong muốn của phenobarbital.
+5. Trình bày triệu chứng ngộ độc cấp và cách xử trí ngộ độc phenobarbital.
+6. Trình bày các tác dụng dược lý của rượu ethylic.
+7. Trình bày triệu chứng ngộ độc và cách xử trí ngộ độc rượu ethylic.
+8. Trình bày các tương tác của rượu ethylic với các thuốc khác.

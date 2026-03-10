@@ -1,0 +1,1792 @@
+Journal of Advanced Research 76 (2025) 799–815 
+Contents lists available at ScienceDirect 
+Journal of Advanced Research 
+journal homepage: www.elsevier.com/locate/jare 
+Evaluating current status of network pharmacology for herbal medicine 
+focusing on identifying mechanisms and therapeutic effects 
+Won-Yung Lee a,b,c,1 , 
+a School of Korean Medicine, Wonkwang University, Iksan 54538, Republic of Korea 
+b Research Center of Traditional Korean Medicine, Wonkwang University, Iksan 54538, Republic of Korea 
+c School of Korean Medicine, Woosuk University, Jeonju 54986, Republic of Korea 
+Kwang-Il Park d,1 , 
+d Department of Veterinary Medicine, Research Institute of Life Science, Gyeongsang National University, Jinju 52828, Republic of Korea 
+Seon-Been Bak e,f,1 , 
+e School of Korean Medicine, Dongguk University, Gyeongju 38066, Republic of Korea 
+f Department of Nutritional Science and Food Management, Ewha Womans University, Seoul 03760, Republic of Korea 
+Seungho Lee c,1 , Su-Jin Bae a , Min-Jin Kim e , 
+Sun-Dong Park e , Choon Ok Kim g , 
+g Department of Clinical Pharmacology, Severance Hospital, Yonsei University Health System, Seoul 03722, Republic of Korea 
+Ji-Hwan Kim h , 
+h School of Korean Medicine, Pusan National University, Yangsan-si 50612, Republic of Korea 
+Young Woo Kim e,⇑, Chang-Eop Kim i,⇑ 
+i School of Korean Medicine, Gachon University, Seongnam 13110, Republic of Korea 
+h  i  g  h  l  i g h t s
+Essential mechanisms of herbal 
+compounds are precisely identiﬁed 
+and thoroughly analyzed. 
+Rigorous evaluation of consistency 
+across various network pharmacology 
+databases is conducted. 
+The choice of database is shown to 
+signiﬁcantly impact the 
+understanding of known 
+mechanisms. 
+Advanced analytical techniques are 
+demonstrated to be crucial for 
+elucidating key mechanisms. 
+The therapeutic potential of speciﬁc 
+herbs in treating prostate cancer is 
+validated in vitro and in vivo. 
+a  r  t  i  c  l  e  i n f o
+Article history: 
+Received 5 July 2024 
+Revised 5 December 2024 
+Accepted 24 December 2024 
+Available online 25 December 2024 
+Keywords: 
+Network pharmacology 
+Herbal medicine 
+Comprehensive evaluation 
+Therapeutic mechanisms 
+g  r  a  p  h  i  c  a  l  a b s t r a c t
+a  b  s  t  r  a  c  t  
+Introduction: Network pharmacology has gained signiﬁcant traction as a tool for identifying the mecha-
+nisms and therapeutic effects of herbal medicines. However, despite the usefulness of these approaches, 
+their diversity underscores the critical need for a systematic evaluation to ensure consistency and relia-
+bility. 
+Objectives: We aimed to evaluate the network pharmacological analyses, focusing on identifying the 
+mechanisms and therapeutic effects of herbal medicines. 
+Methods: We employed a comprehensive approach involving systematic data retrieval, network con-
+struction, and analysis. Herbal compounds and their targets were meticulously extracted from ﬁve dis-
+tinct network pharmacology databases to ensure extensive coverage and high data reliability. 
+Advanced network-based methods were used to identify key herbal targets and predict therapeutic 
+effects, thereby enriching the depth and breadth of the analysis. Experimental validation was performed 
+on prostate cancer models to substantiate the computational predictions.
+⇑ Corresponding authors at: School of Korean Medicine, Gachon University, Seongnam 13110, Republic of Korea. 
+E-mail addresses: ywk@dongguk.ac.kr (Y.W. Kim), eopchang@gachon.ac.kr (C.-E. Kim). 
+1 These authors contributed equally to this work. 
+https://doi.org/10.1016/j.jare.2024.12.040 
+2090-1232/© 2024 Published by Elsevier B.V. on behalf of Cairo University. 
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Introduction 
+Herbal medicine, a common intervention in traditional Asian 
+medicine, is used to treat a wide spectrum of diseases and patho-
+logical symptoms. Beyond its historical applications, it serves as 
+a valuable source for novel drug discovery, demonstrating its 
+potential in combating conditions such as COVID-19 and cancer 
+[1,2,3,4]. However, despite their rich history and potential, the 
+application of herbal medicines is often based on empirical knowl-
+edge, and many of their mechanisms remain elusive. One of the 
+primary reasons for this limitation is their complex nature, com-
+prising multiple compounds that act on multiple targets [5,6].  To  
+address this complexity, researchers have adopted a network phar-
+macology approach that explores the relationship between drugs 
+and diseases within the context of a biological network [7,8]. Con-
+sequently, network pharmacology (NP), by elucidating intricate 
+interactions and mechanisms, has become a pivotal tool in this 
+ﬁeld, witnessing exponential growth in research over the past 
+decade. 
+Recent studies have sought to elucidate the mechanisms of 
+action of herbal medicines using NP. Lee et al. delved into method-
+ological trends in this analysis, identifying dominant databases 
+(DBs) and observing their evolution over time [9]. Zhang et al. pro-
+vided a comprehensive summary of the tools and DBs speciﬁcally 
+employed for NP studies, including a comparison of the general 
+statistics of herbal medicines across DBs [10]. Wang et al. show-
+cased a method crafted by their research team for such analyses 
+and detailed its progression over the years [11]. Despite these 
+efforts, the practical utility of these analyses remains undeter-
+mined due to a lack of quantitative evaluation of the methods used 
+for network pharmacological analyses. Without a standardized 
+approach, the results from different studies can manifest signiﬁ-
+cant variances, thereby causing inconsistencies in conclusions 
+and potential misinterpretations in the application of herbal med-
+icines. This highlights the pressing need for a systematic assess-
+ment of NP methods speciﬁc to herbal medicine research. 
+In this study, we systematically evaluated network pharmaco-
+logical analyses of herbal medicines, focusing on their mechanisms 
+and therapeutic effects. Here, we describe the characteristics of 
+network construction methods across various DBs and their appli-
+cations in deciphering their mechanisms and therapeutic effects. 
+Subsequently, we evaluated the consistency of these network con-
+struction methods to assess the potential disparities in the repre-
+sentation of herbal ingredients and their target information 
+across different DBs. Our analysis then explored the capacity to 
+recapitulate the known targets of herbal medicines according to 
+data sources and methods. We comprehensively assessed which 
+network-based approaches were beneﬁcial for classifying both 
+the known and undiscovered therapeutic effects of herbal medi-
+cines. Finally, experimental validation was conducted on prostate 
+cancer, which emerged as a prioritized result with therapeutic 
+importance. This study sheds light on the current state of network 
+pharmacological analysis techniques and their relevance to herbal 
+medicine. 
+800
+Results: The results of the recapitulating task for known herbal ingredient targets revealed distinct pat-
+terns in performance and coverage based on network construction and aggregation methods. We per-
+formed the same analysis to identify herbal targets and found that network centrality, path counts, 
+and downweighted path counts had their own pros and cons. By comparing network-based methods, 
+we found that considering the impact on the multiscale interactome yielded the highest accuracy in dis-
+criminating known therapeutic effects. Using optimal conditions, we successfully identiﬁed new indica-
+tions for herbal medicines and validated these ﬁndings through follow-up in vitro and in vivo 
+experiments. 
+Conclusion: This study presents the ﬁrst comprehensive and critical evaluation of the current network 
+pharmacology analyses in the ﬁeld of herbal medicine and provides valuable guidance for continued 
+advances in the elucidation of the mechanisms and therapeutic effects.
+© 2024 Published by Elsevier B.V. on behalf of Cairo University. This is an open access article under the CC 
+BY license (http://creativecommons.org/licenses/by/4.0/).
+Methods 
+Herb-compound-target network construction 
+Data retrieval of herbal compounds and their corresponding 
+target information was performed using ﬁve representative NP-
+DBs: TCMSP [12], TCM-mesh [13], BATMAN-TCM [14], SymMap 
+[15], and HERB [16]. For TCMSP, TCM-mesh, and BATMAN-TCM, 
+data were directly retrieved from each DB using the available 
+resources provided. The HERB database provides both mining data 
+from other databases and known therapeutic effect data. In this 
+study, we used the mining data from HERB, which will be referred 
+to as HERB (mining), while the known therapeutic effect data will 
+be discussed in subsequent sections. For SymMap and HERB, com-
+pound information for herbs and target information for com-
+pounds were obtained using API calls in combination with 
+Python’s ‘‘requests” module based on a cross-reference ID table 
+organized by individual entities. 
+An ID mapping process was then conducted on the assembled 
+dataset to ensure consistency in the herb, compound, and target 
+nomenclature across diverse data sources. Herbal names were 
+mapped based on the cross-ID table provided by the HERB DB. This 
+process was initially curated by the ﬁrst author and further vali-
+dated through a comprehensive review by the corresponding 
+author, both of whom are licensed Korean medicine doctors with 
+PhDs in herbal prescription. Subsequently, the compounds and tar-
+gets were mapped to PubChem Compound IDs (CIDs) and Entrez 
+Gene IDs using cross-reference ID tables from each database and 
+the NCBI Gene DB, respectively. In the subsequent stages of analy-
+sis, only the data that were successfully mapped with these IDs 
+(CIDs for compounds and Entrez Gene IDs for targets) were uti-
+lized. This strategy ensured the use of a consistent identiﬁcation 
+system across all data used in subsequent analyses. 
+Multiscale interactome 
+The multiscale interactome is a network of interactions among 
+proteins, between proteins and biological functions, and among 
+biological functions themselves. The multiscale interactome used 
+in this study was obtained from the data built by Ruiz et al. [17]. 
+For protein–protein interactions (PPIs), they assembled 387,626 
+physical interactions between 17,660 proteins from seven major 
+databases, including the Biological General Repository for Interac-
+tion Datasets, Database of Interacting Proteins, and Human Refer-
+ence Protein Interactome Mapping Project. For protein-biological 
+function interactions, they compiled 34,777 associations between
+
+
+7,993 proteins and 6,387 biological functions from the Gene Ontol-
+ogy (human version). For biological-biological functional interac-
+tions, 
+they 
+constructed 
+a 
+hierarchy 
+of 
+biological 
+functions 
+consisting of 22,545 associations and 9,798 biological functions. 
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Known targets and therapeutic effects of herbs and compounds 
+The known targets and therapeutic effects of herbs and com-
+pounds were identiﬁed using the HERB DB. The known targets 
+are referred to as HERB (paper) in this study. This DB provides 
+manually curated data on known targets and therapeutic effects 
+associated with herbs and herbal compounds. During data extrac-
+tion, we retrieved reference IDs from the HERB DB, which con-
+tained data related to known targets and therapeutic effects. The 
+Python ‘‘requests” module was employed to retrieve references 
+sequentially [18]. This allowed the collation of information per-
+taining to experimentally validated targets, denoted as ’paper-
+mined target genes’ and ’paper-mined diseases’. The same proce-
+dure was performed to retrieve related proteins from the obtained 
+disease list. After data extraction, our data comprised 2,403 
+compound-target interactions (CTIs) between 219 compounds 
+and 875 targets, 256 herb-target interactions between 36 herbs 
+and 182 targets, and 267,924 disease-protein associations between 
+320 diseases and 8,777 proteins. 
+Evaluation of NP-DB consistency 
+The consistency among NP-DBs was evaluated using the recall 
+metric. Recall is a measure designed to assess the uncommonness 
+of the observed similarities. Speciﬁcally, for NP-DBs consistency 
+analysis, a recall metric was used to evaluate the similarity of the 
+same herbs or compounds across different DBs compared with 
+the similarity within each DB [19]. This can be determined by cal-
+culating the proportion of similarity values in a reference distribu-
+tion that is lower than the similarity value of the same object 
+measured in another DB. The reference distribution is composed 
+of Pearson’s correlation distribution for all entities in the DB whose 
+similarity to a particular object is to be measured. Pearson’s corre-
+lation coefﬁcient was calculated using one-hot encoding vectors to 
+indicate the presence or absence of herbal compounds and their 
+interactions with target compounds. High recall values correspond 
+to higher-than-expected similarity values, providing an assess-
+ment of how well a particular pair of herbs or compounds matches 
+relative to an appropriate null distribution. 
+Identifying key targets of herbs 
+Network centrality, simple path count (PC), and degree-
+weighted pathcount (DWPC) are commonly used methods for 
+identify key targets of herbs. Network centrality, also called topo-
+logical analysis, refers to the calculation of each target’s centrality 
+in a subnetwork built based on PPIs between targets in a particular 
+herb [20,21]. Entities exhibiting high centrality are usually consid-
+ered key targets. Network centrality measures typically include 
+degree, betweenness, and closeness centralities. Degree centrality 
+quantiﬁes the number of direct connections maintained by a node 
+within a network. Betweenness centrality estimates the extent to 
+which a node functions as a bridge or broker in a network. Close-
+ness centrality measures the proximity of a node to all other nodes 
+within the network. Centrality measures were calculated using the 
+following equations. 
+Degreecentrality v 
+deg v 
+where 
+denotes a speciﬁc node and 
+represents the 
+number of edges connected to node 
+801
+Betweennesscentrality v
+s–v–t 
+rst v 
+rst 
+where 
+and 
+refer to nodes in the network distinct from v, 
+denotes the number of shortest paths from node s to node t, and 
+denotes the number of shortest paths from node 
+to node 
+that pass-through node 
+Closenesscentrality v
+1 
+ud u v 
+where u indicates a node in the network and 
+signiﬁes the 
+shortest path distance from node v to node u. 
+PC refers to the number of paths of a speciﬁed metapath 
+between the source and target nodes. However, PC does not adjust 
+to the extent of graph connectivity along the path. Paths traversing 
+high-degree nodes account for a large portion of PC, even though 
+high-degree nodes often represent biologically broad or vague 
+entities with limited informativeness. Consequently, relying solely 
+on PC may lead to skewed interpretations, potentially overlooking 
+speciﬁc and biologically relevant interactions owing to the domi-
+nance of high-degree nodes. 
+The DWPC algorithm mitigates the overrepresentation of high-
+degree nodes in PC calculations, thereby addressing the potential 
+limitation of the PC method [22]. The DWPC algorithm originally 
+downweights each path between a source and target node by cal-
+culating the path degree product (PDP) as follows: 
+1. Extracting all metaedge-speciﬁc degrees along the path 
+, 
+where each edge contributing to the path adds two degrees. 
+2. Raise each degree to the negative 
+power, where 
+and 
+serves as the damping exponent. 
+3. Multiplying all exponentiated degrees to generate the PDP. 
+In this method, we separated the damping parameter w into 
+two distinct parameters, 
+and 
+which apply to degrees pre-
+sent in the herb-compound path and compound-target path, 
+respectively. Consequently, when raising each degree to a negative 
+power, we employed 
+for degrees along the herb-compound 
+path and 
+for degrees along the compound-target path. The 
+modiﬁed PDP and DWPC values were calculated as follows: 
+PDP path 
+dHC DpathHC 
+d 
+wHC 
+HC 
+dCT DpathCT 
+d 
+wCT 
+CT 
+where 
+and 
+refer to the paths between the herb-
+compound pair and compound-target pair, 
+and 
+denote 
+the node degrees of 
+and 
+and 
+and 
+refer to 
+the damping parameters of 
+and 
+respectively. 
+DWPC h t 
+path Paths h t 
+PDP path 
+where 
+refers to the herb, 
+denotes the target, and 
+refer 
+to the paths between h and 
+This modiﬁcation allowed us to adjust the weighting of each 
+path type individually, thereby providing a more precise represen-
+tation of the network structure. 
+Network-based methods for identifying therapeutic effects 
+Three network-based approaches were employed to predict the 
+therapeutic effects of the herbal compounds and herbs: protein 
+overlap, network proximity, and multiscale interactome. Protein 
+overlap is based on the idea that ingredients with overlapping tar-
+gets and disease-related proteins are likely to exert therapeutic 
+effects. This can be calculated using the Jaccard Similarity between 
+the set of drug targets T and the set of disease proteins S:
+v 
+deg v 
+v. 
+s 
+t 
+rst 
+s 
+t 
+rst v 
+v. 
+d u v 
+(Dpath)
+w 
+w 
+0 
+wHC 
+wCT, 
+wHC 
+wCT 
+DpathHC 
+DpathCT 
+dHC 
+dCT 
+wHC 
+wCT 
+DpathHC 
+DpathCT , 
+DpathHC 
+DpathCT , 
+h 
+t 
+Paths h t 
+t.
+
+
+Performance measure
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+T 
+S 
+T 
+S 
+Network proximity is based on the principle that the closer the 
+targets of a compound are to disease proteins in a human PPI net-
+work, the more likely it is that the compound will affect the disease 
+phenotype [23]. It is obtained by calculating the relative score of 
+the shortest path length between the drug and disease based on 
+the reference distribution. Let T be the set of drug targets and S 
+be the set of disease proteins, where t 
+T and s 
+S represent 
+the individual targets and proteins, respectively. d(s, t) denotes 
+the shortest path length between nodes s and t in a network. Net-
+work proximity ﬁrst computes the average closest distance
+between disease-associated proteins and ingredient targets as 
+follows: 
+dc S T 
+1 
+T
+t T mins Sd  s  t
+Next, a reference distance distribution is constructed using the 
+values of 
+when S and T are randomly permuted into 1000 
+sets of proteins that match the size and degrees of the original dis-
+ease proteins and targets in the network. Finally, the relative score 
+is computed by taking the z-score of 
+with respect to the ref-
+erence distribution: 
+Zdc 
+dc 
+ldc S T 
+rdc S T 
+where
+and
+denote the mean and standard 
+deviation of the reference distribution, respectively. 
+Multiscale interactome models compare the impact of drug 
+treatment and disease perturbation on a network that integrates 
+interactions between proteins and biological functions [17]. It pre-
+dicts the disease association of drugs and natural products by cal-
+culating the diffusion proﬁle 
+and then measures the 
+correlation distance between them. A diffusion proﬁle is computed 
+through a matrix formulation with a power iteration as follows: 
+r k 1 
+1 
+a s 
+a r k M 
+s 
+j J 
+r k 
+j 
+where 
+denotes the diffusion proﬁles at k-th state
+denotes 
+the probability of the walker continuing its walk at a given step 
+rather than restarting
+denotes a restart vector that sets 
+the probability that the walker will jump to each node after a 
+restart, and 
+denotes a biased transition matrix derived from a 
+directed multiscale interactome and set of scalar weights that 
+encode the relative likelihood. 
+These procedures are repeated until the convergence of the 
+power iteration computation is as follows: 
+r k 1 
+r k 
+1 
+e 
+where
+denotes the tolerance parameter and was set to 
+which is the same value as that in the previous study 
+[17]. 
+The correlation distance of drug and disease diffusion proﬁle is 
+calculated as follows: 
+1 
+r c 
+r c
+r d 
+r d 
+r c 
+r c 
+2 
+r d 
+r d 
+2 
+where r(c) and r(d) denote the diffusion proﬁles of the drug and 
+disease, respectively. 
+802
+Performance evaluation was conducted under two main scenar-
+ios within our study. First, we assessed whether the predicted tar-
+gets of herbs or compounds derived from network construction 
+and analyses corresponded to the known targets. Second, it was 
+used to evaluate the predictive performance of known therapeutic 
+effects based on the targets of herbs or compounds using various 
+methods. 
+The choice of the evaluation metric depended on the nature of 
+the predicted outcomes. For binary predictions (i.e., the interaction 
+between targets and herbs/compounds or predictions based on the 
+percentile threshold of network centrality or PC), we used metrics 
+such as the Matthews Correlation Coefﬁcient (MCC), precision, cov-
+erage, and recall. These values were calculated using the following 
+formulae: 
+MCC 
+TP 
+TN 
+FP 
+FN 
+TP 
+FP
+TP 
+FN
+TN 
+FP
+TN 
+FN 
+Precision 
+TP 
+TP 
+FP 
+Coverage 
+TP 
+TP 
+FN 
+Recall 
+TP 
+TP 
+FN 
+where TP represents true positives, TN represents true negatives, FP 
+represents false positives, and FN represents false negatives. 
+For continuous predictions (i.e., predictions about known herbs 
+based on DWPC or prediction scores for the therapeutic effects of 
+known herbs/compounds), performance was evaluated using the 
+Area Under the Receiver Operating Characteristic curve (AUROC) 
+and Area Under the Precision-Recall curve (AUPR). These metrics 
+provide an overall measure of prediction performance, balancing 
+the trade-off between sensitivity and speciﬁcity for AUROC and 
+precision and recall for AUPR. 
+Chemicals and reagents 
+Anti-Bcl-2, anti-Bax, anti-Cdk2, anti-Cdk6, anti-p19, anti-p21, 
+and anti-p27 antibodies were purchased from Santa Cruz Biotech-
+nology (Dallas, TX). Anti-Mcl-1, anti-caspase-3, anti-PARP, anti-
+STAT3, anti-Cyclin D1, and anti-b-actin were purchased from Cell 
+Signaling Technology (Danvers, MA). HRP-conjugated anti-rabbit 
+IgG and anti-mouse IgG antibodies were acquired from Enzo Life 
+Sciences (Farmingdale, NY). 3-(4,5-dimethylthiazol-2-yl)-2,5-diph 
+enyl-tetrazolium bromide (MTT) and crystal violet solution were 
+purchased from Sigma-Aldrich (St. Louis, MO). Annexin V/propid-
+ium iodide was purchased from BD Bioscience (San Jose, CA). Puer-
+ariae Radix (PR), Lithospermum Erythrorhizon (LE), and Granati 
+Fructus (GF) are medicinal herbs certiﬁed by the Korea FDA and 
+were sourced from an hGMP facility (Nonglim Saengyak, Seoul, 
+KOREA). The extracts of these herbs were prepared according to 
+previously described methods [24]. 
+Cell lines and cell culture 
+PC3 and LNCap cells (obtained from the American Type Culture 
+Collection, Rockville, MD) were cultured in RPMI 1640 medium 
+supplemented with 10% fetal bovine serum, 50 lg/mL strepto-
+, dc s t , 
+dc S T 
+dc s t 
+ldc S T 
+rdc S T 
+r 
+R V 
+r k 
+, a 
+, s 
+R V 
+M 
+e 
+1 
+10 6 , 
+
+
+mycin, and 50 units/mL penicillin. The cells were cultured at 37 °C 
+with 5% CO2 in a humidiﬁed atmosphere. 
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Animal housing and xenograft experiments 
+Six-week-old male BALB/c nude mice (18–20 g) were purchased 
+from Samtako Inc. (Osan, Republic of Korea). Mice were housed at 
+22 ± 3 °C and 54% ± 5% relative humidity conditions in a 12/12h 
+light and dark-controlled room (light: 7:00–19:00h, dark: 19:00– 
+7:00h). The mice were provided ad libitum access to rodent food 
+and water. All experimental animal procedures were approved by 
+the Gyeongsang National University Institutional Animal Care 
+and Use Committee (GNU-240228-M0048) and conducted in 
+accordance with the guidelines of the National Institutes of Health 
+(NIH publication). 
+PC3 cells were grown to 80% conﬂuence and harvested for xeno-
+graft experiments. The cells were resuspended in phosphate-
+buffered saline at a concentration of 2 
+107 cells/ml. Each mouse, 
+aged 7 weeks, was subcutaneously injected with 1 mL of the cell 
+suspension on the left side. The mice were grouped and allowed 
+for the tumors to grow to a target volume of 200 mm3 . Upon reach-
+ing 200 mm3 tumor volume, the drug group was orally adminis-
+tered PR, LE, and GF at doses of 500 and 1500 mg/kg/body 
+weight three times a week for 15 days. Each control group was 
+orally administered with (vehicle) and the positive control group 
+was intraperitoneally injected with 8 mg/kg/day doxorubicin three 
+times a week. Tumor growth and inhibition were measured daily 
+using digital calipers. Tumor volume was calculated using the fol-
+lowing formula: tumor volume (mm3 ) = tumor diameter 
+short 
+diameter2/2. At the end of the animal experiment (15 days), the 
+mice were sacriﬁced, and the tumors were dissected. 
+Cell proliferation/viability assay 
+PC3 and LNCaP cells were cultured in a 48-well plate at a den-
+sity of 5 
+103 cells per well for 24h. Subsequently, PR, LE, and FPG 
+were each treated at various concentrations for 24, 48, and 72h. 
+Following the incubation period, MTT treatment was conducted 
+for 2 h at 37 °C. After incubation, the medium was removed, and 
+300 lL of DMSO was added to each well to dissolve the formazan 
+crystals. Absorbance was determined at 570 nm using an ELISA 
+microplate reader (Agilent Technologies, Santa Clara, California). 
+Clonogenic assay 
+PC3 and LNCaP cells were plated in a 6-well plate at a density of 
+1 
+103 cells per well and treated with PR, LE, or FPG for 24h. Sub-
+sequently, the medium was replaced with drug-free medium, and 
+the cells were cultured for an additional 8 days. After an 8-day 
+incubation period, the medium was suctioned, and the cells were 
+ﬁxed with 4% formalin. The ﬁxed cells were stained with 1% crystal 
+violet solution and air-dried at room temperature. 
+Flow cytometry 
+PC3 and LNCaP cells were plated in a 6-well plate at a density of 
+1 
+105 cells per well for 24h. Subsequently, PR, LE, and FPG were 
+administered to the cells at speciﬁed concentrations for 72h, fol-
+lowed by cell harvesting using trypsin. The cells were stained with 
+Annexin V/propidium iodide (BD Biosciences, San Jose, CA) accord-
+ing to the manufacturer’s instructions. The stained cells were 
+assessed using an Accuri C6 ﬂow cytometer (Accuri Cytometers 
+Inc., Ann Arbor, MI) and 10,000 events were recorded. 
+803
+Immunoblot analysis 
+PC3 and LNCaP cells were plated in a 60Ø dish at a concentra-
+tion of 3 
+105 cells. Subsequently, PR, LE, and FPG were adminis-
+tered at speciﬁed concentrations for 72h. Cell lysates were 
+prepared using RIPA buffer at 4 °C, and protein quantiﬁcation of 
+the lysates was performed using a BCA assay kit (Thermo Fisher 
+Scientiﬁc Inc., Waltham, MA). The quantiﬁed proteins were sepa-
+rated by sodium dodecyl sulfate–polyacrylamide gel electrophore-
+sis and subsequently transferred onto a PVDF membrane. After 
+sequentially attaching primary and secondary antibodies to the 
+transferred membrane, chemiluminescent signals were captured 
+using a ChemiDoc image analyzer (Vilber Lourmat, France). 
+Scratch wound healing assay 
+PC3 and LNCaP cells were incubated in a 24-well plate until 
+they reached approximately 90% conﬂuency. Subsequently, a 
+wound (a mono line) was created by scratching the surface using 
+a 200 lL pipette tip. The process of co-culturing cells with PR, LE, 
+or FPG at speciﬁed concentrations for 72h was observed using an 
+automated microscope (BioTek Lionheart, Winooski, VT). 
+Statistical analysis 
+Statistical analyses of in vitro and in vivo experiments were per-
+formed by checking the normal distribution of the data and consid-
+ering the number of groups under investigation. For two-sample 
+evaluations, normality was assessed using the Shapiro–Wilk test. 
+Subsequently, a two-tailed Student’s t-test was conducted for pair-
+wise comparison of groups exhibiting a normal distribution, 
+whereas the Mann–Whitney U test was used when the normality 
+assumption was not met. Similarly, for comparisons involving mul-
+tiple groups, normality was ﬁrst examined using the Shapiro–Wilk 
+test. Datasets conforming to a normal distribution were then ana-
+lyzed using one-way ANOVA coupled with Dunnett’s test; in 
+instances where normality was not observed, the Kruskal–Wallis 
+ANOVA with Dunn’s post hoc test was applied. In cases where 
+the effects of different treatments and their interactions were eval-
+uated, two-way ANOVA was employed. This method accounted for 
+the variability between different treatment groups and the interac-
+tion effects of combined treatments. The criteria for establishing 
+statistical signiﬁcance were set at p < 0.05 or p < 0.01. 
+Results 
+Overview of network construction and analysis 
+NP-DBs are primary resources for constructing networks of her-
+bal medicines. They offer comprehensive information about the 
+compounds and targets of herbal medicines, enabling researchers 
+to build networks of speciﬁc herbal medicines. In this section, we 
+summarize the network construction and analysis methods pro-
+vided by representative NP-DBs: TCMSP, BATMAN-TCM, TCM-
+Mesh, SymMap, and HERB (Table 1. These DBs facilitate NP analysis 
+of individual herbs, which many researchers have utilized and 
+cited in their studies. These DBs also provide raw ﬁles or APIs, facil-
+itating large-scale analyses.
+Network pharmacological analysis of herbal medicines usually 
+begins with the construction of herb-compound networks. Most 
+NP-DBs contain ingredient information from databases such as 
+TCMID [25] and TCM-ID (Table 1). NP-DBs typically assign a unique 
+ID to each compound and provide the corresponding PubChem CID. 
+This aids researchers in identifying the properties of compounds 
+and mapping additional information for subsequent analyses.
+
+
+Notably, TCMSP offers data on drug-likeness (DL) and predicted 
+oral bioavailability (OB) of compounds, enhancing the ability to 
+screen potential bioactive compounds [26]. Approximately one-
+third of the pertinent studies employed compounds surpassing 
+the suggested thresholds (i.e., drug-likeness and oral bioavailabil-
+ity above 0.18 and 0.3, respectively) for their analyses [27,28]. 
+These thresholds were used to maximize bioactive compound 
+extraction while maintaining a manageable number of candidates 
+[29]. This information was integrated into SymMap and HERB for a 
+comprehensive overview of herbal medicine bioavailability. 
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Table 1 
+Description, statistics, and methods of representative databases that provide network pharmacological analysis for herbal medicines. H-C: herb-compound associations, C-T: 
+compound-target associations. *Prediction method. 
+H-C
+C-T 
+A system pharmacology platform that 
+provides information on ingredients, 
+targets, and diseases of herbal 
+medicines. 
+499 herbs, 29,384 
+ingredients, 3,311 
+targets 
+Drugbank, HIT, and 
+SysDT* 
+TCMSP (2014)
+Literature search
+tcmsp-e.com/ 
+tcmsp.php 
+(24735618) 
+8,159 herbs, 25,210 
+ingredients, 14,298 
+targets 
+BATMAN-TCM (2016)
+A bioinformatics analysis tool for 
+molecular mechanisms of TCM 
+TCMID
+DrugBank, KEGG, TTD, 
+and Similarity score* 
+bionet.ncpsb. 
+org.cn/batman-
+tcm 
+(26879404) 
+6,235 herbs, 383,840 
+ingredients, 14,298 
+targets 
+TCM-mesh (2017)
+A system for providing network 
+pharmacological analysis for TCM 
+TCMID
+STITCH
+bionet.ncpsb. 
+org.cn/batman-
+tcm 
+(28588237) 
+698 herbs, 25,975 
+ingredients, 20,965 
+targets 
+HIT, TCMSP, HPO, 
+DrugBank, and NCBI 
+databases 
+TCMID, TCMSP, and TCM-
+ID 
+SymMap (2019)
+An integrative database of TCM 
+enhanced by symptom mapping 
+symmap.org 
+(30380087) 
+7,263 herbs, 28,212 
+ingredients, 12,933 
+targets 
+SymMap, TCMID 2.0, 
+TCMSP 2.3, and TCM-ID 
+et al. 
+HERB (2021)
+A high-throughput experiment- and 
+reference-guided database of TCM 
+SymMap, HIT, TCMSP, 
+and TCMID 
+herb.ac.cn 
+(33264402)
+The subsequent phase of network construction involved identi-
+fying the targets of compounds found in the herbal medicines 
+(Fig. 1A). The sources of target information for herbal compounds 
+can be broadly categorized into two primary types: experimentally 
+validated and predicted. Databases such as the Herbal Ingredient 
+Target [30,31] and DrugBank [32] are typically employed to gather 
+experimentally validated targets; they house information curated 
+manually from the literature based on in vitro or biochemical 
+experimental results. However, a potential limitation of this 
+approach is the sparse nature of data on these experimentally val-
+idated targets. Relying solely on these targets limits the scope of 
+herbal medicine analysis. Thus, NP-DBs provide predictive target 
+information for herbal medicine components using various meth-
+ods. For instance, Yu et al. proposed the SysDT model [33] to fore-
+cast CTIs using both known and unknown compound-target 
+associations alongside protein and compound descriptors. TCMSP 
+uses this model to predict the targets of Chinese medicinal ingredi-
+ents. Liu et al. introduced a CTI prediction technique based on com-
+pound and target similarity scores [34]. BATMAN-TCM employs 
+this method to identify the targets of herbal medicinal ingredients. 
+TCM-Mesh curates the target data of herbal medicine components 
+by incorporating information from STITCH [35], which aggregates 
+scores from various sources, including experiments, predictions, 
+DB consultations, and text mining.
+The constructed network was analyzed to uncover the key 
+mechanisms of action of the herbs. To identify key targets, 
+researchers often construct protein–protein interaction (PPI) sub-
+networks by mapping herbal medicine targets onto the global PPI 
+network (Fig. 1B). Within these target-speciﬁc PPI subnetworks, 
+network centrality analysis is performed to identify hub nodes that 
+play central and signiﬁcant roles in the network structure, assum-
+ing these are key targets of herbal medicines [36]. Typically, 
+researchers measure various properties such as degree centrality, 
+closeness centrality, and betweenness centrality, which indicate 
+the importance of nodes in a network. Targets exhibiting centrality 
+values above certain thresholds are usually considered key targets. 
+PC analysis, similar to degree analysis, assumes that targets with 
+overlapping interactions with ingredients are likely to be key tar-
+gets [37,38]. This analysis allows for the consideration of the 
+cumulative effects of herbal compounds on the targets. It computes 
+the number of PCs from the herbs to the targets and selects those 
+where the number exceeds a certain threshold, such as the median 
+value. However, a potential limitation is treating all path counts 
+(PCs) equally, regardless of whether they originate from common 
+ingredients or those with numerous targets. High-degree nodes 
+often represent biologically general or nonspeciﬁc entities, offering 
+limited speciﬁc information [22]. Therefore, downweighting PCs 
+associated with high-degree nodes can reﬁne the analysis, poten-
+tially 
+leading 
+to 
+a 
+more 
+accurate 
+understanding 
+of 
+key 
+mechanisms. 
+804
+Network-based approaches also play a crucial role in leveraging 
+the identiﬁed herbal targets to identify the therapeutic effects of 
+herbal medicines. The principal or promising approaches among 
+the network-based methods include protein overlap, network 
+proximity, and multiscale interactome approaches (Fig. 1C). Pro-
+tein overlap is based on the hypothesis that herbal medicines that 
+share targets in speciﬁc diseases exhibit therapeutic efﬁcacy [39]. 
+Network proximity hypothesizes that herbal medicines with tar-
+gets close to the disease proteins in the network exert therapeutic 
+effects [23]. Network proximity employs z-scores to quantify the 
+relative closeness of herbal targets to diseased proteins by compar-
+ing the observed distances with the distribution of distances from 
+randomly selected proteins. The multiscale interactome refers to a 
+network consisting of physical interactions between proteins and a 
+hierarchy of biological functions [17]. One study found that simu-
+lating the propagation of a compound or disease on a multiscale 
+interactome demonstrated state-of-the-art performance in pre-
+dicting therapeutic effects and uncovered key mechanisms. Using 
+this framework, Bak et al. successfully identiﬁed the active com-
+pounds in Bupleuri Radix and their key mechanisms against oxida-
+tive liver injury [40]. 
+Consistency analysis across NP-DBs 
+We explored the characteristics and discrepancies of the ingre-
+dients and target information within the NP-DBs. We ﬁrst mea-
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+sured the MCC values between known targets and those available 
+in each DB, building on the herb and herbal ingredient analyses 
+described in the previous section. Our analysis focused on 42 com-
+monly used herbs in the East Asian region, each containing at least 
+three ingredients, along with 36 herbal ingredients for which tar-
+get information is available in all NP-DBs. This selection criterion 
+aimed to analyze herbal medicines commonly used in practice, 
+addressing issues related to their practical utilization. We com-
+pared the number of ingredients per herb across selected DBs 
+and found that the average number of ingredients per herb was 
+129.6 (Fig. 2A). Speciﬁcally, SymMap and HERB had higher counts,
+Fig. 1. Analytical techniques utilized in network pharmacology analysis. (A) Compound-target prediction methods in network pharmacology database. Chemogenomic 
+approach predicts interactions using vectors formed by concatenating the features of compounds and their targets. Ensemble approach relies on a combined score computed 
+by ensembling scores derived from heterogeneous sources. Similarity score utilizes the maximum likelihood ratio based on various similarity scores for query compound-
+target pairs. (B) Herb-target association identiﬁcation. Network centrality identiﬁes key targets within the target network by evaluating node percentiles for degree, 
+closeness, and/or betweenness and selecting those surpassing a speciﬁc threshold. Pathcount threshold designates key targets based on the presence of a speciﬁed or greater 
+number of paths from an herb to that target. Degree-weighted path count downweights the pathcount for compounds found in many herbs (herb-compound degree, dHC) and 
+compounds with multiple targets (compound-target degree, dCT). The example on the right panel illustrates the computation of DWPC values for herb-target pairs enclosed 
+within the box, using parameters wHc= 0.5 and wCT=  1.  (C) Compound-disease prediction methods. Protein overlap calculates the overlapping targets between herb targets and 
+disease-related targets. Network proximity calculates the relative distance between herb targets and disease-related targets in protein–protein networks. Multiscale 
+interactome measures the inﬂuence of disease or herb/compound targets on the multiscale interactome and then calculates the distance between them.
+805
+whereas BATMAN-TCM, TCM-Mesh, and HIT had fewer ingredi-
+ents. We also identiﬁed 80 common ingredients across all DBs, 
+whereas 903 ingredients were unique to speciﬁc DBs (Supplemen-
+tary Fig. 1). To assess the impact of these frequency discrepancies, 
+we performed consistency analysis by calculating the relative 
+ranking of correlations for the same herb across different DBs. This 
+analysis presupposes that if ingredient information consistently 
+appears across DBs for a speciﬁc herb, there should be a higher cor-
+relation in the ingredient information for that herb than for differ-
+ent herbs in separate DBs. We found that, notably, the only 
+exceptions were all pairs involving the HIT DB; for all other pairs,
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 2. Characteristics and consistency of information across various network pharmacology databases. Herb-compound (upper ﬁgure) and compound-target (lower 
+ﬁgure) characteristics by database. In each subﬁgure: the left panel displays the distribution of associations by database; the central panel highlights frequently occurring 
+entities within the associations; and the right panel shows a correlation heatmap of herbs or ingredients between database pairs (lower triangle), paired with a distribution 
+plot for recall percentiles (upper triangle). Within each correlation heatmap, the diagonal line represents the correlation values for the ingredients of identical herbs and the 
+target information of the ingredients between the database pairs. Each distribution plot indicates the proportion of samples that achieved a recall value of 95% or higher.
+806
+
+
+the recall rate exceeded 90% in 10 out of 15 DB pairs. This suggests 
+that the differences in herbal ingredient information across DBs 
+may have a limited impact.
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+We further explored whether a similar pattern existed in the 
+target information for the selected ingredients. We counted the 
+number of targets in the ingredients and found that even for the 
+same ingredient groups, the number of targets varied signiﬁcantly 
+between DBs (Fig. 2B). Although only 189 targets were consistently 
+identiﬁed across all DBs, speciﬁc DBs offered up to 1,662 unique 
+targets (Supplementary Fig. 2). For quantitative assessment, we 
+performed a consistency analysis by computing the relative rank-
+ings of correlations between ingredients across pairs of DBs. Nota-
+bly, we observed low correlation values for the same ingredients 
+across different DB pairs. Our recall analysis showed that, even 
+when performing the same analysis, none of the DB pairs had a 
+recall rate exceeding 90%. This indicates that the target information 
+for the same ingredient can diverge, depending on the DB used for 
+the analysis. Our ﬁndings highlight the urgent need for a compre-
+hensive, large-scale analysis of NP-DBs. 
+Impact of NP-DBs on recapitulating known mechanisms 
+To evaluate the effectiveness of the target information provided 
+by the NP-DBs, we conducted a recapitulation task focused on the 
+known targets of herbs and their ingredients. Therefore, we 
+grouped all ingredient-target and herb-target associations into 
+known and unknown associations. Notably, the density of known 
+associations was low (1.3% for ingredient-target and 3.8% for 
+herb-target), and unknown associations also contained potentially 
+positive samples. Although these conditions pose obstacles to 
+accurate performance evaluation, they still provide valuable 
+insights into the characteristics of the information source and anal-
+ysis method. 
+We ﬁrst measured MCC values between known targets and 
+those available in each DB, based on the herb and herbal ingredient 
+analyses described in the previous section. All DBs outperformed 
+the chance level, with the TCM-Mesh achieving the highest score 
+of 0.14 (Fig. 3A, upper panel). We also measured the coverage of 
+each DB to predict ingredients with known targets. On average, 
+the DBs achieved a coverage of 0.40, with HERB and SymMap nota-
+bly standing out at 0.83 and 0.50, respectively. These ﬁndings indi-
+cated that the reliability and coverage of herbal compounds 
+exhibited unique patterns across different DBs.
+We further analyzed the changes in recapitulation performance 
+based on the combinations and aggregation methods across the 
+NP-DBs (Fig. 3B, upper panel). Initially, we found that intersecting 
+the target information from TCM-Mesh and HERB yielded the high-
+est precision score (0.278). Among combinations with coverage 
+greater than 0.5, uniting data from TCMSP, TCM-Mesh, SymMap, 
+and HERB showed the best performance, with an MCC of 0.07. 
+We observed minimal changes in performance when comparing 
+union and intersection methods for aggregating target information, 
+with all cases having an MCC of 0.06. However, when using the 
+intersection method, we observed increased precision at the 
+expense of reduced coverage, whereas the union approach yielded 
+the opposite result. As the number of combined platforms 
+increased, we observed a more pronounced tradeoff relationship 
+between the MCC value and coverage. 
+We extended the analysis to evaluate the performance of each 
+NP-DB and their combinations in recapitulating known target 
+information at the herb level. Our results demonstrated that all 
+DBs maintained coverage exceeding half, while achieving a perfor-
+mance that surpassed chance level (Fig. 3A, lower panel). Speciﬁ-
+cally, the highest coverage and MCC values were observed when 
+HERB was used. In contrast, TCMSP displayed the lowest values 
+for both metrics. Like our ﬁndings at the ingredient level, we 
+observed a tradeoff between precision and recall based on the 
+aggregation method used for NP-DBs at the herb level (Fig. 3B, 
+lower panel). Overall, our results highlighted that the methods 
+and combination strategies employed to construct networks for 
+herbal medicines can signiﬁcantly inﬂuence both predictive perfor-
+mance and coverage. 
+807
+Inﬂuence of analytical techniques on recapitulating known 
+mechanisms 
+We then assessed how network analysis techniques inﬂuenced 
+the recapitulation performance of known mechanisms in herbal 
+targets. Initially, we explored whether PPI network analysis of 
+the herbal targets could help elucidating these mechanisms. Sub-
+networks were constructed with targets from each DB as nodes 
+and known PPIs forming the edges. Subsequently, three types of 
+network centrality (degree, betweenness, and closeness) were 
+measured for each node. We then evaluated the recapitulating per-
+formance while varying the percentile thresholds for network cen-
+trality, classifying targets as ‘‘known” when they exceeded the 
+threshold, and ‘‘unknown” otherwise. The results indicated that 
+as the centrality score increased, the MCC values generally 
+decreased across most DBs. This trend was particularly evident 
+for BATMAN-TCM, TCM-Mesh, and HERB. However, SymMap and 
+TCMSP showed tendencies for increased MCC values within certain 
+centrality thresholds (0.4–0.8). Our ﬁndings indicate that the ben-
+eﬁts of using network centrality analysis in target protein net-
+works 
+vary 
+depending 
+on 
+the 
+speciﬁc 
+conditions 
+and 
+DB, 
+suggesting that this approach may not always be the most effective 
+for identifying core herbal targets. 
+Next, we focused on variations in performance for recapitulat-
+ing herbal targets based on path count (PC) percentile thresholds. 
+Initially, we observed a continuous decline in the MCC value start-
+ing from a PC threshold of 0.5 (Fig. 4B). However, precision exhib-
+ited a slight increase within the 0.5–0.8 threshold range, while 
+recall consistently decreased. Furthermore, we investigated how 
+downweighting PCs, particularly those involving high-degree 
+nodes, inﬂuenced the elucidation of key herbal targets. Using the 
+DWPC algorithm, we performed the same analysis across a wide 
+range of thresholds for the weight of the herb-ingredient path 
+and ingredient-target path 
+. We found that, as both 
+the 
+and 
+thresholds increased, the AUROC values also gen-
+erally increased (Fig. 4C). Speciﬁcally, our ﬁndings indicated that, 
+except for the TCM-Mesh for 
+and TCMSP for 
+employing 
+the DWPC algorithm to downweight PCs generally contributed to 
+performance 
+enhancement 
+across 
+most 
+DBs 
+(Supplementary 
+Fig. 3). By exploring various combinations of weighting parame-
+ters, we determined the optimal performance when 
+and 
+values were 1 and 0.4, respectively. By leveraging the optimal con-
+ditions, we determined the DWPC percentile threshold to recapit-
+ulate known herbal targets. Computing the DWPC percentiles for 
+the selected herbal targets and assessing the MCC for each thresh-
+old revealed that the 40% DWPC threshold consistently yielded the 
+highest MCC values (Fig. 4D). These ﬁndings suggest that the her-
+bal mechanisms can be identiﬁed more accurately by carefully 
+considering the weight of the PC.
+Evaluating the predictive performance of network models in 
+therapeutic effects 
+We further evaluated the utility of various network-based 
+approaches to identify the therapeutic effects of herbal medicines. 
+Three commonly used or potentially applicable methods, protein 
+overlap, network proximity, and multiscale interactome, were con-
+sidered. Using these methods, we calculated scores for all possible 
+pairs of herbal ingredients and diseases, as well as those for herbs
+(wHC) 
+(wCT)
+wHC 
+wCT 
+wHC 
+wCT, 
+wHC 
+wCT 
+
+
+and diseases (Fig. 5A). We then performed a discrimination task 
+using these scores to distinguish between the known and unknown 
+associations. Notably, similar to our previous tasks, the density of 
+known disease associations was quite low; therefore, the perfor-
+mance in this context might have been underestimated compared 
+with real-world scenarios. Nonetheless, this approach was valuable 
+for comparing the characteristics of each prediction method.
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 3. Recapitulation performance for herbal compounds (upper ﬁgure) and herbs (lower ﬁgure) across different databases and combinations. (A) Distribution of 
+recapitulating performance and coverage for known targets in compounds and herbs by database. (B) Distribution of performance in rediscovering known targets by platform 
+combination methods and the number of platforms used in the combination.
+We found that all network-based approaches outperformed 
+chance level performances for both herbal ingredient-disease and 
+herb-disease pairs (Fig. 5B). The protein overlap method yielded 
+satisfactory 
+AUROC 
+and 
+AUPR 
+values. 
+However, 
+using 
+this 
+approach, only approximately one-third of the herbal medicine-
+disease pairs yielded similarity scores greater than zero, leaving 
+the majority of pairs unprioritized owing to a score of zero. This 
+suggests that the protein overlap method may be limited in scope 
+for discerning the therapeutic effects of herbal medicines and their 
+ingredients. We also observed that the network proximity method 
+produced lower AUROC and AUPR values compared to the other 
+methods, suggesting that considering only closeness within a sim-
+ple PPI network may not be sufﬁcient for discerning therapeutic 
+effects. In contrast, the multiscale interactome method outper-
+formed the other methods both AUROC and AUPR. This highlights 
+the importance of considering PPIs and their relationships with 
+biological functions when determining the therapeutic effects of 
+herbal medicines. 
+We analyzed performance distribution based on a combination 
+of platforms and prediction methods (Fig. 5C). In most combina-
+tions, we conﬁrmed that the performance surpassed chance level. 
+Using known targets led to superior predictive outcomes for both 
+the herbs and herbal ingredients. This suggests that, when sufﬁ-
+cient data are available, relying solely on validated information is 
+beneﬁcial. However, the other methods exhibited substantial per-
+formance. HERB–multiscale interactome combination yielded the 
+best performance for herbal ingredients, whereas SymMap–multi-
+scale interactome combination was the most effective for herbs. 
+Overall, these ﬁndings underscore that the predictive accuracy of 
+the therapeutic effects of herbal medicines can vary based on the 
+combination of network methods employed. 
+808
+Case study on determining the therapeutic effects of herbs 
+We sought to validate whether the identiﬁed optimal datasets 
+and conditions could help predicting the therapeutic effects of 
+herbs in various diseases. Using the multiscale interactome 
+approach on the paper target, which showed the highest perfor-
+mance in predicting therapeutic effects, we prioritized the rela-
+tionship between herbs and diseases. We discovered that nearly 
+half (4 out of 10) of the prioritized herb-disease associations had 
+already been reported (Table 2)). Furthermore, we explored 
+whether the unreported associations among the prioritized results 
+could indicate the potential therapeutic effects of the herbs. We 
+chose to focus on prostate neoplasm because it is both a top-
+predicted result and a disease of signiﬁcant therapeutic impor-
+tance, with a rising prevalence and global impact. Given its rele-
+vance, we explored the potential treatments and mechanisms of 
+prostate cancer in detail. We conﬁrmed that PR and LE showed 
+high correlation scores with prostate cancer, along with GF, which 
+is included in the top 10 rankings, without any reported evidence. 
+Despite their high rankings, these components have not yet been 
+reported in literature, indicating a unique opportunity to uncover 
+new therapeutic effects and mechanisms.
+To assess the in vivo anticancer efﬁcacy of herbal extracts, we 
+used a PC3 xenograft mouse model (Fig. 6A). Tumor volumes and 
+body weights were measured daily to evaluate the effects of herbal 
+extracts on tumor growth and overall health. We found that high 
+doses of PR, LE, and GF signiﬁcantly suppressed tumor growth 
+compared to the control group (Fig. 6A, upper panel). Tumor vol-
+umes were measured daily using a digital caliper, and the data
+
+
+reduced tumor growth and supported body weight in a PC3 xeno-
+graft mouse model after oral administration.
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 4. Performance distribution of herb-target associations based on network analysis methods. (A) Performance changes based on PPI network analysis of herb targets. 
+Each plot represents the Matthews correlation coefﬁcient value for herb-target pairs exceeding a given centrality percentile threshold for known herb targets. (B) 
+Performance distribution according to path count percentile. Each plot displays the distribution of the Matthews correlation coefﬁcient, precision, and recall between herb-
+target pairs exceeding a speciﬁed path count percentile threshold and known herb-target pairs. (C) Performance variation based on downweighting of the herb-compound-
+target network. The left plot depicts the AUROC value between the path count and known herb-target pairs as 
+and 
+vary. The right heatmap illustrates the average 
+AUROC values for potential combinations of the downweighting parameters. (D) Performance variation according to downweighted path count percentile based on optimal 
+conditions.
+showed a clear reduction in tumor size in mice treated with high 
+doses of the herbal extracts. Fig. 6A (lower panel) shows represen-
+tative images of tumors from each treatment group, demonstrating 
+visual differences in tumor size. Body weight changes were moni-
+tored daily and expressed as percentages relative to day 1 (Fig. 6A, 
+middle panel). High doses of PR, LE, and GF mitigated body weight 
+loss typically associated with tumor progression. These results sug-
+gest that the herbal extracts not only inhibited tumor growth but 
+also supported overall health and body weight in treated mice. Sta-
+tistical analysis conﬁrmed signiﬁcant differences between treat-
+ment groups. These ﬁndings highlight the therapeutic potential 
+of PR, LE, and GF in treating prostate cancer, as they signiﬁcantly 
+809
+To verify the in vitro anticancer effects of PR, LE, and GF on pros-
+tate cancer cell lines, we performed a series of assays. The MTT 
+assay revealed a dose- and time-dependent decrease in cell viabil-
+ity in PC3 and LNCaP cells, most notably at 72 h and 3,000 lg/mL 
+(Fig. 6B). A colony-forming assay showed that treatment with 
+these herbs inhibited clonogenic growth, indicating their long-
+term effects on cell survival (Fig. 7A). Flow cytometry with Annexin 
+V/PI staining demonstrated that PR, LE, and GF signiﬁcantly 
+increased apoptosis rates in PC3 and LNCaP cells compared to con-
+trols (Fig. 7B). Western blot analysis conﬁrmed these ﬁndings,
+wHC 
+wCT 
+
+
+showing that the expression of anti-apoptotic proteins Bcl-2 and 
+Mcl-1 decreased, while markers of apoptosis, such as cleaved PARP 
+and the b form of STAT3, increased after treatment with PR, LE, and 
+GF. Notably, the cleaved form of caspase 3, a key executor of apop-
+tosis, was upregulated, especially in LNCaP cells treated with these 
+herbs (Fig. 7C and E). These assays collectively demonstrated the 
+multifaceted anticancer activity of PR, LE, and GF, showcasing their 
+ability to reduce cell viability, inhibit proliferation, and induce sig-
+niﬁcant apoptosis.
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 5. Distribution of prediction performance for herbal compounds (upper ﬁgure) and herbs (lower ﬁgure) based on databases and prediction methods.  (A) 
+Schematic representation of the tasks for determining therapeutic effects and evaluations of network-based prediction methods. (B) Performance curves of network-based 
+prediction methods for known therapeutic effects. (C) Distribution by platform and prediction method for known therapeutic effects. Overlap: protein overlap; proximity: 
+network proximity; MSI: multiscale interactome. HERB (mining) represents data integrated from other databases, while HERB (paper) includes experimentally validated 
+targets. Both datasets are provided by the HERB database.
+Table 2 
+Prioritized herb-indication pairs based on known herb targets and their reported evidence. 
+Herb ID
+Disease ID
+Herb name (latin name)
+Disease name
+Reported evidence (PMID) 
+herb007244
+HBDIS001721
+Petiolus trachycarpi
+Acute Promyelocytic Leukemia
+. 
+herb000960
+HBDIS005061
+Vinegar
+Cocaine-Related Disorders
+. 
+herb003658
+HBDIS002540
+Herba ephedrae
+Pulmonary Fibrosis
+21,565,143 
+herb003354
+HBDIS002687
+Melia azedarach
+Schizophrenia
+. 
+herb000960
+HBDIS002070
+Vinegar
+Neoplasm Metastasis
+. 
+herb003658
+HBDIS000265
+Herba ephedrae
+Asthma
+36,215,828 
+herb005069
+HBDIS002488
+Granati fructus
+Prostatic Neoplasms
+. 
+herb005017
+HBDIS002028
+Rhizoma zingiberis recens
+Myocarditis
+33,628,715 
+herb000960
+HBDIS001615
+Vinegar
+Kidney Calculi
+31,202,812 
+herb001239
+HBDIS000372
+Erigeron breviscapus
+Bone neoplasms
+810
+We further explored the effects of PR, LE, and GF on cell cycle 
+progression and metastasis. Western blot analysis indicated that 
+PR and LE signiﬁcantly downregulated the expression of Cyclin 
+D1 and Cdk6 and inhibited Cdk2 expression, whereas GF had sim-
+ilar effects with speciﬁcity for LNCaP cells. Upregulation of Cdk 
+inhibitors p19, p21, and p27 by these herbs further highlighted 
+their inﬂuence on cell cycle regulation (Fig. 7D and E). Additionally, 
+a wound healing assay demonstrated that PR, LE, and GF effectively 
+hindered cell migration in both PC3 and LNCaP cells, with PR
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 6. Effects of predicted herbs on tumor growth in prostate cancers in vivo and in vitro. A. Effects of on tumor size in PC-3 xenograft mouse model. Tumor growth 
+(upper panel), body weight changes (middle panel) and the representation of xenograft tumor size reduction (lower panel) in a PC-3 xenograft mouse model. Tumor volumes 
+and body weights were measured daily. Both low doses (500 mg/kg) and high doses (1500 mg/kg) of PR, LE, and GF suppressed tumor growth and reduced body weight loss 
+(n > 8). Statistical analysis was performed using Two-way ANOVA with Dunnett’s multiple comparison test (*p < 0.05, **p < 0.01 vs. control; #p < 0.05, ##p < 0.01 vs. 
+xenograft). PR, Puerariae Radix; LE, Lithospermum Erythrorhizon; GF, Granati Fructus; Xeno, xenograft control; DOX, doxorubicin. B. Cell viability measured using MTT assay in 
+PC3 and LNCaP cells treated with PR, LE, and GF at the indicated concentrations and times (comparison with control, * p < 0.05, ** p < 0.01).
+811
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Fig. 7. The effects of predicted herbs on cell proliferation, migration and apoptosis in PC3 and LNCaP cells. A. Colony formation assay: Cells treated with PR, LE, and GF at 
+3,000 lg/ml for 72 h were stained with Annexin V/PI to categorize the cell population into viable, apoptotic, late apoptotic, and necrotic cells (The representative bands are the 
+results of experiments repeated at least four times). B. Flow cytometry analysis: Cells treated with PR, LE, and GF at 3,000 lg/ml for 72 h were stained with Annexin V/PI to 
+categorize the cell population into viable, apoptotic, late apoptotic, and necrotic cells. C. Immunoblotting analysis of apoptosis-related proteins in cells treated with PR, LE, and 
+GF at 3,000 lg/ml for 72 h. D. Immunoblotting analysis of cell cycle-related proteins in cells treated with PR, LE, and GF at 3,000 lg/ml for 72 h. E. Statistical analysis of protein 
+of interest. (*p < 0.05, **p < 0.01 vs. control). F. Scratch wound healing assay: Cells were treated with PR, LE, and GF at 3,000 lg/ml for 72 h, and real-time imaging of scratch 
+conﬂuence was conducted (scale bar = 1,000 lm). The data represent the percentage change in scratch gap (*p < 0.05, **p < 0.01 PR; #p < 0.05, ##p < 0.01 LE; p < 0.01 GF vs. 
+control). PR, Puerariae Radix; LE, Lithospermum Erythrorhizon; GF, Granati Fructus. 
+812
+
+
+showing a notable reduction in migration as early as 12 h in LNCaP 
+cells and 24 h in PC3 cells (Fig. 7F). Overall, our results indicate that 
+the potent anticancer properties of PR, LE, and GF are mediated by 
+their effects on cell migration and modulation of cell cycle-related 
+proteins. 
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+Discussion 
+Our critical evaluation serves as a cornerstone for understand-
+ing current NP analysis of herbal medicine, focusing on underlying 
+mechanisms and therapeutic effects. Initially, we outlined the net-
+work construction process, highlighting the diverse DBs used for 
+compound identiﬁcation, target prediction, and key analytical tools 
+to discern herbal mechanisms and therapeutic roles. Our explora-
+tory analysis revealed high consistency in ingredient information 
+across herbal medicine DBs, yet signiﬁcant disparities in target 
+information, emphasizing the need for a thorough evaluation. In 
+our recapitulation task, the performance and coverage patterns 
+were signiﬁcantly inﬂuenced by the choice of NP-DBs, their combi-
+nation methods, and analysis techniques such as network central-
+ity and weighted PC. Further analysis of the therapeutic effects 
+highlighted the multiscale interactome method as particularly 
+effective, especially when combined with data sources such as 
+HERB and SymMap. Our case study on prostate cancer reinforced 
+these ﬁndings, conﬁrming the potential of our approach to uncover 
+novel therapeutic effects in real-world scenarios. 
+Our analysis focuses on the consistency of NP-DB data, reveal-
+ing signiﬁcant inconsistencies, particularly in ingredient–target 
+associations (Fig. 2). While herb–ingredient associations were gen-
+erally consistent, with recall rates exceeding 90% across most data-
+base 
+pairs 
+except 
+those 
+involving 
+HIT, 
+ingredient–target 
+associations showed marked divergence between databases. HIT 
+contained very few ingredients per herb (an average of fewer than 
+ﬁve) because it only includes ingredients with experimentally val-
+idated targets. These discrepancies likely stem from the intrinsic 
+characteristics and data curation methods of each database. For 
+example, SymMap and HERB compile comprehensive herb infor-
+mation by incorporating data from existing NP-DBs, whereas 
+BATMAN-TCM and TCM-Mesh select ingredients based on criteria 
+such as the availability of PubChem CIDs. In contrast, HIT focuses 
+solely on experimentally validated targets, resulting in a much 
+smaller dataset, with an average of fewer than ﬁve targets per herb. 
+This inconsistency poses challenges for researchers, leading to 
+varying interpretations of an herb’s mechanism of action depend-
+ing on the database. Our ﬁndings underscore the urgent need for 
+a standardized approach to data collection and integration in NP-
+DBs to improve the reliability of network pharmacology analyses 
+involving herbal medicines. 
+We compared various methods for key target identiﬁcation in 
+network analysis and recognized that the characteristics of these 
+methods, according to the assumptions on which they rely, affect 
+their applicability (Fig. 4). For instance, approaches like protein– 
+protein interaction (PPI) network analysis, which perform effec-
+tively in social networks [41,42], assume that targets centrally 
+located in the PPI subnetwork are naturally pivotal. However, this 
+assumption may not hold true in the complex networks of herbal 
+compounds and their targets, making the efﬁcacy of identifying 
+key herbal targets elusive. Recent studies have highlighted that 
+the inﬂuence of drugs is more local than global within a network 
+[23], suggesting that the closeness between drug targets and 
+disease-related proteins is crucial in determining therapeutic 
+effects. Therefore, beyond global centrality measures, detailed 
+investigation into the local relationships between herbal medicines 
+and diseases within the network is warranted. Similarly, the use of 
+path counts (PCs) can be limited by the uniform consideration of all 
+paths, regardless of whether they originate from common ingredi-
+ents or those with extensive target proﬁles. High-degree nodes 
+often correspond to biologically general or nonspeciﬁc entities, 
+providing limited speciﬁc information [22]. Results from the DWPC 
+algorithm 
+suggest 
+that 
+downweighting 
+herb-compound 
+and 
+compound-target paths involving high-degree nodes can elucidate 
+known mechanisms of herbal medicines more accurately. Differen-
+tiating the weights of PCs based on node characteristics—such as 
+downweighting paths associated with high-degree nodes—could 
+reﬁne the analysis. Adjusting path weighting in this way may lead 
+to a more accurate elucidation of key mechanisms, enhancing our 
+understanding of how herbal medicines exert their therapeutic 
+effects. Overall, these insights highlight the need for nuanced ana-
+lytical techniques that consider the unique properties of herbal 
+medicine networks to improve key target identiﬁcation. 
+813
+To the best of our knowledge, this study represents a pioneering 
+effort to systematically investigate the therapeutic effects of natu-
+ral products (Fig. 5). Historically, the identiﬁcation of disease treat-
+ments through NP has predominantly focused on the measures of 
+protein overlap and network proximity. These are conducted based 
+on the assumption that a drug that tends to overlap with a disease 
+and its proteins will treat that disease, or that a target occupying 
+an important network position in the relationship between 
+selected proteins will play a crucial role. However, the applicability 
+of these foundational beliefs to understand the intricacies of natu-
+ral products remains a topic of debate. Our ﬁndings suggest that 
+protein overlap is limited and only effective for a restricted spec-
+trum of therapeutic effects. Although network proximity encom-
+passes protein relationships within a network, its efﬁcacy often 
+mirrors random outcomes, suggesting that merely focusing on pro-
+tein interactions in natural products may generate misleading con-
+clusions. In contrast, our research indicated that evaluating the 
+effects within a multiscale interactome can provide a more reliable 
+prediction for identifying therapeutic effects. 
+To validate the potential of a novel therapeutic approach for 
+prostate cancer predicted by our research, we conducted in vitro 
+experiments to conﬁrm its effects. In our study, we conﬁrmed that 
+the predicted herbs PR, LE, and GF inhibited cell viability, prolifer-
+ation, and migration by regulating proteins involved in apoptosis 
+and cell cycle regulation (Fig. 6). Moreover, we conﬁrmed the 
+in vivo effects of the predicted herbs on tumor growth inhibition 
+in nude mice xenografted with PC3 cells (data not shown). PR is 
+a widely used traditional herb for various conditions such as car-
+diovascular 
+diseases, 
+diabetes 
+mellitus, 
+and 
+deafness 
+[43]. 
+Although studies on the anticancer effects of PR in vivo and 
+in vitro are lacking, the isoﬂavones present in PR induce apoptosis 
+and cell cycle arrest in the G2/M phase in breast cancer cells [44]. 
+LE has antioxidant properties [45] and suppresses high-fat diet-
+induced obesity [46]. In addition, LE has also been shown to exhibit 
+anticancer effects by inducing apoptosis and G1 phase arrest in 
+B16F10 melanoma cells. Additionally, it has shown potential anti-
+cancer effects in a C57BL/6 mouse model [47]. GF has demon-
+strated anti-inﬂammatory effects both in vivo and in vitro [48].  It  
+has therapeutic and preventive effects against various chronic 
+human diseases, including an atherogenic lipoprotein proﬁle, 
+imbalanced antioxidative status, and disrupted glucose tolerance 
+[49]. In line with this, several ingredients have been studied as 
+anti-cancer agents in clinical trials [50]. Dietary supplements like 
+saw palmetto and green tea extract have also shown effects on 
+prostate cancer in randomized controlled trials (RCTs) [51]. Nota-
+bly, clinical studies have explored herbal components such as 
+genistein and daidzein found in PR, as well as vitamin C and cate-
+chin present in GF, for their roles in regulating prostate cancer pro-
+gression [52,53,54]. These previous and current ﬁndings suggest 
+that the predicted herbs in this study have potential efﬁcacy 
+against prostate cancer. However, further research, including RCTs,
+
+
+is needed to conﬁrm the beneﬁcial effects of PR, LE, and GF on pros-
+tate cancer and other human cancers. 
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+This study may contain several limitations that may require fur-
+ther evaluation and reﬁnement. First, the known therapeutic 
+effects analyzed are primarily based on in vivo experiments, sug-
+gesting the need for additional clinical studies to validate these 
+ﬁndings in a real-world context. Second, our analysis relied on a 
+single database for known target and therapeutic effects, which 
+may introduce bias due to the limited scope and curation criteria 
+of the database. Lastly, while our computational methods are 
+robust, they do not fully account for the complex pharmacokinetics 
+and interactions of multiple compounds within herbal formula-
+tions, which could inﬂuence therapeutic outcomes. Nevertheless, 
+this study represents the ﬁrst systematic analysis and validation 
+of the therapeutic effects of herbal medicine through network 
+pharmacology, laying a strong foundation for future research in 
+this area. 
+Conclusion 
+Our study systematically evaluated the methodologies of NP in 
+herbal medicine and provided essential insights into the mecha-
+nisms and therapeutic effects of herbal ingredients. We emphasize 
+the signiﬁcance of methodological approaches in network con-
+struction and analysis, particularly the advantages of multiscale 
+interactomes over traditional methods, such as protein overlap 
+and network proximity. Our empirical validation further afﬁrmed 
+the potential of NP to identify and substantiate novel therapeutic 
+effects, as exempliﬁed by its successful application in prostate can-
+cer treatment, thereby establishing a precedent for future research 
+in this promising ﬁeld. 
+CRediT authorship contribution statement 
+Won-Yung Lee: Conceptualization, Methodology, Writing – 
+original draft, Supervision. Kwang-Il Park: Investigation, Visual-
+ization, Writing – original draft. Seon-Been Bak: Software, Formal 
+analysis, Writing – original draft. Seungho Lee: Formal analysis, 
+Project administration, Supervision, Writing – review & editing. 
+Su-Jin Bae: Validation, Resources. Min-Jin Kim: Formal analysis, 
+Data curation. Sun-Dong Park: Resources, Writing – review & edit-
+ing. Choon Ok Kim: Resources, Writing – review & editing. Ji-
+Hwan Kim: Funding acquisition, Writing – review & editing. 
+Young Woo Kim: Conceptualization, Supervision, Writing – 
+review & editing, Funding acquisition. Chang-Eop Kim: Conceptu-
+alization, Methodology, Writing – review & editing. 
+Funding 
+This research was supported by grants from the National 
+Research Foundation of Korea (NRF) funded by the Korean govern-
+ment 
+(MSIT) 
+(grant 
+numbers 
+RS-2023–00243363, 
+RS-2023– 
+00218419, RS-2024–00449029, and RS-2024–00335030), the Min-
+istry
+of
+Education
+(NRF–2022R1I1A2066653
+and 
+2022R1I1A3053818), and the Korea Health Technology R&D Pro-
+ject through the Korea Health Industry Development Institute 
+(KHIDI), funded by the Ministry of Health & Welfare, Republic of 
+Korea (grant number: HF20C0212). 
+Declaration of competing interest 
+The authors declare that they have no known competing ﬁnan-
+cial interests or personal relationships that could have appeared 
+to inﬂuence the work reported in this paper. 
+814
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at 
+https://doi.org/10.1016/j.jare.2024.12.040. 
+References 
+[1] Katashima CK, de Oliveira MT, Braga RR, Gaspar RS, Goeminne LJ, Moura-Assis 
+A, et al. Evidence for a neuromuscular circuit involving hypothalamic 
+interleukin-6 in the control of skeletal muscle metabolism. Sci Adv 2022;8 
+(30). doi: https://doi.org/10.1126/sciadv.abm7355. 
+[2] Luo L, Jiang J, Wang C, Fitzgerald M, Hu W, Zhou Y, et al. Analysis on herbal 
+medicines utilized for treatment of COVID-19. Acta Pharm Sin B 2020;10 
+(7):1192–204. doi: https://doi.org/10.1016/j.apsb.2020.05.007. 
+[3] Luo H, Vong CT, Chen H, Gao Y, Lyu P, Qiu L, et al. Naturally occurring anti-
+cancer compounds: shining from Chinese herbal medicine. Chin Med 2019;14 
+(1):48. doi: https://doi.org/10.1186/s13020-019-0268-2. 
+[4] Peng F, Xie X, Peng C. Chinese herbal medicine-based cancer therapy: novel 
+anticancer agents targeting microRNAs to regulate tumor growth and 
+metastasis. 
+Am 
+J 
+Chin 
+Med 
+2019;47(8):1711–35. 
+doi: 
+https://doi.org/ 
+10.1142/S0192415X19500838. 
+[5] Long F, Yang H, Xu Y, Hao H, Li P. A strategy for the identiﬁcation of 
+combinatorial bioactive compounds contributing to the holistic effect of herbal 
+medicines. Sci Rep 2015;5(1):12361. doi: https://doi.org/10.1038/srep12361. 
+[6] Zhang GB, Li QY, Chen QL, Su SB. Network pharmacology: a new approach for 
+Chinese herbal medicine research. Evid Based Complement Alternat Med 
+2013;2013:. doi: https://doi.org/10.1155/2013/621423621423. 
+[7] Li S, Zhang B. Traditional Chinese medicine network pharmacology: theory, 
+methodology and application. Chin J Nat Med 2013;11(2):110–20. doi: https:// 
+doi.org/10.1016/S1875-5364(13)60037-0. 
+[8] Hopkins AL. Network pharmacology: the next paradigm in drug discovery. Nat 
+Chem Biol 2008;4(11):682–90. doi: https://doi.org/10.1038/nchembio.118. 
+[9] Lee W-Y, Lee C-Y, Kim Y-S, Kim C-E. The methodological trends of traditional 
+herbal medicine employing network pharmacology. Biomolecules 2019;9 
+(8):362. doi: https://doi.org/10.3390/biom9080362. 
+[10] Zhang R, Zhu X, Bai H, Ning K. Network pharmacology databases for traditional 
+chinese medicine: review and assessment. Front Pharmacol 2019;10:123. doi: 
+https://doi.org/10.3389/fphar.2019.00123. 
+[11] Xin W, Zi-Yi W, Zheng J-H, Shao L. TCM network pharmacology: a new trend 
+towards combining computational, experimental and clinical approaches. Chin 
+J Nat Med 2021;19(1):1–11. doi: https://doi.org/10.1016/S1875-5364(21) 
+60001-8. 
+[12] Ru J, Li P, Wang J, Zhou W, Li B, Huang C, et al. TCMSP: a database of systems 
+pharmacology for drug discovery from herbal medicines. J Cheminform 2014;6 
+(1):1–6. doi: https://doi.org/10.1186/1758-2946-6-13. 
+[13] Zhang R-z, Yu S-j, Bai H, Ning K. TCM-Mesh: the database and analytical 
+system for network pharmacology analysis for TCM preparations. Sci Rep 
+2017;7(1):2821. doi: https://doi.org/10.1038/s41598-017-03039-7. 
+[14] Liu Z, Guo F, Wang Y, Li C, Zhang X, Li H, et al. BATMAN-TCM: a bioinformatics 
+analysis tool for molecular mechanism of traditional Chinese medicine. Sci Rep 
+2016;6(1):21146. doi: https://doi.org/10.1038/srep21146. 
+[15] Wu Y, Zhang F, Yang K, Fang S, Bu D, Li H, et al. SymMap: an integrative 
+database of traditional Chinese medicine enhanced by symptom mapping. 
+Nucleic Acids Res 2019;47(D1). doi: https://doi.org/10.1093/nar/gky1021. 
+[16] Fang S, Dong L, Liu L, Guo J, Zhao L, Zhang J, et al. HERB: a high-throughput 
+experiment-and reference-guided database of traditional Chinese medicine. 
+Nucleic Acids Res 2021;49(D1). doi: https://doi.org/10.1093/nar/gkaa1063. 
+[17] Ruiz C, Zitnik M, Leskovec J. Identiﬁcation of disease treatment mechanisms 
+through the multiscale interactome. Nat Commun 2021;12(1):1796. doi: 
+https://doi.org/10.1038/s41467-021-21770-8. 
+[18] Chandra RV, Varanasi BS. Python requests essentials. Birmingham, UK: Packt 
+Publishing; 2015. 
+[19] Subramanian A, Narayan R, Corsello SM, Peck DD, Natoli TE, Lu X, et al. A next 
+generation connectivity map: L1000 platform and the ﬁrst 1,000,000 proﬁles. 
+Cell 2017;171(6). doi: https://doi.org/10.1016/j.cell.2017.10.049. 1437-52.e17. 
+[20] Yang M, Chen J-L, Xu L-W, Ji G. Navigating traditional Chinese medicine 
+network pharmacology and computational tools. Evid Based Complement 
+Alternat Med 2013. doi: https://doi.org/10.1155/2013/731969. 
+[21] Bonacich P. Some unique properties of eigenvector centrality. Soc Netw 
+2007;29(4):555–64. doi: https://doi.org/10.1016/j.socnet.2007.04.002. 
+[22] Himmelstein DS, Baranzini SE. Heterogeneous network edge prediction: a data 
+integration approach to prioritize disease-associated genes. PLoS Comput Biol 
+2015;11(7). doi: https://doi.org/10.1371/journal.pcbi.1004259. 
+[23] Guney E, Menche J, Vidal M, Barabási A-L. Network-based in silico drug 
+efﬁcacy 
+screening. 
+Nat 
+Commun 
+2016;7(1):10331. 
+doi: 
+https://doi.org/ 
+10.1038/ncomms10331. 
+[24] Safety MoFaD. The Korean pharmacopoeia. Seoul, Korea; 2022. 
+[25] Xue R, Fang Z, Zhang M, Yi Z, Wen C, Shi T. TCMID: traditional Chinese 
+medicine integrative database for herb molecular mechanism analysis. Nucleic 
+Acids Res 2012;41(D1). doi: https://doi.org/10.1093/nar/gks1100. 
+[26] Xu X, Zhang W, Huang C, Li Y, Yu H, Wang Y, et al. A novel chemometric 
+method for the prediction of human oral bioavailability. Int J Mol Sci 2012;13 
+(6):6964–82. doi: https://doi.org/10.3390/ijms13066964.
+
+
+W.-Y. Lee, K.-I. Park, S.-B. Bak et al.
+Journal of Advanced Research 76 (2025) 799–815
+[27] Huang J, Cheung F, Tan HY, Hong M, Wang N, Yang J, et al. Identiﬁcation of the 
+active compounds and signiﬁcant pathways of yinchenhao decoction based on 
+network pharmacology. Mol Med Rep 2017;16(4):4583–92. doi: https://doi. 
+org/10.3892/mmr.2017.7149. 
+[28] Xu L, Zhang Y, Zhang P, Dai X, Gao Y, Lv Y, et al. Integrated metabolomics and 
+network pharmacology strategy-driven active traditional Chinese medicine 
+ingredients discovery for the alleviation of cisplatin nephrotoxicity. Chem Res 
+Toxicol
+2019;32(12):2411–21.
+doi:
+https://doi.org/10.1021/acs. 
+chemrestox.9b00180. 
+[29] Tao W, Xu X, Wang X, Li B, Wang Y, Li Y, et al. Network pharmacology-based 
+prediction of the active ingredients and potential targets of Chinese herbal Radix 
+Curcumae formula for application to cardiovascular disease. J Ethnopharmacol 
+2013;145(1):1–10. doi: https://doi.org/10.1016/j.jep.2012.09.051. 
+[30] Ye H, Ye L, Kang H, Zhang D, Tao L, Tang K, et al. HIT: linking herbal active 
+ingredients to targets. Nucleic Acids Res 2010;39(suppl_1). doi: https://doi. 
+org/10.1093/nar/gkq1165. 
+[31] Yan D, Zheng G, Wang C, Chen Z, Mao T, Gao J, et al. HIT 2.0: an enhanced 
+platform for Herbal Ingredients’ Targets. Nucleic Acids Res 2022;50(D1): 
+D1238–43. doi: https://doi.org/10.1093/nar/gkab1011. 
+[32] Wishart DS, Feunang YD, Guo AC, Lo EJ, Marcu A, Grant JR, et al. DrugBank 5.0: 
+a major update to the DrugBank database for 2018. Nucleic Acids Res 2018;46 
+(D1). doi: https://doi.org/10.1093/nar/gkx1037. 
+[33] Yu H, Chen J, Xu X, Li Y, Zhao H, Fang Y, et al. A systematic prediction of 
+multiple 
+drug-target 
+interactions 
+from 
+chemical, 
+genomic, 
+and 
+pharmacological data. PLoS One 2012;7(5). doi: https://doi.org/10.1371/ 
+journal.pone.0037608. 
+[34] Perlman L, Gottlieb A, Atias N, Ruppin E, Sharan R. Combining drug and gene 
+similarity measures for drug-target elucidation. J Comput Biol 2011;18 
+(2):133–45. doi: https://doi.org/10.1089/cmb.2010.0213. 
+[35] Szklarczyk D, Santos A, Von Mering C, Jensen LJ, Bork P, Kuhn M. STITCH 5: 
+augmenting protein–chemical interaction networks with tissue and afﬁnity 
+data. 
+Nucleic 
+Acids 
+Res 
+2016;44(D1). 
+doi: 
+https://doi.org/10.1093/nar/ 
+gkv1277. 
+[36] Barabási AL, Gulbahce N, Loscalzo J. Network medicine: a network-based 
+approach to human disease. Nat Rev Genet 2011;12(1):56–68. doi: https://doi. 
+org/10.1038/nrg2918. 
+[37] Estrada 
+E, 
+Rodriguez-Velazquez 
+JA. 
+Subgraph 
+centrality 
+in 
+complex 
+networks. PhysRevE 2005;71(5):. doi: https://doi.org/10.1103/PhysRevE.71. 
+056103056103. 
+[38] Zhang 
+QR, 
+Zhong 
+ZF, 
+Sang 
+W, 
+Xiong 
+W, 
+Tao 
+HX, 
+Zhao 
+GD, 
+et 
+al. 
+Comparative comprehension on the anti-rheumatic Chinese herbal medicine 
+Siegesbeckiae Herba: Combined computational predictions and experimental 
+investigations. 
+J 
+Ethnopharmacol 
+2019;228:200–9. 
+doi: 
+https://doi.org/ 
+10.1016/j.jep.2018.09.023. 
+[39] Tang J, Aittokallio T. Network pharmacology strategies toward multi-target 
+anticancer therapies: from computational models to experimental design 
+principles. Curr Pharm Des 2014;20(1):23–36. doi: https://doi.org/10.2174/ 
+13816128113199990470. 
+[40] Bak SB, Song YR, Bae SJ, Lee WY, Kim YW. Integrative approach to uncover 
+antioxidant properties of Bupleuri Radix and its active compounds: Multiscale 
+interactome-level analysis with experimental validation. Free Radic Biol Med 
+2023;199:141–53. doi: https://doi.org/10.1016/j.freeradbiomed.2023.02.016. 
+815
+[41] Woods J, Galbraith B, Hewitt-Dundas N. Network centrality and open 
+innovation: a social network analysis of an SME manufacturing cluster. IEEE 
+Trans 
+Eng 
+Manag 
+2019;69(2):351–64. 
+doi: 
+https://doi.org/10.1109/ 
+TEM.2019.2934765. 
+[42] Landherr A, Friedl B, Heidemann J. A critical review of centrality measures in 
+social networks. Bus Inf Syst Eng 2010;2:371–85. doi: https://doi.org/10.1007/ 
+s12599-010-0127-3. 
+[43] Zhang Z, Lam TN, Zuo Z. Radix Puerariae: an overview of its chemistry, 
+pharmacology, pharmacokinetics, and clinical use. J Clin Pharmacol 2013;53 
+(8):787–811. doi: https://doi.org/10.1002/jcph.96. 
+[44] Lin YJ, Hou YC, Lin CH, Hsu YA, Sheu JJ, Lai CH, et al. Puerariae radix isoﬂavones 
+and their metabolites inhibit growth and induce apoptosis in breast cancer 
+cells. Biochem Biophys Res Commun 2009;378(4):683–8. doi: https://doi.org/ 
+10.1016/j.bbrc.2008.10.178. 
+[45] Han J, 
+Weng X, Bi 
+K. Antioxidants 
+from a Chinese medicinal herb– 
+Lithospermum erythrorhizon. Food Chem 2008;106(1):2–10. doi: https://doi. 
+org/10.1016/j.foodchem.2007.01.031. 
+[46] Gwon SY, Ahn JY, Chung CH, Moon B, Ha TY. Lithospermum erythrorhizon 
+suppresses 
+high-fat 
+diet-induced 
+obesity, 
+and 
+acetylshikonin, 
+a 
+main 
+compound 
+of 
+Lithospermum 
+erythrorhizon, 
+inhibits 
+adipocyte 
+differentiation. J Agric Food Chem 2012;60(36):9089–96. doi: https://doi. 
+org/10.1021/jf3017404. 
+[47] Rajasekar S, Park C, Park S, Park YH, Kim ST, Choi YH, et al. In vitro and in vivo 
+anticancer effects of Lithospermum erythrorhizon extract on B16F10 murine 
+melanoma. 
+J 
+Ethnopharmacol 
+2012;144(2):335–45. 
+doi: 
+https://doi.org/ 
+10.1016/j.jep.2012.09.017. 
+[48] Lee CJ, Chen LG, Liang WL, Wang CC. Anti-inﬂammatory effects of Punica 
+granatum Linne in vitro and in vivo. Food Chem 2010;118(2):315–22. doi: 
+https://doi.org/10.1016/j.foodchem.2009.04.123. 
+[49] Bagri P, Ali M, Aeri V, Bhowmik M, Sultana S. Antidiabetic effect of 
+Punica 
+granatum 
+ﬂowers: 
+effect 
+on 
+hyperlipidemia, 
+pancreatic 
+cells 
+lipid 
+peroxidation 
+and 
+antioxidant 
+enzymes 
+in 
+experimental 
+diabetes. 
+Food 
+Chem 
+Toxicol 
+2009;47(1):50–4. 
+doi: 
+https://doi.org/10.1016/j.fct. 
+2008.09.058. 
+[50] Jencˇa A, Mills DK, Ghasemi H, Saberian E, Jencˇa A, Karimi Forood AM, et al. 
+Herbal therapies for cancer treatment: a review of phytotherapeutic efﬁcacy. 
+Biologics 2024:229–55. doi: https://doi.org/10.2147/BTT.S484068. 
+[51] Posadzki P, Lee MS, Onakpoya I, Lee HW, Ko BS, Ernst E. Dietary supplements 
+and prostate cancer: a systematic review of double-blind, placebo-controlled 
+randomised clinical trials. Maturitas 2013;75(2):125–30. doi: https://doi.org/ 
+10.1016/j.maturitas.2013.03.006. 
+[52] Lazarevic B, Boezelijn G, Diep LM, Kvernrod K, Ogren O, Ramberg H, et al. 
+Efﬁcacy and safety of short-term genistein intervention in patients with 
+localized prostate cancer prior to radical prostatectomy: a randomized, 
+placebo-controlled, double-blind Phase 2 clinical trial. Nutr Cancer 2011;63 
+(6):889–98. doi: https://doi.org/10.1080/01635581.2011.582221. 
+[53] Chong P, Rashid P. Can we prevent prostate cancer? Aust Fam Physician 
+2005;34(4). doi: https://doi.org/10.1038/ncpuro0072. 
+[54] Perletti G, Magri V, Vral A, Stamatiou K, Trinchieri A. Green tea catechins for 
+chemoprevention of prostate cancer in patients with histologically-proven 
+HG-PIN or ASAP. Concise review and meta-analysis. Arch Ital Urol Androl 
+2019;91(3). doi: https://doi.org/10.1126/sciadv.abm7355.

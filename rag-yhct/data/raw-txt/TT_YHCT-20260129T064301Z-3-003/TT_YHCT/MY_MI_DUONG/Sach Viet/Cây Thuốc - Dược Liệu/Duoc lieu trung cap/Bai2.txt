@@ -1,0 +1,303 @@
+1
+ 
+Bài 2 
+KỸ THUẬT CHUNG VỀ THU HÁI, PHƠI SẤY, CHẾ BIẾN SƠ BỘ VÀ BẢO QUẢN DƯỢC LIỆU 
+ 
+MỤC TIÊU 
+1. 
+Trình bày được kỹ thuật chung trong thu hái, phơi sấy, chế biến sơ bộ và bảo quản dược liệu. 
+2. 
+Nêu được các nguyên nhân chính ảnh hưởng đến chất lượng dược liệu và những biện pháp 
+khắc phục. 
+NỘI DUNG 
+Chất lượng dược liệu dùng làm thuốc phụ thuộc vào rất nhiều yếu tố như: giống, kĩ thuật nuôi 
+trồng, khí hậu, thổ nhưỡng, kĩ thuật thu hái. Thời điểm thu hái, phơi sấy, chế biến, bảo quản, đặc điểm 
+của từng loại, từng dược liệu cụ thể... 
+Trong phạm vi chương trình, nội dung môn học chỉ nêu ra một số kĩ thuật và nguyên tắc chung 
+nhất nhằm góp phần đảm bảo chất lượng dược liệu trong một số khâu nhất định. 
+1. Thu hái Dược liệu 
+Việc thu hái dược liệu nói chung cần thực hiện theo nguyên tắc “3 đúng”, đó là: 
+- Đúng dược liệu (đúng tên, đúng loài): Vì trong thực tế, tên gọi của các cây thuốc ở các vùng 
+miền có thể rất khác nhau. Nhiều dược liệu khác nhau nhưng tên gọi có thể giống nhau hay cùng 
+một dược liệu lại có rất nhiều tên gọi khác nhau. 
+Thí dụ: Cây rau Sam còn có tên là Mã xỉ hiện; Cây Thài lài còn có tên là cây Rau trai hay Trai thường 
+hoặc như cây Hà thủ ô lại có Hà thủ ô đỏ và Hà thủ ô trắng... 
+- Đúng bộ phận dùng: Vì trong một cây thuốc không phải bộ phận nào của cây cũng được dùng 
+làm thuốc. Thậm chí, có bộ phận trong cùng một cây lại là chất độc. 
+- Đúng thời điểm: Tỷ lệ hoạt chất chứa trong dược liệu phụ thuộc vào từng thời kỳ phát triển và 
+sự trưởng thành của cây thuốc. Vì thế, phải thu hái đúng thời điểm mà bộ phận dùng làm thuốc 
+chứa nhiều hoạt chất có lợi nhất. Thời điểm ở đây không chỉ theo mùa vụ mà bao hàm cả tuổi cây 
+(nhất là những cây mọc hoang hay sông lâu năm). 
+Thí dụ: Canhki na, Long não, Quế, Tam thất, Nhân sâm... 
+Sau đây là một số nguyên tắc chung nhất trong thu hái dược liệu. Tuy nhiên, đây không phải là 
+nguyên tắc được áp dụng cho tất cả các dược liệu. Vì vậy, khi vận dụng trong thực tế cẩn phải hết sức 
+linh hoạt và phải căn cứ vào từng dược liệu cụ thể đã được nghiên cứu thử nghiệm. 
+1.1. 
+Thu hái dược liệu là Rễ (Radix), Thân rễ (Rhizoma), Rễ củ (Tuber) 
+Nếu thu hái từ cây sống hàng năm thì thu hái lúc lá cây ngả màu vàng, quả đã chín già; nếu thu hái 
+từ cây sống nhiều năm thì thu hái vào cuối thu sang đông là tốt nhất. 
+
+
+2
+ 
+1.2. 
+Thu hái dược liệu là Thân gỗ (Lignum) 
+Thu hái thân cây lấy gỗ làm vị thuốc thì nên tiến hành vào mùa đông, khi lá cây đã rụng. Lúc đó, 
+thân cây chứa nhiều hoạt chất, gỗ rắn chắc nên phơi sấy sẽ nhanh khô và bảo quản được lâu. 
+1.3. 
+Thu hái dược liệu là Toàn cây (Herba) 
+Nếu sử dụng toàn cây thì nên thu hái khi cây bắt đầu ra hoa, bằng cách cắt từ phía dưới lá tươi 
+cuối cùng của các bộ phận của cây trên mặt đất như: thân, nhánh mang lá hoa (bỏ phần thân, nhánh 
+không còn lá và gốc rễ). 
+1.4. 
+Thu hái dược liệu là vỏ cây (Cortex) 
+Thu hái bộ phận dùng là vỏ cây thì nên tiến hành vào mùa xuân, lúc đó vỏ chứa nhiều nhựa để 
+nuôi cây nên có nhiều hoạt chất và dễ bóc. Đối với vỏ cành phải bóc vỏ ở các cành còn bánh tẻ. 
+1.5. 
+Thu hái dược liệu là Lá cây (folium) 
+Thu hái bộ phận dùng là lá thì nên tiến hành vào lúc cây sắp ra hoa hoặc chớm ra hoa. Khi đó, lá 
+phát triển nhất và thường chứa nhiều hoạt chất. Thu hái lây lá bánh tẻ, để lại các lá non. Lá thu hái được 
+phải đựng vào sọt có mắt thưa, tránh ép mạnh làm lá giập nát, hấp hơi nước và thâm đen giảm chất 
+lượng. 
+1.6. 
+Thu hái dược liệu là Búp cây (Apex) 
+Thu hái bộ phận dùng là búp cây thì nên tiến hành vào mùa xuân khi búp đã nẩy chồi. Thu hái búp 
+có kèm theo 1 - 2 lá non chưa xoè ra. 
+1.7. 
+Thu hái dược liệu là Hoa (Flos) 
+Với bộ phận dùng là hoa thì nên thu hái khi hoa sắp nở hoặc chớm nở, nếu đề khi hoa đã nở mới 
+thu hái thì cánh hoa rất dễ rụng. Phải hái hoa bằng tay, động tác hái nhẹ nhàng; xếp hoa vào rổ cứng, 
+không xếp quá nhiều, không lèn chặt và tránh phơi nắng hoa sẽ làm hoa thâm đen giảm chất lượng. 
+1.8. 
+Thu hái dược liệu là Qủa (Fructus) 
+Thu hái quả mọng nên tiến hành vào lúc quả bắt đầu chín hoặc sắp chín; có loại nên thu hái lúc 
+còn ương (như sa nhân). Hái quả lúc trời mát, để nguyên cuống, xếp nhẹ nhàng, tránh chèn ép vào nhau 
+làm cho quả sẽ chóng hỏng. Đối với các quả bị bẩn phải rửa sạch bằng nước và nên thấm khô, xếp riêng 
+để sử dụng ngay vì đã làm mất màng bảo vệ vỏ nên dễ thối. Dụng cụ đựng quả cần cứng để ổn định về 
+hình dạng, thông thoáng, có lót đệm bằng vật liệu mềm xốp, bảo quản quả chỗ mát. 
+1.9. 
+Thu hái dược liệu là Hạt (Semen) 
+Nếu bộ phận dùng là hạt thì nên thu hái khi quả đã chín già, riêng quả khô tự mở nên hái trước lúc 
+khô hẳn, nếu để lâu quả sẽ nứt làm rơi hạt hoặc gặp mưa hạt sẽ nẩy mầm. 
+
+
+3
+ 
+1.10.  Thu hái dược liệu có chứa chất độc 
+Khi thu hái các dược liệu chứa chất độc, phải trang bị đầy đủ dụng cụ bảo hộ lao động; khi làm việc 
+nhất thiết phải đeo kính, găng tay... để đảm bảo an toàn cho người thu hái. 
+2. 
+Phơi, sấy dược liệu 
+Phơi sấy dược liệu là làm cho dược liệu khô dần tới độ thuỷ phần an toàn, có như vậy mới giữ 
+được chất lượng dược liệu và bảo quản được lâu. Việc phơi sấy dược liệu phụ thuộc vào nhiều yếu tố 
+như: loại dược liệu, số lượng , yêu cầu về độ thủy phần an toàn, điều kiện phương tiện...của từng cơ sở. 
+Tuy nhiên, kĩ thuật phơi, sấy dược liệu cũng có một số điểm chung sau đây: 
+2.1. Phơi dược liệu 
+Phơi là phương pháp làm khô dược liệu bằng không khí nóng tự nhiên. Có 4 cách phơi: 
+• Phơi nắng trên sân: Yêu cầu sân phơi phải sạch sẽ, khi phơi phải tãi mỏng dược liệu và thường 
+xuyên đảo để dược liệu chóng khô và khô đều. Đây là phương pháp thông dụng vì có thể áp dụng cho 
+nhiều loại dược liệu và rẻ tiền. 
+• Phơi trong bóng râm: Thường áp dụng đối với dược liệu dễ biến mầu, dễ hỏng hoạt chất, dược 
+liệu có tinh dầu... Tuỳ từng loại dược liệu mà có thế tiến hành bằng cách: dựng trong bóng râm hay bó 
+thành từng bó nhỏ treo trên dây chăng trong nhà nơi cao ráo, thoáng gió để dược liệu khô dần. 
+• Phơi trên giàn: Thường áp dụng cho các dược liệu quý hiếm, dược liệu mỏng manh (hoa) và với 
+số  lượng ít. Khi phơi phải tãi mỏng dược liệu trên các sàng hoặc khay rồi đặt lên giá để phơi. 
+• Phơi tránh bụi, ruồi nhặng: Dược liệu thường được phơi trên giàn cao và phải dùng vải màn 
+thưa để che đậy. Phương pháp này thường được áp dụng đối với các dược liệu có đường hay có mùi vị 
+hấp dẫn đối với côn trùng (long nhãn, thục địa...). 
+2.2. Sấy dược liệu 
+Sấy là phương pháp làm khô dược liệu chủ động bằng không khí nóng trong các thiết bị khác nhau 
+như các lò sấy, tủ sấy. 
+Trước khi tiến hành sấy, dược liệu cần được làm sạch, phân loại và sấy riêng từng loại dược liệu. 
+Tùy từng loại dược liệu mà chọn nhiệt độ sấy thích hợp. Nói chung thì nên duy trì nhiệt độ sấy từ 40- 
+70°C, và chia làm ba giai đoạn theo nhiệt độ tăng dần: 
+• Giai đoạn đầu sấy ở 40 - 50°C. 
+• Giai đoạn giữa sấy ở 50 – 60oC. 
+• Giai đoạn cuối sấy ở 60 – 70oC. 
+Riêng các dược liệu có chứa tinh dầu, hoạt chất dễ bị nhiệt độ cao phá huỷ hay dược liệu chứa 
+hoạt chất dễ bay hơi, dễ thăng hoa thì nhiệt độ sấy không được quá 40°C. 
+
+
+4
+ 
+3. Chế biến sơ bộ dược liệu 
+Chế biến sơ bộ dược liệu thường được tiến hành ngay sau khi thu hái và thường có các khâu chính 
+sau đây: 
+3.1. Chọn dược liệu 
+Các dược liệu thu hái về đều phải lựa chọn để lấy đúng bộ phận dùng làm thuốc đảm bảo quy cách; 
+loại bỏ các tạp chất, các bộ phận khác của cây lẫn vào trong khi thu hái hoặc các phần nằm trong bộ 
+phận dùng cần phải loại bỏ. 
+Thí dụ: Cúc hoa cần bỏ lá và cuống hoa. 
+3.2. Làm sạch dược liệu 
+Làm sạch dược liệu là động tác loại bỏ các tạp chất còn lẫn hay bám dính vào dược liệu mà khi lựa 
+chọn không loại bỏ hết được như: đất, cát, bụi bặm... 
+Để làm sạch dược liệu, người ta có thể áp dụng một trong các cách sau: 
+• Rửa bằng nước: Khi rửa, cần thao tác nhanh, không nên ngâm dược liệu lâu trong nước. 
+• Sàng, sẩy: Là nhằm loại bỏ hết tạp chất lẫn vào dược liệu cũng như các dược liệu không đảm bảo 
+chất lượng. Phương pháp này hay được áp dụng cho các dược liệu là hạt. 
+• Chải: Mục đích là làm sạch lớp lông bên ngoài (tỳ bà diệp) hoặc bên trong vị thuốc (kim anh) hoặc 
+làm sạch các tạp chất mà không rửa sạch được (mốc). 
+• Cạo, gọt: Mục đích là loại bỏ vỏ ngoài của dược liệu (sắn giây, củ mài). 
+3.3. Giã dược liệu 
+Phương pháp này nhằm mục đích là loại bỏ các bộ phận bên ngoài dược liệu như: lông, gai... bằng 
+cách cho dược liệu vào trong cối rồi giã như giã gạo. Sau đó, cho vào sàng hay rổ thưa xóc cho rụng hết 
+lông, gai như sơ chế vị Tật lê. 
+3.4. Cắt thái dược liệu 
+Nhiều dược liệu sau khi thu hái cần phải cắt thành khúc, đoạn ngắn (Lạc tiên, Kim ngân), thái 
+thành phiến (Thổ phục linh, Kê huyết đằng), hoặc thái thành miếng (Hà thủ ô đỏ)... cho tiện chế biến 
+hoặc tiện sử dụng. 
+3.5. Ngâm dược liệu 
+Ngâm dược liệu trong các chất lỏng thích hợp là mục đích làm cho dược liệu mềm ra để dễ bào 
+thái hay làm giảm độc tính một số dược liệu độc (Mã tiền, Hoàng nàn ngâm trong nước vo gạo). Thời 
+gian ngâm dài hay ngắn hoặc ngâm trong chất lỏng nào là tuỳ thuộc vào mục đích và đặc điểm của từng 
+dược liệu. 
+3.6. Ủ dược liệu 
+
+
+5
+ 
+Ủ dược liệu là cách làm ẩm dược liệu rồi đem ủ kín trong thời gian nhất định. Mục đích của việc ủ 
+dược liệu rất khác nhau, có thể là làm cho mềm dược liệu để dễ bào thái thành phiến mỏng; có thể là 
+làm cho men trong dược liệu hoạt động nhằm thay đổi thành phần hay tác dụng của dược liệu (Sinh 
+địa). 
+3.7. Chưng, đồ dược liệu 
+Một số dược liệu lúc thu hái về phải chế biến sơ bộ bằng cách chưng, đồ hoặc nhúng nước sôi. 
+Mục đích của việc chưng đồ dược liệu là nhằm diệt men trước khi phơi khô để dược liệu không bị men 
+phá hoại trong quá trình bảo quản. 
+Thí dụ: Chế long nhãn, trước khi phơi khô hay sấy khô người ta phải nhúng qua nước sôi. 
+4. Bảo quản Dược liệu 
+Dược liệu là một loại hàng hóa có thành phần và đặc điểm rất phức tạp và rất dễ bị hư hỏng bởi 
+nhiều yếu tố trong quá trình bảo quản. Vì vậy, việc bảo quản dược liệu cần chú ý tới các yếu tố ảnh 
+hưởng xấu đến chất lượng dược liệu. Qua các kết quả nghiên cứu và kinh nghiệm thực tế, khi bảo quản 
+dược liệu cần quan tâm đến các yếu tố chính sau đây: 
+4.1. Độ ẩm không khí 
+Độ ẩm không khí là tác nhân chính có ảnh hưởng xấu đến chất lượng dược liệu. Độ ẩm quá cao 
+hay quá thấp đều có ảnh hưởng trực tiếp làm giảm hoặc hư hỏng dược liệu (đặc biệt là độ ẩm quá cao). 
+Độ ẩm cao sẽ là điều kiện thuận lợi cho sâu mọt, nấm mốc phát triển làm phân hủy dược liệu, làm thay 
+đổi thành phần hoạt chất và làm thay đổi màu sắc dược liệu... Vì vậy chất lượng dược liệu sẽ bị giảm dần 
+theo thời gian bảo quản. Độ ẩm thích hợp cho bảo quản từng loại dược liệu đòi hỏi rất khác nhau. 
+Nhưng qua nghiên cứu và thực tế cho thấy, độ ẩm chung phù hợp với yêu cầu bảo quản dược liệu 
+thường từ 60 - 65%. 
+Để khắc phục độ ẩm cao, cần phải xây dựng nhà kho đúng quy cách và có đủ các thiết bị cần thiết 
+để chủ động hạ thấp độ ẩm khi cần. Dược liệu trước khi nhập kho phải đạt tiêu chuẩn và có độ thủy 
+phần an toàn cho từng loại (hạt là 8 -10%; hoa, lá, vỏ cây là 10 - 12%; rễ và dược liệu có đường là 12 - 
+15%...). Cần có kế hoạch đảo kho theo định kỳ, phơi sấy, thông gió khi cần thiết. Bao bì đóng gói phải 
+đảm bảo, các dược liệu quý (nhân sâm) cần bọc giấy chống ẩm, bảo quản trong thùng kín, có chất hút 
+ẩm (vôi sống, silicagel...) để chống ẩm mốc. 
+4.2. Nhiệt độ 
+Nhiệt độ thích hợp để bảo quản dược liệu là 25°C. Nhiệt độ cao sẽ làm cho tinh dầu trong dược 
+liệu bay hơi; chất béo dễ bị biến chất; dược liệu có đường bị lên men. Nhiệt độ cao kết hợp với độ ẩm 
+lớn, nhiều hoạt chất trong dược liệu sẽ bị thuỷ phân; nấm mốc, sâu bọ cũng sinh sản và phát triển nhanh 
+
+
+6
+ 
+hơn. Tất cả những hiện tượng trên đều dẫn đến kết quả là chất lượng dược liệu sẽ bị giảm sút. Để hạn 
+chế tác hại của nhiệt độ cao, kho chứa dược liệu phải đúng quy cách, thông thoáng. Nếu có điều kiện thì 
+trang bị các thiết bị điều hòa nhiệt độ cho kho cần phải có kế hoạch đảo kho và thông gió khi cần thiết. 
+4.3.  Nấm mốc 
+Nấm mốc rất dễ xâm nhập và phát sinh, phát triển trên dược liệu khi có điều kiện thuận lợi như 
+nóng, ẩm. Dược liệu bị nấm mốc sẽ sinh ra acid hữu cơ cùng với độc tố của nấm mốc thải ra sẽ làm giảm 
+chất lượng dược liệu một cách trầm trọng, thậm chí còn gây hư hại hàng loạt. Vì vậy, cần thường xuyên 
+quan tâm để phát hiện, phòng ngừa nấm mốc. Nếu dược liệu mới chớm mốc phải tách riêng, xử lý ngay 
+và có kế hoạch sử dụng sớm. 
+4.4. Côn trùng 
+Tất cả các loài côn trùng có thể lẫn vào dược liệu ngay từ khi thu hái. Từ đó, chúng phát sinh, phát 
+triển và ăn hại dược liệu. Vì vậy, phải tiến hành phòng trừ ngay trước khi nhập kho. Trong quá trình bảo 
+quản, cần kiểm tra thường xuyên, nếu phát hiện có sâu, mọt phải xử lý ngay bằng phương pháp thích 
+hợp như: phơi, sấy, xông sinh, xông cloropicrin...; cần có kế hoạch phân loại và bảo quản lại dược liệu 
+theo định kì. Đặc biệt, phải tiến hành phòng, diệt mối đối với kho bảo quản dược liệu. Phòng mối bằng 
+cách kê cao, xếp dược liệu xa tường và trần nhà; nếu phát hiện có mối phải tiêu diệt ngay bằng thuốc 
+chống mối hay bằng các phương pháp thích hợp hiệu quả. 
+4.5. Bao bì đóng gói 
+Dược liệu có đặc điểm là cồng kềnh, số lượng lớn nên rất khó khăn cho công tác đóng gói. Vì vậy, 
+phải lựa chọn đồ đóng gói dược liệu thích hợp với từng loại. Đồ bao gói phải đảm bảo các yêu cầu kỹ 
+thuật của ngành Dược. Bao bì không sạch hoặc ẩm sẽ là điều kiện cho nấm mốc, sâu mọt phát triển; nếu 
+đóng gói sơ sài thì trong quá trình vận chuyển, đảo kho thì dược liệu trong bao gói dễ bị vụn nát, giảm 
+phẩm chất, hư hao... Vì vậy, nên chọn đồ bao gói phù hợp với từng loại dược liệu và tiến hành đóng gói 
+đúng quy cách. 
+4.6. Thời gian bảo quản 
+Ngoài các yếu tố ảnh hưởng như đã nêu trên, chất lượng dược liệu còn phụ thuộc vào thời gian 
+bảo quản. Cũng như các loại hàng hóa khác, dược liệu cũng có tuổi thọ nhất định. Mặc dù được bảo 
+quản rất tốt nhưng nếu thời gian bảo quản quá lâu thì dược liệu cũng vẫn bị giảm chất lượng. Vì vậy nên 
+có kế hoạch mua, bán và sử dụng dược liệu hợp lí, tránh để dược liệu quá hạn gây lãng phí và thiệt hại 
+về mặt kinh tế. 
+ 
+
+
+7
+ 
+LƯỢNG GIÁ 
+Trả lời ngắn các câu sau bằng cách điền từ hay cụm từ thích hợp vào chỗ trống ( ): 
+1. Nhiệt độ sấy dược liệu thích hợp nhất là ...........  
+2. Có 4 cách phơi dược liệu thường được áp dụng, đó là: 
+A ...............................  .... 
+B ……………………………………. 
+C..................................... 
+D …………………………………… 
+ 
+3. Có 4 cách làm sạch dược liệu thường được áp dụng, đó là: 
+A ......................  ........   
+B ……………………………………. 
+C................................    
+D …………………………………. 
+4. Để dược liệu dùng làm thuốc chứa nhiều... cần phải thu hái theo nguyên tắc ………. 
+5. Phơi, sấy dược liệu là làm cho dược liệu đạt tới độ thuỷ phần ………… 
+6. Các yếu tố ảnh hưởng đến chất lượng dược liệu khi bảo quản gồm có: 
+A ................. ; 
+B. Nhiệtđộ; 
+C ............. ; 
+D. Côn trùng;                E ............ ; 
+G .............  
+Phân biệt đúng/sai các câu sau bằng cách đánh dấu vào chữ A (cho câu đúng) và chữ B (cho câu sai): 
+7. Độ ẩm không khí là tác nhân chính ảnh hưởng đến chất lượng dược liệu. A B 
+8. Nhiệt độ cao sẽ làm giảm chất lượng các dược liệu chứa tinh dầu, dầu mỡ. A B 
+9. Các dược liệu chứa chất béo, đường không bị ảnh hưởng bởi nhiệt độ cao. A B 
+10. Nóng, ẩm là hai yếu tố chủ yếu làm cho nấm mốc phát triển trên dược liệu. A-B 
+12. Đồ bao gói đạt tiêu chuẩn thì sâu mọt, không phát triển được trên dược liệu. A-B 
+13. Muốn giữ chất lượng dược liệu được lâu chỉ cần bảo quản đúng kỹ thuật. A-B 
+Chọn giải pháp đúng trong các câu sau bằng cách đánh dấu vào đầu giải pháp mà bạn chọn: 
+14. Thời điểm thu hái thích hợp cho các loại dược liệu là: 
+A. 
+Rễ cây thu hái khi lá ngả màu vàng. 
+B. 
+Toàn cây thu hái vào mùa đông 
+C. 
+Vỏ cây thu hái vào mùa hạ. 
+D. 
+Lá thu hái vào lúc cây ra hoa. 
+E. 
+Các loại quả thu hái khi chín. 
+15. Chế biến sơ bộ dược liệu: 
+A. 
+Dược liệu cần ủ cho mềm để dễ bào thái. 
+B. 
+Dược liệu rắn cần ngâm cho mềm để dễ bào thái  
+C. 
+Dược liệu có lớp gai bên ngoài cẩn giã cho nhẵn. 
+
+
+ 
+D. 
+Dược liệu chứa tinh bột phải xông sinh. 
+E. 
+Dược liệu thu hái về phải cắt ngắn để phơi. 
+16. Biện pháp khắc phục yếu tố gây tác hại cho dược liệu: 
+A. 
+Khắc phục độ ẩm cao bằng cách nhập kho đúng quy cách. 
+B. 
+Khắc phục độ ẩm cao bằng cách bảo quản tốt. 
+C. 
+Tránh nấm mốc dược liệu bằng cách đảo kho luôn. 
+D. 
+Chống mối bằng cách xếp xa tường. 
+E. 
+Khắc phục nhiệt độ cao bằng cách khống chế được nhiệt độ trong kho. 
+17. Độ thủy phần an toàn của các vị thuốc: 
+A. 
+Sinh địa 19%. 
+B. Thục địa 19%. 
+C.          Long nhãn 19%. 
+D. Long nhãn 18%. 
+E. 
+Các câu trả lời trên đều sai. 

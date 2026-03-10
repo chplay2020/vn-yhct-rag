@@ -1,0 +1,322 @@
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Bài 33: HIstamin và thuốc kháng histamin
+Mục tiêu học tập: Sau khi học xong bài này, sinh viên có khả năng:
+1. Nêu được vai trò sinh lý và bệnh lý của histamin
+2. Trình bày được cơ chế tác dụng, cách phân loại, chỉ định và độc tính của thuốc
+kháng histamin H1.
+1. Histamin
+1.1. Sinh tổng hợp và phân bố histamin
+Histamin là chất trung gian hóa học quan trọng có vai trò trong phản ứng viêm và dị ứng,
+trong sự bài tiết dịch vị và cũng có chức năng như chất dẫn truyền thần kinh  và điều biến
+thần kinh, được tạo ra do sự khử carboxyl của  histidin dưới sự xúc tác của decarboxylase.
+Do histamin tích điện dương  nên dễ dàng liên kết với chất tích điện âm như protease,
+chondroitin sulfat, proteoglycan hoặc heparin tạo thành phức hợp không có tác dụng sinh
+học. Phức hợp này được dự trữ trong các hạt trong  dưìng bào, bạch cầu ưa base, tế bào
+niêm mạc dạ dày, ruột, tế bào thần kinh v.v... Da, niêm mạc, cây khí phế quản là những
+mô có nhiều dưìng bào  nên dự trữ nhiều histamin.
+1.2. Sự giải phóng histamin
+Nhiều yếu tố kích thích sự giải phóng histamin, nhưng chủ yếu là do phản ứng kháng
+nguyên - kháng thể xảy ra trên bề mặt dưìng bào . Khi có phản ứng kháng nguyên -
+kháng thể làm thay đổi tính thấm của màng tế bào với ion calci làm tăng calci đi vào
+trong nội bào, đồng thời tăng giải phóng calci từ kho dự trữ nội bào. Ca +2 nội bào tăng làm
+vì các hạt dự trữ giải phóng histamin.
+ánh sáng mặt trời, bỏng, nọc độc của côn trùng, morphin, D -tubocurarin làm tăng giải
+phóng histamin. Ngoài ra, một số yếu tố khác cũng được giải phóng trong phản ứng dị
+ứng như: yếu tố hoạt hóa tiểu cầu (PAF); các prostaglandin, bradykinin, leucotrien.
+1.3. Chuyển hóa histamin
+Histamin có thể chuyển hóa qua 2 con đường khác nhau nhờ histaminase và N -
+methyltransferase tạo thành acid imidazol acetic và met hylhistamin không có tác dụng
+sinh học.
+1.4. Receptor của histamin
+Hiện nay đã tìm thấy 4 receptor khác nhau của histamin là H 1, H2, H3 và H4. Sự phân bố
+số lượng receptor và chức năng của từng loại receptor rất khác nhau.
+Khi histamin gắn vào receptor H 1 sĩ làm tăng IP3 (inositol 1,4,5-triphosphat) và
+diacylglycerol từ phospholipid. IP 3 làm tăng giải phóng calci từ lưới nội bào.
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Diacylglycerol (DAG) và calci làm hoạt hóa protein lipase C, protein kinase phụ thuộc
+Ca+2/calmodulin và phospholipasse A 2 ở các tế bào đích khác nhau gây các phản ứng sinh
+học khác nhau.
+Histamin gắn vào receptor H 2 kích thích adenylcyclase làm hoạt hóa protein kinase phụ
+thuộc AMPv ở các tế bào đích gây nên phản ứng sinh học. Receptor H 2 có nhiều ở niêm
+mạc dạ dày, khi kích thích gây tăng tiết dịch vị acid (xin xem bài “Thuốc chữa viêm loét
+dạ dày”. Cimetidin, ranitidin, famotidin là những thuốc kháng trên receptor H 2.
+Receptor H3 là receptor trước synap, có mặt ở nút tận cùng neuron hệ histaminergic ở thần
+kinh trung ương, có vai trò điều hòa sinh tổng hợp và giải phóng histamin. Cũng giống
+receptor H1, H2, receptor H3 là receptor cặp với protein G và được phân bố trong nhiều
+mô. Hiện nay đã tìm được một số chất chủ vận và đối kháng trên receptor H 3:thioperamid,
+iodophenpropit, clobenpropit, Imipromidin, Burimamid.
+Receptor H4 có mặt ở tế bào ưa acid, dưìng bào, tế bào T và tế bào hình cây(dendritic
+cell).Thông qua receptor  này histamin làm thay đổi hoá hướng động một số tế bào và sự
+sản xuất cytokin. Các chất đối kháng trên receptor H4 đang nghiên cứu có tác dụng chống
+viêm invivo và có tác dụng chống hen và viêm đại tràng trên mô hình động vật thực
+nghiệm.
+1.5. Tác dụng sinh học của histamin
+1.5.1. Trên hệ tim-mạch
+- Histamin làm giãn các mạch máu nhỏ, tiểu động mạch, mao mạch  và tiểu tĩnh mạch làm
+giảm sức cản ngoại vi, giảm huyết áp và tăng cường dòng máu đến mô: thông qua
+receptor H1 sự xuất hiện tác dụng nhanh, cường độ mạnh nhưng không kéo dài, còn đối
+với receptor H2 sự xuất hiện tác dụng giãn mạch chậm, nhưng kéo dài.
+- Thông qua receptor H1 histamin làm co tế bào nội mô mao mạch, tách sự kết gắn các tế
+bào nội mô làm bộc lộ màng cơ bản tạo thuận lợi cho sự thoát dịch và protein ra ngoại
+bào gây phù nề, nóng, đỏ, đau.
+- Trên tim: Histamin có tác dụng trực tiếp trên cơ tim  và thần kinh nội tại làm tăng co bóp
+cả tâm nhĩ, tâm thất, chậm khử cực nút xoang và chậm dẫn truyền nhĩ thất.
+1.5.2. Trên khí-phế quản - phổi:
+Thông qua receptor H 1 histamin làm co cơ trơn khí phế quản, gây cơn hen. Ngoài ra,
+histamin còn gây xuất tiết niêm mạc khí phế quản, gây viêm phù nề niêm mạc và tăng
+tính thấm mao mạch phổi.
+1.5.3. Trên hệ tiêu hóa
+Histamin làm tăng tiết dịch acid thông qua receptor H 2, làm tăng nhu động và bài tiết dịch
+ruột.
+1.5.4. Cơ trơn
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+ở một số loài vật, histamin làm tăng co bóp cơ trơn tử cung, nhưng tử cung người, cơ trơn
+bàng quang, niệu đạo, túi mật rất ít bị ảnh hưởng.
+1.5.5. Hệ bài tiết
+Histamin làm tăng bài tiết nước mắt, nước mũi, nước bọt, dịch tụy.
+1.5.6. Trên hệ thần kinh
+Kích thích đầu mút sợi thần kinh ngoại vi g ây ngứa, đau. Trên thần kinh trung ương
+histamin gây giảm thân nhiệt, gây mất ngủ, có thể chán ăn, tăng tiết ADH. Tác dụng này
+thông qua cả 2 loại receptor H 1 và H2.
+2. Các thuốc kháng histamin
+2.1. Cấu trúc - phân loại
+Có nhiều chất đối kháng chọn lọc trê n 3 receptor khác nhau của histamin. Thuốc đối
+kháng H2 receptor (xin đọc bài thuốc chữa viêm loét loét dạ dày). Các chất đối kháng H 3
+đang trong giai đoạn nghiên cứu. Trong phạm vi bài này, chỉ giới thiệu thuốc đối kháng
+chọn lọc trên receptor H 1.
+Dựa vào dược động học, tác dụng, các thuốc kháng H 1 được xếp thành 2 thế hệ:
+* Thế hệ I: gồm các thuốc có thể đi qua hàng rào máu não dễ dàng, có tác dụng trên
+receptor H1 cả trung ương và ngoại vi, có tác dụng an thần mạnh, chống nôn và có tác
+dụng kháng cholinergic giống atropin.
+* Thế hệ II: gồm các thuốc rất ít đi qua hàng rào máu não, có thời gian bán thải dài, ít tác
+dụng trên H1 trung ương, chỉ có tác dụng trên H 1 ngoại vi, không có tác dụng kháng
+cholinergic, không an thần và không có tác dụng chống nôn, c hống say tầu xe.
+Bảng 33.1:  Liều lượng một số thuốc kháng histamin H 1
+Tên gốc
+Tên biệt dược
+Liều lượng cho người lớn
+(mg)
+Thế hệ I
+- Alimemazin
+Allerlene
+5 - 20
+- Brompheniramin
+Dimetan
+4 - 12
+- Carbinoxamin
+Cardec
+4 - 8
+- Clemastin
+Tavist
+1,3 - 2,7
+- Clopheniramin
+Chlor- Trimeton
+4 - 12
+- Cyclizin
+Marexin
+50
+- Dimenhydrinat
+Dramamin
+50 - 100
+- Dimethinden
+Fenistil
+4
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Diphenhydramin
+Benadryl
+2,5 - 50
+- Hydroxyzin
+Atarax
+25 - 100
+- Meclizin
+Antivert
+12,5 - 50
+- Promethazin
+Phenergan
+10 - 25
+-Pyrilamin
+Nisaval
+25-50
+Thế hệ II
+- Acrivastin
+Semprex
+24; không dùng cho trẻ dưới
+12 tuổi
+- Astemizol
+Hismanal
+Có tác dụng không mong
+muốn trên tim hiện không
+được sử dụng
+- Cetirizin
+Zyrtec
+5 - 10
+- Desloratadin (chất
+chuyển hóa của
+Loratadin)
+Aerius*
+5
+- Fexofenadin(chất
+chuyển hóa của
+terfenadin)
+ Telfast
+60
+- Loratadin
+Claritin
+10
+-Mizolastin
+Mizollen
+10
+Terfenadin
+Seldan
+Có tác dụng không mong
+muốn trên tim hiện không
+được sử dụng
+2.2. Tác dụng dược lý
+2.2.1. Tác dụng kháng histamin thực thụ
+Thuốc kháng histamin H 1 ức chế có cạnh tranh với histamin tại receptor H 1 làm mất các
+tác dụng của histamin trên recetor. Khi dư thừa histamin, thì histamin đẩy chất đối kháng
+ra khỏi receptor, từ đó thuốc giảm hoặc hết tác dụng kháng histamin.
+Để có tác dụng dược lý kéo dài, cần tìm chất vừa đối kháng cạnh tranh và không cạnh
+tranh, khi đó  thuốc chậm bị đẩy khỏi receptor bởi histamin. Terfenadin, astemizol... có
+hai kiểu ức chế (có cạnh tranh và không cạnh tranh) với histamin tại receptor, nên tá c
+dụng dài hơn nhưng do có nhiều tác dụng không mong muốn trên tim nên hai thuốc này
+hiện nay không được sử dụng.
+Thuốc kháng H1 có tác dụng dự phòng tốt hơn là chữa, vì  khi   histamin được giải phóng
+tạo hàng loạt phản ứng và sĩ giải phóng đồng thời các chất trung gian khác mà thuốc
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+kháng H1 không đối kháng được. Tác dụng của thuốc mạnh nhất ở cơ trơn phế quản, cơ
+trơn ruột. Thuốc cho kết quả không rõ rệt trong chữa hen hoặc chữa những bệnh tắc nghĩn
+phế quản. Cần phối hợp hai loại kháng H 1 và kháng H2 để ức chế toàn vẹn sự hạ huyết áp
+do histamin gây nên.
+2.2.2. Tác dụng khác
+- Trên thần kinh trung ương: Các thuốc kháng histamin thế hệ I có tác dụng ức chế thần
+kinh trung ương, làm dịu, giảm khả năng tập trung tư tưởng, ngủ gà, chóng mặt. Tác dụng
+ức chế receptor H1 trung ương này có thể kéo theo tác dụng kháng cholinergic, làm tăng
+tác dụng làm dịu, giảm khả năng nhớ.
+Một số thuốc kháng H1 thế hệ II, do tính ưa nước và có ái lực với receptor H 1 ngoại biên,
+nên ít qua hàng rào máu - não, và rất ít có tác dụng trung ương, ví dụ fexofenadin,
+loratidin...
+- Trên thần kinh thực vật:
++ Kháng cholinergic (ức chế  hệ M).
+Nhiều thuốc kháng H1 thế hệ I như promethazin, dimenhydrinat, diphenhydramin...) có
+tác dụng kháng cholinergic ngay với liều điều trị và trong mộ t số trường hợp phải chống
+chỉ định.
++ Thay đổi hệ giao cảm: Promethazin ức chế receptor -adrenergic, làm hạ huyết áp.
+Diphenhydramin, dexclopheniramin... ức chế thu hồi catecholamin, làm tăng tiềm lực tác
+dụng của catecholamin.
+- Chống say tầu xe –chống nôn: Do kháng cholinergic, an thần, chống nôn; tốt nhất là
+promethazin (có hiệu lực ngang scopolamin). Hiện nay diphenhydramin (Nautamin) và
+dimenhydrin hay được dùng chống nôn trên lâm sàng.
+- Chống ho: Nhiều thuốc kháng H 1 chống được ho theo cơ chế ngoại biên do ức chế sự co
+phế quản gây phản xạ ho (promethazin, oxomemazin, doxylamin, dexclopheniramin...)
+nhưng hiệu lực kém thuốc chống ho trung ương. Thuốc kháng H 1 làm tăng tiềm lực của
+thuốc giãn phế quản khác (như các amin cường giao cảm loại ephedrin).
+- Tác dụng khác:
++  Kháng serotonin receptor tại vùng dưới đồi gây kích thích  ăn ngon (cyproheptadin,
+doxylamin).
++  Chống ngứa, gây tê (không có liên hệ với tác dụng kháng histamin), như mepyramin,
+diphenhydramin.
+2.3. Tương tác thuốc
+Thuốc dùng cùng kháng H1
+Biểu hiện tác dụng
+Rượu ethylic, thuốc ngủ, thuốc làm dịu, an thần kinh,
+thuốc giảm đau nguồn gốc trung ương
+Làm tăng tác dụng
+trung ương của thuốc
+kháng H1
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+Thuốc kháng cholinergic:
+- Loại atropin, scopolamin
+- Thuốc an thần kinh (trừ butyrophenon)
+- Thuốc chống trầm cảm loại ba vòng, ức chế
+MAO, thuốc chống Parkinson, dispyramid, thuốc chống
+co thắt
+Làm tăng tác dụng
+kháng cholinergic của
+thuốc kháng H1
+Thuốc cường phó giao cảm và ức chế cholinesterase:
+Ambenoniclorid, neostigminbromid,
+pyridostigminbromid, fluostigmin, paraoxon
+Đối kháng với tác dụng
+kháng cholinergic của
+thuốc kháng H1
+2.4. Tác dụng không mong muốn
+2.4.1. Do tác dụng trung ương
+Thay đổi tuỵ theo từng cá thể, thường biểu hiện ức chế thần kinh (ngủ gà, khó chịu, giảm
+phản xạ, mệt), mất kết hợp vận động, chóng mặt. Những biểu hiện trên tăng mạnh nếu
+dùng thuốc kháng H1 cùng rượu ethylic hoặc thuốc ức chế thần kinh trung ương. Cấm
+dùng khi lái xe, đang vận hành máy móc hoặc làm việc nơi nguy hiểm (trên cao).
+ở một số người, tác dụng biểu hiện ở dạng kích thích (nhất là ở trẻ còn bú): Mất ngủ, dễ
+kích động, nhức đầu, có khi co giật nếu liều cao.
+Để hạn chế tác dụng không mong muốn trên thần kinh trung ương có thể giảm liều hàng
+ngày hoặc dùng lúc chiều tối, hoặc dùng loại kháng H1 thế hệ II.
+2.4.2. Do tác dụng kháng cholinergic
+Khô miệng, hầu họng; khạc đờm khó; khó tiểu tiện, bí đái, liệt dương; rối loạn điều tiết
+thị giác, tăng áp lực trong mắt đặc biệt ở người có glôcôm góc đóng, đánh trống ngực;
+giảm tiết sữa.
+2.4.3. Phản ứng quá mẫn và đặc ứng
+Có thể gặp quá mẫn nghiêm trọng sau khi dùng thuốc kháng H 1 bôi ngoài, nhất là khi có
+xước da. Có quá mẫn chéo giữa các loại kháng H 1.  Biểu hiện ngoài da (ban đỏ, chàm)
+ngay cả khi uống hoặc tiêm, một phần được cắt nghĩa bởi vai trò là m giải phóng histamin
+của thuốc kháng H1.
+2.4.4. Tác dụng không mong muốn khác
+- Trên tim mạch: terfenadin, astemizol kéo dài khoảng QT có thể đưa đến hiện tượng xoắn
+đỉnh, hiện nay không dùng .
+- Không dung nạp, thay đổi huyết áp, rối loạn máu (thiếu máu tan máu, giảm bạch cầu,
+thoái hóa bạch cầu hạt) tăng nhậy cảm với ánh sáng.
+2.5. Chỉ định và chống chỉ định
+2.5.1.Chỉ định
+
+
+Dược lý học 2007 - đại học Y Hà nội
+sách dùng cho sinh viên hệ bác sĩ đa khoa
+- Thuốc kháng H1 chỉ thuần tuý chữa triệu chứng mà không chữa được nguyên nhân gây
+ra dị ứng.
+Thuốc không làm thay đổi phản ứng khán g nguyên - kháng thể; không đối kháng với
+những chất trung gian khác có vai trò rất quan trọng trong dị ứng, shock phản vệ, hen phế
+quản (như leucotrien). Như vậy, thuốc kháng H 1 hạn chế trong chữa hen, một số thuốc
+phòng được cơn hen (promethazin, clophen iramin, thiazinamin, diphenhydramin,
+clemasin...) có lĩ do kháng cholinergic. Kháng H 1 thế hệ II không kháng cholinergic như
+mepyramin dùng dự phòng co thắt phế quản khi tập luyện.
+- Thuốc kháng H1 ít hiệu quả  khi cần tác dụng nhanh và mạnh (phù thanh mô n, phản vệ
+có hệ thống).
+* Chỉ định tốt nhất là:
+- Dị ứng: sổ mũi mùa, bệnh  da dị ứng (mày đay cấp tính, phù nề ban đỏ; ngứa do dị ứng
+(như trong chàm); phù Quincke; ngứa  do côn trùng đốt; dị ứng thuốc.
+- Bệnh huyết thanh.
+- Chỉ định khác: Chữa say tầu xe (promethazin, diphenhydramin, diphenhydrinat...); gây ngủ
+(promethazin); phối hợp với thuốc ho để làm tăng tác dụng chống ho; kích thích ăn ngon
+(doxylamin, cyproheptadin) hiện nay không dùng; dùng cùng thuốc kháng cholinergic để
+phòng tai biến do phản xạ khi thăm dò bằng nội soi hoặc khi phẫu thuật (như khi chọc
+màng phổi).
+2.5.2. Chống chỉ định
++ Liên quan tới tác dụng kháng cholinergic: Phì đại tuyến tiền liệt, glôcôm góc hẹp,
+nghĩn ống tiêu hóa và đường niệu, nhược cơ, khi dùng IMAO.
++ Do tác dụng gây dị ứng của thuốc kháng histamin: Quá mẫn với thuốc; không dùng
+thuốc kháng H1 ngoài da khi tổn thương da.
++ ở người có thai, không dùng cyclizin và dẫn xuất (có thể gây quái thai).
++ Không dùng các thuốc thế hệ II như terfenadin, astemizol với erythromyci n,
+ketoconazol, itraconazol.
++ Khi lái tàu xe, vận hành máy móc.
+Câu hỏi tự lượng giá
+1. Trình bày vai trò sinh lý và bệnh lý của histamin.
+2. Trình bày đặc điểm dược động học, tác dụng của thuốc kháng  histamin thế hệ I.
+3. Trình bày đặc điểm dược động học, tác dụ ng của thuốc kháng  histamin thế hệ II.
+4. Trình bày các tác dụng không mong muốn và áp dụng điều trị của thuốc kháng
+histamin thế hệ I và thế hệ II.
