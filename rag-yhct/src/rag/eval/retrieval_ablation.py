@@ -9,11 +9,29 @@ Supports three question-generation modes:
   fallback — deterministic keyword-based Vietnamese questions (no LLM)
   auto     — try LLM first, fallback on failure (default)
 
+Reproducible question sets:
+  --save-question-set <path>  save generated questions to JSON for reuse
+  --question-set <path>       load a saved question set (skip generation)
+  --generate-only             generate + save questions, then exit
+
 Usage:
+    # Original usage (unchanged)
     PYTHONPATH=src uv run python -m rag.eval.retrieval_ablation \
         --chunks data/chunks/chunks_v2_full.jsonl \
         --sample-size 30 --topk 10 --question-mode auto \
         --output data/reports/retrieval_ablation.json
+
+    # Generate and save a fixed question set
+    PYTHONPATH=src uv run python -m rag.eval.retrieval_ablation \
+        --chunks data/chunks/chunks_v2_full.jsonl \
+        --sample-size 100 --seed 42 --question-mode auto \
+        --save-question-set data/eval/question_sets/qset_100_seed42.json \
+        --generate-only
+
+    # Run ablation from a saved question set
+    PYTHONPATH=src uv run python -m rag.eval.retrieval_ablation \
+        --question-set data/eval/question_sets/qset_100_seed42.json \
+        --topk 10 --output data/reports/retrieval_ablation_qset.json
 """
 
 from __future__ import annotations
@@ -25,8 +43,9 @@ import random
 import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import requests  # type: ignore
 
@@ -275,6 +294,114 @@ def _generate_question(
     return None, "failed"
 
 
+# ── question set save / load ───────────────────────────────────────────────
+
+def save_question_set(
+    questions: list[dict[str, Any]],
+    path: str,
+    *,
+    seed: int,
+    sample_size: int,
+    question_mode: str,
+    chat_model: str,
+    embed_model: str,
+    chunks_path: str,
+) -> None:
+    """Save a generated question set to *path* in a stable JSON format."""
+    payload = {
+        "meta": {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "seed": seed,
+            "sample_size": sample_size,
+            "question_mode": question_mode,
+            "chat_model": chat_model,
+            "embed_model": embed_model,
+            "chunks_path": chunks_path,
+        },
+        "questions": questions,
+    }
+    out = Path(path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    logger.info("Saved %d questions → %s", len(questions), out)
+
+
+def load_question_set(
+    path: str,
+    chunks: list[dict[str, Any]] | None = None,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Load and validate a question set from *path*.
+
+    Returns (questions, meta).  Validates required fields and tries to infer
+    missing source_id / parent_id from *chunks* if provided.
+    """
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"Question set not found: {p}")
+
+    with open(p, encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, dict) or "questions" not in data:
+        raise ValueError(f"Malformed question set file: missing 'questions' key in {p}")
+
+    raw_meta = data.get("meta", {})
+    meta: dict[str, Any] = cast(dict[str, Any], raw_meta if isinstance(raw_meta, dict) else {})
+
+    raw_questions_untyped = data["questions"]
+    if not isinstance(raw_questions_untyped, list):
+        raise ValueError(f"Question set is empty or not a list in {p}")
+    raw_questions = cast(list[Any], raw_questions_untyped)
+    if len(raw_questions) == 0:
+        raise ValueError(f"Question set is empty or not a list in {p}")
+
+    questions: list[dict[str, Any]] = []
+    for i, item in enumerate(raw_questions):
+        if not isinstance(item, dict):
+            raise ValueError(f"Question at index {i} must be an object")
+        questions.append(cast(dict[str, Any], item))
+
+    # Build lookup from chunks for inference
+    chunk_lookup: dict[str, dict[str, Any]] = {}
+    if chunks:
+        for c in chunks:
+            cid = c.get("chunk_id")
+            if cid:
+                chunk_lookup[cid] = c
+
+    for i, q in enumerate(questions):
+        if not q.get("question"):
+            raise ValueError(f"Question at index {i} missing required field 'question'")
+        if not q.get("expected_chunk_id"):
+            raise ValueError(f"Question at index {i} missing required field 'expected_chunk_id'")
+
+        # Infer missing fields from chunk metadata
+        cid = q["expected_chunk_id"]
+        if chunk_lookup and cid in chunk_lookup:
+            cm = chunk_lookup[cid]
+            if not q.get("expected_source_id"):
+                q["expected_source_id"] = cm.get("source_id", "")
+            if not q.get("expected_parent_id"):
+                q["expected_parent_id"] = cm.get("parent_id", "")
+
+        # Ensure defaults
+        q.setdefault("expected_source_id", "")
+        q.setdefault("expected_parent_id", "")
+        q.setdefault("question_source", "unknown")
+        q.setdefault("is_noisy_question", False)
+
+    logger.info("Loaded question set: %s  (%d questions)", p, len(questions))
+    if meta:
+        meta_seed = cast(object, meta.get("seed"))
+        meta_sample_size = cast(object, meta.get("sample_size"))
+        meta_question_mode = cast(object, meta.get("question_mode"))
+        logger.info("  meta: seed=%s  sample_size=%s  question_mode=%s",
+                     meta_seed, meta_sample_size, meta_question_mode)
+
+    return questions, meta
+
+
 # ── scoring helpers ───────────────────────────────────────────────────────
 
 def _score_results(
@@ -326,51 +453,172 @@ def run_ablation(
     min_text_len: int = DEFAULT_MIN_TEXT_LEN,
     seed: int = DEFAULT_SEED,
     question_mode: str = "auto",
-) -> dict[str, Any]:
+    question_set_path: str | None = None,
+    save_question_set_path: str | None = None,
+    generate_only: bool = False,
+) -> dict[str, Any] | None:
     """Run retrieval ablation: compare vector, bm25, hybrid_rrf.
 
     Returns report with per-mode metrics and per-query detail.
+    If *generate_only* is True, saves the question set and returns None.
     """
-    if question_mode not in QUESTION_MODES:
-        raise ValueError(f"question_mode must be one of {QUESTION_MODES}, got '{question_mode}'")
+    from_saved = question_set_path is not None
 
-    # ── startup config log ────────────────────────────────────────────────
-    logger.info("=" * 70)
-    logger.info("ABLATION CONFIG")
-    logger.info("  ollama_url   : %s", ollama_url)
-    logger.info("  chat_model   : %s", gen_model)
-    logger.info("  embed_model  : %s", embed_model)
-    logger.info("  chat_endpoint: %s/api/generate", ollama_url)
-    logger.info("  question_mode: %s", question_mode)
-    logger.info("=" * 70)
+    # ── Load saved question set ───────────────────────────────────────────
+    if from_saved:
+        chunks_for_infer = read_jsonl(chunks_path) if Path(chunks_path).exists() else None
+        loaded_questions, loaded_meta = load_question_set(
+            question_set_path, chunks=chunks_for_infer,
+        )
+        # Prepare the eval_items list that mirrors the generation path
+        eval_items: list[dict[str, Any]] = []
+        llm_questions = 0
+        fallback_questions = 0
+        noisy_queries = 0
+        for q in loaded_questions:
+            query_is_noisy = q.get("is_noisy_question", False)
+            if query_is_noisy:
+                noisy_queries += 1
+            qs = q.get("question_source", "unknown")
+            if qs == "llm":
+                llm_questions += 1
+            elif qs == "fallback":
+                fallback_questions += 1
+            eval_items.append({
+                "question": q["question"],
+                "chunk_id": q["expected_chunk_id"],
+                "parent_id": q.get("expected_parent_id", ""),
+                "source_id": q.get("expected_source_id", ""),
+                "q_source": qs,
+                "query_is_noisy": query_is_noisy,
+            })
+        failed_gen = 0
+        sample_size_actual = len(eval_items)
+        logger.info("=" * 70)
+        logger.info("ABLATION CONFIG  (from saved question set)")
+        logger.info("  question_set : %s", question_set_path)
+        logger.info("  questions    : %d", len(eval_items))
+        logger.info("  embed_model  : %s", embed_model)
+        if loaded_meta:
+            logger.info("  meta.seed    : %s", loaded_meta.get("seed"))
+            logger.info("  meta.mode    : %s", loaded_meta.get("question_mode"))
+            logger.info("  meta.chat    : %s", loaded_meta.get("chat_model"))
+        logger.info("=" * 70)
+    else:
+        # ── Original generation path ──────────────────────────────────────
+        if question_mode not in QUESTION_MODES:
+            raise ValueError(f"question_mode must be one of {QUESTION_MODES}, got '{question_mode}'")
 
-    # ── Ollama health check (for llm / auto modes) ────────────────────────
-    if question_mode in ("llm", "auto"):
-        llm_ok = _check_ollama_chat(ollama_url, gen_model)
-        if not llm_ok:
-            if question_mode == "llm":
-                logger.error(
-                    "FATAL: --question-mode=llm but Ollama chat model '%s' "
-                    "is not reachable at %s. Aborting.",
-                    gen_model, ollama_url,
-                )
+        logger.info("=" * 70)
+        logger.info("ABLATION CONFIG")
+        logger.info("  ollama_url   : %s", ollama_url)
+        logger.info("  chat_model   : %s", gen_model)
+        logger.info("  embed_model  : %s", embed_model)
+        logger.info("  chat_endpoint: %s/api/generate", ollama_url)
+        logger.info("  question_mode: %s", question_mode)
+        logger.info("=" * 70)
+
+        # Ollama health check (for llm / auto modes)
+        if question_mode in ("llm", "auto"):
+            llm_ok = _check_ollama_chat(ollama_url, gen_model)
+            if not llm_ok:
+                if question_mode == "llm":
+                    logger.error(
+                        "FATAL: --question-mode=llm but Ollama chat model '%s' "
+                        "is not reachable at %s. Aborting.",
+                        gen_model, ollama_url,
+                    )
+                    sys.exit(1)
+                else:
+                    logger.warning(
+                        "Ollama chat model '%s' not reachable — "
+                        "auto mode will use fallback questions for ALL samples.",
+                        gen_model,
+                    )
+
+        random.seed(seed)
+
+        chunks = read_jsonl(chunks_path)
+        candidates = [c for c in chunks if _is_clean(c, min_text_len)]
+        logger.info("Candidates for sampling: %d / %d", len(candidates), len(chunks))
+
+        sample = random.sample(candidates, min(sample_size, len(candidates)))
+        logger.info("Sampled %d chunks (seed=%d)", len(sample), seed)
+
+        # Generate questions
+        eval_items = []
+        saveable_questions: list[dict[str, Any]] = []
+        failed_gen = 0
+        llm_questions = 0
+        fallback_questions = 0
+        noisy_queries = 0
+
+        for i, chunk in enumerate(sample):
+            text = chunk.get("text_norm") or chunk.get("text", "")
+            chunk_id = chunk["chunk_id"]
+            parent_id = chunk.get("parent_id", "")
+            source_id = chunk.get("source_id", "")
+
+            question, q_source = _generate_question(
+                text, ollama_url, gen_model, question_mode, index=i,
+            )
+            if not question:
+                failed_gen += 1
+                continue
+
+            if q_source == "llm":
+                llm_questions += 1
+            elif q_source == "fallback":
+                fallback_questions += 1
+
+            query_is_noisy = is_query_noisy(question)
+            if query_is_noisy:
+                noisy_queries += 1
+
+            eval_items.append({
+                "question": question,
+                "chunk_id": chunk_id,
+                "parent_id": parent_id,
+                "source_id": source_id,
+                "q_source": q_source,
+                "query_is_noisy": query_is_noisy,
+            })
+
+            saveable_questions.append({
+                "question": question,
+                "expected_chunk_id": chunk_id,
+                "expected_source_id": source_id,
+                "expected_parent_id": parent_id,
+                "question_source": q_source,
+                "chunk_text_preview": text[:200],
+                "is_noisy_question": query_is_noisy,
+            })
+
+            if (i + 1) % 10 == 0:
+                logger.info("Question generation: %d/%d (llm=%d fb=%d failed=%d)",
+                            i + 1, len(sample), llm_questions, fallback_questions, failed_gen)
+
+        # Save question set if requested
+        if save_question_set_path:
+            save_question_set(
+                saveable_questions, save_question_set_path,
+                seed=seed, sample_size=len(sample),
+                question_mode=question_mode, chat_model=gen_model,
+                embed_model=embed_model, chunks_path=chunks_path,
+            )
+
+        # Generate-only mode: save and exit
+        if generate_only:
+            if not save_question_set_path:
+                logger.error("--generate-only requires --save-question-set")
                 sys.exit(1)
-            else:
-                logger.warning(
-                    "Ollama chat model '%s' not reachable — "
-                    "auto mode will use fallback questions for ALL samples.",
-                    gen_model,
-                )
+            logger.info("Generate-only mode: %d questions saved. Exiting.", len(saveable_questions))
+            return None
 
-    random.seed(seed)
+        sample_size_actual = len(sample)
+        loaded_meta = None
 
-    chunks = read_jsonl(chunks_path)
-    candidates = [c for c in chunks if _is_clean(c, min_text_len)]
-    logger.info("Candidates for sampling: %d / %d", len(candidates), len(chunks))
-
-    sample = random.sample(candidates, min(sample_size, len(candidates)))
-    logger.info("Sampled %d chunks (seed=%d)", len(sample), seed)
-
+    # ── Retrieval evaluation ──────────────────────────────────────────────
     modes = ["vector", "bm25", "hybrid_rrf"]
 
     # Accumulators: mode → metric_name → k → count
@@ -382,33 +630,18 @@ def run_ablation(
     }
 
     total_evaluated = 0
-    failed_gen = 0
     failed_embed = 0
-    noisy_queries = 0
-    llm_questions = 0
-    fallback_questions = 0
     detail: list[dict[str, Any]] = []
     failures: list[dict[str, Any]] = []
     sample_questions: list[dict[str, str]] = []
 
-    for i, chunk in enumerate(sample):
-        text = chunk.get("text_norm") or chunk.get("text", "")
-        chunk_id = chunk["chunk_id"]
-        parent_id = chunk.get("parent_id", "")
-        source_id = chunk.get("source_id", "")
-
-        # 1. Generate question
-        question, q_source = _generate_question(
-            text, ollama_url, gen_model, question_mode, index=i,
-        )
-        if not question:
-            failed_gen += 1
-            continue
-
-        if q_source == "llm":
-            llm_questions += 1
-        elif q_source == "fallback":
-            fallback_questions += 1
+    for i, item in enumerate(eval_items):
+        question = item["question"]
+        chunk_id = item["chunk_id"]
+        parent_id = item["parent_id"]
+        source_id = item["source_id"]
+        q_source = item["q_source"]
+        query_is_noisy = item["query_is_noisy"]
 
         # Save sample questions (first 20)
         if len(sample_questions) < 20:
@@ -418,9 +651,8 @@ def run_ablation(
                 "source": q_source,
             })
 
-        query_is_noisy = is_query_noisy(question)
         if query_is_noisy:
-            noisy_queries += 1
+            pass  # already counted
 
         # 2. Embed question (shared across modes that need it)
         q_vec = embed_query(question, ollama_url, embed_model)
@@ -507,7 +739,7 @@ def run_ablation(
             logger.info(
                 "Progress: %d/%d evaluated=%d (llm=%d fb=%d)  "
                 "vec_hit@5=%.0f%%  bm25_hit@5=%.0f%%  hybrid_hit@5=%.0f%%",
-                i + 1, len(sample), total_evaluated,
+                i + 1, len(eval_items), total_evaluated,
                 llm_questions, fallback_questions,
                 (hits["vector"]["chunk"].get(5, 0) / max(total_evaluated, 1)) * 100,
                 (hits["bm25"]["chunk"].get(5, 0) / max(total_evaluated, 1)) * 100,
@@ -520,7 +752,7 @@ def run_ablation(
 
     summary: dict[str, Any] = {
         "config": {
-            "sample_size": len(sample),
+            "sample_size": sample_size_actual,
             "total_evaluated": total_evaluated,
             "question_mode": question_mode,
             "llm_questions": llm_questions,
@@ -542,6 +774,14 @@ def run_ablation(
         "detail": detail,
         "failures": failures,
     }
+
+    # Include question set provenance when running from a saved set
+    if from_saved:
+        summary["question_set"] = {
+            "question_set_path": question_set_path,
+            "question_count": len(eval_items),
+            "generation_meta": loaded_meta if loaded_meta else None,
+        }
 
     for mode_name in modes:
         mode_metrics: dict[str, Any] = {}
@@ -619,7 +859,22 @@ def main() -> None:
     p.add_argument("--question-mode", choices=QUESTION_MODES, default="auto",
                     help="llm=require Ollama; fallback=deterministic; auto=try LLM then fallback")
     p.add_argument("--output", default="data/reports/retrieval_ablation.json")
+    # ── question-set reproducibility flags ────────────────────────────────
+    p.add_argument("--question-set", default=None, metavar="PATH",
+                    help="Load a saved question set (skip generation)")
+    p.add_argument("--save-question-set", default=None, metavar="PATH",
+                    help="Save generated questions to JSON for later reuse")
+    p.add_argument("--generate-only", action="store_true", default=False,
+                    help="Generate and save questions, then exit (no retrieval)")
     args = p.parse_args()
+
+    # Validation
+    if args.generate_only and not args.save_question_set:
+        p.error("--generate-only requires --save-question-set")
+    if args.question_set and args.save_question_set:
+        p.error("--question-set and --save-question-set are mutually exclusive")
+    if args.question_set and args.generate_only:
+        p.error("--question-set and --generate-only are mutually exclusive")
 
     t0 = time.time()
     report = run_ablation(
@@ -638,11 +893,14 @@ def main() -> None:
         min_text_len=args.min_text_len,
         seed=args.seed,
         question_mode=args.question_mode,
+        question_set_path=args.question_set,
+        save_question_set_path=args.save_question_set,
+        generate_only=args.generate_only,
     )
     elapsed = time.time() - t0
     logger.info("Total time: %.1fs", elapsed)
 
-    if args.output:
+    if report is not None and args.output:
         out = Path(args.output)
         out.parent.mkdir(parents=True, exist_ok=True)
         with open(out, "w", encoding="utf-8") as f:
