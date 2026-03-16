@@ -27,13 +27,6 @@ sources:
   title: BÀI 4. XBBH-DƯỠNG SINH
   doc_language: vi
   url: ''
-- source_id: src_acdc38ef8972
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Ngoại
-    khoa Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com.txt
-  doc_type: txt
-  title: Ngoại khoa Y học cổ truyền của Đại học Y Hà Nội- nguyentruongntan@gmail.com
-  doc_language: vi
-  url: ''
 - source_id: src_901a97a5099b
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/GiaoKhoaVeYCT/Sách
     Y học cổ truyền của đại học Duy Tân- nguyentruongntan@gmail.com.txt
@@ -113,13 +106,6 @@ sources:
   title: Bai8
   doc_language: vi
   url: ''
-- source_id: src_275430add098
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DIEN CHAN]/Huyet mat.txt
-  doc_type: txt
-  title: Huyet mat
-  doc_language: vi
-  url: ''
 - source_id: src_ef3d6ff3846c
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[DIEN CHAN]/[DIEN CHAN]/kynam2.txt
@@ -164,13 +150,6 @@ sources:
   title: Bai 11 - Thuoc chua Gut
   doc_language: vi
   url: ''
-- source_id: src_6fac66c04752
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/Bi quyet van khi de tri benh- GS. Pham Van Chinh.txt
-  doc_type: txt
-  title: Bi quyet van khi de tri benh- GS. Pham Van Chinh
-  doc_language: vi
-  url: ''
 - source_id: src_df81449827c6
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[KHI CONG]/Huyen Thoai Nghiem Tan.txt
@@ -185,19 +164,6 @@ sources:
   title: '[Tham khảo] 10 QUÁ TRÌNH ĐIỀU HÒA TÂM TƯ TÌNH CẢM KHI LUYỆN CÔNG'
   doc_language: vi
   url: ''
-- source_id: src_a73c386f17dc
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/sach_trieuchunglamsanghoc.txt
-  doc_type: txt
-  title: sach_trieuchunglamsanghoc
-  doc_language: vi
-  url: ''
-- source_id: src_ed672128ae8e
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/cay-rau-cay-thuoc-trungtamthuoc.txt
-  doc_type: txt
-  title: cay-rau-cay-thuoc-trungtamthuoc
-  doc_language: vi
-  url: ''
 - source_id: src_309ee3f2ff0b
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/hướng
     dẫn chẩn đoán và điều trị bệnh theo y học cổ truyền kết hợp y học cổ truyền và
@@ -205,18 +171,6 @@ sources:
   doc_type: txt
   title: hướng dẫn chẩn đoán và điều trị bệnh theo y học cổ truyền kết hợp y học cổ
     truyền và y học hiện đại
-  doc_language: vi
-  url: ''
-- source_id: src_1492afe87488
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-1-125-1-60-output.txt
-  doc_type: txt
-  title: nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-1-125-1-60-output
-  doc_language: vi
-  url: ''
-- source_id: src_676e071a4efa
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/MY_MI_DUONG/nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-126-250-1-60-output.txt
-  doc_type: txt
-  title: nam-duoc-than-hieu-pdf-trungtamthuoc-1-250-126-250-1-60-output
   doc_language: vi
   url: ''
 - source_id: src_6f802cb99781
@@ -228,29 +182,10 @@ sources:
     Tĩnh, 272 Trang
   doc_language: vi
   url: ''
-- source_id: src_9dd63d03d7ec
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/Vi
-    thuoc_duoc lieu.txt
-  doc_type: txt
-  title: Vi thuoc_duoc lieu
-  doc_language: vi
-  url: ''
-- source_id: src_c9136ee349e6
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/cay-thuoc-va-dong-vat-lam-thuoc-tap-1-trungtamthuoc.com.txt
-  doc_type: txt
-  title: cay-thuoc-va-dong-vat-lam-thuoc-tap-1-trungtamthuoc.com
-  doc_language: vi
-  url: ''
 - source_id: src_565d308c7183
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/d93e3828e74a3ddfb06193a5c304993f0e13fed16e1d01e9c2a2943695deeca2.txt
   doc_type: txt
   title: d93e3828e74a3ddfb06193a5c304993f0e13fed16e1d01e9c2a2943695deeca2
-  doc_language: vi
-  url: ''
-- source_id: src_884f8bf44c10
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-001/TT_YHCT/SACHYHCT/sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc.txt
-  doc_type: txt
-  title: sach-nhung-cay-thuoc-va-vi-thuoc-viet-nam-trungtamthuoc
   doc_language: vi
   url: ''
 - source_id: src_d273ae772bf7
@@ -309,32 +244,11 @@ sources:
   title: Bai9
   doc_language: vi
   url: ''
-- source_id: src_e4d63516c434
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/Cây Thuốc - Dược Liệu/[non-ocr] tu_dien_thao_duoc_hoc_0267.txt
-  doc_type: txt
-  title: '[non-ocr] tu_dien_thao_duoc_hoc_0267'
-  doc_language: vi
-  url: ''
 - source_id: src_ff2b95264bfc
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[DIEN CHAN]/Diện chẩn - Điều khiển liệu pháp.txt
   doc_type: txt
   title: Diện chẩn - Điều khiển liệu pháp
-  doc_language: vi
-  url: ''
-- source_id: src_98d48624b8cf
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DIEN CHAN]/[DIEN CHAN]/Cac PD Can Ban Trong Dieu Tri Benh.txt
-  doc_type: txt
-  title: Cac PD Can Ban Trong Dieu Tri Benh
-  doc_language: vi
-  url: ''
-- source_id: src_f53ffb685763
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DIEN CHAN]/[DIEN CHAN]/Huyet mat.txt
-  doc_type: txt
-  title: Huyet mat
   doc_language: vi
   url: ''
 - source_id: src_54b7e1d9b1cb
@@ -363,28 +277,6 @@ sources:
     Viet/[DONG Y]/BẢN THẢO VẤN ĐÁP.txt
   doc_type: txt
   title: BẢN THẢO VẤN ĐÁP
-  doc_language: vi
-  url: ''
-- source_id: src_269929393446
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DONG Y]/Dong Y Nhap Mon - Nguyen Thien Quyen.txt
-  doc_type: txt
-  title: Dong Y Nhap Mon - Nguyen Thien Quyen
-  doc_language: vi
-  url: ''
-- source_id: src_2327023347c0
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DONG Y]/Ebook về Châm cứu/Học Châm Cứu Bằng Hình Ảnh - Lê Quý Ngưu.txt
-  doc_type: txt
-  title: Học Châm Cứu Bằng Hình Ảnh - Lê Quý Ngưu
-  doc_language: vi
-  url: ''
-- source_id: src_237847684ed8
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DONG Y]/Hai thuong y ton tam linh/[non-ocr] hai thuong y ton tam linh -
-    quyen 1.txt
-  doc_type: txt
-  title: '[non-ocr] hai thuong y ton tam linh - quyen 1'
   doc_language: vi
   url: ''
 - source_id: src_a9b32924bfc1
@@ -478,13 +370,6 @@ sources:
   title: dongytap7
   doc_language: vi
   url: ''
-- source_id: src_ddda3e542b7e
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DONG Y]/Đông y chuẩn đoán và luận trị.txt
-  doc_type: txt
-  title: Đông y chuẩn đoán và luận trị
-  doc_language: vi
-  url: ''
 - source_id: src_f3cf94fd3921
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[DUOC HOC]/DUOC LY LAM SANG -DAI HOC Y HN-2007/Bai 01 - Dai cuong ve duoc
@@ -544,13 +429,6 @@ sources:
   title: Từ điển bách khoa y học Việt Nam
   doc_language: vi
   url: ''
-- source_id: src_c4740443e07d
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[DUONG SINH]/yhocthuongthuc.txt
-  doc_type: txt
-  title: yhocthuongthuc
-  doc_language: vi
-  url: ''
 - source_id: src_f80e34eb56ad
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[KHI CONG]/BacSyTotNhatLaChinhMinh.txt
@@ -572,20 +450,6 @@ sources:
   title: THANG DAU CA QUYET
   doc_language: vi
   url: ''
-- source_id: src_db953abb5373
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/TRUONG QUYEN 1.txt
-  doc_type: txt
-  title: TRUONG QUYEN 1
-  doc_language: vi
-  url: ''
-- source_id: src_3cba41932863
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/TRUONG QUYEN 2.txt
-  doc_type: txt
-  title: TRUONG QUYEN 2
-  doc_language: vi
-  url: ''
 - source_id: src_d92a21efcf76
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[KHI CONG]/Thai Cuc Quyen Duong gia 85.txt
@@ -598,13 +462,6 @@ sources:
     Viet/[KHI CONG]/Thai Cuc Quyen Luan Giai.txt
   doc_type: txt
   title: Thai Cuc Quyen Luan Giai
-  doc_language: vi
-  url: ''
-- source_id: src_cbe302f22a0b
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/Thien gia dieu phuong.txt
-  doc_type: txt
-  title: Thien gia dieu phuong
   doc_language: vi
   url: ''
 - source_id: src_1bcc0ba43edd
@@ -621,70 +478,6 @@ sources:
   title: '[Tham khảo] Nghiem Tan Khi Cong'
   doc_language: vi
   url: ''
-- source_id: src_85c6053c7b81
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] BAT DOAN CAM.txt
-  doc_type: txt
-  title: '[non-ocr] BAT DOAN CAM'
-  doc_language: vi
-  url: ''
-- source_id: src_ad2085a6f337
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] DAI NHA KHI CONG.txt
-  doc_type: txt
-  title: '[non-ocr] DAI NHA KHI CONG'
-  doc_language: vi
-  url: ''
-- source_id: src_6e71010b7f7a
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] KARATE CAN CHIEN TU DO - tuandeptrai.txt
-  doc_type: txt
-  title: '[non-ocr] KARATE CAN CHIEN TU DO - tuandeptrai'
-  doc_language: vi
-  url: ''
-- source_id: src_e665ae937e31
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] KHI CONG TOAN THU- www.MAISONLAM.com - Website Vo Thuat.txt
-  doc_type: txt
-  title: '[non-ocr] KHI CONG TOAN THU- www.MAISONLAM.com - Website Vo Thuat'
-  doc_language: vi
-  url: ''
-- source_id: src_dea00618f068
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] KHI CONG TRUNG HOA - www.MAISONLAM.com - Website Vo
-    Thuat(2).txt
-  doc_type: txt
-  title: '[non-ocr] KHI CONG TRUNG HOA - www.MAISONLAM.com - Website Vo Thuat(2)'
-  doc_language: vi
-  url: ''
-- source_id: src_d4e36023c6a1
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/[non-ocr] KHI CONG TU TRI BENH.txt
-  doc_type: txt
-  title: '[non-ocr] KHI CONG TU TRI BENH'
-  doc_language: vi
-  url: ''
-- source_id: src_909a81ac45f6
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/bailythuyettuchan1.txt
-  doc_type: txt
-  title: bailythuyettuchan1
-  doc_language: vi
-  url: ''
-- source_id: src_4ddd36e6324c
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/sach_luantri.txt
-  doc_type: txt
-  title: sach_luantri
-  doc_language: vi
-  url: ''
-- source_id: src_6d2b06d7e922
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
-    Viet/[KHI CONG]/sach_machbenh.txt
-  doc_type: txt
-  title: sach_machbenh
-  doc_language: vi
-  url: ''
 - source_id: src_83ddc2a9c23c
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/Sach
     Viet/[KHI CONG]/sach_quykinhchanphap-toantap.txt
@@ -692,34 +485,10 @@ sources:
   title: sach_quykinhchanphap-toantap
   doc_language: vi
   url: ''
-- source_id: src_b63d285aba2e
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-hoa-cay-thuoc-trungtamthuoc.txt
-  doc_type: txt
-  title: cay-hoa-cay-thuoc-trungtamthuoc
-  doc_language: vi
-  url: ''
 - source_id: src_0a2099bef982
   file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/MY_MI_DUONG/cay-qua-cay-thuoc-trungtamthuoc_com.txt
   doc_type: txt
   title: cay-qua-cay-thuoc-trungtamthuoc_com
-  doc_language: vi
-  url: ''
-- source_id: src_c212833c3924
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/SACHYHCT/1-s2.0-S2090123224006180-main.txt
-  doc_type: txt
-  title: 1-s2.0-S2090123224006180-main
-  doc_language: vi
-  url: ''
-- source_id: src_5ce672689048
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/2024.08.07.606195v1.full.txt
-  doc_type: txt
-  title: 2024.08.07.606195v1.full
-  doc_language: vi
-  url: ''
-- source_id: src_99146e9b3c45
-  file_path: data/raw-txt-clean/TT_YHCT-20260129T064301Z-3-002/TT_YHCT/YEUCAU/HuongdanXD.txt
-  doc_type: txt
-  title: HuongdanXD
   doc_language: vi
   url: ''
 - source_id: src_3ec3e565990d

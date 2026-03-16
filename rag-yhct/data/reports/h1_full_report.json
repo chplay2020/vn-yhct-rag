@@ -2,35 +2,35 @@
   "status": "ok",
   "errors": [],
   "raw": {
-    "count": 25989,
+    "count": 21029,
     "doc_type_counts": {
-      "txt": 25989
+      "txt": 21029
     },
-    "unique_source_ids": 125,
-    "unique_file_paths": 125
+    "unique_source_ids": 106,
+    "unique_file_paths": 106
   },
   "clean": {
-    "count": 25989,
+    "count": 21029,
     "doc_type_counts": {
-      "txt": 25989
+      "txt": 21029
     }
   },
   "chunks": {
-    "count": 27403,
-    "unique_chunk_ids": 27263,
+    "count": 24620,
+    "unique_chunk_ids": 24553,
     "doc_type_counts": {
-      "txt": 27403
+      "txt": 24620
     },
-    "unique_source_ids": 125,
-    "unique_file_paths": 125,
-    "noise_count": 92,
-    "noise_ratio": 0.0034,
+    "unique_source_ids": 106,
+    "unique_file_paths": 106,
+    "noise_count": 59,
+    "noise_ratio": 0.0024,
     "pdf_strategy_counts": {}
   },
   "qdrant": {
     "collection": "yhct_chunks_v2_full",
-    "point_count": 27263,
-    "points_count": 27263,
+    "point_count": 24553,
+    "points_count": 24553,
     "match": true
   },
   "error_samples": {
@@ -43,11 +43,6 @@
       {
         "chunk_id": "src_e2fe10d2d90a:9bdb77276c18",
         "source_id": "src_e2fe10d2d90a",
-        "snippet": "�"
-      },
-      {
-        "chunk_id": "src_e4d63516c434:9bdb77276c18",
-        "source_id": "src_e4d63516c434",
         "snippet": "�"
       },
       {
@@ -65,7 +60,7 @@
     "scientific_name_split": []
   },
   "error_counts": {
-    "fffd_chunks": 5,
+    "fffd_chunks": 4,
     "letter_nl_letter_chunks": 0,
     "sci_name_split_chunks": 0
   }

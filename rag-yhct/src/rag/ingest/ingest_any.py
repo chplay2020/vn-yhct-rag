@@ -8,10 +8,9 @@ from __future__ import annotations
 
 import argparse
 import logging
-import re
 from collections import Counter
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import yaml
 from tqdm import tqdm  # type: ignore
@@ -27,27 +26,6 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(name)s | %(mes
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def _norm_ws(text: str) -> str:
-    """Collapse whitespace for fuzzy matching."""
-    return re.sub(r"\s+", " ", text).strip()
-
-
-def _find_span(page_text: str, target: str) -> dict[str, int] | None:
-    """Try to find target text in page_text, return {char_start, char_end} or None."""
-    # Exact match
-    idx = page_text.find(target)
-    if idx >= 0:
-        return {"char_start": idx, "char_end": idx + len(target)}
-    # Whitespace-normalized match
-    norm_page = _norm_ws(page_text)
-    norm_target = _norm_ws(target)
-    idx = norm_page.find(norm_target)
-    if idx >= 0:
-        return {"char_start": idx, "char_end": idx + len(norm_target)}
-    return None
-
-
 # ---------------------------------------------------------------------------
 # PDF ingestion
 # ---------------------------------------------------------------------------
@@ -62,7 +40,7 @@ def _ingest_pdf(
 
     file_path = source["file_path"]
     source_id = source["source_id"]
-    min_text_len: int = cfg_ingest.get("min_text_len_pdf", 30)
+    min_text_len = int(cfg_ingest.get("min_text_len_pdf", 30))
     doc_fp = sha1_fingerprint(file_path)
     manifest_lang = source.get("doc_language")
 
@@ -76,9 +54,10 @@ def _ingest_pdf(
     total_pages = len(doc)  # type: ignore
     kept = 0
 
-    for i, page in enumerate(doc):  # type: ignore
+    for i, page in enumerate(cast(list[Any], doc)):  # type: ignore
         page_no = i + 1  # 1-based
-        text: str = page.get_text("text").strip()  # type: ignore
+        raw_text = page.get_text("text")
+        text = str(raw_text).strip()
 
         if len(text) < min_text_len:
             continue
@@ -161,7 +140,7 @@ def _ingest_docx(
         logger.error("partition_docx failed for %s: %s", file_path, exc)
         return []
 
-    min_text_len = cfg_ingest.get("min_text_len_docx", 30)
+    min_text_len = int(cfg_ingest.get("min_text_len_docx", 30))
     doc_fp = sha1_fingerprint(file_path)
     manifest_lang = source.get("doc_language")
 
@@ -171,8 +150,8 @@ def _ingest_docx(
     current_heading: str | None = None
     para_idx = 0
 
-    for elem_idx, el in enumerate(elements):  # type: ignore
-        text = str(el).strip() if hasattr(el, "__str__") else ""  # type: ignore
+    for elem_idx, el in enumerate(cast(list[Any], elements)):
+        text = str(el).strip()
         if not text:
             continue
 
@@ -260,14 +239,19 @@ def _ingest_image(
     source_id = source["source_id"]
     ocr_cfg = cfg_ingest.get("ocr", {})
     ocr_lang = ocr_cfg.get("lang", "vie")
-    min_conf = ocr_cfg.get("min_confidence", 0.55)
-    min_text_len = cfg_ingest.get("min_text_len_image", 5)
+    min_conf = float(ocr_cfg.get("min_confidence", 0.55))
+    min_text_len = int(cfg_ingest.get("min_text_len_image", 5))
     doc_fp = sha1_fingerprint(file_path)
     manifest_lang = source.get("doc_language", "vi")
 
     try:
         img = Image.open(file_path)  # type: ignore
-        ocr_data = pytesseract.image_to_data(img, lang=ocr_lang, output_type=pytesseract.Output.DICT)  # type: ignore
+        image_to_data = cast(Any, getattr(pytesseract, "image_to_data", None))
+        output_type_dict = cast(Any, getattr(getattr(pytesseract, "Output", None), "DICT", None))
+        if image_to_data is None or output_type_dict is None:
+            logger.error("pytesseract API unavailable for %s", file_path)
+            return []
+        ocr_data = cast(dict[str, list[Any]], image_to_data(img, lang=ocr_lang, output_type=output_type_dict))
     except Exception as exc:
         logger.error("OCR failed for %s: %s", file_path, exc)
         return []
@@ -291,7 +275,7 @@ def _ingest_image(
             low_conf_skipped += 1
             continue
 
-        if len(text) < min_text_len:  # type: ignore
+        if len(text) < min_text_len:
             continue
 
         x1 = ocr_data["left"][i]  # type: ignore
@@ -370,7 +354,7 @@ def _ingest_txt(
     """Ingest a pre-normalized TXT file. Each blank-line-separated paragraph = one passage."""
     file_path = source["file_path"]
     source_id = source["source_id"]
-    min_text_len: int = cfg_ingest.get("min_text_len_pdf", 30)
+    min_text_len = int(cfg_ingest.get("min_text_len_txt", cfg_ingest.get("min_text_len_pdf", 30)))
     doc_fp = sha1_fingerprint(file_path)
     manifest_lang = source.get("doc_language")
 
@@ -431,7 +415,7 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 
 def _resolve_doc_type(source: dict[str, Any]) -> str:
     """Determine doc_type from manifest or file extension."""
-    doc_type = source.get("doc_type", "").lower()
+    doc_type = str(source.get("doc_type", "")).lower()
     if doc_type in ("pdf", "docx", "image", "txt"):
         return doc_type
     ext = Path(source["file_path"]).suffix.lower()
@@ -460,7 +444,7 @@ def run_ingest(config: dict[str, Any]) -> int:
     # Load manifest
     if not Path(manifest_path).exists():
         logger.warning("Manifest file not found: %s — nothing to ingest.", manifest_path)
-        return
+        return 0
 
     with open(manifest_path, encoding="utf-8") as f:
         manifest = yaml.safe_load(f) or {}  # type: ignore
@@ -468,7 +452,7 @@ def run_ingest(config: dict[str, Any]) -> int:
 
     if not sources:
         logger.warning("No sources in manifest %s", manifest_path)
-        return
+        return 0
 
     all_records: list[dict[str, Any]] = []
 
