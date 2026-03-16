@@ -44,7 +44,7 @@ def run_clean(config: dict[str, Any]) -> int:
     records = read_jsonl(input_path)
     if not records:
         logger.warning("No records to clean from %s", input_path)
-        return
+        return 0
 
     cleaned: list[dict[str, Any]] = []
     for rec in records:
