@@ -1,0 +1,646 @@
+{
+  "query": "Cây Mã Đề",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_ab5904eafcde:0b5128fd1cd2",
+      "fused_score": 0.032787,
+      "bm25_rank": 0,
+      "bm25_score": 15.832304,
+      "vector_rank": 0,
+      "vector_score": 0.62233,
+      "source_id": "src_ab5904eafcde",
+      "parent_id": "src_ab5904eafcde:h:5297024b7f97:b0",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bài 17 DƯỢC LIỆU CÓ TÁC DỤNG LỢI TIỂU MỤC TIÊU 1. Trình bày được đặc điểm thực vật, bộ phận dùng làm thuốc, thành phần hoá học, công dụng, cách dùng, liều lượng những vị thuốc có tác dụng lợi tiểu. 2. Vận dụng được những kiến thức đã học vào hoạt động nghề nghiệp. NỘI DUNG CHÍNH CÂY MÃ ĐỀ Tên khác: Bông mã đề - Cây vó ngựa - Xa tiền (TQ) Tên khoa học: Plan tagomajor L. Họ: Mã đề (Plan taginaceae) 1. Mô tả, phân bố Mã đề thuộc loại cây thảo, sống lâu năm, thân rất ngắn. Lá hình thìa, có cuống dài",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_ab5904eafcde:38e2385f26cb",
+      "fused_score": 0.03125,
+      "bm25_rank": 3,
+      "bm25_score": 14.107288,
+      "vector_rank": 3,
+      "vector_score": 0.616786,
+      "source_id": "src_ab5904eafcde",
+      "parent_id": "src_ab5904eafcde:h:5297024b7f97:b0",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(folium Plan taginis): Thu hái lúc cây sắp ra hoa, phơi khô, độ ẩm không quá 13%, tạp chất không quá 1%, tro toàn phần không quá 14%. 2.2. Cây mã đề: Thu hái cả cây, cắt bỏ rễ, phơi sấy khô. 2.3. Sa tiền tử (semen Plan taginis): Thu hái lúc quả già, rũ lấy hạt, phơi sấy khô, độ ẩm không quá 10%, hạt lép không quá 2%, chỉ số nở ít nhất là 5. Hạt mã đề đã được ghi trong Dược điển Việt Nam (2002). 3. Thành phần hóa học Lá mã đề có flavonoid là baicalein, scutellarein, an cubosid, một lac ton là lil",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:039dd475e3ec",
+      "fused_score": 0.02967,
+      "bm25_rank": 9,
+      "bm25_score": 12.632596,
+      "vector_rank": 4,
+      "vector_score": 0.612641,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b608",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã đề Á Mã đề Á, Xa tiền - Plan tago asiatica L, thuộc họ Mã đề - Plan taginaceae. Mô tả: Cây thảo lâu năm cao 20-60cm có rễ to. Lá chụm ở mặt đất, phiến xoan dài 11-12cm, rộng 4-9cm, hai đầu tù, mép nguyên, nhăn, gân chính 5, mỏng không lông; cuống dẹp, dài đến bằng phiến. Bông đứng cao 20-45cm. Hoa nhỏ màu trắng không lông, lá dài bầu dục cao 1,8-2mm; tràng có ống mang 5 thuỳ xoan; nhị 4. Quả hộp xoan, cao to 3,5 x 2mm, hạt 4-6 to, dài đến 1,8mm, đen. Hoa tháng 5-9, quả tháng 6-10. Bộ phận dùn",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:5e0952f25484",
+      "fused_score": 0.029643,
+      "bm25_rank": 13,
+      "bm25_score": 12.5255,
+      "vector_rank": 1,
+      "vector_score": 0.618465,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b607",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã đề Mã đề - Plan tago major L, thuộc họ Mã đề - Plan taginaceae. Mô tả: Cây thảo sống lâu năm cao 15-20cm, có thân ngắn. Lá mọc thành cụm ở gốc, có cuống rộng ngắn hơn phiến, phiến hình thìa hay hình trứng, có 2-3 gân hình cung. Hoa nhỏ màu trắng xếp thành bông dài, mọc đứng. Quả hộp nhỏ hình cầu, chứa 6-18 hạt. Hạt nhỏ trong hay bầu dục, to 1- 1,5mm màu đen bóng. Mùa hoa quả tháng 5-8. Bộ phận dùng: Phần cây trên mặt - Herba Plan taginis, thường gọi là Xa tiền thảo và hạt - Semen Plan taginis",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:9bddf743cb4b",
+      "fused_score": 0.028191,
+      "bm25_rank": 12,
+      "bm25_score": 12.560958,
+      "vector_rank": 8,
+      "vector_score": 0.583784,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b608",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã đề kim Mã đề kim - Dichon dra repens Eorst, thuộc họ Khoai lang- Convolvulaceae. Mô tả: Cây thảo nhỏ sống nhiều năm, bò ở đất có rễ bất định; thân mảnh có lông nằm. Lá có phiến hình thận tròn, dài 2-3cm, gân từ gốc 7, có lông thưa, cuống dài hơn phiến. Hoa ở nách lá; cuống ngắn hơn cuống lá; tràng hoa hình đĩa nhỏ, có lông; nhị 5, lá noãn 2, rời nhau, vòi nhuỵ 2. Quả bế 2, tròn, có lông. Hoa tháng 4-5. Bộ phận dùng: Toàn cây - Herba Dichon drae, ở Trung Quốc gọi là Mã đề kim, cũng có tên là K",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:fb2bf42ee314",
+      "fused_score": 0.028177,
+      "bm25_rank": 1,
+      "bm25_score": 15.766945,
+      "vector_rank": 22,
+      "vector_score": 0.545333,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b608",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ". Liều dùng 15-30g, dạng thuốc sắc, thường phối hợp với các vị thuốc khác. Dùng ngoài trị tràng nhạc, cụm nhọt ở ngực, đinh nhọt, đòn ngã chấn thương. Dùng cây tươi giã đắp tại chỗ. Ðơn thuốc: 1. Viêm gan cấp tính: Mã đề kim, Ban, mỗi vị 60g, giã nát chiết lấy dịch, thêm mật ong mà dùng. 2. Viêm thận, phù thũng: Mã đề kim, Mã đề, vỏ quả Bí đao cạo sạch lông, mỗi vị 15-30g sắc nước uống\n\nMã đề nước Mã đề nước, Hẹ nước, Vợi - Ottelia alismoides (L) Pers, thuộc họ Lá sắn - Hydroc haritaceae.",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:695a9d462f9d",
+      "fused_score": 0.028083,
+      "bm25_rank": 15,
+      "bm25_score": 12.402711,
+      "vector_rank": 6,
+      "vector_score": 0.594009,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b608",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã đề nước Mã đề nước, Hẹ nước, Vợi - Ottelia alismoides (L) Pers, thuộc họ Lá sắn - Hydroc haritaceae.\n\nMô tả: Thực vật thuỷ sinh, chìm. Thân ngắn mọc ngắn ở dưới nước. Lá 5-10, biến đổi rất lớn; phiến mỏng tròn, màu xanh dợt hay nâu nâu, nhẵn, đường kính 5-20cm, cuống lá dài hay ngắn là do độ sâu của nước quyết định. Hoa đơn độc mọc ở nách lá, màu trắng, ít khi hường, 6 nhị, 6 vòi nhuỵ. Bầu dưới, dài 2,5cm. Quả bế thuôn, ở mặt ngoài có 6 cánh dọc dạng làn sóng, chứa nhiều hạt. Bộ phận dùng: To",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_ab5904eafcde:7d825904123c",
+      "fused_score": 0.026374,
+      "bm25_rank": 4,
+      "bm25_score": 14.056505,
+      "vector_rank": 30,
+      "vector_score": 0.535696,
+      "source_id": "src_ab5904eafcde",
+      "parent_id": "src_ab5904eafcde:h:5297024b7f97:b0",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ", sưng tấy. Cách dùng: - Lá mã đề dùng 15 - 20 g/ngày, dạng thuốc sắc. - Sa tiền tử đùng 10 - 15 g/ngày, dạng thuốc sắc. - Dùng ngoài: Lấy lá, thân tươi, rửa sạch, giã nát, đắp lên chỗ đau. 5. Bài thuốc có dùng Mã đề 5.1. Bài thuốc chữa phù thũng, bí tiểu tiện Lấy hạt (15g) hay toàn cây (bỏ rễ) (30g). Sắc uống. Có thể thêm Trạch tả (9g) vào sắc uống.\n\n5.2. Bài thuốc chữa gan nóng làm đau mắt sưng tấy: Hạt Mã đề 18g Bạch tật lê 18g Hoàng cầm 18g Hạt muồng 18g Long đởm 18g Cúc hoa 18g Tán thành bộ",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:0a9114d03be2",
+      "fused_score": 0.026334,
+      "bm25_rank": 7,
+      "bm25_score": 12.903414,
+      "vector_rank": 25,
+      "vector_score": 0.539295,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b9",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Tên khoa học Plan tago major L., tên khác là xa tiền, chứa iridoid, acid phenolic, flavonoid, acid cinamic, acid p. coumaric, ferulic, cafeic, chlorogenic, carotene, Vit. K,C. Nước ép có tác dụng tiết dịch vị, chữa lao, ung thư, loét bao tử, tái sinh tế bào da, có hoạt chất plan tagin làm tăng tiết niêm dịch phế quản và ống tiêu hóa, ức chế trung khu hô hấp làm cho thở sâu và chậm hơn, có tác dụng kháng khuẩn chống viêm mủ, bảo vệ gan bị tổn thuơng, chống ngộ độc nấm. Lá có tác dụng lợi tiểu mạn",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:4f49e335e2e5",
+      "fused_score": 0.026289,
+      "bm25_rank": 6,
+      "bm25_score": 12.903414,
+      "vector_rank": 27,
+      "vector_score": 0.537774,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b33",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Tên khoa học Plan tago major L., tên khác là xa tiền, chứa iridoid, acid phenolic, flavonoid, acid cinamic, acid p. coumaric, ferulic, cafeic, chlorogenic, carotene, Vit. K,C. Nước ép có tác dụng tiết dịch vị, chữa lao, ung thư, loét bao\n\n93tử, tái sinh tế bào da, có hoạt chất plan tagin làm tăng tiết niêm dịch phế quản và ống tiêu hóa, ức chế trung khu hô hấp làm cho thở sâu và chậm hơn, có tác dụng kháng khuẩn chống viêm mủ, bảo vệ gan bị tổn thuơng, chống ngộ độc nấm, Lá có tác dụng lợi tiểu ",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:c4a79e4315c0",
+      "fused_score": 0.025098,
+      "bm25_rank": 24,
+      "bm25_score": 10.520828,
+      "vector_rank": 14,
+      "vector_score": 0.560852,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b17",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ĩ, ho ra máu, chảy máu cam, giã nát 1 nắm to lá tươi vắt nước uống 2-3 lần/ ngày. Tiểu ra máu, ép nước cỏ nhọ nồi và cây mã đề tươi mỗi thứ 1 nắm to, lấy nước uống. Sốt cao, giã nát một nắm lá tươi đắp lên trán, thái dương, cổ tay. • Kiêng kỵ: Người tỳ vị hư, tiêu chảy, sống phân. • Nơi thu thập: Ia Pa; Kông Chro; Mang Yang.",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:3950e211a04a",
+      "fused_score": 0.025016,
+      "bm25_rank": 21,
+      "bm25_score": 11.401805,
+      "vector_rank": 17,
+      "vector_score": 0.558508,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b33",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Lá mã đề có vị nhạt, tính mát. Hạt có vị ngọt nhạt, nhớt, tính mát, vào 4 kinh can, phế, thận, tiểu trường, có tác dụng chữa ho lâu ngày, viêm khí quản, thận, bàng quang, bí tiểu, tiểu ra máu, sỏi sạn, phù thủng, đau mắt sưng đỏ, chảy máu cam, ra mồ hôi, tiêu chảy, kiết lỵ, lá giã nát đắp mụn nhọt chóng lành. Hạt mã đề ( 4-8g ) sắc uống chữa tiểu đường, khó tiêu, ho, và bệnh hiếm muộn ở nam nữ. Chống chỉ định : Người gìa thận suy kém hay tiểu đêm không nên dùng.\n\nChữa tiểu đường, uống nhiều, tiể",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_ab5904eafcde:8d1bd055277d",
+      "fused_score": 0.024286,
+      "bm25_rank": 25,
+      "bm25_score": 10.321482,
+      "vector_rank": 18,
+      "vector_score": 0.558468,
+      "source_id": "src_ab5904eafcde",
+      "parent_id": "src_ab5904eafcde:h:5297024b7f97:b3",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (.......): 1. Ba bộ phận dùng làm thuốc của cây Mã đề gồm: A ............................................... B ............................................... C ........................................ 2. Phục linh còn có các tên khác là: A ............................................... B ............................................... C ............................................... D ........................",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:22709d5ee0f4",
+      "fused_score": 0.021864,
+      "bm25_rank": 32,
+      "bm25_score": 9.97454,
+      "vector_rank": 29,
+      "vector_score": 0.536966,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b37",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Lá mã đề có vị nhạt, tính mát. Hạt có vị ngọt nhạt, nhớt, tính mát, vào 4 kinh can, phế, thận, tiểu trường, có tác dụng chữa ho lâu ngày, viêm khí quản, thận, bàng quang, bí tiểu, tiểu ra máu, sỏi sạn, phù thủng, đau mắt sưng đỏ, chảy máu cam, ra mồ hôi, tiêu chảy, kiết lỵ, lá giã nát đắp mụn nhọt chóng lành. Hạt mã đề ( 4-8g ) sắc uống chữa tiểu đường, khó tiêu, ho, và bệnh hiếm muộn ở nam nữ. Chống chỉ định : Người gìa thận suy kém hay tiểu đêm không nên dùng. Công dụng của sinh địa :\n\nPhân tí",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_e823b7aa03f5:362b0a611c25",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 13.56176,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e823b7aa03f5",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b4",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "i tay chân đỡ ra thì thôi. 18. MÃ ĐỀ Tên khác: Xa tiền thảo - Xa tiền - Suma (Tày) - Nhả én dứt (Thái) - Bông má đề - Bông mã đề. Cách trồng: Gieo hạt vào mùa xuân nơi dất ẩm, tơi xốp, nhiều mùn. Bộ phận dùng: Lá và hạt. Thu hái, chế biến: - Lá thu hái quanh năm có thể dùng tươi hay khô. - Hạt thu hái vào tháng 7-8. - Khi quả chín, hãi toàn cây phơi khô đập lấy hạt. Công dụng: Chữa đái rắt buốt, phù thũng, tả lị, ho. Liều dùng: 8-12g/ngày. BÀI THUỐC ỨNG DỤNG Bài 1. Chữa đái rắt buốt, bí tiểu tiệ",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:12babc1f0f1a",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 12.626831,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b37",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sắc 800cc nước cạn còn 300cc, chia 3 lần uống trong ngày.\n\nTên khoa học Plan tago major L., tên khác là xa tiền, chứa iridoid, acid phenolic, flavonoid, acid cinamic, acid p. coumaric, ferulic, cafeic, chlorogenic, carotene, Vit. K,C. Nước ép có tác dụng tiết dịch vị, chữa lao, ung thư, loét bao tử, tái sinh tế bào da, có hoạt chất plan tagin làm tăng tiết niêm dịch phế quản và ống tiêu hóa, ức chế trung khu hô hấp làm cho thở sâu và chậm hơn, có tác dụng kháng khuẩn chống viêm mủ, bảo vệ gan bị",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:ecb90afdafec",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.583617,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b627",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã tiền Mã tiền - Stryc hnos nux-vomica L, thuộc họ Mã tiền - Loganiaceae. Mô tả: Cây gỗ cao 5-12m, tới 25m, phân cành trên 7m. Vỏ thân màu xám trắng. Cành non nhẵn, đôi khi có gai ở nách lá. Lá đơn, mọc đối, mặt trên bóng có 5 gân hình cung, gân nhỏ hình mạng. Cụm hoa mọc ở nách lá đầu cành, hình ngù tán, mỗi ngù có 8-10 hoa, 4-6 ngù họp thành tán. Hoa trắng hoặc vàng nhạt, có mùi thơm. Quả thịt hình cầu, đường kính 2,5-4cm khi chín màu vàng lục, chứa 1-5 hạt hình tròn dẹt như chiếc khuy áo, mộ",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:b51d6ec0c446",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.560921,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b629",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã tiền Trung Quốc Mã tiền Trung Quốc, cây gió - Stryc hnos cat hayen sis Merr., thuộc họ Mã tiền- Loganiaceae. Mô tả: Cây nhỡ leo, mấu từng cặp, có lông phún, cành nâu, có lông mịn, có rãnh. Lá có phiến thon, dài 6-10cm, rộng 2-4cm, đầu có mũi, mặt trên nhẵn bóng mặt dưới mờ, có ít lông hay không lông, gân từ gốc 3; cuống có lông phúm. Chuỳ hoa ở nách lá và ở ngọn, cao 3-4cm, trục có lông, hoa mẫu 5. Quả mọng tròn, đường kính 1,5-3cm; vỏ quả cứng, mỏng, hạt 2-7 dẹp, rộng 1,5-2cm. Bộ phận dùng: ",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:3452c6acc29c",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.55947,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b607",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "tác dụng: Mã đề có vị ngọt, tính mát, có tác dụng tiêu viêm, lợi tiểu, lợi phế, làm long đờm. Công dụng: Thường dùng chữa: 1. Sỏi niệu và nhiễm trùng đường niệu, viêm thận, phù thũng; 2. Cảm lạnh ho, viêm khí quản; 3. Viêm ruột, lỵ; 4. Viêm kết mạc cấp, viêm gan; 5. Ðau mắt đỏ có màng. Dùng toàn cây 15-30g, hạt 5-10g dạng thuốc sắc. Dùng ngoài, giã cây tươi đắp mụn nhọt. Ở Thái Lan, toàn cây được dùng lợi tiểu, trị viêm họng và dùng ngoài trị viêm mủ da, sâu bọ cắn và dị ứng. Cách dùng: Lá sắc h",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:3a7bf8781374",
+      "fused_score": 0.012821,
+      "bm25_rank": 17,
+      "bm25_score": 12.367449,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b987",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ần 8g. 4. Sỏi đường tiết niệu: Thạch vi, Mã đề 30-60g mỗi thứ, Dành dành quả 30g, Cam thảo 9-15g, sắc uống.",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:7e53f8f7696f",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 11.802395,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b375",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "gia súc. Ðơn thuốc: 1. Giảm niệu: Dùng Ðậu khác quả 30-60g. Mã đề 30g, sắc nước uống. 2. Rắn độc cắn: Ðậu khác quả, Lưỡi rắn trắng, mỗi vị 15g, Cây lông nhím và quả Ngô thù, mỗi vị 9g, sắc lấy nước, thêm rượu uống.",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:cf613ee2743a",
+      "fused_score": 0.0125,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 19,
+      "vector_score": 0.549536,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b32",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "85 52 Cây Lạc tiên KRAL /J/ LUN GLENG /B/ 53 Cây Lankim tuyến PUPE| BRONH /B/ 54 Cây Lưỡi hổ TENG BAK /J/ PLA KIEK /B/ 55 Cây Mã tiền DAP /J/ GAO GÔH /B/ 56 Cây Mật gấu PH& CHƠ GÂU /J/ KƠ MAT CHƠ GƠU /B/ 57 Cây Mật nhân KƠ MĂT BƠ NGAI /B/ 58 Cây Mây ROWAI /J/ HRE /B/ 59 Cây Me rừng AMIL DLAI /J/ POH’ME /B/ 60 Cây Mơ tam thể SUT /J/ BÂU PHÔM /B/ 61 Cây Mồng tơi AN HAM BAR /J/ HLA DAK MƠK /B/ 62 Cây Mùi tàu HLA KAT /J/ HLA BÂU PHU /B/ 63 Cây Muồng trâu CHƯƠU QUA /J/ HRE /B/ 64 Cây Mướp đắng rừng A",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:95338bb55f78",
+      "fused_score": 0.012346,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 20,
+      "vector_score": 0.546158,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b18",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "49 69- Phun ROK PHI| LON /J/; Along LAC HAM /B/ • Tên phổ thông: Cây Rau đắng. • Tên khác: Cây Cỏ đắng. • Tên khoa học: Polygonum aviculare L. • Bộ phận dùng: Toàn cây. • Tác dụng chữa bệnh: Sỏi thận; Đau gan; Mẩn ngứa; Mụn nhọt; Viêm khớp; Gút. • Cách dùng: Sỏi thận, sắc uống 1 nắm to toàn cây tươi hoặc khô, hoặc sắc với rễ cỏ tranh, lá bông mã đề; bí tiểu nấu uống 2 nắm to toàn cây tươi. Đau gan dùng lá, thân tươi băm nhỏ, hấp với gan lợn, ăn 5-7 ngày. Mẩn ngứa giã nát lá tươi, xoa xát. Mụn nh",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:701508b3e6da",
+      "fused_score": 0.012048,
+      "bm25_rank": 22,
+      "bm25_score": 10.586597,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b165",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chó đẻ răng cưa 40g, Mã đề 20g, Dành dành 12g sắc uống. 5. Chữa lở loét thối thịt không liền miệng; dùng lá Chó đẻ răng cưa. Lá Thồm lồm, liều bằng nhau. Ðinh hương 1 nụ, giã nhỏ đắp (Bách gia trân tàng). 6. Chữa trẻ em tưa lưỡi, giã cây tươi vắt lấy nước cốt, bôi (Dược liệu Việt Nam). 7. Sản hậu ứ huyết, dùng 8-16g cây khô sắc uống hằng ngày (Dược liệu Việt Nam).",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:355a81a3de4d",
+      "fused_score": 0.011905,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 23,
+      "vector_score": 0.543185,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b31",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "84 34 Cây Dương xỉ TƠ WƠN /J/ KƠ TONH /B/ 35 Cây Gai DING /J/ NHAI /B/ 36 Cây Gạo BLANG DAP /J/ PƠ LANG BLANG /B/ 37 Cây Gừng RƠYA /J/ RƠYA /B/ 38 Cây Gừng gió RƠYA CHƯ /J/ RƠ KUAH /B/ 39 Cây Hà thủ ô đỏ TAK AO MRIAH /J/ TĂK ÂU BRÊ /B/ 40 Cây Hà thủ ô trắng TAK AO /J/ TĂK ÂU KOK /B/ 41 Cây Hành ta RƠ SUN /J/ KƠ DIM /B/ 42 Cây Hoa đại KATA| /J/ 43 Cây Hoàng liên KƠ CHƠNG /B/ 44 Cây Hương nhu rừng ECH LAO /J/ ECH A TÂU /B/ 45 Cây Ké PƠ NUNH /B/ 46 Cây Khế chua HLA POK /J/ KHE# /B/ 47 Cây Khổ sâm S",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_ab5904eafcde:bcbbae7b4dc5",
+      "fused_score": 0.011765,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 24,
+      "vector_score": 0.542484,
+      "source_id": "src_ab5904eafcde",
+      "parent_id": "src_ab5904eafcde:h:5297024b7f97:b0",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "TRẠCH TẢ Tên khác: Mã đề nước Tên khoa học: Alisma plantago - aquatica L. var. orien tale (Sammuels) Juzep. Họ: Trạch tả (Alismataceae) 1. Mô tả, phân bố Trạch tả thuộc loại cây thảo, cao 60 - 100 cm. Thân rễ có dạng hình cầu, hình trứng hay hình con quay, màu trắng. Lá mọc thành cụm ở gốc, cuống lá dài, có bẹ ôm vào nhau hình hoa thị, phiến lá nguyên, hình trứng, đầu lá nhọn, gân hình cung. Hoa tự có cuống dài, họp thành tán, màu trắng hồng. Quả phức gồm nhiều quả bế. Trạch tả mọc hoang hay đượ",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:a547d6cbe1e5",
+      "fused_score": 0.011494,
+      "bm25_rank": 26,
+      "bm25_score": 10.065847,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b9",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Lá mã đề có vị nhạt, tính mát. Hạt có vị ngọt nhạt, nhớt, tính mát, vào 4 kinh can, phế, thận, tiểu trường, có tác dụng chữa ho lâu ngày, viêm khí quản, thận, bàng quang, bí tiểu, tiểu ra máu, sỏi sạn, phù thủng, đau mắt sưng đỏ, chảy máu cam, ra mồ hôi, tiêu chảy, kiết lỵ, lá giã nát đắp mụn nhọt chóng lành. Hạt mã đề ( 4-8g ) sắc uống chữa tiểu đường, khó tiêu, ho, và bệnh hiếm muộn ở nam nữ. Chống chỉ định : Người gìa thận suy kém hay tiểu đêm không nên dùng.\n\n23-Trà đỗ trọng chữa chóng mặt, ",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:d73cd30c5955",
+      "fused_score": 0.011494,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 26,
+      "vector_score": 0.538095,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b22",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "62 95- Along LUN GLENG /B/ • Tên phổ thông: Cây Lạc tiên. • Tên khác: Cây Chùm bao. • Tên khoa học: Passiflora foetida L. • Bộ phận dùng: Dây, lá, quả. • Tác dụng chữa bệnh: Mất ngủ; Suy nhược thần kinh; Viêm da, mụn mủ, lở ngứa. • Cách dùng: Mất ngủ, suy nhược thần kinh lấy toàn cây chặt nhỏ, sao vàng, hạ thổ, sắc uống hằng ngày hoặc tán bột pha nước uống. Mệt mỏi lấy 1 bó toàn cây phơi 2 nắng hoặc sao vàng sắc với 1 nắm rau má (sắc bằng nồi đất) uống 2 lần/ ngày, trong 1 tuần. Viêm da, mụn mủ,",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:434ec79b7acc",
+      "fused_score": 0.011364,
+      "bm25_rank": 27,
+      "bm25_score": 10.051847,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1209",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Hồ tiêu (hạt) hoa Dâm bụt hoa Giẻ hoa Hồnghoa Hòe (khô) hoa Màu gà đỏ hoa Thiên lý Hoắc hương\n\nHoàng bá nam Hoàng bá Hoàng cầm\n\nHoàng cầm Hoàng đằng Hoàng kỳ Hoàng liên\n\nHoàng nàn Hoàng tinh cây Hoàng tinh Hoạt thạch\n\nHoạt thạch Hòe Hồng (khô) Hồng hoa\n\nHúng chanh Hùng hoàng Húng quế Hương nhu tía Hương nhu trắng\n\nHương phụ (củ) Hương thảo Huyền hồ Huyền sâm\n\nHuyết dụ Huyết giác Hy thiêm Ích mẫu (hạt)\n\nÍch mẫu Ích mẫu Ích trí nhân Ké đầu ngựa\n\nKé đầu ngựa Kê huyết đằng Kê nội kim Keo dậu Khôi\n\nK",
+      "rank": 28
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_ab5904eafcde:0b5128fd1cd2",
+      "bm25_score": 15.832304
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:fb2bf42ee314",
+      "bm25_score": 15.766945
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e0520ddfd9ac:fb2bf42ee314",
+      "bm25_score": 15.766945
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_ab5904eafcde:38e2385f26cb",
+      "bm25_score": 14.107288
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_ab5904eafcde:7d825904123c",
+      "bm25_score": 14.056505
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_e823b7aa03f5:362b0a611c25",
+      "bm25_score": 13.56176
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_40c21fbc97fb:4f49e335e2e5",
+      "bm25_score": 12.903414
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_7cdb5f831e1c:0a9114d03be2",
+      "bm25_score": 12.903414
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_d5596b1dce93:039dd475e3ec",
+      "bm25_score": 12.632596
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_e0520ddfd9ac:039dd475e3ec",
+      "bm25_score": 12.632596
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_40c21fbc97fb:12babc1f0f1a",
+      "bm25_score": 12.626831
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_d5596b1dce93:9bddf743cb4b",
+      "bm25_score": 12.560958
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_e0520ddfd9ac:9bddf743cb4b",
+      "bm25_score": 12.560958
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_d5596b1dce93:5e0952f25484",
+      "bm25_score": 12.5255
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_e0520ddfd9ac:5e0952f25484",
+      "bm25_score": 12.5255
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_d5596b1dce93:695a9d462f9d",
+      "bm25_score": 12.402711
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_e0520ddfd9ac:695a9d462f9d",
+      "bm25_score": 12.402711
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_d5596b1dce93:3a7bf8781374",
+      "bm25_score": 12.367449
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_e0520ddfd9ac:3a7bf8781374",
+      "bm25_score": 12.367449
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_d5596b1dce93:7e53f8f7696f",
+      "bm25_score": 11.802395
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_ab5904eafcde:0b5128fd1cd2",
+      "vector_score": 0.62233
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:5e0952f25484",
+      "vector_score": 0.618465
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e0520ddfd9ac:5e0952f25484",
+      "vector_score": 0.618465
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_ab5904eafcde:38e2385f26cb",
+      "vector_score": 0.616786
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_e0520ddfd9ac:039dd475e3ec",
+      "vector_score": 0.612641
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_d5596b1dce93:039dd475e3ec",
+      "vector_score": 0.612641
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_d5596b1dce93:695a9d462f9d",
+      "vector_score": 0.594009
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_e0520ddfd9ac:695a9d462f9d",
+      "vector_score": 0.594009
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:9bddf743cb4b",
+      "vector_score": 0.583784
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_d5596b1dce93:9bddf743cb4b",
+      "vector_score": 0.583784
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_e0520ddfd9ac:ecb90afdafec",
+      "vector_score": 0.583617
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_d5596b1dce93:ecb90afdafec",
+      "vector_score": 0.583617
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_e0520ddfd9ac:b51d6ec0c446",
+      "vector_score": 0.560921
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_d5596b1dce93:b51d6ec0c446",
+      "vector_score": 0.560921
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_6784cb75c99b:c4a79e4315c0",
+      "vector_score": 0.560852
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_d5596b1dce93:3452c6acc29c",
+      "vector_score": 0.55947
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_e0520ddfd9ac:3452c6acc29c",
+      "vector_score": 0.55947
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_40c21fbc97fb:3950e211a04a",
+      "vector_score": 0.558508
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_ab5904eafcde:8d1bd055277d",
+      "vector_score": 0.558468
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_6784cb75c99b:cf613ee2743a",
+      "vector_score": 0.549536
+    }
+  ]
+}

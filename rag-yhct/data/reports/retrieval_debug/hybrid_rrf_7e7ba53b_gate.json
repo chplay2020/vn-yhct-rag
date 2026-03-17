@@ -1,0 +1,774 @@
+{
+  "query": "Tên khoa học của cây câu kỷ là gì",
+  "mode": "hybrid_rrf",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_ae3b6786b57c:d2cdab957519",
+      "fused_score": 0.031778,
+      "bm25_rank": 0,
+      "bm25_score": 22.329744,
+      "vector_rank": 4,
+      "vector_score": 0.628998,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "CÂU KỶ TỬ (QUẢ) (Fruc tus Lycii) Tên khác: Khởi tử - Câu kỷ 1. Nguồn gốc, đặc điểm Là quả chín, phơi hay sấy khô của cây Câu kỷ (củ khởi) (Lycium chinen se Mill.), hay cây Ninh hạ Câu kỷ (Lycium barbarum L.) họ Cà (Solanaceae). Câu kỷ tử có dạng hình trứng hay hình trái xoan, hai đầu hơi lõm. Mặt ngoài có màu đỏ sẫm hay đỏ xám, mềm, bóng và thường nhăn nheo. Câu kỷ tử không mùi có vị ngọt, hơi chua. Ninh hạ Câu kỷ thì quả có dạng hình thoi. Mặt ngoài đỏ tươi hay đỏ sẫm. Không mùi, vị ngọt, hơi c",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:f14466f4e8f2",
+      "fused_score": 0.029857,
+      "bm25_rank": 5,
+      "bm25_score": 19.576379,
+      "vector_rank": 7,
+      "vector_score": 0.608808,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phân tích theo tây y : Tên khoa học Lycium chinen se Mill. Trái của cây câu kỷ gọi là Câu kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8- 10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người già trên 60 tuổi hoặc những người bị bệnh ung thư, nếu ăn sống mỗi ngày 5g hạt kỷ tử khô trong 10 ngày liên tiếp thì hoạt độ men superoxide dismitase (SOD) tăng ",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:4f5b51d74d37",
+      "fused_score": 0.029206,
+      "bm25_rank": 2,
+      "bm25_score": 19.906034,
+      "vector_rank": 14,
+      "vector_score": 0.565051,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "5-Ngăn ngừa ung thư. Câu kỷ là một trong những cây duy nhất trên trái đất này có chứa một loại khoáng chất chống ung thư. Những an tioxidants mạnh và chất polysac charides duy nhất có thể chặn dừng lại những thay đổi đột biến của tế bào dẫn đến ung thư. Một số nhà khoa học tin rằng Câu kỷ tử có thể là một loại dinh dưỡng bổ sung tốt để ngăn ngừa ung thư gan, bởi vì nó tác động mạnh trong việc bảo vệ gan và có hiệu qủa chống ung thư cùng một lúc. Điều này quan trọng vì gan là cơ quan loại độc tố ",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:cb0cd2e14324",
+      "fused_score": 0.028778,
+      "bm25_rank": 8,
+      "bm25_score": 19.00555,
+      "vector_rank": 9,
+      "vector_score": 0.602489,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b20",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Vỏ rễ chữa phế nhiệt ho ra máu, hen, ho đờm, trẻ con ho gà, phù thủng, bụng trướng, tiểu không thông, sốt, cao áp huyết, chữa rụng tóc bằng nấu nước sắc gội đầu..\n\nPhân tích theo tây y : Tên khoa học Lycium chinen se Mill . Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người g",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:ec316ac07a32",
+      "fused_score": 0.027651,
+      "bm25_rank": 15,
+      "bm25_score": 18.208016,
+      "vector_rank": 8,
+      "vector_score": 0.60659,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b22",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "62 Tên khoa học Lycium chinen se Mill . Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người già trên 60 tuổi hoặc những người bị bệnh ung thư, nếu ăn sống mỗi ngày 5g hạt kỷ tử khô trong 10 ngày liên tiếp thì hoạt độ men superoxid dismitase (SOD) tăng 48%, Hemoglobin (Hb) tăng",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:189b4b5dea49",
+      "fused_score": 0.027598,
+      "bm25_rank": 13,
+      "bm25_score": 18.218493,
+      "vector_rank": 10,
+      "vector_score": 0.588379,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b15",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mẫu đơn vị cay, đắng, mùi thơm, tính bình vào các kinh tâm, can, thận. Có tác dụng trấn kinh, giảm đau, nóng sốt âm về chiều và đêm, không ra mồ hôi, phát sốt do huyết sưng ứ, nhức đầu, đau lưng, đau khớp, đau bụng kinh, trị thoát mạch, viêm rễ thần kinh, co giật, co thắt cơ bắp chân (chuột rút), sa sút trí tuệ, chữa bệnh gan siêu vi, cổ trướng, viêm da dị ứng lở loét. Chống chỉ định : Phụ nữ có thai không được dùng, có tác dụng gây vô sinh, sẩy thai.\n\nPhân tích theo tây y : Tên khoa học Lycium ",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:49bef6175e6b",
+      "fused_score": 0.026519,
+      "bm25_rank": 12,
+      "bm25_score": 18.274476,
+      "vector_rank": 17,
+      "vector_score": 0.555398,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b60",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phân tích công dụng của Kỷ tử theo tây y : Tên khoa học Lycium chinen se Mill. Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác.\n\nof 160 154 Những người già trên 60 tuổi hoặc những người bị bệnh ung thư , nếu ăn sống mỗi ngày 5-10g hạt kỷ tử khô trong 10 ngày liên tiếp thì hoạt độ men s",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:a46c46c7dfa5",
+      "fused_score": 0.026235,
+      "bm25_rank": 11,
+      "bm25_score": 18.341259,
+      "vector_rank": 20,
+      "vector_score": 0.554209,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b38",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "of 160 100 Phân tích công dụng của Kỷ tử theo tây y : Tên khoa học Lycium chinen se Mill. Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người già trên 60 tuổi hoặc những người bị bệnh ung thư, nếu ăn sống mỗi ngày 5-10g hạt kỷ tử khô trong 10 ngày liên tiếp thì hoạt độ men sup",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:7420c742f2b3",
+      "fused_score": 0.023573,
+      "bm25_rank": 17,
+      "bm25_score": 17.916942,
+      "vector_rank": 32,
+      "vector_score": 0.530423,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b15",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sắc 4 chén nước cạn còn 1 chén, uống ngày một thang.\n\nPhân tích công dụng của kỷ tử theo tây y : Tên khoa học Lycium chinen se Mill . Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người già trên 60 tuổi hoặc những người bị bệnh ung thư, nếu ăn sống mỗi ngày 5-10g hạt kỷ tử khô",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:3d1fa72ee04e",
+      "fused_score": 0.016393,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 0,
+      "vector_score": 0.72285,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b133",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu kỷ Câu kỷ, Rau khởi - Lycium chinen se Mill., thuộc họ Cà Solanaceae.\n\nMô tả: Cây nhỡ cao đến 1,5m, cành cong và ngả xuống có thể dài tới 4m, không gai hay có ít gai thẳng, màu xám vàng, lá mọc so le, hay tập hợp 3-5 cái một; cuống dài 2-6mm; phiến thoi-xoan, dài 2-6cm, màu lục bóng. Hoa cô độc hay nhóm 3 cái một ở nách lá, đài không lông; tràng màu tía có ống ngắn hơn cánh hoa. Quả mọng dài đến 2cm, đỏ sẫm hay đổ cam, hình trứng; hạt nhiều to 2-2,5mm, hình thận. Bộ phận dùng: Vỏ rễ - Lycii ",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:aecc785d854c",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 20.411827,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu kỷ tử chứ chất beta-sitosterol làm hạ choleterol trong máu, chất an tioxidants của nó giữ cho cholesterol khỏi bị oxyde hóa đóng cục trong động mạch. Chất flavonoids trong Câu kỷ làm giãn nở động mạch và mềm ống mạch.\n\n7-Cân bằng lượng đường trong máu trong bệnh tiểu đường. Câu kỷ tử đã được sử dụng từ lâu ở Trung quốc dùng để trị bệnh tiểu đường, vì chất polysac charides giúp quân bình lượng đường trong máu và in sulin tương xứng, chất betaine trong Câu kỷ tử cũng ngừa được bệnh gan nhiễm m",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:92832ce65499",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.656833,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b134",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "tía, ống tràng dài hơn cánh hoa. Quả nang xoan, đỏ da cam hay hồng, có kích thước 10-20mm x 5-10mm. Quả chứa betain, zeaxan thin và physalein có tác dụng kích dục, các lá non chứa acid cyan hydric.\n\nCâu kỷ quả đen Câu kỷ quả đen, Khủ khởi, Rau khởi - Lycium rut henicum Murr., thuộc họ Cà - Solanaceae. Mô tả: Cây nhỡ, cao 120-150cm, thường có màu trắng, cành nhiều nhỏ, Có gai do nhánh biến thành. Lá chụm 4-6 trên nhánh ngắn, phiến lá hình bầu dục, mép nguyên, không lông, xanh đậm; cuống dài 4-6mm",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:19d16dec1c1c",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 19.597006,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b133",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "đỏ khô, gốc mắt nhiều ghèn, ăn rau khởi có công hiệu tốt. Người can hoả đặc biệt vượng, ngoài việc ăn nhiều canh rau khởi, dùng rễ cây Câu kỷ (Địa cốt bì) 5 chỉ. Xuyên tâm liên 1 chỉ. Câu kỷ tử 3 chỉ. Cam thảo 1 chỉ, nấu nước uống thay trà, có công hiệu đối với người hay nóng mắt. Người huyết hư, can hoả vượng có thể nấu canh rau khởi với gan lợn, gan gà cũng rất có ích. 2. Rau khởi thanh phế: Trẻ em sau khi ban sởi mọc, phổi rất nhiệt, nên dùng rau khởi và măng tre nấu nước uống. Để chữa các bệ",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:ee36fc2efc6b",
+      "fused_score": 0.015152,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 5,
+      "vector_score": 0.626186,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b133",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu đằng Trung Quốc Câu đằng Trung Quốc - Uncaria sinen sis (Oliv.), Havil, thuộc họ Cà phê - Rubiaceae. Mô tả: Cây nhỡ leo, cành vuông, không lông; móc dài 1,5cm. Lá có phiến xoan bầu dục, dài 10- 14cm, rộng 5-8cm, đầu có mũi nhọn góc tròn, không lông, gân phụ 8-9 cặp, mặt trên màu nâu sẫm, mặt dưới nâu tươi; cuống dài 1cm. Hoa đầu tròn cuống dài 4-5cm. Quả nang hình thoi, dài 8-12mm, đường kính 2-3mm, có mỏ; hạt nhỏ, nhiều, có cánh. Bộ phận dùng: Cành với gai móc - Ramulus Uncariaecum Uncis. N",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:de44b3f40ad3",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 19.237529,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b47",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "12-Cải thiện thị lực. Từ thời Trung quốc cổ đại, đã được dùng Câu kỷ tử chữa thị lực suy giảm. Ngày nay các khoa học gia Trung quốc đã khám phá ra Câu kỷ có khả năng rút ngắn thời gian thích nghi của mắt vớ I bong tối, nó cũng cải thiện thị lực trong ánh sáng mờ. Những dấu đốm làm mù mắt bị giảm khi dùng Câu kỷ tử. Câu kỷ tử chứa nhiều an tioxidant carotenoids cũng có thể bảo vệ chống lại sự thoái hóa gây ra cườm mắt.\n\nCâu kỷ tử chứa cyperone, một sesquiterpene\n\ncó lợi cho tim và áp lực tuần hoà",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:659f2e9eef25",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 19.062614,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b48",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu kỷ tử giống như là một chất thích ứng giúp cơ thể đối phó được vớ sự căng thẳng thần kinh, nó cung cấp năng lượng dự trữ để khắc phục được bất cứ những khó khăn nào.\n\nỞ Á châu ngườ I ta nói rằng dùng Câu kỷ tử thường xuyên sẽ đem lại tinh thần vui vẻ, xứng với tên gọi là trái dâu hạnh phúc.\n\nCâu kỷ tử còn dùng để chữa bệnh teo bao tử, chức năng chuyển hóa yếu bởi giảm tính hoạt hóa tế bào của bao tử . Nhờ Câu kỷ tử giúp cho sự tiêu hóa dễ dàng, đặc biệt nhất là dùng nước ép nguyên chất của n",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:3258be182fb5",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 18.685569,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b45",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bà Sandra Lee Boice, giáo sư tiến sĩ dinh dưỡng học đã từng làm cố vấn dinh dưỡng cho các bệnh nhân trong 25 năm qua. Đối với bà, không có gì quan trọng hơn là sức khỏe của những người mà bà đang săn sóc cho họ. Càng ngày càng có nhiều người cho bà biết kết qủa kỳ diệu sau khi uống nước Câu kỷ tử đã làm tăng cường sức khỏe, mạnh hệ miễn nhiễm, giảm cân, mất vết nhăn, lượng đường trong máu ổn định. Bà nói, Câu kỷ tử chính là một chất quan trong trong trận chiến chống suy dinh dưỡng mà trong 25 nă",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_4aa8d7a49009:51248a023e00",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 18.643401,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_4aa8d7a49009",
+      "parent_id": "src_4aa8d7a49009:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "11phần I. tổng quan về Công nghệ sinh học Ch−ơng 1 giới thiệu về công nghệ sinh học Mục tiêu Saukhi học xong ch−ơng nμy, sinh viên phải trình bμy đ−ợc: 1. Tên các lĩnh vực khoa học có liên quan đến Công nghệ sinh học vμ phạm vi ứng dụng của Công nghệ sinh học trong các ngμnh đó. 2. Tầm quan trọng của Công nghệ sinh học trong xu thế phát triển chung của khoa học trong thế kỷ 21. 1. Công nghệ sinh học lμ gì? Ngμy nay không ai còn nghi ngờ gì nữa về những thμnh tựu của công nghệ sinh học đem lại ch",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:c97596fdb0a3",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.575339,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b130",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu đằng Câu đằng, Vuốt lá mỏ - Uncaria rhyn chop hylla (Miq.) Jacks., thuộc họ Cà phê - Rubiaceae. Mô tả: Cây nhỡ leo có mấu, dài 6-10m. Lá có phiến xoan thon, to vào cỡ 6 x 0,5cm, mặt trên bóng, mặt dưới mốc, gân phụ 4-6 cặp, lồi hai mặt; cuống 5-6mm. Hoa tập hợp thành dạng đầu ở ngọn nhánh, to 8-10mm; lá đài 5; cánh hoa 5, màu vàng hay trắng; ống tràng ngắn; nhị 5; bầu 2 ô. Quả nang chứa nhiều hạt. Bộ phận dùng: Đoạn cành với hai gai móc câu - Ramulus Uncariaecum Uncis; thường gọi là Câu đằng",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:3f1398fc611e",
+      "fused_score": 0.013514,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 13,
+      "vector_score": 0.568682,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b41",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Năm 1995 ông đã thí nghiệm thấy nó có chứa 4 chất chống lão hóa và thành phần polysac charides khác nhau (LBP1,2,3,4) và nhều những chất khác mà khoa học đã khám phá ra từ trước đến nay, phải gọi nó là một chất bổ sung dinh dưỡng bậc thầy, chỉ huy và kiểm soát những hệ thống sinh hóa phòng chống bệnh thực sự tác động vào chức năng của từng tế bào khắp cơ thể. Ông đã chế biến Câu kỷ thành nước ép đóng hộp (Goji juice) để uống và tin rằng nó rất có lợi cho sức khỏe và chống lão hóa hơn bất cứ loại",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:58e4b178a76a",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 18.21562,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b45",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ông đã kết luận nước Câu kỷ tử là loại dinh dưỡng số 1 đối vớ I tất cả mọ I người.\n\nBác sĩ Ron Friedman chuyên khoa gây mê hành nghề từ 1977 ở Bệnh viện San Fran cisco đã có nhận xét hệ thống chăm sóc sức khỏe của ngành y khoa tân tiến của chúng ta chỉ có thể làm một việc giữ cho người bị bệnh còn sống chứ thực ra không có tiến bộ nào trong việc ngừa bệnh hay sức khỏe khá hơn. Ông đã học 7 năm cách ngừa bệnh và đã nghiên cứu không biết bao nhiêu là những sản phẩm dinh dưỡng và những thuốc dược t",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:6ccbae072164",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.556827,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b132",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "nh, êm dịu, chữa đau đầu, chóng mặt, hoa mắt, trẻ em kinh giật, nổi ban, lên sởi. Cũng dùng chữa huyết áp cao. Hoa và lá dùng uống thay chè.\n\nCâu đằng quả không cuống Câu đằng quả không cuống, Dây móc câu, Quáu - Uncaria sessilifruc tus Roxb., thuộc họ Cà phê -Rubiaceae. Mô tả: Cây nhỡ leo, dài 5-7m; cành non vuông, có lông mịn. Lá có phiến xoan hay xoan rộng, to 11x6,5cm, đầu có mũi dài, gốc hơi không cân đối, mặt trên nâu, mặt dưới nâu mốc, gân phụ 4-5 cặp; cuống 1-1,5cm; lá kèm mau rụng. Hoa ",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:7fe58ccabe41",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 18.174239,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b44",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "đau đớn trong thời kỳ hóa trị liệu, bệnh nhân bị bệnh tiểu đường, trẻ em bị bệnh ADD và ADHD. Tất cả đều tốt, không có gì bồi bổ thể lực hơn là nước Câu kỷ tử, mùi vì lại thơm ngon.",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_a77a975be1f8:1af123f38d2a",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 17.798588,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_a77a975be1f8",
+      "parent_id": "src_a77a975be1f8:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (.......): 1. Hai bộ phận dùng làm thuốc của cây Hòe là: A .................................................... B .................................................... 2. Đặc điểm thực vật của cây Ba gạc Hoa trắng là: A. Là loại cây ............................... B. Lá mọc .................................... C. Hoa mọc thành ....................... D. Quả ................ , hình ................. 3. Tên khoa họ",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:b9c3c4d6b703",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.554791,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b606",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mã đậu linh khác lá Mã đậu linh khác lá, Phòng kỷ, Hán trung phòng kỷ, Thanh mộc hương - Aristoloc hia heterrop hylla Hemsl, thuộc họ Nam mộc hương - Aristoloc hiaceae. Mô tả: Dây leo sống nhiều năm; thân non có rãnh, cạnh tròn, có lông mịn, dài đến 20m. Lá mọc so le, phiến lá hình tim thon dài 5,5-12cm, rộng 5-8cm đầu thon, gân ở gốc 5, gân phụ 3-4 cặp, mặt trên có lông thưa nham nhám, mặt dưới có lông dày, cuống 3-4cm. Hoa có cuống dài, có lông; bầu có lông dày trắng, ống có ít hoa. Quả nang, ",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_eb28c8848470:305237e66642",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 17.657544,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b130",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "phải uống thuốc, nếu trong thuốc có vị Câu kỷ, tất sẽ phát sinh chứng đau răng. Nhưng từ năm ngoài 40 tuổi trở về sau, dù uống thuốc có Câu kỷ cũng không sao nữa. Lại thường nghiệm những người bị bệnh ở Can mà có hỏa, nếu uống thuốc có Câu kỷ bệnh thường nặng thêm. Càng chứng tỏ Câu kỷ tính ôn là đúng.\n\nĐIỀU 195. BÀN VỀ DÙNG THUỐC (V) Trong Long Mộc Luận có bài Ngũ thoái tán chữa chứng đau mắt do Nội trướng, dùng: Long thoái (tức xác rán), Thuyền thoái (xác ve), Phượng hoàng thoái (vỏ trứng gà ấ",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:378f2122fb46",
+      "fused_score": 0.012346,
+      "bm25_rank": 20,
+      "bm25_score": 17.431019,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b44",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "nghiệp của ông bị bệnh can cer phải chịu đựng qua nhều đợt điều trị khác nhau, nhưng thật sự ông bị sốc khi thấy bạn mình có vẻ mạnh hơn trước mà không hiểu tại sao bạn ông đã làm cái gì mà được mạnh khỏe thế. Bạn ông cho biết đã uống nước Câu kỷ tử, không những giúp ông tăng cường thể lực mà còn rút ngắn thời gian điều trị không phải chịu hậu qủa của phản ứng phụ do phóng xạ trị liệu đem lại. Ông ngỡ ngàng nhưng phải thừa nhận, mặc dù ông là người đa nghi. Khi ông được biết công trình nghiên cứ",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_1fa00ba5471e:5ecac1b1aaab",
+      "fused_score": 0.012195,
+      "bm25_rank": 21,
+      "bm25_score": 17.327801,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1fa00ba5471e",
+      "parent_id": "src_1fa00ba5471e:h:5297024b7f97:b5",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ốc chữa thương hàn ngoại cảm, khi nóng khi rét, tức ngực, bồn chồn, buồn nôn: Sài hồ 5g Cam thảo 4g Hoàng cầm 6g Nhân sâm 4g Sinh khương 4g Đại táo 6g Dùng sắc uống.\n\nLƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ hay cụm từ thích hợp vào chỗ trống (.......... ): 1. Bộ phận dùng làm thuốc của cây Qua lâu là.......................... 2. Đặc điểm thực vật về loại cây Bạc hà châu Á là: A. Thân ......................................... B. Lá mọc ..................................... C. Hoa tự ",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:d6766fb3cd50",
+      "fused_score": 0.012195,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 21,
+      "vector_score": 0.553842,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b132",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu đằng lá to Câu đằng lá to, Dây móc câu, Vuốt lá to, Dây gai mấu - Uncaria mac rop hylla Wall. ex Roxb.,\n\nthuộc họ Cà phê - Rubiaceae. Mô tả: Cây nhỡ leo hay trườn dài 12-15m; cành không lông, lóng dài 10cm. Lá có phiến xoan rộng, to, dài đến 10-16cm, rộng 6-12cm, không lông, mặt trên nhẵn, mặt dưới có gân lồi; cuống 6-8mm; lá kèm hình tam giác thấp. Hoa tập hợp thành đầu trên cuống thẳng, có lông, to 35mm lúc hoa nở; hoa cao 15mm, dài 8mm; cánh hoa 3mm, mặt trên không lông; bao phấn trắng, c",
+      "rank": 28
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:207e005572d1",
+      "fused_score": 0.012048,
+      "bm25_rank": 22,
+      "bm25_score": 16.651555,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b48",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "22-Chữa được bệnh ho khan mãn tính. Các thầy thuốc đông y thường dùng một vị Câu kỷ tử, hoặc thêm những dược thảo khác chữa bệnh ho mãn tính và thở khò khè có hiệu qủa.\n\n23-Chữa được bệnh sưng đau nhức viêm khớp. Những cuộc nghiên cứu khoa học mở rộng trên 20 năm qua về đề tài trên đã cho thấy, bệnh sưng đau cấp tính và mãn tính do sự peroxide hóa của các gốc tự tăng nhiều vượt qúa khả năng en zyme SOD của cơ thể. Sự mất quân bình ấy gây sưng đau và phá hủy khớp nối với các mô chung quanh. Câu k",
+      "rank": 29
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:447fabd53b77",
+      "fused_score": 0.011905,
+      "bm25_rank": 23,
+      "bm25_score": 16.472334,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b48",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu kỷ tử dễ dàng tiết và phóng thích chất h GH có nhiệm vụ bảo vệ sửa chữa chức năng phát triển cơ thể, bao gồm bắp thịt và những chất liên kết của calcium tạo ra xương và răng.\n\nThận là cơ quan quan trọng nhất theo y học cổ truyền, có liên quan vớ I não và các cơ quan tạng phủ khác. Nhiệm vụ chính của thận là cung cấp nguyên khí tạo ra sự sống căn bản cho cơ thể. Câu kỷ tử là loại thuốc đại bổ xứng đáng cho thận có ảnh hưởng đến cả thận âm và thận dương.\n\nCâu kỷ tử cũng là loại thuốc bổ óc đầu",
+      "rank": 30
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:502afe6c68db",
+      "fused_score": 0.011905,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 23,
+      "vector_score": 0.550587,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b131",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu đằng cành leo Câu đằng cành leo. Vuốt leo - Uncaria scan dens (Smith) Hutch., thuộc họ Cà phê - Rubiaceae. Mô tả: Cây nhỡ leo, cành có lông hoe đỏ, dày, sát; mọc cong. Lá có phiến bầu dục, dài 8-13cm, rộng 3-5cm, gốc tròn hay hơi lõm, mặt trên có lông thưa, ngắn, nâu, mặt dưới có lông thưa dài; gân phụ 9 cặp; cuống 6mm. Hoa đầu to 2,5cm, trên cuống dài 4cm; đài có ống dài 1,5mm, có lông; tràng có ống 1cm, thuỳ 4-5, cao 2mm; nhị gắn ở ống tràng. Quả hình thoi ngược dài 5-6mm, đường kính 2mm, ",
+      "rank": 31
+    }
+  ],
+  "gate_pass": true,
+  "reason": "Sufficient and agreeing evidence from hybrid retrieval.",
+  "predicted_citation_count": 4,
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_ae3b6786b57c:d2cdab957519",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+      "source_id": "src_ae3b6786b57c",
+      "fused_score": 0.031778,
+      "vector_score": 0.628998,
+      "bm25_score": 22.329744,
+      "text": "CÂU KỶ TỬ (QUẢ) (Fruc tus Lycii) Tên khác: Khởi tử - Câu kỷ 1. Nguồn gốc, đặc điểm Là quả chín, phơi hay sấy khô của cây Câu kỷ (củ khởi) (Lycium chinen se Mill.), hay cây Ninh hạ Câu kỷ (Lycium barbarum L.) họ Cà (Solanaceae). Câu kỷ tử có dạng hình trứng hay hình trái xoan, hai đầu hơi lõm. Mặt ngoài có màu đỏ sẫm hay đỏ xám, mềm, bóng và thường nhăn nheo. Câu kỷ tử không mùi có vị ngọt, hơi chua. Ninh hạ Câu kỷ thì quả có dạng hình thoi. Mặt ngoài đỏ tươi hay đỏ sẫm. Không mùi, vị ngọt, hơi c"
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_e7b72b3ed72e:f14466f4e8f2",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+      "source_id": "src_e7b72b3ed72e",
+      "fused_score": 0.029857,
+      "vector_score": 0.608808,
+      "bm25_score": 19.576379,
+      "text": "Phân tích theo tây y : Tên khoa học Lycium chinen se Mill. Trái của cây câu kỷ gọi là Câu kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8- 10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người già trên 60 tuổi hoặc những người bị bệnh ung thư, nếu ăn sống mỗi ngày 5g hạt kỷ tử khô trong 10 ngày liên tiếp thì hoạt độ men superoxide dismitase (SOD) tăng "
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e7b72b3ed72e:4f5b51d74d37",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+      "source_id": "src_e7b72b3ed72e",
+      "fused_score": 0.029206,
+      "vector_score": 0.565051,
+      "bm25_score": 19.906034,
+      "text": "5-Ngăn ngừa ung thư. Câu kỷ là một trong những cây duy nhất trên trái đất này có chứa một loại khoáng chất chống ung thư. Những an tioxidants mạnh và chất polysac charides duy nhất có thể chặn dừng lại những thay đổi đột biến của tế bào dẫn đến ung thư. Một số nhà khoa học tin rằng Câu kỷ tử có thể là một loại dinh dưỡng bổ sung tốt để ngăn ngừa ung thư gan, bởi vì nó tác động mạnh trong việc bảo vệ gan và có hiệu qủa chống ung thư cùng một lúc. Điều này quan trọng vì gan là cơ quan loại độc tố "
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_40c21fbc97fb:cb0cd2e14324",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b20",
+      "source_id": "src_40c21fbc97fb",
+      "fused_score": 0.028778,
+      "vector_score": 0.602489,
+      "bm25_score": 19.00555,
+      "text": "Vỏ rễ chữa phế nhiệt ho ra máu, hen, ho đờm, trẻ con ho gà, phù thủng, bụng trướng, tiểu không thông, sốt, cao áp huyết, chữa rụng tóc bằng nấu nước sắc gội đầu..\n\nPhân tích theo tây y : Tên khoa học Lycium chinen se Mill . Trái của cây câu kỷ gọi là kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8-10% acid amine trong đó chừng một nửa dạng tự do gồm có acid aspartic, prolin, acid glutamic, alanin, arginin, serin, và 9 acid amine khác. Những người g"
+    }
+  ],
+  "gate_features": {
+    "top1_score": 0.031778,
+    "top2_score": 0.029857,
+    "top1_top2_gap": 0.001921,
+    "evidence_count": 5,
+    "distinct_parent_count": 5,
+    "distinct_source_count": 3,
+    "same_parent_support": false,
+    "same_source_support": true,
+    "top_support_parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+    "top_support_source_id": "src_e7b72b3ed72e",
+    "evidence_score_sum": 0.14727,
+    "evidence_score_mean": 0.029454,
+    "evidence_parent_concentration": 0.2,
+    "gate_topk": 5,
+    "min_strong_evidence": 2,
+    "strong_rel_ratio": 0.85,
+    "strong_abs_threshold": 0.015
+  },
+  "context_payload": {
+    "mode": "parent_child",
+    "tokens_used": 3180,
+    "parents": [
+      {
+        "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+        "score": 0.101778,
+        "title": "Bai14",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            5
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            5
+          ]
+        ],
+        "context_tokens": 1764
+      },
+      {
+        "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+        "score": 0.099857,
+        "title": "dongytap7",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            3
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            3
+          ]
+        ],
+        "context_tokens": 763
+      },
+      {
+        "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+        "score": 0.099206,
+        "title": "dongytap7",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            5
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            5
+          ]
+        ],
+        "context_tokens": 653
+      }
+    ],
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "tên",
+        "khoa",
+        "học",
+        "câu",
+        "kỷ"
+      ],
+      "dominant_term": "câu",
+      "candidate_parent_count": 4,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+          "base_score": 0.031778,
+          "relevance_score": 0.101778,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+          "base_score": 0.029857,
+          "relevance_score": 0.099857,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+          "base_score": 0.029206,
+          "relevance_score": 0.099206,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b20",
+          "base_score": 0.028778,
+          "relevance_score": 0.098778,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_ae3b6786b57c:h:5297024b7f97:b5",
+        "src_e7b72b3ed72e:h:5297024b7f97:b49",
+        "src_e7b72b3ed72e:h:5297024b7f97:b46"
+      ],
+      "final_parent_count": 3,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+          "centers": []
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+          "centers": []
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+          "ranges": [
+            [
+              0,
+              5
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+          "ranges": [
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+          "ranges": [
+            [
+              0,
+              5
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+          "spans": [
+            [
+              0,
+              5
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+          "spans": [
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+          "spans": [
+            [
+              0,
+              5
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+          "tokens": 1764,
+          "preview": "CÂU KỶ TỬ (QUẢ) (Fruc tus Lycii) Tên khác: Khởi tử - Câu kỷ 1. Nguồn gốc, đặc điểm Là quả chín, phơi hay sấy khô của cây Câu kỷ (củ khởi) (Lycium chinen se Mill.), hay cây Ninh hạ Câu kỷ (Lycium barbarum L.) họ Cà (Solan"
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b49",
+          "tokens": 763,
+          "preview": "Phân tích theo tây y : Tên khoa học Lycium chinen se Mill. Trái của cây câu kỷ gọi là Câu kỷ tử mầu đỏ cam, trong trái có chứa tinh dầu, acid béo, betain, zeaxan thin, physalien, chứa 8- 10% acid amine trong đó chừng một"
+        },
+        {
+          "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+          "tokens": 653,
+          "preview": "Bà Carol J. Kan sas, nữ y tá điều dưỡng, cho biết trong 3 tháng dùng nước uống Câu kỷ tử, thử cholesterol trong máu từ 229 xuống còn 189, bà không phải dùng đến thuốc nữa.  Alix M., Washin gton, bị bệnh đau nhức thần kin"
+        }
+      ],
+      "final_context_tokens": 3180,
+      "final_context_token_count": 3180
+    }
+  }
+}

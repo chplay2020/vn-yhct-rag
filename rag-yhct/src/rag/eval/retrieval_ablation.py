@@ -1,8 +1,9 @@
 # pyright: reportUnknownMemberType=false, reportUnknownVariableType=false
-"""Retrieval ablation — compare vector-only, BM25-only, and hybrid_rrf.
+"""Retrieval ablation — compare vector-only, BM25-only, hybrid_rrf, and hybrid_rrf+gate.
 
-Generates synthetic questions from sampled chunks, retrieves with all 3 modes,
+Generates synthetic questions from sampled chunks, retrieves with baseline modes,
 and reports Hit@K by chunk_id / parent_id / source_id + MRR.
+Optionally evaluates an answerability gate layered on hybrid evidence.
 
 Supports three question-generation modes:
   llm      — require Ollama; fail fast if unavailable
@@ -63,6 +64,7 @@ from rag.retrieve.vector_retriever import (
     retrieve_vector_from_vec,
 )
 from rag.retrieve.hybrid_retriever import reciprocal_rank_fusion
+from rag.retrieve.answerability_gate import DEFAULT_GATE_TOPK, run_answerability_gate
 from rag.utils.io import read_jsonl
 from rag.utils.query_quality import is_query_noisy
 
@@ -456,6 +458,8 @@ def run_ablation(
     question_set_path: str | None = None,
     save_question_set_path: str | None = None,
     generate_only: bool = False,
+    use_gate: bool = False,
+    gate_topk: int = DEFAULT_GATE_TOPK,
 ) -> dict[str, Any] | None:
     """Run retrieval ablation: compare vector, bm25, hybrid_rrf.
 
@@ -620,6 +624,8 @@ def run_ablation(
 
     # ── Retrieval evaluation ──────────────────────────────────────────────
     modes = ["vector", "bm25", "hybrid_rrf"]
+    if use_gate:
+        modes.append("hybrid_rrf_gate")
 
     # Accumulators: mode → metric_name → k → count
     hits: dict[str, dict[str, dict[int, int]]] = {
@@ -634,6 +640,10 @@ def run_ablation(
     detail: list[dict[str, Any]] = []
     failures: list[dict[str, Any]] = []
     sample_questions: list[dict[str, str]] = []
+    gate_pass = 0
+    gate_fail = 0
+    gate_pred_citation_sum = 0
+    gate_retained_sum = 0
 
     for i, item in enumerate(eval_items):
         question = item["question"]
@@ -687,6 +697,21 @@ def run_ablation(
             "bm25": bm25_results,
             "hybrid_rrf": hybrid_results,
         }
+        gate_decision: dict[str, Any] | None = None
+        if use_gate:
+            gate_decision = run_answerability_gate(
+                question,
+                hybrid_results,
+                gate_topk=gate_topk,
+            )
+            selected = gate_decision.get("selected_evidence", [])
+            mode_results["hybrid_rrf_gate"] = selected if gate_decision.get("pass") else []
+            gate_pred_citation_sum += int(gate_decision.get("predicted_citation_count", 0))
+            gate_retained_sum += len(selected)
+            if gate_decision.get("pass"):
+                gate_pass += 1
+            else:
+                gate_fail += 1
 
         for mode_name in modes:
             results = mode_results[mode_name]
@@ -717,6 +742,14 @@ def run_ablation(
                 "top_parent_ids": top_pids[:5],
                 "top_source_ids": top_sids[:5],
             }
+            if mode_name == "hybrid_rrf_gate" and gate_decision is not None:
+                query_detail["modes"][mode_name]["gate"] = {
+                    "pass": gate_decision.get("pass"),
+                    "reason": gate_decision.get("reason"),
+                    "predicted_citation_count": gate_decision.get("predicted_citation_count"),
+                    "retained_evidence_count": len(gate_decision.get("selected_evidence", [])),
+                    "gate_features": gate_decision.get("gate_features", {}),
+                }
 
             # Collect failure diagnostics for missed chunk_id
             if scores["hit_chunk_at"] is None:
@@ -764,6 +797,8 @@ def run_ablation(
             "topk_bm25": topk_bm25,
             "topk_vector": topk_vector,
             "rrf_k": rrf_k,
+            "use_gate": use_gate,
+            "gate_topk": gate_topk,
             "seed": seed,
             "ollama_url": ollama_url,
             "chat_model": gen_model,
@@ -774,6 +809,15 @@ def run_ablation(
         "detail": detail,
         "failures": failures,
     }
+
+    if use_gate:
+        summary["gate_ablation"] = {
+            "pass_count": gate_pass,
+            "fail_count": gate_fail,
+            "pass_rate": round(gate_pass / n, 4),
+            "avg_predicted_citation_count": round(gate_pred_citation_sum / n, 4),
+            "avg_retained_evidence_count": round(gate_retained_sum / n, 4),
+        }
 
     # Include question set provenance when running from a saved set
     if from_saved:
@@ -811,7 +855,10 @@ def run_ablation(
         llm_questions, fallback_questions, failed_gen, noisy_queries,
     )
     logger.info("=" * 70)
-    header = f"{'':>20s}  {'vector':>10s}  {'bm25':>10s}  {'hybrid_rrf':>10s}"
+    header_cols = ["vector", "bm25", "hybrid_rrf"] + (["hybrid_rrf_gate"] if use_gate else [])
+    header = f"{'':>20s}"
+    for col in header_cols:
+        header += f"  {col:>14s}"
     logger.info(header)
     logger.info("-" * 60)
     for k_val in k_values:
@@ -819,18 +866,29 @@ def run_ablation(
             continue
         for entity in ["chunk_id", "parent_id", "source_id"]:
             row = f"  Hit@{k_val} {entity:>10s}"
-            for mode_name in modes:
+            for mode_name in header_cols:
                 val = summary["metrics"][mode_name][f"hit@{k_val}"][entity]
-                row += f"  {val*100:9.1f}%"
+                row += f"  {val*100:13.1f}%"
             logger.info(row)
         logger.info("")
 
     for entity in ["chunk_id", "parent_id", "source_id"]:
         row = f"  MRR   {entity:>10s}"
-        for mode_name in modes:
+        for mode_name in header_cols:
             val = summary["metrics"][mode_name]["mrr"][entity]
-            row += f"  {val:9.4f}"
+            row += f"  {val:13.4f}"
         logger.info(row)
+
+    if use_gate:
+        logger.info("-")
+        logger.info(
+            "Gate: pass=%d fail=%d pass_rate=%.1f%% avg_pred_cite=%.2f avg_retained=%.2f",
+            gate_pass,
+            gate_fail,
+            (gate_pass / n) * 100,
+            gate_pred_citation_sum / n,
+            gate_retained_sum / n,
+        )
 
     logger.info("=" * 70)
 
@@ -866,6 +924,10 @@ def main() -> None:
                     help="Save generated questions to JSON for later reuse")
     p.add_argument("--generate-only", action="store_true", default=False,
                     help="Generate and save questions, then exit (no retrieval)")
+    p.add_argument("--use-gate", action="store_true", default=False,
+                    help="Also evaluate hybrid_rrf + answerability gate")
+    p.add_argument("--gate-topk", type=int, default=DEFAULT_GATE_TOPK,
+                    help="Top-K hybrid evidence consumed by gate")
     args = p.parse_args()
 
     # Validation
@@ -896,6 +958,8 @@ def main() -> None:
         question_set_path=args.question_set,
         save_question_set_path=args.save_question_set,
         generate_only=args.generate_only,
+        use_gate=args.use_gate,
+        gate_topk=args.gate_topk,
     )
     elapsed = time.time() - t0
     logger.info("Total time: %.1fs", elapsed)

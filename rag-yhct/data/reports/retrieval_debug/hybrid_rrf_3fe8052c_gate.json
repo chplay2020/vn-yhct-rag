@@ -1,0 +1,548 @@
+{
+  "query": "cách chữa trẻ em ho do cảm lạnh bằng cây thuốc-dược liệu là gì",
+  "mode": "hybrid_rrf",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_e823b7aa03f5:6bd3b7374105",
+      "fused_score": 0.032266,
+      "bm25_rank": 2,
+      "bm25_score": 19.908602,
+      "vector_rank": 0,
+      "vector_score": 0.665825,
+      "source_id": "src_e823b7aa03f5",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "inh, ho. Liều dùng: Cây lá tươi 10-30g. Hạt 6-12g BÀI THUỐC ỨNG DỤNG Chữa ho trẻ em có nhiều đờm Lá hẹ thái nhỏ 10g Cánh hoa hồng bạch 10g Đường phèn hoặc đường trắng 20g Tất cả cho vào bát nhỏ bịt lá chuối hấp trong nồi cơm hoặc đun cách thuỷ sôi 10 phút. Gạn lấy nước cho trẻ uống làm nhiều lần trong ngày. 13. HÚNG CHANH Tên khác: Rau tần - Rau tần dày lá - Dương tử tô. Rau thơm hông. Cách trồng: Trồng bằng đoạn thân cây ở nơi đất nhiều mùn, ẩm mát. Bộ phận dùng: Lá tươi và cành non. Thu hái, c",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_0a2099bef982:21172878603d",
+      "fused_score": 0.026736,
+      "bm25_rank": 29,
+      "bm25_score": 15.730544,
+      "vector_rank": 3,
+      "vector_score": 0.635135,
+      "source_id": "src_0a2099bef982",
+      "parent_id": "src_0a2099bef982:h:5297024b7f97:b2",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bài 4. Chữa ho, suyễn có nhiều đờm dãi, trẻ em hen phế quản, ho gà Rễ chanh sao 12g Vỏ rễ dâu tẩm mật sao 12g Vỏ bưởi (cạo bỏ cùi trắng) sao 12g Tất cả cho sắc với 200ml nước, lấy l OOml chia uống trong ngày (trẻ em cho thêm ít đường cho dễ uống). 5. CHỒM CHỒM Tên khác: Lôm chôm - vải thiều (miền Nam) - Xe môn (Campu chia). Cách trồng: Được trồng nhiều ở Nam Bộ bằng cách chiết cành hay bằng hạt. Bộ phận dùng: Quả và vỏ quả. Thu hái, ch ế biến: Thu hái quả chín vào tháng 5 —7 dương lịch, bóc vỏ q",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:c861e71a463b",
+      "fused_score": 0.025487,
+      "bm25_rank": 16,
+      "bm25_score": 16.416027,
+      "vector_rank": 19,
+      "vector_score": 0.606025,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b549",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Đơn thuốc: 1. Chữa cảm mạo, phong hàn phát sốt, nhức đầu ê ẩm, đau mình, không có mồ hôi, hay đổ mồ hôi khi gặp gió lạnh, trẻ em lên sởi, lở ngứa: Dùng Kinh giới cả hoa cành 20g sắc uống, hoặc phối hợp với các vị thuốc khác. 2. Chữa cảm gió lạnh nhức đầu, chảy nước mũi: Dùng hoa Kinh giới khô (Kinh giới tuệ), Bạch chỉ, hai vị bằng nhau tán nhỏ, uống mỗi lần 4g với nước chè nóng, cho ra mồ hôi. 3. Chữa cảm đau nhức các đầu xương: Kinh giới tươi 50g, Gừng sống 10g, giã vắt lấy nước uống còn bã đán",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_901a97a5099b:8ee7eec364fe",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 21.062534,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b13",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Lưỡi bệu: thuộc hư chứng. - Lưỡi lệch: do trúng phong. - Lưỡi run: do Tâm, Tỳ, khí, huyết, hư hoặc nghiện rượu. 2. Văn chân (nghe và ngửi) 2Ể1. Nghe âm tlianlt - Tiếng nói nhỏ, thều thào không ra hơi thuộc hư chứng. - Mê sàng là nhiệt vào Tâm bào. - Nói ngọng, nói khó là trúng phong. - Tiếng thở to, mạnh là thực chứng. - Tiếng ho mạnh là Phế thực nhiệt. - Tiếng ho yếu: Phế âm hư. - Ho kèm theo hắt hơi: do phong hàn. - Trẻ em ho cơn dài, có tiếng rít và nôn mửa là ho gà. 2.2. Mùi phân và nước t",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_7caef25456a4:1c0fe588f73c",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 20.099324,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_7caef25456a4",
+      "parent_id": "src_7caef25456a4:h:5297024b7f97:b0",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "trước đến đầu xuân năm sau. Đào lấy rễ củ, loại bỏ đất cát và rễ con, đồ qua hơi nước (hoặc nhúng vào nước sôi), lấy ra đem phơi hoặc sấy nhẹ cho khô. Những củ to có thể bổ dọc làm đôi. Bách bộ không mùi, vị hơi ngọt, sau đắng. Bách bộ đã được ghi trong Dược điển Việt Nam (2002). 3. Thành phần hóa học Bách bộ có chứa nhiều alcaloid, trong đó hoạt chất chính là stemonin. 4. Công dụng, cách dùng Bách bộ có tác dụng nhuận phổi, tiêu đờm, sát trùng. Dùng chữa các chứng bệnh: Ho mới hay ho lâu ngày, ",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:68b8ef363241",
+      "fused_score": 0.016129,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 1,
+      "vector_score": 0.638932,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b900",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ", hoà với đường uống; hay dùng Cát căn 20g, Đậu ván sao 12g, giã giập, sắc uống (theo Lê Trần Đức). 2. Chữa trẻ em cảm sốt, ho, viêm họng, hay lên sởi viêm phổi: Sắn dây 12g, Mạch môn 10g, Hương nhu 6g, sắc uống.",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_1d81088c863e:1f5d8887bd38",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 19.586222,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b231",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(*)Ôn thông: Dùng sức ấm làm nóng.\n\nCHẨN TRỊ NHỮNG BỆNH CHỨNG THƯỜNG GẶP BẰNG CHÂM CỨU CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 50 38. Ho gà Ho gà là loại ho từng cơn, dứt cơn một lúc lại phát cơn tiếp, mỗi ngày có từ mấy cơn đến mấy chục cơn ho. Do quá trình bệnh kéo dài nên còn gọi là ho “Bách nhật”. Bệnh thường thấy về cuối Đông, đầu Xuân, phần nhiều trẻ em từ 2 đến 4 tuổi hay mắc, ít thấy ở trẻ trên 10 tuổi. Bệnh do gió lạnh gây ra, chớm bị thì phát sốt s",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:18887da802b1",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 19.182282,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b639",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng, chỉ định và phối hợp: ở Trung Quốc (Vân Nam) cây được dùng trị cảm mạo phát sốt, ho gà, lạc huyết, đau ngực, ho do viêm khí quản, trẻ em cam tích. Dùng ngoài trị mụn lở, viêm tuyến vú, đòn ngã sưng đau.",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:882b5980a8cd",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.630127,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b675",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Rau Mùi là loại thuốc chủ yếu trong đậu sởi. Trẻ em lên sởi, nhân gặp gió lạnh, sởi không mọc được, dùng Rau mùi một nắm sắc cho trẻ uống lúc còn nóng, đắp chăn cho ra mồ hôi, sởi sẽ mọc tiếp. Bên ngoài, có thể dùng một nắm lá Mùi tươi, giã nát, chưng nóng, gói vải thưa lại, xát cho trẻ từ đầu xuống thân mình, tay chân, sởi sẽ mọc đều và khỏi biến chứng. Ðơn thuốc: 1. Cảm cúm không ra mồ hôi: Ram Mùi 30g, Gừng tươi 5 lát, Hành 3 củ, sắc uống. 2. Khó tiêu: Rau Mùi 30g, sắc uống. Mùi chó quả mọng ",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_eb28c8848470:e1e0d4432d5b",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 18.254971,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b118",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ải khó chịu, huống chi là thể chất \"thuần dương” như trẻ con thì chịu sao nổi. Ngọc phù Tiềm Quyết luận nói: \"Trẻ em bị bệnh thường gây nên bởi quá no\". Người đời nay nuôi trẻ em, không lượng xét Trường Vị của nó chứa đựng là bao. Hễ thấy oa khóc, tức là nhét vú ngay vào mồm, cứ cho bú mãi, có khi đến \"trớ\" (ói, mửa) ra cả sữa mới thôi. Đến khi nó đã biết ăn, vô luận là thức gì hễ thấy nó đòi ăn là cho ăn. Trẻ em khi mới sinh, nó có biết gì đâu, chỉ có sở trường về \"kêu\" với \"khóc\". Hai cái đó t",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:ebdd72c12e78",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.624991,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b108",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "1. Cảm cúm, sốt, nóng nhiều, ho khan, ho có đờm; 2. Lỵ trực tràng; 3. Tê phù, phù thũng, giảm niệu. Liều dùng 8-12g khô hoặc 20-40g tươi, dạng thuốc sắc. Để tươi chữa ho khan; sao thơm chữa ho đờm và tiêu sưng. Dùng ngoài, ép lấy dịch từ cây tươi trị mụn nhọt, lở ngứa, ec zema. Nước hãm lá Cam thảo đất dùng làm thuốc súc miệng và ngậm chữa đau răng. Hoạt chất amellin dùng điều trị bệnh đái đường, thiếu máu, albumin niệu, ceton niệu, viêm võng mạc, những biến chứng kèm theo đái đường và làm các v",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:c837d6d3a901",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 16.996549,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b60",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "gốc nguyên nhân DTN giun chỉ, điều trị chứng đái ra dưỡng trấp bằng phẫu thuật. ĐÁI BUỐT (y), đái đau với cảm giác nóng rát, rất khó chịu và tăng lên vào cuối mỗi lần đái; là biểu hiện của viêm thận kẽ, niệu đạo và bàng quang ở trẻ em (sỏi bàng quang, vv.), ở người lớn (lậu, vv.). Thường kèm theo đái rắt (xt. Đái rắt). ĐÁI DẦM (y), đái lúc đạng ngủ, thường về ban đêm, tự mình không biết là mình đái hoặc có khi vừa ĐD lại nằm mơ thấy mình đang đi đái; thường gặp ở trẻ em 3 – 10 tuổi. Nguyên nhân ",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:701508b3e6da",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 16.863084,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b165",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chó đẻ răng cưa 40g, Mã đề 20g, Dành dành 12g sắc uống. 5. Chữa lở loét thối thịt không liền miệng; dùng lá Chó đẻ răng cưa. Lá Thồm lồm, liều bằng nhau. Ðinh hương 1 nụ, giã nhỏ đắp (Bách gia trân tàng). 6. Chữa trẻ em tưa lưỡi, giã cây tươi vắt lấy nước cốt, bôi (Dược liệu Việt Nam). 7. Sản hậu ứ huyết, dùng 8-16g cây khô sắc uống hằng ngày (Dược liệu Việt Nam).",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_e823b7aa03f5:9352dd7bdad1",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.619267,
+      "source_id": "src_e823b7aa03f5",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b7",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ỤNG Bài 1. Chữa cảm cúm Tỏi 10g Nước 100ml Tỏi bóc vỏ cứng, giã nát ngâm vào nước sôi để nguội trong 2 giờ, lọc qua gạc, nhỏ mũi nhiều lần trong ngày. Bài 2. Chữa trẻ em bụng đầy trướng. Tỏi 1 củ Giã nhỏ bọc trong miếng gạc buộc vào rốn trẻ. Ghi chú: Dùng ngoài giã đắp hoặc thái lát cứu. Còn dùng ăn sống, ăn nướng NHÀ XUẤT BẢN Y HỌC CÂY RAU - CÂY THUỐC Chịu trách nhiệm xuất bản HOÀNG TRONG QUANG Biên tập: DS. LÊ MINH NGUYỆT Sửa bản in: DS. LÊ MINH NGUYỆT Trình bày bìa: CHU THUỲ LINH Ktvi tính: B",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:9ccbae8450d2",
+      "fused_score": 0.014286,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 9,
+      "vector_score": 0.616148,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b564",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "2. Sốt mùa hè của trẻ em: Lan cuốn chiếu 6g Thài lài trắng 15g sắc uống.\n\nLan đất bông ngắn Lan đất bông ngắn - Tropidia curculigoides Lindl, thuộc họ Lan - Orchidaceae. Mô tả: Ðịa lan cao 30-60cm. Lá thon, dài 14-20cm, rộng đến 5cm, gân phụ 5-7 lồi. Chùm ngắn, 1-2 cm; hoa màu lục nhạt hay trắng, nhỏ, phiến cao 6mm, môi hẹp, dài 4mm, hình xuồng. Quả nang dài 1-2 cm, có 6 cạnh, hạt rất nhỏ. Hoa tháng 4-7. Bộ phận dùng: Rễ - Radix Tropiliae Curculigoidis. Nơi sống và thu hái: Loài của Ấn Ðộ, Nam T",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_901a97a5099b:68c01ccf7d6b",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 16.555377,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b30",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Tác dụng: chữa lỵ ỉa chảy nhiễm khuân, chữa viêm dạ dày câp. chữa nôn do sốt cao, chữa mụn nhọt, viêm màng tiếp hợp, viêm tuyên mang tai, viêm tai, loct lợi. lưỡi, miệng; chữa sốt cao, vật vã, mê sàng, chữa mất ngủ, cầm máu trong trường hợp sốt cao do nhiễm trùng gây thoát quàn. - Liều dùng: 6 - 12/ 24h. 2. Nha đỏ'ni tử: quả đã phơi hay sấy khô của cây sầu đâu cứt chuột (Brucea Javan nica Men.), họ Thanh thất (Simarubaceae). - Tính vị quy kinh: đáng lạnh vào kinh Đại trường. -Tác dụng: chữa tr",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_968dd8db7ffb:c3223bde4ab5",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 16.495325,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_968dd8db7ffb",
+      "parent_id": "src_968dd8db7ffb:h:5297024b7f97:b1",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dược lý học 2007 - đại học Y Hà nội sách dùng cho sinh viên hệ bác sĩ đa khoa Codein có tác dụng giảm ho do ức chế trực tiếp trung tâm ho, nhưng làm khô và tăng độ quánh của dịch tiết phế quản. Dùng codein trong trường hợp ho khan gây khó chịu, mất ngủ và trong các chứng đau nhẹ và vừa. Chống chỉ định: mẫn cảm với thuốc, trẻ em dưới 1 tuổi, bệnh gan, suy hô hấp, phụ nữ có thai. Liều dùng điều trị ho khan: uống mỗi lần 10- 20 mg, ngày 3 – 4 lần. 2.2.1.2. Pholcodin Tác dụng giảm ho mạnh hơn codein",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:06bc85fc71e5",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.615019,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b369",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ".\n\nLá tươi giã đắp không kể liều lượng. Ðơn thuốc: 1. Ho, cảm, cổ họng sưng đau: Dùng bột rễ Ðậu chiều, bột rễ Xạ can, thêm phèn chua, hoà nước sôi để nguội ngậm không nuốt nước; hoặc dùng hạt Ðậu chiều sao vàng sắc uống. 2. Cảm sốt, mụn nhọt và trẻ em lên sởi ho: Dùng rễ Ðậu chiều 15g, Sài đất và Kim ngân hoa, mỗi vị 10g, sắc nước uống. 3. Trị các loại ban trái có kèm theo các chứng no hơi, sình bụng, tiêu chảy, gốc ban dây dưa;\n\nDùng lá Bạc hà 100g, củ Bồ bồ 100g, hoa Kinh giới 100g, Trần bì l",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:b990b1b38954",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 16.491267,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b147",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "cắn. Dịch quả giải nhiệt, đỡ khát, chữa nôn mửa, kém ăn. Ngày dùng 6- 10g dạng thuốc sắc. Dịch quả dùng uống tươi. Đơn thuốc: 1. Chữa nôn oẹ, ho khan, dùng quả Chanh cắt từng miếng cho thêm vài hạt muối nhai nuốt. 2. Chữa trẻ em sốt cao, co giật, trợn mắt, vắt nước Chanh nguyên chất cho uống liên tục, thật nhiều và lấy vỏ Chanh vắt lấy nước xoa vào lồng ngực và xát tay chân từ trong ra, xát nhiều ở khuỷu tay, khe chân, thì sốt lùi và tỉnh. 3. Chữa cảm sốt nóng, không có mồ hôi hay cảm cúm mùa hè",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:f8b718b8b973",
+      "fused_score": 0.013514,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 13,
+      "vector_score": 0.612416,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b7",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thêm tác dụng thấu biểu đạt tà; Người bệnh phát nhiệt, miệng đắng, họng đau, hạt họng sưng đau, lưỡi đỏ hoặc rêu vàng biểu hiện rõ chứng lý nhiệt thường gia thêm các vị Sơn chi, Hoàng cầm, Ngân hoa, Liên kiều, Bản lam căn, Bồ công anh để thanh nhiệt giải độc trở thành bài thanh nhiệt giải độc; Người bệnh ho khạc đờm không ra được, tiếng nói ồ ồ, biểu hiệu rõ phế khí không tuyên thông thường gia các vị Ngưu bàng, Tiền hồ, Thiền y, Bạc hà, Kiết cánh, Tượng bối, Hạnh nhân để tuyên thông phế khí, gi",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:818a24cc716b",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 16.462351,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b445",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ặ\n\nc ngâm rượu Gừng, mỗi ngày dùng 2-5ml để chữa ngoại cảm, bụng trướng đầy, nôn mửa, ho. Dùng gừng phối hợp với Chanh quả, củ Sả, mỗi thứ 10g, thái nhỏ ngâm với 5g muối và xi rô đơn (vừa đủ 100ml) trong 3 ngày rồi dùng vải vắt kiệt lấy nước, đựng trong lọ kín. Dùng uống trị ho, ngày 2 lần, mỗi lần 1-2 thìa canh. Trẻ em dùng 1/2 liều của người lớn. Gừng khô sắc uống như Gừng tươi, dùng khi bị lạnh mà đau bụng, đi ỉa lỏng, mệt lả, nôn mửa. Trong Nam dược thần hiệu, Tuệ Tĩnh đã ghi bài thuốc chữa ",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:833b72ef02bc",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.609422,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b501",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "sốt, có thể dùng trị sốt rét của trẻ em (cồn chiết hoa và lá) và là thuốc hạ nhiệt không gây phản ứng bảo vệ của cơ thể. Dầu Hướng dương là một loài dầu ăn tốt vì nó giàu acid béo. Công dụng, chỉ định và phối hợp: Cụm hoa đầu dùng trị: 1. Huyết áp cao, đau đầu, choáng váng; 2. ù tai, đau răng; 3. Đau gan, đau bụng, đau kinh; 4 Viêm vú, tạng khớp. Rễ và lõi thân dùng trị: 1. Đau đường tiết niệu và sỏi, dưỡng trấp niệu; 2. Viêm phế quản, ho gà; 3. Khí hư. Hạt dùng trị: 1. Chán ăn; mệt mỏi và đau r",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:62d5c885e11b",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.606064,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b159",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "y và lỵ của trẻ em. Trẻ nhỏ 1 tuổi dùng liều 0,05g; cứ 3 giờ uống một lần. Đơn thuốc: 1. Xích bạch lỵ: 12 quả Kha tử, 6 quả để sống, 6 quả nướng bỏ hạt, sao vàng và tán nhỏ. Nếu lỵ ra máu thì dùng nước sắc Cam thảo mà chiêu thuốc; nếu lỵ ra mùi, thì dùng nước sắc Cam thảo chích. 2. Ho lâu ngày: dùng Kha tử, Đảng sâm mỗi vị 4g sắc với 400ml, còn 1/2 chia uống 3 lần. 3. ỉa chảy lâu ngày: Kha tử 10g, tán bột, hoà với cháo ăn.",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_901a97a5099b:70a2a5decd30",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 16.30793,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b17",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "ường dùng: sấn dây, Bạc hà, lá Dâu. Khi chừa cần châm tà các huyệt: Phong môn, Hợp cốc, Đại truỳ, Khúc trì, Ngoại quan... - Cảm mạo phong hàn: cảm lạnh, đau dây thần kinh do lạnh, liệt VII do lạnh viêm mũi dị ứng do lạnh... Các vị thuốc thường dùng: Quế (que chi). Gì me tươi Bạch chi, Te tàn, Ma hoàng... Khi chữa cần cứu các huyệt: Liệt khuyết, Dại truỳ. 1.2. Cliống cltỉ địn li - ìa chảy mất nước, nôn mửa nhiều, thiếu máu 36",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_0a2099bef982:c53a7851fcfb",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 16.009831,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0a2099bef982",
+      "parent_id": "src_0a2099bef982:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng: - Quả chữa ho, giải khát. - Rễ chanh chữa ho có nhiều đồm dãi. - Lá chanh chữa trẻ em bụng đầy trướng. Liều dùng: Dịch quả chanh 10 - 20g/ngày, dạng nước ngọt. Lá, rễ 6 - 12g/ngày. BÀI THUỐC ỨNG DỤNG Bài 1. Chữa ho viêm họng Dùng quả chanh muối ngậm nhiều lần trong ngày. Bài 2. Chữa bí tiểu tiện, giải nhiệt Chanh quả 1 quả Nưốc đun sôi để nguội 400ml Vắt dịch quả chanh vào nước thêm đường uốhg nhiều lần trong ngày. Bài 3. Chữa trẻ em bí đái, bụng đầy trướng Lá chanh non giã đắp lên rố",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:b5fdc858ba47",
+      "fused_score": 0.012346,
+      "bm25_rank": 20,
+      "bm25_score": 15.972945,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b728",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ở Vân Nam (Trung Quốc), cây được dùng chữa bí đái do cảm nhiễm, sỏi, viêm thận, hoàng đản, lỵ trực khuẩn, bệnh giun tròn, giun móc, ghẻ nấm ngoài da, bệnh mẩn ngứa, trẻ em nhiều mồ hôi, phong thấp, rắn độc cắn.",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:dd31a88b3800",
+      "fused_score": 0.012346,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 20,
+      "vector_score": 0.60602,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b75",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ịnh và phối hợp: Rễ, thân cũng được dùng như các loài khác chữa bệnh ôn nhiệt, trong ngoài đều nóng, các khiếu không thông. Vỏ dùng chế nước uống cho trẻ em bị bệnh đậu mùa. Đơn thuốc: Lương y Lê Trần Đức giới thiệu một số đơn thuốc kinh nghiệm: 1. Chữa bệnh sốt mùa hè đến giai đoạn hôn mê khô khát, táo bón, đái sẻn, tân dịch khô kiệt, dùng rễ Bươm bướm 60g. Hành tăm 20g đều sao vàng, sắc uống một thang thì đại tiểu tiện thông lợi, sốt lùi,",
+      "rank": 26
+    }
+  ],
+  "gate_pass": false,
+  "reason": "Insufficient strong evidence passages.",
+  "predicted_citation_count": 1,
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e823b7aa03f5:6bd3b7374105",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+      "source_id": "src_e823b7aa03f5",
+      "fused_score": 0.032266,
+      "vector_score": 0.665825,
+      "bm25_score": 19.908602,
+      "text": "inh, ho. Liều dùng: Cây lá tươi 10-30g. Hạt 6-12g BÀI THUỐC ỨNG DỤNG Chữa ho trẻ em có nhiều đờm Lá hẹ thái nhỏ 10g Cánh hoa hồng bạch 10g Đường phèn hoặc đường trắng 20g Tất cả cho vào bát nhỏ bịt lá chuối hấp trong nồi cơm hoặc đun cách thuỷ sôi 10 phút. Gạn lấy nước cho trẻ uống làm nhiều lần trong ngày. 13. HÚNG CHANH Tên khác: Rau tần - Rau tần dày lá - Dương tử tô. Rau thơm hông. Cách trồng: Trồng bằng đoạn thân cây ở nơi đất nhiều mùn, ẩm mát. Bộ phận dùng: Lá tươi và cành non. Thu hái, c"
+    }
+  ],
+  "gate_features": {
+    "top1_score": 0.032266,
+    "top2_score": 0.026736,
+    "top1_top2_gap": 0.00553,
+    "evidence_count": 1,
+    "distinct_parent_count": 1,
+    "distinct_source_count": 1,
+    "same_parent_support": false,
+    "same_source_support": false,
+    "top_support_parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+    "top_support_source_id": "src_e823b7aa03f5",
+    "evidence_score_sum": 0.032266,
+    "evidence_score_mean": 0.032266,
+    "evidence_parent_concentration": 1.0,
+    "gate_topk": 5,
+    "min_strong_evidence": 2,
+    "strong_rel_ratio": 0.85,
+    "strong_abs_threshold": 0.015
+  },
+  "context_payload": {
+    "mode": "parent_child",
+    "tokens_used": 2045,
+    "parents": [
+      {
+        "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+        "score": 0.094084,
+        "title": "CÂY RAU CÂY THUỐC",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            4
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            4
+          ]
+        ],
+        "context_tokens": 2045
+      }
+    ],
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "cách",
+        "chữa",
+        "trẻ",
+        "em",
+        "ho",
+        "do",
+        "cảm",
+        "lạnh",
+        "bằng",
+        "dược",
+        "liệu"
+      ],
+      "dominant_term": "cách",
+      "candidate_parent_count": 1,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+          "base_score": 0.032266,
+          "relevance_score": 0.094084,
+          "support_count": 1,
+          "query_overlap_ratio": 0.727273,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_e823b7aa03f5:h:5297024b7f97:b3"
+      ],
+      "final_parent_count": 1,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+          "tokens": 2045,
+          "preview": "năm, dùng tươi hay khô đều được. Công dụng: Dùng làm thuốc ra mồ hôi, lợi tiểu, chữa các chứng cảm sốt nhức đầu. Liều dùng: 30-60g. BÀI THUỐC ỨNG DỤNG Bài 1. Chữa cảm mạo nhức đầu, ngạt mũi, ho ... Hành tươi 20g Gừng tươ"
+        }
+      ],
+      "final_context_tokens": 2045,
+      "final_context_token_count": 2045
+    }
+  }
+}

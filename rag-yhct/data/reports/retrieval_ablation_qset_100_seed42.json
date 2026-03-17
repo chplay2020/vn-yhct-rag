@@ -20,29 +20,29 @@
   "metrics": {
     "vector": {
       "hit@1": {
-        "chunk_id": 0.31,
-        "parent_id": 0.36,
-        "source_id": 0.54
+        "chunk_id": 0.34,
+        "parent_id": 0.39,
+        "source_id": 0.59
       },
       "hit@3": {
-        "chunk_id": 0.47,
-        "parent_id": 0.56,
+        "chunk_id": 0.46,
+        "parent_id": 0.54,
         "source_id": 0.84
       },
       "hit@5": {
-        "chunk_id": 0.54,
-        "parent_id": 0.63,
-        "source_id": 0.88
+        "chunk_id": 0.53,
+        "parent_id": 0.61,
+        "source_id": 0.9
       },
       "hit@10": {
         "chunk_id": 0.55,
-        "parent_id": 0.65,
+        "parent_id": 0.64,
         "source_id": 0.95
       },
       "mrr": {
-        "chunk_id": 0.3982,
-        "parent_id": 0.4664,
-        "source_id": 0.6983
+        "chunk_id": 0.4132,
+        "parent_id": 0.4783,
+        "source_id": 0.7252
       }
     },
     "bm25": {
@@ -74,29 +74,29 @@
     },
     "hybrid_rrf": {
       "hit@1": {
-        "chunk_id": 0.38,
-        "parent_id": 0.43,
-        "source_id": 0.5
+        "chunk_id": 0.39,
+        "parent_id": 0.44,
+        "source_id": 0.52
       },
       "hit@3": {
         "chunk_id": 0.55,
         "parent_id": 0.6,
-        "source_id": 0.75
+        "source_id": 0.77
       },
       "hit@5": {
-        "chunk_id": 0.61,
+        "chunk_id": 0.62,
         "parent_id": 0.65,
         "source_id": 0.86
       },
       "hit@10": {
-        "chunk_id": 0.73,
-        "parent_id": 0.76,
-        "source_id": 0.94
+        "chunk_id": 0.72,
+        "parent_id": 0.75,
+        "source_id": 0.96
       },
       "mrr": {
-        "chunk_id": 0.4852,
-        "parent_id": 0.5344,
-        "source_id": 0.6544
+        "chunk_id": 0.4902,
+        "parent_id": 0.5387,
+        "source_id": 0.671
       }
     }
   },
@@ -367,7 +367,7 @@
       "modes": {
         "vector": {
           "hit_chunk_at": null,
-          "hit_parent_at": 8,
+          "hit_parent_at": 7,
           "hit_source_at": 1,
           "top5": [
             {
@@ -384,33 +384,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_ff2b95264bfc:cad01f1ac0ea"
+              "chunk_id": "src_2e608dafe081:cad01f1ac0ea"
             },
             {
               "rank": 4,
-              "chunk_id": "src_2e608dafe081:cad01f1ac0ea"
+              "chunk_id": "src_ff2b95264bfc:cad01f1ac0ea"
             }
           ],
           "top_chunk_ids": [
             "src_1d81088c863e:c73b188e0607",
             "src_363b2e9ecf9b:ecf59efc0f62",
             "src_82c72885324a:ecf59efc0f62",
-            "src_ff2b95264bfc:cad01f1ac0ea",
-            "src_2e608dafe081:cad01f1ac0ea"
+            "src_2e608dafe081:cad01f1ac0ea",
+            "src_ff2b95264bfc:cad01f1ac0ea"
           ],
           "top_parent_ids": [
             "src_1d81088c863e:h:5297024b7f97:b118",
             "src_363b2e9ecf9b:h:5297024b7f97:b18",
             "src_82c72885324a:h:5297024b7f97:b18",
-            "src_ff2b95264bfc:h:5297024b7f97:b19",
-            "src_2e608dafe081:h:5297024b7f97:b19"
+            "src_2e608dafe081:h:5297024b7f97:b19",
+            "src_ff2b95264bfc:h:5297024b7f97:b19"
           ],
           "top_source_ids": [
             "src_1d81088c863e",
             "src_363b2e9ecf9b",
             "src_82c72885324a",
-            "src_ff2b95264bfc",
-            "src_2e608dafe081"
+            "src_2e608dafe081",
+            "src_ff2b95264bfc"
           ]
         },
         "bm25": {
@@ -938,11 +938,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_363b2e9ecf9b:c72c403c3724"
+              "chunk_id": "src_82c72885324a:c72c403c3724"
             },
             {
               "rank": 3,
-              "chunk_id": "src_82c72885324a:c72c403c3724"
+              "chunk_id": "src_363b2e9ecf9b:c72c403c3724"
             },
             {
               "rank": 4,
@@ -952,22 +952,22 @@
           "top_chunk_ids": [
             "src_715f913a01a9:b59b2a1a9c53",
             "src_1d81088c863e:383d950416b6",
-            "src_363b2e9ecf9b:c72c403c3724",
             "src_82c72885324a:c72c403c3724",
+            "src_363b2e9ecf9b:c72c403c3724",
             "src_2e608dafe081:87ae26261b56"
           ],
           "top_parent_ids": [
             "src_715f913a01a9:h:5297024b7f97:b18",
             "src_1d81088c863e:h:5297024b7f97:b26",
-            "src_363b2e9ecf9b:h:5297024b7f97:b16",
             "src_82c72885324a:h:5297024b7f97:b16",
+            "src_363b2e9ecf9b:h:5297024b7f97:b16",
             "src_2e608dafe081:h:5297024b7f97:b16"
           ],
           "top_source_ids": [
             "src_715f913a01a9",
             "src_1d81088c863e",
-            "src_363b2e9ecf9b",
             "src_82c72885324a",
+            "src_363b2e9ecf9b",
             "src_2e608dafe081"
           ]
         }
@@ -996,37 +996,37 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_901a97a5099b:930c7d38ffe9"
-            },
-            {
-              "rank": 3,
               "chunk_id": "src_6c0d8caff063:010d33a3e6e1"
             },
             {
-              "rank": 4,
+              "rank": 3,
               "chunk_id": "src_1d81088c863e:2cc012f7427a"
+            },
+            {
+              "rank": 4,
+              "chunk_id": "src_6f802cb99781:d48d214bd6d5"
             }
           ],
           "top_chunk_ids": [
             "src_1d81088c863e:9719d2647caa",
             "src_6c0d8caff063:f21817397b24",
-            "src_901a97a5099b:930c7d38ffe9",
             "src_6c0d8caff063:010d33a3e6e1",
-            "src_1d81088c863e:2cc012f7427a"
+            "src_1d81088c863e:2cc012f7427a",
+            "src_6f802cb99781:d48d214bd6d5"
           ],
           "top_parent_ids": [
             "src_1d81088c863e:h:5297024b7f97:b254",
             "src_6c0d8caff063:h:5297024b7f97:b117",
-            "src_901a97a5099b:h:5297024b7f97:b7",
             "src_6c0d8caff063:h:5297024b7f97:b0",
-            "src_1d81088c863e:h:5297024b7f97:b268"
+            "src_1d81088c863e:h:5297024b7f97:b268",
+            "src_6f802cb99781:h:5297024b7f97:b25"
           ],
           "top_source_ids": [
             "src_1d81088c863e",
             "src_6c0d8caff063",
-            "src_901a97a5099b",
             "src_6c0d8caff063",
-            "src_1d81088c863e"
+            "src_1d81088c863e",
+            "src_6f802cb99781"
           ]
         },
         "bm25": {
@@ -1088,11 +1088,11 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_363b2e9ecf9b:d5880aaf1dfa"
+              "chunk_id": "src_82c72885324a:d5880aaf1dfa"
             },
             {
               "rank": 2,
-              "chunk_id": "src_82c72885324a:d5880aaf1dfa"
+              "chunk_id": "src_363b2e9ecf9b:d5880aaf1dfa"
             },
             {
               "rank": 3,
@@ -1105,22 +1105,22 @@
           ],
           "top_chunk_ids": [
             "src_6c0d8caff063:f21817397b24",
-            "src_363b2e9ecf9b:d5880aaf1dfa",
             "src_82c72885324a:d5880aaf1dfa",
+            "src_363b2e9ecf9b:d5880aaf1dfa",
             "src_ff2b95264bfc:ab23e6c741d2",
             "src_2e608dafe081:ab23e6c741d2"
           ],
           "top_parent_ids": [
             "src_6c0d8caff063:h:5297024b7f97:b117",
-            "src_363b2e9ecf9b:h:5297024b7f97:b4",
             "src_82c72885324a:h:5297024b7f97:b4",
+            "src_363b2e9ecf9b:h:5297024b7f97:b4",
             "src_ff2b95264bfc:h:5297024b7f97:b4",
             "src_2e608dafe081:h:5297024b7f97:b4"
           ],
           "top_source_ids": [
             "src_6c0d8caff063",
-            "src_363b2e9ecf9b",
             "src_82c72885324a",
+            "src_363b2e9ecf9b",
             "src_ff2b95264bfc",
             "src_2e608dafe081"
           ]
@@ -1598,17 +1598,17 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:ea9d1526f4a4"
+              "chunk_id": "src_e0520ddfd9ac:ea9d1526f4a4"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:ea9d1526f4a4"
+              "chunk_id": "src_d5596b1dce93:ea9d1526f4a4"
             },
             {
               "rank": 2,
@@ -1624,22 +1624,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:ea9d1526f4a4",
             "src_e0520ddfd9ac:ea9d1526f4a4",
+            "src_d5596b1dce93:ea9d1526f4a4",
             "src_e0520ddfd9ac:87dc2b07675e",
             "src_d5596b1dce93:87dc2b07675e",
             "src_e0520ddfd9ac:2b2f74232464"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b305",
             "src_e0520ddfd9ac:h:5297024b7f97:b305",
+            "src_d5596b1dce93:h:5297024b7f97:b305",
             "src_e0520ddfd9ac:h:5297024b7f97:b313",
             "src_d5596b1dce93:h:5297024b7f97:b313",
             "src_e0520ddfd9ac:h:5297024b7f97:b319"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac"
@@ -1694,17 +1694,17 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:ea9d1526f4a4"
+              "chunk_id": "src_e0520ddfd9ac:ea9d1526f4a4"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:ea9d1526f4a4"
+              "chunk_id": "src_d5596b1dce93:ea9d1526f4a4"
             },
             {
               "rank": 2,
@@ -1720,22 +1720,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:ea9d1526f4a4",
             "src_e0520ddfd9ac:ea9d1526f4a4",
+            "src_d5596b1dce93:ea9d1526f4a4",
             "src_487a77534c7b:7f484703d679",
             "src_e0520ddfd9ac:87dc2b07675e",
             "src_9cfd42812652:71a83efcb9bb"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b305",
             "src_e0520ddfd9ac:h:5297024b7f97:b305",
+            "src_d5596b1dce93:h:5297024b7f97:b305",
             "src_487a77534c7b:h:5297024b7f97:b2",
             "src_e0520ddfd9ac:h:5297024b7f97:b313",
             "src_9cfd42812652:h:5297024b7f97:b3"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_487a77534c7b",
             "src_e0520ddfd9ac",
             "src_9cfd42812652"
@@ -1920,11 +1920,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:55fc1fe04452"
+              "chunk_id": "src_e0520ddfd9ac:55fc1fe04452"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:55fc1fe04452"
+              "chunk_id": "src_d5596b1dce93:55fc1fe04452"
             },
             {
               "rank": 4,
@@ -1934,22 +1934,22 @@
           "top_chunk_ids": [
             "src_e0520ddfd9ac:95b70164822a",
             "src_d5596b1dce93:95b70164822a",
-            "src_d5596b1dce93:55fc1fe04452",
             "src_e0520ddfd9ac:55fc1fe04452",
+            "src_d5596b1dce93:55fc1fe04452",
             "src_e0520ddfd9ac:934ac3be5b81"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b631",
             "src_d5596b1dce93:h:5297024b7f97:b631",
-            "src_d5596b1dce93:h:5297024b7f97:b726",
             "src_e0520ddfd9ac:h:5297024b7f97:b726",
+            "src_d5596b1dce93:h:5297024b7f97:b726",
             "src_e0520ddfd9ac:h:5297024b7f97:b547"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -2062,7 +2062,7 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 5,
+          "hit_source_at": 4,
           "top5": [
             {
               "rank": 0,
@@ -2082,7 +2082,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:b480d9b7883f"
+              "chunk_id": "src_d5596b1dce93:4363bc7d4e49"
             }
           ],
           "top_chunk_ids": [
@@ -2090,21 +2090,21 @@
             "src_3ad7c6b78d18:251c09728e52",
             "src_309ee3f2ff0b:532ad0a8c7b8",
             "src_e0520ddfd9ac:4363bc7d4e49",
-            "src_e0520ddfd9ac:b480d9b7883f"
+            "src_d5596b1dce93:4363bc7d4e49"
           ],
           "top_parent_ids": [
             "src_d92a21efcf76:h:5297024b7f97:b34",
             "src_3ad7c6b78d18:h:5297024b7f97:b133",
             "src_309ee3f2ff0b:h:5297024b7f97:b81",
             "src_e0520ddfd9ac:h:5297024b7f97:b528",
-            "src_e0520ddfd9ac:h:5297024b7f97:b636"
+            "src_d5596b1dce93:h:5297024b7f97:b528"
           ],
           "top_source_ids": [
             "src_d92a21efcf76",
             "src_3ad7c6b78d18",
             "src_309ee3f2ff0b",
             "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac"
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -2158,7 +2158,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": null,
+          "hit_source_at": 9,
           "top5": [
             {
               "rank": 0,
@@ -2522,25 +2522,25 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 0,
-          "hit_parent_at": 0,
-          "hit_source_at": 0,
+          "hit_chunk_at": 1,
+          "hit_parent_at": 1,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_2e608dafe081:c44286334733"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_ff2b95264bfc:c44286334733"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_2e608dafe081:c44286334733"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_363b2e9ecf9b:3976c5820c81"
+              "chunk_id": "src_82c72885324a:3976c5820c81"
             },
             {
               "rank": 3,
-              "chunk_id": "src_82c72885324a:3976c5820c81"
+              "chunk_id": "src_363b2e9ecf9b:3976c5820c81"
             },
             {
               "rank": 4,
@@ -2548,24 +2548,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_2e608dafe081:c44286334733",
             "src_ff2b95264bfc:c44286334733",
-            "src_363b2e9ecf9b:3976c5820c81",
+            "src_2e608dafe081:c44286334733",
             "src_82c72885324a:3976c5820c81",
+            "src_363b2e9ecf9b:3976c5820c81",
             "src_1d81088c863e:5dfd02803a7d"
           ],
           "top_parent_ids": [
-            "src_2e608dafe081:h:5297024b7f97:b36",
             "src_ff2b95264bfc:h:5297024b7f97:b36",
-            "src_363b2e9ecf9b:h:5297024b7f97:b36",
+            "src_2e608dafe081:h:5297024b7f97:b36",
             "src_82c72885324a:h:5297024b7f97:b36",
+            "src_363b2e9ecf9b:h:5297024b7f97:b36",
             "src_1d81088c863e:h:5297024b7f97:b247"
           ],
           "top_source_ids": [
-            "src_2e608dafe081",
             "src_ff2b95264bfc",
-            "src_363b2e9ecf9b",
+            "src_2e608dafe081",
             "src_82c72885324a",
+            "src_363b2e9ecf9b",
             "src_1d81088c863e"
           ]
         },
@@ -2628,11 +2628,11 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_363b2e9ecf9b:3976c5820c81"
+              "chunk_id": "src_ff2b95264bfc:c44286334733"
             },
             {
               "rank": 2,
-              "chunk_id": "src_ff2b95264bfc:c44286334733"
+              "chunk_id": "src_363b2e9ecf9b:3976c5820c81"
             },
             {
               "rank": 3,
@@ -2645,22 +2645,22 @@
           ],
           "top_chunk_ids": [
             "src_2e608dafe081:c44286334733",
-            "src_363b2e9ecf9b:3976c5820c81",
             "src_ff2b95264bfc:c44286334733",
+            "src_363b2e9ecf9b:3976c5820c81",
             "src_82c72885324a:3976c5820c81",
             "src_3ad7c6b78d18:bbd8eea71d42"
           ],
           "top_parent_ids": [
             "src_2e608dafe081:h:5297024b7f97:b36",
-            "src_363b2e9ecf9b:h:5297024b7f97:b36",
             "src_ff2b95264bfc:h:5297024b7f97:b36",
+            "src_363b2e9ecf9b:h:5297024b7f97:b36",
             "src_82c72885324a:h:5297024b7f97:b36",
             "src_3ad7c6b78d18:h:5297024b7f97:b207"
           ],
           "top_source_ids": [
             "src_2e608dafe081",
-            "src_363b2e9ecf9b",
             "src_ff2b95264bfc",
+            "src_363b2e9ecf9b",
             "src_82c72885324a",
             "src_3ad7c6b78d18"
           ]
@@ -2698,7 +2698,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:5bf7c4595c4c"
+              "chunk_id": "src_6c0d8caff063:595274d60156"
             }
           ],
           "top_chunk_ids": [
@@ -2706,21 +2706,21 @@
             "src_6c0d8caff063:2b9cec528b3b",
             "src_87f1c4c0e959:709479b3036b",
             "src_d5596b1dce93:5bf7c4595c4c",
-            "src_e0520ddfd9ac:5bf7c4595c4c"
+            "src_6c0d8caff063:595274d60156"
           ],
           "top_parent_ids": [
             "src_9cfd42812652:h:5297024b7f97:b0",
             "src_6c0d8caff063:h:5297024b7f97:b118",
             "src_87f1c4c0e959:h:5297024b7f97:b2",
             "src_d5596b1dce93:h:5297024b7f97:b630",
-            "src_e0520ddfd9ac:h:5297024b7f97:b630"
+            "src_6c0d8caff063:h:5297024b7f97:b119"
           ],
           "top_source_ids": [
             "src_9cfd42812652",
             "src_6c0d8caff063",
             "src_87f1c4c0e959",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_6c0d8caff063"
           ]
         },
         "bm25": {
@@ -2774,7 +2774,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 4,
+          "hit_source_at": 3,
           "top5": [
             {
               "rank": 0,
@@ -2782,40 +2782,40 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_92a6ae24adf8:0f3739592a2d"
-            },
-            {
-              "rank": 2,
               "chunk_id": "src_92a6ae24adf8:809b42c1385b"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_92a6ae24adf8:4ee1df900d6d"
             },
             {
-              "rank": 4,
+              "rank": 3,
               "chunk_id": "src_6c0d8caff063:2b9cec528b3b"
+            },
+            {
+              "rank": 4,
+              "chunk_id": "src_6c0d8caff063:34c27a8b589a"
             }
           ],
           "top_chunk_ids": [
             "src_9cfd42812652:38a8524c1667",
-            "src_92a6ae24adf8:0f3739592a2d",
             "src_92a6ae24adf8:809b42c1385b",
             "src_92a6ae24adf8:4ee1df900d6d",
-            "src_6c0d8caff063:2b9cec528b3b"
+            "src_6c0d8caff063:2b9cec528b3b",
+            "src_6c0d8caff063:34c27a8b589a"
           ],
           "top_parent_ids": [
             "src_9cfd42812652:h:5297024b7f97:b0",
-            "src_92a6ae24adf8:h:5297024b7f97:b60",
             "src_92a6ae24adf8:h:5297024b7f97:b59",
             "src_92a6ae24adf8:h:5297024b7f97:b81",
-            "src_6c0d8caff063:h:5297024b7f97:b118"
+            "src_6c0d8caff063:h:5297024b7f97:b118",
+            "src_6c0d8caff063:h:5297024b7f97:b130"
           ],
           "top_source_ids": [
             "src_9cfd42812652",
             "src_92a6ae24adf8",
             "src_92a6ae24adf8",
-            "src_92a6ae24adf8",
+            "src_6c0d8caff063",
             "src_6c0d8caff063"
           ]
         }
@@ -2852,7 +2852,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:e5a59a22ab25"
+              "chunk_id": "src_e0520ddfd9ac:e5a59a22ab25"
             }
           ],
           "top_chunk_ids": [
@@ -2860,21 +2860,21 @@
             "src_e0520ddfd9ac:6734737b9b65",
             "src_6f802cb99781:f3bf34df736c",
             "src_6f802cb99781:60e85560672b",
-            "src_d5596b1dce93:e5a59a22ab25"
+            "src_e0520ddfd9ac:e5a59a22ab25"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b504",
             "src_e0520ddfd9ac:h:5297024b7f97:b504",
             "src_6f802cb99781:h:5297024b7f97:b52",
             "src_6f802cb99781:h:5297024b7f97:b31",
-            "src_d5596b1dce93:h:5297024b7f97:b333"
+            "src_e0520ddfd9ac:h:5297024b7f97:b333"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_6f802cb99781",
             "src_6f802cb99781",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -3152,37 +3152,37 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:aa7b4d8da88f"
-            },
-            {
-              "rank": 3,
               "chunk_id": "src_d5596b1dce93:aa7b4d8da88f"
             },
             {
+              "rank": 3,
+              "chunk_id": "src_e0520ddfd9ac:aa7b4d8da88f"
+            },
+            {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:d23806b51674"
+              "chunk_id": "src_e0520ddfd9ac:d23806b51674"
             }
           ],
           "top_chunk_ids": [
             "src_d5596b1dce93:6fc02fa773dc",
             "src_e0520ddfd9ac:6fc02fa773dc",
-            "src_e0520ddfd9ac:aa7b4d8da88f",
             "src_d5596b1dce93:aa7b4d8da88f",
-            "src_d5596b1dce93:d23806b51674"
+            "src_e0520ddfd9ac:aa7b4d8da88f",
+            "src_e0520ddfd9ac:d23806b51674"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b715",
             "src_e0520ddfd9ac:h:5297024b7f97:b715",
-            "src_e0520ddfd9ac:h:5297024b7f97:b122",
             "src_d5596b1dce93:h:5297024b7f97:b122",
-            "src_d5596b1dce93:h:5297024b7f97:b431"
+            "src_e0520ddfd9ac:h:5297024b7f97:b122",
+            "src_e0520ddfd9ac:h:5297024b7f97:b431"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -3252,7 +3252,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:aa7b4d8da88f"
+              "chunk_id": "src_d5596b1dce93:aa7b4d8da88f"
             },
             {
               "rank": 4,
@@ -3263,21 +3263,21 @@
             "src_d5596b1dce93:6fc02fa773dc",
             "src_e0520ddfd9ac:6fc02fa773dc",
             "src_1d81088c863e:69c5857f5fdc",
-            "src_e0520ddfd9ac:aa7b4d8da88f",
+            "src_d5596b1dce93:aa7b4d8da88f",
             "src_e56086bb278f:f9ed203eadff"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b715",
             "src_e0520ddfd9ac:h:5297024b7f97:b715",
             "src_1d81088c863e:h:5297024b7f97:b60",
-            "src_e0520ddfd9ac:h:5297024b7f97:b122",
+            "src_d5596b1dce93:h:5297024b7f97:b122",
             "src_e56086bb278f:h:5297024b7f97:b3"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_1d81088c863e",
-            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e56086bb278f"
           ]
         }
@@ -3448,15 +3448,15 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:3bdaee1f1493"
+              "chunk_id": "src_e0520ddfd9ac:3bdaee1f1493"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:3bdaee1f1493"
+              "chunk_id": "src_d5596b1dce93:3bdaee1f1493"
             },
             {
               "rank": 2,
@@ -3468,29 +3468,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:9c4ebf42c7bb"
+              "chunk_id": "src_e0520ddfd9ac:9c4ebf42c7bb"
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:3bdaee1f1493",
             "src_e0520ddfd9ac:3bdaee1f1493",
+            "src_d5596b1dce93:3bdaee1f1493",
             "src_d5596b1dce93:b061ba3b332a",
             "src_e0520ddfd9ac:b061ba3b332a",
-            "src_d5596b1dce93:9c4ebf42c7bb"
+            "src_e0520ddfd9ac:9c4ebf42c7bb"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b436",
             "src_e0520ddfd9ac:h:5297024b7f97:b436",
+            "src_d5596b1dce93:h:5297024b7f97:b436",
             "src_d5596b1dce93:h:5297024b7f97:b856",
             "src_e0520ddfd9ac:h:5297024b7f97:b856",
-            "src_d5596b1dce93:h:5297024b7f97:b1188"
+            "src_e0520ddfd9ac:h:5297024b7f97:b1188"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -3544,15 +3544,15 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:3bdaee1f1493"
+              "chunk_id": "src_e0520ddfd9ac:3bdaee1f1493"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:3bdaee1f1493"
+              "chunk_id": "src_d5596b1dce93:3bdaee1f1493"
             },
             {
               "rank": 2,
@@ -3568,22 +3568,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:3bdaee1f1493",
             "src_e0520ddfd9ac:3bdaee1f1493",
+            "src_d5596b1dce93:3bdaee1f1493",
             "src_f80e34eb56ad:b057493825c6",
             "src_f3cf94fd3921:f62e4070ab45",
             "src_363b2e9ecf9b:dcedb4ae701f"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b436",
             "src_e0520ddfd9ac:h:5297024b7f97:b436",
+            "src_d5596b1dce93:h:5297024b7f97:b436",
             "src_f80e34eb56ad:h:5297024b7f97:b15",
             "src_f3cf94fd3921:h:5297024b7f97:b11",
             "src_363b2e9ecf9b:h:5297024b7f97:b14"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_f80e34eb56ad",
             "src_f3cf94fd3921",
             "src_363b2e9ecf9b"
@@ -3910,23 +3910,23 @@
         "vector": {
           "hit_chunk_at": 9,
           "hit_parent_at": 9,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:1d3e736e8716"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_e0520ddfd9ac:1d3e736e8716"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_d5596b1dce93:1d3e736e8716"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:2d15abe96ce8"
+              "chunk_id": "src_e0520ddfd9ac:2d15abe96ce8"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:2d15abe96ce8"
+              "chunk_id": "src_d5596b1dce93:2d15abe96ce8"
             },
             {
               "rank": 4,
@@ -3934,24 +3934,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:1d3e736e8716",
             "src_e0520ddfd9ac:1d3e736e8716",
-            "src_d5596b1dce93:2d15abe96ce8",
+            "src_d5596b1dce93:1d3e736e8716",
             "src_e0520ddfd9ac:2d15abe96ce8",
+            "src_d5596b1dce93:2d15abe96ce8",
             "src_e0520ddfd9ac:9fc617bb3ac7"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b1057",
             "src_e0520ddfd9ac:h:5297024b7f97:b1057",
-            "src_d5596b1dce93:h:5297024b7f97:b9",
+            "src_d5596b1dce93:h:5297024b7f97:b1057",
             "src_e0520ddfd9ac:h:5297024b7f97:b9",
+            "src_d5596b1dce93:h:5297024b7f97:b9",
             "src_e0520ddfd9ac:h:5297024b7f97:b1208"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -4018,11 +4018,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:1d3e736e8716"
+              "chunk_id": "src_e0520ddfd9ac:1d3e736e8716"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:1d3e736e8716"
+              "chunk_id": "src_d5596b1dce93:1d3e736e8716"
             },
             {
               "rank": 4,
@@ -4032,22 +4032,22 @@
           "top_chunk_ids": [
             "src_d5596b1dce93:e3c2eec064c7",
             "src_e0520ddfd9ac:e3c2eec064c7",
-            "src_d5596b1dce93:1d3e736e8716",
             "src_e0520ddfd9ac:1d3e736e8716",
+            "src_d5596b1dce93:1d3e736e8716",
             "src_40c21fbc97fb:7fc96b5836ad"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b1056",
             "src_e0520ddfd9ac:h:5297024b7f97:b1056",
-            "src_d5596b1dce93:h:5297024b7f97:b1057",
             "src_e0520ddfd9ac:h:5297024b7f97:b1057",
+            "src_d5596b1dce93:h:5297024b7f97:b1057",
             "src_40c21fbc97fb:h:5297024b7f97:b36"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_40c21fbc97fb"
           ]
         }
@@ -4180,7 +4180,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_5c35274f42f8:0c8ceab2fa07"
+              "chunk_id": "src_e0520ddfd9ac:62d5c885e11b"
             }
           ],
           "top_chunk_ids": [
@@ -4188,21 +4188,21 @@
             "src_ef3d6ff3846c:8338d85356f7",
             "src_309ee3f2ff0b:bf44e52f6c65",
             "src_1d81088c863e:1406ca771d03",
-            "src_5c35274f42f8:0c8ceab2fa07"
+            "src_e0520ddfd9ac:62d5c885e11b"
           ],
           "top_parent_ids": [
             "src_1d81088c863e:h:5297024b7f97:b231",
             "src_ef3d6ff3846c:h:5297024b7f97:b0",
             "src_309ee3f2ff0b:h:5297024b7f97:b50",
             "src_1d81088c863e:h:5297024b7f97:b121",
-            "src_5c35274f42f8:h:5297024b7f97:b29"
+            "src_e0520ddfd9ac:h:5297024b7f97:b159"
           ],
           "top_source_ids": [
             "src_1d81088c863e",
             "src_ef3d6ff3846c",
             "src_309ee3f2ff0b",
             "src_1d81088c863e",
-            "src_5c35274f42f8"
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -4216,25 +4216,25 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 0,
-          "hit_parent_at": 0,
-          "hit_source_at": 0,
+          "hit_chunk_at": 1,
+          "hit_parent_at": 1,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:ab8b2132276f"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:ab8b2132276f"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:ab8b2132276f"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:964abe6dbe3b"
+              "chunk_id": "src_e0520ddfd9ac:964abe6dbe3b"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:964abe6dbe3b"
+              "chunk_id": "src_d5596b1dce93:964abe6dbe3b"
             },
             {
               "rank": 4,
@@ -4242,24 +4242,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:ab8b2132276f",
             "src_d5596b1dce93:ab8b2132276f",
-            "src_d5596b1dce93:964abe6dbe3b",
+            "src_e0520ddfd9ac:ab8b2132276f",
             "src_e0520ddfd9ac:964abe6dbe3b",
+            "src_d5596b1dce93:964abe6dbe3b",
             "src_e0520ddfd9ac:69dab3e122a7"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b302",
             "src_d5596b1dce93:h:5297024b7f97:b302",
-            "src_d5596b1dce93:h:5297024b7f97:b301",
+            "src_e0520ddfd9ac:h:5297024b7f97:b302",
             "src_e0520ddfd9ac:h:5297024b7f97:b301",
+            "src_d5596b1dce93:h:5297024b7f97:b301",
             "src_e0520ddfd9ac:h:5297024b7f97:b109"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -4334,7 +4334,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:964abe6dbe3b"
+              "chunk_id": "src_e0520ddfd9ac:964abe6dbe3b"
             }
           ],
           "top_chunk_ids": [
@@ -4342,21 +4342,21 @@
             "src_e0520ddfd9ac:ab8b2132276f",
             "src_d5596b1dce93:69dab3e122a7",
             "src_e0520ddfd9ac:69dab3e122a7",
-            "src_d5596b1dce93:964abe6dbe3b"
+            "src_e0520ddfd9ac:964abe6dbe3b"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b302",
             "src_e0520ddfd9ac:h:5297024b7f97:b302",
             "src_d5596b1dce93:h:5297024b7f97:b109",
             "src_e0520ddfd9ac:h:5297024b7f97:b109",
-            "src_d5596b1dce93:h:5297024b7f97:b301"
+            "src_e0520ddfd9ac:h:5297024b7f97:b301"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -4678,9 +4678,9 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 3,
-          "hit_parent_at": 3,
-          "hit_source_at": 2,
+          "hit_chunk_at": 4,
+          "hit_parent_at": 4,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -4688,41 +4688,41 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:7c95fd92a3d6"
-            },
-            {
-              "rank": 2,
               "chunk_id": "src_d5596b1dce93:7c95fd92a3d6"
             },
             {
+              "rank": 2,
+              "chunk_id": "src_e0520ddfd9ac:7c95fd92a3d6"
+            },
+            {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:cb36160b348f"
+              "chunk_id": "src_e0520ddfd9ac:cb36160b348f"
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:cb36160b348f"
+              "chunk_id": "src_d5596b1dce93:cb36160b348f"
             }
           ],
           "top_chunk_ids": [
             "src_ae3b6786b57c:c72c14313a5f",
-            "src_e0520ddfd9ac:7c95fd92a3d6",
             "src_d5596b1dce93:7c95fd92a3d6",
-            "src_d5596b1dce93:cb36160b348f",
-            "src_e0520ddfd9ac:cb36160b348f"
+            "src_e0520ddfd9ac:7c95fd92a3d6",
+            "src_e0520ddfd9ac:cb36160b348f",
+            "src_d5596b1dce93:cb36160b348f"
           ],
           "top_parent_ids": [
             "src_ae3b6786b57c:h:5297024b7f97:b2",
-            "src_e0520ddfd9ac:h:5297024b7f97:b28",
             "src_d5596b1dce93:h:5297024b7f97:b28",
-            "src_d5596b1dce93:h:5297024b7f97:b964",
-            "src_e0520ddfd9ac:h:5297024b7f97:b964"
+            "src_e0520ddfd9ac:h:5297024b7f97:b28",
+            "src_e0520ddfd9ac:h:5297024b7f97:b964",
+            "src_d5596b1dce93:h:5297024b7f97:b964"
           ],
           "top_source_ids": [
             "src_ae3b6786b57c",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -4774,9 +4774,9 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 7,
-          "hit_parent_at": 7,
-          "hit_source_at": 5,
+          "hit_chunk_at": 9,
+          "hit_parent_at": 9,
+          "hit_source_at": 3,
           "top5": [
             {
               "rank": 0,
@@ -4792,7 +4792,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:7c95fd92a3d6"
+              "chunk_id": "src_d5596b1dce93:7c95fd92a3d6"
             },
             {
               "rank": 4,
@@ -4803,21 +4803,21 @@
             "src_4fd9b68d1856:de707ef10348",
             "src_ae3b6786b57c:c72c14313a5f",
             "src_bad0b7a7f0a0:9c1889e45c1e",
-            "src_e0520ddfd9ac:7c95fd92a3d6",
+            "src_d5596b1dce93:7c95fd92a3d6",
             "src_7cdb5f831e1c:d8e9b784bff7"
           ],
           "top_parent_ids": [
             "src_4fd9b68d1856:h:5297024b7f97:b4",
             "src_ae3b6786b57c:h:5297024b7f97:b2",
             "src_bad0b7a7f0a0:h:5297024b7f97:b0",
-            "src_e0520ddfd9ac:h:5297024b7f97:b28",
+            "src_d5596b1dce93:h:5297024b7f97:b28",
             "src_7cdb5f831e1c:h:5297024b7f97:b21"
           ],
           "top_source_ids": [
             "src_4fd9b68d1856",
             "src_ae3b6786b57c",
             "src_bad0b7a7f0a0",
-            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_7cdb5f831e1c"
           ]
         }
@@ -4834,15 +4834,15 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:9ca45f433fd8"
+              "chunk_id": "src_e0520ddfd9ac:9ca45f433fd8"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:9ca45f433fd8"
+              "chunk_id": "src_d5596b1dce93:9ca45f433fd8"
             },
             {
               "rank": 2,
@@ -4858,22 +4858,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:9ca45f433fd8",
             "src_e0520ddfd9ac:9ca45f433fd8",
+            "src_d5596b1dce93:9ca45f433fd8",
             "src_1d81088c863e:8d9e23633e1b",
             "src_1d81088c863e:7430786e1d17",
             "src_1d81088c863e:50fca9a0cdae"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b10",
             "src_e0520ddfd9ac:h:5297024b7f97:b10",
+            "src_d5596b1dce93:h:5297024b7f97:b10",
             "src_1d81088c863e:h:5297024b7f97:b322",
             "src_1d81088c863e:h:5297024b7f97:b321",
             "src_1d81088c863e:h:5297024b7f97:b323"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_1d81088c863e",
             "src_1d81088c863e",
             "src_1d81088c863e"
@@ -4930,7 +4930,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 4,
+          "hit_source_at": 2,
           "top5": [
             {
               "rank": 0,
@@ -4942,7 +4942,7 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:9ca45f433fd8"
+              "chunk_id": "src_e0520ddfd9ac:9ca45f433fd8"
             },
             {
               "rank": 3,
@@ -4950,29 +4950,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:9ca45f433fd8"
+              "chunk_id": "src_d5596b1dce93:9ca45f433fd8"
             }
           ],
           "top_chunk_ids": [
             "src_3ad7c6b78d18:571672e24dc4",
             "src_12abef9658fb:605f72d269ad",
-            "src_d5596b1dce93:9ca45f433fd8",
+            "src_e0520ddfd9ac:9ca45f433fd8",
             "src_309ee3f2ff0b:e3bb0d983900",
-            "src_e0520ddfd9ac:9ca45f433fd8"
+            "src_d5596b1dce93:9ca45f433fd8"
           ],
           "top_parent_ids": [
             "src_3ad7c6b78d18:h:5297024b7f97:b129",
             "src_12abef9658fb:h:5297024b7f97:b29",
-            "src_d5596b1dce93:h:5297024b7f97:b10",
+            "src_e0520ddfd9ac:h:5297024b7f97:b10",
             "src_309ee3f2ff0b:h:5297024b7f97:b16",
-            "src_e0520ddfd9ac:h:5297024b7f97:b10"
+            "src_d5596b1dce93:h:5297024b7f97:b10"
           ],
           "top_source_ids": [
             "src_3ad7c6b78d18",
             "src_12abef9658fb",
-            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_309ee3f2ff0b",
-            "src_e0520ddfd9ac"
+            "src_d5596b1dce93"
           ]
         }
       }
@@ -5604,49 +5604,49 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:f74b5ee57260"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_e0520ddfd9ac:f74b5ee57260"
             },
             {
-              "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:375f8d15fc6c"
+              "rank": 1,
+              "chunk_id": "src_d5596b1dce93:f74b5ee57260"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_d5596b1dce93:375f8d15fc6c"
             },
             {
+              "rank": 3,
+              "chunk_id": "src_e0520ddfd9ac:375f8d15fc6c"
+            },
+            {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:cc5a640a35cc"
+              "chunk_id": "src_d5596b1dce93:cc5a640a35cc"
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:f74b5ee57260",
             "src_e0520ddfd9ac:f74b5ee57260",
-            "src_e0520ddfd9ac:375f8d15fc6c",
+            "src_d5596b1dce93:f74b5ee57260",
             "src_d5596b1dce93:375f8d15fc6c",
-            "src_e0520ddfd9ac:cc5a640a35cc"
+            "src_e0520ddfd9ac:375f8d15fc6c",
+            "src_d5596b1dce93:cc5a640a35cc"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b307",
             "src_e0520ddfd9ac:h:5297024b7f97:b307",
-            "src_e0520ddfd9ac:h:5297024b7f97:b367",
+            "src_d5596b1dce93:h:5297024b7f97:b307",
             "src_d5596b1dce93:h:5297024b7f97:b367",
-            "src_e0520ddfd9ac:h:5297024b7f97:b1074"
+            "src_e0520ddfd9ac:h:5297024b7f97:b367",
+            "src_d5596b1dce93:h:5297024b7f97:b1074"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -5708,7 +5708,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:3f3de334db01"
+              "chunk_id": "src_e0520ddfd9ac:e5ad36aef6b8"
             },
             {
               "rank": 2,
@@ -5716,33 +5716,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:e5ad36aef6b8"
+              "chunk_id": "src_e0520ddfd9ac:f74b5ee57260"
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:f74b5ee57260"
+              "chunk_id": "src_e0520ddfd9ac:3f3de334db01"
             }
           ],
           "top_chunk_ids": [
             "src_d5596b1dce93:3f3de334db01",
-            "src_e0520ddfd9ac:3f3de334db01",
-            "src_d5596b1dce93:e5ad36aef6b8",
             "src_e0520ddfd9ac:e5ad36aef6b8",
-            "src_d5596b1dce93:f74b5ee57260"
+            "src_d5596b1dce93:e5ad36aef6b8",
+            "src_e0520ddfd9ac:f74b5ee57260",
+            "src_e0520ddfd9ac:3f3de334db01"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b772",
-            "src_e0520ddfd9ac:h:5297024b7f97:b772",
-            "src_d5596b1dce93:h:5297024b7f97:b511",
             "src_e0520ddfd9ac:h:5297024b7f97:b511",
-            "src_d5596b1dce93:h:5297024b7f97:b307"
+            "src_d5596b1dce93:h:5297024b7f97:b511",
+            "src_e0520ddfd9ac:h:5297024b7f97:b307",
+            "src_e0520ddfd9ac:h:5297024b7f97:b772"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -5756,51 +5756,51 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 2,
-          "hit_parent_at": 2,
-          "hit_source_at": 1,
+          "hit_chunk_at": 3,
+          "hit_parent_at": 3,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:a4a769dcac87"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:a4a769dcac87"
             },
             {
-              "rank": 2,
-              "chunk_id": "src_d5596b1dce93:c062e86dbc15"
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:a4a769dcac87"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_e0520ddfd9ac:c062e86dbc15"
             },
             {
+              "rank": 3,
+              "chunk_id": "src_d5596b1dce93:c062e86dbc15"
+            },
+            {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:086f2a209b14"
+              "chunk_id": "src_e0520ddfd9ac:086f2a209b14"
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:a4a769dcac87",
             "src_d5596b1dce93:a4a769dcac87",
-            "src_d5596b1dce93:c062e86dbc15",
+            "src_e0520ddfd9ac:a4a769dcac87",
             "src_e0520ddfd9ac:c062e86dbc15",
-            "src_d5596b1dce93:086f2a209b14"
+            "src_d5596b1dce93:c062e86dbc15",
+            "src_e0520ddfd9ac:086f2a209b14"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b298",
             "src_d5596b1dce93:h:5297024b7f97:b298",
-            "src_d5596b1dce93:h:5297024b7f97:b177",
+            "src_e0520ddfd9ac:h:5297024b7f97:b298",
             "src_e0520ddfd9ac:h:5297024b7f97:b177",
-            "src_d5596b1dce93:h:5297024b7f97:b216"
+            "src_d5596b1dce93:h:5297024b7f97:b177",
+            "src_e0520ddfd9ac:h:5297024b7f97:b216"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -5866,11 +5866,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:a4a769dcac87"
+              "chunk_id": "src_d5596b1dce93:a4a769dcac87"
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:a4a769dcac87"
+              "chunk_id": "src_e0520ddfd9ac:a4a769dcac87"
             },
             {
               "rank": 4,
@@ -5880,22 +5880,22 @@
           "top_chunk_ids": [
             "src_d5596b1dce93:c062e86dbc15",
             "src_e0520ddfd9ac:c062e86dbc15",
-            "src_e0520ddfd9ac:a4a769dcac87",
             "src_d5596b1dce93:a4a769dcac87",
+            "src_e0520ddfd9ac:a4a769dcac87",
             "src_d5596b1dce93:b2d08cd208c7"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b177",
             "src_e0520ddfd9ac:h:5297024b7f97:b177",
-            "src_e0520ddfd9ac:h:5297024b7f97:b298",
             "src_d5596b1dce93:h:5297024b7f97:b298",
+            "src_e0520ddfd9ac:h:5297024b7f97:b298",
             "src_d5596b1dce93:h:5297024b7f97:b21"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93"
           ]
         }
@@ -6372,25 +6372,25 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:8f1118953acc"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:8f1118953acc"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:8f1118953acc"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:9c571a0020a1"
+              "chunk_id": "src_e0520ddfd9ac:9c571a0020a1"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:9c571a0020a1"
+              "chunk_id": "src_d5596b1dce93:9c571a0020a1"
             },
             {
               "rank": 4,
@@ -6398,24 +6398,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:8f1118953acc",
             "src_d5596b1dce93:8f1118953acc",
-            "src_d5596b1dce93:9c571a0020a1",
+            "src_e0520ddfd9ac:8f1118953acc",
             "src_e0520ddfd9ac:9c571a0020a1",
+            "src_d5596b1dce93:9c571a0020a1",
             "src_e0520ddfd9ac:ac2dba6d77e6"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b150",
             "src_d5596b1dce93:h:5297024b7f97:b150",
-            "src_d5596b1dce93:h:5297024b7f97:b1196",
+            "src_e0520ddfd9ac:h:5297024b7f97:b150",
             "src_e0520ddfd9ac:h:5297024b7f97:b1196",
+            "src_d5596b1dce93:h:5297024b7f97:b1196",
             "src_e0520ddfd9ac:h:5297024b7f97:b1149"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -6468,17 +6468,17 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:8f1118953acc"
+              "chunk_id": "src_d5596b1dce93:8f1118953acc"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:8f1118953acc"
+              "chunk_id": "src_e0520ddfd9ac:8f1118953acc"
             },
             {
               "rank": 2,
@@ -6494,22 +6494,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:8f1118953acc",
             "src_d5596b1dce93:8f1118953acc",
+            "src_e0520ddfd9ac:8f1118953acc",
             "src_e0520ddfd9ac:a943543adb6e",
             "src_12abef9658fb:605f72d269ad",
             "src_f0fc7d32edd3:160b52e8bf85"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b150",
             "src_d5596b1dce93:h:5297024b7f97:b150",
+            "src_e0520ddfd9ac:h:5297024b7f97:b150",
             "src_e0520ddfd9ac:h:5297024b7f97:b273",
             "src_12abef9658fb:h:5297024b7f97:b29",
             "src_f0fc7d32edd3:h:5297024b7f97:b18"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac",
             "src_12abef9658fb",
             "src_f0fc7d32edd3"
@@ -6834,8 +6834,8 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 2,
-          "hit_parent_at": 2,
+          "hit_chunk_at": 3,
+          "hit_parent_at": 3,
           "hit_source_at": 1,
           "top5": [
             {
@@ -6848,11 +6848,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:2f110ff0363f"
+              "chunk_id": "src_e0520ddfd9ac:2f110ff0363f"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:2f110ff0363f"
+              "chunk_id": "src_d5596b1dce93:2f110ff0363f"
             },
             {
               "rank": 4,
@@ -6862,22 +6862,22 @@
           "top_chunk_ids": [
             "src_e0520ddfd9ac:acaada9be2ae",
             "src_d5596b1dce93:acaada9be2ae",
-            "src_d5596b1dce93:2f110ff0363f",
             "src_e0520ddfd9ac:2f110ff0363f",
+            "src_d5596b1dce93:2f110ff0363f",
             "src_e0520ddfd9ac:5e6fb716e753"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b880",
             "src_d5596b1dce93:h:5297024b7f97:b880",
-            "src_d5596b1dce93:h:5297024b7f97:b463",
             "src_e0520ddfd9ac:h:5297024b7f97:b463",
+            "src_d5596b1dce93:h:5297024b7f97:b463",
             "src_e0520ddfd9ac:h:5297024b7f97:b880"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -7144,15 +7144,15 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:39c289c9ea69"
+              "chunk_id": "src_e0520ddfd9ac:39c289c9ea69"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:39c289c9ea69"
+              "chunk_id": "src_d5596b1dce93:39c289c9ea69"
             },
             {
               "rank": 2,
@@ -7164,29 +7164,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:12a2015da054"
+              "chunk_id": "src_e0520ddfd9ac:12a2015da054"
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:39c289c9ea69",
             "src_e0520ddfd9ac:39c289c9ea69",
+            "src_d5596b1dce93:39c289c9ea69",
             "src_e0520ddfd9ac:8ea8184f71eb",
             "src_d5596b1dce93:8ea8184f71eb",
-            "src_d5596b1dce93:12a2015da054"
+            "src_e0520ddfd9ac:12a2015da054"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b664",
             "src_e0520ddfd9ac:h:5297024b7f97:b664",
+            "src_d5596b1dce93:h:5297024b7f97:b664",
             "src_e0520ddfd9ac:h:5297024b7f97:b665",
             "src_d5596b1dce93:h:5297024b7f97:b665",
-            "src_d5596b1dce93:h:5297024b7f97:b661"
+            "src_e0520ddfd9ac:h:5297024b7f97:b661"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -7256,33 +7256,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:c00b86e67e36"
+              "chunk_id": "src_ab5904eafcde:e56e0b6cf34e"
             },
             {
               "rank": 4,
-              "chunk_id": "src_ab5904eafcde:e56e0b6cf34e"
+              "chunk_id": "src_e0520ddfd9ac:c00b86e67e36"
             }
           ],
           "top_chunk_ids": [
             "src_e0520ddfd9ac:8ea8184f71eb",
             "src_d5596b1dce93:8ea8184f71eb",
             "src_d5596b1dce93:c00b86e67e36",
-            "src_e0520ddfd9ac:c00b86e67e36",
-            "src_ab5904eafcde:e56e0b6cf34e"
+            "src_ab5904eafcde:e56e0b6cf34e",
+            "src_e0520ddfd9ac:c00b86e67e36"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b665",
             "src_d5596b1dce93:h:5297024b7f97:b665",
             "src_d5596b1dce93:h:5297024b7f97:b664",
-            "src_e0520ddfd9ac:h:5297024b7f97:b664",
-            "src_ab5904eafcde:h:5297024b7f97:b3"
+            "src_ab5904eafcde:h:5297024b7f97:b3",
+            "src_e0520ddfd9ac:h:5297024b7f97:b664"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
-            "src_ab5904eafcde"
+            "src_ab5904eafcde",
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -7296,51 +7296,51 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 4,
-          "hit_parent_at": 4,
-          "hit_source_at": 0,
+          "hit_chunk_at": 7,
+          "hit_parent_at": 7,
+          "hit_source_at": 2,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:a19c1857531f"
+              "chunk_id": "src_5c35274f42f8:30f3434d81ba"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:a19c1857531f"
+              "chunk_id": "src_e56086bb278f:430ce4d8cb8a"
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:47ff03a1a7f7"
+              "chunk_id": "src_d5596b1dce93:a19c1857531f"
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:47ff03a1a7f7"
+              "chunk_id": "src_e0520ddfd9ac:a19c1857531f"
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:82c9c1ff1b4c"
+              "chunk_id": "src_e0520ddfd9ac:47ff03a1a7f7"
             }
           ],
           "top_chunk_ids": [
+            "src_5c35274f42f8:30f3434d81ba",
+            "src_e56086bb278f:430ce4d8cb8a",
             "src_d5596b1dce93:a19c1857531f",
             "src_e0520ddfd9ac:a19c1857531f",
-            "src_e0520ddfd9ac:47ff03a1a7f7",
-            "src_d5596b1dce93:47ff03a1a7f7",
-            "src_d5596b1dce93:82c9c1ff1b4c"
+            "src_e0520ddfd9ac:47ff03a1a7f7"
           ],
           "top_parent_ids": [
+            "src_5c35274f42f8:h:5297024b7f97:b10",
+            "src_e56086bb278f:h:5297024b7f97:b0",
             "src_d5596b1dce93:h:5297024b7f97:b202",
             "src_e0520ddfd9ac:h:5297024b7f97:b202",
-            "src_e0520ddfd9ac:h:5297024b7f97:b804",
-            "src_d5596b1dce93:h:5297024b7f97:b804",
-            "src_d5596b1dce93:h:5297024b7f97:b203"
+            "src_e0520ddfd9ac:h:5297024b7f97:b804"
           ],
           "top_source_ids": [
+            "src_5c35274f42f8",
+            "src_e56086bb278f",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -7392,17 +7392,17 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 9,
-          "hit_parent_at": 9,
-          "hit_source_at": 1,
+          "hit_chunk_at": null,
+          "hit_parent_at": null,
+          "hit_source_at": 5,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_309ee3f2ff0b:81c26e8017c2"
+              "chunk_id": "src_5c35274f42f8:30f3434d81ba"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:a19c1857531f"
+              "chunk_id": "src_309ee3f2ff0b:81c26e8017c2"
             },
             {
               "rank": 2,
@@ -7410,7 +7410,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:a19c1857531f"
+              "chunk_id": "src_e56086bb278f:430ce4d8cb8a"
             },
             {
               "rank": 4,
@@ -7418,24 +7418,24 @@
             }
           ],
           "top_chunk_ids": [
+            "src_5c35274f42f8:30f3434d81ba",
             "src_309ee3f2ff0b:81c26e8017c2",
-            "src_d5596b1dce93:a19c1857531f",
             "src_775e7ad62f4a:0896e984dbf4",
-            "src_e0520ddfd9ac:a19c1857531f",
+            "src_e56086bb278f:430ce4d8cb8a",
             "src_309ee3f2ff0b:1f9db5dba221"
           ],
           "top_parent_ids": [
+            "src_5c35274f42f8:h:5297024b7f97:b10",
             "src_309ee3f2ff0b:h:5297024b7f97:b0",
-            "src_d5596b1dce93:h:5297024b7f97:b202",
             "src_775e7ad62f4a:h:5297024b7f97:b2",
-            "src_e0520ddfd9ac:h:5297024b7f97:b202",
+            "src_e56086bb278f:h:5297024b7f97:b0",
             "src_309ee3f2ff0b:h:5297024b7f97:b1"
           ],
           "top_source_ids": [
+            "src_5c35274f42f8",
             "src_309ee3f2ff0b",
-            "src_d5596b1dce93",
             "src_775e7ad62f4a",
-            "src_e0520ddfd9ac",
+            "src_e56086bb278f",
             "src_309ee3f2ff0b"
           ]
         }
@@ -7468,33 +7468,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:317cb36b5ee5"
+              "chunk_id": "src_e0520ddfd9ac:317cb36b5ee5"
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:317cb36b5ee5"
+              "chunk_id": "src_d5596b1dce93:317cb36b5ee5"
             }
           ],
           "top_chunk_ids": [
             "src_e2fe10d2d90a:b01042a0f8d8",
             "src_d5596b1dce93:9d3e1d146a22",
             "src_e0520ddfd9ac:9d3e1d146a22",
-            "src_d5596b1dce93:317cb36b5ee5",
-            "src_e0520ddfd9ac:317cb36b5ee5"
+            "src_e0520ddfd9ac:317cb36b5ee5",
+            "src_d5596b1dce93:317cb36b5ee5"
           ],
           "top_parent_ids": [
             "src_e2fe10d2d90a:h:5297024b7f97:b1",
             "src_d5596b1dce93:h:5297024b7f97:b120",
             "src_e0520ddfd9ac:h:5297024b7f97:b120",
-            "src_d5596b1dce93:h:5297024b7f97:b94",
-            "src_e0520ddfd9ac:h:5297024b7f97:b94"
+            "src_e0520ddfd9ac:h:5297024b7f97:b94",
+            "src_d5596b1dce93:h:5297024b7f97:b94"
           ],
           "top_source_ids": [
             "src_e2fe10d2d90a",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -7914,15 +7914,15 @@
         "vector": {
           "hit_chunk_at": 2,
           "hit_parent_at": 2,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:e67e301f798b"
+              "chunk_id": "src_e0520ddfd9ac:e67e301f798b"
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:e67e301f798b"
+              "chunk_id": "src_d5596b1dce93:e67e301f798b"
             },
             {
               "rank": 2,
@@ -7934,29 +7934,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:abe9ee41c4fd"
+              "chunk_id": "src_e0520ddfd9ac:abe9ee41c4fd"
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:e67e301f798b",
             "src_e0520ddfd9ac:e67e301f798b",
+            "src_d5596b1dce93:e67e301f798b",
             "src_d5596b1dce93:31a6602311b7",
             "src_e0520ddfd9ac:31a6602311b7",
-            "src_d5596b1dce93:abe9ee41c4fd"
+            "src_e0520ddfd9ac:abe9ee41c4fd"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b1035",
             "src_e0520ddfd9ac:h:5297024b7f97:b1035",
+            "src_d5596b1dce93:h:5297024b7f97:b1035",
             "src_d5596b1dce93:h:5297024b7f97:b1036",
             "src_e0520ddfd9ac:h:5297024b7f97:b1036",
-            "src_d5596b1dce93:h:5297024b7f97:b1039"
+            "src_e0520ddfd9ac:h:5297024b7f97:b1039"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -8068,23 +8068,23 @@
         "vector": {
           "hit_chunk_at": 4,
           "hit_parent_at": 4,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:6ad46fc5131b"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_e0520ddfd9ac:6ad46fc5131b"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_d5596b1dce93:6ad46fc5131b"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:5643d559414d"
+              "chunk_id": "src_e0520ddfd9ac:5643d559414d"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:5643d559414d"
+              "chunk_id": "src_d5596b1dce93:5643d559414d"
             },
             {
               "rank": 4,
@@ -8092,24 +8092,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:6ad46fc5131b",
             "src_e0520ddfd9ac:6ad46fc5131b",
-            "src_d5596b1dce93:5643d559414d",
+            "src_d5596b1dce93:6ad46fc5131b",
             "src_e0520ddfd9ac:5643d559414d",
+            "src_d5596b1dce93:5643d559414d",
             "src_e0520ddfd9ac:cf75626da90d"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b850",
             "src_e0520ddfd9ac:h:5297024b7f97:b850",
-            "src_d5596b1dce93:h:5297024b7f97:b687",
+            "src_d5596b1dce93:h:5297024b7f97:b850",
             "src_e0520ddfd9ac:h:5297024b7f97:b687",
+            "src_d5596b1dce93:h:5297024b7f97:b687",
             "src_e0520ddfd9ac:h:5297024b7f97:b239"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -8184,7 +8184,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:6ad46fc5131b"
+              "chunk_id": "src_e0520ddfd9ac:6ad46fc5131b"
             }
           ],
           "top_chunk_ids": [
@@ -8192,21 +8192,21 @@
             "src_e0520ddfd9ac:cf75626da90d",
             "src_d5596b1dce93:56848d1fe96f",
             "src_e0520ddfd9ac:56848d1fe96f",
-            "src_d5596b1dce93:6ad46fc5131b"
+            "src_e0520ddfd9ac:6ad46fc5131b"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b239",
             "src_e0520ddfd9ac:h:5297024b7f97:b239",
             "src_d5596b1dce93:h:5297024b7f97:b256",
             "src_e0520ddfd9ac:h:5297024b7f97:b256",
-            "src_d5596b1dce93:h:5297024b7f97:b850"
+            "src_e0520ddfd9ac:h:5297024b7f97:b850"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -8374,25 +8374,25 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:a70c958196bb"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:a70c958196bb"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:a70c958196bb"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:04557eba35cf"
+              "chunk_id": "src_e0520ddfd9ac:04557eba35cf"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:04557eba35cf"
+              "chunk_id": "src_d5596b1dce93:04557eba35cf"
             },
             {
               "rank": 4,
@@ -8400,24 +8400,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:a70c958196bb",
             "src_d5596b1dce93:a70c958196bb",
-            "src_d5596b1dce93:04557eba35cf",
+            "src_e0520ddfd9ac:a70c958196bb",
             "src_e0520ddfd9ac:04557eba35cf",
+            "src_d5596b1dce93:04557eba35cf",
             "src_e0520ddfd9ac:e75c61b7c151"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b453",
             "src_d5596b1dce93:h:5297024b7f97:b453",
-            "src_d5596b1dce93:h:5297024b7f97:b457",
+            "src_e0520ddfd9ac:h:5297024b7f97:b453",
             "src_e0520ddfd9ac:h:5297024b7f97:b457",
+            "src_d5596b1dce93:h:5297024b7f97:b457",
             "src_e0520ddfd9ac:h:5297024b7f97:b455"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
         },
@@ -8470,7 +8470,7 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 5,
+          "hit_chunk_at": 3,
           "hit_parent_at": 0,
           "hit_source_at": 0,
           "top5": [
@@ -8488,7 +8488,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:a70c958196bb"
+              "chunk_id": "src_d5596b1dce93:a70c958196bb"
             },
             {
               "rank": 4,
@@ -8499,21 +8499,21 @@
             "src_d5596b1dce93:4fb29867309d",
             "src_e0520ddfd9ac:4fb29867309d",
             "src_eb28c8848470:543dc869ae75",
-            "src_e0520ddfd9ac:a70c958196bb",
+            "src_d5596b1dce93:a70c958196bb",
             "src_ef3d6ff3846c:3df061a8b084"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b453",
             "src_e0520ddfd9ac:h:5297024b7f97:b453",
             "src_eb28c8848470:h:5297024b7f97:b31",
-            "src_e0520ddfd9ac:h:5297024b7f97:b453",
+            "src_d5596b1dce93:h:5297024b7f97:b453",
             "src_ef3d6ff3846c:h:5297024b7f97:b11"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_eb28c8848470",
-            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_ef3d6ff3846c"
           ]
         }
@@ -8546,33 +8546,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_2e608dafe081:bccedb3b6c82"
+              "chunk_id": "src_ff2b95264bfc:bccedb3b6c82"
             },
             {
               "rank": 4,
-              "chunk_id": "src_ff2b95264bfc:bccedb3b6c82"
+              "chunk_id": "src_2e608dafe081:bccedb3b6c82"
             }
           ],
           "top_chunk_ids": [
             "src_1d81088c863e:55feb8b40903",
             "src_1d81088c863e:2aff9a5dac85",
             "src_0496352f7f54:4f448ef119a4",
-            "src_2e608dafe081:bccedb3b6c82",
-            "src_ff2b95264bfc:bccedb3b6c82"
+            "src_ff2b95264bfc:bccedb3b6c82",
+            "src_2e608dafe081:bccedb3b6c82"
           ],
           "top_parent_ids": [
             "src_1d81088c863e:h:5297024b7f97:b122",
             "src_1d81088c863e:h:5297024b7f97:b97",
             "src_0496352f7f54:h:5297024b7f97:b1",
-            "src_2e608dafe081:h:5297024b7f97:b24",
-            "src_ff2b95264bfc:h:5297024b7f97:b24"
+            "src_ff2b95264bfc:h:5297024b7f97:b24",
+            "src_2e608dafe081:h:5297024b7f97:b24"
           ],
           "top_source_ids": [
             "src_1d81088c863e",
             "src_1d81088c863e",
             "src_0496352f7f54",
-            "src_2e608dafe081",
-            "src_ff2b95264bfc"
+            "src_ff2b95264bfc",
+            "src_2e608dafe081"
           ]
         },
         "bm25": {
@@ -8684,23 +8684,23 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:f57a0593c345"
+              "chunk_id": "src_e0520ddfd9ac:f57a0593c345"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:f57a0593c345"
+              "chunk_id": "src_d5596b1dce93:f57a0593c345"
             },
             {
               "rank": 4,
@@ -8708,24 +8708,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_d5596b1dce93:fbe29a95ec69",
-            "src_d5596b1dce93:f57a0593c345",
+            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_e0520ddfd9ac:f57a0593c345",
+            "src_d5596b1dce93:f57a0593c345",
             "src_d5596b1dce93:65e1dcf52279"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_d5596b1dce93:h:5297024b7f97:b848",
-            "src_d5596b1dce93:h:5297024b7f97:b1172",
+            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_e0520ddfd9ac:h:5297024b7f97:b1172",
+            "src_d5596b1dce93:h:5297024b7f97:b1172",
             "src_d5596b1dce93:h:5297024b7f97:b178"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_d5596b1dce93"
           ]
         },
@@ -8780,7 +8780,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 3,
           "top5": [
             {
               "rank": 0,
@@ -8788,7 +8788,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
+              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
             },
             {
               "rank": 2,
@@ -8796,7 +8796,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
+              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
             },
             {
               "rank": 4,
@@ -8805,23 +8805,23 @@
           ],
           "top_chunk_ids": [
             "src_3ad7c6b78d18:023fb55636e5",
-            "src_e0520ddfd9ac:fbe29a95ec69",
-            "src_309ee3f2ff0b:81c26e8017c2",
             "src_d5596b1dce93:fbe29a95ec69",
+            "src_309ee3f2ff0b:81c26e8017c2",
+            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_309ee3f2ff0b:1f9db5dba221"
           ],
           "top_parent_ids": [
             "src_3ad7c6b78d18:h:5297024b7f97:b303",
-            "src_e0520ddfd9ac:h:5297024b7f97:b848",
-            "src_309ee3f2ff0b:h:5297024b7f97:b0",
             "src_d5596b1dce93:h:5297024b7f97:b848",
+            "src_309ee3f2ff0b:h:5297024b7f97:b0",
+            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_309ee3f2ff0b:h:5297024b7f97:b1"
           ],
           "top_source_ids": [
             "src_3ad7c6b78d18",
-            "src_e0520ddfd9ac",
-            "src_309ee3f2ff0b",
             "src_d5596b1dce93",
+            "src_309ee3f2ff0b",
+            "src_e0520ddfd9ac",
             "src_309ee3f2ff0b"
           ]
         }
@@ -9146,7 +9146,7 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 5,
+          "hit_source_at": 4,
           "top5": [
             {
               "rank": 0,
@@ -9166,7 +9166,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:4e84ee95d1ad"
+              "chunk_id": "src_e0520ddfd9ac:4e84ee95d1ad"
             }
           ],
           "top_chunk_ids": [
@@ -9174,21 +9174,21 @@
             "src_3ad7c6b78d18:31376e4a5718",
             "src_12abef9658fb:21aea088babd",
             "src_309ee3f2ff0b:0999354a293b",
-            "src_d5596b1dce93:4e84ee95d1ad"
+            "src_e0520ddfd9ac:4e84ee95d1ad"
           ],
           "top_parent_ids": [
             "src_a9b32924bfc1:h:5297024b7f97:b15",
             "src_3ad7c6b78d18:h:5297024b7f97:b283",
             "src_12abef9658fb:h:5297024b7f97:b28",
             "src_309ee3f2ff0b:h:5297024b7f97:b71",
-            "src_d5596b1dce93:h:5297024b7f97:b568"
+            "src_e0520ddfd9ac:h:5297024b7f97:b568"
           ],
           "top_source_ids": [
             "src_a9b32924bfc1",
             "src_3ad7c6b78d18",
             "src_12abef9658fb",
             "src_309ee3f2ff0b",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -9312,11 +9312,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:e567e4007cf5"
+              "chunk_id": "src_e0520ddfd9ac:e567e4007cf5"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:e567e4007cf5"
+              "chunk_id": "src_d5596b1dce93:e567e4007cf5"
             },
             {
               "rank": 4,
@@ -9326,22 +9326,22 @@
           "top_chunk_ids": [
             "src_e0520ddfd9ac:5807e7e5661c",
             "src_d5596b1dce93:5807e7e5661c",
-            "src_d5596b1dce93:e567e4007cf5",
             "src_e0520ddfd9ac:e567e4007cf5",
+            "src_d5596b1dce93:e567e4007cf5",
             "src_d5596b1dce93:7f89304254a7"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b332",
             "src_d5596b1dce93:h:5297024b7f97:b332",
-            "src_d5596b1dce93:h:5297024b7f97:b332",
             "src_e0520ddfd9ac:h:5297024b7f97:b332",
+            "src_d5596b1dce93:h:5297024b7f97:b332",
             "src_d5596b1dce93:h:5297024b7f97:b72"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_d5596b1dce93"
           ]
         },
@@ -9416,7 +9416,7 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:c75521003bdf"
+              "chunk_id": "src_d5596b1dce93:41f9d3b0cddc"
             }
           ],
           "top_chunk_ids": [
@@ -9424,14 +9424,14 @@
             "src_e0520ddfd9ac:5807e7e5661c",
             "src_d5596b1dce93:e567e4007cf5",
             "src_e0520ddfd9ac:e567e4007cf5",
-            "src_d5596b1dce93:c75521003bdf"
+            "src_d5596b1dce93:41f9d3b0cddc"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b332",
             "src_e0520ddfd9ac:h:5297024b7f97:b332",
             "src_d5596b1dce93:h:5297024b7f97:b332",
             "src_e0520ddfd9ac:h:5297024b7f97:b332",
-            "src_d5596b1dce93:h:5297024b7f97:b334"
+            "src_d5596b1dce93:h:5297024b7f97:b337"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
@@ -9454,23 +9454,23 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:d124c8225e32"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:d124c8225e32"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:d124c8225e32"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:f798c8bb57a4"
+              "chunk_id": "src_d5596b1dce93:f798c8bb57a4"
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:f798c8bb57a4"
+              "chunk_id": "src_e0520ddfd9ac:f798c8bb57a4"
             },
             {
               "rank": 4,
@@ -9478,24 +9478,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:d124c8225e32",
             "src_d5596b1dce93:d124c8225e32",
-            "src_e0520ddfd9ac:f798c8bb57a4",
+            "src_e0520ddfd9ac:d124c8225e32",
             "src_d5596b1dce93:f798c8bb57a4",
+            "src_e0520ddfd9ac:f798c8bb57a4",
             "src_6f802cb99781:25b9c178a804"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b467",
             "src_d5596b1dce93:h:5297024b7f97:b467",
-            "src_e0520ddfd9ac:h:5297024b7f97:b685",
+            "src_e0520ddfd9ac:h:5297024b7f97:b467",
             "src_d5596b1dce93:h:5297024b7f97:b685",
+            "src_e0520ddfd9ac:h:5297024b7f97:b685",
             "src_6f802cb99781:h:5297024b7f97:b6"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_6f802cb99781"
           ]
         },
@@ -9550,7 +9550,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": 2,
           "hit_parent_at": 2,
-          "hit_source_at": 1,
+          "hit_source_at": 2,
           "top5": [
             {
               "rank": 0,
@@ -9558,7 +9558,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:d124c8225e32"
+              "chunk_id": "src_d5596b1dce93:d124c8225e32"
             },
             {
               "rank": 2,
@@ -9566,7 +9566,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:d124c8225e32"
+              "chunk_id": "src_e0520ddfd9ac:d124c8225e32"
             },
             {
               "rank": 4,
@@ -9575,23 +9575,23 @@
           ],
           "top_chunk_ids": [
             "src_d5596b1dce93:de2f1bceff38",
-            "src_e0520ddfd9ac:d124c8225e32",
-            "src_e0520ddfd9ac:de2f1bceff38",
             "src_d5596b1dce93:d124c8225e32",
+            "src_e0520ddfd9ac:de2f1bceff38",
+            "src_e0520ddfd9ac:d124c8225e32",
             "src_6784cb75c99b:1f2336b06624"
           ],
           "top_parent_ids": [
             "src_d5596b1dce93:h:5297024b7f97:b536",
-            "src_e0520ddfd9ac:h:5297024b7f97:b467",
-            "src_e0520ddfd9ac:h:5297024b7f97:b536",
             "src_d5596b1dce93:h:5297024b7f97:b467",
+            "src_e0520ddfd9ac:h:5297024b7f97:b536",
+            "src_e0520ddfd9ac:h:5297024b7f97:b467",
             "src_6784cb75c99b:h:5297024b7f97:b23"
           ],
           "top_source_ids": [
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac",
             "src_6784cb75c99b"
           ]
         }
@@ -10224,23 +10224,23 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:0ad2b06a102f"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_e0520ddfd9ac:0ad2b06a102f"
             },
             {
+              "rank": 1,
+              "chunk_id": "src_d5596b1dce93:0ad2b06a102f"
+            },
+            {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:f314cdc24bb6"
+              "chunk_id": "src_d5596b1dce93:f314cdc24bb6"
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:f314cdc24bb6"
+              "chunk_id": "src_e0520ddfd9ac:f314cdc24bb6"
             },
             {
               "rank": 4,
@@ -10248,24 +10248,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:0ad2b06a102f",
             "src_e0520ddfd9ac:0ad2b06a102f",
-            "src_e0520ddfd9ac:f314cdc24bb6",
+            "src_d5596b1dce93:0ad2b06a102f",
             "src_d5596b1dce93:f314cdc24bb6",
+            "src_e0520ddfd9ac:f314cdc24bb6",
             "src_d5596b1dce93:767849e389f2"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b154",
             "src_e0520ddfd9ac:h:5297024b7f97:b154",
-            "src_e0520ddfd9ac:h:5297024b7f97:b958",
+            "src_d5596b1dce93:h:5297024b7f97:b154",
             "src_d5596b1dce93:h:5297024b7f97:b958",
+            "src_e0520ddfd9ac:h:5297024b7f97:b958",
             "src_d5596b1dce93:h:5297024b7f97:b836"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93"
           ]
         },
@@ -10320,7 +10320,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 3,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -10328,7 +10328,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:0ad2b06a102f"
+              "chunk_id": "src_e0520ddfd9ac:0ad2b06a102f"
             },
             {
               "rank": 2,
@@ -10336,7 +10336,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:0ad2b06a102f"
+              "chunk_id": "src_d5596b1dce93:0ad2b06a102f"
             },
             {
               "rank": 4,
@@ -10345,23 +10345,23 @@
           ],
           "top_chunk_ids": [
             "src_db2f95e72338:ee8d07d34000",
-            "src_d5596b1dce93:0ad2b06a102f",
-            "src_ef3d6ff3846c:98eae6d0f098",
             "src_e0520ddfd9ac:0ad2b06a102f",
+            "src_ef3d6ff3846c:98eae6d0f098",
+            "src_d5596b1dce93:0ad2b06a102f",
             "src_eb28c8848470:afa9a9d4f54a"
           ],
           "top_parent_ids": [
             "src_db2f95e72338:h:5297024b7f97:b4",
-            "src_d5596b1dce93:h:5297024b7f97:b154",
-            "src_ef3d6ff3846c:h:5297024b7f97:b19",
             "src_e0520ddfd9ac:h:5297024b7f97:b154",
+            "src_ef3d6ff3846c:h:5297024b7f97:b19",
+            "src_d5596b1dce93:h:5297024b7f97:b154",
             "src_eb28c8848470:h:5297024b7f97:b84"
           ],
           "top_source_ids": [
             "src_db2f95e72338",
-            "src_d5596b1dce93",
-            "src_ef3d6ff3846c",
             "src_e0520ddfd9ac",
+            "src_ef3d6ff3846c",
+            "src_d5596b1dce93",
             "src_eb28c8848470"
           ]
         }
@@ -10848,11 +10848,11 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:822445d90fd8"
+              "chunk_id": "src_e0520ddfd9ac:822445d90fd8"
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:822445d90fd8"
+              "chunk_id": "src_d5596b1dce93:822445d90fd8"
             },
             {
               "rank": 3,
@@ -10865,22 +10865,22 @@
           ],
           "top_chunk_ids": [
             "src_4aa8d7a49009:8e9368d97930",
-            "src_d5596b1dce93:822445d90fd8",
             "src_e0520ddfd9ac:822445d90fd8",
+            "src_d5596b1dce93:822445d90fd8",
             "src_e0520ddfd9ac:6523f4ccfe13",
             "src_d5596b1dce93:6523f4ccfe13"
           ],
           "top_parent_ids": [
             "src_4aa8d7a49009:h:5297024b7f97:b72",
-            "src_d5596b1dce93:h:5297024b7f97:b827",
             "src_e0520ddfd9ac:h:5297024b7f97:b827",
+            "src_d5596b1dce93:h:5297024b7f97:b827",
             "src_e0520ddfd9ac:h:5297024b7f97:b432",
             "src_d5596b1dce93:h:5297024b7f97:b432"
           ],
           "top_source_ids": [
             "src_4aa8d7a49009",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93"
           ]
@@ -10940,11 +10940,11 @@
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:2eccb68d9bc4"
+              "chunk_id": "src_d5596b1dce93:2eccb68d9bc4"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:2eccb68d9bc4"
+              "chunk_id": "src_e0520ddfd9ac:2eccb68d9bc4"
             },
             {
               "rank": 2,
@@ -10960,22 +10960,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:2eccb68d9bc4",
             "src_d5596b1dce93:2eccb68d9bc4",
+            "src_e0520ddfd9ac:2eccb68d9bc4",
             "src_dc9975133c19:f09f49791464",
             "src_4aa8d7a49009:8e9368d97930",
             "src_f80e34eb56ad:ce110dad6da0"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b879",
             "src_d5596b1dce93:h:5297024b7f97:b879",
+            "src_e0520ddfd9ac:h:5297024b7f97:b879",
             "src_dc9975133c19:h:5297024b7f97:b6",
             "src_4aa8d7a49009:h:5297024b7f97:b72",
             "src_f80e34eb56ad:h:5297024b7f97:b19"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_dc9975133c19",
             "src_4aa8d7a49009",
             "src_f80e34eb56ad"
@@ -11456,15 +11456,15 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
+              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
+              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
             },
             {
               "rank": 2,
@@ -11476,29 +11476,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:4a45f407d499"
+              "chunk_id": "src_d5596b1dce93:4a45f407d499"
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_d5596b1dce93:fbe29a95ec69",
+            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_d5596b1dce93:1189c2625954",
             "src_e0520ddfd9ac:1189c2625954",
-            "src_e0520ddfd9ac:4a45f407d499"
+            "src_d5596b1dce93:4a45f407d499"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_d5596b1dce93:h:5297024b7f97:b848",
+            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_d5596b1dce93:h:5297024b7f97:b747",
             "src_e0520ddfd9ac:h:5297024b7f97:b747",
-            "src_e0520ddfd9ac:h:5297024b7f97:b771"
+            "src_d5596b1dce93:h:5297024b7f97:b771"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_e0520ddfd9ac"
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -11552,7 +11552,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 3,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -11560,7 +11560,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
+              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
             },
             {
               "rank": 2,
@@ -11568,7 +11568,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:fbe29a95ec69"
+              "chunk_id": "src_e0520ddfd9ac:fbe29a95ec69"
             },
             {
               "rank": 4,
@@ -11577,23 +11577,23 @@
           ],
           "top_chunk_ids": [
             "src_3ad7c6b78d18:023fb55636e5",
-            "src_e0520ddfd9ac:fbe29a95ec69",
-            "src_309ee3f2ff0b:81c26e8017c2",
             "src_d5596b1dce93:fbe29a95ec69",
+            "src_309ee3f2ff0b:81c26e8017c2",
+            "src_e0520ddfd9ac:fbe29a95ec69",
             "src_309ee3f2ff0b:1f9db5dba221"
           ],
           "top_parent_ids": [
             "src_3ad7c6b78d18:h:5297024b7f97:b303",
-            "src_e0520ddfd9ac:h:5297024b7f97:b848",
-            "src_309ee3f2ff0b:h:5297024b7f97:b0",
             "src_d5596b1dce93:h:5297024b7f97:b848",
+            "src_309ee3f2ff0b:h:5297024b7f97:b0",
+            "src_e0520ddfd9ac:h:5297024b7f97:b848",
             "src_309ee3f2ff0b:h:5297024b7f97:b1"
           ],
           "top_source_ids": [
             "src_3ad7c6b78d18",
-            "src_e0520ddfd9ac",
-            "src_309ee3f2ff0b",
             "src_d5596b1dce93",
+            "src_309ee3f2ff0b",
+            "src_e0520ddfd9ac",
             "src_309ee3f2ff0b"
           ]
         }
@@ -11608,51 +11608,51 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 4,
-          "hit_parent_at": 4,
-          "hit_source_at": 1,
+          "hit_chunk_at": null,
+          "hit_parent_at": null,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:82b6be09dbf2"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_e0520ddfd9ac:82b6be09dbf2"
             },
             {
-              "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:4a45f407d499"
+              "rank": 1,
+              "chunk_id": "src_d5596b1dce93:82b6be09dbf2"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_d5596b1dce93:4a45f407d499"
             },
             {
+              "rank": 3,
+              "chunk_id": "src_e0520ddfd9ac:4a45f407d499"
+            },
+            {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:3a9a9dc7e91d"
+              "chunk_id": "src_d5596b1dce93:3a9a9dc7e91d"
             }
           ],
           "top_chunk_ids": [
-            "src_d5596b1dce93:82b6be09dbf2",
             "src_e0520ddfd9ac:82b6be09dbf2",
-            "src_e0520ddfd9ac:4a45f407d499",
+            "src_d5596b1dce93:82b6be09dbf2",
             "src_d5596b1dce93:4a45f407d499",
-            "src_e0520ddfd9ac:3a9a9dc7e91d"
+            "src_e0520ddfd9ac:4a45f407d499",
+            "src_d5596b1dce93:3a9a9dc7e91d"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b669",
             "src_e0520ddfd9ac:h:5297024b7f97:b669",
-            "src_e0520ddfd9ac:h:5297024b7f97:b771",
+            "src_d5596b1dce93:h:5297024b7f97:b669",
             "src_d5596b1dce93:h:5297024b7f97:b771",
-            "src_e0520ddfd9ac:h:5297024b7f97:b957"
+            "src_e0520ddfd9ac:h:5297024b7f97:b771",
+            "src_d5596b1dce93:h:5297024b7f97:b957"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -11704,9 +11704,9 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 9,
-          "hit_parent_at": 9,
-          "hit_source_at": 3,
+          "hit_chunk_at": null,
+          "hit_parent_at": null,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -11714,7 +11714,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:82b6be09dbf2"
+              "chunk_id": "src_e0520ddfd9ac:82b6be09dbf2"
             },
             {
               "rank": 2,
@@ -11722,7 +11722,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:82b6be09dbf2"
+              "chunk_id": "src_d5596b1dce93:82b6be09dbf2"
             },
             {
               "rank": 4,
@@ -11731,23 +11731,23 @@
           ],
           "top_chunk_ids": [
             "src_901a97a5099b:3dcfd4fba05f",
-            "src_d5596b1dce93:82b6be09dbf2",
-            "src_309ee3f2ff0b:1f9db5dba221",
             "src_e0520ddfd9ac:82b6be09dbf2",
+            "src_309ee3f2ff0b:1f9db5dba221",
+            "src_d5596b1dce93:82b6be09dbf2",
             "src_3ad7c6b78d18:023fb55636e5"
           ],
           "top_parent_ids": [
             "src_901a97a5099b:h:5297024b7f97:b73",
-            "src_d5596b1dce93:h:5297024b7f97:b669",
-            "src_309ee3f2ff0b:h:5297024b7f97:b1",
             "src_e0520ddfd9ac:h:5297024b7f97:b669",
+            "src_309ee3f2ff0b:h:5297024b7f97:b1",
+            "src_d5596b1dce93:h:5297024b7f97:b669",
             "src_3ad7c6b78d18:h:5297024b7f97:b303"
           ],
           "top_source_ids": [
             "src_901a97a5099b",
-            "src_d5596b1dce93",
-            "src_309ee3f2ff0b",
             "src_e0520ddfd9ac",
+            "src_309ee3f2ff0b",
+            "src_d5596b1dce93",
             "src_3ad7c6b78d18"
           ]
         }
@@ -11860,7 +11860,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 2,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -11868,11 +11868,11 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:de638f6bcc51"
+              "chunk_id": "src_d5596b1dce93:de638f6bcc51"
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:de638f6bcc51"
+              "chunk_id": "src_e0520ddfd9ac:de638f6bcc51"
             },
             {
               "rank": 3,
@@ -11885,22 +11885,22 @@
           ],
           "top_chunk_ids": [
             "src_9cfd42812652:32e1f7747fa4",
-            "src_e0520ddfd9ac:de638f6bcc51",
             "src_d5596b1dce93:de638f6bcc51",
+            "src_e0520ddfd9ac:de638f6bcc51",
             "src_d5596b1dce93:19f32abbed8d",
             "src_e0520ddfd9ac:19f32abbed8d"
           ],
           "top_parent_ids": [
             "src_9cfd42812652:h:5297024b7f97:b2",
-            "src_e0520ddfd9ac:h:5297024b7f97:b316",
             "src_d5596b1dce93:h:5297024b7f97:b316",
+            "src_e0520ddfd9ac:h:5297024b7f97:b316",
             "src_d5596b1dce93:h:5297024b7f97:b1176",
             "src_e0520ddfd9ac:h:5297024b7f97:b1176"
           ],
           "top_source_ids": [
             "src_9cfd42812652",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac"
           ]
@@ -12224,51 +12224,51 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": 1,
-          "hit_parent_at": 1,
-          "hit_source_at": 1,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:4b1981e91f00"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_d5596b1dce93:4b1981e91f00"
             },
             {
-              "rank": 2,
-              "chunk_id": "src_d5596b1dce93:d05257cfb9f4"
+              "rank": 1,
+              "chunk_id": "src_e0520ddfd9ac:4b1981e91f00"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_e0520ddfd9ac:d05257cfb9f4"
             },
             {
+              "rank": 3,
+              "chunk_id": "src_d5596b1dce93:d05257cfb9f4"
+            },
+            {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:8b6f9b3a5e15"
+              "chunk_id": "src_e0520ddfd9ac:8b6f9b3a5e15"
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:4b1981e91f00",
             "src_d5596b1dce93:4b1981e91f00",
-            "src_d5596b1dce93:d05257cfb9f4",
+            "src_e0520ddfd9ac:4b1981e91f00",
             "src_e0520ddfd9ac:d05257cfb9f4",
-            "src_d5596b1dce93:8b6f9b3a5e15"
+            "src_d5596b1dce93:d05257cfb9f4",
+            "src_e0520ddfd9ac:8b6f9b3a5e15"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b286",
             "src_d5596b1dce93:h:5297024b7f97:b286",
-            "src_d5596b1dce93:h:5297024b7f97:b281",
+            "src_e0520ddfd9ac:h:5297024b7f97:b286",
             "src_e0520ddfd9ac:h:5297024b7f97:b281",
-            "src_d5596b1dce93:h:5297024b7f97:b279"
+            "src_d5596b1dce93:h:5297024b7f97:b281",
+            "src_e0520ddfd9ac:h:5297024b7f97:b279"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -12534,15 +12534,15 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 0,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:d6180ea73c45"
+              "chunk_id": "src_d5596b1dce93:d6180ea73c45"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:d6180ea73c45"
+              "chunk_id": "src_e0520ddfd9ac:d6180ea73c45"
             },
             {
               "rank": 2,
@@ -12554,29 +12554,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:e0d3b3cbf785"
+              "chunk_id": "src_e0520ddfd9ac:e0d3b3cbf785"
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:d6180ea73c45",
             "src_d5596b1dce93:d6180ea73c45",
+            "src_e0520ddfd9ac:d6180ea73c45",
             "src_d5596b1dce93:ec41978ac1ec",
             "src_e0520ddfd9ac:ec41978ac1ec",
-            "src_d5596b1dce93:e0d3b3cbf785"
+            "src_e0520ddfd9ac:e0d3b3cbf785"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b959",
             "src_d5596b1dce93:h:5297024b7f97:b959",
+            "src_e0520ddfd9ac:h:5297024b7f97:b959",
             "src_d5596b1dce93:h:5297024b7f97:b1038",
             "src_e0520ddfd9ac:h:5297024b7f97:b1038",
-            "src_d5596b1dce93:h:5297024b7f97:b1023"
+            "src_e0520ddfd9ac:h:5297024b7f97:b1023"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -12630,7 +12630,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 1,
+          "hit_source_at": 3,
           "top5": [
             {
               "rank": 0,
@@ -12638,7 +12638,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:d6180ea73c45"
+              "chunk_id": "src_d5596b1dce93:d6180ea73c45"
             },
             {
               "rank": 2,
@@ -12646,7 +12646,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:d6180ea73c45"
+              "chunk_id": "src_e0520ddfd9ac:d6180ea73c45"
             },
             {
               "rank": 4,
@@ -12655,23 +12655,23 @@
           ],
           "top_chunk_ids": [
             "src_715f913a01a9:255f6441a8ac",
-            "src_e0520ddfd9ac:d6180ea73c45",
-            "src_eb28c8848470:543dc869ae75",
             "src_d5596b1dce93:d6180ea73c45",
+            "src_eb28c8848470:543dc869ae75",
+            "src_e0520ddfd9ac:d6180ea73c45",
             "src_12abef9658fb:88bc1345a8a8"
           ],
           "top_parent_ids": [
             "src_715f913a01a9:h:5297024b7f97:b34",
-            "src_e0520ddfd9ac:h:5297024b7f97:b959",
-            "src_eb28c8848470:h:5297024b7f97:b31",
             "src_d5596b1dce93:h:5297024b7f97:b959",
+            "src_eb28c8848470:h:5297024b7f97:b31",
+            "src_e0520ddfd9ac:h:5297024b7f97:b959",
             "src_12abef9658fb:h:5297024b7f97:b10"
           ],
           "top_source_ids": [
             "src_715f913a01a9",
-            "src_e0520ddfd9ac",
-            "src_eb28c8848470",
             "src_d5596b1dce93",
+            "src_eb28c8848470",
+            "src_e0520ddfd9ac",
             "src_12abef9658fb"
           ]
         }
@@ -13244,9 +13244,9 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": null,
-          "hit_parent_at": null,
-          "hit_source_at": null,
+          "hit_chunk_at": 9,
+          "hit_parent_at": 9,
+          "hit_source_at": 9,
           "top5": [
             {
               "rank": 0,
@@ -13458,7 +13458,7 @@
         "vector": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 3,
+          "hit_source_at": 4,
           "top5": [
             {
               "rank": 0,
@@ -13474,33 +13474,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:c24f7f9b02c2"
+              "chunk_id": "src_d5596b1dce93:c24f7f9b02c2"
             },
             {
               "rank": 4,
-              "chunk_id": "src_d5596b1dce93:c24f7f9b02c2"
+              "chunk_id": "src_e0520ddfd9ac:c24f7f9b02c2"
             }
           ],
           "top_chunk_ids": [
             "src_6f802cb99781:1fa495d83dc4",
             "src_309ee3f2ff0b:532ad0a8c7b8",
             "src_309ee3f2ff0b:aa4fdadd09f2",
-            "src_e0520ddfd9ac:c24f7f9b02c2",
-            "src_d5596b1dce93:c24f7f9b02c2"
+            "src_d5596b1dce93:c24f7f9b02c2",
+            "src_e0520ddfd9ac:c24f7f9b02c2"
           ],
           "top_parent_ids": [
             "src_6f802cb99781:h:5297024b7f97:b44",
             "src_309ee3f2ff0b:h:5297024b7f97:b81",
             "src_309ee3f2ff0b:h:5297024b7f97:b80",
-            "src_e0520ddfd9ac:h:5297024b7f97:b846",
-            "src_d5596b1dce93:h:5297024b7f97:b846"
+            "src_d5596b1dce93:h:5297024b7f97:b846",
+            "src_e0520ddfd9ac:h:5297024b7f97:b846"
           ],
           "top_source_ids": [
             "src_6f802cb99781",
             "src_309ee3f2ff0b",
             "src_309ee3f2ff0b",
-            "src_e0520ddfd9ac",
-            "src_d5596b1dce93"
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -13554,7 +13554,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": null,
           "hit_parent_at": null,
-          "hit_source_at": 7,
+          "hit_source_at": 9,
           "top5": [
             {
               "rank": 0,
@@ -14014,25 +14014,25 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 0,
-          "hit_parent_at": 0,
-          "hit_source_at": 0,
+          "hit_chunk_at": 3,
+          "hit_parent_at": 3,
+          "hit_source_at": 3,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:6e630978ad83"
-            },
-            {
-              "rank": 1,
               "chunk_id": "src_9cfd42812652:1120b7872cf7"
             },
             {
-              "rank": 2,
+              "rank": 1,
               "chunk_id": "src_d5596b1dce93:6e630978ad83"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "chunk_id": "src_92a6ae24adf8:997647b54f9b"
+            },
+            {
+              "rank": 3,
+              "chunk_id": "src_e0520ddfd9ac:6e630978ad83"
             },
             {
               "rank": 4,
@@ -14040,24 +14040,24 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:6e630978ad83",
             "src_9cfd42812652:1120b7872cf7",
             "src_d5596b1dce93:6e630978ad83",
             "src_92a6ae24adf8:997647b54f9b",
+            "src_e0520ddfd9ac:6e630978ad83",
             "src_d5596b1dce93:d5643eaca39f"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b224",
             "src_9cfd42812652:h:5297024b7f97:b2",
             "src_d5596b1dce93:h:5297024b7f97:b224",
             "src_92a6ae24adf8:h:5297024b7f97:b29",
+            "src_e0520ddfd9ac:h:5297024b7f97:b224",
             "src_d5596b1dce93:h:5297024b7f97:b102"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
             "src_9cfd42812652",
             "src_d5596b1dce93",
             "src_92a6ae24adf8",
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93"
           ]
         }
@@ -14240,11 +14240,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_d5596b1dce93:92832ce65499"
+              "chunk_id": "src_e0520ddfd9ac:92832ce65499"
             },
             {
               "rank": 3,
-              "chunk_id": "src_e0520ddfd9ac:92832ce65499"
+              "chunk_id": "src_d5596b1dce93:92832ce65499"
             },
             {
               "rank": 4,
@@ -14254,22 +14254,22 @@
           "top_chunk_ids": [
             "src_e0520ddfd9ac:3d1fa72ee04e",
             "src_d5596b1dce93:3d1fa72ee04e",
-            "src_d5596b1dce93:92832ce65499",
             "src_e0520ddfd9ac:92832ce65499",
+            "src_d5596b1dce93:92832ce65499",
             "src_ae3b6786b57c:d2cdab957519"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b133",
             "src_d5596b1dce93:h:5297024b7f97:b133",
-            "src_d5596b1dce93:h:5297024b7f97:b134",
             "src_e0520ddfd9ac:h:5297024b7f97:b134",
+            "src_d5596b1dce93:h:5297024b7f97:b134",
             "src_ae3b6786b57c:h:5297024b7f97:b5"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93",
             "src_e0520ddfd9ac",
+            "src_d5596b1dce93",
             "src_ae3b6786b57c"
           ]
         },
@@ -14382,15 +14382,15 @@
         "vector": {
           "hit_chunk_at": 2,
           "hit_parent_at": 2,
-          "hit_source_at": 1,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:64bb9c5a40aa"
+              "chunk_id": "src_d5596b1dce93:64bb9c5a40aa"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:64bb9c5a40aa"
+              "chunk_id": "src_e0520ddfd9ac:64bb9c5a40aa"
             },
             {
               "rank": 2,
@@ -14406,22 +14406,22 @@
             }
           ],
           "top_chunk_ids": [
-            "src_e0520ddfd9ac:64bb9c5a40aa",
             "src_d5596b1dce93:64bb9c5a40aa",
+            "src_e0520ddfd9ac:64bb9c5a40aa",
             "src_d5596b1dce93:90d5762f9817",
             "src_e0520ddfd9ac:90d5762f9817",
             "src_92a6ae24adf8:cb69941274b1"
           ],
           "top_parent_ids": [
-            "src_e0520ddfd9ac:h:5297024b7f97:b4",
             "src_d5596b1dce93:h:5297024b7f97:b4",
+            "src_e0520ddfd9ac:h:5297024b7f97:b4",
             "src_d5596b1dce93:h:5297024b7f97:b1055",
             "src_e0520ddfd9ac:h:5297024b7f97:b1055",
             "src_92a6ae24adf8:h:5297024b7f97:b94"
           ],
           "top_source_ids": [
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_e0520ddfd9ac",
             "src_92a6ae24adf8"
@@ -14478,7 +14478,7 @@
         "hybrid_rrf": {
           "hit_chunk_at": 5,
           "hit_parent_at": 5,
-          "hit_source_at": 3,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
@@ -14486,7 +14486,7 @@
             },
             {
               "rank": 1,
-              "chunk_id": "src_e0520ddfd9ac:64bb9c5a40aa"
+              "chunk_id": "src_d5596b1dce93:64bb9c5a40aa"
             },
             {
               "rank": 2,
@@ -14494,7 +14494,7 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:64bb9c5a40aa"
+              "chunk_id": "src_e0520ddfd9ac:64bb9c5a40aa"
             },
             {
               "rank": 4,
@@ -14503,23 +14503,23 @@
           ],
           "top_chunk_ids": [
             "src_1bcc0ba43edd:fc159ce60825",
-            "src_e0520ddfd9ac:64bb9c5a40aa",
-            "src_0797fad8a92a:b504959fa8d0",
             "src_d5596b1dce93:64bb9c5a40aa",
+            "src_0797fad8a92a:b504959fa8d0",
+            "src_e0520ddfd9ac:64bb9c5a40aa",
             "src_715f913a01a9:9641d0c70bc6"
           ],
           "top_parent_ids": [
             "src_1bcc0ba43edd:h:5297024b7f97:b35",
-            "src_e0520ddfd9ac:h:5297024b7f97:b4",
-            "src_0797fad8a92a:h:5297024b7f97:b10",
             "src_d5596b1dce93:h:5297024b7f97:b4",
+            "src_0797fad8a92a:h:5297024b7f97:b10",
+            "src_e0520ddfd9ac:h:5297024b7f97:b4",
             "src_715f913a01a9:h:5297024b7f97:b20"
           ],
           "top_source_ids": [
             "src_1bcc0ba43edd",
-            "src_e0520ddfd9ac",
-            "src_0797fad8a92a",
             "src_d5596b1dce93",
+            "src_0797fad8a92a",
+            "src_e0520ddfd9ac",
             "src_715f913a01a9"
           ]
         }
@@ -14552,33 +14552,33 @@
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:5463bcf7952e"
+              "chunk_id": "src_e0520ddfd9ac:5463bcf7952e"
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:5463bcf7952e"
+              "chunk_id": "src_d5596b1dce93:5463bcf7952e"
             }
           ],
           "top_chunk_ids": [
             "src_40c21fbc97fb:b2d1b21e4885",
             "src_e0520ddfd9ac:563cfbfaebf6",
             "src_d5596b1dce93:563cfbfaebf6",
-            "src_d5596b1dce93:5463bcf7952e",
-            "src_e0520ddfd9ac:5463bcf7952e"
+            "src_e0520ddfd9ac:5463bcf7952e",
+            "src_d5596b1dce93:5463bcf7952e"
           ],
           "top_parent_ids": [
             "src_40c21fbc97fb:h:5297024b7f97:b10",
             "src_e0520ddfd9ac:h:5297024b7f97:b460",
             "src_d5596b1dce93:h:5297024b7f97:b460",
-            "src_d5596b1dce93:h:5297024b7f97:b570",
-            "src_e0520ddfd9ac:h:5297024b7f97:b570"
+            "src_e0520ddfd9ac:h:5297024b7f97:b570",
+            "src_d5596b1dce93:h:5297024b7f97:b570"
           ],
           "top_source_ids": [
             "src_40c21fbc97fb",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_d5596b1dce93",
-            "src_e0520ddfd9ac"
+            "src_e0520ddfd9ac",
+            "src_d5596b1dce93"
           ]
         },
         "bm25": {
@@ -14856,11 +14856,11 @@
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:b5f300cd2e63"
+              "chunk_id": "src_d5596b1dce93:b5f300cd2e63"
             },
             {
               "rank": 3,
-              "chunk_id": "src_d5596b1dce93:b5f300cd2e63"
+              "chunk_id": "src_e0520ddfd9ac:b5f300cd2e63"
             },
             {
               "rank": 4,
@@ -14870,22 +14870,22 @@
           "top_chunk_ids": [
             "src_e0520ddfd9ac:11302a59ca3f",
             "src_d5596b1dce93:11302a59ca3f",
-            "src_e0520ddfd9ac:b5f300cd2e63",
             "src_d5596b1dce93:b5f300cd2e63",
+            "src_e0520ddfd9ac:b5f300cd2e63",
             "src_e0520ddfd9ac:ad1dbb27a164"
           ],
           "top_parent_ids": [
             "src_e0520ddfd9ac:h:5297024b7f97:b988",
             "src_d5596b1dce93:h:5297024b7f97:b988",
-            "src_e0520ddfd9ac:h:5297024b7f97:b988",
             "src_d5596b1dce93:h:5297024b7f97:b988",
+            "src_e0520ddfd9ac:h:5297024b7f97:b988",
             "src_e0520ddfd9ac:h:5297024b7f97:b975"
           ],
           "top_source_ids": [
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
+            "src_e0520ddfd9ac",
             "src_e0520ddfd9ac"
           ]
         },
@@ -14938,21 +14938,21 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 0,
-          "hit_parent_at": 0,
-          "hit_source_at": 0,
+          "hit_chunk_at": 1,
+          "hit_parent_at": 1,
+          "hit_source_at": 1,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_e0520ddfd9ac:11302a59ca3f"
+              "chunk_id": "src_7cdb5f831e1c:d0829a01838c"
             },
             {
               "rank": 1,
-              "chunk_id": "src_d5596b1dce93:11302a59ca3f"
+              "chunk_id": "src_e0520ddfd9ac:11302a59ca3f"
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:b5f300cd2e63"
+              "chunk_id": "src_d5596b1dce93:11302a59ca3f"
             },
             {
               "rank": 3,
@@ -14960,29 +14960,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_89e17c21b844:d59f2b968eb2"
+              "chunk_id": "src_e0520ddfd9ac:b5f300cd2e63"
             }
           ],
           "top_chunk_ids": [
+            "src_7cdb5f831e1c:d0829a01838c",
             "src_e0520ddfd9ac:11302a59ca3f",
             "src_d5596b1dce93:11302a59ca3f",
-            "src_e0520ddfd9ac:b5f300cd2e63",
             "src_d5596b1dce93:b5f300cd2e63",
-            "src_89e17c21b844:d59f2b968eb2"
+            "src_e0520ddfd9ac:b5f300cd2e63"
           ],
           "top_parent_ids": [
+            "src_7cdb5f831e1c:h:5297024b7f97:b23",
             "src_e0520ddfd9ac:h:5297024b7f97:b988",
             "src_d5596b1dce93:h:5297024b7f97:b988",
-            "src_e0520ddfd9ac:h:5297024b7f97:b988",
             "src_d5596b1dce93:h:5297024b7f97:b988",
-            "src_89e17c21b844:h:5297024b7f97:b3"
+            "src_e0520ddfd9ac:h:5297024b7f97:b988"
           ],
           "top_source_ids": [
+            "src_7cdb5f831e1c",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_89e17c21b844"
+            "src_e0520ddfd9ac"
           ]
         }
       }
@@ -15150,21 +15150,21 @@
       "query_noisy": false,
       "modes": {
         "vector": {
-          "hit_chunk_at": null,
-          "hit_parent_at": 2,
-          "hit_source_at": 2,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:9d7442389991"
+              "chunk_id": "src_e0520ddfd9ac:9d7442389991"
             },
             {
               "rank": 1,
-              "chunk_id": "src_7cdb5f831e1c:6f627661536e"
+              "chunk_id": "src_d5596b1dce93:9d7442389991"
             },
             {
               "rank": 2,
-              "chunk_id": "src_e0520ddfd9ac:288223110e4c"
+              "chunk_id": "src_7cdb5f831e1c:6f627661536e"
             },
             {
               "rank": 3,
@@ -15172,29 +15172,29 @@
             },
             {
               "rank": 4,
-              "chunk_id": "src_ae3b6786b57c:9e1cdfe70662"
+              "chunk_id": "src_e0520ddfd9ac:288223110e4c"
             }
           ],
           "top_chunk_ids": [
+            "src_e0520ddfd9ac:9d7442389991",
             "src_d5596b1dce93:9d7442389991",
             "src_7cdb5f831e1c:6f627661536e",
-            "src_e0520ddfd9ac:288223110e4c",
             "src_d5596b1dce93:288223110e4c",
-            "src_ae3b6786b57c:9e1cdfe70662"
+            "src_e0520ddfd9ac:288223110e4c"
           ],
           "top_parent_ids": [
-            "src_d5596b1dce93:h:5297024b7f97:b390",
-            "src_7cdb5f831e1c:h:5297024b7f97:b37",
             "src_e0520ddfd9ac:h:5297024b7f97:b390",
             "src_d5596b1dce93:h:5297024b7f97:b390",
-            "src_ae3b6786b57c:h:5297024b7f97:b2"
+            "src_7cdb5f831e1c:h:5297024b7f97:b37",
+            "src_d5596b1dce93:h:5297024b7f97:b390",
+            "src_e0520ddfd9ac:h:5297024b7f97:b390"
           ],
           "top_source_ids": [
-            "src_d5596b1dce93",
-            "src_7cdb5f831e1c",
             "src_e0520ddfd9ac",
             "src_d5596b1dce93",
-            "src_ae3b6786b57c"
+            "src_7cdb5f831e1c",
+            "src_d5596b1dce93",
+            "src_e0520ddfd9ac"
           ]
         },
         "bm25": {
@@ -15246,51 +15246,51 @@
           ]
         },
         "hybrid_rrf": {
-          "hit_chunk_at": 4,
-          "hit_parent_at": 4,
-          "hit_source_at": 4,
+          "hit_chunk_at": 0,
+          "hit_parent_at": 0,
+          "hit_source_at": 0,
           "top5": [
             {
               "rank": 0,
-              "chunk_id": "src_d5596b1dce93:9d7442389991"
+              "chunk_id": "src_e0520ddfd9ac:9d7442389991"
             },
             {
               "rank": 1,
-              "chunk_id": "src_ae3b6786b57c:9e1cdfe70662"
+              "chunk_id": "src_d5596b1dce93:9d7442389991"
             },
             {
               "rank": 2,
-              "chunk_id": "src_1bcc0ba43edd:5adba9f32119"
+              "chunk_id": "src_ae3b6786b57c:9e1cdfe70662"
             },
             {
               "rank": 3,
-              "chunk_id": "src_7cdb5f831e1c:6f627661536e"
+              "chunk_id": "src_1bcc0ba43edd:5adba9f32119"
             },
             {
               "rank": 4,
-              "chunk_id": "src_e0520ddfd9ac:9d7442389991"
+              "chunk_id": "src_7cdb5f831e1c:6f627661536e"
             }
           ],
           "top_chunk_ids": [
+            "src_e0520ddfd9ac:9d7442389991",
             "src_d5596b1dce93:9d7442389991",
             "src_ae3b6786b57c:9e1cdfe70662",
             "src_1bcc0ba43edd:5adba9f32119",
-            "src_7cdb5f831e1c:6f627661536e",
-            "src_e0520ddfd9ac:9d7442389991"
+            "src_7cdb5f831e1c:6f627661536e"
           ],
           "top_parent_ids": [
+            "src_e0520ddfd9ac:h:5297024b7f97:b390",
             "src_d5596b1dce93:h:5297024b7f97:b390",
             "src_ae3b6786b57c:h:5297024b7f97:b2",
             "src_1bcc0ba43edd:h:5297024b7f97:b132",
-            "src_7cdb5f831e1c:h:5297024b7f97:b37",
-            "src_e0520ddfd9ac:h:5297024b7f97:b390"
+            "src_7cdb5f831e1c:h:5297024b7f97:b37"
           ],
           "top_source_ids": [
+            "src_e0520ddfd9ac",
             "src_d5596b1dce93",
             "src_ae3b6786b57c",
             "src_1bcc0ba43edd",
-            "src_7cdb5f831e1c",
-            "src_e0520ddfd9ac"
+            "src_7cdb5f831e1c"
           ]
         }
       }
@@ -15622,8 +15622,8 @@
         "src_e0520ddfd9ac:aaabf3bf707f",
         "src_e0520ddfd9ac:5643d559414d",
         "src_d5596b1dce93:5643d559414d",
-        "src_d5596b1dce93:4788bedadb24",
-        "src_e0520ddfd9ac:4788bedadb24"
+        "src_e0520ddfd9ac:4788bedadb24",
+        "src_d5596b1dce93:4788bedadb24"
       ],
       "top_retrieved_source_ids": [
         "src_e0520ddfd9ac",
@@ -15634,8 +15634,8 @@
         "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_e0520ddfd9ac:h:5297024b7f97:b848",
@@ -15646,8 +15646,8 @@
         "src_e0520ddfd9ac:h:5297024b7f97:b847",
         "src_e0520ddfd9ac:h:5297024b7f97:b687",
         "src_d5596b1dce93:h:5297024b7f97:b687",
-        "src_d5596b1dce93:h:5297024b7f97:b855",
-        "src_e0520ddfd9ac:h:5297024b7f97:b855"
+        "src_e0520ddfd9ac:h:5297024b7f97:b855",
+        "src_d5596b1dce93:h:5297024b7f97:b855"
       ]
     },
     {
@@ -15752,36 +15752,36 @@
         "src_1d81088c863e:c73b188e0607",
         "src_363b2e9ecf9b:ecf59efc0f62",
         "src_82c72885324a:ecf59efc0f62",
-        "src_ff2b95264bfc:cad01f1ac0ea",
         "src_2e608dafe081:cad01f1ac0ea",
-        "src_2e608dafe081:bd313757c2cf",
+        "src_ff2b95264bfc:cad01f1ac0ea",
         "src_ff2b95264bfc:bd313757c2cf",
-        "src_82c72885324a:cbf76253b57d",
+        "src_2e608dafe081:bd313757c2cf",
         "src_363b2e9ecf9b:cbf76253b57d",
+        "src_82c72885324a:cbf76253b57d",
         "src_0496352f7f54:193471da96b7"
       ],
       "top_retrieved_source_ids": [
         "src_1d81088c863e",
         "src_363b2e9ecf9b",
         "src_82c72885324a",
-        "src_ff2b95264bfc",
-        "src_2e608dafe081",
         "src_2e608dafe081",
         "src_ff2b95264bfc",
-        "src_82c72885324a",
+        "src_ff2b95264bfc",
+        "src_2e608dafe081",
         "src_363b2e9ecf9b",
+        "src_82c72885324a",
         "src_0496352f7f54"
       ],
       "top_retrieved_parent_ids": [
         "src_1d81088c863e:h:5297024b7f97:b118",
         "src_363b2e9ecf9b:h:5297024b7f97:b18",
         "src_82c72885324a:h:5297024b7f97:b18",
-        "src_ff2b95264bfc:h:5297024b7f97:b19",
         "src_2e608dafe081:h:5297024b7f97:b19",
-        "src_2e608dafe081:h:5297024b7f97:b18",
+        "src_ff2b95264bfc:h:5297024b7f97:b19",
         "src_ff2b95264bfc:h:5297024b7f97:b18",
-        "src_82c72885324a:h:5297024b7f97:b19",
+        "src_2e608dafe081:h:5297024b7f97:b18",
         "src_363b2e9ecf9b:h:5297024b7f97:b19",
+        "src_82c72885324a:h:5297024b7f97:b19",
         "src_0496352f7f54:h:5297024b7f97:b2"
       ]
     },
@@ -15931,38 +15931,38 @@
       "top_retrieved_chunk_ids": [
         "src_e0520ddfd9ac:95b70164822a",
         "src_d5596b1dce93:95b70164822a",
-        "src_d5596b1dce93:55fc1fe04452",
         "src_e0520ddfd9ac:55fc1fe04452",
+        "src_d5596b1dce93:55fc1fe04452",
         "src_e0520ddfd9ac:934ac3be5b81",
         "src_d5596b1dce93:934ac3be5b81",
-        "src_e0520ddfd9ac:9ade8247aaf5",
         "src_d5596b1dce93:9ade8247aaf5",
-        "src_d5596b1dce93:50a17fc2db67",
-        "src_e0520ddfd9ac:50a17fc2db67"
+        "src_e0520ddfd9ac:9ade8247aaf5",
+        "src_e0520ddfd9ac:50a17fc2db67",
+        "src_d5596b1dce93:50a17fc2db67"
       ],
       "top_retrieved_source_ids": [
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_e0520ddfd9ac",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_e0520ddfd9ac:h:5297024b7f97:b631",
         "src_d5596b1dce93:h:5297024b7f97:b631",
-        "src_d5596b1dce93:h:5297024b7f97:b726",
         "src_e0520ddfd9ac:h:5297024b7f97:b726",
+        "src_d5596b1dce93:h:5297024b7f97:b726",
         "src_e0520ddfd9ac:h:5297024b7f97:b547",
         "src_d5596b1dce93:h:5297024b7f97:b547",
-        "src_e0520ddfd9ac:h:5297024b7f97:b779",
         "src_d5596b1dce93:h:5297024b7f97:b779",
-        "src_d5596b1dce93:h:5297024b7f97:b1053",
-        "src_e0520ddfd9ac:h:5297024b7f97:b1053"
+        "src_e0520ddfd9ac:h:5297024b7f97:b779",
+        "src_e0520ddfd9ac:h:5297024b7f97:b1053",
+        "src_d5596b1dce93:h:5297024b7f97:b1053"
       ]
     },
     {
@@ -15978,36 +15978,36 @@
         "src_3ad7c6b78d18:251c09728e52",
         "src_309ee3f2ff0b:532ad0a8c7b8",
         "src_e0520ddfd9ac:4363bc7d4e49",
+        "src_d5596b1dce93:4363bc7d4e49",
+        "src_d92a21efcf76:ed2d950fb1d8",
         "src_e0520ddfd9ac:b480d9b7883f",
         "src_d5596b1dce93:b480d9b7883f",
         "src_d5596b1dce93:2a955c5f74ff",
-        "src_6f802cb99781:4b6d2d32de77",
-        "src_d5596b1dce93:082886c40b09",
-        "src_e0520ddfd9ac:082886c40b09"
+        "src_6f802cb99781:4b6d2d32de77"
       ],
       "top_retrieved_source_ids": [
         "src_d92a21efcf76",
         "src_3ad7c6b78d18",
         "src_309ee3f2ff0b",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d92a21efcf76",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
-        "src_6f802cb99781",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_6f802cb99781"
       ],
       "top_retrieved_parent_ids": [
         "src_d92a21efcf76:h:5297024b7f97:b34",
         "src_3ad7c6b78d18:h:5297024b7f97:b133",
         "src_309ee3f2ff0b:h:5297024b7f97:b81",
         "src_e0520ddfd9ac:h:5297024b7f97:b528",
+        "src_d5596b1dce93:h:5297024b7f97:b528",
+        "src_d92a21efcf76:h:5297024b7f97:b23",
         "src_e0520ddfd9ac:h:5297024b7f97:b636",
         "src_d5596b1dce93:h:5297024b7f97:b636",
         "src_d5596b1dce93:h:5297024b7f97:b307",
-        "src_6f802cb99781:h:5297024b7f97:b69",
-        "src_d5596b1dce93:h:5297024b7f97:b1208",
-        "src_e0520ddfd9ac:h:5297024b7f97:b1208"
+        "src_6f802cb99781:h:5297024b7f97:b69"
       ]
     },
     {
@@ -16073,7 +16073,7 @@
         "src_d46b0d8ba7c2:4ae8fdda6b26",
         "src_e0520ddfd9ac:4363bc7d4e49",
         "src_eb28c8848470:b4d615d6e8fa",
-        "src_e0520ddfd9ac:b480d9b7883f"
+        "src_d5596b1dce93:4363bc7d4e49"
       ],
       "top_retrieved_source_ids": [
         "src_92a6ae24adf8",
@@ -16085,7 +16085,7 @@
         "src_d46b0d8ba7c2",
         "src_e0520ddfd9ac",
         "src_eb28c8848470",
-        "src_e0520ddfd9ac"
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_92a6ae24adf8:h:5297024b7f97:b99",
@@ -16097,7 +16097,7 @@
         "src_d46b0d8ba7c2:h:5297024b7f97:b4",
         "src_e0520ddfd9ac:h:5297024b7f97:b528",
         "src_eb28c8848470:h:5297024b7f97:b21",
-        "src_e0520ddfd9ac:h:5297024b7f97:b636"
+        "src_d5596b1dce93:h:5297024b7f97:b528"
       ]
     },
     {
@@ -16113,36 +16113,36 @@
         "src_6c0d8caff063:2b9cec528b3b",
         "src_87f1c4c0e959:709479b3036b",
         "src_d5596b1dce93:5bf7c4595c4c",
-        "src_e0520ddfd9ac:5bf7c4595c4c",
+        "src_6c0d8caff063:595274d60156",
         "src_e0520ddfd9ac:fd8ee2df4d26",
         "src_d5596b1dce93:fd8ee2df4d26",
+        "src_e0520ddfd9ac:47092053df13",
         "src_d5596b1dce93:47092053df13",
-        "src_d5596b1dce93:8690d88b6f49",
-        "src_e0520ddfd9ac:8690d88b6f49"
+        "src_dd44d09f37b8:30c9f7e09c01"
       ],
       "top_retrieved_source_ids": [
         "src_9cfd42812652",
         "src_6c0d8caff063",
         "src_87f1c4c0e959",
         "src_d5596b1dce93",
+        "src_6c0d8caff063",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_dd44d09f37b8"
       ],
       "top_retrieved_parent_ids": [
         "src_9cfd42812652:h:5297024b7f97:b0",
         "src_6c0d8caff063:h:5297024b7f97:b118",
         "src_87f1c4c0e959:h:5297024b7f97:b2",
         "src_d5596b1dce93:h:5297024b7f97:b630",
-        "src_e0520ddfd9ac:h:5297024b7f97:b630",
+        "src_6c0d8caff063:h:5297024b7f97:b119",
         "src_e0520ddfd9ac:h:5297024b7f97:b267",
         "src_d5596b1dce93:h:5297024b7f97:b267",
+        "src_e0520ddfd9ac:h:5297024b7f97:b1018",
         "src_d5596b1dce93:h:5297024b7f97:b1018",
-        "src_d5596b1dce93:h:5297024b7f97:b1207",
-        "src_e0520ddfd9ac:h:5297024b7f97:b1207"
+        "src_dd44d09f37b8:h:5297024b7f97:b21"
       ]
     },
     {
@@ -16200,7 +16200,6 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_9cfd42812652:38a8524c1667",
-        "src_92a6ae24adf8:0f3739592a2d",
         "src_92a6ae24adf8:809b42c1385b",
         "src_92a6ae24adf8:4ee1df900d6d",
         "src_6c0d8caff063:2b9cec528b3b",
@@ -16208,11 +16207,11 @@
         "src_87f1c4c0e959:709479b3036b",
         "src_d5596b1dce93:98cf032b9a79",
         "src_d5596b1dce93:5bf7c4595c4c",
-        "src_e0520ddfd9ac:98cf032b9a79"
+        "src_e0520ddfd9ac:98cf032b9a79",
+        "src_6c0d8caff063:595274d60156"
       ],
       "top_retrieved_source_ids": [
         "src_9cfd42812652",
-        "src_92a6ae24adf8",
         "src_92a6ae24adf8",
         "src_92a6ae24adf8",
         "src_6c0d8caff063",
@@ -16220,11 +16219,11 @@
         "src_87f1c4c0e959",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_e0520ddfd9ac",
+        "src_6c0d8caff063"
       ],
       "top_retrieved_parent_ids": [
         "src_9cfd42812652:h:5297024b7f97:b0",
-        "src_92a6ae24adf8:h:5297024b7f97:b60",
         "src_92a6ae24adf8:h:5297024b7f97:b59",
         "src_92a6ae24adf8:h:5297024b7f97:b81",
         "src_6c0d8caff063:h:5297024b7f97:b118",
@@ -16232,7 +16231,8 @@
         "src_87f1c4c0e959:h:5297024b7f97:b2",
         "src_d5596b1dce93:h:5297024b7f97:b786",
         "src_d5596b1dce93:h:5297024b7f97:b630",
-        "src_e0520ddfd9ac:h:5297024b7f97:b786"
+        "src_e0520ddfd9ac:h:5297024b7f97:b786",
+        "src_6c0d8caff063:h:5297024b7f97:b119"
       ]
     },
     {
@@ -16248,8 +16248,8 @@
         "src_e0520ddfd9ac:6734737b9b65",
         "src_6f802cb99781:f3bf34df736c",
         "src_6f802cb99781:60e85560672b",
-        "src_d5596b1dce93:e5a59a22ab25",
         "src_e0520ddfd9ac:e5a59a22ab25",
+        "src_d5596b1dce93:e5a59a22ab25",
         "src_6f802cb99781:33b571c55b5f",
         "src_e56086bb278f:8573802e43f5",
         "src_1fa00ba5471e:00a9473be4f7",
@@ -16260,8 +16260,8 @@
         "src_e0520ddfd9ac",
         "src_6f802cb99781",
         "src_6f802cb99781",
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_6f802cb99781",
         "src_e56086bb278f",
         "src_1fa00ba5471e",
@@ -16272,8 +16272,8 @@
         "src_e0520ddfd9ac:h:5297024b7f97:b504",
         "src_6f802cb99781:h:5297024b7f97:b52",
         "src_6f802cb99781:h:5297024b7f97:b31",
-        "src_d5596b1dce93:h:5297024b7f97:b333",
         "src_e0520ddfd9ac:h:5297024b7f97:b333",
+        "src_d5596b1dce93:h:5297024b7f97:b333",
         "src_6f802cb99781:h:5297024b7f97:b36",
         "src_e56086bb278f:h:5297024b7f97:b1",
         "src_1fa00ba5471e:h:5297024b7f97:b4",
@@ -16343,7 +16343,7 @@
         "src_4aa8d7a49009:44da31f8b07e",
         "src_6f802cb99781:60e85560672b",
         "src_4aa8d7a49009:040904bfe101",
-        "src_d5596b1dce93:e5a59a22ab25"
+        "src_e0520ddfd9ac:e5a59a22ab25"
       ],
       "top_retrieved_source_ids": [
         "src_12abef9658fb",
@@ -16355,7 +16355,7 @@
         "src_4aa8d7a49009",
         "src_6f802cb99781",
         "src_4aa8d7a49009",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
         "src_12abef9658fb:h:5297024b7f97:b3",
@@ -16367,7 +16367,7 @@
         "src_4aa8d7a49009:h:5297024b7f97:b18",
         "src_6f802cb99781:h:5297024b7f97:b31",
         "src_4aa8d7a49009:h:5297024b7f97:b8",
-        "src_d5596b1dce93:h:5297024b7f97:b333"
+        "src_e0520ddfd9ac:h:5297024b7f97:b333"
       ]
     },
     {
@@ -16388,7 +16388,7 @@
         "src_9caf74a7de3d:35a989467d39",
         "src_f4cb5897dd74:233fded0554f",
         "src_55469f644a44:c270836c8f6c",
-        "src_d5596b1dce93:2abb33a13283"
+        "src_e0520ddfd9ac:2abb33a13283"
       ],
       "top_retrieved_source_ids": [
         "src_02172872945b",
@@ -16400,7 +16400,7 @@
         "src_9caf74a7de3d",
         "src_f4cb5897dd74",
         "src_55469f644a44",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
         "src_02172872945b:h:5297024b7f97:b5",
@@ -16412,7 +16412,7 @@
         "src_9caf74a7de3d:h:5297024b7f97:b4",
         "src_f4cb5897dd74:h:5297024b7f97:b3",
         "src_55469f644a44:h:5297024b7f97:b5",
-        "src_d5596b1dce93:h:5297024b7f97:b482"
+        "src_e0520ddfd9ac:h:5297024b7f97:b482"
       ]
     },
     {
@@ -16514,36 +16514,36 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:3bdaee1f1493",
         "src_e0520ddfd9ac:3bdaee1f1493",
+        "src_d5596b1dce93:3bdaee1f1493",
         "src_d5596b1dce93:b061ba3b332a",
         "src_e0520ddfd9ac:b061ba3b332a",
-        "src_d5596b1dce93:9c4ebf42c7bb",
         "src_e0520ddfd9ac:9c4ebf42c7bb",
+        "src_d5596b1dce93:9c4ebf42c7bb",
         "src_e0520ddfd9ac:eb2b961695be",
         "src_d5596b1dce93:eb2b961695be",
         "src_d5596b1dce93:79345b8153a2",
         "src_e0520ddfd9ac:79345b8153a2"
       ],
       "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b436",
         "src_e0520ddfd9ac:h:5297024b7f97:b436",
+        "src_d5596b1dce93:h:5297024b7f97:b436",
         "src_d5596b1dce93:h:5297024b7f97:b856",
         "src_e0520ddfd9ac:h:5297024b7f97:b856",
-        "src_d5596b1dce93:h:5297024b7f97:b1188",
         "src_e0520ddfd9ac:h:5297024b7f97:b1188",
+        "src_d5596b1dce93:h:5297024b7f97:b1188",
         "src_e0520ddfd9ac:h:5297024b7f97:b1107",
         "src_d5596b1dce93:h:5297024b7f97:b1107",
         "src_d5596b1dce93:h:5297024b7f97:b467",
@@ -16604,8 +16604,8 @@
       "query_noisy": false,
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:3bdaee1f1493",
         "src_e0520ddfd9ac:3bdaee1f1493",
+        "src_d5596b1dce93:3bdaee1f1493",
         "src_f80e34eb56ad:b057493825c6",
         "src_f3cf94fd3921:f62e4070ab45",
         "src_363b2e9ecf9b:dcedb4ae701f",
@@ -16613,11 +16613,11 @@
         "src_82c72885324a:dcedb4ae701f",
         "src_e0520ddfd9ac:b061ba3b332a",
         "src_2e608dafe081:3880767ff662",
-        "src_d5596b1dce93:9c4ebf42c7bb"
+        "src_e0520ddfd9ac:9c4ebf42c7bb"
       ],
       "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_f80e34eb56ad",
         "src_f3cf94fd3921",
         "src_363b2e9ecf9b",
@@ -16625,11 +16625,11 @@
         "src_82c72885324a",
         "src_e0520ddfd9ac",
         "src_2e608dafe081",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b436",
         "src_e0520ddfd9ac:h:5297024b7f97:b436",
+        "src_d5596b1dce93:h:5297024b7f97:b436",
         "src_f80e34eb56ad:h:5297024b7f97:b15",
         "src_f3cf94fd3921:h:5297024b7f97:b11",
         "src_363b2e9ecf9b:h:5297024b7f97:b14",
@@ -16637,7 +16637,7 @@
         "src_82c72885324a:h:5297024b7f97:b14",
         "src_e0520ddfd9ac:h:5297024b7f97:b856",
         "src_2e608dafe081:h:5297024b7f97:b14",
-        "src_d5596b1dce93:h:5297024b7f97:b1188"
+        "src_e0520ddfd9ac:h:5297024b7f97:b1188"
       ]
     },
     {
@@ -16879,8 +16879,8 @@
         "src_e0520ddfd9ac:0c0bae35adcb",
         "src_d5596b1dce93:0c0bae35adcb",
         "src_40c21fbc97fb:f12a2f7562e0",
-        "src_e0520ddfd9ac:d5643eaca39f",
         "src_d5596b1dce93:d5643eaca39f",
+        "src_e0520ddfd9ac:d5643eaca39f",
         "src_d5596b1dce93:4ac7c1a74440",
         "src_e0520ddfd9ac:4ac7c1a74440",
         "src_d5596b1dce93:df7beb7931a1"
@@ -16891,8 +16891,8 @@
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_40c21fbc97fb",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93"
@@ -16903,8 +16903,8 @@
         "src_e0520ddfd9ac:h:5297024b7f97:b948",
         "src_d5596b1dce93:h:5297024b7f97:b948",
         "src_40c21fbc97fb:h:5297024b7f97:b16",
-        "src_e0520ddfd9ac:h:5297024b7f97:b102",
         "src_d5596b1dce93:h:5297024b7f97:b102",
+        "src_e0520ddfd9ac:h:5297024b7f97:b102",
         "src_d5596b1dce93:h:5297024b7f97:b759",
         "src_e0520ddfd9ac:h:5297024b7f97:b759",
         "src_d5596b1dce93:h:5297024b7f97:b696"
@@ -17099,8 +17099,8 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:9ca45f433fd8",
         "src_e0520ddfd9ac:9ca45f433fd8",
+        "src_d5596b1dce93:9ca45f433fd8",
         "src_1d81088c863e:8d9e23633e1b",
         "src_1d81088c863e:7430786e1d17",
         "src_1d81088c863e:50fca9a0cdae",
@@ -17111,8 +17111,8 @@
         "src_309ee3f2ff0b:34a89612f360"
       ],
       "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_1d81088c863e",
         "src_1d81088c863e",
         "src_1d81088c863e",
@@ -17123,8 +17123,8 @@
         "src_309ee3f2ff0b"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b10",
         "src_e0520ddfd9ac:h:5297024b7f97:b10",
+        "src_d5596b1dce93:h:5297024b7f97:b10",
         "src_1d81088c863e:h:5297024b7f97:b322",
         "src_1d81088c863e:h:5297024b7f97:b321",
         "src_1d81088c863e:h:5297024b7f97:b323",
@@ -17191,9 +17191,9 @@
       "top_retrieved_chunk_ids": [
         "src_3ad7c6b78d18:571672e24dc4",
         "src_12abef9658fb:605f72d269ad",
-        "src_d5596b1dce93:9ca45f433fd8",
-        "src_309ee3f2ff0b:e3bb0d983900",
         "src_e0520ddfd9ac:9ca45f433fd8",
+        "src_309ee3f2ff0b:e3bb0d983900",
+        "src_d5596b1dce93:9ca45f433fd8",
         "src_eb28c8848470:939a271df1f7",
         "src_1d81088c863e:8d9e23633e1b",
         "src_dd44d09f37b8:41fb5fd09568",
@@ -17203,9 +17203,9 @@
       "top_retrieved_source_ids": [
         "src_3ad7c6b78d18",
         "src_12abef9658fb",
-        "src_d5596b1dce93",
-        "src_309ee3f2ff0b",
         "src_e0520ddfd9ac",
+        "src_309ee3f2ff0b",
+        "src_d5596b1dce93",
         "src_eb28c8848470",
         "src_1d81088c863e",
         "src_dd44d09f37b8",
@@ -17215,9 +17215,9 @@
       "top_retrieved_parent_ids": [
         "src_3ad7c6b78d18:h:5297024b7f97:b129",
         "src_12abef9658fb:h:5297024b7f97:b29",
-        "src_d5596b1dce93:h:5297024b7f97:b10",
-        "src_309ee3f2ff0b:h:5297024b7f97:b16",
         "src_e0520ddfd9ac:h:5297024b7f97:b10",
+        "src_309ee3f2ff0b:h:5297024b7f97:b16",
+        "src_d5596b1dce93:h:5297024b7f97:b10",
         "src_eb28c8848470:h:5297024b7f97:b103",
         "src_1d81088c863e:h:5297024b7f97:b322",
         "src_dd44d09f37b8:h:5297024b7f97:b17",
@@ -17279,38 +17279,38 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:f74b5ee57260",
         "src_e0520ddfd9ac:f74b5ee57260",
-        "src_e0520ddfd9ac:375f8d15fc6c",
+        "src_d5596b1dce93:f74b5ee57260",
         "src_d5596b1dce93:375f8d15fc6c",
-        "src_e0520ddfd9ac:cc5a640a35cc",
+        "src_e0520ddfd9ac:375f8d15fc6c",
         "src_d5596b1dce93:cc5a640a35cc",
-        "src_d5596b1dce93:e5ad36aef6b8",
+        "src_e0520ddfd9ac:cc5a640a35cc",
         "src_e0520ddfd9ac:e5ad36aef6b8",
+        "src_d5596b1dce93:e5ad36aef6b8",
         "src_d5596b1dce93:b2dafe3f59ae",
         "src_e0520ddfd9ac:b2dafe3f59ae"
       ],
       "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b307",
         "src_e0520ddfd9ac:h:5297024b7f97:b307",
-        "src_e0520ddfd9ac:h:5297024b7f97:b367",
+        "src_d5596b1dce93:h:5297024b7f97:b307",
         "src_d5596b1dce93:h:5297024b7f97:b367",
-        "src_e0520ddfd9ac:h:5297024b7f97:b1074",
+        "src_e0520ddfd9ac:h:5297024b7f97:b367",
         "src_d5596b1dce93:h:5297024b7f97:b1074",
-        "src_d5596b1dce93:h:5297024b7f97:b511",
+        "src_e0520ddfd9ac:h:5297024b7f97:b1074",
         "src_e0520ddfd9ac:h:5297024b7f97:b511",
+        "src_d5596b1dce93:h:5297024b7f97:b511",
         "src_d5596b1dce93:h:5297024b7f97:b27",
         "src_e0520ddfd9ac:h:5297024b7f97:b27"
       ]
@@ -17549,40 +17549,40 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:39c289c9ea69",
         "src_e0520ddfd9ac:39c289c9ea69",
+        "src_d5596b1dce93:39c289c9ea69",
         "src_e0520ddfd9ac:8ea8184f71eb",
         "src_d5596b1dce93:8ea8184f71eb",
-        "src_d5596b1dce93:12a2015da054",
         "src_e0520ddfd9ac:12a2015da054",
+        "src_d5596b1dce93:12a2015da054",
         "src_d5596b1dce93:b1d5cbd796b2",
         "src_e0520ddfd9ac:b1d5cbd796b2",
-        "src_e0520ddfd9ac:c00b86e67e36",
-        "src_d5596b1dce93:c00b86e67e36"
+        "src_d5596b1dce93:c00b86e67e36",
+        "src_e0520ddfd9ac:c00b86e67e36"
       ],
       "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
-        "src_d5596b1dce93"
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b664",
         "src_e0520ddfd9ac:h:5297024b7f97:b664",
+        "src_d5596b1dce93:h:5297024b7f97:b664",
         "src_e0520ddfd9ac:h:5297024b7f97:b665",
         "src_d5596b1dce93:h:5297024b7f97:b665",
-        "src_d5596b1dce93:h:5297024b7f97:b661",
         "src_e0520ddfd9ac:h:5297024b7f97:b661",
+        "src_d5596b1dce93:h:5297024b7f97:b661",
         "src_d5596b1dce93:h:5297024b7f97:b938",
         "src_e0520ddfd9ac:h:5297024b7f97:b938",
-        "src_e0520ddfd9ac:h:5297024b7f97:b664",
-        "src_d5596b1dce93:h:5297024b7f97:b664"
+        "src_d5596b1dce93:h:5297024b7f97:b664",
+        "src_e0520ddfd9ac:h:5297024b7f97:b664"
       ]
     },
     {
@@ -17676,6 +17676,51 @@
       ]
     },
     {
+      "query": "Bộ phận của cỏ cú được sử dụng trong y học cổ truyền là gì?",
+      "question_source": "llm",
+      "expected_chunk_id": "src_d5596b1dce93:82c9c1ff1b4c",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b203",
+      "query_noisy": false,
+      "mode": "hybrid_rrf",
+      "top_retrieved_chunk_ids": [
+        "src_5c35274f42f8:30f3434d81ba",
+        "src_309ee3f2ff0b:81c26e8017c2",
+        "src_775e7ad62f4a:0896e984dbf4",
+        "src_e56086bb278f:430ce4d8cb8a",
+        "src_309ee3f2ff0b:1f9db5dba221",
+        "src_d5596b1dce93:a19c1857531f",
+        "src_309ee3f2ff0b:01d3c79049b1",
+        "src_e0520ddfd9ac:a19c1857531f",
+        "src_309ee3f2ff0b:684395847c0e",
+        "src_e0520ddfd9ac:47ff03a1a7f7"
+      ],
+      "top_retrieved_source_ids": [
+        "src_5c35274f42f8",
+        "src_309ee3f2ff0b",
+        "src_775e7ad62f4a",
+        "src_e56086bb278f",
+        "src_309ee3f2ff0b",
+        "src_d5596b1dce93",
+        "src_309ee3f2ff0b",
+        "src_e0520ddfd9ac",
+        "src_309ee3f2ff0b",
+        "src_e0520ddfd9ac"
+      ],
+      "top_retrieved_parent_ids": [
+        "src_5c35274f42f8:h:5297024b7f97:b10",
+        "src_309ee3f2ff0b:h:5297024b7f97:b0",
+        "src_775e7ad62f4a:h:5297024b7f97:b2",
+        "src_e56086bb278f:h:5297024b7f97:b0",
+        "src_309ee3f2ff0b:h:5297024b7f97:b1",
+        "src_d5596b1dce93:h:5297024b7f97:b202",
+        "src_309ee3f2ff0b:h:5297024b7f97:b0",
+        "src_e0520ddfd9ac:h:5297024b7f97:b202",
+        "src_309ee3f2ff0b:h:5297024b7f97:b2",
+        "src_e0520ddfd9ac:h:5297024b7f97:b804"
+      ]
+    },
+    {
       "query": "Chữa mụn nhọt bằng cách nào trong bài viết?",
       "question_source": "llm",
       "expected_chunk_id": "src_e0520ddfd9ac:701942489ca1",
@@ -17687,36 +17732,36 @@
         "src_e2fe10d2d90a:b01042a0f8d8",
         "src_d5596b1dce93:9d3e1d146a22",
         "src_e0520ddfd9ac:9d3e1d146a22",
-        "src_d5596b1dce93:317cb36b5ee5",
         "src_e0520ddfd9ac:317cb36b5ee5",
+        "src_d5596b1dce93:317cb36b5ee5",
         "src_d5596b1dce93:4fa22210d532",
         "src_e0520ddfd9ac:4fa22210d532",
-        "src_e0520ddfd9ac:ee6162df0409",
         "src_d5596b1dce93:ee6162df0409",
+        "src_e0520ddfd9ac:ee6162df0409",
         "src_d5596b1dce93:3fe981cf1d18"
       ],
       "top_retrieved_source_ids": [
         "src_e2fe10d2d90a",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
         "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_e2fe10d2d90a:h:5297024b7f97:b1",
         "src_d5596b1dce93:h:5297024b7f97:b120",
         "src_e0520ddfd9ac:h:5297024b7f97:b120",
-        "src_d5596b1dce93:h:5297024b7f97:b94",
         "src_e0520ddfd9ac:h:5297024b7f97:b94",
+        "src_d5596b1dce93:h:5297024b7f97:b94",
         "src_d5596b1dce93:h:5297024b7f97:b701",
         "src_e0520ddfd9ac:h:5297024b7f97:b701",
-        "src_e0520ddfd9ac:h:5297024b7f97:b253",
         "src_d5596b1dce93:h:5297024b7f97:b253",
+        "src_e0520ddfd9ac:h:5297024b7f97:b253",
         "src_d5596b1dce93:h:5297024b7f97:b397"
       ]
     },
@@ -17781,9 +17826,9 @@
         "src_d5596b1dce93:9d3e1d146a22",
         "src_e0520ddfd9ac:9d3e1d146a22",
         "src_eeee5b6ff251:6a06f8f86973",
-        "src_d5596b1dce93:317cb36b5ee5",
+        "src_e0520ddfd9ac:317cb36b5ee5",
         "src_e2fe10d2d90a:7e1248439469",
-        "src_e0520ddfd9ac:317cb36b5ee5"
+        "src_d5596b1dce93:317cb36b5ee5"
       ],
       "top_retrieved_source_ids": [
         "src_e2fe10d2d90a",
@@ -17793,9 +17838,9 @@
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_eeee5b6ff251",
-        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_e2fe10d2d90a",
-        "src_e0520ddfd9ac"
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_e2fe10d2d90a:h:5297024b7f97:b1",
@@ -17805,9 +17850,9 @@
         "src_d5596b1dce93:h:5297024b7f97:b120",
         "src_e0520ddfd9ac:h:5297024b7f97:b120",
         "src_eeee5b6ff251:h:5297024b7f97:b1",
-        "src_d5596b1dce93:h:5297024b7f97:b94",
+        "src_e0520ddfd9ac:h:5297024b7f97:b94",
         "src_e2fe10d2d90a:h:5297024b7f97:b1",
-        "src_e0520ddfd9ac:h:5297024b7f97:b94"
+        "src_d5596b1dce93:h:5297024b7f97:b94"
       ]
     },
     {
@@ -17826,8 +17871,8 @@
         "src_1bcc0ba43edd:e42a2f8b1a85",
         "src_d92a21efcf76:c425d9637129",
         "src_1bcc0ba43edd:26487e8eda52",
-        "src_ff2b95264bfc:fbde141615f3",
         "src_2e608dafe081:fbde141615f3",
+        "src_ff2b95264bfc:fbde141615f3",
         "src_1bcc0ba43edd:72ed1ca5bcf1"
       ],
       "top_retrieved_source_ids": [
@@ -17838,8 +17883,8 @@
         "src_1bcc0ba43edd",
         "src_d92a21efcf76",
         "src_1bcc0ba43edd",
-        "src_ff2b95264bfc",
         "src_2e608dafe081",
+        "src_ff2b95264bfc",
         "src_1bcc0ba43edd"
       ],
       "top_retrieved_parent_ids": [
@@ -17850,8 +17895,8 @@
         "src_1bcc0ba43edd:h:5297024b7f97:b137",
         "src_d92a21efcf76:h:5297024b7f97:b1",
         "src_1bcc0ba43edd:h:5297024b7f97:b110",
-        "src_ff2b95264bfc:h:5297024b7f97:b41",
         "src_2e608dafe081:h:5297024b7f97:b41",
+        "src_ff2b95264bfc:h:5297024b7f97:b41",
         "src_1bcc0ba43edd:h:5297024b7f97:b38"
       ]
     },
@@ -17912,8 +17957,8 @@
         "src_1d81088c863e:55feb8b40903",
         "src_1d81088c863e:2aff9a5dac85",
         "src_0496352f7f54:4f448ef119a4",
-        "src_2e608dafe081:bccedb3b6c82",
         "src_ff2b95264bfc:bccedb3b6c82",
+        "src_2e608dafe081:bccedb3b6c82",
         "src_1d81088c863e:3e6731d10a5d",
         "src_83ddc2a9c23c:f140583f4167",
         "src_82c72885324a:6697ffb42fdc",
@@ -17924,8 +17969,8 @@
         "src_1d81088c863e",
         "src_1d81088c863e",
         "src_0496352f7f54",
-        "src_2e608dafe081",
         "src_ff2b95264bfc",
+        "src_2e608dafe081",
         "src_1d81088c863e",
         "src_83ddc2a9c23c",
         "src_82c72885324a",
@@ -17936,8 +17981,8 @@
         "src_1d81088c863e:h:5297024b7f97:b122",
         "src_1d81088c863e:h:5297024b7f97:b97",
         "src_0496352f7f54:h:5297024b7f97:b1",
-        "src_2e608dafe081:h:5297024b7f97:b24",
         "src_ff2b95264bfc:h:5297024b7f97:b24",
+        "src_2e608dafe081:h:5297024b7f97:b24",
         "src_1d81088c863e:h:5297024b7f97:b96",
         "src_83ddc2a9c23c:h:5297024b7f97:b24",
         "src_82c72885324a:h:5297024b7f97:b24",
@@ -18007,7 +18052,7 @@
         "src_82c72885324a:dcedb4ae701f",
         "src_0496352f7f54:4f448ef119a4",
         "src_2e608dafe081:3880767ff662",
-        "src_2e608dafe081:bccedb3b6c82",
+        "src_ff2b95264bfc:bccedb3b6c82",
         "src_ff2b95264bfc:3880767ff662"
       ],
       "top_retrieved_source_ids": [
@@ -18019,7 +18064,7 @@
         "src_82c72885324a",
         "src_0496352f7f54",
         "src_2e608dafe081",
-        "src_2e608dafe081",
+        "src_ff2b95264bfc",
         "src_ff2b95264bfc"
       ],
       "top_retrieved_parent_ids": [
@@ -18031,7 +18076,7 @@
         "src_82c72885324a:h:5297024b7f97:b14",
         "src_0496352f7f54:h:5297024b7f97:b1",
         "src_2e608dafe081:h:5297024b7f97:b14",
-        "src_2e608dafe081:h:5297024b7f97:b24",
+        "src_ff2b95264bfc:h:5297024b7f97:b24",
         "src_ff2b95264bfc:h:5297024b7f97:b14"
       ]
     },
@@ -18044,40 +18089,40 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_d5596b1dce93:fbe29a95ec69",
-        "src_d5596b1dce93:f57a0593c345",
+        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_e0520ddfd9ac:f57a0593c345",
+        "src_d5596b1dce93:f57a0593c345",
         "src_d5596b1dce93:65e1dcf52279",
         "src_e0520ddfd9ac:65e1dcf52279",
-        "src_e0520ddfd9ac:1189c2625954",
         "src_d5596b1dce93:1189c2625954",
-        "src_d5596b1dce93:4a45f407d499",
-        "src_e0520ddfd9ac:4a45f407d499"
+        "src_e0520ddfd9ac:1189c2625954",
+        "src_e0520ddfd9ac:4a45f407d499",
+        "src_d5596b1dce93:4a45f407d499"
       ],
       "top_retrieved_source_ids": [
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
-        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_d5596b1dce93:h:5297024b7f97:b848",
-        "src_d5596b1dce93:h:5297024b7f97:b1172",
+        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_e0520ddfd9ac:h:5297024b7f97:b1172",
+        "src_d5596b1dce93:h:5297024b7f97:b1172",
         "src_d5596b1dce93:h:5297024b7f97:b178",
         "src_e0520ddfd9ac:h:5297024b7f97:b178",
-        "src_e0520ddfd9ac:h:5297024b7f97:b747",
         "src_d5596b1dce93:h:5297024b7f97:b747",
-        "src_d5596b1dce93:h:5297024b7f97:b771",
-        "src_e0520ddfd9ac:h:5297024b7f97:b771"
+        "src_e0520ddfd9ac:h:5297024b7f97:b747",
+        "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_d5596b1dce93:h:5297024b7f97:b771"
       ]
     },
     {
@@ -18135,37 +18180,37 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_3ad7c6b78d18:023fb55636e5",
-        "src_e0520ddfd9ac:fbe29a95ec69",
-        "src_309ee3f2ff0b:81c26e8017c2",
         "src_d5596b1dce93:fbe29a95ec69",
+        "src_309ee3f2ff0b:81c26e8017c2",
+        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_309ee3f2ff0b:1f9db5dba221",
-        "src_d5596b1dce93:f57a0593c345",
-        "src_775e7ad62f4a:0896e984dbf4",
         "src_e0520ddfd9ac:f57a0593c345",
+        "src_775e7ad62f4a:0896e984dbf4",
+        "src_d5596b1dce93:f57a0593c345",
         "src_309ee3f2ff0b:01d3c79049b1",
         "src_d5596b1dce93:65e1dcf52279"
       ],
       "top_retrieved_source_ids": [
         "src_3ad7c6b78d18",
+        "src_d5596b1dce93",
+        "src_309ee3f2ff0b",
         "src_e0520ddfd9ac",
         "src_309ee3f2ff0b",
-        "src_d5596b1dce93",
-        "src_309ee3f2ff0b",
-        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_775e7ad62f4a",
-        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_309ee3f2ff0b",
         "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_3ad7c6b78d18:h:5297024b7f97:b303",
-        "src_e0520ddfd9ac:h:5297024b7f97:b848",
-        "src_309ee3f2ff0b:h:5297024b7f97:b0",
         "src_d5596b1dce93:h:5297024b7f97:b848",
+        "src_309ee3f2ff0b:h:5297024b7f97:b0",
+        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_309ee3f2ff0b:h:5297024b7f97:b1",
-        "src_d5596b1dce93:h:5297024b7f97:b1172",
-        "src_775e7ad62f4a:h:5297024b7f97:b2",
         "src_e0520ddfd9ac:h:5297024b7f97:b1172",
+        "src_775e7ad62f4a:h:5297024b7f97:b2",
+        "src_d5596b1dce93:h:5297024b7f97:b1172",
         "src_309ee3f2ff0b:h:5297024b7f97:b0",
         "src_d5596b1dce93:h:5297024b7f97:b178"
       ]
@@ -18183,10 +18228,10 @@
         "src_3ad7c6b78d18:31376e4a5718",
         "src_12abef9658fb:21aea088babd",
         "src_309ee3f2ff0b:0999354a293b",
-        "src_d5596b1dce93:4e84ee95d1ad",
         "src_e0520ddfd9ac:4e84ee95d1ad",
-        "src_e0520ddfd9ac:0cbd2630d872",
+        "src_d5596b1dce93:4e84ee95d1ad",
         "src_d5596b1dce93:0cbd2630d872",
+        "src_e0520ddfd9ac:0cbd2630d872",
         "src_d5596b1dce93:6d9dd9eb5c34",
         "src_e0520ddfd9ac:6d9dd9eb5c34"
       ],
@@ -18195,10 +18240,10 @@
         "src_3ad7c6b78d18",
         "src_12abef9658fb",
         "src_309ee3f2ff0b",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac"
       ],
@@ -18207,10 +18252,10 @@
         "src_3ad7c6b78d18:h:5297024b7f97:b283",
         "src_12abef9658fb:h:5297024b7f97:b28",
         "src_309ee3f2ff0b:h:5297024b7f97:b71",
-        "src_d5596b1dce93:h:5297024b7f97:b568",
         "src_e0520ddfd9ac:h:5297024b7f97:b568",
-        "src_e0520ddfd9ac:h:5297024b7f97:b990",
+        "src_d5596b1dce93:h:5297024b7f97:b568",
         "src_d5596b1dce93:h:5297024b7f97:b990",
+        "src_e0520ddfd9ac:h:5297024b7f97:b990",
         "src_d5596b1dce93:h:5297024b7f97:b1135",
         "src_e0520ddfd9ac:h:5297024b7f97:b1135"
       ]
@@ -18278,7 +18323,7 @@
         "src_e0520ddfd9ac:a0d87b3caaa7",
         "src_309ee3f2ff0b:0999354a293b",
         "src_d5596b1dce93:b9cf3fa2e090",
-        "src_d5596b1dce93:4e84ee95d1ad"
+        "src_e0520ddfd9ac:4e84ee95d1ad"
       ],
       "top_retrieved_source_ids": [
         "src_d5596b1dce93",
@@ -18290,7 +18335,7 @@
         "src_e0520ddfd9ac",
         "src_309ee3f2ff0b",
         "src_d5596b1dce93",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
         "src_d5596b1dce93:h:5297024b7f97:b638",
@@ -18302,7 +18347,7 @@
         "src_e0520ddfd9ac:h:5297024b7f97:b997",
         "src_309ee3f2ff0b:h:5297024b7f97:b71",
         "src_d5596b1dce93:h:5297024b7f97:b563",
-        "src_d5596b1dce93:h:5297024b7f97:b568"
+        "src_e0520ddfd9ac:h:5297024b7f97:b568"
       ]
     },
     {
@@ -18314,40 +18359,40 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_e0520ddfd9ac:d124c8225e32",
         "src_d5596b1dce93:d124c8225e32",
-        "src_e0520ddfd9ac:f798c8bb57a4",
+        "src_e0520ddfd9ac:d124c8225e32",
         "src_d5596b1dce93:f798c8bb57a4",
+        "src_e0520ddfd9ac:f798c8bb57a4",
         "src_6f802cb99781:25b9c178a804",
-        "src_d5596b1dce93:4a45f407d499",
         "src_e0520ddfd9ac:4a45f407d499",
+        "src_d5596b1dce93:4a45f407d499",
         "src_e0520ddfd9ac:737e76e683e9",
         "src_d5596b1dce93:737e76e683e9",
-        "src_e0520ddfd9ac:2a955c5f74ff"
+        "src_d5596b1dce93:2a955c5f74ff"
       ],
       "top_retrieved_source_ids": [
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_6f802cb99781",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac"
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
-        "src_e0520ddfd9ac:h:5297024b7f97:b467",
         "src_d5596b1dce93:h:5297024b7f97:b467",
-        "src_e0520ddfd9ac:h:5297024b7f97:b685",
+        "src_e0520ddfd9ac:h:5297024b7f97:b467",
         "src_d5596b1dce93:h:5297024b7f97:b685",
+        "src_e0520ddfd9ac:h:5297024b7f97:b685",
         "src_6f802cb99781:h:5297024b7f97:b6",
-        "src_d5596b1dce93:h:5297024b7f97:b771",
         "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_d5596b1dce93:h:5297024b7f97:b771",
         "src_e0520ddfd9ac:h:5297024b7f97:b1111",
         "src_d5596b1dce93:h:5297024b7f97:b1111",
-        "src_e0520ddfd9ac:h:5297024b7f97:b307"
+        "src_d5596b1dce93:h:5297024b7f97:b307"
       ]
     },
     {
@@ -18449,40 +18494,40 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:0ad2b06a102f",
         "src_e0520ddfd9ac:0ad2b06a102f",
-        "src_e0520ddfd9ac:f314cdc24bb6",
+        "src_d5596b1dce93:0ad2b06a102f",
         "src_d5596b1dce93:f314cdc24bb6",
+        "src_e0520ddfd9ac:f314cdc24bb6",
         "src_d5596b1dce93:767849e389f2",
         "src_e0520ddfd9ac:767849e389f2",
         "src_e0520ddfd9ac:f0ac138e1b98",
         "src_d5596b1dce93:f0ac138e1b98",
-        "src_e0520ddfd9ac:629e5f0ad85d",
-        "src_d5596b1dce93:629e5f0ad85d"
+        "src_d5596b1dce93:629e5f0ad85d",
+        "src_e0520ddfd9ac:629e5f0ad85d"
       ],
       "top_retrieved_source_ids": [
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b154",
         "src_e0520ddfd9ac:h:5297024b7f97:b154",
-        "src_e0520ddfd9ac:h:5297024b7f97:b958",
+        "src_d5596b1dce93:h:5297024b7f97:b154",
         "src_d5596b1dce93:h:5297024b7f97:b958",
+        "src_e0520ddfd9ac:h:5297024b7f97:b958",
         "src_d5596b1dce93:h:5297024b7f97:b836",
         "src_e0520ddfd9ac:h:5297024b7f97:b836",
         "src_e0520ddfd9ac:h:5297024b7f97:b402",
         "src_d5596b1dce93:h:5297024b7f97:b402",
-        "src_e0520ddfd9ac:h:5297024b7f97:b775",
-        "src_d5596b1dce93:h:5297024b7f97:b775"
+        "src_d5596b1dce93:h:5297024b7f97:b775",
+        "src_e0520ddfd9ac:h:5297024b7f97:b775"
       ]
     },
     {
@@ -18540,37 +18585,37 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_db2f95e72338:ee8d07d34000",
-        "src_d5596b1dce93:0ad2b06a102f",
-        "src_ef3d6ff3846c:98eae6d0f098",
         "src_e0520ddfd9ac:0ad2b06a102f",
+        "src_ef3d6ff3846c:98eae6d0f098",
+        "src_d5596b1dce93:0ad2b06a102f",
         "src_eb28c8848470:afa9a9d4f54a",
-        "src_e0520ddfd9ac:f314cdc24bb6",
-        "src_d5596b1dce93:4360cfd7b53f",
         "src_d5596b1dce93:f314cdc24bb6",
+        "src_d5596b1dce93:4360cfd7b53f",
+        "src_e0520ddfd9ac:f314cdc24bb6",
         "src_e0520ddfd9ac:4360cfd7b53f",
         "src_d5596b1dce93:767849e389f2"
       ],
       "top_retrieved_source_ids": [
         "src_db2f95e72338",
-        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_ef3d6ff3846c",
-        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_eb28c8848470",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_db2f95e72338:h:5297024b7f97:b4",
-        "src_d5596b1dce93:h:5297024b7f97:b154",
-        "src_ef3d6ff3846c:h:5297024b7f97:b19",
         "src_e0520ddfd9ac:h:5297024b7f97:b154",
+        "src_ef3d6ff3846c:h:5297024b7f97:b19",
+        "src_d5596b1dce93:h:5297024b7f97:b154",
         "src_eb28c8848470:h:5297024b7f97:b84",
-        "src_e0520ddfd9ac:h:5297024b7f97:b958",
-        "src_d5596b1dce93:h:5297024b7f97:b265",
         "src_d5596b1dce93:h:5297024b7f97:b958",
+        "src_d5596b1dce93:h:5297024b7f97:b265",
+        "src_e0520ddfd9ac:h:5297024b7f97:b958",
         "src_e0520ddfd9ac:h:5297024b7f97:b265",
         "src_d5596b1dce93:h:5297024b7f97:b836"
       ]
@@ -18585,39 +18630,39 @@
       "mode": "vector",
       "top_retrieved_chunk_ids": [
         "src_4aa8d7a49009:8e9368d97930",
-        "src_d5596b1dce93:822445d90fd8",
         "src_e0520ddfd9ac:822445d90fd8",
+        "src_d5596b1dce93:822445d90fd8",
         "src_e0520ddfd9ac:6523f4ccfe13",
         "src_d5596b1dce93:6523f4ccfe13",
-        "src_e0520ddfd9ac:43f3af76c81f",
         "src_d5596b1dce93:43f3af76c81f",
+        "src_e0520ddfd9ac:43f3af76c81f",
         "src_e56086bb278f:8573802e43f5",
         "src_40c21fbc97fb:3dfdf2878a03",
-        "src_e0520ddfd9ac:db847ce2920f"
+        "src_d5596b1dce93:db847ce2920f"
       ],
       "top_retrieved_source_ids": [
         "src_4aa8d7a49009",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_e56086bb278f",
         "src_40c21fbc97fb",
-        "src_e0520ddfd9ac"
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_4aa8d7a49009:h:5297024b7f97:b72",
-        "src_d5596b1dce93:h:5297024b7f97:b827",
         "src_e0520ddfd9ac:h:5297024b7f97:b827",
+        "src_d5596b1dce93:h:5297024b7f97:b827",
         "src_e0520ddfd9ac:h:5297024b7f97:b432",
         "src_d5596b1dce93:h:5297024b7f97:b432",
-        "src_e0520ddfd9ac:h:5297024b7f97:b706",
         "src_d5596b1dce93:h:5297024b7f97:b706",
+        "src_e0520ddfd9ac:h:5297024b7f97:b706",
         "src_e56086bb278f:h:5297024b7f97:b1",
         "src_40c21fbc97fb:h:5297024b7f97:b29",
-        "src_e0520ddfd9ac:h:5297024b7f97:b629"
+        "src_d5596b1dce93:h:5297024b7f97:b629"
       ]
     },
     {
@@ -18674,38 +18719,38 @@
       "query_noisy": false,
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
-        "src_e0520ddfd9ac:2eccb68d9bc4",
         "src_d5596b1dce93:2eccb68d9bc4",
+        "src_e0520ddfd9ac:2eccb68d9bc4",
         "src_dc9975133c19:f09f49791464",
         "src_4aa8d7a49009:8e9368d97930",
         "src_f80e34eb56ad:ce110dad6da0",
-        "src_d5596b1dce93:822445d90fd8",
-        "src_1d81088c863e:31e45497c05a",
         "src_e0520ddfd9ac:822445d90fd8",
+        "src_1d81088c863e:31e45497c05a",
+        "src_d5596b1dce93:822445d90fd8",
         "src_3ad7c6b78d18:c5265798a8ee",
         "src_e0520ddfd9ac:6523f4ccfe13"
       ],
       "top_retrieved_source_ids": [
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_dc9975133c19",
         "src_4aa8d7a49009",
         "src_f80e34eb56ad",
-        "src_d5596b1dce93",
-        "src_1d81088c863e",
         "src_e0520ddfd9ac",
+        "src_1d81088c863e",
+        "src_d5596b1dce93",
         "src_3ad7c6b78d18",
         "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_e0520ddfd9ac:h:5297024b7f97:b879",
         "src_d5596b1dce93:h:5297024b7f97:b879",
+        "src_e0520ddfd9ac:h:5297024b7f97:b879",
         "src_dc9975133c19:h:5297024b7f97:b6",
         "src_4aa8d7a49009:h:5297024b7f97:b72",
         "src_f80e34eb56ad:h:5297024b7f97:b19",
-        "src_d5596b1dce93:h:5297024b7f97:b827",
-        "src_1d81088c863e:h:5297024b7f97:b7",
         "src_e0520ddfd9ac:h:5297024b7f97:b827",
+        "src_1d81088c863e:h:5297024b7f97:b7",
+        "src_d5596b1dce93:h:5297024b7f97:b827",
         "src_3ad7c6b78d18:h:5297024b7f97:b212",
         "src_e0520ddfd9ac:h:5297024b7f97:b432"
       ]
@@ -18764,36 +18809,36 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_d5596b1dce93:fbe29a95ec69",
+        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_d5596b1dce93:1189c2625954",
         "src_e0520ddfd9ac:1189c2625954",
-        "src_e0520ddfd9ac:4a45f407d499",
         "src_d5596b1dce93:4a45f407d499",
+        "src_e0520ddfd9ac:4a45f407d499",
         "src_e0520ddfd9ac:b848465a5dec",
         "src_d5596b1dce93:b848465a5dec",
         "src_e0520ddfd9ac:65e1dcf52279",
         "src_d5596b1dce93:65e1dcf52279"
       ],
       "top_retrieved_source_ids": [
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
-        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_d5596b1dce93:h:5297024b7f97:b848",
+        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_d5596b1dce93:h:5297024b7f97:b747",
         "src_e0520ddfd9ac:h:5297024b7f97:b747",
-        "src_e0520ddfd9ac:h:5297024b7f97:b771",
         "src_d5596b1dce93:h:5297024b7f97:b771",
+        "src_e0520ddfd9ac:h:5297024b7f97:b771",
         "src_e0520ddfd9ac:h:5297024b7f97:b1164",
         "src_d5596b1dce93:h:5297024b7f97:b1164",
         "src_e0520ddfd9ac:h:5297024b7f97:b178",
@@ -18855,39 +18900,84 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_3ad7c6b78d18:023fb55636e5",
-        "src_e0520ddfd9ac:fbe29a95ec69",
-        "src_309ee3f2ff0b:81c26e8017c2",
         "src_d5596b1dce93:fbe29a95ec69",
+        "src_309ee3f2ff0b:81c26e8017c2",
+        "src_e0520ddfd9ac:fbe29a95ec69",
         "src_309ee3f2ff0b:1f9db5dba221",
         "src_d5596b1dce93:1189c2625954",
         "src_775e7ad62f4a:65295497620b",
         "src_e0520ddfd9ac:1189c2625954",
         "src_1d81088c863e:d721dd6ca5cf",
-        "src_e0520ddfd9ac:4a45f407d499"
+        "src_d5596b1dce93:4a45f407d499"
       ],
       "top_retrieved_source_ids": [
         "src_3ad7c6b78d18",
-        "src_e0520ddfd9ac",
-        "src_309ee3f2ff0b",
         "src_d5596b1dce93",
+        "src_309ee3f2ff0b",
+        "src_e0520ddfd9ac",
         "src_309ee3f2ff0b",
         "src_d5596b1dce93",
         "src_775e7ad62f4a",
         "src_e0520ddfd9ac",
         "src_1d81088c863e",
-        "src_e0520ddfd9ac"
+        "src_d5596b1dce93"
       ],
       "top_retrieved_parent_ids": [
         "src_3ad7c6b78d18:h:5297024b7f97:b303",
-        "src_e0520ddfd9ac:h:5297024b7f97:b848",
-        "src_309ee3f2ff0b:h:5297024b7f97:b0",
         "src_d5596b1dce93:h:5297024b7f97:b848",
+        "src_309ee3f2ff0b:h:5297024b7f97:b0",
+        "src_e0520ddfd9ac:h:5297024b7f97:b848",
         "src_309ee3f2ff0b:h:5297024b7f97:b1",
         "src_d5596b1dce93:h:5297024b7f97:b747",
         "src_775e7ad62f4a:h:5297024b7f97:b2",
         "src_e0520ddfd9ac:h:5297024b7f97:b747",
         "src_1d81088c863e:h:5297024b7f97:b245",
-        "src_e0520ddfd9ac:h:5297024b7f97:b771"
+        "src_d5596b1dce93:h:5297024b7f97:b771"
+      ]
+    },
+    {
+      "query": "Toàn cây của loài Na - Acalypha lanceolata được sử dụng bộ phận nào trong y học cổ truyền?",
+      "question_source": "llm",
+      "expected_chunk_id": "src_e0520ddfd9ac:3a9a9dc7e91d",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b957",
+      "query_noisy": false,
+      "mode": "vector",
+      "top_retrieved_chunk_ids": [
+        "src_e0520ddfd9ac:82b6be09dbf2",
+        "src_d5596b1dce93:82b6be09dbf2",
+        "src_d5596b1dce93:4a45f407d499",
+        "src_e0520ddfd9ac:4a45f407d499",
+        "src_d5596b1dce93:3a9a9dc7e91d",
+        "src_d5596b1dce93:14da8edef358",
+        "src_e0520ddfd9ac:14da8edef358",
+        "src_d5596b1dce93:5643d559414d",
+        "src_e0520ddfd9ac:5643d559414d",
+        "src_d5596b1dce93:b88b9a242445"
+      ],
+      "top_retrieved_source_ids": [
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
+        "src_d5596b1dce93"
+      ],
+      "top_retrieved_parent_ids": [
+        "src_e0520ddfd9ac:h:5297024b7f97:b669",
+        "src_d5596b1dce93:h:5297024b7f97:b669",
+        "src_d5596b1dce93:h:5297024b7f97:b771",
+        "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_d5596b1dce93:h:5297024b7f97:b957",
+        "src_d5596b1dce93:h:5297024b7f97:b696",
+        "src_e0520ddfd9ac:h:5297024b7f97:b696",
+        "src_d5596b1dce93:h:5297024b7f97:b687",
+        "src_e0520ddfd9ac:h:5297024b7f97:b687",
+        "src_d5596b1dce93:h:5297024b7f97:b621"
       ]
     },
     {
@@ -18936,6 +19026,51 @@
       ]
     },
     {
+      "query": "Toàn cây của loài Na - Acalypha lanceolata được sử dụng bộ phận nào trong y học cổ truyền?",
+      "question_source": "llm",
+      "expected_chunk_id": "src_e0520ddfd9ac:3a9a9dc7e91d",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b957",
+      "query_noisy": false,
+      "mode": "hybrid_rrf",
+      "top_retrieved_chunk_ids": [
+        "src_901a97a5099b:3dcfd4fba05f",
+        "src_e0520ddfd9ac:82b6be09dbf2",
+        "src_309ee3f2ff0b:1f9db5dba221",
+        "src_d5596b1dce93:82b6be09dbf2",
+        "src_3ad7c6b78d18:023fb55636e5",
+        "src_d5596b1dce93:4a45f407d499",
+        "src_309ee3f2ff0b:81c26e8017c2",
+        "src_e0520ddfd9ac:4a45f407d499",
+        "src_775e7ad62f4a:65295497620b",
+        "src_d5596b1dce93:3a9a9dc7e91d"
+      ],
+      "top_retrieved_source_ids": [
+        "src_901a97a5099b",
+        "src_e0520ddfd9ac",
+        "src_309ee3f2ff0b",
+        "src_d5596b1dce93",
+        "src_3ad7c6b78d18",
+        "src_d5596b1dce93",
+        "src_309ee3f2ff0b",
+        "src_e0520ddfd9ac",
+        "src_775e7ad62f4a",
+        "src_d5596b1dce93"
+      ],
+      "top_retrieved_parent_ids": [
+        "src_901a97a5099b:h:5297024b7f97:b73",
+        "src_e0520ddfd9ac:h:5297024b7f97:b669",
+        "src_309ee3f2ff0b:h:5297024b7f97:b1",
+        "src_d5596b1dce93:h:5297024b7f97:b669",
+        "src_3ad7c6b78d18:h:5297024b7f97:b303",
+        "src_d5596b1dce93:h:5297024b7f97:b771",
+        "src_309ee3f2ff0b:h:5297024b7f97:b0",
+        "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_775e7ad62f4a:h:5297024b7f97:b2",
+        "src_d5596b1dce93:h:5297024b7f97:b957"
+      ]
+    },
+    {
       "query": "Trong loại nào có chứa emodin và chrysop hanol?",
       "question_source": "llm",
       "expected_chunk_id": "src_d5596b1dce93:f44751440d23",
@@ -18949,8 +19084,8 @@
         "src_e0520ddfd9ac:d5643eaca39f",
         "src_4aa8d7a49009:c2005a929248",
         "src_e47c617b6b5c:545f732a583c",
-        "src_e0520ddfd9ac:de638f6bcc51",
         "src_d5596b1dce93:de638f6bcc51",
+        "src_e0520ddfd9ac:de638f6bcc51",
         "src_92a6ae24adf8:094734fd975a",
         "src_d5596b1dce93:9046ae202e81",
         "src_3ad7c6b78d18:f6fdad244242"
@@ -18961,8 +19096,8 @@
         "src_e0520ddfd9ac",
         "src_4aa8d7a49009",
         "src_e47c617b6b5c",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_92a6ae24adf8",
         "src_d5596b1dce93",
         "src_3ad7c6b78d18"
@@ -18973,8 +19108,8 @@
         "src_e0520ddfd9ac:h:5297024b7f97:b102",
         "src_4aa8d7a49009:h:5297024b7f97:b71",
         "src_e47c617b6b5c:h:5297024b7f97:b1",
-        "src_e0520ddfd9ac:h:5297024b7f97:b316",
         "src_d5596b1dce93:h:5297024b7f97:b316",
+        "src_e0520ddfd9ac:h:5297024b7f97:b316",
         "src_92a6ae24adf8:h:5297024b7f97:b89",
         "src_d5596b1dce93:h:5297024b7f97:b1073",
         "src_3ad7c6b78d18:h:5297024b7f97:b0"
@@ -19035,8 +19170,8 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_9cfd42812652:32e1f7747fa4",
-        "src_e0520ddfd9ac:de638f6bcc51",
         "src_d5596b1dce93:de638f6bcc51",
+        "src_e0520ddfd9ac:de638f6bcc51",
         "src_d5596b1dce93:19f32abbed8d",
         "src_e0520ddfd9ac:19f32abbed8d",
         "src_d5596b1dce93:f798c8bb57a4",
@@ -19047,8 +19182,8 @@
       ],
       "top_retrieved_source_ids": [
         "src_9cfd42812652",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
@@ -19059,8 +19194,8 @@
       ],
       "top_retrieved_parent_ids": [
         "src_9cfd42812652:h:5297024b7f97:b2",
-        "src_e0520ddfd9ac:h:5297024b7f97:b316",
         "src_d5596b1dce93:h:5297024b7f97:b316",
+        "src_e0520ddfd9ac:h:5297024b7f97:b316",
         "src_d5596b1dce93:h:5297024b7f97:b1176",
         "src_e0520ddfd9ac:h:5297024b7f97:b1176",
         "src_d5596b1dce93:h:5297024b7f97:b685",
@@ -19349,40 +19484,40 @@
       "query_noisy": false,
       "mode": "vector",
       "top_retrieved_chunk_ids": [
-        "src_e0520ddfd9ac:d6180ea73c45",
         "src_d5596b1dce93:d6180ea73c45",
+        "src_e0520ddfd9ac:d6180ea73c45",
         "src_d5596b1dce93:ec41978ac1ec",
         "src_e0520ddfd9ac:ec41978ac1ec",
-        "src_d5596b1dce93:e0d3b3cbf785",
         "src_e0520ddfd9ac:e0d3b3cbf785",
-        "src_e0520ddfd9ac:4a45f407d499",
+        "src_d5596b1dce93:e0d3b3cbf785",
         "src_d5596b1dce93:4a45f407d499",
-        "src_e0520ddfd9ac:b382cbd217d9",
-        "src_d5596b1dce93:b382cbd217d9"
+        "src_e0520ddfd9ac:4a45f407d499",
+        "src_d5596b1dce93:b382cbd217d9",
+        "src_e0520ddfd9ac:b382cbd217d9"
       ],
       "top_retrieved_source_ids": [
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
-        "src_d5596b1dce93"
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
-        "src_e0520ddfd9ac:h:5297024b7f97:b959",
         "src_d5596b1dce93:h:5297024b7f97:b959",
+        "src_e0520ddfd9ac:h:5297024b7f97:b959",
         "src_d5596b1dce93:h:5297024b7f97:b1038",
         "src_e0520ddfd9ac:h:5297024b7f97:b1038",
-        "src_d5596b1dce93:h:5297024b7f97:b1023",
         "src_e0520ddfd9ac:h:5297024b7f97:b1023",
-        "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_d5596b1dce93:h:5297024b7f97:b1023",
         "src_d5596b1dce93:h:5297024b7f97:b771",
-        "src_e0520ddfd9ac:h:5297024b7f97:b161",
-        "src_d5596b1dce93:h:5297024b7f97:b161"
+        "src_e0520ddfd9ac:h:5297024b7f97:b771",
+        "src_d5596b1dce93:h:5297024b7f97:b161",
+        "src_e0520ddfd9ac:h:5297024b7f97:b161"
       ]
     },
     {
@@ -19440,39 +19575,39 @@
       "mode": "hybrid_rrf",
       "top_retrieved_chunk_ids": [
         "src_715f913a01a9:255f6441a8ac",
-        "src_e0520ddfd9ac:d6180ea73c45",
-        "src_eb28c8848470:543dc869ae75",
         "src_d5596b1dce93:d6180ea73c45",
+        "src_eb28c8848470:543dc869ae75",
+        "src_e0520ddfd9ac:d6180ea73c45",
         "src_12abef9658fb:88bc1345a8a8",
         "src_d5596b1dce93:ec41978ac1ec",
         "src_5c35274f42f8:1c0eac97b3b5",
         "src_e0520ddfd9ac:ec41978ac1ec",
         "src_715f913a01a9:db01eeefe6b6",
-        "src_d5596b1dce93:e0d3b3cbf785"
+        "src_e0520ddfd9ac:e0d3b3cbf785"
       ],
       "top_retrieved_source_ids": [
         "src_715f913a01a9",
-        "src_e0520ddfd9ac",
-        "src_eb28c8848470",
         "src_d5596b1dce93",
+        "src_eb28c8848470",
+        "src_e0520ddfd9ac",
         "src_12abef9658fb",
         "src_d5596b1dce93",
         "src_5c35274f42f8",
         "src_e0520ddfd9ac",
         "src_715f913a01a9",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
         "src_715f913a01a9:h:5297024b7f97:b34",
-        "src_e0520ddfd9ac:h:5297024b7f97:b959",
-        "src_eb28c8848470:h:5297024b7f97:b31",
         "src_d5596b1dce93:h:5297024b7f97:b959",
+        "src_eb28c8848470:h:5297024b7f97:b31",
+        "src_e0520ddfd9ac:h:5297024b7f97:b959",
         "src_12abef9658fb:h:5297024b7f97:b10",
         "src_d5596b1dce93:h:5297024b7f97:b1038",
         "src_5c35274f42f8:h:5297024b7f97:b10",
         "src_e0520ddfd9ac:h:5297024b7f97:b1038",
         "src_715f913a01a9:h:5297024b7f97:b33",
-        "src_d5596b1dce93:h:5297024b7f97:b1023"
+        "src_e0520ddfd9ac:h:5297024b7f97:b1023"
       ]
     },
     {
@@ -19611,51 +19746,6 @@
       ]
     },
     {
-      "query": "Bộ phận dùng của thổ phục linh là gì?",
-      "question_source": "llm",
-      "expected_chunk_id": "src_e0520ddfd9ac:3cb1d682630f",
-      "expected_source_id": "src_e0520ddfd9ac",
-      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1044",
-      "query_noisy": false,
-      "mode": "hybrid_rrf",
-      "top_retrieved_chunk_ids": [
-        "src_4fd9b68d1856:29eec6e46040",
-        "src_4fd9b68d1856:99fbc47a2437",
-        "src_7cdb5f831e1c:48caf33a9eac",
-        "src_f0fc7d32edd3:2309dd703ade",
-        "src_7cdb5f831e1c:92883b717198",
-        "src_7cdb5f831e1c:32d4ae521167",
-        "src_ab5904eafcde:8b0171245b38",
-        "src_dc9975133c19:9f0b8a3e579d",
-        "src_7cdb5f831e1c:17e43bd2e38b",
-        "src_d5596b1dce93:3cb1d682630f"
-      ],
-      "top_retrieved_source_ids": [
-        "src_4fd9b68d1856",
-        "src_4fd9b68d1856",
-        "src_7cdb5f831e1c",
-        "src_f0fc7d32edd3",
-        "src_7cdb5f831e1c",
-        "src_7cdb5f831e1c",
-        "src_ab5904eafcde",
-        "src_dc9975133c19",
-        "src_7cdb5f831e1c",
-        "src_d5596b1dce93"
-      ],
-      "top_retrieved_parent_ids": [
-        "src_4fd9b68d1856:h:5297024b7f97:b3",
-        "src_4fd9b68d1856:h:5297024b7f97:b3",
-        "src_7cdb5f831e1c:h:5297024b7f97:b17",
-        "src_f0fc7d32edd3:h:5297024b7f97:b7",
-        "src_7cdb5f831e1c:h:5297024b7f97:b26",
-        "src_7cdb5f831e1c:h:5297024b7f97:b46",
-        "src_ab5904eafcde:h:5297024b7f97:b1",
-        "src_dc9975133c19:h:5297024b7f97:b6",
-        "src_7cdb5f831e1c:h:5297024b7f97:b54",
-        "src_d5596b1dce93:h:5297024b7f97:b1044"
-      ]
-    },
-    {
       "query": "Loài saurauiaceae nào được mô tả trong đoạn văn?",
       "question_source": "llm",
       "expected_chunk_id": "src_e0520ddfd9ac:1d575f5fa8e4",
@@ -19667,8 +19757,8 @@
         "src_6f802cb99781:1fa495d83dc4",
         "src_309ee3f2ff0b:532ad0a8c7b8",
         "src_309ee3f2ff0b:aa4fdadd09f2",
-        "src_e0520ddfd9ac:c24f7f9b02c2",
         "src_d5596b1dce93:c24f7f9b02c2",
+        "src_e0520ddfd9ac:c24f7f9b02c2",
         "src_d5596b1dce93:95f26b7e1039",
         "src_e0520ddfd9ac:95f26b7e1039",
         "src_309ee3f2ff0b:dbf8fe8ebc8c",
@@ -19679,8 +19769,8 @@
         "src_6f802cb99781",
         "src_309ee3f2ff0b",
         "src_309ee3f2ff0b",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
         "src_e0520ddfd9ac",
         "src_309ee3f2ff0b",
@@ -19691,8 +19781,8 @@
         "src_6f802cb99781:h:5297024b7f97:b44",
         "src_309ee3f2ff0b:h:5297024b7f97:b81",
         "src_309ee3f2ff0b:h:5297024b7f97:b80",
-        "src_e0520ddfd9ac:h:5297024b7f97:b846",
         "src_d5596b1dce93:h:5297024b7f97:b846",
+        "src_e0520ddfd9ac:h:5297024b7f97:b846",
         "src_d5596b1dce93:h:5297024b7f97:b843",
         "src_e0520ddfd9ac:h:5297024b7f97:b843",
         "src_309ee3f2ff0b:h:5297024b7f97:b82",
@@ -19761,9 +19851,9 @@
         "src_0797fad8a92a:10723e777438",
         "src_309ee3f2ff0b:aa4fdadd09f2",
         "src_d46b0d8ba7c2:4ae8fdda6b26",
-        "src_e0520ddfd9ac:c24f7f9b02c2",
+        "src_d5596b1dce93:c24f7f9b02c2",
         "src_eb28c8848470:b4d615d6e8fa",
-        "src_d5596b1dce93:c24f7f9b02c2"
+        "src_e0520ddfd9ac:c24f7f9b02c2"
       ],
       "top_retrieved_source_ids": [
         "src_92a6ae24adf8",
@@ -19773,9 +19863,9 @@
         "src_0797fad8a92a",
         "src_309ee3f2ff0b",
         "src_d46b0d8ba7c2",
-        "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_eb28c8848470",
-        "src_d5596b1dce93"
+        "src_e0520ddfd9ac"
       ],
       "top_retrieved_parent_ids": [
         "src_92a6ae24adf8:h:5297024b7f97:b99",
@@ -19785,9 +19875,9 @@
         "src_0797fad8a92a:h:5297024b7f97:b43",
         "src_309ee3f2ff0b:h:5297024b7f97:b80",
         "src_d46b0d8ba7c2:h:5297024b7f97:b4",
-        "src_e0520ddfd9ac:h:5297024b7f97:b846",
+        "src_d5596b1dce93:h:5297024b7f97:b846",
         "src_eb28c8848470:h:5297024b7f97:b21",
-        "src_d5596b1dce93:h:5297024b7f97:b846"
+        "src_e0520ddfd9ac:h:5297024b7f97:b846"
       ]
     },
     {
@@ -20116,11 +20206,11 @@
       "top_retrieved_chunk_ids": [
         "src_e0520ddfd9ac:3d1fa72ee04e",
         "src_d5596b1dce93:3d1fa72ee04e",
-        "src_d5596b1dce93:92832ce65499",
         "src_e0520ddfd9ac:92832ce65499",
+        "src_d5596b1dce93:92832ce65499",
         "src_ae3b6786b57c:d2cdab957519",
-        "src_e0520ddfd9ac:ee36fc2efc6b",
         "src_d5596b1dce93:ee36fc2efc6b",
+        "src_e0520ddfd9ac:ee36fc2efc6b",
         "src_e7b72b3ed72e:f14466f4e8f2",
         "src_40c21fbc97fb:ec316ac07a32",
         "src_40c21fbc97fb:cb0cd2e14324"
@@ -20128,11 +20218,11 @@
       "top_retrieved_source_ids": [
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_d5596b1dce93",
         "src_e0520ddfd9ac",
+        "src_d5596b1dce93",
         "src_ae3b6786b57c",
-        "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_e7b72b3ed72e",
         "src_40c21fbc97fb",
         "src_40c21fbc97fb"
@@ -20140,11 +20230,11 @@
       "top_retrieved_parent_ids": [
         "src_e0520ddfd9ac:h:5297024b7f97:b133",
         "src_d5596b1dce93:h:5297024b7f97:b133",
-        "src_d5596b1dce93:h:5297024b7f97:b134",
         "src_e0520ddfd9ac:h:5297024b7f97:b134",
+        "src_d5596b1dce93:h:5297024b7f97:b134",
         "src_ae3b6786b57c:h:5297024b7f97:b5",
-        "src_e0520ddfd9ac:h:5297024b7f97:b133",
         "src_d5596b1dce93:h:5297024b7f97:b133",
+        "src_e0520ddfd9ac:h:5297024b7f97:b133",
         "src_e7b72b3ed72e:h:5297024b7f97:b49",
         "src_40c21fbc97fb:h:5297024b7f97:b22",
         "src_40c21fbc97fb:h:5297024b7f97:b20"
@@ -20213,7 +20303,7 @@
         "src_7cdb5f831e1c:a46c46c7dfa5",
         "src_7cdb5f831e1c:49bef6175e6b",
         "src_e7b72b3ed72e:aecc785d854c",
-        "src_e0520ddfd9ac:3d1fa72ee04e"
+        "src_7cdb5f831e1c:7420c742f2b3"
       ],
       "top_retrieved_source_ids": [
         "src_ae3b6786b57c",
@@ -20225,7 +20315,7 @@
         "src_7cdb5f831e1c",
         "src_7cdb5f831e1c",
         "src_e7b72b3ed72e",
-        "src_e0520ddfd9ac"
+        "src_7cdb5f831e1c"
       ],
       "top_retrieved_parent_ids": [
         "src_ae3b6786b57c:h:5297024b7f97:b5",
@@ -20237,7 +20327,7 @@
         "src_7cdb5f831e1c:h:5297024b7f97:b38",
         "src_7cdb5f831e1c:h:5297024b7f97:b60",
         "src_e7b72b3ed72e:h:5297024b7f97:b46",
-        "src_e0520ddfd9ac:h:5297024b7f97:b133"
+        "src_7cdb5f831e1c:h:5297024b7f97:b15"
       ]
     },
     {
@@ -20297,10 +20387,10 @@
         "src_40c21fbc97fb:b2d1b21e4885",
         "src_e0520ddfd9ac:563cfbfaebf6",
         "src_d5596b1dce93:563cfbfaebf6",
-        "src_d5596b1dce93:5463bcf7952e",
         "src_e0520ddfd9ac:5463bcf7952e",
-        "src_e0520ddfd9ac:325ae4ea04d3",
+        "src_d5596b1dce93:5463bcf7952e",
         "src_d5596b1dce93:325ae4ea04d3",
+        "src_e0520ddfd9ac:325ae4ea04d3",
         "src_ae3b6786b57c:90fdcee20351",
         "src_7cdb5f831e1c:895a78783a34",
         "src_7cdb5f831e1c:04c760b54090"
@@ -20309,10 +20399,10 @@
         "src_40c21fbc97fb",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
         "src_e0520ddfd9ac",
         "src_d5596b1dce93",
+        "src_d5596b1dce93",
+        "src_e0520ddfd9ac",
         "src_ae3b6786b57c",
         "src_7cdb5f831e1c",
         "src_7cdb5f831e1c"
@@ -20321,10 +20411,10 @@
         "src_40c21fbc97fb:h:5297024b7f97:b10",
         "src_e0520ddfd9ac:h:5297024b7f97:b460",
         "src_d5596b1dce93:h:5297024b7f97:b460",
-        "src_d5596b1dce93:h:5297024b7f97:b570",
         "src_e0520ddfd9ac:h:5297024b7f97:b570",
-        "src_e0520ddfd9ac:h:5297024b7f97:b460",
+        "src_d5596b1dce93:h:5297024b7f97:b570",
         "src_d5596b1dce93:h:5297024b7f97:b460",
+        "src_e0520ddfd9ac:h:5297024b7f97:b460",
         "src_ae3b6786b57c:h:5297024b7f97:b4",
         "src_7cdb5f831e1c:h:5297024b7f97:b52",
         "src_7cdb5f831e1c:h:5297024b7f97:b30"
@@ -20418,51 +20508,6 @@
         "src_0496352f7f54:h:5297024b7f97:b0",
         "src_1d81088c863e:h:5297024b7f97:b217",
         "src_0f6b06613c3a:h:5297024b7f97:b2"
-      ]
-    },
-    {
-      "query": "Bộ phận nào của Địa phu được sử dụng làm thuốc?",
-      "question_source": "llm",
-      "expected_chunk_id": "src_e0520ddfd9ac:9d7442389991",
-      "expected_source_id": "src_e0520ddfd9ac",
-      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b390",
-      "query_noisy": false,
-      "mode": "vector",
-      "top_retrieved_chunk_ids": [
-        "src_d5596b1dce93:9d7442389991",
-        "src_7cdb5f831e1c:6f627661536e",
-        "src_e0520ddfd9ac:288223110e4c",
-        "src_d5596b1dce93:288223110e4c",
-        "src_ae3b6786b57c:9e1cdfe70662",
-        "src_d5596b1dce93:be43faec6f0b",
-        "src_e0520ddfd9ac:be43faec6f0b",
-        "src_e0520ddfd9ac:03c10a5790be",
-        "src_d5596b1dce93:03c10a5790be",
-        "src_f0fc7d32edd3:30f2c1bfecbc"
-      ],
-      "top_retrieved_source_ids": [
-        "src_d5596b1dce93",
-        "src_7cdb5f831e1c",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
-        "src_ae3b6786b57c",
-        "src_d5596b1dce93",
-        "src_e0520ddfd9ac",
-        "src_e0520ddfd9ac",
-        "src_d5596b1dce93",
-        "src_f0fc7d32edd3"
-      ],
-      "top_retrieved_parent_ids": [
-        "src_d5596b1dce93:h:5297024b7f97:b390",
-        "src_7cdb5f831e1c:h:5297024b7f97:b37",
-        "src_e0520ddfd9ac:h:5297024b7f97:b390",
-        "src_d5596b1dce93:h:5297024b7f97:b390",
-        "src_ae3b6786b57c:h:5297024b7f97:b2",
-        "src_d5596b1dce93:h:5297024b7f97:b389",
-        "src_e0520ddfd9ac:h:5297024b7f97:b389",
-        "src_e0520ddfd9ac:h:5297024b7f97:b778",
-        "src_d5596b1dce93:h:5297024b7f97:b778",
-        "src_f0fc7d32edd3:h:5297024b7f97:b1"
       ]
     }
   ],

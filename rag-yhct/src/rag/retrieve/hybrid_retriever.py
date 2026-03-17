@@ -28,6 +28,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import time
 from pathlib import Path
 from typing import Any
@@ -46,6 +47,10 @@ from rag.retrieve.vector_retriever import (
     DEFAULT_QDRANT_URL,
     retrieve_vector,
 )
+from rag.retrieve.answerability_gate import (
+    DEFAULT_GATE_TOPK,
+    run_answerability_gate,
+)
 from rag.utils.query_quality import normalize_for_dedup
 
 logger = logging.getLogger(__name__)
@@ -59,6 +64,15 @@ DEFAULT_RRF_K = 60
 DEFAULT_DEBUG_DIR = "data/reports/retrieval_debug"
 DEFAULT_WINDOW_CENTERS = 2
 DEFAULT_PARENT_SCORE_AGG = "max"  # "max" or "sum_top2"
+DEFAULT_GATE_DEBUG = False
+DEFAULT_CONTEXT_FOCUS = "focused"
+DEFAULT_MAX_CONTEXT_PARENTS = 3
+OFFTOPIC_MARKERS = (
+    "mẹ đừng đánh con",
+    "csgt",
+    "vượt đèn đỏ",
+    "đi chơi về muộn",
+)
 
 
 # ── RRF fusion ─────────────────────────────────────────────────────────────
@@ -345,6 +359,48 @@ def _save_debug_json(
     logger.info("Debug results saved to %s", filepath)
 
 
+def _save_gate_debug_json(
+    query: str,
+    mode: str,
+    results: list[dict[str, Any]],
+    gate_decision: dict[str, Any],
+    debug_dir: str,
+    context_payload: dict[str, Any] | None = None,
+) -> None:
+    """Save gate decision and selected evidence for debugging."""
+    import hashlib
+
+    debug_path = Path(debug_dir)
+    debug_path.mkdir(parents=True, exist_ok=True)
+
+    q_hash = hashlib.md5(query.encode(), usedforsecurity=False).hexdigest()[:8]
+    filename = f"{mode}_{q_hash}_gate.json"
+    filepath = debug_path / filename
+
+    payload: dict[str, Any] = {
+        "query": query,
+        "mode": mode,
+        "hybrid_results": results,
+        "gate_pass": gate_decision.get("pass"),
+        "reason": gate_decision.get("reason"),
+        "predicted_citation_count": gate_decision.get("predicted_citation_count"),
+        "selected_evidence": gate_decision.get("selected_evidence"),
+        "gate_features": gate_decision.get("gate_features"),
+    }
+    if context_payload is not None:
+        payload["context_payload"] = {
+            "mode": context_payload.get("mode"),
+            "tokens_used": context_payload.get("tokens_used"),
+            "parents": context_payload.get("parents"),
+            "debug": context_payload.get("debug"),
+        }
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    logger.info("Gate debug results saved to %s", filepath)
+
+
 # ── config loader ─────────────────────────────────────────────────────────
 
 def load_retrieval_config(config_path: str = "config/config.yaml") -> dict[str, Any]:
@@ -376,6 +432,7 @@ def load_retrieval_config(config_path: str = "config/config.yaml") -> dict[str, 
 def build_parent_child_context(
     results: list[dict[str, Any]],
     *,
+    query_text: str = "",
     parents_path: str = "data/parents/parents_v2_full.jsonl",
     topk_parent: int = 4,
     window: int = 1,
@@ -383,7 +440,11 @@ def build_parent_child_context(
     parent_score_agg: str = DEFAULT_PARENT_SCORE_AGG,
     token_budget: int = 3500,
     context_mode: str = "parent_child",
+    context_focus: str = DEFAULT_CONTEXT_FOCUS,
     deduplicate: bool = True,
+    selected_evidence: list[dict[str, Any]] | None = None,
+    context_from_gate: bool = False,
+    max_context_parents: int = DEFAULT_MAX_CONTEXT_PARENTS,
 ) -> dict[str, Any]:
     """Build context from retrieval results with parent-child windowing support.
 
@@ -405,13 +466,69 @@ def build_parent_child_context(
 
     enc: Any = tiktoken.get_encoding("cl100k_base")
     debug_info: dict[str, Any] = {}
+    context_source = "gate_selected_evidence" if context_from_gate else "retrieval_topk"
+
+    def _merge_ranges(ranges: list[tuple[int, int]]) -> list[list[int]]:
+        if not ranges:
+            return []
+        ordered = sorted(ranges, key=lambda x: (x[0], x[1]))
+        out: list[list[int]] = [[ordered[0][0], ordered[0][1]]]
+        for start, end in ordered[1:]:
+            last = out[-1]
+            if start <= last[1]:
+                last[1] = max(last[1], end)
+            else:
+                out.append([start, end])
+        return out
+
+    def _extract_query_terms(query: str) -> list[str]:
+        stopwords = {
+            "cua", "của", "la", "là", "va", "và", "cay", "cây", "thuoc", "thuốc",
+            "tac", "tác", "dung", "dụng", "cho", "nhu", "như", "gi", "gì", "cac", "các",
+            "nhung", "những", "ve", "về", "tu", "từ", "den", "đến", "mot", "một",
+        }
+        raw = [t.strip() for t in re.findall(r"\w+", query.lower()) if t.strip()]
+        return [t for t in raw if len(t) >= 2 and t not in stopwords]
+
+    def _score_of(item: dict[str, Any]) -> float:
+        return float(
+            item.get("fused_score")
+            or item.get("vector_score")
+            or item.get("bm25_score")
+            or 0.0
+        )
+
+    def _dominant_topic_term(
+        terms: list[str],
+        evidence: list[dict[str, Any]],
+    ) -> str | None:
+        if not terms:
+            return None
+        if not evidence:
+            return terms[0]
+        counts: dict[str, int] = {t: 0 for t in terms}
+        for item in evidence:
+            text = str(item.get("text", "")).lower()
+            for term in terms:
+                if term in text:
+                    counts[term] += 1
+        best_term, best_count = max(counts.items(), key=lambda kv: kv[1])
+        return best_term if best_count > 0 else terms[0]
+
+    query_terms = _extract_query_terms(query_text)
+    evidence_for_context = (
+        list(selected_evidence or [])
+        if context_from_gate and selected_evidence
+        else list(results)
+    )
+    dominant_term = _dominant_topic_term(query_terms, evidence_for_context)
 
     if context_mode == "flat":
         # Flat mode: just concatenate child texts, with optional dedup
         context_parts: list[str] = []
         seen_texts: set[str] = set()
         tokens_used = 0
-        for r in results:
+        for r in evidence_for_context:
             text = r.get("text", "")
             if deduplicate:
                 norm = normalize_for_dedup(text)
@@ -426,10 +543,18 @@ def build_parent_child_context(
         return {
             "context": "\n\n---\n\n".join(context_parts),
             "parents": [],
-            "children": results,
+            "children": evidence_for_context,
             "tokens_used": tokens_used,
             "mode": "flat",
-            "debug": {},
+            "debug": {
+                "context_source": context_source,
+                "selected_parent_ids": [],
+                "selected_child_centers": [],
+                "merged_child_ranges": [],
+                "trimmed_context_spans": [],
+                "per_parent_context_contribution": [],
+                "final_context_token_count": tokens_used,
+            },
         }
 
     # Parent-child mode: group by parent_id, window context
@@ -437,20 +562,14 @@ def build_parent_child_context(
 
     # Group results by parent_id
     parent_groups: dict[str, list[dict[str, Any]]] = {}
-    for r in results:
+    for r in evidence_for_context:
         pid = r.get("parent_id") or r.get("source_id", "unknown")
         parent_groups.setdefault(pid, []).append(r)
 
     # Score each parent
     parent_scores: list[tuple[str, float, list[dict[str, Any]]]] = []
     for pid, group in parent_groups.items():
-        child_scores = sorted(
-            [
-                r.get("fused_score") or r.get("vector_score") or r.get("bm25_score") or 0.0
-                for r in group
-            ],
-            reverse=True,
-        )
+        child_scores = sorted([_score_of(r) for r in group], reverse=True)
         if parent_score_agg == "sum_top2":
             score = sum(child_scores[:2])
         else:  # default: max
@@ -458,13 +577,112 @@ def build_parent_child_context(
         parent_scores.append((pid, score, group))
 
     parent_scores.sort(key=lambda x: x[1], reverse=True)
-    chosen_parents = parent_scores[:topk_parent]
+    parent_limit = max(1, min(topk_parent, max_context_parents))
 
-    debug_info["parent_scores"] = [
-        {"parent_id": pid, "score": round(sc, 6), "children_in_topk": len(g)}
-        for pid, sc, g in parent_scores[:8]
+    ranked_candidates: list[dict[str, Any]] = []
+    for pid, score, group in parent_scores:
+        sorted_group = sorted(group, key=_score_of, reverse=True)
+        support_count = len(sorted_group)
+        top1_score = _score_of(sorted_group[0]) if sorted_group else 0.0
+        sum_top2 = sum(_score_of(x) for x in sorted_group[:2])
+        parent_rec = parent_cache.get(pid)
+        parent_preview = str((parent_rec or {}).get("parent_text", "")).lower()
+        evidence_preview = " ".join(str(x.get("text", "")) for x in sorted_group[:2]).lower()
+        preview_text = parent_preview if parent_preview else evidence_preview
+        overlap_hits = sum(1 for t in query_terms if t in preview_text)
+        overlap_ratio = (overlap_hits / len(query_terms)) if query_terms else 0.0
+        has_dominant_term = bool(dominant_term and dominant_term in preview_text)
+        off_topic_markers = [m for m in OFFTOPIC_MARKERS if m in preview_text]
+        relevance_score = (
+            score
+            + 0.02 * min(3, support_count - 1)
+            + 0.03 * overlap_ratio
+            + (0.04 if has_dominant_term else -0.04)
+            - (0.1 if off_topic_markers else 0.0)
+        )
+
+        exclude_reasons: list[str] = []
+        if overlap_hits == 0 and not has_dominant_term:
+            exclude_reasons.append("no_query_overlap")
+        if support_count == 1 and top1_score < 0.75 * (parent_scores[0][1] if parent_scores else 0.0):
+            exclude_reasons.append("single_weak_support")
+        if off_topic_markers and support_count <= 1:
+            exclude_reasons.append("off_topic_marker")
+
+        ranked_candidates.append({
+            "parent_id": pid,
+            "base_score": round(score, 6),
+            "relevance_score": round(relevance_score, 6),
+            "support_count": support_count,
+            "sum_top2": round(sum_top2, 6),
+            "query_overlap_ratio": round(overlap_ratio, 6),
+            "has_dominant_term": has_dominant_term,
+            "off_topic_markers": off_topic_markers,
+            "exclude_reasons": exclude_reasons,
+            "group": group,
+        })
+
+    ranked_candidates.sort(key=lambda x: x["relevance_score"], reverse=True)
+    filtered_out: list[dict[str, Any]] = []
+    kept_candidates: list[dict[str, Any]] = []
+    for cand in ranked_candidates:
+        reasons = list(cand.get("exclude_reasons", []))
+        if reasons:
+            filtered_out.append({
+                "parent_id": cand["parent_id"],
+                "reasons": reasons,
+                "relevance_score": cand["relevance_score"],
+                "support_count": cand["support_count"],
+            })
+            continue
+        kept_candidates.append(cand)
+
+    if not kept_candidates:
+        kept_candidates = ranked_candidates[:parent_limit]
+
+    effective_limit = parent_limit
+    if len(kept_candidates) > parent_limit:
+        top_rel = float(kept_candidates[0]["relevance_score"])
+        strong_extra = [
+            c for c in kept_candidates[parent_limit:]
+            if c["support_count"] >= 2 and float(c["relevance_score"]) >= 0.9 * top_rel
+        ]
+        if strong_extra:
+            effective_limit = min(parent_limit + 1, len(kept_candidates))
+
+    selected_candidates = kept_candidates[:effective_limit]
+    chosen_parents = [
+        (str(c["parent_id"]), float(c["relevance_score"]), list(c["group"]))
+        for c in selected_candidates
     ]
+
+    debug_info["context_source"] = context_source
+    debug_info["context_from_gate"] = context_from_gate
+    debug_info["query_terms"] = query_terms
+    debug_info["dominant_term"] = dominant_term
+    debug_info["candidate_parent_count"] = len(ranked_candidates)
+    debug_info["filtered_parent_count"] = len(filtered_out)
+    debug_info["max_context_parents"] = parent_limit
+    debug_info["effective_context_parent_limit"] = effective_limit
+    debug_info["candidate_parents_before_filter"] = [
+        {
+            "parent_id": c["parent_id"],
+            "base_score": c["base_score"],
+            "relevance_score": c["relevance_score"],
+            "support_count": c["support_count"],
+            "query_overlap_ratio": c["query_overlap_ratio"],
+            "has_dominant_term": c["has_dominant_term"],
+            "off_topic_markers": c["off_topic_markers"],
+        }
+        for c in ranked_candidates
+    ]
+    debug_info["filtered_out_parents"] = filtered_out
     debug_info["selected_parent_ids"] = [pid for pid, _, _ in chosen_parents]
+    debug_info["final_parent_count"] = len(chosen_parents)
+    debug_info["selected_child_centers"] = []
+    debug_info["merged_child_ranges"] = []
+    debug_info["trimmed_context_spans"] = []
+    debug_info["per_parent_context_contribution"] = []
 
     # Build context with multi-center windowing
     context_blocks: list[str] = []
@@ -486,6 +704,7 @@ def build_parent_child_context(
             c["child_index"] for c in centers
             if isinstance(c.get("child_index"), int)
         ]
+        best_child_idx = group_sorted[0].get("child_index") if group_sorted else None
 
         title = (parent_rec or centers[0]).get("title", "")
         doc_type = (parent_rec or centers[0]).get("doc_type", "")
@@ -493,22 +712,60 @@ def build_parent_child_context(
 
         if parent_rec and parent_rec.get("parent_text"):
             parent_text = parent_rec["parent_text"]
-            children_count = parent_rec.get("children_count", 1)
-            if center_indices and children_count > 1:
-                parts = parent_text.split("\n\n")
-                # Union windows from all centers
-                selected: set[int] = set()
-                for ci in center_indices:
-                    lo = max(0, ci - window)
-                    hi = min(len(parts), ci + window + 1)
-                    selected.update(range(lo, hi))
-                # Sort by position and join
-                window_text = "\n\n".join(
-                    parts[idx] for idx in sorted(selected) if idx < len(parts)
-                )
-            else:
-                window_text = parent_text
+            parts = parent_text.split("\n\n")
+            ranges: list[tuple[int, int]] = []
+            for ci in center_indices:
+                lo = max(0, ci - window)
+                hi = min(len(parts), ci + window + 1)
+                ranges.append((lo, hi))
+
+            if not ranges and isinstance(best_child_idx, int):
+                lo = max(0, best_child_idx - window)
+                hi = min(len(parts), best_child_idx + window + 1)
+                ranges.append((lo, hi))
+
+            if not ranges and query_terms:
+                query_hit_indices = [
+                    idx for idx, part in enumerate(parts)
+                    if any(term in part.lower() for term in query_terms)
+                ]
+                for idx in query_hit_indices[:max(1, window_centers)]:
+                    lo = max(0, idx - window)
+                    hi = min(len(parts), idx + window + 1)
+                    ranges.append((lo, hi))
+
+            merged_ranges = _merge_ranges(ranges)
+            if not merged_ranges:
+                merged_ranges = [[0, min(len(parts), max(1, 2 * window + 1))]]
+
+            effective_focus = "focused" if context_from_gate else context_focus
+            if effective_focus == "broad" and merged_ranges:
+                merged_ranges = [[merged_ranges[0][0], len(parts)]]
+
+            if effective_focus == "focused" and query_terms:
+                candidate_indices: list[int] = []
+                for start, end in merged_ranges:
+                    candidate_indices.extend(range(start, end))
+                hit_indices = [
+                    idx
+                    for idx in candidate_indices
+                    if idx < len(parts)
+                    and any(term in parts[idx].lower() for term in query_terms)
+                ]
+                if hit_indices:
+                    hit_lo = min(hit_indices)
+                    hit_hi = max(hit_indices) + 1
+                    merged_ranges = _merge_ranges([
+                        (hit_lo, min(len(parts), hit_hi + min(1, window)))
+                    ])
+
+            span_texts: list[str] = []
+            for start, end in merged_ranges:
+                if 0 <= start < end <= len(parts):
+                    span_texts.append("\n\n".join(parts[start:end]))
+            window_text = "\n\n".join(span_texts)
         else:
+            merged_ranges = None
             window_text = "\n\n".join(c.get("text", "") for c in group_children)
 
         block = f"### {header}\n\n{window_text}"
@@ -532,6 +789,16 @@ def build_parent_child_context(
         context_blocks.append(block)
         tokens_used += block_tokens
 
+        preview = window_text[:220].replace("\n", " ")
+        debug_info["selected_child_centers"].append({"parent_id": pid, "centers": center_indices})
+        debug_info["merged_child_ranges"].append({"parent_id": pid, "ranges": merged_ranges})
+        debug_info["trimmed_context_spans"].append({"parent_id": pid, "spans": merged_ranges})
+        debug_info["per_parent_context_contribution"].append({
+            "parent_id": pid,
+            "tokens": block_tokens,
+            "preview": preview,
+        })
+
         parent_results.append({
             "parent_id": pid,
             "score": score,
@@ -539,18 +806,19 @@ def build_parent_child_context(
             "doc_type": doc_type,
             "children_in_topk": len(group_children),
             "center_indices": center_indices,
+            "best_child_index": best_child_idx,
+            "merged_child_ranges": merged_ranges,
+            "trimmed_context_spans": merged_ranges,
+            "context_tokens": block_tokens,
         })
 
     debug_info["final_context_tokens"] = tokens_used
-    debug_info["selected_child_ranges"] = [
-        {"parent_id": pr["parent_id"], "centers": pr["center_indices"]}
-        for pr in parent_results
-    ]
+    debug_info["final_context_token_count"] = tokens_used
 
     return {
         "context": "\n\n---\n\n".join(context_blocks),
         "parents": parent_results,
-        "children": results[:10],
+        "children": evidence_for_context[:10],
         "tokens_used": tokens_used,
         "mode": "parent_child",
         "debug": debug_info,
@@ -587,10 +855,19 @@ def main() -> None:
     # debug
     p.add_argument("--save-debug", action="store_true", default=False)
     p.add_argument("--debug-dir", default=DEFAULT_DEBUG_DIR)
+    # answerability gate
+    p.add_argument("--use-gate", action="store_true", default=False,
+                    help="Run answerability gate on top of hybrid_rrf results")
+    p.add_argument("--gate-topk", type=int, default=DEFAULT_GATE_TOPK,
+                    help="Top-K hybrid results consumed by gate")
+    p.add_argument("--gate-debug", action="store_true", default=DEFAULT_GATE_DEBUG,
+                    help="Save gate decision debug JSON (also implied by --save-debug)")
     # parent-child context
     p.add_argument("--build-context", action="store_true", default=False,
                     help="Also build parent-child context from results")
     p.add_argument("--context-mode", default="parent_child", choices=["parent_child", "flat"])
+    p.add_argument("--context-focus", default=DEFAULT_CONTEXT_FOCUS, choices=["focused", "broad"],
+                    help="focused: only merged hit windows (default); broad: expand first hit to parent tail")
     p.add_argument("--parents", default="data/parents/parents_v2_full.jsonl")
     p.add_argument("--topk-parent", type=int, default=4)
     p.add_argument("--window", type=int, default=1)
@@ -599,6 +876,8 @@ def main() -> None:
     p.add_argument("--parent-score-agg", default=DEFAULT_PARENT_SCORE_AGG,
                     choices=["max", "sum_top2"])
     p.add_argument("--token-budget", type=int, default=3500)
+    p.add_argument("--max-context-parents", type=int, default=DEFAULT_MAX_CONTEXT_PARENTS,
+                    help="Maximum parent sections in final context (default 3)")
     p.add_argument("--no-dedup", action="store_true", default=False,
                     help="Disable duplicate text suppression")
     args = p.parse_args()
@@ -654,12 +933,54 @@ def main() -> None:
             f"text={text_preview}..."
         )
 
-    # Optionally build parent-child context
-    if args.build_context:
-        print(f"\n{'─'*60}")
-        print("Building parent-child context...\n")
-        ctx = build_parent_child_context(
+    gate_decision: dict[str, Any] | None = None
+    context_payload: dict[str, Any] | None = None
+
+    if args.use_gate:
+        if mode != "hybrid_rrf":
+            logger.warning("--use-gate is intended for --mode=hybrid_rrf, current mode=%s", mode)
+        gate_decision = run_answerability_gate(
+            args.query,
             results,
+            gate_topk=args.gate_topk,
+        )
+        print(f"\n{'─'*60}")
+        print("Answerability Gate")
+        print(
+            f"  pass={gate_decision['pass']}  "
+            f"predicted_citation_count={gate_decision['predicted_citation_count']}"
+        )
+        print(f"  reason: {gate_decision['reason']}")
+        gf = gate_decision.get("gate_features", {})
+        print(
+            "  features: "
+            f"top1={gf.get('top1_score')}  "
+            f"top2={gf.get('top2_score')}  "
+            f"gap={gf.get('top1_top2_gap')}  "
+            f"evidence={gf.get('evidence_count')}  "
+            f"parents={gf.get('distinct_parent_count')}  "
+            f"sources={gf.get('distinct_source_count')}"
+        )
+        selected = gate_decision.get("selected_evidence", [])
+        if selected:
+            print("  selected_evidence:")
+            for ev in selected:
+                print(
+                    f"    - rank={ev.get('rank')}  "
+                    f"chunk={str(ev.get('chunk_id', ''))[:30]}  "
+                    f"score={ev.get('fused_score')}"
+                )
+
+    if args.build_context:
+        context_from_gate = bool(args.use_gate and gate_decision and gate_decision.get("selected_evidence"))
+        selected_for_context = (
+            list(gate_decision.get("selected_evidence", []))
+            if gate_decision is not None
+            else []
+        )
+        context_payload = build_parent_child_context(
+            results,
+            query_text=args.query,
             parents_path=args.parents,
             topk_parent=args.topk_parent,
             window=args.window,
@@ -667,9 +988,51 @@ def main() -> None:
             parent_score_agg=args.parent_score_agg,
             token_budget=args.token_budget,
             context_mode=args.context_mode,
+            context_focus=args.context_focus,
             deduplicate=not args.no_dedup,
+            selected_evidence=selected_for_context,
+            context_from_gate=context_from_gate,
+            max_context_parents=max(1, args.max_context_parents),
+        )
+
+    if args.use_gate and (save_debug or args.gate_debug) and gate_decision is not None:
+        _save_gate_debug_json(
+            args.query,
+            mode,
+            results,
+            gate_decision,
+            debug_dir,
+            context_payload=context_payload,
+        )
+
+    # Optionally build parent-child context
+    if args.build_context:
+        print(f"\n{'─'*60}")
+        print("Building parent-child context...\n")
+        ctx = context_payload if context_payload is not None else build_parent_child_context(
+            results,
+            query_text=args.query,
+            parents_path=args.parents,
+            topk_parent=args.topk_parent,
+            window=args.window,
+            window_centers=args.window_centers,
+            parent_score_agg=args.parent_score_agg,
+            token_budget=args.token_budget,
+            context_mode=args.context_mode,
+            context_focus=args.context_focus,
+            deduplicate=not args.no_dedup,
+            selected_evidence=(list(gate_decision.get("selected_evidence", [])) if gate_decision else []),
+            context_from_gate=bool(args.use_gate and gate_decision and gate_decision.get("selected_evidence")),
+            max_context_parents=max(1, args.max_context_parents),
         )
         print(f"  Context mode: {ctx['mode']}  |  Tokens: {ctx['tokens_used']}")
+        ctx_debug = ctx.get("debug", {}) if isinstance(ctx.get("debug"), dict) else {}
+        print(
+            "  Context summary: "
+            f"source={ctx_debug.get('context_source')}  "
+            f"filtered_parents={ctx_debug.get('filtered_parent_count')}  "
+            f"final_parents={ctx_debug.get('final_parent_count')}"
+        )
         if ctx["parents"]:
             print("  Parents:")
             for pr in ctx["parents"]:

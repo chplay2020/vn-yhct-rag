@@ -1,0 +1,646 @@
+{
+  "query": "tác dụng của cây xả",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_1bcc0ba43edd:1ab81aa0daf7",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 12.30388,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b130",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ự vạn vật đều có thể là thầy của chúng ta, để chỉ một sô\" thứ bản thân chúng cũng có khả năng đặc biệt, có tín hiệu liên hệ với con người. Vì vậy chúng ta phải có lòng yêu thương đổi vối chúng. Ngữ là ngôn ngữ. Có lòng yêu thương thì phải nói lời yêu thương. Xả là bỏ qua. Sinh tử ái ngữ đều phải biết cách xả bỏ qua. Nhưng nếu bạn không yêu quý mọi người cũng có nghĩa là bạn đã bỏ qua chính mình. Chỉ cần 356",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:e9ed28cfa12a",
+      "fused_score": 0.016393,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 0,
+      "vector_score": 0.601504,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b414",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dùng chữa: 1. Cảm lạnh, ho; 2. Bệnh giun chỉ và sốt rét; 3. Trẻ em biếng ăn và suy dinh dưỡng; 4. Nôn ra máu, ho ra máu, đi tiểu ra máu và các vết thương chảy máu. Liều dùng 30-50g, dạng thuốc sắc. Phụ nữ có thai kiêng dùng. Ở Malaixia và Ấn Độ, rễ sắc nước uống dùng trị ỉa chảy. Cũng được sử dụng để trục giun và dùng cho trẻ em bị đầy hơi và phụ nữ sau khi sinh. Ở In đô nê xia, người ta dùng toàn cây chữa lỵ, ỉa chảy, lá lách sưng to, đau gan, rò, mụn mủ, bướu. Ở Ấn Độ, lá giã ra dùng ngoài đắp",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:529efdb4cb53",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 9.515837,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b130",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "bạn thực sự làm được chữ xả là có thể vứt bỏ được rất nhiều thứ, từ đó mới có thể nhận được rất nhiều thứ. Luyện công là được m ất tương đương, m ất càng nhiều thì được càng nhiều. Nhưng không có nghĩa là ngay cả tính khí của bạn cũng xả bỏ đi, điều này chỉ người bình thường bị mắc phải, còn những người luyện công không được cố’ ý vứt bỏ. Những thứ sinh tử ái ngữ này đều phải bỏ qua, thì mới dễ dàng tăng công phu, mới có thể nhập tĩnh, thanh tĩnh v. v... thực sự. Đó là 40 chữ đầu: chí thú khổ íc",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:496e8ecb3f54",
+      "fused_score": 0.015873,
+      "bm25_rank": 2,
+      "bm25_score": 9.476982,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b18",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Về cách chữa bệnh của đông y, thầy thuốc sẽ giúp cho bệnh nhân ăn không được sẽ ăn được, ngủ không được sẽ giúp cho ngủ được, thở không được vì khí nghịch, đờm chặn ở phế khí quản sẽ có thuốc giúp cho khai thông tán đờm làm cho thở được dễ hơn, đầy bụng ăn không tiêu sẽ giúp cho tiêu hóa tốt, tiểu bí không ra sẽ giúp cho tiểu được, đại tiện không thông, bị táo bón sẽ giúp cho xả ra",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.599251,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b885",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi tanh, xua ruồi muỗi. Dùng xoa ngoài chữa cúm và phòng bệnh truyền nhiễm. Ngày dùng 10-15g Sả hoặc một lượng nhỏ tinh dầu. Đơn thuốc: 1. Đau dạ",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:ca6da87ede73",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 8.979554,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b77",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "nên rất lo lắng. Tôi cũng sợ, ban đầu muốn chuyển một ít xuống thử xem có thàn h công không nhưng khống chế không được đành chuyển xuống rất nhiều. Sự việc th ật kỳ lạ, tôi vừa nghĩ tới tính 2 hướng thì th ật là kỳ lạ, một lúc sau xe không xả khói nữa, máy lại m át lạnh. Tôi nói: \"Tiểu La, anh thử xem, hình như xe chạy được rồi\". Anh nổ máy, đã thấy xe có điện. Tất nhiên việc này không thể nói rõ là như th ế nào? 204",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_27dfc1ab5a19:e0156473285e",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 8.418365,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_27dfc1ab5a19",
+      "parent_id": "src_27dfc1ab5a19:h:5297024b7f97:b6",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Nguyên văn: “Bản thị “ Xả kỷ tòng nhân”, đa ngộ “Xả cận cầu viễn”. Sở vị “ Saichi hào lý, mậu dĩ thiên lý”. Học giả bất khả bất tường biện yên ! Thị vi luận”\n\nThái Cực Quyền Luận Giải – Vương Tông Nhạc\n\nChú giải: Nguyên tắc kỹ thuật cũng như chiến thuật của Thái Cực Quyền vốn dĩ là “Xả kỷ tòng nhân” (Bỏ ta theo người) , nhưng nhiều người lại ngộ nhận thành “Xả cận cầu viễn” (Bỏ gần tìm xa), điều này cũng giống như tục ngữ có nói :” Sai một li, đi một dặm”, người luyện quyền không thể không cẩn t",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:f314cdc24bb6",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.597292,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b958",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "gây nôn, làm long đờm. Rễ có tác dụng tẩy. Lá có tác dụng nhuận tràng và sát trùng, kháng sinh. Công dụng, chỉ định và phối hợp: Toàn cây được dùng chữa: 1. Viêm khí quản, viêm phổi và hen suyễn; 2. Táo bón. Liều dùng 15-30g, dạng thuốc sắc. Lá được dùng trị bệnh ngoài da, ghẻ, và rắn cắn, dùng tươi giã đắp. Ở Ấn Độ, lá khô tán bột dùng trị giun và tẩy, có thể đắp vết thương. Rễ cũng dùng làm thuốc xổ. Ở In đô nê xia, cả cây dùng chữa táo bón, xổ và chữa nhức đầu.",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_f80e34eb56ad:01d6c922a678",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 7.862035,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_f80e34eb56ad",
+      "parent_id": "src_f80e34eb56ad:h:5297024b7f97:b30",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "PHẦN 3: DƯỠNG TÂM 91đẹp bao nhiêu, cũng không sánh nổi niềm vui gia đình. Thứ hai, gia đình là thang thuốc điều trị tốt dành cho mọi • căn bệnh tâm hồn và thể xác. Tâm sự làm xua tan hiểu lầm, giúp mọi người trở nên vui vẻ, thông cảm lẫn nhau, khi tâm trạng tươi tỉnh, sức khỏe sẽ tốt lên, nên cũng có tác dụng ngăn ngừa khả năng mắc bệnh cao huyết áp, ung thư, tiểu đường. Giúp xả hết mọi bực tức, nâng cao sức đề kháng. Thứ ba, dành cho sức khỏe của đàn ông, hiện nay tuổi thọ • chung của đàn ông t",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:99a64f6a5869",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 7.599187,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b108",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "80 CHỮ LUYỆN CÔNG (Ngày 20/9/1986 tại Đại học T hanh Hoa, tháng 12/1986 tại Học viện khí công Trung Hoa). Hôm nay tôi sẽ trình bày với các bạn một số lĩnh hội trong luyện công, hay nói về một số’ cảm thụ trong luyện công. Trong 80 chữ luyện công, mỗi chữ đều có thể tách riêng ra giảng, cứ 5 chữ thành 1 câu mang một nghĩa, dưối đây tôi sẽ giảng theo từng chữ, từng câu. 80 chữ này tạo thành 16 câu như sau: 1. Chí thú khổ ích nghiệp. 2. Tiền ác nghị ngộ đức. 3. Quảng tài Nho Đạo phật 4. Cung tầm sư",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:a028899aeb8d",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.594053,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b352",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "mát, có tác dụng lợi tiểu tiện, làm ra mồ hôi. Công dụng, chỉ định và phối hợp: Lá thường dùng để giải cảm cho ra mồ hôi. Tua rễ lợi tiểu mạnh, thường dùng chữa phù nề, cổ trướng do xơ gan. Mủ dùng chữa mụn nhọt. Ðơn thuốc: 1. Chữa cảm cúm, cảm sốt, viêm amygdal, đau mắt, sốt rét cơn: Dùng 12-20g lá đa hay rễ đa sắc uống. 2. Chữa tiểu tiện không thông, đái ra dưỡng trấp: Dùng tua Ða 20g. Rau dừa nước. Tỳ giải đều 15g, sắc uống.",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_a9b32924bfc1:8c37e7833534",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 7.565585,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_a9b32924bfc1",
+      "parent_id": "src_a9b32924bfc1:h:5297024b7f97:b4",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ái bổ: 3 chỉ Ký sanh: 4 chỉ * Tục đoạn: 3 chỉ Đảng sâm: 3 chỉ * Bạch chỉ: 3 chỉ Huyết dằng: 4 chỉ * Độc hoạt: 3 chỉ * Hai hột mã tiền đốt thành thanh. Công thức 32: thuốc rượu trị bại xuội đi đứng không được • Cây lá ngũ trảo • Dây vòi voi • Củ xả lâu năm • Dây cứt quạ, lá nhỏ • Kinh giới Các vị này bằng nhau, ngâm chừng 2 lít rượu, để 1 tuần, uống kết quả tốt. Công thức 34: trị nhức đầu, đau thần kinh, rên la Đau cả tháng, đi nhà thương nằm không hết. Về nhà gặp phương thuốc này, áp dụng được l",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:67d5691dcf31",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 7.348168,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b37",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "‘Thở, vào, tâm, tĩnh, lặng.’. trong khi đang hít vào từ từ, chậm, nhẹ, sâu, lâu,đều. ‘Thở, ra, miệng, mỉm, cười.’. . trong khi đang thở ra từ từ bằng mũi.\n\nCấp hai : Tích nạp nội lực và phóng năng lượng.\n\nChia ba giai đoạn: Giai đoạn một Xả trược, nhịp thở 5-5-5; Giai đoạn hai nạp năng lượng, nhịp thở 5-5-5; Giai đoạn ba phóng năng lượng, nhịp thở 5-5-5.\n\nCấp ba : Thông Tiểu chu thiên.\n\nChia hai giai đoạn: Giai đoạn một Thối âm thăng dương, nhịp thở 5-5. Giai đoạn hai Vận khí thông quan hay thăn",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:a895d161c98f",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.593458,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b410",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "có tác dụng thông tiểu, tiêu phù, lợi sữa. Công dụng, chỉ định và phối hợp: Lõi thân dùng chữa phù thũng, đái dắt, tê thấp và làm thuốc hạ nhệt, làm phổi bớt nóng. Cũng được xem như là có tác dụng bổ; thường dùng nhầm với vị Thông thảo. Liều dùng 20-30g dạng thuốc sắc. Dùng riêng hay phối hợp với cây Mua đỏ. Lá được dùng nấu nước xông chữa tê liệt bại người và giã đắp chữa gẫy xương. Ở Trung Quốc, người ta dùng lá chữa đòn ngã tổn thương hay dao chém thương tích.",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_eb28c8848470:4b7ad9c75124",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 7.167088,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b42",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ĐIỀU 69. LẠI BÀN VỀ MẠCH Mạch đi đương Sác mà bỗng ngừng, rồi lại có, như vậy gọi là \"Súc\". Súc chủ về nhiệt, trong các mạch thư đều nói như vậy. Nhưng cũng có khi phát sinh bởi hàn. Như Thương hàn luận nói: \"Mạnh súc, tay chân quyết nghịch, nên cứu....\" Các nhà chú giải đều nói: \"Khí chân dương vốn động, bị hàn tà dồn ép, thì biểu hiện mạch tượng Sác mà Súc\". Mạch hành đương hoãn mà bỗng ngừng, rồi lại có, như vậy gọi là \"kết\", chủ về hàn. Nhưng cũng có khi lại vì nhiệt mà kết. Như \"bệnh ở Thái",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:25caff73d3fa",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 7.136499,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b114",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "riềm hút gồm nhiều vỉ LN, các vỉ LN này đã làm tăng thêm một cấp nữa bề mặt hấp thu của ruột LÔNG SINH DỤC. cấu trúc protein có dạng sợi tóc làm cầu nối trong hiện tượng tiếp hợp giữa tế bào vi khuẩn cho và vi khuẩn nhận. LỒNG ẤP thiết bị y tế có hình dáng như chiếc lồng úp bằng chất dẻo, bên trong có ô xy, nhiệt độ ổn định, độ ẩm thích hợp. được dùng để nuôi trẻ sơ sinh thiếu tháng hay trong tình trạng suy yếu nặng. Có LÂ đơn giản, LÂ phức tạp và LÂ hiện đại. Sử dụng LÂ đòi hỏi kỹ thuật tỷ mỉ, ",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:629e5f0ad85d",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.592298,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b775",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lị và ỉa chảy. Lá được dùng chữa bệnh ngoài da như hắc lào, lở ngứa; cũng có thể sắc uống chữa đau lưng và làm thuốc nhuận tràng. Vỏ cây dùng đắp trị rắn, rết, bò cạp cắn.",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_8a1746d31bb4:f30703acaba5",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 6.964732,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_8a1746d31bb4",
+      "parent_id": "src_8a1746d31bb4:h:5297024b7f97:b1",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Nguyên nhân thở dài do biến đổi tâm lý, ở tình trạng nhẹ là cô đơn buồn chán, hoặc trầm cảm, buồn phiền, bi quan hay có nỗi khổ tâm không thể bộc lộ ra được, ngoài mặt, khi nói chuyện với bạn bè vẫn vui vẻ gượng gạo, và khi nói chuyện huyên thuyên, hơi thở được xả ra thì không bị thở dài trong lúc nói chuyện, ngược lại khi còn lại một mình không có ai để tâm sự, thì hơi thở vào không thông, tích lũy lại trong ngực, thỉnh thoảng lại dội ra tạo thành hơi thở dài. Ở tình trạng nặng như bị đau khổ c",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_eb28c8848470:00d0f49a9361",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 6.400422,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b42",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "nói: \"thấp với nhiệt cùng chọi nhau, mạch hãm là thấp...\" mạch tượng của chứng \"lý thấp\", thường biểu hiện Trầm kết...\" Trên lâm sàng có khi phải xả mạch tòng chứng, lý do là như thế.\n\nĐIỀU 70. NHẬN THỨC VỀ THIẾT CHẨN Về Thiết chẩn, ở ta từ xưa đến nay, vẫn theo phương pháp chia 3 bộ Thốn Quan, xích phối hợp với các tạng phủ. Trong Mạch học thần chương của cụ Hải Thượng cũng dập theo các thuyết của Phùng Thị và Cảnh Nhạc, không hề thay đổi. Theo ý tôi, thì có khi nên phân, cũng có khi không cần ",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:17480636ae37",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.590488,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b553",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dùng chữa ỉa chảy. Ở Trung Quốc, rễ dùng trị phong thấp, đòn ngã, mụn ghẻ; lá trị háo suyễn, mụn ghẻ. Vỏ dây có thể cho sợi dẻo, có thể dùng làm thừng dây.",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_8a1746d31bb4:8a4a01553e90",
+      "fused_score": 0.013514,
+      "bm25_rank": 13,
+      "bm25_score": 6.326434,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_8a1746d31bb4",
+      "parent_id": "src_8a1746d31bb4:h:5297024b7f97:b15",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lối thở của khí công sẽ có kết qủa.\n\n36 Có người hỏi tại sao phải gọi tên Hà ơi mà sao không gọi Hường ơi, Hồng ơi, Lan ơi.. Được chứ, thật ra mục đích chính không phải là gọi tên người để tránh hiểu lầm nếu chẳng may một cô vợ nào đó tên Hạnh có người chồng trẻ bị bệnh phổi không thở được mà anh ta tập thở cứ gọi tên Hà ơi, Hồng ơi, Hường ơi mà không gọi Hạnh ơi.. Hạnh..,chắc cô Hạnh sẽ nổi ghen lên thì thật tai hại, ngược lại kết qủa sẽ tồi tệ hơn. Chính ra mục đích của tôi là chữa bệnh ngộp t",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_df81449827c6:021a397d31c5",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 6.320051,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_df81449827c6",
+      "parent_id": "src_df81449827c6:h:5297024b7f97:b4",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Huyền thoại Nghiêm Tân Khí công hay trường sinh học? Hằng Ngawww. viet kiem. com\n\n8lưng cũng không thấy suy chuyển, hay là do cự ly quá xả Sukitari liền đến sát bên Nghiêm Tân, áp bàn tay vào lưng Nghiêm Tân, vận tận lực pahts khí, dùng cả cánh tay đẩy mạnh, Không ngờ cứ như bị va phải một hòn đá to, Sukitari mệt mỏi thở gấp, mồ hôi vã như tắm, mặt đỏ gaỵ Nghiêm Tân vẫn ngồi như không có việc gì xảy rạ Sukitari hiểu ràng hôm nay đã gặp cao thủ. Nếu như chỉ dựa vào phát lực khí công và cậy sức hú",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:fdc96944b008",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.590306,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b996",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "mát; có tác dụng thanh nhiệt giải thử, lợi thấp\n\ntiêu trệ, lá có tác dụng tiêu thũng khử độc. Công dụng, chỉ định và phối hợp: Dùng trị cảm mạo trúng nóng phát sốt, viêm ruột ỉa chảy và ho sổ tiếng, khản cổ. Lá dùng trị đau dạ dày, ngứa lở. Có thể dùng trị kiết lỵ, lậu nhiệt, băng đới, đàn bà máu xấu, chóng mặt, hoa mắt, ngực bụng đầy tức, đau hơi uất bế hoặc kinh nguyệt không đều, đại tiện không thông. Dùng rễ hay vỏ cây tươi 40g, lá tươi 20g sắc nước uống. Lá non có thể sắc uống thay chè, để p",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:98c0b8a61ce2",
+      "fused_score": 0.013158,
+      "bm25_rank": 15,
+      "bm25_score": 3.487275,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1201",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ng chứa các triterpenoid: taraxerol, taraxerone, friedelan- 3-ol, friedelan-3-ol, epifriedelanol. Còn có các acid cit ric, tartric và fumaric. Nhựa cây Xương rồng chứa eup horbol, eup hol, -amyrin. cyc loartenol. Rễ cũng chứa taraxerol. Tính vị, tác dụng: Vị đắng, tính hàn, có độc. Thân cây có tác dụng tiêu thũng, thông tiện, sát trùng; lá có tác dụng thanh nhiệt, hóa trệ, giải độc hành ứ; nhựa cây có tác dụng tả hạ trục thuỷ, chống ngứa; nhị hoa có được thanh nhiệt tiêu thũng. Ở Ấn Độ, cây được",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:af46b5e6ac2f",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.587072,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b619",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "t, bình can chỉ thống. Lá làm long đờm, lợi tiêu hoá, hạ sốt. Rễ cũng hạ sốt, làm toát mồ hôi. Công dụng, chỉ định và phối hợp: Thường được dùng trị: 1. Cảm mạo phát sốt; 2. Nhức đầu, đau nhức mắt, hoa mắt, chóng mặt; 3. Phong thấp, gân cốt đau, tê buốt; 4. Tiêu hoá không bình thường, viêm ruột ỉa chảy; 5. Ðòn ngã tổn thương. Liều dùng 6-12g hạt, 8-20g lá sắc uống. Dùng ngoài lấy lá đem giã đắp trị đòn ngã. Ở Ấn Ðộ, lá được dùng đắp ngoài để trị đau thấp khớp bong gân. Lá nén làm gối đầu dùng tr",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:23e0b6bd4a50",
+      "fused_score": 0.012821,
+      "bm25_rank": 17,
+      "bm25_score": 3.425737,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b33",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "99 37- Phun TƯƠR /J/ Tác dụng chữa bệnh: Suy nhược cơ thể. 38- Along TANG AI /B/ Tác dụng chữa bệnh: Ghẻ; Nôn, trúng gió. 39- Along THAR /B/ Tác dụng chữa bệnh: Khó sinh 40- Along TLE TANG /B/ Tác dụng chữa bệnh: Chảy máu; Sát khuẩn.\n\n100 41- Along TANG MACH /B/ Tác dụng chữa bệnh: Viêm da dị ứng 42- Phun THENG LENG /J/ Tác dụng chữa bệnh: Sỏi đường tiết niệu. 43- Along TƠM PUN /B/ Tác dụng chữa bệnh: Hiếm muộn nữ 44- Phun SĂ SĬ /J/ Tác dụng chữa bệnh: Đau xương khớp.\n\n101 45- Along X XƯƠNG /B/ ",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:0f7e4f7c6bde",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 3.332811,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b33",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "90 PHỤ LỤC 4. DANH MỤC ẢNH CÂY THUỐC TRONG CÁC BÀI THUỐC THƯỜNG DÙNG NHƯNG KHÔNG CÓ TRONG DANH MỤC 100 CÂY THUỐC 1- Phun KƠ RAO /J/ Tác dụng chữa bệnh: Đau bụng, tiêu chảy 2- Phun CHĂ (J); Along CHAI LA /B/ Tác dụng chữa bệnh: Đau do sưng tấy vết thương 3- Phun CHĂ LA (J) Tác dụng chữa bệnh: Đau xương khớp. 4- Along CHƠ LEO /B/ Tác dụng chữa bệnh: Cảm sốt..\n\n91 5- Along CHI| CHU| /B/ Tác dụng chữa bệnh: Suy nhược cơ thể. 6- Along CHƠ MONG /B/ Tác dụng chữa bệnh: Suy nhược cơ thể 7- Along CHUA /B",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:d0ca8be41d2c",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.584958,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "tiêu hóa, hạ nhiệt, làm dịu đau, chống ho, trừ giun và điều kinh. Hoa có tác dụng trị giun và bổ.",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_775e7ad62f4a:9620195f4800",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 3.272806,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_775e7ad62f4a",
+      "parent_id": "src_775e7ad62f4a:h:5297024b7f97:b1",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "PHẦN I. ĐẠI CƯƠNG VỀ DƯỢC LIỆU 1. Định nghĩa, tầm quan trọng, lịch sử phát triển cùa môn Dược liệu học 2. Kỹ thuật chung về thu hái, phơi sấy, chế biến sơ bộ và bảo quản dược liệu 3. Thành phần và tác dụng của các nhóm hợp chất thường có trong dược liệu\n\nPHẦN II. CÁC CÂY THUỐC - VỊ THUỐC 4. Dược liệu có lác dụng an thần, gây ngủ 5. Dược liệu chữa cảm cúm, sốt rét 6. Dược liệu có tác dụng giảm đau, chữa thấp khớp 7. Dược liệu chữa ho, hen 8. Dược liệu chữa bệnh tim mạch, cầm máu 9. Dược liệu có l",
+      "rank": 28
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_1bcc0ba43edd:1ab81aa0daf7",
+      "bm25_score": 12.30388
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_1bcc0ba43edd:529efdb4cb53",
+      "bm25_score": 9.515837
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_5c35274f42f8:496e8ecb3f54",
+      "bm25_score": 9.476982
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_1bcc0ba43edd:ca6da87ede73",
+      "bm25_score": 8.979554
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_27dfc1ab5a19:e0156473285e",
+      "bm25_score": 8.418365
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_f80e34eb56ad:01d6c922a678",
+      "bm25_score": 7.862035
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_1bcc0ba43edd:99a64f6a5869",
+      "bm25_score": 7.599187
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_a9b32924bfc1:8c37e7833534",
+      "bm25_score": 7.565585
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_0797fad8a92a:67d5691dcf31",
+      "bm25_score": 7.348168
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_eb28c8848470:4b7ad9c75124",
+      "bm25_score": 7.167088
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_3ad7c6b78d18:25caff73d3fa",
+      "bm25_score": 7.136499
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_8a1746d31bb4:f30703acaba5",
+      "bm25_score": 6.964732
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_eb28c8848470:00d0f49a9361",
+      "bm25_score": 6.400422
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_8a1746d31bb4:8a4a01553e90",
+      "bm25_score": 6.326434
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_df81449827c6:021a397d31c5",
+      "bm25_score": 6.320051
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_d5596b1dce93:98c0b8a61ce2",
+      "bm25_score": 3.487275
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_e0520ddfd9ac:98c0b8a61ce2",
+      "bm25_score": 3.487275
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_6784cb75c99b:23e0b6bd4a50",
+      "bm25_score": 3.425737
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_6784cb75c99b:0f7e4f7c6bde",
+      "bm25_score": 3.332811
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_775e7ad62f4a:9620195f4800",
+      "bm25_score": 3.272806
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e0520ddfd9ac:e9ed28cfa12a",
+      "vector_score": 0.601504
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:e9ed28cfa12a",
+      "vector_score": 0.601504
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
+      "vector_score": 0.599251
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+      "vector_score": 0.599251
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_d5596b1dce93:f314cdc24bb6",
+      "vector_score": 0.597292
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_e0520ddfd9ac:f314cdc24bb6",
+      "vector_score": 0.597292
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_e0520ddfd9ac:a028899aeb8d",
+      "vector_score": 0.594053
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_d5596b1dce93:a028899aeb8d",
+      "vector_score": 0.594053
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:a895d161c98f",
+      "vector_score": 0.593458
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_d5596b1dce93:a895d161c98f",
+      "vector_score": 0.593458
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_e0520ddfd9ac:629e5f0ad85d",
+      "vector_score": 0.592298
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_d5596b1dce93:629e5f0ad85d",
+      "vector_score": 0.592298
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_e0520ddfd9ac:17480636ae37",
+      "vector_score": 0.590488
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_d5596b1dce93:17480636ae37",
+      "vector_score": 0.590488
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_e0520ddfd9ac:fdc96944b008",
+      "vector_score": 0.590306
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_d5596b1dce93:fdc96944b008",
+      "vector_score": 0.590306
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_e0520ddfd9ac:af46b5e6ac2f",
+      "vector_score": 0.587072
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_d5596b1dce93:af46b5e6ac2f",
+      "vector_score": 0.587072
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_e0520ddfd9ac:d0ca8be41d2c",
+      "vector_score": 0.584958
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_d5596b1dce93:d0ca8be41d2c",
+      "vector_score": 0.584958
+    }
+  ]
+}

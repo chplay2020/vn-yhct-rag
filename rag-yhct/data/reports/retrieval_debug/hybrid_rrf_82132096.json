@@ -1,0 +1,661 @@
+{
+  "query": "cách chữa trẻ em ho do cảm lạnh là gì",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_e823b7aa03f5:6bd3b7374105",
+      "fused_score": 0.031319,
+      "bm25_rank": 6,
+      "bm25_score": 17.911782,
+      "vector_rank": 0,
+      "vector_score": 0.656579,
+      "source_id": "src_e823b7aa03f5",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b3",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "inh, ho. Liều dùng: Cây lá tươi 10-30g. Hạt 6-12g BÀI THUỐC ỨNG DỤNG Chữa ho trẻ em có nhiều đờm Lá hẹ thái nhỏ 10g Cánh hoa hồng bạch 10g Đường phèn hoặc đường trắng 20g Tất cả cho vào bát nhỏ bịt lá chuối hấp trong nồi cơm hoặc đun cách thuỷ sôi 10 phút. Gạn lấy nước cho trẻ uống làm nhiều lần trong ngày. 13. HÚNG CHANH Tên khác: Rau tần - Rau tần dày lá - Dương tử tô. Rau thơm hông. Cách trồng: Trồng bằng đoạn thân cây ở nơi đất nhiều mùn, ẩm mát. Bộ phận dùng: Lá tươi và cành non. Thu hái, c",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_1d81088c863e:1f5d8887bd38",
+      "fused_score": 0.03101,
+      "bm25_rank": 4,
+      "bm25_score": 18.328735,
+      "vector_rank": 3,
+      "vector_score": 0.629033,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b231",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(*)Ôn thông: Dùng sức ấm làm nóng.\n\nCHẨN TRỊ NHỮNG BỆNH CHỨNG THƯỜNG GẶP BẰNG CHÂM CỨU CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 50 38. Ho gà Ho gà là loại ho từng cơn, dứt cơn một lúc lại phát cơn tiếp, mỗi ngày có từ mấy cơn đến mấy chục cơn ho. Do quá trình bệnh kéo dài nên còn gọi là ho “Bách nhật”. Bệnh thường thấy về cuối Đông, đầu Xuân, phần nhiều trẻ em từ 2 đến 4 tuổi hay mắc, ít thấy ở trẻ trên 10 tuổi. Bệnh do gió lạnh gây ra, chớm bị thì phát sốt s",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:c861e71a463b",
+      "fused_score": 0.022543,
+      "bm25_rank": 23,
+      "bm25_score": 15.019269,
+      "vector_rank": 33,
+      "vector_score": 0.575781,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b549",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Đơn thuốc: 1. Chữa cảm mạo, phong hàn phát sốt, nhức đầu ê ẩm, đau mình, không có mồ hôi, hay đổ mồ hôi khi gặp gió lạnh, trẻ em lên sởi, lở ngứa: Dùng Kinh giới cả hoa cành 20g sắc uống, hoặc phối hợp với các vị thuốc khác. 2. Chữa cảm gió lạnh nhức đầu, chảy nước mũi: Dùng hoa Kinh giới khô (Kinh giới tuệ), Bạch chỉ, hai vị bằng nhau tán nhỏ, uống mỗi lần 4g với nước chè nóng, cho ra mồ hôi. 3. Chữa cảm đau nhức các đầu xương: Kinh giới tươi 50g, Gừng sống 10g, giã vắt lấy nước uống còn bã đán",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_901a97a5099b:8ee7eec364fe",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 21.062534,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b13",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Lưỡi bệu: thuộc hư chứng. - Lưỡi lệch: do trúng phong. - Lưỡi run: do Tâm, Tỳ, khí, huyết, hư hoặc nghiện rượu. 2. Văn chân (nghe và ngửi) 2Ể1. Nghe âm tlianlt - Tiếng nói nhỏ, thều thào không ra hơi thuộc hư chứng. - Mê sàng là nhiệt vào Tâm bào. - Nói ngọng, nói khó là trúng phong. - Tiếng thở to, mạnh là thực chứng. - Tiếng ho mạnh là Phế thực nhiệt. - Tiếng ho yếu: Phế âm hư. - Ho kèm theo hắt hơi: do phong hàn. - Trẻ em ho cơn dài, có tiếng rít và nôn mửa là ho gà. 2.2. Mùi phân và nước t",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_7caef25456a4:1c0fe588f73c",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 20.099324,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_7caef25456a4",
+      "parent_id": "src_7caef25456a4:h:5297024b7f97:b0",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "trước đến đầu xuân năm sau. Đào lấy rễ củ, loại bỏ đất cát và rễ con, đồ qua hơi nước (hoặc nhúng vào nước sôi), lấy ra đem phơi hoặc sấy nhẹ cho khô. Những củ to có thể bổ dọc làm đôi. Bách bộ không mùi, vị hơi ngọt, sau đắng. Bách bộ đã được ghi trong Dược điển Việt Nam (2002). 3. Thành phần hóa học Bách bộ có chứa nhiều alcaloid, trong đó hoạt chất chính là stemonin. 4. Công dụng, cách dùng Bách bộ có tác dụng nhuận phổi, tiêu đờm, sát trùng. Dùng chữa các chứng bệnh: Ho mới hay ho lâu ngày, ",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:68b8ef363241",
+      "fused_score": 0.016129,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 1,
+      "vector_score": 0.637827,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b900",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ", hoà với đường uống; hay dùng Cát căn 20g, Đậu ván sao 12g, giã giập, sắc uống (theo Lê Trần Đức). 2. Chữa trẻ em cảm sốt, ho, viêm họng, hay lên sởi viêm phổi: Sắn dây 12g, Mạch môn 10g, Hương nhu 6g, sắc uống.",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:18887da802b1",
+      "fused_score": 0.015873,
+      "bm25_rank": 2,
+      "bm25_score": 18.542129,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b639",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng, chỉ định và phối hợp: ở Trung Quốc (Vân Nam) cây được dùng trị cảm mạo phát sốt, ho gà, lạc huyết, đau ngực, ho do viêm khí quản, trẻ em cam tích. Dùng ngoài trị mụn lở, viêm tuyến vú, đòn ngã sưng đau.",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_54b7e1d9b1cb:8afc25461923",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.626214,
+      "source_id": "src_54b7e1d9b1cb",
+      "parent_id": "src_54b7e1d9b1cb:h:5297024b7f97:b3",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ó ta thấy ớn lạnh là ho, đau họng ngay tức thì. đâu phải lúc ấy nó mới bay vào họng nhanh như thế. Pháp trị là bệnh do hàn thì phải dùng pháp ôn ( làm ấm) do đó Ông Bà ta thường dùng quất hấp với mật ong để chữa . vì hai vị này tính ấm. mà không dùng cam , chanh tươi vì tính hàn( chanh muối tính ấm). ví dụ cho các Bạn dễ hiểu như tôm, cá là loài thủy sinh cạn nước là tự nó chết. hoặc con giun đất nó chỉ ưa sống ở những nơi ẩm thấp như dưới vại nước , dưới gốc cây chuối ..( thấp sinh) nếu cho xuố",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_eb28c8848470:e1e0d4432d5b",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 18.254971,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b118",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ải khó chịu, huống chi là thể chất \"thuần dương” như trẻ con thì chịu sao nổi. Ngọc phù Tiềm Quyết luận nói: \"Trẻ em bị bệnh thường gây nên bởi quá no\". Người đời nay nuôi trẻ em, không lượng xét Trường Vị của nó chứa đựng là bao. Hễ thấy oa khóc, tức là nhét vú ngay vào mồm, cứ cho bú mãi, có khi đến \"trớ\" (ói, mửa) ra cả sữa mới thôi. Đến khi nó đã biết ăn, vô luận là thức gì hễ thấy nó đòi ăn là cho ăn. Trẻ em khi mới sinh, nó có biết gì đâu, chỉ có sở trường về \"kêu\" với \"khóc\". Hai cái đó t",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_901a97a5099b:7d2a4dce00e6",
+      "fused_score": 0.015152,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 5,
+      "vector_score": 0.615313,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b54",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "Cách làm: Dùng Gừng tươi 1 cù giã nát, 1 lá Trầu không thái nhỏ giã nát, cho 50 ml rượu trắng, đem đun thăng hoa cho nóng, dùng khăn mùi xoa bọc Gừng và lá Trầu không tẩm nước rượu nóng, chà sát lên khắp mặt, gáy, dọc 2 sống lưng, ngực, bụng, tứ chi. Hoặc dùng 1-2 quả trứng gà luộc cho chín, bóc vỏ rồi dùng đồng bạc cho vào giũa, dùng khàn mùi xoa bọc ngoài, bóp nát quả trứng và đánh khắp toàn thân. Trúng nguội có thể nhúng tiếp vào bát nước nóng rồi lại đánh tiếp, hoặc thay quả trứng mới luộc k",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:09cc8abf04e3",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.610157,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b86",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "đầu; thuốc an thần, thuốc chống ho; tiếp nước đường qua đường uống hoặc tiêm truyền, cho ăn nhiều bữa và bổ sung sau mỗi lần nôn tiếp sau cơn ho; chú ý lau sạch đờm dãi ở mũi họng sau mỗi cơn ho. Cần cách li 30 ngày kể từ khi có cơn ho đầu tiên. Dự phòng: tiêm chủng, kể từ lúc trẻ được 9 tháng tuổi theo chương trình tiêm chủng mở rộng của ngành y tế, là biện pháp có hiệu quả tốt nhất. HOA ĐÀ [Hua Tuo; tự Nguyên Hoá (Yuan Hua); ? – 208)], nhà y học nổi tiếng cuối Đông Hán của Trung Quốc, người tỉ",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_968dd8db7ffb:c3223bde4ab5",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 16.495325,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_968dd8db7ffb",
+      "parent_id": "src_968dd8db7ffb:h:5297024b7f97:b1",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dược lý học 2007 - đại học Y Hà nội sách dùng cho sinh viên hệ bác sĩ đa khoa Codein có tác dụng giảm ho do ức chế trực tiếp trung tâm ho, nhưng làm khô và tăng độ quánh của dịch tiết phế quản. Dùng codein trong trường hợp ho khan gây khó chịu, mất ngủ và trong các chứng đau nhẹ và vừa. Chống chỉ định: mẫn cảm với thuốc, trẻ em dưới 1 tuổi, bệnh gan, suy hô hấp, phụ nữ có thai. Liều dùng điều trị ho khan: uống mỗi lần 10- 20 mg, ngày 3 – 4 lần. 2.2.1.2. Pholcodin Tác dụng giảm ho mạnh hơn codein",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_0a2099bef982:21172878603d",
+      "fused_score": 0.014706,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 7,
+      "vector_score": 0.60595,
+      "source_id": "src_0a2099bef982",
+      "parent_id": "src_0a2099bef982:h:5297024b7f97:b2",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bài 4. Chữa ho, suyễn có nhiều đờm dãi, trẻ em hen phế quản, ho gà Rễ chanh sao 12g Vỏ rễ dâu tẩm mật sao 12g Vỏ bưởi (cạo bỏ cùi trắng) sao 12g Tất cả cho sắc với 200ml nước, lấy l OOml chia uống trong ngày (trẻ em cho thêm ít đường cho dễ uống). 5. CHỒM CHỒM Tên khác: Lôm chôm - vải thiều (miền Nam) - Xe môn (Campu chia). Cách trồng: Được trồng nhiều ở Nam Bộ bằng cách chiết cành hay bằng hạt. Bộ phận dùng: Quả và vỏ quả. Thu hái, ch ế biến: Thu hái quả chín vào tháng 5 —7 dương lịch, bóc vỏ q",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:818a24cc716b",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 16.462351,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b445",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ặ\n\nc ngâm rượu Gừng, mỗi ngày dùng 2-5ml để chữa ngoại cảm, bụng trướng đầy, nôn mửa, ho. Dùng gừng phối hợp với Chanh quả, củ Sả, mỗi thứ 10g, thái nhỏ ngâm với 5g muối và xi rô đơn (vừa đủ 100ml) trong 3 ngày rồi dùng vải vắt kiệt lấy nước, đựng trong lọ kín. Dùng uống trị ho, ngày 2 lần, mỗi lần 1-2 thìa canh. Trẻ em dùng 1/2 liều của người lớn. Gừng khô sắc uống như Gừng tươi, dùng khi bị lạnh mà đau bụng, đi ỉa lỏng, mệt lả, nôn mửa. Trong Nam dược thần hiệu, Tuệ Tĩnh đã ghi bài thuốc chữa ",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:39da12ece5f1",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.599933,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b102",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "giảm: Phương này tất nhiên dùng Hoắc hương, Tử tô, Hậu phác, Phục linh, Đại phúc bì, Bán hạ, Trần bì, các vị này tùy chứng mà gia giảm. Nếu sợ lạnh phát sốt nặng nên gia Kinh giới, Phòng phong Bạc hà thậm chí cả Khương hoạt. Nếu thấp nặng rêu dày nhớt lấy Thương thuật thay Bạch truật để tăng cường hóa thấp. Phụ phương: 1. Thử thấp chính khí hoàn: (Tên cũ: Thuần dương chính khí hoàn) Do các vị Trần bì, Đinh hương, Phục linh, Mao truật, Hoắc hương, Khương bán hạ, Quan quế, Bạch truật, Thanh mộc hư",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:882b5980a8cd",
+      "fused_score": 0.014286,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 9,
+      "vector_score": 0.596606,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b675",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Rau Mùi là loại thuốc chủ yếu trong đậu sởi. Trẻ em lên sởi, nhân gặp gió lạnh, sởi không mọc được, dùng Rau mùi một nắm sắc cho trẻ uống lúc còn nóng, đắp chăn cho ra mồ hôi, sởi sẽ mọc tiếp. Bên ngoài, có thể dùng một nắm lá Mùi tươi, giã nát, chưng nóng, gói vải thưa lại, xát cho trẻ từ đầu xuống thân mình, tay chân, sởi sẽ mọc đều và khỏi biến chứng. Ðơn thuốc: 1. Cảm cúm không ra mồ hôi: Ram Mùi 30g, Gừng tươi 5 lát, Hành 3 củ, sắc uống. 2. Khó tiêu: Rau Mùi 30g, sắc uống. Mùi chó quả mọng ",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_901a97a5099b:70a2a5decd30",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 16.30793,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b17",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "ường dùng: sấn dây, Bạc hà, lá Dâu. Khi chừa cần châm tà các huyệt: Phong môn, Hợp cốc, Đại truỳ, Khúc trì, Ngoại quan... - Cảm mạo phong hàn: cảm lạnh, đau dây thần kinh do lạnh, liệt VII do lạnh viêm mũi dị ứng do lạnh... Các vị thuốc thường dùng: Quế (que chi). Gì me tươi Bạch chi, Te tàn, Ma hoàng... Khi chữa cần cứu các huyệt: Liệt khuyết, Dại truỳ. 1.2. Cliống cltỉ địn li - ìa chảy mất nước, nôn mửa nhiều, thiếu máu 36",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_0a2099bef982:c53a7851fcfb",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 16.009831,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0a2099bef982",
+      "parent_id": "src_0a2099bef982:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng: - Quả chữa ho, giải khát. - Rễ chanh chữa ho có nhiều đồm dãi. - Lá chanh chữa trẻ em bụng đầy trướng. Liều dùng: Dịch quả chanh 10 - 20g/ngày, dạng nước ngọt. Lá, rễ 6 - 12g/ngày. BÀI THUỐC ỨNG DỤNG Bài 1. Chữa ho viêm họng Dùng quả chanh muối ngậm nhiều lần trong ngày. Bài 2. Chữa bí tiểu tiện, giải nhiệt Chanh quả 1 quả Nưốc đun sôi để nguội 400ml Vắt dịch quả chanh vào nước thêm đường uốhg nhiều lần trong ngày. Bài 3. Chữa trẻ em bí đái, bụng đầy trướng Lá chanh non giã đắp lên rố",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:62d5c885e11b",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.595191,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b159",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "y và lỵ của trẻ em. Trẻ nhỏ 1 tuổi dùng liều 0,05g; cứ 3 giờ uống một lần. Đơn thuốc: 1. Xích bạch lỵ: 12 quả Kha tử, 6 quả để sống, 6 quả nướng bỏ hạt, sao vàng và tán nhỏ. Nếu lỵ ra máu thì dùng nước sắc Cam thảo mà chiêu thuốc; nếu lỵ ra mùi, thì dùng nước sắc Cam thảo chích. 2. Ho lâu ngày: dùng Kha tử, Đảng sâm mỗi vị 4g sắc với 400ml, còn 1/2 chia uống 3 lần. 3. ỉa chảy lâu ngày: Kha tử 10g, tán bột, hoà với cháo ăn.",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_901a97a5099b:68c01ccf7d6b",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 15.980208,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_901a97a5099b",
+      "parent_id": "src_901a97a5099b:h:5297024b7f97:b30",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Tác dụng: chữa lỵ ỉa chảy nhiễm khuân, chữa viêm dạ dày câp. chữa nôn do sốt cao, chữa mụn nhọt, viêm màng tiếp hợp, viêm tuyên mang tai, viêm tai, loct lợi. lưỡi, miệng; chữa sốt cao, vật vã, mê sàng, chữa mất ngủ, cầm máu trong trường hợp sốt cao do nhiễm trùng gây thoát quàn. - Liều dùng: 6 - 12/ 24h. 2. Nha đỏ'ni tử: quả đã phơi hay sấy khô của cây sầu đâu cứt chuột (Brucea Javan nica Men.), họ Thanh thất (Simarubaceae). - Tính vị quy kinh: đáng lạnh vào kinh Đại trường. -Tác dụng: chữa tr",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_1d81088c863e:acdc9417ffee",
+      "fused_score": 0.013514,
+      "bm25_rank": 13,
+      "bm25_score": 15.831746,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b129",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bản quyền: Viện Thông tin Thư viện Y học Trung ương 160 356. Tứ phùng: Vị trí: Điểm chính giữa nếp gấp đốt 1-2 trên mặt sờ các ngón tay 2,3,4,5. (H. 136) Các châm: Dùng kim 3 cạnh chích nặn máu hoặc nước vàng dẻo. Chủ trị: Ho gà, trẻ em tiêu hoá kém, cam tích, viêm khớp ngón tay, bệnh giun đũa. Tác dụng phối hợp: Với Nội quan, Hợp cốc trị ho gà; với Túc tam lý trị trẻ em tiêu hoá kém. 357. Thập tuyên: Vị trí: Ở đầu nhọn 10 ngón tay, chỗ cách móng chứng 0,1 thốn. (H.136) Cách châm: Châm nông nặn ",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:7d3fec39ed9e",
+      "fused_score": 0.013514,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 13,
+      "vector_score": 0.589006,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b24",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng, chỉ định và phối hợp: Dân gian thường dùng làm thuốc trị ho, cảm sốt, ban trẻ em (An Giang)",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:6fd127fa3762",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 15.419328,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b809",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "n ngã sưng đau, ho do phổi nóng, rắn độc cắn. Có nơi dùng chữa trẻ em sốt cao và dùng ngoài trị phong thấp, gãy xương, viêm tai giữa. Dân gian còn dùng đắp sưng lở ở chân, các vết cắn của súc vật và chữa bệnh càng cua ở ngón tay, dùng trong chữa các chứng chảy máu và chảy máu mũi.",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:1387fd62a50d",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.589003,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b86",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lấy dịch làm xét nghiệm (tìm thấy vi khuẩn gây bệnh). Liệu pháp kháng sinh cho kết quả tốt. Thời kì toàn phát kéo dài từ 3 – 6 tuần với dấu hiệu đặc biệt: cơn ho thành chuỗi, mặt tím lại, mắt đỏ ngầu, chảy nước mắt, lưỡi thè ra; sau mỗi chuỗi ho là một tiếng rít vào dài, giống như tiếng gà gáy; rồi lại một chuỗi ho khác tiếp theo, cho tới khi bệnh nhân khạc ra được cục đờm nhày quánh và trong thì cơn ho mới ngừng; trẻ mệt, thở nhanh, mạch nhanh, vã mồ hôi. Bệnh nhân thường không sốt, giữa ho cơn",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:915568b87ddb",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 15.415078,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b251",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "uyết, giảm đau. Công dụng, chỉ định và phối hợp: Thường dùng trị 1. Cảm lạnh và ho, lao phổi, khái huyết giả; 2. Viêm hầu họng, viêm hạch hạnh nhân, viêm kết mạc cấp; 3. Loét dạ dày và hành tá tràng, viêm dạ dày ruột, kiết lỵ; 4. Viêm thận phù thũng, đái đục; 5. Trẻ em cam tích. Liều dùng 15-30g, dạng thuốc sắc. Dùng ngoài trị đòn ngã tổn thương, rắn độc cắn, mụn nhọt và viêm mủ da, viêm âm đạo do trùng roi. Giã cây tươi đắp chỗ đau, hoặc nấu nước để rửa. Ở Ấn Độ, có nơi người ta dùng nước hãm r",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:91c3eb820168",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.588185,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b113",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "HÀ NHÂN ẨM « Cảnh nhạc toàn thư » Thành phần: 1. Hà thủ ô\n\n8-12 gam 3. Nhân sâm (hoặc Đảng sâm) 12-20 gam 4. Trần bì\n\n8 gam 5. Gừng nướng 3 lát Cách dùng: Sắc với nước, uống trước cơn 3 giờ. Công dụng: Bổ khí huyết, trị sốt rét. Chủ trị: Sốt rét tái phát không khỏi, rét nhiều, nóng ít, tinh thần mỏi mệt, sắc mặt vàng tối, dùng các bài thuốc cắt cơn ít hiệu nghiệm. Giải bài thuốc: Đây là thuốc đại bổ khí huyết, Hà thủ ô bổ can thận, âm huyết, dưỡng âm mà không gây thấp, làm chủ dược. (Sốt rét lâu",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_e823b7aa03f5:9352dd7bdad1",
+      "fused_score": 0.012821,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 17,
+      "vector_score": 0.587377,
+      "source_id": "src_e823b7aa03f5",
+      "parent_id": "src_e823b7aa03f5:h:5297024b7f97:b7",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ỤNG Bài 1. Chữa cảm cúm Tỏi 10g Nước 100ml Tỏi bóc vỏ cứng, giã nát ngâm vào nước sôi để nguội trong 2 giờ, lọc qua gạc, nhỏ mũi nhiều lần trong ngày. Bài 2. Chữa trẻ em bụng đầy trướng. Tỏi 1 củ Giã nhỏ bọc trong miếng gạc buộc vào rốn trẻ. Ghi chú: Dùng ngoài giã đắp hoặc thái lát cứu. Còn dùng ăn sống, ăn nướng NHÀ XUẤT BẢN Y HỌC CÂY RAU - CÂY THUỐC Chịu trách nhiệm xuất bản HOÀNG TRONG QUANG Biên tập: DS. LÊ MINH NGUYỆT Sửa bản in: DS. LÊ MINH NGUYỆT Trình bày bìa: CHU THUỲ LINH Ktvi tính: B",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:b5fdc858ba47",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 15.324897,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b728",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ở Vân Nam (Trung Quốc), cây được dùng chữa bí đái do cảm nhiễm, sỏi, viêm thận, hoàng đản, lỵ trực khuẩn, bệnh giun tròn, giun móc, ghẻ nấm ngoài da, bệnh mẩn ngứa, trẻ em nhiều mồ hôi, phong thấp, rắn độc cắn.",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_e2fe10d2d90a:6b17f313e09e",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.584488,
+      "source_id": "src_e2fe10d2d90a",
+      "parent_id": "src_e2fe10d2d90a:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "hoa hồng bạch 10g Đường phèn 20g Hấp cơm hay hấp cách thuỷ sôi 15 phút, cho trẻ uống nhiều lần trong ngày. Chú ý: Nếu không có đường phên có thể thay bằng đường kính. Bải 2. Chữa trẻ em ho, nhiều đờm khò khè: Cánh hoa hồng bạch 10g Quả quất chín 2-3 quả Đường phèn 20g Hấp cơm hay hấp cách thuỷ sôi 15p, dầm nát quất trộn đều chia nhiều lần uống trong ngày. 11. HOA NHÀI Tên khác: Hoa nhài đơn - Hoa nhài kép - Mạt ly. Cách trồng: Trồng bằng đoạn thân mang rễ vào nơi đất tơi, xốp ẩm. Bộ phận dùng: R",
+      "rank": 28
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:7ac33c279173",
+      "fused_score": 0.0125,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 19,
+      "vector_score": 0.583435,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b111",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ễ hòa tan các chất chống sốt rét của các vị thuốc, mạnh hơn là dùng nước làm dung môi để hòa tan (chiết xuất). Gia giảm: Nếu nôn nhiều gia Bán hạ, Sinh khương, sốt cao gia Hoàng cầm, lưỡi đỏ rêu mỏng bỏ Hậu phác.\n\nTHƯỜNG SƠN ẨM Thành phần: 1. Thường sơn 8-16 gam 2. Thảo quả 8-12 gam 3. Binh lang 4-12 gam 4. Tri mẫu 12 gam 5. Bối mẫu 12 gam 6. Ô mai\n\n12 gam 7. Gừng nướng 3 lát 8. Đại táo",
+      "rank": 29
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_901a97a5099b:8ee7eec364fe",
+      "bm25_score": 21.062534
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_7caef25456a4:1c0fe588f73c",
+      "bm25_score": 20.099324
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_d5596b1dce93:18887da802b1",
+      "bm25_score": 18.542129
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e0520ddfd9ac:18887da802b1",
+      "bm25_score": 18.542129
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_1d81088c863e:1f5d8887bd38",
+      "bm25_score": 18.328735
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_eb28c8848470:e1e0d4432d5b",
+      "bm25_score": 18.254971
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_e823b7aa03f5:6bd3b7374105",
+      "bm25_score": 17.911782
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_968dd8db7ffb:c3223bde4ab5",
+      "bm25_score": 16.495325
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_d5596b1dce93:818a24cc716b",
+      "bm25_score": 16.462351
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_e0520ddfd9ac:818a24cc716b",
+      "bm25_score": 16.462351
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_901a97a5099b:70a2a5decd30",
+      "bm25_score": 16.30793
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_0a2099bef982:c53a7851fcfb",
+      "bm25_score": 16.009831
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_901a97a5099b:68c01ccf7d6b",
+      "bm25_score": 15.980208
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_1d81088c863e:acdc9417ffee",
+      "bm25_score": 15.831746
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:6fd127fa3762",
+      "bm25_score": 15.419328
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:6fd127fa3762",
+      "bm25_score": 15.419328
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_d5596b1dce93:915568b87ddb",
+      "bm25_score": 15.415078
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_e0520ddfd9ac:915568b87ddb",
+      "bm25_score": 15.415078
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_d5596b1dce93:b5fdc858ba47",
+      "bm25_score": 15.324897
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_e0520ddfd9ac:b5fdc858ba47",
+      "bm25_score": 15.324897
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e823b7aa03f5:6bd3b7374105",
+      "vector_score": 0.656579
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_e0520ddfd9ac:68b8ef363241",
+      "vector_score": 0.637827
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_d5596b1dce93:68b8ef363241",
+      "vector_score": 0.637827
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_1d81088c863e:1f5d8887bd38",
+      "vector_score": 0.629033
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_54b7e1d9b1cb:8afc25461923",
+      "vector_score": 0.626214
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_901a97a5099b:7d2a4dce00e6",
+      "vector_score": 0.615313
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_3ad7c6b78d18:09cc8abf04e3",
+      "vector_score": 0.610157
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_0a2099bef982:21172878603d",
+      "vector_score": 0.60595
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_6c0d8caff063:39da12ece5f1",
+      "vector_score": 0.599933
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_e0520ddfd9ac:882b5980a8cd",
+      "vector_score": 0.596606
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_d5596b1dce93:882b5980a8cd",
+      "vector_score": 0.596606
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_e0520ddfd9ac:62d5c885e11b",
+      "vector_score": 0.595191
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_d5596b1dce93:62d5c885e11b",
+      "vector_score": 0.595191
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_e0520ddfd9ac:7d3fec39ed9e",
+      "vector_score": 0.589006
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:7d3fec39ed9e",
+      "vector_score": 0.589006
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_3ad7c6b78d18:1387fd62a50d",
+      "vector_score": 0.589003
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_6c0d8caff063:91c3eb820168",
+      "vector_score": 0.588185
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_e823b7aa03f5:9352dd7bdad1",
+      "vector_score": 0.587377
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_e2fe10d2d90a:6b17f313e09e",
+      "vector_score": 0.584488
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_6c0d8caff063:7ac33c279173",
+      "vector_score": 0.583435
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "query": "cây chi sả có tên khác là gì",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+      "fused_score": 0.031778,
+      "bm25_rank": 0,
+      "bm25_score": 16.91822,
+      "vector_rank": 4,
+      "vector_score": 0.572183,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "42 55- Phun PLĂNG /J/; Along HƠP LĂNG /B/ • Tên phổ thông: Cây Sả chanh. • Tên khoa học: Cymbopogoncit ratus (DC) Stapf. • Bộ phận dùng: Lá, thân, củ. • Tác dụng chữa bệnh: Cảm sốt; Đau nhức xương khớp; Say rượu; Rối loạn tiêu hóa. • Công dụng: Cảm sốt, đun nước xông gồm 1 nắm lá và củ sả, lá chanh, lá duối, lá tre, lá cúc tần. Đau nhức xương khớp dùng tinh dầu sả xoa bóp. Say rượu, giã nát 1 bó sả lấy nước trong uống. Rối loạn tiêu hóa pha 3-4 giọt tinh dầu sả uống với nước sôi để nguội. • Kiên",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:1455f869ed3f",
+      "fused_score": 0.029206,
+      "bm25_rank": 14,
+      "bm25_score": 14.707654,
+      "vector_rank": 2,
+      "vector_score": 0.574806,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả lam Sả lam, Cỏ đít, Cỏ thúi - Cymbopogon caesius (Nees) Stapf. thuộc họ Lúa - Poaceae. Mô tả: Cây thảo có thân cao 0,3 tới 1m, thường phân nhánh, với các nhánh xếp thành bó. Lá tương đối nhỏ, dài 8-20cm, rộng 2-6mm, màu mốc mốc, mỏng, có mép ráp cao 2-3mm. Chuỳ hoa hình dải - thuôn, trải ra, màu mốc mốc hay màu cỏ khô khi chín, dài 10-20cm. Bộ phận dùng: Lá và thân - Folium et Caulis Cymbopogonis Caesii. Nơi sống và thu hái: Loài của các nước Đông dương, mọc hoang ở rừng thưa Quảng Trị, Ninh ",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:750fdd76b4a8",
+      "fused_score": 0.028992,
+      "bm25_rank": 7,
+      "bm25_score": 15.612511,
+      "vector_rank": 9,
+      "vector_score": 0.556894,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b886",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ụng trong hương liệu chế xà phòng. Ở Vân Nam (Trung Quốc), được dùng trị tâm vị khí thống, viêm nhánh khí quản, háo suyễn, phong thấp đau nhức khớp xương, đòn ngã tổn thương.\n\nSả hoa dày Sả hoa dày - Cymbopogon con fertiflorus Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo cao 1,5 tới 1,8m, thành bụi mọc đứng. Lá rất dài mà các bẹ khá rộng, có màu đo đỏ ở mặt trong. Chuỳ hoa cao 20-60cm, rộng 4-5cm, thưa, mọc đứng, màu nâu nâu hay tía. Rahoa tháng 9. Bộ phận dùng: Lá - Folium Cymbopogonis Confer",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:e6a3f245c188",
+      "fused_score": 0.028034,
+      "bm25_rank": 1,
+      "bm25_score": 16.68646,
+      "vector_rank": 23,
+      "vector_score": 0.525841,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b886",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả hồng Sả hồng, Sả lá rộng, Sả Palma-rosa - Cymbopogon martinii (Roxb) Wats., thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống nhiều năm; thân rễ ngắn. Thân cao trung bình 1,2 - 1,8m. Cây trưởng thành trung bình có 10-20 đốt, lóng dài 10-13cm, rộng 3mm, hơi dài hơn bẹ; ở các đốt thấp gần mặt đất có rễ bất định. Phiến lá có gốc hình tim hay tròn, dài 10-15cm, tới 25-40cm, rộng 1-3cm, mép cao 2-3mm, bẹ lá không lông, bao quanh đốt và lóng cây. Chuỳ hoa ít hoa, cao 10cm, lúc khô có màu đo đỏ; bông khô",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:7c30857b24ef",
+      "fused_score": 0.027629,
+      "bm25_rank": 28,
+      "bm25_score": 13.478911,
+      "vector_rank": 0,
+      "vector_score": 0.575696,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b885",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "S Sả Sả, Mao hương - Cymbopogon cit ratus (DC.) Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống lâu năm, mọc thành bụi, phân nhánh nhiều, cao khoảng 1,5m. Thân rễ trắng hoặc hơi tím. Lá dài đến 1m, hẹp, mép hơi ráp; bẹ trắng, rộng. Cụm hoa gồm nhiều bông nhỏ không cuống. Bộ phận dùng: Toàn cây - Herba Cymbopogonis Citrati. Nơi sống và thu hái: Loài liên nhiệt đới mọc hoang và được trồng lấy củ, lá làm gia vị và làm thuốc. Thu hái toàn cây quanh năm, rửa sạch và phơi trong râm mát cho khô. Th",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:4eb63a75051d",
+      "fused_score": 0.0272,
+      "bm25_rank": 22,
+      "bm25_score": 14.167843,
+      "vector_rank": 5,
+      "vector_score": 0.568381,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b888",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả Java Sả Java - Cymbopogon nardus (L.) Rendle (C. win terianus Jowitt), thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống dai, mọc thành bụi, có thân mọc thẳng, cao 0,8-1,5m. Lá phẳng, hình dải, rất dài, có mép sắc. Chuỳ hoa gồm nhiều chùm mọc đứng. Bộ phận dùng: Lá và thân rễ - Folium et Rhizoma Cymbopogonis Nardi. Nơi sống và thu hái: Loài của các nước Đông dương, Ấn Độ, In đô nê xia, Trung Quốc. Cũng được trồng ở nhiều nơi: Java, Đài Loan, Goatemala, Ghi nê, Madagascar, Thái Lan.",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:0ae13e226e37",
+      "fused_score": 0.025344,
+      "bm25_rank": 33,
+      "bm25_score": 13.379666,
+      "vector_rank": 7,
+      "vector_score": 0.5586,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b907",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả quăn Sả quăn - Cymbopogon tortilis (Presl) A. Camus, thuộc họ Lúa - Poaceae. Mô tả: Cỏ mọc thành bụi có thân đứng cao 80cm, lóng dài, to 1-2mm, thân bò ngắn, to 7- 8mm. Lá có phiến dài 15-20cm, rộng 7-8mm, mép cao 1-3mm, bẹ không lông. Cụm hoa có nhiều mo cứng đỏ, nhỏ, cuống mang 2 chùm rẽ đôi, có lông dài; bông nhỏ không cuống lưỡng tính dài 3,5-4mm, có lông dài 1cm; bông nhỏ có cuống đực, không có lông gai. Bộ phận dùng: Toàn cây - Herba Cymbopogonis Tortilis. Nơi sống và thu hái: Loài phân",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:22ced3450cd6",
+      "fused_score": 0.021804,
+      "bm25_rank": 36,
+      "bm25_score": 13.266791,
+      "vector_rank": 26,
+      "vector_score": 0.521926,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b886",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả Georing Sả Goering, Cát thảo - Cymbopogon goerin gii (Steud.) A. Camus, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo mọc hướng lên, có thân có lông ở dưới cụm hoa, lóng dài, to cỡ 2mm. Lá có phiến hẹp dài, dài 20-30cm, rộng 7mm, không dựng đứng, mép ngắn, bẹ ngắn hơn lóng, tương đối mềm. Chuỳ hoa hẹp, có 2-4 nhánh, nhánh sơ cấp gập xuống, dài hơn lóng, cỡ 5-7cm; mo ngắn; bông nhỏ lưỡng tính, dài 4mm, mày dưới 3-5 gân, lông gai dài 6mm. Bộ phận dùng: Toàn cây - Herba Cymbopogon nis Goerin gii. Nơi ",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:df259b7684b1",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 15.850183,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ta cũng có nhập trồng một thứ có nguồn gốc ở Java có năng suất hàng năm là 100 lít tinh dầu mỗi hec ta. Thành phần hoá học: Tinh dầu sả này có từ 20-40% geraniol và cit ronellol, 40-60% cit ronellal. Tính vị, tác dụng: Vị cay, mùi thơm, tính ấm; lá có tác dụng trừ ho; thân rễ có tác dụng lợi tiểu, hạ sốt, điều kinh, trợ đẻ. Công dụng: Ở Campuc hia, lá Sả Java phối hợp với các vị thuốc khác để điều trị bệnh ho và làm thuốc xông. Rễ cây lợi tiểu và hạ nhiệt cũng được dùng làm các chế phẩm để điều ",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 15.822046,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b885",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi tanh, xua ruồi muỗi. Dùng xoa ngoài chữa cúm và phòng bệnh truyền nhiễm. Ngày dùng 10-15g Sả hoặc một lượng nhỏ tinh dầu. Đơn thuốc: 1. Đau dạ",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:571672e24dc4",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 15.221503,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b129",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NẤM LINH CHI. (tk. vạn niên nhung, chi linh, mộc linh chi, hổ nhũ linh chi, bất lão thảo, thần tiên thảo, đoạn thảo, nấm lim...), nhóm nấm quý họ Linh chi (ganodermataceae), sống trên cây, trên gỗ hay rễ cây mục. NLC phiên âm theo tiếng Trung Quốc là lingzhi, theo tiếng Nhật là reishi. Cho tới nay đã có 386 tên loài được ghi nhận trên toàn thế giới thuộc họ Linh chi, trong đó 221 loài được các nhà khoa học công nhận, hơn 200 loài còn lại là các loài đồng nghĩa (synonym), các loài được sắp xếp nh",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:d0111361298d",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 14.826931,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b885",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Sả dịu Sả dịu - Cymbopogon flexuosus (Steud.) Wats., thuộc họ Lúa - Poaceae. Mô tả: Cây thảo cao 2-2,5m, lóng dài 30cm, to 7-8mm. Lá thòng dài 70-90cm, rộng 1cm; mép cao 6-7mm. Cụm hoa chuỳ ở 1/3 thân, màu xám xám, kép, có các nhánh và nhánh nhỏ kéo dài, mảnh, dịu, thường rũ xuống; chùm đơn vị dài 10-15mm, có 3 lóng; bông nhỏ dài 4mm, mày dưới có 2 lõm, lông gai ngắn hơn hay bằng mày nhỏ. Bộ phận dùng: Lá - Folium Cymbopogonis Flexuosi.",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:80ee164fed93",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.551245,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1188",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Xà cừ Xà cừ, Sọ khỉ - Khaya senegalen sis A. Juss., thuộc họ Xoan - Meliaceae. Mô tả: Cây gỗ cao 20-30m; thân to, tròn. Vỏ lúc non có màu xám, nhẵn, bong vẩy tròn như khảm xà cừ. Lá mọc so le, lúc non màu tím, kép lông chim chẵn, có 4-5 đôi lá chét hình thuẫn, đầu có mũi lồi ngắn, mép nguyên. Hoa xếp thành chùm tròn ở nách lá đầu cành. Hoa nhỏ, vàng, đều, mẫu 4; ống nhị hình cầu; đĩa hoa hình gờ tròn; vòi nhụy dài, đầu nhụy hình đĩa. Quả nang hình cầu, vỏ quả hóa gỗ. Hạt dẹt, có cánh mỏng. Hoa t",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:81a31e2e8865",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 14.762256,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b886",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Nơi sống và thu hái: Loài của Ấn Độ với hai thứ Motia và Sofia. Thứ Motia được ưa chuộng vì cho năng suất tinh dầu cao hơn. Ta nhập trồng vào đầu năm 1982. Hiện nay được trồng ở Đắc Lắc và một số nơi khác. Cây ưa điều kiện khí hậu ẩm mát, nhiệt độ thích hợp từ 16-28o C; có khả năng chịu được nhiệt độ cao và hạn kéo dài, chịu úng kém. Thường sinh trưởng tốt trong vụ xuân hè và hè thu. Cây có khả năng chịu được lượng phân bón cao và đòi hỏi đất trồng phải có tầng canh tác dầy trung bình từ 15-20cm",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_daad1eba3ee5:2d00822a216f",
+      "fused_score": 0.013514,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 13,
+      "vector_score": 0.546633,
+      "source_id": "src_daad1eba3ee5",
+      "parent_id": "src_daad1eba3ee5:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NHA ĐẢM TỬ Tên khác: Xoan rừng- sầu đâu cứt chuột – Khổ sâm (quả) Tên khoa học: Brucea javanica Meer. Họ: Thanh thất (Simarubaceae). 1. Mô tả, phân bố Nha đảm tử thuộc loại cây nhỡ, cao độ 3m, thân mềm, có lông. Lá mọc cách, kép lông chim lẻ, gồm 7-11 lá chét, phiến lá hình trứng nhọn, mép có răng cưa, hai mặt đều có lông mềm. Hoa đơn tính khác gốc, họp thành xim dài, màu tím sẫm. Quả hình bầu dục màu đen, hạt hình trứng, đầu nhọn, màu vàng. Cây mọc hoang khắp nơi ở các vùng rừng núi và trung du",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_6784cb75c99b:ff77865dcc71",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.545237,
+      "source_id": "src_6784cb75c99b",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b6",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "sinh, chậm sạch sản dịch, say nắng, hóc xương lấy rễ tươi giã nát, vắt lấy nước uống. • Kiêng kỵ: Thức ăn uống cay, nóng. • Nơi thu thập: Chư Păh; KBang.\n\n19 9- Phun AP LĂNG /J/; Along HƠP LANG /B/ • Tên phổ thông: Cây Sả. • Tên khác: Cây Cỏ sả. • Tên khoa học: Cymbopogon Citratus (DC) Stapf. • Bộ phận dùng: Toàn cây. • Tác dụng chữa bệnh: Cảm sốt; Đau bụng, đầy hơi; Gãy xương; Ngộ độc rượu. • Cách dùng: Cảm sốt dùng toàn cây tươi nấu với lá tre, lá duối, lá chanh, lá hương nhu để xông. Đau bụng",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:2f748fad689d",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.537761,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "TAM THẤT Tên khác: Nhân sâm tam thất- Tam thất bắc- Sâm tam thất- Điền thất - Sán xi ( Mông) - Kim bất hoán. Tên khoa học: Panax notoginseng (Burk. F. H. Chen) Họ: Nhân sâm (Araliaceae) 1. Mô tả, phân bố Tam thất thuộc loại cây thảo sống lâu năm, cao khoảng 40 cm. Lá kép, mọc vòng, phiến lá hình mác , đầu lá nhọn, mép có răng cưa nhỏ và mau. Hoa tự hình tán, mọc đầu cành màu xanh nhạt, Quả mọng, hình thận, khi chín có màu đỏ, trong chứa 2 hạt hình cầu. Cây được trồng ở các vùng núi cao như: Hà G",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_269c3c7d4e3e:969a6224f9de",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 14.70717,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_269c3c7d4e3e",
+      "parent_id": "src_269c3c7d4e3e:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (..............): 1. Nêu 2 tên khác thường gọi của cây Nghệ: A .............................................. B .............................................. 2. Tên khoa học cây Acti sô là: ............... họ Cúc: .................... 3. Nhân trần là cây thảo, thân tròn ................, lá .........., hoa ............................, qủa nang hình trứng. Phân biệt đúng/sai các câu sau bằng cách đánh dấu vào c",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:082886c40b09",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.532081,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1208",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Cam thảo Cam thảo khô Cam toại Càng cua\n\nCankina Cánh kiến đỏ Cánh kiến trắng Cảo bản\n\nCác căn Cát cánh Câu đằng khô Câu đằng quả\n\nCâu đằng Câu kỷ tử Cẩu tích Chè đắng\n\nChè dây Chè vằng Chè vằng Chè Chè\n\nChi râu hùm Chỉ thực Chỉ thực Chi tử\n\nChỉ xác Chìa vôi Chó đẻ răng cưa Chổi xể\n\nChusa-Thần sa Chua me đất hoa vàng Chua ngút Chuối hột\n\nChút chít Cô ca Cỏ dùi trống Cỏ lọ nồi\n\nCỏ lưỡi rắn Cỏ mần chầu Cỏ mần chầu Cỏ mực Cỏ nến, Bồn bồn\n\nCỏ ngọt Cỏ roi ngựa Cỏ sẹo gà Cỏ sữa lá lớn\n\nCỏ sữa lá nhỏ C",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_363b2e9ecf9b:6aa0bf9c9714",
+      "fused_score": 0.012821,
+      "bm25_rank": 17,
+      "bm25_score": 14.688189,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_363b2e9ecf9b",
+      "parent_id": "src_363b2e9ecf9b:h:5297024b7f97:b8",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ó, mọi trạng thái thuộc về tâm lý, sinh lý, bịnh lý của con người, đều được biểu hiện trên bộ mặt. Hay nói một cách khác hơn: bộ mặt chính là tấm gương phản chiếu, ghi nhận một cách có hệ thống, có chọn lọc, những gì thuộc về phạm vi con người, ở trạng thái tĩnh và động của nó. Thuyết này được áp dụng vào khoa diện chẩn như sau: Mỗi huyệt trên mặt là điểm phản chiếu của một hay nhiều huyệt trong cơ thể tương ứng với nó. 2. THUYẾT BIỂU HIỆN Thuyết biểu hiện được biểu hiện qua 3 góc độ: Không gian",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:5e291a3d9f10",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.52792,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b5",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NGŨ GIA BÌ Tên khác: Chân chim - Sâm Nam - Cây chân vịt - Áp cước mộc (TQ) Tên khoa học: Schefflera heptap hylla (L.) Frodi Họ: Nhân sâm (Araliaceae) 1. Mô tả, phân bố Là loại cây nhỡ, thân đứng, cao từ 5 - 15m. Lá mọc so le, kép chân vịt, thường có 8 lá chét, phiến lá hình bầu dục, mép lá nguyên. Hoa nhỏ, mọc thành chùy, màu trắng ở đầu cành. Quả mọng hình cầu, khi chín có màu tím sẫm, trong chứa 6 - 8 hạt. Cây mọc hoang ở các tỉnh miền núi nước ta. Các tỉnh có nhiều Ngũ gia bì chân chim là: Bắ",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_2e608dafe081:927a0f62fe33",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 14.498037,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_2e608dafe081",
+      "parent_id": "src_2e608dafe081:h:5297024b7f97:b8",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "toàn cơ thể. Do đó, mọi trạng thái thuộc về tâm lý, sinh lý, bịnh lý của con người, đều được biểu hiện trên bộ mặt. Hay nói một cách khác hơn: bộ mặt chính là tấm gương phản chiếu, ghi nhận một cách có hệ thống, có chọn lọc, những gì thuộc về phạm vi con người, ở trạng thái tĩnh và động của nó. Thuyết này được áp dụng vào khoa diện chẩn như sau: Mỗi huyệt trên mặt là điểm phản chiếu của một hay nhiều huyệt trong cơ thể tương ứng với nó. 2. THUYẾT BIỂU HIỆN Thuyết biểu hiện được biểu hiện qua 3 g",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:beee29abc89e",
+      "fused_score": 0.0125,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 19,
+      "vector_score": 0.527352,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b45",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "chi hoa. Nơi sống và thu hái: Cây mọc hoang ở những vực khe ẩm tối, gần suối ở độ cao trên 600m. Gặp nhiều ở Lào Cai (Sapa), Ninh Bình (Cúc Phương), Bắc Thái (Ðại Từ), Lạng Sơn, Hoà Bình, Hà Bắc. Cũng mọc nhiều ở Trung Quốc với nhiều thứ khác nhau. Thu hái rễ quanh năm, nhưng tốt nhất vào mùa thu đông, rửa sạch phơi khô. Thành phần hoá học: Có diosgenin, pen nogenin. Tính vị, tác dụng: Vị đắng, tính lạnh; có tác dụng thanh nhiệt giải độc, tiêu sưng viêm. Công dụng, chỉ định và phối hợp: Thường d",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:4e219208c1a2",
+      "fused_score": 0.012195,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 21,
+      "vector_score": 0.525878,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b626",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Mạ sưa Mạ sưa, Quắn hoa - Helicia nilagirica Bedd., thuộc họ Chẹo thui - Proteaceae. Mô tả: Cây gỗ nhỏ, cao 6-15m, nhánh non có lông nằm. Lá có phiến xoan hay bầu dục, dài 10-17cm, rộng 3-4cm, dai, hơi mỏng, không lông, gân phụ 6-8 cặp, lồi; cuống 1-1,5cm. Chùm dài 15- 25cm ở nách lá hay sẹo lá; hoa cao 2cm, trăng trắng. Quả hạch cứng, to 3-3,5cm. Hoa tháng 3-9, quả tháng 12. Bộ phận dùng: Rễ, lá, quả - Radix, Folium et Fruc tus Heliciae Nilagiricae. Nơi sống và thu hái: Loài của Nam Trung Quốc ",
+      "rank": 23
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+      "bm25_score": 16.91822
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:e6a3f245c188",
+      "bm25_score": 16.68646
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e0520ddfd9ac:e6a3f245c188",
+      "bm25_score": 16.68646
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_d5596b1dce93:df259b7684b1",
+      "bm25_score": 15.850183
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_e0520ddfd9ac:df259b7684b1",
+      "bm25_score": 15.850183
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
+      "bm25_score": 15.822046
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+      "bm25_score": 15.822046
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_d5596b1dce93:750fdd76b4a8",
+      "bm25_score": 15.612511
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:750fdd76b4a8",
+      "bm25_score": 15.612511
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_3ad7c6b78d18:571672e24dc4",
+      "bm25_score": 15.221503
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_d5596b1dce93:d0111361298d",
+      "bm25_score": 14.826931
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_e0520ddfd9ac:d0111361298d",
+      "bm25_score": 14.826931
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_d5596b1dce93:81a31e2e8865",
+      "bm25_score": 14.762256
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_e0520ddfd9ac:81a31e2e8865",
+      "bm25_score": 14.762256
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:1455f869ed3f",
+      "bm25_score": 14.707654
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:1455f869ed3f",
+      "bm25_score": 14.707654
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_269c3c7d4e3e:969a6224f9de",
+      "bm25_score": 14.70717
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_363b2e9ecf9b:6aa0bf9c9714",
+      "bm25_score": 14.688189
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_82c72885324a:6aa0bf9c9714",
+      "bm25_score": 14.688189
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_2e608dafe081:927a0f62fe33",
+      "bm25_score": 14.498037
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_d5596b1dce93:7c30857b24ef",
+      "vector_score": 0.575696
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
+      "vector_score": 0.575696
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_d5596b1dce93:1455f869ed3f",
+      "vector_score": 0.574806
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e0520ddfd9ac:1455f869ed3f",
+      "vector_score": 0.574806
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+      "vector_score": 0.572183
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_e0520ddfd9ac:4eb63a75051d",
+      "vector_score": 0.568381
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_d5596b1dce93:4eb63a75051d",
+      "vector_score": 0.568381
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_e0520ddfd9ac:0ae13e226e37",
+      "vector_score": 0.5586
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_d5596b1dce93:0ae13e226e37",
+      "vector_score": 0.5586
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_d5596b1dce93:750fdd76b4a8",
+      "vector_score": 0.556894
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_e0520ddfd9ac:750fdd76b4a8",
+      "vector_score": 0.556894
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_e0520ddfd9ac:80ee164fed93",
+      "vector_score": 0.551245
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_d5596b1dce93:80ee164fed93",
+      "vector_score": 0.551245
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_daad1eba3ee5:2d00822a216f",
+      "vector_score": 0.546633
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_6784cb75c99b:ff77865dcc71",
+      "vector_score": 0.545237
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_ae3b6786b57c:2f748fad689d",
+      "vector_score": 0.537761
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_d5596b1dce93:082886c40b09",
+      "vector_score": 0.532081
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_e0520ddfd9ac:082886c40b09",
+      "vector_score": 0.532081
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_ae3b6786b57c:5e291a3d9f10",
+      "vector_score": 0.52792
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_e0520ddfd9ac:beee29abc89e",
+      "vector_score": 0.527352
+    }
+  ]
+}

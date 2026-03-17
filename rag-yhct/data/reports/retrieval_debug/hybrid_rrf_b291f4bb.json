@@ -1,0 +1,601 @@
+{
+  "query": "tác dụng của cây ngải xả",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "fused_score": 0.027921,
+      "bm25_rank": 2,
+      "bm25_score": 11.01691,
+      "vector_rank": 22,
+      "vector_score": 0.588011,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hình đầu, màu vàng lục nhạt. Quả bế nhỏ, dài và nhẵn. Toàn cây có mùi thơm hắc. Cây mọc hoang hay được trồng khắp nơi trên đất nước ta vừa làm ra",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:1ab81aa0daf7",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 12.30388,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b130",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ự vạn vật đều có thể là thầy của chúng ta, để chỉ một sô\" thứ bản thân chúng cũng có khả năng đặc biệt, có tín hiệu liên hệ với con người. Vì vậy chúng ta phải có lòng yêu thương đổi vối chúng. Ngữ là ngôn ngữ. Có lòng yêu thương thì phải nói lời yêu thương. Xả là bỏ qua. Sinh tử ái ngữ đều phải biết cách xả bỏ qua. Nhưng nếu bạn không yêu quý mọi người cũng có nghĩa là bạn đã bỏ qua chính mình. Chỉ cần 356",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:e9ed28cfa12a",
+      "fused_score": 0.016393,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 0,
+      "vector_score": 0.607127,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b414",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dùng chữa: 1. Cảm lạnh, ho; 2. Bệnh giun chỉ và sốt rét; 3. Trẻ em biếng ăn và suy dinh dưỡng; 4. Nôn ra máu, ho ra máu, đi tiểu ra máu và các vết thương chảy máu. Liều dùng 30-50g, dạng thuốc sắc. Phụ nữ có thai kiêng dùng. Ở Malaixia và Ấn Độ, rễ sắc nước uống dùng trị ỉa chảy. Cũng được sử dụng để trục giun và dùng cho trẻ em bị đầy hơi và phụ nữ sau khi sinh. Ở In đô nê xia, người ta dùng toàn cây chữa lỵ, ỉa chảy, lá lách sưng to, đau gan, rò, mụn mủ, bướu. Ở Ấn Độ, lá giã ra dùng ngoài đắp",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_13b8c5abfbbe:dcb6c9644781",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 11.834943,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_13b8c5abfbbe",
+      "parent_id": "src_13b8c5abfbbe:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Là pp dùng sức nóng từ điếu ngải hoặc mồi ngải tác động lên huyệt vị theo lý luận YHCT để điều trị - Châm và Cứu có thể kết hợp hoặc đơn trị liệu KỸ THUẬT CỨU\n\n• Cứu là dùng sức nóng tác động lên huyệt kích thích tạo nên phản ứng của cơ thể để phòng và điều trị bệnh. Cứu thường dùng lá ngải cứu khô chế thành ngải nhung rồi làm mồi ngải hay điếu ngải để cứu. • Cứu bao gồm cứu trực tiếp, cứu gián tiếp. Cứu gián tiếp bao gồm cứu cách gừng có tác dụng ôn trung tán hàn, cứu cách tỏi có tác dụng tiê",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:fdc96944b008",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.605117,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b996",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "mát; có tác dụng thanh nhiệt giải thử, lợi thấp\n\ntiêu trệ, lá có tác dụng tiêu thũng khử độc. Công dụng, chỉ định và phối hợp: Dùng trị cảm mạo trúng nóng phát sốt, viêm ruột ỉa chảy và ho sổ tiếng, khản cổ. Lá dùng trị đau dạ dày, ngứa lở. Có thể dùng trị kiết lỵ, lậu nhiệt, băng đới, đàn bà máu xấu, chóng mặt, hoa mắt, ngực bụng đầy tức, đau hơi uất bế hoặc kinh nguyệt không đều, đại tiện không thông. Dùng rễ hay vỏ cây tươi 40g, lá tươi 20g sắc nước uống. Lá non có thể sắc uống thay chè, để p",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:34f3b889b06a",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 10.433387,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b714",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "cineol, l-cam phor. Tính vị và tác dụng: Vị đắng, cay, tính hàn; có tác dụng thanh nhiệt giải thử, trừ chưng, triệt ngược; còn có tác dụng lợi tiêu hóa, lợi tiểu. Công dụng: Ngải hoa vàng được dùng chữa sốt nóng khát nước, phiền nhiệt ra mồ hôi, tối nóng sáng mát, thận chưng lao nhiệt, sốt rét cơn, bệnh vàng da và bệnh ngoài da. Ngải hoa vàng cùng các chiết xuất của nó đã được dùng chữa bệnh sốt rét từ lâu.\n\nNgày nay, chúng ta đã chọn được giống Ngải hoa vàng có hàm lượng artemisinin cao, có thể",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:a895d161c98f",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.603709,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b410",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "có tác dụng thông tiểu, tiêu phù, lợi sữa. Công dụng, chỉ định và phối hợp: Lõi thân dùng chữa phù thũng, đái dắt, tê thấp và làm thuốc hạ nhệt, làm phổi bớt nóng. Cũng được xem như là có tác dụng bổ; thường dùng nhầm với vị Thông thảo. Liều dùng 20-30g dạng thuốc sắc. Dùng riêng hay phối hợp với cây Mua đỏ. Lá được dùng nấu nước xông chữa tê liệt bại người và giã đắp chữa gẫy xương. Ở Trung Quốc, người ta dùng lá chữa đòn ngã tổn thương hay dao chém thương tích.",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_1d81088c863e:69c5857f5fdc",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 9.919189,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b60",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "để lên mép giấy làm lõi, từ từ cuộn vào. Khi cuộn hết thì dùng tay hoặc mảnh gỗ ép lăn thêm cho chặt hơn, bấy giờ rút sợi thép ra rồi dùng hồ dán lại, thế là thành một điếu ngải to gần bằng ngón tay. (H30)\n\nHình 30. Cách làm điếu ngải B. Thao tác cứu ngải 1. Cứu trực tiếp Đem mồi ngải đã chế đặt lên trên huyệt vị, dùng hương đặt lên đầu nhọn của mồi ngải thổi nhẹ cho bén lửa. Khi mồi ngải cháy khoảng hai phần ba chiều cao, bệnh nhân kêu thấy nóng hơi nhiều thì bỏ ra, lại thay mồi khác. (H31)\n\nCÁ",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 9.873459,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "uống với ít đường. 2. Bạch đới: Ngải chân vịt tươi 30-60g, sắc uống. 3. Bầm dập: Ngải chân vịt tươi 60g, củ Hẹ tươi 30g, giã chung và tẩm rượu dùng đắp.\n\nNgải cứu Ngải cứu, Thuốc cứu - Artemisia vulgaris L., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo sống dai, cao khoảng 1m, thân có rãnh dọc. Lá mọc so le, xẻ nhiều kiểu, từ xẻ lông chim đến xẻ thuỳ theo đường gân, mặt trên xanh đậm, mặt dưới trắng xanh, có lông. Hoa đầu màu lục nhạt, xếp thành chùm xim. Mùa hoa quả tháng 10-12. Bộ phận dùng: Phầ",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:631e7bdf25e0",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.601834,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b716",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "sốt không ra mồ hôi); 2. Sưng amygdal, lở miệng; 3. Sốt rét; 4. Lao phổi kèm theo sốt, lao xương; 5. Huyết áp cao. Liều dùng 10-15g, dạng thuốc sắc. Dùng ngoài, giã cây tươi với lượng vừa đủ làm thuốc đắp trị: vết thương chảy máu, viêm mủ da, ec zema, mụn nhọt, rắn độc cắn. Cũng dùng chữa đau răng, chảy máu cam, đái ra máu, bỏng nước sôi, đau nhức do phong thấp. Đơn thuốc: 1. Sưng amygdal: Cây tươi Ngải Nhật 30-60g, thái nhỏ đun sôi uống. 2. Lao phổi có sốt, kéo dài thành sốt nặng: Ngải Nhật 10g",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e56086bb278f:84f42cb41a84",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 9.869365,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b3",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ". D. Hồng hoa là nụ hoa của cây Hồng hoa đã phơi khô. 10. Độ ẩm an toàn của các vị thuốc theo qui định là: A. Hạ khô thảo 13%. B. Rễ gai 13%. C. Hồng hoa 14%.\n\nD. Ngải cứu 14%. 11. Chất carthamin có trong dược liệu sau: A. Rễ cây Gai. B. Lá cây Bạch đồng nữ. C. Toàn cây Ngải cứu. D. Hoa cây Hồng hoa. 12. Công dụng chữa bệnh chính của vị thuốc: A. Sung úy tử điều hòa kinh nguyệt. B. Ngải cứu chữa phong thấp. C. Bạch đồng nữ chữa mụn nhọt. D. Hồng hoa chữa tụ huyết. 13. Cách dùng, liều lượng của v",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:861e87a98096",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.594489,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b66",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lợi tiêu hóa, kiện tỳ hành khí, trừ thấp, giảm đau. Công dụng, chỉ định và phối hợp: Được dùng trị: 1. Tiêu hóa kém, đầy bụng, ỉa chảy; 2. Đòn ngã bị thương, đau lưng. Dùng rễ 15-20g, lá 10-15g, dạng thuốc sắc. Lá có thể giã tươi hoặc phơi khô nghiền thành bột dùng đắp.",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:529efdb4cb53",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 9.515837,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b130",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "bạn thực sự làm được chữ xả là có thể vứt bỏ được rất nhiều thứ, từ đó mới có thể nhận được rất nhiều thứ. Luyện công là được m ất tương đương, m ất càng nhiều thì được càng nhiều. Nhưng không có nghĩa là ngay cả tính khí của bạn cũng xả bỏ đi, điều này chỉ người bình thường bị mắc phải, còn những người luyện công không được cố’ ý vứt bỏ. Những thứ sinh tử ái ngữ này đều phải bỏ qua, thì mới dễ dàng tăng công phu, mới có thể nhập tĩnh, thanh tĩnh v. v... thực sự. Đó là 40 chữ đầu: chí thú khổ íc",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:496e8ecb3f54",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 9.476982,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b18",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Về cách chữa bệnh của đông y, thầy thuốc sẽ giúp cho bệnh nhân ăn không được sẽ ăn được, ngủ không được sẽ giúp cho ngủ được, thở không được vì khí nghịch, đờm chặn ở phế khí quản sẽ có thuốc giúp cho khai thông tán đờm làm cho thở được dễ hơn, đầy bụng ăn không tiêu sẽ giúp cho tiêu hóa tốt, tiểu bí không ra sẽ giúp cho tiểu được, đại tiện không thông, bị táo bón sẽ giúp cho xả ra",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:17480636ae37",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.592204,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b553",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dùng chữa ỉa chảy. Ở Trung Quốc, rễ dùng trị phong thấp, đòn ngã, mụn ghẻ; lá trị háo suyễn, mụn ghẻ. Vỏ dây có thể cho sợi dẻo, có thể dùng làm thừng dây.",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_1d81088c863e:03aa29a1b18a",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 9.304612,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b60",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "CÁCH CHÂM CỨU CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 12 CÁCH CỨU A. Thuốc cứu và cách chế Thuốc cứu là lá ngải để lâu năm cho vào cối giã nhỏ thành xơ như nhung, có màu vàng nhạt. Từ ngải nhung chế thành mồi ngải hoặc điếu ngải mà sử dụng. 1. Cách chế mồi ngải Cấu một dúm ngải nhung khoảng bằng hột ngô, đặt lên mặt ván gỗ, dùng ba ngón tay cái, trỏ và giữa chụm ngải nhung lại và ấn thành khối có hình tháp chóp ba cạnh, ấn hơi chắc mồi cho khỏi rã ra. Mồi to",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 9.226784,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "và tác hại Bệnh do lạnh gây ra thì phải đuổi khí lạnh đó đi. Đó là nguyên lý chữa bệnh. Làm cho ấm cho nóng để đánh tan khí lạnh có 2 giải pháp: thuốc và hơ ngải cứu. Thuốc có rất nhiều nào là Phụ-tử, Quế, Khương.... vv. Nhưng có nhiều bệnh nhân đã được điều trị bằng phương thang (thuốc Bắc,Nam), nhìn toa thuốc thấy rất hợp với lý của bệnh mà bệnh vẫn không khỏi..... kỳ lạ thiệt. Việc này xin để quý Đông Y Sĩ suy xét. Ở đây tôi chỉ bàn về điếu ngải cứu trong việc hơ nóng để chữa các bệnh do lạnh",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:629e5f0ad85d",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.591817,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b775",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lị và ỉa chảy. Lá được dùng chữa bệnh ngoài da như hắc lào, lở ngứa; cũng có thể sắc uống chữa đau lưng và làm thuốc nhuận tràng. Vỏ cây dùng đắp trị rắn, rết, bò cạp cắn.",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:005a3452df50",
+      "fused_score": 0.013514,
+      "bm25_rank": 13,
+      "bm25_score": 9.118007,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ệ\n\nnh tăng lên dần..... và các bạn bị rối. Bệnh nhân biến mất, không kịp tạo cơ hội cho các bạn sữa chữa. A. KHỞI ĐẦU Năm 1988, trước khi đi Cuba, thầy Châu bắt đầu nghiên cứu dùng nhiệt tác động các huyệt trên mặt. Tôi là người đầu tiên được ông tiết lộ và chứng kiến việc này. Lúc đó, ông dùng điếu thuốc lá. Nhưng sau khi đã có một vài ca có kết quả tốt, ông bảo tôi tìm cách quấn ngải cứu giống như điếu thuốc lá để dùng. Tôi đi mua một bàn vấn thuốc lá, giấy quyến và ngải cứu xay. Hì hục vài lầ",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 9.024076,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ư điếu thuốc lá, đốt nóng để tác động vào các huyệt, chữa nhiều bệnh khác nhau. Không dùng cách này cho các bệnh nhiệt. Cách làm điếu ngải: Lấy lá ngải cứu khô vò nát, loại bỏ cành cuống, lấy phần còn lại là ngải nhung đem cuốn thành điếu như điếu thuốc lá hay to hơn tùy theo ý định sử dụng. Điếu ngải được đốt mang tính nóng ấm cao (thuần dương), nên khi dùng để làm nóng (cứu) các huyệt gọi sẽ làm khí huyết lưu thông mạnh, gây ấm nóng cơ thể, giảm đau, sưng, mỏi cơ, tiết dịch, giải độc, làm mềm ",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:518637271b3c",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.591232,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1052",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ương xuất huyết, mụn nhọt lở ngứa, viêm kết mạc mắt. Có nơi dùng trị rết cắn (với tên Ngải rít). Lá dùng trị sổ mũi và chứng bứt rứt. Ở Ấn Độ, nhựa mủ của các phần xanh của cây dùng đắp lên mụn cóc. Ở Malaixia, nhựa được dùng đắp vào da trị bệnh bạch biến và dùng trị bò cạp và rết cắn. Cách dùng: Lá thường dùng tươi giã đắp hoặc lấy mủ tươi đắp vết thương. Để dùng uống trong, hãm lá trong nước sôi. Để chữa đinh nhọt và viêm mủ da, vết thương chảy máu, giã cây tươi dùng rịt ở ngoài. Để trị rắn cắ",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:ca6da87ede73",
+      "fused_score": 0.013158,
+      "bm25_rank": 15,
+      "bm25_score": 8.979554,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b77",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "nên rất lo lắng. Tôi cũng sợ, ban đầu muốn chuyển một ít xuống thử xem có thàn h công không nhưng khống chế không được đành chuyển xuống rất nhiều. Sự việc th ật kỳ lạ, tôi vừa nghĩ tới tính 2 hướng thì th ật là kỳ lạ, một lúc sau xe không xả khói nữa, máy lại m át lạnh. Tôi nói: \"Tiểu La, anh thử xem, hình như xe chạy được rồi\". Anh nổ máy, đã thấy xe có điện. Tất nhiên việc này không thể nói rõ là như th ế nào? 204",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:cb59e507dbfe",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 8.903924,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ngải đắng Ngải đắng, Ngải áp xanh - Artemisia absin thium L., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo cao 0,4-1m, sống dai, màu trăng trắng, phân nhiều nhánh, rất thơm. Lá dạng trứng, các lá phía dưới hai hay ba lần chia lông chim, có cuống và có lông mềm, màu lục ở trên, màu trắng trắng ở dưới. Hoa màu vàng xếp thành đầu nhỏ hình cầu, các hoa đầu này lại xếp thành chùm bên trái ra, tạo thành dạng chuỳ có lá, đế hoa có lông, lá bắc của bao chung màu lục và dạng vẩy nhiều hay ít; tất cả hoa đề",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.591216,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi tanh, xua ruồi muỗi. Dùng xoa ngoài chữa cúm và phòng bệnh truyền nhiễm. Ngày dùng 10-15g Sả hoặc một lượng nhỏ tinh dầu. Đơn thuốc: 1. Đau dạ",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:e70f07131251",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 8.667162,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ch đới; 4. Khó tiêu, đầy bụng, thoát vị. Dùng 10-20g, dạng thuốc sắc, không dùng cho phụ nữ có thai. Dùng ngoài chữa đòn ngã, vết thương chảy máu, bỏng loét, ec zema. Giã cây tươi đắp ngoài, hoặc nghiền thành bột băng bó vết thương. Đơn thuốc: 1. Vô kinh hoặc đau bụng trước kỳ kinh: Ngải chân vịt tươi 30-60g đun với rượu và nước và\n\nuống với ít đường. 2. Bạch đới: Ngải chân vịt tươi 30-60g, sắc uống. 3. Bầm dập: Ngải chân vịt tươi 60g, củ Hẹ tươi 30g, giã chung và tẩm rượu dùng đắp.",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:f314cdc24bb6",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.589477,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b958",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "gây nôn, làm long đờm. Rễ có tác dụng tẩy. Lá có tác dụng nhuận tràng và sát trùng, kháng sinh. Công dụng, chỉ định và phối hợp: Toàn cây được dùng chữa: 1. Viêm khí quản, viêm phổi và hen suyễn; 2. Táo bón. Liều dùng 15-30g, dạng thuốc sắc. Lá được dùng trị bệnh ngoài da, ghẻ, và rắn cắn, dùng tươi giã đắp. Ở Ấn Độ, lá khô tán bột dùng trị giun và tẩy, có thể đắp vết thương. Rễ cũng dùng làm thuốc xổ. Ở In đô nê xia, cả cây dùng chữa táo bón, xổ và chữa nhức đầu.",
+      "rank": 25
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_1bcc0ba43edd:1ab81aa0daf7",
+      "bm25_score": 12.30388
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_13b8c5abfbbe:dcb6c9644781",
+      "bm25_score": 11.834943
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "bm25_score": 11.01691
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_d5596b1dce93:34f3b889b06a",
+      "bm25_score": 10.433387
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_e0520ddfd9ac:34f3b889b06a",
+      "bm25_score": 10.433387
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_1d81088c863e:69c5857f5fdc",
+      "bm25_score": 9.919189
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "bm25_score": 9.873459
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_e0520ddfd9ac:d72a0fa7fc20",
+      "bm25_score": 9.873459
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e56086bb278f:84f42cb41a84",
+      "bm25_score": 9.869365
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_1bcc0ba43edd:529efdb4cb53",
+      "bm25_score": 9.515837
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_5c35274f42f8:496e8ecb3f54",
+      "bm25_score": 9.476982
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_1d81088c863e:03aa29a1b18a",
+      "bm25_score": 9.304612
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "bm25_score": 9.226784
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_ef3d6ff3846c:005a3452df50",
+      "bm25_score": 9.118007
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "bm25_score": 9.024076
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_1bcc0ba43edd:ca6da87ede73",
+      "bm25_score": 8.979554
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_d5596b1dce93:cb59e507dbfe",
+      "bm25_score": 8.903924
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_e0520ddfd9ac:cb59e507dbfe",
+      "bm25_score": 8.903924
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_d5596b1dce93:e70f07131251",
+      "bm25_score": 8.667162
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_e0520ddfd9ac:e70f07131251",
+      "bm25_score": 8.667162
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e0520ddfd9ac:e9ed28cfa12a",
+      "vector_score": 0.607127
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:e9ed28cfa12a",
+      "vector_score": 0.607127
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e0520ddfd9ac:fdc96944b008",
+      "vector_score": 0.605117
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_d5596b1dce93:fdc96944b008",
+      "vector_score": 0.605117
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_e0520ddfd9ac:a895d161c98f",
+      "vector_score": 0.603709
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_d5596b1dce93:a895d161c98f",
+      "vector_score": 0.603709
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_e0520ddfd9ac:631e7bdf25e0",
+      "vector_score": 0.601834
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_d5596b1dce93:631e7bdf25e0",
+      "vector_score": 0.601834
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:861e87a98096",
+      "vector_score": 0.594489
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_d5596b1dce93:861e87a98096",
+      "vector_score": 0.594489
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_d5596b1dce93:17480636ae37",
+      "vector_score": 0.592204
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_e0520ddfd9ac:17480636ae37",
+      "vector_score": 0.592204
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_e0520ddfd9ac:629e5f0ad85d",
+      "vector_score": 0.591817
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_d5596b1dce93:629e5f0ad85d",
+      "vector_score": 0.591817
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:518637271b3c",
+      "vector_score": 0.591232
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:518637271b3c",
+      "vector_score": 0.591232
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+      "vector_score": 0.591216
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
+      "vector_score": 0.591216
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_d5596b1dce93:f314cdc24bb6",
+      "vector_score": 0.589477
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_e0520ddfd9ac:f314cdc24bb6",
+      "vector_score": 0.589477
+    }
+  ]
+}

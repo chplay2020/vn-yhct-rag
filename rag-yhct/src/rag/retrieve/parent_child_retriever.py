@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import re
 import time
 from typing import Any
 
@@ -44,6 +45,8 @@ DEFAULT_TOPK_CHILD = 20
 DEFAULT_TOPK_PARENT = 4
 DEFAULT_WINDOW = 1  # ±W children around best child
 DEFAULT_TOKEN_BUDGET = 3500
+DEFAULT_WINDOW_CENTERS = 2
+DEFAULT_CONTEXT_FOCUS = "focused"
 
 
 # ── parent cache ───────────────────────────────────────────────────────────
@@ -95,6 +98,35 @@ def _embed_query(
     return None
 
 
+def _score_of_child(item: dict[str, Any]) -> float:
+    return float(item.get("_score", 0.0) or 0.0)
+
+
+def _merge_ranges(ranges: list[tuple[int, int]]) -> list[list[int]]:
+    """Merge overlapping/touching [start, end) child index ranges."""
+    if not ranges:
+        return []
+    ordered = sorted(ranges, key=lambda x: (x[0], x[1]))
+    out: list[list[int]] = [[ordered[0][0], ordered[0][1]]]
+    for start, end in ordered[1:]:
+        last = out[-1]
+        if start <= last[1]:
+            last[1] = max(last[1], end)
+        else:
+            out.append([start, end])
+    return out
+
+
+def _extract_query_terms(query_text: str) -> list[str]:
+    stopwords = {
+        "cua", "của", "la", "là", "va", "và", "cay", "cây", "thuoc", "thuốc",
+        "tac", "tác", "dung", "dụng", "cho", "nhu", "như", "gi", "gì", "cac", "các",
+        "nhung", "những", "ve", "về", "tu", "từ", "den", "đến", "mot", "một",
+    }
+    raw = [t.strip() for t in re.findall(r"\w+", query_text.lower()) if t.strip()]
+    return [t for t in raw if len(t) >= 2 and t not in stopwords]
+
+
 # ── core retrieval ─────────────────────────────────────────────────────────
 
 def retrieve_context(
@@ -108,7 +140,9 @@ def retrieve_context(
     topk_child: int = DEFAULT_TOPK_CHILD,
     topk_parent: int = DEFAULT_TOPK_PARENT,
     window: int = DEFAULT_WINDOW,
+    window_centers: int = DEFAULT_WINDOW_CENTERS,
     token_budget: int = DEFAULT_TOKEN_BUDGET,
+    context_focus: str = DEFAULT_CONTEXT_FOCUS,
     parent_child_enabled: bool = True,
 ) -> dict[str, Any]:
     """Retrieve context for a query using parent–child strategy.
@@ -167,6 +201,14 @@ def retrieve_context(
             "children": children,
             "tokens_used": tokens_used,
             "mode": "flat_fallback",
+            "debug": {
+                "selected_parent_ids": [],
+                "selected_child_centers": [],
+                "merged_child_ranges": [],
+                "trimmed_context_spans": [],
+                "per_parent_context_contribution": [],
+                "final_context_token_count": tokens_used,
+            },
         }
 
     # ── 4. Group children by parent_id ────────────────────────────────
@@ -191,12 +233,27 @@ def retrieve_context(
     context_blocks: list[str] = []
     parent_results: list[dict[str, Any]] = []
     tokens_used = 0
+    debug_info: dict[str, Any] = {
+        "selected_parent_ids": [pid for pid, _, _ in chosen_parents],
+        "selected_child_centers": [],
+        "merged_child_ranges": [],
+        "trimmed_context_spans": [],
+        "per_parent_context_contribution": [],
+    }
+    query_terms = _extract_query_terms(query_text)
 
     for pid, score, group_children in chosen_parents:
         parent_rec = parent_cache.get(pid)
 
-        # Best child in this parent
-        best_child = max(group_children, key=lambda c: c["_score"])
+        # Top-M child centers in this parent (by child score)
+        sorted_children = sorted(group_children, key=_score_of_child, reverse=True)
+        centers = sorted_children[:max(1, window_centers)]
+        center_indices: list[int] = [
+            int(c["child_index"])
+            for c in centers
+            if isinstance(c.get("child_index"), int)
+        ]
+        best_child = sorted_children[0]
         best_child_idx = best_child.get("child_index")
 
         # Build header
@@ -211,19 +268,55 @@ def retrieve_context(
         # Get context text via windowing
         if parent_rec and parent_rec.get("parent_text"):
             parent_text = parent_rec["parent_text"]
-            children_count = parent_rec.get("children_count", 1)
+            parts = parent_text.split("\n\n")
+            range_candidates: list[tuple[int, int]] = []
 
-            if best_child_idx is not None and children_count > 1:
-                # Window: fetch neighbor children from the parent text
-                # Parent text was built by joining children with \n\n
-                parts = parent_text.split("\n\n")
+            if center_indices and len(parts) > 1:
+                for ci in center_indices:
+                    lo = max(0, ci - window)
+                    hi = min(len(parts), ci + window + 1)
+                    range_candidates.append((lo, hi))
+            elif best_child_idx is not None and isinstance(best_child_idx, int):
                 lo = max(0, best_child_idx - window)
                 hi = min(len(parts), best_child_idx + window + 1)
-                window_text = "\n\n".join(parts[lo:hi])
-            else:
-                window_text = parent_text
+                range_candidates.append((lo, hi))
+
+            merged_ranges = _merge_ranges(range_candidates)
+            if not merged_ranges:
+                merged_ranges = [[0, min(len(parts), max(1, 2 * window + 1))]]
+
+            if context_focus != "focused" and len(merged_ranges) > 0:
+                merged_ranges = [
+                    [merged_ranges[0][0], max(merged_ranges[0][1], len(parts))]
+                ]
+
+            if context_focus == "focused" and query_terms:
+                candidate_indices: list[int] = []
+                for start, end in merged_ranges:
+                    candidate_indices.extend(range(start, end))
+                hit_indices = [
+                    idx
+                    for idx in candidate_indices
+                    if idx < len(parts)
+                    and any(term in parts[idx].lower() for term in query_terms)
+                ]
+                if hit_indices:
+                    hit_lo = min(hit_indices)
+                    hit_hi = max(hit_indices) + 1
+                    merged_ranges = _merge_ranges([
+                        (hit_lo, min(len(parts), hit_hi + min(1, window)))
+                    ])
+
+            # Focus mode trims unrelated leading/trailing text by selecting only merged spans.
+            span_texts: list[str] = []
+            for start, end in merged_ranges:
+                if 0 <= start < end <= len(parts):
+                    span_texts.append("\n\n".join(parts[start:end]))
+
+            window_text = "\n\n".join(span_texts)
         else:
             # Fallback: concatenate child texts from this group
+            merged_ranges = None
             window_text = "\n\n".join(
                 c.get("text_norm") or c.get("text", "") for c in group_children
             )
@@ -243,6 +336,26 @@ def retrieve_context(
         context_blocks.append(block)
         tokens_used += block_tokens
 
+        selected_ranges = merged_ranges if parent_rec and parent_rec.get("parent_text") else None
+        preview = window_text[:220].replace("\n", " ")
+        debug_info["selected_child_centers"].append({
+            "parent_id": pid,
+            "centers": center_indices,
+        })
+        debug_info["merged_child_ranges"].append({
+            "parent_id": pid,
+            "ranges": selected_ranges,
+        })
+        debug_info["trimmed_context_spans"].append({
+            "parent_id": pid,
+            "spans": selected_ranges,
+        })
+        debug_info["per_parent_context_contribution"].append({
+            "parent_id": pid,
+            "tokens": block_tokens,
+            "preview": preview,
+        })
+
         parent_results.append({
             "parent_id": pid,
             "score": score,
@@ -251,16 +364,14 @@ def retrieve_context(
             "locator": locator,
             "children_in_topk": len(group_children),
             "best_child_index": best_child_idx,
-            "window_range": [
-                max(0, (best_child_idx or 0) - window),
-                min(
-                    (parent_rec or {}).get("children_count", 1),
-                    (best_child_idx or 0) + window + 1,
-                ),
-            ] if best_child_idx is not None else None,
+            "selected_child_centers": center_indices,
+            "merged_child_ranges": selected_ranges,
+            "trimmed_context_spans": selected_ranges,
+            "context_tokens": block_tokens,
         })
 
     context = "\n\n---\n\n".join(context_blocks)
+    debug_info["final_context_token_count"] = tokens_used
 
     return {
         "context": context,
@@ -268,6 +379,7 @@ def retrieve_context(
         "children": children[:10],  # return top10 for inspection
         "tokens_used": tokens_used,
         "mode": "parent_child",
+        "debug": debug_info,
     }
 
 
@@ -290,7 +402,10 @@ def main() -> None:
     p.add_argument("--topk-child", type=int, default=DEFAULT_TOPK_CHILD)
     p.add_argument("--topk-parent", type=int, default=DEFAULT_TOPK_PARENT)
     p.add_argument("--window", type=int, default=DEFAULT_WINDOW)
+    p.add_argument("--window-centers", type=int, default=DEFAULT_WINDOW_CENTERS)
     p.add_argument("--token-budget", type=int, default=DEFAULT_TOKEN_BUDGET)
+    p.add_argument("--context-focus", choices=["focused", "broad"], default=DEFAULT_CONTEXT_FOCUS,
+                    help="focused: only merged hit windows; broad: expand first window toward parent body")
     p.add_argument("--no-parent-child", action="store_true", default=False,
                     help="Disable parent-child mode (flat child-only)")
     args = p.parse_args()
@@ -306,7 +421,9 @@ def main() -> None:
         topk_child=args.topk_child,
         topk_parent=args.topk_parent,
         window=args.window,
+        window_centers=args.window_centers,
         token_budget=args.token_budget,
+        context_focus=args.context_focus,
         parent_child_enabled=not args.no_parent_child,
     )
     elapsed = time.time() - t0
@@ -321,7 +438,7 @@ def main() -> None:
             print(f"  - {pr['parent_id']}  score={pr['score']:.4f}  "
                   f"children_in_topk={pr['children_in_topk']}  "
                   f"best_child_idx={pr['best_child_index']}  "
-                  f"window={pr.get('window_range')}")
+                  f"ranges={pr.get('merged_child_ranges')}")
 
     print("\nTop Children:")
     for c in result["children"][:5]:
