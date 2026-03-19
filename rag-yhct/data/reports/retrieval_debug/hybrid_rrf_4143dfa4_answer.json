@@ -1,8 +1,8 @@
 {
   "query": "tác dụng của cây sả",
   "mode": "hybrid_rrf",
-  "top_k": 40,
-  "results": [
+  "model": "qwen2.5:7b-instruct",
+  "hybrid_results": [
     {
       "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
       "fused_score": 0.032266,
@@ -334,208 +334,322 @@
       "rank": 21
     }
   ],
-  "bm25_candidates": [
+  "gate_result": {
+    "pass": true,
+    "reason": "Sufficient and agreeing evidence from hybrid retrieval.",
+    "predicted_citation_count": 4,
+    "selected_evidence": [
+      {
+        "rank": 0,
+        "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+        "source_id": "src_e0520ddfd9ac",
+        "fused_score": 0.032266,
+        "vector_score": 0.685284,
+        "bm25_score": 12.581734,
+        "text": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi tanh, xua ruồi muỗi. Dùng xoa ngoài chữa cúm và phòng bệnh truyền nhiễm. Ngày dùng 10-15g Sả hoặc một lượng nhỏ tinh dầu. Đơn thuốc: 1. Đau dạ"
+      },
+      {
+        "rank": 1,
+        "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+        "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+        "source_id": "src_6784cb75c99b",
+        "fused_score": 0.030478,
+        "vector_score": 0.642949,
+        "bm25_score": 13.540066,
+        "text": "42 55- Phun PLĂNG /J/; Along HƠP LĂNG /B/ • Tên phổ thông: Cây Sả chanh. • Tên khoa học: Cymbopogoncit ratus (DC) Stapf. • Bộ phận dùng: Lá, thân, củ. • Tác dụng chữa bệnh: Cảm sốt; Đau nhức xương khớp; Say rượu; Rối loạn tiêu hóa. • Công dụng: Cảm sốt, đun nước xông gồm 1 nắm lá và củ sả, lá chanh, lá duối, lá tre, lá cúc tần. Đau nhức xương khớp dùng tinh dầu sả xoa bóp. Say rượu, giã nát 1 bó sả lấy nước trong uống. Rối loạn tiêu hóa pha 3-4 giọt tinh dầu sả uống với nước sôi để nguội. • Kiên"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+        "source_id": "src_e0520ddfd9ac",
+        "fused_score": 0.030366,
+        "vector_score": 0.677756,
+        "bm25_score": 11.894164,
+        "text": "S Sả Sả, Mao hương - Cymbopogon cit ratus (DC.) Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống lâu năm, mọc thành bụi, phân nhánh nhiều, cao khoảng 1,5m. Thân rễ trắng hoặc hơi tím. Lá dài đến 1m, hẹp, mép hơi ráp; bẹ trắng, rộng. Cụm hoa gồm nhiều bông nhỏ không cuống. Bộ phận dùng: Toàn cây - Herba Cymbopogonis Citrati. Nơi sống và thu hái: Loài liên nhiệt đới mọc hoang và được trồng lấy củ, lá làm gia vị và làm thuốc. Thu hái toàn cây quanh năm, rửa sạch và phơi trong râm mát cho khô. Th"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "src_d5596b1dce93:df259b7684b1",
+        "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+        "source_id": "src_d5596b1dce93",
+        "fused_score": 0.028814,
+        "vector_score": 0.648364,
+        "bm25_score": 11.000939,
+        "text": "Ta cũng có nhập trồng một thứ có nguồn gốc ở Java có năng suất hàng năm là 100 lít tinh dầu mỗi hec ta. Thành phần hoá học: Tinh dầu sả này có từ 20-40% geraniol và cit ronellol, 40-60% cit ronellal. Tính vị, tác dụng: Vị cay, mùi thơm, tính ấm; lá có tác dụng trừ ho; thân rễ có tác dụng lợi tiểu, hạ sốt, điều kinh, trợ đẻ. Công dụng: Ở Campuc hia, lá Sả Java phối hợp với các vị thuốc khác để điều trị bệnh ho và làm thuốc xông. Rễ cây lợi tiểu và hạ nhiệt cũng được dùng làm các chế phẩm để điều "
+      }
+    ],
+    "gate_features": {
+      "top1_score": 0.032266,
+      "top2_score": 0.030478,
+      "top1_top2_gap": 0.001788,
+      "evidence_count": 5,
+      "distinct_parent_count": 4,
+      "distinct_source_count": 3,
+      "same_parent_support": true,
+      "same_source_support": true,
+      "top_support_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+      "top_support_source_id": "src_e0520ddfd9ac",
+      "evidence_score_sum": 0.149836,
+      "evidence_score_mean": 0.029967,
+      "evidence_parent_concentration": 0.4,
+      "gate_topk": 5,
+      "min_strong_evidence": 2,
+      "strong_rel_ratio": 0.85,
+      "strong_abs_threshold": 0.015,
+      "has_absolute_claim_pattern": false,
+      "absolute_claim_supported": false,
+      "absolute_countersignal_count": 1,
+      "claim_mismatch_flag": false
+    }
+  },
+  "selected_evidence": [
     {
       "rank": 0,
-      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
-      "bm25_score": 13.540066
+      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+      "source_id": "src_e0520ddfd9ac",
+      "fused_score": 0.032266,
+      "vector_score": 0.685284,
+      "bm25_score": 12.581734,
+      "text": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi tanh, xua ruồi muỗi. Dùng xoa ngoài chữa cúm và phòng bệnh truyền nhiễm. Ngày dùng 10-15g Sả hoặc một lượng nhỏ tinh dầu. Đơn thuốc: 1. Đau dạ"
     },
     {
       "rank": 1,
-      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
-      "bm25_score": 12.581734
+      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+      "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+      "source_id": "src_6784cb75c99b",
+      "fused_score": 0.030478,
+      "vector_score": 0.642949,
+      "bm25_score": 13.540066,
+      "text": "42 55- Phun PLĂNG /J/; Along HƠP LĂNG /B/ • Tên phổ thông: Cây Sả chanh. • Tên khoa học: Cymbopogoncit ratus (DC) Stapf. • Bộ phận dùng: Lá, thân, củ. • Tác dụng chữa bệnh: Cảm sốt; Đau nhức xương khớp; Say rượu; Rối loạn tiêu hóa. • Công dụng: Cảm sốt, đun nước xông gồm 1 nắm lá và củ sả, lá chanh, lá duối, lá tre, lá cúc tần. Đau nhức xương khớp dùng tinh dầu sả xoa bóp. Say rượu, giã nát 1 bó sả lấy nước trong uống. Rối loạn tiêu hóa pha 3-4 giọt tinh dầu sả uống với nước sôi để nguội. • Kiên"
     },
     {
       "rank": 2,
-      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
-      "bm25_score": 12.581734
+      "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+      "source_id": "src_e0520ddfd9ac",
+      "fused_score": 0.030366,
+      "vector_score": 0.677756,
+      "bm25_score": 11.894164,
+      "text": "S Sả Sả, Mao hương - Cymbopogon cit ratus (DC.) Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống lâu năm, mọc thành bụi, phân nhánh nhiều, cao khoảng 1,5m. Thân rễ trắng hoặc hơi tím. Lá dài đến 1m, hẹp, mép hơi ráp; bẹ trắng, rộng. Cụm hoa gồm nhiều bông nhỏ không cuống. Bộ phận dùng: Toàn cây - Herba Cymbopogonis Citrati. Nơi sống và thu hái: Loài liên nhiệt đới mọc hoang và được trồng lấy củ, lá làm gia vị và làm thuốc. Thu hái toàn cây quanh năm, rửa sạch và phơi trong râm mát cho khô. Th"
     },
     {
       "rank": 3,
-      "chunk_id": "src_d5596b1dce93:e6a3f245c188",
-      "bm25_score": 12.282195
-    },
-    {
-      "rank": 4,
-      "chunk_id": "src_e0520ddfd9ac:e6a3f245c188",
-      "bm25_score": 12.282195
-    },
-    {
-      "rank": 5,
-      "chunk_id": "src_d5596b1dce93:750fdd76b4a8",
-      "bm25_score": 11.900325
-    },
-    {
-      "rank": 6,
-      "chunk_id": "src_e0520ddfd9ac:750fdd76b4a8",
-      "bm25_score": 11.900325
-    },
-    {
-      "rank": 7,
-      "chunk_id": "src_d5596b1dce93:7c30857b24ef",
-      "bm25_score": 11.894164
-    },
-    {
-      "rank": 8,
-      "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
-      "bm25_score": 11.894164
-    },
-    {
-      "rank": 9,
-      "chunk_id": "src_d5596b1dce93:1455f869ed3f",
-      "bm25_score": 11.117913
-    },
-    {
-      "rank": 10,
-      "chunk_id": "src_e0520ddfd9ac:1455f869ed3f",
-      "bm25_score": 11.117913
-    },
-    {
-      "rank": 11,
       "chunk_id": "src_d5596b1dce93:df259b7684b1",
-      "bm25_score": 11.000939
-    },
-    {
-      "rank": 12,
-      "chunk_id": "src_e0520ddfd9ac:df259b7684b1",
-      "bm25_score": 11.000939
-    },
-    {
-      "rank": 13,
-      "chunk_id": "src_d5596b1dce93:d0111361298d",
-      "bm25_score": 10.679249
-    },
-    {
-      "rank": 14,
-      "chunk_id": "src_e0520ddfd9ac:d0111361298d",
-      "bm25_score": 10.679249
-    },
-    {
-      "rank": 15,
-      "chunk_id": "src_d5596b1dce93:4eb63a75051d",
-      "bm25_score": 10.677801
-    },
-    {
-      "rank": 16,
-      "chunk_id": "src_e0520ddfd9ac:4eb63a75051d",
-      "bm25_score": 10.677801
-    },
-    {
-      "rank": 17,
-      "chunk_id": "src_d5596b1dce93:81a31e2e8865",
-      "bm25_score": 10.527946
-    },
-    {
-      "rank": 18,
-      "chunk_id": "src_e0520ddfd9ac:81a31e2e8865",
-      "bm25_score": 10.527946
-    },
-    {
-      "rank": 19,
-      "chunk_id": "src_d5596b1dce93:22ced3450cd6",
-      "bm25_score": 10.369701
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+      "source_id": "src_d5596b1dce93",
+      "fused_score": 0.028814,
+      "vector_score": 0.648364,
+      "bm25_score": 11.000939,
+      "text": "Ta cũng có nhập trồng một thứ có nguồn gốc ở Java có năng suất hàng năm là 100 lít tinh dầu mỗi hec ta. Thành phần hoá học: Tinh dầu sả này có từ 20-40% geraniol và cit ronellol, 40-60% cit ronellal. Tính vị, tác dụng: Vị cay, mùi thơm, tính ấm; lá có tác dụng trừ ho; thân rễ có tác dụng lợi tiểu, hạ sốt, điều kinh, trợ đẻ. Công dụng: Ở Campuc hia, lá Sả Java phối hợp với các vị thuốc khác để điều trị bệnh ho và làm thuốc xông. Rễ cây lợi tiểu và hạ nhiệt cũng được dùng làm các chế phẩm để điều "
     }
   ],
-  "vector_candidates": [
-    {
-      "rank": 0,
-      "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
-      "vector_score": 0.685284
-    },
-    {
-      "rank": 1,
-      "chunk_id": "src_d5596b1dce93:5252f4a1b67c",
-      "vector_score": 0.685284
-    },
-    {
-      "rank": 2,
-      "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
-      "vector_score": 0.677756
-    },
-    {
-      "rank": 3,
-      "chunk_id": "src_d5596b1dce93:7c30857b24ef",
-      "vector_score": 0.677756
-    },
-    {
-      "rank": 4,
-      "chunk_id": "src_d5596b1dce93:ae3b556c0a40",
-      "vector_score": 0.66369
-    },
-    {
-      "rank": 5,
-      "chunk_id": "src_e0520ddfd9ac:ae3b556c0a40",
-      "vector_score": 0.66369
-    },
-    {
-      "rank": 6,
-      "chunk_id": "src_d5596b1dce93:df259b7684b1",
-      "vector_score": 0.648364
-    },
-    {
-      "rank": 7,
-      "chunk_id": "src_e0520ddfd9ac:df259b7684b1",
-      "vector_score": 0.648364
-    },
-    {
-      "rank": 8,
-      "chunk_id": "src_d5596b1dce93:6e7bca388620",
-      "vector_score": 0.645197
-    },
-    {
-      "rank": 9,
-      "chunk_id": "src_e0520ddfd9ac:6e7bca388620",
-      "vector_score": 0.645197
-    },
-    {
-      "rank": 10,
-      "chunk_id": "src_6784cb75c99b:35b57ece06c2",
-      "vector_score": 0.642949
-    },
-    {
-      "rank": 11,
-      "chunk_id": "src_d5596b1dce93:be99da960086",
-      "vector_score": 0.630269
-    },
-    {
-      "rank": 12,
-      "chunk_id": "src_e0520ddfd9ac:be99da960086",
-      "vector_score": 0.630269
-    },
-    {
-      "rank": 13,
-      "chunk_id": "src_6784cb75c99b:ff77865dcc71",
-      "vector_score": 0.629644
-    },
-    {
-      "rank": 14,
-      "chunk_id": "src_e0520ddfd9ac:c8c145cc4112",
-      "vector_score": 0.628678
-    },
-    {
-      "rank": 15,
-      "chunk_id": "src_d5596b1dce93:c8c145cc4112",
-      "vector_score": 0.628678
-    },
-    {
-      "rank": 16,
-      "chunk_id": "src_e0520ddfd9ac:750fdd76b4a8",
-      "vector_score": 0.61908
-    },
-    {
-      "rank": 17,
-      "chunk_id": "src_d5596b1dce93:0ae13e226e37",
-      "vector_score": 0.618733
-    },
-    {
-      "rank": 18,
-      "chunk_id": "src_e0520ddfd9ac:0ae13e226e37",
-      "vector_score": 0.618733
-    },
-    {
-      "rank": 19,
-      "chunk_id": "src_e0520ddfd9ac:7629d56fff9b",
-      "vector_score": 0.61206
+  "context": {
+    "mode": "parent_child",
+    "tokens_used": 3500,
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "sả"
+      ],
+      "dominant_term": "sả",
+      "candidate_parent_count": 3,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+          "base_score": 0.032266,
+          "relevance_score": 0.122266,
+          "support_count": 2,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+          "base_score": 0.030478,
+          "relevance_score": 0.100478,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+          "base_score": 0.028814,
+          "relevance_score": 0.098814,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_e0520ddfd9ac:h:5297024b7f97:b885",
+        "src_6784cb75c99b:h:5297024b7f97:b15",
+        "src_d5596b1dce93:h:5297024b7f97:b888"
+      ],
+      "final_parent_count": 3,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+          "centers": []
+        },
+        {
+          "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+          "centers": []
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+          "ranges": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+          "ranges": [
+            [
+              1,
+              5
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+          "spans": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+          "spans": [
+            [
+              1,
+              5
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+          "tokens": 1628,
+          "preview": "S Sả Sả, Mao hương - Cym bopogon cit ratus (DC.) Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống lâu năm, mọc thành bụi, phân nhánh nhiều, cao khoảng 1,5m. Thân rễ trắng hoặc hơi tím. Lá dài đến 1m, hẹp, mép hơi ráp;"
+        },
+        {
+          "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+          "tokens": 752,
+          "preview": "42 55- Phun PLĂNG /J/; Along HƠP LĂNG /B/ • Tên phổ thông: Cây Sả chanh. • Tên khoa học: Cym bopogon cit ratus (DC) Stapf. • Bộ phận dùng: Lá, thân, củ. • Tác dụng chữa bệnh: Cảm sốt; Đau nhức xương khớp; Say rượu; Rối l"
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+          "tokens": 1120,
+          "preview": "Sài núi Sài núi, Sơn cúc núi - Wedelia wallic hii Less., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo mọc đứng; thân, lá nhám hay có lông phún. Lá mọc đối, phiến xoan thon, dài cỡ 7cm, gân có gốc 3, gân phụ 3-4 cặp, mép có"
+        }
+      ],
+      "final_context_tokens": 3500,
+      "final_context_token_count": 3500,
+      "final_answer_chunk_ids": [
+        "src_e0520ddfd9ac:5252f4a1b67c",
+        "src_e0520ddfd9ac:7c30857b24ef",
+        "src_6784cb75c99b:35b57ece06c2",
+        "src_d5596b1dce93:df259b7684b1"
+      ]
     }
-  ]
+  },
+  "answer": {
+    "answer": "Cây sả có tác dụng khử phong thấp, giải cảm hàn, trừ sốt, đau đầu, đau dạ dày, ỉa chảy, viêm tai giữa, ho, kinh nguyệt không đều. [E1] Tinh dầu sả còn dùng để xua muỗi và khử mùi hôi. [E1] Tuy nhiên, tác dụng cụ thể phụ thuộc vào cách sử dụng và đối tượng sử dụng. [E1]",
+    "key_concepts": [
+      "tác dụng của cây sả",
+      "tinh dầu sả",
+      "khử phong thấp"
+    ],
+    "evidence": [
+      {
+        "citation_id": "E1",
+        "chunk_id": "src_e0520ddfd9ac:5252f4a1b67c",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+        "title": null,
+        "file_path": "src_e0520ddfd9ac",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.032266,
+        "snippet": "khí, giải cảm hàn thấp nóng sốt, trị đau bụng lạnh dạ, nôn mửa. Ngày nay, ta dùng Sả chữa: cảm mạo, nóng sốt đau đầu, đau dạ dày, ỉa chảy, phong thấp tê đau, đòn ngã tổn thương, bụng dạ trướng đau, viêm tai giữa có mủ, ho, cước khí, kinh nguyệt không đều, phù thũng khi có mang. Người ta còn dùng toàn cây Sả chưng cất tinh dầu; tinh dầu Sả dùng khử mùi hôi..."
+      },
+      {
+        "citation_id": "E2",
+        "chunk_id": "src_e0520ddfd9ac:7c30857b24ef",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b885",
+        "title": null,
+        "file_path": "src_e0520ddfd9ac",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.030366,
+        "snippet": "S Sả Sả, Mao hương - Cymbopogon cit ratus (DC.) Stapf, thuộc họ Lúa - Poaceae. Mô tả: Cây thảo sống lâu năm, mọc thành bụi, phân nhánh nhiều, cao khoảng 1,5m. Thân rễ trắng hoặc hơi tím. Lá dài đến 1m, hẹp, mép hơi ráp; bẹ trắng, rộng. Cụm hoa gồm nhiều bông nhỏ không cuống. Bộ phận dùng: Toàn cây - Herba Cymbopogonis Citrati. Nơi sống và thu hái: Loài li..."
+      },
+      {
+        "citation_id": "E3",
+        "chunk_id": "src_6784cb75c99b:35b57ece06c2",
+        "parent_id": "src_6784cb75c99b:h:5297024b7f97:b15",
+        "title": null,
+        "file_path": "src_6784cb75c99b",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.030478,
+        "snippet": "42 55- Phun PLĂNG /J/; Along HƠP LĂNG /B/ • Tên phổ thông: Cây Sả chanh. • Tên khoa học: Cymbopogoncit ratus (DC) Stapf. • Bộ phận dùng: Lá, thân, củ. • Tác dụng chữa bệnh: Cảm sốt; Đau nhức xương khớp; Say rượu; Rối loạn tiêu hóa. • Công dụng: Cảm sốt, đun nước xông gồm 1 nắm lá và củ sả, lá chanh, lá duối, lá tre, lá cúc tần. Đau nhức xương khớp dùng ti..."
+      },
+      {
+        "citation_id": "E4",
+        "chunk_id": "src_d5596b1dce93:df259b7684b1",
+        "parent_id": "src_d5596b1dce93:h:5297024b7f97:b888",
+        "title": null,
+        "file_path": "src_d5596b1dce93",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.028814,
+        "snippet": "Ta cũng có nhập trồng một thứ có nguồn gốc ở Java có năng suất hàng năm là 100 lít tinh dầu mỗi hec ta. Thành phần hoá học: Tinh dầu sả này có từ 20-40% geraniol và cit ronellol, 40-60% cit ronellal. Tính vị, tác dụng: Vị cay, mùi thơm, tính ấm; lá có tác dụng trừ ho; thân rễ có tác dụng lợi tiểu, hạ sốt, điều kinh, trợ đẻ. Công dụng: Ở Campuc hia, lá Sả..."
+      }
+    ],
+    "limits": "Thông tin về tác dụng của cây sả chủ yếu dựa trên kinh nghiệm dân gian, chưa có bằng chứng lâm sàng đầy đủ. Cần thận trọng khi sử dụng và nên tham khảo ý kiến bác sĩ trước.",
+    "safety_note": "Thông tin này chỉ nhằm mục đích tham khảo từ tài liệu đã truy xuất, không thay thế chẩn đoán hoặc chỉ định điều trị của bác sĩ."
+  },
+  "raw_model_output": "{\n  \"answer\": \"Cây sả có tác dụng khử phong thấp, giải cảm hàn, trừ sốt, đau đầu, đau dạ dày, ỉa chảy, viêm tai giữa, ho, kinh nguyệt không đều. Tinh dầu sả còn dùng để xua muỗi và khử mùi hôi. Tuy nhiên, tác dụng cụ thể phụ thuộc vào cách sử dụng và đối tượng sử dụng.\",\n  \"key_concepts\": [\"tác dụng của cây sả\", \"tinh dầu sả\", \"khử phong thấp\"],\n  \"limits\": \"Thông tin về tác dụng của cây sả chủ yếu dựa trên kinh nghiệm dân gian, chưa có bằng chứng lâm sàng đầy đủ. Cần thận trọng khi sử dụng và nên tham khảo ý kiến bác sĩ trước.\"\n}"
 }

@@ -303,14 +303,14 @@
       "rank": 19
     },
     {
-      "chunk_id": "src_e0520ddfd9ac:9552cb3b3138",
+      "chunk_id": "src_d5596b1dce93:9552cb3b3138",
       "fused_score": 0.013333,
       "bm25_rank": null,
       "bm25_score": null,
       "vector_rank": 14,
       "vector_score": 0.626228,
-      "source_id": "src_e0520ddfd9ac",
-      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b997",
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b997",
       "child_index": 1,
       "doc_type": "txt",
       "category": "MY_MI_DUONG",
@@ -393,14 +393,14 @@
       "rank": 25
     },
     {
-      "chunk_id": "src_d5596b1dce93:631e7bdf25e0",
+      "chunk_id": "src_e0520ddfd9ac:631e7bdf25e0",
       "fused_score": 0.012658,
       "bm25_rank": null,
       "bm25_score": null,
       "vector_rank": 18,
       "vector_score": 0.622979,
-      "source_id": "src_d5596b1dce93",
-      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b716",
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b716",
       "child_index": 1,
       "doc_type": "txt",
       "category": "MY_MI_DUONG",
@@ -438,14 +438,14 @@
       "rank": 28
     },
     {
-      "chunk_id": "src_d5596b1dce93:26a222311cb5",
+      "chunk_id": "src_e0520ddfd9ac:26a222311cb5",
       "fused_score": 0.012048,
       "bm25_rank": null,
       "bm25_score": null,
       "vector_rank": 22,
       "vector_score": 0.617775,
-      "source_id": "src_d5596b1dce93",
-      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1166",
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1166",
       "child_index": 3,
       "doc_type": "txt",
       "category": "MY_MI_DUONG",
@@ -515,7 +515,11 @@
     "gate_topk": 5,
     "min_strong_evidence": 2,
     "strong_rel_ratio": 0.85,
-    "strong_abs_threshold": 0.015
+    "strong_abs_threshold": 0.015,
+    "has_absolute_claim_pattern": false,
+    "absolute_claim_supported": false,
+    "absolute_countersignal_count": 2,
+    "claim_mismatch_flag": false
   },
   "context_payload": {
     "mode": "parent_child",
@@ -690,7 +694,12 @@
         }
       ],
       "final_context_tokens": 1669,
-      "final_context_token_count": 1669
+      "final_context_token_count": 1669,
+      "final_answer_chunk_ids": [
+        "src_e56086bb278f:6f1cca84036b",
+        "src_e56086bb278f:0da8554ff07a",
+        "src_e0520ddfd9ac:d72a0fa7fc20"
+      ]
     }
   }
 }

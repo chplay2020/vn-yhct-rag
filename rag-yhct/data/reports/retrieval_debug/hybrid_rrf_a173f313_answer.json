@@ -1,0 +1,929 @@
+{
+  "query": "thuốc nào chữa khỏi hoàn toàn mọi loại ung thư",
+  "mode": "hybrid_rrf",
+  "model": "qwen2.5:7b-instruct",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_715f913a01a9:a5841a778d98",
+      "fused_score": 0.031281,
+      "bm25_rank": 1,
+      "bm25_score": 19.469693,
+      "vector_rank": 5,
+      "vector_score": 0.554004,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "30biến chứng suy tủy, suy tim, đau thận, mất máu, mất hồng cầu ,bạch cầu, và gây ra một bệnh ung thư khác.\n\nNgoài ba phương pháp trên còn có phương pháp khác như dùng nội tiết tố hormone như kích thích tố nam testosté rone chữa ung thư vú, cortisone trị ung thư máu cấp tính, có tính cách nâng cao thể trạng bệnh nhân, làm khỏi bệnh tạm thời. Phương pháp dùng In terfé ron như dùng sức nóng kích thích cơ thể sản xuất những chất sinh học tạo ra các sinh tố A,B,C. để chống lại virus, ngừa bệnh. Và ph",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_12abef9658fb:5fb0159efbfa",
+      "fused_score": 0.03031,
+      "bm25_rank": 4,
+      "bm25_score": 17.847683,
+      "vector_rank": 6,
+      "vector_score": 0.553755,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thể dùng băng có lót bông đem thấm dịch cây Lược Vàng để đắp lên vết mổ. . Bệnh ung thư: Để cập đế bệnh ung thư, ông Dmit ri cho biết, đã tìm thấy rất nhiều thông tin về cây Đikhora, rằng nó giúp chữa ung thư ở mọi giai đoạn, nhưng ông tỏ ra nghi ngờ điều này. Bản thân ông chỉ nhận được những bức thư với lời đề nghị gửi cây Lược Vàng và các toa thuốc sử dụng nó để chữa ung thư, còn những bức thư khẳng định tác dụng chữa ung thư của thuốc hầu như rất ít. Đây là một trong những bức thư như vậy: “M",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_12abef9658fb:c7d94bd4a395",
+      "fused_score": 0.02967,
+      "bm25_rank": 9,
+      "bm25_score": 17.097693,
+      "vector_rank": 4,
+      "vector_score": 0.557338,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "giờ, tôi có thể dùng các thứ đó bình thường. Tôi thích uống nước chè xanh. Trong suốt thời gian dùng Lược Vàng để trị bệnh ung thư đến nay, tôi không sử dụng tới bất kì một loại thuốc điều trị nào khác, kể cả sinh tố. Chỉ dùng thảo dược Lược Vàng, ăn uống bình thường, kết hợp vận động hàng ngày. Tôi duy trì vẩy tay theo bài tập \"Đạt Ma Dịch cân kinh\" (Báo Người cao tuổi đăng). Tập vẩy tay 1.800 lần vào buổi tối trước khi đi ngủ hoặc buổi sáng. Khi khoẻ lên, tôi theo chị em luyện tập đi bộ hằng n",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_715f913a01a9:9119922dd402",
+      "fused_score": 0.029631,
+      "bm25_rank": 6,
+      "bm25_score": 17.766901,
+      "vector_rank": 7,
+      "vector_score": 0.550256,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "29cung ), nhục lựu ( bướu thịt ), lâm ba nhục lựu( ung thư hạch lym phosarcome )..\n\nVì trong sách vở của y học cổ truyền Trung quốc có đề cập đến các loại bệnh ung thư và cách chữa nhưng không được thống kê kết qủa và theo dõi như tây y nên không đáng tin cậy, cho nên các loại bệnh ung thư đều phải điều trị bằng phương pháp y học hiện đại như phẫu trị, xạ trị, hoặc hóa trị. Tuy nhiên 3 phương pháp này chưa hoàn hảo, hậu qủa của cách điều trị theo tây y dẫn đến những tác hại khác đối với cơ thể t",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_12abef9658fb:7b29d2018518",
+      "fused_score": 0.028442,
+      "bm25_rank": 0,
+      "bm25_score": 20.784211,
+      "vector_rank": 22,
+      "vector_score": 0.520674,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b22",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thực sự vui lây và muốn chuyển lời cảm ơn của gia đình họ đến Báo Người cao tuổi, đến tác giả cuốn sách “Cây Lược Vàng quý như vàng”. . Chỉ dùng Lược Vàng, một cán bộ khỏi ung thư ác tính. (LTS): - Saukhi Báo Người cao tuổi đăng bài \"chữa khỏi bệnh ung thư bằng cây Lược Vàng\", nhiều bạn đọc gửi thư, điện về Toà soạn và chính người bệnh là chị Nguyễn Thị Nga, sinh năm 1958, cán bộ kĩ thuật Công ty Kim loại mầu Thái Nguyên bị bệnh u lim phô ác tính, chữa tại Bệnh viện K Hà Nội, hoá trị hoá chất tớ",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:f2d1ef5113e8",
+      "fused_score": 0.028006,
+      "bm25_rank": 13,
+      "bm25_score": 16.721589,
+      "vector_rank": 8,
+      "vector_score": 0.544344,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b44",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "hiệu của ung thư. Khi gặp anh ta tôi nói: \"Có thể anh sẽ ho, nhưng lúc ho anh đừng sợ\". Kết quả là 1 tuần sau anh ta ho thật, mấy ngày sau anh ta lại dùng cái máy đó kiểm tra, kết quả các số liệu đã thay đổi, thông tin về bệnh ung thư đã biến mất. Rốt cuộc có thể chữa khỏi bệnh ung thư hay không, không thể nói rõ được, nhưng các sô\" liệu của anh ta quả thực đã thay đổi. Tôi yêu cầu mọi người nghĩ đến lửa, để khiến ngưòi bạn nóng lên, nhưng nếu bạn lại thấy lạnh, chứng tỏ bạn cần Lãnh công. Các t",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_715f913a01a9:5f17c8b877e9",
+      "fused_score": 0.025849,
+      "bm25_rank": 10,
+      "bm25_score": 16.908498,
+      "vector_rank": 24,
+      "vector_score": 0.520276,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Thờ I kỳ tiền ung thư còn tiềm ẩn trong cơ thể, tây y không thể xác định bệnh nhân có bị bệnh ung thư hay không, thì đông y bắt mạch, định bệnh vẫn khám ra được căn bệnh xảy ra ở mỗi giai đoạn và có cách chữa ở mỗi giai đoạn khác nhau theo tên bệnh đã có của đông y cổ đại như chứng thạch thư ( ung thư xương), thạch ung ( ung thư hạch ) ,sau này Trung quốc thống nhất tên gọi ,dùng từ thủng lựu chỉ chung các loại ung thư, dùng từ nham chỉ các loại ung thư có khối cứng như nhũ nham ( ung thư vú ),p",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_715f913a01a9:3259ba3939ad",
+      "fused_score": 0.025131,
+      "bm25_rank": 8,
+      "bm25_score": 17.224841,
+      "vector_rank": 33,
+      "vector_score": 0.513902,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Nhận thức mới của các nhà y học Trung quốc trong việc chữa trị ung thư là đi tìm phương pháp nào phải đạt được những yếu tố có lợi trong việc bảo vệ sức khỏe bệnh nhân như :\n\n-Nâng cao sức khỏe cho bệnh nhân chống được sự phá hoại của các tế bào ung thư như dùng thuốc bổ khí, bổ huyết, bổ âm, bổ dương..\n\n-Hạn chế sự phát triển của tế bào ung thư.",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_715f913a01a9:10c655f6543f",
+      "fused_score": 0.02393,
+      "bm25_rank": 35,
+      "bm25_score": 14.751216,
+      "vector_rank": 13,
+      "vector_score": 0.53329,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b14",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Thành phần : Toàn yết 5 gram, ngô công 6 con, đơn sâm 20 gram, Xuyên khung 5 gram, Cương tàm, Địa long, Bán hạ, Bạch truật, Thiên ma, Bối mẫu đều 9 gram, Câu đằng, Thiên qùy tử, Nữ trinh tử, Câu kỷ tử, Phân tâm thảo, đều 15 gram, Hạ khô thảo 30 gram. Sắc uống. Thử nghiệm : Trị 7 ca ung thư sọ não trong đó có 3 ca ung thư tuyến yên, 2 ca ung thư não thất, 1 ca ung thư khoang sọ, 1 ca ung thư chẩm. Sau điều trị, thời gian sống lâu nhất được 16 năm, ngắn nhất là 5 năm 3 tháng.\n\ne-Những bài thuốc că",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_12abef9658fb:3e98541c66dc",
+      "fused_score": 0.023489,
+      "bm25_rank": 30,
+      "bm25_score": 14.907666,
+      "vector_rank": 19,
+      "vector_score": 0.52464,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b12",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thực nghiệm, các kết quả cho thấy ở nữ giới dùng dầu hướng dương trong đồ ăn khả năng phát bệnh ung thư cao gấp 40 lần so với ở nam giới; điều ngạc nhiên này có lẽ nằm trong những khác biệt về nội tiết tố của hai giới. Vậy phải chăng việc sử dụng cây Lược Vàng để chữa trị ung thư chưa có bằng chứng xác đáng? Không phải vậy - ông Đmit ri khẳng định và cho biết, nếu thực tế đúng như thế thì ngay chỉ nhắc qua lĩnh vực sử dụng này ông cũng chẳng muốn nghĩ tới. Chuyện là ở chỗ, những tin tức về hoạt ",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:cd9ae88f7464",
+      "fused_score": 0.023297,
+      "bm25_rank": 33,
+      "bm25_score": 14.803962,
+      "vector_rank": 18,
+      "vector_score": 0.525015,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b23",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "58 Bởi lối xét nghiệm chính xác của tây y mà không tìm ra được thuốc chữa, vô tình đã làm cho con người hoảng sợ trước hai căn bệnh nan y mà tây y bó tay là ung thư và sida. Nhưng thực ra khi bệnh nhân chết không phải do bệnh chính, mà do thuốc hành hạ đau đớn, ngộp thở mà chết. Có một căn bệnh rõ ràng là ung thư mà không chữa cũng chẳng sao, như ở Việt nam có những người ăn xin đeo cả trăm bướu lớn nhỏ lủng lẳng trên mặt trên mình mẩy, chân tay, không thể nào cắt mổ tất cả được, cắt rồi, nó mọc",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:12f8da9de2f8",
+      "fused_score": 0.022801,
+      "bm25_rank": 22,
+      "bm25_score": 15.535198,
+      "vector_rank": 32,
+      "vector_score": 0.513922,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b6",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Nói tóm lại, cách khám bệnh và điều trị bệnh đều logic, và kết qủa cũng logic, có nghĩa là khi chúng ta bị phán một bản án là ung thư, theo tây y, nếu không chữa thì chết ngay, nếu bằng lòng chữa trị thì sẽ kéo dài thêm tuổi thọ trong suốt thời gian chữa cho đến khi đau đớn hoặc khó thở rồi chết. Khách quan mà nói, nếu chúng ta có những người thân hoặc bạn bè bị bệnh ung thư thì chúng ta cũng đã biết họ phải chữa chứ không còn con đường nào khác, và chúng ta cũng chỉ còn được thấy họ ở trên thế ",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_715f913a01a9:c6a8e20a9be7",
+      "fused_score": 0.022704,
+      "bm25_rank": 19,
+      "bm25_score": 16.032301,
+      "vector_rank": 37,
+      "vector_score": 0.511019,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b14",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "B-Dùng chữa ung thư có dấu hiệu can thận âm hư gây hư hỏa làm da nóng, bức rứt, sốt về chiều, đêm ra mồ hôi trộm, đau tức sườn ngực, ho ra máu:\n\na/ Đại bổ âm hoàn : gồm có hoàng bá, tri mẫu, thục địa, quy bản. b/ Nhất quán tiễn : gồm có bắc sa sâm, đương quy, sinh địa, kỷ tử, xuyên luyện tử.\n\n41 C-Dùng chữa ung thư có hội chứng âm hư :\n\na/ Lục vị địa hoàng hoàn : gồm có thục địa, sơn dược, sơn thù, phục linh, trạch tả, đơn bì . b/ Tri bá địa hoàng hoàn : gồm có lục vị địa hoàng hoàn gia thêm tri",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:54185fd411e1",
+      "fused_score": 0.022296,
+      "bm25_rank": 21,
+      "bm25_score": 15.595734,
+      "vector_rank": 38,
+      "vector_score": 0.510699,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b47",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "17-Khống chế được ung thư. Bệnh nhân uống thuốc trị ung thư chung với Câu kỷ tử cho thấy khả năng hiệu qủa chữa bệnh tăng 250% so với những người chỉ dùng riêng thuốc trị ung thư. Những ngườ I bị bệnh ung thư nặng ngạc nhiên khi những tế bào độc giảm, như tế bào biểu mô tuyến thượng thận, ung thư phổi, ung thư mũi, tràn dịch màng phổi. Thời kỳ thuyên giảm bệnh ung thư có dùng Câu kỷ tử đời sống kéo dài hơn là những bệnh nhân không dùng đến kỷ tử.\n\n18-Bảo vệ DNA qúi cho cơ thể. DNA là một loại hó",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_12abef9658fb:0cd04aaf0293",
+      "fused_score": 0.016393,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 0,
+      "vector_score": 0.574033,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b11",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "các sản phẩm dạng sữa chua. Nên ưu tiên dùng các loại rau như khoai tây, củ cải đỏ, cà rốt, cà chua và dịch ép của nó. Các thực phẩm như cá, các loại cháo, quả hồ đào, đồ ăn thô có xơ, các hoa quả ít ngọt, các loại hạt cũng rất có lợi. Các đề xuất trên chẳng có gì mới, kể cả toa thuốc chống ung thư - rượu vốt ca pha dầu, đã nổi tiếng từ rất lâu, nó đôi khi được gọi là “dầu Sevtren cô”, còn toa thuốc của ông Đmit ri chỉ khác ở đây là thay rượu vốt ca bằng rượu ngâm cây Lược Vàng. Hiệu ứng chữa bệ",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_715f913a01a9:dbef65d02d8d",
+      "fused_score": 0.016129,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 1,
+      "vector_score": 0.572039,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b13",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "38d-Những bài thuốc kinh nghiệm có kết qủa trị ung thư trên lâm sàng\n\n1-Bài thuốc trị ung thư vú : Ngưu hoàng tiêu thủng phương : ( nghiên cứu của Khoa Ung thư Bệnh viện Quảng an Môn, Bắc Kinh ). Thành phần : Ngưu hoàng 10 gram, chế Nhũ hương, chế Một dược, Hải long đều 15 gram, Hoàng kỳ, Sơn từ cô, Hương duyên, Tam tiên sao, đều 30 gram, Hạ khô thảo, bột Tam thất, Hà thủ ô, Ý dĩ nhân, Tử hoa địa đinh, Nga truật, Tiên linh tỳ đều 60 gram, tán bột làm thành viên, mỗi lần uống 3 gram ,ngày uống 2 ",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:373c4f340db5",
+      "fused_score": 0.015873,
+      "bm25_rank": 2,
+      "bm25_score": 19.124422,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b237",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "TUT được coi là giai đoạn phát triển sớm của ung thư, còn gọi là ung thư tiền xâm nhập, chưa có biểu hiện lâm sàng và bao gồm các tổn thương loạn sản, ung thư tại chỗ, có thể chữa khỏi hoàn toàn. TIỀN VIRUT (A. provirut), trạng thái của một vật chủ khi virut gắn vào nhiễm sắc thể của tế bào vật chủ và được chuyển từ thế hệ tế bào này sang thế hệ tế bào sau. TIẾN BỘ DI TRUYỀN (tên viết tắt: ΔG), hiệu quả chọn lọc (R) của bất kì một tính trạng nào đó trên một đơn vị thế hệ (L), nói cách khác là sự",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:45277772b48b",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.567318,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b7",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "-Nâng cao sức khỏe cho bệnh nhân chống được sự phá hoại của các tế bào ung thư như dùng thuốc bổ khí, bổ huyết, bổ âm, bổ dương đã có sẵn của đông y mà qua kinh nghiệm lâm sàng thấy có kết qủa như : -Hạn chế sự phát triển của tế bào ung thư. -Hạn chế những đau đớn, chảy máu, chèn ép gây bế tắc tuần hoàn như phép làm tiêu đờm, hành khí tiêu đờm, thông hoạt huyết hóa ứ, lương huyết tiêu độc, thanh nhiệt chỉ huyết.\n\nof 78 82 Để có cùng quan điểm chữa bệnh ung thư, Trung Quốc đã đào tạo bác sĩ phải ",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_715f913a01a9:cdc14ba2337e",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 17.905422,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b15",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "C-Những bài thuốc bổ khí hoạt huyết : a/ Bổ dương hoàn ngũ thang : gồm có hoàng kỳ, đương quy vĩ, xích thược, địa long, xuyên khung ,đào nhân, hồng hoa. Trị ung thư gây liệt , méo miệng mồn, khó nói. b/ Thất tiếu tán : gồm có bồ hoàng, ngũ linh chi. c/ Sinh hóa thang : gồm có đương quy, xuyên khung, đào nhân, bào khương, chích thảo.\n\nThuốc hành khí hoạt huyết đã được thử nghiệm trên chuột và trên người, Nhật bản và Trung quốc công nhận nó có tác dụng ức chế tế bào ung thư ,nên đã dùng loại thuốc",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_715f913a01a9:8773a5009d38",
+      "fused_score": 0.015625,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 3,
+      "vector_score": 0.559087,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b11",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "31 A-Những vị thuốc đã nghiên cứu và công nhận có giá trị chữa ung thư ở trung quốc theo tiêu chuẩn tây y.\n\n1- Bạch hoa xà thiệt thảo : ( Olden lan dia diffusa ), có tác dụng phân liệt hạch tế bào ung thư, thanh nhiệt giải độc. 2- Bạch đầu ông : ( Pylsatillaregel chinen sis Bge ), có tác dụng giảm đau trong các bệnh viêm, viêm đa thần kinh, thanh nhiệt giải độc. 3- Bạch linh : (Poria cocos ), có tác dụng lợi thấp, chống tế bào ung thư. 4- Bạch cập : ( Bletilla striata ), có tác dụng như kháng si",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:0ec856e77435",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 17.839751,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b266",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "phá huỷ và di căn theo đường bạch mạch, đường tuần hoàn. Tần số cao hơn các sacom (ph. Sarcome), chiếm tỷ lệ cao nhất (70 – 80%) trong mọi loại ung thư. UNG THƯ CỔ TỬ CUNG. loại u ác tính, trên 90% phát sinh từ vùng chuyển tiếp hay vùng nối vảy – trụ (tiếp giáp giữa cổ ngoài và cổ trong) cổ tử cung. Tổn thương u có thể bắt đầu từ khi còn trẻ (dưới 20 tuổi). Bệnh xuất hiện nhiều hơn ở những nước đang phát triển; đặc biệt ở những phụ nữ không chú ý vệ sinh sinh dục và tình dục, đẻ dày, đẻ nhiều co",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:0360dad534e3",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 17.584644,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b265",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "tuy mức độ (tỷ lệ, tần số) có khác nhau. Nguyên nhân thuận lợi cho sự phát sinh UT ngày càng nhiều (có tới hàng nghìn loại, đặc biệt là các chất có trong khói thuốc lá), virut, ô nhiễm môi trường, nhiễm độc hoá chất, vv. UT tiến triển thường kéo dài nhiều năm; vd. UT cổ tử cung có thể kéo dài 15 – 20 năm hay hơn nữa kể từ khi UT mới phát sinh đến lúc bệnh nhân chết. UT cực kì nguy hiểm vì thường không có triệu chứng rõ rệt và đặc biệt nên khi xác định được thường đã quá muộn: đã có di căn, suy m",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_4aa8d7a49009:4602e50a4858",
+      "fused_score": 0.014286,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 9,
+      "vector_score": 0.535439,
+      "source_id": "src_4aa8d7a49009",
+      "parent_id": "src_4aa8d7a49009:h:5297024b7f97:b73",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "iều trị miễn dịch: Mục đích kích thích miễn dịch, tăng khả năng đề kháng của cơ thể để diệt tế bμo ung th−, bao gồm: − Các cytokin vμ các chất điều hoμ miễn dịch. − Các yếu tố kích thích tăng tr−ởng cụm bạch cầu: filgrastim. − Các in terferon: tự nhiên (in terferon alpha vμ beta) ... in terferon alpha 2a, 2b, n1, in terferon beta 1a, 1b. − Các in terleukin: aldesleukin, in terleukin. Điều trị bằng tia xạ: Sử dụng tia phóng xạ γ để diệt tế bμo ung th−. Cùng với phẫu thuật đây lμ ph−ơng pháp điều ",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_12abef9658fb:1522d3274f77",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.535383,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "avid mô tả. Trong trường hợp này cơ thể tích lũy dần dần hoạt chất của thuốc, nếu độc tố trong hoạt chất có liều lượng nhỏ thì không gây tác hại, theo thời gian sẽ được đào thải, nhưng trong trường hợp khác các độc tố là những liên kết không thể đào thải khỏi cơ thể, tích tụ dần đến nồng độ nhất định thì sẽ gây ngô độc. Trước tiên đó là những muối kim loại nặng, đang tồn tại xung quanh ta với số lượng rất lớn. Theo các nhà khoa học những muối này chính là những tác nhân chủ yếu gây ung thư. Về v",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:47bedfc89e2f",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 16.813011,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b157",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ứng và thể cực thứ hai. PHÂN LOẠI NHÓM MÁU. biện pháp kĩ thuật miễn dịch nhằm xác định huyết cầu hay huyết thanh thuộc về loại nhóm nào (x. Nhóm máu). Ngày xưa chỉ có kháng huyết thanh đa clôn, nay đã có kháng huyết thanh đơn clôn đặc hiệu (x. Kháng thể) PHÂN LOẠI TIP MÁU. Thuật ngữ chủ yếu dùng trong ung thư học và mô bệnh học để xác định hình thái vi thể của một u nhất định. PLTB ngày càng được áp dụng rộng rãi vì giúp cho thầy thuốc điều trị chọn cách xử lí thích hợp và dự kiến được tiên lượn",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_715f913a01a9:5863036d1d45",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.534914,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b12",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "34 4-Tử hoàng chỉ thống : ( nghiên cứu của Viện Ung thư Dương Bồ, Thượng Hải ),có tác dụng tiêu phù, giải độc, chỉ thống. Thành phần : Đại hoàng, khương hoàng, hoàng bá, bì tiêu, lá phù dung (đều 50 gram) băng phiến, sinh nam tinh, nhũ hương, một dược ( đều 20 gram ), hùng hoàng 30 gram, thiên hoa phấn 100 gram, tán mịn thành bột trộn nước thành hồ đắp trên bướu đau. Thử nghiệm : Trị 13 ca ung thư gan, giảm đau rõ rệt ở mức độ khác nhau.\n\nc-Những bài thuốc phòng trị biến chứng do xạ trị và hóa t",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_f80e34eb56ad:f526d0350e02",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 16.760182,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_f80e34eb56ad",
+      "parent_id": "src_f80e34eb56ad:h:5297024b7f97:b6",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "bệnh, kiểm tra phát hiện ung thư dạ dày. Khi phẫu thuật thấy có 3 khối u, sau phẫu thuật vì quá đau buồn nên đã chết khi con trai vẫn còn đang cấp cứu. Thế đấy, một con người ba tháng trước đó hoàn toàn khỏe mạnh, nay do gánh nặng tâm lý, căng thẳng thần kinh, làm phát sinh tật bệnh, chính cơn stress tinh thần làm cho ông bị ung thư. Tóm lại, đứng trước cùng cảnh ngộ thương tâm, căng thẳng, có người thích ứng rất tốt, cũng có người chịu đựng không thấu, tất cả chỉ vì khả năng gánh chịu tâm lý, t",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_715f913a01a9:d7c6301d3777",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.533918,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b12",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "2-Khương quế hành khí : ( áp dụng trong BV. Long Hoa ),có tác dụng hóa đờm tán kết, lý khí hóa ứ để giảm đau. Thành phần : Khương hoàng ,chỉ xác, quế tâm, đương quy, hồng đang, hậu phác, ngô công, uất kim, sài hồ, đơn sâm (đều 30 gram ), nam tinh chế, bán hạ chế, đại hoàng (đều 18 gram) ,bạch thược 60 gram, chích thảo 12 gram, tán thành bột mịn uống. Thử nghiệm : Trị 44 ca ung thư gan bị đau. Sau 2 ngày có 9 ca hết đau. Sau 3 ngày có thêm 14 ca hết đau, sau 4 ngày có thêm 10 ca hết đau.\n\n3. Băng",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:4f5b51d74d37",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 16.625338,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b46",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "5-Ngăn ngừa ung thư. Câu kỷ là một trong những cây duy nhất trên trái đất này có chứa một loại khoáng chất chống ung thư. Những an tioxidants mạnh và chất polysac charides duy nhất có thể chặn dừng lại những thay đổi đột biến của tế bào dẫn đến ung thư. Một số nhà khoa học tin rằng Câu kỷ tử có thể là một loại dinh dưỡng bổ sung tốt để ngăn ngừa ung thư gan, bởi vì nó tác động mạnh trong việc bảo vệ gan và có hiệu qủa chống ung thư cùng một lúc. Điều này quan trọng vì gan là cơ quan loại độc tố ",
+      "rank": 28
+    },
+    {
+      "chunk_id": "src_f80e34eb56ad:1fd872cf0d57",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.532324,
+      "source_id": "src_f80e34eb56ad",
+      "parent_id": "src_f80e34eb56ad:h:5297024b7f97:b13",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "46 BÁC SĨ TỐT NHẤT LÀ CHÍNH MÌNH NĂM: 500G RAU QUẢ GIẢM 50% NGUY CƠ MẮC BỆNH UNG THƯ Biện pháp chống ung thư tốt nhất là thường xuyên dùng rau quả tươi. Vì chúng có tác dụng đặc biệt là giảm 50% căn bệnh ung thư. Cuộc đời đau khổ nhất là mắc chứng bệnh ung thư; nhất là giai đoạn cuối của chứng bệnh đó. Muốn phòng chống căn bệnh đó, biện pháp tốt nhất là tranh thủ hấp thụ rau quả tươi. Thức ăn loại này giúp giảm hơn 50% khả năng mắc bệnh. Trước đây, huyện Lâm ở tỉnh Hà Nam là nơi tỉ lệ người mắc ",
+      "rank": 29
+    },
+    {
+      "chunk_id": "src_1bcc0ba43edd:69ea269ba0fe",
+      "fused_score": 0.013158,
+      "bm25_rank": 15,
+      "bm25_score": 16.618002,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1bcc0ba43edd",
+      "parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b18",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "n ỏ Học viện khoa học, trước hàng trăm người xem, mãi an hta vẫn chưa lấy được viên thuốc ra khỏi lọ (Người biểu diễn dùng ý niệm để lấy một viên thuốc ra khỏi lọ thuỷ tinh m à lọ hoàn toàn nguyên vẹn), th ế là anh ta chạy mất, khiến mọi người phải đợi hàng tiếng đồng hồ. Sau này, khi nói chuyện vối tôi, anh ta nói: \"Vì ỏ đó có nhiều người nên rất phiền nhiễu, có người còn không tin, trước khi biểu diễn tôi không được báo 43",
+      "rank": 30
+    },
+    {
+      "chunk_id": "src_4aa8d7a49009:667b611630a2",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.532195,
+      "source_id": "src_4aa8d7a49009",
+      "parent_id": "src_4aa8d7a49009:h:5297024b7f97:b72",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thuốc lá, các yếu tố gây ung th− trong thiên nhiên hoặc tạo ra do chế biến thực phẩm, bệnh nhiễm trùng mạn tính, một số loại virus, vi khuẩn, ký sinh trùng, r−ợu... 2. Các ph−ơng pháp điều trị bệnh ung th− Ungth− có thể đ−ợc điều trị bằng phẫu thuật, hoá trị liệu, xạ trị liệu hay miễn dịch trị liệu. Việc chọn lựa ph−ơng pháp trị liệu phụ thuộc vμo vị trí vμ độ của khối u, giai đoạn của bệnh cũng nh− tình trạng của bệnh nhân. Điều trị bằng phẫu thuật: Khi khối u còn nhỏ có khả năng điều trị triệt",
+      "rank": 31
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:22f46dafb2be",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 16.617962,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b267",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ".\n\nUng thư phổi), ung thư xuất phát từ niêm mạc phế quản, lan dần ra nhu mô phổi, các bạch hạch, cuống phổi, trung thất...; tỷ lệ mắc bệnh ngày càng tăng, hiện chiếm vị trí hàng đầu trong số các bệnh ung thư ở các nước công nghiệp phát triển. Vd. ở Hoa Kì, từ 1990 đến nay, trung bình một năm có khoảng 140 – 150 nghìn người chết vì UTPQ – P. Cũng như nhiều dạng ung thư khác, chưa hoàn toàn xác định được nguyên nhân. Tuy nhiên, qua các công trình nghiên cứu nhiều năm, có thể khẳng định 90 – 95% tr",
+      "rank": 32
+    },
+    {
+      "chunk_id": "src_715f913a01a9:d3897527b39b",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.528782,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b11",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "chống ung thư. 26- Vương bất lưu hành : Vaccaria segetalis ), có tác dụng phá huyết, ức chế tế bào ung thư phổi. 27- Xích thược : ( Paeonia veit chii ), có tác dụng ức chế tế bào ung thư. 28- Xuyên sơn giáp : Manis Pentadac tyla L. ), có tác dụng phá huyết, trị ung thư buồng trứng. 29- Ý dĩ : (Coix lac ryma-jobi ),có tác dụng tháo thấp chống ung thư.\n\n33b-Những bài thuốc chống đau chữa ung thư :\n\n1-Cao thiềm tô : ( nghiên cứu của Bệnh viện Long Hoa, Thượng Hải ), có tác dụng hoạt huyết hóa ứ, ti",
+      "rank": 33
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:c412aa83bb39",
+      "fused_score": 0.012821,
+      "bm25_rank": 17,
+      "bm25_score": 16.1508,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b266",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ếu tố nguy cơ cao được nêu là chiến lược phòng chống UTCTC tốt nhất. UNG THƯ DẠ DÀY. dạng ung thư thường gặp ở Việt Nam; khu trú ở bờ cong dạ dày, gần môn vị; thường gặp ở lứa tuổi khoảng 40 tuổi trở lên. Bệnh bắt đầu lặng lẽ, âm thầm: đau bụng không ở điểm nào rõ rệt; cảm giác chán ăn; sút cân, vv. Các dấu hiệu này thường không được chú ý đến đúng mức nên dễ bỏ qua giai đoạn đầu của bệnh. Chụp Xquang dạ dày, nhất là làm nội soi dạ dày (một lần hay liên tiếp vài lần) sẽ chẩn đoán được sớm và chữ",
+      "rank": 34
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:81b9e5d99ac1",
+      "fused_score": 0.012821,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 17,
+      "vector_score": 0.528481,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b6",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Cái hại của phương pháp hóa trị được áp dụng khi đã áp dụng hai phương pháp trên không có kết qủa, ung thư lan ra toàn thân như ung thư máu, hạch, lym phom, ung thư di căn sang những tạng phủ khác . Qúa trình điều trị bằng hóa chất cũng là một độc dược gây biến chứng suy tủy, suy tim, đau thận, mất máu, mất hồng cầu, bạch cầu, huyết bản, cơ thể bệnh nhân suy nhược không đủ sức chịu đựng khiến khó thở, đau đớn, mất ăn, mất ngủ, gầy còm. Cơ thể càng suy nhược thì sức đề kháng chống bệnh càng giảm ",
+      "rank": 35
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:bf8945796a70",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 16.07046,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b193",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "àng khác nhau tuỳ theo mỗi loại ung thư. Một nguy cơ lớn của ung thư là di căn (một số tế bào tách khỏi khối u mẹ, theo đường bạch mạch và dòng máu tới một hay nhiều vị trí khác, phát triển thành một hay nhiều khối u mới). Di căn được coi như đánh dấu giai đoạn “nan y” của ung thư. Chẩn đoán và điều trị sớm. Chẩn đoán càng sớm khi khối u càng nhỏ thì hiệu quả điều trị càng cao. TẠO XƯƠNG quá trình hình thành và phát triển mô xương từ mô liên kết để sinh ra các loại xương như xương màng (xương sọ",
+      "rank": 36
+    },
+    {
+      "chunk_id": "src_1d81088c863e:8f726dc4518f",
+      "fused_score": 0.012346,
+      "bm25_rank": 20,
+      "bm25_score": 15.612854,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b275",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "PHÉP CHẨN BỆNH BẰNG NHIỆT ĐỘ KINH LẠC CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 1 PHÉP CHẨN BỆNH BẰNG NHIỆT ĐỘ KINH LẠC DẪN NHẬP Chữa bệnh muốn đạt kết quả, trước hết phải nhờ vào chẩn đoán đúng bệnh. Chẩn đoán đúng bệnh luôn luôn là hướng phấn đấu của mọi thầy thuốc ở mọi thời đại. Chẩn đoán đúng bệnh bằng phương tiện đơn giản, trong thời gian ngắn nhất là mục tiêu vươn tới của mọi nền y học ở mọi quốc gia. Phương tiện chẩn đoán của Đông y là tứ chẩn. Tứ chẩn",
+      "rank": 37
+    },
+    {
+      "chunk_id": "src_4aa8d7a49009:8e9368d97930",
+      "fused_score": 0.012346,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 20,
+      "vector_score": 0.524255,
+      "source_id": "src_4aa8d7a49009",
+      "parent_id": "src_4aa8d7a49009:h:5297024b7f97:b72",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "162th−ờng rất độc). Có thể đ−ợc phân chia thμnh các nhóm chính sau (vừa theo cơ chế tác dụng, vừa theo nguồn gốc hoá chất): a. Hoá chất chống ung th−: − Dacarbazin; busulphan; các chất alkyl hoá: cyc lop hosphamid, melphalan, ip hosphamid, lomustin. − Các chất chống chuyển hóa: met hot rexat, mercap topurin, cytarabin; fluorouracin (chống ung th− kìm hãm sự phát triển của tế bμo) − Các alkaloid từ thực vật vμ các sản phẩm tự nhiên khác: vin blastin, vin cristin (dừa cạn); etoposid, teniposid, pa",
+      "rank": 38
+    },
+    {
+      "chunk_id": "src_12abef9658fb:e02a8d0f7a19",
+      "fused_score": 0.012195,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 21,
+      "vector_score": 0.523392,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b37",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ẵn sàng trả lời những thông tin liên\n\nquan về quá trình cụ Ngọ trị bệnh đẩy lùi ung thư.",
+      "rank": 39
+    }
+  ],
+  "gate_result": {
+    "pass": false,
+    "reason": "Query contains absolute/universal claim but retrieved evidence does not explicitly support that certainty level.",
+    "predicted_citation_count": 4,
+    "selected_evidence": [
+      {
+        "rank": 0,
+        "chunk_id": "src_715f913a01a9:a5841a778d98",
+        "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+        "source_id": "src_715f913a01a9",
+        "fused_score": 0.031281,
+        "vector_score": 0.554004,
+        "bm25_score": 19.469693,
+        "text": "30biến chứng suy tủy, suy tim, đau thận, mất máu, mất hồng cầu ,bạch cầu, và gây ra một bệnh ung thư khác.\n\nNgoài ba phương pháp trên còn có phương pháp khác như dùng nội tiết tố hormone như kích thích tố nam testosté rone chữa ung thư vú, cortisone trị ung thư máu cấp tính, có tính cách nâng cao thể trạng bệnh nhân, làm khỏi bệnh tạm thời. Phương pháp dùng In terfé ron như dùng sức nóng kích thích cơ thể sản xuất những chất sinh học tạo ra các sinh tố A,B,C. để chống lại virus, ngừa bệnh. Và ph"
+      },
+      {
+        "rank": 1,
+        "chunk_id": "src_12abef9658fb:5fb0159efbfa",
+        "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+        "source_id": "src_12abef9658fb",
+        "fused_score": 0.03031,
+        "vector_score": 0.553755,
+        "bm25_score": 17.847683,
+        "text": "thể dùng băng có lót bông đem thấm dịch cây Lược Vàng để đắp lên vết mổ. . Bệnh ung thư: Để cập đế bệnh ung thư, ông Dmit ri cho biết, đã tìm thấy rất nhiều thông tin về cây Đikhora, rằng nó giúp chữa ung thư ở mọi giai đoạn, nhưng ông tỏ ra nghi ngờ điều này. Bản thân ông chỉ nhận được những bức thư với lời đề nghị gửi cây Lược Vàng và các toa thuốc sử dụng nó để chữa ung thư, còn những bức thư khẳng định tác dụng chữa ung thư của thuốc hầu như rất ít. Đây là một trong những bức thư như vậy: “M"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "src_12abef9658fb:c7d94bd4a395",
+        "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+        "source_id": "src_12abef9658fb",
+        "fused_score": 0.02967,
+        "vector_score": 0.557338,
+        "bm25_score": 17.097693,
+        "text": "giờ, tôi có thể dùng các thứ đó bình thường. Tôi thích uống nước chè xanh. Trong suốt thời gian dùng Lược Vàng để trị bệnh ung thư đến nay, tôi không sử dụng tới bất kì một loại thuốc điều trị nào khác, kể cả sinh tố. Chỉ dùng thảo dược Lược Vàng, ăn uống bình thường, kết hợp vận động hàng ngày. Tôi duy trì vẩy tay theo bài tập \"Đạt Ma Dịch cân kinh\" (Báo Người cao tuổi đăng). Tập vẩy tay 1.800 lần vào buổi tối trước khi đi ngủ hoặc buổi sáng. Khi khoẻ lên, tôi theo chị em luyện tập đi bộ hằng n"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "src_715f913a01a9:9119922dd402",
+        "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+        "source_id": "src_715f913a01a9",
+        "fused_score": 0.029631,
+        "vector_score": 0.550256,
+        "bm25_score": 17.766901,
+        "text": "29cung ), nhục lựu ( bướu thịt ), lâm ba nhục lựu( ung thư hạch lym phosarcome )..\n\nVì trong sách vở của y học cổ truyền Trung quốc có đề cập đến các loại bệnh ung thư và cách chữa nhưng không được thống kê kết qủa và theo dõi như tây y nên không đáng tin cậy, cho nên các loại bệnh ung thư đều phải điều trị bằng phương pháp y học hiện đại như phẫu trị, xạ trị, hoặc hóa trị. Tuy nhiên 3 phương pháp này chưa hoàn hảo, hậu qủa của cách điều trị theo tây y dẫn đến những tác hại khác đối với cơ thể t"
+      }
+    ],
+    "gate_features": {
+      "top1_score": 0.031281,
+      "top2_score": 0.03031,
+      "top1_top2_gap": 0.000971,
+      "evidence_count": 5,
+      "distinct_parent_count": 4,
+      "distinct_source_count": 2,
+      "same_parent_support": true,
+      "same_source_support": true,
+      "top_support_parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "top_support_source_id": "src_12abef9658fb",
+      "evidence_score_sum": 0.149334,
+      "evidence_score_mean": 0.029867,
+      "evidence_parent_concentration": 0.4,
+      "gate_topk": 5,
+      "min_strong_evidence": 2,
+      "strong_rel_ratio": 0.85,
+      "strong_abs_threshold": 0.015,
+      "has_absolute_claim_pattern": true,
+      "absolute_claim_supported": false,
+      "absolute_countersignal_count": 2,
+      "claim_mismatch_flag": true
+    }
+  },
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_715f913a01a9:a5841a778d98",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "source_id": "src_715f913a01a9",
+      "fused_score": 0.031281,
+      "vector_score": 0.554004,
+      "bm25_score": 19.469693,
+      "text": "30biến chứng suy tủy, suy tim, đau thận, mất máu, mất hồng cầu ,bạch cầu, và gây ra một bệnh ung thư khác.\n\nNgoài ba phương pháp trên còn có phương pháp khác như dùng nội tiết tố hormone như kích thích tố nam testosté rone chữa ung thư vú, cortisone trị ung thư máu cấp tính, có tính cách nâng cao thể trạng bệnh nhân, làm khỏi bệnh tạm thời. Phương pháp dùng In terfé ron như dùng sức nóng kích thích cơ thể sản xuất những chất sinh học tạo ra các sinh tố A,B,C. để chống lại virus, ngừa bệnh. Và ph"
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_12abef9658fb:5fb0159efbfa",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+      "source_id": "src_12abef9658fb",
+      "fused_score": 0.03031,
+      "vector_score": 0.553755,
+      "bm25_score": 17.847683,
+      "text": "thể dùng băng có lót bông đem thấm dịch cây Lược Vàng để đắp lên vết mổ. . Bệnh ung thư: Để cập đế bệnh ung thư, ông Dmit ri cho biết, đã tìm thấy rất nhiều thông tin về cây Đikhora, rằng nó giúp chữa ung thư ở mọi giai đoạn, nhưng ông tỏ ra nghi ngờ điều này. Bản thân ông chỉ nhận được những bức thư với lời đề nghị gửi cây Lược Vàng và các toa thuốc sử dụng nó để chữa ung thư, còn những bức thư khẳng định tác dụng chữa ung thư của thuốc hầu như rất ít. Đây là một trong những bức thư như vậy: “M"
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_12abef9658fb:c7d94bd4a395",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+      "source_id": "src_12abef9658fb",
+      "fused_score": 0.02967,
+      "vector_score": 0.557338,
+      "bm25_score": 17.097693,
+      "text": "giờ, tôi có thể dùng các thứ đó bình thường. Tôi thích uống nước chè xanh. Trong suốt thời gian dùng Lược Vàng để trị bệnh ung thư đến nay, tôi không sử dụng tới bất kì một loại thuốc điều trị nào khác, kể cả sinh tố. Chỉ dùng thảo dược Lược Vàng, ăn uống bình thường, kết hợp vận động hàng ngày. Tôi duy trì vẩy tay theo bài tập \"Đạt Ma Dịch cân kinh\" (Báo Người cao tuổi đăng). Tập vẩy tay 1.800 lần vào buổi tối trước khi đi ngủ hoặc buổi sáng. Khi khoẻ lên, tôi theo chị em luyện tập đi bộ hằng n"
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_715f913a01a9:9119922dd402",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+      "source_id": "src_715f913a01a9",
+      "fused_score": 0.029631,
+      "vector_score": 0.550256,
+      "bm25_score": 17.766901,
+      "text": "29cung ), nhục lựu ( bướu thịt ), lâm ba nhục lựu( ung thư hạch lym phosarcome )..\n\nVì trong sách vở của y học cổ truyền Trung quốc có đề cập đến các loại bệnh ung thư và cách chữa nhưng không được thống kê kết qủa và theo dõi như tây y nên không đáng tin cậy, cho nên các loại bệnh ung thư đều phải điều trị bằng phương pháp y học hiện đại như phẫu trị, xạ trị, hoặc hóa trị. Tuy nhiên 3 phương pháp này chưa hoàn hảo, hậu qủa của cách điều trị theo tây y dẫn đến những tác hại khác đối với cơ thể t"
+    }
+  ],
+  "context": {
+    "mode": "parent_child",
+    "tokens_used": 3500,
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "nào",
+        "chữa",
+        "khỏi",
+        "hoàn",
+        "toàn",
+        "mọi",
+        "loại",
+        "ung",
+        "thư"
+      ],
+      "dominant_term": "ung",
+      "candidate_parent_count": 3,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+          "base_score": 0.031281,
+          "relevance_score": 0.117948,
+          "support_count": 2,
+          "query_overlap_ratio": 0.888889,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+          "base_score": 0.03031,
+          "relevance_score": 0.096977,
+          "support_count": 1,
+          "query_overlap_ratio": 0.888889,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+          "base_score": 0.02967,
+          "relevance_score": 0.096337,
+          "support_count": 1,
+          "query_overlap_ratio": 0.888889,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_715f913a01a9:h:5297024b7f97:b10",
+        "src_12abef9658fb:h:5297024b7f97:b10",
+        "src_12abef9658fb:h:5297024b7f97:b23"
+      ],
+      "final_parent_count": 3,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+          "centers": []
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+          "centers": []
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+          "tokens": 764,
+          "preview": "UNG THƯ là chứng bệnh nan y từ trước đến nay vẫn là mối đe dọa khủng khiếp đã cướp đi mạng sống của con người càng ngày càng nhiều theo đà phát triển của nền công nghiệp hiện đại, và nó cũng là một thách thức các nhà y h"
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+          "tokens": 1716,
+          "preview": "thể dùng băng có lót bông đem thấm dịch cây Lược Vàng để đắp lên vết mổ. . Bệnh ung thư: Để cập đế bệnh ung thư, ông Dmit ri cho biết, đã tìm thấy rất nhiều thông tin về cây Đikhora, rằng nó giúp chữa ung thư ở mọi giai "
+        },
+        {
+          "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+          "tokens": 1020,
+          "preview": "bệnh. Đầu năm 2007, nghe tin cây Lược Vàng có tác dụng chữa trị được nhiều bệnh, tôi trồng một số cây Lược Vàng và nhờ bà con ở phường Tân Lập, thành phố Thái Nguyên cho Lược Vàng để ăn hàng ngày. Tôi giữ kín việc sử dụn"
+        }
+      ],
+      "final_context_tokens": 3500,
+      "final_context_token_count": 3500,
+      "final_answer_chunk_ids": [
+        "src_715f913a01a9:a5841a778d98",
+        "src_715f913a01a9:9119922dd402",
+        "src_12abef9658fb:5fb0159efbfa",
+        "src_12abef9658fb:c7d94bd4a395"
+      ]
+    }
+  },
+  "answer": {
+    "answer": "Không đủ căn cứ trong tài liệu hiện có.",
+    "key_concepts": [],
+    "evidence": [
+      {
+        "citation_id": "E1",
+        "chunk_id": "src_715f913a01a9:a5841a778d98",
+        "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+        "title": null,
+        "file_path": "src_715f913a01a9",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.031281,
+        "snippet": "30biến chứng suy tủy, suy tim, đau thận, mất máu, mất hồng cầu ,bạch cầu, và gây ra một bệnh ung thư khác. Ngoài ba phương pháp trên còn có phương pháp khác như dùng nội tiết tố hormone như kích thích tố nam testosté rone chữa ung thư vú, cortisone trị ung thư máu cấp tính, có tính cách nâng cao thể trạng bệnh nhân, làm khỏi bệnh tạm thời. Phương pháp dùn..."
+      },
+      {
+        "citation_id": "E2",
+        "chunk_id": "src_715f913a01a9:9119922dd402",
+        "parent_id": "src_715f913a01a9:h:5297024b7f97:b10",
+        "title": null,
+        "file_path": "src_715f913a01a9",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.029631,
+        "snippet": "29cung ), nhục lựu ( bướu thịt ), lâm ba nhục lựu( ung thư hạch lym phosarcome ).. Vì trong sách vở của y học cổ truyền Trung quốc có đề cập đến các loại bệnh ung thư và cách chữa nhưng không được thống kê kết qủa và theo dõi như tây y nên không đáng tin cậy, cho nên các loại bệnh ung thư đều phải điều trị bằng phương pháp y học hiện đại như phẫu trị, xạ..."
+      },
+      {
+        "citation_id": "E3",
+        "chunk_id": "src_12abef9658fb:5fb0159efbfa",
+        "parent_id": "src_12abef9658fb:h:5297024b7f97:b10",
+        "title": null,
+        "file_path": "src_12abef9658fb",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.03031,
+        "snippet": "thể dùng băng có lót bông đem thấm dịch cây Lược Vàng để đắp lên vết mổ. . Bệnh ung thư: Để cập đế bệnh ung thư, ông Dmit ri cho biết, đã tìm thấy rất nhiều thông tin về cây Đikhora, rằng nó giúp chữa ung thư ở mọi giai đoạn, nhưng ông tỏ ra nghi ngờ điều này. Bản thân ông chỉ nhận được những bức thư với lời đề nghị gửi cây Lược Vàng và các toa thuốc sử d..."
+      },
+      {
+        "citation_id": "E4",
+        "chunk_id": "src_12abef9658fb:c7d94bd4a395",
+        "parent_id": "src_12abef9658fb:h:5297024b7f97:b23",
+        "title": null,
+        "file_path": "src_12abef9658fb",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.02967,
+        "snippet": "giờ, tôi có thể dùng các thứ đó bình thường. Tôi thích uống nước chè xanh. Trong suốt thời gian dùng Lược Vàng để trị bệnh ung thư đến nay, tôi không sử dụng tới bất kì một loại thuốc điều trị nào khác, kể cả sinh tố. Chỉ dùng thảo dược Lược Vàng, ăn uống bình thường, kết hợp vận động hàng ngày. Tôi duy trì vẩy tay theo bài tập \"Đạt Ma Dịch cân kinh\" (Báo..."
+      }
+    ],
+    "limits": "Bộ lọc answerability cho thấy bằng chứng truy xuất chưa đủ mạnh để trả lời chắc chắn. Chi tiết: Query contains absolute/universal claim but retrieved evidence does not explicitly support that certainty level.",
+    "safety_note": "Thông tin này chỉ nhằm mục đích tham khảo từ tài liệu đã truy xuất, không thay thế chẩn đoán hoặc chỉ định điều trị của bác sĩ."
+  },
+  "raw_model_output": null
+}

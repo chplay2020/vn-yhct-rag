@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter
+import re
 from typing import Any, cast
 
 DEFAULT_GATE_TOPK = 5
@@ -8,6 +9,45 @@ DEFAULT_MIN_STRONG_EVIDENCE = 2
 DEFAULT_STRONG_REL_RATIO = 0.85
 DEFAULT_STRONG_ABS_THRESHOLD = 0.015
 DEFAULT_MAX_CITATIONS = 4
+
+ABSOLUTE_CLAIM_PATTERNS = (
+    r"chữa\s*khỏi\s*hoàn\s*toàn",
+    r"chua\s*khoi\s*hoan\s*toan",
+    r"mọi\s*loại",
+    r"moi\s*loai",
+    r"100\s*%",
+    r"dứt\s*điểm",
+    r"dut\s*diem",
+    r"chắc\s*chắn\s*khỏi",
+    r"chac\s*chan\s*khoi",
+)
+
+ABSOLUTE_SUPPORT_PATTERNS = (
+    re.compile(r"chữa\s*khỏi\s*hoàn\s*toàn", re.IGNORECASE),
+    re.compile(r"chua\s*khoi\s*hoan\s*toan", re.IGNORECASE),
+    re.compile(r"mọi\s*loại", re.IGNORECASE),
+    re.compile(r"moi\s*loai", re.IGNORECASE),
+    re.compile(r"100\s*%", re.IGNORECASE),
+    re.compile(r"dứt\s*điểm", re.IGNORECASE),
+    re.compile(r"dut\s*diem", re.IGNORECASE),
+    re.compile(r"chắc\s*chắn\s*khỏi", re.IGNORECASE),
+    re.compile(r"chac\s*chan\s*khoi", re.IGNORECASE),
+)
+
+ABSOLUTE_COUNTERSIGNALS = (
+    re.compile(r"hỗ\s*trợ", re.IGNORECASE),
+    re.compile(r"ho\s*tro", re.IGNORECASE),
+    re.compile(r"giảm", re.IGNORECASE),
+    re.compile(r"giam", re.IGNORECASE),
+    re.compile(r"cải\s*thiện", re.IGNORECASE),
+    re.compile(r"cai\s*thien", re.IGNORECASE),
+    re.compile(r"điều\s*trị", re.IGNORECASE),
+    re.compile(r"dieu\s*tri", re.IGNORECASE),
+    re.compile(r"ca\s*bệnh", re.IGNORECASE),
+    re.compile(r"ca\s*benh", re.IGNORECASE),
+    re.compile(r"có\s*thể", re.IGNORECASE),
+    re.compile(r"co\s*the", re.IGNORECASE),
+)
 
 
 def _to_float(value: Any) -> float:
@@ -42,6 +82,37 @@ def _is_strong(
     return score >= required_floor
 
 
+def _has_absolute_claim_pattern(query: str) -> bool:
+    q = query.lower()
+    return any(re.search(pat, q, re.IGNORECASE) for pat in ABSOLUTE_CLAIM_PATTERNS)
+
+
+def _absolute_claim_supported(evidence_items: list[dict[str, Any]]) -> bool:
+    if not evidence_items:
+        return False
+
+    for item in evidence_items:
+        text = str(item.get("text", "") or "")
+        if not text:
+            continue
+        # Conservative support: evidence must explicitly contain absolute claim language.
+        support_hits = sum(1 for pat in ABSOLUTE_SUPPORT_PATTERNS if pat.search(text))
+        if support_hits >= 2:
+            return True
+    return False
+
+
+def _absolute_countersignal_hits(evidence_items: list[dict[str, Any]]) -> int:
+    hits = 0
+    for item in evidence_items:
+        text = str(item.get("text", "") or "")
+        if not text:
+            continue
+        if any(pat.search(text) for pat in ABSOLUTE_COUNTERSIGNALS):
+            hits += 1
+    return hits
+
+
 def run_answerability_gate(
     query: str,
     hybrid_results: list[dict[str, Any]],
@@ -63,12 +134,11 @@ def run_answerability_gate(
       - gate_features: dict
     """
 
-    _ = query  # kept for API symmetry + future query-aware rules
-
     topk = max(1, gate_topk)
     ranked = list(hybrid_results[:topk])
 
     if not ranked:
+        has_absolute = _has_absolute_claim_pattern(query)
         return {
             "pass": False,
             "reason": "No retrieved evidence.",
@@ -87,6 +157,10 @@ def run_answerability_gate(
                 "min_strong_evidence": min_strong_evidence,
                 "strong_rel_ratio": strong_rel_ratio,
                 "strong_abs_threshold": strong_abs_threshold,
+                "has_absolute_claim_pattern": has_absolute,
+                "absolute_claim_supported": False,
+                "absolute_countersignal_count": 0,
+                "claim_mismatch_flag": has_absolute,
             },
         }
 
@@ -157,13 +231,32 @@ def run_answerability_gate(
         or (evidence_count >= 3 and evidence_parent_concentration >= 0.67)
     )
 
+    has_absolute_claim_pattern = _has_absolute_claim_pattern(query)
+    evidence_for_claim = strong_items if strong_items else ranked
+    absolute_claim_supported = _absolute_claim_supported(evidence_for_claim)
+    absolute_countersignal_count = _absolute_countersignal_hits(evidence_for_claim)
+    claim_mismatch_flag = bool(
+        has_absolute_claim_pattern
+        and (
+            (not absolute_claim_supported)
+            or absolute_countersignal_count > 0
+        )
+    )
+
     passed = (
         evidence_count >= max(2, min_strong_evidence)
         and predicted_citation_count >= 2
         and agreement
     )
+    if claim_mismatch_flag:
+        passed = False
 
-    if passed:
+    if claim_mismatch_flag:
+        reason = (
+            "Query contains absolute/universal claim but retrieved evidence does not explicitly "
+            "support that certainty level."
+        )
+    elif passed:
         reason = "Sufficient and agreeing evidence from hybrid retrieval."
     elif evidence_count < min_strong_evidence:
         reason = "Insufficient strong evidence passages."
@@ -203,6 +296,10 @@ def run_answerability_gate(
         "min_strong_evidence": min_strong_evidence,
         "strong_rel_ratio": strong_rel_ratio,
         "strong_abs_threshold": strong_abs_threshold,
+        "has_absolute_claim_pattern": has_absolute_claim_pattern,
+        "absolute_claim_supported": absolute_claim_supported,
+        "absolute_countersignal_count": absolute_countersignal_count,
+        "claim_mismatch_flag": claim_mismatch_flag,
     }
 
     if context_info is not None:

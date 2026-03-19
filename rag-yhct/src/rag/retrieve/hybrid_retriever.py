@@ -51,6 +51,12 @@ from rag.retrieve.answerability_gate import (
     DEFAULT_GATE_TOPK,
     run_answerability_gate,
 )
+from rag.generate.answer_generator import (
+    DEFAULT_ANSWER_MAX_TOKENS,
+    DEFAULT_ANSWER_MODEL,
+    DEFAULT_ANSWER_TEMPERATURE,
+    generate_structured_answer,
+)
 from rag.utils.query_quality import normalize_for_dedup
 
 logger = logging.getLogger(__name__)
@@ -67,6 +73,7 @@ DEFAULT_PARENT_SCORE_AGG = "max"  # "max" or "sum_top2"
 DEFAULT_GATE_DEBUG = False
 DEFAULT_CONTEXT_FOCUS = "focused"
 DEFAULT_MAX_CONTEXT_PARENTS = 3
+DEFAULT_ANSWER_DEBUG = False
 OFFTOPIC_MARKERS = (
     "mẹ đừng đánh con",
     "csgt",
@@ -401,6 +408,54 @@ def _save_gate_debug_json(
     logger.info("Gate debug results saved to %s", filepath)
 
 
+def _save_answer_debug_json(
+    query: str,
+    mode: str,
+    results: list[dict[str, Any]],
+    gate_decision: dict[str, Any] | None,
+    context_payload: dict[str, Any] | None,
+    answer_payload: dict[str, Any],
+    raw_model_output: str | None,
+    *,
+    model_name: str,
+    debug_dir: str,
+) -> None:
+    """Save end-to-end retrieval + gate + context + answer debug JSON."""
+    import hashlib
+
+    debug_path = Path(debug_dir)
+    debug_path.mkdir(parents=True, exist_ok=True)
+
+    q_hash = hashlib.md5(query.encode(), usedforsecurity=False).hexdigest()[:8]
+    filename = f"{mode}_{q_hash}_answer.json"
+    filepath = debug_path / filename
+
+    payload: dict[str, Any] = {
+        "query": query,
+        "mode": mode,
+        "model": model_name,
+        "hybrid_results": results,
+        "gate_result": gate_decision,
+        "selected_evidence": (
+            list((gate_decision or {}).get("selected_evidence", []))
+            if gate_decision is not None
+            else []
+        ),
+        "context": {
+            "mode": (context_payload or {}).get("mode"),
+            "tokens_used": (context_payload or {}).get("tokens_used"),
+            "debug": (context_payload or {}).get("debug"),
+        },
+        "answer": answer_payload,
+        "raw_model_output": raw_model_output,
+    }
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    logger.info("Answer debug results saved to %s", filepath)
+
+
 # ── config loader ─────────────────────────────────────────────────────────
 
 def load_retrieval_config(config_path: str = "config/config.yaml") -> dict[str, Any]:
@@ -467,6 +522,17 @@ def build_parent_child_context(
     enc: Any = tiktoken.get_encoding("cl100k_base")
     debug_info: dict[str, Any] = {}
     context_source = "gate_selected_evidence" if context_from_gate else "retrieval_topk"
+    final_answer_evidence: list[dict[str, Any]] = []
+    final_evidence_chunk_ids: set[str] = set()
+
+    def _append_final_evidence(items: list[dict[str, Any]]) -> None:
+        for item in items:
+            cid = str(item.get("chunk_id") or "")
+            if cid and cid in final_evidence_chunk_ids:
+                continue
+            if cid:
+                final_evidence_chunk_ids.add(cid)
+            final_answer_evidence.append(item)
 
     def _merge_ranges(ranges: list[tuple[int, int]]) -> list[list[int]]:
         if not ranges:
@@ -539,11 +605,13 @@ def build_parent_child_context(
             if tokens_used + t_len > token_budget:
                 break
             context_parts.append(text)
+            _append_final_evidence([r])
             tokens_used += t_len
         return {
             "context": "\n\n---\n\n".join(context_parts),
             "parents": [],
             "children": evidence_for_context,
+            "final_answer_evidence": final_answer_evidence,
             "tokens_used": tokens_used,
             "mode": "flat",
             "debug": {
@@ -554,6 +622,9 @@ def build_parent_child_context(
                 "trimmed_context_spans": [],
                 "per_parent_context_contribution": [],
                 "final_context_token_count": tokens_used,
+                "final_answer_chunk_ids": [
+                    str(x.get("chunk_id") or "") for x in final_answer_evidence
+                ],
             },
         }
 
@@ -768,6 +839,19 @@ def build_parent_child_context(
             merged_ranges = None
             window_text = "\n\n".join(c.get("text", "") for c in group_children)
 
+        evidence_in_ranges: list[dict[str, Any]] = []
+        for child in group_children:
+            child_idx = child.get("child_index")
+            if merged_ranges is None:
+                evidence_in_ranges.append(child)
+                continue
+            if not isinstance(child_idx, int):
+                continue
+            if any(start <= child_idx < end for start, end in merged_ranges):
+                evidence_in_ranges.append(child)
+        if not evidence_in_ranges:
+            evidence_in_ranges = list(group_children)
+
         block = f"### {header}\n\n{window_text}"
 
         # Deduplicate context blocks
@@ -788,6 +872,7 @@ def build_parent_child_context(
 
         context_blocks.append(block)
         tokens_used += block_tokens
+        _append_final_evidence(evidence_in_ranges)
 
         preview = window_text[:220].replace("\n", " ")
         debug_info["selected_child_centers"].append({"parent_id": pid, "centers": center_indices})
@@ -814,11 +899,15 @@ def build_parent_child_context(
 
     debug_info["final_context_tokens"] = tokens_used
     debug_info["final_context_token_count"] = tokens_used
+    debug_info["final_answer_chunk_ids"] = [
+        str(x.get("chunk_id") or "") for x in final_answer_evidence
+    ]
 
     return {
         "context": "\n\n---\n\n".join(context_blocks),
         "parents": parent_results,
         "children": evidence_for_context[:10],
+        "final_answer_evidence": final_answer_evidence,
         "tokens_used": tokens_used,
         "mode": "parent_child",
         "debug": debug_info,
@@ -878,6 +967,17 @@ def main() -> None:
     p.add_argument("--token-budget", type=int, default=3500)
     p.add_argument("--max-context-parents", type=int, default=DEFAULT_MAX_CONTEXT_PARENTS,
                     help="Maximum parent sections in final context (default 3)")
+    # local answer generation
+    p.add_argument("--generate-answer", action="store_true", default=False,
+                    help="Generate grounded answer from context using local Ollama LLM")
+    p.add_argument("--answer-model", default=DEFAULT_ANSWER_MODEL,
+                    help="Ollama model name for answer generation")
+    p.add_argument("--answer-max-tokens", type=int, default=DEFAULT_ANSWER_MAX_TOKENS,
+                    help="Maximum generated tokens for answer generation")
+    p.add_argument("--answer-temperature", type=float, default=DEFAULT_ANSWER_TEMPERATURE,
+                    help="Sampling temperature for answer generation")
+    p.add_argument("--answer-debug", action="store_true", default=DEFAULT_ANSWER_DEBUG,
+                    help="Save answer generation debug JSON")
     p.add_argument("--no-dedup", action="store_true", default=False,
                     help="Disable duplicate text suppression")
     args = p.parse_args()
@@ -935,6 +1035,8 @@ def main() -> None:
 
     gate_decision: dict[str, Any] | None = None
     context_payload: dict[str, Any] | None = None
+    answer_payload: dict[str, Any] | None = None
+    raw_model_output: str | None = None
 
     if args.use_gate:
         if mode != "hybrid_rrf":
@@ -971,7 +1073,11 @@ def main() -> None:
                     f"score={ev.get('fused_score')}"
                 )
 
-    if args.build_context:
+    should_build_context = bool(args.build_context or args.generate_answer)
+    if args.generate_answer and not args.build_context:
+        logger.info("--generate-answer enabled without --build-context; auto-building focused context.")
+
+    if should_build_context:
         context_from_gate = bool(args.use_gate and gate_decision and gate_decision.get("selected_evidence"))
         selected_for_context = (
             list(gate_decision.get("selected_evidence", []))
@@ -1005,26 +1111,17 @@ def main() -> None:
             context_payload=context_payload,
         )
 
-    # Optionally build parent-child context
-    if args.build_context:
+    # Optionally print parent-child context summary
+    if should_build_context:
         print(f"\n{'─'*60}")
         print("Building parent-child context...\n")
-        ctx = context_payload if context_payload is not None else build_parent_child_context(
-            results,
-            query_text=args.query,
-            parents_path=args.parents,
-            topk_parent=args.topk_parent,
-            window=args.window,
-            window_centers=args.window_centers,
-            parent_score_agg=args.parent_score_agg,
-            token_budget=args.token_budget,
-            context_mode=args.context_mode,
-            context_focus=args.context_focus,
-            deduplicate=not args.no_dedup,
-            selected_evidence=(list(gate_decision.get("selected_evidence", [])) if gate_decision else []),
-            context_from_gate=bool(args.use_gate and gate_decision and gate_decision.get("selected_evidence")),
-            max_context_parents=max(1, args.max_context_parents),
-        )
+        ctx = context_payload if context_payload is not None else {
+            "mode": "none",
+            "tokens_used": 0,
+            "parents": [],
+            "context": "",
+            "debug": {},
+        }
         print(f"  Context mode: {ctx['mode']}  |  Tokens: {ctx['tokens_used']}")
         ctx_debug = ctx.get("debug", {}) if isinstance(ctx.get("debug"), dict) else {}
         print(
@@ -1043,9 +1140,94 @@ def main() -> None:
             print(f"\n  Debug info:")
             for dk, dv in ctx["debug"].items():
                 print(f"    {dk}: {dv}")
-        print(f"\n--- CONTEXT (first 1500 chars) ---\n{ctx['context'][:1500]}")
-        if len(ctx["context"]) > 1500:
-            print(f"\n... (truncated, total {len(ctx['context'])} chars)")
+        ctx_text_raw = ctx.get("context", "")
+        ctx_text = ctx_text_raw if isinstance(ctx_text_raw, str) else ""
+        print(f"\n--- CONTEXT (first 1500 chars) ---\n{ctx_text[:1500]}")
+        if len(ctx_text) > 1500:
+            print(f"\n... (truncated, total {len(ctx_text)} chars)")
+
+    if args.generate_answer:
+        if gate_decision is None:
+            gate_decision = {
+                "pass": True,
+                "reason": "Answerability gate was not enabled; generation proceeds with available context.",
+                "predicted_citation_count": 0,
+                "selected_evidence": [],
+                "gate_features": {},
+            }
+
+        selected_for_answer: list[dict[str, Any]] = []
+        if context_payload is not None:
+            raw_final = context_payload.get("final_answer_evidence", [])
+            if isinstance(raw_final, list):
+                selected_for_answer = [x for x in raw_final if isinstance(x, dict)]
+        if not selected_for_answer:
+            selected_for_answer = list(gate_decision.get("selected_evidence", []))
+        if not selected_for_answer:
+            selected_for_answer = results[: max(1, min(5, len(results)))]
+
+        focused_context = ""
+        if context_payload is not None:
+            focused_context = str(context_payload.get("context", ""))
+
+        answer_payload, raw_model_output = generate_structured_answer(
+            query=args.query,
+            gate_decision=gate_decision,
+            focused_context=focused_context,
+            selected_evidence=selected_for_answer,
+            retrieval_results=selected_for_answer,
+            ollama_url=args.ollama_url,
+            model=args.answer_model,
+            max_tokens=max(64, args.answer_max_tokens),
+            temperature=max(0.0, args.answer_temperature),
+        )
+
+        print(f"\n{'─'*60}")
+        print("Generated Answer")
+        print(f"\nAnswer:\n{answer_payload.get('answer', '')}")
+
+        key_concepts = answer_payload.get("key_concepts", [])
+        if isinstance(key_concepts, list):
+            print("\nKey concepts:")
+            if key_concepts:
+                for concept in key_concepts:
+                    print(f"  - {concept}")
+            else:
+                print("  - (none)")
+
+        print("\nEvidence summary:")
+        evidence = answer_payload.get("evidence", [])
+        if isinstance(evidence, list) and evidence:
+            for ev in evidence:
+                if not isinstance(ev, dict):
+                    continue
+                cite = ev.get("citation_id", "E?")
+                snippet_raw = ev.get("snippet", "")
+                snippet = snippet_raw if isinstance(snippet_raw, str) else ""
+                snippet = snippet.replace("\n", " ")[:120]
+                print(
+                    f"  [{cite}] chunk={ev.get('chunk_id')}  parent={ev.get('parent_id')}  "
+                    f"score={ev.get('score')}  title={ev.get('title') or ''}"
+                )
+                print(f"       snippet={snippet}")
+        else:
+            print("  - (no evidence)")
+
+        print(f"\nLimits:\n{answer_payload.get('limits', '')}")
+        print(f"\nSafety note:\n{answer_payload.get('safety_note', '')}")
+
+    if (save_debug or args.answer_debug) and args.generate_answer and answer_payload is not None:
+        _save_answer_debug_json(
+            args.query,
+            mode,
+            results,
+            gate_decision,
+            context_payload,
+            answer_payload,
+            raw_model_output,
+            model_name=args.answer_model,
+            debug_dir=debug_dir,
+        )
 
     print(f"\n{'='*60}")
 
