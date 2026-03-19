@@ -702,10 +702,11 @@
     }
   },
   "answer": {
-    "answer": "Cây ngải cứu (Artemisia vulgaris L. [E1] ) thuộc họ Cúc và được sử dụng trong y học cổ truyền với nhiều tác dụng. [E1] Nó có thể điều hòa khí huyết, điều kinh, an thai, cầm máu. [E1] Ngải cứu được dùng để chữa các bệnh như kinh nguyệt không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu và viêm ruột. [E1] Cách sử dụng thường là uống 6-12g/ngày dưới dạng thuốc sắc hoặc nước ép lá tươi. [E1] Tuy nhiên, người âm hư, huyết nhiệt không nên dùng. [E1]",
+    "answer": "Cây ngải cứu (Artemisia vulgaris L. [E1] ) thuộc họ Cúc và được sử dụng trong y học cổ truyền với nhiều tác dụng. [E1] Nó có thể điều hòa khí huyết, điều kinh, an thai, cầm máu. [E1] Ngải cứu thường được dùng để chữa các chứng bệnh như kinh nguyệt không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu và viêm ruột [E1] . Cách sử dụng thông thường là uống 6-12g/ngày dưới dạng thuốc sắc hoặc dùng lá tươi giã nát vắt lấy nước. [E1] Tuy nhiên, người âm hư, huyết nhiệt không nên sử dụng [E2] [E3] .",
     "key_concepts": [
       "cây ngải cứu",
-      "tác dụng điều hòa khí huyết",
+      "tác dụng",
+      "điều hòa khí huyết",
       "điều kinh",
       "an thai",
       "cầm máu"
@@ -745,8 +746,8 @@
         "snippet": "uống với ít đường. 2. Bạch đới: Ngải chân vịt tươi 30-60g, sắc uống. 3. Bầm dập: Ngải chân vịt tươi 60g, củ Hẹ tươi 30g, giã chung và tẩm rượu dùng đắp. Ngải cứu Ngải cứu, Thuốc cứu - Artemisia vulgaris L., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo sống dai, cao khoảng 1m, thân có rãnh dọc. Lá mọc so le, xẻ nhiều kiểu, từ xẻ lông chim đến xẻ thuỳ theo đư..."
       }
     ],
-    "limits": "Thông tin chỉ dựa trên các tác dụng đã được đề cập và cách sử dụng, không có bằng chứng về hiệu quả cụ thể hoặc khuyến nghị lâm sàng. Cần thận trọng khi sử dụng do giới hạn của thông tin.",
+    "limits": "Thông tin về tác dụng của cây ngải cứu chủ yếu dựa trên các chứng bệnh được đề cập, nhưng không có bằng chứng cụ thể về cơ chế hoạt động hoặc hiệu quả lâm sàng. Cần thận trọng khi sử dụng và nên tham khảo ý kiến bác sĩ trước khi áp dụng [E1] [E2] [E3].",
     "safety_note": "Thông tin này chỉ nhằm mục đích tham khảo từ tài liệu đã truy xuất, không thay thế chẩn đoán hoặc chỉ định điều trị của bác sĩ."
   },
-  "raw_model_output": "{\n  \"answer\": \"Cây ngải cứu (Artemisia vulgaris L.) thuộc họ Cúc và được sử dụng trong y học cổ truyền với nhiều tác dụng. Nó có thể điều hòa khí huyết, điều kinh, an thai, cầm máu. Ngải cứu được dùng để chữa các bệnh như kinh nguyệt không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu và viêm ruột. Cách sử dụng thường là uống 6-12g/ngày dưới dạng thuốc sắc hoặc nước ép lá tươi. Tuy nhiên, người âm hư, huyết nhiệt không nên dùng.\",\n  \"key_concepts\": [\"cây ngải cứu\", \"tác dụng điều hòa khí huyết\", \"điều kinh\", \"an thai\", \"cầm máu\"],\n  \"limits\": \"Thông tin chỉ dựa trên các tác dụng đã được đề cập và cách sử dụng, không có bằng chứng về hiệu quả cụ thể hoặc khuyến nghị lâm sàng. Cần thận trọng khi sử dụng do giới hạn của thông tin.\"\n}"
+  "raw_model_output": "{\n  \"answer\": \"Cây ngải cứu (Artemisia vulgaris L.) thuộc họ Cúc và được sử dụng trong y học cổ truyền với nhiều tác dụng. Nó có thể điều hòa khí huyết, điều kinh, an thai, cầm máu. Ngải cứu thường được dùng để chữa các chứng bệnh như kinh nguyệt không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu và viêm ruột [E1]. Cách sử dụng thông thường là uống 6-12g/ngày dưới dạng thuốc sắc hoặc dùng lá tươi giã nát vắt lấy nước. Tuy nhiên, người âm hư, huyết nhiệt không nên sử dụng [E2] [E3].\",\n  \"key_concepts\": [\"cây ngải cứu\", \"tác dụng\", \"điều hòa khí huyết\", \"điều kinh\", \"an thai\", \"cầm máu\"],\n  \"limits\": \"Thông tin về tác dụng của cây ngải cứu chủ yếu dựa trên các chứng bệnh được đề cập, nhưng không có bằng chứng cụ thể về cơ chế hoạt động hoặc hiệu quả lâm sàng. Cần thận trọng khi sử dụng và nên tham khảo ý kiến bác sĩ trước khi áp dụng [E1] [E2] [E3].\"\n}"
 }

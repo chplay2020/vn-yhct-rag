@@ -22,6 +22,7 @@ dependencies = [
     "numba>=0.58",
     "llvmlite>=0.41",
     "requests>=2.31",
+    "streamlit>=1.33",
     "numpy>=1.24",
     "rank-bm25>=0.2",
 ]

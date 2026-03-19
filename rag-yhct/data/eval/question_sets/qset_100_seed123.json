@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "generated_at": "2026-03-19T06:39:37.445289+00:00",
+    "seed": 123,
+    "sample_size": 100,
+    "question_mode": "auto",
+    "chat_model": "qwen2.5:7b-instruct",
+    "embed_model": "bge-m3",
+    "chunks_path": "data/chunks/chunks_v2_full.jsonl"
+  },
+  "questions": [
+    {
+      "question": "Cách lấy huyệt Vị trung là như thế nào?",
+      "expected_chunk_id": "src_1d81088c863e:d6e061698180",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b75",
+      "question_source": "llm",
+      "chunk_text_preview": "HUYỆT VỊ TRÊN 14 ĐƯỜNG KINH CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 34\n\nHình 67 7. Chi chính Vị trí: Ở sau cổ tay 5 thốn Cách lấy huyệt: Ngửa bàn tay, ở cạnh ngoà",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Can khí lấn tâm có biểu hiện gì?",
+      "expected_chunk_id": "src_83ddc2a9c23c:700e57115235",
+      "expected_source_id": "src_83ddc2a9c23c",
+      "expected_parent_id": "src_83ddc2a9c23c:h:5297024b7f97:b7",
+      "question_source": "llm",
+      "chunk_text_preview": "Có dấu hiệu khí tích tụ ở ngực, đờm chặn nghẹn tức dưới tim do lo nghĩ, uất ức.\n\nCan khí lấn tâm, có dấu hiệu lúc đói dữ, lúc no anh ách.\n\nNgón 1.(ngón cái phải): Kinh phế PHẢI : Ngũ hành thuộc Kim âm",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phản ứng có hại của praziquan tel khi dùng cho phụ nữ mang thai là gì?",
+      "expected_chunk_id": "src_207577dabbe1:eb2800638ebe",
+      "expected_source_id": "src_207577dabbe1",
+      "expected_parent_id": "src_207577dabbe1:h:5297024b7f97:b3",
+      "question_source": "llm",
+      "chunk_text_preview": "dược lý học 2007 - đại học Y Hà nội sách dùng cho sinh viên hệ bác sĩ đa khoa Các phản ứng có hại thường gặp ở những bệnh nhân nhiễm sán nặng, mức độ và tần suất của phản ứng có hại tăng theo liều lượ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phụ liệu thường được sử dụng để trị bệnh gì?",
+      "expected_chunk_id": "src_d5596b1dce93:a847add12d0e",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b661",
+      "question_source": "llm",
+      "chunk_text_preview": "có vị ngọt, hơi chát, tính bình; có tác dụng khư phong chỉ thống. Công dụng: Hoa thường được dùng để ướp trà và dùng làm thuốc trị đau răng, ho nhiều đờm, kinh bế đau bụng. Quả dùng trị hư hàn đau dạ ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Quykinh chẩn pháp dựa vào bao nhiêu huyệt chính khi khám tổng quát?",
+      "expected_chunk_id": "src_83ddc2a9c23c:6331bdc07bb1",
+      "expected_source_id": "src_83ddc2a9c23c",
+      "expected_parent_id": "src_83ddc2a9c23c:h:5297024b7f97:b0",
+      "question_source": "llm",
+      "chunk_text_preview": "Trang /125 8 II. Khám nghiệm tổng quát về khí và huyết.\n\nKhi cơ thể có bệnh hay sắp bị bệnh mà y học chưa có thể khám phá tìm ra được là bệnh gì đang ngấm ngầm đe dọa đến sức khỏe của cơ thể con người",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thủy châm bao nhiêu lần mỗi liệu trình?",
+      "expected_chunk_id": "src_309ee3f2ff0b:9745738e9660",
+      "expected_source_id": "src_309ee3f2ff0b",
+      "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b75",
+      "question_source": "llm",
+      "chunk_text_preview": "Thủy châm ngày 01 lần, mỗi lần thủy châm vào 2 - 3 huyệt, 10 - 15 lần/liệu trình. Chú ý: Tổng số liệu trình điều trị có thể thay đổi tùy theo tình trạng bệnh lý của mỗi người bệnh. 3. Thể thấp nhiệt (",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Khi tiếp cận với người nào bạn thấy thoải mái thì chứng tỏ gì?",
+      "expected_chunk_id": "src_1bcc0ba43edd:a921ad93cfe5",
+      "expected_source_id": "src_1bcc0ba43edd",
+      "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b116",
+      "question_source": "llm",
+      "chunk_text_preview": "P hải chú ý nắm vững khí của người khác, m iễn là nó giúp được bạn, khi tiếp cận vối người khác thấy rất thoải m ái, rất có th ể là bạn đã cảm th ụ được khí của người đó; nhưng cũng có ngưòi vừa gặp m",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Toàn cây dùng là gì?",
+      "expected_chunk_id": "src_d5596b1dce93:ee2c47b8783b",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b458",
+      "question_source": "llm",
+      "chunk_text_preview": "Raha kết quả quanh năm, thường thấy vào mùa hè, thu. Bộ phận dùng: Toàn cây - Herba Desmodii Triflori. Nơi sống và thu hái: Loài liên nhiệt đới, thường gặp ở sân cỏ, dọc đường đi, vùng đồng bằng khắp ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Rễ cỏ tranh phối hợp với thuốc nào sắc uống?",
+      "expected_chunk_id": "src_e0520ddfd9ac:26bd5336c515",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b239",
+      "question_source": "llm",
+      "chunk_text_preview": "rễ Cỏ tranh phối hợp với Gừng sao cháy (Thán khương) sắc uống.\n\nCỏ trói gà Cỏ trói gà, Gọng vó, Mồ côi - Drosera in dica L., thuộc họ Bắt ruồi - Droseraceae. Mô tả: Cây thảo cao 10-40cm, thân như sợi ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thường dùng thuốc bắc nào để chữa sốt và xơ gan cổ trướng?",
+      "expected_chunk_id": "src_e0520ddfd9ac:3bb901b5d964",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b428",
+      "question_source": "llm",
+      "chunk_text_preview": "ng, có tác dụng bổ, hạ nhiệt. Công dụng, chỉ định và phối hợp: Thường dùng làm thuốc bổ đắng, chữa sốt và chữa xơ gan cổ trướng. Dùng 10-15g, sắc uống. Ðể chữa xơ gan, phối hợp với Cỏ sữa. Cỏ xước, mỗ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Rhoa nào được thu hoạch từ tháng 7-9?",
+      "expected_chunk_id": "src_d5596b1dce93:07674080ba41",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b118",
+      "question_source": "llm",
+      "chunk_text_preview": "-19 tán, mỗi tán nhỏ mang khoảng 20 hoa màu trắng. Quả dài 3-4 mm, rộng 2mm, có 5 sống dọc, giữa sống chỉ có một ống tinh dầu. Rahoa tháng 7-9, kết quả tháng 9-10. Trong thân rễ có tinh dầu. Cũng có v",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận dùng của cây Chuối hột là gì?",
+      "expected_chunk_id": "src_d5596b1dce93:4d9bac147a3b",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b181",
+      "question_source": "llm",
+      "chunk_text_preview": "Chuối hột Chuối hột, Chuối chát - Musa balbisiana Colla (M. brac hycarpa Back), thuộc họ Chuối - Musaceae. Mô tả: Thân giả cao 2-4m, to màu xanh. Lá to, có phiến dài, xanh hơi mốc mốc, be, xanh. Buồng",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Huyệt nào được đề cập trong đoạn văn?",
+      "expected_chunk_id": "src_1d81088c863e:0a894f9f917e",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b72",
+      "question_source": "llm",
+      "chunk_text_preview": ", sán khí (các dạng đau co thắt ổ bụng), ỉa chảy.\n\nHUYỆT VỊ TRÊN 14 ĐƯỜNG KINH CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 27",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Hành tây chữa được bệnh gì theo kinh nghiệm cổ truyền?",
+      "expected_chunk_id": "src_40c21fbc97fb:ffd9d72b09a7",
+      "expected_source_id": "src_40c21fbc97fb",
+      "expected_parent_id": "src_40c21fbc97fb:h:5297024b7f97:b6",
+      "question_source": "llm",
+      "chunk_text_preview": "Phân tích theo đông y : Theo kinh nghiệm cổ truyền của nhiều nước, hành tây ngoài việc dùng làm gia vị, còn dùng để chữa bệnh tẩy giun sán, tiêu chảy, kích dục, điều kinh, long đờm, vết thương lở loét",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Nguyên nhân của ngọng theo quan niệm thông thường là gì?",
+      "expected_chunk_id": "src_3ad7c6b78d18:f3952b66dda7",
+      "expected_source_id": "src_3ad7c6b78d18",
+      "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b133",
+      "question_source": "llm",
+      "chunk_text_preview": "I\n\nTRỐNG. biến dạng của các ngón tay: đốt cuối ngón tay bè to, móng tay cong vòng, úp xuống, hình mỏ vẹt, khiến ngón tay trông như một cái dùi trống. Gặp chủ yếu trong những bệnh nung mủ phổi kéo dài,",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Lá chét bên có phiến lệch?",
+      "expected_chunk_id": "src_d5596b1dce93:0fd3a990e719",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b155",
+      "question_source": "llm",
+      "chunk_text_preview": "Chè tầng Chè tầng - Desmon dium laxum DC. subsp. laxum, thuộc họ Đậu - Fabaceae. Mô tả: Cây thảo cao 30-60cm (tới 120cm); thân cành mềm, có 3 cạnh, màu ửng đen, lúc non có lông mịn. Lá kép có cuống dà",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào của cây Walsura villosa Wall ex Hiern được sử dụng y học?",
+      "expected_chunk_id": "src_e0520ddfd9ac:bf5f885e4b52",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b418",
+      "question_source": "llm",
+      "chunk_text_preview": "Ga Ga, Giagia trắng - Walsura villosa Wall ex Hiern, thuộc họ Xoan - Meliaceae. Mô tả: Cây gỗ cao 4-10m, gốc to 25cm; cành non, cuống lá có lông mịn vàng. Lá mang 3-5 lá chét bầu dục xoan ngược, dài 7",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phần nào của cây được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_d5596b1dce93:c97596fdb0a3",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b130",
+      "question_source": "llm",
+      "chunk_text_preview": "Câu đằng Câu đằng, Vuốt lá mỏ - Uncaria rhyn chop hylla (Miq.) Jacks., thuộc họ Cà phê - Rubiaceae. Mô tả: Cây nhỡ leo có mấu, dài 6-10m. Lá có phiến xoan thon, to vào cỡ 6 x 0,5cm, mặt trên bóng, mặt",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Sau khi nào ông Viễn mới chịu dùng ngải cứu hơ các huyệt trên mặt cho bệnh nhân?",
+      "expected_chunk_id": "src_ef3d6ff3846c:d5353639d87f",
+      "expected_source_id": "src_ef3d6ff3846c",
+      "expected_parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b3",
+      "question_source": "llm",
+      "chunk_text_preview": "lúc ấy tôi đang là trợ lý cho ông). Saukhi nghe tôi báo cáo, Ông cười “vậy cũng được rồi, Viễn giỏi Đông y nhưng rất bảo thủ...kệ nó, từ từ rồi nó cũng thay đổi”. Ấy vậy mà mãi đến năm 1992, sau khi t",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trường hợp nào được ví von bằng nồi và vung?",
+      "expected_chunk_id": "src_715f913a01a9:592f70d903e4",
+      "expected_source_id": "src_715f913a01a9",
+      "expected_parent_id": "src_715f913a01a9:h:5297024b7f97:b19",
+      "question_source": "llm",
+      "chunk_text_preview": "55trường hợp không phải lý do tử cung lệch thì do nguyên nhân chiều dài và độ sâu hiện ra trên nhân trung của hai vợ chồng không phù hợp, giống như nồi và vung không đúng số, trong sách tướng số cũng ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Quế trị được dùng để chữa bệnh gì khi chân tay hàn lạnh?",
+      "expected_chunk_id": "src_40c21fbc97fb:070e9fd3af9e",
+      "expected_source_id": "src_40c21fbc97fb",
+      "expected_parent_id": "src_40c21fbc97fb:h:5297024b7f97:b32",
+      "question_source": "llm",
+      "chunk_text_preview": "Quế vị ngọt cay, mùi thơm, tính rất nóng, tác dụng bổ tăng hỏa, hồi dương, ấm thận tỳ, thông huyết mạch, trừ hàn tích. Dùng để cấp cứu chân tay hàn lạnh, mạch chậm nhỏ, hôn mê, đau bụng trúng thực, ph",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Sulfamet hoxazol (Gantanol) dùng治什么疾病？",
+      "expected_chunk_id": "src_02172872945b:cab13c5fd527",
+      "expected_source_id": "src_02172872945b",
+      "expected_parent_id": "src_02172872945b:h:5297024b7f97:b11",
+      "question_source": "llm",
+      "chunk_text_preview": "ùng một mình. Thường phối hợp sulfamet hoxazol với trimet hop rim (xin xem phần sau). Hiện còn được chỉ định trong các trường hợp sau: - Viêm đường tiết niệu: . Sulfadiazin: viên nén 0,5g . Sulfamet h",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thiệu quai dùng làm thuốc điều trị bệnh gì theo段落文本：",
+      "expected_chunk_id": "src_d5596b1dce93:50d7bd32f1de",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b870",
+      "question_source": "llm",
+      "chunk_text_preview": "nấu chín với đường dùng ăn tốt. Quả và lá được dùng làm thuốc trị ỉa chảy, đau mắt. Lá cũng được dùng làm thuốc trị bệnh đường hô hấp. Ở In đô nê xia, lá cũng được dùng trị ỉa chảy, lỵ và sốt. Ở Campu",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Chi tử chứa thành phần hóa học nào?",
+      "expected_chunk_id": "src_269c3c7d4e3e:7376d024a2bc",
+      "expected_source_id": "src_269c3c7d4e3e",
+      "expected_parent_id": "src_269c3c7d4e3e:h:5297024b7f97:b1",
+      "question_source": "llm",
+      "chunk_text_preview": "cuống, đồ qua hơi nước, lấy ra phơi hoặc sấy nhẹ cho khô, độ ẩm không quá 13%, tỷ lệ nhân đen không quá 0,5%, tạp chất hữu cơ và hạt non lép, vỡ không quá 2%. Vị thuốc là quả hình thoi, màu vàng cam h",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Lá của cây Muồng hôi có bao nhiêu cặp lá chét?",
+      "expected_chunk_id": "src_e0520ddfd9ac:29ac1324c903",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b684",
+      "question_source": "llm",
+      "chunk_text_preview": "Muồng lông Muồng lông, Muồng hôi - Cassia hirsuta L., thuộc họ Đậu - Fabaceae. Mô tả: Cây bụi cao 2,5m, đầy lông ở các cơ quan. Lá chét 3-5 cặp, các lá chét tròn to, một tuyến ở gần gốc cuống. Hoa 1-2",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Guồi có tác dụng gì theo lương y Nguyễn An Cư?",
+      "expected_chunk_id": "src_d5596b1dce93:af31d5378eb9",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b447",
+      "question_source": "llm",
+      "chunk_text_preview": "Guồi Guồi, Gùi - Willughbeia coc hin chinen sis Pierre ex Pit., thuộc họ Trúc đào - Apocynaceae. Mô tả: Cây gỗ leo. Thân có mấu lồi, bấm ra nhựa mủ trắng. Lá mọc đối, chóp nhọn; gân lá nổi rõ ở mặt tr",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phế vị tân thương thường có triệu chứng gì?",
+      "expected_chunk_id": "src_1d81088c863e:f12fd37e8aaf",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b207",
+      "question_source": "llm",
+      "chunk_text_preview": "Bản quyền: Viện Thông tin Thư viện Y học Trung ương 61 Âm hư thì trị bằng cam, ôn, tư dưỡng. Thấp nhiệt thì lấy thanh nhiệt, hóa thấp. Do tiêu, bản thường lẫn lộn với nhau, do đó thường kiêm lấy dưỡng",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Giai đoạn nào có hơi thở đều, ngắn, nhẹ, nhanh?",
+      "expected_chunk_id": "src_0797fad8a92a:9e8a1dc4a8f0",
+      "expected_source_id": "src_0797fad8a92a",
+      "expected_parent_id": "src_0797fad8a92a:h:5297024b7f97:b24",
+      "question_source": "llm",
+      "chunk_text_preview": "-Giai đoạn sóng Delta 1-3 hertz là giai đoạn ngủ sâu.\n\nQuan sát hơi thở một bệnh nhân nằm thở bình thường qua nhiều giai đoạn :\n\na-Giai đoạn chưa tập trung ý vào hơi thở ( sóng beta ):\n\nHơi thở không ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cách nào để tự thử có bệnh cholesté rol hoặc bệnh cao áp huyết?",
+      "expected_chunk_id": "src_d46b0d8ba7c2:516dce95c48d",
+      "expected_source_id": "src_d46b0d8ba7c2",
+      "expected_parent_id": "src_d46b0d8ba7c2:h:5297024b7f97:b3",
+      "question_source": "llm",
+      "chunk_text_preview": "Nhưng điều chỉnh sự khí hóa thủy-hỏa bằng phương pháp khí công sẽ dễ dàng và có hiệu qủa. Vì Tinh- Khí-Thần trong cơ thể muốn khí hóa được tốt phải nhờ vào hơi thở tạo ra tông khí để tăng cường sự hoạ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phần nào mô tả hình dạng của lá trong đoạn văn này?",
+      "expected_chunk_id": "src_d5596b1dce93:30dc591fbdf9",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b957",
+      "question_source": "llm",
+      "chunk_text_preview": "Tai tượng Úc Tai tượng Úc - Acalyp ha australis L., thuộc họ Thầu dầu - Euphorbiaceae. Mô tả: Cây thảo hằng năm cao 30-60cm, ít nhánh. Lá có phiến nhỏ, hình bánh bò, dài 2,5-8cm, rộng 1,5-3,5cm, gân p",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Một thang gồm bao nhiêu gram ngũ linh chi?",
+      "expected_chunk_id": "src_309ee3f2ff0b:c54c8a57c373",
+      "expected_source_id": "src_309ee3f2ff0b",
+      "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b38",
+      "question_source": "llm",
+      "chunk_text_preview": "Ngũ linh chi (tôi giấm) 12g Sắc uống ngày 1 thang, chia 2 lần. - Đối pháp lập phương: Lựa chọn các vị thuốc thuộc các nhóm thuốc theo pháp điều trị. - Nghiệm phương:",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thận bệnh thường có biểu hiện đái không ngừng hay uống nhiều, đái nhiều?",
+      "expected_chunk_id": "src_1d81088c863e:3c4e5259e3d0",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b15",
+      "question_source": "llm",
+      "chunk_text_preview": "ọi Thận là \"thủy tạng\". Thận có bệnh,. điều tiết nước không bình thường, làm khó đái, thủy dịch đình lưu, phù toàn thân, hoặc đái không ngừng, uống nhiều, đái nhiều, đái són, đái dầm. c. Thận chủ xươn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Suyễn là gì trong danh sách này?",
+      "expected_chunk_id": "src_2e608dafe081:638c2b37610e",
+      "expected_source_id": "src_2e608dafe081",
+      "expected_parent_id": "src_2e608dafe081:h:5297024b7f97:b29",
+      "question_source": "llm",
+      "chunk_text_preview": "ổ Nhức đầu, sốt Khó thở(suyễn), nghẹt mũi Loét hành tá tràng Cơn dau cuống bao tử Eczema, đau nhức ngón cái Viêm loét âm đạo Chảy máu cam Đau thần kinh tam thoa (TK sinh ba) Lạnh nổi da gà Bạch đới Vi",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào của vông san hô được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_e0520ddfd9ac:ae2da38f71c6",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1180",
+      "question_source": "llm",
+      "chunk_text_preview": "Vông san hô Vông san hô - Eryt hrina coralloden dron L., thuộc họ Ðậu - Fabaceae. Mô tả: Cây nhỡ hay cây gỗ nhỏ, cao 2-4m hay hơn, có gai, nhánh xanh, tròn. Lá kép 3 lá chét, lá chét xoan hình bánh bò",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bệnh hysteria của y học hiện đại tương tự với bệnh gì trong y học cổ truyền?",
+      "expected_chunk_id": "src_3ad7c6b78d18:fa7fb7a45e16",
+      "expected_source_id": "src_3ad7c6b78d18",
+      "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b192",
+      "question_source": "llm",
+      "chunk_text_preview": "hoà. Thường có các triệu chứng sau: vô cớ bi thương, máy động, hoặc cười khóc không bình thường, hoảng hốt, hay thở dài, thở nhanh, gấp, có lúc co giật, có lúc bất tỉnh nhân sự. Bệnh này tương tự như ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "ĐRM có thể nhìn thấy bằng mắt thường hay phải soi kính hiển vi?",
+      "expected_chunk_id": "src_3ad7c6b78d18:edbe6ea5f2fb",
+      "expected_source_id": "src_3ad7c6b78d18",
+      "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b60",
+      "question_source": "llm",
+      "chunk_text_preview": "uyên nhân bệnh. ĐRM có thể rõ rệt, thấy được bằng mắt thường (máu đỏ, có cục máu\n\nđông, fibrin), hoặc phải soi kính hiển vi mới khẳng định được; ĐRM có thể ở phần đầu, ở cuối của dòng nước đái, ở toàn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Khoảng bao lâu trước đây tên gọi xa xưa của khí công được đề cập?",
+      "expected_chunk_id": "src_1bcc0ba43edd:48a9b7027fc1",
+      "expected_source_id": "src_1bcc0ba43edd",
+      "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b15",
+      "question_source": "llm",
+      "chunk_text_preview": "N ĐỄ THỨ2: KHÍ CÔNG VÀ CÔNG NĂNG ĐẶC BIỆT ở Trung Quốc, tên gọi xa xưa của khí công là \"nội công\", \"Thổ nạp\", \"Đạo dẫn\" v. v.., chỉ đến khoảng 500 năm trưốc đây, trong một cuốn sách mới nói đến hai 35",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trong trường hợp nào sản phẩm glycol tạo ra thường là đồng phân trans?",
+      "expected_chunk_id": "src_92a6ae24adf8:14e990887844",
+      "expected_source_id": "src_92a6ae24adf8",
+      "expected_parent_id": "src_92a6ae24adf8:h:5297024b7f97:b29",
+      "question_source": "llm",
+      "chunk_text_preview": "R 1 C H 2 O C H R3 X H + R 1 C H 2 O CH R3 X H H2Och RCH2OH + CH OH2 X R 3 - H + R 3 C H X O H Trong đó: X=OH (bán acetal)\n\nX= H (et her) Tr−ờng hợp thuỷ phân mở vòng epoxyd xúc tác acid hoặc base cũn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phần nào của cây được sử dụng làm thuốc?",
+      "expected_chunk_id": "src_d5596b1dce93:29b55424e2ea",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b831",
+      "question_source": "llm",
+      "chunk_text_preview": "Rau lưỡi bò Rau lưỡi bò, Rautai nai, Ngũ cách - Pentap hragma gamopetalum Gagnep, thuộc họ Rau lưỡi bò -Pentap hragmataceae. Mô tả: Cây thảo có thân mọc đứng, cao 15cm, đường kính tới 1cm. Lá có phiến",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Huyền sâm dùng trị bệnh gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:e563f2da2b0c",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b506",
+      "question_source": "llm",
+      "chunk_text_preview": "máu dưới da, trẻ em chảy máu mũi, hấp nóng, mô hôi trộm, đau cơ, rút gân, nhức nhối, đại tiện ra máu: Huyền sâm 16g, Muồng sao 12g, Trắc bá sao, Kimanh, Hoa Hòe sao, Ngưu tất, Mạch môn đều 10g, sắc uố",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận của vang gai nào được sử dụng y học cổ truyền?",
+      "expected_chunk_id": "src_d5596b1dce93:6435eec114bb",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b1160",
+      "question_source": "llm",
+      "chunk_text_preview": "Vang gai Vang gai, vang rừng, Móc ó - Caesalpinia godefroyana Kuntze (C. thorelii Gagnep.),\n\nthuộc họ Ðậu -Fabaceae. Mô tả: Cây nhỡ mọc thành bụi cao 1-3m, có nhánh trăng trắng do có rất nhiều lỗ bì, ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Hơ vùng tâm thất trái dùng để điều trị bệnh gì?",
+      "expected_chunk_id": "src_82c72885324a:11542db6f899",
+      "expected_source_id": "src_82c72885324a",
+      "expected_parent_id": "src_82c72885324a:h:5297024b7f97:b46",
+      "question_source": "llm",
+      "chunk_text_preview": "Giáo Trình Diện Chẩn Học Page 149 NGỰC/VÚ Khó thở 1. Vạch và hơ vùng tâm thất trái (quanh H.120, 37, 3). 2. Vạch rãnh Nhân trung (vùng H.19, 63, 53 vài phút). Khó thở(do tức ngực) 1. Hơ lòng bàn tay v",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Lá nhựa mủ có tác dụng điều trị bệnh gì theo đoạn văn?",
+      "expected_chunk_id": "src_d5596b1dce93:4948aaac2bcf",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b1105",
+      "question_source": "llm",
+      "chunk_text_preview": "ịnh và phối hợp: Nhựa mủ rất nhiều có những tính chất tẩy xổ (theo A. Pé telot). Ở Vân Nam (Trung Quốc), quả và lá dùng chữa viêm hầu họng, sưng amygdal, phong thấp đau xương, tứ chi tê mỏi. Vỏ cây dù",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Đạo gia chủ trương khi luyện công thanh niên phải động mạnh hay không?",
+      "expected_chunk_id": "src_1bcc0ba43edd:dbad6a211df3",
+      "expected_source_id": "src_1bcc0ba43edd",
+      "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b107",
+      "question_source": "llm",
+      "chunk_text_preview": "ng không có là không được. Bởi vậy phải kết hợp động tĩnh Đạo gia chủ trương khi luyện công thanh niên phải động m ạnh, vì vậy, bên Đạo giao có rất nhiều người luyện võ thuật. 7. C ó k h ỉn h c ô n g ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thiếu máu được xác định như thế nào đối với nam giới theo đoạn văn?",
+      "expected_chunk_id": "src_a42f1c9cf410:f4785214b3b3",
+      "expected_source_id": "src_a42f1c9cf410",
+      "expected_parent_id": "src_a42f1c9cf410:h:5297024b7f97:b0",
+      "question_source": "llm",
+      "chunk_text_preview": "dược lý học 2007 - đại học Y Hà nội sách dùng cho sinh viên hệ bác sĩ đa khoa Bài 29: thuốc điều trị thiếu máu Mục tiêu học tập: Saukhi học xong bài này, sinh viên có khả năng: 1. Trình bày được vai t",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phân bố của cây cò ke là nơi nào?",
+      "expected_chunk_id": "src_d5596b1dce93:4b00d069a31e",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b200",
+      "question_source": "llm",
+      "chunk_text_preview": "Cò ke - Grewia paniculata Roxb. ex DC., thuộc họ Ðay - Tiliaceae. Mô tả: Cây gỗ hay cây nhỡ, có nhánh hầu như mọc đứng. Lá hình giáo ngược tròn không đến ở gốc, nhọn đột ngột hay cụt hoặc lõm sâu và c",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Quả của Câu kỷ quả đen thuộc loài nào?",
+      "expected_chunk_id": "src_e0520ddfd9ac:92832ce65499",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b134",
+      "question_source": "llm",
+      "chunk_text_preview": "tía, ống tràng dài hơn cánh hoa. Quả nang xoan, đỏ da cam hay hồng, có kích thước 10-20mm x 5-10mm. Quả chứa betain, zeaxan thin và physalein có tác dụng kích dục, các lá non chứa acid cyan hydric.\n\nC",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận dùng của Xuyên khung là gì?",
+      "expected_chunk_id": "src_d5596b1dce93:2c0c9fee2894",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b1203",
+      "question_source": "llm",
+      "chunk_text_preview": "Xuyên khung Xuyên khung - Ligusticum wallic hii Franch., thuộc họ Hoa tán - Apiaceae. Mô tả: Cây thảo sống nhiều năm. Thân rỗng hình trụ, cao 40-70cm; mặt ngoài có đường gân dọc nổi rõ. Lá mọc so le, ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Không thể dập khuôn cứng nhắc khi gia giảm bài thuốc vì lý do gì?",
+      "expected_chunk_id": "src_6c0d8caff063:57127416ddeb",
+      "expected_source_id": "src_6c0d8caff063",
+      "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b3",
+      "question_source": "llm",
+      "chunk_text_preview": "II. GIA GIẢM BIẾN HÓA BÀI THUỐC Một bài thuốc dù là từ xưa hay ngày nay mới tạo nên đều có nguyên tắc và phạm vi nhất định vì vậy không thể dập khuôn cứng nhắc, lúc chẩn đoán xem bệnh cần căn cứ vào t",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận dùng của cây Zizania caduciflora là gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:862e52cb211b",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b764",
+      "question_source": "llm",
+      "chunk_text_preview": "Niễng Niễng, Niễng niễng, Cây lúa miêu - Zizania caduciflora (Turcz ex Trin.) Haud-Mazz., thuộc họ Lúa -Poaceae. Mô tả: Cây thảo sống nhiều năm, mọc ngập trong nước hay chỗ nhiều bùn; thân rễ rất phát",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thân cây chứa thành phần hóa học nào chủ yếu?",
+      "expected_chunk_id": "src_e0520ddfd9ac:5979759e2186",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b979",
+      "question_source": "llm",
+      "chunk_text_preview": "Nam. Cây mọc nhiều ở các rừng miền Bắc nước ta. Thu hái toàn cây cũng như Thạch hộc. Thành phần hóa học: Thân cây chứa alcaloid, chủ yếu là shinunine. Tính vị, tác dụng: Vị ngọt, nhạt, tính hơi hàn; c",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Chua me đất chứa thành phần gì có thể gây bệnh sỏi thận?",
+      "expected_chunk_id": "src_e0520ddfd9ac:cf9fe566b0f2",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b172",
+      "question_source": "llm",
+      "chunk_text_preview": "tiết niệu, dùng Chua me đất 30g, Bòng bong 15g, Kim tiền thảo 15g, Dây vác Nhật 15g, sắc uống. 3. Suy nhược thần kinh: Chua me đất 30g, lá Thông đuôi ngựa 30g sắc uống. Chúng ta cũng còn một số công t",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Gừng dại thuộc họ gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:20b64dbe6628",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b446",
+      "question_source": "llm",
+      "chunk_text_preview": "trong việc sử dụng Gừng, từ những trường hợp đơn giản như nhai gừng tươi nuốt nước chữa đau bụng, nôn mửa. oẹ... đến những trường hợp phức tạp như chữa tỳ thấp thũng trướng, tay chân phù, ăn uống khôn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Nếu thần trong cơ thể suy nhược sẽ làm gì?",
+      "expected_chunk_id": "src_d46b0d8ba7c2:1e5d2b525c37",
+      "expected_source_id": "src_d46b0d8ba7c2",
+      "expected_parent_id": "src_d46b0d8ba7c2:h:5297024b7f97:b2",
+      "question_source": "llm",
+      "chunk_text_preview": "Nếu KHÍ bên trong cơ thể là khí của hơi thở và khí chuyển hóa của tạng phủ không thuận với khí bên ngoài là khí hậu, thời tiết cũng sẽ có ảnh hưởng không tốt đến sự khí hóa của lục phủ ngũ tạng trong ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trong bài luyện động tác thở 4 thời này, kê mông cao bao nhiêu?",
+      "expected_chunk_id": "src_0f6b06613c3a:af25594d2d83",
+      "expected_source_id": "src_0f6b06613c3a",
+      "expected_parent_id": "src_0f6b06613c3a:h:5297024b7f97:b4",
+      "question_source": "llm",
+      "chunk_text_preview": "Động tác thở 4 thời có kê mông và giơ chân: Thở 4 thời có kê mông và giơ chân là để luyện tổng hợp về thần kinh, khí và huyết, trọng tâm là luyện thần kinh, chủ động về ức chế và hưng phấn nhằm mục đí",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào của cây được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_d5596b1dce93:c5193c89fa27",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b596",
+      "question_source": "llm",
+      "chunk_text_preview": "Lục lạc năm lá Lục lạc năm lá, Sục sạc cao - Crotalaria quin quefolia L., thuộc họ Đậu - Fabaceae. Mô tả: Cây thảo hàng năm cao cỡ 1m; thân có 5 cạnh, có lông nằm màu trắng. Lá do 5 lá chét tròn dài h",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào của BrideliaTomentosa được sử dụng trong y học cổ truyền Việt Nam?",
+      "expected_chunk_id": "src_e0520ddfd9ac:6d727a9d71b9",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1031",
+      "question_source": "llm",
+      "chunk_text_preview": "Quả nang hình cầu dài 5-7mm, rộng 5mm, chứa 2 hạt. Rahoa tháng 4-7, có quả tháng 6-9. Bộ phận dùng: Vỏ rễ, lá - Cortex Radicis et Folium Brideliae Tomen tosae. Nơi sống và thu hái: Loài của Ấn Độ, Mia",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phân bố của cây Mallolus macrotac hyus ở đâu?",
+      "expected_chunk_id": "src_e0520ddfd9ac:ed93b4b959e8",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b68",
+      "question_source": "llm",
+      "chunk_text_preview": "Bùm bụp bông to Bùm bụp bông to - Mallolus mac rostac hyus (Miq.) Muell - Arg., thuộc họ Thầu dầu - Euphorbiaceae. Mô tả: Cây gỗ cao đến 10m; nhánh thòng có lông hung. Lá có phiến xoan nhọn, to đến 20",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trong hoa có thành phần gì?",
+      "expected_chunk_id": "src_d5596b1dce93:e8036b92818f",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b857",
+      "question_source": "llm",
+      "chunk_text_preview": "Cây ra hoa tháng 7-10; quả tháng 9-10. Bộ phận dùng: Hoa, thân, vỏ và vỏ rễ - Flos, Caulis, Cortex et Cortex Radicis. Lá quả cũng được sử dụng. Thường có tên là Mộc cận hoa Nơi sống và thu hái: Loài c",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phương pháp tôi dùng để chữa bệnh cho 27 người là gì?",
+      "expected_chunk_id": "src_eb28c8848470:c641a944ee07",
+      "expected_source_id": "src_eb28c8848470",
+      "expected_parent_id": "src_eb28c8848470:h:5297024b7f97:b24",
+      "question_source": "llm",
+      "chunk_text_preview": "chất \"hương táo, thăng đề” cùng với bệnh chứng hoàn toàn mâu thuẫn. Xemxong các đơn, tôi bèn dùng phương pháp chữa Thiên Thành kê đơn cho họ. Saukhi tôi về quê được ít lâu, có anh Diệp Sinh từ Côn Sơn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Chất nào hoạt động mạnh hơn papaverin trong đoạn văn?",
+      "expected_chunk_id": "src_e0520ddfd9ac:f9be8ea1155f",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b256",
+      "question_source": "llm",
+      "chunk_text_preview": "ân rễ chứa các lac ton và các ester alcol là petasol và isopetasol. Chất petasin là một chất chống co thắt hoạt động hơn papaverin, cùng được chiết từ thân rễ.\n\nCúc mui Cúc mui, Sài lan, Sài lông, Thu",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cây được dùng trị bệnh gì ở Quảng Tây?",
+      "expected_chunk_id": "src_e0520ddfd9ac:87d2a1f1e08f",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b976",
+      "question_source": "llm",
+      "chunk_text_preview": "bí tiểu tiện. Còn ở Quảng Tây, cây được dùng trị ỉa chảy, lỵ và dùng ngoài trị đòn ngã tổn thương, sang dương thũng độc.",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cây vối thuốc thuộc họ gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:91a8d95fd390",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1176",
+      "question_source": "llm",
+      "chunk_text_preview": "Vối thuốc Vối thuốc, Kháo cài, Thù lụ - Schima wallic hii (DC.) Korth, (Gordonia wallic hii DC.) thuộc họ Chè -Theaceae. Mô tả: Cây gỗ lớn cao 20-25m; cành non có lông, màu nâu, sau nhẵn. Lá đơn nguyê",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Tinh dầu rau mùi chứa bao nhiêu phần trăm d-linalol?",
+      "expected_chunk_id": "src_e0520ddfd9ac:772889aa1e73",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b675",
+      "question_source": "llm",
+      "chunk_text_preview": "a 0,2% tinh dầu có mùi thơm dịu hơi có mùi cam, mà thành phần chính là d-linalol hay corian drol (60-70%) với một ít geraniol và L-borneol và khoảng 20% các cac bua: -pinen, terpinen, các vết -pinen, ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Khi tập bộ quyền nào thì các bộ hình không được đứng hai bàn chân trên một đường thẳng?",
+      "expected_chunk_id": "src_d92a21efcf76:83def8ac2d3c",
+      "expected_source_id": "src_d92a21efcf76",
+      "expected_parent_id": "src_d92a21efcf76:h:5297024b7f97:b16",
+      "question_source": "llm",
+      "chunk_text_preview": "C- TẢ LÂU TẤT ẢO BỘ Động tác : Chân phải mở mũi bàn chân sang phải 45 độ, tức hướng Đông-Nam. Chưởng phải xoay thu về vòng hướng phải ; chưởng trái xoay vòng hạ trầm trước ngực, hông đồng xoay theo ch",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Toàn cây dùng để làm gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:07b6d99bbcb7",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b126",
+      "question_source": "llm",
+      "chunk_text_preview": "ước uống. Dùng ngoài lấy cây tươi giã đắp.\n\nCà trái vàng Cà trái vàng, hay Cà tàu - Solanum xan thocarpum Schrad Wendl., thuộc họ Cà - Solanaceae. Mô tả: Cây thảo có khi hoá gỗ, cao đến 0,8m, rất nhiề",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phân tử nào có trong thành phần hóa học của xà lách theo đoạn văn?",
+      "expected_chunk_id": "src_e0520ddfd9ac:920af6ae260b",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1189",
+      "question_source": "llm",
+      "chunk_text_preview": "ồng bằng tới vùng núi, từ Bắc chí Nam, nó thích ứng với khí hậu mát. Thành phần hóa học: Có lac tucarium, lac tucorin, lac tucin, acid lac tucic, asparagin, hyoscyamin, chlorop hylle, vitamin A, B, C,",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cùi nhãn khô chứa bao nhiêu phần trăm glucose?",
+      "expected_chunk_id": "src_d5596b1dce93:bcce203aa92a",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b750",
+      "question_source": "llm",
+      "chunk_text_preview": "ến khô thì dùng. Hạt dùng phơi khô. Rễ và lá thu hái quanh năm. Thành phần hoá học: Cùi Nhãn còn tươi có các thành phần sau, tính theo %: nước 77,15, tro 0,01, chất béo 0,13, protid 1,47, hợp chất có ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Tinh dầu và acid nhựa được chiết từ phần nào của cây?",
+      "expected_chunk_id": "src_d5596b1dce93:fc6c9ee69ef1",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b425",
+      "question_source": "llm",
+      "chunk_text_preview": "ồng làm hàng rào vì cây có nhiều gai. Quả thu hái vào mùa thu, đông, dùng tươi. Rễ và vỏ thu hái quanh năm, dùng tươi hay phơi khô dùng dần. Thành phần hoá học: Từ bột rễ, đã chiết được scopolatin, cơ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Hoa gỗ chứa thành phần gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:37b1e77e7e5c",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b49",
+      "question_source": "llm",
+      "chunk_text_preview": "Quả hình trụ, hoa gỗ, rắn, to bằng quả bí, màu xám có cuống dài, treo lủng lẳng trên cây, dài đến 1m. Bộ phận dùng: Quả và vỏ cây - Fruc tus et Cortex Kigeliae. Nơi sống và thu hái: Loài của các savan",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Luyện công có giúp thanh niên bình tĩnh trở lại khi dễ nổi khùng không?",
+      "expected_chunk_id": "src_1bcc0ba43edd:ae351a89b3cb",
+      "expected_source_id": "src_1bcc0ba43edd",
+      "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b79",
+      "question_source": "llm",
+      "chunk_text_preview": "2. Cân bằng tâm lý thòi kỳ th a n h niên, do một sô\" n h ân tô\" p h át dục sinh lý làm th a n h niên dễ kích động, dễ nổi cáu, nổi khùng, hấp tấp, luyện công có th ể giúp họ bình tĩn h trở lại. Vì khí",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Đại cương về cây Desmodium multiflorum DC bao gồm những bộ phận nào được sử dụng y học cổ truyền?",
+      "expected_chunk_id": "src_e0520ddfd9ac:ed9c7fa62848",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1026",
+      "question_source": "llm",
+      "chunk_text_preview": "Thóc lép nhiều hoa, Tràng quả nhiều hoa - Desmodium multiflorum DC. (D. sam buen se (D. Don) DC., D. floribun dum (D. Don) Sw. ex D. Don), thuộc họ Ðậu - Fabaceae. Mô tả: Cây thảo nhỏ cao 0,5-2m; thân",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Pethidine sau bao lâu có tác dụng giảm đau?",
+      "expected_chunk_id": "src_53d4b576238c:c79fd5e3c19b",
+      "expected_source_id": "src_53d4b576238c",
+      "expected_parent_id": "src_53d4b576238c:h:5297024b7f97:b4",
+      "question_source": "llm",
+      "chunk_text_preview": "in. Người nghiện morphin có thể dùng những dẫn xuất này để thay thế. Đặc biệt có heroin gây nghiện mạnh hơn h1⁄4n những dẫn xuất khác nên không dùng l àm thuốc. Không cai heroin được. 2.3. Các opioid ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Mô hình chỉ số nhiệt kinh lạc cơ bản của Tâm là gì?",
+      "expected_chunk_id": "src_1d81088c863e:b3e53a4cc892",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b298",
+      "question_source": "llm",
+      "chunk_text_preview": "hoả nội nhiễu, đàm mê Tâm khiếu. Về phía Tiểu trường thường thấy bệnh chứng là: Tâm di nhiệt sang Tiểu trường. Còn nhiệt nhập Tâm bào thuộc về phạm vi ôn bệnh, sẽ bàn trong phần khác. 1. Tâm dương bất",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Lượng giăng ra như thế nào?",
+      "expected_chunk_id": "src_d92a21efcf76:c355e9964a54",
+      "expected_source_id": "src_d92a21efcf76",
+      "expected_parent_id": "src_d92a21efcf76:h:5297024b7f97:b22",
+      "question_source": "llm",
+      "chunk_text_preview": "30động đều hợp, hể động cùng động, dứt cùng dứt.\n\n20-. BẠCH HẠC LƯỢNG SÍ : (Lượng : so, giăng ra ; Sí : cánh = Ý nói Nhạn trắng so cánh) Động tác : Động tác cùng yếu lý giống như thức thứ 6 đã học. Tứ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Toàn cây thường có tên gọi khác là gì?",
+      "expected_chunk_id": "src_e0520ddfd9ac:4df2b72dc4e2",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1116",
+      "question_source": "llm",
+      "chunk_text_preview": "Hoa tháng 3-6. Bộ phận dùng: Toàn cây - Herba Lysimac hiae Insignis, thường có tên là Tam trương diệp. Nơi sống và thu hái: Loài của Nam Trung Quốc và Việt Nam. Ở nước ta, cây mọc dựa suối vùng núi Ca",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trị các bệnh về gan, mật dùng phương pháp nào?",
+      "expected_chunk_id": "src_82c72885324a:9781a5c4dedf",
+      "expected_source_id": "src_82c72885324a",
+      "expected_parent_id": "src_82c72885324a:h:5297024b7f97:b23",
+      "question_source": "llm",
+      "chunk_text_preview": "Giáo Trình Diện Chẩn Học Page 78 BỘ TIÊU U BƯỚU Dùng để trị các khối u, các loại bướu (bướu lành, bướu ác hay còn gọi là ung thư) ở bộ phận nào trong cơ thể. 41, 143, 127, 19, 37, 38 41 (VIII, H) liên",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Khoảng bao nhiêu năm trước công nguyên các loài người đã biết ủ chua?",
+      "expected_chunk_id": "src_4aa8d7a49009:7293f43824df",
+      "expected_source_id": "src_4aa8d7a49009",
+      "expected_parent_id": "src_4aa8d7a49009:h:5297024b7f97:b19",
+      "question_source": "llm",
+      "chunk_text_preview": "zym\n\n42không đòi hỏi các thiết bị chống ăn mòn nh− trong công nghệ hoá học. Kü thuật en zym bao gồm lên men vi sinh vật, chiết xuất, tinh chế rồi sử dụng en zym ở dạng hoμ tan hoặc dạng en zym bất độn",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phoenix humilis Royle thuộc họ nào?",
+      "expected_chunk_id": "src_d5596b1dce93:2a153f796edb",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b138",
+      "question_source": "llm",
+      "chunk_text_preview": "Chà là Chà là hay Chà là núi, Muồng muồng - Phoenix humilis Royle., thuộc họ Cau - Arecaceae. Mô tả: Cây có nhiều thân mọc thẳng đứng cao 2-3m, có thân bồ. Lá dài khoảng 80cm, có các phiến lông chim g",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Chè dây thuộc họ thực vật nào?",
+      "expected_chunk_id": "src_d5596b1dce93:40d6fd88c778",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b153",
+      "question_source": "llm",
+      "chunk_text_preview": "ũng dùng nấu nước uống thay chè. Gần đây, Viện Y học Cổ truyền Dân tộc đã sử dụng Chè dây dạng cao khô để điều trị bệnh loét dạ dày - hành tá tràng.\n\nChè hàng rào Chè hàng rào, Trà hàng rào - Acalyp h",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phenylalanin trong đậu đen chiếm bao nhiêu phần trăm?",
+      "expected_chunk_id": "src_e0520ddfd9ac:e9656aa0d2d1",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b371",
+      "question_source": "llm",
+      "chunk_text_preview": "56mg%, phosphor 354mg%, sắt 6,1mg% caroten 0,06mg%, vitamin B1 0,51mg%, vitamin B2 0,21mg%, vitamin PP 3mg%. Hàm lượng các acid amin cần thiết trong đậu đen rất cao, tính theo g%: lysin 0,97% metionin",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào của cây Kim ngân núi thường được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_d5596b1dce93:15c89218e80b",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b545",
+      "question_source": "llm",
+      "chunk_text_preview": "gdal, viêm tuyến vú cấp tính, viêm kết mạc cấp tính, lỵ vi khuẩn, viêm ruột thừa cấp tính, mụn nhọt lở ngứa, đan độc, ngoại thương cảm nhiễm, loét cổ tử cung.\n\nKim ngân lẫn Kim ngân lẫn, Kim ngân núi ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cổ cứng thì cần gia thêm những huyệt nào?",
+      "expected_chunk_id": "src_1d81088c863e:ca029644dcd9",
+      "expected_source_id": "src_1d81088c863e",
+      "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b232",
+      "question_source": "llm",
+      "chunk_text_preview": "CHẨN TRỊ NHỮNG BỆNH CHỨNG THƯỜNG GẶP BẰNG CHÂM CỨU CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 52 Gia giảm: • Có khi co giật thì gia Hợp cốc, Thái xung, Ấn đường. • Ý",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Day ấn những hokhan nào để điều trị ho đàm?",
+      "expected_chunk_id": "src_ff2b95264bfc:14cc08347a90",
+      "expected_source_id": "src_ff2b95264bfc",
+      "expected_parent_id": "src_ff2b95264bfc:h:5297024b7f97:b45",
+      "question_source": "llm",
+      "chunk_text_preview": "http://www. ebook. edu. vn Giáo Trình Diện Chẩn Học Page 143 Hokhan 1. Day ấn H.14, 275, 60, 74, 64, 180. 2. Day ấn H.73, 3, 276. 3. Day ấn H.26, 61, 3, 51. 4. Day ấn H.17, 38, 275. Hokhan lâu ngày 1.",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Bộ phận nào được sử dụng từ cây tuế lược để chữa ho lao?",
+      "expected_chunk_id": "src_d5596b1dce93:4d04eb0fc6d4",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b1017",
+      "question_source": "llm",
+      "chunk_text_preview": "Thiên tuế lược Thiên tuế lược, Tuế lược - Cycas pec tinata Grill., thuộc họ Tuế - Cycadaceae. Mô tả: Cây có gốc phình rộng tới 50cm, thân cao 1-3m, chia nhánh 1-2 lần; sẹo lá hình bánh bò. Lá dài tới ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phân bố địa lý của loài Trium fet ta pseudocana là nơi nào?",
+      "expected_chunk_id": "src_d5596b1dce93:3a2a53a992be",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b520",
+      "question_source": "llm",
+      "chunk_text_preview": "Ké lông Ké lông, Đay ké nhọn, Gai dầu lông - Trium fet ta pseudocana Sprague ex Craib (T. tomen tosa Boj.), thuộc họ Đay - Tiliaceae. Mô tả: Cây bụi; nhánh có lông hình sao. Lá có phiến xoan thon, mặt",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Cụm hoa cái chứa bao nhiêu phần trăm lupulin?",
+      "expected_chunk_id": "src_e0520ddfd9ac:d42b35dc1822",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b504",
+      "question_source": "llm",
+      "chunk_text_preview": "Hoa tháng 5-8, quả 9-10. Bộ phần dùng: cụm hoa cái (nón cái) Flos Lupuli, thường gọi là Tị tửu hoa, mà lupulin là bụi nhựa (tức là các tuyến tiết tích trữ dưới lớp cutin của các lông tiết bao ngoài cá",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Chanh tây có quả dạng như thế nào?",
+      "expected_chunk_id": "src_d5596b1dce93:7c177248ddb8",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b147",
+      "question_source": "llm",
+      "chunk_text_preview": "Chanh tây - Citrus limon (L.) Burm. f. nhưng ít phổ biến, có quả dạng quả xoan bông vụ, to hơn Chanh thường và vỏ dày, da trắng chua, hạt trắng, lá mầm trắng. Loài này được sử dụng nhiều làm thuốc ở Ấ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Ông Đặng Quang Đa lấy bã Lược Vàng đắp chỗ đau sau khi làm gì?",
+      "expected_chunk_id": "src_12abef9658fb:fd9d691f7303",
+      "expected_source_id": "src_12abef9658fb",
+      "expected_parent_id": "src_12abef9658fb:h:5297024b7f97:b26",
+      "question_source": "llm",
+      "chunk_text_preview": "ng có cây Lược Vàng trồng trong chậu hoặc trong\n\nvườn, mọi người dùng mỗi khi thấy có bệnh đều có hiệu quả tốt rõ rệt. Ông Đặng Quang Đa, 73 tuổi sức khoẻ còn tốt, dùng búa đóng đinh trên một tấm ván,",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Thương truật phiến có thời gian bảo quản là bao lâu?",
+      "expected_chunk_id": "src_565d308c7183:45efd94ca6a6",
+      "expected_source_id": "src_565d308c7183",
+      "expected_parent_id": "src_565d308c7183:h:5297024b7f97:b42",
+      "question_source": "llm",
+      "chunk_text_preview": "736 Đan sâm chích rượu Chích rượu 18 tháng TCCS Túi 0,5kg; 1kg; 2kg; 3kg; 4kg; 5kg; 10kg. VCT-00125- 21 Công ty cổ phần dược Trung ương Medip lan tex Công ty cổ phần dược Trung ương Medip lan tex 737 ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Toàn cây của loài nào được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_e0520ddfd9ac:55d6884a05b5",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b599",
+      "question_source": "llm",
+      "chunk_text_preview": "Lưỡi rắn Lưỡi rắn, Bòi ngòi ngù, Vỏ chu - Hedyotis corym bosa (L.) Lam; thuộc họ Cà phê - Rubiaceae. Mô tả: Cây thảo sống hằng năm, mọc thẳng cao 20-30cm, phân nhánh nhiều, nhẵn. Thân non màu lục, có ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phương pháp nào chỉ duy nhất một nguyên lý?",
+      "expected_chunk_id": "src_27dfc1ab5a19:328f57e8a231",
+      "expected_source_id": "src_27dfc1ab5a19",
+      "expected_parent_id": "src_27dfc1ab5a19:h:5297024b7f97:b3",
+      "question_source": "llm",
+      "chunk_text_preview": "””.\n\nNguyên văn: “Tuy biến hóa vạn đoan, nhi lý duy nhất quán”\n\nChú giải: Người xưa nói: “ Pháp hữu vạn đoan, lý tồn vu nhất” (Phương pháp thì có nhiều, nhưng nguyên lý thì chỉ có một). Liên hệ với Th",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phần nào mô tả đặc điểm hoa của cây Sang trắng Roxburgh?",
+      "expected_chunk_id": "src_e0520ddfd9ac:f262217ea4c9",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b904",
+      "question_source": "llm",
+      "chunk_text_preview": "Sang trắng Roxburgh Sang trắng Roxburgh - Putran jiva roxburghii Wall. (Drypetes roxburghii (Wall) Hurusawa), thuộc họ Thầu dầu - Euphorbiaceae. Mô tả: Cây gỗ nhỏ có nhánh mảnh, có cạnh, lông thưa. Lá",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Vỏ cây của loài nào được sử dụng trong y học cổ truyền?",
+      "expected_chunk_id": "src_d5596b1dce93:17d211c2de29",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b346",
+      "question_source": "llm",
+      "chunk_text_preview": "Dung mốc Dung mốc, Dungxanh - Symplocos glauca (Thunb) Koidz. var. glauca, thuộc họ Dung - Symplocaceae. Mô tả: Cây gỗ cao đến 15m; nhánh non đầy lông như nhung nâu sét rồi nâu đỏ. Lá có cuống dài 1-2",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Tổng biên tập báo Người cao tuổi là ai?",
+      "expected_chunk_id": "src_12abef9658fb:f842204f2430",
+      "expected_source_id": "src_12abef9658fb",
+      "expected_parent_id": "src_12abef9658fb:h:5297024b7f97:b0",
+      "question_source": "llm",
+      "chunk_text_preview": "KIM QUỐC HOA (Tổng biên tập báo Người cao tuổi) Chủ biên\n\nCÂY LƯỢC VÀNG QUÝ “NHƯ VÀNG” .",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Betanidin khi vào cơ thể con người có thể bị thoái hoá hay không?",
+      "expected_chunk_id": "src_d5596b1dce93:68c9c8a2b6f7",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b262",
+      "question_source": "llm",
+      "chunk_text_preview": "Mg, P, Rb, Ca, Fe, Cu, Br, Zn, Mn, và các acid amin; asparagin, betain, glutamin... Màu đỏ của củ đều là do có chất betanidin, một -cyanin khi vào cơ thể con người có thể bị thoái hoá hay không. Ở Ấn ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Tên khoa học của cây sử quân là gì?",
+      "expected_chunk_id": "src_6df1bcf43898:30c0d2607965",
+      "expected_source_id": "src_6df1bcf43898",
+      "expected_parent_id": "src_6df1bcf43898:h:5297024b7f97:b1",
+      "question_source": "llm",
+      "chunk_text_preview": "thoát giang (lòi dom), tiêu chảy, phụ nữ băng huyết, bạch đới... Cách dùng: Uống 5 - 10g/ngày, dạng thuốc sắc; dùng ngoài rửa vết loét bằng nước sắc vỏ quả lựu. 5. Bài thuốc có dùng Thạch lựu bi 5.1. ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Trị khí hư, bạch đới dùng phần nào của cây mò mâm xôi?",
+      "expected_chunk_id": "src_d5596b1dce93:a9e0046018ec",
+      "expected_source_id": "src_d5596b1dce93",
+      "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b650",
+      "question_source": "llm",
+      "chunk_text_preview": ", hoạt huyết cường cân, tiêu thũng hạ áp. Lá có vị hơi nhạt, tính bình; có tác dụng khư ứ, giải độc. Công dụng, chỉ định và phối hợp: Rễ dùng trị: 1. Thấp khớp, lưng gối đau, tê bại, cước khí thuỷ thũ",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Hạt cối xay chứa bao nhiêu phần trăm raffinose?",
+      "expected_chunk_id": "src_e0520ddfd9ac:d564c66dc8fe",
+      "expected_source_id": "src_e0520ddfd9ac",
+      "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b209",
+      "question_source": "llm",
+      "chunk_text_preview": "Cối xay Cối xay, Giằng xay - Abutilon in dicum (L.) Sweet, thuộc họ Bông - Malvaceae. Mô tả: Cây nhỏ sống hàng năm hay lâu năm, mọc thành bụi, cao 1-2m, có lông mềm trên toàn thân và các bộ phận của c",
+      "is_noisy_question": false
+    },
+    {
+      "question": "Phương dược gồm những vị thuốc nào?",
+      "expected_chunk_id": "src_dd44d09f37b8:4b18abb5774e",
+      "expected_source_id": "src_dd44d09f37b8",
+      "expected_parent_id": "src_dd44d09f37b8:h:5297024b7f97:b29",
+      "question_source": "llm",
+      "chunk_text_preview": "Hòe hoa tán dụng trị tràng phong Trắc bá hắc kinh chỉ sác sung Vi mạt đẳng phân mễ ẩm hạ Khoang trường lương huyết trục phong công PHƯƠNG DƯỢC : Hòe hoa, trắc bá diệp, kinh giới tuệ ( sao đen), chỉ sá",
+      "is_noisy_question": false
+    }
+  ]
+}

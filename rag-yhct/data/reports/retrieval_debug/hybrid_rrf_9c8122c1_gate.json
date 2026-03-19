@@ -1,0 +1,897 @@
+{
+  "query": "thuốc đông y có những loại bài thuốc và cách dùng  nào ?",
+  "mode": "hybrid_rrf",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_6c0d8caff063:2688fc6abb41",
+      "fused_score": 0.030622,
+      "bm25_rank": 8,
+      "bm25_score": 27.214195,
+      "vector_rank": 1,
+      "vector_score": 0.719687,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 7giải, bài ôn nhiệt, bài hàn lương, bài tiêu dao, bài bổ ích, nếu 8 cách trên chưa khái quát được hết thì lại chia thành bài lý khí, bài lý huyết, bài khu phong, bài hóa thấp, bài khai khiếu, bài cố sáp, bài tài ngược, bài khu trùng v. v... Nhưng có bài thuốc không chỉ có một tác dụng như bài Tứ vật thang có thể bổ huyết, lại có thể hoạt huyết, có thể quy về bài bổ ích cũng được mà quy về bài lý huyết cũng được. ",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:1033cf5b1295",
+      "fused_score": 0.028739,
+      "bm25_rank": 20,
+      "bm25_score": 25.218668,
+      "vector_rank": 0,
+      "vector_score": 0.745902,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "IV. CÁC LOẠI BÀI THUỐC VÀ CÁCH DÙNG\n\n1. Loại thường dùng: Thuốc đông y thường dùng gồm 5 loại: Thang, hoàn, tán, cao, đan. 4 loại nói sau là thuốc chế sẵn thường gọi là cao đan hoàn tán, có loại mang tên là hoàn tán nhưng thực tế ứng dụng như thuốc thang. 1.1. Thuốc thang: Đem vị thuốc đun với nước thành thuốc nước (có lúc cho vào ít rượu) bỏ bã đi, uống nóng gọi là thuốc thang. Vị thuốc đông y phần lớn là thực vật, cho nước vào đun sôi, chất thuốc thôi ra trong nước, sau khi uống hấp thu vào ng",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:9f33fd35fd1a",
+      "fused_score": 0.028629,
+      "bm25_rank": 1,
+      "bm25_score": 30.847384,
+      "vector_rank": 19,
+      "vector_score": 0.648184,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Những bài thuốc chỉ cách ăn uống chữa bệnh tiểu đường và những biến chứng kể trên đã được đông tây y phân tích các vị thuốc qua cách nhìn khác nhau cũng cùng đạt được kết qủa giống nhau, nhưng tây y mới còn trong thử nghiệm, ngành tây dược chưa mạnh dạn dùng thuốc dược thảo thiên nhiên để chữa bệnh. Tuy nhiên không vì thế mà cho rằng các bài thuốc của đông y kém giá trị .\n\nSaukhi nghiên cứu kỹ sự phân tích tính dược theo tiêu chuẩn đông tây y với những dấu hiệu triệu chứng bệnh nếu giống như của",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:aa941bbcdead",
+      "fused_score": 0.028531,
+      "bm25_rank": 18,
+      "bm25_score": 25.726873,
+      "vector_rank": 2,
+      "vector_score": 0.706271,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 4 Chương 1 KIẾN THỨC CƠ BẢN VỀ CÁC BÀI THUỐC ĐÔNG Y I. CÁCH CẤU TẠO MỘT BÀI THUỐC Ta lấy một vị thuốc hoặc nhiều vị thuốc bào chế theo một phương pháp nhất định để chữa một bệnh nào đó thì thuốc đó gọi là một bài thuốc. Có bài thuốc chỉ có một vị, người xưa đã từng dùng như cao Tỳ bà diệp, cao Tang chi, cao Kimanh tử, thuốc sắc Độc sâm thang hoặc như thuốc viên Hoàng liên, Diên hồ sách, thanh nhiệt tiêu viêm (chỉ",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:e9ec9e560ca0",
+      "fused_score": 0.028039,
+      "bm25_rank": 7,
+      "bm25_score": 27.735123,
+      "vector_rank": 14,
+      "vector_score": 0.65473,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b12",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ngoài ra trong nhân gian còn nhiều bài thuốc kinh nghiệm gia truyền khác, nếu đem phân tích tính dược theo tây y hay đông y cũng đều có giá trị để chữa bệnh tiểu đường, nhưng tại sao lại không thống nhất một toa mà phải nhiều toa như vậy thì làm sao bệnh nhân bị tiểu đường như chúng ta biết cách dùng. Thật ra đông y có một phương pháp chẩn mạch bệnh và viết toa có nguyên tắc. Mạch bệnh nào cần phải chữa ưu tiên thì phải dùng vị thuốc tương ứng với bệnh có hàm lượng nhiều hơn gọi là chọn quân (=v",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:dc2de99645ab",
+      "fused_score": 0.027072,
+      "bm25_rank": 10,
+      "bm25_score": 26.672867,
+      "vector_rank": 16,
+      "vector_score": 0.653061,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b8",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Trong cách chế biến thuốc của đông y , người ta có thể thay đổi phần nào khí, tính và vị của nó nếu cần\n\n21phải dùng đến nó. Thí dụ một loại thuốc có khí thăng (đi lên, tính lạnh (hàn), nếu vị dẫn thuốc vào tim sẽ ra sao, vào phổi sẽ ra sao , vào tỳ sẽ ra sao, vào gan sẽ ra sao, vào thận sẽ ra sao. Nếu vào tim trong lúc tim bị nhiệt làm nóng sốt nhức đầu ,thì tính lạnh làm mát đưa lên đầu sẽ có lợi làm mát đầu, giảm sốt ,nhưng nếu sốt rét cơ thể lạnh ,nhức đầu lạnh ,tim đập yếu ,nếu dùng loại th",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:25c5d4e94188",
+      "fused_score": 0.027032,
+      "bm25_rank": 14,
+      "bm25_score": 26.122267,
+      "vector_rank": 12,
+      "vector_score": 0.661608,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 5hàn, khí vị tương phản để tạo thành bài thuốc khai phế thanh nhiệt, Quế chi và Bạch thược trong bài Quế chi thang là vị thuốc chủ nhưng khí vị tương phản cốt để điều hòa dinh vệ: Tình huống khác là ứng dụng kết hợp một lúc hai cách chữa bệnh như bài Đại thừa khí thang lấy Hậu phác, Chỉ thực ghép vị Đại hoàng là ứng dụng kết hợp một lúc hai cách chữa công hạ và hành khí, phá khí, tác dụng của nó càng mạnh hơn. Nh",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:3fe52dcfdfc1",
+      "fused_score": 0.026541,
+      "bm25_rank": 22,
+      "bm25_score": 24.935634,
+      "vector_rank": 8,
+      "vector_score": 0.671491,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b61",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "of 160 156 Phụ nữ có thai không được dùng, có tác dụng gây vô sinh, sẩy thai.\n\nKhi chúng ta nghiên cứu thành phần dược tính của những vị thuốc kể trên theo tây y và cách dùng của đông y, chúng ta thấy có những điểm tương đồng về công dụng của thuốc trong cách chữa bệnh, nhưng cũng có những điểm dị biệt, giữa sự phân chất của khoa học kiểm chứng trên lý thuyết và kinh nghiệm đã sử dụng có kết qủa của đông y cổ truyền, những dị biệt này sẽ bổ túc cho nhau trên lâm sàng để chúng ta biết cách áp dụn",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:d7f22efae048",
+      "fused_score": 0.025794,
+      "bm25_rank": 23,
+      "bm25_score": 24.854361,
+      "vector_rank": 11,
+      "vector_score": 0.661762,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b0",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Vì toa thuốc được viết ra sau khi thầy thuốc đã chẩn mạch chỉ áp dụng riêng cho bệnh nhân đó, dựa trên những biến đổi rối loạn chức năng phủ tạng của mỗi người mỗi khác. Thầy thuốc đông y giỏi vừa phải biết tìm ra sự mất quân bình khí hóa của tạng phủ nào theo bát cương về khí, huyết, hư thực, hàn nhiệt, biểu lý, vừa phải biết tính dược của loại cây cỏ nào về tính, khí, vị từng loại, liều lượng bao nhiêu cho vào cơ thể để tái lập lại quân bình khí hóa chức năng tạng phủ, như thế thì bệnh sẽ hết.",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:3a41d068f400",
+      "fused_score": 0.025141,
+      "bm25_rank": 13,
+      "bm25_score": 26.133733,
+      "vector_rank": 25,
+      "vector_score": 0.637163,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b0",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "© text: http://phongthuyquan. vn 3\n\nCuốn sách 380 bài thuốc Đông y hiệu nghiệm này là một tài liệu do Viện nghiên cứu y học Dân tộc Thượng Hải (Trung Quốc) biên soạn rất công phu, nó không đơn thuần giới thiệu những bài thuốc hay, mà theo từng chương mục nó còn hướng dẫn việc phân chia các loại bệnh, cách chữa bệnh, cách dùng phương thuốc cho phù hợp. Dược tính, công năng từng vị thuốc, phương thuốc cũng như cách ghép vị, gia giảm, được phân tích tỷ mỉ. Những bài thuốc nêu ta ở đây được chọn lọc",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:ea0ea7ac7fb3",
+      "fused_score": 0.024924,
+      "bm25_rank": 33,
+      "bm25_score": 24.105927,
+      "vector_rank": 9,
+      "vector_score": 0.670891,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b2",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ài thuốc nhưng không phải bài nào cũng dùng nó. Tóm lại, nguyên tắc tạo thành bài thuốc là một bộ phận trong phép chữa bệnh biện chứng của đông y, là cách vận dụng cụ thể của “Lý, phép, phương, dược”. Chỉ có chẩn đoán chính xác, phân biệt rõ bệnh tình nặng nhẹ, thư cấp, bệnh nào chính phụ quyết định nguyên tắc điều trị, chọn đúng vị thuốc chủ, vị thuốc phù trợ có mục đích thì mới tạo nên một bài thuốc hiệu nghiệm.",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:43c32adf4297",
+      "fused_score": 0.02393,
+      "bm25_rank": 35,
+      "bm25_score": 24.073825,
+      "vector_rank": 13,
+      "vector_score": 0.659495,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "I I-Các loại dược thảo phòng ngừa bệnh và chữa bệnh cao áp huyết :\n\nCác loại dược thảo thường được sử dụng theo kinh nghiệm nhân gian hoặc có ghi trong các toa thuốc cổ đông y, tùy theo tình trạng diễn biến của bệnh và những biến chứng ở mỗi giai đoạn, các thầy thuốc đông y phải chọn các vị thuốc phù hợp thành một bài thuốc đầy đủ quân thần tá sứ, mỗi lúc mỗi đổi khác các vị thuốc để tăng cường hiệu qủa trong điều trị khi có biến chứng, những",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:bcf3dc1d32be",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 30.972442,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b0",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "làm hạ áp huyết. Cứ tiếp tục thử nghiệm trên nhiều vị thuốc đông y khác, các nhà khoa học trên khắp thế giới có nhiều những cuộc thử nghiệm khác nhau đều cho những kết qủa giống nhau về tính dược đông y theo tiêu chuẩn tây y. Những hiểu biết về tính dược đông y do kinh nghiệm chữa bệnh nhiều đời để lại, tuy là những câu rất ngắn ngủi nhưng vẫn đầy đủ ý nghĩa rất có giá trị cho các thầy thuốc đời sau dùng để đối chứng trị liệu lâm sàng. Còn đối với chúng ta, nhờ có những phân tích theo tây y cho ",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:c04187723a8c",
+      "fused_score": 0.015873,
+      "bm25_rank": 2,
+      "bm25_score": 30.60213,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b0",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Câu chuyện đông y Tập 7 Dùng calcium bổ xương lợi hay hại ? Tôi đi học khí công Hồi hộp từng giây phút theo dõi cấp cứu giành lại sự sống cho mẹ Nguyên nhân của hôn mê biến chứng và cách cấp cứu Trong hôn mê sâu, thần thức đi về đâu ? Bệnh suy tủy trầm trọng Nhờ tập thở Mệnh môn đã tự cứu chức năng thận phục hồi trở lại bình thường Chữa bệnh mất ngủ theo y học tây phương và khí công y đạo Tôi đi dự thi hoa hậu hoàn vũ Thế nào là tập là để chữa bệnh Chỉ dùng một cây kim có thể cứu sống người bị t",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:34db426244f5",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 30.446664,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b20",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "51sức khỏe an khang để có điều kiện tiếp tục giúp ngườ I và cứu người. Kính thư, Ngoc Hoa\n\nChúc mừng ba cháu đã khỏi bệnh tiêu chảy. Bệnh tim mạch và bệnh thấp khớp có ảnh hưởng với nhau, và cách dùng thuốc của tây dược chưa có thuốc nào chữa khỏi được 2 bệnh cùng một lúc. Người ta thường nói, tây y chữa ngọn, đông y chữa gốc. Chúng ta hãy để ý theo dõi kết qủa của những bệnh nhân thuộc loại bệnh này mà chúng ta quen biết thì thấy rõ bệnh của họ càng ngày nặng thêm. Tại sao lại như vậy ?\n\nCon ng",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_715f913a01a9:0826f5b98450",
+      "fused_score": 0.015625,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 3,
+      "vector_score": 0.693439,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b33",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Quân như một ông vua, một tổng thống, Thần như vị thủ tướng, phó thủ tướng, Tá như các vị bộ trưởng và thứ trưởng, Sứ như các vị đại sứ liên lạc với nước ngoài.\n\nĐối với cách dùng thuốc đông y, tùy theo mục đích, sẽ chọn lựa một trong mười phương pháp như Tuyên, Thông, Bổ, Tiết, Khinh, Trọng, Hoạt, Táo, Thấp, Sáp. Thầy thuốc phải chọn vị thuốc nào chính yếu với liều lượng mạnh và nhiều hơn các vị khác để làm quân, vị thuốc nào có thể phối hợp với nó để làm tăng sức mạnh thêm cho quân thì gọi là ",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:1c0eac97b3b5",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 29.502119,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b10",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Chung quanh ta chỗ nào cũng có cây cỏ đủ loại, nhiều đến nỗi chúng ta không thể biết được hết tên chúng là gì, ngày xưa các y sinh nghiên cứu về thuốc cây cỏ đều có một thắc mắc làm sao phân biệt được cây nào là thuốc, cây nào không phải là thuốc . Để giải đáp thắc mắc ấy, vị sư phụ cho một công trình nghiên cứu ‘’Hãy tìm xem những cây nào không phải là thuốc ? ‘’.\n\nA-Áp dụng tiêu chuẩn tính-khí-vị :\n\nHọ áp dụng tiêu chuẩn tính-khí-vị của cây cỏ đem tác động vào lục phủ ngũ tạng và nhận thấy mạc",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:b6d12ef000bb",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.675707,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b5",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thuốc đun với nước sắc lấy nước đặc xong, cô lại thành cao gọi là thuốc cao, chia làm 2 loại uống trong và dùng ngoài. Cao uống trong thì đun sắc thuốc xong bỏ bã, cho đường cục hoặc mật ong vào cô đặc thành cao, lúc dùng uống với nước chín. Ưu điểm của nó là tận dụng được hết tinh chất của thuốc, đã cô thành cao mùi vị thơm dễ uống, chữa bệnh mạn tính, trị bổ, điều lý là thích hợp, khuyết điểm là không để lâu được, phần nhiều dùng trong mùa đông. Thuốc cao dùng ngoài có thuốc cao và dầu cao.\n\nC",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:fc70cc46d79d",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 28.793518,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b0",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bạn có tin đông y không ? Hệ thống cấu tạo thần trong đông y Lợi và hại của ăn uống với bệnh tật Thói quen uống nước nhiều lợi hay hại Đặt vấn đề Uống nước nhiều đúng hay sai ? Dưới mắt khoa học tập thở khí công có lợi hay không ? Khả năng chữa bệnh kỳ diệu của huyệt\n\nCó người trả lời có, có người trả lời không. Tại sao vậy ? Người trả lời có, cho rằng một số bệnh thực tế đông y chữa có kết qủa hơn tây y. Người trả lời không, cho rằng đông y chữa không có cơ sở khoa học, chữa tùy tiện theo ý riê",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_5c35274f42f8:63acf34672c2",
+      "fused_score": 0.015152,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 5,
+      "vector_score": 0.674299,
+      "source_id": "src_5c35274f42f8",
+      "parent_id": "src_5c35274f42f8:h:5297024b7f97:b11",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thuốc không được dẫn vào bao tử nên bao tử vẫn chưa được chữa.\n\nNói như vậy thì dù thuốc là đơn chất để chữa một tạng phủ hay một chỗ, hoặc hợp chất để chữa hai hay nhiều tạng phủ, hoặc hợp chất là một món ăn thức uống, đông y lúc nào cũng chú trọng đến tính-khí-vị trong mục đích chữa bệnh để điều hòa sự khí hóa chung cho cơ thể, và cách chữa thì áp dụng theo tám phương pháp căn bản của đông y ( bát pháp ), tùy theo sự chọn lựa phương pháp chữa của thầy thuốc mà đông y chia hạng thầy thành ba bậ",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:76064d9bab64",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 28.219429,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b50",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "cầu giảm, dùng Câu kỷ tử mỗi ngày trong 2 tuần lễ sẽ tăng thêm số lượng bạch cầu.\n\nChống chỉ định : Câu kỷ tử tính hàn dễ bị tiêu chảy. Những người có bệnh đường ruột thường bị tiêu chảy, hoặc tỳ vị hư hàn thì không được dùng.\n\nDùng calcium bổ xương lợi hay hại ? trang 3 Tôi đi học khí công\n\n11 Hồi hộp từng giây phút theo dõi cấp cứu 16 giành lại sự sống cho mẹ Nguyên nhân của hôn mê, 27\n\nbiến chứng và cách cấp cứu Trong hôn mê sâu, thần thức đi về đâu ? 38 Bệnh suy tủy trầm trọng 56 Nhờ tập thở",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:dd8d19b801d7",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.673083,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b11",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "t, đóng băng. Chú ý: ko đánh vào quả cà (73) vì sẽ làm triệt sản đối tượng - tự vệ quá mức. .... 12. Vai trò của LÝ PHÁP trong CHẨN ĐOÁN và ĐIỀU TRỊ ---o0o--- Đông Y có 2 phương pháp điều trị, pháp dùng thuốc thì chú trọng phương Dược, pháp không dùng thuốc [ châm cứu, bấm huyệt. v. v... ] thì chú trọng phương Huyệt. Từ ngàn xưa, cả 2 phương pháp đều có lý luận đã được tiền nhân qui nạp thành hệ thống ứng dụng trong Chẩn Đoán và Điều Trị. I. Các khoa Sinh Lý, Bệnh Lý, Dược Lý. v. v... . đã được ",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_715f913a01a9:e0f1ec3aa2b7",
+      "fused_score": 0.014706,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 7,
+      "vector_score": 0.671643,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b34",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "9-YẾU TÓ HẬU-BẠC TRONG TRỊ LIỆU :\n\nThuốc đông y khi sắc thuốc xong rồi nếm thử mùi vị sẽ có một trong năm vị nổi bật nhất đó là vị quân, là chất chính dùng để chữa bệnh trong thang thuốc, như vị đắng thuộc hỏa chữa tâm- tiểu trường, vị ngọt thuộc thổ chữa tỳ- Vị, vị cay thuộc kim chữa phế-đại trường, vị mặn thuộc thủy chữa thận-bàng quang, vị chua thuộc mộc chữa gan-mật. Nhưng nếu vị trong toàn thể chén thuốc nó nhạt, mùi phảng phất là loại thuốc nhẹ chữa những bệnh còn ở ngoài kinh mạch thuộc b",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:bdf1c28c7e7d",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 26.934371,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b32",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Tất cả các nguyên nhân trên, thầy thuốc đông y phải tìm ra trên lâm sàng (trong khi khám trực tiếp trên giường bệnh ), sau đó phải tìm ra cách đối phó với nguyên nhân ấy gọi là đối chứng trị liệu lâm sàng . Như vậy, riêng một bệnh về áp huyết do nhiều nguyên nhân thì cũng phải có nhiều công thức khác nhau để đối chứng trị liệu, rồi trị liệu khi nào cần cấp cứu như bá đạo, khi nào chữa theo y đạo, khi nào chữa theo vương đạo, nếu chỉ ăn cắp sưu tập hàng trăm công thức để chọn ra một công thức cầu",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:c22c6f99f4a2",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.669439,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "thác, phát huy và nâng cao lên.\n\n1. Nguyên tắc tạo thành bài thuốc: Bài thuốc đông y được tạo thành bởi 3 thành phần: 1.1. Vị thuốc chủ: Căn cứ bệnh tình chọn một, hai vị thuốc chủ yếu làm nòng cốt chữa bệnh, đó là thành phần chủ yếu. Như bài Tam thừa khí thang lấy Đại hoàng làm vị thuốc chủ tức là xác định cách chữa công hạ thực nhiệt ở vị tràng. 1.2. Vị thuốc phù trợ: Căn cứ đặc điểm của bệnh, cân nhắc chọn vị thuốc chủ rồi lại chọn những vị thuốc khác ghép vào để vị thuốc chủ phát huy được tá",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:c82a01999247",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 26.406023,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b0",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phân tích những bài thuốc kinh nghiệm đông y\n\nChữa bệnh tiểu đường và biến chứng\n\nPhân tích những bài thuốc kinh nghiệm đông y :\n\nChữa bệnh tiểu đường và biến chứng\n\n5 Phân tích những bài thuốc kinh nghiệm đông y\n\nChữa bệnh tiểu đường và biến chứng\n\nChúng ta thường có thói quen khi bị bệnh, gặp bạn bè hay người thân thuộc chỉ mách cho một toa thuốc gia truyền của gia đình đã từng chữa khỏi giống như bệnh mà mình đang mắc phải để mình uống thử xem sao. Đôi khi mình dùng may ra khỏi bệnh, có khi l",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:8904a0322f98",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 26.405547,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b30",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "vì thực ra đông y không còn xem huyệt là một đơn chất, mà huyệt là một đơn vị trong một thế trận, khi nó làm quân, khi nó làm thần, khi nó làm tá, khi nó làm sứ, theo kỹ thuật phối hợp thuốc của ngành đông dược, mỗi lúc mỗi biến hóa khác nhau theo một quy luật khí hóa ngũ hành. Điều mà ngành châm cứu tây y tránh né vì nó trừu tượng không thể hiểu để giảng giải và áp dụng.\n\nc-Nghiên cứu và phân tích qua một thí dụ :\n\nChúng ta lấy một thí dụ cách chữa chứng bệnh áp huyết, phân tích theo cách chữa ",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_e7b72b3ed72e:f760814e6e92",
+      "fused_score": 0.013158,
+      "bm25_rank": 15,
+      "bm25_score": 26.09436,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e7b72b3ed72e",
+      "parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b2",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bổ xương bằng cách nào cho hợp lý ?\n\nThật ra cơ thể thiếu chất tạo xương bắt buộc cần phải bổ xương, nhưng bổ bằng cách nào hợp lý mà không có hại cho sức khỏe, thí dụ bệnh lao phổi, trong thời kỳ dưỡng bệnh cần phải bổ phổi bằng calcium để tái tạo tế bào giúp phổi mau lành bằng loại calcium dạng lỏng thuốc chích đi thẳng vào máu, tuy nhiên để giảm tính chất thuốc làm tăng nhiệt, ngành dược chế ra loại calcium kèm với Vitamine C như loại thuốc chích Calcium Sandoz C1000, calcium cũng cần thiết t",
+      "rank": 27
+    },
+    {
+      "chunk_id": "src_5f93553e263f:12ac1d12ea2c",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.654222,
+      "source_id": "src_5f93553e263f",
+      "parent_id": "src_5f93553e263f:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "ĐẠI CƯƠNG - Bát pháp là 8 phương pháp dung thuốc trong Đông y. 1. Hãn pháp: Làm ra mồ hôi 2. Thổ pháp: Làm nôn ra 3. Hạ pháp: Làm đi cầu 4. Hòa pháp: Làm điều hòa 5. Tiêu pháp: Làm biến mất 6. Thanh pháp: Làm cho mát, trị bệnh nhiệt 7. Ôn pháp: Làm cho ấm, trị bệnh hàn 8. Bổ pháp: Làm tăng thêm, trị bệnh thuộc hư 29\n\nHÃN PHÁP Presen tation tit le 30\n\nKHÁI NIỆM - Là cách dùng các vị thuốc đưa tà khí ra ngoài theo đường mồ hôi, chỉ dùng khi tà khí còn ở ngoài biểu (thuốc giải biểu). - Chống chỉ đị",
+      "rank": 28
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:5fa8f7f89965",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 26.073763,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b0",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "3quyết những mâu thuẫn trên lâm sàng, theo dõi những kết qủa thử nghiệm có tính khoa học để chứng minh được từng loại thuốc tây hay ta, cách chữa tây hay ta, thức ăn uống tây hay ta, cái nào đem lại nhiều kết qủa trong điều trị có lợi cho bệnh nhân, chứ không phải là những mâu thuẫn tưởng tượng không thực nghiệm trên lâm sàng. Nếu không phải vì lý do tranh chấp để bảo vệ quyền lợi kinh tế, quyền lợi nghề nghiệp và địa vị riêng của mình, những thầy thuốc lãnh đạo trong ngành giáo dục và đào tạo n",
+      "rank": 29
+    },
+    {
+      "chunk_id": "src_715f913a01a9:b869783bd507",
+      "fused_score": 0.012821,
+      "bm25_rank": 17,
+      "bm25_score": 25.804504,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b24",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Cách thử nghiệm thứ hai : Khám bệnh bằng huyệt trên lưng, và các huyệt liên quan tương ứng với tình trạng đang bệnh để biết hư thực, hàn nhiệt, biểu lý.\n\n67 Cách thử nghiệm thứ ba : Khám bằng các động tác tập thể dục khí công để biết bài nào tập được, bài nào không thể tập được do bị bệnh gì .\n\nPhần định bệnh là biết phân biệt bệnh và chứng\n\nmới có thể truy tìm nguyên nhân gây bệnh để có cách chữa đúng. Tên bệnh và chứng được giữ nguyên theo tên dùng thời cổ đại để chúng ta hiểu rằng các vị y kh",
+      "rank": 30
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:7dd35ddce470",
+      "fused_score": 0.012821,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 17,
+      "vector_score": 0.651505,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b0",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "iều chế theo tiêu chuẩn cố định của tây dược, rồi thử nghiệm trên lâm sàng tại các bệnh viện lớn trên toàn quốc. Bệnh nhân được phân loại bệnh giống nhau theo tiêu chuẩn tây y rồi chia làm ba nhóm theo ba cách điều trị khác nhau, cách sử dụng thuốc riêng lẻ khác nhau, nhóm một chỉ dùng tây dược, nhóm hai chỉ dùng đông dược, nhóm ba dùng thuốc kết hợp cả đông và tây dược. Cả ba phương pháp được nghiên cứu, thử nghiệm, theo dõi trong thời gian dài từ 10 năm đến 20 năm, đem thống kê các kết qủa, và",
+      "rank": 31
+    },
+    {
+      "chunk_id": "src_0797fad8a92a:b504959fa8d0",
+      "fused_score": 0.012658,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 18,
+      "vector_score": 0.649845,
+      "source_id": "src_0797fad8a92a",
+      "parent_id": "src_0797fad8a92a:h:5297024b7f97:b10",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "23cho chích eucalyp tine là loại khuynh diệp tinh chế , hàm lượng mạnh hơn tốt hơn ,chứ thật ra hai vị thuốc tây-ta như vậy đâu có kỵ nhau. Tuy nhiên chúng ta để ý thành phần cấu tạo được phân chất theo khoa học thường là chất a,b,c.. mỗi thứ bao nhiêu phần trăm, nhưng cộng laị không đủ 100% , số phần trăm thiếu đó được gọi bằng một tên chung là : các hoạt chất khác x% còn lại mà khoa học chưa tìm ra được. Cho nên nếu một bệnh cần phải chữa bằng chất a , chúng ta sẽ tìm thuốc nào có chứa nhiều t",
+      "rank": 32
+    },
+    {
+      "chunk_id": "src_5f7d37558571:9e4a2307a3dd",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 25.263893,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_5f7d37558571",
+      "parent_id": "src_5f7d37558571:h:5297024b7f97:b5",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bagiai đoạn hướng dẫn của Y Tế Thế Giới\n\nThời kỳ chưa có máy đo áp huyết\n\nThời kỳ máy đo áp huyết ra đời\n\nThời kỳ máy đo cholesté rol ra đời Thời kỳ phát triển khoa tâm lý thần kinh và khoa dinh dưỡng Những biến chứng của thuốc trị cao áp huyết\n\nBệnh cao áp huyết tại sao khó chữa ? Đó là một câu hỏi còn nhiều thắc mắc nghi ngờ của cả hai giới, bệnh nhân và thầy thuốc. Có thể nói bệnh cao áp huyết còn khó chữa hơn bệnh nghiện ma túy, vì nghiện ma túy là một đam mê tự nguyện, ngày nào đó tỉnh ngộ ",
+      "rank": 33
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:5609b1c989f4",
+      "fused_score": 0.012346,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 20,
+      "vector_score": 0.644081,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b29",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Vì là loại thuốc bổ điều chỉnh và chữa được nhiều bệnh thông dụng, đông y đã chế thành thuốc viên gọi là Lục vị địa hoàng hoàn, người không có bệnh có thể uống mỗi ngày như thuốc bổ và ngừa bệnh.\n\nBài thuốc thứ 3 : Chữa cao áp huyết ở bệnh nhân có giãn tim, chóng mặt thở hổn hển, có chứng máu ứ trệ, ra mồ hôi :\n\nMạch môn, Hà thủ ô đỏ, mỗi vị 15g, Sinh địa, Đương quy, Ngũ vị tử, Táo ta, Huyền sâm, mỗi vị 10g, Cúc hoa trắng, Phục linh, Thạch xương bồ, Cam thảo, Đẳng sâm, mỗi vị 6g, Chi tử 3g.\n\nSắc",
+      "rank": 34
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:ee452678f5fc",
+      "fused_score": 0.012195,
+      "bm25_rank": 21,
+      "bm25_score": 25.056317,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "àng. Bài Thập khôi hoàn, theo tác dụng của nó là lương huyết nhưng thường dùng để chỉ huyết. Vì vậy cách phân loại ở sách này là căn cứ vào thực tế chữa bệnh, để phân còn bài thuốc chuyên dùng thì phân riêng, với bài thuốc có tác dụng đan xen thì các chương trước sau đều có để tiện tra cứu.\n\nIV. CÁC LOẠI BÀI THUỐC VÀ CÁCH DÙNG",
+      "rank": 35
+    },
+    {
+      "chunk_id": "src_715f913a01a9:cfc2c4107864",
+      "fused_score": 0.012195,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 21,
+      "vector_score": 0.643167,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b16",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "a/ Nhị trần thang : gồm có bán hạ chế, trần bì, bạch linh, chích thảo, sinh khương, ô mai. b/ Ôn đởm thang : gồm có bài nhị trần thang thêm trúc nhự, chỉ thực, có tác dụng cầm nôn.\n\n45c/ Địch đờm hoàn : gồm nhị trần thang thêm nam tinh, chỉ thực, đảng sâm, xương bồ, trúc nhự, áp dụng trong trường hợp nghẽn đờm làm hôn mê, khó nói. d/ Kim thủy lục quân tiễn : gồm có nhị trần thang thêm đương quy, thục địa, có tác dụng tư âm hóa đờm. e/ Bối mẫu qua lâu tán : gồm có bối mẫu, qua lâu, thiên hoa phấn",
+      "rank": 36
+    },
+    {
+      "chunk_id": "src_715f913a01a9:74367282347c",
+      "fused_score": 0.012048,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 22,
+      "vector_score": 0.642048,
+      "source_id": "src_715f913a01a9",
+      "parent_id": "src_715f913a01a9:h:5297024b7f97:b16",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "khám bệnh, định bệnh và Chữa bệnh của đông y\n\nĐÔNG Y HỌC là một khoa học tổng hợp 4 bộ môn, gồm khoa học quan sát, khoa học thử nghiệm, khoa học thống kê và khoa học thực nghiệm. Cả bốn môn khoa học này là một mắt xích có liên quan cái nọ với cái kia đều nhờ vào một tiêu chuẩn thống nhất độc đáo, như một kim chỉ nam hướng dẫn mọi phát minh tìm tòi, học hỏi về khoa đông y học gọi là BÁT CƯƠNG .\n\nBÁT CƯƠNG là 8 yếu tố mẫu mực, chính xác dùng làm cương lĩnh trong phương pháp khám bệnh, định bệnh để",
+      "rank": 37
+    },
+    {
+      "chunk_id": "src_e2fe10d2d90a:ab93855fead2",
+      "fused_score": 0.011905,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 23,
+      "vector_score": 0.641032,
+      "source_id": "src_e2fe10d2d90a",
+      "parent_id": "src_e2fe10d2d90a:h:5297024b7f97:b5",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "C ỨNG DỤNG: Bài 1. Chữa ho lâu ngãy: Thiên môn đông bỏ lõi 100g Mạch môn đông bỏ lõi 100g Vỏ rễ dâu tẩm mật sao 50g . Ô mai 20g · Gừng tươi 20g Thêm 2 lít nước, sắc chắt lấy 300ml nước thuốc, thêm 500g đường kính, đun sội cho tan hết đường, đóng vào chai dùng dần. Mỗi ngày uống 2-3 lần, mỗi lần 15ml. Bài 2. Chữa: ho sốt, viêm họng, loét mồm: Thiên môn đông (bỏ lõi) 16g Mạch môn đông (bỏ lõi) 16g Sâm đại hành 16g Thêm 300ml nước sắc lấy 100ml chia 2 lần uống trong ngày. 23. THIÊN LÝ Tên khác: Hoa",
+      "rank": 38
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:43b1b7779c2f",
+      "fused_score": 0.011765,
+      "bm25_rank": 24,
+      "bm25_score": 24.609521,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "4. Thay thế vị thuốc: Nắm vững nguyên tắc thay đổi cách ghép các vị thuốc trong bài thuốc thì khi lâm sàng chữa bệnh có thể theo phép chữa và ý nghĩa bài thuốc mà không dùng tất thảy các vị thuốc nhất là những vị thuốc quý hiếm, có thể dùng vị thuốc có dược tính tương tự thay thế mà không ảnh hưởng đến hiệu quả chữa bệnh. Ví dụ 3 vị Hoàng liên, Hoàng cầm, Hoàng bá tác dụng của nó có khác nhau nhưng đều là vị khổ hàn, đều dùng thanh nhiệt tả hỏa, táo thấp, cho nên có thể dùng vị này thay thế vị k",
+      "rank": 39
+    }
+  ],
+  "gate_pass": true,
+  "reason": "Sufficient and agreeing evidence from hybrid retrieval.",
+  "predicted_citation_count": 4,
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_6c0d8caff063:2688fc6abb41",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "source_id": "src_6c0d8caff063",
+      "fused_score": 0.030622,
+      "vector_score": 0.719687,
+      "bm25_score": 27.214195,
+      "text": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 7giải, bài ôn nhiệt, bài hàn lương, bài tiêu dao, bài bổ ích, nếu 8 cách trên chưa khái quát được hết thì lại chia thành bài lý khí, bài lý huyết, bài khu phong, bài hóa thấp, bài khai khiếu, bài cố sáp, bài tài ngược, bài khu trùng v. v... Nhưng có bài thuốc không chỉ có một tác dụng như bài Tứ vật thang có thể bổ huyết, lại có thể hoạt huyết, có thể quy về bài bổ ích cũng được mà quy về bài lý huyết cũng được. "
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_6c0d8caff063:1033cf5b1295",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+      "source_id": "src_6c0d8caff063",
+      "fused_score": 0.028739,
+      "vector_score": 0.745902,
+      "bm25_score": 25.218668,
+      "text": "IV. CÁC LOẠI BÀI THUỐC VÀ CÁCH DÙNG\n\n1. Loại thường dùng: Thuốc đông y thường dùng gồm 5 loại: Thang, hoàn, tán, cao, đan. 4 loại nói sau là thuốc chế sẵn thường gọi là cao đan hoàn tán, có loại mang tên là hoàn tán nhưng thực tế ứng dụng như thuốc thang. 1.1. Thuốc thang: Đem vị thuốc đun với nước thành thuốc nước (có lúc cho vào ít rượu) bỏ bã đi, uống nóng gọi là thuốc thang. Vị thuốc đông y phần lớn là thực vật, cho nước vào đun sôi, chất thuốc thôi ra trong nước, sau khi uống hấp thu vào ng"
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_40c21fbc97fb:9f33fd35fd1a",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+      "source_id": "src_40c21fbc97fb",
+      "fused_score": 0.028629,
+      "vector_score": 0.648184,
+      "bm25_score": 30.847384,
+      "text": "Những bài thuốc chỉ cách ăn uống chữa bệnh tiểu đường và những biến chứng kể trên đã được đông tây y phân tích các vị thuốc qua cách nhìn khác nhau cũng cùng đạt được kết qủa giống nhau, nhưng tây y mới còn trong thử nghiệm, ngành tây dược chưa mạnh dạn dùng thuốc dược thảo thiên nhiên để chữa bệnh. Tuy nhiên không vì thế mà cho rằng các bài thuốc của đông y kém giá trị .\n\nSaukhi nghiên cứu kỹ sự phân tích tính dược theo tiêu chuẩn đông tây y với những dấu hiệu triệu chứng bệnh nếu giống như của"
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_6c0d8caff063:aa941bbcdead",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+      "source_id": "src_6c0d8caff063",
+      "fused_score": 0.028531,
+      "vector_score": 0.706271,
+      "bm25_score": 25.726873,
+      "text": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 4 Chương 1 KIẾN THỨC CƠ BẢN VỀ CÁC BÀI THUỐC ĐÔNG Y I. CÁCH CẤU TẠO MỘT BÀI THUỐC Ta lấy một vị thuốc hoặc nhiều vị thuốc bào chế theo một phương pháp nhất định để chữa một bệnh nào đó thì thuốc đó gọi là một bài thuốc. Có bài thuốc chỉ có một vị, người xưa đã từng dùng như cao Tỳ bà diệp, cao Tang chi, cao Kimanh tử, thuốc sắc Độc sâm thang hoặc như thuốc viên Hoàng liên, Diên hồ sách, thanh nhiệt tiêu viêm (chỉ"
+    }
+  ],
+  "gate_features": {
+    "top1_score": 0.030622,
+    "top2_score": 0.028739,
+    "top1_top2_gap": 0.001883,
+    "evidence_count": 5,
+    "distinct_parent_count": 4,
+    "distinct_source_count": 2,
+    "same_parent_support": true,
+    "same_source_support": true,
+    "top_support_parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+    "top_support_source_id": "src_6c0d8caff063",
+    "evidence_score_sum": 0.14456,
+    "evidence_score_mean": 0.028912,
+    "evidence_parent_concentration": 0.4,
+    "gate_topk": 5,
+    "min_strong_evidence": 2,
+    "strong_rel_ratio": 0.85,
+    "strong_abs_threshold": 0.015,
+    "has_absolute_claim_pattern": false,
+    "absolute_claim_supported": false,
+    "absolute_countersignal_count": 1,
+    "claim_mismatch_flag": false
+  },
+  "context_payload": {
+    "mode": "parent_child",
+    "tokens_used": 3306,
+    "parents": [
+      {
+        "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+        "score": 0.120622,
+        "title": "380 Bai Thuoc Dong Y Hieu Nghiem",
+        "doc_type": "txt",
+        "children_in_topk": 2,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            4
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            4
+          ]
+        ],
+        "context_tokens": 1347
+      },
+      {
+        "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+        "score": 0.098629,
+        "title": "dongytap5",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            4
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            4
+          ]
+        ],
+        "context_tokens": 900
+      },
+      {
+        "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+        "score": 0.094245,
+        "title": "380 Bai Thuoc Dong Y Hieu Nghiem",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [],
+        "best_child_index": null,
+        "merged_child_ranges": [
+          [
+            0,
+            3
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            3
+          ]
+        ],
+        "context_tokens": 1059
+      }
+    ],
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "đông",
+        "có",
+        "loại",
+        "bài",
+        "cách",
+        "dùng",
+        "nào"
+      ],
+      "dominant_term": "đông",
+      "candidate_parent_count": 3,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+          "base_score": 0.030622,
+          "relevance_score": 0.120622,
+          "support_count": 2,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+          "base_score": 0.028629,
+          "relevance_score": 0.098629,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+          "base_score": 0.028531,
+          "relevance_score": 0.094245,
+          "support_count": 1,
+          "query_overlap_ratio": 0.857143,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_6c0d8caff063:h:5297024b7f97:b4",
+        "src_40c21fbc97fb:h:5297024b7f97:b45",
+        "src_6c0d8caff063:h:5297024b7f97:b1"
+      ],
+      "final_parent_count": 3,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+          "centers": []
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+          "centers": []
+        },
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+          "ranges": [
+            [
+              0,
+              3
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+          "spans": [
+            [
+              0,
+              3
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b4",
+          "tokens": 1347,
+          "preview": "4. Thay thế vị thuốc: Nắm vững nguyên tắc thay đổi cách ghép các vị thuốc trong bài thuốc thì khi lâm sàng chữa bệnh có thể theo phép chữa và ý nghĩa bài thuốc mà không dùng tất thảy các vị thuốc nhất là những vị thuốc q"
+        },
+        {
+          "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b45",
+          "tokens": 900,
+          "preview": "Phân tích theo tây y : Qủa bầu là một loại thức ăn dùng để chữa bệnh, tên khoa học Lagenaria siceraria (Molina ) Standl. Kết qủa thử nghiệm trong bầu có chất cucurbitacin B có tác dụng bảo vệ gan chống hoại tử, làm tăng "
+        },
+        {
+          "parent_id": "src_6c0d8caff063:h:5297024b7f97:b1",
+          "tokens": 1059,
+          "preview": "Chương 1: Kiến thức cơ bản về các bài thuốc đông y © text: http://phongthuyquan. vn 4 Chương 1 KIẾN THỨC CƠ BẢN VỀ CÁC BÀI THUỐC ĐÔNG Y I. CÁCH CẤU TẠO MỘT BÀI THUỐC Ta lấy một vị thuốc hoặc nhiều vị thuốc bào chế theo m"
+        }
+      ],
+      "final_context_tokens": 3306,
+      "final_context_token_count": 3306,
+      "final_answer_chunk_ids": [
+        "src_6c0d8caff063:2688fc6abb41",
+        "src_6c0d8caff063:1033cf5b1295",
+        "src_40c21fbc97fb:9f33fd35fd1a",
+        "src_6c0d8caff063:aa941bbcdead"
+      ]
+    }
+  }
+}
