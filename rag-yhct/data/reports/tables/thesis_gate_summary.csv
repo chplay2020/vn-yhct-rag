@@ -1,0 +1,17 @@
+run_id,query,gate_pass,predicted_citation_count,gate_reason,final_context_token_count,answer_generated,abstained,answer_length,evidence_count
+bm25_263aee33,tác dụng của cây ngải cứu,,,,,False,False,0,
+hybrid_rrf_09b8db9d,Cây Mã Đề,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,,False,False,0,5.0
+hybrid_rrf_263aee33,tác dụng của cây ngải cứu,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,1669.0,True,False,538,3.0
+hybrid_rrf_3fe8052c,cách chữa trẻ em ho do cảm lạnh bằng cây thuốc-dược liệu là gì,False,1.0,Insufficient strong evidence passages.,,False,True,0,1.0
+hybrid_rrf_4143dfa4,tác dụng của cây sả,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,3500.0,True,False,269,4.0
+hybrid_rrf_492bba9f,tác dụng của cây xả,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,,False,False,0,5.0
+hybrid_rrf_4a49a95e,"Dược liệu chữa ho, hen là gì",False,1.0,Insufficient strong evidence passages.,,False,True,0,1.0
+hybrid_rrf_760bd221,cây chi sả có tên khác là gì,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,,False,False,0,5.0
+hybrid_rrf_7e7ba53b,Tên khoa học của cây câu kỷ là gì,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,,False,False,0,5.0
+hybrid_rrf_82132096,cách chữa trẻ em ho do cảm lạnh là gì,False,2.0,Evidence lacks concentrated agreement (same parent/source).,,False,True,0,2.0
+hybrid_rrf_9c8122c1,thuốc đông y có những loại bài thuốc và cách dùng  nào ?,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,3306.0,True,False,257,4.0
+hybrid_rrf_a173f313,thuốc nào chữa khỏi hoàn toàn mọi loại ung thư,False,4.0,Query contains absolute/universal claim but retrieved evidence does not explicitly support that certainty level.,3500.0,True,False,39,4.0
+hybrid_rrf_b291f4bb,tác dụng của cây ngải xả,False,1.0,Insufficient strong evidence passages.,,False,True,0,1.0
+hybrid_rrf_e6f48c88,thuốc đông y có những loại nào ?,True,3.0,Sufficient and agreeing evidence from hybrid retrieval.,2922.0,True,False,299,3.0
+hybrid_rrf_ea59314a,cây sả có tên khác là gì,True,4.0,Sufficient and agreeing evidence from hybrid retrieval.,,False,False,0,5.0
+vector_263aee33,tác dụng của cây ngải cứu,,,,,False,False,0,

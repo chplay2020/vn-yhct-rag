@@ -1,0 +1,8 @@
+metric,value
+total_queries,16.0
+gate_pass,9.0
+gate_fail,5.0
+abstained,4.0
+answer_generated,5.0
+avg_evidence_count,3.4285714285714284
+avg_context_tokens,2979.4

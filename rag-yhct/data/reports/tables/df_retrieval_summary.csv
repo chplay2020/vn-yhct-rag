@@ -1,0 +1,4 @@
+mode,hit@1_chunk_id,hit@1_parent_id,hit@1_source_id,hit@3_chunk_id,hit@3_parent_id,hit@3_source_id,hit@5_chunk_id,hit@5_parent_id,hit@5_source_id,hit@10_chunk_id,hit@10_parent_id,hit@10_source_id,mrr_chunk_id,mrr_parent_id,mrr_source_id
+bm25,0.35,0.38,0.44,0.58,0.59,0.69,0.61,0.63,0.76,0.64,0.66,0.79,0.4646,0.4876,0.5726
+hybrid_rrf,0.39,0.44,0.52,0.55,0.6,0.77,0.62,0.65,0.86,0.72,0.75,0.96,0.4902,0.5387,0.671
+vector,0.34,0.39,0.59,0.46,0.54,0.84,0.53,0.61,0.9,0.55,0.64,0.95,0.4132,0.4783,0.7252

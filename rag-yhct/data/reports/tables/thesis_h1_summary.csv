@@ -1,0 +1,8 @@
+metric,value
+Raw passages,21029.0
+Clean passages,21029.0
+Chunks,24620.0
+Noise count,59.0
+Qdrant count,24553.0
+Error chunks,4.0
+Parent count,
