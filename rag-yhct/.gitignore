@@ -27,5 +27,10 @@ data/chunks/*.jsonl
 .DS_Store
 Thumbs.db
 
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
 # uv
 .uv/

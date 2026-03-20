@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0;
+  }
+
+  body {
+    @apply bg-slate-100 text-slate-800 antialiased;
+    background-image: radial-gradient(circle at top right, #e8f1ff 0%, #f3f5f7 40%);
+  }
+}

@@ -95,3 +95,88 @@ Chỉnh sửa `config/config.yaml` để thay đổi:
 - B4 dùng **dummy vectors** (all zeros). Embedding thật sẽ được thêm ở B5.
 - Pipeline không crash nếu 1 file lỗi — log exception rồi tiếp tục.
 - Hỗ trợ cả tiếng Việt và tiếng Anh (paper khoa học) qua `doc_language` field.
+
+## Demo Architecture: FastAPI + Next.js
+
+Luồng RAG cốt lõi vẫn giữ nguyên trong Python:
+
+Hybrid RRF -> Answerability Gate -> Focused Context -> Local LLM + Citations
+
+UI được tách thành Next.js frontend, backend phục vụ JSON API qua FastAPI.
+
+### 1) Chạy backend (FastAPI)
+
+```bash
+cd rag-yhct
+PYTHONPATH=src uv run uvicorn rag.api.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+Endpoint chính:
+
+- `POST /api/ask`
+
+### 2) Chạy frontend (Next.js)
+
+```bash
+cd rag-yhct/frontend
+npm install
+NEXT_PUBLIC_API_BASE=http://localhost:8000 npm run dev
+```
+
+Mở trình duyệt tại:
+
+- `http://localhost:3000`
+
+### 3) Ví dụ API request
+
+```bash
+curl -X POST "http://localhost:8000/api/ask" \
+	-H "Content-Type: application/json" \
+	-d '{
+		"query": "tac dung cua cay ngai cuu",
+		"mode": "hybrid_rrf",
+		"use_gate": true,
+		"build_context": true,
+		"generate_answer": true
+	}'
+```
+
+### 4) Ví dụ API response
+
+```json
+{
+	"query": "tac dung cua cay ngai cuu",
+	"mode": "hybrid_rrf",
+	"answer": "...",
+	"key_concepts": ["..."],
+	"limits": "...",
+	"safety_note": "...",
+	"abstained": false,
+	"gate_result": {
+		"pass": true,
+		"reason": "..."
+	},
+	"evidence": [
+		{
+			"citation_id": "E1",
+			"snippet": "...",
+			"chunk_id": "...",
+			"parent_id": "...",
+			"score": 0.98,
+			"title": "...",
+			"page_range": "...",
+			"section_heading": "...",
+			"file_path": "..."
+		}
+	],
+	"retrieval_results": [
+		{
+			"chunk_id": "...",
+			"score": 0.98
+		}
+	],
+	"context_debug": {
+		"selected_parent_ids": ["..."]
+	}
+}
+```
