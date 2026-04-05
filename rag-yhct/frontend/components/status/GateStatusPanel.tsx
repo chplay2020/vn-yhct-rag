@@ -19,13 +19,16 @@ export function GateStatusPanel({ response, controls }: GateStatusPanelProps) {
   const gate = response?.gate_result;
   const gatePass = gate?.pass;
   const gateFeatures = gate?.gate_features ?? {};
+  const contextDebug = response?.context_debug ?? {};
   const selectedParents = Array.isArray(response?.context_debug?.selected_parent_ids)
     ? (response?.context_debug?.selected_parent_ids as unknown[])
     : [];
-  const tokensUsed =
-    typeof response?.context_debug?.tokens_used === "number"
-      ? (response?.context_debug?.tokens_used as number)
-      : "N/A";
+  const tokensUsedCandidate = [
+    (contextDebug as Record<string, unknown>).tokens_used,
+    (contextDebug as Record<string, unknown>).final_context_tokens,
+    (contextDebug as Record<string, unknown>).final_context_token_count,
+  ].find((value) => typeof value === "number" || (typeof value === "string" && value.trim() !== ""));
+  const tokensUsed = typeof tokensUsedCandidate !== "undefined" ? tokensUsedCandidate : "N/A";
 
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-[0_8px_24px_rgba(15,23,42,0.04)] md:p-5">

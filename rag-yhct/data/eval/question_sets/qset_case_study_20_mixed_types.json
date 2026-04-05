@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "q01",
+    "question": "Toàn cây gồm những bộ phận nào của thạch tùng dẹp?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q02",
+    "question": "Huyệt nằm sát mí tóc trán là huyệt nào?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q03",
+    "question": "Khi não được thả lỏng, vòng tuần hoàn nhỏ sẽ như thế nào?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q04",
+    "question": "Huyệt nào tăng cường oxy cho tim và phòng chữa bệnh hở van tim?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q05",
+    "question": "Khuôn mặt như thế nào cho thấy cơ sở của quả tim tốt?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q06",
+    "question": "Chương 19 gọi tên loại thuốc nào?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q07",
+    "question": "Dây nhau bị sa xuống dưới trước khi chuyển dạ do nguyên nhân gì?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q08",
+    "question": "Phương pháp châm bàng liêm tuyền như thế nào?",
+    "question_type": "truy_van",
+    "origin": "original"
+  },
+  {
+    "question_id": "q09",
+    "question": "Khong phai noi dung nao lien quan den: Món pa té thận gồm những nguyên liệu gì?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q10",
+    "question": "Khong phai noi dung nao lien quan den: Cây nào trong đoạn văn thuộc họ Đậu - Fabaceae?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q11",
+    "question": "Khong phai noi dung nao lien quan den: Cimetidin ức chế chuyển hóa thuốc nào?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q12",
+    "question": "Khong phai noi dung nao lien quan den: Bộ phận nào của câyMicromelum compressi được sử dụng trong y học cổ truyền Việt Nam?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q13",
+    "question": "Khong phai noi dung nao lien quan den: Phân loại khoa học của Bứa nhuộm là gì?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q14",
+    "question": "Khong phai noi dung nao lien quan den: Lúc nhỏ luyện công có lợi thế nào trong bồi dưỡng tính cách?",
+    "question_type": "truy_van_nguoc",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q15",
+    "question": "Luong khang dinh tuyet doi: Khí công có thể được giải thích bằng những loại vật chất gì theo đoạn văn la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q16",
+    "question": "Luong khang dinh tuyet doi: Vận nhãn chung là dây thần kinh nào la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q17",
+    "question": "Luong khang dinh tuyet doi: Trất đả quyên thương là bệnh gì được chủ trị trong bài thuốc này la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q18",
+    "question": "Luong khang dinh tuyet doi: Trong thanh phẩm nào củaSiegesbec kia có chứa ladarutin la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q19",
+    "question": "Luong khang dinh tuyet doi: Một ngày dùng bao nhiêu gram thuốc trong trường hợp trướng, nôn oẹ la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  },
+  {
+    "question_id": "q20",
+    "question": "Luong khang dinh tuyet doi: Phụ nữ mới sinh đẻ uống loại ngải nạp hương nào trong đoạn văn la luon dung, dung khong?",
+    "question_type": "truy_van_tuyet_doi",
+    "origin": "rewritten"
+  }
+]

@@ -141,7 +141,7 @@ def run_answerability_gate(
         has_absolute = _has_absolute_claim_pattern(query)
         return {
             "pass": False,
-            "reason": "No retrieved evidence.",
+            "reason": "Không tìm thấy bằng chứng truy xuất phù hợp.",
             "predicted_citation_count": 0,
             "selected_evidence": [],
             "gate_features": {
@@ -253,15 +253,15 @@ def run_answerability_gate(
 
     if claim_mismatch_flag:
         reason = (
-            "Query contains absolute/universal claim but retrieved evidence does not explicitly "
-            "support that certainty level."
+            "Truy vấn chứa khẳng định tuyệt đối/phổ quát nhưng bằng chứng truy xuất không "
+            "hỗ trợ rõ ràng mức độ chắc chắn đó."
         )
     elif passed:
-        reason = "Sufficient and agreeing evidence from hybrid retrieval."
+        reason = "Có đủ bằng chứng mạnh và nhất quán từ truy xuất hybrid."
     elif evidence_count < min_strong_evidence:
-        reason = "Insufficient strong evidence passages."
+        reason = "Chưa đủ số lượng đoạn bằng chứng mạnh."
     else:
-        reason = "Evidence lacks concentrated agreement (same parent/source)."
+        reason = "Bằng chứng thiếu độ hội tụ nhất quán (cùng parent/source)."
 
     selected_evidence: list[dict[str, Any]] = []
     for idx, item in enumerate(strong_items):

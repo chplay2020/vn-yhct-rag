@@ -75,11 +75,11 @@ export default function HomePage() {
   return (
     <main className="mx-auto w-[min(1320px,calc(100%-2rem))] py-8 md:py-12">
       <section className="mb-5 space-y-2">
-        <p className="m-0 text-xs font-bold uppercase tracking-[0.08em] text-blue-700">RAG YHCT Thesis Demo</p>
+        <p className="m-0 text-xs font-bold uppercase tracking-[0.08em] text-blue-700">RAG YHCT</p>
         <h1 className="text-2xl font-semibold leading-tight text-slate-900 md:text-3xl">Không gian Hội thoại + Bằng chứng</h1>
         <p className="m-0 text-sm text-slate-600 md:text-base">
           Hybrid RRF → Gate → Ngữ cảnh tập trung → Local LLM + Trích dẫn. Giao diện ưu tiên khả năng truy vết bằng
-          chứng, trạng thái tin cậy và hiển thị an toàn cho demo luận văn.
+          chứng và trạng thái tin cậy.
         </p>
       </section>
 

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-15T17:37:22.908125+00:00",
+    "generated_at": "2026-03-25T09:08:30.933403+00:00",
     "seed": 42,
     "sample_size": 100,
     "question_mode": "auto",
@@ -10,7 +10,7 @@
   },
   "questions": [
     {
-      "question": "Toàn cây dùng bộ phận nào trong y học cổ truyền?",
+      "question": "Toàn cây gồm những bộ phận nào của thạch tùng dẹp?",
       "expected_chunk_id": "src_e0520ddfd9ac:52d3e5785496",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b984",
@@ -19,7 +19,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Huyệt nằm sát mí tóc mai là huyệt gì?",
+      "question": "Huyệt nằm sát mí tóc trán là huyệt nào?",
       "expected_chunk_id": "src_363b2e9ecf9b:28d8c3ada8c4",
       "expected_source_id": "src_363b2e9ecf9b",
       "expected_parent_id": "src_363b2e9ecf9b:h:5297024b7f97:b19",
@@ -28,7 +28,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trạng thái nào khiến vòng tuần hoàn nhỏ bị căng thẳng?",
+      "question": "Khi não được thả lỏng, vòng tuần hoàn nhỏ sẽ như thế nào?",
       "expected_chunk_id": "src_1bcc0ba43edd:d5f0aad6ae3f",
       "expected_source_id": "src_1bcc0ba43edd",
       "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b38",
@@ -46,7 +46,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Khuôn mặt hốc hác phản ánh tình trạng nào?",
+      "question": "Khuôn mặt như thế nào cho thấy cơ sở của quả tim tốt?",
       "expected_chunk_id": "src_715f913a01a9:b59b2a1a9c53",
       "expected_source_id": "src_715f913a01a9",
       "expected_parent_id": "src_715f913a01a9:h:5297024b7f97:b18",
@@ -55,7 +55,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Chương 19 có tên gì?",
+      "question": "Chương 19 gọi tên loại thuốc nào?",
       "expected_chunk_id": "src_6c0d8caff063:f21817397b24",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b117",
@@ -64,7 +64,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Dây sa sinh dục gây nguy hiểm cho sự sống của thai nhi vì lý do gì?",
+      "question": "Dây nhau bị sa xuống dưới trước khi chuyển dạ do nguyên nhân gì?",
       "expected_chunk_id": "src_3ad7c6b78d18:c6fe68d2dd21",
       "expected_source_id": "src_3ad7c6b78d18",
       "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b170",
@@ -73,7 +73,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phương pháp châm nào được đề cập trong đoạn văn?",
+      "question": "Phương pháp châm bàng liêm tuyền như thế nào?",
       "expected_chunk_id": "src_309ee3f2ff0b:44d05ef07412",
       "expected_source_id": "src_309ee3f2ff0b",
       "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b41",
@@ -82,7 +82,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Món pa té thận gồm những gì được xay nhuyễn trong công thức này?",
+      "question": "Món pa té thận gồm những nguyên liệu gì?",
       "expected_chunk_id": "src_e7b72b3ed72e:870cbf38e82b",
       "expected_source_id": "src_e7b72b3ed72e",
       "expected_parent_id": "src_e7b72b3ed72e:h:5297024b7f97:b22",
@@ -91,7 +91,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Dây lim thuộc họ thực vật nào?",
+      "question": "Cây nào trong đoạn văn thuộc họ Đậu - Fabaceae?",
       "expected_chunk_id": "src_e0520ddfd9ac:ea9d1526f4a4",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b305",
@@ -100,7 +100,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tương tác thuốc nào làm giảm nồng độ meben dazol trong máu?",
+      "question": "Cimetidin ức chế chuyển hóa thuốc nào?",
       "expected_chunk_id": "src_207577dabbe1:5bd83d692411",
       "expected_source_id": "src_207577dabbe1",
       "expected_parent_id": "src_207577dabbe1:h:5297024b7f97:b1",
@@ -109,7 +109,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận của cây Micromelum compressum Merr dùng làm thuốc là gì?",
+      "question": "Bộ phận nào của câyMicromelum compressi được sử dụng trong y học cổ truyền Việt Nam?",
       "expected_chunk_id": "src_e0520ddfd9ac:7a0fcdc9e47d",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b631",
@@ -118,7 +118,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Loài nào được mô tả trong đoạn văn?",
+      "question": "Phân loại khoa học của Bứa nhuộm là gì?",
       "expected_chunk_id": "src_d5596b1dce93:13447ace3c97",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b767",
@@ -127,7 +127,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Lúc nào việc luyện công có lợi cho bồi dưỡng tính cách lý tưởng?",
+      "question": "Lúc nhỏ luyện công có lợi thế nào trong bồi dưỡng tính cách?",
       "expected_chunk_id": "src_1bcc0ba43edd:cbb72410dccf",
       "expected_source_id": "src_1bcc0ba43edd",
       "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b78",
@@ -136,7 +136,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bản chất \"khí\" của khí công gồm những gì theo đoạn văn?",
+      "question": "Khí công có thể được giải thích bằng những loại vật chất gì theo đoạn văn?",
       "expected_chunk_id": "src_1bcc0ba43edd:a3b794376ac2",
       "expected_source_id": "src_1bcc0ba43edd",
       "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b67",
@@ -145,7 +145,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Dây thần kinh nào kiểm soát vận nhãn chung?",
+      "question": "Vận nhãn chung là dây thần kinh nào?",
       "expected_chunk_id": "src_2e608dafe081:c44286334733",
       "expected_source_id": "src_2e608dafe081",
       "expected_parent_id": "src_2e608dafe081:h:5297024b7f97:b36",
@@ -154,7 +154,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Nghiền bột mịn từ những dược liệu nào?",
+      "question": "Trất đả quyên thương là bệnh gì được chủ trị trong bài thuốc này?",
       "expected_chunk_id": "src_6c0d8caff063:64c6fe4cbd86",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b86",
@@ -163,7 +163,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trong thanh phẩm hoa chứa những chất nào?",
+      "question": "Trong thanh phẩm nào củaSiegesbec kia có chứa ladarutin?",
       "expected_chunk_id": "src_6f802cb99781:d48d214bd6d5",
       "expected_source_id": "src_6f802cb99781",
       "expected_parent_id": "src_6f802cb99781:h:5297024b7f97:b25",
@@ -172,7 +172,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Ngày dùng bao nhiêu gram thuốc?",
+      "question": "Một ngày dùng bao nhiêu gram thuốc trong trường hợp trướng, nôn oẹ?",
       "expected_chunk_id": "src_e0520ddfd9ac:00d6704a81fb",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b15",
@@ -181,7 +181,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Ngải nạp hương đầu to thuộc họ gì?",
+      "question": "Phụ nữ mới sinh đẻ uống loại ngải nạp hương nào trong đoạn văn?",
       "expected_chunk_id": "src_e0520ddfd9ac:6fc02fa773dc",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b715",
@@ -190,7 +190,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Luyện công trong hang núi có cần nhiều oxi không?",
+      "question": "Tại sao các vị sư phụ luyện công trong hang núi lại đốt nhiều hương khói?",
       "expected_chunk_id": "src_1bcc0ba43edd:11c21a6a32db",
       "expected_source_id": "src_1bcc0ba43edd",
       "expected_parent_id": "src_1bcc0ba43edd:h:5297024b7f97:b47",
@@ -199,7 +199,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Hoa sắc uống làm thuốc gì?",
+      "question": "Dầu hạt được sử dụng để trị bệnh gì?",
       "expected_chunk_id": "src_e0520ddfd9ac:9d1372bde8de",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b420",
@@ -208,7 +208,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thuốc lợi tiểu có tác động như thế nào đến calci-huyết?",
+      "question": "Thuốc lợi tiểu có thể gây ra biến chứng gì trong nội tiết?",
       "expected_chunk_id": "src_5f7d37558571:5d0c00508ec6",
       "expected_source_id": "src_5f7d37558571",
       "expected_parent_id": "src_5f7d37558571:h:5297024b7f97:b17",
@@ -217,7 +217,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Khi gặp chuyện buồn, người ta vẫn khó ngủ trên giường nào?",
+      "question": "Khi gặp chuyện buồn, người đó sẽ cảm thấy thế nào về môi trường xung quanh?",
       "expected_chunk_id": "src_f80e34eb56ad:334e38d5a751",
       "expected_source_id": "src_f80e34eb56ad",
       "expected_parent_id": "src_f80e34eb56ad:h:5297024b7f97:b29",
@@ -235,7 +235,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trẻ bệnh thì nên hơ liên tục bao lâu mỗi lần?",
+      "question": "Trường hợp nào nên hơ liên tục điếu ngải trên huyệt?",
       "expected_chunk_id": "src_ef3d6ff3846c:8338d85356f7",
       "expected_source_id": "src_ef3d6ff3846c",
       "expected_parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b0",
@@ -253,7 +253,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trong cùi nhãn khô chứa bao nhiêu phần trăm glucose?",
+      "question": "Lá nhãn chứa thành phần gì?",
       "expected_chunk_id": "src_d5596b1dce93:bcce203aa92a",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b750",
@@ -262,7 +262,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thang nào dùng để chữa hàn đàm?",
+      "question": "Thang gì dùng để ôn phế hóa đàm?",
       "expected_chunk_id": "src_6c0d8caff063:7bfe5de774a5",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b99",
@@ -271,7 +271,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phân tích thành phần hóa học của rễ Tam thấtclud",
+      "question": "Phenylalanin và isoleucin trong củ tam thất là những axit amin nào?",
       "expected_chunk_id": "src_d5596b1dce93:cb36160b348f",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b964",
@@ -280,7 +280,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bài cốt linh thuộc họ nào?",
+      "question": "Bài cốt linh thuộc họ gì?",
       "expected_chunk_id": "src_e0520ddfd9ac:51cc7b104fd2",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b622",
@@ -289,7 +289,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tỳ thống huyết là gì theo đoạn văn?",
+      "question": "Tỳ thống huyết là gì?",
       "expected_chunk_id": "src_901a97a5099b:3abdaebf88f8",
       "expected_source_id": "src_901a97a5099b",
       "expected_parent_id": "src_901a97a5099b:h:5297024b7f97:b6",
@@ -298,7 +298,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Theo Phật giáo đại thừa, người ta nên làm gì khi nghiệp đến?",
+      "question": "Tâm lý thần kinh của bệnh nhân cùi như thế nào khi không sợ hãi bệnh nguy hiểm?",
       "expected_chunk_id": "src_0797fad8a92a:cd706ede0e9c",
       "expected_source_id": "src_0797fad8a92a",
       "expected_parent_id": "src_0797fad8a92a:h:5297024b7f97:b24",
@@ -316,7 +316,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Người đàn ông bị bệnh hư lao thèm ăn thịt gì?",
+      "question": "Chồng cụ Phan Minh thèm muốn ăn gì khi bị bệnh hư lao?",
       "expected_chunk_id": "src_eb28c8848470:b15749f0a247",
       "expected_source_id": "src_eb28c8848470",
       "expected_parent_id": "src_eb28c8848470:h:5297024b7f97:b125",
@@ -325,7 +325,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Rễ của loài Lindera strychnifolia chứa thành phần hóa học nào?",
+      "question": "Rễ cây Lindera strychnifolia chứa thành phần hóa học nào?",
       "expected_chunk_id": "src_d5596b1dce93:3f3de334db01",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b772",
@@ -334,7 +334,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận nào của cây chùm lé được sử dụng để chữa phong thấp?",
+      "question": "Phân biệt loài nào trong đoạn văn có bộ phận dùng là rễ và lá?",
       "expected_chunk_id": "src_d5596b1dce93:c062e86dbc15",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b177",
@@ -343,7 +343,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Quy luật phân loại ngũ hành trong cơ thể là gì?",
+      "question": "Quy luật phân loại ngũ hành trong cơ thể dựa trên yếu tố nào?",
       "expected_chunk_id": "src_901a97a5099b:9f203c23e5d8",
       "expected_source_id": "src_901a97a5099b",
       "expected_parent_id": "src_901a97a5099b:h:5297024b7f97:b4",
@@ -352,7 +352,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Xương nào nằm trong tai giữa ở các loài động vật có vú?",
+      "question": "Các XS phía bụng không nối với các đốt sống mà khớp với phần gì?",
       "expected_chunk_id": "src_3ad7c6b78d18:cbb21ca4ec2a",
       "expected_source_id": "src_3ad7c6b78d18",
       "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b302",
@@ -361,7 +361,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thành phần có bao nhiêu vị thuốc trong Kim quỹ thận khí hoà hoàn?",
+      "question": "Thành phần nào có lượng lớn nhất trong bài thuốc này?",
       "expected_chunk_id": "src_6c0d8caff063:82c6725c754c",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b64",
@@ -379,7 +379,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Nguyên nhân nào theo Y học cổ truyền làm cho kinh mạch bị bế tắc?",
+      "question": "Trong y học cổ truyền nguyên nhân ngoại phong là gì?",
       "expected_chunk_id": "src_309ee3f2ff0b:cb5f2e18785d",
       "expected_source_id": "src_309ee3f2ff0b",
       "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b39",
@@ -406,7 +406,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tên khoa học của dược liệu nào được đề cập trong danh mục?",
+      "question": "Tên khoa học của tên dược liệu trong danh mục được liệt kê như thế nào?",
       "expected_chunk_id": "src_309ee3f2ff0b:ea371516d0f3",
       "expected_source_id": "src_309ee3f2ff0b",
       "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b2",
@@ -415,7 +415,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Mộc thông thuộc họ hoa gì?",
+      "question": "Loài cây nào được mô tả trong đoạn văn này?",
       "expected_chunk_id": "src_d5596b1dce93:83bf48d1d2df",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b312",
@@ -424,7 +424,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận của cỏ cú được sử dụng trong y học cổ truyền là gì?",
+      "question": "Bộ phận của cỏ cú được sử dụng là gì?",
       "expected_chunk_id": "src_d5596b1dce93:82c9c1ff1b4c",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b203",
@@ -433,7 +433,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Chữa mụn nhọt bằng cách nào trong bài viết?",
+      "question": "Chữa mụn nhọt bằng cách nào?",
       "expected_chunk_id": "src_e0520ddfd9ac:701942489ca1",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b727",
@@ -451,7 +451,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tâm chủ thần chí tương đương với hoạt động gì?",
+      "question": "Tổng quát công năng chủ thần chí của tâm như thế nào?",
       "expected_chunk_id": "src_1d81088c863e:169fb31f04b8",
       "expected_source_id": "src_1d81088c863e",
       "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b11",
@@ -460,7 +460,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Loài này khác với Thông đỏ - Taxus wallic hiana ở điểm nào?",
+      "question": "Loài nào khác với Thông đỏ Taxus wallichianna chỉ là lá ngắn hơn?",
       "expected_chunk_id": "src_d5596b1dce93:31a6602311b7",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b1036",
@@ -469,7 +469,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Toàn cây droserae indicae được thu hái ở đâu?",
+      "question": "Toàn cây của gì được sử dụng trong y học cổ truyền?",
       "expected_chunk_id": "src_e0520ddfd9ac:cf75626da90d",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b239",
@@ -478,7 +478,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "CO CỨNG hay CO GIẬT do biến loạn chức năng tuyến cận giáp gây ra như thế nào?",
+      "question": "CO CỨNG GÌ THƯỜNG DO BIẾN LOẠN CHỨC NĂNG TUYẾN CÁN GIÁP?",
       "expected_chunk_id": "src_3ad7c6b78d18:f5e9ae9b0ad9",
       "expected_source_id": "src_3ad7c6b78d18",
       "expected_parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b48",
@@ -496,7 +496,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Không muốn đẻ dùng huyệt gì?",
+      "question": "Không muốn đẻ chọn huyệt nào?",
       "expected_chunk_id": "src_1d81088c863e:6014bb85aa50",
       "expected_source_id": "src_1d81088c863e",
       "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b271",
@@ -505,7 +505,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận nào của cây được sử dụng trong y học cổ truyền?",
+      "question": "Bộ phận nào được sử dụng trong y học cổ truyền từ cây này?",
       "expected_chunk_id": "src_e0520ddfd9ac:96ac0082d80e",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b355",
@@ -514,7 +514,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phản ứng hydro hóa đồng được thực hiện trong điều kiện nào?",
+      "question": "Phản ứng hydro hóa được tiến hành ở điều kiện nào?",
       "expected_chunk_id": "src_92a6ae24adf8:1d918d76c897",
       "expected_source_id": "src_92a6ae24adf8",
       "expected_parent_id": "src_92a6ae24adf8:h:5297024b7f97:b39",
@@ -523,7 +523,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tác dụng của lá Sắn thuyền là gì?",
+      "question": "Lá non sắn thuyền có thể dùng để ăn như thế nào?",
       "expected_chunk_id": "src_e0520ddfd9ac:3fb01e5b7ea6",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b906",
@@ -532,7 +532,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trị viêm miệng dùng lượng thuốc gì?",
+      "question": "Trị viêm kẽ mô quanh móng tay dùng bao nhiêu cây?",
       "expected_chunk_id": "src_e0520ddfd9ac:a9c21c88ed6b",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b834",
@@ -541,7 +541,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Dưa bở thuộc họ cây nào?",
+      "question": "Dưa bở thuộc họ thực vật nào?",
       "expected_chunk_id": "src_d5596b1dce93:5807e7e5661c",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b332",
@@ -550,7 +550,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận dùng của Heterosmilax gaudich haudiana là gì?",
+      "question": "Bộ phận dùng của Heterosmilax gaudic haudiana là gì?",
       "expected_chunk_id": "src_e0520ddfd9ac:de2f1bceff38",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b536",
@@ -559,7 +559,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phương pháp bổ phải dựa vào nhu cầu nào của tạng phủ?",
+      "question": "Phương pháp bổ phải dựa vào gì?",
       "expected_chunk_id": "src_5c35274f42f8:0ec0c04326c0",
       "expected_source_id": "src_5c35274f42f8",
       "expected_parent_id": "src_5c35274f42f8:h:5297024b7f97:b14",
@@ -568,7 +568,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tâm hỏa từ đâu xuống giao với Thận?",
+      "question": "Nhục quế kết hợp với thuốc nào có thể dẫn Tâm hỏa xuống giao với Thận?",
       "expected_chunk_id": "src_f0fc7d32edd3:baae68aa3196",
       "expected_source_id": "src_f0fc7d32edd3",
       "expected_parent_id": "src_f0fc7d32edd3:h:5297024b7f97:b6",
@@ -577,7 +577,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tiểu tiện ít hoặc khó đái nhưng bụng dưới không trướng đau là do nguyên nhân gì theo đoạn văn?",
+      "question": "Tiểu tiện ít do nguyên nhân nào theo đoạn văn?",
       "expected_chunk_id": "src_1d81088c863e:51f5ff34d295",
       "expected_source_id": "src_1d81088c863e",
       "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b205",
@@ -595,7 +595,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Lá này thường được dùng để trị bệnh gì?",
+      "question": "Lá cây này thường được dùng để trị bệnh gì?",
       "expected_chunk_id": "src_e0520ddfd9ac:5b3f897bd582",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1138",
@@ -604,7 +604,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Viên testosteron acetat bao nhiêu mg?",
+      "question": "Viên testosteron acetat bao nhiêu milligram?",
       "expected_chunk_id": "src_6c283b2818e7:bb000d78d8b5",
       "expected_source_id": "src_6c283b2818e7",
       "expected_parent_id": "src_6c283b2818e7:h:5297024b7f97:b9",
@@ -613,7 +613,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Acid nào được tạo thành từ SO3 và H2O?",
+      "question": "Acid nào được tạo ra từ SO3 và H2O?",
       "expected_chunk_id": "src_92a6ae24adf8:a64f1730ec5d",
       "expected_source_id": "src_92a6ae24adf8",
       "expected_parent_id": "src_92a6ae24adf8:h:5297024b7f97:b14",
@@ -622,7 +622,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thực nhiệt có biểu hiện ở đâu theo nghĩa lý cổ điển?",
+      "question": "Thực nhiệt như thế nào theo nghĩa lý cổ điển?",
       "expected_chunk_id": "src_1d81088c863e:900e35449741",
       "expected_source_id": "src_1d81088c863e",
       "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b279",
@@ -631,7 +631,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Chất nào có màu đỏ trong thuốc này?",
+      "question": "Thảo dược nào có tác dụng chống sinh?",
       "expected_chunk_id": "src_6f802cb99781:efe1b1b961c9",
       "expected_source_id": "src_6f802cb99781",
       "expected_parent_id": "src_6f802cb99781:h:5297024b7f97:b26",
@@ -640,7 +640,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Điều trị ngoại khoa được chỉ định khi nào trong trường hợp bị liệt dây VII ngoại biên?",
+      "question": "Việc sử dụng corticoid khi nào được đề xuất trong đoạn văn?",
       "expected_chunk_id": "src_309ee3f2ff0b:97c72a6e6c26",
       "expected_source_id": "src_309ee3f2ff0b",
       "expected_parent_id": "src_309ee3f2ff0b:h:5297024b7f97:b31",
@@ -649,7 +649,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Tinh dầu từ cây hoắc hương chứa thành phần gì?",
+      "question": "Tinh dầu của hoắc hương chứa thành phần gì?",
       "expected_chunk_id": "src_d5596b1dce93:e48559d08cf0",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b464",
@@ -658,7 +658,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bệnh do hàn thuộc tạng nào?",
+      "question": "Bệnh da xám đen do nguyên nhân gì?",
       "expected_chunk_id": "src_901a97a5099b:4122f6e22a7d",
       "expected_source_id": "src_901a97a5099b",
       "expected_parent_id": "src_901a97a5099b:h:5297024b7f97:b5",
@@ -667,7 +667,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phần nào của cây được sử dụng trong y học cổ truyền?",
+      "question": "Loài nào trong đoạn văn này thuộc họ Dây gối?",
       "expected_chunk_id": "src_d5596b1dce93:3e990d0dd09f",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b993",
@@ -676,7 +676,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Toàn cây của loài Na - Acalypha lanceolata được sử dụng bộ phận nào trong y học cổ truyền?",
+      "question": "Toàn cây của loài nào được sử dụng làm thuốc trị nhức đầu?",
       "expected_chunk_id": "src_e0520ddfd9ac:3a9a9dc7e91d",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b957",
@@ -685,7 +685,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trong loại nào có chứa emodin và chrysop hanol?",
+      "question": "Trong loại sau này có những chất nào?",
       "expected_chunk_id": "src_d5596b1dce93:f44751440d23",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b356",
@@ -694,7 +694,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thân rễ thổ hoàng liên chứa thành phần gì?",
+      "question": "Rau má chứa thành phần gì?",
       "expected_chunk_id": "src_40c21fbc97fb:5b56075f2ede",
       "expected_source_id": "src_40c21fbc97fb",
       "expected_parent_id": "src_40c21fbc97fb:h:5297024b7f97:b25",
@@ -703,7 +703,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Mỗi ngày bóp nơi đau nhức bao nhiêu lần theo chỉ dẫn?",
+      "question": "Phần nào của cây đinh lăng được sử dụng trong y học cổ truyền?",
       "expected_chunk_id": "src_d5596b1dce93:d1f9f0c6d77b",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b394",
@@ -712,7 +712,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Dầu từ bộ phận nào của cây dipterocarpi obtusifolii được sử dụng?",
+      "question": "Bộ phận nào của cây dipterocarpi obtusifolii được sử dụng để chữa bệnh lậu?",
       "expected_chunk_id": "src_d5596b1dce93:4b1981e91f00",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b286",
@@ -721,7 +721,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thành phần chính của thang thuốc là gì?",
+      "question": "Thang thuốc này gồm thành phần chính là gì?",
       "expected_chunk_id": "src_6c0d8caff063:da5cc5d71d2e",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b22",
@@ -730,7 +730,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phần nào của cây được sử dụng làm thuốc trong段落文本：",
+      "question": "Bộ phận dùng của cây Blumea lan ceolaria để làm thuốc là gì?",
       "expected_chunk_id": "src_e0520ddfd9ac:154e60629c52",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1202",
@@ -739,7 +739,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Để làm mềm bàn tay và các ngón tay, cần bấm huyệt nào?",
+      "question": "Huyệt nào được dùng để làm mềm bàn tay và các ngón tay?",
       "expected_chunk_id": "src_83ddc2a9c23c:5f1073506104",
       "expected_source_id": "src_83ddc2a9c23c",
       "expected_parent_id": "src_83ddc2a9c23c:h:5297024b7f97:b3",
@@ -757,7 +757,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Huyền minh phấn làm từ những nguyên liệu nào?",
+      "question": "Thuyết dùng la bặc để làm gì trước khi lọc lấy Huyền minh phấn?",
       "expected_chunk_id": "src_eb28c8848470:868e84c0e958",
       "expected_source_id": "src_eb28c8848470",
       "expected_parent_id": "src_eb28c8848470:h:5297024b7f97:b15",
@@ -766,7 +766,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận dùng của thổ phục linh là gì?",
+      "question": "Phần nào của cây thổ phục linh được dùng làm thuốc?",
       "expected_chunk_id": "src_e0520ddfd9ac:3cb1d682630f",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b1044",
@@ -775,7 +775,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Miệng mắt méo lệch do nguyên nhân gì gây ra?",
+      "question": "Miệng mắt méo lệch thường do nguyên nhân gì gây ra?",
       "expected_chunk_id": "src_1d81088c863e:93131b2ea5ef",
       "expected_source_id": "src_1d81088c863e",
       "expected_parent_id": "src_1d81088c863e:h:5297024b7f97:b218",
@@ -784,7 +784,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Loài saurauiaceae nào được mô tả trong đoạn văn?",
+      "question": "Phân bố của loài Saurauia tristyla DC. là nơi nào?",
       "expected_chunk_id": "src_e0520ddfd9ac:1d575f5fa8e4",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b766",
@@ -802,7 +802,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Phương pháp nào có thể làm giảm lượng acid nucleic trong SCP?",
+      "question": "Những phương pháp nào có thể làm giảm lượng acid nucleic trong SCP?",
       "expected_chunk_id": "src_4aa8d7a49009:4a0ef1d2933b",
       "expected_source_id": "src_4aa8d7a49009",
       "expected_parent_id": "src_4aa8d7a49009:h:5297024b7f97:b27",
@@ -811,7 +811,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Steviosid khi thủy phân sẽ cho ra những thành phần nào?",
+      "question": "Steviosid khi thủy phân sẽ cho ra bao nhiêu phân tử steviol?",
       "expected_chunk_id": "src_e0520ddfd9ac:6e630978ad83",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b224",
@@ -820,7 +820,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Quan sát nhìn bằng mắt theo đông y bao gồm quan sát những gì của bệnh nhân?",
+      "question": "Quan sát nhìn bằng mắt (vọng chẩn) nhằm tìm hiểu về những dấu hiệu nào của bệnh nhân?",
       "expected_chunk_id": "src_715f913a01a9:0dd1f449a529",
       "expected_source_id": "src_715f913a01a9",
       "expected_parent_id": "src_715f913a01a9:h:5297024b7f97:b17",
@@ -847,7 +847,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Mỗi lần dùng bao nhiêu muỗng canh cao Hà thủ ô?",
+      "question": "Mỗi lần dùng cao hà thủ ô bao nhiêu muỗng canh?",
       "expected_chunk_id": "src_d5596b1dce93:9d120695830e",
       "expected_source_id": "src_d5596b1dce93",
       "expected_parent_id": "src_d5596b1dce93:h:5297024b7f97:b460",
@@ -856,7 +856,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Huyệt nào bấm đau báo bệnh sợ hãi són đái?",
+      "question": "Huyệt nào bấm đau báo hiệu bệnh sợ hãi són đái?",
       "expected_chunk_id": "src_83ddc2a9c23c:12376374e291",
       "expected_source_id": "src_83ddc2a9c23c",
       "expected_parent_id": "src_83ddc2a9c23c:h:5297024b7f97:b22",
@@ -865,7 +865,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Thạch xương bồ nhỏ thuộc họ gì?",
+      "question": "Thân rễ của cây gì được sử dụng làm thuốc?",
       "expected_chunk_id": "src_e0520ddfd9ac:11302a59ca3f",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b988",
@@ -874,7 +874,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Sau khi đã châm đúng huyệt, thủ thuật đắc có hành động gì?",
+      "question": "Sau khi đã châm đúng huyệt và đúng voi phân thốn đã ấn định, thủ thuật gì nhắc (rút) châm lên một chút?",
       "expected_chunk_id": "src_eb28c8848470:09a9c978ba44",
       "expected_source_id": "src_eb28c8848470",
       "expected_parent_id": "src_eb28c8848470:h:5297024b7f97:b49",
@@ -883,7 +883,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Bộ phận nào của Địa phu được sử dụng làm thuốc?",
+      "question": "Phần nào của Địa phu được dùng làm thuốc?",
       "expected_chunk_id": "src_e0520ddfd9ac:9d7442389991",
       "expected_source_id": "src_e0520ddfd9ac",
       "expected_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b390",
@@ -892,7 +892,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Chủ trị của bài Chỉ thấu tán là gì?",
+      "question": "Nguyên thuốc Chỉ thấu tán dùng như thế nào?",
       "expected_chunk_id": "src_6c0d8caff063:6560bc7f9518",
       "expected_source_id": "src_6c0d8caff063",
       "expected_parent_id": "src_6c0d8caff063:h:5297024b7f97:b93",
@@ -901,7 +901,7 @@
       "is_noisy_question": false
     },
     {
-      "question": "Trọng Cảnh dùng Tả tâm thang để bổ gì?",
+      "question": "Trọng Cảnh dùng thuốc gì để bổ tâm khí bất túc?",
       "expected_chunk_id": "src_eb28c8848470:7c6af534687d",
       "expected_source_id": "src_eb28c8848470",
       "expected_parent_id": "src_eb28c8848470:h:5297024b7f97:b22",
