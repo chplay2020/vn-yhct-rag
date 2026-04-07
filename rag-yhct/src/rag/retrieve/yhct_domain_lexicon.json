@@ -1,0 +1,1706 @@
+{
+  "herbs": [
+    [
+      "ngai cuu",
+      "ngải cứu"
+    ],
+    [
+      "ngai diep",
+      "ngải diệp"
+    ],
+    [
+      "bach thuoc",
+      "bạch thược"
+    ],
+    [
+      "xuyen khung",
+      "xuyên khung"
+    ],
+    [
+      "cam thao",
+      "cam thảo"
+    ],
+    [
+      "hoang ky",
+      "hoàng kỳ"
+    ],
+    [
+      "duong quy",
+      "đương quy"
+    ],
+    [
+      "bach chi",
+      "bạch chỉ"
+    ],
+    [
+      "nhan sam",
+      "nhân sâm"
+    ],
+    [
+      "dang sam",
+      "đảng sâm"
+    ],
+    [
+      "bach truot",
+      "bạch truật"
+    ],
+    [
+      "bach truat",
+      "bạch truật"
+    ],
+    [
+      "phuc linh",
+      "phục linh"
+    ],
+    [
+      "bach linh",
+      "bạch linh"
+    ],
+    [
+      "thuc dia",
+      "thục địa"
+    ],
+    [
+      "thuc dia hoang",
+      "thục địa hoàng"
+    ],
+    [
+      "sinh dia",
+      "sinh địa"
+    ],
+    [
+      "sinh dia hoang",
+      "sinh địa hoàng"
+    ],
+    [
+      "hoai son",
+      "hoài sơn"
+    ],
+    [
+      "son duoc",
+      "sơn dược"
+    ],
+    [
+      "ky tu",
+      "kỷ tử"
+    ],
+    [
+      "cau ky tu",
+      "câu kỷ tử"
+    ],
+    [
+      "cuc hoa",
+      "cúc hoa"
+    ],
+    [
+      "ich mau",
+      "ích mẫu"
+    ],
+    [
+      "huong phu",
+      "hương phụ"
+    ],
+    [
+      "sa nhan",
+      "sa nhân"
+    ],
+    [
+      "su quan tu",
+      "sử quân tử"
+    ],
+    [
+      "tran bi",
+      "trần bì"
+    ],
+    [
+      "vo quyt",
+      "vỏ quýt"
+    ],
+    [
+      "ban ha",
+      "bán hạ"
+    ],
+    [
+      "dinh lang",
+      "đinh lăng"
+    ],
+    [
+      "ke dau ngua",
+      "ké đầu ngựa"
+    ],
+    [
+      "thuong nhi tu",
+      "thương nhĩ tử"
+    ],
+    [
+      "tia to",
+      "tía tô"
+    ],
+    [
+      "gung",
+      "gừng"
+    ],
+    [
+      "sinh khuong",
+      "sinh khương"
+    ],
+    [
+      "nghe",
+      "nghệ"
+    ],
+    [
+      "uat kim",
+      "uất kim"
+    ],
+    [
+      "la lot",
+      "lá lốt"
+    ],
+    [
+      "diep ca",
+      "diếp cá"
+    ],
+    [
+      "ngu tinh thao",
+      "ngư tinh thảo"
+    ],
+    [
+      "kim ngan hoa",
+      "kim ngân hoa"
+    ],
+    [
+      "rau ma",
+      "rau má"
+    ],
+    [
+      "tich tuyet thao",
+      "tích tuyết thảo"
+    ],
+    [
+      "atiso",
+      "atiso"
+    ],
+    [
+      "a ti so",
+      "atiso"
+    ],
+    [
+      "arti so",
+      "atiso"
+    ],
+    [
+      "atisô",
+      "atiso"
+    ],
+    [
+      "sai ho",
+      "sài hồ"
+    ],
+    [
+      "hoang lien",
+      "hoàng liên"
+    ],
+    [
+      "lien nhuc",
+      "liên nhục"
+    ],
+    [
+      "hat sen",
+      "hạt sen"
+    ],
+    [
+      "toan tao nhan",
+      "toan táo nhân"
+    ],
+    [
+      "tao nhan",
+      "táo nhân"
+    ],
+    [
+      "vien chi",
+      "viễn chí"
+    ],
+    [
+      "mach mon",
+      "mạch môn"
+    ],
+    [
+      "mach mon dong",
+      "mạch môn đông"
+    ],
+    [
+      "thien mon",
+      "thiên môn"
+    ],
+    [
+      "thien mon dong",
+      "thiên môn đông"
+    ],
+    [
+      "do trong",
+      "đỗ trọng"
+    ],
+    [
+      "cau tich",
+      "cẩu tích"
+    ],
+    [
+      "ba kich",
+      "ba kích"
+    ],
+    [
+      "ba kich thien",
+      "ba kích thiên"
+    ],
+    [
+      "dam duong hoac",
+      "dâm dương hoắc"
+    ],
+    [
+      "tho ty tu",
+      "thỏ ty tử"
+    ],
+    [
+      "cau dang",
+      "câu đằng"
+    ],
+    [
+      "ha thu o",
+      "hà thủ ô"
+    ],
+    [
+      "xa den",
+      "xạ đen"
+    ],
+    [
+      "sa",
+      "sả"
+    ],
+    [
+      "sa chanh",
+      "sả chanh"
+    ],
+    [
+      "ngai chan vit",
+      "ngải chân vịt"
+    ]
+  ],
+  "symptoms": [
+    [
+      "kinh nguyet khong deu",
+      "kinh nguyệt không đều"
+    ],
+    [
+      "dau bung kinh",
+      "đau bụng kinh"
+    ],
+    [
+      "mat ngu",
+      "mất ngủ"
+    ],
+    [
+      "kho ngu",
+      "khó ngủ"
+    ],
+    [
+      "dau dau",
+      "đau đầu"
+    ],
+    [
+      "viem xoang",
+      "viêm xoang"
+    ],
+    [
+      "dau xuong khop",
+      "đau xương khớp"
+    ],
+    [
+      "dau nhuc xuong khop",
+      "đau nhức xương khớp"
+    ],
+    [
+      "ho lau ngay",
+      "ho lâu ngày"
+    ],
+    [
+      "ho keo dai",
+      "ho kéo dài"
+    ],
+    [
+      "dau da day",
+      "đau dạ dày"
+    ],
+    [
+      "dau bao tu",
+      "đau bao tử"
+    ],
+    [
+      "rong kinh",
+      "rong kinh"
+    ],
+    [
+      "bang huyet",
+      "băng huyết"
+    ],
+    [
+      "thai dong khong yen",
+      "thai động không yên"
+    ],
+    [
+      "dong thai",
+      "động thai"
+    ],
+    [
+      "chay mau cam",
+      "chảy máu cam"
+    ],
+    [
+      "ho co dom",
+      "ho có đờm"
+    ],
+    [
+      "ho khan",
+      "ho khan"
+    ],
+    [
+      "kho tieu",
+      "khó tiêu"
+    ],
+    [
+      "day bung kho tieu",
+      "đầy bụng khó tiêu"
+    ],
+    [
+      "day bung",
+      "đầy bụng"
+    ],
+    [
+      "bung day truong",
+      "bụng đầy trướng"
+    ],
+    [
+      "an kem",
+      "ăn kém"
+    ],
+    [
+      "kem an",
+      "kém ăn"
+    ],
+    [
+      "chan an",
+      "chán ăn"
+    ],
+    [
+      "met moi",
+      "mệt mỏi"
+    ],
+    [
+      "suy nhuoc",
+      "suy nhược"
+    ],
+    [
+      "met moi suy nhuoc",
+      "mệt mỏi suy nhược"
+    ],
+    [
+      "te tay chan",
+      "tê tay chân"
+    ],
+    [
+      "dau lung moi goi",
+      "đau lưng mỏi gối"
+    ],
+    [
+      "ra mo hoi trom",
+      "ra mồ hôi trộm"
+    ],
+    [
+      "nong trong nguoi",
+      "nóng trong người"
+    ],
+    [
+      "noi nhiet",
+      "nội nhiệt"
+    ],
+    [
+      "tao bon",
+      "táo bón"
+    ],
+    [
+      "tieu chay",
+      "tiêu chảy"
+    ],
+    [
+      "di ngoai phan long",
+      "đi ngoài phân lỏng"
+    ],
+    [
+      "viem hong",
+      "viêm họng"
+    ],
+    [
+      "dau hong",
+      "đau họng"
+    ],
+    [
+      "cam lanh",
+      "cảm lạnh"
+    ],
+    [
+      "cam mao",
+      "cảm mạo"
+    ],
+    [
+      "sot nhe",
+      "sốt nhẹ"
+    ],
+    [
+      "di ung man ngua",
+      "dị ứng mẩn ngứa"
+    ],
+    [
+      "man ngua",
+      "mẩn ngứa"
+    ],
+    [
+      "mun nhot",
+      "mụn nhọt"
+    ],
+    [
+      "cao huyet ap",
+      "cao huyết áp"
+    ],
+    [
+      "tang huyet ap",
+      "tăng huyết áp"
+    ],
+    [
+      "huyet ap thap",
+      "huyết áp thấp"
+    ],
+    [
+      "tieu dem",
+      "tiểu đêm"
+    ],
+    [
+      "tieu nhieu",
+      "tiểu nhiều"
+    ],
+    [
+      "tieu it",
+      "tiểu ít"
+    ],
+    [
+      "phu ne",
+      "phù nề"
+    ],
+    [
+      "phu thung",
+      "phù thũng"
+    ],
+    [
+      "dau bung lanh",
+      "đau bụng lạnh"
+    ],
+    [
+      "viem tai giua",
+      "viêm tai giữa"
+    ],
+    [
+      "cam sot",
+      "cảm sốt"
+    ],
+    [
+      "say ruou",
+      "say rượu"
+    ]
+  ],
+  "treatments": [
+    [
+      "bo khi huyet",
+      "bổ khí huyết"
+    ],
+    [
+      "hoat huyet",
+      "hoạt huyết"
+    ],
+    [
+      "dieu kinh",
+      "điều kinh"
+    ],
+    [
+      "an thai",
+      "an thai"
+    ],
+    [
+      "thanh nhiet",
+      "thanh nhiệt"
+    ],
+    [
+      "giai doc",
+      "giải độc"
+    ],
+    [
+      "bo than",
+      "bổ thận"
+    ],
+    [
+      "duong tam an than",
+      "dưỡng tâm an thần"
+    ],
+    [
+      "an than",
+      "an thần"
+    ],
+    [
+      "bo huyet",
+      "bổ huyết"
+    ],
+    [
+      "tru phong",
+      "trừ phong"
+    ],
+    [
+      "tan han",
+      "tán hàn"
+    ],
+    [
+      "on kinh",
+      "ôn kinh"
+    ],
+    [
+      "cam mau",
+      "cầm máu"
+    ],
+    [
+      "nhuan phe",
+      "nhuận phế"
+    ],
+    [
+      "hoa dam",
+      "hóa đờm"
+    ],
+    [
+      "hoa dam",
+      "hóa đàm"
+    ],
+    [
+      "kien ty",
+      "kiện tỳ"
+    ],
+    [
+      "ich khi",
+      "ích khí"
+    ],
+    [
+      "so can",
+      "sơ can"
+    ],
+    [
+      "ly khi",
+      "lý khí"
+    ],
+    [
+      "tru thap",
+      "trừ thấp"
+    ],
+    [
+      "khu thap",
+      "khử thấp"
+    ],
+    [
+      "tieu viem",
+      "tiêu viêm"
+    ],
+    [
+      "khang khuan",
+      "kháng khuẩn"
+    ],
+    [
+      "bo can than",
+      "bổ can thận"
+    ],
+    [
+      "thong kinh lac",
+      "thông kinh lạc"
+    ],
+    [
+      "kien ty hoa vi",
+      "kiện tỳ hòa vị"
+    ],
+    [
+      "tan han giai bieu",
+      "tán hàn giải biểu"
+    ],
+    [
+      "tieu thung",
+      "tiêu thũng"
+    ],
+    [
+      "giai cam",
+      "giải cảm"
+    ],
+    [
+      "bo tam ty",
+      "bổ tâm tỳ"
+    ]
+  ],
+  "formulas": [
+    [
+      "tu vat thang",
+      "tứ vật thang"
+    ],
+    [
+      "bo trung ich khi thang",
+      "bổ trung ích khí thang"
+    ],
+    [
+      "quy ty thang",
+      "quy tỳ thang"
+    ],
+    [
+      "tieu dao tan",
+      "tiêu dao tán"
+    ],
+    [
+      "luc vi dia hoang hoan",
+      "lục vị địa hoàng hoàn"
+    ],
+    [
+      "bat vi que phu",
+      "bát vị quế phụ"
+    ],
+    [
+      "bat vi hoan",
+      "bát vị hoàn"
+    ],
+    [
+      "tieu thanh long thang",
+      "tiểu thanh long thang"
+    ],
+    [
+      "ma hoang thang",
+      "ma hoàng thang"
+    ]
+  ],
+  "patterns": [
+    [
+      "khi huyet hu",
+      "khí huyết hư"
+    ],
+    [
+      "am hu",
+      "âm hư"
+    ],
+    [
+      "duong hu",
+      "dương hư"
+    ],
+    [
+      "huyet u",
+      "huyết ứ"
+    ],
+    [
+      "can khi uat",
+      "can khí uất"
+    ],
+    [
+      "ty vi hu nhuoc",
+      "tỳ vị hư nhược"
+    ],
+    [
+      "than hu",
+      "thận hư"
+    ],
+    [
+      "dam thap",
+      "đàm thấp"
+    ],
+    [
+      "phong han",
+      "phong hàn"
+    ],
+    [
+      "phong nhiet",
+      "phong nhiệt"
+    ],
+    [
+      "nhiet doc",
+      "nhiệt độc"
+    ],
+    [
+      "tam ty luong hu",
+      "tâm tỳ lưỡng hư"
+    ]
+  ],
+  "auto_mined_raw_txt_clean": [
+    [
+      "dieu tri",
+      "điều trị"
+    ],
+    [
+      "than kinh",
+      "thần kinh"
+    ],
+    [
+      "chua benh",
+      "chữa bệnh"
+    ],
+    [
+      "bai thuoc",
+      "bài thuốc"
+    ],
+    [
+      "lam thuoc",
+      "làm thuốc"
+    ],
+    [
+      "phan ung",
+      "phản ứng"
+    ],
+    [
+      "chu tri",
+      "chủ trị"
+    ],
+    [
+      "benh nhan",
+      "bệnh nhân"
+    ],
+    [
+      "huyet ap",
+      "huyết áp"
+    ],
+    [
+      "vi tri",
+      "vị trí"
+    ],
+    [
+      "mo hoi",
+      "mồ hôi"
+    ],
+    [
+      "ap huyet",
+      "áp huyết"
+    ],
+    [
+      "vi thuoc",
+      "vị thuốc"
+    ],
+    [
+      "dung thuoc",
+      "dùng thuốc"
+    ],
+    [
+      "co vi",
+      "có vị"
+    ],
+    [
+      "dau bung",
+      "đau bụng"
+    ],
+    [
+      "tinh vi",
+      "tính vị"
+    ],
+    [
+      "nguoi benh",
+      "người bệnh"
+    ],
+    [
+      "trieu chung",
+      "triệu chứng"
+    ],
+    [
+      "giam dau",
+      "giảm đau"
+    ],
+    [
+      "hoat dong",
+      "hoạt động"
+    ],
+    [
+      "vi tac",
+      "vị tác"
+    ],
+    [
+      "vi tac dung",
+      "vị tác dụng"
+    ],
+    [
+      "thuoc co",
+      "thuốc có"
+    ],
+    [
+      "chung benh",
+      "chứng bệnh"
+    ],
+    [
+      "tinh vi tac",
+      "tính vị tác"
+    ],
+    [
+      "tri benh",
+      "trị bệnh"
+    ],
+    [
+      "vi ngot",
+      "vị ngọt"
+    ],
+    [
+      "lieu lam thuoc",
+      "liệu làm thuốc"
+    ],
+    [
+      "tinh dau",
+      "tinh dầu"
+    ],
+    [
+      "dieu chinh",
+      "điều chỉnh"
+    ],
+    [
+      "loi tieu",
+      "lợi tiểu"
+    ],
+    [
+      "vi khuan",
+      "vi khuẩn"
+    ],
+    [
+      "ty vi",
+      "tỳ vị"
+    ],
+    [
+      "cam giac",
+      "cảm giác"
+    ],
+    [
+      "dau nhuc",
+      "đau nhức"
+    ],
+    [
+      "di ung",
+      "dị ứng"
+    ],
+    [
+      "thuoc chua",
+      "thuốc chữa"
+    ],
+    [
+      "duong kinh",
+      "đường kinh"
+    ],
+    [
+      "ung dung",
+      "ứng dụng"
+    ],
+    [
+      "tri dau",
+      "trị đau"
+    ],
+    [
+      "dung lam thuoc",
+      "dùng làm thuốc"
+    ],
+    [
+      "nuoc tieu",
+      "nước tiểu"
+    ],
+    [
+      "day than",
+      "dây thần"
+    ],
+    [
+      "day than kinh",
+      "dây thần kinh"
+    ],
+    [
+      "dung tri",
+      "dùng trị"
+    ],
+    [
+      "nhuc dau",
+      "nhức đầu"
+    ],
+    [
+      "chan tri",
+      "chẩn trị"
+    ],
+    [
+      "tieu tien",
+      "tiểu tiện"
+    ],
+    [
+      "phong thap",
+      "phong thấp"
+    ],
+    [
+      "thap nhiet",
+      "thấp nhiệt"
+    ],
+    [
+      "thay thuoc",
+      "thầy thuốc"
+    ],
+    [
+      "tinh mach",
+      "tĩnh mạch"
+    ],
+    [
+      "cam thay",
+      "cảm thấy"
+    ],
+    [
+      "co benh",
+      "có bệnh"
+    ],
+    [
+      "dong mach",
+      "động mạch"
+    ],
+    [
+      "cao ap",
+      "cao áp"
+    ],
+    [
+      "tieu duong",
+      "tiểu đường"
+    ],
+    [
+      "phan bo",
+      "phân bố"
+    ],
+    [
+      "tinh than",
+      "tinh thần"
+    ],
+    [
+      "kinh nghiem",
+      "kinh nghiệm"
+    ],
+    [
+      "tri dong",
+      "trị đông"
+    ],
+    [
+      "chan tri dong",
+      "chẩn trị đông"
+    ],
+    [
+      "nang chan tri",
+      "nang chẩn trị"
+    ],
+    [
+      "phe quan",
+      "phế quản"
+    ],
+    [
+      "benh ly",
+      "bệnh lý"
+    ],
+    [
+      "thuoc sac",
+      "thuốc sắc"
+    ],
+    [
+      "cay thuoc",
+      "cây thuốc"
+    ],
+    [
+      "loai thuoc",
+      "loại thuốc"
+    ],
+    [
+      "dieu kien",
+      "điều kiện"
+    ],
+    [
+      "chua chung",
+      "chữa chứng"
+    ],
+    [
+      "hoat tinh",
+      "hoạt tính"
+    ],
+    [
+      "sot ret",
+      "sốt rét"
+    ],
+    [
+      "bat dau",
+      "bắt đầu"
+    ],
+    [
+      "cao ap huyet",
+      "cao áp huyết"
+    ],
+    [
+      "ia chay",
+      "ỉa chảy"
+    ],
+    [
+      "tam tieu",
+      "tam tiêu"
+    ],
+    [
+      "kinh nguyet",
+      "kinh nguyệt"
+    ],
+    [
+      "tuong ung",
+      "tương ứng"
+    ],
+    [
+      "tim mach",
+      "tim mạch"
+    ],
+    [
+      "kinh lac",
+      "kinh lạc"
+    ],
+    [
+      "thon chu tri",
+      "thốn chủ trị"
+    ],
+    [
+      "thuoc bo",
+      "thuốc bổ"
+    ],
+    [
+      "giao cam",
+      "giao cảm"
+    ],
+    [
+      "sot cao",
+      "sốt cao"
+    ],
+    [
+      "dau lung",
+      "đau lưng"
+    ],
+    [
+      "co vi ngot",
+      "có vị ngọt"
+    ],
+    [
+      "bien chung",
+      "biến chứng"
+    ],
+    [
+      "hoang cam",
+      "hoàng cầm"
+    ],
+    [
+      "thuong han",
+      "thương hàn"
+    ],
+    [
+      "huyet tuong",
+      "huyết tương"
+    ],
+    [
+      "tri lieu",
+      "trị liệu"
+    ],
+    [
+      "huyet vi",
+      "huyệt vị"
+    ],
+    [
+      "benh co",
+      "bệnh có"
+    ],
+    [
+      "that lung",
+      "thắt lưng"
+    ],
+    [
+      "phuc hoi",
+      "phục hồi"
+    ],
+    [
+      "xuat huyet",
+      "xuất huyết"
+    ],
+    [
+      "dung thanh",
+      "dụng thanh"
+    ],
+    [
+      "chong viem",
+      "chống viêm"
+    ],
+    [
+      "phuong thuoc",
+      "phương thuốc"
+    ],
+    [
+      "sung dau",
+      "sưng đau"
+    ],
+    [
+      "viem gan",
+      "viêm gan"
+    ],
+    [
+      "dau than",
+      "đau thần"
+    ],
+    [
+      "dau than kinh",
+      "đau thần kinh"
+    ],
+    [
+      "nhiet giai",
+      "nhiệt giải"
+    ],
+    [
+      "hoat chat",
+      "hoạt chất"
+    ],
+    [
+      "ap cao",
+      "áp cao"
+    ],
+    [
+      "dung dieu",
+      "dụng điều"
+    ],
+    [
+      "tam than",
+      "tâm thần"
+    ],
+    [
+      "huyet ap cao",
+      "huyết áp cao"
+    ],
+    [
+      "thuoc chong",
+      "thuốc chống"
+    ],
+    [
+      "giai bai",
+      "giải bài"
+    ],
+    [
+      "giai phong",
+      "giải phóng"
+    ],
+    [
+      "giai bai thuoc",
+      "giải bài thuốc"
+    ],
+    [
+      "tang huyet",
+      "tăng huyết"
+    ],
+    [
+      "benh tat",
+      "bệnh tật"
+    ],
+    [
+      "con dau",
+      "cơn đau"
+    ],
+    [
+      "chua ho",
+      "chữa ho"
+    ],
+    [
+      "vi cay",
+      "vị cay"
+    ],
+    [
+      "kinh mach",
+      "kinh mạch"
+    ],
+    [
+      "uong thuoc",
+      "uống thuốc"
+    ],
+    [
+      "nhiet giai doc",
+      "nhiệt giải độc"
+    ],
+    [
+      "thanh nhiet giai",
+      "thanh nhiệt giải"
+    ],
+    [
+      "chuong thuoc",
+      "chương thuốc"
+    ],
+    [
+      "thuc tri",
+      "thức trị"
+    ],
+    [
+      "chua dau",
+      "chữa đau"
+    ],
+    [
+      "cong thuc tri",
+      "công thức trị"
+    ],
+    [
+      "dau ngon",
+      "đầu ngón"
+    ],
+    [
+      "dung chua benh",
+      "dụng chữa bệnh"
+    ],
+    [
+      "ngo doc",
+      "ngộ độc"
+    ],
+    [
+      "bam huyet",
+      "bấm huyệt"
+    ],
+    [
+      "gay benh",
+      "gây bệnh"
+    ],
+    [
+      "huyet tren",
+      "huyệt trên"
+    ],
+    [
+      "phap dieu",
+      "pháp điều"
+    ],
+    [
+      "thuoc tri",
+      "thuốc trị"
+    ],
+    [
+      "tac dung thanh",
+      "tác dụng thanh"
+    ],
+    [
+      "benh cao",
+      "bệnh cao"
+    ],
+    [
+      "vi tren",
+      "vị trên"
+    ],
+    [
+      "giai bieu",
+      "giải biểu"
+    ],
+    [
+      "chu tri dau",
+      "chủ trị đau"
+    ],
+    [
+      "dau goi",
+      "đầu gối"
+    ],
+    [
+      "lay huyet",
+      "lấy huyệt"
+    ],
+    [
+      "tren duong kinh",
+      "trên đường kinh"
+    ],
+    [
+      "dung dieu tri",
+      "dụng điều trị"
+    ],
+    [
+      "than kinh trung",
+      "thần kinh trung"
+    ],
+    [
+      "tri viem",
+      "trị viêm"
+    ],
+    [
+      "ngoai cam",
+      "ngoại cảm"
+    ],
+    [
+      "thap khop",
+      "thấp khớp"
+    ],
+    [
+      "kinh trung uong",
+      "kinh trung ương"
+    ],
+    [
+      "nhiem doc",
+      "nhiễm độc"
+    ],
+    [
+      "tieu cau",
+      "tiểu cầu"
+    ],
+    [
+      "tieu truong",
+      "tiểu trường"
+    ],
+    [
+      "dai tao",
+      "đại táo"
+    ],
+    [
+      "nhiet doi",
+      "nhiệt đới"
+    ],
+    [
+      "chua tri",
+      "chữa trị"
+    ],
+    [
+      "duong huyet",
+      "đường huyết"
+    ],
+    [
+      "phat sot",
+      "phát sốt"
+    ],
+    [
+      "phap dieu tri",
+      "pháp điều trị"
+    ],
+    [
+      "co hoat",
+      "có hoạt"
+    ],
+    [
+      "chung to",
+      "chứng tỏ"
+    ],
+    [
+      "dung bo",
+      "dụng bổ"
+    ],
+    [
+      "gia tri",
+      "giá trị"
+    ],
+    [
+      "phong benh",
+      "phòng bệnh"
+    ],
+    [
+      "dau khop",
+      "đau khớp"
+    ],
+    [
+      "kinh tam",
+      "kinh tâm"
+    ],
+    [
+      "thuoc khac",
+      "thuốc khác"
+    ],
+    [
+      "bai thuoc chua",
+      "bài thuốc chữa"
+    ],
+    [
+      "benh tieu",
+      "bệnh tiểu"
+    ],
+    [
+      "don vi",
+      "đơn vị"
+    ],
+    [
+      "dau rang",
+      "đau răng"
+    ],
+    [
+      "dung thanh nhiet",
+      "dụng thanh nhiệt"
+    ],
+    [
+      "duong tieu",
+      "đường tiêu"
+    ],
+    [
+      "kinh nguyet khong",
+      "kinh nguyệt không"
+    ],
+    [
+      "nguyet khong",
+      "nguyệt không"
+    ],
+    [
+      "han nhiet",
+      "hàn nhiệt"
+    ],
+    [
+      "hu han",
+      "hư hàn"
+    ],
+    [
+      "huyet hu",
+      "huyết hư"
+    ],
+    [
+      "than duong",
+      "thận dương"
+    ],
+    [
+      "doc tinh",
+      "độc tính"
+    ],
+    [
+      "huyet vi tren",
+      "huyệt vị trên"
+    ],
+    [
+      "loai benh",
+      "loại bệnh"
+    ],
+    [
+      "vi tren duong",
+      "vị trên đường"
+    ],
+    [
+      "duong kinh cam",
+      "đường kinh cẩm"
+    ],
+    [
+      "kinh cam",
+      "kinh cẩm"
+    ],
+    [
+      "kinh cam nang",
+      "kinh cẩm nang"
+    ],
+    [
+      "nguyet khong deu",
+      "nguyệt không đều"
+    ],
+    [
+      "than am",
+      "thận âm"
+    ],
+    [
+      "thuoc khang",
+      "thuốc kháng"
+    ],
+    [
+      "benh tieu duong",
+      "bệnh tiểu đường"
+    ],
+    [
+      "ngu vi",
+      "ngũ vị"
+    ],
+    [
+      "song lung",
+      "sống lưng"
+    ],
+    [
+      "bo sung",
+      "bổ sung"
+    ],
+    [
+      "dong kinh",
+      "động kinh"
+    ],
+    [
+      "tho huyet",
+      "thổ huyết"
+    ],
+    [
+      "viem phe",
+      "viêm phế"
+    ],
+    [
+      "dau tien",
+      "đầu tiên"
+    ],
+    [
+      "an khong",
+      "ăn không"
+    ],
+    [
+      "co hoat tinh",
+      "có hoạt tính"
+    ],
+    [
+      "chung dau",
+      "chứng đau"
+    ],
+    [
+      "gan than",
+      "gan thận"
+    ],
+    [
+      "benh tim",
+      "bệnh tim"
+    ],
+    [
+      "dung vi",
+      "dụng vị"
+    ],
+    [
+      "gian mach",
+      "giãn mạch"
+    ],
+    [
+      "han thap",
+      "hàn thấp"
+    ],
+    [
+      "he than",
+      "hệ thần"
+    ],
+    [
+      "chua chung benh",
+      "chữa chứng bệnh"
+    ],
+    [
+      "he than kinh",
+      "hệ thần kinh"
+    ],
+    [
+      "khong tieu",
+      "không tiêu"
+    ],
+    [
+      "vi ngot tinh",
+      "vị ngọt tính"
+    ],
+    [
+      "viem phe quan",
+      "viêm phế quản"
+    ],
+    [
+      "nhom thuoc",
+      "nhóm thuốc"
+    ],
+    [
+      "tac dung vi",
+      "tác dụng vị"
+    ],
+    [
+      "benh cao ap",
+      "bệnh cao áp"
+    ],
+    [
+      "chua viem",
+      "chữa viêm"
+    ],
+    [
+      "viem ruot",
+      "viêm ruột"
+    ],
+    [
+      "dau ngon tay",
+      "đầu ngón tay"
+    ],
+    [
+      "kinh gioi",
+      "kinh giới"
+    ],
+    [
+      "trang benh",
+      "trạng bệnh"
+    ],
+    [
+      "luong huyet",
+      "lương huyết"
+    ],
+    [
+      "tieu chuan",
+      "tiêu chuẩn"
+    ],
+    [
+      "tinh trang benh",
+      "tình trạng bệnh"
+    ],
+    [
+      "ap dung dieu",
+      "áp dụng điều"
+    ],
+    [
+      "khong dung thuoc",
+      "không dùng thuốc"
+    ],
+    [
+      "tac dung bo",
+      "tác dụng bổ"
+    ],
+    [
+      "nhuoc than kinh",
+      "nhược thần kinh"
+    ],
+    [
+      "suy nhuoc than",
+      "suy nhược thần"
+    ],
+    [
+      "dieu tri benh",
+      "điều trị bệnh"
+    ],
+    [
+      "nhu dong ruot",
+      "nhu động ruột"
+    ],
+    [
+      "phut chu tri",
+      "phút chủ trị"
+    ],
+    [
+      "vi quy kinh",
+      "vị quy kinh"
+    ],
+    [
+      "tinh vi quy",
+      "tính vị quy"
+    ],
+    [
+      "chua tinh dau",
+      "chứa tinh dầu"
+    ],
+    [
+      "co cam giac",
+      "có cảm giác"
+    ],
+    [
+      "bai thuoc co",
+      "bài thuốc có"
+    ],
+    [
+      "trinh dieu tri",
+      "trình điều trị"
+    ],
+    [
+      "ty vi hu",
+      "tỳ vị hư"
+    ],
+    [
+      "dieu tri khong",
+      "điều trị không"
+    ],
+    [
+      "dau day than",
+      "đau dây thần"
+    ],
+    [
+      "thuoc co the",
+      "thuốc có thể"
+    ],
+    [
+      "mo hoi trom",
+      "mồ hôi trộm"
+    ],
+    [
+      "cach lay huyet",
+      "cách lấy huyệt"
+    ],
+    [
+      "tiem tinh mach",
+      "tiêm tĩnh mạch"
+    ]
+  ]
+}

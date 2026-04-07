@@ -31,7 +31,7 @@ import logging
 import re
 import time
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import yaml  # type: ignore
 
@@ -57,7 +57,12 @@ from rag.generate.answer_generator import (
     DEFAULT_ANSWER_TEMPERATURE,
     generate_structured_answer,
 )
-from rag.utils.query_quality import normalize_for_dedup
+from rag.utils.query_quality import (
+    normalize_for_dedup,
+    normalize_query_for_retrieval,
+    restore_query_diacritics_from_corpus,
+    strip_vietnamese_diacritics,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -74,12 +79,483 @@ DEFAULT_GATE_DEBUG = False
 DEFAULT_CONTEXT_FOCUS = "focused"
 DEFAULT_MAX_CONTEXT_PARENTS = 3
 DEFAULT_ANSWER_DEBUG = False
+DEFAULT_RESTORE_TRIGGER_NON_ACCENT_RATIO = 0.50
 OFFTOPIC_MARKERS = (
     "mẹ đừng đánh con",
     "csgt",
     "vượt đèn đỏ",
     "đi chơi về muộn",
 )
+
+
+# ── query preparation (safe accent restoration) ───────────────────────────
+
+_RE_WORD = re.compile(r"\w+", re.UNICODE)
+_LEXICON_PATH = Path(__file__).with_name("yhct_domain_lexicon.json")
+_yhct_lexicon_cache: list[dict[str, str]] | None = None
+
+
+def _is_latin_token(token: str) -> bool:
+    return any("a" <= ch <= "z" for ch in token.lower())
+
+
+def strip_accents_for_matching(text: str) -> str:
+    """Return normalized, accent-folded text for phrase matching."""
+    return strip_vietnamese_diacritics(normalize_query_for_retrieval(text))
+
+
+def _tokenize_latin_candidates(text: str) -> list[str]:
+    return [t for t in _RE_WORD.findall(text.lower()) if _is_latin_token(t)]
+
+
+def _non_accented_token_stats(text: str) -> dict[str, float | int]:
+    """Count accented/non-accented candidate tokens for restore trigger."""
+    tokens = _tokenize_latin_candidates(text)
+    accented = sum(1 for t in tokens if t != strip_vietnamese_diacritics(t))
+    non_accented = max(0, len(tokens) - accented)
+    total = len(tokens)
+    ratio = (float(non_accented) / float(total)) if total else 0.0
+    return {
+        "accented_token_count": accented,
+        "non_accented_token_count": non_accented,
+        "total_candidate_tokens": total,
+        "non_accented_token_ratio": round(ratio, 6),
+    }
+
+
+def should_trigger_restore(
+    text: str,
+    *,
+    threshold: float = DEFAULT_RESTORE_TRIGGER_NON_ACCENT_RATIO,
+) -> dict[str, float | int | bool]:
+    """Return restore trigger decision and token-ratio stats."""
+    stats = _non_accented_token_stats(text)
+    ratio = float(stats["non_accented_token_ratio"])
+    total = int(stats["total_candidate_tokens"])
+    return {
+        **stats,
+        "restore_triggered": bool(total >= 2 and ratio >= threshold),
+        "restore_trigger_threshold": float(threshold),
+    }
+
+
+def _confidence_band(confidence: float) -> str:
+    if confidence >= 0.65:
+        return "high"
+    if confidence >= 0.35:
+        return "medium"
+    if confidence > 0.0:
+        return "low"
+    return "none"
+
+
+def _score_lexicon_restore(matches: list[dict[str, Any]], changed: bool) -> float:
+    if not matches or not changed:
+        return 0.0
+
+    def _safe_ngram(match: dict[str, Any]) -> int:
+        val = match.get("ngram", 0)
+        return int(val) if isinstance(val, int | float | str) else 0
+
+    unigram_hits = sum(1 for m in matches if _safe_ngram(m) <= 1)
+    bigram_hits = sum(1 for m in matches if _safe_ngram(m) == 2)
+    trigram_hits = sum(1 for m in matches if _safe_ngram(m) >= 3)
+
+    score = 0.10
+    score += 0.12 * min(unigram_hits, 3)
+    score += 0.30 * min(bigram_hits, 3)
+    score += 0.42 * min(trigram_hits, 2)
+
+    # Phrase-level lexicon evidence should be trusted more than isolated tokens.
+    if trigram_hits > 0:
+        score = max(score, 0.70)
+    elif bigram_hits > 0:
+        score = max(score, 0.36)
+
+    return round(max(0.0, min(1.0, score)), 6)
+
+
+def _load_yhct_domain_lexicon() -> list[dict[str, str]]:
+    global _yhct_lexicon_cache  # noqa: PLW0603
+    if _yhct_lexicon_cache is not None:
+        return _yhct_lexicon_cache
+    if not _LEXICON_PATH.exists():
+        _yhct_lexicon_cache = []
+        return _yhct_lexicon_cache
+
+    try:
+        raw = json.loads(_LEXICON_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        logger.warning("Failed loading YHCT lexicon from %s: %s", _LEXICON_PATH, exc)
+        _yhct_lexicon_cache = []
+        return _yhct_lexicon_cache
+
+    entries: list[dict[str, str]] = []
+    if not isinstance(raw, dict):
+        _yhct_lexicon_cache = []
+        return _yhct_lexicon_cache
+
+    raw_dict = cast(dict[str, Any], raw)
+    for group_name, pairs in raw_dict.items():
+        if not isinstance(pairs, list):
+            continue
+        typed_pairs = cast(list[Any], pairs)
+        for item in typed_pairs:
+            if isinstance(item, list):
+                item_seq = cast(list[Any], item)
+            elif isinstance(item, tuple):
+                item_seq = list(cast(tuple[Any, Any], item))
+            else:
+                continue
+            if len(item_seq) != 2:
+                continue
+            left = item_seq[0]
+            right = item_seq[1]
+            folded = normalize_query_for_retrieval(str(left))
+            accented = normalize_query_for_retrieval(str(right))
+            if not folded or not accented:
+                continue
+            entries.append({
+                "group": str(group_name),
+                "folded": folded,
+                "accented": accented,
+            })
+
+    entries.sort(key=lambda x: len(x["folded"]), reverse=True)
+    _yhct_lexicon_cache = entries
+    return _yhct_lexicon_cache
+
+
+def restore_with_domain_lexicon(
+    text: str,
+    *,
+    accentless_for_matching: str | None = None,
+) -> tuple[str, list[dict[str, Any]]]:
+    """Apply longest-match phrase replacements using YHCT lexicon."""
+    normalized = normalize_query_for_retrieval(text)
+    folded_text = accentless_for_matching or strip_accents_for_matching(normalized)
+    out_tokens = normalized.split(" ") if normalized else []
+    folded_tokens = folded_text.split(" ") if folded_text else []
+    if len(out_tokens) != len(folded_tokens):
+        # Fallback safety: keep positional alignment for phrase replacement.
+        out_tokens = normalize_query_for_retrieval(folded_text).split(" ") if folded_text else []
+        folded_tokens = list(out_tokens)
+
+    matches: list[dict[str, Any]] = []
+    occupied_positions: set[int] = set()
+
+    for ent in _load_yhct_domain_lexicon():
+        folded_phrase = str(ent["folded"])
+        accented_phrase = str(ent["accented"])
+        if not folded_phrase:
+            continue
+        folded_phrase_tokens = [t for t in folded_phrase.split(" ") if t]
+        accented_phrase_tokens = [t for t in accented_phrase.split(" ") if t]
+        ngram_len = len(folded_phrase_tokens)
+        if not ngram_len or len(out_tokens) < ngram_len:
+            continue
+
+        phrase_hits = 0
+        i = 0
+        while i <= len(folded_tokens) - ngram_len:
+            span = set(range(i, i + ngram_len))
+            if span & occupied_positions:
+                i += 1
+                continue
+
+            if folded_tokens[i:i + ngram_len] == folded_phrase_tokens:
+                replacement_tokens = list(accented_phrase_tokens)
+                out_tokens[i:i + ngram_len] = replacement_tokens
+                folded_tokens[i:i + ngram_len] = folded_phrase_tokens
+
+                occupied_positions.update(range(i, i + len(replacement_tokens)))
+                phrase_hits += 1
+                i += len(replacement_tokens)
+                continue
+            i += 1
+
+        if phrase_hits > 0:
+            matches.append({
+                "group": ent["group"],
+                "folded": folded_phrase,
+                "accented": accented_phrase,
+                "ngram": ngram_len,
+                "hits": phrase_hits,
+            })
+
+    out = " ".join(out_tokens)
+    return normalize_query_for_retrieval(out), matches
+
+
+def score_restore_candidates(
+    query_after_normalize: str,
+    candidates: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Phrase-aware scoring over restore candidates.
+
+    Uses conservative checks and boosts phrase evidence (uni/bi/tri+gram).
+    """
+    base_folded = strip_vietnamese_diacritics(query_after_normalize)
+    best: dict[str, Any] = {
+        "candidate": query_after_normalize,
+        "method": "none",
+        "score": 0.0,
+        "confidence": 0.0,
+        "suspicious": False,
+        "changed_tokens": 0,
+        "token_count": max(1, len(_RE_WORD.findall(query_after_normalize))),
+        "domain_match_count": 0,
+        "domain_unigram_hits": 0,
+        "domain_bigram_hits": 0,
+        "domain_trigram_hits": 0,
+        "domain_lexicon_matches": [],
+    }
+
+    for cand in candidates:
+        candidate = normalize_query_for_retrieval(str(cand.get("candidate", "")))
+        method = str(cand.get("method", "none"))
+        raw_matches = cand.get("domain_lexicon_matches", [])
+        domain_matches: list[dict[str, Any]] = [
+            m for m in raw_matches if isinstance(m, dict)
+        ]
+        candidate_folded = strip_vietnamese_diacritics(candidate)
+        suspicious = candidate_folded != base_folded
+
+        src_tokens = _RE_WORD.findall(query_after_normalize)
+        dst_tokens = _RE_WORD.findall(candidate)
+        token_count = max(1, len(src_tokens))
+        changed_tokens = sum(
+            1 for a, b in zip(src_tokens, dst_tokens, strict=False) if a != b
+        )
+        change_ratio = float(changed_tokens) / float(token_count)
+
+        def _safe_ngram(match: dict[str, Any]) -> int:
+            val = match.get("ngram", 0)
+            return int(val) if isinstance(val, int | float | str) else 0
+
+        unigram_hits = sum(1 for m in domain_matches if _safe_ngram(m) <= 1)
+        bigram_hits = sum(1 for m in domain_matches if _safe_ngram(m) == 2)
+        trigram_hits = sum(1 for m in domain_matches if _safe_ngram(m) >= 3)
+
+        phrase_boost = 0.0
+        phrase_boost += 0.08 * min(unigram_hits, 3)
+        phrase_boost += 0.18 * min(bigram_hits, 3)
+        phrase_boost += 0.28 * min(trigram_hits, 3)
+        method_boost = 0.05 if method == "domain_lexicon" else 0.02
+
+        score = 0.0
+        if suspicious:
+            score = -1.0
+        else:
+            score = (0.35 * change_ratio) + phrase_boost + method_boost
+            if changed_tokens == 0:
+                score -= 0.08
+            if change_ratio < 0.15 and not domain_matches:
+                score -= 0.10
+
+        confidence = max(0.0, min(1.0, score))
+
+        evaluated: dict[str, Any] = {
+            "candidate": candidate,
+            "method": method,
+            "score": round(float(score), 6),
+            "confidence": round(float(confidence), 6),
+            "suspicious": suspicious,
+            "changed_tokens": changed_tokens,
+            "token_count": token_count,
+            "domain_match_count": len(domain_matches),
+            "domain_unigram_hits": unigram_hits,
+            "domain_bigram_hits": bigram_hits,
+            "domain_trigram_hits": trigram_hits,
+            "domain_lexicon_matches": domain_matches,
+        }
+
+        if (float(evaluated["score"]) > float(best["score"])):
+            best = evaluated
+
+    return best
+
+
+def prepare_hybrid_queries(
+    query: str,
+    *,
+    chunks_path: str = DEFAULT_CHUNKS_PATH,
+) -> dict[str, Any]:
+    """Prepare safe query variants for hybrid retrieval.
+
+    Policy:
+      - keep original + normalized variants
+      - attempt corpus accent restoration only for mostly non-accented Vietnamese
+      - use conservative heuristics to decide whether restored query is safe enough
+      - keep BM25 on stable normalized query; use restored query mainly for vector branch
+    """
+    query_original = query
+    query_after_normalize = normalize_query_for_retrieval(query)
+    query_accentless_for_matching = strip_accents_for_matching(query_after_normalize)
+    query_after_lexicon_restore = query_after_normalize
+    query_after_corpus_restore = query_after_normalize
+    query_final_restored = query_after_normalize
+    restore_changed = False
+    restore_confidence = 0.0
+    restore_method = "none"
+    restore_candidates: list[dict[str, Any]] = []
+    domain_lexicon_matches: list[dict[str, Any]] = []
+    lexicon_restore_changed = False
+    lexicon_restore_confidence = 0.0
+    vector_queries_used: list[str] = [query_after_normalize]
+    bm25_queries_used: list[str] = [query_after_normalize]
+    dual_query_enabled = False
+    restore_conf_band = "none"
+
+    trigger = should_trigger_restore(query_after_normalize)
+    restore_triggered = bool(trigger["restore_triggered"])
+
+    if restore_triggered:
+        query_after_lexicon_restore, domain_lexicon_matches = restore_with_domain_lexicon(
+            query_after_normalize,
+            accentless_for_matching=query_accentless_for_matching,
+        )
+        lexicon_restore_changed = query_after_lexicon_restore != query_after_normalize
+        lexicon_restore_confidence = _score_lexicon_restore(
+            domain_lexicon_matches,
+            lexicon_restore_changed,
+        )
+
+        query_after_corpus_restore = restore_query_diacritics_from_corpus(
+            query_after_lexicon_restore,
+            chunks_path=chunks_path,
+        )
+
+        restore_candidates = [
+            {
+                "candidate": query_after_normalize,
+                "method": "none",
+                "domain_lexicon_matches": [],
+            },
+            {
+                "candidate": query_after_lexicon_restore,
+                "method": "domain_lexicon",
+                "domain_lexicon_matches": domain_lexicon_matches,
+            },
+            {
+                "candidate": query_after_corpus_restore,
+                "method": "corpus",
+                "domain_lexicon_matches": domain_lexicon_matches,
+            },
+        ]
+
+        best = score_restore_candidates(query_after_normalize, restore_candidates)
+        query_final_restored = str(best["candidate"])
+        restore_method = str(best["method"])
+        restore_confidence = float(best["confidence"])
+        restore_changed = query_final_restored != query_after_normalize
+        domain_lexicon_matches = list(best.get("domain_lexicon_matches", []))
+
+        restore_conf_band = _confidence_band(restore_confidence) if restore_changed else "none"
+
+        # Selection priority: lexicon-first if changed; otherwise safe corpus candidate.
+        if (
+            lexicon_restore_changed
+            and lexicon_restore_confidence >= 0.35
+            and restore_method != "corpus"
+        ):
+            query_final_restored = query_after_lexicon_restore
+            restore_method = "domain_lexicon"
+            restore_changed = query_final_restored != query_after_normalize
+            restore_confidence = max(restore_confidence, lexicon_restore_confidence)
+            restore_conf_band = _confidence_band(restore_confidence)
+
+        if restore_conf_band == "low":
+            query_final_restored = query_after_normalize
+            restore_method = "none"
+            restore_changed = False
+            restore_confidence = 0.0
+
+        if restore_changed and restore_conf_band in ("high", "medium"):
+            dual_query_enabled = True
+            vector_queries_used = [query_after_normalize, query_final_restored]
+            # Keep BM25 stable (already accent-insensitive).
+            bm25_queries_used = [query_after_normalize]
+
+    # Branch B: query already has enough diacritics (or too short/noisy for restore).
+    # Keep normalized query as primary path (single-query retrieval) via defaults above.
+
+    query_after_restore = query_final_restored  # backward compatibility alias
+    restore_confidence_band = restore_conf_band  # backward compatibility alias
+
+    # Backward compatibility fields used by old tests/notebooks.
+    vector_query_used = vector_queries_used[-1]
+    bm25_query_used = bm25_queries_used[0]
+
+    return {
+        "query_original": query_original,
+        "query_after_normalize": query_after_normalize,
+        "query_accentless_for_matching": query_accentless_for_matching,
+        "query_after_lexicon_restore": query_after_lexicon_restore,
+        "query_after_corpus_restore": query_after_corpus_restore,
+        "query_final_restored": query_final_restored,
+        "query_after_restore": query_after_restore,
+        "accented_token_count": int(trigger["accented_token_count"]),
+        "non_accented_token_count": int(trigger["non_accented_token_count"]),
+        "total_candidate_tokens": int(trigger["total_candidate_tokens"]),
+        "non_accented_token_ratio": float(trigger["non_accented_token_ratio"]),
+        "restore_triggered": restore_triggered,
+        "restore_trigger_threshold": float(trigger["restore_trigger_threshold"]),
+        "restore_changed": restore_changed,
+        "restore_confidence": round(float(restore_confidence), 6),
+        "restore_method": restore_method,
+        "restore_confidence_band": restore_confidence_band,
+        "restore_conf_band": restore_conf_band,
+        "restore_candidates": restore_candidates,
+        "domain_lexicon_matches": domain_lexicon_matches,
+        "lexicon_restore_changed": lexicon_restore_changed,
+        "lexicon_restore_confidence": round(float(lexicon_restore_confidence), 6),
+        "vector_queries_used": vector_queries_used,
+        "bm25_queries_used": bm25_queries_used,
+        "dual_query_enabled": dual_query_enabled,
+        "vector_query_used": vector_query_used,
+        "bm25_query_used": bm25_query_used,
+    }
+
+
+def _merge_multi_query_branch_results(
+    branch_results: list[tuple[str, list[dict[str, Any]]]],
+    *,
+    score_key: str,
+    topk: int,
+) -> list[dict[str, Any]]:
+    """Merge per-query branch results by chunk_id, keep best score, and rerank."""
+    merged: dict[str, dict[str, Any]] = {}
+    for query_text, results in branch_results:
+        for r in results:
+            cid = str(r.get("chunk_id") or "")
+            if not cid:
+                continue
+            score = float(r.get(score_key) or 0.0)
+            existing = merged.get(cid)
+            if existing is None:
+                merged[cid] = dict(r)
+                merged[cid]["query_used"] = query_text
+                merged[cid]["query_variants"] = [query_text]
+                continue
+
+            query_variants = list(existing.get("query_variants", []))
+            if query_text not in query_variants:
+                query_variants.append(query_text)
+            existing["query_variants"] = query_variants
+
+            existing_score = float(existing.get(score_key) or 0.0)
+            if score > existing_score:
+                keep_variants = list(existing.get("query_variants", []))
+                merged[cid] = dict(r)
+                merged[cid]["query_used"] = query_text
+                merged[cid]["query_variants"] = keep_variants
+
+    out = sorted(merged.values(), key=lambda x: float(x.get(score_key) or 0.0), reverse=True)
+    out = out[:topk]
+    for i, item in enumerate(out):
+        item["rank"] = i
+    return out
 
 
 # ── RRF fusion ─────────────────────────────────────────────────────────────
@@ -222,27 +698,57 @@ def retrieve(
       bm25_score, vector_score, fused_score, text, doc_type, category
     """
 
+    query_debug = prepare_hybrid_queries(query, chunks_path=chunks_path)
+    bm25_queries = [str(q) for q in query_debug.get("bm25_queries_used", []) if str(q).strip()]
+    vector_queries = [str(q) for q in query_debug.get("vector_queries_used", []) if str(q).strip()]
+    if not bm25_queries:
+        bm25_queries = [str(query_debug["bm25_query_used"])]
+    if not vector_queries:
+        vector_queries = [str(query_debug["vector_query_used"])]
+
     bm25_results: list[dict[str, Any]] = []
     vector_results: list[dict[str, Any]] = []
 
     if mode in ("bm25", "hybrid_rrf"):
-        bm25_results = retrieve_bm25(
-            query,
+        bm25_runs: list[tuple[str, list[dict[str, Any]]]] = []
+        for bm25_query in bm25_queries:
+            bm25_runs.append((
+                bm25_query,
+                retrieve_bm25(
+                    bm25_query,
+                    topk=topk_bm25,
+                    chunks_path=chunks_path,
+                    index_path=index_path,
+                    doc_type_filter=doc_type_filter,
+                ),
+            ))
+        bm25_results = _merge_multi_query_branch_results(
+            bm25_runs,
+            score_key="bm25_score",
             topk=topk_bm25,
-            chunks_path=chunks_path,
-            index_path=index_path,
-            doc_type_filter=doc_type_filter,
         )
 
     if mode in ("vector", "hybrid_rrf"):
-        vector_results = retrieve_vector(
-            query,
+        vector_runs: list[tuple[str, list[dict[str, Any]]]] = []
+        for vector_query in vector_queries:
+            vector_runs.append((
+                vector_query,
+                retrieve_vector(
+                    vector_query,
+                    topk=topk_vector,
+                    collection=collection,
+                    qdrant_url=qdrant_url,
+                    ollama_url=ollama_url,
+                    model=model,
+                    chunks_path=chunks_path,
+                    use_llm_diacritic_fallback=False,
+                    doc_type_filter=doc_type_filter,
+                ),
+            ))
+        vector_results = _merge_multi_query_branch_results(
+            vector_runs,
+            score_key="vector_score",
             topk=topk_vector,
-            collection=collection,
-            qdrant_url=qdrant_url,
-            ollama_url=ollama_url,
-            model=model,
-            doc_type_filter=doc_type_filter,
         )
 
     # Build final results based on mode
@@ -267,6 +773,7 @@ def retrieve(
         _save_debug_json(
             query, mode, topk_final, results, debug_dir,
             bm25_raw=bm25_results, vector_raw=vector_results,
+            query_debug=query_debug,
         )
 
     return results
@@ -331,6 +838,7 @@ def _save_debug_json(
     *,
     bm25_raw: list[dict[str, Any]] | None = None,
     vector_raw: list[dict[str, Any]] | None = None,
+    query_debug: dict[str, Any] | None = None,
 ) -> None:
     """Save retrieval results to debug JSON file."""
     import hashlib
@@ -359,6 +867,8 @@ def _save_debug_json(
             {"rank": r["rank"], "chunk_id": r["chunk_id"], "vector_score": r.get("vector_score")}
             for r in vector_raw[:20]
         ]
+    if query_debug is not None:
+        report["query_debug"] = query_debug
 
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)

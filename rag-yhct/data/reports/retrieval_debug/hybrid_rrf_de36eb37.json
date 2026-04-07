@@ -1,0 +1,566 @@
+{
+  "query": "tac dung cua cay bo de",
+  "mode": "hybrid_rrf",
+  "top_k": 40,
+  "results": [
+    {
+      "chunk_id": "src_d5596b1dce93:dff77d6bb847",
+      "fused_score": 0.027638,
+      "bm25_rank": 2,
+      "bm25_score": 7.087547,
+      "vector_rank": 24,
+      "vector_score": 0.564889,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b273",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ụng: Vỏ làm săn da, có tác dụng cầm máu. Công dụng, chỉ định và phối hợp: Gỗ cây dùng trong xây dựng và làm thuyền; còn dùng làm than củi cho nhiệt lượng cao. Vỏ dùng để nhuộm dây câu, lưới, buồm; có thể pha với thuốc nhuộm khác để nhuộm đỏ đen; còn được dùng để ăn với trầu. Vỏ cây dùng đắp cầm máu vết thương. Ở Châu Phi, có nơi người ta dùng nước sắc chồi cây thay thế quinin.",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:e015bbdaf7f2",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 7.207507,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1200",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Cụm hoa thành xim nhỏ bên, ở ngọn các nhánh. Bộ phận dùng: Nhựa mủ, thân, cành và lá - Latex, Caulis, Ramulus et Folium Euphorbiae Neriifoliae. Nơi sống và thu hái: Gốc ở vùng cao của cao nguyên Decan (Ấn Độ), được trồng ở hầu khắp các vùng nóng như là cây cảnh. Ở nước ta, cây được trồng khá phổ biến. Có thể thu hái các bộ phận của cây quanh năm, thường dùng tươi. Tính vị, tác dụng: Dịch nhựa của cây có tác dụng xổ, gây sung huyết da và làm long đờm. Rễ có tác dụng thanh nhiệt giải độc, chống co",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_7caef25456a4:bdf90858deb0",
+      "fused_score": 0.016393,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 0,
+      "vector_score": 0.596185,
+      "source_id": "src_7caef25456a4",
+      "parent_id": "src_7caef25456a4:h:5297024b7f97:b0",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bài 7 DƯỢC LIỆU CHỮA HO, HEN MỤC TIÊU 1. Trình bày được đặc điểm thực vật, bộ phận dùng, thành phần hóa học chính, công dụng, cách dùng các dược liệu có tác dụng chữa bệnh ho, hen. 2. Vận dụng được những kiến thức đã học vào trong thực tế hoạt động nghề nghiệp. NỘI DUNG BÁCH BỘ Tên khác: Dây ba mươi- Dây đẹt ác- Dây trói trâu. Tên khoa học: Stemona tuberosa Lour. Họ : Bách bộ (Stemonaceae) 1. Mô tả, phân bố Bách bộ là loại dây leo, lá mọc đôi, phiến lá hình tim nhọn, gân lá song song, mép lá nhẵ",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:b382cbd217d9",
+      "fused_score": 0.016129,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 1,
+      "vector_score": 0.593612,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b161",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "cây dùng đắp vào đầu để hạ nhiệt, làm mát.",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:d4aa7ef54b43",
+      "fused_score": 0.015625,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 3,
+      "vector_score": 0.582481,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b358",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "tác dụng lợi tiểu và làm ra mồ hôi. Công dụng, chỉ định và phối hợp: Tua rễ (cả vỏ lẫn lõi) được dùng trị phù nề cổ trướng do xơ gan; nó làm tăng bài tiết nước tiểu, làm hết hoặc giảm phù nề cổ trướng.\n\nLiều cao có tác dụng mạnh; dạng bột có tác dụng hơn dạng nước sắc. Vỏ cây dùng trị đau bao tử, thường dùng sao vàng, sắc nước uống. Ðơn thuốc: 1. Cảm cúm, cảm sốt: Dùng 12-20g lá Ða lông hay tua rễ Ða sắc uống. 2. Tiểu tiện không thông, đái ra dưỡng trắp: Dùng tua rễ Ða 20g, Rau dừa nước và Tỳ gi",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:96f0fafe7c8e",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 7.012703,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b699",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "người ta thường tách các hành con để trồng.\n\nĐể làm thuốc, người ta thu hái các bộ phận khác nhau của cây quanh năm, dùng tươi hay phơi khô. Thành phần hoá học: Các bộ phận của cây, nhất là hành chứa lycorin. Rễ cây chứa alcaloid harcissin (lycorin), vitamin và các hợp chất kiềm có mùi hôi của tỏi. Hạt chứa lycorin và crinamin. Tính vị, tác dụng: Hành của Náng có vị đắng; có tác dụng bổ, nhuận tràng, long đờm. Rễ tươi gây nôn, làm mửa và làm toát mồ hôi. Hạt tẩy, lợi tiểu và điều kinh. Lá làm lo",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:c5c5c08cf108",
+      "fused_score": 0.015152,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 5,
+      "vector_score": 0.578795,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b185",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "khu phong, giải biểu tiêu thũng, chỉ thống. Công dụng, chỉ định và phối hợp: Ðược dùng trị 1. Cảm mạo, uống làm cho ra mồ hôi. 2. Ho gà, viêm phế quản, viêm họng sưng đau. 3. Sốt rét, lỵ trực tràng, ỉa chảy; 4. Ðòn ngã tổn thương. Dùng ngoài trị rắn cắn, mụn nhọt, ngứa lở ngoài da, sâu quảng. Dùng 10-30g hay hơn, dạng thuốc sắc. Dùng ngoài giã nát cây tươi đắp tại chỗ hoặc đun nước để rửa chỗ đau. Còn làm thức ăn gia súc. Ðơn thuốc trị sốt rét: Cỏ bạc đầu 60g sắc uống. Uống 4 giờ trước khi có tr",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:e7b99afd8508",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 6.970113,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1119",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ủ yếu là d-cit ronellal. Tính vị, tác dụng: Dịch quả có tác dụng chống scorbut, làm long đờm, vỏ quả có tác dụng lợi trung tiện. Công dụng, chỉ định và phối hợp: Ở Malaixia, quả tươi dùng gội đầu và rửa các phần khác của cơ thể, tập quán này được truyền sang phía Bắc tới Mian ma. Người ta cắt quả thành 2 miếng có cả vỏ và xát vào đầu. Có khi nấu cả quả với một số vỏ cây khác thay thế xà phòng. Dịch quả rất chua dùng để pha vào nước chấm cho thơm nhưng nên dùng với số lượng ít bởi vì nó khó tiêu.",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:1ba422d059dd",
+      "fused_score": 0.014706,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 7,
+      "vector_score": 0.57622,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b10",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Công dụng, chỉ định và phối hợp: Ở Lào, người ta gọi nó là Haksam sip, đó là loại củ trừ mối rất có hiệu quả. Kết quả thử nghiệm được nêu lại như sau: \"Người ta nghiền 100g rễ Bách bộ đứng và ngâm trong một lít nước trong hai giờ, và ngâm vài miếng gỗ mềm vào trong đó trong 24 giờ. Các mảnh gỗ này được đặt vùi trong tổ mối và đặt ở lối ra vào của mối, trong thời gian 48 giờ. Không có mảnh gỗ nào bị mối phá hại, và mối đều tránh không đụng đến chúng. Người ta lại rưới nước ngâm rễ Bách bộ đứng nà",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:c22a14212a34",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 6.948198,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b44",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ái lát phơi hay sấy khô, cũng thường dùng tươi. Tính vị, tác dụng: Lá cây có tính làm dịu và tan sương có tác dụng giải nhiệt và tiêu độc. Củ có tính bổ dưỡng, điều huyết. Ở Hải Nam (Trung Quốc), người ta cho rằng rễ chống ho, làm mát máu, sinh tân dịch. Công dụng, chỉ định và phối hợp: Thân và lá có thể dùng làm rau ăn như rau bầu đất, vừa mát lại giải nhiệt. Người ta thường dùng cây lá giã nát đắp trên các mụn nhọt để làm tan sưng và trị viêm quầng. Dịch lá dùng làm thuốc súc miệng để trị viêm",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:055e0df0d6c7",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.573433,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b621",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ùng làm thuốc trị giun; nước sắc cây dùng chữa viêm gan mạn tính và bệnh ngoài da. Ðơn thuốc: 1. Ðau chín mé: Dùng cây lá Màn màn tím đẫm với một ít muối ăn đắp bó ngón tay vào buổi tối. 2. Nhức đầu: Cành lá Màn màn tím đâm nát đắp vào thái dương. 3. Sưng hạch ở cổ, ở cạnh tai, sưng vú: Cành là Màn màn tím tươi giã đắp.",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:aca311528953",
+      "fused_score": 0.014085,
+      "bm25_rank": 10,
+      "bm25_score": 6.916951,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1053",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ị, tác dụng: Ở Tân Đảo, rễ và vỏ được xem như có tính khử lọc, chống bệnh scorbut, làm liền sẹo. Rễ và lá cây ở Vân Nam được xem như có tác dụng thanh nhiệt tiêu thũng. Công dụng, chỉ định và phối hợp: Ở Tân Đảo, chồi non có thể ăn sau khi đã nấu kỹ, nhưng cây còn tươi có độc. Người ta dùng vỏ (có thể dùng lá) để giặt áo quần. Cũng dùng cây làm thuốc duốc cá. Ở nước ta, lá nhai ra cùng với nước bọt dùng xoa, bôi lên các vết cắn của rết để trừ độc.\n\nDân gian dùng cây này phối hợp với Ráy gai để c",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:5bc314afbfea",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.572747,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b262",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "hái rễ cây và gỗ quanh năm. Công dụng, chỉ định và phối hợp: Dân gian sử dụng làm thuốc bổ máu, chữa nhức mỏi tê bại và cảm sốt. Cũng dùng tương tự như cây Cù đèn.",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:0f686d076748",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 6.914327,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b274",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ị, tác dụng: Lá có vị đắng và se, khi nhai nước bọt có màu vàng; cánh hoa cũng có một chất màu vàng. Lá có tác dụng lợi mật, nhuận tràng, hơi bổ đắng. Hoa có tác dụng điều kinh, hạ sốt. Vỏ dùng làm se, rễ lợi tiêu hoá, bổ và nhuận tràng. Công dụng, chỉ định và phối hợp: Ở Ấn Độ, người ta dùng lá trị sốt rét và thấp khớp, dùng 6-7 lá giã với ít gừng và nước; hoặc dùng dịch lá cùng với mật ong trị sốt rét. Nước sắc lá hay hạt dùng đau dây thần kinh hông; dịch ép lá thêm ít đường để dùng làm thuốc ",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:89c0a88937c3",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.57266,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b136",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "giải thử, tán thấp chỉ dương, tiêu viêm chỉ huyết. Công dụng, chỉ định và phối hợp: Cành lá dùng ăn làm rau gia vị và dùng sắc uống trị đau nhức đầu do cảm mạo, đau bụng đầy hơi và ăn uống không tiêu. Ngày dùng 4-8g, dạng thuốc sắc. Dùng ngoài nấu nước tắm rửa trị ngoài da sinh lở ngứa, mụn nhọt, ngứa ngáy, rôm sẩy. Người ta cũng sử dụng cây này trong thành phần các vị thuốc làm men rượu.",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:31c77fdadf27",
+      "fused_score": 0.013333,
+      "bm25_rank": 14,
+      "bm25_score": 6.893493,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b752",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "1% tinh dầu có mùi cineol mà thành phần là terpen và an col. Tính vị, tác dụng: Vị hơi cay, đắng, mùi thơm, tính ấm; có tác dụng thanh nhiệt, khư phong, tiêu\n\nthũng, tiêu viêm, chống ngứa. Công dụng: Thường dùng chữa: 1. Hoàng đản cấp tính; 2. Tiểu tiện vàng đục và ít; 3. Phụ nữ sau sinh đẻ ăn chậm tiêu. Ngày dùng 20-30g, dạng thuốc sắc, cao hoặc hoàn tán. Thường phối hợp với các vị thuốc khác. Nhân dân thường dùng Nhân trần làm thuốc cho phụ nữ sau khi sinh đẻ. Nước sắc cây này có tác dụng tiêu",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:d6180ea73c45",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.57049,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b959",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "cây này để trị ho khạc ra máu, bạch đới, đòn ngã sưng tấy.",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:2459ff6009e5",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 6.879461,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1040",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "đắng, rất độc; có tác dụng trợ tim, lợi tiểu, tiêu sưng. Vỏ đắng; có tác dụng xổ nhẹ, hạ nhiệt. Người ta biết là thevetin có hoạt tính chủ yếu, nhất là đối với tim. Thevetoxin cũng có tác dụng như thevetin nhưng không độc. Công dụng, chỉ định và phối hợp: Ta thường dùng hạt làm thuốc trợ tim, chữa suy tim, dùng hoạt chất thevetin chiết từ hạt dưới dạng dung dịch 1% để uống, ngày 1-2ml, hoặc dạng ống tiêm 2ml/1mg, ngày 1-2 ống. Thevetin dùng cho những trường hợp tim yếu, loạn nhịp, viêm cơ tim, s",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_7caef25456a4:1c0fe588f73c",
+      "fused_score": 0.012987,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 16,
+      "vector_score": 0.570077,
+      "source_id": "src_7caef25456a4",
+      "parent_id": "src_7caef25456a4:h:5297024b7f97:b0",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "trước đến đầu xuân năm sau. Đào lấy rễ củ, loại bỏ đất cát và rễ con, đồ qua hơi nước (hoặc nhúng vào nước sôi), lấy ra đem phơi hoặc sấy nhẹ cho khô. Những củ to có thể bổ dọc làm đôi. Bách bộ không mùi, vị hơi ngọt, sau đắng. Bách bộ đã được ghi trong Dược điển Việt Nam (2002). 3. Thành phần hóa học Bách bộ có chứa nhiều alcaloid, trong đó hoạt chất chính là stemonin. 4. Công dụng, cách dùng Bách bộ có tác dụng nhuận phổi, tiêu đờm, sát trùng. Dùng chữa các chứng bệnh: Ho mới hay ho lâu ngày, ",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:f57a0593c345",
+      "fused_score": 0.012821,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 17,
+      "vector_score": 0.568519,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1172",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "kiện vị. Có nơi dùng rễ với tác dụng khư đàm lợi khiếu, an thần ích trí. Công dụng, chỉ định và phối hợp: Ở Trung Quốc, rễ và vỏ cây dùng chữa cơ thể hư nhược sau khi bị bệnh, kinh nguyệt không đều, lao phổi (phế kết hạch), thần kinh suy nhược, tỳ vị hư nhược, cước khí thủy thũng, phong thấp tê đau, cảm mạo.",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_92a6ae24adf8:09a0021302d0",
+      "fused_score": 0.012658,
+      "bm25_rank": 18,
+      "bm25_score": 6.874042,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_92a6ae24adf8",
+      "parent_id": "src_92a6ae24adf8:h:5297024b7f97:b54",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ", có tác dụng tạo nguồn nguyên liệu cung cấp cho quá trình bán tổng hợp một số thuốc mới nhằm lμm tăng −u điểm cho thuốc: tăng tác dụng điều trị của thuốc, hoặc giảm bớt những tác dụng không mong muốn của thuốc, hoặc để tạo ra những tác dụng mới. Ch1⁄4ng hạn, từ lá cây thanh cao hoa vμng, ng−ời ta phân lập ra artemisinin, sau đó ng−ời ta lại bán tổng hợp ra artesunat, arteet her,... Các dẫn chất nμy cũng đ−ợc dùng để điều trị sốt rét nh−ng cho hiệu quả điều trị cao hơn. Từ vỏ cây can hkina ng−ời",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:0d6628d39467",
+      "fused_score": 0.0125,
+      "bm25_rank": 19,
+      "bm25_score": 6.871803,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b618",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "vị, tác dụng: Vỏ và rễ có tác dụng xổ, rễ hạ nhiệt; lá hạ nhiệt, dùng ngoài chống ngứa, tiêu viêm, quả trị đái đường. Công dụng, chỉ định và phối hợp: Lá non và quả dùng làm rau ăn. Ở Ấn Ðộ dịch lá và rễ dùng trị bệnh đái đường. Ở Campuc hia người ta dùng dịch chiết từ thân cây để trị bệnh đau giác mạc. Ở Ấn Ðộ người ta dùng cả cây để làm thuốc trị bệnh lậu. Lá dùng đắp ở ngoài da trị phát ban da, trị ghẻ lở, mụn nhọt, các vết thương và các vết cắn của rắn rết.\n\nỞ In đô nê xia, người ta còn dùng",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:6115bcb202c4",
+      "fused_score": 0.0125,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 19,
+      "vector_score": 0.567209,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b200",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "rễ dùng trị sốt rét, nước hãm dùng trị các rối loạn đường tiêu hoá. Bột lá dùng trị ghẻ. Nước sắc lá và vỏ cây dùng xức rửa chữa gãy xương.",
+      "rank": 22
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_d5596b1dce93:e015bbdaf7f2",
+      "bm25_score": 7.207507
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_e0520ddfd9ac:e015bbdaf7f2",
+      "bm25_score": 7.207507
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_d5596b1dce93:dff77d6bb847",
+      "bm25_score": 7.087547
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e0520ddfd9ac:dff77d6bb847",
+      "bm25_score": 7.087547
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_d5596b1dce93:96f0fafe7c8e",
+      "bm25_score": 7.012703
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_e0520ddfd9ac:96f0fafe7c8e",
+      "bm25_score": 7.012703
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_d5596b1dce93:e7b99afd8508",
+      "bm25_score": 6.970113
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_e0520ddfd9ac:e7b99afd8508",
+      "bm25_score": 6.970113
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_d5596b1dce93:c22a14212a34",
+      "bm25_score": 6.948198
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_e0520ddfd9ac:c22a14212a34",
+      "bm25_score": 6.948198
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_d5596b1dce93:aca311528953",
+      "bm25_score": 6.916951
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_e0520ddfd9ac:aca311528953",
+      "bm25_score": 6.916951
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_d5596b1dce93:0f686d076748",
+      "bm25_score": 6.914327
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_e0520ddfd9ac:0f686d076748",
+      "bm25_score": 6.914327
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:31c77fdadf27",
+      "bm25_score": 6.893493
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:31c77fdadf27",
+      "bm25_score": 6.893493
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_d5596b1dce93:2459ff6009e5",
+      "bm25_score": 6.879461
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_e0520ddfd9ac:2459ff6009e5",
+      "bm25_score": 6.879461
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_92a6ae24adf8:09a0021302d0",
+      "bm25_score": 6.874042
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_d5596b1dce93:0d6628d39467",
+      "bm25_score": 6.871803
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_7caef25456a4:bdf90858deb0",
+      "vector_score": 0.596185
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_d5596b1dce93:b382cbd217d9",
+      "vector_score": 0.593612
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_e0520ddfd9ac:b382cbd217d9",
+      "vector_score": 0.593612
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e0520ddfd9ac:d4aa7ef54b43",
+      "vector_score": 0.582481
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_d5596b1dce93:d4aa7ef54b43",
+      "vector_score": 0.582481
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_d5596b1dce93:c5c5c08cf108",
+      "vector_score": 0.578795
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_e0520ddfd9ac:c5c5c08cf108",
+      "vector_score": 0.578795
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_d5596b1dce93:1ba422d059dd",
+      "vector_score": 0.57622
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:055e0df0d6c7",
+      "vector_score": 0.573433
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_d5596b1dce93:055e0df0d6c7",
+      "vector_score": 0.573433
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_e0520ddfd9ac:5bc314afbfea",
+      "vector_score": 0.572747
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_d5596b1dce93:5bc314afbfea",
+      "vector_score": 0.572747
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_d5596b1dce93:89c0a88937c3",
+      "vector_score": 0.57266
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_e0520ddfd9ac:89c0a88937c3",
+      "vector_score": 0.57266
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:d6180ea73c45",
+      "vector_score": 0.57049
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:d6180ea73c45",
+      "vector_score": 0.57049
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_7caef25456a4:1c0fe588f73c",
+      "vector_score": 0.570077
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_d5596b1dce93:f57a0593c345",
+      "vector_score": 0.568519
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_e0520ddfd9ac:f57a0593c345",
+      "vector_score": 0.568519
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_d5596b1dce93:6115bcb202c4",
+      "vector_score": 0.567209
+    }
+  ],
+  "query_debug": {
+    "query_original": "tac dung cua cay bo de",
+    "query_after_normalize": "tac dung cua cay bo de",
+    "query_after_corpus_restore": "tác dùng của cây bộ để",
+    "restore_changed": true,
+    "restore_confidence": 1.0,
+    "restore_method": "corpus",
+    "vector_query_used": "tác dùng của cây bộ để",
+    "bm25_query_used": "tac dung cua cay bo de"
+  }
+}

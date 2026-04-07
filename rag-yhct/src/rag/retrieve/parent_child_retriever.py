@@ -32,6 +32,7 @@ import tiktoken  # type: ignore
 from qdrant_client import QdrantClient  # type: ignore
 
 from rag.utils.io import read_jsonl
+from rag.utils.query_quality import normalize_query_no_diacritics
 
 logger = logging.getLogger(__name__)
 
@@ -123,7 +124,8 @@ def _extract_query_terms(query_text: str) -> list[str]:
         "tac", "tác", "dung", "dụng", "cho", "nhu", "như", "gi", "gì", "cac", "các",
         "nhung", "những", "ve", "về", "tu", "từ", "den", "đến", "mot", "một",
     }
-    raw = [t.strip() for t in re.findall(r"\w+", query_text.lower()) if t.strip()]
+    folded_query = normalize_query_no_diacritics(query_text)
+    raw = [t.strip() for t in re.findall(r"\w+", folded_query) if t.strip()]
     return [t for t in raw if len(t) >= 2 and t not in stopwords]
 
 
@@ -298,7 +300,7 @@ def retrieve_context(
                     idx
                     for idx in candidate_indices
                     if idx < len(parts)
-                    and any(term in parts[idx].lower() for term in query_terms)
+                    and any(term in normalize_query_no_diacritics(parts[idx]) for term in query_terms)
                 ]
                 if hit_indices:
                     hit_lo = min(hit_indices)

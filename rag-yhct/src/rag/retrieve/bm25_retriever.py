@@ -21,13 +21,13 @@ import logging
 import pickle
 import re
 import time
-import unicodedata
 from pathlib import Path
 from typing import Any, cast
 
 from rank_bm25 import BM25Okapi  # type: ignore
 
 from rag.utils.io import read_jsonl
+from rag.utils.query_quality import normalize_query_no_diacritics
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +35,7 @@ logger = logging.getLogger(__name__)
 DEFAULT_CHUNKS_PATH = "data/chunks/chunks_v2_full.jsonl"
 DEFAULT_INDEX_PATH = "data/indexes/bm25_chunks_v2_full.pkl"
 DEFAULT_TOPK = 40
+BM25_INDEX_VERSION = 2
 
 # ── tokenization ───────────────────────────────────────────────────────────
 
@@ -42,8 +43,12 @@ _RE_WHITESPACE = re.compile(r"\s+")
 
 
 def tokenize_vi(text: str) -> list[str]:
-    """Simple Vietnamese-aware tokenizer: lowercase, NFC, split on whitespace."""
-    text = unicodedata.normalize("NFC", text).lower()
+    """Vietnamese tokenizer tolerant to missing diacritics.
+
+    It normalizes Unicode/casing/whitespace, then strips diacritics so
+    "ngai cuu" can match "ngải cứu".
+    """
+    text = normalize_query_no_diacritics(text)
     text = _RE_WHITESPACE.sub(" ", text).strip()
     return text.split()
 
@@ -90,13 +95,16 @@ def build_bm25_index(
         try:
             with open(index_p, "rb") as f:
                 cached = pickle.load(f)  # noqa: S301
-            if cached.get("checksum") == current_checksum:
+            if (
+                cached.get("checksum") == current_checksum
+                and int(cached.get("index_version", 0)) == BM25_INDEX_VERSION
+            ):
                 logger.info(
                     "Loaded cached BM25 index (%d docs) from %s",
                     len(cached["docs"]), index_p,
                 )
                 return cached
-            logger.info("Chunks file changed — rebuilding BM25 index")
+            logger.info("Chunks/tokenizer changed — rebuilding BM25 index")
         except Exception as exc:
             logger.warning("Failed to load BM25 cache (%s) — rebuilding", exc)
 
@@ -138,6 +146,7 @@ def build_bm25_index(
         "bm25": bm25,
         "docs": docs,
         "checksum": current_checksum,
+        "index_version": BM25_INDEX_VERSION,
     }
 
     # Save cache
