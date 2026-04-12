@@ -60,7 +60,7 @@ from rag.generate.answer_generator import (
 from rag.utils.query_quality import (
     normalize_for_dedup,
     normalize_query_for_retrieval,
-    restore_query_diacritics_from_corpus,
+    restore_query_diacritics_tokenwise_from_corpus,
     strip_vietnamese_diacritics,
 )
 
@@ -71,7 +71,7 @@ DEFAULT_MODE = "hybrid_rrf"
 DEFAULT_TOPK_VECTOR = 40
 DEFAULT_TOPK_BM25 = 40
 DEFAULT_TOPK_FINAL = 40
-DEFAULT_RRF_K = 60
+DEFAULT_RRF_K = 60  #Thong so k
 DEFAULT_DEBUG_DIR = "data/reports/retrieval_debug"
 DEFAULT_WINDOW_CENTERS = 2
 DEFAULT_PARENT_SCORE_AGG = "max"  # "max" or "sum_top2"
@@ -80,6 +80,7 @@ DEFAULT_CONTEXT_FOCUS = "focused"
 DEFAULT_MAX_CONTEXT_PARENTS = 3
 DEFAULT_ANSWER_DEBUG = False
 DEFAULT_RESTORE_TRIGGER_NON_ACCENT_RATIO = 0.50
+DEFAULT_GENERAL_RESTORE_TRIGGER_NON_ACCENT_RATIO = 0.25
 OFFTOPIC_MARKERS = (
     "mẹ đừng đánh con",
     "csgt",
@@ -173,6 +174,150 @@ def _score_lexicon_restore(matches: list[dict[str, Any]], changed: bool) -> floa
         score = max(score, 0.36)
 
     return round(max(0.0, min(1.0, score)), 6)
+
+
+def should_run_general_restorer(
+    text_after_lexicon: str,
+    *,
+    restore_triggered: bool,
+    threshold: float = DEFAULT_GENERAL_RESTORE_TRIGGER_NON_ACCENT_RATIO,
+) -> dict[str, float | int | bool]:
+    """Return trigger decision for second-stage general Vietnamese restoration."""
+    stats = _non_accented_token_stats(text_after_lexicon)
+    ratio = float(stats["non_accented_token_ratio"])
+    total = int(stats["total_candidate_tokens"])
+    return {
+        **stats,
+        "general_restore_triggered": bool(restore_triggered and total >= 2 and ratio >= threshold),
+        "general_restore_trigger_threshold": float(threshold),
+    }
+
+
+def restore_general_vietnamese(
+    text_after_lexicon: str,
+    *,
+    chunks_path: str,
+) -> str:
+    """General-purpose accent restoration for common Vietnamese words.
+
+    This must run after lexicon restoration so domain phrases are already protected.
+    """
+    return restore_query_diacritics_tokenwise_from_corpus(
+        text_after_lexicon,
+        chunks_path=chunks_path,
+    )
+
+
+def _score_general_restore_candidate(
+    before: str,
+    after: str,
+) -> dict[str, Any]:
+    """Score safety/confidence for general restore candidate."""
+    before_norm = normalize_query_for_retrieval(before)
+    after_norm = normalize_query_for_retrieval(after)
+    before_folded = strip_vietnamese_diacritics(before_norm)
+    after_folded = strip_vietnamese_diacritics(after_norm)
+
+    suspicious = after_folded != before_folded
+    changed = after_norm != before_norm
+
+    src_tokens = _RE_WORD.findall(before_norm)
+    dst_tokens = _RE_WORD.findall(after_norm)
+    token_count = max(1, len(src_tokens))
+    changed_tokens = sum(1 for a, b in zip(src_tokens, dst_tokens, strict=False) if a != b)
+    if len(dst_tokens) != len(src_tokens):
+        changed_tokens += abs(len(dst_tokens) - len(src_tokens))
+
+    before_stats = _non_accented_token_stats(before_norm)
+    after_stats = _non_accented_token_stats(after_norm)
+    src_non = int(before_stats["non_accented_token_count"])
+    dst_non = int(after_stats["non_accented_token_count"])
+    total = max(1, int(before_stats["total_candidate_tokens"]))
+
+    improved_tokens = max(0, src_non - dst_non)
+    improvement_ratio = float(improved_tokens) / float(total)
+    change_ratio = float(changed_tokens) / float(token_count)
+
+    score = 0.0
+    if suspicious or not changed:
+        score = 0.0
+    else:
+        score = 0.20 + (0.65 * improvement_ratio) + (0.15 * min(change_ratio, 0.4))
+        if improved_tokens == 0:
+            score -= 0.15
+        if changed_tokens > max(1, int(0.6 * token_count)):
+            score -= 0.20
+
+        # Strong win: most remaining non-accented tokens were restored safely.
+        if dst_non <= max(1, total // 4) and improved_tokens >= 2:
+            score = max(score, 0.72)
+        elif improved_tokens >= 1 and dst_non < src_non:
+            score = max(score, 0.45)
+
+    confidence = round(max(0.0, min(1.0, score)), 6)
+    return {
+        "candidate": after_norm,
+        "suspicious": suspicious,
+        "changed": changed,
+        "changed_tokens": changed_tokens,
+        "token_count": token_count,
+        "improved_non_accented_tokens": improved_tokens,
+        "general_restore_confidence": confidence,
+        "general_restore_conf_band": _confidence_band(confidence),
+    }
+
+
+def merge_restore_results(candidates: list[str]) -> list[str]:
+    """Deduplicate while preserving order for vector query variants."""
+    out: list[str] = []
+    for item in candidates:
+        val = normalize_query_for_retrieval(item)
+        if not val:
+            continue
+        if val in out:
+            continue
+        out.append(val)
+    return out
+
+
+def choose_final_restored_query(
+    *,
+    query_after_normalize: str,
+    query_after_lexicon_restore: str,
+    query_after_general_restore: str,
+    lexicon_restore_changed: bool,
+    general_restore_triggered: bool,
+    general_restore_changed: bool,
+    general_restore_confidence: float,
+    general_restore_suspicious: bool,
+) -> dict[str, Any]:
+    """Pick safest final restored query and vector branch variants."""
+    base_restored = query_after_lexicon_restore if lexicon_restore_changed else query_after_normalize
+    final_query = base_restored
+    final_restore_source = "lexicon" if lexicon_restore_changed else "normalized"
+
+    vector_candidates = [query_after_normalize]
+    if lexicon_restore_changed:
+        vector_candidates.append(query_after_lexicon_restore)
+
+    if general_restore_triggered and general_restore_changed and not general_restore_suspicious:
+        band = _confidence_band(general_restore_confidence)
+        if band == "high":
+            final_query = query_after_general_restore
+            final_restore_source = "general"
+            vector_candidates = [query_after_normalize, query_after_general_restore]
+        elif band == "medium":
+            vector_candidates.append(query_after_general_restore)
+
+    vector_queries = merge_restore_results(vector_candidates)
+    dual_query_enabled = len(vector_queries) > 1
+
+    return {
+        "query_final_restored": final_query,
+        "final_restore_source": final_restore_source,
+        "vector_queries_used": vector_queries,
+        "dual_query_enabled": dual_query_enabled,
+    }
 
 
 def _load_yhct_domain_lexicon() -> list[dict[str, str]]:
@@ -393,6 +538,7 @@ def prepare_hybrid_queries(
     query_after_normalize = normalize_query_for_retrieval(query)
     query_accentless_for_matching = strip_accents_for_matching(query_after_normalize)
     query_after_lexicon_restore = query_after_normalize
+    query_after_general_restore = query_after_normalize
     query_after_corpus_restore = query_after_normalize
     query_final_restored = query_after_normalize
     restore_changed = False
@@ -406,6 +552,11 @@ def prepare_hybrid_queries(
     bm25_queries_used: list[str] = [query_after_normalize]
     dual_query_enabled = False
     restore_conf_band = "none"
+    general_restore_triggered = False
+    general_restore_changed = False
+    general_restore_confidence = 0.0
+    general_restore_conf_band = "none"
+    final_restore_source = "normalized"
 
     trigger = should_trigger_restore(query_after_normalize)
     restore_triggered = bool(trigger["restore_triggered"])
@@ -421,10 +572,66 @@ def prepare_hybrid_queries(
             lexicon_restore_changed,
         )
 
-        query_after_corpus_restore = restore_query_diacritics_from_corpus(
+        general_trigger_info = should_run_general_restorer(
             query_after_lexicon_restore,
-            chunks_path=chunks_path,
+            restore_triggered=restore_triggered,
         )
+        general_restore_triggered = bool(general_trigger_info["general_restore_triggered"])
+
+        general_eval: dict[str, Any] = {
+            "candidate": query_after_lexicon_restore,
+            "suspicious": False,
+            "changed": False,
+            "changed_tokens": 0,
+            "token_count": max(1, len(_RE_WORD.findall(query_after_lexicon_restore))),
+            "improved_non_accented_tokens": 0,
+            "general_restore_confidence": 0.0,
+            "general_restore_conf_band": "none",
+        }
+        if general_restore_triggered:
+            query_after_general_restore = restore_general_vietnamese(
+                query_after_lexicon_restore,
+                chunks_path=chunks_path,
+            )
+            general_eval = _score_general_restore_candidate(
+                query_after_lexicon_restore,
+                query_after_general_restore,
+            )
+            general_restore_changed = bool(general_eval["changed"])
+            general_restore_confidence = float(general_eval["general_restore_confidence"])
+            general_restore_conf_band = str(general_eval["general_restore_conf_band"])
+        else:
+            query_after_general_restore = query_after_lexicon_restore
+
+        # Keep legacy alias for notebooks/tests expecting corpus naming.
+        query_after_corpus_restore = query_after_general_restore
+
+        chosen = choose_final_restored_query(
+            query_after_normalize=query_after_normalize,
+            query_after_lexicon_restore=query_after_lexicon_restore,
+            query_after_general_restore=query_after_general_restore,
+            lexicon_restore_changed=lexicon_restore_changed,
+            general_restore_triggered=general_restore_triggered,
+            general_restore_changed=general_restore_changed,
+            general_restore_confidence=general_restore_confidence,
+            general_restore_suspicious=bool(general_eval["suspicious"]),
+        )
+        query_final_restored = str(chosen["query_final_restored"])
+        final_restore_source = str(chosen["final_restore_source"])
+        vector_queries_used = [str(x) for x in cast(list[Any], chosen["vector_queries_used"])]
+        dual_query_enabled = bool(chosen["dual_query_enabled"])
+
+        restore_changed = query_final_restored != query_after_normalize
+        if final_restore_source == "general":
+            restore_method = "general_corpus"
+            restore_confidence = general_restore_confidence
+        elif final_restore_source == "lexicon":
+            restore_method = "domain_lexicon"
+            restore_confidence = lexicon_restore_confidence
+        else:
+            restore_method = "none"
+            restore_confidence = 0.0
+        restore_conf_band = _confidence_band(restore_confidence) if restore_changed else "none"
 
         restore_candidates = [
             {
@@ -436,46 +643,19 @@ def prepare_hybrid_queries(
                 "candidate": query_after_lexicon_restore,
                 "method": "domain_lexicon",
                 "domain_lexicon_matches": domain_lexicon_matches,
+                "confidence": round(float(lexicon_restore_confidence), 6),
             },
             {
-                "candidate": query_after_corpus_restore,
-                "method": "corpus",
+                "candidate": query_after_general_restore,
+                "method": "general_corpus",
                 "domain_lexicon_matches": domain_lexicon_matches,
+                "confidence": round(float(general_restore_confidence), 6),
+                "suspicious": bool(general_eval["suspicious"]),
             },
         ]
 
-        best = score_restore_candidates(query_after_normalize, restore_candidates)
-        query_final_restored = str(best["candidate"])
-        restore_method = str(best["method"])
-        restore_confidence = float(best["confidence"])
-        restore_changed = query_final_restored != query_after_normalize
-        domain_lexicon_matches = list(best.get("domain_lexicon_matches", []))
-
-        restore_conf_band = _confidence_band(restore_confidence) if restore_changed else "none"
-
-        # Selection priority: lexicon-first if changed; otherwise safe corpus candidate.
-        if (
-            lexicon_restore_changed
-            and lexicon_restore_confidence >= 0.35
-            and restore_method != "corpus"
-        ):
-            query_final_restored = query_after_lexicon_restore
-            restore_method = "domain_lexicon"
-            restore_changed = query_final_restored != query_after_normalize
-            restore_confidence = max(restore_confidence, lexicon_restore_confidence)
-            restore_conf_band = _confidence_band(restore_confidence)
-
-        if restore_conf_band == "low":
-            query_final_restored = query_after_normalize
-            restore_method = "none"
-            restore_changed = False
-            restore_confidence = 0.0
-
-        if restore_changed and restore_conf_band in ("high", "medium"):
-            dual_query_enabled = True
-            vector_queries_used = [query_after_normalize, query_final_restored]
-            # Keep BM25 stable (already accent-insensitive).
-            bm25_queries_used = [query_after_normalize]
+        # Keep BM25 stable (already accent-insensitive).
+        bm25_queries_used = [query_after_normalize]
 
     # Branch B: query already has enough diacritics (or too short/noisy for restore).
     # Keep normalized query as primary path (single-query retrieval) via defaults above.
@@ -492,6 +672,7 @@ def prepare_hybrid_queries(
         "query_after_normalize": query_after_normalize,
         "query_accentless_for_matching": query_accentless_for_matching,
         "query_after_lexicon_restore": query_after_lexicon_restore,
+        "query_after_general_restore": query_after_general_restore,
         "query_after_corpus_restore": query_after_corpus_restore,
         "query_final_restored": query_final_restored,
         "query_after_restore": query_after_restore,
@@ -510,6 +691,11 @@ def prepare_hybrid_queries(
         "domain_lexicon_matches": domain_lexicon_matches,
         "lexicon_restore_changed": lexicon_restore_changed,
         "lexicon_restore_confidence": round(float(lexicon_restore_confidence), 6),
+        "general_restore_triggered": general_restore_triggered,
+        "general_restore_changed": general_restore_changed,
+        "general_restore_confidence": round(float(general_restore_confidence), 6),
+        "general_restore_conf_band": general_restore_conf_band,
+        "final_restore_source": final_restore_source,
         "vector_queries_used": vector_queries_used,
         "bm25_queries_used": bm25_queries_used,
         "dual_query_enabled": dual_query_enabled,

@@ -199,6 +199,42 @@ def restore_query_diacritics_from_corpus(
     return _RE_WORD.sub(_replace, normalized)
 
 
+def restore_query_diacritics_tokenwise_from_corpus(
+    text: str,
+    *,
+    chunks_path: str = "data/chunks/chunks_v2_full.jsonl",
+) -> str:
+    """Restore diacritics only for no-accent tokens, keep accented tokens intact.
+
+    Unlike ``restore_query_diacritics_from_corpus``, this function supports
+    mixed-accent queries (common after lexicon restoration).
+    """
+    normalized = normalize_query_for_retrieval(text)
+
+    if not os.path.exists(chunks_path):
+        return normalized
+
+    sig = _file_signature(chunks_path)
+    cached = _DIACRITIC_LEXICON_CACHE.get(chunks_path)
+    if cached is None or (cached[0], cached[1]) != sig:
+        mapping = _build_diacritic_lexicon(chunks_path)
+        _DIACRITIC_LEXICON_CACHE[chunks_path] = (sig[0], sig[1], mapping)
+    else:
+        mapping = cached[2]
+
+    if not mapping:
+        return normalized
+
+    def _replace(match: re.Match[str]) -> str:
+        tok = match.group(0)
+        # Preserve tokens that already have Vietnamese diacritics.
+        if tok != strip_vietnamese_diacritics(tok):
+            return tok
+        return mapping.get(tok, tok)
+
+    return _RE_WORD.sub(_replace, normalized)
+
+
 def explain_query_normalization(text: str) -> dict[str, str | bool]:
     """Return each transformation stage for notebook/debug visibility."""
     stage_nfc = unicodedata.normalize("NFC", text)
