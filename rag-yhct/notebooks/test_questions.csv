@@ -1,0 +1,101 @@
+id,question,gold_label,gold_relevant_ids
+1,"Theo tài liệu YHCT, nội dung 'THS. BS BÙI KIM NỮ' đề cập điều gì?",answerable,doc_src_1
+2,"Theo tai lieu YHCT, noi dung '1. Liet ke cac chuc nang sinh ly cua tang phu theo YHCT.' de cap dieu gi?",answerable,doc_src_2
+3,"Theo tai liệu YHCT, nội dung '2. Phan tích cac chức nang sinh ly của tang phủ.' de cập dieu gì?",answerable,doc_src_3
+4,"Theo tài liệu YHCT, nội dung '3. Những triệu chứng tương ứng với chức năng tạng phủ bị rối' đề cập điều gì?",answerable,doc_src_4
+5,"Theo tai lieu YHCT, noi dung '- Tang tuong trong y van co goi la “tang tuong”.' de cap dieu gi?",answerable,doc_src_5
+6,"Theo tai liệu YHCT, nội dung '- “Tang” là su ẩn tang của to chức co quan ben trong co thể, tuc là noi' đề cap điều gi?",answerable,doc_src_6
+7,"Theo tài liệu YHCT, nội dung '- “Tượng” là biểu tượng của hình thái, sinh lý, bệnh lý của nội tạng' đề cập điều gì?",answerable,doc_src_7
+8,"Theo tai lieu YHCT, noi dung 'phan anh ra ben ngoai co the.' de cap dieu gi?",answerable,doc_src_8
+9,"Theo tai liệu YHCT, nội dung '→ Tom lại: Tang là ban chất ben trong cua tượng, tuong là cac phản' de cập dieu gì?",answerable,doc_src_9
+10,"Theo tài liệu YHCT, nội dung 'ánh bên ngoài của tàng. Vì thế có thể nói “Tạng tượng”: Quan sát cơ' đề cập điều gì?",answerable,doc_src_10
+11,"Theo tai lieu YHCT, noi dung 'the song de nghien cuu quy luat hoat dong cua noi tang.' de cap dieu gi?",answerable,doc_src_11
+12,"Theo tai liệu YHCT, nội dung '- Moi một tang, không chi là co quan theo giải phau học ma chủ' de cập dieu gì?",answerable,doc_src_12
+13,"Theo tài liệu YHCT, nội dung 'yếu bao gồm: chức năng và vai trò của tạng đó; mối quan hệ của' đề cập điều gì?",answerable,doc_src_13
+14,"Theo tai lieu YHCT, noi dung '- Hoc thuyet tang tuong: Su thong nhat trong noi bo cua co the va' de cap dieu gi?",answerable,doc_src_14
+15,"Theo tai liệu YHCT, nội dung 'sự thong nhất giua cơ the với moi tạng.' de cập dieu gì?",answerable,doc_src_15
+16,"Theo tài liệu YHCT, nội dung '- Học thuyết tạng tượng nghiên cứu về kết cấu hình thái, quy luật' đề cập điều gì?",answerable,doc_src_16
+17,"Theo tai lieu YHCT, noi dung 'hoat dong sinh ly va qua trinh bien hoa benh ly cua co quan, to' de cap dieu gi?",answerable,doc_src_17
+18,"Theo tai liệu YHCT, nội dung 'chức tang phủ trong cơ the.' đề cap điều gi?",answerable,doc_src_18
+19,"Theo tài liệu YHCT, nội dung '@ Tạng, phủ là cách gọi chung của các cơ quan bên trong cơ thể.' đề cập điều gì?",answerable,doc_src_19
+20,"Theo tai lieu YHCT, noi dung 'Gom: Tang, phu va phu ky hang.' de cap dieu gi?",answerable,doc_src_20
+21,"Theo tai liệu YHCT, nội dung '- Bao gồm 5 tạng (ngu tạng): Tam, can, ty, phế, than.' đề cap điều gi?",answerable,doc_src_21
+22,"Theo tài liệu YHCT, nội dung '- Tạng có chức năng hóa sinh và tàng trữ vật chất tinh vi như tinh, khí,' đề cập điều gì?",answerable,doc_src_22
+23,"Theo tai lieu YHCT, noi dung 'huyet va tan dich de duy tri hoat dong song phuc tap cua co the.' de cap dieu gi?",answerable,doc_src_23
+24,"Theo tai liệu YHCT, nội dung '- Nhung chất tinh vi nay được tang tàng tru ở ben trong ma không bai' đề cap điều gi?",answerable,doc_src_24
+25,"Theo tài liệu YHCT, nội dung '- Bao gồm 6 phủ(lục phủ): Đởm, vị, tiểu trường, đại trường,' đề cập điều gì?",answerable,doc_src_25
+26,"Theo tai lieu YHCT, noi dung 'tam tieu va bang quang.' de cap dieu gi?",answerable,doc_src_26
+27,"Theo tai liệu YHCT, nội dung '- Phu có chuc năng thu nạp va chuyển hoa thủy coc sinh ra' đề cap điều gi?",answerable,doc_src_27
+28,"Theo tài liệu YHCT, nội dung 'tinh khí. Tinh khí đó sẽ được chuyển đến các tạng, còn phủ chỉ' đề cập điều gì?",answerable,doc_src_28
+29,"Theo tai lieu YHCT, noi dung 'bai xuat ma khong tang tru lai ben trong (phu truyen hoa).' de cap dieu gi?",answerable,doc_src_29
+30,"Theo tai liệu YHCT, nội dung '- Nhung cơ quan không giong với dac tính cua Tạng va Phủ.' de cập dieu gì?",answerable,doc_src_30
+31,"Theo tài liệu YHCT, nội dung '- Bao gồm: Não, tủy, cốt, mạch, đởm và tử cung.' đề cập điều gì?",answerable,doc_src_31
+32,"Theo tai lieu YHCT, noi dung '- Hinh thai, ket cau phan lon la rong nhu Phu nhung cong nang lai la' de cap dieu gi?",answerable,doc_src_32
+33,"Theo tai liệu YHCT, nội dung 'tàng tru tinh khi giống nhu Tạng.' de cập dieu gì?",answerable,doc_src_33
+34,"Theo tài liệu YHCT, nội dung 'Đởm vốn nằm trong lục phủ nhưng lại tàng trữ“dịch mật” , là' đề cập điều gì?",answerable,doc_src_34
+35,"Theo tai lieu YHCT, noi dung 'thuoc tinh tang tinh khi giong nhu tang nen con duoc quy ve phu ky' de cap dieu gi?",answerable,doc_src_35
+36,"Theo tai liệu YHCT, nội dung '- Moi tạng phu đều ham chứa am dương. Hoat động cua tạng' de cập dieu gì?",answerable,doc_src_36
+37,"Theo tài liệu YHCT, nội dung 'phủ là dương. Chăm sóc vật chất của tạng phủ là âm.' đề cập điều gì?",answerable,doc_src_37
+38,"Theo tai lieu YHCT, noi dung '- Tang – Phu: Quan he am duong ho can.' de cap dieu gi?",answerable,doc_src_38
+39,"Theo tai liệu YHCT, nội dung '- Tang – Tang: Quan he ngũ hanh sinh khac.' đề cap điều gi?",answerable,doc_src_39
+40,"Theo tài liệu YHCT, nội dung '- Tâm được coi là “Quân chủ chi quan”.' đề cập điều gì?",answerable,doc_src_40
+41,"Theo tai lieu YHCT, noi dung '- Tang Tam tuong ung voi que Ly' de cap dieu gi?",answerable,doc_src_41
+42,"Theo tai liệu YHCT, nội dung '- Thuoc hành Hoa, tương ung với khi hậu mua Hạ.' de cập dieu gì?",answerable,doc_src_42
+43,"Theo tài liệu YHCT, nội dung '- Biểu tượng của tạng Tâm là Tim.' đề cập điều gì?",answerable,doc_src_43
+44,"Theo tai lieu YHCT, noi dung '- Cong nang chuyeu cua Tam la chu huyet mach va tang than.' de cap dieu gi?",answerable,doc_src_44
+45,"Theo tai liệu YHCT, nội dung '- Tam khai khieu ra luoi, quan he biểu ly với tieu trường.' de cập dieu gì?",answerable,doc_src_45
+46,"Theo tài liệu YHCT, nội dung '1. Tâm tàng thần (Tâm chủ thần minh):' đề cập điều gì?",answerable,doc_src_46
+47,"Theo tai lieu YHCT, noi dung '- Tam chi phoi toan bo hoat dong sinh ly va hoat dong tinh' de cap dieu gi?",answerable,doc_src_47
+48,"Theo tai liệu YHCT, nội dung 'thần, y thức va tư duy của co thể con người.' de cập dieu gì?",answerable,doc_src_48
+49,"Theo tài liệu YHCT, nội dung '→ Rối loạn dẫn đến mất ý thức, rối loạn ý thức, nói sảng, nói' đề cập điều gì?",answerable,doc_src_49
+50,"Theo tai lieu YHCT, noi dung 'me, giam tri nho, mat tap trung, cuoi khong nghi, mat ngu' de cap dieu gi?",answerable,doc_src_50
+51,"Theo tai liệu YHCT, nội dung 'hoặc ngu nhiều, hon mê,…' de cập dieu gì?",answerable,doc_src_51
+52,"Theo tài liệu YHCT, nội dung '2. Tâm chủ huyết mạch, vinh nhuận ra mặt:' đề cập điều gì?",answerable,doc_src_52
+53,"Theo tai lieu YHCT, noi dung '- “ Trung tieu bam thu khi, giu lai trap dich. Tam khi bien hoa trap' de cap dieu gi?",answerable,doc_src_53
+54,"Theo tai liệu YHCT, nội dung 'dịch ay ra huyet” (Tố Van).' đề cap điều gi?",answerable,doc_src_54
+55,"Theo tài liệu YHCT, nội dung '- Tâm hóa dinh âm từ đồ ăn uống ra sắc đỏ tạo thành huyết; Huyết' đề cập điều gì?",answerable,doc_src_55
+56,"Theo tai lieu YHCT, noi dung 'luu thong trong mach nho tam khi thuc day.' de cap dieu gi?",answerable,doc_src_56
+57,"Theo tai liệu YHCT, nội dung '- Mat được Tam nuôi duong thì hong hào, tuoi nhuận.' de cập dieu gì?",answerable,doc_src_57
+58,"Theo tài liệu YHCT, nội dung '→ Rối loạn dẫn đến sắc mặt nhợt nhạt, xanh xao, tím tái hoặc không' đề cập điều gì?",answerable,doc_src_58
+59,"Theo tai lieu YHCT, noi dung '3. Tam khai khieu ra luoi (dac biet la chot' de cap dieu gi?",answerable,doc_src_59
+60,"Theo tai liệu YHCT, nội dung '- Luoi được nuoi dưỡng day đủ thi thon,' de cập dieu gì?",answerable,doc_src_60
+61,"Theo tài liệu YHCT, nội dung 'chắc, hồng, nhuận, vận động linh hoạt.' đề cập điều gì?",answerable,doc_src_61
+62,"Theo tai lieu YHCT, noi dung '→ Roi loan dan den luoi do, luoi nhot, luoi' de cap dieu gi?",answerable,doc_src_62
+63,"Theo tai liệu YHCT, nội dung '@ Moi liên quan của Tam với su vui mung: Khi Tam bị roi loạn' de cập dieu gì?",answerable,doc_src_63
+64,"Theo tài liệu YHCT, nội dung 'sẽ dẫn đến vui mừng vô cớ, cười nói luyên thuyên.' đề cập điều gì?",answerable,doc_src_64
+65,"Theo tai lieu YHCT, noi dung '@ Tam co Tam bao lac lam ngoai ve cho Tam: Ngoai ta muon' de cap dieu gi?",answerable,doc_src_65
+66,"Theo tai liệu YHCT, nội dung 'xâm nhap vào Tam phải anh hưởng den Tâm bao trước. Roi' đề cap điều gi?",answerable,doc_src_66
+67,"Theo tài liệu YHCT, nội dung 'loạn chức năng Tâm bào sẽ dẫn đến tổn thương chức năng' đề cập điều gì?",answerable,doc_src_67
+68,"Theo tai lieu YHCT, noi dung '- Chuc nang cua Tam – Tam bao lac co lien quan mat thiet' de cap dieu gi?",answerable,doc_src_68
+69,"Theo tai liệu YHCT, nội dung 'đến he TK trung ương, he tuần hoan.' đề cap điều gi?",answerable,doc_src_69
+70,"Theo tài liệu YHCT, nội dung '- Khi Tâm bị rối loạn công năng: RL tri giác, RL huyết động.' đề cập điều gì?",answerable,doc_src_70
+71,"Theo tai lieu YHCT, noi dung '- Nhung bo phan lien quan den tang Tam: Tieu truong, Ty,' de cap dieu gi?",answerable,doc_src_71
+72,"Theo tai liệu YHCT, nội dung 'HỆ THONG PHỦ - TIỂU TRUONG' đề cap điều gi?",answerable,doc_src_72
+73,"Theo tài liệu YHCT, nội dung '- Phía trên tiếp với U lan môn, thông với miệng dưới của Vị;' đề cập điều gì?",answerable,doc_src_73
+74,"Theo tai lieu YHCT, noi dung 'duoi tiep voi Ha lan mon, thong voi dai truong.' de cap dieu gi?",answerable,doc_src_74
+75,"Theo tai liệu YHCT, nội dung '- Chuc năng: Phan biệt thanh trọc → thanh thang trọc giang.' đề cap điều gi?",answerable,doc_src_75
+76,"Theo tài liệu YHCT, nội dung '+ Chuyển chất tinh vi cho tỳ khí hóa.' đề cập điều gì?",answerable,doc_src_76
+77,"Theo tai lieu YHCT, noi dung '+ Chuyen chat troc den dai truong va Bang quang.' de cap dieu gi?",answerable,doc_src_77
+78,"Theo tai liệu YHCT, nội dung '→ RL dẫn den: Nước tieu đục do, tiêu long.' đề cap điều gi?",answerable,doc_src_78
+79,"Theo tài liệu YHCT, nội dung 'PHỦ KỲ HẰNG – MẠCH' đề cập điều gì?",answerable,doc_src_79
+80,"Theo tai lieu YHCT, noi dung '- Phan bo khap toan than, quan he chat che voi Tam.' de cap dieu gi?",answerable,doc_src_80
+81,"Theo tai liệu YHCT, nội dung '- Chuc năng: Van chuyển khi huyết nuoi dưỡng toan thân, lam' đề cap điều gi?",answerable,doc_src_81
+82,"Theo tài liệu YHCT, nội dung 'cho khí huyết vận hành theo hướng nhất định.' đề cập điều gì?",answerable,doc_src_82
+83,"Theo tai lieu YHCT, noi dung '→ Rl chuc nang cua Mach lien quan chuc nang cua Tam +' de cap dieu gi?",answerable,doc_src_83
+84,"Theo tai liệu YHCT, nội dung '- Kinh dịch: Can ứng voi quẻ Chan, quẻ Chan tượng la Sấm set (tiếng' de cập dieu gì?",answerable,doc_src_84
+85,"Theo tài liệu YHCT, nội dung 'sấm sét, báo hiệu sự xuất hiện của vạn vật, của sự sống).' đề cập điều gì?",answerable,doc_src_85
+86,"Theo tai lieu YHCT, noi dung '- Que tuong trung cho sam set, lam chan dong moi vat, moi loai.' de cap dieu gi?",answerable,doc_src_86
+87,"Theo tai liệu YHCT, nội dung '→ Can chủ con thịnh no(su giận du).' đề cap điều gi?",answerable,doc_src_87
+88,"Theo tài liệu YHCT, nội dung '→ Can chủ sự sinh sôi, sự khởi động, chủ sự vận động, Can chủ Cân.' đề cập điều gì?",answerable,doc_src_88
+89,"Theo tai lieu YHCT, noi dung '- Sam set khoi dong roi thi gio se troi len → Can chu sinh Phong.' de cap dieu gi?",answerable,doc_src_89
+90,"Theo tai liệu YHCT, nội dung '- Thuoc hành Moc, tương ung với khi hậu mua' đề cap điều gi?",answerable,doc_src_90
+91,"Theo tài liệu YHCT, nội dung '- Công năng chủyếu của Can là tàng huyết và' đề cập điều gì?",answerable,doc_src_91
+92,"Theo tai lieu YHCT, noi dung '- Quan he bieu ly voi dom.' de cap dieu gi?",answerable,doc_src_92
+93,"Theo tai liệu YHCT, nội dung '- Bieu tượng cua tạng Can là Gan, trong Dong' đề cap điều gi?",answerable,doc_src_93
+94,"Theo tài liệu YHCT, nội dung 'y vị trí Can ở hạ tiêu (ứng với Thận).' đề cập điều gì?",answerable,doc_src_94
+95,"Theo tai lieu YHCT, noi dung '1. Can chu so tiet:' de cap dieu gi?",answerable,doc_src_95
+96,"Theo tai liệu YHCT, nội dung '- Can có tac dụng thang phát (so), thấu tiet' đề cap điều gi?",answerable,doc_src_96
+97,"Theo tài liệu YHCT, nội dung '(tiết), chịu trách nhiệm điều đạt khí cơ của' đề cập điều gì?",answerable,doc_src_97
+98,"Theo tai lieu YHCT, noi dung 'toan than. Co lien quan den trang thai tam ly' de cap dieu gi?",answerable,doc_src_98
+99,"Theo tai liệu YHCT, nội dung '→ RL dẫn den bực doc, bứt rut, dễ noi' đề cap điều gi?",answerable,doc_src_99
+100,"Theo tài liệu YHCT, nội dung '2. Can tàng huyết:' đề cập điều gì?",answerable,doc_src_100

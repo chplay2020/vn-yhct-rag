@@ -1,0 +1,22 @@
+{
+  "total_questions": 100,
+  "answerable": 70,
+  "unanswerable": 30,
+  "by_variant_type": {
+    "full_diacritic": 34,
+    "no_diacritic": 33,
+    "partial_diacritic": 33
+  },
+  "by_category": {
+    "khai_niem": 66,
+    "out_of_scope": 15,
+    "absolute_claim": 15,
+    "reverse": 2,
+    "vi_thuoc": 2
+  },
+  "by_difficulty": {
+    "easy": 61,
+    "medium": 24,
+    "hard": 15
+  }
+}

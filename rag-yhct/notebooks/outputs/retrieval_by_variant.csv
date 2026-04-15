@@ -1,0 +1,33 @@
+GroupType,GroupValue,Method,Hit@10,MRR,N
+variant_type,full_diacritic,BM25,1,1.0,34
+variant_type,full_diacritic,Dense,1,1.0,34
+variant_type,full_diacritic,Hybrid (RRF),1,1.0,34
+variant_type,full_diacritic,Hybrid + Dual Query,1,1.0,34
+variant_type,no_diacritic,BM25,1,1.0,33
+variant_type,no_diacritic,Dense,1,1.0,33
+variant_type,no_diacritic,Hybrid (RRF),1,1.0,33
+variant_type,no_diacritic,Hybrid + Dual Query,1,1.0,33
+variant_type,partial_diacritic,BM25,1,1.0,3
+variant_type,partial_diacritic,Dense,1,1.0,3
+variant_type,partial_diacritic,Hybrid (RRF),1,1.0,3
+variant_type,partial_diacritic,Hybrid + Dual Query,1,1.0,3
+difficulty,easy,BM25,1,1.0,61
+difficulty,easy,Dense,1,1.0,61
+difficulty,easy,Hybrid (RRF),1,1.0,61
+difficulty,easy,Hybrid + Dual Query,1,1.0,61
+difficulty,medium,BM25,1,1.0,9
+difficulty,medium,Dense,1,1.0,9
+difficulty,medium,Hybrid (RRF),1,1.0,9
+difficulty,medium,Hybrid + Dual Query,1,1.0,9
+category,khai_niem,BM25,1,1.0,66
+category,khai_niem,Dense,1,1.0,66
+category,khai_niem,Hybrid (RRF),1,1.0,66
+category,khai_niem,Hybrid + Dual Query,1,1.0,66
+category,reverse,BM25,1,1.0,2
+category,reverse,Dense,1,1.0,2
+category,reverse,Hybrid (RRF),1,1.0,2
+category,reverse,Hybrid + Dual Query,1,1.0,2
+category,vi_thuoc,BM25,1,1.0,2
+category,vi_thuoc,Dense,1,1.0,2
+category,vi_thuoc,Hybrid (RRF),1,1.0,2
+category,vi_thuoc,Hybrid + Dual Query,1,1.0,2

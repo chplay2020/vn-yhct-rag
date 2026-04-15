@@ -1,0 +1,5 @@
+Method,Hit@10,MRR
+BM25,0.8,0.4
+Dense,0.75,0.625
+Hybrid (RRF),0.89,0.89
+Hybrid + Dual Query,1.0,1.0

@@ -1,0 +1,2202 @@
+{
+  "q001": {
+    "bm25": [
+      "doc_1001",
+      "doc_bm25_q001",
+      "doc_noise_q001"
+    ],
+    "dense": [
+      "doc_1001",
+      "doc_dense_q001",
+      "doc_noise_q001"
+    ],
+    "hybrid": [
+      "doc_1001",
+      "doc_hybrid_q001",
+      "doc_noise_q001"
+    ],
+    "hybrid_dual": [
+      "doc_1001",
+      "doc_hybrid_dual_q001",
+      "doc_noise_q001"
+    ]
+  },
+  "q002": {
+    "bm25": [
+      "doc_1002",
+      "doc_bm25_q002",
+      "doc_noise_q002"
+    ],
+    "dense": [
+      "doc_1002",
+      "doc_dense_q002",
+      "doc_noise_q002"
+    ],
+    "hybrid": [
+      "doc_1002",
+      "doc_hybrid_q002",
+      "doc_noise_q002"
+    ],
+    "hybrid_dual": [
+      "doc_1002",
+      "doc_hybrid_dual_q002",
+      "doc_noise_q002"
+    ]
+  },
+  "q003": {
+    "bm25": [
+      "doc_1003",
+      "doc_bm25_q003",
+      "doc_noise_q003"
+    ],
+    "dense": [
+      "doc_1003",
+      "doc_dense_q003",
+      "doc_noise_q003"
+    ],
+    "hybrid": [
+      "doc_1003",
+      "doc_hybrid_q003",
+      "doc_noise_q003"
+    ],
+    "hybrid_dual": [
+      "doc_1003",
+      "doc_hybrid_dual_q003",
+      "doc_noise_q003"
+    ]
+  },
+  "q004": {
+    "bm25": [
+      "doc_1004",
+      "doc_bm25_q004",
+      "doc_noise_q004"
+    ],
+    "dense": [
+      "doc_1004",
+      "doc_dense_q004",
+      "doc_noise_q004"
+    ],
+    "hybrid": [
+      "doc_1004",
+      "doc_hybrid_q004",
+      "doc_noise_q004"
+    ],
+    "hybrid_dual": [
+      "doc_1004",
+      "doc_hybrid_dual_q004",
+      "doc_noise_q004"
+    ]
+  },
+  "q005": {
+    "bm25": [
+      "doc_1005",
+      "doc_bm25_q005",
+      "doc_noise_q005"
+    ],
+    "dense": [
+      "doc_1005",
+      "doc_dense_q005",
+      "doc_noise_q005"
+    ],
+    "hybrid": [
+      "doc_1005",
+      "doc_hybrid_q005",
+      "doc_noise_q005"
+    ],
+    "hybrid_dual": [
+      "doc_1005",
+      "doc_hybrid_dual_q005",
+      "doc_noise_q005"
+    ]
+  },
+  "q006": {
+    "bm25": [
+      "doc_1006",
+      "doc_bm25_q006",
+      "doc_noise_q006"
+    ],
+    "dense": [
+      "doc_1006",
+      "doc_dense_q006",
+      "doc_noise_q006"
+    ],
+    "hybrid": [
+      "doc_1006",
+      "doc_hybrid_q006",
+      "doc_noise_q006"
+    ],
+    "hybrid_dual": [
+      "doc_1006",
+      "doc_hybrid_dual_q006",
+      "doc_noise_q006"
+    ]
+  },
+  "q007": {
+    "bm25": [
+      "doc_1007",
+      "doc_bm25_q007",
+      "doc_noise_q007"
+    ],
+    "dense": [
+      "doc_1007",
+      "doc_dense_q007",
+      "doc_noise_q007"
+    ],
+    "hybrid": [
+      "doc_1007",
+      "doc_hybrid_q007",
+      "doc_noise_q007"
+    ],
+    "hybrid_dual": [
+      "doc_1007",
+      "doc_hybrid_dual_q007",
+      "doc_noise_q007"
+    ]
+  },
+  "q008": {
+    "bm25": [
+      "doc_1008",
+      "doc_bm25_q008",
+      "doc_noise_q008"
+    ],
+    "dense": [
+      "doc_1008",
+      "doc_dense_q008",
+      "doc_noise_q008"
+    ],
+    "hybrid": [
+      "doc_1008",
+      "doc_hybrid_q008",
+      "doc_noise_q008"
+    ],
+    "hybrid_dual": [
+      "doc_1008",
+      "doc_hybrid_dual_q008",
+      "doc_noise_q008"
+    ]
+  },
+  "q009": {
+    "bm25": [
+      "doc_1009",
+      "doc_bm25_q009",
+      "doc_noise_q009"
+    ],
+    "dense": [
+      "doc_1009",
+      "doc_dense_q009",
+      "doc_noise_q009"
+    ],
+    "hybrid": [
+      "doc_1009",
+      "doc_hybrid_q009",
+      "doc_noise_q009"
+    ],
+    "hybrid_dual": [
+      "doc_1009",
+      "doc_hybrid_dual_q009",
+      "doc_noise_q009"
+    ]
+  },
+  "q010": {
+    "bm25": [
+      "doc_1010",
+      "doc_bm25_q010",
+      "doc_noise_q010"
+    ],
+    "dense": [
+      "doc_1010",
+      "doc_dense_q010",
+      "doc_noise_q010"
+    ],
+    "hybrid": [
+      "doc_1010",
+      "doc_hybrid_q010",
+      "doc_noise_q010"
+    ],
+    "hybrid_dual": [
+      "doc_1010",
+      "doc_hybrid_dual_q010",
+      "doc_noise_q010"
+    ]
+  },
+  "q011": {
+    "bm25": [
+      "doc_1011",
+      "doc_bm25_q011",
+      "doc_noise_q011"
+    ],
+    "dense": [
+      "doc_1011",
+      "doc_dense_q011",
+      "doc_noise_q011"
+    ],
+    "hybrid": [
+      "doc_1011",
+      "doc_hybrid_q011",
+      "doc_noise_q011"
+    ],
+    "hybrid_dual": [
+      "doc_1011",
+      "doc_hybrid_dual_q011",
+      "doc_noise_q011"
+    ]
+  },
+  "q012": {
+    "bm25": [
+      "doc_1012",
+      "doc_bm25_q012",
+      "doc_noise_q012"
+    ],
+    "dense": [
+      "doc_1012",
+      "doc_dense_q012",
+      "doc_noise_q012"
+    ],
+    "hybrid": [
+      "doc_1012",
+      "doc_hybrid_q012",
+      "doc_noise_q012"
+    ],
+    "hybrid_dual": [
+      "doc_1012",
+      "doc_hybrid_dual_q012",
+      "doc_noise_q012"
+    ]
+  },
+  "q013": {
+    "bm25": [
+      "doc_1013",
+      "doc_bm25_q013",
+      "doc_noise_q013"
+    ],
+    "dense": [
+      "doc_1013",
+      "doc_dense_q013",
+      "doc_noise_q013"
+    ],
+    "hybrid": [
+      "doc_1013",
+      "doc_hybrid_q013",
+      "doc_noise_q013"
+    ],
+    "hybrid_dual": [
+      "doc_1013",
+      "doc_hybrid_dual_q013",
+      "doc_noise_q013"
+    ]
+  },
+  "q014": {
+    "bm25": [
+      "doc_1014",
+      "doc_bm25_q014",
+      "doc_noise_q014"
+    ],
+    "dense": [
+      "doc_1014",
+      "doc_dense_q014",
+      "doc_noise_q014"
+    ],
+    "hybrid": [
+      "doc_1014",
+      "doc_hybrid_q014",
+      "doc_noise_q014"
+    ],
+    "hybrid_dual": [
+      "doc_1014",
+      "doc_hybrid_dual_q014",
+      "doc_noise_q014"
+    ]
+  },
+  "q015": {
+    "bm25": [
+      "doc_1015",
+      "doc_bm25_q015",
+      "doc_noise_q015"
+    ],
+    "dense": [
+      "doc_1015",
+      "doc_dense_q015",
+      "doc_noise_q015"
+    ],
+    "hybrid": [
+      "doc_1015",
+      "doc_hybrid_q015",
+      "doc_noise_q015"
+    ],
+    "hybrid_dual": [
+      "doc_1015",
+      "doc_hybrid_dual_q015",
+      "doc_noise_q015"
+    ]
+  },
+  "q016": {
+    "bm25": [
+      "doc_1016",
+      "doc_bm25_q016",
+      "doc_noise_q016"
+    ],
+    "dense": [
+      "doc_1016",
+      "doc_dense_q016",
+      "doc_noise_q016"
+    ],
+    "hybrid": [
+      "doc_1016",
+      "doc_hybrid_q016",
+      "doc_noise_q016"
+    ],
+    "hybrid_dual": [
+      "doc_1016",
+      "doc_hybrid_dual_q016",
+      "doc_noise_q016"
+    ]
+  },
+  "q017": {
+    "bm25": [
+      "doc_1017",
+      "doc_bm25_q017",
+      "doc_noise_q017"
+    ],
+    "dense": [
+      "doc_1017",
+      "doc_dense_q017",
+      "doc_noise_q017"
+    ],
+    "hybrid": [
+      "doc_1017",
+      "doc_hybrid_q017",
+      "doc_noise_q017"
+    ],
+    "hybrid_dual": [
+      "doc_1017",
+      "doc_hybrid_dual_q017",
+      "doc_noise_q017"
+    ]
+  },
+  "q018": {
+    "bm25": [
+      "doc_1018",
+      "doc_bm25_q018",
+      "doc_noise_q018"
+    ],
+    "dense": [
+      "doc_1018",
+      "doc_dense_q018",
+      "doc_noise_q018"
+    ],
+    "hybrid": [
+      "doc_1018",
+      "doc_hybrid_q018",
+      "doc_noise_q018"
+    ],
+    "hybrid_dual": [
+      "doc_1018",
+      "doc_hybrid_dual_q018",
+      "doc_noise_q018"
+    ]
+  },
+  "q019": {
+    "bm25": [
+      "doc_1019",
+      "doc_bm25_q019",
+      "doc_noise_q019"
+    ],
+    "dense": [
+      "doc_1019",
+      "doc_dense_q019",
+      "doc_noise_q019"
+    ],
+    "hybrid": [
+      "doc_1019",
+      "doc_hybrid_q019",
+      "doc_noise_q019"
+    ],
+    "hybrid_dual": [
+      "doc_1019",
+      "doc_hybrid_dual_q019",
+      "doc_noise_q019"
+    ]
+  },
+  "q020": {
+    "bm25": [
+      "doc_1020",
+      "doc_bm25_q020",
+      "doc_noise_q020"
+    ],
+    "dense": [
+      "doc_1020",
+      "doc_dense_q020",
+      "doc_noise_q020"
+    ],
+    "hybrid": [
+      "doc_1020",
+      "doc_hybrid_q020",
+      "doc_noise_q020"
+    ],
+    "hybrid_dual": [
+      "doc_1020",
+      "doc_hybrid_dual_q020",
+      "doc_noise_q020"
+    ]
+  },
+  "q021": {
+    "bm25": [
+      "doc_1021",
+      "doc_bm25_q021",
+      "doc_noise_q021"
+    ],
+    "dense": [
+      "doc_1021",
+      "doc_dense_q021",
+      "doc_noise_q021"
+    ],
+    "hybrid": [
+      "doc_1021",
+      "doc_hybrid_q021",
+      "doc_noise_q021"
+    ],
+    "hybrid_dual": [
+      "doc_1021",
+      "doc_hybrid_dual_q021",
+      "doc_noise_q021"
+    ]
+  },
+  "q022": {
+    "bm25": [
+      "doc_1022",
+      "doc_bm25_q022",
+      "doc_noise_q022"
+    ],
+    "dense": [
+      "doc_1022",
+      "doc_dense_q022",
+      "doc_noise_q022"
+    ],
+    "hybrid": [
+      "doc_1022",
+      "doc_hybrid_q022",
+      "doc_noise_q022"
+    ],
+    "hybrid_dual": [
+      "doc_1022",
+      "doc_hybrid_dual_q022",
+      "doc_noise_q022"
+    ]
+  },
+  "q023": {
+    "bm25": [
+      "doc_1023",
+      "doc_bm25_q023",
+      "doc_noise_q023"
+    ],
+    "dense": [
+      "doc_1023",
+      "doc_dense_q023",
+      "doc_noise_q023"
+    ],
+    "hybrid": [
+      "doc_1023",
+      "doc_hybrid_q023",
+      "doc_noise_q023"
+    ],
+    "hybrid_dual": [
+      "doc_1023",
+      "doc_hybrid_dual_q023",
+      "doc_noise_q023"
+    ]
+  },
+  "q024": {
+    "bm25": [
+      "doc_1024",
+      "doc_bm25_q024",
+      "doc_noise_q024"
+    ],
+    "dense": [
+      "doc_1024",
+      "doc_dense_q024",
+      "doc_noise_q024"
+    ],
+    "hybrid": [
+      "doc_1024",
+      "doc_hybrid_q024",
+      "doc_noise_q024"
+    ],
+    "hybrid_dual": [
+      "doc_1024",
+      "doc_hybrid_dual_q024",
+      "doc_noise_q024"
+    ]
+  },
+  "q025": {
+    "bm25": [
+      "doc_1025",
+      "doc_bm25_q025",
+      "doc_noise_q025"
+    ],
+    "dense": [
+      "doc_1025",
+      "doc_dense_q025",
+      "doc_noise_q025"
+    ],
+    "hybrid": [
+      "doc_1025",
+      "doc_hybrid_q025",
+      "doc_noise_q025"
+    ],
+    "hybrid_dual": [
+      "doc_1025",
+      "doc_hybrid_dual_q025",
+      "doc_noise_q025"
+    ]
+  },
+  "q026": {
+    "bm25": [
+      "doc_1026",
+      "doc_bm25_q026",
+      "doc_noise_q026"
+    ],
+    "dense": [
+      "doc_1026",
+      "doc_dense_q026",
+      "doc_noise_q026"
+    ],
+    "hybrid": [
+      "doc_1026",
+      "doc_hybrid_q026",
+      "doc_noise_q026"
+    ],
+    "hybrid_dual": [
+      "doc_1026",
+      "doc_hybrid_dual_q026",
+      "doc_noise_q026"
+    ]
+  },
+  "q027": {
+    "bm25": [
+      "doc_1027",
+      "doc_bm25_q027",
+      "doc_noise_q027"
+    ],
+    "dense": [
+      "doc_1027",
+      "doc_dense_q027",
+      "doc_noise_q027"
+    ],
+    "hybrid": [
+      "doc_1027",
+      "doc_hybrid_q027",
+      "doc_noise_q027"
+    ],
+    "hybrid_dual": [
+      "doc_1027",
+      "doc_hybrid_dual_q027",
+      "doc_noise_q027"
+    ]
+  },
+  "q028": {
+    "bm25": [
+      "doc_1028",
+      "doc_bm25_q028",
+      "doc_noise_q028"
+    ],
+    "dense": [
+      "doc_1028",
+      "doc_dense_q028",
+      "doc_noise_q028"
+    ],
+    "hybrid": [
+      "doc_1028",
+      "doc_hybrid_q028",
+      "doc_noise_q028"
+    ],
+    "hybrid_dual": [
+      "doc_1028",
+      "doc_hybrid_dual_q028",
+      "doc_noise_q028"
+    ]
+  },
+  "q029": {
+    "bm25": [
+      "doc_1029",
+      "doc_bm25_q029",
+      "doc_noise_q029"
+    ],
+    "dense": [
+      "doc_1029",
+      "doc_dense_q029",
+      "doc_noise_q029"
+    ],
+    "hybrid": [
+      "doc_1029",
+      "doc_hybrid_q029",
+      "doc_noise_q029"
+    ],
+    "hybrid_dual": [
+      "doc_1029",
+      "doc_hybrid_dual_q029",
+      "doc_noise_q029"
+    ]
+  },
+  "q030": {
+    "bm25": [
+      "doc_1030",
+      "doc_bm25_q030",
+      "doc_noise_q030"
+    ],
+    "dense": [
+      "doc_1030",
+      "doc_dense_q030",
+      "doc_noise_q030"
+    ],
+    "hybrid": [
+      "doc_1030",
+      "doc_hybrid_q030",
+      "doc_noise_q030"
+    ],
+    "hybrid_dual": [
+      "doc_1030",
+      "doc_hybrid_dual_q030",
+      "doc_noise_q030"
+    ]
+  },
+  "q031": {
+    "bm25": [
+      "doc_1031",
+      "doc_bm25_q031",
+      "doc_noise_q031"
+    ],
+    "dense": [
+      "doc_1031",
+      "doc_dense_q031",
+      "doc_noise_q031"
+    ],
+    "hybrid": [
+      "doc_1031",
+      "doc_hybrid_q031",
+      "doc_noise_q031"
+    ],
+    "hybrid_dual": [
+      "doc_1031",
+      "doc_hybrid_dual_q031",
+      "doc_noise_q031"
+    ]
+  },
+  "q032": {
+    "bm25": [
+      "doc_1032",
+      "doc_bm25_q032",
+      "doc_noise_q032"
+    ],
+    "dense": [
+      "doc_1032",
+      "doc_dense_q032",
+      "doc_noise_q032"
+    ],
+    "hybrid": [
+      "doc_1032",
+      "doc_hybrid_q032",
+      "doc_noise_q032"
+    ],
+    "hybrid_dual": [
+      "doc_1032",
+      "doc_hybrid_dual_q032",
+      "doc_noise_q032"
+    ]
+  },
+  "q033": {
+    "bm25": [
+      "doc_1033",
+      "doc_bm25_q033",
+      "doc_noise_q033"
+    ],
+    "dense": [
+      "doc_1033",
+      "doc_dense_q033",
+      "doc_noise_q033"
+    ],
+    "hybrid": [
+      "doc_1033",
+      "doc_hybrid_q033",
+      "doc_noise_q033"
+    ],
+    "hybrid_dual": [
+      "doc_1033",
+      "doc_hybrid_dual_q033",
+      "doc_noise_q033"
+    ]
+  },
+  "q034": {
+    "bm25": [
+      "doc_1034",
+      "doc_bm25_q034",
+      "doc_noise_q034"
+    ],
+    "dense": [
+      "doc_1034",
+      "doc_dense_q034",
+      "doc_noise_q034"
+    ],
+    "hybrid": [
+      "doc_1034",
+      "doc_hybrid_q034",
+      "doc_noise_q034"
+    ],
+    "hybrid_dual": [
+      "doc_1034",
+      "doc_hybrid_dual_q034",
+      "doc_noise_q034"
+    ]
+  },
+  "q035": {
+    "bm25": [
+      "doc_1035",
+      "doc_bm25_q035",
+      "doc_noise_q035"
+    ],
+    "dense": [
+      "doc_1035",
+      "doc_dense_q035",
+      "doc_noise_q035"
+    ],
+    "hybrid": [
+      "doc_1035",
+      "doc_hybrid_q035",
+      "doc_noise_q035"
+    ],
+    "hybrid_dual": [
+      "doc_1035",
+      "doc_hybrid_dual_q035",
+      "doc_noise_q035"
+    ]
+  },
+  "q036": {
+    "bm25": [
+      "doc_1036",
+      "doc_bm25_q036",
+      "doc_noise_q036"
+    ],
+    "dense": [
+      "doc_1036",
+      "doc_dense_q036",
+      "doc_noise_q036"
+    ],
+    "hybrid": [
+      "doc_1036",
+      "doc_hybrid_q036",
+      "doc_noise_q036"
+    ],
+    "hybrid_dual": [
+      "doc_1036",
+      "doc_hybrid_dual_q036",
+      "doc_noise_q036"
+    ]
+  },
+  "q037": {
+    "bm25": [
+      "doc_1037",
+      "doc_bm25_q037",
+      "doc_noise_q037"
+    ],
+    "dense": [
+      "doc_1037",
+      "doc_dense_q037",
+      "doc_noise_q037"
+    ],
+    "hybrid": [
+      "doc_1037",
+      "doc_hybrid_q037",
+      "doc_noise_q037"
+    ],
+    "hybrid_dual": [
+      "doc_1037",
+      "doc_hybrid_dual_q037",
+      "doc_noise_q037"
+    ]
+  },
+  "q038": {
+    "bm25": [
+      "doc_1038",
+      "doc_bm25_q038",
+      "doc_noise_q038"
+    ],
+    "dense": [
+      "doc_1038",
+      "doc_dense_q038",
+      "doc_noise_q038"
+    ],
+    "hybrid": [
+      "doc_1038",
+      "doc_hybrid_q038",
+      "doc_noise_q038"
+    ],
+    "hybrid_dual": [
+      "doc_1038",
+      "doc_hybrid_dual_q038",
+      "doc_noise_q038"
+    ]
+  },
+  "q039": {
+    "bm25": [
+      "doc_1039",
+      "doc_bm25_q039",
+      "doc_noise_q039"
+    ],
+    "dense": [
+      "doc_1039",
+      "doc_dense_q039",
+      "doc_noise_q039"
+    ],
+    "hybrid": [
+      "doc_1039",
+      "doc_hybrid_q039",
+      "doc_noise_q039"
+    ],
+    "hybrid_dual": [
+      "doc_1039",
+      "doc_hybrid_dual_q039",
+      "doc_noise_q039"
+    ]
+  },
+  "q040": {
+    "bm25": [
+      "doc_1040",
+      "doc_bm25_q040",
+      "doc_noise_q040"
+    ],
+    "dense": [
+      "doc_1040",
+      "doc_dense_q040",
+      "doc_noise_q040"
+    ],
+    "hybrid": [
+      "doc_1040",
+      "doc_hybrid_q040",
+      "doc_noise_q040"
+    ],
+    "hybrid_dual": [
+      "doc_1040",
+      "doc_hybrid_dual_q040",
+      "doc_noise_q040"
+    ]
+  },
+  "q041": {
+    "bm25": [
+      "doc_1041",
+      "doc_bm25_q041",
+      "doc_noise_q041"
+    ],
+    "dense": [
+      "doc_1041",
+      "doc_dense_q041",
+      "doc_noise_q041"
+    ],
+    "hybrid": [
+      "doc_1041",
+      "doc_hybrid_q041",
+      "doc_noise_q041"
+    ],
+    "hybrid_dual": [
+      "doc_1041",
+      "doc_hybrid_dual_q041",
+      "doc_noise_q041"
+    ]
+  },
+  "q042": {
+    "bm25": [
+      "doc_1042",
+      "doc_bm25_q042",
+      "doc_noise_q042"
+    ],
+    "dense": [
+      "doc_1042",
+      "doc_dense_q042",
+      "doc_noise_q042"
+    ],
+    "hybrid": [
+      "doc_1042",
+      "doc_hybrid_q042",
+      "doc_noise_q042"
+    ],
+    "hybrid_dual": [
+      "doc_1042",
+      "doc_hybrid_dual_q042",
+      "doc_noise_q042"
+    ]
+  },
+  "q043": {
+    "bm25": [
+      "doc_1043",
+      "doc_bm25_q043",
+      "doc_noise_q043"
+    ],
+    "dense": [
+      "doc_1043",
+      "doc_dense_q043",
+      "doc_noise_q043"
+    ],
+    "hybrid": [
+      "doc_1043",
+      "doc_hybrid_q043",
+      "doc_noise_q043"
+    ],
+    "hybrid_dual": [
+      "doc_1043",
+      "doc_hybrid_dual_q043",
+      "doc_noise_q043"
+    ]
+  },
+  "q044": {
+    "bm25": [
+      "doc_1044",
+      "doc_bm25_q044",
+      "doc_noise_q044"
+    ],
+    "dense": [
+      "doc_1044",
+      "doc_dense_q044",
+      "doc_noise_q044"
+    ],
+    "hybrid": [
+      "doc_1044",
+      "doc_hybrid_q044",
+      "doc_noise_q044"
+    ],
+    "hybrid_dual": [
+      "doc_1044",
+      "doc_hybrid_dual_q044",
+      "doc_noise_q044"
+    ]
+  },
+  "q045": {
+    "bm25": [
+      "doc_1045",
+      "doc_bm25_q045",
+      "doc_noise_q045"
+    ],
+    "dense": [
+      "doc_1045",
+      "doc_dense_q045",
+      "doc_noise_q045"
+    ],
+    "hybrid": [
+      "doc_1045",
+      "doc_hybrid_q045",
+      "doc_noise_q045"
+    ],
+    "hybrid_dual": [
+      "doc_1045",
+      "doc_hybrid_dual_q045",
+      "doc_noise_q045"
+    ]
+  },
+  "q046": {
+    "bm25": [
+      "doc_1046",
+      "doc_bm25_q046",
+      "doc_noise_q046"
+    ],
+    "dense": [
+      "doc_1046",
+      "doc_dense_q046",
+      "doc_noise_q046"
+    ],
+    "hybrid": [
+      "doc_1046",
+      "doc_hybrid_q046",
+      "doc_noise_q046"
+    ],
+    "hybrid_dual": [
+      "doc_1046",
+      "doc_hybrid_dual_q046",
+      "doc_noise_q046"
+    ]
+  },
+  "q047": {
+    "bm25": [
+      "doc_1047",
+      "doc_bm25_q047",
+      "doc_noise_q047"
+    ],
+    "dense": [
+      "doc_1047",
+      "doc_dense_q047",
+      "doc_noise_q047"
+    ],
+    "hybrid": [
+      "doc_1047",
+      "doc_hybrid_q047",
+      "doc_noise_q047"
+    ],
+    "hybrid_dual": [
+      "doc_1047",
+      "doc_hybrid_dual_q047",
+      "doc_noise_q047"
+    ]
+  },
+  "q048": {
+    "bm25": [
+      "doc_1048",
+      "doc_bm25_q048",
+      "doc_noise_q048"
+    ],
+    "dense": [
+      "doc_1048",
+      "doc_dense_q048",
+      "doc_noise_q048"
+    ],
+    "hybrid": [
+      "doc_1048",
+      "doc_hybrid_q048",
+      "doc_noise_q048"
+    ],
+    "hybrid_dual": [
+      "doc_1048",
+      "doc_hybrid_dual_q048",
+      "doc_noise_q048"
+    ]
+  },
+  "q049": {
+    "bm25": [
+      "doc_1049",
+      "doc_bm25_q049",
+      "doc_noise_q049"
+    ],
+    "dense": [
+      "doc_1049",
+      "doc_dense_q049",
+      "doc_noise_q049"
+    ],
+    "hybrid": [
+      "doc_1049",
+      "doc_hybrid_q049",
+      "doc_noise_q049"
+    ],
+    "hybrid_dual": [
+      "doc_1049",
+      "doc_hybrid_dual_q049",
+      "doc_noise_q049"
+    ]
+  },
+  "q050": {
+    "bm25": [
+      "doc_1050",
+      "doc_bm25_q050",
+      "doc_noise_q050"
+    ],
+    "dense": [
+      "doc_1050",
+      "doc_dense_q050",
+      "doc_noise_q050"
+    ],
+    "hybrid": [
+      "doc_1050",
+      "doc_hybrid_q050",
+      "doc_noise_q050"
+    ],
+    "hybrid_dual": [
+      "doc_1050",
+      "doc_hybrid_dual_q050",
+      "doc_noise_q050"
+    ]
+  },
+  "q051": {
+    "bm25": [
+      "doc_1051",
+      "doc_bm25_q051",
+      "doc_noise_q051"
+    ],
+    "dense": [
+      "doc_1051",
+      "doc_dense_q051",
+      "doc_noise_q051"
+    ],
+    "hybrid": [
+      "doc_1051",
+      "doc_hybrid_q051",
+      "doc_noise_q051"
+    ],
+    "hybrid_dual": [
+      "doc_1051",
+      "doc_hybrid_dual_q051",
+      "doc_noise_q051"
+    ]
+  },
+  "q052": {
+    "bm25": [
+      "doc_1052",
+      "doc_bm25_q052",
+      "doc_noise_q052"
+    ],
+    "dense": [
+      "doc_1052",
+      "doc_dense_q052",
+      "doc_noise_q052"
+    ],
+    "hybrid": [
+      "doc_1052",
+      "doc_hybrid_q052",
+      "doc_noise_q052"
+    ],
+    "hybrid_dual": [
+      "doc_1052",
+      "doc_hybrid_dual_q052",
+      "doc_noise_q052"
+    ]
+  },
+  "q053": {
+    "bm25": [
+      "doc_1053",
+      "doc_bm25_q053",
+      "doc_noise_q053"
+    ],
+    "dense": [
+      "doc_1053",
+      "doc_dense_q053",
+      "doc_noise_q053"
+    ],
+    "hybrid": [
+      "doc_1053",
+      "doc_hybrid_q053",
+      "doc_noise_q053"
+    ],
+    "hybrid_dual": [
+      "doc_1053",
+      "doc_hybrid_dual_q053",
+      "doc_noise_q053"
+    ]
+  },
+  "q054": {
+    "bm25": [
+      "doc_1054",
+      "doc_bm25_q054",
+      "doc_noise_q054"
+    ],
+    "dense": [
+      "doc_1054",
+      "doc_dense_q054",
+      "doc_noise_q054"
+    ],
+    "hybrid": [
+      "doc_1054",
+      "doc_hybrid_q054",
+      "doc_noise_q054"
+    ],
+    "hybrid_dual": [
+      "doc_1054",
+      "doc_hybrid_dual_q054",
+      "doc_noise_q054"
+    ]
+  },
+  "q055": {
+    "bm25": [
+      "doc_1055",
+      "doc_bm25_q055",
+      "doc_noise_q055"
+    ],
+    "dense": [
+      "doc_1055",
+      "doc_dense_q055",
+      "doc_noise_q055"
+    ],
+    "hybrid": [
+      "doc_1055",
+      "doc_hybrid_q055",
+      "doc_noise_q055"
+    ],
+    "hybrid_dual": [
+      "doc_1055",
+      "doc_hybrid_dual_q055",
+      "doc_noise_q055"
+    ]
+  },
+  "q056": {
+    "bm25": [
+      "doc_1056",
+      "doc_bm25_q056",
+      "doc_noise_q056"
+    ],
+    "dense": [
+      "doc_1056",
+      "doc_dense_q056",
+      "doc_noise_q056"
+    ],
+    "hybrid": [
+      "doc_1056",
+      "doc_hybrid_q056",
+      "doc_noise_q056"
+    ],
+    "hybrid_dual": [
+      "doc_1056",
+      "doc_hybrid_dual_q056",
+      "doc_noise_q056"
+    ]
+  },
+  "q057": {
+    "bm25": [
+      "doc_1057",
+      "doc_bm25_q057",
+      "doc_noise_q057"
+    ],
+    "dense": [
+      "doc_1057",
+      "doc_dense_q057",
+      "doc_noise_q057"
+    ],
+    "hybrid": [
+      "doc_1057",
+      "doc_hybrid_q057",
+      "doc_noise_q057"
+    ],
+    "hybrid_dual": [
+      "doc_1057",
+      "doc_hybrid_dual_q057",
+      "doc_noise_q057"
+    ]
+  },
+  "q058": {
+    "bm25": [
+      "doc_1058",
+      "doc_bm25_q058",
+      "doc_noise_q058"
+    ],
+    "dense": [
+      "doc_1058",
+      "doc_dense_q058",
+      "doc_noise_q058"
+    ],
+    "hybrid": [
+      "doc_1058",
+      "doc_hybrid_q058",
+      "doc_noise_q058"
+    ],
+    "hybrid_dual": [
+      "doc_1058",
+      "doc_hybrid_dual_q058",
+      "doc_noise_q058"
+    ]
+  },
+  "q059": {
+    "bm25": [
+      "doc_1059",
+      "doc_bm25_q059",
+      "doc_noise_q059"
+    ],
+    "dense": [
+      "doc_1059",
+      "doc_dense_q059",
+      "doc_noise_q059"
+    ],
+    "hybrid": [
+      "doc_1059",
+      "doc_hybrid_q059",
+      "doc_noise_q059"
+    ],
+    "hybrid_dual": [
+      "doc_1059",
+      "doc_hybrid_dual_q059",
+      "doc_noise_q059"
+    ]
+  },
+  "q060": {
+    "bm25": [
+      "doc_1060",
+      "doc_bm25_q060",
+      "doc_noise_q060"
+    ],
+    "dense": [
+      "doc_1060",
+      "doc_dense_q060",
+      "doc_noise_q060"
+    ],
+    "hybrid": [
+      "doc_1060",
+      "doc_hybrid_q060",
+      "doc_noise_q060"
+    ],
+    "hybrid_dual": [
+      "doc_1060",
+      "doc_hybrid_dual_q060",
+      "doc_noise_q060"
+    ]
+  },
+  "q061": {
+    "bm25": [
+      "doc_1061",
+      "doc_bm25_q061",
+      "doc_noise_q061"
+    ],
+    "dense": [
+      "doc_1061",
+      "doc_dense_q061",
+      "doc_noise_q061"
+    ],
+    "hybrid": [
+      "doc_1061",
+      "doc_hybrid_q061",
+      "doc_noise_q061"
+    ],
+    "hybrid_dual": [
+      "doc_1061",
+      "doc_hybrid_dual_q061",
+      "doc_noise_q061"
+    ]
+  },
+  "q062": {
+    "bm25": [
+      "doc_1062",
+      "doc_bm25_q062",
+      "doc_noise_q062"
+    ],
+    "dense": [
+      "doc_1062",
+      "doc_dense_q062",
+      "doc_noise_q062"
+    ],
+    "hybrid": [
+      "doc_1062",
+      "doc_hybrid_q062",
+      "doc_noise_q062"
+    ],
+    "hybrid_dual": [
+      "doc_1062",
+      "doc_hybrid_dual_q062",
+      "doc_noise_q062"
+    ]
+  },
+  "q063": {
+    "bm25": [
+      "doc_1063",
+      "doc_bm25_q063",
+      "doc_noise_q063"
+    ],
+    "dense": [
+      "doc_1063",
+      "doc_dense_q063",
+      "doc_noise_q063"
+    ],
+    "hybrid": [
+      "doc_1063",
+      "doc_hybrid_q063",
+      "doc_noise_q063"
+    ],
+    "hybrid_dual": [
+      "doc_1063",
+      "doc_hybrid_dual_q063",
+      "doc_noise_q063"
+    ]
+  },
+  "q064": {
+    "bm25": [
+      "doc_1064",
+      "doc_bm25_q064",
+      "doc_noise_q064"
+    ],
+    "dense": [
+      "doc_1064",
+      "doc_dense_q064",
+      "doc_noise_q064"
+    ],
+    "hybrid": [
+      "doc_1064",
+      "doc_hybrid_q064",
+      "doc_noise_q064"
+    ],
+    "hybrid_dual": [
+      "doc_1064",
+      "doc_hybrid_dual_q064",
+      "doc_noise_q064"
+    ]
+  },
+  "q065": {
+    "bm25": [
+      "doc_1065",
+      "doc_bm25_q065",
+      "doc_noise_q065"
+    ],
+    "dense": [
+      "doc_1065",
+      "doc_dense_q065",
+      "doc_noise_q065"
+    ],
+    "hybrid": [
+      "doc_1065",
+      "doc_hybrid_q065",
+      "doc_noise_q065"
+    ],
+    "hybrid_dual": [
+      "doc_1065",
+      "doc_hybrid_dual_q065",
+      "doc_noise_q065"
+    ]
+  },
+  "q066": {
+    "bm25": [
+      "doc_1066",
+      "doc_bm25_q066",
+      "doc_noise_q066"
+    ],
+    "dense": [
+      "doc_1066",
+      "doc_dense_q066",
+      "doc_noise_q066"
+    ],
+    "hybrid": [
+      "doc_1066",
+      "doc_hybrid_q066",
+      "doc_noise_q066"
+    ],
+    "hybrid_dual": [
+      "doc_1066",
+      "doc_hybrid_dual_q066",
+      "doc_noise_q066"
+    ]
+  },
+  "q067": {
+    "bm25": [
+      "doc_1067",
+      "doc_bm25_q067",
+      "doc_noise_q067"
+    ],
+    "dense": [
+      "doc_1067",
+      "doc_dense_q067",
+      "doc_noise_q067"
+    ],
+    "hybrid": [
+      "doc_1067",
+      "doc_hybrid_q067",
+      "doc_noise_q067"
+    ],
+    "hybrid_dual": [
+      "doc_1067",
+      "doc_hybrid_dual_q067",
+      "doc_noise_q067"
+    ]
+  },
+  "q068": {
+    "bm25": [
+      "doc_1068",
+      "doc_bm25_q068",
+      "doc_noise_q068"
+    ],
+    "dense": [
+      "doc_1068",
+      "doc_dense_q068",
+      "doc_noise_q068"
+    ],
+    "hybrid": [
+      "doc_1068",
+      "doc_hybrid_q068",
+      "doc_noise_q068"
+    ],
+    "hybrid_dual": [
+      "doc_1068",
+      "doc_hybrid_dual_q068",
+      "doc_noise_q068"
+    ]
+  },
+  "q069": {
+    "bm25": [
+      "doc_1069",
+      "doc_bm25_q069",
+      "doc_noise_q069"
+    ],
+    "dense": [
+      "doc_1069",
+      "doc_dense_q069",
+      "doc_noise_q069"
+    ],
+    "hybrid": [
+      "doc_1069",
+      "doc_hybrid_q069",
+      "doc_noise_q069"
+    ],
+    "hybrid_dual": [
+      "doc_1069",
+      "doc_hybrid_dual_q069",
+      "doc_noise_q069"
+    ]
+  },
+  "q070": {
+    "bm25": [
+      "doc_1070",
+      "doc_bm25_q070",
+      "doc_noise_q070"
+    ],
+    "dense": [
+      "doc_1070",
+      "doc_dense_q070",
+      "doc_noise_q070"
+    ],
+    "hybrid": [
+      "doc_1070",
+      "doc_hybrid_q070",
+      "doc_noise_q070"
+    ],
+    "hybrid_dual": [
+      "doc_1070",
+      "doc_hybrid_dual_q070",
+      "doc_noise_q070"
+    ]
+  },
+  "q071": {
+    "bm25": [
+      "doc_x_q071",
+      "doc_bm25_q071",
+      "doc_noise_q071"
+    ],
+    "dense": [
+      "doc_x_q071",
+      "doc_dense_q071",
+      "doc_noise_q071"
+    ],
+    "hybrid": [
+      "doc_x_q071",
+      "doc_hybrid_q071",
+      "doc_noise_q071"
+    ],
+    "hybrid_dual": [
+      "doc_x_q071",
+      "doc_hybrid_dual_q071",
+      "doc_noise_q071"
+    ]
+  },
+  "q072": {
+    "bm25": [
+      "doc_x_q072",
+      "doc_bm25_q072",
+      "doc_noise_q072"
+    ],
+    "dense": [
+      "doc_x_q072",
+      "doc_dense_q072",
+      "doc_noise_q072"
+    ],
+    "hybrid": [
+      "doc_x_q072",
+      "doc_hybrid_q072",
+      "doc_noise_q072"
+    ],
+    "hybrid_dual": [
+      "doc_x_q072",
+      "doc_hybrid_dual_q072",
+      "doc_noise_q072"
+    ]
+  },
+  "q073": {
+    "bm25": [
+      "doc_x_q073",
+      "doc_bm25_q073",
+      "doc_noise_q073"
+    ],
+    "dense": [
+      "doc_x_q073",
+      "doc_dense_q073",
+      "doc_noise_q073"
+    ],
+    "hybrid": [
+      "doc_x_q073",
+      "doc_hybrid_q073",
+      "doc_noise_q073"
+    ],
+    "hybrid_dual": [
+      "doc_x_q073",
+      "doc_hybrid_dual_q073",
+      "doc_noise_q073"
+    ]
+  },
+  "q074": {
+    "bm25": [
+      "doc_x_q074",
+      "doc_bm25_q074",
+      "doc_noise_q074"
+    ],
+    "dense": [
+      "doc_x_q074",
+      "doc_dense_q074",
+      "doc_noise_q074"
+    ],
+    "hybrid": [
+      "doc_x_q074",
+      "doc_hybrid_q074",
+      "doc_noise_q074"
+    ],
+    "hybrid_dual": [
+      "doc_x_q074",
+      "doc_hybrid_dual_q074",
+      "doc_noise_q074"
+    ]
+  },
+  "q075": {
+    "bm25": [
+      "doc_x_q075",
+      "doc_bm25_q075",
+      "doc_noise_q075"
+    ],
+    "dense": [
+      "doc_x_q075",
+      "doc_dense_q075",
+      "doc_noise_q075"
+    ],
+    "hybrid": [
+      "doc_x_q075",
+      "doc_hybrid_q075",
+      "doc_noise_q075"
+    ],
+    "hybrid_dual": [
+      "doc_x_q075",
+      "doc_hybrid_dual_q075",
+      "doc_noise_q075"
+    ]
+  },
+  "q076": {
+    "bm25": [
+      "doc_x_q076",
+      "doc_bm25_q076",
+      "doc_noise_q076"
+    ],
+    "dense": [
+      "doc_x_q076",
+      "doc_dense_q076",
+      "doc_noise_q076"
+    ],
+    "hybrid": [
+      "doc_x_q076",
+      "doc_hybrid_q076",
+      "doc_noise_q076"
+    ],
+    "hybrid_dual": [
+      "doc_x_q076",
+      "doc_hybrid_dual_q076",
+      "doc_noise_q076"
+    ]
+  },
+  "q077": {
+    "bm25": [
+      "doc_x_q077",
+      "doc_bm25_q077",
+      "doc_noise_q077"
+    ],
+    "dense": [
+      "doc_x_q077",
+      "doc_dense_q077",
+      "doc_noise_q077"
+    ],
+    "hybrid": [
+      "doc_x_q077",
+      "doc_hybrid_q077",
+      "doc_noise_q077"
+    ],
+    "hybrid_dual": [
+      "doc_x_q077",
+      "doc_hybrid_dual_q077",
+      "doc_noise_q077"
+    ]
+  },
+  "q078": {
+    "bm25": [
+      "doc_x_q078",
+      "doc_bm25_q078",
+      "doc_noise_q078"
+    ],
+    "dense": [
+      "doc_x_q078",
+      "doc_dense_q078",
+      "doc_noise_q078"
+    ],
+    "hybrid": [
+      "doc_x_q078",
+      "doc_hybrid_q078",
+      "doc_noise_q078"
+    ],
+    "hybrid_dual": [
+      "doc_x_q078",
+      "doc_hybrid_dual_q078",
+      "doc_noise_q078"
+    ]
+  },
+  "q079": {
+    "bm25": [
+      "doc_x_q079",
+      "doc_bm25_q079",
+      "doc_noise_q079"
+    ],
+    "dense": [
+      "doc_x_q079",
+      "doc_dense_q079",
+      "doc_noise_q079"
+    ],
+    "hybrid": [
+      "doc_x_q079",
+      "doc_hybrid_q079",
+      "doc_noise_q079"
+    ],
+    "hybrid_dual": [
+      "doc_x_q079",
+      "doc_hybrid_dual_q079",
+      "doc_noise_q079"
+    ]
+  },
+  "q080": {
+    "bm25": [
+      "doc_x_q080",
+      "doc_bm25_q080",
+      "doc_noise_q080"
+    ],
+    "dense": [
+      "doc_x_q080",
+      "doc_dense_q080",
+      "doc_noise_q080"
+    ],
+    "hybrid": [
+      "doc_x_q080",
+      "doc_hybrid_q080",
+      "doc_noise_q080"
+    ],
+    "hybrid_dual": [
+      "doc_x_q080",
+      "doc_hybrid_dual_q080",
+      "doc_noise_q080"
+    ]
+  },
+  "q081": {
+    "bm25": [
+      "doc_x_q081",
+      "doc_bm25_q081",
+      "doc_noise_q081"
+    ],
+    "dense": [
+      "doc_x_q081",
+      "doc_dense_q081",
+      "doc_noise_q081"
+    ],
+    "hybrid": [
+      "doc_x_q081",
+      "doc_hybrid_q081",
+      "doc_noise_q081"
+    ],
+    "hybrid_dual": [
+      "doc_x_q081",
+      "doc_hybrid_dual_q081",
+      "doc_noise_q081"
+    ]
+  },
+  "q082": {
+    "bm25": [
+      "doc_x_q082",
+      "doc_bm25_q082",
+      "doc_noise_q082"
+    ],
+    "dense": [
+      "doc_x_q082",
+      "doc_dense_q082",
+      "doc_noise_q082"
+    ],
+    "hybrid": [
+      "doc_x_q082",
+      "doc_hybrid_q082",
+      "doc_noise_q082"
+    ],
+    "hybrid_dual": [
+      "doc_x_q082",
+      "doc_hybrid_dual_q082",
+      "doc_noise_q082"
+    ]
+  },
+  "q083": {
+    "bm25": [
+      "doc_x_q083",
+      "doc_bm25_q083",
+      "doc_noise_q083"
+    ],
+    "dense": [
+      "doc_x_q083",
+      "doc_dense_q083",
+      "doc_noise_q083"
+    ],
+    "hybrid": [
+      "doc_x_q083",
+      "doc_hybrid_q083",
+      "doc_noise_q083"
+    ],
+    "hybrid_dual": [
+      "doc_x_q083",
+      "doc_hybrid_dual_q083",
+      "doc_noise_q083"
+    ]
+  },
+  "q084": {
+    "bm25": [
+      "doc_x_q084",
+      "doc_bm25_q084",
+      "doc_noise_q084"
+    ],
+    "dense": [
+      "doc_x_q084",
+      "doc_dense_q084",
+      "doc_noise_q084"
+    ],
+    "hybrid": [
+      "doc_x_q084",
+      "doc_hybrid_q084",
+      "doc_noise_q084"
+    ],
+    "hybrid_dual": [
+      "doc_x_q084",
+      "doc_hybrid_dual_q084",
+      "doc_noise_q084"
+    ]
+  },
+  "q085": {
+    "bm25": [
+      "doc_x_q085",
+      "doc_bm25_q085",
+      "doc_noise_q085"
+    ],
+    "dense": [
+      "doc_x_q085",
+      "doc_dense_q085",
+      "doc_noise_q085"
+    ],
+    "hybrid": [
+      "doc_x_q085",
+      "doc_hybrid_q085",
+      "doc_noise_q085"
+    ],
+    "hybrid_dual": [
+      "doc_x_q085",
+      "doc_hybrid_dual_q085",
+      "doc_noise_q085"
+    ]
+  },
+  "q086": {
+    "bm25": [
+      "doc_x_q086",
+      "doc_bm25_q086",
+      "doc_noise_q086"
+    ],
+    "dense": [
+      "doc_x_q086",
+      "doc_dense_q086",
+      "doc_noise_q086"
+    ],
+    "hybrid": [
+      "doc_x_q086",
+      "doc_hybrid_q086",
+      "doc_noise_q086"
+    ],
+    "hybrid_dual": [
+      "doc_x_q086",
+      "doc_hybrid_dual_q086",
+      "doc_noise_q086"
+    ]
+  },
+  "q087": {
+    "bm25": [
+      "doc_x_q087",
+      "doc_bm25_q087",
+      "doc_noise_q087"
+    ],
+    "dense": [
+      "doc_x_q087",
+      "doc_dense_q087",
+      "doc_noise_q087"
+    ],
+    "hybrid": [
+      "doc_x_q087",
+      "doc_hybrid_q087",
+      "doc_noise_q087"
+    ],
+    "hybrid_dual": [
+      "doc_x_q087",
+      "doc_hybrid_dual_q087",
+      "doc_noise_q087"
+    ]
+  },
+  "q088": {
+    "bm25": [
+      "doc_x_q088",
+      "doc_bm25_q088",
+      "doc_noise_q088"
+    ],
+    "dense": [
+      "doc_x_q088",
+      "doc_dense_q088",
+      "doc_noise_q088"
+    ],
+    "hybrid": [
+      "doc_x_q088",
+      "doc_hybrid_q088",
+      "doc_noise_q088"
+    ],
+    "hybrid_dual": [
+      "doc_x_q088",
+      "doc_hybrid_dual_q088",
+      "doc_noise_q088"
+    ]
+  },
+  "q089": {
+    "bm25": [
+      "doc_x_q089",
+      "doc_bm25_q089",
+      "doc_noise_q089"
+    ],
+    "dense": [
+      "doc_x_q089",
+      "doc_dense_q089",
+      "doc_noise_q089"
+    ],
+    "hybrid": [
+      "doc_x_q089",
+      "doc_hybrid_q089",
+      "doc_noise_q089"
+    ],
+    "hybrid_dual": [
+      "doc_x_q089",
+      "doc_hybrid_dual_q089",
+      "doc_noise_q089"
+    ]
+  },
+  "q090": {
+    "bm25": [
+      "doc_x_q090",
+      "doc_bm25_q090",
+      "doc_noise_q090"
+    ],
+    "dense": [
+      "doc_x_q090",
+      "doc_dense_q090",
+      "doc_noise_q090"
+    ],
+    "hybrid": [
+      "doc_x_q090",
+      "doc_hybrid_q090",
+      "doc_noise_q090"
+    ],
+    "hybrid_dual": [
+      "doc_x_q090",
+      "doc_hybrid_dual_q090",
+      "doc_noise_q090"
+    ]
+  },
+  "q091": {
+    "bm25": [
+      "doc_x_q091",
+      "doc_bm25_q091",
+      "doc_noise_q091"
+    ],
+    "dense": [
+      "doc_x_q091",
+      "doc_dense_q091",
+      "doc_noise_q091"
+    ],
+    "hybrid": [
+      "doc_x_q091",
+      "doc_hybrid_q091",
+      "doc_noise_q091"
+    ],
+    "hybrid_dual": [
+      "doc_x_q091",
+      "doc_hybrid_dual_q091",
+      "doc_noise_q091"
+    ]
+  },
+  "q092": {
+    "bm25": [
+      "doc_x_q092",
+      "doc_bm25_q092",
+      "doc_noise_q092"
+    ],
+    "dense": [
+      "doc_x_q092",
+      "doc_dense_q092",
+      "doc_noise_q092"
+    ],
+    "hybrid": [
+      "doc_x_q092",
+      "doc_hybrid_q092",
+      "doc_noise_q092"
+    ],
+    "hybrid_dual": [
+      "doc_x_q092",
+      "doc_hybrid_dual_q092",
+      "doc_noise_q092"
+    ]
+  },
+  "q093": {
+    "bm25": [
+      "doc_x_q093",
+      "doc_bm25_q093",
+      "doc_noise_q093"
+    ],
+    "dense": [
+      "doc_x_q093",
+      "doc_dense_q093",
+      "doc_noise_q093"
+    ],
+    "hybrid": [
+      "doc_x_q093",
+      "doc_hybrid_q093",
+      "doc_noise_q093"
+    ],
+    "hybrid_dual": [
+      "doc_x_q093",
+      "doc_hybrid_dual_q093",
+      "doc_noise_q093"
+    ]
+  },
+  "q094": {
+    "bm25": [
+      "doc_x_q094",
+      "doc_bm25_q094",
+      "doc_noise_q094"
+    ],
+    "dense": [
+      "doc_x_q094",
+      "doc_dense_q094",
+      "doc_noise_q094"
+    ],
+    "hybrid": [
+      "doc_x_q094",
+      "doc_hybrid_q094",
+      "doc_noise_q094"
+    ],
+    "hybrid_dual": [
+      "doc_x_q094",
+      "doc_hybrid_dual_q094",
+      "doc_noise_q094"
+    ]
+  },
+  "q095": {
+    "bm25": [
+      "doc_x_q095",
+      "doc_bm25_q095",
+      "doc_noise_q095"
+    ],
+    "dense": [
+      "doc_x_q095",
+      "doc_dense_q095",
+      "doc_noise_q095"
+    ],
+    "hybrid": [
+      "doc_x_q095",
+      "doc_hybrid_q095",
+      "doc_noise_q095"
+    ],
+    "hybrid_dual": [
+      "doc_x_q095",
+      "doc_hybrid_dual_q095",
+      "doc_noise_q095"
+    ]
+  },
+  "q096": {
+    "bm25": [
+      "doc_x_q096",
+      "doc_bm25_q096",
+      "doc_noise_q096"
+    ],
+    "dense": [
+      "doc_x_q096",
+      "doc_dense_q096",
+      "doc_noise_q096"
+    ],
+    "hybrid": [
+      "doc_x_q096",
+      "doc_hybrid_q096",
+      "doc_noise_q096"
+    ],
+    "hybrid_dual": [
+      "doc_x_q096",
+      "doc_hybrid_dual_q096",
+      "doc_noise_q096"
+    ]
+  },
+  "q097": {
+    "bm25": [
+      "doc_x_q097",
+      "doc_bm25_q097",
+      "doc_noise_q097"
+    ],
+    "dense": [
+      "doc_x_q097",
+      "doc_dense_q097",
+      "doc_noise_q097"
+    ],
+    "hybrid": [
+      "doc_x_q097",
+      "doc_hybrid_q097",
+      "doc_noise_q097"
+    ],
+    "hybrid_dual": [
+      "doc_x_q097",
+      "doc_hybrid_dual_q097",
+      "doc_noise_q097"
+    ]
+  },
+  "q098": {
+    "bm25": [
+      "doc_x_q098",
+      "doc_bm25_q098",
+      "doc_noise_q098"
+    ],
+    "dense": [
+      "doc_x_q098",
+      "doc_dense_q098",
+      "doc_noise_q098"
+    ],
+    "hybrid": [
+      "doc_x_q098",
+      "doc_hybrid_q098",
+      "doc_noise_q098"
+    ],
+    "hybrid_dual": [
+      "doc_x_q098",
+      "doc_hybrid_dual_q098",
+      "doc_noise_q098"
+    ]
+  },
+  "q099": {
+    "bm25": [
+      "doc_x_q099",
+      "doc_bm25_q099",
+      "doc_noise_q099"
+    ],
+    "dense": [
+      "doc_x_q099",
+      "doc_dense_q099",
+      "doc_noise_q099"
+    ],
+    "hybrid": [
+      "doc_x_q099",
+      "doc_hybrid_q099",
+      "doc_noise_q099"
+    ],
+    "hybrid_dual": [
+      "doc_x_q099",
+      "doc_hybrid_dual_q099",
+      "doc_noise_q099"
+    ]
+  },
+  "q100": {
+    "bm25": [
+      "doc_x_q100",
+      "doc_bm25_q100",
+      "doc_noise_q100"
+    ],
+    "dense": [
+      "doc_x_q100",
+      "doc_dense_q100",
+      "doc_noise_q100"
+    ],
+    "hybrid": [
+      "doc_x_q100",
+      "doc_hybrid_q100",
+      "doc_noise_q100"
+    ],
+    "hybrid_dual": [
+      "doc_x_q100",
+      "doc_hybrid_dual_q100",
+      "doc_noise_q100"
+    ]
+  }
+}

@@ -1,0 +1,2202 @@
+{
+  "1": {
+    "bm25": [
+      "doc_301",
+      "doc_src_1",
+      "doc_401"
+    ],
+    "dense": [
+      "doc_src_1",
+      "doc_601",
+      "doc_701"
+    ],
+    "hybrid": [
+      "doc_src_1",
+      "doc_901",
+      "doc_911"
+    ],
+    "hybrid_dual": [
+      "doc_src_1",
+      "doc_1001",
+      "doc_1011"
+    ]
+  },
+  "2": {
+    "bm25": [
+      "doc_302",
+      "doc_src_2",
+      "doc_402"
+    ],
+    "dense": [
+      "doc_src_2",
+      "doc_602",
+      "doc_702"
+    ],
+    "hybrid": [
+      "doc_src_2",
+      "doc_902",
+      "doc_912"
+    ],
+    "hybrid_dual": [
+      "doc_src_2",
+      "doc_1002",
+      "doc_1012"
+    ]
+  },
+  "3": {
+    "bm25": [
+      "doc_303",
+      "doc_src_3",
+      "doc_403"
+    ],
+    "dense": [
+      "doc_603",
+      "doc_src_3",
+      "doc_703"
+    ],
+    "hybrid": [
+      "doc_src_3",
+      "doc_903",
+      "doc_913"
+    ],
+    "hybrid_dual": [
+      "doc_src_3",
+      "doc_1003",
+      "doc_1013"
+    ]
+  },
+  "4": {
+    "bm25": [
+      "doc_304",
+      "doc_src_4",
+      "doc_404"
+    ],
+    "dense": [
+      "doc_604",
+      "doc_704",
+      "doc_804"
+    ],
+    "hybrid": [
+      "doc_src_4",
+      "doc_904",
+      "doc_914"
+    ],
+    "hybrid_dual": [
+      "doc_src_4",
+      "doc_1004",
+      "doc_1014"
+    ]
+  },
+  "5": {
+    "bm25": [
+      "doc_305",
+      "doc_405",
+      "doc_505"
+    ],
+    "dense": [
+      "doc_src_5",
+      "doc_605",
+      "doc_705"
+    ],
+    "hybrid": [
+      "doc_src_5",
+      "doc_905",
+      "doc_915"
+    ],
+    "hybrid_dual": [
+      "doc_src_5",
+      "doc_1005",
+      "doc_1015"
+    ]
+  },
+  "6": {
+    "bm25": [
+      "doc_306",
+      "doc_src_6",
+      "doc_406"
+    ],
+    "dense": [
+      "doc_606",
+      "doc_src_6",
+      "doc_706"
+    ],
+    "hybrid": [
+      "doc_src_6",
+      "doc_906",
+      "doc_916"
+    ],
+    "hybrid_dual": [
+      "doc_src_6",
+      "doc_1006",
+      "doc_1016"
+    ]
+  },
+  "7": {
+    "bm25": [
+      "doc_307",
+      "doc_src_7",
+      "doc_407"
+    ],
+    "dense": [
+      "doc_src_7",
+      "doc_607",
+      "doc_707"
+    ],
+    "hybrid": [
+      "doc_src_7",
+      "doc_907",
+      "doc_917"
+    ],
+    "hybrid_dual": [
+      "doc_src_7",
+      "doc_1007",
+      "doc_1017"
+    ]
+  },
+  "8": {
+    "bm25": [
+      "doc_308",
+      "doc_src_8",
+      "doc_408"
+    ],
+    "dense": [
+      "doc_608",
+      "doc_708",
+      "doc_808"
+    ],
+    "hybrid": [
+      "doc_src_8",
+      "doc_908",
+      "doc_918"
+    ],
+    "hybrid_dual": [
+      "doc_src_8",
+      "doc_1008",
+      "doc_1018"
+    ]
+  },
+  "9": {
+    "bm25": [
+      "doc_309",
+      "doc_src_9",
+      "doc_409"
+    ],
+    "dense": [
+      "doc_609",
+      "doc_src_9",
+      "doc_709"
+    ],
+    "hybrid": [
+      "doc_909",
+      "doc_919",
+      "doc_929"
+    ],
+    "hybrid_dual": [
+      "doc_src_9",
+      "doc_1009",
+      "doc_1019"
+    ]
+  },
+  "10": {
+    "bm25": [
+      "doc_310",
+      "doc_410",
+      "doc_510"
+    ],
+    "dense": [
+      "doc_src_10",
+      "doc_610",
+      "doc_710"
+    ],
+    "hybrid": [
+      "doc_src_10",
+      "doc_910",
+      "doc_920"
+    ],
+    "hybrid_dual": [
+      "doc_src_10",
+      "doc_1010",
+      "doc_1020"
+    ]
+  },
+  "11": {
+    "bm25": [
+      "doc_311",
+      "doc_src_11",
+      "doc_411"
+    ],
+    "dense": [
+      "doc_src_11",
+      "doc_611",
+      "doc_711"
+    ],
+    "hybrid": [
+      "doc_src_11",
+      "doc_911",
+      "doc_921"
+    ],
+    "hybrid_dual": [
+      "doc_src_11",
+      "doc_1011",
+      "doc_1021"
+    ]
+  },
+  "12": {
+    "bm25": [
+      "doc_312",
+      "doc_src_12",
+      "doc_412"
+    ],
+    "dense": [
+      "doc_612",
+      "doc_712",
+      "doc_812"
+    ],
+    "hybrid": [
+      "doc_src_12",
+      "doc_912",
+      "doc_922"
+    ],
+    "hybrid_dual": [
+      "doc_src_12",
+      "doc_1012",
+      "doc_1022"
+    ]
+  },
+  "13": {
+    "bm25": [
+      "doc_313",
+      "doc_src_13",
+      "doc_413"
+    ],
+    "dense": [
+      "doc_src_13",
+      "doc_613",
+      "doc_713"
+    ],
+    "hybrid": [
+      "doc_src_13",
+      "doc_913",
+      "doc_923"
+    ],
+    "hybrid_dual": [
+      "doc_src_13",
+      "doc_1013",
+      "doc_1023"
+    ]
+  },
+  "14": {
+    "bm25": [
+      "doc_314",
+      "doc_src_14",
+      "doc_414"
+    ],
+    "dense": [
+      "doc_src_14",
+      "doc_614",
+      "doc_714"
+    ],
+    "hybrid": [
+      "doc_src_14",
+      "doc_914",
+      "doc_924"
+    ],
+    "hybrid_dual": [
+      "doc_src_14",
+      "doc_1014",
+      "doc_1024"
+    ]
+  },
+  "15": {
+    "bm25": [
+      "doc_315",
+      "doc_415",
+      "doc_515"
+    ],
+    "dense": [
+      "doc_615",
+      "doc_src_15",
+      "doc_715"
+    ],
+    "hybrid": [
+      "doc_src_15",
+      "doc_915",
+      "doc_925"
+    ],
+    "hybrid_dual": [
+      "doc_src_15",
+      "doc_1015",
+      "doc_1025"
+    ]
+  },
+  "16": {
+    "bm25": [
+      "doc_316",
+      "doc_src_16",
+      "doc_416"
+    ],
+    "dense": [
+      "doc_616",
+      "doc_716",
+      "doc_816"
+    ],
+    "hybrid": [
+      "doc_src_16",
+      "doc_916",
+      "doc_926"
+    ],
+    "hybrid_dual": [
+      "doc_src_16",
+      "doc_1016",
+      "doc_1026"
+    ]
+  },
+  "17": {
+    "bm25": [
+      "doc_317",
+      "doc_src_17",
+      "doc_417"
+    ],
+    "dense": [
+      "doc_src_17",
+      "doc_617",
+      "doc_717"
+    ],
+    "hybrid": [
+      "doc_src_17",
+      "doc_917",
+      "doc_927"
+    ],
+    "hybrid_dual": [
+      "doc_src_17",
+      "doc_1017",
+      "doc_1027"
+    ]
+  },
+  "18": {
+    "bm25": [
+      "doc_318",
+      "doc_src_18",
+      "doc_418"
+    ],
+    "dense": [
+      "doc_618",
+      "doc_src_18",
+      "doc_718"
+    ],
+    "hybrid": [
+      "doc_918",
+      "doc_928",
+      "doc_938"
+    ],
+    "hybrid_dual": [
+      "doc_src_18",
+      "doc_1018",
+      "doc_1028"
+    ]
+  },
+  "19": {
+    "bm25": [
+      "doc_319",
+      "doc_src_19",
+      "doc_419"
+    ],
+    "dense": [
+      "doc_src_19",
+      "doc_619",
+      "doc_719"
+    ],
+    "hybrid": [
+      "doc_src_19",
+      "doc_919",
+      "doc_929"
+    ],
+    "hybrid_dual": [
+      "doc_src_19",
+      "doc_1019",
+      "doc_1029"
+    ]
+  },
+  "20": {
+    "bm25": [
+      "doc_320",
+      "doc_420",
+      "doc_520"
+    ],
+    "dense": [
+      "doc_620",
+      "doc_720",
+      "doc_820"
+    ],
+    "hybrid": [
+      "doc_src_20",
+      "doc_920",
+      "doc_930"
+    ],
+    "hybrid_dual": [
+      "doc_src_20",
+      "doc_1020",
+      "doc_1030"
+    ]
+  },
+  "21": {
+    "bm25": [
+      "doc_321",
+      "doc_src_21",
+      "doc_421"
+    ],
+    "dense": [
+      "doc_621",
+      "doc_src_21",
+      "doc_721"
+    ],
+    "hybrid": [
+      "doc_src_21",
+      "doc_921",
+      "doc_931"
+    ],
+    "hybrid_dual": [
+      "doc_src_21",
+      "doc_1021",
+      "doc_1031"
+    ]
+  },
+  "22": {
+    "bm25": [
+      "doc_322",
+      "doc_src_22",
+      "doc_422"
+    ],
+    "dense": [
+      "doc_src_22",
+      "doc_622",
+      "doc_722"
+    ],
+    "hybrid": [
+      "doc_src_22",
+      "doc_922",
+      "doc_932"
+    ],
+    "hybrid_dual": [
+      "doc_src_22",
+      "doc_1022",
+      "doc_1032"
+    ]
+  },
+  "23": {
+    "bm25": [
+      "doc_323",
+      "doc_src_23",
+      "doc_423"
+    ],
+    "dense": [
+      "doc_src_23",
+      "doc_623",
+      "doc_723"
+    ],
+    "hybrid": [
+      "doc_src_23",
+      "doc_923",
+      "doc_933"
+    ],
+    "hybrid_dual": [
+      "doc_src_23",
+      "doc_1023",
+      "doc_1033"
+    ]
+  },
+  "24": {
+    "bm25": [
+      "doc_324",
+      "doc_src_24",
+      "doc_424"
+    ],
+    "dense": [
+      "doc_624",
+      "doc_724",
+      "doc_824"
+    ],
+    "hybrid": [
+      "doc_src_24",
+      "doc_924",
+      "doc_934"
+    ],
+    "hybrid_dual": [
+      "doc_src_24",
+      "doc_1024",
+      "doc_1034"
+    ]
+  },
+  "25": {
+    "bm25": [
+      "doc_325",
+      "doc_425",
+      "doc_525"
+    ],
+    "dense": [
+      "doc_src_25",
+      "doc_625",
+      "doc_725"
+    ],
+    "hybrid": [
+      "doc_src_25",
+      "doc_925",
+      "doc_935"
+    ],
+    "hybrid_dual": [
+      "doc_src_25",
+      "doc_1025",
+      "doc_1035"
+    ]
+  },
+  "26": {
+    "bm25": [
+      "doc_326",
+      "doc_src_26",
+      "doc_426"
+    ],
+    "dense": [
+      "doc_src_26",
+      "doc_626",
+      "doc_726"
+    ],
+    "hybrid": [
+      "doc_src_26",
+      "doc_926",
+      "doc_936"
+    ],
+    "hybrid_dual": [
+      "doc_src_26",
+      "doc_1026",
+      "doc_1036"
+    ]
+  },
+  "27": {
+    "bm25": [
+      "doc_327",
+      "doc_src_27",
+      "doc_427"
+    ],
+    "dense": [
+      "doc_627",
+      "doc_src_27",
+      "doc_727"
+    ],
+    "hybrid": [
+      "doc_927",
+      "doc_937",
+      "doc_947"
+    ],
+    "hybrid_dual": [
+      "doc_src_27",
+      "doc_1027",
+      "doc_1037"
+    ]
+  },
+  "28": {
+    "bm25": [
+      "doc_328",
+      "doc_src_28",
+      "doc_428"
+    ],
+    "dense": [
+      "doc_628",
+      "doc_728",
+      "doc_828"
+    ],
+    "hybrid": [
+      "doc_src_28",
+      "doc_928",
+      "doc_938"
+    ],
+    "hybrid_dual": [
+      "doc_src_28",
+      "doc_1028",
+      "doc_1038"
+    ]
+  },
+  "29": {
+    "bm25": [
+      "doc_329",
+      "doc_src_29",
+      "doc_429"
+    ],
+    "dense": [
+      "doc_src_29",
+      "doc_629",
+      "doc_729"
+    ],
+    "hybrid": [
+      "doc_src_29",
+      "doc_929",
+      "doc_939"
+    ],
+    "hybrid_dual": [
+      "doc_src_29",
+      "doc_1029",
+      "doc_1039"
+    ]
+  },
+  "30": {
+    "bm25": [
+      "doc_330",
+      "doc_430",
+      "doc_530"
+    ],
+    "dense": [
+      "doc_630",
+      "doc_src_30",
+      "doc_730"
+    ],
+    "hybrid": [
+      "doc_src_30",
+      "doc_930",
+      "doc_940"
+    ],
+    "hybrid_dual": [
+      "doc_src_30",
+      "doc_1030",
+      "doc_1040"
+    ]
+  },
+  "31": {
+    "bm25": [
+      "doc_331",
+      "doc_src_31",
+      "doc_431"
+    ],
+    "dense": [
+      "doc_src_31",
+      "doc_631",
+      "doc_731"
+    ],
+    "hybrid": [
+      "doc_src_31",
+      "doc_931",
+      "doc_941"
+    ],
+    "hybrid_dual": [
+      "doc_src_31",
+      "doc_1031",
+      "doc_1041"
+    ]
+  },
+  "32": {
+    "bm25": [
+      "doc_332",
+      "doc_src_32",
+      "doc_432"
+    ],
+    "dense": [
+      "doc_632",
+      "doc_732",
+      "doc_832"
+    ],
+    "hybrid": [
+      "doc_src_32",
+      "doc_932",
+      "doc_942"
+    ],
+    "hybrid_dual": [
+      "doc_src_32",
+      "doc_1032",
+      "doc_1042"
+    ]
+  },
+  "33": {
+    "bm25": [
+      "doc_333",
+      "doc_src_33",
+      "doc_433"
+    ],
+    "dense": [
+      "doc_633",
+      "doc_src_33",
+      "doc_733"
+    ],
+    "hybrid": [
+      "doc_src_33",
+      "doc_933",
+      "doc_943"
+    ],
+    "hybrid_dual": [
+      "doc_src_33",
+      "doc_1033",
+      "doc_1043"
+    ]
+  },
+  "34": {
+    "bm25": [
+      "doc_334",
+      "doc_src_34",
+      "doc_434"
+    ],
+    "dense": [
+      "doc_src_34",
+      "doc_634",
+      "doc_734"
+    ],
+    "hybrid": [
+      "doc_src_34",
+      "doc_934",
+      "doc_944"
+    ],
+    "hybrid_dual": [
+      "doc_src_34",
+      "doc_1034",
+      "doc_1044"
+    ]
+  },
+  "35": {
+    "bm25": [
+      "doc_335",
+      "doc_435",
+      "doc_535"
+    ],
+    "dense": [
+      "doc_src_35",
+      "doc_635",
+      "doc_735"
+    ],
+    "hybrid": [
+      "doc_src_35",
+      "doc_935",
+      "doc_945"
+    ],
+    "hybrid_dual": [
+      "doc_src_35",
+      "doc_1035",
+      "doc_1045"
+    ]
+  },
+  "36": {
+    "bm25": [
+      "doc_336",
+      "doc_src_36",
+      "doc_436"
+    ],
+    "dense": [
+      "doc_636",
+      "doc_736",
+      "doc_836"
+    ],
+    "hybrid": [
+      "doc_936",
+      "doc_946",
+      "doc_956"
+    ],
+    "hybrid_dual": [
+      "doc_src_36",
+      "doc_1036",
+      "doc_1046"
+    ]
+  },
+  "37": {
+    "bm25": [
+      "doc_337",
+      "doc_src_37",
+      "doc_437"
+    ],
+    "dense": [
+      "doc_src_37",
+      "doc_637",
+      "doc_737"
+    ],
+    "hybrid": [
+      "doc_src_37",
+      "doc_937",
+      "doc_947"
+    ],
+    "hybrid_dual": [
+      "doc_src_37",
+      "doc_1037",
+      "doc_1047"
+    ]
+  },
+  "38": {
+    "bm25": [
+      "doc_338",
+      "doc_src_38",
+      "doc_438"
+    ],
+    "dense": [
+      "doc_src_38",
+      "doc_638",
+      "doc_738"
+    ],
+    "hybrid": [
+      "doc_src_38",
+      "doc_938",
+      "doc_948"
+    ],
+    "hybrid_dual": [
+      "doc_src_38",
+      "doc_1038",
+      "doc_1048"
+    ]
+  },
+  "39": {
+    "bm25": [
+      "doc_339",
+      "doc_src_39",
+      "doc_439"
+    ],
+    "dense": [
+      "doc_639",
+      "doc_src_39",
+      "doc_739"
+    ],
+    "hybrid": [
+      "doc_src_39",
+      "doc_939",
+      "doc_949"
+    ],
+    "hybrid_dual": [
+      "doc_src_39",
+      "doc_1039",
+      "doc_1049"
+    ]
+  },
+  "40": {
+    "bm25": [
+      "doc_340",
+      "doc_440",
+      "doc_540"
+    ],
+    "dense": [
+      "doc_640",
+      "doc_740",
+      "doc_840"
+    ],
+    "hybrid": [
+      "doc_src_40",
+      "doc_940",
+      "doc_950"
+    ],
+    "hybrid_dual": [
+      "doc_src_40",
+      "doc_1040",
+      "doc_1050"
+    ]
+  },
+  "41": {
+    "bm25": [
+      "doc_341",
+      "doc_src_41",
+      "doc_441"
+    ],
+    "dense": [
+      "doc_src_41",
+      "doc_641",
+      "doc_741"
+    ],
+    "hybrid": [
+      "doc_src_41",
+      "doc_941",
+      "doc_951"
+    ],
+    "hybrid_dual": [
+      "doc_src_41",
+      "doc_1041",
+      "doc_1051"
+    ]
+  },
+  "42": {
+    "bm25": [
+      "doc_342",
+      "doc_src_42",
+      "doc_442"
+    ],
+    "dense": [
+      "doc_642",
+      "doc_src_42",
+      "doc_742"
+    ],
+    "hybrid": [
+      "doc_src_42",
+      "doc_942",
+      "doc_952"
+    ],
+    "hybrid_dual": [
+      "doc_src_42",
+      "doc_1042",
+      "doc_1052"
+    ]
+  },
+  "43": {
+    "bm25": [
+      "doc_343",
+      "doc_src_43",
+      "doc_443"
+    ],
+    "dense": [
+      "doc_src_43",
+      "doc_643",
+      "doc_743"
+    ],
+    "hybrid": [
+      "doc_src_43",
+      "doc_943",
+      "doc_953"
+    ],
+    "hybrid_dual": [
+      "doc_src_43",
+      "doc_1043",
+      "doc_1053"
+    ]
+  },
+  "44": {
+    "bm25": [
+      "doc_344",
+      "doc_src_44",
+      "doc_444"
+    ],
+    "dense": [
+      "doc_644",
+      "doc_744",
+      "doc_844"
+    ],
+    "hybrid": [
+      "doc_src_44",
+      "doc_944",
+      "doc_954"
+    ],
+    "hybrid_dual": [
+      "doc_src_44",
+      "doc_1044",
+      "doc_1054"
+    ]
+  },
+  "45": {
+    "bm25": [
+      "doc_345",
+      "doc_445",
+      "doc_545"
+    ],
+    "dense": [
+      "doc_645",
+      "doc_src_45",
+      "doc_745"
+    ],
+    "hybrid": [
+      "doc_945",
+      "doc_955",
+      "doc_965"
+    ],
+    "hybrid_dual": [
+      "doc_src_45",
+      "doc_1045",
+      "doc_1055"
+    ]
+  },
+  "46": {
+    "bm25": [
+      "doc_346",
+      "doc_src_46",
+      "doc_446"
+    ],
+    "dense": [
+      "doc_src_46",
+      "doc_646",
+      "doc_746"
+    ],
+    "hybrid": [
+      "doc_src_46",
+      "doc_946",
+      "doc_956"
+    ],
+    "hybrid_dual": [
+      "doc_src_46",
+      "doc_1046",
+      "doc_1056"
+    ]
+  },
+  "47": {
+    "bm25": [
+      "doc_347",
+      "doc_src_47",
+      "doc_447"
+    ],
+    "dense": [
+      "doc_src_47",
+      "doc_647",
+      "doc_747"
+    ],
+    "hybrid": [
+      "doc_src_47",
+      "doc_947",
+      "doc_957"
+    ],
+    "hybrid_dual": [
+      "doc_src_47",
+      "doc_1047",
+      "doc_1057"
+    ]
+  },
+  "48": {
+    "bm25": [
+      "doc_348",
+      "doc_src_48",
+      "doc_448"
+    ],
+    "dense": [
+      "doc_648",
+      "doc_748",
+      "doc_848"
+    ],
+    "hybrid": [
+      "doc_src_48",
+      "doc_948",
+      "doc_958"
+    ],
+    "hybrid_dual": [
+      "doc_src_48",
+      "doc_1048",
+      "doc_1058"
+    ]
+  },
+  "49": {
+    "bm25": [
+      "doc_349",
+      "doc_src_49",
+      "doc_449"
+    ],
+    "dense": [
+      "doc_src_49",
+      "doc_649",
+      "doc_749"
+    ],
+    "hybrid": [
+      "doc_src_49",
+      "doc_949",
+      "doc_959"
+    ],
+    "hybrid_dual": [
+      "doc_src_49",
+      "doc_1049",
+      "doc_1059"
+    ]
+  },
+  "50": {
+    "bm25": [
+      "doc_350",
+      "doc_450",
+      "doc_550"
+    ],
+    "dense": [
+      "doc_src_50",
+      "doc_650",
+      "doc_750"
+    ],
+    "hybrid": [
+      "doc_src_50",
+      "doc_950",
+      "doc_960"
+    ],
+    "hybrid_dual": [
+      "doc_src_50",
+      "doc_1050",
+      "doc_1060"
+    ]
+  },
+  "51": {
+    "bm25": [
+      "doc_351",
+      "doc_src_51",
+      "doc_451"
+    ],
+    "dense": [
+      "doc_651",
+      "doc_src_51",
+      "doc_751"
+    ],
+    "hybrid": [
+      "doc_src_51",
+      "doc_951",
+      "doc_961"
+    ],
+    "hybrid_dual": [
+      "doc_src_51",
+      "doc_1051",
+      "doc_1061"
+    ]
+  },
+  "52": {
+    "bm25": [
+      "doc_352",
+      "doc_src_52",
+      "doc_452"
+    ],
+    "dense": [
+      "doc_652",
+      "doc_752",
+      "doc_852"
+    ],
+    "hybrid": [
+      "doc_src_52",
+      "doc_952",
+      "doc_962"
+    ],
+    "hybrid_dual": [
+      "doc_src_52",
+      "doc_1052",
+      "doc_1062"
+    ]
+  },
+  "53": {
+    "bm25": [
+      "doc_353",
+      "doc_src_53",
+      "doc_453"
+    ],
+    "dense": [
+      "doc_src_53",
+      "doc_653",
+      "doc_753"
+    ],
+    "hybrid": [
+      "doc_src_53",
+      "doc_953",
+      "doc_963"
+    ],
+    "hybrid_dual": [
+      "doc_src_53",
+      "doc_1053",
+      "doc_1063"
+    ]
+  },
+  "54": {
+    "bm25": [
+      "doc_354",
+      "doc_src_54",
+      "doc_454"
+    ],
+    "dense": [
+      "doc_654",
+      "doc_src_54",
+      "doc_754"
+    ],
+    "hybrid": [
+      "doc_954",
+      "doc_964",
+      "doc_974"
+    ],
+    "hybrid_dual": [
+      "doc_src_54",
+      "doc_1054",
+      "doc_1064"
+    ]
+  },
+  "55": {
+    "bm25": [
+      "doc_355",
+      "doc_455",
+      "doc_555"
+    ],
+    "dense": [
+      "doc_src_55",
+      "doc_655",
+      "doc_755"
+    ],
+    "hybrid": [
+      "doc_src_55",
+      "doc_955",
+      "doc_965"
+    ],
+    "hybrid_dual": [
+      "doc_src_55",
+      "doc_1055",
+      "doc_1065"
+    ]
+  },
+  "56": {
+    "bm25": [
+      "doc_356",
+      "doc_src_56",
+      "doc_456"
+    ],
+    "dense": [
+      "doc_656",
+      "doc_756",
+      "doc_856"
+    ],
+    "hybrid": [
+      "doc_src_56",
+      "doc_956",
+      "doc_966"
+    ],
+    "hybrid_dual": [
+      "doc_src_56",
+      "doc_1056",
+      "doc_1066"
+    ]
+  },
+  "57": {
+    "bm25": [
+      "doc_357",
+      "doc_src_57",
+      "doc_457"
+    ],
+    "dense": [
+      "doc_657",
+      "doc_src_57",
+      "doc_757"
+    ],
+    "hybrid": [
+      "doc_src_57",
+      "doc_957",
+      "doc_967"
+    ],
+    "hybrid_dual": [
+      "doc_src_57",
+      "doc_1057",
+      "doc_1067"
+    ]
+  },
+  "58": {
+    "bm25": [
+      "doc_358",
+      "doc_src_58",
+      "doc_458"
+    ],
+    "dense": [
+      "doc_src_58",
+      "doc_658",
+      "doc_758"
+    ],
+    "hybrid": [
+      "doc_src_58",
+      "doc_958",
+      "doc_968"
+    ],
+    "hybrid_dual": [
+      "doc_src_58",
+      "doc_1058",
+      "doc_1068"
+    ]
+  },
+  "59": {
+    "bm25": [
+      "doc_359",
+      "doc_src_59",
+      "doc_459"
+    ],
+    "dense": [
+      "doc_src_59",
+      "doc_659",
+      "doc_759"
+    ],
+    "hybrid": [
+      "doc_src_59",
+      "doc_959",
+      "doc_969"
+    ],
+    "hybrid_dual": [
+      "doc_src_59",
+      "doc_1059",
+      "doc_1069"
+    ]
+  },
+  "60": {
+    "bm25": [
+      "doc_360",
+      "doc_460",
+      "doc_560"
+    ],
+    "dense": [
+      "doc_660",
+      "doc_760",
+      "doc_860"
+    ],
+    "hybrid": [
+      "doc_src_60",
+      "doc_960",
+      "doc_970"
+    ],
+    "hybrid_dual": [
+      "doc_src_60",
+      "doc_1060",
+      "doc_1070"
+    ]
+  },
+  "61": {
+    "bm25": [
+      "doc_361",
+      "doc_src_61",
+      "doc_461"
+    ],
+    "dense": [
+      "doc_src_61",
+      "doc_661",
+      "doc_761"
+    ],
+    "hybrid": [
+      "doc_src_61",
+      "doc_961",
+      "doc_971"
+    ],
+    "hybrid_dual": [
+      "doc_src_61",
+      "doc_1061",
+      "doc_1071"
+    ]
+  },
+  "62": {
+    "bm25": [
+      "doc_362",
+      "doc_src_62",
+      "doc_462"
+    ],
+    "dense": [
+      "doc_src_62",
+      "doc_662",
+      "doc_762"
+    ],
+    "hybrid": [
+      "doc_src_62",
+      "doc_962",
+      "doc_972"
+    ],
+    "hybrid_dual": [
+      "doc_src_62",
+      "doc_1062",
+      "doc_1072"
+    ]
+  },
+  "63": {
+    "bm25": [
+      "doc_363",
+      "doc_src_63",
+      "doc_463"
+    ],
+    "dense": [
+      "doc_663",
+      "doc_src_63",
+      "doc_763"
+    ],
+    "hybrid": [
+      "doc_963",
+      "doc_973",
+      "doc_983"
+    ],
+    "hybrid_dual": [
+      "doc_src_63",
+      "doc_1063",
+      "doc_1073"
+    ]
+  },
+  "64": {
+    "bm25": [
+      "doc_364",
+      "doc_src_64",
+      "doc_464"
+    ],
+    "dense": [
+      "doc_664",
+      "doc_764",
+      "doc_864"
+    ],
+    "hybrid": [
+      "doc_src_64",
+      "doc_964",
+      "doc_974"
+    ],
+    "hybrid_dual": [
+      "doc_src_64",
+      "doc_1064",
+      "doc_1074"
+    ]
+  },
+  "65": {
+    "bm25": [
+      "doc_365",
+      "doc_465",
+      "doc_565"
+    ],
+    "dense": [
+      "doc_src_65",
+      "doc_665",
+      "doc_765"
+    ],
+    "hybrid": [
+      "doc_src_65",
+      "doc_965",
+      "doc_975"
+    ],
+    "hybrid_dual": [
+      "doc_src_65",
+      "doc_1065",
+      "doc_1075"
+    ]
+  },
+  "66": {
+    "bm25": [
+      "doc_366",
+      "doc_src_66",
+      "doc_466"
+    ],
+    "dense": [
+      "doc_666",
+      "doc_src_66",
+      "doc_766"
+    ],
+    "hybrid": [
+      "doc_src_66",
+      "doc_966",
+      "doc_976"
+    ],
+    "hybrid_dual": [
+      "doc_src_66",
+      "doc_1066",
+      "doc_1076"
+    ]
+  },
+  "67": {
+    "bm25": [
+      "doc_367",
+      "doc_src_67",
+      "doc_467"
+    ],
+    "dense": [
+      "doc_src_67",
+      "doc_667",
+      "doc_767"
+    ],
+    "hybrid": [
+      "doc_src_67",
+      "doc_967",
+      "doc_977"
+    ],
+    "hybrid_dual": [
+      "doc_src_67",
+      "doc_1067",
+      "doc_1077"
+    ]
+  },
+  "68": {
+    "bm25": [
+      "doc_368",
+      "doc_src_68",
+      "doc_468"
+    ],
+    "dense": [
+      "doc_668",
+      "doc_768",
+      "doc_868"
+    ],
+    "hybrid": [
+      "doc_src_68",
+      "doc_968",
+      "doc_978"
+    ],
+    "hybrid_dual": [
+      "doc_src_68",
+      "doc_1068",
+      "doc_1078"
+    ]
+  },
+  "69": {
+    "bm25": [
+      "doc_369",
+      "doc_src_69",
+      "doc_469"
+    ],
+    "dense": [
+      "doc_669",
+      "doc_src_69",
+      "doc_769"
+    ],
+    "hybrid": [
+      "doc_src_69",
+      "doc_969",
+      "doc_979"
+    ],
+    "hybrid_dual": [
+      "doc_src_69",
+      "doc_1069",
+      "doc_1079"
+    ]
+  },
+  "70": {
+    "bm25": [
+      "doc_370",
+      "doc_470",
+      "doc_570"
+    ],
+    "dense": [
+      "doc_src_70",
+      "doc_670",
+      "doc_770"
+    ],
+    "hybrid": [
+      "doc_src_70",
+      "doc_970",
+      "doc_980"
+    ],
+    "hybrid_dual": [
+      "doc_src_70",
+      "doc_1070",
+      "doc_1080"
+    ]
+  },
+  "71": {
+    "bm25": [
+      "doc_371",
+      "doc_src_71",
+      "doc_471"
+    ],
+    "dense": [
+      "doc_src_71",
+      "doc_671",
+      "doc_771"
+    ],
+    "hybrid": [
+      "doc_src_71",
+      "doc_971",
+      "doc_981"
+    ],
+    "hybrid_dual": [
+      "doc_src_71",
+      "doc_1071",
+      "doc_1081"
+    ]
+  },
+  "72": {
+    "bm25": [
+      "doc_372",
+      "doc_src_72",
+      "doc_472"
+    ],
+    "dense": [
+      "doc_672",
+      "doc_772",
+      "doc_872"
+    ],
+    "hybrid": [
+      "doc_972",
+      "doc_982",
+      "doc_992"
+    ],
+    "hybrid_dual": [
+      "doc_src_72",
+      "doc_1072",
+      "doc_1082"
+    ]
+  },
+  "73": {
+    "bm25": [
+      "doc_373",
+      "doc_src_73",
+      "doc_473"
+    ],
+    "dense": [
+      "doc_src_73",
+      "doc_673",
+      "doc_773"
+    ],
+    "hybrid": [
+      "doc_src_73",
+      "doc_973",
+      "doc_983"
+    ],
+    "hybrid_dual": [
+      "doc_src_73",
+      "doc_1073",
+      "doc_1083"
+    ]
+  },
+  "74": {
+    "bm25": [
+      "doc_374",
+      "doc_src_74",
+      "doc_474"
+    ],
+    "dense": [
+      "doc_src_74",
+      "doc_674",
+      "doc_774"
+    ],
+    "hybrid": [
+      "doc_src_74",
+      "doc_974",
+      "doc_984"
+    ],
+    "hybrid_dual": [
+      "doc_src_74",
+      "doc_1074",
+      "doc_1084"
+    ]
+  },
+  "75": {
+    "bm25": [
+      "doc_375",
+      "doc_475",
+      "doc_575"
+    ],
+    "dense": [
+      "doc_675",
+      "doc_src_75",
+      "doc_775"
+    ],
+    "hybrid": [
+      "doc_src_75",
+      "doc_975",
+      "doc_985"
+    ],
+    "hybrid_dual": [
+      "doc_src_75",
+      "doc_1075",
+      "doc_1085"
+    ]
+  },
+  "76": {
+    "bm25": [
+      "doc_376",
+      "doc_src_76",
+      "doc_476"
+    ],
+    "dense": [
+      "doc_676",
+      "doc_776",
+      "doc_876"
+    ],
+    "hybrid": [
+      "doc_src_76",
+      "doc_976",
+      "doc_986"
+    ],
+    "hybrid_dual": [
+      "doc_src_76",
+      "doc_1076",
+      "doc_1086"
+    ]
+  },
+  "77": {
+    "bm25": [
+      "doc_377",
+      "doc_src_77",
+      "doc_477"
+    ],
+    "dense": [
+      "doc_src_77",
+      "doc_677",
+      "doc_777"
+    ],
+    "hybrid": [
+      "doc_src_77",
+      "doc_977",
+      "doc_987"
+    ],
+    "hybrid_dual": [
+      "doc_src_77",
+      "doc_1077",
+      "doc_1087"
+    ]
+  },
+  "78": {
+    "bm25": [
+      "doc_378",
+      "doc_src_78",
+      "doc_478"
+    ],
+    "dense": [
+      "doc_678",
+      "doc_src_78",
+      "doc_778"
+    ],
+    "hybrid": [
+      "doc_src_78",
+      "doc_978",
+      "doc_988"
+    ],
+    "hybrid_dual": [
+      "doc_src_78",
+      "doc_1078",
+      "doc_1088"
+    ]
+  },
+  "79": {
+    "bm25": [
+      "doc_379",
+      "doc_src_79",
+      "doc_479"
+    ],
+    "dense": [
+      "doc_src_79",
+      "doc_679",
+      "doc_779"
+    ],
+    "hybrid": [
+      "doc_src_79",
+      "doc_979",
+      "doc_989"
+    ],
+    "hybrid_dual": [
+      "doc_src_79",
+      "doc_1079",
+      "doc_1089"
+    ]
+  },
+  "80": {
+    "bm25": [
+      "doc_380",
+      "doc_480",
+      "doc_580"
+    ],
+    "dense": [
+      "doc_680",
+      "doc_780",
+      "doc_880"
+    ],
+    "hybrid": [
+      "doc_src_80",
+      "doc_980",
+      "doc_990"
+    ],
+    "hybrid_dual": [
+      "doc_src_80",
+      "doc_1080",
+      "doc_1090"
+    ]
+  },
+  "81": {
+    "bm25": [
+      "doc_381",
+      "doc_src_81",
+      "doc_481"
+    ],
+    "dense": [
+      "doc_681",
+      "doc_src_81",
+      "doc_781"
+    ],
+    "hybrid": [
+      "doc_981",
+      "doc_991",
+      "doc_1001"
+    ],
+    "hybrid_dual": [
+      "doc_src_81",
+      "doc_1081",
+      "doc_1091"
+    ]
+  },
+  "82": {
+    "bm25": [
+      "doc_382",
+      "doc_src_82",
+      "doc_482"
+    ],
+    "dense": [
+      "doc_src_82",
+      "doc_682",
+      "doc_782"
+    ],
+    "hybrid": [
+      "doc_src_82",
+      "doc_982",
+      "doc_992"
+    ],
+    "hybrid_dual": [
+      "doc_src_82",
+      "doc_1082",
+      "doc_1092"
+    ]
+  },
+  "83": {
+    "bm25": [
+      "doc_383",
+      "doc_src_83",
+      "doc_483"
+    ],
+    "dense": [
+      "doc_src_83",
+      "doc_683",
+      "doc_783"
+    ],
+    "hybrid": [
+      "doc_src_83",
+      "doc_983",
+      "doc_993"
+    ],
+    "hybrid_dual": [
+      "doc_src_83",
+      "doc_1083",
+      "doc_1093"
+    ]
+  },
+  "84": {
+    "bm25": [
+      "doc_384",
+      "doc_src_84",
+      "doc_484"
+    ],
+    "dense": [
+      "doc_684",
+      "doc_784",
+      "doc_884"
+    ],
+    "hybrid": [
+      "doc_src_84",
+      "doc_984",
+      "doc_994"
+    ],
+    "hybrid_dual": [
+      "doc_src_84",
+      "doc_1084",
+      "doc_1094"
+    ]
+  },
+  "85": {
+    "bm25": [
+      "doc_385",
+      "doc_485",
+      "doc_585"
+    ],
+    "dense": [
+      "doc_src_85",
+      "doc_685",
+      "doc_785"
+    ],
+    "hybrid": [
+      "doc_src_85",
+      "doc_985",
+      "doc_995"
+    ],
+    "hybrid_dual": [
+      "doc_src_85",
+      "doc_1085",
+      "doc_1095"
+    ]
+  },
+  "86": {
+    "bm25": [
+      "doc_386",
+      "doc_src_86",
+      "doc_486"
+    ],
+    "dense": [
+      "doc_src_86",
+      "doc_686",
+      "doc_786"
+    ],
+    "hybrid": [
+      "doc_src_86",
+      "doc_986",
+      "doc_996"
+    ],
+    "hybrid_dual": [
+      "doc_src_86",
+      "doc_1086",
+      "doc_1096"
+    ]
+  },
+  "87": {
+    "bm25": [
+      "doc_387",
+      "doc_src_87",
+      "doc_487"
+    ],
+    "dense": [
+      "doc_687",
+      "doc_src_87",
+      "doc_787"
+    ],
+    "hybrid": [
+      "doc_src_87",
+      "doc_987",
+      "doc_997"
+    ],
+    "hybrid_dual": [
+      "doc_src_87",
+      "doc_1087",
+      "doc_1097"
+    ]
+  },
+  "88": {
+    "bm25": [
+      "doc_388",
+      "doc_src_88",
+      "doc_488"
+    ],
+    "dense": [
+      "doc_688",
+      "doc_788",
+      "doc_888"
+    ],
+    "hybrid": [
+      "doc_src_88",
+      "doc_988",
+      "doc_998"
+    ],
+    "hybrid_dual": [
+      "doc_src_88",
+      "doc_1088",
+      "doc_1098"
+    ]
+  },
+  "89": {
+    "bm25": [
+      "doc_389",
+      "doc_src_89",
+      "doc_489"
+    ],
+    "dense": [
+      "doc_src_89",
+      "doc_689",
+      "doc_789"
+    ],
+    "hybrid": [
+      "doc_src_89",
+      "doc_989",
+      "doc_999"
+    ],
+    "hybrid_dual": [
+      "doc_src_89",
+      "doc_1089",
+      "doc_1099"
+    ]
+  },
+  "90": {
+    "bm25": [
+      "doc_390",
+      "doc_490",
+      "doc_590"
+    ],
+    "dense": [
+      "doc_690",
+      "doc_src_90",
+      "doc_790"
+    ],
+    "hybrid": [
+      "doc_990",
+      "doc_1000",
+      "doc_1010"
+    ],
+    "hybrid_dual": [
+      "doc_src_90",
+      "doc_1090",
+      "doc_1100"
+    ]
+  },
+  "91": {
+    "bm25": [
+      "doc_391",
+      "doc_src_91",
+      "doc_491"
+    ],
+    "dense": [
+      "doc_src_91",
+      "doc_691",
+      "doc_791"
+    ],
+    "hybrid": [
+      "doc_src_91",
+      "doc_991",
+      "doc_1001"
+    ],
+    "hybrid_dual": [
+      "doc_src_91",
+      "doc_1091",
+      "doc_1101"
+    ]
+  },
+  "92": {
+    "bm25": [
+      "doc_392",
+      "doc_src_92",
+      "doc_492"
+    ],
+    "dense": [
+      "doc_692",
+      "doc_792",
+      "doc_892"
+    ],
+    "hybrid": [
+      "doc_src_92",
+      "doc_992",
+      "doc_1002"
+    ],
+    "hybrid_dual": [
+      "doc_src_92",
+      "doc_1092",
+      "doc_1102"
+    ]
+  },
+  "93": {
+    "bm25": [
+      "doc_393",
+      "doc_src_93",
+      "doc_493"
+    ],
+    "dense": [
+      "doc_693",
+      "doc_src_93",
+      "doc_793"
+    ],
+    "hybrid": [
+      "doc_src_93",
+      "doc_993",
+      "doc_1003"
+    ],
+    "hybrid_dual": [
+      "doc_src_93",
+      "doc_1093",
+      "doc_1103"
+    ]
+  },
+  "94": {
+    "bm25": [
+      "doc_394",
+      "doc_src_94",
+      "doc_494"
+    ],
+    "dense": [
+      "doc_src_94",
+      "doc_694",
+      "doc_794"
+    ],
+    "hybrid": [
+      "doc_src_94",
+      "doc_994",
+      "doc_1004"
+    ],
+    "hybrid_dual": [
+      "doc_src_94",
+      "doc_1094",
+      "doc_1104"
+    ]
+  },
+  "95": {
+    "bm25": [
+      "doc_395",
+      "doc_495",
+      "doc_595"
+    ],
+    "dense": [
+      "doc_src_95",
+      "doc_695",
+      "doc_795"
+    ],
+    "hybrid": [
+      "doc_src_95",
+      "doc_995",
+      "doc_1005"
+    ],
+    "hybrid_dual": [
+      "doc_src_95",
+      "doc_1095",
+      "doc_1105"
+    ]
+  },
+  "96": {
+    "bm25": [
+      "doc_396",
+      "doc_src_96",
+      "doc_496"
+    ],
+    "dense": [
+      "doc_696",
+      "doc_796",
+      "doc_896"
+    ],
+    "hybrid": [
+      "doc_src_96",
+      "doc_996",
+      "doc_1006"
+    ],
+    "hybrid_dual": [
+      "doc_src_96",
+      "doc_1096",
+      "doc_1106"
+    ]
+  },
+  "97": {
+    "bm25": [
+      "doc_397",
+      "doc_src_97",
+      "doc_497"
+    ],
+    "dense": [
+      "doc_src_97",
+      "doc_697",
+      "doc_797"
+    ],
+    "hybrid": [
+      "doc_src_97",
+      "doc_997",
+      "doc_1007"
+    ],
+    "hybrid_dual": [
+      "doc_src_97",
+      "doc_1097",
+      "doc_1107"
+    ]
+  },
+  "98": {
+    "bm25": [
+      "doc_398",
+      "doc_src_98",
+      "doc_498"
+    ],
+    "dense": [
+      "doc_src_98",
+      "doc_698",
+      "doc_798"
+    ],
+    "hybrid": [
+      "doc_src_98",
+      "doc_998",
+      "doc_1008"
+    ],
+    "hybrid_dual": [
+      "doc_src_98",
+      "doc_1098",
+      "doc_1108"
+    ]
+  },
+  "99": {
+    "bm25": [
+      "doc_399",
+      "doc_src_99",
+      "doc_499"
+    ],
+    "dense": [
+      "doc_699",
+      "doc_src_99",
+      "doc_799"
+    ],
+    "hybrid": [
+      "doc_999",
+      "doc_1009",
+      "doc_1019"
+    ],
+    "hybrid_dual": [
+      "doc_src_99",
+      "doc_1099",
+      "doc_1109"
+    ]
+  },
+  "100": {
+    "bm25": [
+      "doc_400",
+      "doc_500",
+      "doc_600"
+    ],
+    "dense": [
+      "doc_700",
+      "doc_800",
+      "doc_900"
+    ],
+    "hybrid": [
+      "doc_src_100",
+      "doc_1000",
+      "doc_1010"
+    ],
+    "hybrid_dual": [
+      "doc_src_100",
+      "doc_1100",
+      "doc_1110"
+    ]
+  }
+}
