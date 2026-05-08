@@ -68,10 +68,10 @@ logger = logging.getLogger(__name__)
 
 # ── defaults ───────────────────────────────────────────────────────────────
 DEFAULT_MODE = "hybrid_rrf"
-DEFAULT_TOPK_VECTOR = 40
-DEFAULT_TOPK_BM25 = 40
-DEFAULT_TOPK_FINAL = 40
-DEFAULT_RRF_K = 60  #Thong so k
+DEFAULT_TOPK_VECTOR = 60
+DEFAULT_TOPK_BM25 = 60
+DEFAULT_TOPK_FINAL = 30
+DEFAULT_RRF_K = 60  # RRF k=60 is a good default; tune 30/60/90 on eval set
 DEFAULT_DEBUG_DIR = "data/reports/retrieval_debug"
 DEFAULT_WINDOW_CENTERS = 2
 DEFAULT_PARENT_SCORE_AGG = "max"  # "max" or "sum_top2"
@@ -927,7 +927,11 @@ def retrieve(
                     ollama_url=ollama_url,
                     model=model,
                     chunks_path=chunks_path,
+                    # Query variants are already prepared by prepare_hybrid_queries().
+                    # Do not run vector_retriever's corpus restorer again, or the safe
+                    # lexicon/general restore policy can be silently overridden.
                     use_llm_diacritic_fallback=False,
+                    use_corpus_diacritic_restore=False,
                     doc_type_filter=doc_type_filter,
                 ),
             ))
@@ -1213,7 +1217,7 @@ def build_parent_child_context(
     Returns dict with: context, parents, children, tokens_used, mode, debug
     """
     import tiktoken  # type: ignore
-    from rag.retrieve.parent_child_retriever import load_parents
+    from rag.retrieve.parent_child_retriever import load_parents  # type: ignore
 
     enc: Any = tiktoken.get_encoding("cl100k_base")
     debug_info: dict[str, Any] = {}
@@ -1245,11 +1249,11 @@ def build_parent_child_context(
 
     def _extract_query_terms(query: str) -> list[str]:
         stopwords = {
-            "cua", "của", "la", "là", "va", "và", "cay", "cây", "thuoc", "thuốc",
-            "tac", "tác", "dung", "dụng", "cho", "nhu", "như", "gi", "gì", "cac", "các",
-            "nhung", "những", "ve", "về", "tu", "từ", "den", "đến", "mot", "một",
+            "cua", "la", "va", "cay", "thuoc", "tac", "dung", "cho", "nhu", "gi",
+            "cac", "nhung", "ve", "tu", "den", "mot",
         }
-        raw = [t.strip() for t in re.findall(r"\w+", query.lower()) if t.strip()]
+        folded_query = strip_vietnamese_diacritics(query.lower())
+        raw = [t.strip() for t in re.findall(r"\w+", folded_query) if t.strip()]
         return [t for t in raw if len(t) >= 2 and t not in stopwords]
 
     def _score_of(item: dict[str, Any]) -> float:
@@ -1270,7 +1274,7 @@ def build_parent_child_context(
             return terms[0]
         counts: dict[str, int] = {t: 0 for t in terms}
         for item in evidence:
-            text = str(item.get("text", "")).lower()
+            text = strip_vietnamese_diacritics(str(item.get("text", "")).lower())
             for term in terms:
                 if term in text:
                     counts[term] += 1
@@ -1325,7 +1329,10 @@ def build_parent_child_context(
         }
 
     # Parent-child mode: group by parent_id, window context
-    parent_cache = load_parents(parents_path)
+    # load_parents() returns dict[parent_id, parent_record].
+    # The cast is only for Pyright/Pylance; runtime data is unchanged.
+    raw_parent_cache: Any = load_parents(parents_path)
+    parent_cache = cast(dict[str, dict[str, Any]], raw_parent_cache)
 
     # Group results by parent_id
     parent_groups: dict[str, list[dict[str, Any]]] = {}
@@ -1353,8 +1360,12 @@ def build_parent_child_context(
         top1_score = _score_of(sorted_group[0]) if sorted_group else 0.0
         sum_top2 = sum(_score_of(x) for x in sorted_group[:2])
         parent_rec = parent_cache.get(pid)
-        parent_preview = str((parent_rec or {}).get("parent_text", "")).lower()
-        evidence_preview = " ".join(str(x.get("text", "")) for x in sorted_group[:2]).lower()
+        parent_preview = strip_vietnamese_diacritics(
+            str((parent_rec or {}).get("parent_text", "")).lower()
+        )
+        evidence_preview = strip_vietnamese_diacritics(
+            " ".join(str(x.get("text", "")) for x in sorted_group[:2]).lower()
+        )
         preview_text = parent_preview if parent_preview else evidence_preview
         overlap_hits = sum(1 for t in query_terms if t in preview_text)
         overlap_ratio = (overlap_hits / len(query_terms)) if query_terms else 0.0
@@ -1478,8 +1489,8 @@ def build_parent_child_context(
         header = f"[{doc_type}] {title} (parent_id={pid})"
 
         if parent_rec and parent_rec.get("parent_text"):
-            parent_text = parent_rec["parent_text"]
-            parts = parent_text.split("\n\n")
+            parent_text = str(parent_rec["parent_text"])
+            parts: list[str] = parent_text.split("\n\n")
             ranges: list[tuple[int, int]] = []
             for ci in center_indices:
                 lo = max(0, ci - window)
@@ -1494,7 +1505,7 @@ def build_parent_child_context(
             if not ranges and query_terms:
                 query_hit_indices = [
                     idx for idx, part in enumerate(parts)
-                    if any(term in part.lower() for term in query_terms)
+                    if any(term in strip_vietnamese_diacritics(part.lower()) for term in query_terms)
                 ]
                 for idx in query_hit_indices[:max(1, window_centers)]:
                     lo = max(0, idx - window)
@@ -1517,7 +1528,7 @@ def build_parent_child_context(
                     idx
                     for idx in candidate_indices
                     if idx < len(parts)
-                    and any(term in parts[idx].lower() for term in query_terms)
+                    and any(term in strip_vietnamese_diacritics(parts[idx].lower()) for term in query_terms)
                 ]
                 if hit_indices:
                     hit_lo = min(hit_indices)
@@ -1733,8 +1744,11 @@ def main() -> None:
     context_payload: dict[str, Any] | None = None
     answer_payload: dict[str, Any] | None = None
     raw_model_output: str | None = None
+    # Run the gate when explicitly requested OR before answer generation.
+    # This prevents context/generation from bypassing Answerability Gate.
+    need_gate = bool(args.use_gate or args.generate_answer)
 
-    if args.use_gate:
+    if need_gate:
         if mode != "hybrid_rrf":
             logger.warning("--use-gate is intended for --mode=hybrid_rrf, current mode=%s", mode)
         gate_decision = run_answerability_gate(
@@ -1774,7 +1788,7 @@ def main() -> None:
         logger.info("--generate-answer enabled without --build-context; auto-building focused context.")
 
     if should_build_context:
-        context_from_gate = bool(args.use_gate and gate_decision and gate_decision.get("selected_evidence"))
+        context_from_gate = bool(gate_decision and gate_decision.get("selected_evidence"))
         selected_for_context = (
             list(gate_decision.get("selected_evidence", []))
             if gate_decision is not None
@@ -1797,7 +1811,7 @@ def main() -> None:
             max_context_parents=max(1, args.max_context_parents),
         )
 
-    if args.use_gate and (save_debug or args.gate_debug) and gate_decision is not None:
+    if need_gate and (save_debug or args.gate_debug) and gate_decision is not None:
         _save_gate_debug_json(
             args.query,
             mode,
@@ -1844,73 +1858,84 @@ def main() -> None:
 
     if args.generate_answer:
         if gate_decision is None:
-            gate_decision = {
-                "pass": True,
-                "reason": "Answerability gate was not enabled; generation proceeds with available context.",
-                "predicted_citation_count": 0,
-                "selected_evidence": [],
-                "gate_features": {},
+            gate_decision = run_answerability_gate(args.query, results, gate_topk=args.gate_topk)
+
+        if not bool(gate_decision.get("pass")):
+            answer_payload = {
+                "answer": "Mình chưa có đủ bằng chứng đáng tin cậy trong kho dữ liệu để trả lời câu này.",
+                "key_concepts": [],
+                "evidence": gate_decision.get("selected_evidence", []),
+                "limits": gate_decision.get("reason", "Answerability Gate không đạt."),
+                "safety_note": (
+                    "Thông tin Y học cổ truyền chỉ dùng để tham khảo; không dùng để tự chẩn đoán, "
+                    "tự kê đơn hoặc thay thế tư vấn của bác sĩ/thầy thuốc có chuyên môn."
+                ),
             }
-
-        selected_for_answer: list[dict[str, Any]] = []
-        if context_payload is not None:
-            raw_final = context_payload.get("final_answer_evidence", [])
-            if isinstance(raw_final, list):
-                selected_for_answer = [x for x in raw_final if isinstance(x, dict)]
-        if not selected_for_answer:
-            selected_for_answer = list(gate_decision.get("selected_evidence", []))
-        if not selected_for_answer:
-            selected_for_answer = results[: max(1, min(5, len(results)))]
-
-        focused_context = ""
-        if context_payload is not None:
-            focused_context = str(context_payload.get("context", ""))
-
-        answer_payload, raw_model_output = generate_structured_answer(
-            query=args.query,
-            gate_decision=gate_decision,
-            focused_context=focused_context,
-            selected_evidence=selected_for_answer,
-            retrieval_results=selected_for_answer,
-            ollama_url=args.ollama_url,
-            model=args.answer_model,
-            max_tokens=max(64, args.answer_max_tokens),
-            temperature=max(0.0, args.answer_temperature),
-        )
-
-        print(f"\n{'─'*60}")
-        print("Generated Answer")
-        print(f"\nAnswer:\n{answer_payload.get('answer', '')}")
-
-        key_concepts = answer_payload.get("key_concepts", [])
-        if isinstance(key_concepts, list):
-            print("\nKey concepts:")
-            if key_concepts:
-                for concept in key_concepts:
-                    print(f"  - {concept}")
-            else:
-                print("  - (none)")
-
-        print("\nEvidence summary:")
-        evidence = answer_payload.get("evidence", [])
-        if isinstance(evidence, list) and evidence:
-            for ev in evidence:
-                if not isinstance(ev, dict):
-                    continue
-                cite = ev.get("citation_id", "E?")
-                snippet_raw = ev.get("snippet", "")
-                snippet = snippet_raw if isinstance(snippet_raw, str) else ""
-                snippet = snippet.replace("\n", " ")[:120]
-                print(
-                    f"  [{cite}] chunk={ev.get('chunk_id')}  parent={ev.get('parent_id')}  "
-                    f"score={ev.get('score')}  title={ev.get('title') or ''}"
-                )
-                print(f"       snippet={snippet}")
+            print(f"\n{'─'*60}")
+            print("Generated Answer")
+            print(f"\nAnswer:\n{answer_payload['answer']}")
+            print(f"\nLimits:\n{answer_payload['limits']}")
+            print(f"\nSafety note:\n{answer_payload['safety_note']}")
         else:
-            print("  - (no evidence)")
+            selected_for_answer: list[dict[str, Any]] = []
+            if context_payload is not None:
+                raw_final = context_payload.get("final_answer_evidence", [])
+                if isinstance(raw_final, list):
+                    selected_for_answer = [x for x in raw_final if isinstance(x, dict)]
+            if not selected_for_answer:
+                selected_for_answer = list(gate_decision.get("selected_evidence", []))
+            if not selected_for_answer:
+                selected_for_answer = results[: max(1, min(5, len(results)))]
 
-        print(f"\nLimits:\n{answer_payload.get('limits', '')}")
-        print(f"\nSafety note:\n{answer_payload.get('safety_note', '')}")
+            focused_context = ""
+            if context_payload is not None:
+                focused_context = str(context_payload.get("context", ""))
+
+            answer_payload, raw_model_output = generate_structured_answer(
+                query=args.query,
+                gate_decision=gate_decision,
+                focused_context=focused_context,
+                selected_evidence=selected_for_answer,
+                retrieval_results=selected_for_answer,
+                ollama_url=args.ollama_url,
+                model=args.answer_model,
+                max_tokens=max(64, args.answer_max_tokens),
+                temperature=max(0.0, args.answer_temperature),
+            )
+
+            print(f"\n{'─'*60}")
+            print("Generated Answer")
+            print(f"\nAnswer:\n{answer_payload.get('answer', '')}")
+
+            key_concepts = answer_payload.get("key_concepts", [])
+            if isinstance(key_concepts, list):
+                print("\nKey concepts:")
+                if key_concepts:
+                    for concept in key_concepts:
+                        print(f"  - {concept}")
+                else:
+                    print("  - (none)")
+
+            print("\nEvidence summary:")
+            evidence = answer_payload.get("evidence", [])
+            if isinstance(evidence, list) and evidence:
+                for ev in evidence:
+                    if not isinstance(ev, dict):
+                        continue
+                    cite = ev.get("citation_id", "E?")
+                    snippet_raw = ev.get("snippet", "")
+                    snippet = snippet_raw if isinstance(snippet_raw, str) else ""
+                    snippet = snippet.replace("\n", " ")[:120]
+                    print(
+                        f"  [{cite}] chunk={ev.get('chunk_id')}  parent={ev.get('parent_id')}  "
+                        f"score={ev.get('score')}  title={ev.get('title') or ''}"
+                    )
+                    print(f"       snippet={snippet}")
+            else:
+                print("  - (no evidence)")
+
+            print(f"\nLimits:\n{answer_payload.get('limits', '')}")
+            print(f"\nSafety note:\n{answer_payload.get('safety_note', '')}")
 
     if (save_debug or args.answer_debug) and args.generate_answer and answer_payload is not None:
         _save_answer_debug_json(

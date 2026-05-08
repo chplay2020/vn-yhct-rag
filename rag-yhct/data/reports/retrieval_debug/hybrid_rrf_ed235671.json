@@ -1,0 +1,735 @@
+{
+  "query": "ngai cuu co chua khoi hoan toan moi loai benh khong",
+  "mode": "hybrid_rrf",
+  "top_k": 30,
+  "results": [
+    {
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "fused_score": 0.032787,
+      "bm25_rank": 0,
+      "bm25_score": 29.567457,
+      "vector_rank": 0,
+      "vector_score": 0.597675,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hình đầu, màu vàng lục nhạt. Quả bế nhỏ, dài và nhẵn. Toàn cây có mùi thơm hắc. Cây mọc hoang hay được trồng khắp nơi trên đất nước ta vừa làm ra",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "fused_score": 0.028718,
+      "bm25_rank": 14,
+      "bm25_score": 22.974039,
+      "vector_rank": 4,
+      "vector_score": 0.588356,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "uống với ít đường. 2. Bạch đới: Ngải chân vịt tươi 30-60g, sắc uống. 3. Bầm dập: Ngải chân vịt tươi 60g, củ Hẹ tươi 30g, giã chung và tẩm rượu dùng đắp.\n\nNgải cứu Ngải cứu, Thuốc cứu - Artemisia vulgaris L., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo sống dai, cao khoảng 1m, thân có rãnh dọc. Lá mọc so le, xẻ nhiều kiểu, từ xẻ lông chim đến xẻ thuỳ theo đường gân, mặt trên xanh đậm, mặt dưới trắng xanh, có lông. Hoa đầu màu lục nhạt, xếp thành chùm xim. Mùa hoa quả tháng 10-12. Bộ phận dùng: Phầ",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "fused_score": 0.028373,
+      "bm25_rank": 2,
+      "bm25_score": 26.988161,
+      "vector_rank": 19,
+      "vector_score": 0.567749,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "và tác hại Bệnh do lạnh gây ra thì phải đuổi khí lạnh đó đi. Đó là nguyên lý chữa bệnh. Làm cho ấm cho nóng để đánh tan khí lạnh có 2 giải pháp: thuốc và hơ ngải cứu. Thuốc có rất nhiều nào là Phụ-tử, Quế, Khương.... vv. Nhưng có nhiều bệnh nhân đã được điều trị bằng phương thang (thuốc Bắc,Nam), nhìn toa thuốc thấy rất hợp với lý của bệnh mà bệnh vẫn không khỏi..... kỳ lạ thiệt. Việc này xin để quý Đông Y Sĩ suy xét. Ở đây tôi chỉ bàn về điếu ngải cứu trong việc hơ nóng để chữa các bệnh do lạnh",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_e56086bb278f:0da8554ff07a",
+      "fused_score": 0.025712,
+      "bm25_rank": 10,
+      "bm25_score": 23.640912,
+      "vector_rank": 25,
+      "vector_score": 0.56412,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu, viêm ruột... Cách dùng: Uống 6 - 12g/ngày, dạng thuốc sắc hay dùng lá Ngải cứu tươi rửa sạch, giã nát, vắt lấy nước uống. Lưu ý: Người âm hư, huyết nhiệt không dùng. 5. Bài thuốc có dùng Ngải cứu 5.1 Bài thuốc chữa động thai Ngải diệp 8g Đương quy 4g A giao 4g Sinh khương 4g Đan sâm 4g Nhân sâm 4g Cam thảo 4g Đại táo 8g Sắc uống.",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_1d81088c863e:3329f78ad06e",
+      "fused_score": 0.024028,
+      "bm25_rank": 58,
+      "bm25_score": 18.045487,
+      "vector_rank": 3,
+      "vector_score": 0.591093,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b40",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ", hơ lửa cũng có thể chữa bệnh. Thông qua quan sát lâu dài bằng mắt, người ta tìm thấy được \"ngải\" là loại thuốc tốt nhất để cứu chữa bệnh, đồng thời cũng phát hiện phạm vi chủ trị của \"ngải\" và bộ phận có hiệu quả. Thời gian càng lâu, kinh nghiệm càng nhiều, đương nhiên hình thành trên lâm sàng một phương pháp chữa bệnh bằng ngải cứu. D. Tóm tắt quá trình phát triển của phép chữa bệnh bằng châm cứu Phép chữa bệnh bằng châm cứu cũng giống như các môn khoa học khác, tuỳ theo diễn biến khác nhau c",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "fused_score": 0.023317,
+      "bm25_rank": 13,
+      "bm25_score": 23.080394,
+      "vector_rank": 41,
+      "vector_score": 0.558775,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ư điếu thuốc lá, đốt nóng để tác động vào các huyệt, chữa nhiều bệnh khác nhau. Không dùng cách này cho các bệnh nhiệt. Cách làm điếu ngải: Lấy lá ngải cứu khô vò nát, loại bỏ cành cuống, lấy phần còn lại là ngải nhung đem cuốn thành điếu như điếu thuốc lá hay to hơn tùy theo ý định sử dụng. Điếu ngải được đốt mang tính nóng ấm cao (thuần dương), nên khi dùng để làm nóng (cứu) các huyệt gọi sẽ làm khí huyết lưu thông mạnh, gây ấm nóng cơ thể, giảm đau, sưng, mỏi cơ, tiết dịch, giải độc, làm mềm ",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:005a3452df50",
+      "fused_score": 0.016129,
+      "bm25_rank": 1,
+      "bm25_score": 29.194066,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ệ\n\nnh tăng lên dần..... và các bạn bị rối. Bệnh nhân biến mất, không kịp tạo cơ hội cho các bạn sữa chữa. A. KHỞI ĐẦU Năm 1988, trước khi đi Cuba, thầy Châu bắt đầu nghiên cứu dùng nhiệt tác động các huyệt trên mặt. Tôi là người đầu tiên được ông tiết lộ và chứng kiến việc này. Lúc đó, ông dùng điếu thuốc lá. Nhưng sau khi đã có một vài ca có kết quả tốt, ông bảo tôi tìm cách quấn ngải cứu giống như điếu thuốc lá để dùng. Tôi đi mua một bàn vấn thuốc lá, giấy quyến và ngải cứu xay. Hì hục vài lầ",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_6f802cb99781:091e8e03587a",
+      "fused_score": 0.016129,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 1,
+      "vector_score": 0.59426,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b33",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "6i d i t r o n g d nofi khac vao mua xuan. Sau 5-6 n a m m6i t h u hoach lay qua chi Tagia ve got v6 xanh bo ra phori kho, hoac say kho chu ye'u de a n t r a u . K h i can l a m thuo'c t h i lay h a t ma dung goi la B i n h lang, cung CO the lay V6 qua cau (Xaccau kho - goi la D a i phiic bi) cung CO tac dung nhi T hat Cau. Lieu liiong gio'ng nhi T h a t cau. 100 • Ti^^n^^CLl^i^i U. 52- CHOI SE Tenkhdc: Choi r a n h , Choi xue, T h a n h hao, Choi t r e n . ffen khoa hgc: Beac kea frutescens L .",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_6f802cb99781:544ac94ecc2a",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.591162,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b78",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "chau (nghia la c6 hofi sdnh, khi ro giot mat vao niidc la ma khon gtan ngay ladifgfc). Coxong tron bpt thu6c vdfi mat thiinh 1 chat deo, cho vao coi gia nhiiyen den khi nao khong dinh coi chay la dtfgfc. Bauthanh mieng nho cho ra khay men ho Scmam dong, se thanh con dai nhu chiec dua, roi dung mong tay cai ngat thanh t Cmgmieng nho, vi Tang^t vifa ve th^nh vien tron, xong dem say kho. Phirongphap nay trong khong dep mat, song ngay nay van difofc dung de san xuat loai hoan to bang vien bi, phan l",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_e56086bb278f:84f42cb41a84",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 26.764229,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b3",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ". D. Hồng hoa là nụ hoa của cây Hồng hoa đã phơi khô. 10. Độ ẩm an toàn của các vị thuốc theo qui định là: A. Hạ khô thảo 13%. B. Rễ gai 13%. C. Hồng hoa 14%.\n\nD. Ngải cứu 14%. 11. Chất carthamin có trong dược liệu sau: A. Rễ cây Gai. B. Lá cây Bạch đồng nữ. C. Toàn cây Ngải cứu. D. Hoa cây Hồng hoa. 12. Công dụng chữa bệnh chính của vị thuốc: A. Sung úy tử điều hòa kinh nguyệt. B. Ngải cứu chữa phong thấp. C. Bạch đồng nữ chữa mụn nhọt. D. Hồng hoa chữa tụ huyết. 13. Cách dùng, liều lượng của v",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e56086bb278f:f9ed203eadff",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 25.667322,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b3",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (....): 1. Hai bộ phận dùng làm thuốc của cây ích mẫu là: A ....................................................... B ....................................................... 2. Bộ phận dùng làm thuốc của cây Bạch đồng nữ là: ................... 3. Tên khoa học của cây Ngải cứu là: .............. họ Cúc: .................... 4. Cây ích mẫu là cây thảo, thân ............. lá mọc đối ................ hoa tự xim co,",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_13b8c5abfbbe:dcb6c9644781",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 25.426852,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_13b8c5abfbbe",
+      "parent_id": "src_13b8c5abfbbe:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Là pp dùng sức nóng từ điếu ngải hoặc mồi ngải tác động lên huyệt vị theo lý luận YHCT để điều trị - Châm và Cứu có thể kết hợp hoặc đơn trị liệu KỸ THUẬT CỨU\n\n• Cứu là dùng sức nóng tác động lên huyệt kích thích tạo nên phản ứng của cơ thể để phòng và điều trị bệnh. Cứu thường dùng lá ngải cứu khô chế thành ngải nhung rồi làm mồi ngải hay điếu ngải để cứu. • Cứu bao gồm cứu trực tiếp, cứu gián tiếp. Cứu gián tiếp bao gồm cứu cách gừng có tác dụng ôn trung tán hàn, cứu cách tỏi có tác dụng tiê",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:90bb95f45b29",
+      "fused_score": 0.014925,
+      "bm25_rank": 6,
+      "bm25_score": 24.738399,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b4",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "m theo cảm giác dễ chịu. Vì thế với các dạng u xơ, u bướu thể cứng càng hơ nó lại càng cứng hơn. Mặc dù, sau vài lần điều trị, khối u nhỏ đi. Nhưng một khối u bao giờ cũng gây bế tắc quanh nó khiến khối u to hơn trên hình ảnh siêu âm hay CT,MRI. Khi hơ nóng, các bế tắc xung quanh được giải tỏa nhưng cục nhân thì không đổi và còn có thể cứng hơn nữa. Vì thế, mới trị thời gian ngắn, thấy hình ảnh khối u nhỏ lại không có nghĩa là trị được khối u. Tương đối, hơ ngải thích hợp với các u-nang, nhưng d",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_6f802cb99781:386ee32461d4",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.586616,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b36",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "t h a n h p h a n chii yeu la dau beo (chiem 55,3%) chat dam va duforngngoai r a con c6 cac men n h u phosphotaza, in vec taza, peroxydaxa.. Trong m a n g do h a t gac c6 8% dau mau do mau. M a n g va nhan h a t Gacdeu c6 chiia B caroten, la mot chat t i e n v i t a m i n A cai] cho hoat dong ciia te bao t h i giac va sir p h a t t r i e n co the. Cong dung: Ngoai tac dung bo durdng nhir cac loai hoa qua khac, ngudi ta dung dau h a t Gacn h a m suf dung caroten co t r o n g do de chfla chiirngch",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:1b44b95c41a4",
+      "fused_score": 0.014706,
+      "bm25_rank": 7,
+      "bm25_score": 23.764722,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "n\n\nếp dùng uống hoạt huyết, bổ huyết. Lá Ngải cứu hơ nóng chườm bụng trị đau bụng, dùng gối đầu trị đau đầu. Nước Ngải tươi giải nóng, giải nhiệt. Có thể nấu thành cao, dùng riêng hoặc phối hợp với các loại thuốc khác.",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_12abef9658fb:c8bebd713865",
+      "fused_score": 0.014706,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 7,
+      "vector_score": 0.585982,
+      "source_id": "src_12abef9658fb",
+      "parent_id": "src_12abef9658fb:h:5297024b7f97:b15",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Vàng chữa khỏi các bệnh như bệnh của tôi và một số bệnh khác nữa. Tuy chưa tin lắm, nhưng “có bệnh thì vái tứ phương” nên tôi thử. Không ngờ cây Lược Vàng đúng là “thần dược”. Từ năm 2010 đến nay, áp dụng theo những điều sách hướng dẫn, bệnh quái ác trong tôi dần bị đẩy lui, có bệnh khỏi hẳn.",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_6f802cb99781:ad5559c0cfaf",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.582069,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b19",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "tim khong dxigc cung cap dii mau. Benh nhan cung co the cam tha'y bi de nen hoac co that oflong nguc. Nhilng cam giac nay c Ongco the xuat hien d vai, tay, cd, ham hoac l Ung. - Corn dau CO the nang hon khi van dong va khoi k h i nghi ngcfi. Nhi Jngstress ve cam xiic cung co the lam khori phat com dau. - Cacdong mach canh cung cap mau giau oxy cho nao nen khi bi mang xa vufa gay hep hoac bit t Ac t h i benh nhan co the se bi dot quy. Benh nhan co the dot ngot co cam giac te, yeu va hoa mat, chon",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_1d81088c863e:11a79ab83d92",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 23.76052,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_1d81088c863e",
+      "parent_id": "src_1d81088c863e:h:5297024b7f97:b243",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(*) Kinh phong: Chứng co giật.\n\nCHẨN TRỊ NHỮNG BỆNH CHỨNG THƯỜNG GẶP BẰNG CHÂM CỨU CẨM NANG CHẨN TRỊ ĐÔNG Y\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 85 72. Bệnh liệt mềm Bệnh liệt mềm là chi trên hoặc chi dưới, bên phải hoặc bên trái bị mềm yếu không có sức, không thể vận động được. Mới đầu châm cảm thấy buốt tức, tê. Lâu ngày bắp thịt teo dần, không thể cử động chân tay, thành người tàn phế. Bệnh mới bị, dùng châm cứu chữa kiên trì có kết quả tốt. Dùng cứu nhiều hơn. Cách chữa: Lấy ",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_6f802cb99781:46c1260baa25",
+      "fused_score": 0.014286,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 9,
+      "vector_score": 0.581419,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b12",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "khoe ciia ban neu ban b i u xo tuf cung. - B a n nen di k h a m sufc khoe d i n h k y dac biet la k h a m phu khoa n h a m phat h i e n sdrm benh. 14. BENH VIEM MUl D\\G B e n h v i e m m u i di ling la benh d i ufngcua toan t h a n c6 bieu h i e n t a i ehd, thi/omg la nhufng com h a t hoi, so m u i va tac m u i . Nguyen nhan - D i nguyen gay benh bao gdm: pha'n hoa, bui nha, n a m mo'c, vai sgi, long gia sue, gia cam; m o t so' thu Tcan nhi T dau, dufa, 40 • / w e/U?«/^e^A torn cua, ca; mot so'",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_6f802cb99781:79de894565e7",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.580311,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b79",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "sanh \\6n hay thung nhom de ditag cao. - Cifa de c Uaxuang. - 1 ban chai sdt hoac tre de cao rijfa xi/ong. 262 • \"Dia^c M « , v #^^w'v t ) 6 n grgrrt - 1 que tre di xoi b6 tuy xxiong. - Daode che xiiong. - 1 gio tre dan cho v^o gi Cfanoi cao de c6 cho tro'ng muc n\\X6c cao. - Gaonho muc n Udccao, gdo to miic n Udfc soi. - 2 dua tre Idfn hinh bofi cheo de quay. - 2 chao hay thung nhom I6n de nau cao vk nau nifdrc soi. - 3-4 bep de nau cao, c6 cao vk dun ni X6c s6i. b. CM bien nguyen lieu: - Gachuau",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:6f31071767d9",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 23.193221,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b4",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ến mất sau vài lần điều trị, có khi chỉ sau lần điều trị đầu tiên mặc dù được người thân giới thiệu đến tôi. Sau đó, cuối năm 1992, tôi lại nhận một ca tương tự. Lần này, tôi không dám hơ nóng nữa mà chỉ dùng dầu để trị. Thoạt đầu bệnh giãm nhanh, nhưng sau đó bệnh lại dừng và có chiều hướng tăng lên lại. Nhờ kinh nghiệm và tôn trọng nguyên tắc chẩn đoán về hàn nhiệt, tôi khám phá ra rằng cô BN thứ hai này viêm xoang với cả hai thể hàn và nhiệt. Tôi đổi kỹ thuật, thế là thành công hoàn toàn. Từ ",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_6f802cb99781:efe1b1b961c9",
+      "fused_score": 0.013889,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 11,
+      "vector_score": 0.575712,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b26",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "aromatieus Benth, thuoc ho hoa moi (Labiatae). Thanh phdn hoa hoc: Cachoat chat khac ehi Ta t i m thay, mdi thay tinh dau c6 chat eac vaerola va c6 1 chat mau do la colein. Cong dung: Cotae dung khang sinh, di Torc dimg chufa ho, viem hong, cam cum. Ngoai ra con dung dap len vet ret va bo cap can, ding lam gia vi trong cac mon rau so'ng. Cdch dung: Dung la ti Tcfi rufa sach, gia nho, ep lay nirdcuon ghoac nhai vdi muo'i roi ngam, nuo't nudc. M6i ngay dimg 5-7 la khoang 10-16g. Cach trong, thu ha",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_565d308c7183:5448cba07ab1",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 23.145027,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_565d308c7183",
+      "parent_id": "src_565d308c7183:h:5297024b7f97:b31",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "Công ty cổ phần Dược phẩm OPC. Chi nhánh Công ty Cổ phần Dược phẩm OPC tại Bình Dương - Nhà máy Dược phẩm OPC 546 Ngũ vị tử tẩm mật Nguyên liệu làm thuốc 24 tháng TCCS Túi 10g, 15g, 20g, 25g, 30g, 50g, 100g, 200g, 250g, 500g, 1kg, 2kg, 3kg, 5kg, 10kg VD-29042-18 Công ty cổ phần Dược phẩm OPC. Chi nhánh Công ty Cổ phần Dược phẩm OPC tại Bình Dương - Nhà máy Dược phẩm OPC 547 Ngải cứu sao cháy Nguyên liệu làm thuốc 24 tháng TCCS Túi 100g, 200g, 500g, 1kg, 2kg, 5kg, 10kg VD-29041-18 Công ty cổ phần",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_6f802cb99781:f517f5a75f17",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.571835,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b2",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "ngiiri, cam giac, nem hoac nghe. - Corn dong k i n h cue bo phi Jctap. Nhi Jngcorn nay l a m thay doi y thile, k h i e n benh n h a n b i ma't y thufc trong m o t thcri gian. Candong k i n h cue bo phiifctap thifcfnggay ra cai n h i n cham cham va 12 • X / W v e / w Z t t / ^ c ^ vnhttngciifdong k h o n g co muc dich, nhi T be tay, h e m m o i , n o i l a m n h a m hoac nuo't k h a n . C<fn dgng kinh loan the - Canvang y thufc (dong k i n h con nho), dac triftigbai cai n h i n cham cham, nhi Jng",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_6f802cb99781:d56eb1176d52",
+      "fused_score": 0.013514,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 13,
+      "vector_score": 0.57173,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b24",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "ay diing 10-14 qua (c6 the t d i 20 qua), t a n t h a n h bot hoac l a m t h a n h vien de uo'ng, uo'ng l i e n t r o n g 1 tuan le. Cothe dimg nhan h a t da loai bo dau (loai bo tac dung gay non va d i long) bang each khijt dau hoac ep bo dau. Cothe dung de t h u t vao hau mon, lay 20-30 qua gia nho ngam vao t r o n g 2 0 0 m l nirdcbicabonat N a 1% sau 1-2 giof gan loc lay nudc t h u t giijf. 76 • T/iw-^: ;%u«. e A $)6nfl Y g Trt SLi$u Camky.: Ng Uofi suy nhuofc ( t i v i h u nhirac) non mufa ",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:773683a252ad",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.570147,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b4",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ch máu giúp máu lưu thông tốt hơn, kích thích thần kinh hoạt động mạnh hơn giúp các tổ chức do nó điều khiển phát huy tối đa chức năng. Là nhiệt năng nên tăng sinh lực cho cơ thể bằng cách biến đổi sang các dạng năng lượng khác (điện năng,hóa năng, từ năng...cần thiết, dĩ nhiên là không quá liều). Đó là năng lực của ngải cứu. Sức nóng làm khô vật chất, trong cơ thể thì còn làm hao huyết-dịch. Đó là mặt trái của ngải cứu. Vì thế, khi xoang có mũ, ta hơ nóng sẽ khiến mũ bị khô lại cô đặc hơn khó l",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_6f802cb99781:78b7bba780dd",
+      "fused_score": 0.013158,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 15,
+      "vector_score": 0.569607,
+      "source_id": "src_6f802cb99781",
+      "parent_id": "src_6f802cb99781:h:5297024b7f97:b28",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "SACHYHCT",
+      "text": "f)6na r gfrt gtu Cong dung: Ngoai viec dung qua nhot de nau canh chua ngufoi ta dung N h o t de ch Ofaly, ia chay, la nhot cung dirge ch Ofaly, ia chay va ch Ofacam sot, ho hen c6 nhieu dofm. D i m g re nau n Uoct a m ch Ca m u n nhot. Cach dung: L a , qua, r l dung tuai hoac phoi kho m 6 i ngay 6- l Ogsac uo'ng. Cdeh chebien: Trong bang h a t qua chin. L a , qua, redun gtuc fi hoac phoi kho. Quachin an luon k h o n g can che bien, c6 the nau v d i ca. 36- BA KICH Tenkhdc: Ba k i c h t h i e n ,",
+      "rank": 26
+    },
+    {
+      "chunk_id": "src_3ad7c6b78d18:03728f1824ee",
+      "fused_score": 0.012987,
+      "bm25_rank": 16,
+      "bm25_score": 22.878718,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_3ad7c6b78d18",
+      "parent_id": "src_3ad7c6b78d18:h:5297024b7f97:b48",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "chiếu ngoài da của nội tạng bị đau. Các biện động vật lí, tuần hoàn, thần kinh, vv. do nhiệt gây ra làm đỡ hoặc khỏi đau. CN được dùng trong các trường hợp: cơn đau dạ dày, đau bụng vùng dưới rốn chưa rõ nguyên nhân, vùng da sưng tấy nghi mưng mủ do khi tiêm bị nhiễm khuẩn, vv. Là phương pháp đơn giản, nhiều khi có hiệu quả. Về nguồn nhiệt, có thể dùng túi chườm cao su, bình chườm bằng thuỷ tinh hay sứ, gốm, có nút thật kín đựng nước nóng; muối rang bọc vải; ngải cứu sao nóng; hòn gạch nung; hoặ",
+      "rank": 27
+    }
+  ],
+  "bm25_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "bm25_score": 29.567457
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_ef3d6ff3846c:005a3452df50",
+      "bm25_score": 29.194066
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "bm25_score": 26.988161
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_e56086bb278f:84f42cb41a84",
+      "bm25_score": 26.764229
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_e56086bb278f:f9ed203eadff",
+      "bm25_score": 25.667322
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_13b8c5abfbbe:dcb6c9644781",
+      "bm25_score": 25.426852
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_ef3d6ff3846c:90bb95f45b29",
+      "bm25_score": 24.738399
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_d5596b1dce93:1b44b95c41a4",
+      "bm25_score": 23.764722
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_e0520ddfd9ac:1b44b95c41a4",
+      "bm25_score": 23.764722
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_1d81088c863e:11a79ab83d92",
+      "bm25_score": 23.76052
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_e56086bb278f:0da8554ff07a",
+      "bm25_score": 23.640912
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_ef3d6ff3846c:6f31071767d9",
+      "bm25_score": 23.193221
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_565d308c7183:5448cba07ab1",
+      "bm25_score": 23.145027
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "bm25_score": 23.080394
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "bm25_score": 22.974039
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_e0520ddfd9ac:d72a0fa7fc20",
+      "bm25_score": 22.974039
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_3ad7c6b78d18:03728f1824ee",
+      "bm25_score": 22.878718
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_1d81088c863e:03aa29a1b18a",
+      "bm25_score": 22.360953
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_d5596b1dce93:e6f6eedcfff2",
+      "bm25_score": 22.355587
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_e0520ddfd9ac:e6f6eedcfff2",
+      "bm25_score": 22.355587
+    }
+  ],
+  "vector_candidates": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "vector_score": 0.597675
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_6f802cb99781:091e8e03587a",
+      "vector_score": 0.59426
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_6f802cb99781:544ac94ecc2a",
+      "vector_score": 0.591162
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_1d81088c863e:3329f78ad06e",
+      "vector_score": 0.591093
+    },
+    {
+      "rank": 4,
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "vector_score": 0.588356
+    },
+    {
+      "rank": 5,
+      "chunk_id": "src_e0520ddfd9ac:d72a0fa7fc20",
+      "vector_score": 0.588356
+    },
+    {
+      "rank": 6,
+      "chunk_id": "src_6f802cb99781:386ee32461d4",
+      "vector_score": 0.586616
+    },
+    {
+      "rank": 7,
+      "chunk_id": "src_12abef9658fb:c8bebd713865",
+      "vector_score": 0.585982
+    },
+    {
+      "rank": 8,
+      "chunk_id": "src_6f802cb99781:ad5559c0cfaf",
+      "vector_score": 0.582069
+    },
+    {
+      "rank": 9,
+      "chunk_id": "src_6f802cb99781:46c1260baa25",
+      "vector_score": 0.581419
+    },
+    {
+      "rank": 10,
+      "chunk_id": "src_6f802cb99781:79de894565e7",
+      "vector_score": 0.580311
+    },
+    {
+      "rank": 11,
+      "chunk_id": "src_6f802cb99781:efe1b1b961c9",
+      "vector_score": 0.575712
+    },
+    {
+      "rank": 12,
+      "chunk_id": "src_6f802cb99781:f517f5a75f17",
+      "vector_score": 0.571835
+    },
+    {
+      "rank": 13,
+      "chunk_id": "src_6f802cb99781:d56eb1176d52",
+      "vector_score": 0.57173
+    },
+    {
+      "rank": 14,
+      "chunk_id": "src_ef3d6ff3846c:773683a252ad",
+      "vector_score": 0.570147
+    },
+    {
+      "rank": 15,
+      "chunk_id": "src_6f802cb99781:78b7bba780dd",
+      "vector_score": 0.569607
+    },
+    {
+      "rank": 16,
+      "chunk_id": "src_6f802cb99781:09f1ddc9e250",
+      "vector_score": 0.569497
+    },
+    {
+      "rank": 17,
+      "chunk_id": "src_6f802cb99781:c237b1d9a986",
+      "vector_score": 0.569315
+    },
+    {
+      "rank": 18,
+      "chunk_id": "src_6f802cb99781:64a3257b2229",
+      "vector_score": 0.568236
+    },
+    {
+      "rank": 19,
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "vector_score": 0.567749
+    }
+  ],
+  "query_debug": {
+    "query_original": "ngai cuu co chua khoi hoan toan moi loai benh khong",
+    "query_after_normalize": "ngai cuu co chua khoi hoan toan moi loai benh khong",
+    "query_accentless_for_matching": "ngai cuu co chua khoi hoan toan moi loai benh khong",
+    "query_after_lexicon_restore": "ngải cứu co chua khoi hoan toan moi loại bệnh khong",
+    "query_after_general_restore": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+    "query_after_corpus_restore": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+    "query_final_restored": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+    "query_after_restore": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+    "accented_token_count": 0,
+    "non_accented_token_count": 11,
+    "total_candidate_tokens": 11,
+    "non_accented_token_ratio": 1.0,
+    "restore_triggered": true,
+    "restore_trigger_threshold": 0.5,
+    "restore_changed": true,
+    "restore_confidence": 0.72,
+    "restore_method": "general_corpus",
+    "restore_confidence_band": "high",
+    "restore_conf_band": "high",
+    "restore_candidates": [
+      {
+        "candidate": "ngai cuu co chua khoi hoan toan moi loai benh khong",
+        "method": "none",
+        "domain_lexicon_matches": []
+      },
+      {
+        "candidate": "ngải cứu co chua khoi hoan toan moi loại bệnh khong",
+        "method": "domain_lexicon",
+        "domain_lexicon_matches": [
+          {
+            "group": "auto_mined_raw_txt_clean",
+            "folded": "loai benh",
+            "accented": "loại bệnh",
+            "ngram": 2,
+            "hits": 1
+          },
+          {
+            "group": "herbs",
+            "folded": "ngai cuu",
+            "accented": "ngải cứu",
+            "ngram": 2,
+            "hits": 1
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "candidate": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+        "method": "general_corpus",
+        "domain_lexicon_matches": [
+          {
+            "group": "auto_mined_raw_txt_clean",
+            "folded": "loai benh",
+            "accented": "loại bệnh",
+            "ngram": 2,
+            "hits": 1
+          },
+          {
+            "group": "herbs",
+            "folded": "ngai cuu",
+            "accented": "ngải cứu",
+            "ngram": 2,
+            "hits": 1
+          }
+        ],
+        "confidence": 0.72,
+        "suspicious": false
+      }
+    ],
+    "domain_lexicon_matches": [
+      {
+        "group": "auto_mined_raw_txt_clean",
+        "folded": "loai benh",
+        "accented": "loại bệnh",
+        "ngram": 2,
+        "hits": 1
+      },
+      {
+        "group": "herbs",
+        "folded": "ngai cuu",
+        "accented": "ngải cứu",
+        "ngram": 2,
+        "hits": 1
+      }
+    ],
+    "lexicon_restore_changed": true,
+    "lexicon_restore_confidence": 0.7,
+    "general_restore_triggered": true,
+    "general_restore_changed": true,
+    "general_restore_confidence": 0.72,
+    "general_restore_conf_band": "high",
+    "final_restore_source": "general",
+    "vector_queries_used": [
+      "ngai cuu co chua khoi hoan toan moi loai benh khong",
+      "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không"
+    ],
+    "bm25_queries_used": [
+      "ngai cuu co chua khoi hoan toan moi loai benh khong"
+    ],
+    "dual_query_enabled": true,
+    "vector_query_used": "ngải cứu có chữa khỏi hoàn toàn mỗi loại bệnh không",
+    "bm25_query_used": "ngai cuu co chua khoi hoan toan moi loai benh khong"
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "query": "bach truat co tac dung gi",
+  "mode": "hybrid_rrf",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_ae3b6786b57c:ba965cd96503",
+      "fused_score": 0.031754,
+      "bm25_rank": 1,
+      "bm25_score": 28.537148,
+      "vector_rank": 3,
+      "vector_score": 0.662419,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bạch linh 9g Bạch truật 9g Cam thảo 4g Sắc uống. Công dụng: Tăng sức lực, chữa tỳ vị yếu, người mệt mỏi, ăn kém, tiêu chảy kéo dài.\n\nBẠCH TRUẬT Tên khác: Ưng truật – Cống truật - Sinh bạch truật - Tiêu bạch truật Tên khoa học: Atractylodes macrocep hala Koidz. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Bạch truật là cây thảo, sống nhiều năm, cao từ 40 - 80cm. Rễ củ mập có nhiều nhánh, vỏ ngoài màu vàng xám. Lá mọc so le, mép khía răng cưa; lá gần gốc có cuống dài, phiến xẻ thành 3 thùy sâu; lá gần c",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:335452acdd55",
+      "fused_score": 0.031545,
+      "bm25_rank": 0,
+      "bm25_score": 29.971288,
+      "vector_rank": 5,
+      "vector_score": 0.653748,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "3. Thành phần hóa học Bạch truật có chứa tinh dầu, glycosid, inulin, vitamin A. 4. Công dụng, cách dùng Bạch truật có tác dụng kiện tỳ, tiêu thực, lưu thông khí huyết, an thần, an thai và được coi là một vị thuốc bổ quí (một trong 4 vị trong Tứ quân thang). Được dùng chữa các chứng bệnh: tiêu hóa kém, hồi hộp, hoảng sợ, hay quên, ngủ kém, mệt mỏi, suy nhược, tâm trí không yên, khí huyết kém, động thai... Cách dùng: Uống 6 - 12g/ngày, dạng thuốc sắc, bột hay làm thành viên. Lưu ý: Đau bụng do âm ",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:33ab18dee3ba",
+      "fused_score": 0.030536,
+      "bm25_rank": 5,
+      "bm25_score": 26.765757,
+      "vector_rank": 4,
+      "vector_score": 0.661563,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Rễ đảng sâm có vị ngọt, tính bình, có tác dụng chữa tỳ vị suy nhược, phế khí kém, biếng ăn, đại tiện lỏng, thiếu máu, vàng da, tăng bạch cầu, viêm thận, nước tiểu có albumin, chân phù đau.\n\nPhân tích công dụng của Bạch truật theo tây y : Tên khoa học là Atrac tylodes mac rocep hala Koidz., bộ phận dùng là rễ củ, vỏ mầu nâu, ruột trắng ngà, ức chế vi khuẩn gây ra bệnh ngoài da, nước sắc của bạch truật có chất glucoside kali at rac tylat làm hạ đường huyết trong gan xuống thấp có thể tới mức gây c",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:0f0488193552",
+      "fused_score": 0.029631,
+      "bm25_rank": 6,
+      "bm25_score": 26.409144,
+      "vector_rank": 7,
+      "vector_score": 0.650478,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b25",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ắc, vỏ màu nâu, ruột trắng ngà, có mùi thơm nhẹ là loại tốt. Khi dùng, đắp nước vào khâu ủ rễ cho mềm rồi thái miếng. Thành phần hoá học: Củ chứa 1,4% tinh dầu. Thành phần của tinh dầu gồm: at rac tylol, at rac tylenolid I, II và III, en desmol và vitamin A. Tính vị, tác dụng: Bạch truật có vị ngọt đắng, mùi thơm nhẹ, tính ấm, có tác dụng kiện tỳ, táo thấp, chỉ tả, hoà trung, lợi thuỷ, an thai. Công dụng, chỉ định và phối hợp: Bạch truật được xem là một vị thuốc bổ bồi dưỡng và được dùng chữa vi",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_40c21fbc97fb:f012c4609b55",
+      "fused_score": 0.029214,
+      "bm25_rank": 17,
+      "bm25_score": 23.928017,
+      "vector_rank": 0,
+      "vector_score": 0.681657,
+      "source_id": "src_40c21fbc97fb",
+      "parent_id": "src_40c21fbc97fb:h:5297024b7f97:b18",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phân tích theo đông y : Bạch truật có mùi thơm nhẹ, vị ngọt đắng, tính ấm, kiện tỳ, táo thấp, hòa trung, lợi tiểu, giảm phù nhẹ, an thai, chống loét dạ dày, tăng cường chức năng giải độc của gan và chống viêm, nếu bạch truật sao chế với giấm sẽ làm tăng tiết mật. Đông y xem nó như là một loại thuốc bổ chữa các bệnh hư chứng như đau bao tử, giảm đau bụng đầy trướng có cảm giác nóng rát vùng thượng vị làm nôn mửa, giúp ăn được, chữa bệnh chậm tiêu, thấp nhiệt, tiêu chảy phân sống, viêm ruột mãn tí",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:be2ca2a3f3a2",
+      "fused_score": 0.028787,
+      "bm25_rank": 18,
+      "bm25_score": 23.835686,
+      "vector_rank": 1,
+      "vector_score": 0.681082,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "of 160 87 Phân tích theo đông y : Bạch truật có mùi thơm nhẹ, vị ngọt đắng, tính ấm, kiện tỳ, táo thấp, hòa trung, lợi tiểu, giảm phù nhẹ, an thai, chống loét dạ dày, tăng cường chức năng giải độc của gan và chống viêm, nếu bạch truật sao chế với giấm sẽ làm tăng tiết mật. Đông y xem nó như là một loại thuốc bổ chữa các bệnh hư chứng như đau bao tử, giảm đau bụng đầy trướng có cảm giác nóng rát vùng thượng vị làm nôn mửa, giúp ăn được, chữa bệnh chậm tiêu, thấp nhiệt, tiêu chảy phân sống, viêm r",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_7cdb5f831e1c:6cccf59c1662",
+      "fused_score": 0.028382,
+      "bm25_rank": 11,
+      "bm25_score": 25.33345,
+      "vector_rank": 8,
+      "vector_score": 0.647796,
+      "source_id": "src_7cdb5f831e1c",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b54",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Hạt canh cải cay, hăng, tính nóng, vào kinh phế tỳ có tác dụng ôn trung tán hàn, lợ I khí, hóa đờm, thông kinh lạc, tiêu thủng độc. Thân và lá canh cải thường dùng làm rau ăn, nấu canh, muối dưa, có tác dụng tuyên phế hóa đờm, ôn trung lợi khí, chữa bao tử hàn ăn vào ói ra, đau quặn bụng, phế hàn, ho đờm, đau họng, lao hạch, đau khớp.\n\nPhân tích công dụng của Bạch truật theo tây y : Tên khoa học là Atrac tylodes mac rocep hala Koidz.,bộ phận dùng là rễ củ, vỏ mầu nâu, ruột trắng ngà ức chế vi kh",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:57eaee4338fa",
+      "fused_score": 0.027367,
+      "bm25_rank": 2,
+      "bm25_score": 28.39287,
+      "vector_rank": 26,
+      "vector_score": 0.593057,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b50",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phụ phương: Chỉ truật thang: Dùng 7 quả Chỉ thực, Bạch truật 2 lạng (theo liều lượng của sách Kim quỹ yếu lược về sau xuống 1 lạng, hiện nay dùng 12 gam). Nguyên chữa “dưới tim rắn chắc, to như cái thúng, do thủy ẩm gây nên”, chủ trị chứng tỳ nhược khí trệ, mất sự tiêu hóa, dẫn đến thủy bĩ kết dưới vùng tim nên Chỉ thực tiêu bĩ, Bạch truật kiện tỳ. Bài này vị thuốc cơ bản giống bài Chỉ truật hoàn, nhưng liều lượng Chỉ thực gấp đôi Bạch truật. Về sau Trương Nguyên Tố cho rằng Chỉ thực tước mòn, k",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:607a60e6cc86",
+      "fused_score": 0.024846,
+      "bm25_rank": 19,
+      "bm25_score": 23.563492,
+      "vector_rank": 20,
+      "vector_score": 0.600433,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b257",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ng, phơi khô; khi dùng sao vàng. Thành phần hoá học: Trong củ có senecip hyllinin và senecip hyllin. Tính vị, tác dụng: Vị ngọt, tính ấm; có tác dụng hoạt huyết tán ứ, cầm máu, tiêu sưng. Công dụng, chỉ định và phối hợp: Chữa bị thương ứ máu sưng đau, thổ huyết, sau khi đẻ đau huyết khí. Người ta sử dụng nó như vị Tam thất, vì vậy mà có tên trên. Liều dùng 6-12g, dạng thuốc sắc. Ta thường dùng chữa bệnh phụ nữ có mang chán cơm, hay người gầy nóng ruột háu đói mà nhác ăn (có tác dụng bổ tỳ vị gần",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:9d84d00abd7e",
+      "fused_score": 0.024611,
+      "bm25_rank": 10,
+      "bm25_score": 25.75631,
+      "vector_rank": 34,
+      "vector_score": 0.583852,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b22",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ý NGHĨA: trong bài nhân sâm, bạch truật, bổ tỳ ích khí, trần bì lý khí kiện tỳ, sơn tra, mạch nha, thần khúc tiêu tích trực, chỉ thực tiêu tích hành trệ, là bài thuốc bổ tỳ kiện vị tiêu tích hóa thực. 4. SÂM LINH BẠCH TRUẬT TÁN NGUỒN GỐC CHỦ TRỊ: bài do thái bình huệ dân hòa tễ cục phương chế ra có tác dụng bổ tỳ CHỦ TRỊ tỳ vị hư nhược phế khí bất túc, ẩm thực giảm thiểu mệt mỏi không có sức, hụt hơi hồi hộp, ói mửa tiêu chảy... PHƯƠNG CA: Sâm linh bạch truật biển đậu trần Sơn dược cam liên sa ý",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:5828235b202a",
+      "fused_score": 0.024451,
+      "bm25_rank": 12,
+      "bm25_score": 25.183725,
+      "vector_rank": 32,
+      "vector_score": 0.585917,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b50",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "hoặc đau bụng, lý cấp hậu trọng mà người bệnh chính khi chưa hư thì dùng bài thuốc này là thích hợp nhất.\n\nChương 7: Thuốc tiêu © text: http://phongthuyquan. vn 60 CHỈ TRUẬT HOÀN (Phụ: Chỉ truật thang) Trích « Thương hàn luận » theo bài thuốc của Trương Nguyên Tố Thành phần: 1. Chỉ thực 1 lạng. 2. Lá sen bao cơm nung khô, nghiền nhỏ làm hoàn. 3. Bạch truật 2 lạng Cách dùng: Mỗi lần dùng 6-12 gam, ngày 2 lần uống với nước đun sôi. Công dụng: Kiện tỳ vị, tiêu đầy chướng. Chữa chứng bệnh: Tỳ vị hư ",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:a712159bb8d7",
+      "fused_score": 0.02379,
+      "bm25_rank": 40,
+      "bm25_score": 21.914957,
+      "vector_rank": 11,
+      "vector_score": 0.611267,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(thường là hình chùy ngược, có nhiều mấu phình ra), mặt ngoài màu nâu nhạt hoặc xám, có vân hình hoa cúc, nhiều nếp nhăn dọc; có mùi thơm nhẹ. Bạch truật đã được ghi trong Dược điển Việt Nam (2002).",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:c0487bf9d090",
+      "fused_score": 0.023191,
+      "bm25_rank": 16,
+      "bm25_score": 24.164581,
+      "vector_rank": 37,
+      "vector_score": 0.581097,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b8",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "(giống như khi nhai hạt đậu sống). Hoàng kỳ đã được ghi trong Dược điển Việt Nam (2002). 2. Thành phần hoá học Rễ có tinh bột, đường, flavonoid , saponin, acid amin, chất nhầy. 3. Công dụng, cách dùng Hoàng kỳ có tác dụng bổ khí, tiêu độc, lợi tiểu. Dùng chữa các chứng bệnh: nguyên khí hư tổn, biểu hư, tự ra mồ hôi, ung nhọt, tiêu chảy, đái đục, đái buốt... Cách dùng: Dùng 12 - 30 g/ngày, dạng thuốc sắc, hoàn tán 4. Bài thuốc có dùng Hoàng kỳ 4.1. Bài thuốc tăng lực, bổ máu, dùng cho người suy n",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:f5dfd5c1c6cc",
+      "fused_score": 0.022632,
+      "bm25_rank": 56,
+      "bm25_score": 20.592507,
+      "vector_rank": 10,
+      "vector_score": 0.619673,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b28",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Trạch tả: 15g Chỉ thực: 15g Bạch truật: 15g Địa du: 9g Tất cả tán thành bột mịn mỗi lần uống 9g với nước đun sôi uống ấm. Phương nghĩa: trong bài tần giao, tạo giác nhuận táo thông đại tiện, đào nhân quy vỹ hoạt huyết hóa ứ, chỉ thực tả nhiệt khá kết, trạch tả thấm lợi thấp nhiệt, địa du phá huyết chỉ huyết, bạch truật táo thấp ích khí. (1) Bài trên bỏ bạch truật, quy vỹ, địa du thêm thương truật , phòng phong, địa hoàng, hoàng bá, binh lang gọi là bài tần giao thương truật thang, CHỦ TRỊ trĩ sa",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:ab63391cfa34",
+      "fused_score": 0.022074,
+      "bm25_rank": 24,
+      "bm25_score": 23.276341,
+      "vector_rank": 36,
+      "vector_score": 0.581485,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b6",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Ý NGHĨA : trong bài thuốc trư linh, phục linh lợi thủy, trạch tả thông lợi, bạch truật kiện tỳ táo thấp, quế chi giải biểu khử tà. Bài thuốc có tác dụng hành thủy lợi thấp 1. Trong dạ dày khô táo mà khát muốn uống nước đó là chứng không có nước, có nước ắt hết nên dùng bạch hổ thang tiểu tiện không lợi mà khát đó là chứng súc thủy nên dùng ngũ linh tán 2. Trong ngực bụng có nước cho nên uống nước vào lập tức thổ ra, có tên gọi là thủy nghịch nên dùng ngũ linh tán. Nếu ăn vào tức thổ ra gọi là hà",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_ae3b6786b57c:9badebd6c7f1",
+      "fused_score": 0.02178,
+      "bm25_rank": 35,
+      "bm25_score": 22.323332,
+      "vector_rank": 27,
+      "vector_score": 0.592681,
+      "source_id": "src_ae3b6786b57c",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b8",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (.........): 1. Bạch truật là .............. .................................................................. phơi sấy khô của cây ..................\n\n2. Thược dược được dùng chữa .............. mồ hôi trộm, .............. ............ , kinh nguyệt không đều, đau dạ dày. 3. Đan sâm có tác dụng ............. , lưu thông ......................... 4. Đương quy thuộc loại cây .................... , sống .........",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:90f3e0fe2232",
+      "fused_score": 0.021637,
+      "bm25_rank": 34,
+      "bm25_score": 22.362252,
+      "vector_rank": 29,
+      "vector_score": 0.590917,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b49",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "phương thuốc thường dùng để tiêu thực hòa vị. Cách gia giảm: Bài này là bài thuốc nhẹ và tiêu thực đạo trệ, nếu gia Mạch nha tác dụng tiêu thực mạnh lên, nếu tích thực nặng thì gia Chỉ thực, Binh lang. Bài này gia Bạch truật 2 lạng tên là “Đại an hoàn”, chức năng tiêu thực bổ tỳ, chữa chứng tỳ hư thực trệ không hóa, đại tiện lỏng là phương thuốc trong tiêu có bổ.",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:35acaf0b3e50",
+      "fused_score": 0.019898,
+      "bm25_rank": 26,
+      "bm25_score": 23.103191,
+      "vector_rank": 58,
+      "vector_score": 0.565789,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b57",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "uật, Trần bì, Đương quy, Cam thảo dùng để kiện tỳ lý khí, dưỡng huyết hòa trung là thuốc phù trợ của bài thuốc này. Bài này do Hoàng kỳ ích khí cổ biểu, Thăng ma thăng dương giáng hỏa, Sài hồ giải cơ thanh nhiệt nên người dương khí hư suy mà lại bị ngoại cảm tà phát sốt cũng có thể dùng, cách chữa này gọi là “cam ôn trừ nhiệt”. Phụ phương: Bài này bỏ Bạch truật, Đương quy, gia Thương truật, Mộc hương tức là Điều trung ích khí thang hợp với bệnh khí hư hạ hãm mà thấp đọng ở tỳ vị, đại tiện lỏng t",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:5f933a9b406f",
+      "fused_score": 0.018055,
+      "bm25_rank": 55,
+      "bm25_score": 20.658545,
+      "vector_rank": 45,
+      "vector_score": 0.573187,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b88",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "HOÀNG THỔ THANG « Kim quỹ yếu lược » Thành phần: 1. Chích thảo 6-8 gam 2. Thục địa khô 12-20 gam 3. Bạch truật 12 gam 4. Bào phụ tử 4-12 gam 5. A giao\n\n12 gam 6. Hoàng cầm 12 gam 7. Đất lòng bếp 40 gam Cách dùng: Ngày 1 thang sắc với nước, chia làm 2 lần uống. Công dụng: Ôn dương, kiện tỳ, chỉ huyết. Chữa chứng bệnh: Đại tiện hạ huyết hoặc thổ huyết, băng lậu màu máu đen nhạt, tay chân không ấm, sắc mặt vàng tối, rêu lưỡi và chất lưỡi trắng nhợt. Mạch trầm tế vô lực. Giải bài thuốc: Phương này t",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:21d65902128c",
+      "fused_score": 0.017319,
+      "bm25_rank": 53,
+      "bm25_score": 20.922285,
+      "vector_rank": 56,
+      "vector_score": 0.567978,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b7",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Phục linh truật thược phụ sinh khương Thiếu âm phúc thống âm hàn thạnh Thủy khí uông dương bệnh thế sương. PHƯƠNG DƯỢC: Phục linh: 12g Thược dược : 9g Sinh khương: 9g Bạch truật: 9g Phụ tử: 4,5g Lấy nước sắc uống Ý NGHĨA: trong bài dung bạch truật bồ tỳ lợi thủy, sinh khương ôn tán, phụ tử ôn bổ thận dương, thược dược liễm huyết chỉ phúc thống. 3. Tứ nghịch tán ( thông mạch tứ nghịch tán, thông mạch gia đởm chấp thang, tứ nghịch gia nhân sâm thang, phục linh tứ nghịch thang) NGUỒN GỐC CHỦ TRỊ: b",
+      "rank": 19
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:5068588d9369",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 28.219239,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b3",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "các vị thuốc trong một bài thuốc có liên quan mật thiết đến tác dụng chủ trị nhất là thay đổi các vị thuốc chủ yếu thì tác dụng chữa bệnh của bài thuốc ấy cũng biến đổi.\n\n3. Thay đổi định lượng vị thuốc: Nếu định lượng vị thuốc trong bài thuốc biến đổi lớn thì tác dụng chính cũng biến đổi theo. Ví như bài Chỉ truật thang và Chỉ truật hoàn cùng gồm 2 vị Chỉ thực và Bạch truật ghép nên. Nhưng Chỉ thực ở bài trước định lượng gấp đôi Bạch truật nên lấy tiêu tích đạo trệ làm chủ; bài sau thì Bạch tru",
+      "rank": 20
+    },
+    {
+      "chunk_id": "src_6c0d8caff063:2c1377027eb2",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 27.813571,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_6c0d8caff063",
+      "parent_id": "src_6c0d8caff063:h:5297024b7f97:b50",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "điều trị biểu hiện lâm sàng sa dạ dày, nguyên bài thuốc có chú thích rõ sau khi dùng thuốc trong bụng phải mềm mới là biểu hiện có hiệu quả. Những năm gần đây kết quả lâm sàng cho biết, bài thuốc này chữa sa dạ dày hiệu quả của nó tốt hơn Chỉ truật hoàn. Vì vậy, có thể cho rằng, nếu chữa sa dạ dày nên dùng nhiều Chỉ thực, Chỉ thực tiêu bĩ có Bạch truật phù trợ, là nặng bổ hơn tiêu, có thể tiêu mà không thương tổn chính, nếu chữa tiêu hóa không tốt nên dùng nhiều Bạch truật, Bạch truật kiện tỳ có",
+      "rank": 21
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:9c3d339d34d1",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 26.260713,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b11",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NGUỒN GỐC CHỦ TRỊ : bài trong phụ nhân lương phương có tác dụng thận dương hư hãn CHỦ TRỊ tự ra mồ hôi tay chân lạnh khí sông ngược lên gây suyễn, khó thở, dương khí muốn thoát rất nguy cấp. PHƯƠNG CA : Sâm phụ thang liệu tự hãn lưu Thận dương thoát hãn thử phương cầu Vệ dương bất cố tu kỳ phụ (1) Uất át tỳ dương truật phụ đầu (2) PHƯƠNG DƯỢC : Nhân sâm: 30g Phụ tử : 15g Thêm sinh khương, đại táo lấy nước sắc uống Ý NGHĨA: bài thuốc có tác dụng tráng nguyên khí, bổ thận dương, tác dụng hồi dương",
+      "rank": 22
+    },
+    {
+      "chunk_id": "src_eb28c8848470:9a26f0f05d80",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 26.23008,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b105",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ĐIỀU 156. PHÉP CHỮA YÊU THỐNG Trong Biện chứng kỳ vãn của Tiền Kinh Hồ, có bài Khoan yêu thang chữa chứng đau ở eo lưng, dược vị bình thường, nghị luận thiết thực. Hơn 10 năm nay, tôi chuyên dùng bài đó để chữa bệnh đau eo lưng, rất kết quả. Bài thuốc: Phục linh 10đ. c Bạch truật 10đ. c Ý dĩ 10đ. c Quế chi 2đ. c Sa tiền 3đ. c Lời giải của họ Tiên: Có người bị đau ở eo lưng, ngày nặng đêm nhẹ, đi đái khó, uống ăn như thường. phần nhiều cho bệnh đó là Thận hư. Có biết đâu là do nước bị vít ở Bàng ",
+      "rank": 23
+    },
+    {
+      "chunk_id": "src_dc9975133c19:9862b38bc4ac",
+      "fused_score": 0.014286,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 9,
+      "vector_score": 0.620368,
+      "source_id": "src_dc9975133c19",
+      "parent_id": "src_dc9975133c19:h:5297024b7f97:b35",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ". Bạch-truật có dầu, lấy dầu mỡ bổ tỳ. Dầu lại không dính nước, cho nên lợi thuỷ, khí thơm ấm, cũng là chủ lợi thuỷ, lại thăng phát được, làm cho khí của tỳ thổ thượng đạt. Cho nên Bạch-truật là thứ thuốc chính để bổ tỳ. Thương-truật khí ấm mà mạnh, cho nên kèm thêm táo tính, bổ vị không bổ tỳ; sắc xanh, được tính của mộc, lại sơ tiết được, là thứ thuốc trị hàn thấp. Thấp kiêm (gồm) thuỷ hoả, thuỷ hoả thừa thành thấp kiêm hàn: bị bệnh thì trướng, ta lỏng. Hoa-tiêu cay ấm để tán hàn thấp, sát đượ",
+      "rank": 24
+    },
+    {
+      "chunk_id": "src_eb28c8848470:865ab0f48278",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.60517,
+      "source_id": "src_eb28c8848470",
+      "parent_id": "src_eb28c8848470:h:5297024b7f97:b91",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Bạch truật 1 lạng Thương truật 1 lạng Thần khúc 4 đ. c. Hậu phác 4 đ. c. Phòng sâm 5 đ. c. Đinh hương 1 đ. c. Xuyên liên 2 đ. c. Nhục khấu 2 đ. c. Chích thảo 2 đ. c. Chỉ xác 4 đ. c. Ý nghĩa bài thuốc: - Hắc phụ bổ chân hỏa, trừ chứng âm phong (?) hợp cùng trọc khí của Thận xông lên não làm đau đầu ngạt mũi, và trừ chứng tay chân lạnh. - Sâm, Truật, Khương, Thảo bổ trung thổ, làm cho Thổ vượng liễm nạp được nguyên dương, trừ chứng nóng bừng như sốt. - Gia Thương truật, Thần khúc kiện Tỳ táo thấp,",
+      "rank": 25
+    },
+    {
+      "chunk_id": "src_dd44d09f37b8:0f86b295a1e2",
+      "fused_score": 0.013514,
+      "bm25_rank": 13,
+      "bm25_score": 25.136543,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_dd44d09f37b8",
+      "parent_id": "src_dd44d09f37b8:h:5297024b7f97:b28",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ù thạch nhuận phế hóa đờm, kha tử thâu liễm phế khí do đó đờm ắt hóa khái thấu ( ho khạc ) tức trừ.\n\n9. TẦN GIAO BẠCH TRUẬT HOÀN NGUỒN GỐC CHỦ TRỊ: bài do lý đông viên lập ra có tác dụng trị trĩ ra máu, đại tiện bí, CHỦ TRỊ trĩ sang có máu mủ, đại tiện táo kết đau nhức khó chịu. PHƯƠNG CA: Tần giao bạch truật hoàn đông viên Quy vĩ đào nhân chỉ thực hoàn Địa du trạch tả tạo giác tử Hồ hoàn huyết trĩ tiện gian nan Nhận hữu thương truật phòng phong tễ Nhuận huyết sơ phong táo thấp an (1) PHƯƠNG DƯỢ",
+      "rank": 26
+    }
+  ],
+  "gate_pass": true,
+  "reason": "Có đủ bằng chứng mạnh và nhất quán từ truy xuất hybrid.",
+  "predicted_citation_count": 4,
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_ae3b6786b57c:ba965cd96503",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+      "source_id": "src_ae3b6786b57c",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "title": null,
+      "fused_score": 0.031754,
+      "vector_score": 0.662419,
+      "bm25_score": 28.537148,
+      "text": "Bạch linh 9g Bạch truật 9g Cam thảo 4g Sắc uống. Công dụng: Tăng sức lực, chữa tỳ vị yếu, người mệt mỏi, ăn kém, tiêu chảy kéo dài.\n\nBẠCH TRUẬT Tên khác: Ưng truật – Cống truật - Sinh bạch truật - Tiêu bạch truật Tên khoa học: Atractylodes macrocep hala Koidz. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Bạch truật là cây thảo, sống nhiều năm, cao từ 40 - 80cm. Rễ củ mập có nhiều nhánh, vỏ ngoài màu vàng xám. Lá mọc so le, mép khía răng cưa; lá gần gốc có cuống dài, phiến xẻ thành 3 thùy sâu; lá gần c"
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_ae3b6786b57c:335452acdd55",
+      "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+      "source_id": "src_ae3b6786b57c",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "title": null,
+      "fused_score": 0.031545,
+      "vector_score": 0.653748,
+      "bm25_score": 29.971288,
+      "text": "3. Thành phần hóa học Bạch truật có chứa tinh dầu, glycosid, inulin, vitamin A. 4. Công dụng, cách dùng Bạch truật có tác dụng kiện tỳ, tiêu thực, lưu thông khí huyết, an thần, an thai và được coi là một vị thuốc bổ quí (một trong 4 vị trong Tứ quân thang). Được dùng chữa các chứng bệnh: tiêu hóa kém, hồi hộp, hoảng sợ, hay quên, ngủ kém, mệt mỏi, suy nhược, tâm trí không yên, khí huyết kém, động thai... Cách dùng: Uống 6 - 12g/ngày, dạng thuốc sắc, bột hay làm thành viên. Lưu ý: Đau bụng do âm "
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_7cdb5f831e1c:33ab18dee3ba",
+      "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+      "source_id": "src_7cdb5f831e1c",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "title": null,
+      "fused_score": 0.030536,
+      "vector_score": 0.661563,
+      "bm25_score": 26.765757,
+      "text": "Rễ đảng sâm có vị ngọt, tính bình, có tác dụng chữa tỳ vị suy nhược, phế khí kém, biếng ăn, đại tiện lỏng, thiếu máu, vàng da, tăng bạch cầu, viêm thận, nước tiểu có albumin, chân phù đau.\n\nPhân tích công dụng của Bạch truật theo tây y : Tên khoa học là Atrac tylodes mac rocep hala Koidz., bộ phận dùng là rễ củ, vỏ mầu nâu, ruột trắng ngà, ức chế vi khuẩn gây ra bệnh ngoài da, nước sắc của bạch truật có chất glucoside kali at rac tylat làm hạ đường huyết trong gan xuống thấp có thể tới mức gây c"
+    },
+    {
+      "rank": 3,
+      "chunk_id": "src_d5596b1dce93:0f0488193552",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b25",
+      "source_id": "src_d5596b1dce93",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "title": null,
+      "fused_score": 0.029631,
+      "vector_score": 0.650478,
+      "bm25_score": 26.409144,
+      "text": "ắc, vỏ màu nâu, ruột trắng ngà, có mùi thơm nhẹ là loại tốt. Khi dùng, đắp nước vào khâu ủ rễ cho mềm rồi thái miếng. Thành phần hoá học: Củ chứa 1,4% tinh dầu. Thành phần của tinh dầu gồm: at rac tylol, at rac tylenolid I, II và III, en desmol và vitamin A. Tính vị, tác dụng: Bạch truật có vị ngọt đắng, mùi thơm nhẹ, tính ấm, có tác dụng kiện tỳ, táo thấp, chỉ tả, hoà trung, lợi thuỷ, an thai. Công dụng, chỉ định và phối hợp: Bạch truật được xem là một vị thuốc bổ bồi dưỡng và được dùng chữa vi"
+    }
+  ],
+  "gate_features": {
+    "top1_score": 0.031754,
+    "top2_score": 0.031545,
+    "top1_top2_gap": 0.000209,
+    "evidence_count": 8,
+    "distinct_parent_count": 7,
+    "distinct_source_count": 5,
+    "same_parent_support": true,
+    "same_source_support": true,
+    "parent_agreement": true,
+    "source_agreement": true,
+    "top_support_parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+    "top_support_source_id": "src_7cdb5f831e1c",
+    "evidence_score_sum": 0.237216,
+    "evidence_score_mean": 0.029652,
+    "evidence_parent_concentration": 0.25,
+    "gate_topk": 8,
+    "min_strong_evidence": 2,
+    "strong_rel_ratio": 0.8,
+    "strong_abs_threshold": 0.012,
+    "has_absolute_claim_pattern": false,
+    "absolute_claim_supported": false,
+    "absolute_countersignal_count": 3,
+    "claim_mismatch_flag": false,
+    "has_high_risk_pattern": false,
+    "required_min_evidence": 2
+  },
+  "context_payload": {
+    "mode": "parent_child",
+    "tokens_used": 2200,
+    "parents": [
+      {
+        "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+        "score": 0.101754,
+        "title": "Bai14",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [
+          3
+        ],
+        "best_child_index": 3,
+        "merged_child_ranges": [
+          [
+            2,
+            6
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            2,
+            6
+          ]
+        ],
+        "context_tokens": 793
+      },
+      {
+        "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+        "score": 0.101545,
+        "title": "Bai14",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [
+          0
+        ],
+        "best_child_index": 0,
+        "merged_child_ranges": [
+          [
+            0,
+            3
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            3
+          ]
+        ],
+        "context_tokens": 1075
+      },
+      {
+        "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+        "score": 0.100536,
+        "title": "dongytap6",
+        "doc_type": "txt",
+        "children_in_topk": 1,
+        "center_indices": [
+          1
+        ],
+        "best_child_index": 1,
+        "merged_child_ranges": [
+          [
+            0,
+            4
+          ]
+        ],
+        "trimmed_context_spans": [
+          [
+            0,
+            4
+          ]
+        ],
+        "context_tokens": 332
+      }
+    ],
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "bach",
+        "truat",
+        "co"
+      ],
+      "dominant_term": "bach",
+      "candidate_parent_count": 4,
+      "filtered_parent_count": 0,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+          "base_score": 0.031754,
+          "relevance_score": 0.101754,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+          "base_score": 0.031545,
+          "relevance_score": 0.101545,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+          "base_score": 0.030536,
+          "relevance_score": 0.100536,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_d5596b1dce93:h:5297024b7f97:b25",
+          "base_score": 0.029631,
+          "relevance_score": 0.099631,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        }
+      ],
+      "filtered_out_parents": [],
+      "selected_parent_ids": [
+        "src_ae3b6786b57c:h:5297024b7f97:b3",
+        "src_ae3b6786b57c:h:5297024b7f97:b4",
+        "src_7cdb5f831e1c:h:5297024b7f97:b33"
+      ],
+      "final_parent_count": 3,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+          "centers": [
+            3
+          ]
+        },
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+          "centers": [
+            0
+          ]
+        },
+        {
+          "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+          "centers": [
+            1
+          ]
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+          "ranges": [
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+          "ranges": [
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+          "spans": [
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+          "spans": [
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b3",
+          "tokens": 793,
+          "preview": "Bạch linh 9g Bạch truật 9g Cam thảo 4g Sắc uống. Công dụng: Tăng sức lực, chữa tỳ vị yếu, người mệt mỏi, ăn kém, tiêu chảy kéo dài.  Bạch linh 9g Bạch truật 9g Cam thảo 4g Sắc uống. Công dụng: Tăng sức lực, chữa tỳ vị yế"
+        },
+        {
+          "parent_id": "src_ae3b6786b57c:h:5297024b7f97:b4",
+          "tokens": 1075,
+          "preview": "3. Thành phần hóa học Bạch truật có chứa tinh dầu, glycosid, inulin, vitamin A. 4. Công dụng, cách dùng Bạch truật có tác dụng kiện tỳ, tiêu thực, lưu thông khí huyết, an thần, an thai và được coi là một vị thuốc bổ quí "
+        },
+        {
+          "parent_id": "src_7cdb5f831e1c:h:5297024b7f97:b33",
+          "tokens": 332,
+          "preview": "Đảng sâm 12g, Bạch truật, Hoài sơn, Ý dĩ, Tang thầm, mỗi thứ 12g, Bá tử nhân, Long nhãn, Táo nhân, mỗi thứ 8g.  Sắc 4 chén nước cạn còn 1 chén, uống mỗi ngày một thang.  Phân tích công dụng của đảng sâm theo tây y :  Tên"
+        }
+      ],
+      "final_context_tokens": 2200,
+      "final_context_token_count": 2200,
+      "final_answer_chunk_ids": [
+        "src_ae3b6786b57c:ba965cd96503",
+        "src_ae3b6786b57c:335452acdd55",
+        "src_7cdb5f831e1c:33ab18dee3ba"
+      ]
+    }
+  }
+}

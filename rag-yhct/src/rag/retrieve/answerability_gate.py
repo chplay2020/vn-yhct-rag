@@ -4,11 +4,34 @@ from collections import Counter
 import re
 from typing import Any, cast
 
-DEFAULT_GATE_TOPK = 5
+DEFAULT_GATE_TOPK = 8
 DEFAULT_MIN_STRONG_EVIDENCE = 2
-DEFAULT_STRONG_REL_RATIO = 0.85
-DEFAULT_STRONG_ABS_THRESHOLD = 0.015
+DEFAULT_STRONG_REL_RATIO = 0.80
+DEFAULT_STRONG_ABS_THRESHOLD = 0.012
 DEFAULT_MAX_CITATIONS = 4
+
+HIGH_RISK_QUERY_PATTERNS = (
+    r"liều\s*(lượng|dùng)",
+    r"lieu\s*(luong|dung)",
+    r"uống\s*bao\s*nhiêu",
+    r"uong\s*bao\s*nhieu",
+    r"trẻ\s*em",
+    r"tre\s*em",
+    r"phụ\s*nữ\s*(có\s*thai|mang\s*thai)",
+    r"phu\s*nu\s*(co\s*thai|mang\s*thai)",
+    r"mang\s*thai",
+    r"có\s*thai",
+    r"co\s*thai",
+    r"ung\s*thư",
+    r"ung\s*thu",
+    r"tiểu\s*đường",
+    r"tieu\s*duong",
+    r"cao\s*huyết\s*áp",
+    r"cao\s*huyet\s*ap",
+    r"suy\s*(gan|thận|than)",
+    r"cấp\s*cứu",
+    r"cap\s*cuu",
+)
 
 ABSOLUTE_CLAIM_PATTERNS = (
     r"chữa\s*khỏi\s*hoàn\s*toàn",
@@ -87,6 +110,11 @@ def _has_absolute_claim_pattern(query: str) -> bool:
     return any(re.search(pat, q, re.IGNORECASE) for pat in ABSOLUTE_CLAIM_PATTERNS)
 
 
+def _has_high_risk_pattern(query: str) -> bool:
+    q = query.lower()
+    return any(re.search(pat, q, re.IGNORECASE) for pat in HIGH_RISK_QUERY_PATTERNS)
+
+
 def _absolute_claim_supported(evidence_items: list[dict[str, Any]]) -> bool:
     if not evidence_items:
         return False
@@ -161,6 +189,8 @@ def run_answerability_gate(
                 "absolute_claim_supported": False,
                 "absolute_countersignal_count": 0,
                 "claim_mismatch_flag": has_absolute,
+                "has_high_risk_pattern": _has_high_risk_pattern(query),
+                "required_min_evidence": min_strong_evidence,
             },
         }
 
@@ -225,11 +255,18 @@ def run_answerability_gate(
 
     predicted_citation_count = min(max_citations, evidence_count)
 
-    agreement = (
+    parent_agreement = (
         same_parent_support
-        or same_source_support
         or (evidence_count >= 3 and evidence_parent_concentration >= 0.67)
     )
+    # Multiple distinct sources are stronger than multiple chunks from the same source.
+    # The old same_source_support=True condition could pass when two chunks came from
+    # only one source, which is not source agreement.
+    source_agreement = distinct_source_count >= 2
+    agreement = parent_agreement or source_agreement
+
+    has_high_risk_pattern = _has_high_risk_pattern(query)
+    required_min_evidence = max(min_strong_evidence, 3 if has_high_risk_pattern else 2)
 
     has_absolute_claim_pattern = _has_absolute_claim_pattern(query)
     evidence_for_claim = strong_items if strong_items else ranked
@@ -244,7 +281,7 @@ def run_answerability_gate(
     )
 
     passed = (
-        evidence_count >= max(2, min_strong_evidence)
+        evidence_count >= required_min_evidence
         and predicted_citation_count >= 2
         and agreement
     )
@@ -258,8 +295,11 @@ def run_answerability_gate(
         )
     elif passed:
         reason = "Có đủ bằng chứng mạnh và nhất quán từ truy xuất hybrid."
-    elif evidence_count < min_strong_evidence:
-        reason = "Chưa đủ số lượng đoạn bằng chứng mạnh."
+    elif evidence_count < required_min_evidence:
+        if has_high_risk_pattern:
+            reason = "Truy vấn rủi ro cao nên cần nhiều bằng chứng mạnh hơn trước khi trả lời."
+        else:
+            reason = "Chưa đủ số lượng đoạn bằng chứng mạnh."
     else:
         reason = "Bằng chứng thiếu độ hội tụ nhất quán (cùng parent/source)."
 
@@ -267,11 +307,18 @@ def run_answerability_gate(
     for idx, item in enumerate(strong_items):
         if idx >= max_citations:
             break
+        # Keep locator fields needed by parent-child context builder.
+        # Without child_index, context windowing falls back to the beginning of
+        # the parent section, which can inject off-topic text into the LLM context.
         selected_evidence.append({
             "rank": item.get("rank"),
             "chunk_id": item.get("chunk_id"),
             "parent_id": item.get("parent_id"),
             "source_id": item.get("source_id"),
+            "child_index": item.get("child_index"),
+            "doc_type": item.get("doc_type"),
+            "category": item.get("category"),
+            "title": item.get("title"),
             "fused_score": item.get("fused_score"),
             "vector_score": item.get("vector_score"),
             "bm25_score": item.get("bm25_score"),
@@ -287,6 +334,8 @@ def run_answerability_gate(
         "distinct_source_count": distinct_source_count,
         "same_parent_support": same_parent_support,
         "same_source_support": same_source_support,
+        "parent_agreement": parent_agreement,
+        "source_agreement": source_agreement,
         "top_support_parent_id": top_support_parent_id,
         "top_support_source_id": top_support_source_id,
         "evidence_score_sum": round(evidence_score_sum, 6),
@@ -300,6 +349,8 @@ def run_answerability_gate(
         "absolute_claim_supported": absolute_claim_supported,
         "absolute_countersignal_count": absolute_countersignal_count,
         "claim_mismatch_flag": claim_mismatch_flag,
+        "has_high_risk_pattern": has_high_risk_pattern,
+        "required_min_evidence": required_min_evidence,
     }
 
     if context_info is not None:

@@ -1,0 +1,571 @@
+{
+  "query": "tac dung cua ngai cuu la gi",
+  "mode": "hybrid_rrf",
+  "model": "qwen2.5:7b-instruct",
+  "hybrid_results": [
+    {
+      "chunk_id": "src_e0520ddfd9ac:1b44b95c41a4",
+      "fused_score": 0.031099,
+      "bm25_rank": 7,
+      "bm25_score": 26.952407,
+      "vector_rank": 0,
+      "vector_score": 0.671828,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "n\n\nếp dùng uống hoạt huyết, bổ huyết. Lá Ngải cứu hơ nóng chườm bụng trị đau bụng, dùng gối đầu trị đau đầu. Nước Ngải tươi giải nóng, giải nhiệt. Có thể nấu thành cao, dùng riêng hoặc phối hợp với các loại thuốc khác.",
+      "rank": 0
+    },
+    {
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "fused_score": 0.026546,
+      "bm25_rank": 1,
+      "bm25_score": 30.798827,
+      "vector_rank": 35,
+      "vector_score": 0.647109,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hình đầu, màu vàng lục nhạt. Quả bế nhỏ, dài và nhẵn. Toàn cây có mùi thơm hắc. Cây mọc hoang hay được trồng khắp nơi trên đất nước ta vừa làm ra",
+      "rank": 1
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "fused_score": 0.025479,
+      "bm25_rank": 17,
+      "bm25_score": 24.489561,
+      "vector_rank": 18,
+      "vector_score": 0.654296,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ư điếu thuốc lá, đốt nóng để tác động vào các huyệt, chữa nhiều bệnh khác nhau. Không dùng cách này cho các bệnh nhiệt. Cách làm điếu ngải: Lấy lá ngải cứu khô vò nát, loại bỏ cành cuống, lấy phần còn lại là ngải nhung đem cuốn thành điếu như điếu thuốc lá hay to hơn tùy theo ý định sử dụng. Điếu ngải được đốt mang tính nóng ấm cao (thuần dương), nên khi dùng để làm nóng (cứu) các huyệt gọi sẽ làm khí huyết lưu thông mạnh, gây ấm nóng cơ thể, giảm đau, sưng, mỏi cơ, tiết dịch, giải độc, làm mềm ",
+      "rank": 2
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:005a3452df50",
+      "fused_score": 0.016393,
+      "bm25_rank": 0,
+      "bm25_score": 32.485307,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ệ\n\nnh tăng lên dần..... và các bạn bị rối. Bệnh nhân biến mất, không kịp tạo cơ hội cho các bạn sữa chữa. A. KHỞI ĐẦU Năm 1988, trước khi đi Cuba, thầy Châu bắt đầu nghiên cứu dùng nhiệt tác động các huyệt trên mặt. Tôi là người đầu tiên được ông tiết lộ và chứng kiến việc này. Lúc đó, ông dùng điếu thuốc lá. Nhưng sau khi đã có một vài ca có kết quả tốt, ông bảo tôi tìm cách quấn ngải cứu giống như điếu thuốc lá để dùng. Tôi đi mua một bàn vấn thuốc lá, giấy quyến và ngải cứu xay. Hì hục vài lầ",
+      "rank": 3
+    },
+    {
+      "chunk_id": "src_13b8c5abfbbe:dcb6c9644781",
+      "fused_score": 0.015873,
+      "bm25_rank": 2,
+      "bm25_score": 29.052988,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_13b8c5abfbbe",
+      "parent_id": "src_13b8c5abfbbe:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "GiaoKhoaVeYCT",
+      "text": "- Là pp dùng sức nóng từ điếu ngải hoặc mồi ngải tác động lên huyệt vị theo lý luận YHCT để điều trị - Châm và Cứu có thể kết hợp hoặc đơn trị liệu KỸ THUẬT CỨU\n\n• Cứu là dùng sức nóng tác động lên huyệt kích thích tạo nên phản ứng của cơ thể để phòng và điều trị bệnh. Cứu thường dùng lá ngải cứu khô chế thành ngải nhung rồi làm mồi ngải hay điếu ngải để cứu. • Cứu bao gồm cứu trực tiếp, cứu gián tiếp. Cứu gián tiếp bao gồm cứu cách gừng có tác dụng ôn trung tán hàn, cứu cách tỏi có tác dụng tiê",
+      "rank": 4
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:f0ac138e1b98",
+      "fused_score": 0.015873,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 2,
+      "vector_score": 0.669294,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b402",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lá, rửa sạch, thái nhỏ, phơi khô. Tính vị, tác dụng: Vị đắng, tính bình; có tác dụng tiêu thũng, tiếp cốt, khư hủ sinh cơ, chống ho. Công dụng, chỉ định và phối hợp: Lá thường được dùng để ăn gỏi, ướp nem, ăn với thịt, cá nướng. Lá cũng được dùng nấu nước uống thay chè. Thường được dùng làm thuốc trị 1. Đòn ngã tổn thương; 2. Dao chém; 3. Mụn nhọt sưng lở, viêm mủ da; 4. Ho và các bệnh đường hô hấp. Có thể dùng cây khô sắc uống hoặc dùng cây tươi giã đắp ngoài. Nhân dân thường dùng lá Đơn nem tư",
+      "rank": 5
+    },
+    {
+      "chunk_id": "src_e56086bb278f:84f42cb41a84",
+      "fused_score": 0.015625,
+      "bm25_rank": 3,
+      "bm25_score": 28.439842,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b3",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": ". D. Hồng hoa là nụ hoa của cây Hồng hoa đã phơi khô. 10. Độ ẩm an toàn của các vị thuốc theo qui định là: A. Hạ khô thảo 13%. B. Rễ gai 13%. C. Hồng hoa 14%.\n\nD. Ngải cứu 14%. 11. Chất carthamin có trong dược liệu sau: A. Rễ cây Gai. B. Lá cây Bạch đồng nữ. C. Toàn cây Ngải cứu. D. Hoa cây Hồng hoa. 12. Công dụng chữa bệnh chính của vị thuốc: A. Sung úy tử điều hòa kinh nguyệt. B. Ngải cứu chữa phong thấp. C. Bạch đồng nữ chữa mụn nhọt. D. Hồng hoa chữa tụ huyết. 13. Cách dùng, liều lượng của v",
+      "rank": 6
+    },
+    {
+      "chunk_id": "src_ef3d6ff3846c:9ccac5e9a661",
+      "fused_score": 0.015385,
+      "bm25_rank": 4,
+      "bm25_score": 28.150812,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_ef3d6ff3846c",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b2",
+      "child_index": 0,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "và tác hại Bệnh do lạnh gây ra thì phải đuổi khí lạnh đó đi. Đó là nguyên lý chữa bệnh. Làm cho ấm cho nóng để đánh tan khí lạnh có 2 giải pháp: thuốc và hơ ngải cứu. Thuốc có rất nhiều nào là Phụ-tử, Quế, Khương.... vv. Nhưng có nhiều bệnh nhân đã được điều trị bằng phương thang (thuốc Bắc,Nam), nhìn toa thuốc thấy rất hợp với lý của bệnh mà bệnh vẫn không khỏi..... kỳ lạ thiệt. Việc này xin để quý Đông Y Sĩ suy xét. Ở đây tôi chỉ bàn về điếu ngải cứu trong việc hơ nóng để chữa các bệnh do lạnh",
+      "rank": 7
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:0ad2b06a102f",
+      "fused_score": 0.015385,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 4,
+      "vector_score": 0.669118,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b154",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "được dùng hạ sốt và làm thuốc tẩy xổ. Lá thường dùng làm gia vị ăn với cá, thức ăn.",
+      "rank": 8
+    },
+    {
+      "chunk_id": "src_e56086bb278f:f9ed203eadff",
+      "fused_score": 0.015152,
+      "bm25_rank": 5,
+      "bm25_score": 27.79984,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b3",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "LƯỢNG GIÁ Trả lời ngắn các câu sau bằng cách điền từ, cụm từ thích hợp vào chỗ trống (....): 1. Hai bộ phận dùng làm thuốc của cây ích mẫu là: A ....................................................... B ....................................................... 2. Bộ phận dùng làm thuốc của cây Bạch đồng nữ là: ................... 3. Tên khoa học của cây Ngải cứu là: .............. họ Cúc: .................... 4. Cây ích mẫu là cây thảo, thân ............. lá mọc đối ................ hoa tự xim co,",
+      "rank": 9
+    },
+    {
+      "chunk_id": "src_e0520ddfd9ac:e3cacea1b8a3",
+      "fused_score": 0.014925,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 6,
+      "vector_score": 0.666612,
+      "source_id": "src_e0520ddfd9ac",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b297",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "dụng lương huyết giải độc, thư cân hoạt lạc. Công dụng, chỉ định và phối hợp: Nhân dân thường dùng cây này giã nhỏ thêm rượu xoa bóp vào những nơi sưng tấy, đau nhức do đòn, chỗ bị thương do ngã. Cũng dùng sắc uống hoặc ngâm rượu uống, có tác dụng đối với gân xương và bổ dưỡng. Lá được dùng giã đắp vào trán, gan bàn tay để giảm sốt; còn dùng chữa ngộ độc, sài giật, cảm gió. Ngày dùng 8-16g, dạng thuốc sắc hay ngâm rượu. Dùng ngoài lấy dây lá tươi giã đắp. Ở Ấn Độ, người ta cũng dùng lá giã đắp c",
+      "rank": 10
+    },
+    {
+      "chunk_id": "src_e56086bb278f:0da8554ff07a",
+      "fused_score": 0.014493,
+      "bm25_rank": 8,
+      "bm25_score": 26.742092,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_e56086bb278f",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "không đều, bụng lạnh đau, băng huyết, rong kinh, động thai, thổ huyết, chảy máu cam, lỵ ra máu, viêm ruột... Cách dùng: Uống 6 - 12g/ngày, dạng thuốc sắc hay dùng lá Ngải cứu tươi rửa sạch, giã nát, vắt lấy nước uống. Lưu ý: Người âm hư, huyết nhiệt không dùng. 5. Bài thuốc có dùng Ngải cứu 5.1 Bài thuốc chữa động thai Ngải diệp 8g Đương quy 4g A giao 4g Sinh khương 4g Đan sâm 4g Nhân sâm 4g Cam thảo 4g Đại táo 8g Sắc uống.",
+      "rank": 11
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:9552cb3b3138",
+      "fused_score": 0.014493,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 8,
+      "vector_score": 0.665513,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b997",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "i chát chát; có thể dùng nấu canh chua. Lá dùng pha trà uống dễ tiêu hoá và giải nắng nóng. Phối hợp với lá Ngải cứu, nấu nước dùng cho phụ nữ sinh đẻ uống. Thường dùng cành lá chữa cảm sốt, viêm ruột, ỉa chảy và khản cổ, ho mất tiếng. Liều dùng 20g lá hoặc 40g rễ hay vỏ cây tươi, sắc uống. Ở Vân Nam (Trung Quốc), cây được dùng trị bệnh về mắt, mắt đỏ; còn ở Quảng Tây dùng trị cảm mạo trúng nắng, viêm dạ dày ruột cấp tính, hoàng đản.",
+      "rank": 12
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:d72a0fa7fc20",
+      "fused_score": 0.014286,
+      "bm25_rank": 9,
+      "bm25_score": 25.691995,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b713",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "uống với ít đường. 2. Bạch đới: Ngải chân vịt tươi 30-60g, sắc uống. 3. Bầm dập: Ngải chân vịt tươi 60g, củ Hẹ tươi 30g, giã chung và tẩm rượu dùng đắp.\n\nNgải cứu Ngải cứu, Thuốc cứu - Artemisia vulgaris L., thuộc họ Cúc - Asteraceae. Mô tả: Cây thảo sống dai, cao khoảng 1m, thân có rãnh dọc. Lá mọc so le, xẻ nhiều kiểu, từ xẻ lông chim đến xẻ thuỳ theo đường gân, mặt trên xanh đậm, mặt dưới trắng xanh, có lông. Hoa đầu màu lục nhạt, xếp thành chùm xim. Mùa hoa quả tháng 10-12. Bộ phận dùng: Phầ",
+      "rank": 13
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:9ba38d2ec510",
+      "fused_score": 0.014085,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 10,
+      "vector_score": 0.66549,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b160",
+      "child_index": 5,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "ông dụng, chỉ định và phối hợp: Thường dùng làm thuốc chữa cảm gió, cam tẩu mã, hen suyễn. Lá dùng làm thuốc trị giun; còn dùng phối hợp với Trang đỏ, tán bột cuốn như điếu thuốc lá để hút trị mũi\n\ncó mủ. Ở Ấn Độ, người ta dùng rễ làm thuốc trị hen suyễn, ho và bệnh lao hạch. Nhựa cây dùng trị đau thấp khớp do giang mai. Dịch lá trộn với sữa lỏng dùng làm thuốc đắp trị phát ban do nấm và bệnh chốc lở (pem phigut). Lá cũng được dùng làm thuốc trừ giun.",
+      "rank": 14
+    },
+    {
+      "chunk_id": "src_2e608dafe081:69b7cc3cf5c4",
+      "fused_score": 0.013889,
+      "bm25_rank": 11,
+      "bm25_score": 25.134205,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_2e608dafe081",
+      "parent_id": "src_2e608dafe081:h:5297024b7f97:b38",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "http://www. ebook. edu. vn Giáo Trình Diện Chẩn Học Page 124 5. DAY Saukhi tìm được điểm nhậy cảm cần tác động (sinh huyệt) bằng que Dò, ta Day tròn hay di động tới lui đầu bi của que Dò quanh huyệt. Tóm lại, là tạo được một khích thích “Động” Đều; còn Ấn là khích thích “Tĩnh”. Tác Dụng: như kỹ thuật Ấn nhưng tác động mạnh hơn, gây đau cho bịnh nhân nhiều hơn. 6. GẠCH (VẠCH) Dùng que Dò gạch/vạch dọc hay ngang (theo các đường cong đặc biệt như: viền mũi, bờ cong ụ cằm, gờ xương lông mày, v. v...",
+      "rank": 15
+    },
+    {
+      "chunk_id": "src_363b2e9ecf9b:40471ab14ba1",
+      "fused_score": 0.013699,
+      "bm25_rank": 12,
+      "bm25_score": 25.134205,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_363b2e9ecf9b",
+      "parent_id": "src_363b2e9ecf9b:h:5297024b7f97:b38",
+      "child_index": 2,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "Giáo Trình Diện Chẩn Học Page 124 5. DAY Saukhi tìm được điểm nhậy cảm cần tác động (sinh huyệt) bằng que Dò, ta Day tròn hay di động tới lui đầu bi của que Dò quanh huyệt. Tóm lại, là tạo được một khích thích “Động” Đều; còn Ấn là khích thích “Tĩnh”. Tác Dụng: như kỹ thuật Ấn nhưng tác động mạnh hơn, gây đau cho bịnh nhân nhiều hơn. 6. GẠCH (VẠCH) Dùng que Dò gạch/vạch dọc hay ngang (theo các đường cong đặc biệt như: viền mũi, bờ cong ụ cằm, gờ xương lông mày, v. v...) nhiều lần nơi nhậy cảm. B",
+      "rank": 16
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:fe218314bf98",
+      "fused_score": 0.013699,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 12,
+      "vector_score": 0.660088,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1018",
+      "child_index": 3,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lá dùng trị viêm dạ dày ruột, lỵ, tiêu hoá không bình thường, nấc, viêm nhánh khí quản; thân dùng trị viêm gan thể hoàng đản, ung thư, có nơi dùng trị đẻ khó; rễ dùng trị phong thấp đau xương, đòn ngã, thận hư, đau răng.",
+      "rank": 17
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:861e87a98096",
+      "fused_score": 0.013333,
+      "bm25_rank": null,
+      "bm25_score": null,
+      "vector_rank": 14,
+      "vector_score": 0.659302,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b66",
+      "child_index": 4,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lợi tiêu hóa, kiện tỳ hành khí, trừ thấp, giảm đau. Công dụng, chỉ định và phối hợp: Được dùng trị: 1. Tiêu hóa kém, đầy bụng, ỉa chảy; 2. Đòn ngã bị thương, đau lưng. Dùng rễ 15-20g, lá 10-15g, dạng thuốc sắc. Lá có thể giã tươi hoặc phơi khô nghiền thành bột dùng đắp.",
+      "rank": 18
+    },
+    {
+      "chunk_id": "src_d5596b1dce93:2dd1a9eac323",
+      "fused_score": 0.013158,
+      "bm25_rank": 15,
+      "bm25_score": 24.672667,
+      "vector_rank": null,
+      "vector_score": null,
+      "source_id": "src_d5596b1dce93",
+      "parent_id": "src_d5596b1dce93:h:5297024b7f97:b1121",
+      "child_index": 1,
+      "doc_type": "txt",
+      "category": "MY_MI_DUONG",
+      "text": "lá Mua, mỗi vị 15g sắc uống. Ngoài dùng lá Bồ công anh giã nhỏ chế giấm, chưng nóng chườm, đắp. Lại dùng lá Ngải cứu khô giã tơi cuốn giấy lại như điếu thuốc lá, đốt hơ chỗ ngực ngang 2 núm vú và chỗ chân vú bên bị tắc, hơ đến mức thấy nóng rát thì thôi. (Theo lương y Lê Trần Ðức).",
+      "rank": 19
+    }
+  ],
+  "gate_result": {
+    "pass": true,
+    "reason": "Có đủ bằng chứng mạnh và nhất quán từ truy xuất hybrid.",
+    "predicted_citation_count": 3,
+    "selected_evidence": [
+      {
+        "rank": 0,
+        "chunk_id": "src_e0520ddfd9ac:1b44b95c41a4",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+        "source_id": "src_e0520ddfd9ac",
+        "fused_score": 0.031099,
+        "vector_score": 0.671828,
+        "bm25_score": 26.952407,
+        "text": "n\n\nếp dùng uống hoạt huyết, bổ huyết. Lá Ngải cứu hơ nóng chườm bụng trị đau bụng, dùng gối đầu trị đau đầu. Nước Ngải tươi giải nóng, giải nhiệt. Có thể nấu thành cao, dùng riêng hoặc phối hợp với các loại thuốc khác."
+      },
+      {
+        "rank": 1,
+        "chunk_id": "src_e56086bb278f:6f1cca84036b",
+        "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+        "source_id": "src_e56086bb278f",
+        "fused_score": 0.026546,
+        "vector_score": 0.647109,
+        "bm25_score": 30.798827,
+        "text": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hình đầu, màu vàng lục nhạt. Quả bế nhỏ, dài và nhẵn. Toàn cây có mùi thơm hắc. Cây mọc hoang hay được trồng khắp nơi trên đất nước ta vừa làm ra"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+        "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+        "source_id": "src_ef3d6ff3846c",
+        "fused_score": 0.025479,
+        "vector_score": 0.654296,
+        "bm25_score": 24.489561,
+        "text": "ư điếu thuốc lá, đốt nóng để tác động vào các huyệt, chữa nhiều bệnh khác nhau. Không dùng cách này cho các bệnh nhiệt. Cách làm điếu ngải: Lấy lá ngải cứu khô vò nát, loại bỏ cành cuống, lấy phần còn lại là ngải nhung đem cuốn thành điếu như điếu thuốc lá hay to hơn tùy theo ý định sử dụng. Điếu ngải được đốt mang tính nóng ấm cao (thuần dương), nên khi dùng để làm nóng (cứu) các huyệt gọi sẽ làm khí huyết lưu thông mạnh, gây ấm nóng cơ thể, giảm đau, sưng, mỏi cơ, tiết dịch, giải độc, làm mềm "
+      }
+    ],
+    "gate_features": {
+      "top1_score": 0.031099,
+      "top2_score": 0.026546,
+      "top1_top2_gap": 0.004553,
+      "evidence_count": 3,
+      "distinct_parent_count": 3,
+      "distinct_source_count": 3,
+      "same_parent_support": false,
+      "same_source_support": false,
+      "parent_agreement": false,
+      "source_agreement": true,
+      "top_support_parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+      "top_support_source_id": "src_e0520ddfd9ac",
+      "evidence_score_sum": 0.083124,
+      "evidence_score_mean": 0.027708,
+      "evidence_parent_concentration": 0.333333,
+      "gate_topk": 8,
+      "min_strong_evidence": 2,
+      "strong_rel_ratio": 0.8,
+      "strong_abs_threshold": 0.012,
+      "has_absolute_claim_pattern": false,
+      "absolute_claim_supported": false,
+      "absolute_countersignal_count": 2,
+      "claim_mismatch_flag": false,
+      "has_high_risk_pattern": false,
+      "required_min_evidence": 2
+    }
+  },
+  "selected_evidence": [
+    {
+      "rank": 0,
+      "chunk_id": "src_e0520ddfd9ac:1b44b95c41a4",
+      "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+      "source_id": "src_e0520ddfd9ac",
+      "fused_score": 0.031099,
+      "vector_score": 0.671828,
+      "bm25_score": 26.952407,
+      "text": "n\n\nếp dùng uống hoạt huyết, bổ huyết. Lá Ngải cứu hơ nóng chườm bụng trị đau bụng, dùng gối đầu trị đau đầu. Nước Ngải tươi giải nóng, giải nhiệt. Có thể nấu thành cao, dùng riêng hoặc phối hợp với các loại thuốc khác."
+    },
+    {
+      "rank": 1,
+      "chunk_id": "src_e56086bb278f:6f1cca84036b",
+      "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+      "source_id": "src_e56086bb278f",
+      "fused_score": 0.026546,
+      "vector_score": 0.647109,
+      "bm25_score": 30.798827,
+      "text": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hình đầu, màu vàng lục nhạt. Quả bế nhỏ, dài và nhẵn. Toàn cây có mùi thơm hắc. Cây mọc hoang hay được trồng khắp nơi trên đất nước ta vừa làm ra"
+    },
+    {
+      "rank": 2,
+      "chunk_id": "src_ef3d6ff3846c:5a2c947de92a",
+      "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+      "source_id": "src_ef3d6ff3846c",
+      "fused_score": 0.025479,
+      "vector_score": 0.654296,
+      "bm25_score": 24.489561,
+      "text": "ư điếu thuốc lá, đốt nóng để tác động vào các huyệt, chữa nhiều bệnh khác nhau. Không dùng cách này cho các bệnh nhiệt. Cách làm điếu ngải: Lấy lá ngải cứu khô vò nát, loại bỏ cành cuống, lấy phần còn lại là ngải nhung đem cuốn thành điếu như điếu thuốc lá hay to hơn tùy theo ý định sử dụng. Điếu ngải được đốt mang tính nóng ấm cao (thuần dương), nên khi dùng để làm nóng (cứu) các huyệt gọi sẽ làm khí huyết lưu thông mạnh, gây ấm nóng cơ thể, giảm đau, sưng, mỏi cơ, tiết dịch, giải độc, làm mềm "
+    }
+  ],
+  "context": {
+    "mode": "parent_child",
+    "tokens_used": 1669,
+    "debug": {
+      "context_source": "gate_selected_evidence",
+      "context_from_gate": true,
+      "query_terms": [
+        "ngai",
+        "cuu"
+      ],
+      "dominant_term": "ngai",
+      "candidate_parent_count": 3,
+      "filtered_parent_count": 1,
+      "max_context_parents": 3,
+      "effective_context_parent_limit": 3,
+      "candidate_parents_before_filter": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+          "base_score": 0.031099,
+          "relevance_score": 0.101099,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+          "base_score": 0.026546,
+          "relevance_score": 0.096546,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": []
+        },
+        {
+          "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+          "base_score": 0.025479,
+          "relevance_score": -0.004521,
+          "support_count": 1,
+          "query_overlap_ratio": 1.0,
+          "has_dominant_term": true,
+          "off_topic_markers": [
+            "csgt"
+          ]
+        }
+      ],
+      "filtered_out_parents": [
+        {
+          "parent_id": "src_ef3d6ff3846c:h:5297024b7f97:b1",
+          "reasons": [
+            "off_topic_marker"
+          ],
+          "relevance_score": -0.004521,
+          "support_count": 1
+        }
+      ],
+      "selected_parent_ids": [
+        "src_e0520ddfd9ac:h:5297024b7f97:b713",
+        "src_e56086bb278f:h:5297024b7f97:b2"
+      ],
+      "final_parent_count": 2,
+      "selected_child_centers": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+          "centers": []
+        },
+        {
+          "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+          "centers": []
+        }
+      ],
+      "merged_child_ranges": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+          "ranges": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+          "ranges": [
+            [
+              3,
+              5
+            ]
+          ]
+        }
+      ],
+      "trimmed_context_spans": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+          "spans": [
+            [
+              3,
+              5
+            ]
+          ]
+        }
+      ],
+      "per_parent_context_contribution": [
+        {
+          "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+          "tokens": 913,
+          "preview": "ch đới; 4. Khó tiêu, đầy bụng, thoát vị. Dùng 10-20g, dạng thuốc sắc, không dùng cho phụ nữ có thai. Dùng ngoài chữa đòn ngã, vết thương chảy máu, bỏng loét, ec zema. Giã cây tươi đắp ngoài, hoặc nghiền thành bột băng bó"
+        },
+        {
+          "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+          "tokens": 756,
+          "preview": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng"
+        }
+      ],
+      "final_context_tokens": 1669,
+      "final_context_token_count": 1669,
+      "final_answer_chunk_ids": [
+        "src_e0520ddfd9ac:1b44b95c41a4",
+        "src_e56086bb278f:6f1cca84036b"
+      ]
+    }
+  },
+  "answer": {
+    "answer": "Ngải cứu có tác dụng điều hòa khí huyết, bổ huyết, hoạt huyết. [E1] Nó được sử dụng để giải nóng, giải nhiệt và trị đau bụng bằng cách hơ lá ngải cứu nóng chườm bụng. [E1] Ngải cứu cũng có thể dùng để làm cao uống hoặc phối hợp với các loại thuốc khác. [E1]",
+    "key_concepts": [
+      "tác dụng điều hòa khí huyết",
+      "bổ huyết",
+      "hoạt huyết",
+      "giải nóng, giải nhiệt",
+      "trị đau bụng"
+    ],
+    "evidence": [
+      {
+        "citation_id": "E1",
+        "chunk_id": "src_e0520ddfd9ac:1b44b95c41a4",
+        "parent_id": "src_e0520ddfd9ac:h:5297024b7f97:b713",
+        "title": null,
+        "file_path": "src_e0520ddfd9ac",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.031099,
+        "snippet": "n ếp dùng uống hoạt huyết, bổ huyết. Lá Ngải cứu hơ nóng chườm bụng trị đau bụng, dùng gối đầu trị đau đầu. Nước Ngải tươi giải nóng, giải nhiệt. Có thể nấu thành cao, dùng riêng hoặc phối hợp với các loại thuốc khác."
+      },
+      {
+        "citation_id": "E2",
+        "chunk_id": "src_e56086bb278f:6f1cca84036b",
+        "parent_id": "src_e56086bb278f:h:5297024b7f97:b2",
+        "title": null,
+        "file_path": "src_e56086bb278f",
+        "page_range": null,
+        "section_heading": null,
+        "score": 0.026546,
+        "snippet": "NGẢI CỨU Tên khác: Cây thuốc cứu - Ngải - Nhã ngải - Ngải cao Tên khoa học: Artemisia vulgaris L. Họ: Cúc (Asteraceae) 1. Mô tả, phân bố Ngải cứu thuộc loại cây thảo sống lâu năm, cao 0,4 - 1,5m, lá mọc so le, phiến rộng, xẻ theo nhiều kiểu khác nhau, mặt trên xanh thẫm, mặt dưới màu tro trắng do có nhiều lông mịn như nhung. Hoa mọc tập trung đầu cành, hì..."
+      }
+    ],
+    "limits": "[E1] chỉ đề cập đến một số tác dụng của ngải cứu và không cung cấp đầy đủ thông tin về tất cả các công dụng khác. Cần tham khảo thêm tài liệu để có cái nhìn toàn diện hơn.",
+    "safety_note": "Thông tin này chỉ nhằm mục đích tham khảo từ tài liệu đã truy xuất, không thay thế chẩn đoán hoặc chỉ định điều trị của bác sĩ."
+  },
+  "raw_model_output": "{\n  \"answer\": \"Ngải cứu có tác dụng điều hòa khí huyết, bổ huyết, hoạt huyết. Nó được sử dụng để giải nóng, giải nhiệt và trị đau bụng bằng cách hơ lá ngải cứu nóng chườm bụng. Ngải cứu cũng có thể dùng để làm cao uống hoặc phối hợp với các loại thuốc khác.\",\n  \"key_concepts\": [\"tác dụng điều hòa khí huyết\", \"bổ huyết\", \"hoạt huyết\", \"giải nóng, giải nhiệt\", \"trị đau bụng\"],\n  \"limits\": \"[E1] chỉ đề cập đến một số tác dụng của ngải cứu và không cung cấp đầy đủ thông tin về tất cả các công dụng khác. Cần tham khảo thêm tài liệu để có cái nhìn toàn diện hơn.\"\n}"
+}

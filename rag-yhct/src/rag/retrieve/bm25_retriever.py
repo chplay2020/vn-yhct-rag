@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import logging
 import pickle
 import re
@@ -35,22 +36,83 @@ logger = logging.getLogger(__name__)
 DEFAULT_CHUNKS_PATH = "data/chunks/chunks_v2_full.jsonl"
 DEFAULT_INDEX_PATH = "data/indexes/bm25_chunks_v2_full.pkl"
 DEFAULT_TOPK = 40
-BM25_INDEX_VERSION = 2
+BM25_INDEX_VERSION = 3
+CURATED_LEXICON_GROUPS = {"herbs", "symptoms", "treatments", "formulas", "patterns"}
+_LEXICON_PATH = Path(__file__).with_name("yhct_domain_lexicon.json")
+_domain_phrase_cache: list[list[str]] | None = None
 
 # ── tokenization ───────────────────────────────────────────────────────────
 
 _RE_WHITESPACE = re.compile(r"\s+")
 
 
-def tokenize_vi(text: str) -> list[str]:
-    """Vietnamese tokenizer tolerant to missing diacritics.
+def _load_domain_phrases() -> list[list[str]]:
+    """Load curated YHCT phrases as accent-folded token sequences.
 
-    It normalizes Unicode/casing/whitespace, then strips diacritics so
-    "ngai cuu" can match "ngải cứu".
+    Avoid auto-mined phrases here because they contain noisy/common fragments
+    that can overpower BM25.
+    """
+    global _domain_phrase_cache  # noqa: PLW0603
+    if _domain_phrase_cache is not None:
+        return _domain_phrase_cache
+    if not _LEXICON_PATH.exists():
+        _domain_phrase_cache = []
+        return _domain_phrase_cache
+    try:
+        raw = json.loads(_LEXICON_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        logger.warning("Failed to load BM25 domain lexicon %s: %s", _LEXICON_PATH, exc)
+        _domain_phrase_cache = []
+        return _domain_phrase_cache
+
+    phrases: list[list[str]] = []
+    if isinstance(raw, dict):
+        for group, pairs in raw.items():
+            if group not in CURATED_LEXICON_GROUPS or not isinstance(pairs, list):
+                continue
+            for item in pairs:
+                if isinstance(item, list):
+                    item_seq = cast(list[Any], item)
+                elif isinstance(item, tuple):
+                    item_seq = list(cast(tuple[Any, Any], item))
+                else:
+                    continue
+                if len(item_seq) != 2:
+                    continue
+                folded = normalize_query_no_diacritics(str(item_seq[0]))
+                toks = [t for t in folded.split() if t]
+                if len(toks) >= 2:
+                    phrases.append(toks)
+    phrases.sort(key=len, reverse=True)
+    _domain_phrase_cache = phrases
+    return _domain_phrase_cache
+
+
+def _add_domain_phrase_tokens(tokens: list[str]) -> list[str]:
+    out = list(tokens)
+    if len(tokens) < 2:
+        return out
+    for phrase in _load_domain_phrases():
+        n = len(phrase)
+        if n > len(tokens):
+            continue
+        phrase_token = "_".join(phrase)
+        for i in range(0, len(tokens) - n + 1):
+            if tokens[i:i + n] == phrase:
+                out.append(phrase_token)
+    return out
+
+
+def tokenize_vi(text: str) -> list[str]:
+    """Vietnamese tokenizer tolerant to missing diacritics and YHCT phrases.
+
+    It normalizes Unicode/casing/whitespace, strips diacritics, then adds
+    curated phrase tokens such as "ngai_cuu" alongside unigram tokens.
     """
     text = normalize_query_no_diacritics(text)
     text = _RE_WHITESPACE.sub(" ", text).strip()
-    return text.split()
+    tokens = text.split()
+    return _add_domain_phrase_tokens(tokens)
 
 
 # ── index management ──────────────────────────────────────────────────────

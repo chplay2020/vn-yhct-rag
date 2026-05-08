@@ -25,6 +25,7 @@ import argparse
 import logging
 import re
 import time
+from pathlib import Path
 from typing import Any
 
 import requests  # type: ignore
@@ -52,29 +53,28 @@ DEFAULT_CONTEXT_FOCUS = "focused"
 
 # ── parent cache ───────────────────────────────────────────────────────────
 
-_parent_cache: dict[str, dict[str, Any]] | None = None
+_parent_cache_by_path: dict[str, dict[str, dict[str, Any]]] = {}
 
 
 def load_parents(parents_path: str = DEFAULT_PARENTS_PATH) -> dict[str, dict[str, Any]]:
-    """Load parents JSONL into a dict keyed by parent_id. Cached in-memory."""
-    global _parent_cache  # noqa: PLW0603
-    if _parent_cache is not None:
-        return _parent_cache
+    """Load parents JSONL into a dict keyed by parent_id. Cached by file path."""
+    key = str(Path(parents_path).expanduser().resolve())
+    if key in _parent_cache_by_path:
+        return _parent_cache_by_path[key]
     records = read_jsonl(parents_path)
     cache: dict[str, dict[str, Any]] = {}
     for rec in records:
         pid = rec.get("parent_id")
         if pid:
-            cache[pid] = rec
-    _parent_cache = cache
+            cache[str(pid)] = rec
+    _parent_cache_by_path[key] = cache
     logger.info("Loaded %d parents from %s (cached)", len(cache), parents_path)
     return cache
 
 
 def invalidate_parent_cache() -> None:
     """Force reload on next access."""
-    global _parent_cache  # noqa: PLW0603
-    _parent_cache = None
+    _parent_cache_by_path.clear()
 
 
 # ── embed query ────────────────────────────────────────────────────────────
@@ -146,6 +146,7 @@ def retrieve_context(
     token_budget: int = DEFAULT_TOKEN_BUDGET,
     context_focus: str = DEFAULT_CONTEXT_FOCUS,
     parent_child_enabled: bool = True,
+    doc_type_filter: str | None = None,
 ) -> dict[str, Any]:
     """Retrieve context for a query using parent–child strategy.
 
@@ -168,13 +169,24 @@ def retrieve_context(
         return {"context": "", "parents": [], "children": [], "tokens_used": 0, "mode": "error"}
 
     # ── 2. Search topK children ───────────────────────────────────────
+    from qdrant_client.models import FieldCondition, Filter, MatchValue  # type: ignore
+
     client: Any = QdrantClient(url=qdrant_url)  # type: ignore
-    results: Any = client.search(
+    conditions: list[FieldCondition] = [
+        FieldCondition(key="is_noise", match=MatchValue(value=False)),
+    ]
+    if doc_type_filter:
+        conditions.append(FieldCondition(key="doc_type", match=MatchValue(value=doc_type_filter)))
+    query_filter = Filter(must=conditions)  # type: ignore[arg-type]
+
+    response: Any = client.query_points(
         collection_name=collection,
-        query_vector=query_vec,
+        query=query_vec,
         limit=topk_child,
         with_payload=True,
+        query_filter=query_filter,
     )
+    results: Any = response.points
 
     children: list[dict[str, Any]] = []
     for r in results:

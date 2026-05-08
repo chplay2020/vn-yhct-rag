@@ -117,13 +117,16 @@ def prepare_query_for_embedding(
     ollama_url: str = DEFAULT_OLLAMA_URL,
     diacritic_model: str = DEFAULT_DIACRITIC_MODEL,
     use_llm_diacritic_fallback: bool = True,
+    use_corpus_diacritic_restore: bool = True,
 ) -> dict[str, Any]:
     """Build final query string for embedding with debug metadata."""
     normalized_query = normalize_query_for_retrieval(query)
-    corpus_restored = restore_query_diacritics_from_corpus(
-        normalized_query,
-        chunks_path=chunks_path,
-    )
+    corpus_restored = normalized_query
+    if use_corpus_diacritic_restore:
+        corpus_restored = restore_query_diacritics_from_corpus(
+            normalized_query,
+            chunks_path=chunks_path,
+        )
 
     final_query = corpus_restored if corpus_restored else normalized_query
     method = "none"
@@ -169,6 +172,7 @@ def retrieve_vector(
     chunks_path: str = DEFAULT_CHUNKS_PATH,
     diacritic_model: str = DEFAULT_DIACRITIC_MODEL,
     use_llm_diacritic_fallback: bool = True,
+    use_corpus_diacritic_restore: bool = True,
     doc_type_filter: str | None = None,
 ) -> list[dict[str, Any]]:
     """Retrieve top-K chunks by vector similarity.
@@ -182,6 +186,7 @@ def retrieve_vector(
         ollama_url=ollama_url,
         diacritic_model=diacritic_model,
         use_llm_diacritic_fallback=use_llm_diacritic_fallback,
+        use_corpus_diacritic_restore=use_corpus_diacritic_restore,
     )
     normalized_query = str(prep["query_normalized"])
     query_for_embed = str(prep["query_for_embed"])
