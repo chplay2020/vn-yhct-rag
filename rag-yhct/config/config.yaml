@@ -59,6 +59,10 @@ parent_child:
 
 retrieval:
   mode: hybrid_rrf          # vector | bm25 | hybrid_rrf
+  collection: yhct_chunks_v2_full_emb
+  embed_model: bge-m3
+  qdrant_url: http://localhost:6333
+  ollama_url: http://localhost:11434
   topk_vector: 40
   topk_bm25: 40
   topk_final: 40

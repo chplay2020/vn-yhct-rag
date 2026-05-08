@@ -111,6 +111,12 @@ cd rag-yhct
 PYTHONPATH=src uv run uvicorn rag.api.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
+Nếu chưa có model embedding trong Ollama:
+
+```bash
+ollama pull bge-m3
+```
+
 Endpoint chính:
 
 - `POST /api/ask`
